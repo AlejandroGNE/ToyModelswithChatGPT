@@ -1,0 +1,15 @@
+Header: Company Fuel Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average fuel price
+
+Paragraphs:
+Company Fuel Price is the average price paid for fuel by the generators owned by the company, and is defined as:
+Lists:
+

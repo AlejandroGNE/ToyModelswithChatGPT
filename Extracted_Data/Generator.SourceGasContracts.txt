@@ -1,0 +1,11 @@
+Header: Generator Source Gas Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Generator has Source Gas Contracts which deliver gas to the Generator.
+Lists:
+

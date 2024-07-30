@@ -1,0 +1,15 @@
+Header: RSI Lerner Index t-statistic
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	T-statistic applied in low/high LI scenarios.
+
+Paragraphs:
+Lerner Index t-statistic is an adjustment factor in the equation for Lerner Index
+Lists:
+

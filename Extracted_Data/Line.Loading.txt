@@ -1,0 +1,24 @@
+Header: Line Loading
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loading relative to thermal limit.
+
+Paragraphs:
+Line Line loading is the flow on the line relative to the export/import limit. In the period solution data it is defined as follows:
+
+If the line flow is greater than or equal to zero ( Flow >= 0 ): Loading = 100 × Flow / Export Limit.
+
+Otherwise: Loading = 100 × Flow / Import Limit.
+
+In summary, it is the flow with respect to the reference direction. Note: The line loading does not necessarily reflect thermal constraints on the line if there are custom constraints in place.
+
+See also:
+Lists:
+	- Line Loading Back
+

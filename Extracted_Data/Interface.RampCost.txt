@@ -1,0 +1,20 @@
+Header: Interface Ramp Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of ramping
+
+Paragraphs:
+Interface Ramp Cost is the notional 'cost' of Ramp charged at the Ramp Penalty i.e. it is defined as:
+
+where:
+
+See also:
+Lists:
+	- Line Ramp Cost
+

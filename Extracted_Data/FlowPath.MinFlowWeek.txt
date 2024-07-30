@@ -1,0 +1,27 @@
+Header: Flow Path Min Flow Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow on the Flow Path in any week
+
+Paragraphs:
+Flow Path Min Flow Week sets a
+          lower bound on the Flow in each week
+          of the simulation. See Min Flow for more details.
+
+See also:
+Lists:
+	- Flow Path Min
+              Flow Hour
+	- Flow Path Min
+              Flow Day
+	- Flow Path Min
+              Flow Month
+	- Flow Path Min
+              Flow Year
+

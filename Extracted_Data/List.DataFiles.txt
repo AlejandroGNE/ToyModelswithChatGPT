@@ -1,0 +1,11 @@
+Header: List Data Files
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Data File objects in the List
+
+Paragraphs:
+List Data Files is set of Data File objects in the List
+Lists:
+

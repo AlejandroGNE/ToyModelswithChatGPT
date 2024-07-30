@@ -1,0 +1,24 @@
+Header: Facility Production
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production of the Primary Output Commodity by the Facility
+
+Paragraphs:
+Facility Production is the
+          production of the Primary Output Commodity of the Primary
+            Process performed by the facility. It is the total production
+          by all Units Operating .
+
+See also:
+Lists:
+	- Facility Units
+	- Facility Max
+              Operating Level
+	- Facility Consumption
+

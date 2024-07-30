@@ -1,0 +1,14 @@
+Header: Production DP Capacity Factor Threshold
+
+Table Details:
+Units:	%
+Default Value:	20
+Validation Rule:	≥0
+Description:	Minimum capacity factor for generators to be dispatched by the DP
+
+Paragraphs:
+Production DP Capacity Factor Threshold is a control parameter for the Dynamic Programming Unit Commitment algorithm.  It sets the minimum Capacity Factor that generators must have in the MT Schedule in order to be considered for dynamic programming unit commitment.
+
+See the article Unit Commitment .
+Lists:
+

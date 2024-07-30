@@ -1,0 +1,21 @@
+Header: Heat Plant Min Stable Level
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum stable Heat Production level
+
+Paragraphs:
+heat plant Min Stable Level is the minimum stable Heat Production level of each generating unit. This minimum level is enforced when the unit is turned on i.e. after the unit has run up and before it runs down. Specifically the following constraint is enforced:
+
+Note that this constraint is relaxed if Unit Commitment Optimality is set to "Linear Relaxation" since Units Producing Heat in that case is a continuous variable.
+
+See also:
+Lists:
+	- heat plant Start Profile
+	- heat plant Run Up Rate
+

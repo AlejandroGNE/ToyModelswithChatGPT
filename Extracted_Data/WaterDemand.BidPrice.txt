@@ -1,0 +1,15 @@
+Header: Water Demand Bid Price
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of water in band
+
+Paragraphs:
+Water Demand Bid Price is value of water in band.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Transport Max Shipments Month
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum monthly number of voyages
+
+Paragraphs:
+Gas Transport Max Shipments Month is the monthly version of Gas Transport Max Shipments .
+Lists:
+

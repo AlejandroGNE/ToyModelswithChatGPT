@@ -1,0 +1,15 @@
+Header: Heat Storage Min Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Heat Storage Min Units Built in Year is the minimum number of units automatically constructed in any single year of the planning horizon.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Gas Demand Companies Customer Count
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Customer count used to calculate company's share of gas demand
+
+Paragraphs:
+Gas Demand Companies Customer Count is Customer count used to calculate company's share of gas demand.
+
+As in F(Gas Demand.Companies Customer Count)], where F() is the function that takes customer count and converts it to a demand value using the Gas Demand object properties. Note that the Demand Type on the Gas Demand object must be Temperature or HDD for that to work.
+Lists:
+

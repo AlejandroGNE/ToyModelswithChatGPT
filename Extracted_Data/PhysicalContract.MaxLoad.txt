@@ -1,0 +1,15 @@
+Header: Physical Contract Max Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum load cleared on physical contract
+
+Paragraphs:
+Physical Contract Max Load sets a limit on the load dispatched on the physical contract in any interval. This overrides the maximum implied by the Bid Quantity / Bid Price . You must define this property for PLEXOS to include the load from this contract in your model i.e. it is the key property used to switch the contract in/out of your simulation.
+Lists:
+

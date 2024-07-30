@@ -1,0 +1,17 @@
+Header: Abatement Abatement Net Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of [Total Cost] and [Abatement Value]
+
+Paragraphs:
+Abatement Abatement Net Cost is defined as:
+
+This represents the net cost in terms of the objective function of the abatement technology given the shadow price of emissions.
+Lists:
+

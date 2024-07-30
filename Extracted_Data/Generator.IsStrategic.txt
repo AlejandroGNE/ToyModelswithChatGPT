@@ -1,0 +1,15 @@
+Header: Generator Is Strategic
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the generator's capacity acts strategically
+
+Paragraphs:
+Generator Is Strategic indicates if the generator's capacity is counted as strategic capacity for the owning Companies .
+Lists:
+

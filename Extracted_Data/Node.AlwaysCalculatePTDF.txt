@@ -1,0 +1,15 @@
+Header: Node Always Calculate PTDF
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the PTDFs associated with the node and transmission constraints will be calculated
+
+Paragraphs:
+Node Always Calculate PTDF is a flag indicates if the PTDFs associated with the node and transmission constraints will be calculated. By default, PTDFs would only be calcualed for nodes with either generators or loads for the benifit of performance. This flag would allow users to enforce PTDF calculation for nodes with no generators or nodes.
+Lists:
+

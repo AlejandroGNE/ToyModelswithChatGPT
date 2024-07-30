@@ -1,0 +1,107 @@
+Header: Facility Maintenance Rate
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to maintenance
+Maintenance Rate	7	%	1
+Min Time to Repair	3	hrs	1
+Mean Time to Repair	36	hrs	1
+Max Time to Repair	100	hrs	1
+Maintenance Frequency	1	-	2
+Mean Time to Repair	300	hrs	2
+Property	Value	Data File	Units	Band	Date From	Date To	Timeslice	Scenario
+Units	1		-	1				
+Max Capacity	500		-	1				
+Units Out	1		-	1	2021-06-01 00:00:00	2021-06-29 00:00:00		
+Maintenance Rate	8		%	1				MB1
+Maintenance Rate	8		%	2				MB2
+Forced Outage Rate	3		%	1				MB2
+Forced Outage Rate	3		%	2				MB1
+
+Paragraphs:
+The simulator automatically distributes maintenance events
+              throughout the simulation horizon during the PASA simulation phase. Maintenance Rate is the fraction of time
+              annually that the units are expected to be out-of-service (OOS)
+              due to scheduled maintenance events.
+
+Here the Maintenance Rate = 7%, which implies that on average
+              units will be out of service (OOS) 0.07 x 8760 = 613 hours per
+              annum. The repair time distribution is triangular thus the
+              duration of each outage will vary but on average the unit will be
+              out of service 7% each year.
+
+Note that:
+
+Different types of maintenance can be modeled on a Facility by
+              separating the outage types using different band numbers as in the
+              example above. In band two there is a 'major survey' of 300 hours
+              duration that must be performed once per year: set by the Maintenance
+                Frequency . In general however, it's recommended to set the Maintenance Frequency in band 1, this way we do the major survey first, which could
+              avoid a situation that after maintenance events scheduled by Maintenance Rate , the
+              remaining time space becomes fractional that may not be enough to
+              allocate a major maintenance.
+
+Note that defining Units Out and Maintenance Rate in the same band or different two bands will
+              result in different maintenance requirements in PASA formulation. Here is an example:
+
+
+
+With Units Out and Maintenance Rate defined in
+              the same band ( i.e. Scenario "MB1 "),
+              the total required maintenance is calculated as:
+
+Maintenance Rate x Capacity x Total
+              Hours = 0.08 *500 *8760 = 350400
+
+This includes discrete maintenance
+              (defined by Units Out ) = 500
+              * 696 = 348000 and distributed
+              Maintenance (the remaining 350400 - 348000) =2400 .
+
+When Units Out and Maintenance Rate are defined
+              in different bands ( i.e. Scenario "MB2" ),
+              the total required maintenance is calculated as:
+
+Maintenance Rate x Capacity x Total
+              Hours + Total Out Capacity = 350400 + 348000 MWh = 698400
+
+This includes discrete maintenance
+              348000 and distributed
+              Maintenance 350400 .
+
+Note:
+
+As an output, Maintenance Rate is the percentage of time the unit
+              is out-of-service on maintenance either as a result of defining
+              Maintenance Rate or Units Out .
+
+See also:
+Lists:
+	- The total discrete maintenance (as defined by Units
+                  Out ) is summed up and subtracted from the distributed
+                maintenance requirement (defined by Maintenance Rate).
+	- Maintenance events are distributed according to a regional Maintenance Factor set by PASA .
+	- The outage duration function used is set by the properties
+                described in the article Planned
+                  and Random Outages .
+	- If Mean Time to
+                  Repair is not defined in multi-band case, it will take the
+                value from previous band.
+	- The PASA phase runs across the
+                entire simulation horizon in annual steps. If the horizon is
+                less than one year there will be some distortion in the
+                placement of distributed maintenance events, since they will not
+                be distributed with reference to the entire year.
+	- The automatic scheduling of distributed maintenance can be
+                switched on/off using the Outage
+                  Scope of the Stochastic objects associated with the Model being run. Discrete maintenance events (defined by Units
+                  Out ) can only be disabled by either removing the Units
+                  Out properties or tagging them with a Scenario and omitting that scenario from the Model being run.
+	- Facility Forced
+              Outage Rate
+

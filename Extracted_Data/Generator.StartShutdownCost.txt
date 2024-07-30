@@ -1,0 +1,54 @@
+Header: Generator Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unit starts and shutdowns
+
+Paragraphs:
+Generator Start & Shutdown
+          Cost is the cost incurred for starting and shutting down units
+
+For chronological simulation phases (see LT Plan Chronology, MT
+          Schedule Chronology and ST
+            Schedule ) this is:
+
+Start & Shutdown Cost = Start
+            Cost × Units Started + Shutdown Cost × Units
+            Shutdown
+
+When using multiple cooling states (hot, warm, cold for example), the
+          reported start cost is based on the active cooling state. The active
+          state can be inferred from the Hours
+            Down output property.
+
+The Start Cost referred to here includes:
+
+The cost of emissions due to fuel
+          used at start-up is not included here. Those costs are rolled in to
+          the reported Emissions Cost .
+
+For LT Plan and MT
+            Schedule with Chronology = "Partial" the property is defined as:
+
+Start & Shutdown Cost = Start Cost
+          Mark-up × Generation
+
+where the "Start Cost Mark-up" is defined by the setting LT
+            Plan Start
+            Cost Amortization Period , or MT
+            Schedule Start
+            Cost Amortization Period .
+
+See also:
+Lists:
+	- The Start Cost ; and
+	- The cost of Start Fuels as defined by the Offtake
+              at Start .
+	- Generator Start
+              & Shutdown Penalty Cost
+

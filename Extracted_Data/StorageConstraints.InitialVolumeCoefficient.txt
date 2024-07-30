@@ -1,0 +1,22 @@
+Header: Storage Constraints Initial Volume Coefficient
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of storage initial volume.
+
+Paragraphs:
+Storage Constraints Initial Volume Coefficient is the left-hand side coefficient on the
+          storage Initial Volume .
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Storage Constraints End Volume Coefficient
+

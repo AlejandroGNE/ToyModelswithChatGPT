@@ -1,0 +1,54 @@
+Header: PASA Write Outage Text Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If outage patterns should be written to text files
+Crocodile Creek 1	2010	1	1	1	0
+Crocodile Creek 1	2010	4	16	5	1
+Crocodile Creek 1	2010	4	17	4	0
+Crocodile Creek 1	2010	7	3	12	1
+Crocodile Creek 1	2010	7	4	11	0
+Crocodile Creek 1	2010	1	1	1	220
+Crocodile Creek 1	2010	5	6	4	180
+Crocodile Creek 1	2010	5	6	9	220
+Crocodile Creek 1	2010	10	1	9	180
+Crocodile Creek 1	2010	10	1	13	220
+Crocodile Creek 1	2010	1	1	1	0
+Crocodile Creek 1	2010	5	6	4	180
+Crocodile Creek 1	2010	5	6	9	0
+Crocodile Creek 1	2010	10	1	9	180
+Crocodile Creek 1	2010	10	1	13	0
+Crocodile Creek 1	Units	1	-	1		
+Crocodile Creek 1	Max Capacity	220	MW	1		
+Crocodile Creek 1	Maintenance Rate	5	%	1		Automatic Outages
+Crocodile Creek 1	Maintenance Rate	3	%	2		Automatic Outages
+Crocodile Creek 1	Mean Time to Repair	24	hrs	1		Automatic Outages
+Crocodile Creek 1	Mean Time to Repair	5	hrs	2		Automatic Outages
+Crocodile Creek 1	Outage Rating	180	MW	2		Automatic Outages
+Crocodile Creek 1	Units Out	0	-	1	Model Automatic Outages Generator Units Out (sans partial) Pattern.txt	Hardwired Outages sans partial
+Crocodile Creek 1	Rating	0	-	1	Model Automatic Outages Generator Rating Pattern.txt	Hardwired Outages sans partial
+Crocodile Creek 1	Units Out	0	-	1	Model Automatic Outages Generator Units Out Pattern.txt	Hardwired Outages
+Crocodile Creek 1	Outage Rating	0	-	1	Model Automatic Outages Generator Outage Rating Pattern.txt	Hardwired Outages
+
+Paragraphs:
+This option causes the PASA phase to write outages for Generator and Line objects to text files, in a format that can be read back into subsequent simulations. The files produced are named after the Model that produced them. For example if the Model is called "Base" the files are:
+
+And similarly for lines.
+
+The "Units Out" file lists the 'complete' outages of the generators i.e. where the unit is entirely out-of-service, whereas the "Rating" file lists the generator rating during any partial outage (which only applies when outages are defined using Outage Rating ).
+
+Example "Units Out" and "Units Out (sans partial)" file
+
+Example "Rating" file
+
+Example "Outage Rating" file
+
+These text files can be directly referenced by the Units Out and Rating / Outage Rating properties so that this pattern of outages is repeated.
+
+Example:
+
+Here we define three Scenarios . "Automatic Outages" defines the data necessary for PASA to generate automatic maintenance outages for the Generator . In this example, two bands of outages are defined so that one band controls complete unit outages, and the second partial outages (through the Outage Rating property). Assuming we then ran a Model called "Automatic Outages" with the Write Outage Text Files option enabled the resulting text files could be referenced by a second Model using the "Hardwired Outages" Scenario or the "Hardwired Outages sans partial" Scenario .  The "Hardwired" Scenario's define two different approaches to feeding the "Automatic Outages" into another model.  Using the "Rating" and "Units Out (sans partial)" files, or "Hardwired Outages sans partial" Scenario , is more compact but when fed back in the partial maintenance events are not picked up.
+Lists:
+

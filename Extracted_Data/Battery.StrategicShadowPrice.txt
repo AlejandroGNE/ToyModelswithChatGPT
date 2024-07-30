@@ -1,0 +1,15 @@
+Header: Battery Strategic Shadow Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price on the Company [Strategic] constraint applied to this Battery
+
+Paragraphs:
+Battery Strategic Shadow Price is Shadow price on the Company [Strategic] constraint applied to this Battery.
+Lists:
+

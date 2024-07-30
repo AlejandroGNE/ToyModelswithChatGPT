@@ -1,0 +1,15 @@
+Header: Storage Objectives Hours Full Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of hours the storage is full
+
+Paragraphs:
+Storage Objectives Hours Full Coefficient is Coefficient of the number of hours the storage is full.
+Lists:
+

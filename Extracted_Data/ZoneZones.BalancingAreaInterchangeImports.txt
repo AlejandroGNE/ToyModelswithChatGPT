@@ -1,0 +1,15 @@
+Header: Zone Zones Balancing Area Interchange Imports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial imports to parent zone from child zone.
+
+Paragraphs:
+Zone Zones Balancing Area Interchange Imports is the total financial imports to the parent zone from the child zone.
+Lists:
+

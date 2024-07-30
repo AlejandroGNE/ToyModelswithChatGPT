@@ -1,0 +1,12 @@
+Header: Diagnostic Step Summary
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print summary for each step of a multi-step run.
+
+Paragraphs:
+Diagnostic Step Summary toggles on/off printing a summary for each step of a multi-step run.
+Lists:
+

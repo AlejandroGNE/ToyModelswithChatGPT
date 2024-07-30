@@ -1,0 +1,15 @@
+Header: Flow Network Sales
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sales to Markets
+
+Paragraphs:
+Flow Network Sales is Sales to Markets.
+Lists:
+

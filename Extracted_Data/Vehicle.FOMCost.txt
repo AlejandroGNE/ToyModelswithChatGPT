@@ -1,0 +1,18 @@
+Header: Vehicle FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Vehicle FO&M Cost is the total
+          fixed operations and maintenance cost for the operating vehicle ' Units' and is defined as:
+
+FO&M Cost = Units x FO&M Charge x time
+Lists:
+

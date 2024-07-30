@@ -1,0 +1,19 @@
+Header: Power2X Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Energy bid price
+
+Paragraphs:
+Power2X Bid Price sets a premium or
+          'spread' required on the Price Paid by the Power2X facility. Bid Price can be used alone or as a
+          multi-band input with Bid Quantity .
+
+
+Lists:
+

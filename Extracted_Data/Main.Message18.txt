@@ -1,0 +1,11 @@
+Header: Message 18
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> cannot include more than one Storage object.
+
+Paragraphs:
+Message 18 is deprecated.
+Lists:
+

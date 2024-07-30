@@ -1,0 +1,11 @@
+Header: Physical Contract Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Physical Contract
+
+Paragraphs:
+Physical Contract Objectives is set of Objectives on the Physical Contract
+Lists:
+

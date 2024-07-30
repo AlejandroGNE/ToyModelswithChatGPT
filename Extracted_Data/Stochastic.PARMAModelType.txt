@@ -1,0 +1,27 @@
+Header: Stochastic PARMA Model Type
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	In (-1,0,1)
+Description:	PARMA Model Type (-1 = None, 0 = SARIMA model, 1 = PARMA model)
+
+Paragraphs:
+This option controls the use of PARMA during the constructions of
+          samples for the scenario tree. The option can take the following
+          values:
+
+Seasonality in a time series is a regular pattern of changes that repeats over multiple time periods.
+            For example, in monthly river flow data there is seasonality where in summer months the flow tends to
+            be high and in winter months the flow is relatively low. While both SARIMA and PARMA models are
+            capable of modelling a wide range of data with seasonal or periodic characteristics, evidence shows that 
+            PARMA is more suitable than SARIMA in modeling series such as natural inflow. Users are recommended to conduct time 
+            series analysis for the model selection before applying PARMA sampling to the specific property.
+
+See also:
+Lists:
+	- Stochastic Brazil
+              Scenario Tree
+	- Stochastic Historical
+              Full Branches
+

@@ -1,0 +1,14 @@
+Header: Competition Non Price Setting Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If non-price setting plant should be fixed prior to the final price calculation
+
+Paragraphs:
+Competition Non Price Setting determines if non-price setting plants should be excluded from the 
+          final price pricing calculation. If the setting is turned on, non-price setting plants are fixed to their optimal solution 
+          and a final pricing optimization is solved.
+Lists:
+

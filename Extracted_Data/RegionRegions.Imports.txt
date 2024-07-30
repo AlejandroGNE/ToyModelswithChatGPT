@@ -1,0 +1,19 @@
+Header: Region Regions Imports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Imports from region
+
+Paragraphs:
+Region Regions Imports is the total imports made from the 'parent' Region to the 'child' Region.
+
+See also:
+Lists:
+	- Region Regions Exports
+	- Region Regions Net Interchange
+

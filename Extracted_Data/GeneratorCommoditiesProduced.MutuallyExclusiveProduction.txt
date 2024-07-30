@@ -1,0 +1,21 @@
+Header: Generator Commodities Produced Mutually Exclusive Production
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the energy used for producing commodities and serving load are mutually exclusive
+
+Paragraphs:
+Generator Commodities Produced Mutually Exclusive Production can be set so that the amount of the Commodity produced is mutually exclusive with the Generation . Currently, this feature is available only when Generator Commodities Produced Generation Coefficient is defined.
+
+Example:
+
+See also:
+Lists:
+	- Generator Commodities Produced Pump Load Coefficient
+	- Generator Commodities Produced Fuel Offtake Coefficient
+

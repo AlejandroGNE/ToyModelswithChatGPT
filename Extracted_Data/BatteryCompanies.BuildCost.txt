@@ -1,0 +1,15 @@
+Header: Battery Companies Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of building a BESS unit
+
+Paragraphs:
+Battery Companies Build Cost is the cost of building a BESS unit.
+Lists:
+

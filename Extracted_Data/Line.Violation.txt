@@ -1,0 +1,23 @@
+Header: Line Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of flow limit
+
+Paragraphs:
+Line Violation is the amount of violation of the line thermal limits as defined by Max Flow / Max Rating (reference direction) and Min Flow / Min Rating (counter reference direction).
+
+As a summary property, Violation is the today violation ( GWh ) in the summary period (day/week/month/year) for flows in the reference direction.
+
+Violations can only occur if the property Limit Penalty is defined.
+
+See also:
+Lists:
+	- Violation Back
+	- Violation Cost
+

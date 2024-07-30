@@ -1,0 +1,23 @@
+Header: Water Storage WACC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10
+Validation Rule:	≥0
+Key Property:	No
+Description:	Weighted average cost of capital
+
+Paragraphs:
+Water Storage WACC is the weighted average cost of capital.
+
+The weighted average cost of capital (WACC) is the rate that a company is expected to pay to finance its assets. WACC is the minimum return that a company must earn on existing asset base to satisfy its creditors, owners, and other providers of capital. Companies raise money from a number of sources: common equity, preferred equity, straight debt, convertible debt, exchangeable debt, warrants, options, pension liabilities, executive stock options, governmental subsidies, and so on. Different securities are expected to generate different returns. WACC is calculated taking into account the relative weights of each component of the capital structure.
+
+WACC is only applied to LT Plan where it is used in combination with Economic Life to compute an annuity equivalent to the defined Build Cost . If no WACC rate is set, the discount rate is used.
+
+See also:
+Lists:
+	- Water Storage Build Cost
+	- Water Storage Economic Life
+

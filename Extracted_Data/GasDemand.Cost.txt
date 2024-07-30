@@ -1,0 +1,19 @@
+Header: Gas Demand Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of gas demand
+
+Paragraphs:
+Gas Demand Cost is the total paid for gas consumption and is calculated as:
+
+See also:
+Lists:
+	- Gas Demand Shortage Cost
+	- Gas Demand Excess Cost
+

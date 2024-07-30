@@ -1,0 +1,12 @@
+Header: Diagnostic Annuities
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for annuity calculations
+
+Paragraphs:
+This switch produces a XML-format diagnostic with details of the annuity calculations in LT Plan .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Line Wheeling Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Wheeling charge for reference direction flows
+
+Paragraphs:
+Line Wheeling Charge is a fee charged per megawatt of flow in the reference direction.
+Lists:
+

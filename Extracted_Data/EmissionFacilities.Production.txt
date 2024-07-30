@@ -1,0 +1,15 @@
+Header: Emission Facilities Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production of the emission by the Facility
+
+Paragraphs:
+Emission Facilities Production is the production of the emission by the Facility.
+Lists:
+

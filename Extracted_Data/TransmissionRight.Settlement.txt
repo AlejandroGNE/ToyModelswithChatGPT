@@ -1,0 +1,19 @@
+Header: Transmission Right Settlement
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Settlement
+
+Paragraphs:
+The Settlement formula depends on the type of Transmission Right being modelled.
+
+For financial transmission rights (FTR) the settlement is:
+
+For settlement residue auction (SRA) the settlement is:
+Lists:
+

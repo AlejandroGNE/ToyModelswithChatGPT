@@ -1,0 +1,11 @@
+Header: List Gas Demands
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Demand objects in the List
+
+Paragraphs:
+List Gas Demands is set of Main Gas Demand objects in the List.
+Lists:
+

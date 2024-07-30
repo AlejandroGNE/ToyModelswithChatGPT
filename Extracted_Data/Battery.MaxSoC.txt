@@ -1,0 +1,21 @@
+Header: Battery Max SoC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Allowable maximum State of Charge
+Battery1	Capacity	25	GWh
+Battery1	Max SoC	90	%
+
+Paragraphs:
+Battery Max SoC is the allowable maximum State of Charge.  This is expressed as a percentage of the commissioned Capacity (i.e. before any Capacity Degradation ).
+
+Example:
+
+The maximum state of charge that this BESS could obtain is 90% of 25 GWh , which is 22.5 GWh .
+Lists:
+

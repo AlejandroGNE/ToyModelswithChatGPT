@@ -1,0 +1,20 @@
+Header: Generator Min Load Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Min Load] constraint.
+
+Paragraphs:
+Generator Min Load Violation is the violation of the Min Load constraint.
+
+See also:
+Lists:
+	- Generator Min Load Generation
+	- Generator Hours of Min Load Violation
+	- Generator Min Load Violation Cost
+

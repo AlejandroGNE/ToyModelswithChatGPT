@@ -1,0 +1,18 @@
+Header: Gas Storage Working Volume
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Working storage volume at the end of the period
+
+Paragraphs:
+Gas Storage Working Volume is defined as:
+
+See also:
+Lists:
+	- Gas Storage Working Utilization
+

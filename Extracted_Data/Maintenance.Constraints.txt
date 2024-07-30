@@ -1,0 +1,11 @@
+Header: Maintenance Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Maintenance
+
+Paragraphs:
+Maintenance Constraints is the set of maintenance objects involved in the Maintenance.
+Lists:
+

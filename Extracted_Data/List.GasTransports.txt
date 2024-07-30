@@ -1,0 +1,11 @@
+Header: List Gas Transports
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Transport objects in the List
+
+Paragraphs:
+List Gas Transports is set of Gas Transport objects in the List
+Lists:
+

@@ -1,0 +1,14 @@
+Header: Using PLEXOS Copy to Clipboard and Paste Features
+
+Table Details:
+
+Paragraphs:
+This tutorial provides the basic steps required to copy and paste data from one database into another PLEXOS database. The Copy to Clipboard / Paste options can be accessed by right-clicking any object. A screen shot of the "Copy to clipboard" option this can be seen below:
+
+You can use the "Copy to clipboard" menu option to copy any object to the clipboard. In the example, shown to the left, the Generator "G1 03" is being copied to the clipboard. Now that there is an object in memory, this can be pasted into the same database or into a completely different PLEXOS database. An example of the paste option can be seen below.
+
+If you are pasting an object into the database that already exists, then PLEXOS will warn the user and will display a dialog box with a few options available to the user. These options are "Cancel", "Overwrite" and "Rename".
+
+"Cancel" will stop the import process and no data will be entered into the PLEXOS database. If the "Overwrite" option is selected then all data for that object is removed and is replaced with the data stored in the clipboard. Alternatively, the user can choose to rename the object that is being pasted in and continue the import process. During the copy and paste procedure PLEXOS displays a progress status form, which can also be used to cancel the "Copy to Clipboard" or the "Paste" procedures.
+Lists:
+

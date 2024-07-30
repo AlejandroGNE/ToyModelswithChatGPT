@@ -1,0 +1,17 @@
+Header: Physical Contract Load Obligation
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load obligation for capacity reserves.
+
+Paragraphs:
+Physical Contract Load Obligation is the total load obligation of the contract and can either be defined directly as input , or otherwise it is calculated as:
+
+In LT Plan this will include any load contracted as part of the LT Plan capacity expansion solution.
+Lists:
+

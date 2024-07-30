@@ -1,0 +1,13 @@
+Header: Message 3133
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	OpenPLEXOS <value>.
+
+Paragraphs:
+Message 3133 is used when the model cannot find custom's assembly ( OpenPLEXOS assembly), it may occur by setting the OpenPLEXOS assembly with wrong name or that certain OpenPLEXOS assembly does not exist.
+
+Consult the solver documentation or contact support if you are unsure of the seriousness of messages you are receiving.
+Lists:
+

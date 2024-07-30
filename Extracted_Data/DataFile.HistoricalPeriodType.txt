@@ -1,0 +1,14 @@
+Header: Data File Historical Period Type
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (2,3)
+Description:	Take samples at each of these period types
+
+Paragraphs:
+Data File Historical Period Type is used in Historical Sampling to indicate the period type for samples.
+
+The available values are:
+Lists:
+

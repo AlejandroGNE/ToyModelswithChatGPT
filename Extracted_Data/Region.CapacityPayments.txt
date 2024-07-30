@@ -1,0 +1,19 @@
+Header: Region Capacity Payments
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Payments made for capacity
+
+Paragraphs:
+Region Capacity Payments is the total payments made for capacity and is defined as:
+
+See also:
+Lists:
+	- Region Capacity Price
+	- Region LRMC
+

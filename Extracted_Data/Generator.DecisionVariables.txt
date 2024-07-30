@@ -1,0 +1,11 @@
+Header: Generator Decision Variables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators whose equations include the decision variable
+
+Paragraphs:
+Decision Variable DecisionVariables is the set of DecisionVariable objects whose equations include the decision variable.
+Lists:
+

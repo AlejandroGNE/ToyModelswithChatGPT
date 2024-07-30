@@ -1,0 +1,20 @@
+Header: Gas Storage Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas storage is on forced outage of Withdrawal/Injection
+
+Paragraphs:
+Gas Storage Forced Outage Hours is the number of hours the gas storage is on forced outage of Withdrawal/Injection.
+
+See also:
+Lists:
+	- Gas Storage Maintenance Hours
+	- Gas Storage Units Out
+	- Gas Storage Service Factor
+

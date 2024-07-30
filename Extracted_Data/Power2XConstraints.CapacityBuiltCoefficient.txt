@@ -1,0 +1,16 @@
+Header: Power2X Constraints Capacity Built Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity built
+
+Paragraphs:
+Refer to Facility Constraints Capacity Built
+            Coefficient for details.
+Lists:
+

@@ -1,0 +1,50 @@
+Header: Generator Generation Credit
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Credit received for generation
+
+Paragraphs:
+Generator Generation Credit is a banded input that contains the production credit for generation from a given build in a given year. Each band represents a build year. The build year represented by band 1 is defined by Generation Credit Start Year which defaults to the run start year.
+
+Example 1:
+
+This is a simple case where the credit is different for each build year but does not change over time.
+
+
+
+Generation for builds in 2022 will receive the credit from band 1 for every year of the run.
+
+Generation for builds in 2023 will receive the credit from band 2 for every year of the run.
+
+…etc
+
+
+
+Example 2:
+
+In this example, the credit applied to generation from each build year changes over time.
+
+
+
+Since Generation Credit Start Year is not defined it will default to the run start year which in this case is 2019.
+
+Generation for builds in 2022 will receive the credit from band 1. Generation in the years 2019-2022 will received a credit of 2.019 while generation from 2022-2025 will received a credit of 2.022 while any generation after 2025 will received a credit of 2.025.
+
+Generation for builds in 2020 will receive the credit from band 2. Generation in the years 2020-2022 will received a credit of 1.919 while generation from 2022-2025 will received a credit of 1.922 while any generation after 2025 will received a credit of 1.925.
+
+
+
+…etc
+
+Notes:
+Lists:
+	- This feature is applicable to phases LT, MT, and ST.
+	- For phases MT and ST, the Units in the first period of step 1 is assumed to be new builds.  Change increase in units is assumed to be a new build.
+	- Discounting is applied to generation credit so it should be entered in start year currency.
+

@@ -1,0 +1,13 @@
+Header: Vehicle Commodities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Commodities consumed by the Vehicle
+
+Paragraphs:
+Vehicle Commodities is the set of
+          Commodities consumed by the Vehicle. The relative consumption of this
+          energy source is defined with the Vehicle Commodities Ratio property.
+Lists:
+

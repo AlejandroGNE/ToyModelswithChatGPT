@@ -1,0 +1,18 @@
+Header: Variable Constraints Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the variable value in the constraint
+
+Paragraphs:
+Variable Constraints Value Coefficient is the coefficient of the Variable Value in the constraint.
+
+See also:
+Lists:
+	- Variable Constraints Expected Value Coefficient
+

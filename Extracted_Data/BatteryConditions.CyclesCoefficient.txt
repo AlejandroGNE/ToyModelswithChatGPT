@@ -1,0 +1,15 @@
+Header: Battery Conditions Cycles Coefficient
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of cycles
+
+Paragraphs:
+Battery Conditions Cycles Coefficient is the coefficient of cycles.
+Lists:
+

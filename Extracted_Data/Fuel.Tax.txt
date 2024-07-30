@@ -1,0 +1,24 @@
+Header: Fuel Tax
+
+Table Details:
+Units:	$/~
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fuel tax
+GAS	Price	3	$/GJ	1
+GAS	Tax	0.75	$/GJ	1
+GAS	Tax	0.99	$/GJ	2
+
+Paragraphs:
+Fuel Tax property adds to the Total Price of the fuel. This property is provided so that components of a fuels price can be entered in bands. For example one component of the price might represent emissions charges.
+
+Example:
+
+Here there are two tax components bringing the total price of the fuel to 3 + 0.75 + 0.99 = 4.74.
+
+As output this property is the average tax paid for the fuel used and is defined as:
+Lists:
+

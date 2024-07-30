@@ -1,0 +1,15 @@
+Header: Gas Node Net Interchange
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net exports on gas pipelines
+
+Paragraphs:
+Gas Node Net Interchange is Net exports on gas pipelines.
+Lists:
+

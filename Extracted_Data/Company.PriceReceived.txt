@@ -1,0 +1,15 @@
+Header: Company Price Received
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Weighted average price received for generation
+
+Paragraphs:
+Company Price Received is the generation-weighted average price the company receives for generation, and is defined as:
+Lists:
+

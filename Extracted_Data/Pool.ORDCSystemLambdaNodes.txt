@@ -1,0 +1,11 @@
+Header: Pool ORDC System Lambda Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	The set of Nodes that their energy components dictate the system lambda for the ORDC algorithm
+
+Paragraphs:
+Pool ORDC System Lambda Nodes is the set of Nodes used in the calculation of the system lambda in the ORDC algorithm. If there are no Nodes in this membership, then the ORDC algorithm defaults to using all Nodes in the model.
+Lists:
+

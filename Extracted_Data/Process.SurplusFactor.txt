@@ -1,0 +1,15 @@
+Header: Process Surplus Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of production capacity not used
+
+Paragraphs:
+Process Surplus Factor is the Surplus expressed as a percentage.
+Lists:
+

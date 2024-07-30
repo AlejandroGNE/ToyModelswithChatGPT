@@ -1,0 +1,24 @@
+Header: Commodity Delivery Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of deliveries of the Commodity to inventory
+
+Paragraphs:
+Commodity Delivery Charge is a
+          per-unit charge applied to any Delivery to the inventory.
+
+See also:
+Lists:
+	- Commodity Injection
+              Charge
+	- Commodity Withdrawal
+              Charge
+	- Commodity Inventory
+              Charge
+

@@ -1,0 +1,22 @@
+Header: Diagnostic Skip Zero Values
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Generic writer will print only non-zero valued primal and dual variables in SOL files
+
+Paragraphs:
+This option is used with the Generic Writer and specifies whether the solutions "zero" primal or dual values should be written or not.
+
+See also:
+Lists:
+	- Use Generic Writer
+	- Sort Row Column Names
+	- Standardize Names
+	- Zero Tolerance LP
+	- Zero Tolerance SOL
+	- Decimal Places LP
+	- Decimal Places SOL
+	- Strip Model Name
+

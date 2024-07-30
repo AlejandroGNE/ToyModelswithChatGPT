@@ -1,0 +1,11 @@
+Header: List Zones
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Zone objects in the List
+
+Paragraphs:
+List Zones is set of Main Zone objects in the List.
+Lists:
+

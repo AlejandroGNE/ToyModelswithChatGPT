@@ -1,0 +1,15 @@
+Header: Generator Average Heat Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Weighted average heat value of the gas blend served at the Gas Node attached to the generator
+
+Paragraphs:
+Generator Average Heat Value is Weighted average heat value of the gas blend served at the Gas Node attached to the generator.
+Lists:
+

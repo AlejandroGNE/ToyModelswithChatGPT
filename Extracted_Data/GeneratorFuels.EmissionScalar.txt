@@ -1,0 +1,71 @@
+Header: Generator Fuels Emission Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar on emissions from this generator and fuel combination
+Generator	Fuel / Emission	NOx	SO2
+Gen1	Gas	0.6	0.1
+Gen1	Diesel	3.0	1.0
+Gen2	Gas	0.8	0.1
+Generator	Fuel	Property	Value
+Gen1	Gas	Emissions Scalar	0.6
+Gen1	Diesel	Emissions Scalar	3.0
+Gen2	Gas	Emissions Scalar	0.8
+Generator	Emission	Property	Value
+Gen1	NOx	Production Rate	1.0
+Gen2	NOx	Production Rate	1.0
+Emission	Fuel	Property	Value
+SO2	Gas	Production Rate	0.1
+SO2	Diesel	Production Rate	1.0
+
+Paragraphs:
+This property is used to scale the emissions from a generator that
+          are defined using Emission Generators Production Rate .
+
+Emissions on unit starts are scaled by the property Generator Start
+            Fuels Emission
+            Scalar .
+
+Example
+
+Two types of fuel are used in the generator, Gas and Diesel,
+          producing two types of emissions, NOx
+          and SO2.
+
+
+
+The following table reflects the emission production rates by fuel
+          (in lbs per MWh)
+
+If Emission Generators Production
+            Rate is used to determine emissions, then emissions are computed
+          at the same rate for each fuel (which clearly is not the case). By
+          attributing the emissions to the fuel being burned in the generator
+          (using Emission Fuels Production
+            Rate ), the proper emissions are computed for SO2,
+          but not for NOx. For emissions such as
+          NOx that are produced both as a function
+          of the fuel used and the generator, the combination of properties
+          Emission.Generators production rate and Generators.Fuels Emissions Scalar is
+          used.
+
+NOx is computed as the production
+          rate for on generation multiplied by the emissions scalar for Gas of
+          0.6 (1*.6=.6) on Gen1 and 0.8 (1*.8=.8) on Gen2, and for Diesel of 3
+          (1*3=3) on Gen1. SO2 is computed based
+          on units of fuel burned using the emission.fuel productions rates as
+          input.
+
+See also:
+Lists:
+	- Generator Generation
+              Sent Out
+	- Generator Initial
+              Generation
+	- Setting Emission Production Using Load Points and Bands
+

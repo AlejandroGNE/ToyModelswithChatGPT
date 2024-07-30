@@ -1,0 +1,15 @@
+Header: Zone Balancing Area Interchange Imports Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of financial imports to the Zone.
+
+Paragraphs:
+Zone Balancing Area Interchange Imports Cost is the total cost of financial imports to the Zone from other zones.
+Lists:
+

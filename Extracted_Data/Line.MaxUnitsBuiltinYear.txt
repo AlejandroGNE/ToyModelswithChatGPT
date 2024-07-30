@@ -1,0 +1,30 @@
+Header: Line Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Maximum number of units automatically constructed in any single year of the planning horizon
+X-Y	Units	0	-		
+X-Y	Max Capacity	500	MW		
+X-Y	Max Units Built	1	-	1/01/2012	
+X-Y	Max Units Built in Year	0	-	1/01/2018	31/12/2020
+X-Y	Build Cost	2000	$000		
+X-Y	Economic Life	35	years		
+X-Y	WACC	8	%		
+
+Paragraphs:
+Line Max Units Built in Year flag if LT Plan is allowed to build the Line in a given year of the planning horizon. This property should be used in combination with Max Units Built and offers a finer control over the timing of new builds.
+
+Example
+
+In this example the Line can be built any time from 2012 onwards, but not in the years 2018-20.
+
+See also: Line Min Units Built in Year .
+
+Note: The Line Units property must be set to zero, as shown in the example above, if using this property.
+Lists:
+

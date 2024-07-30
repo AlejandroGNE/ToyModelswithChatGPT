@@ -1,0 +1,15 @@
+Header: Power Station Is Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	Yes
+Description:	Flag if the Power Station is enabled
+
+Paragraphs:
+Power Station Is Enabled is the flag if the Power Station is enabled.
+Lists:
+

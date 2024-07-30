@@ -1,0 +1,11 @@
+Header: Abatement Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Abatement
+
+Paragraphs:
+Abatement Constraints is set of Constraint objects involved in the Abatement .
+Lists:
+

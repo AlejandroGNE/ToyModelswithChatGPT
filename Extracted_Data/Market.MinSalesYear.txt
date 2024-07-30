@@ -1,0 +1,21 @@
+Header: Market Min Sales Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum sales to the market each year
+
+Paragraphs:
+Market Min Sales Year creates a Constraint object that sets a lower bound on the Sales from the Market each year. By default this is a 'hard'
+          constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Year
+	- Market Constraints Sales Coefficient
+

@@ -1,0 +1,15 @@
+Header: Gas Plant Capacity Retired
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas plant capacity Retired
+
+Paragraphs:
+Gas Plant Capacity Retired is Gas plant capacity Retired.
+Lists:
+

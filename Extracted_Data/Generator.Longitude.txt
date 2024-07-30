@@ -1,0 +1,14 @@
+Header: Generator Longitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Longitude
+
+Paragraphs:
+Generator Longitude is the decimal representation of the longitude for the Generator. Longitude is used in combination with Latitude to set coordinates for the Generator when visualizing the power system:
+
+See the User Interface Guide for more details.
+Lists:
+

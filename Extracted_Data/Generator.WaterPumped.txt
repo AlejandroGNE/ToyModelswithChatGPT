@@ -1,0 +1,15 @@
+Header: Generator Water Pumped
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water pumped in pumping mode
+
+Paragraphs:
+Generator Water Pumped is the water pumped in pumping mode.
+Lists:
+

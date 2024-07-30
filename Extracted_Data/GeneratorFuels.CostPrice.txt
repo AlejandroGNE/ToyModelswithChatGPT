@@ -1,0 +1,15 @@
+Header: Generator Fuels Cost Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal cost of energy in band
+
+Paragraphs:
+Generator Fuels Cost Price is the marginal cost of energy in band.
+Lists:
+

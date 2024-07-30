@@ -1,0 +1,15 @@
+Header: Generator Objectives Generation Sent Out Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation measured at the station gate
+
+Paragraphs:
+Generator Objectives Generation Sent Out Coefficient is Coefficient of generation measured at the station gate.
+Lists:
+

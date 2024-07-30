@@ -1,0 +1,18 @@
+Header: Gas Storage Min Volume
+
+Table Details:
+Units:	Input: 1000·~ (Metric), ~ (U.S. Imperial)    Output: TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum volume of gas allowed in storage
+
+Paragraphs:
+Gas Storage Min Volume is minimum volume of gas allowed in storage. This is sometimes referred to as 'base gas' since it is the minimum amount of gas required for the storage to be useful during the injection/withdrawal periods.
+
+See also:
+Lists:
+	- Gas Storage Max Volume
+

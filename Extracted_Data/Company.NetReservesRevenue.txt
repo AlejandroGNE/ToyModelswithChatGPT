@@ -1,0 +1,15 @@
+Header: Company Net Reserves Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net revenue from provision of reserves
+
+Paragraphs:
+Company Net Reserves Revenue is the net revenue from provision of ancillary services, and is defined as:
+Lists:
+

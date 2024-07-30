@@ -1,0 +1,12 @@
+Header: Diagnostic Sample Summary
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print summary for each sample of a multi-sample run.
+
+Paragraphs:
+Diagnostic Sample Summary toggles on/off printing a summary for each sample of a multi-sample run.
+Lists:
+

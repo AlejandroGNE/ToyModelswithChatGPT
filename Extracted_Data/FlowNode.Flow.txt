@@ -1,0 +1,21 @@
+Header: Flow Node Flow
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Commodity flowed
+
+Paragraphs:
+Flow Node Flow is the amount of
+          the Commodity flowing through the
+          Flow Node. It is defined as:
+
+Flow = Flow
+            Forward on Exporting Flow Paths + Flow
+            Back on Importing  Flow Paths + Facility Production (of the Commodity) + Facility Consumption + Commodity Injection + Commodity Withdrawal + Market Purchases + Market Sales
+Lists:
+

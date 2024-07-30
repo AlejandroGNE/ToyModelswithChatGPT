@@ -1,0 +1,15 @@
+Header: Charging Station Replacement Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Charging Stations Replacement Reserve is the provision of replacement reserve.
+Lists:
+

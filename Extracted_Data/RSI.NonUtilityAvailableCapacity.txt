@@ -1,0 +1,17 @@
+Header: RSI Non Utility Available Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non Utility Available Capacity
+
+Paragraphs:
+RSI Non Utility Available Capacity is defined as:
+
+The sum is taken across all non-utilities.
+Lists:
+

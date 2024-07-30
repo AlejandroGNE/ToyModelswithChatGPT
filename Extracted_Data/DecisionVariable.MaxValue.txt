@@ -1,0 +1,18 @@
+Header: Decision Variable Max Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum value of generic decision variable
+
+Paragraphs:
+Decision Variable Max Value is the maximum Value of the generic decision variable across the reported time period.
+
+See also:
+Lists:
+	- Decision Variable Min Value
+

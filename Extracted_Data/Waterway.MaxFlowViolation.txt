@@ -1,0 +1,15 @@
+Header: Waterway Max Flow Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of max flow constraint
+
+Paragraphs:
+Waterway Max Flow Violation is deprecated functionality.
+Lists:
+

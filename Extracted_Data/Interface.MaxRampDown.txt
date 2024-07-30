@@ -1,0 +1,21 @@
+Header: Interface Max Ramp Down
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate
+
+Paragraphs:
+Interface Max Ramp Down is the limit on the amount by which the Flow may decrease each minute. If defined, this constraint is 'hard' meaning that violations are not allowed.
+
+See also:
+Lists:
+	- Interface Max Ramp Up
+	- Interface Ramp
+	- Interface Ramp Penalty
+	- Line Max Ramp Down
+

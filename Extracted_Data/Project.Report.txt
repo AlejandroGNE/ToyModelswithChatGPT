@@ -1,0 +1,13 @@
+Header: Project Report
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	report for the project
+
+Paragraphs:
+The Report settings that apply to the Project .
+
+Note that the Report settings of the Models in the project will be superseded by these settings.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Gas Contract Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs includes reservation cost plus amortized build costs
+
+Paragraphs:
+Gas Contract Fixed Costs is Total fixed costs includes reservation cost plus amortized build costs.
+
+Fixed Cost = Annualized Build Cost + Reservation Cost
+Lists:
+

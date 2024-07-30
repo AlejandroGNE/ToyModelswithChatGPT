@@ -1,0 +1,12 @@
+Header: LT Plan - Turning on LT Plan
+
+Table Details:
+
+Paragraphs:
+To turn on LT Plan, create an LT Plan then add the object to the LT Plan collection of the Model you wish to run. This is illustrated in Figure 1 where a LT Plan object has been created and named " LDCmonth12 " and then added to the Model "Base" by editing the membership in the left-hand side of the Model properties form. This form is accessed by double-clicking the Model and the membership is edited by double-clicking the LT Plan entry in that left-most list.
+
+Figure 1: LT Plan in Model settings
+
+Previous Chapter | Next Chapter
+Lists:
+

@@ -1,0 +1,12 @@
+Header: LT Plan Outage Increment
+
+Table Details:
+Units:	MW
+Default Value:	10
+Validation Rule:	≥1
+Description:	Generator outage bin size in convolution
+
+Paragraphs:
+LT Plan Outage Increment applies to the Effective Load Approach and sets the generator bin size in the convolution. The outage increment values can range from one to any positive number.  The lower the value the more accurate the convolution process is, however this comes at the cost of more system resources.  Internally, if the value is greater than one then the simulator scales the Max Capacity of each of the generation units by this number.  It will reject any units that have a Max Capacity of less than half of the value from the convolution process.
+Lists:
+

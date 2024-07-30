@@ -1,0 +1,24 @@
+Header: Vehicle Hours Discharging
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours in discharging state
+
+Paragraphs:
+Vehicle Hours Discharging is the
+          number of hours in discharging state in the period i.e. when Discharging is non-zero.
+
+
+Lists:
+	- Vehicle Hours
+              In Use
+	- Vehicle Hours
+              Charging
+	- Vehicle Hours
+              Idle
+

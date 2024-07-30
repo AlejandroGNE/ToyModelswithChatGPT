@@ -1,0 +1,11 @@
+Header: Weather Station Gas Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	gas node the weather station connects to
+
+Paragraphs:
+Weather Station Gas Node is the Gas Node the Weather Station belongs to.
+Lists:
+

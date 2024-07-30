@@ -1,0 +1,22 @@
+Header: Licensing: LicenseServer-ConfigTabConnect
+
+Table Details:
+
+Paragraphs:
+The Config tab is used to customize your server process, to suit your needs.
+
+STATUS LOGGING Status logging is used to output all messages from the log window to a log file. Log files are stored in the specified directory, with a file name of PLXLogDDMMYY _HHMM (where DDMMYY_HHMM signifies the date and time the log was started.). A new log file is created each time the license server is started.
+
+LISTENER PORT This area is used to set the listener port. 399 is the default, and should not be changed unless another application is already using this port. To change the port number, enter the port number in the text box and click 'Set'.
+
+There are over 32000 ports available, however numbers below 1025 should be avoided, as most of these are used by system processes. Port 399 is not normally used for system processes.
+
+More Licensing Main Menu
+
+Licensing Main Menu
+Lists:
+	- Licensing Main Menu
+
+
+H2s:
+More

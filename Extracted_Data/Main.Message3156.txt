@@ -1,0 +1,11 @@
+Header: Message 3156
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Scenario Tree: Number of Hanging Branches <value> should be less than the number of historical years <value>.
+
+Paragraphs:
+Message 3156 occurs in the following circumstances:
+Lists:
+

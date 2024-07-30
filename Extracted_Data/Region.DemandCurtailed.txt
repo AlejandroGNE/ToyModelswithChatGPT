@@ -1,0 +1,22 @@
+Header: Region Demand Curtailed
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand-side participation bids cleared
+
+Paragraphs:
+Region Demand Curtailed is the demand-side participation bids cleared and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Region Curtailable Load
+	- Region Cost of Curtailment
+	- Region Unserved Energy
+

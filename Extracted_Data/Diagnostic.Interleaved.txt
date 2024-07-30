@@ -1,0 +1,12 @@
+Header: Diagnostic Interleaved
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for Model Interleaved run mode
+
+Paragraphs:
+Diagnostic Interleaved writes diagnostics when simulations are run in Interleaved mode.
+Lists:
+

@@ -1,0 +1,62 @@
+Header: Managing Clients
+
+Table Details:
+
+Paragraphs:
+Users can manage clients in the client tab on the side panel. All the clients in the system will be listed in the main panel of the client tab. If there are any client groups, they will be listed here as well. Note that users will need to permissions from the Client module in the Connect product in order to modify the Clients.
+
+First, you will need to have a group created by clicking on the folder button at the top of the client tab (#1A). If you already have a group created, then double click the group (#1B). When creating a new client group, you will have to provide a name for the new group and then the group window will be presented.
+
+Once the group window is open, you can then assign clients to the group by clicking on the add button on the top of the group window (highlighted above) and select the clients you would like to assign to the group.
+
+Note: You will need to have the user permission 'Add\Edit\Remove' from the Connect Client module.
+
+You can view the simulation output from all PLEXOS simulations currently occurring on any Connect Client by opening the Client. This window may have multiple tabs open where the first tab will be general status messages from the Client and all remaining tabs will be the output from each run that is running on that Client.
+
+Note: You will need to have the user permission 'View Live Simulation Output' from the Connect Client module.
+
+If you would like to stop a client from performing any simulations, you can right click on any client in the client tab and select 'Pause'. You can then allow the client to continue requesting for jobs by right clicking on the client and select 'Resume'.
+
+Note: You will need to have the user permission 'Add\Edit\Remove' from the Connect Client module.
+
+Introduced in Connect 3.4, you will be able to view a few simple performance metrics for your Connect Clients running version 3.4 or newer. Except for HDD reporting, each metric will be logged on a graph with a 1 second accuracy, and Launch Control will automatically display new data as it becomes available. To view the performance data, follow the steps in section How to View Simulation Output to open the Client window. Then, switch to the "Performance" tab. Please note, the Connect Client will need to be online and both the Connect Client and Connect Server be of version 3.4 or newer for this tab to be shown.
+
+Along the left side of the window will be the ability to filter by individual runs. The "System" option will be selected by default and it will show average usage by all PLEXOS simulations (orange dashed line). Selecting specific runs will change the orange dashed line in each graph to show the performance data for that specific run.
+
+User accounts, which do not have access to a specific client, will not be able to pause, change its settings or remove that client. You can restrict access to a client by right clicking on a client (#1) in the client tab and select permissions from the menu (#2).
+
+After selecting the menu option, a permissions window will open. You can then click on add button on the top panel of the permissions window (highlighted above) and select the user accounts you would like to grant permission to. Please note, you will need to add yourself first if you do not have the user permission 'Add\Remove Permissions' from the Connect Client module to ensure you do not get locked out of making additional changes.
+
+Note: You will need to have the user permission 'Add\Remove Permissions' from the Connect Client module if you do not have access to the Client.
+
+You can determine the priority of each Connect Client, this will affect which clients will be used first to perform any simulation. This means that any client with the priority 'Low' will be scheduled a simulation only after all available clients with priorities higher than 'Low' have already been scheduled for simulations. Please select a client from the client tab (#1), then right click it and select edit from the menu (#2).
+
+After selecting edit from the menu, a client settings window will popup. From this window, you'll be able to adjust the priority of the Connect Client. You'll have the choice of several priority levels that will affect all workers in that client, or you'll be able to choose a 'custom' option. With the 'custom' option, you'll be able to define the priority level of the client as the number of PLEXOS simulations running increases. For example, setting a custom level of: 1 High, 1 Medium and 1 Low will mean that when the client is not running any simulations, the first simulation will be scheduled at high priority. If another run is submitted to Connect while this first simulation is running, then the second simulation will be scheduled at medium priority to that client. We recommend this option when trying to load balance between multiple servers, allowing each server to start 'X' number of simulations each before any additional simulations are scheduled to any specific server.
+
+Note: You will need to have the user permission 'Add\Edit\Remove' from the Connect Client module.
+
+The client timeout settings are meant to stop any PLEXOS simulation from taking more than a specific amount of time. From the client tab, select this settings button to open the Client Settings window (highlighted below). From here, you can enable or disable the client timeout settings as well as set the timeout length and the default action. The timeout length determines how long a run can be executing for before the Connect Server will request the run to be stopped. The timeout has a minimum of 10 minutes and a maximum of 100 days, 23 hours and 59 minutes.
+
+There are 3 possible default actions to select from, these will determine what the Connect Server will do with any runs that have exceeded the timeout.
+
+Note: You will need to have the user permission 'Add\Edit\Remove' from the Connect Client module.
+Lists:
+	- The CPU and Memory usage of the machine
+	- The CPU and Memory usage of each run
+	- The HDD usage of the OS drive (usually 'C:\')
+	- The HDD usage for the PLEXOS_TEMP drive (if the environment variable has been configured)
+	- Stop Run : Stops the run and you will need to manually restart the run.
+	- Restart Run : Automatically restarts the run, the run will maintain any settings already stored.
+	- Finish Run : The run will be cancelled and a solution added saying "[Client Timeout] Run failed to complete in time".
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Assign Connect Clients to a Group?
+3. How Do  I View a Client's Simulation Output?
+4. How Do I Stop a Client from Performing Any Simulations?
+5. How Do I View the Current Performance of a Client?
+6. How Do I Restrict Access to a Client?
+7. How Do I Change a Client's Priority?
+8. How Do I Set the Client's Timeout Settings?

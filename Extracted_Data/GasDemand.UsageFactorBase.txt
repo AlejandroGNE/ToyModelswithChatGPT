@@ -1,0 +1,15 @@
+Header: Gas Demand Usage Factor Base
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar demand value regardless of heat
+
+Paragraphs:
+Gas Demand Usage Factor Base is the constant term (intercept) in usage factor demand formulation.
+Lists:
+

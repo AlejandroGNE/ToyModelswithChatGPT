@@ -1,0 +1,15 @@
+Header: Battery Discrete Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Planned capacity out of service
+
+Paragraphs:
+Battery Discrete Maintenance is Planned capacity out of service.
+Lists:
+

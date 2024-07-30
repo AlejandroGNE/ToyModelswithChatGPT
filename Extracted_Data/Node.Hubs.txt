@@ -1,0 +1,11 @@
+Header: Node Hubs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	hub the node belongs to
+
+Paragraphs:
+Node Hubs is hub the node belongs to
+Lists:
+

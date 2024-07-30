@@ -1,0 +1,23 @@
+Header: Reserve Constraints Risk Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of reserve requirement
+
+Paragraphs:
+Reserve Constraints Risk Coefficient is the left-hand side coefficient on the reserve
+          requirement ( risk ) in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Reserve Static
+              Risk
+

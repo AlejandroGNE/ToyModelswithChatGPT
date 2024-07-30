@@ -1,0 +1,15 @@
+Header: Generator Scheduled Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of generation in the unconstrained schedule (uniform pricing only)
+
+Paragraphs:
+Generator Scheduled Generation Cost
+Lists:
+

@@ -1,0 +1,17 @@
+Header: List Filter
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If enabled the list object becomes a filter for the input interface.
+
+Paragraphs:
+List Filter becomes a filter for the input interface when enabled.
+
+See also:
+Lists:
+	- List Report
+	- List Transient
+	- List Inclusive Empty
+

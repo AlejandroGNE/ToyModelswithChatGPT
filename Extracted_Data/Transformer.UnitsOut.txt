@@ -1,0 +1,19 @@
+Header: Transformer Units Out
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Number of [Units] out of service
+T01	Units Out	1	-	1/07/2008	1/08/2008
+T01	Units Out	1	-	1/07/2010	1/08/2010
+
+Paragraphs:
+Transformer Units Out allows the transformer to be taken out of service temporarily e.g. for a planned maintenance .
+
+Example
+Lists:
+

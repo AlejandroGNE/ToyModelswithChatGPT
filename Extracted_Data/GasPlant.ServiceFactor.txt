@@ -1,0 +1,15 @@
+Header: Gas Plant Service Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of plant capacity available in production
+
+Paragraphs:
+Gas Plant Service Factor is the proportion of plant capacity available in production i.e. net of capacity on Maintenance and/or Forced Outage.
+Lists:
+

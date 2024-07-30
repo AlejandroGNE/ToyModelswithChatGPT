@@ -1,0 +1,19 @@
+Header: Region Uplift Cost Basis
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Basis for calculating generation cost for uplift calculations (cost-based or bid-base)
+
+Paragraphs:
+Region Uplift Cost Basis controls how generation cost is calculated when uplift is enabled .
+
+In general one would set this to Bid-based when emulating the dispatch and pricing of a market using historical generator offers, but for forecasting it is more appropriate to use Cost-based.
+
+See also the article Uplift Methods .
+Lists:
+

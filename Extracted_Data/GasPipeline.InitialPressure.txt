@@ -1,0 +1,15 @@
+Header: Gas Pipeline Initial Pressure
+
+Table Details:
+Units:	pa (Metric), psi (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Pressure of gas stored in the pipeline at the beginning of the horizon
+
+Paragraphs:
+Gas Pipeline Initial Pressure is Pressure of gas stored in the pipeline at the beginning of the horizon.
+Lists:
+

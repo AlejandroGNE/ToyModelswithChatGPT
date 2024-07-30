@@ -1,0 +1,15 @@
+Header: Node Conditions Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node demand in condition
+
+Paragraphs:
+Node Conditions Load Coefficient is Coefficient of node demand in condition.
+Lists:
+

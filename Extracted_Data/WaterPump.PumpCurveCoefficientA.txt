@@ -1,0 +1,15 @@
+Header: Water Pump Pump Curve Coefficient A
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Pump Curve Coefficient A for the quadratic term
+
+Paragraphs:
+Water Pump Pump Curve Coefficient A is Pump Curve Coefficient A for the quadratic term.
+Lists:
+

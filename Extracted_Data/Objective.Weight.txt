@@ -1,0 +1,15 @@
+Header: Objective Weight
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weight of the objective when doing blended multi-objective optimization
+
+Paragraphs:
+Objective Weight is Weight of the objective when doing blended multi-objective optimization. The objectives that have the same priority in hierarchical optimization are merged to form a blended objective (eg: w1*o1+w2*o2)
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Market Buy Block Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for purchases across each hour
+
+Paragraphs:
+Market Buy Block Hour is the size of block for purchases across each hour. Setting this version of Buy Block instructs PLEXOS that blocks across each hour must be taken up together.
+Lists:
+

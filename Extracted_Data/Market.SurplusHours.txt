@@ -1,0 +1,15 @@
+Header: Market Surplus Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that supply exceeds demand
+
+Paragraphs:
+Market Surplus Hours is Number of hours that supply exceeds demand.
+Lists:
+

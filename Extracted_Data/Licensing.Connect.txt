@@ -1,0 +1,36 @@
+Header: Licensing: Connect
+
+Table Details:
+
+Paragraphs:
+Many changes were made to version 3.x in order to bring the license server into PLEXOS Connect.
+
+The motivation behind integrating it with PLEXOS Connect was to retain the existing functionality of version 3 while adding new features and better management through the use of PLEXOS Connect.
+
+The PLEXOS Connect License Server will continue to operate as a Windows service by running in the PLEXOS Connect Server Windows service. This allows the License Server to continue operating without requiring a user to be logged in.
+
+Since the License Server is now integrated into PLEXOS Connect and several new features added, there are quite a few differences between version 3.x and PLEXOS Connect License Server.
+
+Next Setting Up Executing the License Server Allowed IP address rules License Server Interface Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab Licensing Main Menu
+
+Setting Up Executing the License Server Allowed IP address rules License Server Interface Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab Licensing Main Menu
+Lists:
+	- Setting Up
+	- Executing the License Server
+	- Allowed IP address rules
+	- License Server Interface Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab
+	- Control Panel - Monitor Tab
+	- Control Panel - Config Tab
+	- Control Panel - Access List Tab
+	- Control Panel - Groups Tab
+	- Control Panel - License Reservation Tab
+	- Licensing Main Menu
+	- Control Panel - Monitor Tab
+	- Control Panel - Config Tab
+	- Control Panel - Access List Tab
+	- Control Panel - Groups Tab
+	- Control Panel - License Reservation Tab
+
+
+H2s:
+Next

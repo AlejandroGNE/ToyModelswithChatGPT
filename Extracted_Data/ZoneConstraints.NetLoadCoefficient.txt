@@ -1,0 +1,21 @@
+Header: Zone Constraints Net Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of load net of unserved and dump energy
+
+Paragraphs:
+Defining Zone Constraints Net Load Coefficient is equivalent to defining:
+
+Curtailed Demand will be excluded.
+
+See also:
+Lists:
+	- Zone Regions Net Load Coefficient
+	- Zone Nodes Net Load Coefficient
+

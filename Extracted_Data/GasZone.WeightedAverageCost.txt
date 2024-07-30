@@ -1,0 +1,17 @@
+Header: Gas Zone Weighted Average Cost
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average cost for gas in entire model
+
+Paragraphs:
+Gas Zone Weighted Average Cost is the difference between variable costs and revenue per gas served, such as (Total Variable Costs - Total Revenue) / Total Gas Served.
+
+Weighted Average Cost = ( Total Variable Costs - Total Revenue) / Total Gas Served.
+Lists:
+

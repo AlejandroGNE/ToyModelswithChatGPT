@@ -1,0 +1,11 @@
+Header: Message 59
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Market <name> has memberships to more than one class of object, but a Market can only involve one type.
+
+Paragraphs:
+Message 59 occurs when you define more than one type of membership on a Market which causes ambiguity over which type of market is being referred to. For example you might define both Nodes and Reserves memberships in which case it is not clear if the Market is intended to be an energy market or reserve market. You must define your Market objects with only one 'type' of these memberships.
+Lists:
+

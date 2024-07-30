@@ -1,0 +1,16 @@
+Header: Power2X Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on forced outage
+
+Paragraphs:
+Refer to Facility Forced
+            Outage Hours for details.
+Lists:
+

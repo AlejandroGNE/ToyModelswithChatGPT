@@ -1,0 +1,15 @@
+Header: Water Plant VO&M Charge
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operations and maintenance costs of the Water Plant
+
+Paragraphs:
+Water Plant VOM Charge is a component of the incremental cost of water processing, and is used to recover maintenance costs that are a direct function of water plant functions e.g. wear and tear and other regular equipment replacement and servicing costs.
+Lists:
+

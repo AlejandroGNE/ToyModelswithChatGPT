@@ -1,0 +1,21 @@
+Header: Cournot Perfect Competition Producer Surplus
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Producer surplus in the perfect competition solution
+
+Paragraphs:
+Cournot Perfect Competition Producer Surplus is producer surplus in the perfect competition solution. It is defined as:
+
+where:
+
+See also:
+Lists:
+	- Cournot Perfect Competition Consumer Surplus
+	- Cournot Producer Surplus
+

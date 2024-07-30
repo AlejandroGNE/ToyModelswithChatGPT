@@ -1,0 +1,17 @@
+Header: Flow Storage Max Cycles Week
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of cycles allowed each week
+
+Paragraphs:
+Flow Storage Max Cycles Week is
+          the number of cycles allowed each
+          week.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Line Conditions Flowing Back Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the line is flowing in the counter-reference direction, 0 otherwise)
+
+Paragraphs:
+Line Conditions Flowing Back Coefficient is Boolean value (1 if the line is flowing in the counter-reference direction, 0 otherwise).
+Lists:
+

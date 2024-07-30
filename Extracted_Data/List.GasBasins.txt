@@ -1,0 +1,11 @@
+Header: List Gas Basins
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Basin objects in the List
+
+Paragraphs:
+List Gas Basins is the set of Gas Basin objects in the list.
+Lists:
+

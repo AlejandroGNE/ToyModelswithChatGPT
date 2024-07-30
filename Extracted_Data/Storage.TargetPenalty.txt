@@ -1,0 +1,22 @@
+Header: Storage Target Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the target.
+
+Paragraphs:
+Storage Target Penalty is the penalty for violating the target set by one of the following properties:
+
+The cost of violations is reported as Target Violation Cost .
+Lists:
+	- Storage Target
+	- Storage Target Day
+	- Storage Target Week
+	- Storage Target Month
+	- Storage Target Year
+

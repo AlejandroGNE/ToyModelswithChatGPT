@@ -1,0 +1,15 @@
+Header: Generator Fuels Heat Rate Incr2
+
+Table Details:
+Units:	GJ/MWh² (Metric), Btu/kWh² (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Second-order polynomial term in unit fuel use function
+
+Paragraphs:
+Generator Fuels Heat Rate Incr2 is the fuel-specific version of Heat Rate Incr2 .
+Lists:
+

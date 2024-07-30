@@ -1,0 +1,16 @@
+Header: Heat Plant Build Non-anticipativity
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Refer to Facility Build
+            Non-anticipativity .
+Lists:
+

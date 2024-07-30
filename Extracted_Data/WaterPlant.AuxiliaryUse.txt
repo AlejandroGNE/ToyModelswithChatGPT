@@ -1,0 +1,15 @@
+Header: Water Plant Auxiliary Use
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Auxiliary use
+
+Paragraphs:
+Water Plant Auxiliary Use is the total of all station auxiliary loads (in-house use):
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Gas Pipeline Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Pipeline inherits from
+
+Paragraphs:
+Gas Pipeline Template is template the Gas Pipeline inherits from
+Lists:
+

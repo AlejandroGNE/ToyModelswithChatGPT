@@ -1,0 +1,20 @@
+Header: Facility Max Production Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Production] or [Max Capacity Factor] constraint violations
+
+Paragraphs:
+Facility Max Production Violation
+          Cost is defined as:
+
+Max Production Violation Cost = Max
+            Production Violation × Max
+            Production Penalty
+Lists:
+

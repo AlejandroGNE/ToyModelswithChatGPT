@@ -1,0 +1,34 @@
+Header: Facility Capacity Basis
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1)
+Description:	The basis for capacity-related properties where "Input" refers to the Primary Input and "Output" refers to the Primary Output
+
+Paragraphs:
+Facility Capacity Basis determines
+          what Unit the capacity-related
+          properties of the Facility are in. It can take the following values:
+
+This setting affects capacity-related properties such as:
+
+For example, a facility using electricity ( Primary
+            Process Primary Input )
+          to synthesize NH 3 from H 2 and N 2 would have capacity quoted in
+          megawatts of electric load and therefore Capacity Basis should be
+          "Input". Conversely an electricity generating station has capacity
+          quoted in megawatts of electric output and therefore Capacity Basis
+          should be "Output".
+
+For the "Input" case, properties such as Max
+            Operating Level are converted to "Output" style by the
+          simulation engine using the nominal Process Efficiency and Conversion
+            Factor and all internal calculations occur on an "Output" basis
+          with reporting values scaled back again to report on an "Input" basis.
+Lists:
+	- Facility Max
+              Operating Level
+	- Facility Installed
+              Capacity
+

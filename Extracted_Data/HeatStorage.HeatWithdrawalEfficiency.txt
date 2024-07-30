@@ -1,0 +1,15 @@
+Header: Heat Storage Heat Withdrawal Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of heat withdrawal
+
+Paragraphs:
+Heat Storage Heat Withdrawal Efficiency is the efficiency of withdrawing heat from the storage.
+Lists:
+

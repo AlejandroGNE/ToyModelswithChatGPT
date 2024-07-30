@@ -1,0 +1,15 @@
+Header: Transmission Right Sink Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price on sink side
+
+Paragraphs:
+Transmission Right Sink Price is Price on sink side. Reported price is determined by Pricing Method .
+Lists:
+

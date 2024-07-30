@@ -1,0 +1,25 @@
+Header: Gas Storage Constraints End Volume Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of storage end volume.
+
+Paragraphs:
+Gas Storage Constraints End Volume Coefficient is the left-hand side coefficient on the
+          storage End Volume . This
+          coefficient is usually used in defining storage target constraints.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Gas Storage Target
+	- Gas Storage Target
+              Penalty
+

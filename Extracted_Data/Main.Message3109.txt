@@ -1,0 +1,11 @@
+Header: Message 3109
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Report <name> <value> [<value>] cannot be reported in summary.
+
+Paragraphs:
+Message 3109 occurs in the following circumstances:
+Lists:
+

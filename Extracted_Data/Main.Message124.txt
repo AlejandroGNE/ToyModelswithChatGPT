@@ -1,0 +1,11 @@
+Header: Message 124
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	MIP license is required, but no license is available for checkout-the linear relaxation will be reported.
+
+Paragraphs:
+Message 124 occurs in the following circumstances:
+Lists:
+

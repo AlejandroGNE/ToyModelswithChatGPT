@@ -1,0 +1,28 @@
+Header: Horizon Week Beginning
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Between -1 And 7
+Description:	Start day for weekly constraints
+0	automatic	Each week begins on the same day of week as the Date From of the simulation horizon.
+1	Sunday	Weeks begin Sunday and end Saturday
+2	Monday	Weeks begin Monday and end Sunday
+3	Tuesday	Weeks begin Tuesday and end Monday
+4	Wednesday	Weeks begin Wednesday and end Tuesday
+5	Thursday	Weeks begin Thursday and end Wednesday
+6	Friday	Weeks begin Friday and end Thursday
+7	Saturday	Weeks begin Saturday and end Friday
+-1	Month	The first day of each month is the start of a week and the weeks follow the patterns described below so that there are exactly 48 weeks in the year
+28, 29	1st, 8th, 15th, 22nd
+30	1st, 8th, 16th, 23rd
+31	1st, 8th, 16th, 24th
+
+Paragraphs:
+This setting controls the internal mapping of days to weeks across the simulation horizon . Thus it affects the definition of weeks for summary reporting, and the formulation of any weekly constraint e.g. weekly storage target or weekly energy constraint, and the week of the year time slice pattern.
+
+Week Beginning = "Month" is a special case that fits weeks into months and years exactly, avoiding the issue of weeks crossing monthly or annual boundaries. In this scheme the weeks begin according to the rules in the following table:
+
+In this scheme weeks are not equal length making this scheme unsuitable for constraint modelling. It is provided primarily for compatibility with certain regional data input schemes in hydro dominated countries.
+Lists:
+

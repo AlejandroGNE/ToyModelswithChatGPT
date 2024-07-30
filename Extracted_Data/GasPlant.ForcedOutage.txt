@@ -1,0 +1,15 @@
+Header: Gas Plant Forced Outage
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of Production on Forced Outage
+
+Paragraphs:
+Gas Plant Forced Outage is the amount of production capacity on forced outage.
+Lists:
+

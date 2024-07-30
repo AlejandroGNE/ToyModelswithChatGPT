@@ -1,0 +1,11 @@
+Header: Node Region
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	the region the node belongs to
+
+Paragraphs:
+Node Region is the region the node belongs to.
+Lists:
+

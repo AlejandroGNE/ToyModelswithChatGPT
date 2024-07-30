@@ -1,0 +1,19 @@
+Header: Reserve Available Response
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total available reserve response
+
+Paragraphs:
+Reserve Available Response is defined as:
+
+∑ Generators Available Response + ∑ Purchasers Available Response + ∑ Batteries Available Response
+
+Note: The Available Response for Inertia Type reserves has units of MW-s.
+Lists:
+

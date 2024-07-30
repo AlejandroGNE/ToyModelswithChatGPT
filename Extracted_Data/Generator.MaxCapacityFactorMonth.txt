@@ -1,0 +1,20 @@
+Header: Generator Max Capacity Factor Month
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum capacity factor in month
+
+Paragraphs:
+This is the monthly variant of Generator Max Capacity Factor .
+
+See also:
+Lists:
+	- Generator Max Capacity Factor Week
+	- Generator Max Capacity Factor Day
+	- Generator Max Capacity Factor Year
+

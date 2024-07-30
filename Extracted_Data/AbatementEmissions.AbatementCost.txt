@@ -1,0 +1,18 @@
+Header: Abatement Emissions Abatement Cost
+
+Table Details:
+Units:	$/kg (Metric), $/lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost per unit of emission removed for this emission
+
+Paragraphs:
+Emissions Abatement Cost is the cost per unit of emission removed for this Emission .
+
+See also:
+Lists:
+	- Abatement Abatement Cost
+

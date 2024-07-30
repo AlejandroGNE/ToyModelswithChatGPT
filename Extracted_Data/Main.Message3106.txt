@@ -1,0 +1,11 @@
+Header: Message 3106
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Data File line <value> contains <value> band(s) of data for object <name> but expected <value> bands. File <name>.
+
+Paragraphs:
+Message 3106 occurs in the following circumstances:
+Lists:
+

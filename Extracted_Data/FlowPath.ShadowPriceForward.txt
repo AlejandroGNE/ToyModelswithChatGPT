@@ -1,0 +1,23 @@
+Header: Flow Path Shadow Price Forward
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price in the reference direction
+
+Paragraphs:
+Flow Path Shadow Price Forward is the
+          average dual variable values associated with the Max
+            Flow constraint.
+
+See also:
+Lists:
+	- Flow Path Shadow
+              Price Back
+	- Flow Path Hours
+              Congested Forward
+

@@ -1,0 +1,11 @@
+Header: Message 149
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Reserve <name> Nested Reserve <name> must use a subset of the generators in the master reserve class.
+
+Paragraphs:
+Message 149 occurs in the following circumstances:
+Lists:
+

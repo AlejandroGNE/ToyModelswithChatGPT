@@ -1,0 +1,11 @@
+Header: List Purchasers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Purchaser objects in the List
+
+Paragraphs:
+List Purchasers is set of Main Purchaser objects in the List.
+Lists:
+

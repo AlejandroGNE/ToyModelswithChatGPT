@@ -1,0 +1,18 @@
+Header: Heat Plant Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of gas node project, for expansion planning.
+
+Paragraphs:
+Heat Plant Project Start Date is the first year from which the project can be constructed in LT Plan i.e. the project cannot be built until this year or later.
+
+See also:
+Lists:
+	- Heat Plant Max Units Built in Year
+

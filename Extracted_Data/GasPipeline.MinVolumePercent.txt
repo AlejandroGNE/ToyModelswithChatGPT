@@ -1,0 +1,15 @@
+Header: Gas Pipeline Min Volume Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum percentage of max volume that must be stored in the Gas Pipeline to maintain pressure
+
+Paragraphs:
+Gas Pipeline Min Volume Percent is Minimum percentage of max volume that must be stored in the Gas Pipeline to maintain pressure.
+Lists:
+

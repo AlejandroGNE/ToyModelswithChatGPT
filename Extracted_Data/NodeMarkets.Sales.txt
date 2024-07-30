@@ -1,0 +1,15 @@
+Header: Node Markets Sales
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sales to the market
+
+Paragraphs:
+Node Markets Sales is the energy sold into the market.
+Lists:
+

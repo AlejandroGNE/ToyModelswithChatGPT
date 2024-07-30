@@ -1,0 +1,16 @@
+Header: Power2X Water Consumption
+
+Table Details:
+Units:	Input: m³/MWh (Metric), gal./MWh (U.S. Imperial)    Output: m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Water consumed by the Power2X facility
+
+Paragraphs:
+Power2X Water Consumption is the
+          water consumed per MWh of load drawn by the Power2X facility.
+Lists:
+

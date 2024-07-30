@@ -1,0 +1,17 @@
+Header: Generator Pump Unit Commitment Non-anticipativity Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Window of time over which to enforce non-anticipativity constraints in scenario-wise decomposition
+
+Paragraphs:
+Generator Pump Unit Commitment Non-anticipativity Time is equivalent to Unit Commitment Non-anticipativity Time but for the Units Pumping decision variables in stochastic optimization.
+
+See also: Generator Pump Unit Commitment Non-anticipativity
+Lists:
+

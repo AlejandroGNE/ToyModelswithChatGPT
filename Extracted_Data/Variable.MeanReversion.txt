@@ -1,0 +1,15 @@
+Header: Variable Mean Reversion
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Mean reversion parameter in differential equation
+
+Paragraphs:
+Variable Mean Reversion is the mean reversion parameter in the differential equation for the random process.
+Lists:
+

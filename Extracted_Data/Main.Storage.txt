@@ -1,0 +1,40 @@
+Header: Storage Class
+
+Table Details:
+Description:	Storage reservoir, head-pond, or tail-pond
+
+Paragraphs:
+See also Storage
+              Property Reference for a detailed list of properties for this
+            class of object.
+
+Storage objects are used to represent hydro storage reservoirs with
+          short, medium, or long-term storage, generator head-ponds and
+          tail-ponds, or even simple junctions in a river-chain. A Storage may
+          connects to one or more Waterway and/or Generator objects to create
+          a model of a river chain.
+
+In general there are four main types of storage:
+
+There are several options for the units of storage, for both metric
+          and Imperial US, and this is controlled by the Hydro
+            Model database setting.
+
+Deterministic, Monte Carlo, and multi-stage stochastic optimization
+          with Rolling Horizon (RH) and/or Stochastic
+            Dual Dynamic Programming (SDDP) methods is supported.
+
+See the following articles for more details:
+Lists:
+	- Hydro Classes
+	- Hydro-thermal
+              Coordination
+	- Pumped Storage
+	- Hydro
+              Generator Efficiency and Head Effects
+	- Cascading Hydro
+              Networks
+	- Storage Optimization
+	- Multi-stage
+              Stochastic Optimization
+

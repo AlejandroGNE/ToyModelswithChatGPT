@@ -1,0 +1,15 @@
+Header: Facility Objectives Available Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of available capacity
+
+Paragraphs:
+Facility Objectives Available Capacity Coefficient is Coefficient of available capacity.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: List Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Field objects in the List
+
+Paragraphs:
+List Gas Fields is set of Main Gas Field objects in the List.
+Lists:
+

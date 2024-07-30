@@ -1,0 +1,15 @@
+Header: Generator Start Profile Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Start Profile] constraint.
+
+Paragraphs:
+Generator Start Profile Violation is the amount the [Start Profile] constraint was violated.
+Lists:
+

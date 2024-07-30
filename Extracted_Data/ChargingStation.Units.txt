@@ -1,0 +1,33 @@
+Header: Charging Station Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of chargers
+Home	Units	200,000	-
+Home	Max Charge Rate	6	kW
+Home	UoS Charge	15	$/MWh
+Supercharger	Units	10	-
+Supercharger	Max Charge Rate	160	kW
+Supercharger	UoS Charge	2	$/MWh
+
+Paragraphs:
+Charging Stations Units
+            is the number of chargers represented by the charging station. This
+            number can increase or decrease across time or automatically as part
+            of LT Plan .
+
+As output Units is the net of existing units new additions and
+            disposals.
+
+See also:
+Lists:
+	- Charging Station Max
+              Charge Rate
+	- Vehicle Units
+	- Facility Units
+

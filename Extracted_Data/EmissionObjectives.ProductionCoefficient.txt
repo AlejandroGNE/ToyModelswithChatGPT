@@ -1,0 +1,15 @@
+Header: Emission Objectives Production Coefficient
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of emissions produced
+
+Paragraphs:
+Emission Objectives Production Coefficient is Coefficient of emissions produced.
+Lists:
+

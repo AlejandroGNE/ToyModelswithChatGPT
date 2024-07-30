@@ -1,0 +1,38 @@
+Header: Global Tree Position Exp Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scenario Tree: Controls the end positions of each stage
+
+Paragraphs:
+Global Tree Position Exp Factor
+          relates to the Scenario Tree and controls the end positions of each
+          stage.
+
+The Tree Stages Position for stage i (from 1 to S in units
+          of Tree Period Type ) is
+          determined as:
+
+N * ( i /S) ep
+
+where:
+
+ep is the Tree Position
+          Exp Factor
+
+S is the number of
+          stages, and
+
+N denotes the number of Tree Period Type periods in
+          the Horizon
+
+See also:
+Lists:
+	- Global Tree
+              Leaves Exp Factor
+

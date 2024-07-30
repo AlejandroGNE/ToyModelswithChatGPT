@@ -1,0 +1,15 @@
+Header: Gas Storage Dispatch Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dispatch price
+
+Paragraphs:
+Gas Storage Dispatch Price is the Dispatch price for gas storage.
+Lists:
+

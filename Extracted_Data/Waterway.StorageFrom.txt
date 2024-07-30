@@ -1,0 +1,11 @@
+Header: Waterway Storage From
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	storage the waterway takes water from
+
+Paragraphs:
+Waterway Storage From is the source storage for the waterway. A waterway must have exactly one source storage.
+Lists:
+

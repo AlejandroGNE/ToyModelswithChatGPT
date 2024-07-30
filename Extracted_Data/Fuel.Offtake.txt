@@ -1,0 +1,17 @@
+Header: Fuel Offtake
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Fuel Offtake is the total of all Fuel consumed by Generators using the fuel either for Generation or for starting .
+
+In reporting, only the fuels used for generation are included in the output set of Generator Fuels collection thus Fuel Offtake is calculated as:
+Lists:
+

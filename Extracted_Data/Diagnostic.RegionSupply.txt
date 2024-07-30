@@ -1,0 +1,16 @@
+Header: Diagnostic Region Supply
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Execute region supply diagnostic (this is an active diagnostic)
+
+Paragraphs:
+The Region Supply Diagnostic is a tool for determining, in each interval of the simulation, and for the selected Region the total supply capacity from Generators and Imports . The diagnostic runs each simulation step after the normal simulation iterations are complete and produces a report in XML format. The method is as follows:
+
+The calculated supply capacity is the maximum amount of supply that can be delivered to the Region taking into account all active transmission and generation constraints.
+
+NOTE: The source code for this Diagnostic is included in the OpenPLEXOS project and distributed with the installation files.
+Lists:
+

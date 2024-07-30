@@ -1,0 +1,16 @@
+Header: Flow Storage Retire Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating retire non-anticipativity constraints
+
+Paragraphs:
+Refer to Commodity Retire
+            Non-anticipativity .
+Lists:
+

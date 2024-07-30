@@ -1,0 +1,15 @@
+Header: Flow Control Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of the project, for expansion planning.
+
+Paragraphs:
+Flow Control Project Start Date is Start date of the project, for expansion planning. This property is similar to Line Project Start Date . See that topic for details and examples.
+Lists:
+

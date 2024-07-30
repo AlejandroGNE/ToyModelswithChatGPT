@@ -1,0 +1,11 @@
+Header: Company Reserves
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Company Reserves is the set of Reserves provided by Generators and Purchasers in the Company. This collection is reserved for reporting only.
+Lists:
+

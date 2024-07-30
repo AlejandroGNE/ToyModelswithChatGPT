@@ -1,0 +1,11 @@
+Header: Message 3252
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Variable <value> is being referenced from its Variables - <value> - expression creating a circular reference error.
+
+Paragraphs:
+Message 3252 occurs in the following circumstances:
+Lists:
+

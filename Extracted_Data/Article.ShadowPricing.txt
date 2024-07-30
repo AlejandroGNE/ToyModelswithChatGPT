@@ -1,0 +1,47 @@
+Header: Bertrand Competition
+
+Table Details:
+STSchedule	1	1	1	-	G1	-	G4	$10.00	$40.00	$39.98	TRUE
+STSchedule	1	1	1	-	G2	-	G4	$15.00	$40.00	$39.99	TRUE
+STSchedule	1	1	1	-	G3	-	G4	$20.00	$40.00	$39.99	FALSE
+STSchedule	1	1	1	-	G4	-	Shortage	$40.00	$9,999.99	$9,999.99	FALSE
+
+Paragraphs:
+The simulator implements a heuristic shadow pricing scheme that mimics Bertrand Competition. In this game generators choose prices for their output in order to maximize profit making opportunities in a one-round game. This article describes this model and how it is used. Bertrand Competition is a game theoretic model in which firms manipulate the price component of their generation offer and keep quantities fixed. It is generally accepted that Bertrand Competition does not yield high enough average prices to recover generator investment costs, but that it is a useful method for modelling short-term pricing especially in the way it can capture gaming behaviour in times of tight supply-demand balance and/or transmission congestion. The Bertrand game is simulated independently for each dispatch interval e.g. hour, half-hour, etc. The advantage of this is that the Bertrand Game can be run for any horizon length from a single interval up. The disadvantage is that the game makes no reference to the medium term effect of the pricing results i.e. it ignores the price elasticity of demand.
+
+The Competition setting Pricing Strategy switches on/off the Shadow Pricing algorithm. The core mechanism of the Bertrand Game is 'Shadow Pricing' i.e. pricing generation up to the next generator's offer price in the merit order. This is illustrated in Figure 1. The stack of generation is shown for three independent generators (G1, G2, G3). Figure 2 shows the offer prices that result from a simple shadow pricing policy:
+
+The basic shadow pricing method described above can be easily improved upon. Consider a bid-stack like Figure 3. Here Generator "G3" price of $20.00/MWh implies that "G2" can mark-up only as far as $20.00 (less epsilon), but "G3" has only a small volume. "G2" can decide to mark-up above "G3" price and in doing so 'sacrifice' this small volume in order to achieve the higher $40.00 price implied by "G4". Similarly "G1" is large enough that it would prefer to mark-up past "G2" to also shadow "G4" but in doing so it must apply a larger epsilon to ensure it is not displaced by both "G2" and "G3". This round of mark-ups results in the bid-stack in Figure 4. Because "G3" could now be dispatched before "G2" this is called out-of-merit-order bidding. The simulator will look for any such opportunity automatically when the Competition Bertrand OOMOD Enabled setting is toggled 'on'. .
+
+Where the heat-rate function of a Generator, or the defined Offer Price and Offer Quantity, defines a multi-part offer i.e. bands of generation at different incremental costs, the simulator will calculate the offer price at the median generation point i.e. halfway between Min Stable Level and Max Capacity for the purposes of shadow pricing.
+
+The shadow pricing algorithm is performed dynamically and thus outages are accounted for when determining the merit-order stack that each Generator is competing in. Thus if a Generator is on outage it will be removed from the stack allowing generators lower in the merit order to see past it from the purposes of shadow pricing.
+
+Transmission constraints can create pockets of local market power. The shadow pricing algorithm can account for this by detecting when there is congestion and apply the algorithm to the local merit-order stack rather than the 'global' stack. The Competition setting Pricing Strategy controls the extent to which congestion is accounted for. Congestion can be ignored so that the global stack is always used, or the algorithm can recognise when there is congestion between Regions or between and inside Zones . The latter allows you to define Zones that are expected or historically have been subject to congestion and gaming by generators.
+
+Grouping Generators into Companies changes the shadow pricing algorithm by:
+
+The Company setting Strategic can be used to toggle on/off participation of the Company in the Bertrand Competition. Companies that are not strategic are referred to as part of the "competitive fringe". Individual generators can be identified as part of the competitive fringe with the Generator Is Strategic setting.
+
+Diagnostics of the Bertrand Competition algorithm are available by toggling 'on' the Diagnostic switch Bertrand Pricing . The diagnostic produces output in XML format with table formatting information. This can be opened in a web browser or in Microsoft ® Excel. An example follows:
+
+During a Model run, the Bertrand Game is always run before LRMC Recovery Model but after Cournot Game , if any is selected. This is necessary because the short-term game has no medium-term profitability targets. The amount of additional revenue earned through Bertrand Competition contributes to the medium-term profitability of the firms in the game, and as a result, it changes their behaviour in the medium-term model.
+Lists:
+	- "G1" bids up to "G2" price less epsilon
+	- "G2" bids up to "G3" price less epsilon
+	- "G3" bids up to shortage price less epsilon
+	- Allowing generators to mark-up to the next competitor's price in the merit-order, ignoring offers within its own company; and
+	- Apply Epsilon to ensure that intra-company merit-order is preserved.
+
+
+H2s:
+Contents
+1. Introduction
+2. Shadow Pricing
+3. Out-of-Merit-Order Dispatch
+4. Multi-part Offers
+5. Outages
+6. Transmission
+7. Companies and the Competitive Fringe
+8. Diagnostics
+9. Equilibrium Model

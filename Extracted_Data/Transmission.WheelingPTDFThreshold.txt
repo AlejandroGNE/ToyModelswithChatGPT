@@ -1,0 +1,15 @@
+Header: Transmission Wheeling PTDF Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.05
+Validation Rule:	≥0
+Description:	Minimum absolute value of PTDF as coefficient in wheeling definitions.
+
+Paragraphs:
+Transmission Wheeling PTDF Threshold is tested against the absolute value of any Power Transfer Distribution Factor (PTDF) or 'shift factor' in the network. Values below this threshold are ignored when formulating the equations defining wheeling. See Region Regions Wheeling Charge and/or Zone Zones Wheeling Charge .
+
+See also:
+Lists:
+	- Transmission Flow PTDF Threshold
+

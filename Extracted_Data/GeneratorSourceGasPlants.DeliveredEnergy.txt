@@ -1,0 +1,15 @@
+Header: Generator Source Gas Plants Delivered Energy
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat energy delivered by gas plant to the generator
+
+Paragraphs:
+Generator Source Gas Plants Delivered Energy is the heat energy delivered by gas plant to the generator.
+Lists:
+

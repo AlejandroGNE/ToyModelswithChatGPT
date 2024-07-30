@@ -1,0 +1,12 @@
+Header: Model Objective Absolute Tolerance
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Allowable degradation for the objective when doing hierarchical multi-objective optimization for MIP models
+
+Paragraphs:
+During Hierarchical Multi-objective optimization, the highest priority objective is optimized (say minimized) first (say to a value X). While optimizing the second objective we add a constraint obj1 <= X to make sure the first objective does not deteriorate relative tolerance if the absolute value by which we allow this degradation.
+Lists:
+

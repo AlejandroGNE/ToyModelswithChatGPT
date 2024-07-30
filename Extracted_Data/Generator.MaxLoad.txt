@@ -1,0 +1,36 @@
+Header: Generator Max Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum level of unit load (unit may provide spinning reserve with remainder of spare capacity)
+hydro	Units	1	-	1				
+hydro	Max Capacity	100	MW	1				
+hydro	Min Load	0	MW	1				run of river.csv
+hydro	Max Load	0	MW	1				hydro limit.csv
+solar	Units	50	-	1				
+solar	Max Capacity	1	MW	1				
+solar	Rating	0	MW	1				pv.csv
+
+Paragraphs:
+Generator Max Load sets an upper
+          bound on unit Generation . The Generator is allowed to provide Raise Reserve and/or Regulation
+            Raise Reserve with the remainder of its spare capacity up to the Rating . The property is useful for
+          modelling energy-constrained resources such as hydro that are limited
+          in generation but may still provide reserve.
+
+Example
+
+In the following example the Generator "hydro" is limited in generation by a profile read from a CSV file,
+          but can provide reserve up to its Max
+            Capacity , whereas "solar" is limited through the Rating property and can provide generation and reserve only up to that limit.
+
+See also:
+Lists:
+	- Generator Min
+              Load
+

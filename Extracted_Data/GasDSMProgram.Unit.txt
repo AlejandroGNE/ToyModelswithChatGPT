@@ -1,0 +1,14 @@
+Header: Gas DSM Program Unit
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Unit the gas is measured in
+
+Paragraphs:
+Gas DSM Programs Unit is the units of measure for the gas.  Unit defaults based upon the Settings of Imperial or Metric. When set, PLEXOS will automatically convert the data inputs to the base units of the system.  If Energy Density is set along with Unit, the Energy Density will be used to convert the data inputs to the base units of the system.
+
+See Gas Modelling section 2.2 Units of Data for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Facility Dispatchable
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	A dispatchable facility operates anywhere within its technical limits whereas a non-dispatchable facility operates at its maximum available rating at all times
+
+Paragraphs:
+Facility Dispatchable is A dispatchable facility operates anywhere within its technical limits whereas a non-dispatchable facility operates at its maximum available rating at all times.
+Lists:
+

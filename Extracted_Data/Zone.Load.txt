@@ -1,0 +1,35 @@
+Header: Zone Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load
+
+Paragraphs:
+Input
+
+Zone Load can be used to input load at the Zone level. The Zone Load is distributed to the Nodes in the Zone using the Node Load Participation Factor property.
+
+See also:
+
+Zone Load is the total load that occurred in the Zone defined as:
+
+See also:
+
+Note that Price may also be used as an input to the simulation.
+Lists:
+	- Load Forecasting
+	- Zone Load Scalar
+	- Node Load
+	- Zone Customer Load
+	- Zone Pump Load
+	- Zone Transmission Losses
+	- Zone Purchaser Load
+	- Zone Net Market Sales
+	- Zone Unserved Energy
+	- Zone Dump Energy
+

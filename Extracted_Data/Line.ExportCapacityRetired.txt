@@ -1,0 +1,19 @@
+Header: Line Export Capacity Retired
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Export capacity lost to retirements
+
+Paragraphs:
+Line Export Capacity Retired is the export capacity lost to retirements, and is calculated as:
+
+See also:
+Lists:
+	- Line Import Capacity Retired
+	- Line Export Capacity Built
+

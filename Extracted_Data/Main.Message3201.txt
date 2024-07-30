@@ -1,0 +1,11 @@
+Header: Message 3201
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Could not interpret the class name <name> in the Variable <name> ML model schema column name <name>
+
+Paragraphs:
+Message 3201 occurs in the following circumstances:
+Lists:
+

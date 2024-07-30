@@ -1,0 +1,15 @@
+Header: Fleet Units Disposed
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of vehicles disposed of
+
+Paragraphs:
+Fleet Units Disposed is Number of vehicles disposed of.
+Lists:
+

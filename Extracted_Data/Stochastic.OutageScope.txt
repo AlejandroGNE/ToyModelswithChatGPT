@@ -1,0 +1,16 @@
+Header: Stochastic Outage Scope
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	Scope of preschedule outage pattern generator.
+
+Paragraphs:
+Stochastic Outage Scope switches automatically generated random (forced) outages and distributed maintenance on/off. It can take the following values:
+
+Note:
+Lists:
+	- The algorithm used to produce these outages is controlled by the Monte Carlo Method option.
+	- Discrete Maintenance is always included in the simulation. If you want to turn off discrete maintenance, scenario the Units Out data out of the Model .
+

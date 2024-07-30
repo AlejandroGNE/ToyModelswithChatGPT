@@ -1,0 +1,16 @@
+Header: Power2X Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Efficiency of energy conversion process
+
+Paragraphs:
+Efficiency = Production
+                Rate / 3.6 Load
+Lists:
+

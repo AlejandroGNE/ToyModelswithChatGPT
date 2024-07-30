@@ -1,0 +1,15 @@
+Header: Node Objectives MLF Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of marginal loss factor
+
+Paragraphs:
+Node Objectives MLF Coefficient is Coefficient of marginal loss factor.
+Lists:
+

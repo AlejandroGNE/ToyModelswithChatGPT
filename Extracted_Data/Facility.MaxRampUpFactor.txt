@@ -1,0 +1,23 @@
+Header: Facility Max Ramp Up Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp up rate expressed as a proportion of the maximum operating level
+
+Paragraphs:
+Facility Max Ramp Up Factor is an
+          alternative way of defining the Max
+            Ramp Up . Rather than defining an absolute value for the limit,
+          this property is expressed as a proportion of Max
+            Operating Level .
+
+See also:
+Lists:
+	- Facility Max
+              Ramp Down Factor
+

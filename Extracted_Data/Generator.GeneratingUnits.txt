@@ -1,0 +1,18 @@
+Header: Generator Generating Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of generating units
+
+Paragraphs:
+Generator Generating Units sets
+          an upper limit on the number of Units that are generating units i.e. capable of electricity
+          generation. Units that cannot generate can operate as Pump
+            Units or Sync Cond Units according to those inputs.
+Lists:
+

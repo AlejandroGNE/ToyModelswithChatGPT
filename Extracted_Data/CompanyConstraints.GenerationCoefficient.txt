@@ -1,0 +1,15 @@
+Header: Company Constraints Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of company generation
+
+Paragraphs:
+Company Constraints coefficient sums of all generation from the generators owned by the Company and places it on the left-hand side of the Company - see Generators .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Interface Objectives Expansion Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total expansion cost
+
+Paragraphs:
+Interface Objectives Expansion Cost Coefficient is Coefficient of total expansion cost.
+Lists:
+

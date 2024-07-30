@@ -1,0 +1,20 @@
+Header: PASA Step Type
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Description:	PASA step type: One period is modelled for each period of this type in horizon.
+
+Paragraphs:
+PASA Step Type controls the resolution of the PASA algorithm . The setting can take these values:
+
+PASA models every interval in the Horizon
+
+PASA models the peak period in each calendar day of the Horizon
+
+PASA models the peak period in each calendar week of the Horizon
+
+The peak period is the interval that contains the maximum value of Load (or Price is the load is not defined).
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Fuel Objectives Closing Inventory Coefficient
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fuel stockpile closing inventory
+
+Paragraphs:
+Fuel Objectives Closing Inventory Coefficient is Coefficient of fuel stockpile closing inventory.
+Lists:
+

@@ -1,0 +1,26 @@
+Header: Region Formulate Load
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Load is formulated as a decision variable
+Region Load	RegLoad_	RegLoad_QLD
+Zone Load	ZonLoad_	ZonLoad_East
+Node Load	NodLoad_	NodLoad_QLD1
+
+Paragraphs:
+Region Formulate Load is a Flag that indicates if the Load is formulated as a decision variable.
+
+The mathematical variable that would be created is RegLoad .  Similar properties have been exposed for the Zone and Node load values, e.g.
+
+
+
+These variables have been exposed, so they can be used in conjunction with the RHS Constant feature.
+Lists:
+	- Node Formulate Load
+	- Zone Formulate Load
+

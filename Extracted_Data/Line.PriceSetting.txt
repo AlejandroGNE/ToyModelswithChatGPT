@@ -1,0 +1,15 @@
+Header: Line Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Line can transfer price across the network
+
+Paragraphs:
+Line Price Setting is the line equivalent of Generator Price Setting .
+Lists:
+

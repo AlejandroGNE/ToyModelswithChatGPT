@@ -1,0 +1,15 @@
+Header: Facility Consumption Incr2
+
+Table Details:
+Units:	~/~²
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Process consumption function second-order term
+
+Paragraphs:
+Facility Consumption Incr2 is Primary Process consumption function second-order term.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Region Pool Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Gross or Net Pool for settlement of Financial Contracts in the Region.
+
+Paragraphs:
+Region Pool Type is used to switch certain market settlement calculations between Gross and Net Pool. It affects the volume of energy traded in the pool. It can take the following values:
+
+The setting affects the calculation of Company Pool Revenue and Financial Contract Settlement .
+
+In a Net Pool the Pool Revenue can be positive or negative, with negative values meaning that the company was a net purchaser from the pool.
+
+Gross Pool revenue is converted to (net) Pool Revenue using the following algorithm:
+Lists:
+

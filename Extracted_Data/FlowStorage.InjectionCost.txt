@@ -1,0 +1,16 @@
+Header: Flow Storage Injection Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of injections to the inventory
+
+Paragraphs:
+See Commodity Injection
+            Cost for details.
+Lists:
+

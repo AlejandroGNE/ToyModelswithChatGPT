@@ -1,0 +1,28 @@
+Header: Facility Max Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a unit can be off after being shut down
+
+Paragraphs:
+Facility Max Down Time is the
+          maximum number of hours a unit can be off in any commitment cycle. A
+          unit is considered 'down' if its Production is zero. The number of hours down is reported in the property Hours
+            Down . Max Down Time is a static property. If it is
+          defined dynamically (varying according to different periods), the
+          maximum value will be used.
+
+See also:
+Lists:
+	- Facility Min
+              Down Time
+	- Facility Min
+              Up Time
+	- Facility Max
+              Up Time
+

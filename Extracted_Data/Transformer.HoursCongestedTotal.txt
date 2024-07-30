@@ -1,0 +1,21 @@
+Header: Transformer Hours Congested Total
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Transformer is flowing at its [Rating]
+
+Paragraphs:
+Transformer Hours Congested Total is the number of hours the Transformer Flow is at or above its Rating in either direction. Includes hours congested for base case and post-contingent hours.
+
+The summary version of this property reports the number of hours at Rating and Hours Congested Back the number of hours at - Rating .
+
+See also:
+Lists:
+	- Transformer Shadow Price
+	- Transformer Hours Congested
+

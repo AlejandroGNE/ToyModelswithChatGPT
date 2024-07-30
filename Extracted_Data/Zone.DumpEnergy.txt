@@ -1,0 +1,20 @@
+Header: Zone Dump Energy
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dump energy
+
+Paragraphs:
+Zone Dump Energy is the total dump energy (over-generation) in the Zone, and is defined as:
+
+See also:
+Lists:
+	- Zone Hours of Dump Energy
+	- Zone Cost of Dump Energy
+	- Zone Unserved Energy
+

@@ -1,0 +1,16 @@
+Header: Flow Storage Max Inventory Change Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of change in inventory in any hour
+
+Paragraphs:
+See Commodity Max
+            Inventory Change Hour for details.
+Lists:
+

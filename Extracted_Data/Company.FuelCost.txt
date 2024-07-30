@@ -1,0 +1,15 @@
+Header: Company Fuel Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fuel bill
+
+Paragraphs:
+Company Fuel Cost is the total fuel cost from the generators owned by the company, and is defined as:
+Lists:
+

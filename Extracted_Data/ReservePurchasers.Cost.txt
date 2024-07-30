@@ -1,0 +1,15 @@
+Header: Reserve Purchasers Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve cost
+
+Paragraphs:
+Purchaser Reserves Cost is the allocation of Cost to the Purchaser . This property is RESERVED FOR FUTURE USE.
+Lists:
+

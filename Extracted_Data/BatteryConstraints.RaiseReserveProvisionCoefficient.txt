@@ -1,0 +1,16 @@
+Header: Battery Constraints Raise Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of raise reserve provision
+
+Paragraphs:
+See Generator Constraints Raise
+            Reserve Provision Coefficient .
+Lists:
+

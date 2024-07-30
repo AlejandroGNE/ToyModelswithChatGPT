@@ -1,0 +1,15 @@
+Header: Gas Pipeline Maintenance
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity on maintenance
+
+Paragraphs:
+Gas Pipeline Maintenance is the amount of capacity on maintenance.
+Lists:
+

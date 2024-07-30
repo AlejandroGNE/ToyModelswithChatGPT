@@ -1,0 +1,19 @@
+Header: Generator Heat Load
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Waste heat that must be extracted for exogenous loads (CCGT)
+
+Paragraphs:
+Generator Heat Load is the waste heat that must be extracted for exogenous loads (CCGT). In CHP units, Heat Load is the heat requirement from the CHP unit and the (optional) auxiliary boiler:
+
+CHP Heat Production + Boiler Heat Production ≥ Heat Load
+
+Note that Heat Load is automatically de-rated by the Generator Forced Outage Rate and Maintenance Rate in LT Plan .
+Lists:
+

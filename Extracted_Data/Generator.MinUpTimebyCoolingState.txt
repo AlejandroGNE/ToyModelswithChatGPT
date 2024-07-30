@@ -1,0 +1,25 @@
+Header: Generator Min Up Time by Cooling State
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	determines whether cooling states are considered for Min Up Time
+
+Paragraphs:
+Generator Min Up Time by Cooling State determines whether cooling states are considered for Min Up Time. That is, the minimum up time will be considered after the generator has reached min stable level.
+
+Example:
+
+Generator G1 takes 2 hours to reach Min Station Level for a hot start, 4 hours for a warm start, and 7 hours for a cold start. 
+		When Min Up Time by Cooling State is "Yes", the generator will operate at a minimum for 7 hours for a hot start, 9 hours for a warm start, and 12 hours for a cold start.
+		When Min Up Time by Cooling State is "No", the generator will operate at a minimum for 7 hours regardless of cooling state.  This represents the minimum time to reach min stable level plus 5 hours of min up time.
+
+See also:
+Lists:
+	- Generator Min
+              Up Time
+

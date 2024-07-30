@@ -1,0 +1,21 @@
+Header: Fuel Contract Quantity Week
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Total contract quantity in week
+
+Paragraphs:
+Sets the maximum availability of the Fuel in each simulated week under the Fuel Contract - see Quantity for examples.
+
+See also:
+Lists:
+	- Quantity Hour
+	- Quantity Day
+	- Quantity Month
+	- Quantity Year
+

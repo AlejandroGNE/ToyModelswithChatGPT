@@ -1,0 +1,19 @@
+Header: Generator Sync Cond Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid for synchronous condenser load
+
+Paragraphs:
+Generator Sync Cond Price Paid is the price paid per megawatt of synchronous condenser load ( Sync Cond Load ) and is calculated using the same methodology as Price Received but with Marginal Loss Factor applied inversely.
+
+See also:
+Lists:
+	- Generator Price Received
+	- Generator Pump Price Paid
+

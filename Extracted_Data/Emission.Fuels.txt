@@ -1,0 +1,11 @@
+Header: Emission Fuels
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of fuels that produce the emission
+
+Paragraphs:
+Emission Fuels is the set of Fuels that produce the emission. The rate of production is set by the Production Rate property.
+Lists:
+

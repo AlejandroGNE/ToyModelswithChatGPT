@@ -1,0 +1,21 @@
+Header: Transformer Discrete Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Planned reference direction capacity out of service
+
+Paragraphs:
+Transformer Discrete Maintenance is the
+          reference direction capacity out of service, as defined by the Units
+            Out and Outage Max Rating properties.
+
+See also:
+Lists:
+	- Transformer Discrete
+              Maintenance Back
+

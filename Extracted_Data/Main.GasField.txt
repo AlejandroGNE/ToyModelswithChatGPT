@@ -1,0 +1,51 @@
+Header: Gas Field Class
+
+Table Details:
+Description:	Field from which gas is extracted
+
+Paragraphs:
+See also Gas Field Property Reference for a
+          detailed list of properties for this class of object.
+
+See the Gas Modelling article
+          for details.
+
+"Gas Field" is a tract of land used for the purpose of extracting
+          natural gas from the ground and it is considered as the main source of
+          gas coming into our system. The obligatory connection of a "Gas Field"
+          object is with a " Gas Node ", while the
+          flow from there could take different directions.
+
+"Gas Field" can be toggled off or on within our system using the " Units " property. Additionally, an external injection of gas into the field
+          from external sources or loss of gas from leaks can be represented
+          with the use of " External Injection " property. In case of gas additions, the sign will be positive
+          whereas for leaks it will be negative.
+
+The production of gas can be limited in any interval with the use of
+          the " Max Production "
+          property, while a " Target " can be
+          set to reach with a penalty assigned " Target Penalty ". Penalty values are making the constraints soft and this gives the
+          flexibility to the algorithm to decide the most cost- efficient
+          approach to solve the problem.
+
+The maximum units of "Gas Fields" to be built through the Horizon can
+          be constrained from the " Max Units Built " property, while the maximum built number per year can be adjusted
+          by the " Max Unit Built in Year " property.
+
+Some of the most common reporting properties are the " Production " which is defined as the production of the Gas Field in TJ and the
+          " End Volume " which is defined as
+          the volume of gas in the field at the end of the period and is
+          calculated as: End Volume = Initial Volume - Production
+
+In order to create a cost curve at the gas field object the user needs
+          to use multiple bands at the "Production Cost" and " Production Volume " properties. The combination of these properties and the use of
+          different bands will give a cost curve.
+Lists:
+
+
+H2s:
+Production
+Constraints
+Expansion
+Reporting
+Gas Field Cost Curve

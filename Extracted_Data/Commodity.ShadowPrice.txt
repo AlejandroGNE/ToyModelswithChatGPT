@@ -1,0 +1,19 @@
+Header: Commodity Shadow Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of the Commodity from binding constraints
+
+Paragraphs:
+Commodity Shadow Price is the
+          dual variable value of Closing
+            Inventory i.e. it is the incremental value of one more
+          unit of the Commodity with respect to the objective
+            function (s).
+Lists:
+

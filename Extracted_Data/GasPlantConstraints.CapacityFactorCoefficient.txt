@@ -1,0 +1,15 @@
+Header: Gas Plant Constraints Capacity Factor Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Gas Plant capacity factor
+
+Paragraphs:
+Gas Plant Constraints Capacity Factor Coefficient is Coefficient of Gas Plant capacity factor.
+Lists:
+

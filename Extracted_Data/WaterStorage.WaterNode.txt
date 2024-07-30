@@ -1,0 +1,11 @@
+Header: Water Storage Water Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Water Node the Water Storage connects to
+
+Paragraphs:
+Water Storage Water Node is Water Node the Water Storage connects to.
+Lists:
+

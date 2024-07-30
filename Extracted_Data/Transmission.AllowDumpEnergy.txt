@@ -1,0 +1,20 @@
+Header: Transmission Allow Dump Energy
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Model Dump Energy in OPF
+
+Paragraphs:
+Transmission Allow Dump Energy is the master on/off switch for modelling of dump energy (excess generation). By default dump energy is allowed and will be invoked whenever a locational price for energy falls below the price of dump energy . Turning off this option will reduce the size of the simulation problem and improve performance, but will result in an infeasibility if constraints in the model require that energy be dumped. Such constraints include must-run constraints and other constraints that force generation in periods when the load is not sufficient to take up the generation.
+
+Please note:
+Lists:
+	- Dump energy is always modelled for regional or zonal simulation phase.
+	- Node dump energy is always modelled when there is market object modelled on it.
+	- Node dump energy is always modelled when it is price driven.
+	- Node dump energy is always modelled when it has negative load defined.
+	- Node dump energy is always modelled when it has fixed generation.
+	- Inclusion of dump energy variables can be controlled to the Node level using the Node Allow Dump Energy property.
+

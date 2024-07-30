@@ -1,0 +1,15 @@
+Header: Emission Removal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission removal
+
+Paragraphs:
+Emission Removal Cost is the cost of emission removed as a function of the Generators Removal Rate and Removal Cost .
+Lists:
+

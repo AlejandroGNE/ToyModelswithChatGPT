@@ -1,0 +1,20 @@
+Header: Zone Generation Capacity Curtailed
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of non-positive-priced generation curtailed.
+
+Paragraphs:
+Zone Generation Capacity Curtailed is the amount of No Cost Generation Capacity curtailed and is defined as:
+
+This output is useful for measuring the amount of renewables and other zero-cost generation that are curtailed (turned down) in order to avoid dumping generation.
+
+See also:
+Lists:
+	- Zone Dump Energy
+

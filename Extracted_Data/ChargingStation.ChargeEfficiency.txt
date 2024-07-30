@@ -1,0 +1,17 @@
+Header: Charging Station Charge Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of charging
+
+Paragraphs:
+Charging Stations Charge
+          Efficiency is the ratio of energy delivered to Vehicles to the load on the grid i.e. including any losses such as
+          inverter losses.
+Lists:
+

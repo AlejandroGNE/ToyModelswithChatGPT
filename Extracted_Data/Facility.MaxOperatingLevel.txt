@@ -1,0 +1,24 @@
+Header: Facility Max Operating Level
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum unit operating capacity
+
+Paragraphs:
+Facility Max Operating Level
+          defines the nominal Production capacity of each unit at the facility. Together with Units this defines the Installed
+            Capacity of the facility. The Unit of Max Operating Level is controlled by the Facility Capacity Basis setting and
+          is either based on the Primary
+            Output or Primary Input Commodity of the Primary
+            Process performed by the facility.
+
+See also:
+Lists:
+	- Facility Max
+              Production
+

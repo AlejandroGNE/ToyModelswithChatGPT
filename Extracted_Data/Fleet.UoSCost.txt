@@ -1,0 +1,15 @@
+Header: Fleet UoS Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total use of system cost
+
+Paragraphs:
+Fleet UoS Cost is the total use of system cost.
+Lists:
+

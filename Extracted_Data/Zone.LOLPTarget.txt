@@ -1,0 +1,19 @@
+Header: Zone LOLP Target
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Loss of Load Probability target for this zone
+
+Paragraphs:
+Zone LOLP Target sets a upper bound on the Loss of Load Probability (for each period, i.e., LDC block) in the Zone in LT Plan . The expansion solution will attempt to meet the required LOLP Target by new builds and/or restricting plant retirements. The constraint is only statistically satisfied, i.e., the LOLP in the solution can be a little higher or lower than the set target in the zone. It should be noted that the constraint might be not accurate for very small systems (the number of generating units in service < 20) and systems having a few large units or having large share of units with high forced outage rates. Therefore, in order to correct the deviations, we will run another one or two optimizations (the results then will be acceptable even for aforementioned cases).
+
+See also:
+Lists:
+	- Region LOLP Target
+	- Reserve Regions LOLP Target
+

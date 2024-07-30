@@ -1,0 +1,15 @@
+Header: Gas Node Max Terminal Limit
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of Gas Transports delivering to a Gas Node.
+
+Paragraphs:
+Gas Node Max Terminal Limit sets a limit on the maximum number of Gas Transports that can simultaneously deliver gas to a Gas Node.
+Lists:
+

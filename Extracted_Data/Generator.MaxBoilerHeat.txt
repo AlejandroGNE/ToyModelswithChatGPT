@@ -1,0 +1,15 @@
+Header: Generator Max Boiler Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum heat production from ancillary boiler
+
+Paragraphs:
+Generator Max Boiler Heat is the maximum heat production from ancillary boiler.
+Lists:
+

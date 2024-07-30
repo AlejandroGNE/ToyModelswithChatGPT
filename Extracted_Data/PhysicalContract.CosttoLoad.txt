@@ -1,0 +1,17 @@
+Header: Physical Contract Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Mark-to-market cost to load (Price Received × Load)
+
+Paragraphs:
+Physical Contract Cost to Load is defined as:
+
+where:
+Lists:
+

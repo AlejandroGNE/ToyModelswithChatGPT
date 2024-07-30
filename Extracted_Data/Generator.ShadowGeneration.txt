@@ -1,0 +1,23 @@
+Header: Generator Shadow Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation before mark-up models.
+
+Paragraphs:
+Generator Shadow Generation is the Generation prior to calculation of Uplift and before any mark-ups are added by the automated bidding algorithms like RSI .
+
+See also:
+Lists:
+	- Region Shadow Price
+	- Region Shadow Cost to Load
+	- Region Uplift Enabled
+	- Region Price Cost Mark-up
+	- Generator Shadow Pool Revenue
+	- Generator Shadow Price Received
+

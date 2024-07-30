@@ -1,0 +1,11 @@
+Header: Message 55
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	License feature <name> is required but not available.
+
+Paragraphs:
+Message 55 indicates that a feature you have selected for you simulation requires additional licence file permissions. The required feature is specified in the message. For example your solver licence might not include mixed integer programming but your data and/or simulation setting might require it.
+Lists:
+

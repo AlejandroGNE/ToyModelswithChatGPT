@@ -1,0 +1,11 @@
+Header: Gas Capacity Release Offer Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Capacity Release Offer inherits from
+
+Paragraphs:
+Gas Capacity Release Offer Template is template the Gas Capacity Release Offer inherits from
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Performance Maximum Monitored MIP Iterations
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	Any Value
+Description:	Maximum number of monitored row/column iterations with MIP enabled
+
+Paragraphs:
+Performance Max Monitored MIP
+          Iterations sets a limit on the number of iterations of checking and
+          enforcing 'monitored' elements i.e those that are not formulated
+          'upfront' such  transmission limits and generic constraints.
+          These constraints are enforced in two passes:
+
+This setting limits the number of iterations in that second phase i.e. those with integer constraints enforced. In very large-scale models,
+          significant time can be saved by limiting the integer iterations,
+          however, the solution might not be fully converged - there might be
+          some constraint violations remaining unresolved.
+
+See also:
+Lists:
+	- Performance Monitoring
+              Maximum Threads
+

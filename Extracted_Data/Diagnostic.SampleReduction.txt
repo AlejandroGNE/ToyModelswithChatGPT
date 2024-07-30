@@ -1,0 +1,14 @@
+Header: Diagnostic Sample Reduction
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for reduced sample periods and periods mapping by sampled chronology.
+
+Paragraphs:
+This option produces a diagnostic file in CSV format that reports the periods of reduced samples and mapping of samples to reduced samples, 
+		  based on the sampled chronology settings in LT Plan or MT Schedule phase.
+          This diagnostic file after renaming can be read as an input for Global Sampling File property.
+Lists:
+

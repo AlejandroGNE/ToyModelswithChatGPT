@@ -1,0 +1,11 @@
+Header: Abatement Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Abatement inherits from
+
+Paragraphs:
+Abatement Template is the template from which the Abatement is inherited.
+Lists:
+

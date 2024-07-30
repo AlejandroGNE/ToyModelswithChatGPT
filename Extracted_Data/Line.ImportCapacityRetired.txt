@@ -1,0 +1,19 @@
+Header: Line Import Capacity Retired
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Import capacity lost to retirements
+
+Paragraphs:
+Line Import Capacity Retired is the import capacity lost to retirements, and is calculated as:
+
+See also:
+Lists:
+	- Line Export Capacity Retired
+	- Line Import Capacity Built
+

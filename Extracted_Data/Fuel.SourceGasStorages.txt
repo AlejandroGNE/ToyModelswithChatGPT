@@ -1,0 +1,11 @@
+Header: Fuel Source Gas Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Fuel has Source Gas Storages which deliver gas to the Fuel.
+Lists:
+

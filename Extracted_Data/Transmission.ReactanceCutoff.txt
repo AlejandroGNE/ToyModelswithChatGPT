@@ -1,0 +1,12 @@
+Header: Transmission Reactance Cut-off
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Smallest allowable reactance when performing OPF.
+
+Paragraphs:
+Transmission Reactance Cut-off sets the branch reactance to a trivial number 1E-6 when input value is below this threshold or below 1E-6 p.u..
+Lists:
+

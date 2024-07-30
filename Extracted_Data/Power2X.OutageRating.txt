@@ -1,0 +1,15 @@
+Header: Power2X Outage Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit rating during outage
+
+Paragraphs:
+Power2X Outage Rating is the Unit rating during outage.
+Lists:
+

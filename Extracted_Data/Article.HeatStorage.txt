@@ -1,0 +1,33 @@
+Header: Heat Storage
+
+Table Details:
+Max Heat	GJ	Maximum heat allowed in storage (key property)
+Min Heat	GJ	Heat that must be maintained in storage
+Opening Heat	GJ	Initial heat in storage (beginning of Horizon)
+Heat Withdrawal Charge	$/GJ	Incremental cost of withdrawing heat from the storage
+Heat Injection Charge	$/GJ	Incremental cost of injecting heat into the storage
+Max/Min Heat Withdrawal	GJ/TJ	Limits on injecting heat over interval/hour/day/week/month/year
+Max/Min Heat Injection	GJ/TJ	Limits on injecting heat over interval/hour/day/week/month/year
+Heat Loss	%	Hourly rate of heat loss from heat storage
+Units	1	-	1
+Max Capacity	100	MW	1
+Min Stable Level	1	MW	1
+Heat Rate	1	GJ/MWh	1
+Power to Heat Ratio	3.6	-	1
+
+Paragraphs:
+This article describes modelling of heat storage and electric boilers. The reader should be familiar with the article Combined Heat and Power .
+
+CHP generators can be configured to store heat. The heat can therefore be produced at times of low electrical cost, e.g. during periods of high wind generation, and stored until a time when it is needed. The key property Max Heat must be defined for the simulator to set up the heat storage capability of the Generator. Opening Heat defines the amount of heat in storage at the beginning of the simulation horizon. Heat loss from the storage is defined with the Heat Loss property expressed in percentage per hour. Table 1 lists all heat storage related properties.
+
+Table 1: Heat Storage Properties
+
+An electric boiler is a type of boiler where heat, e.g. in the form of steam, is generated using electricity, rather than through the combustion of a fuel. Electric boilers can convert electrical energy to heat with almost 100% efficiency, but because boilers draw power from the grid their true efficiency is a function of the overall grid production efficiency. Hence electric boilers may be economic as heat sources at times of very low electric price, especially if the heat can be stored for later use. An electric boiler can be created in the simulator by defining an "anti-generator". This is a generator whose Generation acts as a load on the system instead of providing power. To define an anti-generator you set the property Generator Nodes Generation Participation Factor to a negative value (-1). The following basic properties will then define the boiler as a type of CHP where conversion of the electricity to heat is 100%:
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+2. Heat Storage
+3. Electric Boilers

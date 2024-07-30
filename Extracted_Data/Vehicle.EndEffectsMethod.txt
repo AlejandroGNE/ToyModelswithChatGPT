@@ -1,0 +1,22 @@
+Header: Vehicle End Effects Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Method used to value or constrain end-of-period energy.
+
+Paragraphs:
+Vehicle End Effects Method describes the valuation of end-of-step energy within the optimization. Two options are given:
+
+Vehicle SoC must be formulated for any end effects treatment.
+                This property is therefore only valid with detailed Vehicle models (those defining energy storage properties such as Capacity and Efficiency ). Detailed and simple vehicle models are described in Vehicle .
+
+See also:
+Lists:
+	- Battery End Effects Method
+	- Storage End Effects Method
+

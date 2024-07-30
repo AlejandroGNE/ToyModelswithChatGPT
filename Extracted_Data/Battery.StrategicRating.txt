@@ -1,0 +1,15 @@
+Header: Battery Strategic Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generating unit rating for application in RSI capacity calculations
+
+Paragraphs:
+Battery Strategic Rating is the rating for battery's capacity to be accounted for in calculating the Region available capacity during the RSI bid-cost markup algorithm. See also Generator Strategic Rating .
+Lists:
+

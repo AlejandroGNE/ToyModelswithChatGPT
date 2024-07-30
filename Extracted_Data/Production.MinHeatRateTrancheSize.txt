@@ -1,0 +1,25 @@
+Header: Production Min Heat Rate Tranche Size
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Minimum tranche size in fuel function piecewise linear approximation
+
+Paragraphs:
+Production Min Heat Rate Tranche
+          Size works in combination with Max
+            Heat Rate Tranches to limit the number of tranches used in the
+          piecewise linear approximation to Facility and Generator efficiency functions
+          (heat rate curves). Tranches are fitted up to Max
+            Heat Rate Tranches but only to the point that the smallest is at
+          least this minimum value in size.
+
+For example, if you set Max
+            Heat Rate Tranches = 10 and Min Heat Rate Tranche Size = 20 and
+          a Generator has Max Capacity = 100 and Min Stable Level = 20 then with all 10 tranches in use the first would be 20
+          representing Min Stable Level with the remainder being (100 - 20)/9 = 8.89 in size. Therefore the
+          tranche count will be automatically reduced to 5 with tranche sizes 20
+          (tranche 1) and 20 (tranches 2-5).
+Lists:
+

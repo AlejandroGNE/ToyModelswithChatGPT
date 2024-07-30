@@ -1,0 +1,13 @@
+Header: Message 221
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	There was an error writing the solution to the destination drive. The solution has been saved in the following location: <value>
+
+Paragraphs:
+Message 221 occurs in the following circumstances:
+
+If there was a problem compressing and moving the solution file to the destination solution folder. Instead, the compressed solution will be kept in the user's Temp folder.
+Lists:
+

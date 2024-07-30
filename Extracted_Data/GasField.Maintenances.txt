@@ -1,0 +1,11 @@
+Header: Gas Field Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the gas field
+
+Paragraphs:
+Gas Field Maintenances is set of maintenance events on the gas field
+Lists:
+

@@ -1,0 +1,14 @@
+Header: Pool ORDC Reserves
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Specifies Raise and Operational Reserves for ORDC calculations
+
+Paragraphs:
+Pool ORDC Reserves specifies the Raise and Operational Reserves for ORDC calculations.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

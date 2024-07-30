@@ -1,0 +1,15 @@
+Header: Emission Markets Net Purchases
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net purchases from the market
+
+Paragraphs:
+Emission Markets Net Purchases is Net purchases from the market.
+Lists:
+

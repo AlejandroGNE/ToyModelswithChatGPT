@@ -1,0 +1,18 @@
+Header: Gas Contract Renomination Start Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	User defined renomination windows for Base Gas Contracts
+
+Paragraphs:
+By default, Base Gas Contracts renominate on a calendar month basis (subject to the Min Days Between Renomination and Max Renomination inputs). Gas Contract Renomination Start Period is used to override the default renomination window with a user defined window.
+
+The interval where the user specifies Is a Start Period, indicates the start of a new window. Default value is Not a Start Period. So the user only needs to specify the starts of the windows.
+In below example, Base Contract windows are 1st day of Jan, Apr, May, Aug of 2020.
+Lists:
+

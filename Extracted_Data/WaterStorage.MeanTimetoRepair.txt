@@ -1,0 +1,21 @@
+Header: Water Storage Mean Time to Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	No
+Description:	Mean time to repair
+
+Paragraphs:
+Water Storage Mean Time to Repair is used as the location parameter for many of the functions used to generate the duration of outages. See Generator Mean Time to Repair for details. This is a Beta feature.
+
+See also:
+Lists:
+	- Water Storage Min Time to Repair
+	- Water Storage Max Time to Repair
+	- Water Storage Repair Time Scale
+	- Water Storage Repair Time Shape
+

@@ -1,0 +1,15 @@
+Header: Region Balancing Area Interchange Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial exports from the region.
+
+Paragraphs:
+Region Balancing Area Interchange Exports is the total financial exports from the Region to other regions.
+Lists:
+

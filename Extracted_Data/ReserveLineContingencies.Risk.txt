@@ -1,0 +1,18 @@
+Header: Reserve Line Contingencies Risk
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of Line contingency to Risk.
+
+Paragraphs:
+Reserve Line Contingencies Risk is the contribution of Line Flow to the dynamic Risk .
+
+See also:
+Lists:
+	- Reserve Line Contingencies Shadow Price
+

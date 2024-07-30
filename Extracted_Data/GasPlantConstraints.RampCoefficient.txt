@@ -1,0 +1,15 @@
+Header: Gas Plant Constraints Ramp Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in gas production in the constraint
+
+Paragraphs:
+Gas Plant Constraints Ramp Coefficient is Coefficient of change in gas production in the constraint.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Pipeline Roughness
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	150
+Validation Rule:	≥0
+Key Property:	No
+Description:	Water Pipeline roughness constant
+
+Paragraphs:
+Water Pipeline Roughness is Water Pipeline roughness constant.
+Lists:
+

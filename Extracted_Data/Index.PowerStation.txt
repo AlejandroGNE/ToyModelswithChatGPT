@@ -1,0 +1,18 @@
+Header: Power Station Index
+
+Table Details:
+Is Enabled	Yes/No	False	-1	In (0,-1)	True	Flag if the Power Station is enabled
+Generation Participation Factor	-	False	1	Between 0 And 1	False	Proportion of generator load injected at the node
+
+Paragraphs:
+Power Station Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Is Enabled Yes/No False -1 In (0,-1) True Flag if the Power Station is enabled Power Station Nodes Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Generation Participation Factor - False 1 Between 0 And 1 False Proportion of generator load injected at the node
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Is Enabled Yes/No False -1 In (0,-1) True Flag if the Power Station is enabled Power Station Nodes Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Generation Participation Factor - False 1 Between 0 And 1 False Proportion of generator load injected at the node
+
+Power Station Nodes Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Generation Participation Factor - False 1 Between 0 And 1 False Proportion of generator load injected at the node
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Generation Participation Factor - False 1 Between 0 And 1 False Proportion of generator load injected at the node
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Generation Participation Factor - False 1 Between 0 And 1 False Proportion of generator load injected at the node
+Lists:
+

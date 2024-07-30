@@ -1,0 +1,13 @@
+Header: Transmission Class
+
+Table Details:
+Description:	Transmission settings
+
+Paragraphs:
+See also Transmission Property Reference for a detailed list of properties for this class of
+          object.
+
+Transmission objects control various settings related to the modelling of the transmission system such as the style and
+        scope of the OPF Algorithm . To apply a Transmission object to your Model add it to the Model's Transmission collection.
+Lists:
+

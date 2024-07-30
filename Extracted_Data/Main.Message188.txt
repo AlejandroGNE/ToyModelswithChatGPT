@@ -1,0 +1,11 @@
+Header: Message 188
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	ST Schedule Stochastic Method and LT Plan Stochastic Method must both be set to "Deterministic" if either setting is "Deterministic".
+
+Paragraphs:
+Message 188 occurs in the following circumstances:
+Lists:
+

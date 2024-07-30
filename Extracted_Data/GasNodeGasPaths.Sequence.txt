@@ -1,0 +1,15 @@
+Header: Gas Node Gas Paths Sequence
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Sequence number of the Gas node in the Gas path
+
+Paragraphs:
+Gas Node Gas Paths Sequence is Sequence number of the Gas node in the Gas path.
+Lists:
+

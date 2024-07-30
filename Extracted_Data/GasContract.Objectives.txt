@@ -1,0 +1,11 @@
+Header: Gas Contract Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Gas Contract
+
+Paragraphs:
+Gas Contract Objectives is set of Objectives on the Gas Contract
+Lists:
+

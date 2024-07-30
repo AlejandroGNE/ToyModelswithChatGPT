@@ -1,0 +1,28 @@
+Header: Generator Min Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically retired in aggregate over the planning horizon
+
+Paragraphs:
+Generator Min Units Retired is sets a lower bound on the number of units automatically retired in LT Plan . 
+            This bound is applied either at the end of the horizon (static input) or throughout the horizon (dynamic input) as follows:
+
+Static input (one value over the horizon, i.e. no Date To, Date From): the lower bound is applied to the last capacity optimisation period of the last step.
+                    The given number of units are retired in aggregate by the end of the planning horizon. Dynamic input (different values over the horizon, e.g. via Date To/Date From): the lower bound on retirements is applied to every capacity optimisation 
+                    period ( LT Plan Discount Period i.e. year).
+
+See also:
+Lists:
+	- Static input (one value over the horizon, i.e. no Date To, Date From): the lower bound is applied to the last capacity optimisation period of the last step.
+                    The given number of units are retired in aggregate by the end of the planning horizon.
+	- Dynamic input (different values over the horizon, e.g. via Date To/Date From): the lower bound on retirements is applied to every capacity optimisation 
+                    period ( LT Plan Discount Period i.e. year).
+	- Generator Max Units Retired
+	- Generator Min Units Retired in Year
+

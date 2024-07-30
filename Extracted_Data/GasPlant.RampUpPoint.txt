@@ -1,0 +1,15 @@
+Header: Gas Plant Ramp Up Point
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Gas production point for use with multi-band Max Ramp Up constraints
+
+Paragraphs:
+Gas Plant Ramp Up Point is Gas production point for use with multi-band Max Ramp Up constraints.
+Lists:
+

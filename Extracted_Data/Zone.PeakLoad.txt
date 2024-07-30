@@ -1,0 +1,23 @@
+Header: Zone Peak Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak load across the current period
+
+Paragraphs:
+Zone Peak Load is the maximum value of input Load across all intervals in the period.
+
+For example, if Partial Chronology maps three intervals with loads 10MW, 20MW and 30MW to a single LDC, the block
+            Peak Load is 30MW. In Full Chronology ST Schedule , each interval is modelled directly, so the input Zone Load is summed over all bands and reflected in this property.
+
+See also:
+Lists:
+	- Zone Generation Capacity
+	- Zone Planning Peak Load
+	- Zone Capacity Reserves
+

@@ -1,0 +1,19 @@
+Header: Waterway Constraints Ramp Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in waterway flow.
+
+Paragraphs:
+Waterway Constraints Ramp coefficient is the left-hand
+          side coefficient of the change in Flow in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

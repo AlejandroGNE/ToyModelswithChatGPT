@@ -1,0 +1,15 @@
+Header: Emission Gas Nodes Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net production of the emission
+
+Paragraphs:
+Emission Gas Nodes Production is Net production of the emission from the gas node as a result of processing activities at the gas node.
+Lists:
+

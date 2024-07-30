@@ -1,0 +1,50 @@
+Header: Licensing: LicenseServer-AccessListTabConnect
+
+Table Details:
+
+Paragraphs:
+The license access list is used to block troublesome users from accessing licenses from the license server.
+
+When a banned computer requests a license, the license server will refuse the request and save a record of the request to the event log (if event logging is enabled).
+
+The access list has two different modes, clicking on the radio buttons in the section "Mode" will change the mode of the access list.
+
+Each access rule can be enabled or disabled by checking the checkbox next to the rule. Disabling a rule will make the rule no longer apply without needing to delete it. By default, it is set to "Ban these". To remove any rule, select one or more rules and right click, then select "Delete" from the context menu.
+
+Adding a new access rule Under "Add New", you'll be able to add any computer to the access list. You will need to specify the computer name or IP and a reason. Machine: you need to enter either the machine's name or a valid IP rule ( see allowed IP addresses ). If IP addresses are assigned dynamically, it is recommended to add machines by name instead of IP address. Reason: You are required to give a reason for adding the machine to the list, this is helpful for other people or for later reference. Note: Only machine names or IP addresses will work and not domain names. Editing an access rule You are able to edit any access rule by right clicking on a rule, and selecting "Edit" from the context menu. After selecting "Edit", the section named "Add Rule" will change to "Edit Rule" with the machine and reason text boxes automatically filled in.
+When your finished editing, you can either: Press "Edit Machine" button and the changes will be submittedOR Press "Cancel" and any changes will be discarded After pressing either button, the section "Edit Rule" will revert back to "New Rule" and the text boxes cleared. More Allowed IP address rules Licensing Main Menu
+
+Under "Add New", you'll be able to add any computer to the access list. You will need to specify the computer name or IP and a reason. Machine: you need to enter either the machine's name or a valid IP rule ( see allowed IP addresses ). If IP addresses are assigned dynamically, it is recommended to add machines by name instead of IP address. Reason: You are required to give a reason for adding the machine to the list, this is helpful for other people or for later reference. Note: Only machine names or IP addresses will work and not domain names. Editing an access rule You are able to edit any access rule by right clicking on a rule, and selecting "Edit" from the context menu. After selecting "Edit", the section named "Add Rule" will change to "Edit Rule" with the machine and reason text boxes automatically filled in.
+When your finished editing, you can either: Press "Edit Machine" button and the changes will be submittedOR Press "Cancel" and any changes will be discarded After pressing either button, the section "Edit Rule" will revert back to "New Rule" and the text boxes cleared. More Allowed IP address rules Licensing Main Menu
+
+Under "Add New", you'll be able to add any computer to the access list.
+
+You will need to specify the computer name or IP and a reason.
+
+
+
+Editing an access rule You are able to edit any access rule by right clicking on a rule, and selecting "Edit" from the context menu. After selecting "Edit", the section named "Add Rule" will change to "Edit Rule" with the machine and reason text boxes automatically filled in.
+When your finished editing, you can either: Press "Edit Machine" button and the changes will be submittedOR Press "Cancel" and any changes will be discarded After pressing either button, the section "Edit Rule" will revert back to "New Rule" and the text boxes cleared. More Allowed IP address rules Licensing Main Menu
+
+You are able to edit any access rule by right clicking on a rule, and selecting "Edit" from the context menu. After selecting "Edit", the section named "Add Rule" will change to "Edit Rule" with the machine and reason text boxes automatically filled in.
+When your finished editing, you can either: Press "Edit Machine" button and the changes will be submittedOR Press "Cancel" and any changes will be discarded After pressing either button, the section "Edit Rule" will revert back to "New Rule" and the text boxes cleared. More Allowed IP address rules Licensing Main Menu
+
+You are able to edit any access rule by right clicking on a rule, and selecting "Edit" from the context menu. After selecting "Edit", the section named "Add Rule" will change to "Edit Rule" with the machine and reason text boxes automatically filled in.
+When your finished editing, you can either:
+
+After pressing either button, the section "Edit Rule" will revert back to "New Rule" and the text boxes cleared.
+
+More Allowed IP address rules Licensing Main Menu
+
+Allowed IP address rules Licensing Main Menu
+Lists:
+	- Press "Edit Machine" button and the changes will be submittedOR
+	- Press "Cancel" and any changes will be discarded
+	- Allowed IP address rules
+	- Licensing Main Menu
+
+
+H2s:
+Adding a new access rule
+Editing an access rule
+More

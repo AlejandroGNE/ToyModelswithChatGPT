@@ -1,0 +1,23 @@
+Header: Vehicle Distance
+
+Table Details:
+Units:	km (Metric), m (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Distance travelled
+
+Paragraphs:
+Vehicle Distance is the distance
+          travelled by the vehicle. If Fixed Load is defined, then the
+          distance is calculated as follows:
+
+Distance = Units x 1000 x Fixed Load / Efficiency
+
+Otherwise, if Demand is defined then it is calculated as follows:
+
+Distance = Units x Demand x Interval Length (in Hours).
+Lists:
+

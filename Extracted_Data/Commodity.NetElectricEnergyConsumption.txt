@@ -1,0 +1,20 @@
+Header: Commodity Net Electric Energy Consumption
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net equivalent electric energy consumption
+
+Paragraphs:
+Commodity Net Electric Energy
+          Consumption is defined as:
+
+Net Electric Energy Consumption = Electric Energy
+            Consumption - Electric
+            Energy Production
+Lists:
+

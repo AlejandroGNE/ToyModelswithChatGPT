@@ -1,0 +1,11 @@
+Header: Message 81
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> Start Cost Time must have same number of bands as Generator Start Cost and Generator Start Fuels Offtake at Start if defined.
+
+Paragraphs:
+Message 81 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Objectives Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of region load
+
+Paragraphs:
+Region Objectives Load Coefficient is Coefficient of region load.
+Lists:
+

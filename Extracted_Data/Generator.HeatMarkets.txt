@@ -1,0 +1,11 @@
+Header: Generator Heat Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of markets the generator sell heat-based products into
+
+Paragraphs:
+Generator Heat Markets is set of markets the generator sell heat-based products into
+Lists:
+

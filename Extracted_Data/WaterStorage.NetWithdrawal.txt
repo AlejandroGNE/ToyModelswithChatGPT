@@ -1,0 +1,15 @@
+Header: Water Storage Net Withdrawal
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of withdrawal and injection
+
+Paragraphs:
+Water Storage Net Withdrawal is calculated as:
+Lists:
+

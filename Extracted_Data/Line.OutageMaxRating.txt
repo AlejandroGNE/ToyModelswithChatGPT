@@ -1,0 +1,15 @@
+Header: Line Outage Max Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Line rating in the reference direction during outage
+
+Paragraphs:
+Line Outage Max Rating is the line equivalent of Generator Outage Rating .
+Lists:
+

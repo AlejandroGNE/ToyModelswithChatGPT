@@ -1,0 +1,21 @@
+Header: Charging Station Hours Deferred
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average hours load is deferred in the period
+
+Paragraphs:
+Charging Station Hours
+          Deferred is the number hours that charging load is deferred in the
+          reporting period.
+
+See also:
+Lists:
+	- Charging Station Deferred
+              Load
+

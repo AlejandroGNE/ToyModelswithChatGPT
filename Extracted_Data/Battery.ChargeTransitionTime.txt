@@ -1,0 +1,21 @@
+Header: Battery Charge Transition Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time between operating in charge mode and discharge mode
+
+Paragraphs:
+Battery Charge Transition Time sets
+          the minimum time between operating in charge mode and discharge mode.
+          By default, the battery can switch between modes from one interval to
+          the next.
+
+See Battery Discharge
+            Transition Time for an example.
+Lists:
+

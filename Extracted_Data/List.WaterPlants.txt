@@ -1,0 +1,11 @@
+Header: List Water Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Plant objects in the List
+
+Paragraphs:
+List Water Plants is set of Water Plant objects in the List
+Lists:
+

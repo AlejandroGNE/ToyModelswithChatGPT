@@ -1,0 +1,22 @@
+Header: Flow Path Objectives Flow Back Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Flow Path flow at the sending node
+
+Paragraphs:
+Flow Path Objectives Flow Back Coefficient sets the coefficient of Flow
+            Back in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+... + c (z,j) × Flow
+            Path Flow Back ...
+Lists:
+

@@ -1,0 +1,36 @@
+Header: Heat Plant Max Ramp Up
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp up rate
+Units	1	-
+Max Capacity	100	GJ
+Min Stable Level	40	GJ
+Fuel Price	5	$/GJ
+Heat Rate	10	GJ/GJ
+Max Ramp Up	0.5	GJ/hour
+Max Ramp Down	0.5	GJ/hour.
+
+Paragraphs:
+heat plant Max Ramp Up sets a limit on the amount that generation can increase and is expressed as the maximum ramp up rate in megawatts per minute. This limit applies for Heat production ranges between Min Stable Level and Max Capacity .
+
+For multi-unit generating stations the available ramp up is defined as:
+
+By default the ramping limit is a hard constraint meaning that no violation is allowed.
+
+Example:
+
+To model the running up period where HeatProduction is between zero and Min Stable Level use either the Start Profile or Run Up Rate properties.
+
+Related reporting properties:
+
+See also:
+Lists:
+	- heat plant Ramp
+	- heat plant Max Ramp Down
+

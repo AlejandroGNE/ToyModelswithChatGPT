@@ -1,0 +1,15 @@
+Header: Generator Rating Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of Rating constraint
+
+Paragraphs:
+Generator Rating Violation is the amount the Rating constraint was violated.
+Lists:
+

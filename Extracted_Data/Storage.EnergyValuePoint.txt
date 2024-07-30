@@ -1,0 +1,18 @@
+Header: Storage Energy Value Point
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Energy associated with [Energy Value] in multiple bands
+
+Paragraphs:
+Storage Energy Value Point is the
+          energy equivalent storage level associated with Energy
+            Value in multiple bands. See Water
+            Value for details.
+Lists:
+

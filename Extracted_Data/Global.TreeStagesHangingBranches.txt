@@ -1,0 +1,55 @@
+Header: Global Tree Stages Hanging Branches
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scenario Tree: Number of hanging branches in each stage
+Tree Period Type	Week (2)	-	1
+Tree Stages Position	2	-	1
+Tree Stages Position	15	-	2
+Tree Stages Position	30	-	3
+Tree Stages Leaves	2	-	1
+Tree Stages Leaves	2	-	2
+Tree Stages Leaves	2	-	3
+Tree Stages Hanging Branches	2	-	1
+Tree Stages Hanging Branches	1	-	2
+Tree Stages Hanging Branches	2	-	3
+
+Paragraphs:
+Global Tree Stages Hanging Branches
+          controls the number of hanging branches in each stage of the Scenario
+          Tree.
+
+A hanging branch represents a scenario that begins at a given stage
+          and continues to the end of the horizon without ever branching
+          further. Hanging branches are scenarios in the simulation but do not
+          appear in the reported output.
+
+Note that, when using hanging branches you must keep the same number
+          of full branches at each stage, as defined by the Tree
+            Stage Leaves property.Also note that for simple trees you need
+          only specify the number of hanging branches in Band=1 and it will be
+          repeated to all stages.
+
+For the example in Table 1, the Stochastic Risk Sample Count is 12
+          and a 4-stage Scenario Tree is constructed with two full branches
+          (these appear in the reported solution) and a total of 10 hanging
+          branches. There are two hanging branches per full branch in stage one,
+          one in stage two, and two again in stage three. This is illustrated in
+          Figure 1.
+
+See also:
+Lists:
+	- Global Tree
+              Stage Count
+	- Global Tree
+              Period Type
+	- Global Tree
+              Stages Position
+	- Global Tree
+              Stages Leaves
+

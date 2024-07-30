@@ -1,0 +1,15 @@
+Header: Battery Objectives Age Coefficient
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of years since the expansion candidate was built
+
+Paragraphs:
+Battery Objectives Age Coefficient is Coefficient on the number of years since the expansion candidate was built.
+Lists:
+

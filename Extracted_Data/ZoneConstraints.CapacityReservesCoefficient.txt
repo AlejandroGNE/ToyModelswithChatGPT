@@ -1,0 +1,27 @@
+Header: Zone Constraints Capacity Reserves Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total capacity reserves
+
+Paragraphs:
+Zone Constraints Capacity Reserves Coefficient is coefficient of total Zone Capacity Reserves in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Region Constraints Capacity
+              Reserves Coefficient
+	- Zone Min
+              Capacity Reserves
+	- Zone Max
+              Capacity Reserves
+

@@ -1,0 +1,64 @@
+Header: Generator Generation Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+Generator	Property	Value	Units
+A	Units	1	-
+A	Max Capacity	200	MW
+A	Generation Non-anticipativity	-1	$
+A	Generation Non-anticipativity Time	12	h
+B	Units	1	-
+B	Max Capacity	100	MW
+B	Generation Non-anticipativity	10000	$
+
+Paragraphs:
+Generator Generation
+          Non-anticipativity applies to multi-sample simulations with the Stochastic
+            Method "Stochastic" i.e. stochastic optimization
+          using scenario-wise decomposition. It is used to identify the
+          non-anticipative Generation decisions, and can optionally be set in combination with Generation
+            Non-anticipativity Time .
+
+For all stochastic optimization problems, except SDDP ,
+          defining the property adds the following constraints to the
+          formulation:
+
+Generation ( s , t ) = Generation ( s +1, t ) ∀ s < S
+
+where: s is the sample number S = Stochastic Risk Sample Count
+
+The property is commonly used in medium or long-term Rolling
+            Horizon models to ensure that generation decisions do not
+          anticipate future information e.g. hydro inflows. Note that
+          is generally not necessary to define this for the SDDP stochastic algorithm.
+
+
+
+For the example in Table 1 Generator "A" Generation is a
+          non-anticipative (or first-stage in a two-stage stochastic
+          optimization) decision for the first 12 hours and a recourse
+          (second-stage) decision after that time, whereas Generator "B" is a
+          non-anticipative decision for all periods but with a penalty of
+          $10,000 if the constraint is violated.
+
+See also:
+Lists:
+	- Generator Unit
+              Commitment Non-anticipativity
+	- Generator Pump
+              Unit Commitment Non-anticipativity
+	- Generator Pump
+              Load Non-anticipativity
+	- Storage Trajectory
+              Non-anticipativity
+	- Line Flow
+              Non-anticipativity
+	- Interface Flow
+              Non-anticipativity
+

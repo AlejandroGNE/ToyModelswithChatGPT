@@ -1,0 +1,16 @@
+Header: Transmission USE Threshold
+
+Table Details:
+Units:	%
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Description:	Formulates the [Unserved Energy] variables on the top x% nodes (highest load).
+
+Paragraphs:
+Transmission USE Threshold works in conjunction with the Allow Unserved Energy setting. When that setting is enabled Unserved Energy is allowed at a unit cost of Internal VoLL per megawatt hour. USE Threshold determines the set of Node objects at which unserved energy is allowed. By default it is allowed at any node that participates in Load .
+
+In large-scale system modelling the addition of unserved energy in the formulation increases the size of the optimization problem because these terms are included in every transmission constraint (since the decision to not meet load can be a valid way to relieve and constraint). Thus if you reduce the number of nodes at which unserved energy is allowed the optimization problem size will be reduced and performance improved. The issue with reducing the number of nodes in the unserved energy set is that your problem might become infeasible if unserved energy is truly required at a node where unserved energy is not allowed.
+
+The USE Threshold is a percentage. The default value of 100% means that all load nodes get unserved energy formulated. A value of 90% would mean that the nodes with the highest 90% of loads get unserved energy formulated, likewise 10% means only the nodes with the 10% highest loads get unserved energy formulated.
+Lists:
+

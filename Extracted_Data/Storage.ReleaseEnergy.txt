@@ -1,0 +1,15 @@
+Header: Storage Release Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of releases
+
+Paragraphs:
+Storage Release Energy is Potential energy of releases.
+Lists:
+

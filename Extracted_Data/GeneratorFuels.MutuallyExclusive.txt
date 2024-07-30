@@ -1,0 +1,21 @@
+Header: Generator Fuels Mutually Exclusive
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the Fuel cannot be mixed with other Fuels associated with this Generator.
+
+Paragraphs:
+Generator Fuels Mutually Exclusive is if the Fuel cannot be mixed with other Fuels associated with this Generator.
+
+Possible values:
+
+False= '0' Fuel can be used in combination with other fuels (default).
+
+True = '-1' Fuel has to be used exclusively for electricity and heat production.
+Lists:
+

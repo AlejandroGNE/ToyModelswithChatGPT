@@ -1,0 +1,12 @@
+Header: Flow Node Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Markets connected to the Flow Node
+
+Paragraphs:
+Flow Node Markets is the set of Market objects connected to the Flow
+          Node. These Markets trade the Commodity flowing in the Flow Network .
+Lists:
+

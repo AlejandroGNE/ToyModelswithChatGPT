@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total cost of fuel used
+
+Paragraphs:
+Heat plant Fuels Cost is the fuel bill for the given Heat plant and fuel membership, and is defined as:
+Lists:
+

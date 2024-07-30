@@ -1,0 +1,40 @@
+Header: Generator Units Generating
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units generating
+
+Paragraphs:
+This is the number of units generating i.e. that are
+          on-line and operating. A unit is counted as being 'online' once it has
+          been started and is generating above notional zero level i.e. this includes any run up/down period.
+
+For short-term modeling you can set the number of units generating in
+          the period immediately preceding the start of the simulation ( t =0)
+          using the property Initial
+            Units Generating , otherwise the optimization will freely choose
+          the initial commitment state of the units on/off depending on which is
+          best in terms of overall system cost.
+
+Units Generating will be a value between zero and the number of Units plus any Units Built (in LT Plan ) less any Units
+            Out .
+
+Integer values of Units Generating i.e. integer unit commitment is
+          enforced if:
+
+See also:
+Lists:
+	- Units Started
+	- Units Shutdown
+	- Dispatchable
+              Capacity
+	- Generation
+	- Operating Hours
+	- Run Up Rate
+	- Min Stable Level
+

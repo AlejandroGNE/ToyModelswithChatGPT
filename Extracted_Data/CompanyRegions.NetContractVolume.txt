@@ -1,0 +1,15 @@
+Header: Company Regions Net Contract Volume
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net volume on CfDs (generation - contract volume)
+
+Paragraphs:
+Company Regions Net Contract Volume is the net volume on CfDs (generation - contract volume).
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Run Down Rate
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ramp rate that applies while running the unit down from [Min Stable Level] to zero
+
+Paragraphs:
+Power2X Run Down Rate is Ramp rate that applies while running the unit down from [Min Stable Level] to zero.
+Lists:
+

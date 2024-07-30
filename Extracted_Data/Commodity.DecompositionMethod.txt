@@ -1,0 +1,55 @@
+Header: Commodity Decomposition Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Method used to pass the optimal inventory trajectory from one simulation phase to the next
+
+Paragraphs:
+Commodity Decomposition Method
+          controls the way the simulator decomposes the optimal LT
+            Plan or MT Schedule inventory profile (the sequence of Closing
+            Inventory values in time) down to ST
+            Schedule . Decomposition is generally required only for
+          inventories that are large enough that they do not attain their limits
+          within a single step of ST Schedule .
+          This switch takes the following values:
+
+where:
+
+The size of the bands is controlled by the following power function:
+
+where:
+Lists:
+	- For any method other than "None" and when using partial
+            chronology, it is preferred, but not required, that the LT
+              Plan LDC Type or MT
+              Schedule LDC Type is at
+            least the resolution of the Horizon Chrono Step Type e.g. if ST Schedule is running with
+            day-sized steps (look-ahead included) then the preceding phase
+            should use a day resolution. If the preceding phase runs a coarser
+            resolution such as week then the targets created could violate
+            inventory limits. To compensate for this resolution mismatch
+            penalties are introduced on the storage bounds according to the Decomposition
+              Bound Penalty property. This does not apply to chronological LT Plan or MT
+              Schedule .
+	- Decomposition Method = "Targets" creates a penalty function around
+            the decomposed profile so that variations are allowed in ST
+              Schedule without creating infeasibilities in the target
+            constraints. The penalty function is a piece-wise linear function
+            that penalizes under-reaching of the target but not over-reaching.
+            The function has 10 bands and the price in each band is based on a
+            multiple of the Shadow Price calculated in MT Schedule thus:
+	- a is Commodity Decomposition
+              Penalty a
+	- b is Commodity Decomposition
+              Penalty b
+	- c is Commodity Decomposition
+              Penalty c
+	- x is Commodity Decomposition
+              Penalty x
+

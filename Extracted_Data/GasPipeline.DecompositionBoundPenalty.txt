@@ -1,0 +1,15 @@
+Header: Gas Pipeline Decomposition Bound Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000000
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty applied to violation of storage bounds when the decomposition implies possible violations.
+
+Paragraphs:
+Gas Pipeline Decomposition Bound Penalty is the penalty applied to violation of Min Volume and Max Volume when the Decomposition Method implies possible violations.
+Lists:
+

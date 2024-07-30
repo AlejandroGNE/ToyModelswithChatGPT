@@ -1,0 +1,11 @@
+Header: Message 3233
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Global Sampling File has been entered, but file <value> cannot be found. Sample reduction will be performed automatically.
+
+Paragraphs:
+Message 3233 occurs in the following circumstances:
+Lists:
+

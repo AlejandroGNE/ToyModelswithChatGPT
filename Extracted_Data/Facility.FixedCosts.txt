@@ -1,0 +1,27 @@
+Header: Facility Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs including amortized build costs
+
+Paragraphs:
+Facility Fixed Costs is the total
+          fixed costs incurred by the facility in L LT
+            Plan . It is defined as:
+
+Fixed Costs = FO&M
+            Cost + Annualized
+            Build Cost
+
+See also:
+Lists:
+	- Facility Total
+              Cost
+	- Facility Net
+              Profit
+

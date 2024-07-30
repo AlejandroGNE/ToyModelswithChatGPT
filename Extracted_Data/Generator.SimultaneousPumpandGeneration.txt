@@ -1,0 +1,19 @@
+Header: Generator Simultaneous Pump and Generation
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Pumped storage can pump and generate simultaneously
+
+Paragraphs:
+If defined, Generator Simultaneous Pump and Generation overrides the global Production Pump and Generate setting. Simultaneous pumping and generating is allowed or prevented as specified.
+
+If preventing simultaneous pumping and generation, note that linear Unit Commitment Optimality will relax
+                the integer restrictions underpinning the prevention. Any unit commitment optimality except linear is therefore recommended when preventing
+                simultaneous pumping and generation. Unit commitment optimality can be defined at the Generator or globally via a Production object.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Companies Capacity Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from capacity payments to the generator
+
+Paragraphs:
+Generator Companies Capacity Revenue is defined as:
+Lists:
+

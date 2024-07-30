@@ -1,0 +1,11 @@
+Header: Gas Plant Output Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Gas Node the Gas Plant exports gas to
+
+Paragraphs:
+Gas Plant Output Node is Gas Node the Gas Plant exports gas to
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Performance MIP Start Solution
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	Between 0 And 2
+Description:	MIP solver will be warm started with previous solutions according to this setting.
+
+Paragraphs:
+Performance MIP Start Solution provides the initial solution for the MIP solver. The available options are:
+Lists:
+

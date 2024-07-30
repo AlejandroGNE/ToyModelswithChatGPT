@@ -1,0 +1,17 @@
+Header: Reserve Price Floor
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Floor on Reserve Price for settlement
+
+Paragraphs:
+Reserve Price Floor is the floor on Reserve Price for settlement. It sets a lower bound on the Price paid.
+
+See Price Cap for more details.
+Lists:
+

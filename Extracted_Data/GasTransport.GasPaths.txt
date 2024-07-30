@@ -1,0 +1,11 @@
+Header: Gas Transport Gas Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas paths that the gas transport can take
+
+Paragraphs:
+Gas Transport Gas Paths is set of gas paths that the gas transport can take
+Lists:
+

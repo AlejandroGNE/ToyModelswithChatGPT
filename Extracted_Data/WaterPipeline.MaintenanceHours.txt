@@ -1,0 +1,15 @@
+Header: Water Pipeline Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the pipeline is on maintenance
+
+Paragraphs:
+Water Pipeline Maintenance Hours is Number of hours the pipeline is on maintenance.
+Lists:
+

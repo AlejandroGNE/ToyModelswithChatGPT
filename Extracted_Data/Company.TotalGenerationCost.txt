@@ -1,0 +1,15 @@
+Header: Company Total Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of generation and start and shutdown costs and emissions costs
+
+Paragraphs:
+Company Total Generation Cost is defined as:
+Lists:
+

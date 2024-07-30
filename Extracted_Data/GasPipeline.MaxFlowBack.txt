@@ -1,0 +1,22 @@
+Header: Gas Pipeline Max Flow Back
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum quantity of gas that can be extracted from the pipeline sending node
+
+Paragraphs:
+Gas Pipeline Max Flow Back is the maximum quantity of gas that can be extracted from the pipeline sending node in any interval of the simulation. Only when Max Flow Back is defined, gas pipeline is modeled as bi-directional.
+
+For multi-period limits see the following properties:
+Lists:
+	- Gas Pipeline Max Flow Back Hour
+	- Gas Pipeline Max Flow Back Day
+	- Gas Pipeline Max Flow Back Week
+	- Gas Pipeline Max Flow Back Month
+	- Gas Pipeline Max Flow Back Year
+

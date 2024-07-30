@@ -1,0 +1,21 @@
+Header: Flow Node Objectives Units Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built
+
+Paragraphs:
+Flow Node Objectives Units Built Coefficient sets the coefficient of Units Built in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+... + c (z,j) × Flow
+            Node Units Built ...
+Lists:
+

@@ -1,0 +1,42 @@
+Header: Region Maintenance Factor
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maintenance factor
+Maintenance Factor	0	MW/MW	M01
+Maintenance Factor	0.6990	MW/MW	M02
+Maintenance Factor	1.2619	MW/MW	M03
+Maintenance Factor	1.3373	MW/MW	M04
+Maintenance Factor	1.4464	MW/MW	M05
+Maintenance Factor	0.7877	MW/MW	M06
+Maintenance Factor	0.9247	MW/MW	M07
+Maintenance Factor	1.2572	MW/MW	M08
+Maintenance Factor	1.4236	MW/MW	M09
+Maintenance Factor	1.5039	MW/MW	M10
+Maintenance Factor	1.3585	MW/MW	M11
+Maintenance Factor	0	MW/MW	M12
+
+Paragraphs:
+Region Maintenance Factor is the maintenance profiling factor used by PASA and LT Plan to 'shape' maintenance events into appropriate periods of high capacity reserves . The factor indicates the relative desirability of maintenance in any period with zero meaning 'undesirable', one being 'neutral', and values above one meaning 'desirable'. The PASA setting Maintenance Sculpting can be used to shape the maintenance events more aggressively into the high reserve periods.
+
+When used as an input you must ensure that the sum of Maintenance Factor across hours of a year sums precisely to the number of hours in the year, so that the average factor is unity; as in the following example of patterned input data. In this case no maintenance will occur in months January and December.
+
+NOTE: If your planning horizon is less than a year the factors need not average unity.
+
+As an output, Maintenance Factor reports the optimal values calculated by PASA as in the following example. The Maintenance Factor profile (secondary y -axis) is based on the inverse of the Capacity Reserves profile (primary y -axis).
+
+
+
+For LT Plan the reported Maintenance Factor is simply the normalized inverse of the Load profile.
+
+See also:
+Lists:
+	- Generator Maintenance
+	- Generator Discrete Maintenance
+	- Generator Distributed Maintenance
+

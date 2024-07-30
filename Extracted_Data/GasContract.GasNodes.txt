@@ -1,0 +1,11 @@
+Header: Gas Contract Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas nodes that have a contract to deliver gas
+
+Paragraphs:
+Gas Contract Gas Nodes is the collection of gas nodes which are contracted to deliver gas.
+Lists:
+

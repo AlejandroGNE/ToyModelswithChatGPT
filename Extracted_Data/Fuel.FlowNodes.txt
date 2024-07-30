@@ -1,0 +1,11 @@
+Header: Fuel Flow Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Nodes the Fuel connects to
+
+Paragraphs:
+Fuel Flow Nodes is the set of Flow Nodes the Fuel connects to.
+Lists:
+

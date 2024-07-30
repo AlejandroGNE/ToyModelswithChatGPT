@@ -1,0 +1,17 @@
+Header: PASA Constraints Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If transmission line constraints are enabled in PASA.
+
+Paragraphs:
+PASA Constraints Enabled toggles on/off transmission Line constraints in the reserve sharing formulation. When this option is toggled 'on' the flow of capacity reserves across inter-regional lines is constrained by the thermal limits on the Lines .
+
+See also:
+
+When both options are 'off' the system is treated as a single unconstrained transmission area where reserve capacity can be shared for the objective of leveling reserves over time.
+Lists:
+	- PASA Interface Constraints Enabled
+

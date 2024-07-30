@@ -1,0 +1,45 @@
+Header: Generator Constraints Spinning Reserve Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of reserve provided by spare capacity
+
+Paragraphs:
+Generator Constraints Spinning Reserve Coefficient is the left-hand side coefficient on the
+          spinning reserve provided by the generator in the constraint. This
+          excludes reserve provided by off-line capacity, synchronous condenser
+          operation or dispatchable pump load or regulation reserve i.e. it applies only to the provision of Reserve Type = "Raise", "Lower" or
+          "Operational".
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where:
+
+You can limit the set of Reserves included in this sum by adding Generator Reserves memberships with no
+          associated property definitions. This is a special case of using
+          'null' memberships to filter the terms included in another constraint
+          property.
+
+See also:
+Lists:
+	- Generator Constraints Reserve
+              Provision Coefficient
+	- Generator Constraints Raise
+              Reserve Provision Coefficient
+	- Generator Constraints Lower
+              Reserve Provision Coefficient
+	- Generator Constraints Regulation
+              Raise Reserve Provision Coefficient
+	- Generator Constraints Regulation
+              Lower Reserve Provision Coefficient
+	- Generator Constraints Replacement
+              Reserve Provision Coefficient
+	- Generator Constraints Inertia
+              Provision Coefficient
+

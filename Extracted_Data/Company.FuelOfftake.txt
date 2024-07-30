@@ -1,0 +1,15 @@
+Header: Company Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Company Fuel Offtake is the total fuel used by all generators owned by the company, and is defined as:
+Lists:
+

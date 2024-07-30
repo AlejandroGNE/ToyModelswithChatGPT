@@ -1,0 +1,22 @@
+Header: Abatement VO&M Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost per unit of generation
+
+Paragraphs:
+Abatement VO&M Charge is a cost  per unit of Generation from the Generators associated with the abatement technology.
+
+This cost is reported separately as VO&M Cost as well as being part of the total Abatement Cost .
+
+See also:
+Lists:
+	- Abatement Abatement Cost
+	- Abatement Running Cost
+	- Abatement FO&M Charge
+

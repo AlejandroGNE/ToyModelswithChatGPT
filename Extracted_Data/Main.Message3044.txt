@@ -1,0 +1,11 @@
+Header: Message 3044
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Error interpreting the header row of <value> <name>.
+
+Paragraphs:
+Message 3044 occurs in the following circumstances:
+Lists:
+

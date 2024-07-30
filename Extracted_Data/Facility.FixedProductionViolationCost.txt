@@ -1,0 +1,30 @@
+Header: Facility Fixed Production Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Fixed Operating Level] violations
+
+Paragraphs:
+Facility Fixed Production
+          Violation Cost is the cost of violations of the Fixed Production constraint and is defined as:
+
+Fixed Production Violation Cost = Fixed
+            Production Violation × Fixed
+            Production Penalty
+
+See also:
+Lists:
+	- Facility Fixed
+              Production
+	- Facility Fixed
+              Production Violation
+	- Facility Fixed
+              Production Violation Hours
+	- Facility Min
+              Production
+

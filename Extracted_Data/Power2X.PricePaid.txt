@@ -1,0 +1,15 @@
+Header: Power2X Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid by the electric load
+
+Paragraphs:
+Power2X Price Paid is price of electricity supplied to the facility.
+Lists:
+

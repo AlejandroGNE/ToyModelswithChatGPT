@@ -1,0 +1,20 @@
+Header: Battery FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operations and maintenance cost
+
+Paragraphs:
+Battery FO&M Cost is the fixed operations and maintenance cost associated with operating a BESS.
+
+See also:
+Lists:
+	- FO&M Charge
+	- VO&M Cost
+	- VO&M Charge
+

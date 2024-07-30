@@ -1,0 +1,15 @@
+Header: Heat Node Conditions Heat Flow Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of heat flow through the heat node in condition
+
+Paragraphs:
+Heat Node Conditions Heat Flow Coefficient is Coefficient of heat flow through the heat node in condition.
+Lists:
+

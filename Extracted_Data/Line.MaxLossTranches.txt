@@ -1,0 +1,15 @@
+Header: Line Max Loss Tranches
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	≥2
+Key Property:	No
+Description:	Maximum number of tranches in piecewise linear loss function.
+
+Paragraphs:
+
+Lists:
+

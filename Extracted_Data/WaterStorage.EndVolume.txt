@@ -1,0 +1,19 @@
+Header: Water Storage End Volume
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Storage volume at the end of the period
+
+Paragraphs:
+Water Storage End Volume is the volume of gas in storage at the end of the period and is calculated as:
+
+See also:
+Lists:
+	- Water Storage Min Volume
+	- Water Storage Max Volume
+

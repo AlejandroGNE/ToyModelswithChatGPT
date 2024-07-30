@@ -1,0 +1,32 @@
+Header: Entity Formulate Risk
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If constraint should be formulated to bound entity net profit risk
+
+Paragraphs:
+Entity Formulate Risk is a flag
+          indicating if constraints should be formulated to bound the
+          Conditional Value at Risk (CVaR) of Net
+            Profit when running a stochastic portfolio optimization ( ST
+            Schedule Stochastic
+            Method = "Stochastic") and the simulation is multi-sample ( Risk
+            Sample Count > 1).
+
+Constraints are formulated on the Net
+            Profit in each scenario such that the values are no less than
+          conditional value-at-risk ( Risk Level )
+          at the Acceptable Risk .
+
+See also:
+Lists:
+	- Commodity Formulate
+              Risk
+	- Facility Formulate
+              Risk
+

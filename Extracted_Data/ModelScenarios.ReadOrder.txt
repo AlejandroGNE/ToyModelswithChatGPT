@@ -1,0 +1,17 @@
+Header: Model Scenarios Read Order
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Order in which to read scenario data (last read scenario has highest priority)
+
+Paragraphs:
+Model Scenarios Read Order sets the order in which Scenario data are read into the simulation. The data are read in ascending order with later-read values overwriting earlier-read values. Thus scenarios with a higher read order value take precedence over those with a lower read order value.
+
+The default order is alphabetical on scenario name.
+Lists:
+

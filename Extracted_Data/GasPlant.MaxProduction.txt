@@ -1,0 +1,15 @@
+Header: Gas Plant Max Production
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production of gas
+
+Paragraphs:
+Gas Plant Max Production is the maximum production of gas in an interval. The Gas Plant will not operate if this property is not defined, so this property should always be defined.
+Lists:
+

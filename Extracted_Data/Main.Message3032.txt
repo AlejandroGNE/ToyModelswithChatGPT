@@ -1,0 +1,11 @@
+Header: Message 3032
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Data File Energy mismatch (over target) by <value> = <value>.
+
+Paragraphs:
+
+Lists:
+

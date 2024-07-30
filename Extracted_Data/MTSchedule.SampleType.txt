@@ -1,0 +1,15 @@
+Header: MT Schedule Sample Type
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (1,2,3,4)
+Description:	For [Chronology] = "Sampled", take this type of sample.
+
+Paragraphs:
+MT Schedule Sample Type applies when the Chronology setting is "Sampled". It works with Reduced Sample Count to set the number and type of period samples to be taken. Sample Type can take the following values:
+
+See also:
+Lists:
+	- MT Schedule Reduction Relative Accuracy
+

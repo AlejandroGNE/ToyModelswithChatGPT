@@ -1,0 +1,74 @@
+Header: Entity Class
+
+Table Details:
+Description:	Ownership and/or strategic entity
+Formulate Risk	Yes		Yes/No
+Risk Level	0.05		-
+Acceptable Risk	250,000		$
+
+Paragraphs:
+See also Entity Property Reference for a detailed list of properties for this class of object.
+
+The Entity class represents a strategic interest in one or more Markets where a given Commodity is sold, and that is produced by one or more Facilities .
+          An Entity can 'own' those facilities outright or Share them with other entities. It reports the Revenue accrued from Sales of the Commodity in those Market(s) and the Total
+            Production Cost from Production of those facilities and calculates a Net
+            Profit . In stochastic optimization, Entity can place constraints
+          on the variance of that Net Profit i.e. perform 'risk-constrained' optimization.
+
+Entity becomes an active part of the optimization in stochastic optimization i.e. when:
+
+Stochastic mode differs from 'regular' Monte Carlo simulation in
+          that the samples are solved simultaneously in a single optimization
+          problem rather than in separate/independent problems, and therefore it
+          is possible to place constraints (and objectives) that link the
+          decisions and outcomes across the full sample set. Stochastic
+          optimization is solved with the "scenario-wise decomposition"
+          technique and allows the definition 'first-stage' and 'recourse'
+          decisions with inputs such as Facility Production
+            Non-anticipativity . The outcome of this optimization, although
+          more robust than Monte Carlo simulation, might still show scenarios
+          where Net Profit is unacceptable,
+          even if the probability is low. To control the Conditional Value at
+          Risk (CVaR) of Net Profit you can
+          enable Entity Formulate
+            Risk and define Entity Acceptable
+            Risk and Risk Level as
+          outlined in the example below.
+
+Refer here for an explanation of VaR and CVaR.
+
+Figure 1 shows a histogram of the total Net
+            Profit (values are in 1000s and for a one week window) obtained
+          across 100 samples of a portfolio optimization. This example was
+          created with an Entity that owns a number of facilities and the trades
+          in a market for the commodity produced by those facilities. The
+          simulation setup has Stochastic Risk Sample Count = 100
+          and the Market Price is defined by a Variable object.
+          Additionally, Facility Production
+            Non-anticipativity is set to $10,000 which prevents these
+          resources from having perfect foresight of the market prices.
+
+Figure 1: Histogram of Net Profit
+
+Querying Net Profit in the GUI Solution Viewer automatically
+          calculates and reports the CVaR at 1%,5% and 10%. In this case the
+          CVaR at 5% is $217,459. We can now take value as the Acceptable
+            Risk (217,459) input along with the 5% Risk Level (0.05).  If we were to rerun the simulation with
+          inputs we would obtain exactly the same result. The constrain the CVaR i.e. find a more risk averse solution, we increase the Acceptable
+            Risk or decrease the Risk Level .
+          In this case we have rerun the simulation with the input shown in
+          Table 1.
+
+
+
+This yields the histogram of Net Profit shown in Figure 2 (the orange
+          bars compared to the original blue). The CVaR constrained outcome has
+          altered production at the facilities to reduce the incidence of low
+          profit outcomes, as desired and the new CVaR reported in the solution
+          viewer query of Net Profit is $250,000.
+
+
+
+Figure 2: Histogram of Net Profit with CVaR Constraints
+Lists:
+

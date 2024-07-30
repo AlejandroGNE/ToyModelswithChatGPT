@@ -1,0 +1,24 @@
+Header: Region LOLE
+
+Table Details:
+Units:	day
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of days of outage (summary type "Sum")
+
+Paragraphs:
+NOTE: LOLE is only computed by LT Plan and PASA when the Compute Reliability Indices setting is 'on'.
+
+The Loss of Load Expectation index is calculated directly from the LOLP . It is simply:
+
+where:
+
+See also:
+Lists:
+	- Region LOLP
+	- Region EENS
+	- Region EDNS
+

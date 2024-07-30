@@ -1,0 +1,15 @@
+Header: Generator Raise Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of raise reserve
+
+Paragraphs:
+Generator Raise Reserve is the provision of raise reserve summed over all raise reserve types (i.e., spin, regulation raise and operational).
+Lists:
+

@@ -1,0 +1,12 @@
+Header: LT Plan Inflation Rate
+
+Table Details:
+Units:	%
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Inflation rate used in depreciation calculations
+
+Paragraphs:
+LT Plan Inflation Rate sets the inflation rate when considering depreciation and tax benefits of capacity expansion projects: see the article Capacity Expansion Planning .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Storage Min Storage Target Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum Storage Target Percent for gas storage
+
+Paragraphs:
+Gas Storage Min Storage Target Percent is the Min Storage Target Percent for gas storage.
+Lists:
+

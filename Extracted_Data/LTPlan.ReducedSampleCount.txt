@@ -1,0 +1,15 @@
+Header: LT Plan Reduced Sample Count
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	≥1
+Description:	Statistically reduce the [Sample Type] periods to at most this number of samples each year.
+
+Paragraphs:
+LT Plan Reduced Sample Count applies when the Chronology setting is "Sampled". It works with Sample Type to set the number and type of period samples to be taken.
+
+See also:
+Lists:
+	- LT Plan Reduction Relative Accuracy
+

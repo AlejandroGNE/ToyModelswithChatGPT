@@ -1,0 +1,17 @@
+Header: RSI Lerner Index
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Lerner Index (P-C)/P
+
+Paragraphs:
+Lerner Index =(P - C) / P =
+
+Intercept:+ RSI Coefficient × RSI + RSI-squared Coefficient × RSI 2 + RSI Inverse Coefficient × 1 / RSI + Load Coefficient × Region Load + Load Unhedged Coefficient × ( Region.Load ∑ Financial Contract.Volume )+ Load Variation Coefficient × Load / ( Average Load )+ Load Capacity Ratio Coefficient × Demand / Total Supply Capacity + Capacity Factor Coefficient × Non Utility Generation / Non Utility Available Capacity + Summer Period Coefficient × (1,0) (Summer / Not Summer)+ Peak Period Coefficient × (1,0) (Peak / Not Peak)+ Lerner Index t-statistic × Lerner Index Std Dev + Lerner Index Calibration Factor Lerner Index is bounded by Min Lerner Index and Max Lerner Index .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Fuel Market Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from fuel markets
+
+Paragraphs:
+Company Fuel Market Revenue is the total revenue earned by the company from sales to external Fuel Markets and is defined as:
+Lists:
+

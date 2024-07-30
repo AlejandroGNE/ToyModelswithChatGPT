@@ -1,0 +1,11 @@
+Header: Gas Zone Gas Demands
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Gas Demands is the set of Gas Demand objects in the Gas Zone .
+Lists:
+

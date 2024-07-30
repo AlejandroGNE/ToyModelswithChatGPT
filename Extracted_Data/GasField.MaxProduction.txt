@@ -1,0 +1,23 @@
+Header: Gas Field Max Production
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production of gas from the field
+
+Paragraphs:
+Gas Field Max Production sets an upper bound on the gas Production from the field in any interval. If you need to set limits over other time frames use of the following:
+
+See also:
+Lists:
+	- Gas Field Max Production Hour
+	- Gas Field Max Production Day
+	- Gas Field Max Production Week
+	- Gas Field Max Production Month
+	- Gas Field Max Production Year
+	- Gas Field Min Production
+

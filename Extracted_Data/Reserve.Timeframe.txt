@@ -1,0 +1,20 @@
+Header: Reserve Timeframe
+
+Table Details:
+Units:	s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Timeframe in which the reserve is required
+
+Paragraphs:
+Reserve Timeframe is used to compute the maximum response of generators in the timeframe required for the reserve class, using the formula:
+
+This limit is only computed if Timeframe is defined in combination with ramping limits. The actual maximum response of a generator is the minimum of this ramp-related limit at the limit set by Max Response .
+
+See also:
+Lists:
+	- Response Ratio
+

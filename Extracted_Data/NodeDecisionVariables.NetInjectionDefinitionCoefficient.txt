@@ -1,0 +1,17 @@
+Header: Node Decision Variables Net Injection Definition Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Decision Variable in Node net injection definition equation
+
+Paragraphs:
+Node DecisionVariables Net Injection Definition Coefficient is the coefficient of the generic decision variable in Node net injection definition equation. This equation defines Node Net Injection as follows:
+
+Thus if you were to set Net Injection Definition Coefficient of -1 this means positive Value acts as load, negative like generation.
+Lists:
+

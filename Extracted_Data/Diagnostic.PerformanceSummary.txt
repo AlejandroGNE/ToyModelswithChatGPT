@@ -1,0 +1,14 @@
+Header: Diagnostic Performance Summary
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Print performance summary at the completion of each simulation phase.
+
+Paragraphs:
+Diagnostic Performance Summary toggles on/off printing to the console and log file of a summary of simulation engine and solver performance at the end of each simulation phase.
+
+An example of this summary is:
+Lists:
+

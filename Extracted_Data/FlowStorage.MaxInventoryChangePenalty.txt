@@ -1,0 +1,16 @@
+Header: Flow Storage Max Inventory Change Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the [Max Ramp] constraints
+
+Paragraphs:
+See Commodity Max
+            Inventory Change Penalty for details.
+Lists:
+

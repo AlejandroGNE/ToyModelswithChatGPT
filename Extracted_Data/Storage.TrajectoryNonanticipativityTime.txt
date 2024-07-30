@@ -1,0 +1,15 @@
+Header: Storage Trajectory Non-anticipativity Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Window of time over which to enforce non-anticipativity constraints in scenario-wise decomposition
+
+Paragraphs:
+Storage Trajectory Non-anticipativity Time is the window of time over which End Volume decisions of the Storage are non-anticipative in a stochastic optimization. This property must be used in conjunction with Trajectory Non-anticipativity .
+Lists:
+

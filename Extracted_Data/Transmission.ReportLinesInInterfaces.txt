@@ -1,0 +1,12 @@
+Header: Transmission Report Lines In Interfaces
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If all flows on lines selected interfaces are reported
+
+Paragraphs:
+Transmission Report Lines In Interfaces switches on reporting of lines that are part of interfaces that would normally be skipped according to their voltage level and setting of the Transmission Report Voltage Threshold property.
+Lists:
+

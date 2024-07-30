@@ -1,0 +1,18 @@
+Header: Flow Control Constraints Positive Angle Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the flow control angle is positive, 0 otherwise)
+
+Paragraphs:
+FlowControl Flow Controls Positive Angle Coefficient is Boolean value (1 if the flow control angle is positive, 0 otherwise). With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- FlowControl Flow Controls Negative Angle Coefficient
+

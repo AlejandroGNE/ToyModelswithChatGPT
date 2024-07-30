@@ -1,0 +1,15 @@
+Header: Company Min Maintenance Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 and 1
+Key Property:	No
+Description:	Generation capacity that must be scheduled on maintenance as a proportion of installed capacity
+
+Paragraphs:
+Company Max Maintenance is an alternative to Min Maintenance where the constraint is expressed as a proportion of the Generator Capacity Reserves rather than absolute megawatt.
+Lists:
+

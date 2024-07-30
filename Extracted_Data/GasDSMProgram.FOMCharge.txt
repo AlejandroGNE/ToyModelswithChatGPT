@@ -1,0 +1,15 @@
+Header: Gas DSM Program FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+
+Paragraphs:
+Gas DSM Programs FO&M Charge is Annual fixed operation and maintenance charge.
+Lists:
+

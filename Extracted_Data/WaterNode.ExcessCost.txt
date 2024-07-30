@@ -1,0 +1,18 @@
+Header: Water Node Excess Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of water excesses
+
+Paragraphs:
+Water Node Excess Cost is cost of water supply Excess priced at the Water Demand Excess Price .
+
+See also:
+Lists:
+	- Water Node Shortage Cost
+

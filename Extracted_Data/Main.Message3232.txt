@@ -1,0 +1,11 @@
+Header: Message 3232
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Disabling Transmission Aggregation because Kron-reduction has been enabled.
+
+Paragraphs:
+Message 3232 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Physical Contract Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Contribution of the generation to capacity reserves.
+
+Paragraphs:
+Physical Contract Firm Capacity is the contribution of the generation to capacity reserves and can either be defined directly as input , or otherwise it is calculated as:
+
+In LT Plan this will include any generation contracted as part of the LT Plan capacity expansion solution.
+Lists:
+

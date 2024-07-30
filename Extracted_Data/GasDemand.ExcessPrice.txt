@@ -1,0 +1,22 @@
+Header: Gas Demand Excess Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Notional price of gas oversupply
+
+Paragraphs:
+Gas Demand Excess Price is the notional price of gas oversupply required when supply is constrained to be above the Demand . 
+            Multiple bands can be used in conjunction with the Excess Level input to specify tiered pricing. In this case, the Excess Price 
+            should be increasing in magnitude from the lower to upper bands.
+
+In output, the required Excess is reported along with the Hours of Excess and Excess Cost .
+
+See also:
+Lists:
+	- Gas Demand Shortage Price
+

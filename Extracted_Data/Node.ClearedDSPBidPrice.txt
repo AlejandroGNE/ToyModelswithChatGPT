@@ -1,0 +1,21 @@
+Header: Node Cleared DSP Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal demand-side participation bid band
+
+Paragraphs:
+Node Cleared DSP Bid Price is the Price of the marginal Bid band:
+
+where:
+
+See also:
+Lists:
+	- Node DSP Bid Cleared
+	- Node Cleared DSP Bid Cost
+

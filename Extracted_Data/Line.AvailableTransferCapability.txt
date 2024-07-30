@@ -1,0 +1,19 @@
+Header: Line Available Transfer Capability
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability on the line.
+
+Paragraphs:
+Line Available Transfer Capability is Available transfer capability remaining on the line. Reported Available Transfer Capability will be on the same direction as the current line Flow .
+
+Line Available Transfer Capability is calculated by line Flow f 0 and PTDFs .
+
+If SCUC Enabled , then Line Available Transfer Capability is calculate from the post-contingency power flow f x and the contingency shifter factors CSF .
+Lists:
+

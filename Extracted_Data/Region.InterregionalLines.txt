@@ -1,0 +1,11 @@
+Header: Region Interregional Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Interregional Lines is the set of Lines that connect to other Regions. This collection is reserved for reporting only.
+Lists:
+

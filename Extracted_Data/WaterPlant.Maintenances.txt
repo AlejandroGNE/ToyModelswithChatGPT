@@ -1,0 +1,11 @@
+Header: Water Plant Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the water plant
+
+Paragraphs:
+Water Plant Maintenances is set of maintenance events on the water plant
+Lists:
+

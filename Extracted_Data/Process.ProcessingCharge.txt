@@ -1,0 +1,19 @@
+Header: Process Processing Charge
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit cost of production charged per unit of the primary output
+
+Paragraphs:
+Process Processing Charge is a
+          charge levied per unit of production of the Primary
+            Output . This cost is in addition to the cost of commodities
+          consumed e.g. it might represent an operational cost
+          associated with the Process.
+Lists:
+

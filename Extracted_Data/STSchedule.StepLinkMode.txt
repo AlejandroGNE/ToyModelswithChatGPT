@@ -1,0 +1,61 @@
+Header: ST Schedule Step Link Mode
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Controls how the solutions of each step are linked together.
+
+Paragraphs:
+This option controls how the steps of the simulation (controlled by Horizon Chrono
+            Step Type and Chrono
+            Step Count ) are linked together and how they are solved. It can
+          take the following values:
+
+If other simulation phases ( LT Plan , MT Schedule , PASA )
+          are run in the same simulation as ST
+            Schedule the usual decomposition information will be passed to ST Schedule regardless of this
+          option. This means that "Break" and "Parallel" modes will still
+          coordinate intertemporal constraints and long-term storage similarly
+          to full "Link" mode. Other intertemporal constraints, however, will be
+          freely optimized in the first period of each step i.e. the
+          optimization is free to set:
+
+Notes on usage:
+
+When running in either of these modes it might be useful (but not
+          necessary) to run ST Schedule separately from the other phases.
+
+See also:
+Lists:
+	- Choosing blocks of Sequential
+              Step s to run in parallel e.g. you could have the
+            days in each week run sequentially, but the weeks in parallel;
+            and/or
+	- Step Relink Count which performs an additional pass on groups of steps so that their
+            ending and initial conditions match up e.g. you can have
+            days solved in parallel but relinked within each week.
+	- Generator Initial
+              Generation i.e. Generator Max Ramp Up and Max
+              Ramp Down are free in period 1 of each step.
+	- Generator Initial
+              Units Generating i.e. Generator Start Cost and Shutdown
+              Cost are free in period 1 of each step as are the constraints Min Up Time and Min
+              Down Time .
+	- Line Initial Flow i.e. Line Max
+              Ramp Up and Max Ramp Down are free in period 1 of each step.
+	- "Parallel" mode can dramatically improve performance because the
+            simulation can access the full resources of the computer by running
+            multiple optimization problems simultaneously.
+	- "Break" mode is helpful to assess the accuracy loss for breaking
+            step links before running parallel mode.
+	- LT Plan Write
+              Expansion Plan Text Files
+	- MT Schedule Write
+              Bridge Text Files
+	- MT Schedule Step
+              Link Mode
+	- Write Outage Text Files
+	- ST Schedule Step
+              Skipping
+

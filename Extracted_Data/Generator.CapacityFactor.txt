@@ -1,0 +1,16 @@
+Header: Generator Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of installed or rated capacity generating
+
+Paragraphs:
+Refer to Facility Capacity
+            Factor for details.
+Lists:
+

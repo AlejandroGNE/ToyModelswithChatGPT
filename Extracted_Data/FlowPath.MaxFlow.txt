@@ -1,0 +1,32 @@
+Header: Flow Path Max Flow
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow on the Flow Path in any interval
+Source.to.Sink	Flow Charge	1	$
+Source.to.Sink	Max Flow	550	-
+Source.to.Sink	Min Flow	0	-
+
+Paragraphs:
+Flow Path Max Flow is the maximum
+          flow in any interval on the Flow Path in the notional forward
+          direction i.e. from the Flow
+            Node From to the Flow Node
+            To .  You can also limit the flow by Hour , Day , Week , Month or Year .
+
+For the example in Table 1, the Flow Path is uni-directional with a
+          maximum flow of 550.
+
+Note that negative values of Max Flow are allowed, and imply that a
+          minimum amount of flow must occur in the notional backward direction.
+
+See also:
+Lists:
+	- Flow Path Min
+              Flow
+

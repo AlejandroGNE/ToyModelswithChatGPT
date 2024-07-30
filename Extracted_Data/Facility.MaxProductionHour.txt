@@ -1,0 +1,30 @@
+Header: Facility Max Production Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production in hour
+
+Paragraphs:
+Facility Max Production Hour sets
+          an upper bound on the facility's Production in each hour of the simulation. This variant only applies to
+          sub-hourly models i.e. where Horizon Periods per Day is greater
+          than 24. See Max Production for more details.
+
+See also:
+Lists:
+	- Facility Max
+              Production Day
+	- Facility Max
+              Production Week
+	- Facility Max
+              Production Month
+	- Facility Max
+              Production Year
+	- Facility Max
+              Capacity Factor Hour
+

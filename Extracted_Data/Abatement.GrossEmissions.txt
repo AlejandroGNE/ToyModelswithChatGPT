@@ -1,0 +1,19 @@
+Header: Abatement Gross Emissions
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission input to the abatement technology
+
+Paragraphs:
+Abatement Gross Emissions is the emission input to the abatement technology from all connected Generators , Gas Nodes , Gas Contracts , Gas Demands , Gas Fields and Gas Plants .
+
+See also:
+Lists:
+	- Abatement Emissions Gross Emissions
+	- Abatement Net Emissions
+

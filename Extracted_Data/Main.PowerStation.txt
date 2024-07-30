@@ -1,0 +1,96 @@
+Header: Power Station Class
+
+Table Details:
+Description:	Collection of Generators that can be dispatched together
+A	2	1	200
+B	1	1	400
+A	2	1	400
+B	1	1	400
+A	200	100	120
+B	400	100	100
+			
+Aggregated	266.6666667	200	110
+
+Paragraphs:
+See also Power Station Property Reference for a detailed list of properties for this class of
+        object.
+
+Power Stations are used to combine two or more Generators and model them as a multi-unit generator. This is used primarily to reduce model
+      execution time (because a multi-unit generator can be represented more efficiently in the simulation than separate
+      generators), while still maintaining the convenience of inputting data on the separate Generator objects. Power Stations have just the one input property, Is Enabled , which is used to toggle the Power Station on/off by Scenario . Generators are linked to Power Stations with the Power Station membership.
+
+When the simulator aggregates the specified generators into a power station, it:
+
+Therefore the Power Station must have a unique name i.e. not the same name as any Generator . The solution file will contain all those (normal) generators that are not
+      aggregated into power stations plus generators representing the aggregated units.
+
+If the Generators being aggregated inject at different Nodes a capacity-weighted Generation Participation Factor is calculated. This can be
+      overridden by creating one or more Nodes memberships to the Power Station and setting the Generation Participation Factor property there.
+
+Dispatch by Power Station can be switched on/off using the Model property Dispatch by Power Station , and individual Power Stations toggled on/off
+      with the Is Enabled property.
+
+Most of the generators' properties are aggregated, however there are a certain number of properties which are simply
+      summed. This is done because the property refers to the whole station, rather than the individual units. The generator
+      properties that are simply summed are:
+
+The remainder of the properties are aggregated, based on either the unit weighted average, pump unit weighted average or
+      the rating (or max capacity) weighting average values. The properties that are aggregated using the unit weights are as
+      follows:
+
+The pump unit weights apply to the following generator properties:
+
+While all of the other properties are aggregated using the rating weighting values.
+
+These weighting are simply defined as:
+
+Unit weighting (W u ) of Generator g :
+
+Pump Unit weighting (P w ) of Generator g :
+
+Unit Rating weighting (R w ) of Generator g :
+
+(or Max Capacity if Rating is not defined).
+
+The properties are then simply aggregated using the following:
+
+where
+
+For example, the generators below belong to a single power station and have the following weighting properties:
+
+Which results in the following aggregation weightings:
+
+Applying these generator weighting to the following properties, the resultant aggregate value is shown:
+
+When aggregating Max Capacity and Rating please note that a unit rating of zero megawatts representing a unit outage will
+      cause problems in the aggregator. The aggregator takes a weighted average of unit ratings, but if a unit has zero rating then
+      its weight in the average will be zero i.e. setting a zero rating will not result in the power station rating being reduced (this is actually correct
+      because if one unit is out of service the other units still have their normal rating). Thus if you need to aggregate units
+      going out of service make sure you use the property Units Out (with or without zero rating).
+Lists:
+	- Applies a weighted average to most Generators' properties (see below for more information);
+	- creates a new Generator object with the name of the Power Station for reporting; and
+	- removes the source Generator objects from reporting.
+	- Units
+	- Pump Units
+	- Commit
+	- Must Run Units
+	- Sync Cond Units
+	- Units Out
+	- Initial Generation
+	- Initial Units Generating
+	- Min Load
+	- Fixed Load
+	- Max Units Built (in Year) / Max Units Retired (in Year)
+	- Min Units Built (in Year) / Min Units Retired (in Year)
+	- Max Capacity
+	- Min Stable Level
+	- Rating
+	- Rating Factor
+	- Heat Rate Base
+	- Max Ramp Up / Down
+	- Pump Units
+	- Pump Load
+	- Min Pump Load
+	- Pump Efficiency
+

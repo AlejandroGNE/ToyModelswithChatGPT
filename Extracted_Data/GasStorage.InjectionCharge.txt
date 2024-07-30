@@ -1,0 +1,18 @@
+Header: Gas Storage Injection Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of injecting gas into the storage
+
+Paragraphs:
+Gas Storage Injection Charge is the incremental cost of Injection into the storage. Input with a single band applies to any volume of storage. Multi-banded inputs work in conjuction with the Injection Withdrawal Charge Level input bands. This cost is reported as the Injection Cost property.
+
+See also:
+Lists:
+	- Gas Storage Withdrawal Charge
+

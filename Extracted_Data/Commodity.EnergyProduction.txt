@@ -1,0 +1,18 @@
+Header: Commodity Energy Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent energy production
+
+Paragraphs:
+Commodity Energy Production is
+          Equivalent energy production, and is defined as:
+
+Energy Production = Production × Energy Density / 1000
+Lists:
+

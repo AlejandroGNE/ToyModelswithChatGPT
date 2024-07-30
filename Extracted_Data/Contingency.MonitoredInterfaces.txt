@@ -1,0 +1,11 @@
+Header: Contingency Monitored Interfaces
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of interfaces whose limits are monitored under the contingency
+
+Paragraphs:
+Contingency Monitored Interfaces defines a set of interfaces whose post-contingency flows will be monitored (enforced within limits). If this collection is empty then all interface flows are monitored.
+Lists:
+

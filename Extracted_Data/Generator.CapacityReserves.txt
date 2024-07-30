@@ -1,0 +1,24 @@
+Header: Generator Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution to regional capacity reserves
+
+Paragraphs:
+Generator Capacity Reserves is the contribution to regional capacity reserves. The definition of this property depends on the simulation phase.
+
+Capacity Reserves reported by PASA is the generation capacity after maintenance i.e it is defined as:
+
+Capacity Reserves reported by LT Plan is defined as:
+
+otherwise:
+
+See also:
+Lists:
+	- Region Capacity Reserves
+

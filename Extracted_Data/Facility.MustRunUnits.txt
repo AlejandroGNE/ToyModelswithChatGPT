@@ -1,0 +1,23 @@
+Header: Facility Must-Run Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of must-run units
+
+Paragraphs:
+Facility Must Run Units is the
+          number of units at the facility that must be committed i.e. a lower
+          bound on Units Operating .
+          The optimizer is free to commit more than this number of units up to Available Capacity . In the LT Plan, if the input value of Must Run Units is more than the existing number of units, then 
+			the Must Run Units will be capped to the existing number of units.
+
+Note that you can set a fixed commitment, rather than a minimum
+          commitment use the Commit property, however if Must Run Units is set equal to Units the property
+          is converted to Commit automatically.
+Lists:
+

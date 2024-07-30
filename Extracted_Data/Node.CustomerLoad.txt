@@ -1,0 +1,34 @@
+Header: Node Customer Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load served to customers at the node
+
+Paragraphs:
+Node Customer Load is all the load
+          served to customers at the node and is defined as:
+
+Customer Load = Load - ( Unserved Energy + Demand
+            Curtailed ) - ( Pump Load + Generator
+            Auxiliary Use ) - Losses - Fixed
+            Generation - Heat Plant Load (Usage) - Gas Plant Energy Consumption - Gas Storage Energy Consumption - Water Plant Energy Consumption
+
+Customer Load is the load that is actually paid for by customers, not
+          including generators, as opposed to Load which includes loads that are not part of 'consumption' but must be
+          generated for all the same.
+
+Note that, for the case where the Node defines Price as an input:
+
+Customer Load = Dump
+            Energy
+
+See also:
+Lists:
+	- Node Native
+              Load
+

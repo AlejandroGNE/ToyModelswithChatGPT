@@ -1,0 +1,21 @@
+Header: Zone Dispatchable Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	On-line capacity
+
+Paragraphs:
+Zone Dispatchable Capacity is the total on-line generation capacity and is defined as:
+
+This is the total generation capacity on-line in the Zone based on the Unit Commitment solution.
+
+See also:
+Lists:
+	- Zone Available Capacity
+	- Zone Undispatched Capacity
+

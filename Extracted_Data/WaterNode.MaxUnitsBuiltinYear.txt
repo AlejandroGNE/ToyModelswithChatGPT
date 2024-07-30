@@ -1,0 +1,18 @@
+Header: Water Node Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Binary indicating if build is allowed in this year
+
+Paragraphs:
+Water Node Max Units Built in Year is a binary (0,1) value indicating if this project is allowed to be built by LT Plan in a given year.  This value should be less than or equal to Max Units Built .
+
+See also:
+Lists:
+	- Water Node Project Start Date
+

@@ -1,0 +1,15 @@
+Header: Flow Control Penalty
+
+Table Details:
+Units:	Input: $/°    Output: $
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty incurred for shifting the angle
+
+Paragraphs:
+Flow Control Penalty is Penalty incurred for shifting the angle.
+Lists:
+

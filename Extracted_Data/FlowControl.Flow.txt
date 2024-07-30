@@ -1,0 +1,15 @@
+Header: Flow Control Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent flow in reference direction due to phase shift
+
+Paragraphs:
+Flow Control Flow is Equivalent flow in reference direction due to phase shift.
+Lists:
+

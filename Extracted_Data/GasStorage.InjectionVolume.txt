@@ -1,0 +1,33 @@
+Header: Gas Storage Injection Volume
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Storage volume for which injection is allowed
+Property	Value	Units	Band
+Max Volume	1000	TJ	1
+Injection Ratchet	100	TJ	1
+Injection Volume	400	TJ	1
+Injection Rate Scalar	50	%	1
+Injection Volume	300	TJ	2
+Injection Rate Scalar	30	%	2
+Injection Volume	300	TJ	3
+Injection Rate Scalar	20	%	3
+
+Paragraphs:
+Gas Storage Injection Volume is the storage volume for which injection is allowed in that given band. Further injections into the storage causing the volume to rise above this value takes the simulation into the next band. The value Injection Volume corresponds with the Injection Rate Scalar value for each band.
+
+When Use Additive Ratchet is Yes, the input needs to be incremental, starting from the last band to the first. Consider the following gas storage injection ratchet:
+
+This defines a 1000 TJ Gas Storage with three injection bands. Band 1 has a volume of 400 TJ and can be injected into at a rate of (0.5 + 0.3 + 0.2) * 100 TJ per time period. Band 2 has a volume of 300 TJ and can be injected into at a rate of (0.3 + 0.2) * 100 TJ per time period after band 1 has been filled. Lastly, band 3 has a volume of 300 TJ and can be injected into at a rate of 0.2 * 100 TJ per time period, after bands 1 and 2 have been filled.
+
+See also:
+Lists:
+	- Gas Storage Injection Rate Scalar
+	- Gas Storage Withdrawal Volume
+	- Gas Storage Withdrawal Rate Scalar
+

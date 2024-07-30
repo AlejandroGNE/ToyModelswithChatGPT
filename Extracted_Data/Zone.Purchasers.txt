@@ -1,0 +1,11 @@
+Header: Zone Purchasers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Purchasers is the set of Purchasers in the Zone. This collection is reserved for reporting only.
+Lists:
+

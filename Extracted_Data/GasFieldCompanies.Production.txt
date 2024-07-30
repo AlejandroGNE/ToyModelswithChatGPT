@@ -1,0 +1,17 @@
+Header: Gas Field Companies Production
+
+Table Details:
+Units:	TJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total production from gas field
+
+Paragraphs:
+Gas Field Companies Production is Total production by the company from the gas field. It is given by:
+
+Gas Field Companies Production = Production × Gas Field Companies Share
+Lists:
+

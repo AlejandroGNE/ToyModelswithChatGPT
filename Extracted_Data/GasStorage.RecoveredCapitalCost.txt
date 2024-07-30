@@ -1,0 +1,19 @@
+Header: Gas Storage Recovered Capital Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capital cost recovered in the gas storage operation
+
+Paragraphs:
+Gas Storage Recovered Capital Cost is the build cost that is recovered over a period of time, i.e. the investment recovery over the horizon using future cash flows. It is calculated as follows:
+
+Recovered Capital Cost \[ \displaystyle = \sum_{i=1}^{n} P_{i} \times RP \times D_{i} \]
+
+where \[ n \] is the total number of years, \[ i \] is the year, \[ P \] is the injection denoting the usage (GJ), \[ RP \] is the Recovery Price ($/GJ), and \[ D \] is the discount factor.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Flow Storage Shadow Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of the Commodity from binding constraints
+
+Paragraphs:
+See Commodity Shadow
+            Price for details.
+Lists:
+

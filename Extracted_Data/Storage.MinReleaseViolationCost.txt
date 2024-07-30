@@ -1,0 +1,19 @@
+Header: Storage Min Release Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Min Release] constraint violations.
+
+Paragraphs:
+Storage Min Release Violation Cost is the cost incurred in violating the Min Release constraint and is defined as:
+
+See also:
+Lists:
+	- Storage Min Release Violation Hours
+	- Storage Max Release Violation
+

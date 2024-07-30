@@ -1,0 +1,18 @@
+Header: Power2X Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contribution of the Power2X to capacity reserves
+
+Paragraphs:
+Power2X Firm Capacity is the contribution of the Power2X to capacity reserves.
+
+See also:
+Lists:
+	- Generator Firm Capacity
+

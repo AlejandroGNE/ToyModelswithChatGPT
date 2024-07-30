@@ -1,0 +1,11 @@
+Header: List Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objective objects in the List
+
+Paragraphs:
+List Objectives is set of Objective objects in the List
+Lists:
+

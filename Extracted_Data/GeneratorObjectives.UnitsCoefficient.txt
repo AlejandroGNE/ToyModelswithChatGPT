@@ -1,0 +1,15 @@
+Header: Generator Objectives Units Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of installed units
+
+Paragraphs:
+Generator Objectives Units Coefficient is Coefficient of the number of installed units.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Transmission Right Rental Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Percent of rent in the reference direction included in the contract
+
+Paragraphs:
+Transmission Right Rental Share is the percent of rent in the reference direction included in the contract.
+Lists:
+

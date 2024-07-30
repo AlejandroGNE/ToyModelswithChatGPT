@@ -1,0 +1,15 @@
+Header: Fuel Contract Take-or-Pay Shadow Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price associated with take-or-pay commitment
+
+Paragraphs:
+This shadow price is taken from the optimal value of the dual variable associated with the take-or-pay limit on the Fuel Contract . It represents the marginal value of avoiding the commitment under the contract.
+Lists:
+

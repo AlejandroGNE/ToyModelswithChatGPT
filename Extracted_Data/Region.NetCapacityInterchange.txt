@@ -1,0 +1,18 @@
+Header: Region Net Capacity Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Export Capability - Import Capability
+
+Paragraphs:
+Region Net Capacity Interchange is the notional net export capability from the Region accounting for Line Firm Capacity and is defined as:
+
+See also:
+Lists:
+	- Region Firm Generation Capacity
+

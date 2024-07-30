@@ -1,0 +1,82 @@
+Header: Optimizing Performance
+
+Table Details:
+
+Paragraphs:
+Before discussing performance, it is useful to understand the
+          structure of the PLEXOS simulation engine. This is illustrated here.
+
+The engine separates the 'business logic' from the mathematical
+          programming. The Simulation Core contains all the logic to model a
+          power system, whereas the AMMO component deals entirely with
+          mathematical objects, and integrates tightly with the solver(s)(see
+          below). The total simulation time is thus a combination of the time spent in
+          the simulation logic plus the time spent in the mathematical solver.
+          In general the solver accounts for between 60 - 99% of the total
+          simulation time. With the Performance
+            Summary diagnostic switched on, the simulation and solver
+          performance is summarized at the end of each simulation phase in the
+          log file as in the following example:
+
+In this example the time in the solver was nearly 92% of the overall
+          simulation time. The other items in this report refer to:
+
+The AMMO component of PLEXOS supports several solvers. See
+          Performance Solver for details.
+
+It is not easy to predict with certainty solver performs 'best',
+          because the solvers all perform differently depending on the size,
+          type, and complexity of the problem, and the solvers are subject to
+          continuous improvement from version to version. Thus it is best to
+          test the available alternatives and chose the solver that performs
+          best on your problems.
+
+A range of solver-related options are available via the Performance object as shown in the following figure.
+
+
+
+The default solver settings will perform best on the majority
+            of problems . You should only change these settings with the
+          help and advice of your support representative.
+
+As a general guide however, the following are some occasions where
+          you might need to change the default settings:
+
+Even though popular linear programming solution methods like simplex
+          or Barrier (Interior) are developed, tested and documented for a wide
+          variety of optimization problems, these methods can show significant
+          performance differences depending on the selection of (many)
+          configuration parameters. When it comes to MIP, non-polynomial
+          execution times are expected for NP-hard problems like the Unit
+          Commitment problem. Solver developers may offer a series of default
+          values. Most relevant, like algorithm selection, target MIP gap and
+          Max Execution time can be configured using PLEXOS Performance objects (as screens above). Excluding some few exceptions, PLEXOS
+          doesn't change the default settings for many other configuration
+          parameters available in most of the commercial solvers. If the user
+          desires to extend the configuration parameters available in the
+          Performance object, he/she can use a special performance configuration
+          xml file. It is strongly recommended some experience before changing
+          the default settings as they can seriously affect performance. The
+          structure of the XML is shown below. An xml syntax example is also
+          included above.
+
+Each solver has it's own set of parameter and intrinsic nomenclature,
+          so it is recommended to visit the solver's webpage before creating
+          your own performance file.
+
+The following xml code shows how to activate solution polisher after 1000secs in CPLEX
+          (disabled by default).
+Lists:
+	- Setup: time spent creating the mathematical programming
+            formulation
+	- Modify: time spent updating the formulation between simulation
+            steps or samples
+	- Monitor: Time spent checking and enforcing constraints that are
+            'monitored' rather than being loaded 'upfront'
+	- Solution: Time spent calculating solution properties
+	- Write: Time spent writing solution data to the solution database
+
+
+H5s:
+XML Advanced Custom Solver Performance
+          File Example

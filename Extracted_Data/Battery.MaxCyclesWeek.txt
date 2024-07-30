@@ -1,0 +1,18 @@
+Header: Battery Max Cycles Week
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of cycles allowed each week
+
+Paragraphs:
+Battery Max Cycles Week is Number of cycles allowed each week.
+
+See also:
+Lists:
+	- Battery Age
+

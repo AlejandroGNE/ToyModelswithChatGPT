@@ -1,0 +1,21 @@
+Header: Commodity Constraints Production Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Commodity production in the Constraint
+
+Paragraphs:
+Commodity Constraints Production Coefficient sets the coefficient of Production in the Constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Commodity Production ... {≤,
+            ≥, =} b j
+Lists:
+

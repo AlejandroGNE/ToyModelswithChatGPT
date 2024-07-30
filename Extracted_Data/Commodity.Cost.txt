@@ -1,0 +1,16 @@
+Header: Commodity Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost incurred by consumption of the Commodity
+
+Paragraphs:
+Commodity Cost is the cost
+          incurred by consumption of the Commodity based on Consumption and Price and/or purchases in Markets .
+Lists:
+

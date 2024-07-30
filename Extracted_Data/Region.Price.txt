@@ -1,0 +1,25 @@
+Header: Region Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price
+
+Paragraphs:
+Region Price as an input is the price paid to Generators in the Region . Defining Price as an input adds the following terms to the objective function of the simulation:
+
+i.e. the simulator will seek to maximize the Generator Net Profit given this defined energy Price.
+
+Region Price as an output is the price paid by Load in the Region . How this is computed is controlled by the Load Settlement Model setting.
+
+See also:
+Lists:
+	- Region Cost to Load
+	- Region Generator Pool Revenue
+	- Region Load-weighted Price
+	- Region Time-weighted Price
+

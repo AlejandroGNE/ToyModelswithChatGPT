@@ -1,0 +1,74 @@
+Header: Uplift Methods
+
+Table Details:
+
+Paragraphs:
+When market prices are based on marginal costs, some generating units will not recover all of their fixed costs:
+
+'No-load cost' is explained in the technical article Heat Rate Functions . This problem is particularly an issue for peaking units that might start up for a single dispatch period and set the market clearing price (at their marginal cost) - which means their start up and no-load cost remain are pure losses. Although uplift is usually a feature of markets with uniform pricing, in PLEXOS you may apply uplift to any settlement model. In uniform pricing models there is generally only one Region and PLEXOS computes uplift by region so it is possible to have a different uplift in each region.
+
+Note: There is currently no option to define a single uplift across all regions in the simulation.
+
+Uplift is a mechanism of adding to the marginal-cost-based market price so that no generator makes a loss when both fixed and variable costs are considered. Uplift is always an ex-post calculation i.e the amount of uplift does not affect the optimal dispatch. Note that when a block of generation continues over the next simulation step, not all of the incurred start-up/ no-load costs are recovered during the first step, e.g. during the first day, but are amortized over the subsequent days. The graph below shows the cost allocation over four days. In this case only 1/2 of the start-up costs are recovered on the first day, 1/4 of the incurred costs on the second day, etc. Note that if you are modelling only a short time interval, PLEXOS assumes that the plant continues to run; hence, the start-up costs will not be fully recovered. However, over a long term run, the incurred start-up costs will be fully amortized.
+
+There are a number of methodologies in existence for computing uplift. PLEXOS implements two approaches:
+
+Another option is to customize the uplift algorithm using OpenPLEXOS. The above approaches can be defined in the Region object under Uplift Compatibility:
+
+The approaches vary in the way they:
+
+Furthermore, note that when the plant is running at minimum stable level (MSL), by default no uplift is computed for this duration. The same applies to Ramping. However, this behaviour can be controlled through the Region object via the properties Uplift Detect Active Min Stable Level Constraints / Uplift Detect Active Ramp Constraints . By default these properties are enabled and MSL / Ramping is not included in the uplift calculation.
+
+The following Region properties control aspects of the uplift calculation:
+
+This method is based on the uplift rules from the Korean Cost-Based Pool - which in turn was based on the 'old' UK pool. This method is quite 'straight-forward' in that it sets each region's uplift in each dispatch period equal to the maximum of the uplift required in that period for each generator to recover all its costs. However, when a generator starts up it does not expect to recover its entire start cost (nor no-load cost) in the first dispatch period; rather the algorithm 'smears' these fixed costs across the contiguous block of unit operation, prorating the start cost according to the megawatt dispatch. In the case where a dispatch block continues from one simulation step to another e.g. from one ST Schedule day to another, PLEXOS makes the assumption that the dispatch block will continue for the entire next day. Thus it can prorate the start cost between the current and the next simulation step.
+
+Note: This below code is simplified in that it ignores the look-ahead period, and also ignores cases where the period length is other than one hour.
+
+where:
+
+The Irish Uplift method finds the optimal uplifted prices such that every generator is able to fully recover their start-up costs. This ex-post process is executed after each optimal ST schedule step is solved. The uplift calculation does not affect the simulation results (generation schedule). The objective function of this QP optimization problem is composed by two weighted values: the cost to load and the quadratic difference between the original prices and the new uplifted prices. It is subject to operational cost recovery constraints. The user can control the weighting values by adjusting alpha (α) and beta (β) parameters in the region object.
+
+α * (SMP_new * Load) + β * (SMP_new - SMP)^2 Subject to: SMP_new*Generation ≥ Operational_Cost, for each Generator and for each operational period SMP_new ≥ 0, for each period
+
+The new prices (SMP_new) are reported in Region.Price solution. The uplift reported in Region.Uplift is computed as SMP_new - SMP. Uplift is a regional uniform price based calculation, so the locational marginal prices (or nodal prices as in Node.Price ) are reported directly from the OPF solution (without any ex-post uplift). The previous regional "before uplift" price can be computed manually as Region.Price - Region.Uplift or alternatively using the output property Shadow Price. The operational costs are highly dependent on the user settings in the Region object. By default, the Operational Cost will include no-load and start-up costs. The operational period is also dependent on the user configuration settings. By default, PLEXOS will exclude those periods in which the generating unit operates subject to technical restrictions at the optimal generation schedule solution. This is, when generator is limited by ramping or MSL constraints. The user can alter this functionality by deselecting Active Min Stable Level Detection and/or Active Ramp Detection flags from the Region object. Similar to the standard uplift, generators still online at the end of each step will partially amortize the total start-up costs. Since this is a by-step calculation, it will be assumed that the generator will stay online for an interval equal to the subsequent step length. The pending start-up cost portion will be passed to the next step and included as part of the Operational_Cost. The uplift methods are part of the OpenPlexos libraries. The user can fully customize the algorithm. However, it is recommended to define a custom uplift prior to modify any of the existent routines. For more information about how to customize the library and register assemblies in Plexos refer to the OpenPLEXOS article on the help file.
+
+When you select uplift, the computed uplift is reported as Uplift . The reported Price is inclusive of that uplift and so are the reported Generator Price Received .
+Lists:
+	- Start Cost
+	- No-load Cost
+	- Hand start costs carried over from one dispatch 'day' to the next.
+	- Link (or not link) the price required by one generator in a dispatch period to the price required by all other generators.
+	- Uplift Detect Active Min Stable Level Constraints
+	- Uplift Detect Active Ramp Constraints
+	- Uplift Include Start Cost
+	- Uplift Include No-Load Cost
+	- Uplift Cost Basis
+	- Include in Uplift
+	- t indexes hours in the day
+	- t ' indexes hours in the current dispatch block
+	- T is the total hours in the step (e.g. day)
+	- λ t is the system marginal price in period t
+	- u t is the uplift in period 5
+	- g t is the generator's load in period t
+	- ω t is the shadow price on the generator's min stable level constraint in period t
+	- μ t is the shadow price on the generator ramp constraint in period t
+	- t « is the first hour of the current dispatch block
+	- t » is the last hour of the current dispatch block
+	- h is the length of the current continuous dispatch block
+	- s is the start cost from the current dispatch block
+	- c is the total generation cost in the current dispatch block
+	- s' is the start cost carried over from the end of one day to the next
+
+
+H2s:
+Contents
+1. Overview
+2. Uplift Parameters
+3. Standard Uplift Method
+4. Irish SEM Method
+5. Reporting
+
+H3s:
+3.1. Description
+3.2. Pseudo-Code of Algorithm

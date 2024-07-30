@@ -1,0 +1,11 @@
+Header: Gas Transport Import Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas node the gas transport imports to
+
+Paragraphs:
+Gas Transport Import Node is Gas Node the Gas Transport imports to.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Pool Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports
+
+Paragraphs:
+Pool Exports is the net exports from the pool to other pools.
+Lists:
+

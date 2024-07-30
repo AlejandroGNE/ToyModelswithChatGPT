@@ -1,0 +1,11 @@
+Header: Message 3072
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	ST Schedule must begin inside the planning Horizon.
+
+Paragraphs:
+Message 3072 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,30 @@
+Header: Flow Node Min Flow Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow through the Flow Node each hour
+
+Paragraphs:
+Flow Node Min Flow Hour sets a
+          lower bound on the Flow through the
+          node in each hour of the simulation. This variant only applies to
+          sub-hourly models i.e. where Horizon Periods per Day is greater
+          than 24. See Min Flow for more
+          details.
+
+See also:
+Lists:
+	- Flow Node Min
+              Flow Day
+	- Flow Node Min
+              Flow Week
+	- Flow Node Min
+              Flow Month
+	- Flow Node Min
+              Flow Year
+

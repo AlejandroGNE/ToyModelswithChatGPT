@@ -1,0 +1,20 @@
+Header: LT Plan Stochastic Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	Stochastic optimization method for LT Plan
+
+Paragraphs:
+LT Plan Stochastic Method sets the algorithm used in LT Plan to resolve multi-sample data (defined by Variable objects), where the number of samples is set by the Stochastic Risk Sample Count . The attribute can take the following values:
+
+See also:
+Lists:
+	- Generator Build Non-anticipativity
+	- Stochastic Risk Sample Count
+	- Stochastic Outage Pattern Count
+	- PASA Stochastic Method
+	- MT Schedule Stochastic Method
+	- ST Schedule Stochastic Method
+

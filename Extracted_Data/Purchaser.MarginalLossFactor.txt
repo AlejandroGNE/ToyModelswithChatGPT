@@ -1,0 +1,15 @@
+Header: Purchaser Marginal Loss Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Transmission marginal loss factor (MLF or TLF)
+
+Paragraphs:
+Purchaser Marginal Loss Factor (MLF) is a proxy for transmission losses from the load connection point to the Regional Reference Node and is used in regional and uniform pricing models (see Design Load Settlement Model i.e. where no specific modelling is done of intra-regional losses. The Marginal Loss Factor multiplies the Bid Price and divides the Price Paid to account for those losses.
+Lists:
+

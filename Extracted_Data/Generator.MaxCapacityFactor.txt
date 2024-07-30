@@ -1,0 +1,122 @@
+Header: Generator Max Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum capacity factor (energy constraint)
+Units	1	-	
+Max Capacity	250	MW	
+Rating	200	MW	M01
+Rating	200	MW	M02
+Rating	200	MW	M03
+Rating	250	MW	M04
+Rating	250	MW	M05
+Rating	250	MW	M06
+Rating	250	MW	M07
+Rating	250	MW	M08
+Rating	250	MW	M09
+Rating	200	MW	M10
+Rating	200	MW	M11
+Rating	200	MW	M12
+Max Capacity Factor Month	24	%	M01
+Max Capacity Factor Month	66	%	M02
+Max Capacity Factor Month	68	%	M03
+Max Capacity Factor Month	63	%	M04
+Max Capacity Factor Month	76	%	M05
+Max Capacity Factor Month	36	%	M06
+Max Capacity Factor Month	77	%	M07
+Max Capacity Factor Month	46	%	M08
+Max Capacity Factor Month	22	%	M09
+Max Capacity Factor Month	4	%	M10
+Max Capacity Factor Month	15	%	M11
+Max Capacity Factor Month	8	%	M12
+1-Jul-01	143.22	77
+1-Aug-01	85.56	46
+1-Sep-01	39.6	22
+1-Oct-01	7.44	4
+1-Nov-01	27	15
+1-Dec-01	14.88	8
+1-Jan-02	44.64	24
+1-Feb-02	110.88	66
+1-Mar-02	126.48	68
+1-Apr-02	113.4	63
+1-May-02	141.36	76
+1-Jun-02	64.8	36
+1-Jul-02	143.22	77
+1-Aug-02	85.56	46
+1-Sep-02	39.6	22
+1-Oct-02	7.44	4
+1-Nov-02	27	15
+1-Dec-02	14.88	8
+1-Jan-03	44.64	24
+1-Feb-03	110.88	66
+1-Mar-03	126.48	68
+1-Apr-03	113.4	63
+1-May-03	141.36	76
+1-Jun-03	64.8	36
+01-Jul-01	143.22	0.00	24,260.90	744.00
+01-Aug-01	85.56	0.00	26,580.30	744.00
+01-Sep-01	39.60	0.00	28,436.20	720.00
+01-Oct-01	7.44	0.00	48,205.10	744.00
+01-Nov-01	27.00	0.00	26,793.70	720.00
+01-Dec-01	14.88	0.00	32,748.20	744.00
+01-Jan-02	44.64	0.00	26,649.10	744.00
+01-Feb-02	110.88	0.00	17,644.70	672.00
+01-Mar-02	126.48	0.00	16,684.30	744.00
+01-Apr-02	113.40	0.00	25,554.60	720.00
+01-May-02	141.36	0.00	27,109.20	744.00
+01-Jun-02	64.80	0.00	33,758.50	720.00
+01-Jul-02	143.22	0.00	26,939.00	744.00
+01-Aug-02	85.56	0.00	27,974.30	744.00
+01-Sep-02	39.60	0.00	36,695.00	720.00
+01-Oct-02	7.44	0.00	44,218.00	744.00
+01-Nov-02	27.00	0.00	33,023.30	720.00
+01-Dec-02	14.88	0.00	52,726.40	744.00
+01-Jan-03	44.64	0.00	29,653.30	744.00
+01-Feb-03	110.88	0.00	13,314.30	672.00
+01-Mar-03	126.48	0.00	11,880.00	744.00
+01-Apr-03	113.40	0.00	18,285.00	720.00
+01-May-03	141.36	0.00	18,842.30	744.00
+01-Jun-03	64.80	0.00	27,695.70	720.00
+
+Paragraphs:
+Generator Min
+            Capacity Factor and Max
+            Capacity Factor (and their period-specific variants) define
+          bounds on a facilities' capacity
+            factor on an interval, hourly, daily, weekly, monthly, or annual
+          basis.
+
+A straight-forward approach to modelling an energy-limited generator
+          ( e.g. hydro) is to place periodic limits on the generator's rating along with capacity factor
+          constraints as in Table 1
+
+Note the use Capacity
+            Factor Month variant and timeslices (patterns) to change the rating and capacity factor limits by month of
+          year.
+
+The simulator converts the energy constraints into Constraint objects. By default the constraints are hard i.e. no
+          violation is allowed. If you prefer to allow violations then use the Max Energy Penalty property.
+
+For the case above, the output for the generator across a two year
+          horizon is shown in Table 2.
+
+The solution file contains a new constraint and report the following
+          information:
+
+This output shows that the constraint is binding in every month (Slack
+          = 0). The Price is in units of $/ GWh thus the first months shadow price on the constraint is $24.26 per MWh . This is the marginal value of relieving
+          the capacity factor constraint in that month also equal to the
+          equivalent shadow price of the generator.
+
+See also:
+Lists:
+	- Generator Max
+              Energy
+	- Generator Min
+              Energy
+

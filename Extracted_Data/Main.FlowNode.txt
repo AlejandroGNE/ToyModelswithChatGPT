@@ -1,0 +1,100 @@
+Header: Flow Node Class
+
+Table Details:
+Description:	A node in a flow network
+Commodity	Acts as storage for the Commodity.
+                Injection to the storage
+                acts as a 'sink' and Withdrawal
+                acts as a 'source'.
+Facility	Acts as either a source or a sink for the Commodity
+                flowing on the Flow Network.
+                Any Process conducted by the Facility that takes the Commodity as input is a sink;
+                and any Process that produces
+                the Commodity as an output is
+                a source.
+Market	Acts as a source or sink for the Commodity
+                flowing on the network. If the Market
+                defines either Demand or Price with Max
+                  Sales it is a sink; and if it defines Supply
+                or Price with Max
+                  Purchases it is a source.
+
+Paragraphs:
+See also Flow Node Property Reference for a detailed list of properties for this class of object.
+
+Related Classes: Commodity , Flow
+            Network , Flow Path , Flow
+            Storage .
+
+Flow Node works with Flow Path to
+          represent a Flow Network .
+
+The key property Units toggle
+          on/off the Flow Node in the currently executing Model .
+          Additionally the Flow Node must belong to a Flow
+            Network via the Flow Network Flow Nodes membership.
+
+The network flows the Commodity set by the Flow Network object.
+          You can connect Facility and Market objects that produce, consume
+          or trade the same Commodity to a
+          Flow Node and the simulator will connect those activities to the
+          network at that node e.g. a Facility that produces the Commodity will have its Production injected into the network at that node. Note that the Commodity need
+          only be associated with one of the processes the Facility conducts. It
+          does not need to be a product or input to the Primary
+            Process but can be from any of the Secondary
+            Processes .
+
+The following is a basic guide to using Flow Node:
+
+Table 1 outlines the function of class of object that connects to
+          Flow Node.
+
+
+
+Flow Charge places a per unit
+          charge on the Flow through the node.
+          The cost incurred is reported in the property Flow
+            Cost .
+
+Max Flow and its period variants
+          ( Hour , Day , Week , Month ,
+          and Year ) defines an upper
+          bound on the Flow through the Flow
+          Node. Likewise, Min Flow and its
+          period variants ( Hour , Day , Week , Month ,
+          and Year ) defines a lower
+          bound on the Flow through the Flow
+          Node.
+
+Output properties for Flow Node report the Flow through the node as well the Consumption and Production of the Commodity by facilities; and the Sales and Purchases to and from markets.
+          The locational marginal price of the Commodity is reported in the property Shadow
+            Price .
+
+See the example in the Flow Network topic.
+
+
+
+You can define custom constraints on Flow Node via the Constraints membership. The Objectives membership allows you to include Flow Node coefficients in your
+          multi-objective optimization problems.
+
+Flow Node supports expansion in LT Plan .
+          The key input properties are Max
+            Units Built and Build Cost and optionally FO&M Charge .
+          Expansion costs can be treated as a lump sum or automatically
+          annualized by defining WACC and Economic Life . Units can be
+          built from Project Start
+            Date or immediately if this not defined. Other available
+          constraints related to expansion are:
+
+Retirement occurs automatically after the Technical
+            Life . Retirements can be optimized if you define Max
+            Units Retired and will incur a Retirement
+            Cost .
+Lists:
+	- Project Start Date
+	- Min Units Built
+	- Max Units Built in
+              Year
+	- Min Units Built in
+              Year
+

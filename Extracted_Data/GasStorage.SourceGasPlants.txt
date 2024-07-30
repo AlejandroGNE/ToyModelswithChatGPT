@@ -1,0 +1,11 @@
+Header: Gas Storage Source Gas Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Storage has Source Gas Plants which deliver gas to the Gas Storage.
+Lists:
+

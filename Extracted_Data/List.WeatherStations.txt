@@ -1,0 +1,11 @@
+Header: List Weather Stations
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Weather Station objects in the List
+
+Paragraphs:
+List Weather Stations is the set of Weather Station objects in the List.
+Lists:
+

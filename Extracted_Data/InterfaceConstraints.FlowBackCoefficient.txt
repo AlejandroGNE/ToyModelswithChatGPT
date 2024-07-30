@@ -1,0 +1,15 @@
+Header: Interface Constraints Flow Back Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of counter-reference direction flow
+
+Paragraphs:
+Interface Constraints Flow Back Coefficient is the coefficient of counter-reference direction flow in constraint.
+Lists:
+

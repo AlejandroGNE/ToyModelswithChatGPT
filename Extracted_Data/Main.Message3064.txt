@@ -1,0 +1,11 @@
+Header: Message 3064
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	<value> validation errors were detected. Please correct these errors before running the simulation.
+
+Paragraphs:
+Message 3064 occurs in the following circumstances:
+Lists:
+

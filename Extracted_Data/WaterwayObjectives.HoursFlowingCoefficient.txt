@@ -1,0 +1,15 @@
+Header: Waterway Objectives Hours Flowing Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of hours the waterway is flowing
+
+Paragraphs:
+Waterway Objectives Hours Flowing Coefficient is Coefficient of the number of hours the waterway is flowing.
+Lists:
+

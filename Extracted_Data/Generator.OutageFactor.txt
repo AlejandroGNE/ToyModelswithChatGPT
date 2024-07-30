@@ -1,0 +1,27 @@
+Header: Generator Outage Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Unit outage rating based on the unit capacity
+Units	1	-
+Max Capacity	200	MW
+Rating	100	MW
+Outage Factor	90	%
+
+Paragraphs:
+Generator Outage Factor sets the Outage Rating of each unit
+          during the associated Forced or Maintenance outage as a
+          proportion of the Max Capacity .
+
+In this example the outage factor is 90%, and so the implied Outage
+            Rating is 10 i.e. (1 - Outage Factor) x Rating .
+
+Note that Outage Factor overrides Outage
+            Rating if both are defined.
+Lists:
+

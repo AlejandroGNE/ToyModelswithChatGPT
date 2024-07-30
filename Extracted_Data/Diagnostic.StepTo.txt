@@ -1,0 +1,12 @@
+Header: Diagnostic Step To
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Limit diagnostic file writing to step numbers ending at this number (-1 means infinity).
+
+Paragraphs:
+Diagnostic Step To works with Diagnostic Step From to limit the production of diagnostics, such as LP Files and Unit Commitment to only the simulation steps numbered in the given range e.g. you might set Step From = 123 and Step To = 125 to have diagnostics produced only for the steps 123, 124, and 125.
+Lists:
+

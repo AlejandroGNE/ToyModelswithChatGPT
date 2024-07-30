@@ -1,0 +1,19 @@
+Header: Line Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Line expansion type
+
+Paragraphs:
+Line Type controls what type of line is modelled for expansion in LT Plan . It can take one of the following values:
+
+NOTE : The AC option is allowed only when OPF Method is set to "Variable Shift Factor" otherwise the Line Type will default to DC.
+Lists:
+	- For the Line to be an expansion candidate it must define Max Units Built
+	- For it to be expanded as an AC line it must also define Reactance otherwise it will be a DC line
+

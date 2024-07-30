@@ -1,0 +1,15 @@
+Header: Flow Network Price Cap Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours Market price cap was applied
+
+Paragraphs:
+Flow Network Price Cap Hours is Number of hours Market price cap was applied.
+Lists:
+

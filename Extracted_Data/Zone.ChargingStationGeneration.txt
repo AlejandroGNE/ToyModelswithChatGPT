@@ -1,0 +1,21 @@
+Header: Zone Charging Station Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from Charging Stations
+
+Paragraphs:
+Zone Charging Station Generation is the total Generation from Charging Stations and is defined as:
+
+Generation = ∑ ( i ∈ Generators ) ( Generation Participation Factor i × Generation i ) +  ∑  ( i ∈ Generation Contracts )  ( Generation i ) + Zone Fixed Generation + ∑ ( i ∈ Nodes ) ( Fixed Generation i ) See also: Zone Load Zone Net Interchange
+
+See also:
+Lists:
+	- Zone Load
+	- Zone Net Interchange
+

@@ -1,0 +1,13 @@
+Header: Message 1
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Running in Diagnostic Mode! Execution may be slow and/or excessive disk space may be consumed.
+
+Paragraphs:
+Message 1 occurs whenever a Diagnostic object is attached to the executing Model via the Diagnostic membership and one or more of the non-default settings for that object might impact on the performance of the simulation.
+
+In general you should avoid running with unneeded diagnostic switches enabled and only use these switches when absolutely necessary. Other switches such as those that toggle on/off certain log messages do not prompt this warning.
+Lists:
+

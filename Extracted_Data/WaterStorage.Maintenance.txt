@@ -1,0 +1,15 @@
+Header: Water Storage Maintenance
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of Withdrawal/Injection on maintenance
+
+Paragraphs:
+Water Storage Maintenance is the amount of Withdrawal/Injection capacity on maintenance. This is a Beta feature.
+Lists:
+

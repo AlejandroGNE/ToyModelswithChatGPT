@@ -1,0 +1,15 @@
+Header: Company Transmission Rental
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Settlement surplus on own transmission lines
+
+Paragraphs:
+Company Transmission Rental is the total transmission rent collected by the company, and is defined as:
+Lists:
+

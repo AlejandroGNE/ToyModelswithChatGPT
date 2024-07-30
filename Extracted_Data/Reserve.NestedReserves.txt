@@ -1,0 +1,34 @@
+Header: Reserve Nested Reserves
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	reserves nested inside this reserve class
+
+Paragraphs:
+Reserve Nested Reserves is set of reserves nested inside this reserve class. When Cascading is not selected, this relationship indicates that 
+        any Generators providing the nested reserve must provide the same amount of Provision to this master reserve as they do to the nested reserve. Note that when Cascading is not selected, the reserve and nested reserve must have the same Type .
+
+When Cascading is set to Yes, a higher quality nested reserve (e.g. regulation up) can be used to meet a lower quality master reserve (e.g. spinning) requirement. This is a 
+        feature designed in particular for the CAISO market as detailed below.
+
+In the CAISO market, there are 3 major up reserves: Non-spinning, Spinning and Regulation Up. These reserves have different time frames, with non-spinning being the longest and regulation up the shortest. When Cascading is selected,  
+    a reserve with a shorter time frame can be substituted for a lower quality reserve with a longer time frame. Specifically:
+
+
+
+Implementation in PLEXOS:
+
+PLEXOS will create addition constraints and variables to allow the generators to provide more provision to higher quality nested reserves if that is economically better. These additional services will then be passed on to their master reserves. 
+    Note that if regulation is nested into spinning and spinning is nested into non-spinning, regulation can also provide services to non-spinning (master of its master). This fits the requirements from the CAISO market.
+
+In general, a cascaded reserve can be nested to any number of reserves. However, it only provides services to "like-type" reserves. For example, an "UP" reserve can only provide services to its "UP" master reserves.
+    "Up" reserves are those defined as Regulation, Regulation Raise, Raise, Operational, Replacement type .
+    "Down" reserves are those defined as Regulation, Regulation Lower, Lower type
+Lists:
+	- Regulation Up can be used as substitution for both Spinning and Non-Spinning Reserves
+	- Spinning Reserve can be used as substitution for Non-Spinning Reserve
+	- Create 3 reserves and their necessary inputs.
+	- Nest Regulation Up into Spinning and nest Spinning into Non-Spinning (using the nested reserve membership).
+	- Set the Cascading flag to Yes for both memberships.
+

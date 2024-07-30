@@ -1,0 +1,21 @@
+Header: Generator Max Heat Injection Day
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of heat that can be injected into the storage in a day
+
+Paragraphs:
+Generator Max Heat Injection Day is maximum amount of heat that can be injected into the storage in a day. This is the daily variant of Max Heat Injection .
+
+See also:
+Lists:
+	- Generator Max Heat Injection Hour
+	- Generator Max Heat Injection Week
+	- Generator Max Heat Injection Month
+	- Generator Max Heat Injection Year
+

@@ -1,0 +1,29 @@
+Header: Generator Ramp Up Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load point for use with multi-band Max Ramp Up constraints
+Max Capacity	1000	MW	1
+Max Ramp Up	2	MW/min.	1
+Max Ramp Up	3	MW/min.	2
+Max Ramp Up	3.5	MW/min.	3
+Max Ramp Up	2	MW/min.	4
+Ramp Up Point	250	MW	1
+Ramp Up Point	500	MW	2
+Ramp Up Point	750	MW	3
+Ramp Up Point	1000	MW	4
+Max Ramp Up Penalty	100	$/MW	1
+
+Paragraphs:
+Generator Ramp Up Point is a multi-band property that defines the load point for use with multi-band Max Ramp Up constraints. These should be defined with equal number of bands of Max Ramp Up as in the following example. The ramp limit in the band applies up to the point defined in the band.
+
+Example:
+
+Note that the ramp penalty is also multi-band which allows different penalties for different generation levels.
+Lists:
+

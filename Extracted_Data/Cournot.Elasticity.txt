@@ -1,0 +1,21 @@
+Header: Cournot Elasticity
+
+Table Details:
+Units:	$/MWh2 (Metric), $/MWh/MWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price elasticity of demand
+
+Paragraphs:
+Cournot Elasticity reports the price elasticity of demand associated with the demand curve used in the Nash-Cournot game.
+
+In the case where both Demand Intercept and Demand Slope are defined, the elasticity is computed as a point elasticity:
+
+In other words, it is equal to the first derivative of quantity with respect to price (∂Qd/∂P) multiplied by the point's price (P c ) divided by its quantity (Q c ).
+
+If the demand function parameters are not defined, then Elasticity reports either the Default Elasticity or Elasticity (if defined).
+Lists:
+

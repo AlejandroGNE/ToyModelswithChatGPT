@@ -1,0 +1,21 @@
+Header: PASA Reliability LOLP Tolerance
+
+Table Details:
+Units:	-
+Default Value:	0.01
+Validation Rule:	≥0
+Description:	For reliability-based sampled chronology using LOLP criterion select intervals with LOLP at or above this level
+
+Paragraphs:
+This PASA option relates to the MT
+            Schedule Reliability Chronology feature when the
+          Reliability Criterion is "LOLP". Periods with LOLP at or above this threshold are considered for simulation the Monte
+          Carlo of MT Schedule . Periods are
+          ranked in descending order of LOLP and only the top Reliability
+            Max Samples hours go through.
+
+See also:
+Lists:
+	- MT Schedule Reliability
+              Min Contiguous Block
+

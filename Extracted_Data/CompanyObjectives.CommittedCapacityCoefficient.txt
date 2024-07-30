@@ -1,0 +1,15 @@
+Header: Company Objectives Committed Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of company committed generation capacity
+
+Paragraphs:
+Company Objectives Committed Capacity Coefficient is Coefficient of company committed generation capacity.
+Lists:
+

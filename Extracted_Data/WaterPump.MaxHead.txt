@@ -1,0 +1,15 @@
+Header: Water Pump Max Head
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Max pump head
+
+Paragraphs:
+Water Pump Max Head is the upper bound on the max head pressure of the Water Pump.
+Lists:
+

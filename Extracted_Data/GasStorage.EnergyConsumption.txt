@@ -1,0 +1,15 @@
+Header: Gas Storage Energy Consumption
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	total energy consumption of the Gas Storage
+
+Paragraphs:
+Gas Storage Energy Consumption is the total energy consumption of the Gas Storage based on the Gas Storage Power Consumption , Gas Storage Injection Energy Consumption , Gas Storage Volume Power Consumption , and Gas Storage Max Storage Power Consumption inputs. The Gas Storage must be connected to a Node for any electrical energy to be consumed.
+Lists:
+

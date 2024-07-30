@@ -1,0 +1,22 @@
+Header: Generator Pump Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Bid price of pump load in band
+
+Paragraphs:
+As an input Generator Pump Bid Price is the price part of a multi-band bid for Pump Load . The quantity is set by Pump Bid Quantity . See the Balancing Markets article for details.
+
+As an output Generator Pump Bid Price repeats the input value in incremental style .
+
+See also:
+Lists:
+	- Generator Pump Bid Cleared
+	- Generator Cleared Pump Bid Price
+	- Generator Cleared Pump Bid Cost
+

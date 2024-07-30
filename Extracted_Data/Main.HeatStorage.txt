@@ -1,0 +1,13 @@
+Header: Heat Storage Class
+
+Table Details:
+Description:	Storage where thermal energy can be stored and withdrawn
+
+Paragraphs:
+See also Heat Storage Property Reference for a detailed list of properties for this class of object.
+
+The Heat Storage class can be used to represent many types of heat storage systems. The basic input properties for Heat Storage are Max Heat and Min Heat which define the range of the storage, Heat Loss which defines how much stored heat is lost per interval, and Heat Injection Efficiency and Heat Withdrawal Efficiency which define the losses incurred when injecting and withdrawing heat from the storage. Heat Storage objects connect to the heat network via the Heat Node membership.
+
+See the Heat Modelling article for details.
+Lists:
+

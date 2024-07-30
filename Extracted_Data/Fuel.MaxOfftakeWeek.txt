@@ -1,0 +1,17 @@
+Header: Fuel Max Offtake Week
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum fuel offtake in week
+
+Paragraphs:
+Fuel Max Offtake WEEK is the maximum
+          total fuel that is allowed to be used per week - see Max
+            Offtake for more details.
+Lists:
+

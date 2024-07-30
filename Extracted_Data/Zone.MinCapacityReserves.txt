@@ -1,0 +1,22 @@
+Header: Zone Min Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserves allowed
+
+Paragraphs:
+Zone Min Capacity Reserves sets a lower bound on the Capacity Reserves in the Zone in LT Plan . The expansion solution will attempt to meet the required Capacity Reserves by new builds and/or restricting plant retirements. By default the constraint is 'hard' meaning that it cannot be violated, but the limit can be made 'soft' by setting  the Capacity Shortage Price .
+
+Zone Min Capacity Reserves is defined as:
+
+See also:
+Lists:
+	- Zone Max Capacity Reserves
+	- Zone Min Capacity Reserve Margin
+	- Zone Capacity Shortage
+

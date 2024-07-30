@@ -1,0 +1,15 @@
+Header: Gas Pipeline FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Gas Pipeline FO&M Cost is the fixed operation and maintenance cost for the pipeline and is calculated as:
+Lists:
+

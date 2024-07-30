@@ -1,0 +1,15 @@
+Header: Node Conditions Unserved Energy Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of unserved energy in condition
+
+Paragraphs:
+Node Conditions Unserved Energy Coefficient is Coefficient of unserved energy in condition.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Fuel FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Fuel FO&M Cost is the total fixed operations and maintenance cost incurred by use of the fuel, as defined by the F&OM Charge .
+
+When the Production Unit Commitment Optimality is Integer, the Fuel O&M costs will be formulated with integers in the LP therefore if any fuel is used in the year, the Fixed O&M Cost will be 100% of the Fixed O&M Charge. When the Commitment Optimality is not Integer, the Fixed O&M Cost will be allocated based upon the number of periods in the year that the fuel is used.
+Lists:
+

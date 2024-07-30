@@ -1,0 +1,15 @@
+Header: Generator Objectives Pump Units Started Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of pump units started
+
+Paragraphs:
+Generator Objectives Pump Units Started Coefficient is Coefficient on the number of pump units started.
+Lists:
+

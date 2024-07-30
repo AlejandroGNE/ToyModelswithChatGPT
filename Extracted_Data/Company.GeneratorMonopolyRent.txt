@@ -1,0 +1,15 @@
+Header: Company Generator Monopoly Rent
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Monopoly rent from competitive bidding
+
+Paragraphs:
+Company Generator Monopoly Rent represents the total additional revenue the company earned as a function if its non-marginal cost bidding, and is defined as:
+Lists:
+

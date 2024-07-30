@@ -1,0 +1,14 @@
+Header: Transmission Max Absolute Phase Angle
+
+Table Details:
+Units:	rad
+Default Value:	6.28
+Validation Rule:	Between 0 And 6.28318530717958
+Description:	Maximum absolute value allowed for any Node [Phase Angle].
+
+Paragraphs:
+Transmission Max Absolute Phase Angle is the maximum positive and negative angle in radians allowed for any Node Phase Angle . These bounds are only enforced if the Transmission Bound Node Phase Angles option is set.
+
+The default value of \[ 6.28 \approx 2\pi \] radians is commonly used in the linearized-DC approximation to AC Optimal Power Flow . The range of \[ [ -6.28318530717958,6.28318530717958] \] is slightly contained in \[ [-2\pi,2\pi] \] to prevent numerical problems on the boundary of \[ 2\pi \] with \[ 6.28318530717958 = 2\pi - 64769252867... \] having 15 significant digits gauranteed in the double precision representation.
+Lists:
+

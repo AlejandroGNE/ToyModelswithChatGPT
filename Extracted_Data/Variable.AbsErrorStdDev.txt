@@ -1,0 +1,31 @@
+Header: Variable Abs Error Std Dev
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Absolute value of standard deviation of errors
+
+Paragraphs:
+Variable Abs Error Std Dev is the input absolute value of standard deviation of errors. In PLEXOS, random errors are generated using the following transformations:
+
+and
+
+σ * (e X - e 0.5 )
+
+which follow a normal and a lognormal distribution respectively, where X ~ N(0,1) is the standard normal variable and σ is the Abs Error Std Dev.
+
+Please note that with a lognormal distribution, the standard deviation of the generated errors is σ * √ e² - e¹ , where:
+
+1 / √ e² - e¹ = 0.462706457
+
+So, for example, to get a standard deviation of 5 for the generated errors in lognormal, you will need to enter the value
+
+5 / √ e² - e¹ = 2.313532287
+
+for σ .
+Lists:
+

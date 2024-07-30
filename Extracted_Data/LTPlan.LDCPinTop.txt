@@ -1,0 +1,12 @@
+Header: LT Plan LDC Pin Top
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Number of points at the top of the LDC that are pinned and cannot be aggregated into blocks.
+
+Paragraphs:
+This LT Plan setting is described in the MT Schedule article LDC Pin Top .
+Lists:
+

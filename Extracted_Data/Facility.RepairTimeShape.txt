@@ -1,0 +1,19 @@
+Header: Facility Repair Time Shape
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Repair time function shape parameter (for Weibull,lognormal)
+
+Paragraphs:
+Facility Repair Time Scale sets
+          the scale parameter of the repair time distribution for Forced and Maintenance outages.
+
+The distribution types are discussed further in the article Planned
+            and Random Outages .
+Lists:
+

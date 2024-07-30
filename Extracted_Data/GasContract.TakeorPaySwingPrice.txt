@@ -1,0 +1,15 @@
+Header: Gas Contract Take-or-Pay Swing Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price to charge for swing portion of Take or Pay contract
+
+Paragraphs:
+Gas Contract Take-or-Pay Swing Price is the price to charge for the swing take of a Take or Pay contract after the obligations are met.
+Lists:
+

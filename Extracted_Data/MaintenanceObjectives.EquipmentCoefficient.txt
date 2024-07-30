@@ -1,0 +1,15 @@
+Header: Maintenance Objectives Equipment Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of maintenance event equipment usage
+
+Paragraphs:
+Maintenance Objectives Equipment Coefficient is Coefficient of maintenance event equipment usage.
+Lists:
+

@@ -1,0 +1,50 @@
+Header: Reliability Class
+
+Table Details:
+Description:	Reliability group
+EFC	Perform EFC Evaluation	Yes	Yes/No
+EFC	EFC Risk Metric	EENS	-
+EFC	Max EFC Iterations	50	-
+EFC	EFC Convergence Threshold	1	%
+EFC	EFC Initial Estimate	130	MW
+EFC	Simplify Generator Properties	Yes	Yes/No
+Wind	Units	500		-
+Wind	Max Capacity	1		MW
+Wind	Rating		Wind Pattern	MW
+Wind	Maintenance Rate	1		%
+Wind	Forced Outage Rate	5		%
+Wind	Outage Rating	0		MW
+Wind	Mean Time to Repair	6		h
+
+Paragraphs:
+The purpose of the Reliability Class is to calculate the Effective Firm Capacity (EFC) value for a generator or set of generators. 
+      The EFC is the amount of reliable firm capacity that could replace the generator(s) and maintain the same level of unserved energy in the Reliability Region . This logic is valuable when estimating the reliability contribution of renewable generators that have variable availability 
+      from hour to hour.
+
+To determine the EFC, PLEXOS first calculates the EFC Risk Metric for the system as-is by running a complete simulation including the ST Schedule . The risk metric is measured either by the average quantity or the total number of hours of 
+      unserved energy for the Reliability Region across all samples. PLEXOS then loops over the ST Schedule while replacing the Reliability Generators with some level of flat firm capacity. The loops continue until the total level of unserved energy on the system is within a tolerance level of the initial calculated risk metric. The main output is the Firm Capacity Contribution for the Reliability Generators .
+
+In this process the MT Schedule , if employed, only runs once but the ST Schedule is run multiple times. This can result in very long run times when many samples are used, and so some simplifications are available. First, the user can have designated steps skipped in the dispatch using the Skip Steps property when there is prior 
+      knowledge that no unserved energy will occur in those time periods. Second, the Simplify Generator Properties flag turns off certain properties not usually connected with the presence of unserved energy in order to simplify their representation in the dispatch. Lastly, when Loop 1 is run, PLEXOS keeps track of any steps that have no unserved energy in any sample. Those steps are automatically skipped in subsequent Reliability loops.
+
+The following example shows a sample setup to assess the reliability of a 500 MW wind turbine. This example uses EENS (Expected Energy Not Served) as the Risk Metric .
+
+For the model to run, the Reliability object must have membership with the desired Region for which the risk metric applies and Generator objects.
+
+Table 1. EFC Example Properties
+
+Name Property Value Units EFC Perform EFC Evaluation Yes Yes/No EFC EFC Risk Metric EENS - EFC Max EFC Iterations 50 - EFC EFC Convergence Threshold 1 % EFC EFC Initial Estimate 130 MW EFC Simplify Generator Properties Yes Yes/No
+
+Table 2. Wind Generator Properties
+
+Name Property Value Datafile Units Wind Units 500 - Wind Max Capacity 1 MW Wind Rating Wind Pattern MW Wind Maintenance Rate 1 % Wind Forced Outage Rate 5 % Wind Outage Rating 0 MW Wind Mean Time to Repair 6 h
+
+The EFC methodology works by first assessing the reliability of the system as-is. The Reliability Convergence Report is the 
+      log output associated with a simulation doing an EFC calculation. A sample output is shown below.
+
+Loop 0 solved for the initial Risk Metric for the region and the EENS was 
+      1850 MW. Loop 1 found that the risk metric was 4834 MW without the wind resource. Using those two data points, Loop 2 
+      estimated 130 MW for the firm capacity and with that addition to the system in place of the wind generator the risk metric was 1745. 
+      Loop 3 decreased the firm capacity estimate to 123 MW and that resulted a risk metric of 1845 MW. This met the EFC Convergence Threshold when compared to the 1850 target value, and so the looping stopped. The final estimate reported was that the wind generator's firm capacity was 123 MW.
+Lists:
+

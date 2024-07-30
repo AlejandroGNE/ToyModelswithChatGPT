@@ -1,0 +1,21 @@
+Header: Commodity Objectives Built in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any capacity is built in the year
+
+Paragraphs:
+Commodity Objectives Built in Year Coefficient sets the coefficient in the Objective of the binary variable indicating if there have been any Units
+            Built to in the year .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+
+Lists:
+

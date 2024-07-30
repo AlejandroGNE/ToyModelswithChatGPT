@@ -1,0 +1,15 @@
+Header: Interface Rental
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flowgate rental in pre-contingency state
+
+Paragraphs:
+Interface Rental is defined as:
+Lists:
+

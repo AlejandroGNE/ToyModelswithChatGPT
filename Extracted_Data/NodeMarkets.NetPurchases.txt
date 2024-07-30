@@ -1,0 +1,15 @@
+Header: Node Markets Net Purchases
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net purchases from the market
+
+Paragraphs:
+Node Markets Net Purchases is the net energy bought from the market.
+Lists:
+

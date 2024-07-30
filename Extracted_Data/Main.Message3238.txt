@@ -1,0 +1,11 @@
+Header: Message 3238
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> Decision Variable <name> Value Squared Coefficient should not be positive when a negative value is defined.
+
+Paragraphs:
+Message 3238 occurs in the following circumstances:
+Lists:
+

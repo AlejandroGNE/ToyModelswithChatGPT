@@ -1,0 +1,19 @@
+Header: Battery Offer No Load Cost
+
+Table Details:
+Units:	$/h (Metric), $/hr (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed dispatch cost component of generator offer.
+
+Paragraphs:
+Battery Offer No Load Cost is the fixed dispatch cost component of Battery offer. If the Region MLF Adjusts No Load Cost property is set, this cost is modified by the Marginal Loss Factor .
+
+See also:
+Lists:
+	- Battery Offer Price
+	- Battery Offer Quantity
+

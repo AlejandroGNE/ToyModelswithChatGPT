@@ -1,0 +1,15 @@
+Header: Purchaser Objectives Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of interruptible load provision
+
+Paragraphs:
+Purchaser Objectives Reserve Provision Coefficient is Coefficient of interruptible load provision.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Pump Station Objectives Head Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Water Pump Station head
+
+Paragraphs:
+Water Pump Station Objectives Head Coefficient is the coefficient of Water Pump Station head.
+Lists:
+

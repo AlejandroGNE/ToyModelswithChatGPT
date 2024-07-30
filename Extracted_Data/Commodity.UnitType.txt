@@ -1,0 +1,25 @@
+Header: Commodity Unit Type
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Convention for reporting of Commodity at the interval level
+
+Paragraphs:
+Commodity Unit Type can take these
+          values:
+
+Unit Type also affects the interpretation of the following input
+          properties:
+Lists:
+	- Quantity (value = 0, default): The Commodity should be reported in
+            quantity terms. Both summary and period level reporting will show
+            the quantity of the Commodity consumed or produced.
+	- Rate (value = 1): The Commodity should be reported in rate terms
+            for period level reporting and quantity for summary reporting. For
+            example if the Commodity is "Electricity" it is common to report
+            period-level data in megawatts and summary in megawatt-hours.
+	- Commodity Delivery
+
+

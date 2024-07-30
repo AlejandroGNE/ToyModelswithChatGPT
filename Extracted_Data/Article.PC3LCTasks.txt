@@ -1,0 +1,44 @@
+Header: Managing Task Schedules
+
+Table Details:
+
+Paragraphs:
+Within the Connect Task Scheduler control panel, you are able to manage any tasks they have created as well as create new tasks to be automatically ran by the Connect Server. To open the Task Scheduler control panel, press the Task Scheduler button at the top of the run panel (highlighted below). This window will list all task schedules created by yourself. If you have the 'View All' task scheduler permission, then you will also see all tasks created by other users. Additionally, if you have permission to configure the SMTP settings, you can specify which email server to use for email notifications by pressing the email button. Users will need permissions from the 'Task Scheduler' module in the Connect product.
+
+Note: You will need to have the user permission 'Add\Edit\Remove' from the Connect Task Scheduler module.
+
+The Email SMTP settings allows the Connect Server to send emails using the task action 'Send Email'.
+
+From here, you can set a hostname or IP address and the port number for the SMTP Server that you want the Connect Server to send emails from. You will also need to specify an email address to send the emails from, this will be what will be in the 'From' field in all emails sent. The option 'Require SSL' will specify if Connect Server will need to use a Secure Socket Layer (SSL) when connecting to the specified SMTP server. If a login is required to connect to the email server, then you will need expand the section 'Use Login' and specify what username and password is to be used when connecting to the SMTP server. After pressing the OK button, these settings will be saved to the PLEXOS Connect Server and opening this dialog will have the details automatically filled in for easier editing. The test button will allow you to test if the Connect Server is able to connect to the SMTP server and send an email. The Connect Server will attempt to send an email to the address listed as the 'Send As' in order to validate the settings you have entered are correct. Please note the test process may take a couple of minutes depending on the connection to the SMTP server and the Connect Server is not capable of detecting all possible issues with sending or receiving emails. You need the 'Configure Settings' permission from the Task Scheduler Module to setup these settings.
+
+To create a new task schedule, click the add new button at the top of the Task Schedule window (highlighted below) to open the new task window. Additionally, you can right click on any existing task schedule and select 'Edit' to be presented with a similar window where all the information from that task schedule is shown.
+
+From the Settings tab, you'll be able to configure various behaviours for while the task is running, these are:
+
+Each task can have multiple triggers that will cause it to run, however, it only requires that one of the triggers match an event for the entire task to be ran. In the tab 'Triggers' for the Add Task window (see Figure 3), you can click the add button or right click a trigger and select 'Edit' from the menu to open the Add Task Trigger or Edit Task Trigger window.
+
+From this window, the following data can be adjusted to filter even data before being triggered:
+
+Each task can have a series of actions to perform when an event triggers the task. These actions will be executed in the order they are listed in the Add Task window. In the 'Actions' tab of the Add Task window, click the add button or right click an existing action and select 'Edit' from the menu to open the Add Task Action or Edit Task Action window.
+
+From this window, you will need to specify data relevant for the action you are performing. This may include a jobset to execute or stop, an email to send or an external program to execute. The Macros section (collapsed in Figure 5) will list possible macros that you can use in specific actions (ie, send email or run external program). These macros will be replaced by Connect when performing the action with the values associated with the task. These values will be populated by the event trigger or results from specific actions (currently only 'Run a Jobset').
+Lists:
+	- Run all actions in parallel: This is for actions that would normally take some time to complete, such as running a jobset or an external command. With this checked, the Connect Server will not wait for these tasks to complete before moving onto the next action.
+	- If an action failed: Normally when a task's action fails, the entire task is cancelled. However, by specifying a restart delay and attempt count the current action can be restarted after each failure up to the defined count after which the task is cancelled. Please note that tasks will not be cancelled if the task is set to run all actions in parallel.
+	- If the task fails, email: When the task fails, you can choose if you wish to be notified by email of the failure. This will rely on the email SMTP settings being set.
+	- If no longer scheduled to run, delete after: If a task is no longer scheduled to run, you can choose to have it automatically cleaned up. The Connect Server will check for tasks to clean up once per day and you can choose how many days to wait before it is automatically deleted. Tasks may no longer be scheduled if a dataset or jobset has been deleted or all triggers are set to expire after a specific time.
+	- If this task is already running: When a task is currently running and it is triggered to run again, you can choose how the Connect Server will handle the tasks.
+	- Begin Task: This is the initial event type that will occur within Connect
+	- Settings: The available settings will change depending on the event type, but may include options for filtering by jobset, dataset or timer frequency
+	- Advanced Settings: These allow you to enable/disable, start after a specific date and time and automatically expire the trigger after a specific date and time.
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Setup the Email SMTP Settings?
+3. How do I Create a New Task Schedule?
+
+H3s:
+3.1. Configure a Task Trigger
+3.2. Configure a Task Action

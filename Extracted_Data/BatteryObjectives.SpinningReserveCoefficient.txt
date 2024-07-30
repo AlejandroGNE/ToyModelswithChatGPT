@@ -1,0 +1,15 @@
+Header: Battery Objectives Spinning Reserve Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of reserve provided by spare capacity
+
+Paragraphs:
+Battery Objectives Spinning Reserve Coefficient is Coefficient of reserve provided by spare capacity.
+Lists:
+

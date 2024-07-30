@@ -1,0 +1,20 @@
+Header: Abatement FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed charge for emission abatement technology
+
+Paragraphs:
+Abatement FO&M Charge is the annual fixed charge for the emission abatement technology and is charged whenever Units is unity.
+
+This cost is reported as FO&M Cost .
+
+See also:
+Lists:
+	- Abatement Total Cost
+

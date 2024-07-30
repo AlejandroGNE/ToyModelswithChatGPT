@@ -1,0 +1,17 @@
+Header: Flow Storage Opening Inventory
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial amount of the Commodity in inventory
+
+Paragraphs:
+Flow Storage Opening Inventory
+          is the initial amount of the Commodity in inventory. See Commodity Opening Inventory for
+          details.
+Lists:
+

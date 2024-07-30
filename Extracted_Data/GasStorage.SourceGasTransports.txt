@@ -1,0 +1,11 @@
+Header: Gas Storage Source Gas Transports
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Storage Source Gas Transports is
+Lists:
+

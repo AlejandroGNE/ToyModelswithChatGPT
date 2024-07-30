@@ -1,0 +1,15 @@
+Header: Zone Max Dump Energy Month
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum dump energy in month
+
+Paragraphs:
+Zone Max Dump Energy Month is Maximum dump energy in month.
+Lists:
+

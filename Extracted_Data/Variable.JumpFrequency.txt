@@ -1,0 +1,17 @@
+Header: Variable Jump Frequency
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Jump frequency in jump-diffusion model
+
+Paragraphs:
+Variable Jump Frequency is the number of jumps per year (assume 365 days a year) in the jump-diffusion model.
+
+The number of jumps per period should be a value much smaller than 1.0, otherwise the resolution is too low and the generated sample is not good.
+Lists:
+

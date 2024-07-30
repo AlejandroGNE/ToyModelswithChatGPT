@@ -1,0 +1,25 @@
+Header: Line Marginal Loss Factor
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Transmission marginal loss factor (MLF or TLF) for exports
+MNSP1	Marginal Loss Factor	0.93	-
+MNSP1	Marginal Loss Factor Back	0.99	-
+
+Paragraphs:
+Line Marginal Loss Factor is the marginal loss factor of the node at the reference receiving end ( Node To ).
+
+This property is used in regional transmission models and approximates the transmission losses from the end of the transmission line to the regional reference node. The factor is used to adjust the apparent price of energy flowing across the line, and is usually applied only to entrepreneurial transmission and/or HVDC lines.
+
+Example:
+
+In this example each megawatt of flow received at the reference receiving end results in 0.93MW received at the regional reference node, and likewise for flows in the counter-reference direction each megawatt received at the reference sending end, once sent to the reference node, is 0.99MW.
+
+The Marginal Loss Factor is applied to the Offer Price for the Line when modelled as an entrepreneurial flow.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Generator Boiler Heat Rate Incr
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental heat rate for heat production from boiler
+
+Paragraphs:
+Generator Boiler Heat Rate Incr is the incremental heat rate for heat production from the boiler of a CHP generator . It represents the constant efficiency rate of heat production of the Auxiliary Boiler in CHP power plants.
+
+This value is taken into account when computing the total Generators Fuel Offtake or Fuel Offtake .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Regions Net Contract Settlement
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Monies received (+ve) or paid out (-ve) on CfDs net of interconnector surpluses
+
+Paragraphs:
+Company Regions Net Contract Settlement is the monies received (+ve) or paid out (-ve) on CfDs net of interconnector surpluses.
+Lists:
+

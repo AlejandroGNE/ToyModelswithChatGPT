@@ -1,0 +1,12 @@
+Header: Performance Cold Start Optimizer 2
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,4,5,6)
+Description:	Second priority optimizer used to solve problems from a cold-start.
+
+Paragraphs:
+This option relates to the concurrent optimizer. Please refer to Performance SOLVER for a discussion of this option.
+Lists:
+

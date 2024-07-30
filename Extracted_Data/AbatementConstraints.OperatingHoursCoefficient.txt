@@ -1,0 +1,17 @@
+Header: Abatement Constraints Operating Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours the emission abatement technology is running
+
+Paragraphs:
+Abatement Constraints Operating Hours Coefficient is the left-hand side coefficient of the number of hours the emission Abatement technology is running.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+Lists:
+

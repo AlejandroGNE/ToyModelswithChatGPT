@@ -1,0 +1,28 @@
+Header: Facility Initial Hours Up
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Hours the unit has been up for at time zero
+
+Paragraphs:
+Facility Initial Hours Up is used
+          to set the initial ( t =0) operating state of a single-unit
+          facility when used in combination with Min
+            Up Time , Min Down Time , Max Up Time , Max
+            Down Time or multi-band Start
+            Cost . If you define this property you must also define Initial Production .
+          Only one of Initial Hours Up and Initial
+            Hours Down can be non-zero.
+
+See also:
+Lists:
+	- Facility Initial
+              Units Operating
+	- Facility Initial
+              Hours Down
+

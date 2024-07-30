@@ -1,0 +1,49 @@
+Header: Generator Constraints Generation Squared Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the square of generation
+
+Paragraphs:
+Generator Constraints Generation Squared Coefficient is the left-hand side coefficient on
+          the square of the Generator Generation in the constraint.
+
+This constraint term is intended for use in generic transmission
+          constraints where the square of generation forms a part of the limit,
+          for example:
+
+Line "A-B" Flow ≤ 1000 + 0.02 x Region "B" Load - 0.0015 x Generator "P" Generation 2
+
+The quadratic term is not directly formulated in the linear
+          constraint system, instead the simulator approximates the term by
+          solving iteratively along with other dynamic transmission constraints.
+          At each iteration, the quadratic term is linearized using a Taylor Expansion around the current Generator Generation level i.e. given the Generation of p ,
+          the following terms are added to the Constraint:
+
+... + a (i,j) × 2 × Generator Generation ... {≤,
+            ≥, =} b j × - a (i,j) × p 2
+
+This approach includes a linear left hand side term combined with a
+          right hand side constant. In the case where the squared term should
+          appear exclusively on the right hand side, the preferred approach is
+          to define RHS Constant in
+          which case the generation level used defaults to the 'last period'
+          generation and no active left hand side terms is placed on Generator
+          Generation.
+
+NOTE : Constraints including dynamically evaluated
+          terms like this cannot be used as Definition constraints for a Decision
+            Variable .
+
+See also:
+Lists:
+	- Generator Constraints Generation
+              SUM Squared Coefficient
+	- Line Constraints Flow Squared
+              Coefficient
+

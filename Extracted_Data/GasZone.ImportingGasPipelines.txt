@@ -1,0 +1,11 @@
+Header: Gas Zone Importing Gas Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Importing Gas Pipelines is the set of Gas Pipeline objects that import to the Gas Zone .
+Lists:
+

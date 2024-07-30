@@ -1,0 +1,15 @@
+Header: Water Plant Constraints Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any capacity is built to date
+
+Paragraphs:
+Water Plant Constraints Built Coefficient is Coefficient on binary variable indicating if any capacity is built to date.
+Lists:
+

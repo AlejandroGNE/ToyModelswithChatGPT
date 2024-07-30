@@ -1,0 +1,14 @@
+Header: Process Secondary Inputs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	the set of secondary input Commodities to the Process
+
+Paragraphs:
+Process Secondary Inputs is the set
+          of secondary input Commodities to
+          the Process. These inputs are converted to the Secondary
+            Outputs according to the Efficiency and secondary Ratio .
+Lists:
+

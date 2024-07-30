@@ -1,0 +1,19 @@
+Header: Maintenance Equipment
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maintenance event equipment requirements.
+
+Paragraphs:
+Maintenance Equipment is the maintenance event's equipment requirements. It is a multi-band property allowing you to record different requirements in separate bands. You can use this property to formulate constraints across multiple Maintenance objects using the Constraint Maintenances Equipment Coefficient .
+
+See also:
+Lists:
+	- Maintenance Cost
+	- Maintenance Crew
+

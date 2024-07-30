@@ -1,0 +1,17 @@
+Header: Line Fixed Flow Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Fixed Flow].
+
+Paragraphs:
+Line Fixed Flow Penalty is the penalty for violation of Fixed Flow .
+
+Note that, although the line is allowed to violate from the fixed flow value, it must be still within the thermal limits (i.e Min Flow and Max Flow).
+Lists:
+

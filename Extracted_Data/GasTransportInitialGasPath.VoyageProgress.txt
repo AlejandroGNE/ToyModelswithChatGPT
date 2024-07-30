@@ -1,0 +1,15 @@
+Header: Gas Transport Initial Gas Path Voyage Progress
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Percentage of voyage already completed
+
+Paragraphs:
+Gas Transport Initial Gas Path Voyage Progress is Percentage of voyage already completed.
+Lists:
+

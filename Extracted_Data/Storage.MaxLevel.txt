@@ -1,0 +1,19 @@
+Header: Storage Max Level
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum level
+
+Paragraphs:
+Storage Max Level is used in defining the maximum allowed storage level under the "Level" Storage Model . See the article pump storage for more details.
+
+See also:
+Lists:
+	- Storage Min Level
+	- Storage Initial Level
+

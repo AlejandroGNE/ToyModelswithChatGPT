@@ -1,0 +1,29 @@
+Header: Region Class
+
+Table Details:
+Description:	Transmission region/area
+
+Paragraphs:
+See also Region
+              Property Reference for a detailed list of properties for this
+            class of object.
+
+Regions represent transmission 'areas'. A Region may contain one or
+          more Nodes (transmission buses) and
+          can define the Load input to be
+          distributed to the nodes according to their Load
+            Participation Factor .
+
+Regions can define different market rules through settings such as Load Settlement Model and Uplift Compatibility .
+
+Regions provide a wealth of reported outputs including the
+          supply-demand balance with properties like Load , Generation and Net
+            Interchange as well as details of financial settlements e.g. Generator Pool Revenue , Cost to Load , and Settlement
+            Surplus .
+
+Note that the Zone class provides an
+          additional method for grouping nodes. There is no set hierarchy
+          between Region and Zone so you may have Zones inside Regions or vice
+          versa, or Zones that cross several Regions as desired.
+Lists:
+

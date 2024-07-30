@@ -1,0 +1,15 @@
+Header: Transformer Available Transfer Capability Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability on the transformer in the counter-reference direction.
+
+Paragraphs:
+Transformer Available Transfer Capability Back is the available transfer capability on the transformer in the counter-reference direction.
+Lists:
+

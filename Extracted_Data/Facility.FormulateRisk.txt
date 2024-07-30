@@ -1,0 +1,23 @@
+Header: Facility Formulate Risk
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If constraint should be formulated to bound net profit risk
+
+Paragraphs:
+This property applies to the Facility Net Profit in risk-constrained
+          simulations. See Entity Formulate
+            Risk for details.
+
+See also:
+Lists:
+	- Commodity Formulate
+              Risk
+	- Facility Formulate
+              Risk
+

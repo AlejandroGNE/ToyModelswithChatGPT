@@ -1,0 +1,11 @@
+Header: Vehicle Charging Stations
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Charging Stations used by the Vehicle
+
+Paragraphs:
+Vehicle charging stations is set of charging stations used by the vehicle
+Lists:
+

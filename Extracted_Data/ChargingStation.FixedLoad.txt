@@ -1,0 +1,21 @@
+Header: Charging Station Fixed Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Fixed charging load across all units
+
+Paragraphs:
+Charging Station Fixed Load
+          defines a minimum amount of charging load that should be
+          taken by the charging station from the grid.
+
+See also:
+Lists:
+	- Charging Station Fixed
+              Generation
+

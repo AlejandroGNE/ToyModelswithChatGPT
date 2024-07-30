@@ -1,0 +1,11 @@
+Header: Message 3117
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Failed to interpret the Timeslice <name> which appears to have invalid meta-patterns related to Timeslice <name>.
+
+Paragraphs:
+Message 3117 occurs in the following circumstances:
+Lists:
+

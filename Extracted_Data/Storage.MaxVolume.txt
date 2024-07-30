@@ -1,0 +1,26 @@
+Header: Storage Max Volume
+
+Table Details:
+Units:	GWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum volume
+BIG	Max Volume	150	GWh
+BIG	Initial Volume	100	GWh
+
+Paragraphs:
+Storage Max Volume as an input is the maximum volume allowed in the storage. For all Storage Model types except "Level" it defines the size of the storage.The units of Max Volume are controlled by the Storage Model .
+
+Example:
+
+As an output, Max Volume simply repeats the input value.
+
+See also:
+Lists:
+	- Storage Min Volume
+	- Storage Initial Volume
+	- Storage Natural Inflow
+

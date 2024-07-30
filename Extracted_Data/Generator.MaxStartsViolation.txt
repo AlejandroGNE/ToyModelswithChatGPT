@@ -1,0 +1,23 @@
+Header: Generator Max Starts Violation
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Starts] constraints.
+
+Paragraphs:
+Generator Max Starts Violation is the violation of Max Starts constraints i.e. it is the number of Units Started above that defined by the limit. Violations are priced at the defined Max Starts Penalty .
+
+See also:
+Lists:
+	- Generator Max Starts
+	- Generator Max Starts Day
+	- Generator Max Starts Week
+	- Generator Max Starts Month
+	- Generator Max Starts Year
+	- Generator Max Starts Violation Cost
+

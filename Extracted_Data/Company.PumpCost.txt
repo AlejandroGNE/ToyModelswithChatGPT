@@ -1,0 +1,15 @@
+Header: Company Pump Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pool cost for pump energy
+
+Paragraphs:
+Company Pump Cost is Pool cost.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Model Make Unique Name
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (-1,0,1)
+Description:	If model output should be written to a unique filename for each execution
+
+Paragraphs:
+Model Make Unique Name controls the naming convention for the output folder and/or file according to the Output to Folder setting. Set this option to 'Yes' and the output name will be embellished with the current date and time and the version number of the simulation engine. Every run of the Model then will write its results to a unique folder or file. Set this option to 'Prompt' and each execution of the model a dialogue box will pop up asking the user to input a file name for the solution. The 'Prompt' option is disabled during PLEXOS Connect and Split Run executions.
+Lists:
+

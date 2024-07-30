@@ -1,0 +1,22 @@
+Header: Battery Cleared Bid Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under the Battery bid curve
+
+Paragraphs:
+Battery Cleared Bid Cost is the 'cost' of Load as seen by the Market Operator and is defined as:
+
+This value is usually negative indicating that the system benefits from increased consumption.
+
+See also:
+Lists:
+	- Battery Bid Cleared
+	- Battery Cleared Bid Price
+	- Battery Cost
+

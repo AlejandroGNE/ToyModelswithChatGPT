@@ -1,0 +1,11 @@
+Header: Message 200
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Failed to correct non-physical flows. The solver returned solution status <value>.
+
+Paragraphs:
+Message 200 occurs in the following circumstances:
+Lists:
+

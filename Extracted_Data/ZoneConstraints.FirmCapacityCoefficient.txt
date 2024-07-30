@@ -1,0 +1,26 @@
+Header: Zone Constraints Firm Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total generator [Firm Capacity]
+
+Paragraphs:
+Zone Constraints Firm Capacity Coefficient is the left-hand side coefficient of the
+          total Zone Generators Firm Capacity in the
+          constraint including the impact of Maintenance events.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where: k is the current period e.g. year of the simulation.
+
+See also:
+Lists:
+	- Zone Regions Firm
+              Capacity Coefficient
+

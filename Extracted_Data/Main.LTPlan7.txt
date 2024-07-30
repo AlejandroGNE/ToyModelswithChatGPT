@@ -1,0 +1,73 @@
+Header: LT Plan - Capacity Interchange and Coincidence of Peak Loads
+
+Table Details:
+PeakLoad(A,y)	The load of Region “A” at time of system peak
+PeakLoad(B,y)	The load of Region “B” at time of system peak
+PeakLoad(A@A,y)	The peak load of Region “A”
+PeakLoad(B@B,y)	The peak load of Region “B”
+PeakLoad(A@B,y)	The load of Region “A” at the time of Region “B” peak
+PeakLoad(B@A,y)	The load of Region “B” at the time of Region “A” peak
+ReserveMargin(A,y)	Required reserve margin in Region “A” at time of system peak
+ReserveMargin(B,y)	Required reserve margin in Region “B” at time of system peak
+ReserveMargin(A@A,y)	Required reserve margin in Region “A” at time of its peak
+ReserveMargin(B@B,y)	Required reserve margin in Region “B” at time of its peak
+ReserveMargin(A@B,y)	Required reserve margin in Region “A” at time of Region “B”peak
+ReserveMargin(B@A,y)	Required reserve margin in Region “B” at time of Region “A”peak
+flowA-B	The capacity interchange on Line “A-B” at the time of system peak
+flowA-B@A	The capacity interchange on Line “A-B” at the time of Region “A” peak
+flowA-B@B	The capacity interchange on Line “A-B” at the time of Region “B” peak
+shortA,y	Capacity Shortage in Region “A” at time of system peak
+shortB,y	Capacity Shortage in Region “B” at time of system peak
+shortA@A,y	Capacity Shortage in Region “A” at time of its peak
+shortB@B,y	Capacity Shortage in Region “B” at time of its peak
+shortA@B,y	Capacity Shortage in Region “A” at time of Region “B” peak
+shortB@A,y	Capacity Shortage in Region “B” at time of Region “A” peak
+
+Paragraphs:
+Contents
+
+Considerations Formulation Constraints and Interfaces
+
+1. Considerations
+
+In a multi- Region / Zone LT Plan model the potential interchange of capacity can be modelled such that capacity can be shared within the constraints of the transmission network i.e. a capacity zone with spare capacity can contribute to the capacity requirements of other interconnected zones. Here we refer to "capacity zones" as the combination of:
+
+Capacity sharing is turned off by default and is enabled via the Allow Capacity Sharing setting.
+
+Consider the example of a two Region system (“A” and “B”) with a single transmission Line (“A-B”) running between them. The following simple capacity interchange formulation might be considered:
+
+Capacity Balance Region “A": ∑ g∈A PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short A, y - flow A-B ≥ PeakLoad (A, y ) + ReserveMargin (A, y ) ∀ y
+
+Capacity Balance Region “B": ∑ g∈B PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short B, y + flow A-B ≥ PeakLoad (B, y ) + ReserveMargin (B, y ) ∀ y
+
+Capacity Interchange Limit “A-B”: MinFlow A-B ≤ flow A-B ≤ MaxFlow (A-B)
+
+With this formulation however there is an implicit assumption of coincidence of peak loads. However in many cases the capacity zones will have peaks at different times of the year e.g. some zones might be “summer-peaking” others “winter-peaking” or it might simply be that the peaks occur at different times on the same day due to timezone differences.
+
+2. Formulation
+
+LT Plan handles this issue of non-coincidence of peaks by modelling N + 1 capacity interchange equation sets where N is the number of capacity zones. The first N sets model the capacity interchange at the time of peak of the corresponding zone, and the final equation models the capacity interchange at the time of the system peak.  Thus for our two- Region example above we define:
+
+Then the following equations are formulated:
+
+Capacity Balance Region “A": ∑ g∈A PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short A, y - flow A-B ≥ PeakLoad (A, y ) + ReserveMargin (A, y ) ∀ y ∑ g∈A PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short A@A, y - flow A-B@A ≥ PeakLoad (A@A, y ) + ReserveMargin (A@A, y ) ∀ y ∑ g∈A PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short A@B, y - flow A-B@B ≥ PeakLoad (A@B, y ) + ReserveMargin (A@B, y ) ∀ y
+
+Capacity Balance Region “B": ∑ g∈B PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short B, y + flow A-B ≥ PeakLoad (B, y ) + ReserveMargin (B, y ) ∀ y ∑ g∈B PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short B@B, y + flow A-B@B ≥ PeakLoad (B@B, y ) + ReserveMargin (B@B, y ) ∀ y ∑ g∈B PMax g ( Units g + ∑ ( i ≤ y ) build ( g , i ) ) + short B@A, y + flow A-B@A ≥ PeakLoad (B@A, y ) + ReserveMargin (B@A, y ) ∀ y
+
+Capacity Interchange Limit “A-B”: MinFlow A-B ≤ flow A-B ≤ MaxFlow (A-B) MinFlow A-B ≤ flow A-B@A ≤ MaxFlow (A-B) MinFlow A-B ≤ flow A-B@B ≤ MaxFlow (A-B)
+
+This formulation ensures that required capacity margins are met, and that non-coincident peaks are correctly accounted for.
+
+Note that the reported Region Capacity Reserves , Net Capacity Interchange and Capacity Shortage are at the time of the corresponding Region peak, however the reported Line Firm Capacity reports the capacity interchange at the time of system peak. Thus in reporting only the individual Region reports will ‘balance’.
+
+3. Constraints and Interfaces
+
+The capacity interchange assumptions can be ‘hardwired’ to known values using the Line Firm Capacity property. This switches off the optimization of capacity interchange for that line and instead assumes a fixed value for the capacity support of that line. The Firm Capacity does not need to be within the normal flow limits of the Line . Firm Capacity can be varied across the year to account for non-coincident peaks.
+
+Interface constraints are also modelled by LT Plan.  The Interface equation will be formulated to constrain the capacity interchange on the Line objects involved. Optionally Interface Firm Capacity can be set to ‘hardwire’ the capacity interchange across the Interface .
+
+Previous Chapter | Next Chapter
+Lists:
+	- Region objects; and
+	- Zone objects with Capacity Nodes defined.
+

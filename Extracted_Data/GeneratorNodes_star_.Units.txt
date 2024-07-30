@@ -1,0 +1,15 @@
+Header: Generator Nodes* Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of installed units at the Node
+
+Paragraphs:
+Generator Nodes* Units is Number of installed units at the Node.
+Lists:
+

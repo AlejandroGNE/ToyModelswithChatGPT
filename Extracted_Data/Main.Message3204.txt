@@ -1,0 +1,11 @@
+Header: Message 3204
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The region <value> cannot belong to two or more decomposition groups.
+
+Paragraphs:
+Message 3204 occurs in the following circumstances:
+Lists:
+

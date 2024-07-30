@@ -1,0 +1,18 @@
+Header: Zone Discrete Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Discrete maintenance (defined by Units Out)
+
+Paragraphs:
+Zone Discrete Maintenance is reported by PASA . It is the Maintenance that is defined by the Generator Units Out property.
+
+See also:
+Lists:
+	- Zone Distributed Maintenance
+

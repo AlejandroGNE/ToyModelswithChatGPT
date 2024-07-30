@@ -1,0 +1,29 @@
+Header: Licensing: ChoosingAModel
+
+Table Details:
+PLEXOS workstations do not have a network connection.	Yes	Yes	No	-
+License needs to be accessed by many network connected workstations.	No	Yes	Yes	USB license can be accessed by many machines, but only one at a time.
+PLEXOS workstation is a laptop that needs to be used remotely. (eg. offsite)	Yes	Yes	See Note	Server licenses can be accessed over the internet using VPN (Virtual Private Network)
+Very few workstations will be using PLEXOS, and all have the same licensing requirements.	Yes	Yes	Yes	-
+Very few workstations will be using PLEXOS, and they have varying license requirements	Yes	Yes	Yes	-
+Only one workstation will be using PLEXOS.	Yes	Yes	Not Necessary	-
+
+Paragraphs:
+Licensing Options There are 3 types of licensing available. Local Licensing - this is a license file used by a single machine to access PLEXOS and related products. This license is usable by that single machine only. This machine does not require a network connection to use PLEXOS. USB Licensing - Uses a dongle with a license stored on it, the dongle will allow PLEXOS to run on any workstation that has the dongle plugged it. Dongle licensing only allows one machine to use the license at a time Server Licensing - uses a license file on a license server to allocate licenses to PLEXOS workstations. When a workstation starts up, it requests a license from the license server. The advantage of this system is that if a license is available it is accessible by any machine that is network connected to the server and running Plexos. The disadvantage is that if you are working offline, you cannot use PLEXOS. A License server holds a pool of licenses. For example, you may have 5 licenses available in your pool, as a machine runs PLEXOS it takes a license from the pool, leaving 4 licenses. When the machine stops using PLEXOS the license is returned. So once again there are 5 licenses are available. This means up to 5 machines can access the licenses at any one time. If the number available is 0 and PLEXOS is started by another machine, that machine will be refused to run PLEXOS until another workstation finished using PLEXOS.  If the connection between the license server and PLEXOS is broken, then the simulation will be paused until the connection is re-established or an alternate license type has been located (e.g. local license). A combination of local, USB and server licenses can be used as required. Criteria Local License USB License Server License Note PLEXOS workstations do not have a network connection. Yes Yes No - License needs to be accessed by many network connected workstations. No Yes Yes USB license can be accessed by many machines, but only one at a time. PLEXOS workstation is a laptop that needs to be used remotely. (eg. offsite) Yes Yes See Note Server licenses can be accessed over the internet using VPN (Virtual Private Network) Very few workstations will be using PLEXOS, and all have the same licensing requirements. Yes Yes Yes - Very few workstations will be using PLEXOS, and they have varying license requirements Yes Yes Yes - Only one workstation will be using PLEXOS. Yes Yes Not Necessary - More Licensing Main Menu
+
+There are 3 types of licensing available. Local Licensing - this is a license file used by a single machine to access PLEXOS and related products. This license is usable by that single machine only. This machine does not require a network connection to use PLEXOS. USB Licensing - Uses a dongle with a license stored on it, the dongle will allow PLEXOS to run on any workstation that has the dongle plugged it. Dongle licensing only allows one machine to use the license at a time Server Licensing - uses a license file on a license server to allocate licenses to PLEXOS workstations. When a workstation starts up, it requests a license from the license server. The advantage of this system is that if a license is available it is accessible by any machine that is network connected to the server and running Plexos. The disadvantage is that if you are working offline, you cannot use PLEXOS. A License server holds a pool of licenses. For example, you may have 5 licenses available in your pool, as a machine runs PLEXOS it takes a license from the pool, leaving 4 licenses. When the machine stops using PLEXOS the license is returned. So once again there are 5 licenses are available. This means up to 5 machines can access the licenses at any one time. If the number available is 0 and PLEXOS is started by another machine, that machine will be refused to run PLEXOS until another workstation finished using PLEXOS.  If the connection between the license server and PLEXOS is broken, then the simulation will be paused until the connection is re-established or an alternate license type has been located (e.g. local license). A combination of local, USB and server licenses can be used as required. Criteria Local License USB License Server License Note PLEXOS workstations do not have a network connection. Yes Yes No - License needs to be accessed by many network connected workstations. No Yes Yes USB license can be accessed by many machines, but only one at a time. PLEXOS workstation is a laptop that needs to be used remotely. (eg. offsite) Yes Yes See Note Server licenses can be accessed over the internet using VPN (Virtual Private Network) Very few workstations will be using PLEXOS, and all have the same licensing requirements. Yes Yes Yes - Very few workstations will be using PLEXOS, and they have varying license requirements Yes Yes Yes - Only one workstation will be using PLEXOS. Yes Yes Not Necessary - More Licensing Main Menu
+
+There are 3 types of licensing available.
+
+A combination of local, USB and server licenses can be used as required.
+
+More Licensing Main Menu
+
+Licensing Main Menu
+Lists:
+	- Licensing Main Menu
+
+
+H2s:
+Licensing Options
+More

@@ -1,0 +1,15 @@
+Header: Reserve Generators Min Replacement Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum replacement reserve provision when units are off-line
+
+Paragraphs:
+Reserve Generators Min Replacement Provision is minimum replacement reserve provision when the units are off-line and provide replacement reserves. This property applies to Reserve Type of both Replacement and Operational and will automatically enable the Reserve Unit Commitment property.
+Lists:
+

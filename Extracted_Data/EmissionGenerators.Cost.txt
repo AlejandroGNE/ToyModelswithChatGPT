@@ -1,0 +1,17 @@
+Header: Emission Generators Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission cost
+
+Paragraphs:
+Emission Generators Cost is defined as:
+
+* Production in this equation refers to the gross production prior to removal at the Removal Rate whereas the reported Production is net of the removal rate.
+Lists:
+

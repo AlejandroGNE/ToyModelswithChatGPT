@@ -1,0 +1,19 @@
+Header: Battery Energy Target Violation
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the [Energy Target] constraint.
+
+Paragraphs:
+Battery Energy Target Violation is the violation of the Energy Target constraint.
+
+See also:
+Lists:
+	- Battery Energy Target Penalty
+	- Battery Energy Target Violation Cost
+

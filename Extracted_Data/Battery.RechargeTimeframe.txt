@@ -1,0 +1,19 @@
+Header: Battery Recharge Timeframe
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum hours to recharge after discharge
+
+Paragraphs:
+Battery Recharge Timeframe is the maximum time (in hours) that any generation must be replenished by recharging.
+            For example, if the recharge timeframe is 3 hours and 25 MWh is generated on hour 6, then at least 25 MWh (after efficiency loss)    must be stored
+            sometime in hours 7-9. The generation can also be replenished ahead of time by the same number of hours if the Initial SoC of the battery
+            is less than 100%. In this example the 25 MWh could then be stored in hours 3-5 as well. This logic can be used to model deferred load. Note that when
+            this property is specified, the battery will only be allowed to operate in chronological phases.
+Lists:
+

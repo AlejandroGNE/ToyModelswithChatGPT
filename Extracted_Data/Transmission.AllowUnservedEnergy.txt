@@ -1,0 +1,18 @@
+Header: Transmission Allow Unserved Energy
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Model Unserved Energy in OPF
+
+Paragraphs:
+Transmission Allow Unserved Energy is the master on/off switch for modelling of Unserved Energy .
+
+Unserved energy occurs when generation capacity is not sufficient to meet the input load.  By default unserved energy is a possibility at every Load point in the transmission network. The unserved energy acts like a generator with price equal to the interval value of lost load (VoLL) , and reported at the accounting value of Region VoLL . Therefore turning off this option can improve performance, but if unserved energy is needed the simulation will be infeasible without it.
+
+Note that inclusion of unserved energy variables can be controlled to the Node level using the Node Allow Unserved Energy property.
+
+You can further control the Node objects with unserved energy formulated using the USE Threshold setting.
+Lists:
+

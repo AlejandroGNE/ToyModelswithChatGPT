@@ -1,0 +1,22 @@
+Header: Abatement Max Abatement Week
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum abatement in a week
+
+Paragraphs:
+Abatement Max Abatement Week sets a maximum abatement in each week in thousands of abatement units.
+
+See also:
+Lists:
+	- Max Abatement
+	- Max Abatement Hour
+	- Max Abatement Day
+	- Max Abatement Month
+	- Max Abatement Year
+

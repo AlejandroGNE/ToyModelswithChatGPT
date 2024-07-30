@@ -1,0 +1,15 @@
+Header: Battery Companies Regulation Lower Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation lower reserve
+
+Paragraphs:
+Battery Companies Regulation Lower Reserve is the provision of regulation lower reserve.
+Lists:
+

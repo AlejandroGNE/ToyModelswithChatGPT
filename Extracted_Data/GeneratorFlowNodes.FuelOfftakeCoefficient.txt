@@ -1,0 +1,15 @@
+Header: Generator Flow Nodes Fuel Offtake Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity on the Flow Node injected(positive)/withdrawn(negative) per unit of fuel offtake
+
+Paragraphs:
+Generator Flow Nodes Fuel Offtake Coefficient specifies the amount of the Commodity on the Flow Node injected(positive)/withdrawn(negative) per unit of fuel offtake.
+Lists:
+

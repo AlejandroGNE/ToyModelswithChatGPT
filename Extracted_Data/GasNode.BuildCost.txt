@@ -1,0 +1,19 @@
+Header: Gas Node Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building the gas node
+
+Paragraphs:
+Gas Node Build Cost is the 'overnight' cost of developing the gas node.
+
+The Build Cost can be defined in combination with Economic Life and WACC so that LT Plan will compute an annuity. If Build Cost is defined without these parameters then the entire Build Cost will be incurred in the first year. The cost is also treated as a lump sum, if the Economic Life is entirely inside the planning horizon.
+
+Build Cost is calculated as:
+Lists:
+

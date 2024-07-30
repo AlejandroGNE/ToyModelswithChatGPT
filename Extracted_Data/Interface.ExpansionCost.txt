@@ -1,0 +1,21 @@
+Header: Interface Expansion Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of expanding the interface by one megawatt
+
+Paragraphs:
+Interface Expansion Cost is the overnight cost of expanding the interface limits by one megawatt in both directions. This property applies to LT Plan . By default this cost is incurred in a 'lump sum' in the year the Interface Max Flow and Min Flow are expanded. Alternatively the expansion cost can be annualised by defining Economic Life and WACC .
+
+Example:
+
+See also:
+Lists:
+	- Interface EconomicLife
+	- Interface WACC
+

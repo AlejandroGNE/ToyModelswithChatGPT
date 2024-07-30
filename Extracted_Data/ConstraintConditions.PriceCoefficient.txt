@@ -1,0 +1,15 @@
+Header: Constraint Conditions Price Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of price in condition
+
+Paragraphs:
+Constraint Conditions Price Coefficient is Coefficient of price in condition.
+Lists:
+

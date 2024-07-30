@@ -1,0 +1,15 @@
+Header: Gas Contract Min Days Between Renomination
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum number of days between renominations of Base Gas Contracts
+
+Paragraphs:
+Gas Contract Min Days Between Renomination specifies the minimum number of days between renominations for a Base Gas Contract.
+Lists:
+

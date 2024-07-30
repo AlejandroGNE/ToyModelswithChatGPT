@@ -1,0 +1,19 @@
+Header: Financial Contract Purchasing Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Company's share of contract
+HEDGE	RETAIL	Share	10	%
+HEDGE	TRUST	Share	90	%
+
+Paragraphs:
+Financial Contract Purchasing Companies Share is the percentage ownership of the contract by the purchasing company.
+
+Example:
+Lists:
+

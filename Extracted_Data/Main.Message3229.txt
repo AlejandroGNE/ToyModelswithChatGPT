@@ -1,0 +1,11 @@
+Header: Message 3229
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Circular Heat Input memberships detected for the following Generators: <value>, <value>.
+
+Paragraphs:
+Message 3229 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Process Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Process
+
+Paragraphs:
+Process Objectives is set of Objectives on the Process
+Lists:
+

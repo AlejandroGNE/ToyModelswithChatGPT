@@ -1,0 +1,15 @@
+Header: Generator Max Heat Violation
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount above Generator Max Heat
+
+Paragraphs:
+Generator Max Heat Violation is the amount above Generator Max Heat.
+Lists:
+

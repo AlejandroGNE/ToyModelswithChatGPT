@@ -1,0 +1,20 @@
+Header: Facility Max Production Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Max Production] and [Max Capacity Factor] constraints
+
+Paragraphs:
+Facility Max Production Penalty is
+          the penalty applied to violations of Max
+            Production and Max
+            Capacity Factor constraints (and their period-specific
+          variants). The default value of -1 makes this a 'hard' constraint. The
+          value is in units of currency per unit of Production of the Facility.
+Lists:
+

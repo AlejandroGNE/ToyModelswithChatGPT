@@ -1,0 +1,18 @@
+Header: Gas Pipeline Flow Charge Back Level
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Level corresponding to Flow Charge Back
+
+Paragraphs:
+Gas Pipeline Flow Charge Back Level is used to specify tiered bands with different Flow Charge Back values. The levels are specified in cumulative amounts for interval Flow.
+
+See also:
+Lists:
+	- Flow Charge Back
+

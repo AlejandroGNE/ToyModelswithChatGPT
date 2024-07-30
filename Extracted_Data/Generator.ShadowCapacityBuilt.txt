@@ -1,0 +1,15 @@
+Header: Generator Shadow Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity built (Max Capacity x Units Built) before Competition models.
+
+Paragraphs:
+Generator Shadow Capacity Built is Capacity built (Max Capacity x Units Built) before any automated dynamic mark-up methods like RSI or Nash-Cournot Competition are performed.
+Lists:
+

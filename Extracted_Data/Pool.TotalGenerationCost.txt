@@ -1,0 +1,15 @@
+Header: Pool Total Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of generation,start, shutdown, and emissions costs
+
+Paragraphs:
+Pool Total Generation Cost is sum of total of generation and start and shutdown costs and emissions costs across all Regions in the Pool.
+Lists:
+

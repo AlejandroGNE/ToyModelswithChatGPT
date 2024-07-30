@@ -1,0 +1,22 @@
+Header: Flow Node Exports
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Commodity exported
+
+Paragraphs:
+Flow Node Exports is the total
+          flow out of the Flow Node on connected Flow
+            Paths .
+
+See also:
+Lists:
+	- Flow Node Imports
+	- Flow Node Net
+              Interchange
+

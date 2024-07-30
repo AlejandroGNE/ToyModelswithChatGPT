@@ -1,0 +1,15 @@
+Header: Facility Electric Energy Consumption
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Electric energy consumption
+
+Paragraphs:
+Facility Electric Energy Consumption is the electric energy consumption of Facility per unit of the Primary Output.
+Lists:
+

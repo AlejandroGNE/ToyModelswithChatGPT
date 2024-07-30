@@ -1,0 +1,19 @@
+Header: Water Plant Decision Variables Energy Usage Definition Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the Decision Variable in the Water Plant Energy Usage definition equation
+
+Paragraphs:
+WaterPlant DecisionVariables Energy Usage Definition Coefficient is the coefficient of the DecisionVariable in the WaterPlant Energy Usage definition equation.
+
+With the coefficient represented by a (i,j) and the WaterPlant value by x j , the following term is added to the formulation:
+
+Thus a positive value of a (i,j) increases Energy Usage of the Plant and vice versa.
+Lists:
+

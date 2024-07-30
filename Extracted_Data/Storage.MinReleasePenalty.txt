@@ -1,0 +1,22 @@
+Header: Storage Min Release Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of minimum rate of release constraints
+
+Paragraphs:
+Storage Min Release Penalty is the per unit penalty for violation of the Min Release constraint. If the constraint is violated the incidence, violation and costs are reported as Min Release Violation Hours , Min Release Violation and Min Release Violation Cost respectively.
+
+Note:
+
+See also:
+Lists:
+	- The units for this penalty are units of currency per unit of hydro release. See Units of Data for details.
+	- Any negative value for the penalty indicates a 'hard constraint' and no violation may occur.
+	- Storage Max Release Penalty
+

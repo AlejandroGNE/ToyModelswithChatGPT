@@ -1,0 +1,12 @@
+Header: MT Schedule LDC Weight a
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	LDC weighting polynomial function 'a' parameter.
+
+Paragraphs:
+MT Schedule LDC Weight a is the weighting polynomial function 'a' (constant) parameter. See the article on LDC Slicing Method for details.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Gas Pipeline Imbalance Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of imbalances
+
+Paragraphs:
+Gas Pipeline Imbalance Cost is the cost of volume imbalances.
+
+Imbalance Cost = Volume Imbalance × Imbalance Charge
+
+See also:
+Lists:
+	- Gas Pipeline Imbalance Charge
+

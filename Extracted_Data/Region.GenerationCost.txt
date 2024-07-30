@@ -1,0 +1,25 @@
+Header: Region Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total variable cost of generation
+
+Paragraphs:
+Region Generation Cost is the total variable cost of generation and is defined as:
+
+Generation Cost =
+
+This represents the cost of generation based on the cost of Fuel and other variable costs.
+
+See also:
+Lists:
+	- ∑ ( i ∈ Generators ) ( Generation Participation Factor i × Generation Cost i )
+	- +  ∑ ( j ∈ Generation Contracts ) ( Generation Cost j )
+	- +  ∑ ( k ∈ Batteries ) ( Battery Distribution Factor k × ( VO&M Cost k + UoS Cost k ))
+	- Region Cleared Offer Cost
+

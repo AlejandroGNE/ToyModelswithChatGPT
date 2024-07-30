@@ -1,0 +1,14 @@
+Header: Transmission Loss Tolerance
+
+Table Details:
+Units:	-
+Default Value:	1E-05
+Validation Rule:	≥0
+Description:	Relative gap between real and modelled losses.
+
+Paragraphs:
+Transmission Loss Tolerance controls convergence of the quadratic loss model.
+
+See also the article Loss Modelling .
+Lists:
+

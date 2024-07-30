@@ -1,0 +1,17 @@
+Header: Physical Contract Load Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from cleared load bids
+
+Paragraphs:
+Physical Contract Load Revenue is the total revenue received by the load contract based on its Bid Prices , and is defined as:
+
+where:
+Lists:
+

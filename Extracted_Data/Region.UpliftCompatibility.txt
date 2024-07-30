@@ -1,0 +1,19 @@
+Header: Region Uplift Compatibility
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2,3)
+Key Property:	No
+Description:	Uplift calculation compatibility (match to market being modelled)
+
+Paragraphs:
+Region Uplift Compatibility controls the algorithm used to compute uplift .
+
+Note that setting Uplift Compatibility = "Irish SEM" causes a number of other changes in the simulator:
+
+See also the article Uplift Methods .
+Lists:
+

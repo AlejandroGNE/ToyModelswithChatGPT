@@ -1,0 +1,27 @@
+Header: Water Pump Min Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a pump must be off after being shut down
+
+Paragraphs:
+Water Pump Min Down Time is the
+          minimum number of hours a unit can be off in any commitment cycle. 
+          Min Down Time is a static property. If it is
+          defined dynamically (varying according to different periods), the
+          maximum value will be used.
+
+See also:
+Lists:
+	- Water Pump Min
+              Up Time
+	- Water Pump Max
+              Up Time
+	- Water Pump Max
+            Down Time
+

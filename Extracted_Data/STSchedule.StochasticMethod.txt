@@ -1,0 +1,30 @@
+Header: ST Schedule Stochastic Method
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2,3)
+Description:	Stochastic optimization method for ST Schedule
+
+Paragraphs:
+ST Schedule Stochastic Method
+          sets the method used in ST Schedule to resolve multi-sample data
+          (defined by Variable objects), where
+          the number of samples is set by the Stochastic
+            Risk Sample Count . The attribute can take the following values:
+
+See also:
+Lists:
+	- Generator Unit
+              Commitment Non-anticipativity
+	- Stochastic Risk
+              Sample Count
+	- Stochastic Outage
+              Pattern Count
+	- LT Plan Stochastic
+              Method
+	- PASA Stochastic
+              Method
+	- MT Schedule Stochastic
+              Method
+

@@ -1,0 +1,21 @@
+Header: Waterway Max Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum flow limit
+
+Paragraphs:
+Waterway Max Flow sets the upper limit on the rate of flow in the waterway.
+
+See also:
+Lists:
+	- Waterway Min Flow
+	- Waterway Max Flow Violation
+	- Waterway Max Flow Violation Cost
+	- Waterway Max Flow Penalty
+

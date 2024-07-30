@@ -1,0 +1,19 @@
+Header: Abatement Emissions Net Emissions
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions net of abatement for this emission
+
+Paragraphs:
+Abatement Emissions Net Emissions is the emissions net of Abatement for this Emission .
+
+See also:
+Lists:
+	- Abatement Emissions Efficiency
+	- Abatement Net Emissions
+

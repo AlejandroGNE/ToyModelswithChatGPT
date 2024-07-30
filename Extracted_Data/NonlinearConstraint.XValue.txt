@@ -1,0 +1,15 @@
+Header: Nonlinear Constraint X Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Solution value for the x variable
+
+Paragraphs:
+Nonlinear Constraint X Value is the Solution value for the x variable.
+Lists:
+

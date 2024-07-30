@@ -1,0 +1,22 @@
+Header: Abatement Abatement Value
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of emissions abated
+
+Paragraphs:
+Abatement Abatement Value is the
+          value of emissions abated and is defined as:
+
+
+
+See also:
+Lists:
+	- Abatement Abatement
+              Net Cost
+

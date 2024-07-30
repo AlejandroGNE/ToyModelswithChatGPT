@@ -1,0 +1,15 @@
+Header: Gas DSM Program Usage Factor Base
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar demand value regardless of heat
+
+Paragraphs:
+Gas DSM Program Usage Factor Base is the base demand reduction value regardless of heat.
+Lists:
+

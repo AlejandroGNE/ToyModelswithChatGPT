@@ -1,0 +1,11 @@
+Header: Abatement Consumables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of consumables that are used by the abatement technology
+
+Paragraphs:
+Abatement Consumables is the set of Fuel objects representing consumables that are used by the abatement technology.
+Lists:
+

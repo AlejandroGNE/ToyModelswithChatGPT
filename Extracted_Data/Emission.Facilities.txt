@@ -1,0 +1,11 @@
+Header: Emission Facilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Facilities that produce or remove the Emission
+
+Paragraphs:
+Emission Facilities is the set of Facilities that produce or remove the Emission.
+Lists:
+

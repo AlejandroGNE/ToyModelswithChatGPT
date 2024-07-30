@@ -1,0 +1,17 @@
+Header: Company Generation at RRN
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Own generation taken to the regional reference node
+
+Paragraphs:
+Company Generation at RRN reports the total generation as measured at the regional reference node (RRN) and is defined as:
+
+This property is used when modelling a Net Pool .
+Lists:
+

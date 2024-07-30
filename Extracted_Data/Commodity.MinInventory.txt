@@ -1,0 +1,20 @@
+Header: Commodity Min Inventory
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum amount of the Commodity required in inventory
+
+Paragraphs:
+See also:
+Lists:
+	- Commodity Max
+              Inventory
+	- Commodity Opening
+              Inventory
+	- Commodity Delivery
+

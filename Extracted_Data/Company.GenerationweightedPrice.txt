@@ -1,0 +1,15 @@
+Header: Company Generation-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation-weighted average price
+
+Paragraphs:
+Company Generation-weighted Price is Generation-weighted average price.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Region Facilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Facilities is
+Lists:
+

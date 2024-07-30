@@ -1,0 +1,15 @@
+Header: Gas Basin Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of gas fields built in the basin
+
+Paragraphs:
+Gas Basin Units Built is number of gas fields built in the basin.
+Lists:
+

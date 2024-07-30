@@ -1,0 +1,97 @@
+Header: PLEXOS Connect
+
+Table Details:
+
+Paragraphs:
+The purpose of this user documentation is to provide necessary information for the user to effectively use the PLEXOS Connect system. This documentation accompanies the release version of PLEXOS Connect 2.0.5. For additional information or support please contact support@energyexemplar.com.
+
+PLEXOS Connect is a client-server system to complement with PLEXOS Integrated Energy Model (PLEXOS Desktop Edition) simulation tool. PLEXOS Connect is provided for PLEXOS users as a platform to:
+
+There are three main components in PLEXOS Connect:
+
+Note: PLEXOS Connect only support XML PLEXOS simulation project files created with PLEXOS 6.0 or later.
+
+This documentation is organized into four sections:
+Lists:
+	- Allow collaboration in providing data for PLEXOS simulations.
+	- Easily distribute PLEXOS simulations for parallel executions over multiple computers.
+	- Conveniently compare and review results from PLEXOS simulations.
+	- PLEXOS Connect Server - The central of the PLEXOS Connect system in which all other components connect to.
+	- PLEXOS Connect Client - The computing resource that can be used to perform PLEXOS simulations which are dispatched from the PLEXOS Connect Server.
+	- PLEXOS Launch Control - the interface for users to perform operations in PLEXOS Connect System.
+	- Supported Operating Systems Windows Server 2003 Windows Server 2008 Windows Server 2012 Windows Vista Windows XP Windows 7 Windows 8 Windows 10
+	- Windows Server 2003
+	- Windows Server 2008
+	- Windows Server 2012
+	- Windows Vista
+	- Windows XP
+	- Windows 7
+	- Windows 8
+	- Windows 10
+	- Supported Architecture x86 x64
+	- x86
+	- x64
+	- Microsoft .NET Framework 4.0
+	- Pentium 2 GHz Processor
+	- 1 GB RAM
+	- Other Requirements Windows Installer 3.1 Network connected allowing TCP connection on a specified port Administrator privileges for Windows service installation
+	- Windows Installer 3.1
+	- Network connected allowing TCP connection on a specified port
+	- Administrator privileges for Windows service installation
+	- Supported Operating Systems Windows Server 2003 Windows Server 2008 Windows Server 2012 Windows Vista Windows XP Windows 7 Windows 8 Windows 10 Linux x64 (using Mono)
+	- Windows Server 2003
+	- Windows Server 2008
+	- Windows Server 2012
+	- Windows Vista
+	- Windows XP
+	- Windows 7
+	- Windows 8
+	- Windows 10
+	- Linux x64 (using Mono)
+	- Supported Architecture (Windows) x86 x64
+	- x86
+	- x64
+	- Required Frameworks Windows: Microsoft .NET Framework 4.0 Linux: Mono 3.0.3 or newer
+	- Windows: Microsoft .NET Framework 4.0
+	- Linux: Mono 3.0.3 or newer
+	- Pentium 2 GHz Processor
+	- 2 GB RAM
+	- Other Requirements (Windows) Windows Installer 3.1 Network Connected allowing TCP connection on a specified port Administrator privileges for Windows service installation
+	- Windows Installer 3.1
+	- Network Connected allowing TCP connection on a specified port
+	- Administrator privileges for Windows service installation
+	- Other Requirements (Linux) Connect Server 2.8.5
+	- Connect Server 2.8.5
+	- Supported Operating Systems Windows Server 2003 Windows Server 2008 Windows Server 2012 Windows Vista Windows XP Windows 7 Windows 8 Windows 10
+	- Windows Server 2003
+	- Windows Server 2008
+	- Windows Server 2012
+	- Windows Vista
+	- Windows XP
+	- Windows 7
+	- Windows 8
+	- Windows 10
+	- Supported Architecture x86 x64
+	- x86
+	- x64
+	- Microsoft .NET Framework 4.0
+	- Pentium 2 GHz Processor
+	- 1 GB RAM
+	- Other Requirements Windows Installer 3.1 Network connected allowing TCP connection on a specified port
+	- Windows Installer 3.1
+	- Network connected allowing TCP connection on a specified port
+
+
+H2s:
+Contents
+1. Introduction
+
+H3s:
+1.1. Overview
+1.2. Minimum System Requirements
+1.3. Information for use of This Documentation
+
+H4s:
+1.2.1. PLEXOS Connect Server
+1.2.2. PLEXOS Connect Client
+1.2.3. PLEXOS Connect Launch Control

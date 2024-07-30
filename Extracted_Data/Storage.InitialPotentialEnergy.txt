@@ -1,0 +1,18 @@
+Header: Storage Initial Potential Energy
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of initial volume
+
+Paragraphs:
+Storage Initial Potential Energy is
+          the potential energy of Initial
+            Volume . See End
+            Potential Energy for details.
+Lists:
+

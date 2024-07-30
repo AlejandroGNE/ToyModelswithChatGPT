@@ -1,0 +1,16 @@
+Header: Gas Storage Max Withdrawal Available
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas available to withdraw based on the specified gas storage ratchets
+
+Paragraphs:
+Gas Storage Max Withdrawal Available is the quantity of gas available to withdraw in the period based on the current storage level and
+            withdrawal ratchet inputs.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Generator Conditions Fuel Offtake Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fuel offtake
+
+Paragraphs:
+This is the coefficient of Generator Fuel Offtake in the Variable condition equation.
+
+With the coefficient represented by a (i,j) the following
+                term is added to the left-hand side of the condition equation:
+
+… + a (i,j) × Generator Fuel Offtake … {<,≤,
+                    ≥,>, =} Profile
+Lists:
+

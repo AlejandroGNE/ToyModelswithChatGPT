@@ -1,0 +1,15 @@
+Header: Vehicle Longitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Longitude
+
+Paragraphs:
+Vehicle Longitude is the decimal representation of longitude for the Vehicle. 
+                Longitude is used in combination with Latitude to set coordinates for the Vehicle when visualizing the power system.
+
+See the User Interface Guide for more details.
+Lists:
+

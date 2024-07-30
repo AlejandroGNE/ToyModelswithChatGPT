@@ -1,0 +1,15 @@
+Header: Market Constraints Purchases Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of market purchases
+
+Paragraphs:
+Market Constraints Purchases Coefficient is the left-hand side coefficient on the total purchases from the market.
+Lists:
+

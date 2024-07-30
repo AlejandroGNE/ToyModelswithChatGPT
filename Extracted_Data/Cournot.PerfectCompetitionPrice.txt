@@ -1,0 +1,19 @@
+Header: Cournot Perfect Competition Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price in the perfect competition solution
+
+Paragraphs:
+Cournot Perfect Competition Price is the price (P c ) at the perfect competition equilibrium i.e. before the Nash-Cournot game is played.
+
+See also:
+Lists:
+	- Cournot Perfect Competition Demand
+	- Cournot Price
+

@@ -1,0 +1,20 @@
+Header: Zone Generation Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation capacity built
+
+Paragraphs:
+Zone Generation Capacity Built is the total generation capacity built in the period in LT Plan and is defined as:
+
+See also:
+Lists:
+	- Zone Generation Capacity
+	- Zone Generation Capacity Retired
+	- Zone Generator Build Cost
+

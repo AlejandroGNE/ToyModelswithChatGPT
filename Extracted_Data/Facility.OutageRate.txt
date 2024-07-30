@@ -1,0 +1,15 @@
+Header: Facility Outage Rate
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of installed capacity on outage
+
+Paragraphs:
+Facility Outage Rate is Proportion of installed capacity on outage.
+Lists:
+

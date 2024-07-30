@@ -1,0 +1,34 @@
+Header: Facility Commission Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Date the facility was commissioned for use with [Technical Life]
+Property	Value	Units
+Units	1	-
+Max Operating Level	500	-
+Commission Date	1/1/1970	-
+Technical Life	30	yr
+
+Paragraphs:
+Facility Commission Date is the
+          date the facility was commissioned. When combined with Technical
+            Life it sets the retirement date for the facility.  This
+          property only works for when Units = 1 as in the example in Table 1.
+
+
+
+In this example the facility will retire at the start of 2000.
+
+Note that this property is ignored if any of the following properties
+          are defined:
+Lists:
+	- Min Units Retired
+	- Min Units Retired in Year
+	- Max Units Retired
+	- Max Units Retired in Year
+

@@ -1,0 +1,48 @@
+Header: Objective Class
+
+Table Details:
+Description:	Generic objective function
+
+Paragraphs:
+For a list of properties for this class, see the Objective property
+            reference guide .
+
+
+
+
+
+Objective objects define objective functions for use in multi-objective
+            optimization .
+
+Each objective object defines an equation representing an objective
+          function to be added to the formulation in addition to or as a
+          replacement for the 'default' minimization objective function.
+
+The 'key' property for Objective objects is Constant which defines the constant part of the objective function (which may
+          be zero). Defining or not, the Constant is the way an Objective object should be toggled in/out of the running Model e.g. by tagging the
+          property with a Scenario . In
+          addition, there are flags to toggle the Objective objects in/out of
+          each simulation phase.
+
+Objective objects have a Sense property to specify whether the goal is to minimize or maximize the
+          objective. The objective function is defined using a linear
+          combination of its memberships which, similar to the Constraint object, can span numerous other objects and properties.
+
+Multiple objectives are combined based on the Priority and Weight properties. When multiple objectives have the same Priority ,
+          they are solved together with the Weight values multiplied by their objective function to create a blended
+          total objective for the optimization. When multiple objectives have
+          different Priority values, the
+          optimization problems are solved in order, with the highest Priority objectives solved first. Each subsequent, lower Priority solve includes deterioration limit constraints on the previous
+          objectives already solved for. The Relative
+            Tolerance and Absolute
+            Tolerance govern how much those deterioration limit constraints
+          can be violated.
+
+Note that you can change the priority and weight of the default
+          objective via the Model properties Objective Priority and Objective
+            Weight .
+
+Note: Multi-objective optimization is only supported when using the
+          CPLEX or Gurobi solver.
+Lists:
+

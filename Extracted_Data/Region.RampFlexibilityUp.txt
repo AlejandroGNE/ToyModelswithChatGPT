@@ -1,0 +1,18 @@
+Header: Region Ramp Flexibility Up
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of unused ramp up capability
+
+Paragraphs:
+Region Ramp Flexibility Up is the amount of unused ramp up capability.
+
+See also:
+Lists:
+	- Region Ramp Flexibility Down
+

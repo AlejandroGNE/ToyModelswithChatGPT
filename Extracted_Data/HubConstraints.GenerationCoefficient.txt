@@ -1,0 +1,15 @@
+Header: Hub Constraints Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of hub generation
+
+Paragraphs:
+Hub Constraints Generation Coefficient is Coefficient of hub generation.
+Lists:
+

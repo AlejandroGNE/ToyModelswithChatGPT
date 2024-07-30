@@ -1,0 +1,15 @@
+Header: Generator Constraints Water Offtake Coefficient
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generator water offtake
+
+Paragraphs:
+Generator Constraints Water Offtake Coefficient is Coefficient of generator water offtake.
+Lists:
+

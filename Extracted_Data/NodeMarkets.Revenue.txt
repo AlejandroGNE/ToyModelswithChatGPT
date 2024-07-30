@@ -1,0 +1,15 @@
+Header: Node Markets Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from sales to the market
+
+Paragraphs:
+Node Markets Revenue is the revenue from energy sales in the market.
+Lists:
+

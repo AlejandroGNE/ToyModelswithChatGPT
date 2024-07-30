@@ -1,0 +1,11 @@
+Header: Message 201
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Non-physical flow correction was infeasible but successfully repaired.
+
+Paragraphs:
+Message 201 occurs in the following circumstances:
+Lists:
+

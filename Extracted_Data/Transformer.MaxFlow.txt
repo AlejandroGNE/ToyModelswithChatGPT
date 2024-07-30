@@ -1,0 +1,18 @@
+Header: Transformer Max Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum flow
+
+Paragraphs:
+Transformer Max Flow is the maximum Flow on the transformer in the period.
+
+See also:
+Lists:
+	- Transformer Min Flow
+

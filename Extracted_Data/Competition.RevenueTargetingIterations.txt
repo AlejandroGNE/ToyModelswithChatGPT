@@ -1,0 +1,14 @@
+Header: Competition Revenue Targeting Iterations
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of iterations used to recover fixed costs.
+
+Paragraphs:
+Competition Revenue Targeting Iterations controls the number of iterations (bidding rounds) modelled in attempting to meet revenue targets set by either the LRMC Recovery or Nash-Cournot games.
+
+Increasing the iterations is like assuming more collusion between firms. Hence more than two or three iterations is probably unrealistic.
+Lists:
+

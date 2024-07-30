@@ -1,0 +1,15 @@
+Header: Water Pipeline System Curve Coefficient B
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	System curve coefficient B for the linear term
+
+Paragraphs:
+Water Pipeline System Curve Coefficient B is System curve coefficient B for the linear term.
+Lists:
+

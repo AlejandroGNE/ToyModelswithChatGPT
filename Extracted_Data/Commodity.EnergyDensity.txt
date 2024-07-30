@@ -1,0 +1,19 @@
+Header: Commodity Energy Density
+
+Table Details:
+Units:	MJ
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Energy per unit of the Commodity
+
+Paragraphs:
+Commodity Energy Density is in
+          megajoules (MJ) per unit of the Commodity. This is required for
+          commodities that are not natural energy units but are involved in a Process that converts to/from energy
+          units.
+
+For example, if you want the simulator to automatically convert
+          litres of liquid fuel to kilowatt-hours via one or more Process objects or when consumed by a Vehicle then setting the Energy Density will allow that conversion to be
+          automatic.
+Lists:
+

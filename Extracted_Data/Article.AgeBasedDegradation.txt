@@ -1,0 +1,31 @@
+Header: Age-Based Degradation
+
+Table Details:
+
+Paragraphs:
+Modelling Age-Based Degradation of Power and Capacity
+
+As electric Generators age, their performance may degrade. This is particularly apparent for solar but also applies to conventional generation sources. Even more pronounced though are some demand-side measures, such as energy efficiency projects, that can be modelled as generators whose capacity declines rapidly over time. An example is incentive schemes for adoption of more efficient industrial refrigeration. The effectiveness of the schemes declines over time, with the most efficiencies in the first year, but declining typically over 10-15 years to zero. Battery Power and Capacity tends to decline over time with increasing numbers of cycles.
+
+The following Generator property is available:
+
+Degradation occurs as the generator Age increases. You can set the Initial Age in years.
+
+The following Battery properties are available:
+
+These are the Degradation inputs for Max Power and Battery Capacity, respectively.
+
+Degradation occurs as the battery accumulates Cycles . You can set the Initial Age in cycles.
+
+No degradation will occur within a single step. The cycles accumulated in each step result in degradation for following steps.
+Lists:
+	- Power Degradation
+	- Power Degradation
+	- Capacity Degradation
+
+
+H2s:
+Contents
+1. Introduction
+2. Generators
+3. Batteries

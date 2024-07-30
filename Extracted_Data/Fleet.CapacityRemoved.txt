@@ -1,0 +1,15 @@
+Header: Fleet Capacity Removed
+
+Table Details:
+Units:	kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Battery capacity removed
+
+Paragraphs:
+Fleet Capacity Removed is Battery capacity removed.
+Lists:
+

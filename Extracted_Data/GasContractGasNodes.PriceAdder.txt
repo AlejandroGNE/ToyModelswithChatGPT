@@ -1,0 +1,15 @@
+Header: Gas Contract Gas Nodes Price Adder
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price adder to gas nodes in contract
+
+Paragraphs:
+Gas Contract Gas Nodes Price Adder is the price adder to gas nodes in contract.
+Lists:
+

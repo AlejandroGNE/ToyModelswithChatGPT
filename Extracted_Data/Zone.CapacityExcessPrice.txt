@@ -1,0 +1,15 @@
+Header: Zone Capacity Excess Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty for an excess of capacity reserves
+
+Paragraphs:
+Zone Capacity Excess Price is the penalty for an excess of capacity reserves.
+Lists:
+

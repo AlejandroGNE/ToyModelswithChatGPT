@@ -1,0 +1,15 @@
+Header: Gas Zone Costs of Gas Delivered
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equal to Total System Cost – Net Injection Cost + Net Withdrawal Cost {Please note that withdrawal and injection fuel is subtracted to get the net}
+
+Paragraphs:
+Gas Zone Costs of Gas Delivered is the Costs of Gas Delivered for gas in the entire model.
+Lists:
+

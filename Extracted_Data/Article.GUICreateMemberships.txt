@@ -1,0 +1,51 @@
+Header: Create Memberships
+
+Table Details:
+
+Paragraphs:
+Memberships are the method used to define functional and logical relationships between objects. They can be created directly in the Memberships Grid or using a wizard, or by drag-and-drop.
+
+Memberships always involve two objects:
+
+For example, a generator can burn one or more fuels, and each such relationship is stored as the membership of the Fuel in the Generator's Fuels collection. However, this is not enough information to uniquely identify the relationship, hence we also require a collection name. For example Generators and Fuels can be related in two ways (Generator Fuels and Generator Start Fuels) so we must also specify the collection name when defining a membership. Hence each membership (relationship) is uniquely defined by using three fields:
+
+For example, the Generator "Steam Unit 1" is defined as using the Fuel "Oil" as follows:
+
+Most memberships have a natural 'complement' e.g. "Steam Unit 1" belonging to "Generators" collection of the Fuel "Oil" is the complement of the above membership. In the PLEXOS database, memberships are stored only once, but can be viewed and edited in either direction in the PLEXOS interface. Membership complements are shown in blue in the explorer window.
+
+Memberships are displayed in the Memberships Tree as in Figure 1. There are four colour codings for memberships displayed in the tree:
+
+To create memberships here, just drag and drop objects into the collections. For example to add another fuel to this generator's Fuels collection, drag the Fuel object from the Main tree onto the Memberships tree and on to the Fuels collection of the Generator.
+
+The Memberships Grid displays a list of memberships defined in the database using the three fields described above, plus additional informational fields showing the categories of the objects involved. An example is shown in Figure 2.
+
+You can create memberships directly in this grid by choosing the appropriate items from the drop-down boxes. For example to add another fuel to a generator's Fuels collection, first select the Generator in the Main Tree, then select the Fuels collection in the Memberships Tree. The Memberships Grid will automatically be shown and four of the required fields will be filled automatically (everything except the Fuel name). Now select the Fuel you want to add from the list of Fuels in the "Child Name" field.
+
+NOTE: You cannot edit the object categories from the Memberships Grid.
+
+Memberships can be deleted by first using the mouse to highlight (drag over) rows in the Membership Grid, and then pressing DEL. PLEXOS will always prompt for confirmation of delete actions before carrying them out. Lists of memberships can be pasted into the Memberships grid. The memberships can be either of one type, or different types. Here are some scenarios:
+
+Once the three fields of data are prepared you can paste them into the New Record line in the Memberships Grid.
+
+TIP: It is significantly faster to use the paste Special/Text command rather than the standard Paste.
+Lists:
+	- A parent object
+	- A child object
+	- Collection
+	- Parent Name
+	- Child Name
+	- Collection = "Generator.Fuels"
+	- Parent Name = "Steam Unit 1"
+	- Child Name = "Oil"
+	- Black: This is the membership displayed the same way it is stored in the database e.g. Generator.Fuels is the 'direction' this type of membership is stored in.
+	- Blue: A complement of a membership e.g. Fuel.Generators - meaning that the membership is actually stored in the 'other direction' to that shown. You can add/remove, etc complements exactly as if they were normal memberships.
+	- Red: This type of membership is required e.g. Generator.Nodes is required to have at least one member.
+	- Grey: This is not a membership defined directly by data, but one that is inferred from other memberships e.g. Region.Generators is implied by the combination of Node.Region and Generator.Nodes. These inferred memberships are informational only and cannot be created/edited directly.
+
+
+H2s:
+Contents
+1. Introduction
+2. Memberships
+3. Membership Tree
+4. Membership Grid

@@ -1,0 +1,15 @@
+Header: Waterway Objectives Flow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of waterway flow
+
+Paragraphs:
+Waterway Objectives Flow Coefficient is Coefficient of waterway flow.
+Lists:
+

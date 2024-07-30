@@ -1,0 +1,15 @@
+Header: Gas Storage Maintenance
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of Withdrawal/Injection on maintenance
+
+Paragraphs:
+Gas Storage Maintenance is the amount of Withdrawal/Injection capacity on maintenance.
+Lists:
+

@@ -1,0 +1,39 @@
+Header: Load Is Scalable
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the load is scalable or flat load.
+Company_1	Load	500		MW	1			
+Company_2	Load	600		MW	1			
+Load_1	IsScalable	No		-	1			
+Load_1	Load	100		-	1			
+Load_1	Load Participation Factor	1		-	1			
+Load_2	IsScalable	Yes		-	1			
+Load_2	Load	300		-	1			
+Load_2	Load Participation Factor	0.6		-	1			
+Load_3	IsScalable	Yes		-	1			
+Load_3	Load	400		-	1			
+Load_3	Load Participation Factor	0.4		-	1			
+
+Paragraphs:
+There are two methods to specify the loads at a node using Load .
+
+The IsScalable property lets the user select the method that should be
+          applied for specifying each load. If the IsScalable property of a load
+          is set to Yes, then the first method is used to calculate the load
+          value. Else, the load specified in the Load property is used.
+
+The following example demonstrates how the IsScalable property works.
+          Let a company (Company_1) serve one customer (Load_1), and another
+          company (Company_2) serve two customers (Load_2, Load_3) at node
+          Node_1. Let the total load served by Company_1 and Company_2 be equal
+          to 500 MW and 600 MW, respectively.
+Lists:
+	- Use Company and Load Participation Factor together (refer Load Participation Factor for details).
+	- Use Load
+

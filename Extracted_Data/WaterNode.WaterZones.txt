@@ -1,0 +1,11 @@
+Header: Water Node Water Zones
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Zones the Water node belongs to
+
+Paragraphs:
+Water Node Water Zones is set of Water Zones the Water node belongs to
+Lists:
+

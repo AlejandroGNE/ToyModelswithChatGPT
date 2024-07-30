@@ -1,0 +1,12 @@
+Header: Competition Contracts Optimize Offers
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If contract position should be considered when offering generation.
+
+Paragraphs:
+Competition Contracts Optimize Offers controls how financial contracts affect generator bidding behavior. It can take the following values:
+Lists:
+

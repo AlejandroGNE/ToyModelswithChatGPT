@@ -1,0 +1,15 @@
+Header: Storage Objectives End Volume Coefficient
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of storage end volume
+
+Paragraphs:
+Storage Objectives End Volume Coefficient is Coefficient of storage end volume.
+Lists:
+

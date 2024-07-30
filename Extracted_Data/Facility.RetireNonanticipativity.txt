@@ -1,0 +1,20 @@
+Header: Facility Retire Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating retire non-anticipativity constraints
+
+Paragraphs:
+Facility Retire Non-anticipativity
+          is the price for violating non-anticipativity constraints in the
+          stochastic optimization mode of LT Plan .
+
+See the article Capacity Expansion
+            Planning .
+Lists:
+

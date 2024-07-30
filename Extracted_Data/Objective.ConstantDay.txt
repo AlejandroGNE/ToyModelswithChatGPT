@@ -1,0 +1,15 @@
+Header: Objective Constant Day
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Objective constant each day (000's)
+
+Paragraphs:
+Objective Constant Day is Objective constant each day (000's).
+Lists:
+

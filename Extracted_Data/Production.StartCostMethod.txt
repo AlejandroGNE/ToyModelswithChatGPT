@@ -1,0 +1,14 @@
+Header: Production Start Cost Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Method for handling start costs in the mathematical formulation (integrate into the formulation, or calculate ex-post)
+
+Paragraphs:
+Production Start Cost Method is used to trade-off formulation size (and hence performance) with accuracy in modelling generating unit start costs. It can take these values:
+
+With the default "Optimize" setting, start cost elements are included in the mathematical programming problem formulation for any setting of the Unit Commitment Optimality . Thus this option can improve the performance of any simulation where Start Cost is defined.
+Lists:
+

@@ -1,0 +1,13 @@
+Header: Facility Secondary Outputs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Facility Secondary Outputs is the
+          output Commodities of the Secondary
+            Processes conducted at the Facility.
+Lists:
+

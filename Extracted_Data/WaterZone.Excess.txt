@@ -1,0 +1,15 @@
+Header: Water Zone Excess
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Excess of water supply
+
+Paragraphs:
+Water Zone Excess is Excess of water supply.
+Lists:
+

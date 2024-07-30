@@ -1,0 +1,11 @@
+Header: List Power Stations
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Power Station objects in the List
+
+Paragraphs:
+List Power Stations is set of Power Station objects in the List
+Lists:
+

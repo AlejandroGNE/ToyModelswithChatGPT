@@ -1,0 +1,11 @@
+Header: Emission Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas nodes that produce the emission
+
+Paragraphs:
+Emission Gas Nodes is set of gas nodes that produce the emission
+Lists:
+

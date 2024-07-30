@@ -1,0 +1,24 @@
+Header: Performance MIP Absolute Gap
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Absolute tolerance on the gap between the best integer objective and the objective of the best node remaining
+
+Paragraphs:
+Performance Absolute MIP Gap is a
+          solver setting for the mixed integer optimizer. The default value of
+          zero means the solver's default gap will be used. Values above zero
+          will be passed to the solver.
+
+This sets an absolute tolerance on the gap between the best integer
+          objective and the objective of the best node remaining. When this
+          difference falls below the value of this parameter, the mixed integer
+          optimization is stopped.
+
+See also:
+Lists:
+	- Performance MIP
+              Relative Gap
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Max Daily Take
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Max daily gas offtake associated with the contract
+
+Paragraphs:
+Gas Contract Max Daily Take is the max daily gas offtake associated with the contract.
+Lists:
+

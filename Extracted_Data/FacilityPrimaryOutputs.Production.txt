@@ -1,0 +1,21 @@
+Header: Facility Primary Outputs Production
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of Process Primary Output Commodity produced by the Facility
+
+Paragraphs:
+Facility Primary
+            Outputs Production is the amount of the Primary
+            Process Primary Output Commodity produced by the Facility.
+
+See also:
+Lists:
+	- Facility Primary
+              Inputs Consumption
+

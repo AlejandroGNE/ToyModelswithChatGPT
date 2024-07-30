@@ -1,0 +1,22 @@
+Header: Market Natural Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of purchases from the market ignoring bid-ask spread
+
+Paragraphs:
+Market Natural Cost is the cost of purchases from the market ignoring bid-ask spread.
+
+Calculated as: Market Price x Sales
+
+See also:
+Lists:
+	- Market Natural Revenue
+	- Market Demand Settlement Model
+	- Market Supply Settlement Model
+

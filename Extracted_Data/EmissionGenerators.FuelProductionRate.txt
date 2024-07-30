@@ -1,0 +1,15 @@
+Header: Emission Generators Fuel Production Rate
+
+Table Details:
+Units:	kg/GJ (Metric), lb/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per unit of fuel usage
+
+Paragraphs:
+Emission Generators Fuel Production Rate is Emissions produced per unit of fuel usage.
+Lists:
+

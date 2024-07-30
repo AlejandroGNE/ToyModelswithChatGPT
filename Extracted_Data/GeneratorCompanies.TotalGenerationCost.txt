@@ -1,0 +1,15 @@
+Header: Generator Companies Total Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total generation cost including fuel, VO&M, start and shutdown costs and emissions costs.
+
+Paragraphs:
+Generator Companies Total Generation Cost is the total generation cost including fuel, VO&M, start and shutdown costs and emissions costs:
+Lists:
+

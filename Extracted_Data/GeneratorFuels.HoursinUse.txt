@@ -1,0 +1,15 @@
+Header: Generator Fuels Hours in Use
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Fuel is in use by the Generator
+
+Paragraphs:
+Generator Fuels Hours in Use is the number of hours the Fuel is in use by the Generator . This is useful for diagnosing the Constraint Fuels In Use Coefficient .
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Vehicle Units Purchased
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of vehicles purchased
+
+Paragraphs:
+Vehicle Units Purchased is the
+          number of vehicles added in LT Plan .
+
+See also:
+Lists:
+	- Facility Units
+              Built
+	- Vehicle Capacity
+              Added
+	- Vehicle Purchase
+              Cost
+

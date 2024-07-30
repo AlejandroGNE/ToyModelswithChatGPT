@@ -1,0 +1,29 @@
+Header: Process Secondary Outputs Available Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient in production definition of the available capacity at the Facility
+
+Paragraphs:
+Process Secondary
+            Output Available Capacity Coefficient applies to each Facility implementing the process through the Facility Secondary Process membership. It is the coefficient in the production definition
+          equation of the Available
+            Capacity of the Facility . This
+          input can be used to define an output Commodity that is a function of the capacity of the Facility e.g. the Commodity might be
+          "Capacity" in a capacity market.
+
+
+
+See also:
+
+
+Lists:
+	- Process Primary
+              Output Available
+              Capacity Coefficient
+

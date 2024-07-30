@@ -1,0 +1,11 @@
+Header: Line Node To
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	node that the line notionally imports to
+
+Paragraphs:
+Line Node To defines the end point ( node ) of the transmission line in terms of its reference direction.  Imports to this node are considered positive flows, exports are negative flows.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Node Markets Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of purchases from the market
+
+Paragraphs:
+Node Markets Cost is the cost of energy purchases from the market.
+Lists:
+

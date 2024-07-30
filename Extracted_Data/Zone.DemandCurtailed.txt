@@ -1,0 +1,22 @@
+Header: Zone Demand Curtailed
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand-side participation bids cleared
+
+Paragraphs:
+Zone Demand Curtailed is the demand-side participation bids cleared and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Zone Curtailable Load
+	- Zone Cost of Curtailment
+	- Zone Unserved Energy
+

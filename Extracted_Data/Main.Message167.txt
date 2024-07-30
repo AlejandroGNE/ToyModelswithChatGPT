@@ -1,0 +1,11 @@
+Header: Message 167
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> outages were not written to text files because text input does not support multi-unit stations with partial outages.
+
+Paragraphs:
+Message 167 occurs in the following circumstances:
+Lists:
+

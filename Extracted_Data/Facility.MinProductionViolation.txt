@@ -1,0 +1,24 @@
+Header: Facility Min Production Violation
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Min Operating Level] constraint
+
+Paragraphs:
+Facility Min Production Violation
+          is the violation of Min
+            Production or Min
+            Capacity Factor constraints.
+
+See also:
+Lists:
+	- Facility Min
+              Production Penalty
+	- Facility Min
+              Production Violation Cost
+

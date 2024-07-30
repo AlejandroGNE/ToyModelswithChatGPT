@@ -1,0 +1,15 @@
+Header: Reserve Line Contingencies Flow Forward Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Multiplier on line flow in the reference direction in setting the contingency size (Risk ≥ Coefficient * Flow Forward)
+
+Paragraphs:
+Reserve Line Contingencies Flow Coefficient determines the proportion of flow on the line, in the reference direction, that is considered a risk and thus contributes to the requirement for ancillary services.
+Lists:
+

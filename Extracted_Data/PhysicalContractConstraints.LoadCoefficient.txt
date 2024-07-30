@@ -1,0 +1,15 @@
+Header: Physical Contract Constraints Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of cleared load bids
+
+Paragraphs:
+PhysicalContract Constraints Load Coefficient is the left-hand side coefficient on the load of a physical contract.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Report Output Results by Sample
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If each sample is output
+
+Paragraphs:
+Report Output Results by Sample
+Lists:
+

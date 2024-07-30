@@ -1,0 +1,13 @@
+Header: Message 3022
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	<value>.<value> with parent <name> and child <name> band <value> uses Data File field in combination with Escalator and/or Condition and/or Variable and this is not supported.
+
+Paragraphs:
+<value>.<value> with parent <name> and child
+          <name> band <value> uses Data File field in combination
+          with Escalator and/or Condition and/or Variable and this is not supported.
+Lists:
+

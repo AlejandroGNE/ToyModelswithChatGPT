@@ -1,0 +1,16 @@
+Header: Data File Method
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2,3)
+Description:	Method used to align maximum (and minimum if defined) and energy values
+
+Paragraphs:
+Data File Method can take one of the following values:
+
+The class is called " MyDatafile ", while the method or function name is called GrowProfile ().
+
+Please refer to the customizing guide for more information on configuring OpenPLEXOS .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Bid-Cost Mark-up
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Percentage mark-up applied to generator offer prices = (P - C) / C
+
+Paragraphs:
+Company Bid-Cost Mark-up is Percentage mark-up applied to generator offer prices = (P - C) / C.
+Lists:
+

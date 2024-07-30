@@ -1,0 +1,15 @@
+Header: Gas Plant SRMC
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Short-run marginal cost of gas production
+
+Paragraphs:
+Gas Plant SRMC is Short-run marginal cost of gas production. It is calculated as sum of processing charge and variable operations and maintenance cost items.
+Lists:
+

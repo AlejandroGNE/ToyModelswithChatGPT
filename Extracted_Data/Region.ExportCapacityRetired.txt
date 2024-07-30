@@ -1,0 +1,19 @@
+Header: Region Export Capacity Retired
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reduction in export capacity from the Region due to transmission retirements.
+
+Paragraphs:
+Region Export Capacity Retired is the reduction in export capacity from the Region due to transmission retirements in LT Plan and is defined as:
+
+See also:
+Lists:
+	- Region Export Capacity Built
+	- Region Import Capacity Retired
+

@@ -1,0 +1,21 @@
+Header: Facility Capacity Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from capacity payments
+
+Paragraphs:
+Facility Capacity Revenue is
+          notional 'revenue' from capacity, and is defined as:
+
+Capacity Revenue = Production
+            Capacity × marginal value of capacity
+
+where: marginal value of capacity is derived from constraints involving Facility Constraints Installed Capacity Coefficient .
+Lists:
+

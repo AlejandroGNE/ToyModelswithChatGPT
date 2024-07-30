@@ -1,0 +1,19 @@
+Header: Storage Non-physical Spill
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-physical spill required to maintain feasible storage volumes.
+
+Paragraphs:
+Storage Non-physical Spill is the non-physical spill required to maintain feasible storage volumes. Non-physical spill is only allowed when Storage Non-physical Spill Penalty is defined.
+
+See also:
+Lists:
+	- Storage Non-physical Inflow
+	- Storage Non-physical Inflow Penalty
+

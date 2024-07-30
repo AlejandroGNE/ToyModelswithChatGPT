@@ -1,0 +1,19 @@
+Header: Node Firm Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Firm capacity provided by generators
+
+Paragraphs:
+Node Firm Generation Capacity is the installed capacity accounting for Generator Rating , Rating Factor and Firm Capacity at a node.
+
+See also:
+Lists:
+	- Node Net Capacity Interchange
+	- Node Generation Capacity
+

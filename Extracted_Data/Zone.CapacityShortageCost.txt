@@ -1,0 +1,18 @@
+Header: Zone Capacity Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of capacity shortage priced at [Capacity Shortage Price].
+
+Paragraphs:
+Zone Capacity Shortage Cost is calculated as:
+
+See also:
+Lists:
+	- Zone Capacity Excess Cost
+

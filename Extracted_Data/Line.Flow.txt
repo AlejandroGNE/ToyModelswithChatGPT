@@ -1,0 +1,23 @@
+Header: Line Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow
+
+Paragraphs:
+When reported by interval Line Flow is the power flow on the transmission line. Positive flow indicates flow in the 'reference direction' (from the Node From to the Node To ) whereas negative values are flows in the counter-reference direction. In the presence of losses the flow is the gross flow before losses.
+
+In summary reporting (day/week/month/year) Flow is the sum of all non-zero flows in the reference direction. The property Flow Back reports the sum of flows in the counter-reference direction.
+
+See also:
+Lists:
+	- Line Export Limit
+	- Line Import Limit
+	- Line Violation
+	- Line Ramp
+

@@ -1,0 +1,27 @@
+Header: Market Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of purchases from the market
+
+Paragraphs:
+Market Cost is the value of purchases from the market. The definition of Cost depends on the Market Is Marginal flag.
+
+If Is Marginal is true then:
+
+Cost = Purchases × Price
+
+else:
+
+Cost = ∑ b Purchases b × Price b
+
+where: b indexes the band of Price
+
+
+Lists:
+

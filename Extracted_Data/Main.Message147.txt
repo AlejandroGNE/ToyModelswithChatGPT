@@ -1,0 +1,11 @@
+Header: Message 147
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Region <name> defines a Region Reference Node <name> that is out-of-service.
+
+Paragraphs:
+Message 147 occurs in the following circumstances:
+Lists:
+

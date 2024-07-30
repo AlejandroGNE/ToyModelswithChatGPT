@@ -1,0 +1,15 @@
+Header: Battery Companies Installed Capacity
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed capacity (Max Capacity x Units)
+
+Paragraphs:
+Battery Companies Installed Capacity is the installed capacity (Max Capacity x Units).
+Lists:
+

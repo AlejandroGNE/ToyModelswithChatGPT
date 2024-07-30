@@ -1,0 +1,20 @@
+Header: Generator Constraints Pump Operating Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours the generating unit is running in pump mode
+
+Paragraphs:
+Generator Constraints Pump Operating Hour Coefficient is the coefficient of number of hours the generating unit is running in pump mode.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- Generator Pump Operating Hours
+

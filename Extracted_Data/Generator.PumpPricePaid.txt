@@ -1,0 +1,19 @@
+Header: Generator Pump Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid for pump load
+
+Paragraphs:
+Generator Pump Price Paid is the price paid per megawatt of Pump Load and is calculated using the same methodology as Price Received but with Marginal Loss Factor applied inversely.
+
+See also:
+Lists:
+	- Generator Price Received
+	- Generator Sync Cond Price Paid
+

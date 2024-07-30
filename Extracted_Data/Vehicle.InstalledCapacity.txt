@@ -1,0 +1,15 @@
+Header: Vehicle Installed Capacity
+
+Table Details:
+Units:	kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total battery capacity
+
+Paragraphs:
+Vehicle Installed Capacity is Total battery capacity.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Pool Imports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Imports
+
+Paragraphs:
+Pool Imports is the net imports into the pool from other pools.
+Lists:
+

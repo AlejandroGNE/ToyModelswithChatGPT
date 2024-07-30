@@ -1,0 +1,11 @@
+Header: Power2X Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	The set of electric nodes the facility draws load from
+
+Paragraphs:
+A Power2X may be connected to one or more transmission nodes. The default for this property is one, therefore this property need only be defined when the generator connects to more than one node.
+Lists:
+

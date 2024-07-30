@@ -1,0 +1,15 @@
+Header: Gas Contract Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price associated with gas scarcity
+
+Paragraphs:
+Gas Contract Shadow Price is shadow price of gas associated with gas scarcity in a given contract.
+Lists:
+

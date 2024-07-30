@@ -1,0 +1,22 @@
+Header: Transformer Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of violating flow limits
+
+Paragraphs:
+Transformer Violation Cost is the cost associated with Violation of the Transformer thermal limits.
+
+As a summary property this is the Violation Cost in the reference direction.
+
+See also:
+Lists:
+	- Violation Cost Back
+	- Violation
+	- Limit Penalty
+

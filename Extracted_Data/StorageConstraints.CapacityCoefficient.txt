@@ -1,0 +1,15 @@
+Header: Storage Constraints Capacity Coefficient
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of energy storage capacity.
+
+Paragraphs:
+Storage Constraints Capacity Coefficient is Coefficient of energy storage capacity..
+Lists:
+

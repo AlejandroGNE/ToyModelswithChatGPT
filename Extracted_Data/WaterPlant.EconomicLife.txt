@@ -1,0 +1,21 @@
+Header: Water Plant Economic Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Economic life of the Water Plant (period over which fixed costs are recovered).
+
+Paragraphs:
+Water Plant Economic Life is the period over which fixed costs are recovered. It works in combination with WACC when calculating annuities for LT Plan .
+
+Note:
+Lists:
+	- If the Economic Life, Build Cost , and Technical Life are not defined, PLEXOS will assume the Economic Life is 30 years.
+	- If the Economic Life is not defined but the Technical Life is defined, the Technical Life is assumed to be the Economic Life of the Water Plant.
+	- If both Economic Life and Technical Life are defined, the Economic Life is set to the lesser of the two values.
+	- If the Build Cost is defined but the Technical Life and Economic Life are not, the Economic Life is equal to 1/(Expansion Periods per Year), where the Expansion Periods per Year is determined by the integer value of the Discount Period Type .
+

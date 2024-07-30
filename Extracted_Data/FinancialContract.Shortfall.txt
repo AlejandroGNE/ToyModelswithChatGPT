@@ -1,0 +1,15 @@
+Header: Financial Contract Shortfall
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortfall of generation to meet contract
+
+Paragraphs:
+Financial Contract Shortfall applies only to the Gross Pool when Contracts Hand-off Point is set to Generator's Price. It is equal to the shortfall of generation over the contract quantity .
+Lists:
+

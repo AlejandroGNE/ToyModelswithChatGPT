@@ -1,0 +1,15 @@
+Header: Facility Heat Consumption
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat consumption
+
+Paragraphs:
+Facility Heat Consumption is the heat consumption of Facility per unit of the Primary Output.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Companies Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	generation (battery discharge)
+
+Paragraphs:
+Battery Companies Generation is generation (battery discharge).
+Lists:
+

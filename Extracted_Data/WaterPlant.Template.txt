@@ -1,0 +1,11 @@
+Header: Water Plant Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Water Plant inherits from
+
+Paragraphs:
+Water Plant Template is template the Water Plant inherits from
+Lists:
+

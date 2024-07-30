@@ -1,0 +1,11 @@
+Header: Transformer Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Transformer inherits from
+
+Paragraphs:
+Transformer Template is template the Transformer inherits from
+Lists:
+

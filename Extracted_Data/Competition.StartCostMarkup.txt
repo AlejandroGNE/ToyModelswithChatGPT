@@ -1,0 +1,33 @@
+Header: Competition Start Cost Mark-up
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If mark-ups are calculated to recover generator start cost
+
+Paragraphs:
+Competition Start Cost Mark-up
+          is a flag that indicates if generator
+            mark-ups should be automatically set such that one start
+            cost is recovered within the Start
+            Cost Mark-up Window which by default is 24 hours.
+
+Start cost recovery is achieved by the addition to the formulation of
+          a set of mark-up 'bands' across the total production of the generator
+          in each recovery window. The number of bands is controlled by the Start Cost
+            Mark-up Production Bands setting. Each band has associated with
+          it a unique mark-up which would be required to recover the start cost.
+          Integer variables are added to the formulation to activate the
+          appropriate mark-up band when a start occurs and as a function of
+          total Generation in the
+          window.
+
+Note that these mark-up bands are only applied if a start actually
+          occurs in the window, and if more than one start occurs, the mark-ups
+          only account for one start cost.
+
+The final start cost mark-up applied is included in the reported
+          properties Generator Mark-up and Offer Price .
+Lists:
+

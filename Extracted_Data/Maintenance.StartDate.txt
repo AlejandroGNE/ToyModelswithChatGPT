@@ -1,0 +1,15 @@
+Header: Maintenance Start Date
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Start date of next maintenance event.
+
+Paragraphs:
+Maintenance Start Date reports the date and time of the last maintenance event in the period. Start Date is a decimal representing a Julian date.
+Lists:
+

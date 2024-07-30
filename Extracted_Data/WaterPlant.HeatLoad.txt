@@ -1,0 +1,15 @@
+Header: Water Plant Heat Load
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The part of the [Energy Consumption] met by heat
+
+Paragraphs:
+Water Plant Heat Load is the part of the Energy Consumption met by heat.
+Lists:
+

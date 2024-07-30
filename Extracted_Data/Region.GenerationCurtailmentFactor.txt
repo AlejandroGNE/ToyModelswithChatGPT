@@ -1,0 +1,15 @@
+Header: Region Generation Curtailment Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of generation curtailed
+
+Paragraphs:
+Region Generation Curtailment Factor is Proportion of generation curtailed.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Gas Demand Gas Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	set of gas nodes the demand occurs at
+
+Paragraphs:
+Gas Demand Gas Node is set of Gas Nodes the Gas Demand connects to.
+Lists:
+

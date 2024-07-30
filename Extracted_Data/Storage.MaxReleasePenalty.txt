@@ -1,0 +1,22 @@
+Header: Storage Max Release Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of maximum rate of release constraints
+
+Paragraphs:
+Storage Max Release Penalty is the per unit penalty for violation of the Max Release and Max Generator Release constraints. If either constraint is violated the incidence, violation and costs are reported as Max Release Violation Hours , Max Release Violation and Max Release Violation Cost respectively.
+
+Note:
+
+See also:
+Lists:
+	- The units for this penalty are units of currency per unit of hydro release. See Units of Data for details.
+	- Any negative value for the penalty indicates a 'hard constraint' and no violation may occur.
+	- Storage Min Release Penalty
+

@@ -1,0 +1,28 @@
+Header: Generator Min Units Retired in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically retired in any single year of the planning horizon
+Units	1	-		
+Max Capacity	500	MW		
+FO&M Charge	50	$/kW/year		
+Max Units Retired	1	-		
+Min Units Retired in Year	1	-	1/01/2020	31/12/2020
+Retirement Cost	10000	$000		
+
+Paragraphs:
+Generator Min Units Retired in
+          Year forces a retirement in a given year in LT
+            Plan . The value should be less than or equal to Max
+            Units Retired .
+
+See also:
+Lists:
+	- Generator Min
+              Units Retired
+

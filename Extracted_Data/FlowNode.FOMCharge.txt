@@ -1,0 +1,22 @@
+Header: Flow Node FO&M Charge
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+
+Paragraphs:
+Flow Node FO&M Charge is the
+          annual  fixed operations and maintenance charge for the Flow
+          Node. The cost is reported in the property FO&M
+            Cost .
+
+See also:
+Lists:
+	- Facility FO&M
+              Charge
+

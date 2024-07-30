@@ -1,0 +1,25 @@
+Header: Facility Ramp Up Charge
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Charge applied to ramping up
+
+Paragraphs:
+Facility Ramp Up Charge is a
+          charge applied to ramping up. This charge can be used to approximate
+          the maintenance/wear-and-tear cost of ramping. The charge is applied
+          to all Ramp between the Min
+            Operating Factor × Max
+            Operating Level and Max
+            Operating Level . The cost incurred is reported in the property Ramp Up Cost .
+
+See also:
+Lists:
+	- Facility Ramp
+              Down Charge
+

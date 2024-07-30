@@ -1,0 +1,30 @@
+Header: Generator Min Pump Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be off after being shut down from pump mode
+
+Paragraphs:
+Generator Min Pump Down Time, for
+          a pumped storage generator ,
+          is the minimum number of hours a unit must be off after being shut
+          down from pump mode.
+
+Note, this constraint only applies when Min
+            Pump Load is non-zero in a similar manner to Min
+            Stable Level .
+
+See also:
+Lists:
+	- Generator Min
+              Pump Time
+	- Generator Pump
+              Transition Time
+	- Generator Generation
+              Transition Time
+

@@ -1,0 +1,20 @@
+Header: Generator Fixed Load Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that [Fixed Load] is violated.
+
+Paragraphs:
+Generator Fixed Load Violation Hours is the number of hours that the Fixed Load constraint is violated. Violations are only permitted if the Fixed Load Penalty is non-negative.
+
+See also:
+Lists:
+	- Generator Fixed Load Generation
+	- Generator Fixed Load Violation
+	- Generator Fixed Load Violation Cost
+

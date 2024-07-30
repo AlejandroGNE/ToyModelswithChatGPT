@@ -1,0 +1,17 @@
+Header: Financial Contract Settlement
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Settlement
+
+Paragraphs:
+Financial Contract Settlement is defined differently depending on the setting of Market Pool Type :
+
+If Region Price is above the Cap Price then:
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Constraint Formulate Upfront
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If constraints should all be formulated upfront rather than checked iteratively.
+
+Paragraphs:
+Constraint Formulate Upfront controls when the constraint is added to the mathematical programming problem. This setting applies only to Constraints that involve transmission elements such as Lines , Transformers , and Interfaces .
+
+In general it is more efficient to add constraints only as needed but in some cases performance maybe improved by adding the constraints upfront, avoiding additional iterations.
+Lists:
+

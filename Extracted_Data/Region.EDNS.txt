@@ -1,0 +1,26 @@
+Header: Region EDNS
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Expected Demand Not Served (summary type "Average")
+
+Paragraphs:
+NOTE: EDNS is only computed by LT Plan and PASA when the Compute Reliability Indices setting is 'on'.
+
+This is the expected megawatt demand not served in the PASA period i.e. the expected outage severity. The EDNS is determined by taking the total area where the demand (d) is greater than the available capacity Region Available Capacity .
+
+Figure 1 shows an example, where a single region has an available capacity of say 6 MW, and an effective load of 11MW.  Therefore the total EDNS is the total area of the shaded section, which can be calculated by simple geometry.  In this case it is simply:
+
+Figure 1: A convolved LDC (described in LOLP )
+
+See also:
+Lists:
+	- Region LOLP
+	- Region LOLE
+	- Region EENS
+

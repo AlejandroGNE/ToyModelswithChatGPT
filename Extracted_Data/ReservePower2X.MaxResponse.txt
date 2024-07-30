@@ -1,0 +1,15 @@
+Header: Reserve Power2X Max Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum reserve response
+
+Paragraphs:
+Reserve Power2X Max Response is the maximum reserve response per unit operating at the facility. The actual reserve provided will be limited by the minimum of this value at the 'natural' response available according to the operating level and type of reserve.
+Lists:
+

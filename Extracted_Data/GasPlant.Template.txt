@@ -1,0 +1,11 @@
+Header: Gas Plant Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Plant inherits from
+
+Paragraphs:
+Gas Plant Template is template the Gas Plant inherits from
+Lists:
+

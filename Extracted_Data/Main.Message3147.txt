@@ -1,0 +1,11 @@
+Header: Message 3147
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Gas Contract <name> has memberships with multiple classes. Gas Node memberships will be ignored.
+
+Paragraphs:
+Message 3147 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Plant Objectives Capacity Factor Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Gas Plant capacity factor
+
+Paragraphs:
+Gas Plant Objectives Capacity Factor Coefficient is the coefficient of Gas Plant capacity factor.
+Lists:
+

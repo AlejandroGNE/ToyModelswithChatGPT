@@ -1,0 +1,17 @@
+Header: Emission Max Production Penalty
+
+Table Details:
+Units:	$/kg (Metric), $/lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Max Production] constraints.
+
+Paragraphs:
+Emission Max Production Penalty is the penalty for violation of the Max Production * constraints. The default value of -1 means "hard constraint" i.e. no violations are allowed. A value of zero means the constraint can be violated at no cost. The Max Production Penalty property has the same units as the Max Production units.  For example the if Max Production Year is used then the units are $/ton or $/tonne.
+
+The sum of violations of this constraint are reported as Max Production Violation and the costs as Max Production Violation Cost .
+Lists:
+

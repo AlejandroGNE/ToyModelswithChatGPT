@@ -1,0 +1,103 @@
+Header: Generator Fixed Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed load
+Units	1	-	1			
+Max Capacity	250	MW	1			
+Offer Quantity	40	MW	1			
+Offer Quantity	210	MW	2			
+Offer Price	0	$/MWh	1			WEEKDAY
+Offer Price	30	$/MWh	1			WEEKEND
+Offer Price	30	$/MWh	2			
+Fixed Load	15	MW	1			W2,H1
+Fixed Load	25	MW	1			W2,H2
+Fixed Load	-1	MW	1				
+Fixed Load	0	MW	1	Tuesday, 1 December 2009 06:00:00	Tuesday, 4 May 2010 06:00:00		FIXED
+Fixed Load	0	MW	1	Friday, 7 May 2010 06:00:00	Saturday, 8 May 2010 06:00:00		FIXED
+
+Paragraphs:
+Generator Fixed Load defines a
+          fixed profile of Generation from the facility i.e. it constrains the Generation to be exactly this value subject to availability.
+
+How the value of Fixed Load is interpreted depends on the Fixed
+            Load Global setting. It controls whether the value is across all
+          units at the facility or unit-by-unit.
+
+Fixed Load is commonly used:
+
+Fixed load is treated specially in the simulator. It over-rides other
+          constraints such as Min
+            Stable Level , Start
+            Profile , Max Ramp Up ,
+          and Max Ramp Down . When
+          offers are defined the Fixed Load over-rides the Offer
+            Quantity e.g. if there is insufficient capacity
+          offered to meet the Fixed Load the size of the last offer band is
+          extended automatically.
+
+How Fixed Load values of zero are interpreted is controlled by the Fixed Load Method setting.
+          By default:
+
+This interpretation is based on the rules of some self- commitment
+          markets where Fixed Load is used to model units on test for a period
+          of time and zero indicates that the unit is not on test. However you
+          may wish to enforce Fixed Load value of zero. In this case you will
+          need to set Fixed Load
+            Method = "Enforce Zero Values". If you want Fixed Load to be
+          ignored in some time periods you can set the Fixed Load value to -1.
+          Any negative values used for Fixed Load property, will relax the Fixed
+          Load constraint and return the generator to normal dispatch
+          optimization.
+
+In the example in Table 1 the generator will be dispatched to follow
+          the given profile (15 MW in hour 1 of Monday and 25 MW on hour 2
+          Monday) while the unit runs up to its minimum stable level, and beyond
+          that it will follow dispatch according to its cleared energy offers.
+
+In the example in Table 2 the generator will follow a series of values
+          defined in the Data File "FIXED" but
+          only for the specific date ranges shown, other times the dispatch is
+          optimized normally.
+
+By default the Fixed Load constraint is a hard constraint meaning that
+          no violations are allowed. You can optionally make the constraint
+          'soft' and introduce a penalty price with the property Fixed
+            Load Penalty . The frequency, quantity and cost of violations are
+          reported in the properties:
+
+Note that Fixed Load is automatically derated by the Generator Forced Outage Rate and Maintenance Rate in
+          non-chronological simulation phases e.g. when LT
+            Plan or MT Schedule are
+          using load duration curves. This is done to simulate the effect of
+          outages on the ability of the station to meet the Fixed Load
+          requirement.
+
+See also:
+Lists:
+	- In benchmarking exercises when you want dispatch to follow exactly
+            the historical market dispatch in some or all periods of the
+            simulation.
+	- To model non-scheduled resources such as solar or wind.
+	- if the value is zero the dispatch constraint is ignored, but
+	- if the value is non-zero the simulator will dispatch the unit to
+            exactly the given level.
+	- Generator Fixed
+              Load Generation
+	- Generator Fixed
+              Load Violation Hours
+	- Generator Fixed
+              Load Violation
+	- Generator Fixed
+              Load Violation Cost
+	- Generator Commit
+	- Generator Min
+              Load
+	- Generator Fixed
+              Pump Load
+

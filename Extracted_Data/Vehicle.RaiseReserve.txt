@@ -1,0 +1,29 @@
+Header: Vehicle Raise Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of raise (spin up) reserve
+
+Paragraphs:
+Vehicle Raise Reserve is the
+          provision of raise ('spin up') reserve summed over all raise reserve types (raise, regulation raise and
+          operational). Raise reserve is provided by reserving some Discharging capability from the battery when the SoC is above Min SoC . or by offering to
+          reduce Charging of the battery.
+          This is allowed only when the Vehicle is connected to Charging
+          Stations providing vehicle-to-grid (V2G) services i.e. when
+          Charging Station Max
+            Discharge Rate is non-zero.
+
+See also:
+Lists:
+	- Vehicle Regulation
+              Raise Reserve
+	- Vehicle Lower
+              Reserve
+	- Vehicle Reserves Revenue
+

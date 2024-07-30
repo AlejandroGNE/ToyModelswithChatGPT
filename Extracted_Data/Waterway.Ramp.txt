@@ -1,0 +1,15 @@
+Header: Waterway Ramp
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Change in flow
+
+Paragraphs:
+Waterway Ramp is the change in the flow.
+Lists:
+

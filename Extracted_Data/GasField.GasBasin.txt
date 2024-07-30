@@ -1,0 +1,12 @@
+Header: Gas Field Gas Basin
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas basins the gas field belongs to
+
+Paragraphs:
+Gas Field Gas Fields belong to basins and the basin might have overall limits on extractable gas, with a number of different Gas Fields candidates (and existing) inside the basin. Thus, a Gas Basin would act as a summary object for Gas Fields putting over-arching limits on the amount of gas that can be produced.
+For example, if the basin has 1000 TJ of extractable gas there might be field development options that exceed this and the model needs to choose which projects are best.
+Lists:
+

@@ -1,0 +1,27 @@
+Header: Generator VO&M Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge
+
+Paragraphs:
+Generator VO&M Charge is a
+          component of the incremental cost of generation (per megawatt hour),
+          and is used to recover maintenance costs that are a direct function of
+          generation e.g. wear and tear and other regular equipment
+          replacement and servicing costs.
+
+This is a component of a units short-run marginal cost ( SRMC )
+          and thus directly affects the price at which the generator's output is
+          offered into the market.
+
+The variable operations and maintenance cost associated with the Generation is reported in the
+          property VO&M Cost and is
+          part of the Generation Cost.
+Lists:
+

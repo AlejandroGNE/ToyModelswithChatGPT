@@ -1,0 +1,18 @@
+Header: Message 11
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Failed to load data into database: <value>. Check the size of the solution database (2GB maximum for Microsoft Access database format).
+
+Paragraphs:
+Message 11 occurs only when writing the solution data to Microsoft Access database (MDB) files. The error happens when the amount of data needing to be loaded into the database is larger than 2GB, which is the limit for databases of this format.
+
+To avoid this problem consider either:
+
+See also:
+Lists:
+	- Reducing the number of properties written to the solution database, which is controlled by the Report object.
+	- Use the (default) zipped-XML solution file format, which has no in-built size limit.
+	- Message 5
+

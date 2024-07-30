@@ -1,0 +1,15 @@
+Header: Line Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the line
+
+Paragraphs:
+Line Technical Life is the physical life of the Line and is used in LT Plan to force the retirement of the Line after a certain period after it has been constructed. The property applies only to Lines that are constructed by LT Plan i.e. those defining Max Units Built .
+Lists:
+

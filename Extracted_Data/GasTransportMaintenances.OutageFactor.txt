@@ -1,0 +1,15 @@
+Header: Gas Transport Maintenances Outage Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of capacity during outage
+
+Paragraphs:
+Gas Transport Maintenances Outage Factor is Proportion of capacity during outage.
+Lists:
+

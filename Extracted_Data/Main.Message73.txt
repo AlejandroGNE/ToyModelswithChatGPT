@@ -1,0 +1,15 @@
+Header: Message 73
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Error (value = 0)
+Description:	<value> <name> initial conditions must include [<value>].
+
+Paragraphs:
+An example of where Message 73 can occur is as follows:
+
+To define initial conditions you must include Initial Generation even if Initial Units Generating is zero.
+Lists:
+	- Where you define one of the Generator initial condition properties: Initial Units Generating , Initial Hours Down , Initial Hours Up , but
+	- you do not define Initial Generation .
+

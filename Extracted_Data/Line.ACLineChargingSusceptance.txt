@@ -1,0 +1,15 @@
+Header: Line AC Line Charging Susceptance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The line-charging susceptance of a transmission line
+
+Paragraphs:
+Line AC Line Charging Susceptance is the line-charging susceptance of a transmission line.
+Lists:
+

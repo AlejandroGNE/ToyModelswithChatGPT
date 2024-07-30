@@ -1,0 +1,31 @@
+Header: Battery Discharge Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of discharging
+BESS	Units	1	-
+BESS	Max Power	10	MW
+BESS	Discharge Efficiency	90	%
+
+Paragraphs:
+Battery Discharge Efficiency is the
+          ratio of power sent to the grid over total power discharged from the
+          battery i.e. including any inverter losses.
+
+Example:
+
+If the BESS operates at Max Power of 1 MW for one hour then 1 MWh is
+          delivered to the grid as Generation and 1 / 0.9 = 1.11 MWh Discharging is taken from storage reducing the SoC .
+          The losses are 0.11 MWh .
+
+
+
+See also:
+Lists:
+	- Charge Efficiency
+

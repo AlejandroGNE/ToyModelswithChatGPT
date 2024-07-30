@@ -1,0 +1,20 @@
+Header: Node Fixed Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed load at the node
+
+Paragraphs:
+Node Fixed Load defines a Load at the node not already accounted for in the load e.g. this might represent the load from a transformer at the node.
+
+This load adds to the Load at the node and the Region and/or Zone the node belongs to.
+
+See also:
+Lists:
+	- Node Fixed Generation
+

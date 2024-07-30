@@ -1,0 +1,15 @@
+Header: Battery Outage Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load drawn by a unit in pumping mode
+
+Paragraphs:
+Battery Outage Pump Load is the load drawn by a unit in pumping mode when an outage of the given type (band) occurs. This is the pumping analog of the Outage Rating property.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Vehicle Units Disposed
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of vehicles disposed of
+
+Paragraphs:
+Vehicle Units Disposed is the
+          number of vehicles disposed of in LT Plan.
+
+See also:
+Lists:
+	- Facility Units
+              Retired
+	- Vehicle Disposal
+              Cost
+

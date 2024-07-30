@@ -1,0 +1,15 @@
+Header: Generator Load Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load point for use with multi-point heat rate.
+
+Paragraphs:
+Load Points are used in defining multi-point generator heat rate functions and emission functions .
+Lists:
+

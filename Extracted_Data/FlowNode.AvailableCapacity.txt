@@ -1,0 +1,17 @@
+Header: Flow Node Available Capacity
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available capacity
+
+Paragraphs:
+Flow Node Available Capacity is
+          the total available
+            capacity if Facilities connected to the Flow Node.
+Lists:
+

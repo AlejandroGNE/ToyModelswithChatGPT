@@ -1,0 +1,30 @@
+Header: Generator Auxiliary Use
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Auxiliary use
+BOB	Units	2	-
+BOB	Max Capacity	250	MW
+BOB	Aux Fixed	0.5	MW
+BOB	Aux Base	3	MW
+BOB	Aux Incr	3	%
+
+Paragraphs:
+Generator Auxiliary Use is the total of all station auxiliary loads (in-house use):
+
+The auxiliary use is set by the inputs Aux Incr , Aux Base , and Aux Fixed .  These can be used in any combination.
+
+Example:
+
+Here there is a constant station load of 0.5 MW per installed unit. Each unit that is running incurs a load of 3 MW and loses 3% of its raw generation to auxiliaries. Thus with one unit generating at total of 250 MW the power station consumes 0.5 x 2 + 3 x 1 + 0.03 x 250 = 11.5 MW. The sent out generation is 250 - 11.5 = 238.5 MW.
+
+Note that if you do not define auxiliary losses then generator heat rate functions must be entered on a sent-out basis.
+
+How auxiliary loads affect the load and hence the dispatch is controlled by the setting Region Load Metering Point . By default auxiliary loads are assumed to be captured in the input load and thus are only calculated after the dispatch.
+Lists:
+

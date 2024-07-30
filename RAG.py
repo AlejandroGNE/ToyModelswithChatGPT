@@ -28,17 +28,6 @@ def load_index():
     return index
 
 
-# ChatIndex = construct_index(directory_path="TrainData")
-ChatIndex = load_index()
-leave = True
-while leave:
-    print("Please enter a question regarding PLEXOS")
-    prompt = input()
-    if prompt == "quit":
-        exit()
-    query_engine = ChatIndex.as_query_engine()
-    # prompt_adder= "\nKeep in mind this is a question regarding PLEXOS, Once you find the answer, state it and explain in simpler terms\n "
-    # print(prompt + prompt_adder)
-    response = query_engine.query(prompt)
-    print(response)
+#ChatIndex = construct_index(directory_path="Extracted_Data")
+#ChatIndex = load_index()
 

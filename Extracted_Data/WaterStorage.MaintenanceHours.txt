@@ -1,0 +1,20 @@
+Header: Water Storage Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Water storage is on maintenance
+
+Paragraphs:
+Water Storage Maintenance Hours is the number of hours the Water storage is on maintenance. This is a Beta feature.
+
+See also:
+Lists:
+	- Water Storage Forced Outage Hours
+	- Water Storage Units Out
+	- Water Storage Service Factor
+

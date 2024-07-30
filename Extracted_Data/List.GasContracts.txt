@@ -1,0 +1,11 @@
+Header: List Gas Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Contract objects in the List
+
+Paragraphs:
+List Gas Contracts is set of Gas Contract objects in the List
+Lists:
+

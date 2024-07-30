@@ -1,0 +1,24 @@
+Header: Vehicle Disposal Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of disposing of the vehicle
+
+Paragraphs:
+Vehicle Disposal Cost is the
+            one-time cost of disposing of the vehicle in LT
+              Plan .
+
+As output Disposal Cost is the total cost of vehicles disposed in
+            the reporting period.
+
+See also:
+Lists:
+	- Vehicle Max
+              Units Retired
+

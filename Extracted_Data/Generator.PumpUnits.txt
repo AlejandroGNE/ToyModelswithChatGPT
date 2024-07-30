@@ -1,0 +1,32 @@
+Header: Generator Pump Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of pump units
+
+Paragraphs:
+Generator Pump Unit is the number
+          of Units that can run in pump mode
+          at the pumped storage generator .
+          Pump Units defaults to the total number of installed units if not
+          defined.
+
+You can restrict the number of units that are allowed to pump at any
+          one time with the property Max
+            Units Pumping . Pumping can be forced using the property Must
+            Pump Units .
+
+See also:
+Lists:
+	- Generator Pump
+              Load
+	- Generator Pump
+              Efficiency
+	- Generator Units
+              Pumping
+

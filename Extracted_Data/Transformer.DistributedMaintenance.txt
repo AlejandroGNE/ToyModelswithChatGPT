@@ -1,0 +1,20 @@
+Header: Transformer Distributed Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Ideal reference direction capacity out on maintenance
+
+Paragraphs:
+Transformer Distributed Maintenance is the
+          ideal reference direction capacity out on maintenance. See Facility Distributed Maintenance for details.
+
+See also:
+Lists:
+	- Transformer Distributed
+              Maintenance Back
+

@@ -1,0 +1,24 @@
+Header: Battery Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed generation capacity
+
+Paragraphs:
+Battery Generation Capacity is
+          installed generation capacity of the BESS and is defined as:
+
+Generation Capacity = Max
+            Power × Units
+
+See also:
+Lists:
+	- Battery Installed
+              Capacity
+	- Battery Capacity
+

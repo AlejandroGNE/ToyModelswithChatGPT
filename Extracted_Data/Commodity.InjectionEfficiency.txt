@@ -1,0 +1,15 @@
+Header: Commodity Injection Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of injected commodity reaching storage net of losses
+
+Paragraphs:
+Commodity Injection Efficiency is Proportion of injected commodity reaching storage net of losses.
+Lists:
+

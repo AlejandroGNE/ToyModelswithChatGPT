@@ -1,0 +1,19 @@
+Header: Generator Marginal Heat Rate
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal heat rate at optimal generation level
+
+Paragraphs:
+Generator Marginal Heat Rate is the amount of fuel that would be used to provide the next megawatt of Generation .
+
+See also:
+Lists:
+	- Generator SRMC
+	- Generator Average Heat Rate
+

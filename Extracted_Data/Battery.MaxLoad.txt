@@ -1,0 +1,24 @@
+Header: Battery Max Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Power at full charge including inverter losses
+
+Paragraphs:
+Battery Max Load is the power at full charge including inverter losses. This is illustrated below:
+
+
+
+NOTE: If Max Load is not defined a value of Max Power is assumed.
+
+See also:
+Lists:
+	- Load
+	- Charge Efficiency
+	- Max Power
+

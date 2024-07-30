@@ -1,0 +1,11 @@
+Header: Company Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Companies the Company connects to
+
+Paragraphs:
+Company Companies is set of Companies the Company connects to
+Lists:
+

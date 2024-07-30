@@ -1,0 +1,25 @@
+Header: Interface Available Transfer Capability
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability on the interface.
+
+Paragraphs:
+Interface Available Transfer Capability is Available transfer capability remaining on the interface. Reported Available Transfer Capability will be on the same direction as the current interface Flow .
+
+Interface Available Transfer Capability is calculated from the interface Flow and the defined Interface Lines Flow Coefficient / Flow Forward Coefficient / Flow Back Coefficient , k l .
+
+If SCUC Enabled , then Interface Available Transfer Capability is calculate from the post-contingency power flow f x and the contingency shifter factors CSF .
+
+In practice, the interface limit and interface Lines limits are all enforced. The interface ATC is reported as
+
+See also:
+Lists:
+	- Line Available Transfer Capability
+	- Transformer Available Transfer Capability
+

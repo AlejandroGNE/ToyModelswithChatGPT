@@ -1,0 +1,11 @@
+Header: Message 218
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	The <name> Region is missing its Reference Node membership, which is compulsory when using the [Aggregate Transmission] option.
+
+Paragraphs:
+Message 218 occurs in the following circumstances:
+Lists:
+

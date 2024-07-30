@@ -1,0 +1,11 @@
+Header: Gas Transport Export Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	gas node the gas transport exports from
+
+Paragraphs:
+Gas Transport Export Node is Gas Node the Gas Transport exports from.
+Lists:
+

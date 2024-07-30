@@ -1,0 +1,15 @@
+Header: Fuel Contract Offtake
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake associated with the contract
+
+Paragraphs:
+This is the total usage of the Fuel involved in the Fuel Contract .
+Lists:
+

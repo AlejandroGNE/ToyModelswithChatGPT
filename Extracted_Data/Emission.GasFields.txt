@@ -1,0 +1,11 @@
+Header: Emission Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Fields that produce the Emission
+
+Paragraphs:
+Emission Gas Fields is set of Gas Fields that produce the Emission
+Lists:
+

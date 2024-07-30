@@ -1,0 +1,13 @@
+Header: Stochastic Deterministic Step Length
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	The number of Deterministic Step Type periods in each step of the deterministic pass of the rolling horizon
+
+Paragraphs:
+This option works with Stochastic Deterministic Step
+            Type . See that topic for details.
+Lists:
+

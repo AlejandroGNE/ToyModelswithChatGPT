@@ -1,0 +1,19 @@
+Header: Battery Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	First date at which a BESS unit can be built
+
+Paragraphs:
+Battery Project Start Date is the first date at which a BESS unit can be built in LT Plan , i.e. the BESS cannot be built until this date or later.
+
+See also:
+Lists:
+	- Generator Project Start Date
+	- Battery Max Units Built in Year
+

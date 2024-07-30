@@ -1,0 +1,21 @@
+Header: Charging Station UoS Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Use of system charge
+
+Paragraphs:
+Charging Stations UoS
+          Charge is the use-of-system charge for energy used by the charging
+          station. This might represent a retail tariff or other network charge
+          associated with the station.
+
+See also:
+Lists:
+	- UoS Cost
+

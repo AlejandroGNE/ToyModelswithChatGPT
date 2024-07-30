@@ -1,0 +1,25 @@
+Header: Navigate the User Interface
+
+Table Details:
+
+Paragraphs:
+The above image shows the PLEXOS user interface for a newly-created database (see Create a New File ). The parts of the interface are highlighted as follows:
+
+Provides the action commands for PlEXOS such as Execute to begin execution of a simulation.
+
+This tree shows you all the Objects in the database organized into Collections shown as folders. This tree is your primary means of navigating the data in the system. The other interface elements respond to your selections in this tree.
+
+Shows the relationships (called Memberships) between objects. The contents of this tree change according to your selection the Main Tree.
+
+Lists the properties available for the type of objects selected in the Main Tree.
+
+There are three tabs for the grid (Objects, Memberships, Properties). Each presents a data grid where you can edit/add/delete data. You can also use the filtering and sorting commands to organize the data presented.
+Lists:
+
+
+H5s:
+The Ribbon (pink)
+The Main Tree (red)
+The Memberships Tree (orange)
+The Properties Tree (light blue)
+The Data Grid (green)

@@ -1,0 +1,15 @@
+Header: Global Deterministic Stages
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scenario Tree: Number of deterministic stages
+
+Paragraphs:
+Global Deterministic Stages is the number of stages from root node where decision are taken before revealing uncertainty.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3065
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Selected Model and/or Project objects are not configured with a Horizon object.
+
+Paragraphs:
+Message 3065 occurs in the following circumstances:
+Lists:
+

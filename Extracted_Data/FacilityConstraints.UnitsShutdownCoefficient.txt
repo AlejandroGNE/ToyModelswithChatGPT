@@ -1,0 +1,23 @@
+Header: Facility Constraints Units Shutdown Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units shutdown
+
+Paragraphs:
+Facility Constraints Units Shutdown Coefficient is the left-hand side coefficient of the
+          number of Units Shutdown in
+          the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Facility Units Shutdown ... {≤,
+            ≥, =} b j
+Lists:
+

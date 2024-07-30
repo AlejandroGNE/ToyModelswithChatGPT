@@ -1,0 +1,23 @@
+Header: Battery Self Discharge Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage of stored energy lost per hour due to self-discharge.
+
+Paragraphs:
+Battery self discharge rate models the rate of energy loss within the battery due to internal discharge effects. 
+                Self discharge losses occur in the absence of any external connection: a battery does not need to be either Discharging or Charging through an external grid connection to experience self discharge losses.
+
+Battery self discharge rate represents the percentage of storaged energy lost per hour. Self discharge losses are reported by Battery Self Discharge Losses .
+                In addition, the the sum of self discharge losses and inverter inefficiency losses are reported by Battery Total Losses .
+
+See also:
+Lists:
+	- Battery Charge Efficiency
+	- Battery Discharge Efficiency
+

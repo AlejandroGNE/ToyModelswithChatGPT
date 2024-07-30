@@ -1,0 +1,15 @@
+Header: Generator Capacity Markets Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Quantity offered in band for capacity market
+
+Paragraphs:
+Generator Capacity Markets Offer Quantity is Quantity offered in band for capacity market.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Battery Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total recharge and discharge losses
+
+Paragraphs:
+Battery Losses are the losses occuring as a result of charge and non-self discharge processes e.g. as a result of inverter losses.
+
+Refer to the following topics for details and examples:
+Lists:
+	- Charge Efficiency
+	- Discharge Efficiency
+

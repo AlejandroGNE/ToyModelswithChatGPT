@@ -1,0 +1,35 @@
+Header: Fuel Max Offtake
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum fuel offtake per interval
+
+Paragraphs:
+As input Fuel Max Offtake is the
+          maximum amount of fuel allowed to be used in any interval of the
+          simulation.
+
+For multi-period limits see the following properties:
+
+These limits are treated as hard constraints, meaning that the
+          simulation cannot use any more fuel than is specified by the limit at
+          any price. To model soft constraints, you can set the Max Offtake Penalty . You can also use use a generic Constraint or a Fuel Contract to model soft constraints.
+
+As output Fuel Max Offtake is the
+            maximum Offtake in the period.
+
+See also:
+Lists:
+	- Max Offtake HOUR
+	- Max Offtake DAY
+	- Max Offtake WEEK
+	- Max Offtake MONTH
+	- Max Offtake YEAR
+	- Fuel Min
+                Offtake
+

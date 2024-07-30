@@ -1,0 +1,21 @@
+Header: Diagnostic Shift Factors
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write the computed shift factors (PTDF) to a diagnostic file
+
+Paragraphs:
+This option produces a diagnostic file in plain text format (TXT) of all shift factor calculations made for the transmission system. Note that these files can be loaded directly in Microsoft Excel for easy analysis. Four shift factor diagnostic files will be generated:
+
+When the security-constrained unit commitment is run, the contingency shift factors are also written to plain text files.
+
+Note that one set of file is written for each unique configuration (outage state) of the transmission network encountered during the simulation.
+Note that if the transmission detail is set to zonal or regional, there will be no shift factors calculation and hence there will be no diagnostic file.
+Lists:
+	- Bus to path shift factors
+	- Bus to interface shift factors (If interface is defined in model)
+	- Hub to path shift factors (If hub is defined in model)
+	- Hub to interface shift factors (if both hub and interface are defined in model)
+

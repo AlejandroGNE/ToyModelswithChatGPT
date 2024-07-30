@@ -1,0 +1,15 @@
+Header: Interface Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the interface limit.
+
+Paragraphs:
+Interface Violation is the flow on the interface above or below the limits as defined by Min Flow and Max Flow . In summary this property is the total violation in the reference direction.
+Lists:
+

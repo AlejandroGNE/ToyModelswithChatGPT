@@ -1,0 +1,20 @@
+Header: Commodity Net Energy Consumption
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net equivalent energy consumption
+
+Paragraphs:
+Commodity Net Energy Consumption
+          is defined as:
+
+Net Energy Consumption = Energy
+            Consumption - Energy
+            Production
+Lists:
+

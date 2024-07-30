@@ -1,0 +1,19 @@
+Header: Gas Transport Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building the Gas Transport
+
+Paragraphs:
+Gas Transport Build Cost is the Cost of building the Gas Transport.
+
+See also:
+Lists:
+	- Gas Transport Expansion 
+                Max Volume
+

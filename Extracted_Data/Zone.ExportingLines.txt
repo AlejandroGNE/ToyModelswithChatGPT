@@ -1,0 +1,11 @@
+Header: Zone Exporting Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Exporting Lines is set of lines that export from the Zone. This collection is reserved for reporting only.
+Lists:
+

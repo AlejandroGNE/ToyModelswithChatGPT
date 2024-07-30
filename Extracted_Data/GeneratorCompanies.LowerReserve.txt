@@ -1,0 +1,15 @@
+Header: Generator Companies Lower Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of lower (spin down) reserve
+
+Paragraphs:
+Generator Generator Companies Lower Reserve is defined as:
+Lists:
+

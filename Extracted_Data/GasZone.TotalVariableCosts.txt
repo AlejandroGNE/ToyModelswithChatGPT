@@ -1,0 +1,19 @@
+Header: Gas Zone Total Variable Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equal to Total Gas Purchase Cost + Total Penalty Cost.
+
+Paragraphs:
+Gas Zone Total Variable Costs is the sum of the variable costs from gas plants, gas fields, gas nodes, gas dsm programs, intrazonal gas pipelines, gas storages and penalty costs which include Gas Node Emission Costs.. Total Variable Costs = Gas Plant Variable Costs + Gas Field Variable Costs + Gas Node Variable Costs + Gas Storage Variable Costs + Intrazonal Gas Pipeline Variable Costs + Gas DSM Program Variable Costs + Total Penalty Costs which include Gas Node Emission Costs.
+
+Gas Zone Total Variable Costs is the sum of the variable costs from gas plants, gas fields, gas nodes, gas dsm programs, intrazonal gas pipelines, gas storages and penalty costs which include Gas Node Emission Costs..
+
+Total Variable Costs = Gas Plant Variable Costs + Gas Field Variable Costs + Gas Node Variable Costs + Gas Storage Variable Costs + Intrazonal Gas Pipeline Variable Costs + Gas DSM Program Variable Costs + Total Penalty Costs which include Gas Node Emission Costs.
+Lists:
+

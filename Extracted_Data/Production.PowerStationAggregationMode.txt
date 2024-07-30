@@ -1,0 +1,23 @@
+Header: Production Power Station Aggregation Mode
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Automatically create Power Station objects by aggregating Generators
+
+Paragraphs:
+This option controls the automatic creation of Power
+            Station objects during the data processing phase of the
+          simulation. The following options are available:
+
+This auto-aggregation method uses the naming convention of the
+          objects to group Generators into a
+          collection of Power Station objects. A high-level overview of this process is as follows:
+
+This auto-aggregation method uses the location ( Longitude and Latitude ) of the Nodes to group Generators into a
+          collection of Power Station objects. A high-level outline of this process is as follows:
+
+
+Lists:
+

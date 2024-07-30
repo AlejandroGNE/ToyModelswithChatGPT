@@ -1,0 +1,15 @@
+Header: Global Hanging Branches Block Count
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of blocks (time periods) modelled after the hanging branch begins.
+
+Paragraphs:
+Global Hanging Branches Block Count limits the Number of blocks (time periods) modelled after the hanging branch begins.  By default (-1), this is set to the number of weeks or months in a year depending on the Tree stage type and LDCType , so one block per LDC will be formulated for hanging branches. To achieve a faster performance, user could set it to 3 (2 or 1) for example that after the third (second, first) stage, the remaining periods will be formulated in one block. Here is an illustration for this property with a 5 blocks per LDC setting in MT Schedule .
+Lists:
+

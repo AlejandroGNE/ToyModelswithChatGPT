@@ -1,0 +1,15 @@
+Header: Fuel Total Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel price including tax
+
+Paragraphs:
+The Total Price property is the sum of Price and all Taxes .
+Lists:
+

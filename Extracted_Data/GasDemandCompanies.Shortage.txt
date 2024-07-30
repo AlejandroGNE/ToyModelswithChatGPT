@@ -1,0 +1,15 @@
+Header: Gas Demand Companies Shortage
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortage of gas supply
+
+Paragraphs:
+Gas Demand Companies Shortage is the shortage of gas supply for a given company.
+Lists:
+

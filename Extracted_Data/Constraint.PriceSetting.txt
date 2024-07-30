@@ -1,0 +1,20 @@
+Header: Constraint Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Constraint penalty function can set price
+
+Paragraphs:
+Constraint Price Setting applies
+          when a penalty function is
+          defined on the Constraint. It indicates if the penalty function can
+          set price i.e. that the marginal Penalty
+            Price can propagate through to pricing of commodities. When
+          toggled off, a second 'pricing' optimization is solved where the Violation is fixed and priced at zero.
+Lists:
+

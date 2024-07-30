@@ -1,0 +1,17 @@
+Header: Constraint Penalty Quantity
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty quantity
+
+Paragraphs:
+Constraint Penalty Quantity is used in combination with Penalty Price to create soft constraints.
+
+See also Penalty Price
+Lists:
+

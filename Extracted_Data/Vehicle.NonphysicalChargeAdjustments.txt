@@ -1,0 +1,20 @@
+Header: Vehicle Non-physical Charge Adjustments
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-physical charge adjustments required to maintain feasible states of charge.
+
+Paragraphs:
+Vehicle Non-physical Charge Adjustments is the non-physical charging required to maintain feasible states of charge ( SoC ).
+                Non-physical charging is only allowed when Vehicle Non-physical Charge Penalty is defined.
+
+See also:
+Lists:
+	- Vehicle Non-physical Discharge Adjustments
+	- Vehicle Non-physical Discharge Penalty
+

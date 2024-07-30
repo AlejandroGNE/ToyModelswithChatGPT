@@ -1,0 +1,21 @@
+Header: LT Plan Bridge Storage
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If LT Plan should bridge (decompose) storage for subsequent simulation phases
+
+Paragraphs:
+This switch toggles on/off bridging (decomposition) of storage
+          objects (from classes: Storage, Commodity, Flow Storage, Fuel,
+          Generator, Heat Storage, Gas Storage, etc) from LT
+            Plan to subsequent simulation phases ( MT
+            Schedule , ST Schedule ). See Optimize Expansion for
+          example usage.
+
+See also:
+Lists:
+	- LT Plan Bridge
+              Constraints
+

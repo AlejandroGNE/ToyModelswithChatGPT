@@ -1,0 +1,21 @@
+Header: Generator Constraints Reserve Units Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of units providing reserves
+
+Paragraphs:
+Generator Constraints Reserve Units Coefficient defines a left-hand side coefficient on the binary variable x indicating if the generator provides reserve services in the period.
+
+With the coefficient represented by \[a_{(i,j)}\] the following term is added to the formulation:
+
+where \[i\] indexes the Reserves provided by the Generator
+
+By default, this sum includes all Generator Reserves . You can limit the set of Reserves included in this sum by adding Generator Reserves memberships with no associated property definitions. This is a special case of using 'null' memberships to filter the terms included in another constraint property.
+Lists:
+

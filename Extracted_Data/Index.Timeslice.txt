@@ -1,0 +1,18 @@
+Header: Timeslice Index
+
+Table Details:
+Include	Yes/No	False	0	In (0,-1)	False	If the timeslice includes the period
+Hours Included  - h	Hours Included - h	-	LT Plan, PASA, MT Schedule, ST Schedule	False	Number of hours the Timeslice is included.
+
+Paragraphs:
+Timeslice Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Include Yes/No False 0 In (0,-1) False If the timeslice includes the period Timeslice Output Properties Name Summary Name Property Group Phases Multi-band Description Hours Included - h Hours Included - h - LT Plan, PASA, MT Schedule, ST Schedule False Number of hours the Timeslice is included.
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Include Yes/No False 0 In (0,-1) False If the timeslice includes the period Timeslice Output Properties Name Summary Name Property Group Phases Multi-band Description Hours Included - h Hours Included - h - LT Plan, PASA, MT Schedule, ST Schedule False Number of hours the Timeslice is included.
+
+Timeslice Output Properties Name Summary Name Property Group Phases Multi-band Description Hours Included - h Hours Included - h - LT Plan, PASA, MT Schedule, ST Schedule False Number of hours the Timeslice is included.
+
+Name Summary Name Property Group Phases Multi-band Description Hours Included - h Hours Included - h - LT Plan, PASA, MT Schedule, ST Schedule False Number of hours the Timeslice is included.
+
+Name Summary Name Property Group Phases Multi-band Description Hours Included - h Hours Included - h - LT Plan, PASA, MT Schedule, ST Schedule False Number of hours the Timeslice is included.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3151
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Gas Capacity Release Offer <name> has memberships with multiple classes. Gas pipelines memberships will be used and other memberships will be ignored.
+
+Paragraphs:
+Message 3151 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,62 @@
+Header: Managing the Connect License Server
+
+Table Details:
+
+Paragraphs:
+From the license control panel within PLEXOS Connect Launch Control or the PLEXOS Connect Server, you can view information about the license service. To use the License Control Panel in Launch Control, users will need permissions from the 'License' module in the Connect product. Users with the permission 'Add\Edit\Remove rules' from the Connect License module will also be able to define licensing groups, access rules and license reservations. To open the license control panel in Launch Control, press the license button at the top of the run panel. If you are using the PLEXOS Connect Server, you can open the license control panel by clicking on the 'licenses' button.
+
+The License Control Panel will show to users with the 'View' permission the status of the license server, including; the IP address of the Connect Server, the port number for the license server, which products are licensed and how many licenses are currently checked out. Users with the 'Add\Edit\Remove Rules' will also see the event log from the license server and create or remove license reservations, license groups and access rules.
+
+Any licenses that have been reserved will only be available to the computer or group that it is reserved for. In the 'Product Licenses' tabs, you can add, edit or remove license reservations. This is to allow specific computers to always have a user set number of licenses available to it regardless of how many other computers are requesting licenses for the same product. To edit a license reservation, select a single reservation and right click on it, then select 'Edit' from the context menu. To remove a license reservation, expand the product it is for, select one or more rules from the product and press the delete button, alternatively, you can select a product and press the delete button to remove all reservations for that product.
+
+You will need to have the user permission 'Add\Edit\Remove Rules' from the Connect License module.
+
+From the 'Product Licenses' tab, select the product that you wish to create a new license reservation for (#1) and press the add button (#2), this will open the add reservation window.
+
+The add reservation window will show the product you have selected, the total number of licenses this product has and the total number of licenses that are not reserved. In the reserve text box, you will need to enter the number of licenses you wish to reserve and in the machine text box, you can either type in a machine name, type an IP address (see §5.8.6 for valid IP addresses) or click on the drop-down's arrow and select an existing license group. Note, only machine names or IP addresses will work and not domain names.
+
+The mode of the access list can be changed by the drop-down menu named 'setting' (#A). The settings drop-down has two options:
+
+The access list rules will take priority over any other setting in the license server. Individual rules can be enabled or disabled by clicking on the check box next to them, this will allow rules to be turned off without being deleted.
+
+When adding new access rules, you must enter a computer name or an IP (see here for valid IP addresses) as well as a reason. Please note that only machine names or IP addresses will work and not domain names. It is also possible to edit individual rules by right clicking on a rule and selecting 'Edit' from the context menu.
+
+You will need to have the user permission 'Add\Edit\Remove Rules' from the Connect License module.
+
+In the group tab, users with the 'Add\Edit\Remove Rule' permission can create groups of machines or IP addresses for use with the license reservations. These groups allow a selection of machines to share any license reservations.
+
+When creating a new group, you will need to provide a unique name and at least one member. Group members must be either a computer name or an IP address (see here for valid IP addresses) and each group has a limit of 30 members. Please note that the group name should not have the same name as any machine name in your network, the license server may not always recognise the difference between the group and the machine. It is also possible to edit the groups by right clicking on a group and selecting 'Edit' from the context menu.
+
+You will need to have the user permission 'Add\Edit\Remove Rules' from the Connect License module.
+
+Launch Control can receive the license event log from the license server that is built into the Connect Server. The license server will store the 100 most recent lines from the event log for viewing by Launch Control, however, Launch Control has no limit on how much it will hold.
+
+This event log will show all license requests made by any connecting computers as well as the license request response. If a license request is denied, the reason is listed in this event log. Messages saying, 'Client Machine [<machine>] / User [<user>] connected' are connection tests from PLEXOS products to check the license server is active and able to respond.
+
+You will need to have the user permission 'Add\Edit\Remove Rules' from the Connect License module.
+
+There are 3 different possible locations for the license file (named 'EE.lic' or 'EE.xml'), one of these locations is hard set while the other 2 are dependent on the location of the Connect Server install folder.
+
+The first preferred location is dependent on and relative to the install location. Using the example in Figure 4.37, the install path can change to be anything and the Connect folder can be named anything but the EE folder must be the folder before the Connect folder and named 'Energy Exemplar'. If the EE folder is found before the Connect folder, the license will be stored in:
+
+This is assuming the Connect Server has permission to write to this folder.
+
+The second preferred location is if Connect Server does not have permission to write to the first preferred location. This location is based on the Windows common application data folder, this may be different depending on your Windows version and settings. For Windows Vista and newer:
+
+Finally, if the EE folder is not found, the license will be stored in the Connect folder. For example:
+Lists:
+	- Ban these: This will ban all enabled machines in the list.
+	- Allow only: This will only allow the enabled machines to request licenses from the license server.
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Manage a License Reservation?
+3. How Do I Manage the Access List?
+4. How Do I Manage the Group List?
+5. How Do I View the License Event Log?
+6. Where is the Server License File Located?
+
+H3s:
+2.1. How Do I Add a License Reservation?

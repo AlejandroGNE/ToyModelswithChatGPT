@@ -1,0 +1,27 @@
+Header: Generator Ramp Up Charge
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Charge applied to ramping up
+
+Paragraphs:
+Generator Ramp Up Charge is a
+          charge applied to ramping up. This charge can be used to approximate
+          the maintenance/wear-and-tear cost of ramping. The charge is applied
+          to all Ramp between Min
+            Stable Level and Max
+            Capacity and also to the running up from zero to Min
+            Stable Level .
+          The cost incurred is reported in the property Ramp
+            Up Cost .
+
+See also:
+Lists:
+	- Generator Ramp
+              Down Charge
+

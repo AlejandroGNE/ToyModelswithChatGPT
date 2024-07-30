@@ -1,0 +1,18 @@
+Header: Region Net Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation net of pump load
+
+Paragraphs:
+Region Net Generation is the Generation net of Pump Load and is defined as:
+
+See also:
+Lists:
+	- Region Load
+

@@ -1,0 +1,24 @@
+Header: Flow Path Outage Min Rating
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Flow Path Min Flow during the outage
+
+Paragraphs:
+Flow Path Outage Min Rating sets
+          the Min Flow associated with a Forced or Maintenance outage defined on the same band. The default value is zero means that
+          the outage is total. To specify a partial outage use a value greater
+          than zero and less than the Max Flow .
+          See the Units Out topic for
+          examples.
+
+See also:
+Lists:
+	- Flow Path Outage
+              Max Rating
+

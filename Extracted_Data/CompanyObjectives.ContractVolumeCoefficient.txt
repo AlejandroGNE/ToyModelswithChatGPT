@@ -1,0 +1,15 @@
+Header: Company Objectives Contract Volume Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of company contract volume
+
+Paragraphs:
+Company Objectives Contract Volume Coefficient is Coefficient of company contract volume.
+Lists:
+

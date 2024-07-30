@@ -1,0 +1,24 @@
+Header: Charging Station Build Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building a unit
+
+Paragraphs:
+Charging Station Build Cost
+          is the 'overnight cost' of building a charging station unit in LT
+            Plan . The Build Cost can be defined in combination with Economic
+            Life and WACC so that LT Plan computes an annuity as described
+          in the article LT Plan . If Build Cost
+          is defined without these parameters then the entire Build Cost is
+          incurred in the period the unit is built.
+
+See also:
+Lists:
+	- Facility Build Cost
+

@@ -1,0 +1,17 @@
+Header: PASA Include DSP
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Include demand-side participation in PASA
+
+Paragraphs:
+PASA Include DSP toggles on/off counting of Region demand-side participation (DSP) and Node DSP in Region Capacity Reserves .
+
+See also:
+Lists:
+	- PASA Include Contract Load
+	- PASA Include Contract Generation
+	- PASA Include Demand Bids
+

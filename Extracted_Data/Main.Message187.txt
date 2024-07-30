@@ -1,0 +1,11 @@
+Header: Message 187
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	MT Schedule Stochastic Method and LT Plan Stochastic Method must both be set to "Deterministic" if either setting is "Deterministic".
+
+Paragraphs:
+Message 187 occurs in the following circumstances:
+Lists:
+

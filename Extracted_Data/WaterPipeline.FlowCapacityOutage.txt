@@ -1,0 +1,15 @@
+Header: Water Pipeline Flow Capacity Outage
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow capacity on outage due to maintenance or forced outage
+
+Paragraphs:
+Water Pipeline Flow Capacity Outage reports the amount of reduction in flow capacity due to maintenance or forced outage.
+Lists:
+

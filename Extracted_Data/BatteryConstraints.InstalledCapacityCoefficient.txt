@@ -1,0 +1,21 @@
+Header: Battery Constraints Installed Capacity Coefficient
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of installed capacity
+
+Paragraphs:
+Battery Constraints Installed Capacity Coefficient is the left-hand side coefficient of Installed Capacity in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+
+Lists:
+

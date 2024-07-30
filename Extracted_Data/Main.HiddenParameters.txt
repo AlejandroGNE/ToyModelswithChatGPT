@@ -1,0 +1,146 @@
+Header: Hidden Parameters
+
+Table Details:
+
+Paragraphs:
+A number of hidden or 'undocumented' control parameters are
+                available, specific to the version of the simulator. These parameters
+                allow access to certain controls and features that are not available
+                through the user interface. This is often done as a way of providing
+                new features to customers without changing the user interface, and
+                these features may later be included in an updated software version or
+                remain as hidden parameters.
+
+The parameters can be accessed via a special parameters XML file
+                called "PLEXOS_Param.xml". The file should be placed in the same
+                folder as the input file for the executing Model .
+
+The basic structure of the file is as a list of parameters by name
+                and their value, and in some cases a band number. The file must always
+                begin with the following lines:
+
+and end with this line:
+
+Between these lines are blocks of parameter, value pairs in the
+                following format:
+
+Class and Name must not contain
+                spaces. For example the class "LT Plan" is written " LTPlan ".
+                The parameter values are generally numeric but can be text where
+                allowed.
+
+Each version of PLEXOS has a different set of parameter reference.
+                The Hidden Parameters List provides details about these hidden parameters.
+
+This example applies to PLEXOS 6.208
+                and sets the weight of each stochastic sample according to the example
+                described in the Variable topic:
+
+The undocumented parameters file also allows any attribute of any
+                simulation object that is currently enabled in a model to be modified
+                by specifying attribute information in "PLEXOS_Param.xml".
+
+Attribute information in "PLEXOS_Param.xml" uses the following
+                format:
+
+Where <Class> specifies the class of the simulation object,
+                <Name> uniquely identifies the object of type Class which is
+                being modified, <Attribute> specifies the attribute which is
+                being modified, and <Value> specifies the value the attribute is
+                being changed to.
+
+In the above example the chronological step count is changed to 52
+                for the Horizon object called Base.
+
+The full list of all attributes that can be changed can be found in
+                the table "t_attribute" in the file "master.mdb" which is located in
+                the install directory of PLEXOS. All Classes are detailed in the
+                "class_id" column and all attributes are detailed in the "name"
+                column.
+
+Please note the following:
+
+Caution is advised when changing attributes as some might require
+                other attributes to be modified that might not be obvious at first.
+
+The Performance class exposes
+                only the most basic solver parameters. To set other more detailed
+                settings you may use the "PLEXOS_SolverParam.xml" file. The file
+                should be placed in the same folder as the input file for the
+                executing Model .
+
+The basic structure of the file is as a list of parameters identified
+                by solver name, parameter name and value. The file must always begin
+                with the following lines:
+
+and end with this line:
+
+Between these lines are blocks of parameter, value pairs in the
+                following format:
+
+Solver and Name must not contain
+                spaces.
+
+The following are examples with comments describing their purpose.
+
+The solver parameters file also allows access to certain controls of
+                any solver by specifying diagnostic undocumented parameters in
+                "PLEXOS_SolverParam.xml" using the following format:
+
+In this example, RelaxationTime is a time limit should only be used when the solver is attempting to repair the relaxed MIP problem (after an infeasibility reported).
+
+2. The solver parameters file allows users to specify specific Phases or Models if required, such as LT Phase or Base Model. Users can specify the Phases and Models using the format mentioned below:
+
+NOTE: The Phase and Model parameters are not required to be specified, unlike the ParameterName, Type, Value data. Also, the PHASE data should be entered as: LT, PASA, MT, or ST.
+
+The generic writer can also be enabled via the PLEXOS solver parameter file. By default the Generic Writer is disabled, but can be easily enabled via a diagnostic undocumented parameter, for example:
+
+The options/settings of the generic writer can be updated using the " GenericWriter " parameters, for example:
+
+The definition of these tags are as follows:
+
+Note that the Name must not contain spaces.
+
+Example 1 presents all parameters for Generic Writer with comments describing their purpose
+                and default values . Example 2 shows how to set the parameters For Solvers and For
+                    Generic Writer together.
+
+The following section lists all parameters for the "Generic Writer"
+                with comments describing their purpose and default values.
+
+If you want to set both For Solvers and For
+                    Generic Writer parameters, then you should put all the
+                parameters you want to set into the same "PLEXOS_SolverParam.xml"
+                file. For example:
+Lists:
+	- Anything specified in the Class and Attribute tags in
+                    "PLEXOS_Param.xml" must conform to the names used in "class_id" and
+                    "name"
+	- All values in the Value tags are to be of type double
+	- All date information uses Julian Dates
+	- If any simulation objects use foreign characters in their name,
+                    please ensure PLEXOS_Param.xml is saved with UTF-8 encoding
+
+
+H2s:
+1.1. File
+                Format
+1.2.
+                Parameter Reference
+1.3. Example
+1.4.
+                Attributes
+2.1. For
+                Solvers
+2.2. For Generic Writer
+
+H3s:
+2.1.1.
+                File Format
+2.1.2.
+                Examples
+2.2.1. File Format
+2.2.2.
+                Example 1
+2.2.3.
+                Example 2

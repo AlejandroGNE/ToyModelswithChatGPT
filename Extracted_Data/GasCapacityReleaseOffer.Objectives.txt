@@ -1,0 +1,11 @@
+Header: Gas Capacity Release Offer Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Gas Capacity Release Offer
+
+Paragraphs:
+Gas Capacity Release Offer Objectives is set of Objectives on the Gas Capacity Release Offer
+Lists:
+

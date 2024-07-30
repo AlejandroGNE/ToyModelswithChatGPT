@@ -1,0 +1,22 @@
+Header: Generator Reference Generation
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generation level for generation slack PTDF calculation
+G1	Reference Generation	200	MW
+G2	Reference Generation	120	MW
+G3	Reference Generation	MW	
+
+Paragraphs:
+Generator Reference Generation is used to enter the reference generation case that will be used to distribute the 'slack' when calculating shift factors. These are only required if the appropriate Transmission PTDF Method is selected.
+
+Example:
+
+Note that PLEXOS will automatically normalize the reference generation case i.e. for a one megawatt injection at a generation bus i each generation bus ( j ≠ i ) is assigned the slack:
+Lists:
+

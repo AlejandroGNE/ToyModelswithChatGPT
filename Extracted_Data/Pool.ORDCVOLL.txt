@@ -1,0 +1,18 @@
+Header: Pool ORDC VOLL
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of Lost Load for ORDC calculations
+
+Paragraphs:
+Pool ORDC VOLL is the Value of Lost Load for ORDC calculations.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

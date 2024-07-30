@@ -1,0 +1,19 @@
+Header: Data File Datetime Convention
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Convention used when reading DATETIME.
+
+Paragraphs:
+Data File Datetime Convention controls the interpretation of entries in the DATETIME column of the text file pointed to by the Filename property. This setting can take the following values:
+
+For example the DATETIME value "1/07/2010 4:30" in a half-hourly market could refer to the interval "1/07/2010 4:30" to "1/07/2010 5:00" (beginning of period) or "1/07/2010 4:00" to "1/07/2010 4:30" (end of period).
+
+It is common for real-time market data to use the "End of Period" convention since this is consistent with the meaning of the values such as Generation which is always the instantaneous value at the end of the interval. However, the default in planning applications is to refer to the beginning of period. Hence this option should be set appropriately for the data you are reading.
+
+See also:
+Lists:
+	- Report Datetime Convention
+

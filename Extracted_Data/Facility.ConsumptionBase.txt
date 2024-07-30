@@ -1,0 +1,15 @@
+Header: Facility Consumption Base
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Process consumption at notional zero production
+
+Paragraphs:
+Facility Consumption Base is Primary Process consumption at notional zero production.
+Lists:
+

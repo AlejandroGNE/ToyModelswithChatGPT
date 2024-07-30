@@ -1,0 +1,19 @@
+Header: Gas Contract Economic Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Economic life of the gas contract (period over which fixed costs are recovered).
+
+Paragraphs:
+Gas Contract Economic Life sets the number of years over which the Build Cost is spread.
+
+See also:
+Lists:
+	- Gas Contract Contract Length
+	- Gas Contract Expansion Contract
+

@@ -1,0 +1,19 @@
+Header: Region Generator Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of units built
+
+Paragraphs:
+Region Generator Build Cost is the total cost of generation capacity built in the period from LT Plan and is defined as:
+
+See also:
+Lists:
+	- Region Generation Capacity Built
+	- Region Generator Retirement Cost
+

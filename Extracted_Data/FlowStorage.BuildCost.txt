@@ -1,0 +1,16 @@
+Header: Flow Storage Build Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building a unit
+
+Paragraphs:
+Refer to Commodity Build
+            Cost .
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Battery Max Cycles
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of cycles allowed each interval
+
+Paragraphs:
+Battery Max Cycles is Number of cycles allowed each interval.
+
+See also:
+Lists:
+	- Battery Age
+

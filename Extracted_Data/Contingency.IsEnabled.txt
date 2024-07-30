@@ -1,0 +1,15 @@
+Header: Contingency Is Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	Yes
+Description:	If the contingency is enabled
+
+Paragraphs:
+Contingency Is Enabled is if the contingency is enabled.
+Lists:
+

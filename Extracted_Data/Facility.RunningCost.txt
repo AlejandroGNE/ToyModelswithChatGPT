@@ -1,0 +1,19 @@
+Header: Facility Running Cost
+
+Table Details:
+Units:	$/h (Metric), $/hr (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed cost of running a unit when operating
+
+Paragraphs:
+Facility Running Cost is a cost
+          incurred for each hour that a unit is on-line. The cost is not
+          incurred if the unit is off-line, thus this is a 'semi-fixed cost'.
+          This cost is reported as part of Production
+            Cost .
+Lists:
+

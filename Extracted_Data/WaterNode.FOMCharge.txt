@@ -1,0 +1,15 @@
+Header: Water Node FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+
+Paragraphs:
+Water Node FO&M Charge is the annual fixed operation and maintenance charge. This cost is reported in the FO&M Cost property.
+Lists:
+

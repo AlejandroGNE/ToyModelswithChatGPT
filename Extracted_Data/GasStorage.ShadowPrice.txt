@@ -1,0 +1,15 @@
+Header: Gas Storage Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of gas in the storage
+
+Paragraphs:
+Gas Storage Shadow Price is the shadow price of gas in the storage i.e. it is the value to the system of the last/next unit of gas in storage.
+Lists:
+

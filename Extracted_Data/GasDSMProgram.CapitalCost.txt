@@ -1,0 +1,15 @@
+Header: Gas DSM Program Capital Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Capital cost of gas dsm program
+
+Paragraphs:
+Gas DSM Programs Capital Cost is Capital cost of gas dsm program.
+Lists:
+

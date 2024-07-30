@@ -1,0 +1,16 @@
+Header: Power2X Min Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be run after being started
+
+Paragraphs:
+Refer to Facility Min
+            Up Time for details.
+Lists:
+

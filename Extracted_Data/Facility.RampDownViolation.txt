@@ -1,0 +1,21 @@
+Header: Facility Ramp Down Violation
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Ramp Down] constraint
+
+Paragraphs:
+Facility Ramp Down Violation is
+          the amount that the Max Ramp Down constraint is violated.
+
+See also:
+Lists:
+	- Facility Ramp Down Violation Hours
+	- Facility Ramp
+              Down Violation Cost
+

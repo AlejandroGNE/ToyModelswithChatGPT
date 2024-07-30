@@ -1,0 +1,24 @@
+Header: Vehicle Discharge Price
+
+Table Details:
+Units:	c/kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received discharging
+
+Paragraphs:
+Vehicle Discharge Price is the
+          price received for energy when the vehicle is discharging from the
+          battery to the grid (V2G). It is defined as:
+
+Discharge Price = Discharge
+            Revenue / Discharging
+
+See also:
+Lists:
+	- Vehicle Charge
+              Price
+

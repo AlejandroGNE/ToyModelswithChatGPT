@@ -1,0 +1,15 @@
+Header: Gas Plant Energy Consumption
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The total electric consumption of the Gas Plant
+
+Paragraphs:
+Gas Plant Energy Consumption is the total electric consumption of the Gas Plant. Electrical energy is needed to operate and maintain Gas Plants, so this is modeled as a demand variable in the gas-electricity co-optimization models.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Zone Generator Net Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net profit from generators in Zone
+
+Paragraphs:
+Zone Generator Net Profit is the total net profit of Generators in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Generator Net Revenue
+

@@ -1,0 +1,16 @@
+Header: Project Class
+
+Table Details:
+Description:	Collection of models saved into single project database
+
+Paragraphs:
+See also Project Property Reference for a detailed list of properties for this class of
+          object.
+
+It is often useful to compare the solutions of two or more Models , and this is achieved by running them together as part of a Project.
+
+The models are solved in sequence and all solutions saved to a single output database.
+
+NOTE: The project takes up the model settings of the first model in the sequence.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Region Wheeling Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Wheeling revenue on exports from the region
+
+Paragraphs:
+Region Wheeling Revenue is the revenue earned based on net exports to other regions as defined by the inter-regional Wheeling Charge .
+
+Region export wheeling revenue defined by Wheeling Charge is included.
+
+See also:
+Lists:
+	- Region Wheeling Cost .
+

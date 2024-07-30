@@ -1,0 +1,11 @@
+Header: Cournot Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Cournot inherits from
+
+Paragraphs:
+Cournot Template is template the Cournot inherits from
+Lists:
+

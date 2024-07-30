@@ -1,0 +1,11 @@
+Header: Message 3045
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Error reading line <value> of <value> <name>.
+
+Paragraphs:
+Message 3045 occurs in the following circumstances:
+Lists:
+

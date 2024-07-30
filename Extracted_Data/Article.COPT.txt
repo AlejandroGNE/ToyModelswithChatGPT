@@ -1,0 +1,27 @@
+Header: COPT
+
+Table Details:
+0	0.98 * 0.97 = 0.9506
+10	0.02 * 0.97 = 0.0194
+15	0.98 * 0.03 = 0.0294
+25	0.02 * 0.03 = 0.0006
+0	1.0000
+10	0.0494
+15	0.0300
+25	0.0006
+
+Paragraphs:
+In the optimization of electricity generation modelling, we have to consider cases that generator units might need to be out of service for maintenance or may be off due to failure (forced outages). Forced outage rate (FOR) is actually the most severe and important factor in power system planning and operation, which is defined as (1) FOR = λ / (λ + μ) where μ and λ are the probability of the unit being on service and on forced outages, respectively.
+
+The capacity outage probability table (COPT) is an array of all the capacity states and the associated probabilities. The COPT can be constructed based on a simple recursive technique in which units are added sequentially. In this approach, the units are combined using basic probability concepts. For example, a generating system has two units: (a) 10 MW (FOR = 0.02) and (b) 15 MW (FOR = 0.03), the COPT for the system is:
+
+Based on this table, we can get the cumulative probabilities (the probability that the outage capacity is equal or larger than X MW):
+
+We approximate the cumulative COPT profile using an exponential function: (2) P(X) = a0 exp(-X/M) where P(X) is the cumulative probability of X MW or more on outage, a0 and M are parameters specific to the system and can be statistically determined. Eq.(2) is equivalent to: (3) ln(P(X)) = ln(a0) - X/M = A0 - X/M Therefore, to add the maximum loss of load probability (LOLP, P(Load > Capacity) input as LOLP Target) limit to the model, the probabilistic risk limit (with R the reserve) can be expressed as a linear constraint as follows: (4) A0 - R/M = ln(P(X)) <= ln(LOLP), or R >= M (A0 - ln(LOLP)) Provided A0 is constant and the effects of changes in M are additive, we have: (5) R >= [M - ∑(1 - U_i) δm_i] (A0 - ln(LOLP)) where U_i is the status of the generator unit i (1: ON, 0: OFF), and the δm_i values indicate the relative significance of the unit to the overall system. Notice that if all units are on-line, the term in the first parenthesis on the right hand side of Eq.(5) is zero, thus no reserve is required. In order to determine A0 and δm_i for all units being ON or OFF (in LT plan, this corresponds to units exist and to be built), the COPT for all commitment patterns has to be calculated. If the total number of units is small, the COPT profile is not continuous which will introduce large uncertainties in the determination of the A0 and δm_i parameters. Therefore, for small modelling systems, the LOLP constraints might not be accurate. Also, when calculating the COPT we need to know the states of all units. The problem is that we do not know the state of any candidate (the one which is OFF in ST and those will be built in LT). To work around this difficulty, the modelling has to run twice. In the second run, the values of A0 and δm_i are improved based on the solution in the first run. Notice after the second run, if the LOLP targets in some periods are not satisfied we will modify the LOLP constraints and then run the model one time or twice again.
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+2. Theory of LOLP Target Constraints

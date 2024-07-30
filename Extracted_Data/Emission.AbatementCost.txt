@@ -1,0 +1,18 @@
+Header: Emission Abatement Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission abatement
+
+Paragraphs:
+Emission Abatement Cost is the cost of emission abatement by the associated Abatement technologies.
+
+See also:
+Lists:
+	- Emission Abatement
+

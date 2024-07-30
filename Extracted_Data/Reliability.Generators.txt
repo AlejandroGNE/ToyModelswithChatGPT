@@ -1,0 +1,11 @@
+Header: Reliability Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators in the reliability group
+
+Paragraphs:
+Reliabilities Generators is the set of generators for Equivalent Firm Capacity (EFC) evaluation.
+Lists:
+

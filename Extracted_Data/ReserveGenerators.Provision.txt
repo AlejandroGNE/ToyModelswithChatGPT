@@ -1,0 +1,15 @@
+Header: Reserve Generators Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision
+
+Paragraphs:
+Reserve Generators Provision is the total reserve provided by the generator to met the Risk . How the reserve is provided depends on the Type of reserve service.
+Lists:
+

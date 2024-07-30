@@ -1,0 +1,11 @@
+Header: Water Zone Interzonal Water Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Water Zone Interzonal Water Pipelines is the set of Water Pipeline objects that flow between this Water Zone and others.
+Lists:
+

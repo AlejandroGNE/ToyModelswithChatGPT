@@ -1,0 +1,20 @@
+Header: Waterway Min Flow Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the [Min Flow] limit is violated.
+
+Paragraphs:
+Waterway Min Flow Violation Hours is the number of hours the Min Flow limit is violated.
+
+See also:
+Lists:
+	- Waterway Min Flow Penalty
+	- Waterway Min Flow Violation
+	- Waterway Min Flow Violation Cost
+

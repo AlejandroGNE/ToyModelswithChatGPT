@@ -1,0 +1,17 @@
+Header: RSI Import Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Import Capacity
+
+Paragraphs:
+RSI Import Capacity is defined as the MAX(0, import flow), where
+
+where the Flow Direction equals 1 for a forward direction and -1 for a backward direction.
+Lists:
+

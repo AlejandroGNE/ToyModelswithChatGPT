@@ -1,0 +1,22 @@
+Header: Reserve Generators Max Pump Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum dispatchable pump load reserve response
+
+Paragraphs:
+Reserve Generators Max Pump Response sets a limit on the response that can be made by a unit at a pumped storage generator in providing this reserve service. Pumped storage generators providing 'raise' response by decreasing Pump Load and 'lower' response by increasing Pump Load . The feasible range of pump load response is between Min Pump Load and Pump Load .
+
+This property does not apply to replacement reserve services.
+
+See also:
+Lists:
+	- Reserve Generators Max Pump Response Factor
+	- Reserve Generators Pump Offer Price
+	- Reserve Generators Pump Dispatchable Load Provision
+

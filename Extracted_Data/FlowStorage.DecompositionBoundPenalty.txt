@@ -1,0 +1,16 @@
+Header: Flow Storage Decomposition Bound Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000000
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty applied to violation of inventory bounds when the decomposition implies possible violations
+
+Paragraphs:
+See Commodity Decomposition
+            Bound Penalty for details.
+Lists:
+

@@ -1,0 +1,34 @@
+Header: Gas Storage Injection Rate Scalar
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar to set the maximum amount of gas that can be injected into the storage
+Property	Value	Units	Band
+Injection Volume	400	TJ	1
+Injection Rate Scalar	50	%	1
+Injection Volume	300	TJ	2
+Injection Rate Scalar	30	%	2
+Injection Volume	300	TJ	3
+Injection Rate Scalar	20	%	3
+Injection Ratchet	100	TJ	1
+
+Paragraphs:
+Gas Storage Injection Rate Scalar scales the Injection Ratchet to set an upper bound on the maximum amount of gas that can be injected into the storage within a particular time period and band. This value corresponds with the Injection Volume (or Injection Volume Factor if using percentage based ratchets) for the given band.
+
+When Use Additive Ratchet is Yes, the input is incremental, starting from the last band to the first. For example:
+
+In this case, band 1, which has a volume of 400 TJ, can be injected into at a rate of (0.5 + 0.3 + 0.2) * 100 TJ per time period. Band 2, which has a volume of 300 TJ, can be injected into at a rate of (0.3 + 0.2) * 100 TJ per time period, after band 1 has been filled. Lastly, band 3, which has a volume of 300 TJ, can be injected into at a rate of 0.2 * 100 TJ per time period, after bands 1 and 2 have been filled.
+
+See also:
+Lists:
+	- Gas Storage Injection Volume
+	- Gas Storage Withdrawal Volume
+	- Gas Storage Injection Ratchet
+	- Gas Storage Withdrawal Ratchet
+	- Gas Storage Withdrawal Rate Scalar
+

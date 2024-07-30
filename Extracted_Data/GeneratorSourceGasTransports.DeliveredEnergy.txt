@@ -1,0 +1,15 @@
+Header: Generator Source Gas Transports Delivered Energy
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat energy delivered by Gas Transport to the generator
+
+Paragraphs:
+Generator Source Gas Transports Delivered Energy is Heat energy delivered by Gas Transport to the generator.
+Lists:
+

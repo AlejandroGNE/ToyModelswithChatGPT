@@ -1,0 +1,11 @@
+Header: Abatement Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Abatement
+
+Paragraphs:
+Abatement Objectives is set of Objective objects involved in the Abatement
+Lists:
+

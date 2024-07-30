@@ -1,0 +1,15 @@
+Header: Flow Network Price Received
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price received
+
+Paragraphs:
+Flow Network Price Received is Average price received.
+Lists:
+

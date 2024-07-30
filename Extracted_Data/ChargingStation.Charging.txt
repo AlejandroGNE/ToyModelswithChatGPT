@@ -1,0 +1,24 @@
+Header: Charging Station Charging
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from charging
+
+Paragraphs:
+Charging Station Charging
+          is the total load from charging all connected Vehicles at the charging station reported as the kilowatt load (by period) or
+          megawatt-hours of energy (summary).
+
+See also:
+Lists:
+	- Charging Station Charge
+              Cost
+	- Charging Station Charge
+              Price
+	- Charging Station Discharging
+

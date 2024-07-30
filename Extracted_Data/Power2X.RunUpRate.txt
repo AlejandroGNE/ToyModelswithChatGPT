@@ -1,0 +1,15 @@
+Header: Power2X Run Up Rate
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ramp rate that applies while increasing load from zero to [Min Stable Level].
+
+Paragraphs:
+Power2X Run Up Rate is Ramp rate that applies while increasing load from zero to [Min Stable Level]..
+Lists:
+

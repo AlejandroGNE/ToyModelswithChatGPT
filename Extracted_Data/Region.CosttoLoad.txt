@@ -1,0 +1,25 @@
+Header: Region Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost to load of their energy purchases
+
+Paragraphs:
+Region Cost to Load is the total
+          cost paid by loads for energy purchases:
+
+Cost to Load = ( price + Uplift )× Customer Load
+
+The price depends on the Load
+            Settlement Model setting.
+
+See also:
+Lists:
+	- Generator Pool Revenue
+	- Settlement Surplus
+

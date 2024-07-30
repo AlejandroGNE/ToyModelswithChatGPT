@@ -1,0 +1,40 @@
+Header: Generator Bid-Cost Mark-up
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage mark-up applied to generator offer prices = (P - C) / C
+Coal	Units	1	-			
+Coal	Max Capacity	300	MW			
+Coal	Min Stable Level	120	MW			
+Coal	Heat Rate	10	Gj/MWh			
+Coal	Fuel Price	4	$/GJ			
+Coal	Bid-Cost Mark-up	5	%			OFF PEAK
+Coal	Bid-Cost Mark-up	25	%			PEAK
+
+Paragraphs:
+Generator Bid-Cost Mark-up as input applies a mark-up to Offer Prices equal to a percentage of the Cost Price .
+
+Example
+
+In this case the Offer Price in "OFF PEAK" is calculated as:
+
+and in "PEAK" it as:
+
+Bid-Cost Mark-up can be used with Mark-up Point in multiple bands to vary the mark-up percentage across the range of generation.
+
+For more examples see the topic Generator Mark-up .
+
+Generator Bid-Cost Mark-up as output is the percentage Mark-up applied to Generator Offer Price and is calculated as:
+
+where:
+
+See also:
+Lists:
+	- Generator Mark-up
+	- Region Price-Cost Mark-up
+

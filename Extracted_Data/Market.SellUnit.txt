@@ -1,0 +1,31 @@
+Header: Market Sell Unit
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for sales (time independent)
+Market	Property	Value	Units	Band	Timeslice
+Forward PEAK	Sell Unit	100	-	1	PEAK
+Forward PEAK	Buy Unit	100	-	1	PEAK
+Forward OFF-PEAK	Sell Unit	100	-	1	OFF-PEAK
+Forward OFF-PEAK	Buy Unit	100	-	1	OFF-PEAK
+Timeslice	Property	Value	Units	Pattern
+1x16	Include	-1	-	W2-6,H7-22
+WRAP	Includes	-1	-	W2-6,H1-6,23-24;W1,7
+
+Paragraphs:
+In the absence of the Sell Unit property, sales into the market are assumed to take any continuous value (zero up to the Max Sales) , and the amount sold in any trading period is independent of other periods. Sell Unit however sets the increment (size of the block) that must be sold into the market. Further, each contiguous block in time represents a single decision variable in the optimization. Thus Sell Unit is used to represent sales of blocks of the product that must be committed to over a set period of time.
+
+Note that Sell Unit only sets the block size, you must still set Price and Quantity to define the market demand/supply function.
+
+Example:
+
+These would go with the Timeslices properties:
+
+Together these properties dictate that sales to the market must be made in 100MW blocks spanning either "1x16" (peak) or "WRAP" (off-peak) periods. PLEXOS will optimize sales into the market taking into account the integer nature of the block size and the duration of the blocks.
+Lists:
+

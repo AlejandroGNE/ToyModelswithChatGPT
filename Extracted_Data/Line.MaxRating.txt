@@ -1,0 +1,26 @@
+Header: Line Max Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rated maximum (overrides Max Flow)
+MEL-SYD-220kV	Max Flow	400	MW	
+MEL-SYD-220kV	Max Rating	380	MW	SUMMER
+MEL-SYD-220kV	Min Rating	-340	MW	SUMMER
+MEL-SYD-220kV	Max Rating	400	MW	WINTER
+MEL-SYD-220kV	Min Rating	-390	MW	WINTER
+
+Paragraphs:
+The optional Line properties Max Rating and Min Rating are usually used to de-rate a transmission line periodically.
+
+Example:
+
+Note that Min Rating defaults to the negative of Max Rating if it is not defined.
+
+Note further it is very important that, if Max Rating is defined 'at all' that you provide a value for every period, otherwise the Max Rating for the 'missing' periods will be zero.
+Lists:
+

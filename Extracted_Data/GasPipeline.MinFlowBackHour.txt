@@ -1,0 +1,15 @@
+Header: Gas Pipeline Min Flow Back Hour
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum quantity of gas that can be extracted at the pipeline sending node each hour
+
+Paragraphs:
+Gas Pipeline Min Flow Back Hour is Minimum quantity of gas that can be extracted at the pipeline sending node each hour.
+Lists:
+

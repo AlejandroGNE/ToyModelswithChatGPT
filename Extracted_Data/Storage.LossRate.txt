@@ -1,0 +1,18 @@
+Header: Storage Loss Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate of loss due to evaporation, leakage, etc
+
+Paragraphs:
+Storage Loss Rate is the rate of loss due to evaporation, leakage, etc . This is expressed as a percentage loss per hour and is calculated against the average of Initial Volume and End Volume .
+
+See also:
+Lists:
+	- Storage Loss
+

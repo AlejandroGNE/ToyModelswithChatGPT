@@ -1,0 +1,15 @@
+Header: Zone Wheeling Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Export wheeling charge method
+
+Paragraphs:
+Zone Wheeling Method is Export wheeling charge method.
+Lists:
+

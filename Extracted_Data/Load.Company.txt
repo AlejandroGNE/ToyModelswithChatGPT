@@ -1,0 +1,11 @@
+Header: Load Company
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the company the load belongs to
+
+Paragraphs:
+Load Company is the Company that own the Load object.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Storage Release Rate
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total releases from storage
+
+Paragraphs:
+Storage Release Rate is Total releases from storage.
+Lists:
+

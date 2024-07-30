@@ -1,0 +1,19 @@
+Header: Transmission Right Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract quantity
+FTR1	Quantity	200	MW	PEAK
+FTR1	Quantity	125	MW	OFF-PEAK
+
+Paragraphs:
+The Quantity property is used in financial transmission rights to compute the Settlement.
+
+Example:
+Lists:
+

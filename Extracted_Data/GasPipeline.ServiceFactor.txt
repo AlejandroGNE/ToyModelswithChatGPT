@@ -1,0 +1,15 @@
+Header: Gas Pipeline Service Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of pipeline capacity available
+
+Paragraphs:
+Gas Pipeline Service Factor is the proportion of pipeline capacity available i.e. net of capacity on Maintenance and/or Forced Outage.
+Lists:
+

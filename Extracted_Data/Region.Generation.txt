@@ -1,0 +1,24 @@
+Header: Region Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation
+
+Paragraphs:
+Region Generation is the total
+          generation in the Region and is
+          defined as:
+
+See also:
+Lists:
+	- Region Load
+	- Region Net
+              Interchange
+	- Region Generation
+              Sent Out
+

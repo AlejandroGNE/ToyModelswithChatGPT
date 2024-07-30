@@ -1,0 +1,11 @@
+Header: Message 207
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Read <value> sample weights but expected <value>.
+
+Paragraphs:
+Message 207 occurs in the following circumstances:
+Lists:
+

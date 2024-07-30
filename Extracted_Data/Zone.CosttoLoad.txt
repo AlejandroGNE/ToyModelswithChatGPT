@@ -1,0 +1,19 @@
+Header: Zone Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost to load of their energy purchases
+
+Paragraphs:
+Zone Cost to Load is the total cost paid by loads for energy purchases, and is defined as:
+
+See also:
+Lists:
+	- Generator Pool Revenue
+	- Settlement Surplus
+

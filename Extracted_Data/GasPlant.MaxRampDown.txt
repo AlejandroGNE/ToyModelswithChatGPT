@@ -1,0 +1,15 @@
+Header: Gas Plant Max Ramp Down
+
+Table Details:
+Units:	~/min
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Sets a limit on the rate at which the gas plant can decrease production from one interval to the next
+
+Paragraphs:
+Gas Plant Max Ramp Down is Sets a limit on the rate at which the gas plant can decrease production from one interval to the next.
+Lists:
+

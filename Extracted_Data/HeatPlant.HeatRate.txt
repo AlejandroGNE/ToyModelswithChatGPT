@@ -1,0 +1,18 @@
+Header: Heat Plant Heat Rate
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Average heat rate (total fuel divided by total heat production)
+
+Paragraphs:
+Heat Plant Heat Rate is the average heat rate used in defining the heat rate function .
+
+For example, heat rate = 3 GJ/GJ. This means that for every 1 GJ of heat production, the heat plant will consumes 3 GJ value of heat from burning fuels.
+Note that heat rate is normally bigger than or equal to 1 to represent losses.
+Lists:
+

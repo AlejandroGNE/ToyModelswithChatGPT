@@ -1,0 +1,22 @@
+Header: Facility Minutes of Ramp Up
+
+Table Details:
+Units:	min
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total minutes spent ramping up
+
+Paragraphs:
+Facility Minutes of Ramp Up is
+          the total minutes spent ramping up. Combined with Ramp
+            Up it provides a measure of the intensity of ramping
+          up in the given period.
+
+See also:
+Lists:
+	- Facility Minutes
+              of Ramp Down
+

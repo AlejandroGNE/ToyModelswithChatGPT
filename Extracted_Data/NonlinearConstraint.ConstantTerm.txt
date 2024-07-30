@@ -1,0 +1,15 @@
+Header: Nonlinear Constraint Constant Term
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Constant Term
+
+Paragraphs:
+Nonlinear Constraint Constant Term is the Constant Term.
+Lists:
+

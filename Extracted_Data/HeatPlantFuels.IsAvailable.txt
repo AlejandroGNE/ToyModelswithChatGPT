@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels Is Available
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the fuel is available for use by the generator
+
+Paragraphs:
+Heat Plant Fuels Is Available is used to switch Fuel objects used by a Heat Plant on/off e.g. to make a Heat Plant change the fuel it uses partway through the simulation horizon.
+Lists:
+

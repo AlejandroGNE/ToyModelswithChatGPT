@@ -1,0 +1,11 @@
+Header: Reserve Batteries
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of batteries that provide the reserve
+
+Paragraphs:
+Reserve Batteries is set of batteries that provide the reserve
+Lists:
+

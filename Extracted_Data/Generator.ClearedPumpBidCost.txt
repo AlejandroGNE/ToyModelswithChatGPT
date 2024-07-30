@@ -1,0 +1,22 @@
+Header: Generator Cleared Pump Bid Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under generator pump bid curve
+
+Paragraphs:
+Generator Cleared Pump Bid Cost is the 'cost' of Pump Load as seen by the Market Operator and is defined as:
+
+This value is usually negative indicating that the system benefits from increased consumption.
+
+See also:
+Lists:
+	- Generator Pump Bid Cleared
+	- Generator Cleared Pump Bid Price
+	- Generator Pump Cost
+

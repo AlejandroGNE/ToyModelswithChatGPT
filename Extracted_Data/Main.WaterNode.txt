@@ -1,0 +1,14 @@
+Header: Water Node Class
+
+Table Details:
+Description:	Water network node
+
+Paragraphs:
+See also Water Node Property Reference for a detailed list of properties for this class of
+          object.
+
+All other Water Model objects connect to Water Node objects via memberships.
+
+See the Water Modelling article for details.
+Lists:
+

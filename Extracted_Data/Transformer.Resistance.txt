@@ -1,0 +1,15 @@
+Header: Transformer Resistance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	A measure of the transformer's opposition to the flow of electric charge
+
+Paragraphs:
+Transformer Resistance is calculated as: Resistance (pu) = Resistance (actual) x MVA Base .It is used to determine the loss in the transformer: Loss = (Resistance / MVA Base) x (Flow) ². Note that resistance with negative value will be considered as zero.
+Lists:
+

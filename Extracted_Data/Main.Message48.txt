@@ -1,0 +1,11 @@
+Header: Message 48
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Source database name not set.
+
+Paragraphs:
+Message 48 occurs in the following circumstances:
+Lists:
+

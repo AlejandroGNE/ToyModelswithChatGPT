@@ -1,0 +1,15 @@
+Header: Vehicle Min SoC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Allowable minimum state of charge
+
+Paragraphs:
+Vehicle Min SoC is the allowable minimum state of charge of a vehicle. This is expressed as a percentage of the Capacity defined.
+Lists:
+

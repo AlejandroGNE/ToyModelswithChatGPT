@@ -1,0 +1,17 @@
+Header: Message 214
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	No integer feasible solution exists. The linear solution will be reported. Solution status = <value>.
+
+Paragraphs:
+Message 214 occurs when a mixed-integer programming problem is found to have no feasible integer solution, where it does have a feasible linear relaxation. For example if you were to define a Constraint that set the value of an integer variable such as Generator Units Generating to a non-integer value, this is most likely feasible as a linear problem, but is clearly infeasible as an integer problem.  Apart from obvious cases like this, integer infeasibilities can be difficult to diagnose and repair. The simulator does not attempt to repair integer infeasibilities like it does with linear problems, instead it relaxes the integer constraints for the current problem and uses the linear relaxation to continue the simulation.
+
+Diagnostics are available by enabling the Diagnostic infeasibilities setting. Contact support if you require help on diagnosing integer infeasibilities.
+
+See also:
+Lists:
+	- Message 210
+	- Message 211
+

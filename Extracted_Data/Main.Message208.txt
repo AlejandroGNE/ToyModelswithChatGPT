@@ -1,0 +1,11 @@
+Header: Message 208
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Line <name> flow limits must be defined when using Transmission Loss Method = "Piecewise Linear". Loss is turned off for this line.
+
+Paragraphs:
+Message 208 occurs in the following circumstances:
+Lists:
+

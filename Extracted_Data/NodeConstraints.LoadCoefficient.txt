@@ -1,0 +1,15 @@
+Header: Node Constraints Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node load
+
+Paragraphs:
+Node Constraints Load Coefficient is the left-hand side coefficient for Load in the constraint.
+Lists:
+

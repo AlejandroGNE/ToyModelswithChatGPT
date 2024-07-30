@@ -1,0 +1,14 @@
+Header: Production DP Capacity Factor Error Threshold
+
+Table Details:
+Units:	%
+Default Value:	20
+Validation Rule:	≥0
+Description:	Error in DP capacity factor compared to MT Schedule capacity factor below which the DP solution is accepted
+
+Paragraphs:
+Production DP Capacity Factor Error Threshold is a control parameter for the Dynamic Programming Unit Commitment algorithm.  It sets the maximum allowable difference in Capacity Factor that generators are allowed to have when comparing the MT Schedule solution to the dynamic programming unit commitment solution.  Generators with too high a difference have the dynamic programming solution discarded and instead will be committed during ST Schedule .
+
+See the article Unit Commitment .
+Lists:
+

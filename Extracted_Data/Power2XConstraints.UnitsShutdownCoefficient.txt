@@ -1,0 +1,16 @@
+Header: Power2X Constraints Units Shutdown Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units shutdown
+
+Paragraphs:
+Refer to Facility Constraints Units
+            Shutdown Coefficient for details.
+Lists:
+

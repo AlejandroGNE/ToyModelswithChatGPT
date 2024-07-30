@@ -1,0 +1,21 @@
+Header: Generator Max Energy Hour
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in hour
+
+Paragraphs:
+Generator Max Energy Hour is Maximum energy in hour. This is the hourly variant of Generator Max Energy
+
+See also:
+Lists:
+	- Generator Max Energy Day
+	- Generator Max Energy Week
+	- Generator Max Energy Month
+	- Generator Max Energy Year
+

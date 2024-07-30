@@ -1,0 +1,21 @@
+Header: Generator Fuels Transport Charge
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Transport charge (added to base fuel price)
+
+Paragraphs:
+Generator Fuels Transport Charge covers any additional cost incurred to transport the fuel to the generator and is over and above the cost captured by Fuel Total Price . Note that this charge is first divided by the Fuel Heat Value before being applied.
+
+This cost is also applied where the fuel is in the Start Fuels for the Generator unless over-ridden by Generator Start Fuels Transport Charge .
+
+See also:
+Lists:
+	- Generator Fuels Transport Cost
+	- Generator Fuel Transport Cost
+

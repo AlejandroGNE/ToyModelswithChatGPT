@@ -1,0 +1,15 @@
+Header: Gas Node Gas Transports Imports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Imports on connected Gas Transports
+
+Paragraphs:
+Gas Node Gas Transports Imports is the amount of gas delivered by each Gas Transport to a Gas Node.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Storage Target Violation
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the [Target] constraint.
+
+Paragraphs:
+Storage Target Violation is the violation of the Target constraint.
+
+See also:
+Lists:
+	- Storage Target Penalty
+	- Storage Target Violation Cost
+

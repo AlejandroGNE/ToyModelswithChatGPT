@@ -1,0 +1,15 @@
+Header: Battery Build Non-anticipativity
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Battery Build Non-anticipativity applies when the Stochastic Method is set to "scenario-wise decomposition". It is used to identify the non-anticipative build decisions for LT Plan. The property can take any value, but there are two special cases to consider:
+Lists:
+

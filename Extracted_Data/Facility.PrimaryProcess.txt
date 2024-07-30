@@ -1,0 +1,13 @@
+Header: Facility Primary Process
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the primary Process performed by the Facility
+
+Paragraphs:
+Facility Primary Process is the
+          primary Process performed by the
+          Facility.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: PASA Include Market Purchases
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Include market purchases as generation capacity in PASA
+
+Paragraphs:
+PASA Include Market Purchases toggles on/off counting of Market Max Purchases as generation supply in PASA. You may want to include this element when modelling a system connected to an external market with significant import capability.
+Lists:
+

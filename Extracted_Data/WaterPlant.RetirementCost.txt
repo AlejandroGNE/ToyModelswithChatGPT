@@ -1,0 +1,18 @@
+Header: Water Plant Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the Water Plant
+
+Paragraphs:
+Water Plant Retirement Cost as input is cost of retiring the Water Plant in LT Plan .
+
+See also:
+Lists:
+	- Water Plant Build Cost
+

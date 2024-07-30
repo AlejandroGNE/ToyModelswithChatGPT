@@ -1,0 +1,12 @@
+Header: Diagnostic Scenario Tree
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for the scenario tree
+
+Paragraphs:
+Writes a diagnostic file for the scenario tree.
+Lists:
+

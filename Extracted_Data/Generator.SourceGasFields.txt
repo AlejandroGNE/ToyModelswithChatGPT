@@ -1,0 +1,11 @@
+Header: Generator Source Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Generator has Source Gas Fields which deliver gas to the Generator.
+Lists:
+

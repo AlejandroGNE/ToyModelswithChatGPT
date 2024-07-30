@@ -1,0 +1,17 @@
+Header: Contingency Hours Binding
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that any monitored limit under the Contingency is binding.
+
+Paragraphs:
+Contingency Hours Binding is the number of hours the contingency is binding i.e. if there are any  lines in the post-contingency OPF. The flag is set only if the Shadow Price is non-zero.
+
+Note that you can obtain details of which elements are binding with the Diagnostic Binding Contingencies .
+Lists:
+

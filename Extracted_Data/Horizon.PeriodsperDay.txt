@@ -1,0 +1,65 @@
+Header: Horizon Periods per Day
+
+Table Details:
+Units:	-
+Default Value:	24
+Validation Rule:	Between 1 And 86400
+Description:	Number of intervals in each trading day
+1	24 hours
+2	12 hours
+3	8 hours
+4	6 hours
+6	4 hours
+8	3 hours
+12	2 hours
+24	1 hour
+48	30 minutes
+72	20 minutes
+96	15 minutes
+120	12 minutes
+144	10 minutes
+240	6 minutes
+288	5 minutes
+360	4 minutes
+480	3 minutes
+720	2 minutes
+1440	1 minute
+2880	30 seconds
+4320	20 seconds
+5760	15 seconds
+7200	12 seconds
+8640	10 seconds
+14400	6 seconds
+17280	5 seconds
+21600	4 seconds
+28800	3 seconds
+43200	2 seconds
+86400	1 second
+
+Paragraphs:
+Horizon Periods per Day allows the
+          simulator to model any feasible number of intervals per simulated day.
+          The default is 24-periods-per-day (hourly) simulation. The values
+          allowed are shown in the following table:
+
+Values above 24 are referred to as "sub-hourly", while values above
+          1440 are referred to as "sub-minute" resolution.
+
+Data Files read into the
+          simulation need not have the same number of periods-per-day as this
+          setting. If, for example, the data file contains hourly data, but
+          Periods per Day is set to 288 (5-minute) then the simulator will
+          upscale the data automatically. Likewise, data of higher resolution
+          will be scaled down automatically.
+
+The setting Compression
+            Factor allows you to run the simulation at a lower resolution
+          but still output data to the solution file in the original resolution.
+
+See also:
+Lists:
+	- Data File Data
+              File.Periods per Day
+	- Horizon Day
+              Beginning
+

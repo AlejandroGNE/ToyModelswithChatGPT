@@ -1,0 +1,16 @@
+Header: MT Schedule Last Block Count
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of load duration curve blocks in the last load duration curve of the horizon, or zero if the same as [Block Count].
+
+Paragraphs:
+MT Schedule Last Block Count applies when the Chronology = "Partial" or "Fitted".  It is the number of load duration curve (LDC) blocks in the last LDC of the Horizon ("Partial") or the number of load steps ("Fitted"). The default value of zero means that this should equal Block Count .
+
+Last Block Count is most commonly used to reduce the computational effort of the simulation by reducing detail further out in the simulation horizon. See LT Plan Block Count for an example.
+
+Note: It's an invalid setting if the Last Block Count is larger than [Block Count] and it will get automatically adjusted to Block Count .
+Lists:
+

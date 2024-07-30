@@ -1,0 +1,29 @@
+Header: Facility Build Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating build non-anticipativity constraints
+Build Non-anticipativity	-1	$		This value acts like infinity, so no recourse is
+                available
+Build Non-anticipativity	1000	$	1/01/2015	
+Build Non-anticipativity	100	$	1/01/2020	
+Build Non-anticipativity	0	$	1/01/2025	Full recourse is now available on these decisions
+
+Paragraphs:
+Facility Build Non-anticipativity
+          applies when the Stochastic
+            Method is set to "scenario-wise decomposition". It is used to
+          identify the first stage build decisions for LT Plan . The property can take any value, but there are two
+          special cases to consider:
+
+Any positive value then acts as a penalty on anticipating the values
+          of the uncertain inputs. It is a useful feature that the
+          non-anticipativity can be relaxed over time as in the following
+          example:
+Lists:
+

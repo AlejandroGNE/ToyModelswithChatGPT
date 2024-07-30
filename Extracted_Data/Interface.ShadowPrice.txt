@@ -1,0 +1,15 @@
+Header: Interface Shadow Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of interface limit in the reference direction in pre-contingency state
+
+Paragraphs:
+Interface Shadow Price in period-level reporting is the dual variable associated with the interface limits ( Max Flow and Min Flow ). In summary reporting it is the average shadow price from all periods where the Flow is in the reference direction-the counter-reference direction shadow price is reported as Shadow Price Back . Only includes shadow price for base case, i.e in pre-contingency state.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Max Dump Energy Factor Month
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum proportion of energy dumped in month
+
+Paragraphs:
+Region Max Dump Energy Factor Month is Maximum proportion of energy dumped in month.
+Lists:
+

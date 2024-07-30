@@ -1,0 +1,11 @@
+Header: Weather Station Gas Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Weather Station Gas Storages is
+Lists:
+

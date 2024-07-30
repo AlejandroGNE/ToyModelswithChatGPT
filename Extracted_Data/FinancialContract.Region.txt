@@ -1,0 +1,11 @@
+Header: Financial Contract Region
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	region the contract is settled in
+
+Paragraphs:
+Financial Contract Region is the Region the Financial Contract is settled in. The contract is settled against the Region Price .
+Lists:
+

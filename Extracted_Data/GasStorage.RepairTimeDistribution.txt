@@ -1,0 +1,15 @@
+Header: Gas Storage Repair Time Distribution
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	In (-1,0,1,2,3,4,5,6,7)
+Key Property:	No
+Description:	Distribution used to generate repair times (Auto,Constant,Uniform,Triangular,Exponential,Weibull,Lognormal,SEV,LEV)
+
+Paragraphs:
+Gas Storage Repair Time Distribution sets the statistical function used to generate repair times in the Monte Carlo simulation. Please see Generator Repair Time Distribution for details.
+Lists:
+

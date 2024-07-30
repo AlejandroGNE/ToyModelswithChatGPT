@@ -1,0 +1,24 @@
+Header: Financial Contract Is Physical
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the contract quantity must be matched by physical generation/load.
+Is Physical	-1	Yes/No	1			
+Quantity	0	MW	1			
+Quantity	600	MW	1			WEEKDAY PEAK
+
+Paragraphs:
+Financial Contract Is Physical is a flag that indicates if the contract Quantity must be matched by physical Generation in the Region of settlement.
+
+Example
+
+In the above example the Generating Companies who own the contract will ensure that 600MW of generation is supplied to the Region by their Generators during weekday peak periods (as defined by the Timeslice "WEEKDAY PEAK".)
+
+NOTE : With this flag set it is not necessary to model the price of the contract, since this will have no bearing on whether or not the Generating Companies generate or not. If you prefer the contract Quantity to be matched by Generation only when the Generating Companies are exposed to a loss, then define the Floor Price and/or Cap Price and set the Contracts Optimize Offers option.
+Lists:
+

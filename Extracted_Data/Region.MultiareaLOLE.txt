@@ -1,0 +1,22 @@
+Header: Region Multi-area LOLE
+
+Table Details:
+Units:	day
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of days of outage including assistants from other connected regions (summary type "Sum")
+
+Paragraphs:
+NOTE: Multi-area LOLE is only computed by LT Plan and PASA when the Compute Multi-area Reliability Indices setting is 'on'.
+
+The multi-area Loss of Load Expectation index is calculated directly from the Multi-area LOLP . It is simply:
+
+where:
+
+See also:
+Lists:
+	- Region Multi-area LOLP
+

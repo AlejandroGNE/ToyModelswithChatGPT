@@ -1,0 +1,19 @@
+Header: Constraint Decomposition Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Method used to decompose constraints between LT Plan/MT Schedule and MT Schedule/ST Schedule
+
+Paragraphs:
+Constraint Decomposition Method controls the formulation used in the 'lower' simulation phase MT Schedule / ST Schedule for constraints that are decomposed by the 'higher' phases LT Plan / MT Schedule . This option can take the following values:
+
+The latter option allows some flex in the decomposed constraints, but may result in slight violation or under-use of the constraint.
+
+See also Constraint .
+Lists:
+

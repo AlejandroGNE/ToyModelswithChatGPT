@@ -1,0 +1,107 @@
+Header: Gas Demand Class
+
+Table Details:
+Description:	Demand for gas
+
+Paragraphs:
+The Gas Demand class allows for detailed definitions of gas consumed
+          at a Gas Node. Gas Demand can withdraw from a specific Gas Node or can
+          be distributed across multiple Gas Nodes using the Gas Demand. Gas Nodes Demand Participation Factor . A Gas Demand object should have at least one membership with a Gas
+          Node to connect to the gas system.
+
+The three ways to define gas demand are as direct input, as a
+          calculation based on weather data or as an interruptible demand using Bid Quantity and Bid Price pairs. To
+          differentiate between the direct input and the calculation use the
+          property Demand Type to
+          specify whether to use 'Input' or different weather options such as
+          'Temperature' and 'Heating Degree Days'.
+
+Define the Gas Demand Demand property. The Demand Type property can remain at the default 'Input'.
+
+Weather is the main driver for residential and some small commercial
+          gas demands. Regression analysis relationships between the gas demand
+          and weather (temperature, HDD, wind speed) can be used to establish a
+          piecewise linear demand function, as shown below.
+
+Demand = Customer Count *
+          ( Usage Factor Base + ( Usage Factor Heat * Temperature ) + ( Weather Data Factor * Wind Speed ))
+
+The Usage Factor Heat and Weather Data Factors are multiband and
+          should be used in combination with Usage Factor Heat Point and Weather
+          Data Variable to create a piecewise linear function.
+
+To use this functionality:
+
+For a detailed example, see the Weather Station class.
+
+Demand = CC * (UFB + (UFH 1 * (Temp - UFHP 1 ) *
+          I 1 ) + (UFH 2 * (Temp - UFHP 2 ) *
+          I 2 ))
+
+Using the cumulative setup requires defining the Undocumented Parameter UseCumulativeGasDemandMethod as True.
+
+Multiband Bid Quantity and Bid Price pairs define price
+          responsive gas demands.
+
+See Bid Quantity for an
+          example.
+
+By default Gas Demand Demand is
+          the gas demanded in each simulation interval.
+
+The Interval Length is defined on the Horizon object, shown below.
+
+To consider the Gas Demand input at a resolution other than the
+          Interval Length this must be defined on the Production object, shown
+          below.
+
+See Gas Demand Resolution for more details.
+
+Initiatives to reduce gas demand are modelled by creating a membership
+          between the Gas Demand object and Gas DSM Program object. All
+          characteristics of the program costs and implementation are defined on
+          the Gas DSM Program object.
+
+With Gas Tracking, as described in the City Gate Pricing article,
+          the supply to demand can be tracked. By enabling the reporting
+          property Delivered Quantity on the memberships between Gas Demand and different supply sources
+          like Gas Fields , Gas Contracts , and Gas Storage ,
+          the user can report how much gas is delivered from each of the
+          sources.
+
+A Gas Demand connects to the gas network via the Gas Nodes membership.
+
+To calculate demand, use the following piecewise demand function. This example uses weather data.
+
+When Gas Demand Demand Type is Input, the demand function is calculated as normal without weather data.
+
+When Demand Type is Temperature (or Heating Degree Days ) the following formula is used:
+
+Demand = Customer Count * ( Usage Factor Base + ( Usage Factor Heat * Temperature ) + ( Weather Data Factor * Wind))
+
+See also:
+
+
+
+
+Lists:
+	- CC = Customer Count
+	- UFB = Usage Factor Base
+	- UFH = User Factor Heat band
+	- Temp = Temperature or other input (HDD, Wind)
+	- UFHP = User Factor Heat Point band
+	- I = Includeband Dummy variable of whether to use this band. If
+            Temperature falls in Band 3, then Bands 1, 2 and 3 are used as this
+            is cumulative.
+	- Gas Demand Property Reference for
+            a detailed list of properties for this class of object.
+	- Gas Modelling for details.
+
+
+H2s:
+1. Gas Demand as Input
+2. Gas Demand based on Weather Data
+3. Interruptible Demand
+
+H3s:
+2.1 Cumulative Calculation

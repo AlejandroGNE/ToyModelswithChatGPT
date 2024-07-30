@@ -1,0 +1,15 @@
+Header: Region Emissions Max Production Week
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum total emission production by emission producers in the region per week
+
+Paragraphs:
+Region Emissions Max Production Week is Maximum total emission production by emission producers in the region per week.
+Lists:
+

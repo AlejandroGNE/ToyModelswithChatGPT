@@ -1,0 +1,15 @@
+Header: Battery Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load cost
+
+Paragraphs:
+Battery Cost to Load is the cost associated with recharging a BESS.  It is defined as:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Companies FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operations and maintenance cost
+
+Paragraphs:
+Battery Companies FO&M Cost is the fixed operations and maintenance cost.
+Lists:
+

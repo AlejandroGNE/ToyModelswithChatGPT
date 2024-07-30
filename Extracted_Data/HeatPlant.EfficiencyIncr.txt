@@ -1,0 +1,15 @@
+Header: Heat Plant Efficiency Incr
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Heat production efficiency
+
+Paragraphs:
+Heat Plant Efficiency Incr is the efficiency of a heat plant in converting the input resources (fuels, electricity) into output heat. Efficiency Incr is used to describe the losses in the heat plant. Heat Production + HeatPlantON *(Efficiency Base) = (Fuel Off-take + 3.6*(Gen Load))*(Efficiency Incr) . The 'no-load efficiency' is defined using Efficiency Base .
+Lists:
+

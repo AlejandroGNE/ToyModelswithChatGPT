@@ -1,0 +1,19 @@
+Header: Reserve Unit Commitment
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the set of Generators providing the Reserve is optimized or always includes all members of the Reserve Generators collection.
+
+Paragraphs:
+Reserve Unit Commitment is a flag that determines if the set of Generators providing the Reserve is optimized or always includes all members of the Reserve Generators collection. The setting can take these values:
+
+This option can be thought of as "unit commitment" for reserve provision and involves the use of integer decision variables. Notice that for operational reserves, another integer decision variable was introduced to simulate the generator unit providing replacement reserves.
+
+For replacement reserves, generator's Start Cost at cold state and the Reserves VO&M Charge will be included in the objective to choose the cheapest generators to provide this kind of reserves. Therefore, Reserve Cost = ( Start Cost ) + ( Reserves VO&M Charge ) x Reserves. This is also applied to the operational reserves if some replacement reserves are provided. In this case, either the raise or the replacement reserves will be chosen taking into account the reserve cost.
+Lists:
+

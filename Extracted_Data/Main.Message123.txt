@@ -1,0 +1,11 @@
+Header: Message 123
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Constraint <name> Decomposition Method = "Price" cannot be used in combination with a Constraint Penalty Price.
+
+Paragraphs:
+Message 123 occurs in the following circumstances:
+Lists:
+

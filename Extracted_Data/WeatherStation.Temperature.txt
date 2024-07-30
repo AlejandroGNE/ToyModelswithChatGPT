@@ -1,0 +1,15 @@
+Header: Weather Station Temperature
+
+Table Details:
+Units:	°C (Metric), °F (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Temperature value in each level
+
+Paragraphs:
+Weather Station Temperature is the temperature value a user enters for weather effect.
+Lists:
+

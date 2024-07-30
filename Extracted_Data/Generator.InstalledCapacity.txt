@@ -1,0 +1,19 @@
+Header: Generator Installed Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed capacity (Max Capacity x Units)
+
+Paragraphs:
+Generator Installed Capacity is
+          the nominal production capacity of the facility and is defined as:
+
+Installed Capacity = Max
+            Capacity x Units
+Lists:
+

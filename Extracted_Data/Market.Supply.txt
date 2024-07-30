@@ -1,0 +1,24 @@
+Header: Market Supply
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed supply (exact amount of supply from the Market)
+
+Paragraphs:
+Market Supply defines a fixed
+          'supply' or exact amount of purchases required from the Market.
+          Shortages are priced at the Shortage
+            Price while surpluses are priced at the Surplus
+            Price .
+
+See also:
+Lists:
+	- Market Demand
+	- Market Max
+              Purchases
+

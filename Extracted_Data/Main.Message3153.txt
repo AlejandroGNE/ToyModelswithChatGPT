@@ -1,0 +1,11 @@
+Header: Message 3153
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Maximum daily take for gas contract <name> is less than percentage of demand from all demand in this gas contract.
+
+Paragraphs:
+Message 3153 occurs in the following circumstances:
+Lists:
+

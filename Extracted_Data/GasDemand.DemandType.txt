@@ -1,0 +1,19 @@
+Header: Gas Demand Demand Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Function structure for demand type inputs
+
+Paragraphs:
+Gas Demand Demand Type controls the method used for calculating demand.
+
+The setting can take these values:
+
+Note that demand function will use the Gas Demand Resolution setting when calculating demand for each type.
+Lists:
+

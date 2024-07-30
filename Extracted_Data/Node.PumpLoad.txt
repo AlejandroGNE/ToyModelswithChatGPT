@@ -1,0 +1,15 @@
+Header: Node Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pump load
+
+Paragraphs:
+Node Pump Load is the sum of all pump loads from pump-storage generators at the node:
+Lists:
+

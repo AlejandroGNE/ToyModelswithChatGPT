@@ -1,0 +1,11 @@
+Header: Water Storage Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the water storage
+
+Paragraphs:
+Water Storage Maintenances is set of maintenance events on the water storage.  This is a Beta feature.
+Lists:
+

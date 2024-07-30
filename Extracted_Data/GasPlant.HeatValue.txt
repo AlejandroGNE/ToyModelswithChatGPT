@@ -1,0 +1,15 @@
+Header: Gas Plant Heat Value
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Heat value of gas produced by the Gas Plant
+
+Paragraphs:
+Gas Plant Heat Value is Heat value of gas produced by the Gas Plant.
+Lists:
+

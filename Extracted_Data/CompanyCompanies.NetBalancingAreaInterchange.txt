@@ -1,0 +1,15 @@
+Header: Company Companies Net Balancing Area Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Financial Interchange (Financial Exports - Financial Imports)
+
+Paragraphs:
+Company Companies Net Balancing Area Interchange is Net Financial Interchange (Balancing Area Exports - Balancing Area Imports).
+Lists:
+

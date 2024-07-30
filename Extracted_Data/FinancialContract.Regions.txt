@@ -1,0 +1,11 @@
+Header: Financial Contract Regions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Financial Contract Regions is the set of Regions where Generators are involved in the Financial Contract. This collection applies when the Competition Contract Hand-off Point is set to "Generator".
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Abatement Running Cost
+
+Table Details:
+Units:	Input: $/h (Metric), $/hr (U.S. Imperial)    Output: $
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed cost of running emission abatement when generators are on-line
+
+Paragraphs:
+Input Abatement Running Cost is the fixed cost of running emission abatement when generators are on-line. Specifically, this cost is incurred when any of the Generators associated with the abatement technology are running. No cost is incurred if all Generators are off-line.
+
+Output for this property is defined as:
+
+This cost is part of the total Abatement Cost .
+
+See also:
+Lists:
+	- Abatement Abatement Cost
+	- Abatement VO&M Charge
+	- Abatement Consumables Cost
+	- Abatement FO&M Cost
+

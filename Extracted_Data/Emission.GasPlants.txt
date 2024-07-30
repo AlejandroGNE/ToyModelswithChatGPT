@@ -1,0 +1,11 @@
+Header: Emission Gas Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Plants that produce the Emission
+
+Paragraphs:
+Emission Gas Plants is set of Gas Plants that produce the Emission
+Lists:
+

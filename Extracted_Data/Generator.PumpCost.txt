@@ -1,0 +1,18 @@
+Header: Generator Pump Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of pump energy
+
+Paragraphs:
+Generator Pump Cost is the cost of pump energy and is defined as:
+
+See also:
+Lists:
+	- Generator Sync Cond Cost
+

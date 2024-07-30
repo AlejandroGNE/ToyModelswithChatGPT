@@ -1,0 +1,15 @@
+Header: Gas Storage Min Temperature Injection
+
+Table Details:
+Units:	°C (Metric), °F (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum temperature at which the gas storage is allowed to inject gas
+
+Paragraphs:
+Gas Storage Min Temperature Injection is Minimum temperature at which the gas storage is allowed to inject gas.
+Lists:
+

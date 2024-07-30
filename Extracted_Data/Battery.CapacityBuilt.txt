@@ -1,0 +1,24 @@
+Header: Battery Capacity Built
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Battery capacity built
+
+Paragraphs:
+Battery Capacity Built is amount of
+          battery storage capacity built in LT Plan and is defined as:
+
+Capacity Built = Capacity x Units Built
+
+See also:
+Lists:
+	- Battery Installed
+              Capacity
+	- Battery Generation
+              Capacity Built
+

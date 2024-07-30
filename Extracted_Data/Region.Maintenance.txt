@@ -1,0 +1,19 @@
+Header: Region Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity out on maintenance
+
+Paragraphs:
+Region Maintenance is the total generation capacity on maintenance outage and is defined as:
+
+See also:
+Lists:
+	- Region Forced Outage
+	- Region Available Capacity
+

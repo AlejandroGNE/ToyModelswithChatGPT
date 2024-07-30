@@ -1,0 +1,38 @@
+Header: Generator Formulate Non-convex
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Controls when integers are used to enforce clearing of marginal efficiency tranches in order.
+
+Paragraphs:
+Generator Formulate Non-convex
+          controls when integers are used to enforce clearing of marginal
+          efficiency tranches in order. The simulator will detect (but not
+          correct) when there is an out of order dispatch of the fuel offtake
+          variables an issue a warning. In order to force the order, a set of
+          integer variables and constraints are required. This setting can take
+          these values:
+
+Settings other than 'Auto' supersede the Heat
+            Rate Error Method setting in the Production object.
+
+Potential uses of this setting are:
+
+Non-convex dispatch is usually related to:
+
+See also:
+Lists:
+	- Non-monotonically increasing (generator) or decreasing (load)
+                incremental efficiency function is detected,
+	- If hydro units define an efficiency curve,
+	- If units participate in Waste Heat Markets .
+	- Generator Max
+              Heat Rate Tranches
+	- ST Schedule Heat
+              Rate Detail
+

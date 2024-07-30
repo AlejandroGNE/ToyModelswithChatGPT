@@ -1,0 +1,21 @@
+Header: Performance MIP Interrupt
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the MIP search can be interrupted by pressing the CTRL-P key combination
+
+Paragraphs:
+When this option is set, the mixed integer programming (MIP)
+          optimizer can be interrupted by pressing the CTRL-P key combination on
+          the console window. Note that it can take several minutes for the
+          interruption to occur. Confirmation is requested before the MIP search
+          is finally terminated:
+
+
+
+Note that this option only applies when using the console execution
+          window.
+Lists:
+

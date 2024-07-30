@@ -1,0 +1,23 @@
+Header: Interface Lines Flow Back Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of counter-reference direction flow in interface
+
+Paragraphs:
+Interface Lines Flow Back Coefficient sets the contribution of line flow in the line's reverse reference direction to flow on the interface.
+                When we change this line to have a Flow Back Coefficient, in reference to the Interface , we get a negative value. For example: When we examine the results of the interface above, which considers this L1->3, with Flow Back Coefficient, we see a negative value.
+            Note that this property is not available for nodal simulations using the Fixed Shift Factor OPF Method .
+
+
+
+
+
+
+Lists:
+

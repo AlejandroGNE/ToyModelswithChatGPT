@@ -1,0 +1,17 @@
+Header: Water Node Flow
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow of water through the node
+
+Paragraphs:
+Water Node Flow is Flow of water through the node.
+
+Water Node Flow = Water Storage Withdrawal + Water Pipeline Flow + Water Plant Production
+Lists:
+

@@ -1,0 +1,14 @@
+Header: List Index
+
+Table Details:
+Filter	Yes/No	0	In (0,-1)	If enabled the list object becomes a filter for the input interface.
+Inclusive Empty	Yes/No	-1	In (0,-1)	This means that an empty collection implies all objects are included.
+Report	Yes/No	-1	In (0,-1)	If enabled the list object is passed into the solution file and can be used to build queries in the solution viewer
+Transient	Yes/No	0	In (0,-1)	Transient lists are not saved in the XML but only exist in the current session.
+
+Paragraphs:
+List Attributes Name Units Default Value Validation Rule Description Filter Yes/No 0 In (0,-1) If enabled the list object becomes a filter for the input interface. Inclusive Empty Yes/No -1 In (0,-1) This means that an empty collection implies all objects are included. Report Yes/No -1 In (0,-1) If enabled the list object is passed into the solution file and can be used to build queries in the solution viewer Transient Yes/No 0 In (0,-1) Transient lists are not saved in the XML but only exist in the current session.
+
+Name Units Default Value Validation Rule Description Filter Yes/No 0 In (0,-1) If enabled the list object becomes a filter for the input interface. Inclusive Empty Yes/No -1 In (0,-1) This means that an empty collection implies all objects are included. Report Yes/No -1 In (0,-1) If enabled the list object is passed into the solution file and can be used to build queries in the solution viewer Transient Yes/No 0 In (0,-1) Transient lists are not saved in the XML but only exist in the current session.
+Lists:
+

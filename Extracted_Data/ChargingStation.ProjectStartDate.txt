@@ -1,0 +1,21 @@
+Header: Charging Station Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of generation project, for expansion planning
+
+Paragraphs:
+Charging Station Project
+          Start Date is the first day that charging station units can be built
+          in LT Plan .
+
+See also:
+Lists:
+	- Facility Project
+              Start Date
+

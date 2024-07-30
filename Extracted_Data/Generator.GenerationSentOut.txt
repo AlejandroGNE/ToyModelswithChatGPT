@@ -1,0 +1,18 @@
+Header: Generator Generation Sent Out
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation net of auxiliaries
+
+Paragraphs:
+Generator Generation Sent Out is calculated as:
+
+See also:
+Lists:
+	- Region Load Metering Point
+

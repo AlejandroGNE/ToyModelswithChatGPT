@@ -1,0 +1,11 @@
+Header: Message 111
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	<value> <name> initial units operating (<value>) is greater than the number of installed units (<value>).
+
+Paragraphs:
+Message 111 occurs in the following circumstances:
+Lists:
+

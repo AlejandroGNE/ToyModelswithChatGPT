@@ -1,0 +1,20 @@
+Header: Zone Generation-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation-weighted average price
+
+Paragraphs:
+Zone Generation-weighted Price  is the average price paid to generators in the zone, and is defined as:
+
+See also:
+Lists:
+	- Zone Load-weighted Price
+	- Zone Time-weighted Price
+	- Zone Price
+

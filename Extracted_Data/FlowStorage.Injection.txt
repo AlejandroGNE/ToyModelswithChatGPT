@@ -1,0 +1,25 @@
+Header: Flow Storage Injection
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net amount of the Commodity added to inventory
+
+Paragraphs:
+Flow Storage Injection is the
+          amount of the Commodity injected
+          into storage. It differs from the amount withdrawn ( Consumption )
+          from the Flow Node according
+          to the Injection
+            Efficiency .
+
+See also:
+Lists:
+	- Flow Storage Withdrawal
+	- Flow Storage Net
+              Injection
+

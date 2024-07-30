@@ -1,0 +1,11 @@
+Header: Node Capacity Zones
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	capacity zones the node belongs to
+
+Paragraphs:
+Node Capacity Zones is capacity zones the node belongs to
+Lists:
+

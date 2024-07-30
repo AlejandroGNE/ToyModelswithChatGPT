@@ -1,0 +1,11 @@
+Header: Message 137
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	<value> <name> injects at <value> nodes but does not define <value> Nodes [<value>] for Node <name>.
+
+Paragraphs:
+Message 137 occurs in the following circumstances:
+Lists:
+

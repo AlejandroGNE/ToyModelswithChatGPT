@@ -1,0 +1,18 @@
+Header: Node Charging Station Hours Deferred
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average hours Charging Station load is deferred in the period
+
+Paragraphs:
+Node Charging Station Hours Deferred
+          is the average hours Charging
+            Station Load is
+          deferred in the period.
+Lists:
+

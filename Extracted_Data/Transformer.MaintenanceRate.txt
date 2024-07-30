@@ -1,0 +1,15 @@
+Header: Transformer Maintenance Rate
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to maintenance
+
+Paragraphs:
+Transformer Maintenance Rate is the Transformer equivalent of Generator Maintenance Rate .
+Lists:
+

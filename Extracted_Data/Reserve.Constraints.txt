@@ -1,0 +1,11 @@
+Header: Reserve Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Reserve
+
+Paragraphs:
+Reserve Constraints is the set of Constraint objects involved in the Reserve.
+Lists:
+

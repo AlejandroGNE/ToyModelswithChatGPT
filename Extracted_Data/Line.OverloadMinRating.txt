@@ -1,0 +1,15 @@
+Header: Line Overload Min Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emergency line rating in the counter-reference direction
+
+Paragraphs:
+Line Overload Min Rating
+Lists:
+

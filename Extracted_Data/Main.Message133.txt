@@ -1,0 +1,11 @@
+Header: Message 133
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> Units Out > Generator Units in <value> periods.
+
+Paragraphs:
+Message 133 occurs in the following circumstances:
+Lists:
+

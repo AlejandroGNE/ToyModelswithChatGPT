@@ -1,0 +1,25 @@
+Header: Charging Station Regulation Lower Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation lower reserve
+
+Paragraphs:
+Charging Stations Regulation Lower Reserve is the provision of regulation lower reserve.
+          This is provided in the same manner as Lower
+            Reserve but to regulation type services. Note that provision of
+          lower and regulation lower services is mutually exclusive by default i.e. the capacity reserved for one service cannot also be applied to the
+          other.
+
+See also:
+Lists:
+	- Reserve Mutually
+              Exclusive
+	- Charging Station Regulation
+              Raise Reserve
+

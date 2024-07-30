@@ -1,0 +1,20 @@
+Header: Report Write XML Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the solution data are written to XML files
+
+Paragraphs:
+Report Write XML Files toggles on/off writing of simulation results to zipped-XML format. This is the default format for solution data and is also the most compact and efficient to write.
+
+A single .ZIP file is created, following the naming convention controlled by the Make Unique Name setting that holds all selected Report data. The zip file can be opened and queried directly in the PLEXOS user interface.
+
+Inside the zip file is a XML file containing the relational database structure with tables normalized to minimize the space taken to store the data. The actual solution values are stored in a number of binary files which are readable only by the PLEXOS user interface or through the automation libraries supplied with the simulator. When you want to transport the data into another database management system you may  have these table data written in XML format by setting XML Content to "Raw". The zip file can then be extracted and read by any programming tool that supports XML.
+
+See also:
+Lists:
+	- Write Flat Files
+	- Write Database
+

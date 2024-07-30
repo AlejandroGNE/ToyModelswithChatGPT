@@ -1,0 +1,28 @@
+Header: Fuel Min Withdrawal
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of fuel that must be taken from stockpile
+
+Paragraphs:
+Fuel Min Withdrawal is the amount of
+          fuel that must be taken from stockpile each interval .
+
+See also:
+Lists:
+	- Fuel Min
+              Withdrawal Hour
+	- Fuel Min
+              Withdrawal Day
+	- Fuel Min
+              Withdrawal Week
+	- Fuel Min
+              Withdrawal Month
+	- Fuel Min
+              Withdrawal Year
+

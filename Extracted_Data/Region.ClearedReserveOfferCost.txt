@@ -1,0 +1,15 @@
+Header: Region Cleared Reserve Offer Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under reserve offer curve
+
+Paragraphs:
+Region Cleared Reserve Offer Cost is the area cleared under the reserve offer curve.
+Lists:
+

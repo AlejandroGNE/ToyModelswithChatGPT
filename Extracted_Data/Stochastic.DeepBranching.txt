@@ -1,0 +1,36 @@
+Header: Stochastic Deep Branching
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	For Rolling Horizon this is the level of additional branching after the end of regular branching
+
+Paragraphs:
+Stochastic Deep Branching applies to the Rolling Horizon method for
+          solving multi-stage stochastic optimization - see MT
+            Schedule Stochastic
+            Algorithm .
+
+During iterations of the Rolling Horizon, branching in the scenario
+          tree occurs up to a given number of stages (weeks/months) ahead. That
+          number of stages is controlled by the Minimum
+            Sample Weight setting. In the following example, branching
+          occurs for six stages ahead each roll (iteration) of the solution
+          method:
+
+After six stages branching ceases for that iteration i.e. each full branch is deterministic from that stage onward. When the
+          next roll (iteration) begins a further six stages of branching are
+          added and so on as the algorithm rolls through the horizon.
+
+Deep branching allows for additional branching after the regular
+          branching ceases. The default value of zero means no additional
+          branching. Values above zero space additional branching at factors of
+          2 from the end of regular branching. For example, Deep Branching = 4
+          results in additional branching 2, 4, 8 and 16 stages after regular
+          branching. Deep Branching improves the ability of Rolling Horizon to
+          'look-ahead' and may improve solutions in cases where the system is
+          highly sensitive to the stochastic variables e.g. systems
+          with a high dependency on hydro.
+Lists:
+

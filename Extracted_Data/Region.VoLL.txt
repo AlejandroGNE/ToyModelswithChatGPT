@@ -1,0 +1,26 @@
+Header: Region VoLL
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of lost load (VoLL)
+PG&E	VoLL	190	$/MWh	
+PG&E	VoLL	240	$/MWh	1/01/2003
+
+Paragraphs:
+Region VoLL is the value of lost load or shortage cost when the system has Unserved Energy , which occurs when the Load exceeds the Generation .
+
+Example
+
+Note that in order to prevent unserved energy being chosen as an economic option ahead of generation the simulator uses a different value of VoLL internally. This is controlled by the Transmission Internal VoLL property.
+
+See also:
+Lists:
+	- Transmission Allow Unserved Energy
+	- Region Hours of Unserved Energy
+	- Region Cost of Unserved Energy
+

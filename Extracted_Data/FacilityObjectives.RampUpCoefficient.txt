@@ -1,0 +1,15 @@
+Header: Facility Objectives Ramp Up Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of ramp up
+
+Paragraphs:
+Facility Objectives Ramp Up Coefficient is Coefficient of ramp up.
+Lists:
+

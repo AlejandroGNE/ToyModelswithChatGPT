@@ -1,0 +1,19 @@
+Header: Zone Min Native Capacity Reserve Margin
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserve margin supplied only by sources in the Zone
+
+Paragraphs:
+Zone Min Native Capacity Reserve Margin is the minimum capacity reserve margin supplied only by sources in the Zone i.e. excluding Capacity Interchange .
+
+See also:
+Lists:
+	- Zone Min Native Capacity Reserves
+	- Zone Min Capacity Reserve Margin
+

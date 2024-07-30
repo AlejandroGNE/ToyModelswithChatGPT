@@ -1,0 +1,17 @@
+Header: Battery Constraints Units Out Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units out of service
+
+Paragraphs:
+Battery Constraints Units Out Coefficient is the left-hand side coefficient of Units Out in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Line Flow Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow on the line in the counter-reference direction
+
+Paragraphs:
+Line Flow Back is the absolute value of the sum of Flow on the line in the counter-reference direction i.e. the flows from the Node To to the Node From .
+
+See also:
+Lists:
+	- Line Import Limit
+	- Line Violation Back
+

@@ -1,0 +1,17 @@
+Header: Gas Zone Total System Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equal to Total Fixed Cost + Total Variable Cost – Total Penalty Cost {Excludes penalty costs}
+
+Paragraphs:
+Gas Zone Total System Cost is the Total System Cost for gas in the entire model excluding any penalty costs. 
+          Since Gas Node emission costs are treated as penalty costs for not meeting the emission standards, Total System Cost
+          does not include Gas Node emission costs.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Storage Ramp Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Ramp] constraint violations.
+
+Paragraphs:
+Storage Ramp Violation Cost is the cost of Max Ramp constraint violations.
+
+See also:
+Lists:
+	- Storage Ramp
+	- Storage Ramp Violation Price
+	- Storage Hours of Ramp Violation
+	- Storage Ramp Violation
+

@@ -1,0 +1,15 @@
+Header: Generator Debt Charge
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual debt charge
+
+Paragraphs:
+Generator Debt Charge is the debt-servicing fixed cost charge, and forms part of the total fixed cost charge of the generator, along with FOM Charge , and Equity Charge .
+Lists:
+

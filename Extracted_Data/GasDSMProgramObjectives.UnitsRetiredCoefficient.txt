@@ -1,0 +1,15 @@
+Header: Gas DSM Program Objectives Units Retired Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units retired
+
+Paragraphs:
+Gas DSM Program Objectives Units Retired Coefficient is Coefficient of number of units retired.
+Lists:
+

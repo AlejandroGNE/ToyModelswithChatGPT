@@ -1,0 +1,15 @@
+Header: Battery Companies Generation Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation revenue
+
+Paragraphs:
+Battery Companies Generation Revenue is the generation revenue.
+Lists:
+

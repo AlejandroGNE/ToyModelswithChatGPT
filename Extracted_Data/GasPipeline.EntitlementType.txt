@@ -1,0 +1,15 @@
+Header: Gas Pipeline Entitlement Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates whether maximum flow entitlement is at the input node (gross) or at the output node (net).
+
+Paragraphs:
+Gas Pipeline Entitlement Type indicates whether specified maximum or minimum flow is at the input node (gross) or at the output node (net).
+Lists:
+

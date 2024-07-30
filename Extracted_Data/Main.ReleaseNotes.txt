@@ -1,0 +1,351 @@
+Header: Major Features
+
+Table Details:
+CPLEX	22.1.1.0	Same as latest 9.2R07
+Gurobi	10.0.3	Same as latest 9.2R07
+MOSEK	10.1.10	Same as latest 9.2R07
+SCIP	8.03	Same as latest 9.2R07
+Commodity	Intrinsic	Intrinsic Commodity
+Competition	RSI Enabled for Load Bids	If Residual Supply Index method is used for Load Bids
+Performance	MIP Max Absolute Gap	When set to a value greater than zero, the MIP Max Time is treated as a soft constraint with optimization continuing until the MIP Max Absolute Gap is reached
+Production	Power Station Aggregation Mode	Automatically create Power Station objects by aggregating Generators
+Production	Ramping Constraints Enabled	If facility ramping constraints are modeled
+Production	Increment and Decrement	If simultaneous closure of increment and decrement bids/offers around a base is allowed
+Transmission	Commitment PTDF Threshold	Minimum absolute value of PTDF coefficient in commitment solves
+Battery	Duration	Battery duration used to determine the MWh capacity
+Battery	Outage Factor	Battery outage rating based on max power
+Battery	Outage Pump Load	Load drawn by a unit in pumping mode
+Battery	Outage Rating	Unit rating during outage
+Battery	Simultaneous Increment and Decrement	Degenerate increment and decrement offers and bids can be cleared simultaneously
+Battery Conditions	Built Coefficient	Coefficient on binary variable indicating if any battery capacity is built to date
+Battery Conditions	Built in Year Coefficient	Coefficient on binary variable indicating if any battery capacity is built in the year
+Battery Conditions	Capacity Built Coefficient	Coefficient of capacity built
+Battery Conditions	Capacity Retired Coefficient	Coefficient of capacity retired
+Battery Conditions	Cycles Coefficient	Coefficient of cycles
+Battery Conditions	Energy Coefficient	Coefficient of energy stored in the BESS
+Battery Conditions	Generation Coefficient	Coefficient of generation
+Battery Conditions	Installed Capacity Coefficient	Coefficient of installed capacity
+Battery Conditions	Load Coefficient	Coefficient of load consumption (charging) in the constraint
+Battery Conditions	Maintenance Coefficient	Coefficient of capacity on maintenance
+Battery Conditions	Units Built Coefficient	Coefficient of number of units built
+Battery Conditions	Units Built in Year Coefficient	Coefficient of number of units built in the year constraint
+Battery Conditions	Units Coefficient	Coefficient of the number of installed units
+Battery Conditions	Units Out Coefficient	Coefficient on the number of units out of service
+Battery Conditions	Units Retired Coefficient	Coefficient of number of units retired
+Battery Conditions	Units Retired in Year Coefficient	Coefficient of number of units retired in the year constraint
+Contingency	Screening Elements	Determines which Lines/Transformers would be screened for post-contingency flow under this contingency
+Facility	Consumption Base	Primary Process consumption at notional zero production
+Facility	Consumption Incr	Primary Process consumption function first-order term
+Facility	Consumption Incr2	Primary Process consumption function second-order term
+Facility	Consumption Incr3	Primary Process consumption function third-order term
+Facility Conditions	Operating Hours Coefficient	Coefficient of number of hours of operation
+Flow Node Entities	Share	Percentage share of interest in the Flow Node
+Flow Path Entities	Share	Percentage share of interest in the Flow Path
+Flow Storage Entities	Share	Percentage share of interest in the Flow Storage
+Gas Contract	Take or Pay Penalty Price	Penalty price on the take violation for a Take or Pay contract
+Gas DSM Program	Customer Count	Number of customers
+Gas DSM Program	Usage Factor Base	Scalar demand value regardless of heat
+Gas DSM Program	Usage Factor Heat	Scalar heat value regardless of demand
+Gas DSM Program	Usage Factor Heat Point	Scalar temperature or HDD levels for piecewise linear function
+Gas DSM Program	Weather Data Factor	Weather data factor for gas demand function
+Gas DSM Program	Weather Data Variable	Weather data variable for gas demand function
+Gas DSM Program Gas Demands	Share	DSM Program's share of the gas demand
+Gas Node Facilities	Consumption Coefficient	Gas consumption for each unit of consumption
+Gas Node Facilities	Production Coefficient	Gas production for each unit of production	
+Gas Node Facilities	Units Coefficient	Gas consumption for each installed unit
+Gas Node Facilities	Units Operating Coefficient	Gas consumption for each unit operating
+Gas Pipeline	Flow Charge Back Level Factor	Level factor corresponding to Flow Charge Back
+Gas Pipeline	Flow Charge Level Factor	Level factor corresponding to Flow Charge
+Gas Plant	Max Ramp Down	Sets a limit on the rate at which the gas plant can decrease production from one interval to the next
+Gas Plant	Max Ramp Down Penalty	Penalty for violating [Max Ramp Down] constraint
+Gas Plant	Max Ramp Up	Sets a limit on the rate at which the gas plant can increase production from one interval to the next
+Gas Plant	Max Ramp Up Penalty	Penalty for violating [Max Ramp Up] constraint
+Gas Plant	Min Stable Level	Minimum allowed gas production when operating
+Gas Plant	Ramp Down Charge	Charge applied to ramping down
+Gas Plant	Ramp Down Point	Gas production point for use with multi-band Max Ramp Down constraints
+Gas Plant	Ramp Up Charge	Charge applied to ramping up
+Gas Plant	Ramp Up Point	Gas production point for use with multi-band Max Ramp Up constraints
+Gas Plant	Run Down Rate	Ramp rate that applies while running the unit down from [Min Stable Level] to zero
+Gas Plant	Run Up Rate	Ramp rate that applies while increasing gas production from zero to [Min Stable Level]
+Gas Plant	Shutdown Cost	Cost of shutting down a unit
+Gas Plant	Shutdown Penalty	Penalty applied to shutting down a unit
+Gas Plant	Shutdown Profile	Detailed regime for running the unit down from [Min Stable Level] when [Run Down Rate] is non-constant
+Gas Plant	Start Cost	Cost of starting a unit
+Gas Plant	Start Cost Time	Incremental cooling time over which the corresponding Start Cost applies
+Gas Plant	Start Penalty	Penalty applied to starting a unit
+Gas Plant	Start Profile	Detailed regime for increasing gas production from zero to [Min Stable Level] when [Run Up Rate] is non-constant
+Gas Plant	Start Profile Penalty	Penalty for violation of [Start Profile]
+Gas Plant Constraints	Ramp Coefficient	Coefficient of change in gas production in the constraint
+Gas Storage	Build Nonanticipativity	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+Gas Storage	Injection Energy Consumption	constant of proportionality for energy consumption of Gas Storage injection
+Gas Storage	Max Storage Power Consumption	constant of proportionality for power consumption of Gas Storage max volume
+Gas Storage	Power Consumption	power consumption of Gas Storage
+Gas Storage	Retire Nonanticipativity	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+Gas Storage	Volume Power Consumption	constant of proportionality for power consumption of Gas Storage current volume
+Gas Transport	Annual Expansion Max Volume	Annual Expansion Max Volume for the Transports
+Gas Transport	Build Cost	Cost of building the Gas Transport
+Gas Transport	Charter Rate	The charter cost of gas transport per delivery
+Gas Transport	Charter Rate Day	The charter cost of gas transport per day
+Gas Transport	Economic Life	Economic life of the gas transport (period over which fixed costs are recovered)
+Gas Transport	Expansion Max Volume	Expansion Max Volume is the volume up to which the capacity of the transport can be expanded
+Gas Transport	Expansion Optimality	Expansion planning integerization scheme
+Gas Transport	Expansion Transport	Indicates if the gas Transport is eligible for expansion planning
+Gas Transport	Forced Outage Rate	Expected proportion of time the Gas Transport is unavailable due to forced outage
+Gas Transport	Integerization Horizon	Number of years over which the expansion decisions are integerized
+Gas Transport	Is Available	Indicates if Gas Transport is available for flow
+Gas Transport	Lead Time	Number of years after which the expansion project can begin
+Gas Transport	Maintenance Frequency	Frequency of maintenance outages in an annual time frame
+Gas Transport	Maintenance Rate	Expected proportion of time the Gas Transport is unavailable due to maintenance
+Gas Transport	Max Build Events	Maximum number of distinct build events allowed over the planning horizon
+Gas Transport	Max Time To Repair	Maximum time to repair
+Gas Transport	Mean Time to Repair	Mean time to repair
+Gas Transport	Min Time To Repair	Minimum time to repair
+Gas Transport	Project Start Date	Start date of Gas Transport project, for expansion planning
+Gas Transport	Random Number Seed	Random number seed assigned to the Gas transport for the generation of outages
+Gas Transport	Repair Time Distribution	Distribution used to generate repair times (Auto, Constant, Uniform, Triangular, Exponential, Weibull, Lognormal, SEV, LEV)
+Gas Transport	Repair Time Scale	Repair time function scale parameter (for exponential, Weibull, lognormal, SEV, LEV)
+Gas Transport	Repair Time Shape	Repair time function shape parameter (for Weibull, lognormal)
+Gas Transport	Retirement Cost	Cost of retiring the gas transport
+Gas Transport	Retirement Transport	Indicates if the gas transport is eligible for retirement planning
+Gas Transport	Technical Life	Technical lifetime of the Gas Transport
+Gas Transport Export Node	Port Fees	Cost of using Gas Node by gas transport per day
+Gas Transport Gas Paths	Canal Fees	Cost of using all canals in gas path by gas transport
+Gas Transport Import Node	Port Fees	Cost of using gas node by gas transport per day
+Generator	Investment Tax Credit	Percentage of the annualized build cost to apply to investment credit
+Generator	Load Subtracter Global	If [Load Subtracter] applies across all units or unit-by-unit
+Generator	Min Up Time by Cooling State	determines whether cooling states are considered for Min Up Time
+Generator	Simultaneous Increment and Decrement	Degenerate increment and decrement offers and bids can be cleared simultaneously
+Generator Conditions	Maintenance Coefficient	Coefficient of capacity on maintenance
+Generator Conditions	Pump Load Coefficient	Coefficient of pump load
+Generator Conditions	Units Coefficient	Coefficient of the number of installed units
+Generator Start Gas Nodes	Emission Scalar	Scalar on emissions from this generator and start gas node combination
+Generator Start Gas Nodes	Offtake at Start	Amount of gas required to start a unit
+Generator Start Gas Nodes	Transport Charge	Cost of transporting the gas to the generator
+Global	PTDF File	Input file for PTDF values
+Heat Node Facilities	Consumption Coefficient	Heat consumption for each unit of consumption
+Heat Node Facilities	Production Coefficient	Heat production for each unit of production
+Heat Node Facilities	Units Coefficient	Heat consumption for each installed unit
+Heat Node Facilities	Units Operating Coefficient	Heat consumption for each unit operating
+Line	AC Line Charging Susceptance	The line-charging susceptance of a transmission line
+Line	Screening Mode	The set of lines that should be screened for post-contingency flow under screen contingencies
+Node	AC Reactive Power	The reactive power injected or withdrawn from a node, as determined by an AC power flow solution
+Node	AC Voltage Magnitude	The per-unit voltage magnitude of a node, as determined by an AC power flow solution
+Node	Always Calculate PTDF	Flag if the PTDFs associated with the node and transmission constraints will be calculated
+Node Facilities	Consumption Coefficient	Electric Load for each unit of consumption
+Node Facilities	Production Coefficient	Electric Generation for each unit of production
+Node Facilities	Units Coefficient	Electric Load for each installed unit
+Node Facilities	Units Operating Coefficient	Electric Load for each unit operating
+Power2X	Initial Age	Age of Power2X at the start of the simulation horizon
+Power2X	Min Stable Level	Minimum allowed electric load when operating
+Power2X	Model Capital Cost Recovery	Indicates if capital cost recovery feature is modeled
+Power2X	Power Degradation	Annual degradation of Power2X efficiency with age
+Power2X	Repair Time Distribution	Distribution used to generate repair times (Auto,Constant,Uniform,Triangular,Exponential,Weibull,Lognormal,SEV,LEV)
+Power2X	Run Down Rate	Ramp rate that applies while running the unit down from [Min Stable Level] to zero
+Power2X	Run Up Rate	Ramp rate that applies while increasing load from zero to [Min Stable Level]
+Power2X	Shutdown Penalty	Penalty applied to shutting down a unit
+Power2X	Shutdown Profile	Detailed regime for running the unit down from [Min Stable Level] when [Run Down Rate] is non-constant
+Power2X	Start Cost Time	Incremental cooling time over which the corresponding Start Cost applies
+Power2X	Start Penalty	Penalty applied to starting a unit
+Power2X	Start Profile	Detailed regime for increasing load from zero to [Min Stable Level] when [Run Up Rate] is non-constant
+Power2X	Start Profile Penalty	Penalty for violation of [Start Profile]
+Reserve Batteries	Total Response	Maximum reserve response from charge and discharge adjustments
+Reserve Generators	Total Response	Maximum reserve response from generation, pumped load and synchronous condenser adjustments
+Transformer	AC Fixed Shift Angle	The fixed phase shift angle across the winding of a transformer
+Transformer	AC Line Charging Susceptance	The line-charging susceptance of a transformer
+Transformer	AC Tap Ratio	The turns ratio of the primary winding of a transformer relative to that of the secondary
+Transformer	Screening Mode	The set of transformers that should be screened for post-contingency flow under screen contingencies
+Variable Conditions	Activity Coefficient	Coefficient of the left-hand-side of the Variable Condition expression
+Vehicle Constraints	Generation Coefficient	Coefficient of generation from vehicle to grid
+Vehicle Constraints	Load Coefficient	Coefficient of load drawn by vehicle charging
+Water Node Facilities	Consumption Coefficient	Water consumption for each unit of consumption
+Water Node Facilities	Production Coefficient	Water production for each unit of production
+Water Node Facilities	Units Coefficient	Water consumption for each installed unit
+Water Node Facilities	Units Operating Coefficient	Water consumption for each unit operating
+Battery	Forced Outage	Power lost to forced outage
+Battery	Forced Outage Hours	Number of hours on forced outage
+Battery	Maintenance Hours	Number of hours on maintenance
+Battery	Undispatched Generation Capacity	Generation (discharging) capacity undispatched
+Battery	Undispatched Load Capacity	Charging (load) capacity undispatched
+Battery	Unused Generation Capacity	Unused generation capacity (Max Power x Units - Generation)
+Battery	Unused Load Capacity	Unused load capacity (Max Load x Units - Load)
+Contingency Monitored Interfaces	Post Contingency Flow	Post-Contingent Flows
+Contingency Monitored Interfaces	Shadow Price	Shadow price for contingency constraint
+Facility	Electric Energy Production	Electric energy production
+Facility	Electric Energy Revenue	Revenue from electric energy produced
+Facility	Gas Production	Gas production
+Facility	Gas Revenue	Revenue from gas produced
+Facility	Heat Production	Heat production
+Facility	Heat Revenue	Revenue from heat produced
+Facility	Water Production	Water production
+Facility	Water Revenue	Revenue from water produced
+Fuel Source Gas Contracts	Delivered Emission	Emission delivered by gas contract to the fuel
+Fuel Source Gas Fields	Delivered Emission	Emission delivered by gas field to the fuel
+Fuel Source Gas Plants	Delivered Emission	Emission delivered by gas plant to the fuel
+Fuel Source Gas Storages	Delivered Emission	Emission delivered by gas storage to the fuel
+Fuel Source Gas Transports	Delivered Emission	Emission delivered by Gas Transport to the fuel
+Fuel Source Power2X	Delivered Emission	Emission delivered by Power2X to the fuel
+Gas Contract	Take or Pay Violation Price	Penalty price on the take violation for a Take or Pay contract
+Gas Demand Source Gas Contracts	Delivered Emission	Emission delivered by gas contract to the gas demand
+Gas Demand Source Gas Fields	Delivered Emission	Emission delivered by gas field to the gas demand
+Gas Demand Source Gas Plants	Delivered Emission	Emission delivered by gas plant to the gas demand
+Gas Demand Source Gas Storages	Delivered Emission	Emission delivered by gas storage to the gas demand
+Gas Demand Source Gas Transports	Delivered Emission	Emission delivered by Gas Transport to the gas demand
+Gas Demand Source Power2X	Delivered Emission	Emission delivered by Power2X to the gas demand
+Gas Field	Capacity Built	Amount of increase in Gas Field volume
+Gas Node	Facility Production	Gas produced by connected Facilities
+Gas Node Gas Transports	Port Cost	Cost of using port by gas transport
+Gas Plant	Annualized Build Cost	Annualized cost of units built
+Gas Plant	Capacity Built	Amount of increase in Gas Plant Max Production
+Gas Plant	Levelized Cost	Levelized cost of gas produced
+Gas Plant	Start Profile Violation	Violation of [Start Profile] constraint
+Gas Plant	Start Profile Violation Cost	Cost of [Start Profile] violations
+Gas Plant	Start Shutdown Cost	Cost of unit starts and shutdowns
+Gas Plant	Total Cost	Total of fixed and variable costs
+Gas Plant	Units Operating	Number of units operating
+Gas Plant	Units Shutdown	Number of units shutdown
+Gas Plant	Units Started	Number of units started
+Gas Storage	Annualized Build Cost	Annualized cost of the amount built
+Gas Storage	Energy Consumption	total energy consumption of the Gas Storage
+Gas Storage	Levelized Cost	Levelized cost of gas injections and withdrawals
+Gas Storage	Total Cost	Total of fixed, withdrawal and injection costs
+Gas Storage	Total Operation	Total of net withdrawal and net injection
+Gas Storage Source Gas Contracts	Delivered Emission	Emission delivered by gas contract to the gas storage
+Gas Storage Source Gas Fields	Delivered Emission	Emission delivered by gas field to the gas storage
+Gas Storage Source Gas Plants	Delivered Emission	Emission delivered by gas plant to the gas storage
+Gas Storage Source Gas Storages	Delivered Emission	Emission delivered by gas storage to the gas storage
+Gas Storage Source Gas Transports	Delivered Emission	Emission delivered by Gas Transport to the gas storage
+Gas Storage Source Power2X	Delivered Emission	Emission delivered by Power2X to the gas storage
+Gas Transport	Build Events	Number of build events
+Gas Transport	Canal Cost	Cost of using canal by gas transport
+Gas Transport	Charter Cost	Charter cost of gas transport
+Gas Transport	Forced Outage	Capacity lost to Forced Outage
+Gas Transport	Forced Outage Hours	Number of hours the gas transport is on forced outage
+Gas Transport	Maintenance Hours	Number of hours the gas transport is on maintenance
+Gas Transport	Max Volume Built	Amount of increase in Gas Transport Max Volume
+Gas Transport	Max Volume Retired	Amount of reduction in Gas Transport Max Volume
+Gas Transport	Port Cost	Cost of using port by gas transport
+Gas Transport	Retirement Cost	Cost of retiring the gas transport
+Gas Transport	Service Factor	Proportion of Gas transport capacity available for delivery
+Gas Transport	Units Out	Number of units out of service
+Gas Transport Gas Paths	Canal Cost	Cost of using canal by gas transport
+Gas Zone	Price	Average of the gas prices across all Gas Nodes in the Gas Zone
+Generator	Min Capacity	Minimum generating capacity of each unit
+Generator	Undispatched Pump Capacity	Pump capacity online but undispatched
+Generator	Unused Capacity	Unused capacity (Rating x Units - Generation)
+Generator	Unused Pump Capacity	Unused pump capacity (Pump Load x Pump Units - station pumping load)
+Generator Source Gas Contracts	Delivered Emission	Emission delivered by gas contract to the generator
+Generator Source Gas Fields	Delivered Emission	Emission delivered by gas field to the generator
+Generator Source Gas Plants	Delivered Emission	Emission delivered by gas plant to the generator
+Generator Source Gas Storages	Delivered Emission	Emission delivered by gas storage to the generator
+Generator Source Gas Transports	Delivered Emission	Emission delivered by Gas Transport to the generator
+Generator Source Power2X	Delivered Emission	Emission delivered by Power2X to the generator
+Interface	Overload Export Limit	Maximum post-contingency flow allowed on the interface
+Interface	Overload Import Limit	Minimum post-contingency flow allowed on the interface
+Line	Overload Export Limit	Maximum post-contingency flow allowed on the line
+Line	Overload Import Limit	Minimum post-contingency flow allowed on the line
+Node	AC Mismatch	The absolute AC-mismatch (MVA) at each node resulting from initialization of the AC Power Flow equations using PLEXOS' dispatch
+Node	Facility Generation	Generation from connected Facilities
+Node	Gas Plant Load	Gas Plant electric load
+Node	Gas Storage Load	Gas Storage electric load
+Node	Heat Plant Load	Heat Plant electric load
+Node	Water Plant Load	Water Plant electric load
+Power2X	Cleared Bid Price	Price of marginal bid band
+Power2X	Recovered Capital Cost	Capital cost recovered by operating the Power2X
+Power2X	Recovery Price	Capital cost recovery price of Power2X object
+Region	Facility Generation	Generation from connected Facilities
+Region	Facility Load	Load from connected Facilities
+Region	Gas Plant Load	Gas Plant electric load
+Region	Gas Storage Load	Gas Storage electric load
+Region	Heat Plant Load	Heat Plant electric load
+Region	Water Plant Load	Water Plant electric load
+Transformer	Overload Export Limit	Maximum post-contingency flow allowed on the transformer
+Transformer	Overload Import Limit	Minimum post-contingency flow allowed on the line
+Zone	Facility Generation	Generation from connected Facilities
+Zone	Facility Load	Load from connected Facilities
+Zone	Gas Plant Load	Gas Plant electric load
+Zone	Gas Storage Load	Gas Storage electric load
+Zone	Heat Plant Load	Heat Plant electric load
+Zone	Water Plant Load	Water Plant electric load
+
+Paragraphs:
+Check out the powerful new Facility Cloning feature available from the Desktop Config to self-document new and existing universal models. Create as many
+                versions of the Facility class as desired with custom object and property names to model everything from an ammonia plant to a bin packing operation, all within PLEXOS.
+                In addition, in PLEXOS 10 the connection between universal classes and other standard objects has been expanded with new input properties on the memberships
+                between Facilities and Nodes, Gas Nodes, Heat Nodes, and Water Nodes. These include properties to specify a consumption, production, and units
+                coefficient, and they coincide with additional Facility output properties for electric, gas, heat, and water production and revenue. More granular
+                consumption modeling has also been added for Facility with input properties Consumption, Consumption Incr, Consumption Incr2, and Consumption Incr3.
+                The Commodity Intrinsic property also makes it easy to connect a Commodity with the electric, gas, heat, or water network constraints.
+
+PLEXOS 10 includes many new constraints for the modeling of hydrogen production with Power2Xs and Gas Plants. There are over a dozen new Power2X input
+                properties that enable the modeling of ramp rates, a repair time distribution, power degradation, and capital cost recovery. Start and shutdown profiles
+                can now also be applied to Power2X objects in addition to different cooling states. Similarly, many new Gas Plant input properties have been added to model
+                ramp rates, start and shutdown profiles, and cooling states.
+
+Significant enhancements have been made to the Gas Transport class to facilitate an improved representation of LNG shipments. The ability to make Gas Transport
+                objects expansion candidates has been added with expansion input properties such as Expansion Max Volume, Retirement Transport, Build Cost, and Economic Life.
+                Maintenance and forced outage functionalities have also been added to Gas Transport objects with new inputs such as Maintenance Rate, Maintenance Frequency,
+                Forced Outage Rate, and Mean Time to Repair. Additional cost inputs are also now available on the Gas Transport object including Charter Rate, Port Fees, and
+                Canal Fees. These numerous new inputs also come with the standard associated output properties.
+
+A new nodal feature has been added in PLEXOS 10 to improve performance while decreasing the injection mismatch that happens due to a nonzero Flow PTDF threshold. This
+                is specifically for modeling large networks using Fixed Shift Factor with constraints not formulated up front. In that case when the input Commitment PTDF Threshold is
+                greater than the Flow PTDF threshold, PLEXOS will simplify the unit commitment problem to only use the PTDFs of magnitude greater than this input value. This can
+                significantly reduce the time it takes to solve for the commitment. Once the commitment problem has been solved, a final set of iterations is performed with all PTDFs
+                to ensure that no flow violations remain and that the injection mismatches are minimized.
+
+Contingencies can now be easily screened within a standard ST simulation to determine which lines and transformers have post-contingent flows with limit violations. Use
+                the Contingency Screening Elements input and Line/Transformer Screening Mode input to control which flow elements are screened. PLEXOS will calculate the post-contingent flows
+                and keep track of all potential violations for the screened elements. The simulation will produce a list of contingency/monitored element pairs that can then easily be
+                imported to activate as constraints in subsequent simulations.
+
+A new Node output property AC Mismatch is a significant new feature which provides a stress metric on the nodal solve to understand its compatibility with an AC
+                powerflow. When enabled, after each step an advanced calculation is performed to determine the mismatch between the current DC solution and an AC solve for each node. New input
+                properties associated with this feature include AC Line Charging Susceptance on Line; AC Reactive Power and AC Voltage Magnitude on Node; and AC Fixed Shift Angle, AC
+                Line Charging Susceptance, and AC Tap Ratio on Transformer.
+
+In addition to the already existing citygate gas tracking logic to report delivered prices at Gas Nodes and delivered quantities between gas sources and sinks,
+                delivered emissions outputs have also been added. This includes 24 additional Delivered Emissions outputs between Fuel, Gas Demand, Gas Storage, and Generator (sinks)
+                and Gas Contracts, Gas Fields, Gas Plants, Gas Storages, Gas Transports, and Power2Xs. These new outputs provide a powerful way to track the emissions within a gas system.
+
+PLEXOS 10 includes a new welcome screen with quick access to cloud studies and recent simulations. Quickly find and clone a
+                cloud study to download the data directly to the desktop. Or get a link to easily see the simulation history and solutions in a browser.
+
+The current solver versions are shown in Table 1.
+
+Table 1. Solver versions supported in the 10.0 release of PLEXOS.
+
+The API has changes which will allow users to safely use the API on older versions of PLEXOS Datasets and Solutions.
+                The changes are mostly backwards compatible. Function signatures which formerly accepted Enum types now accept integer IDs.
+                The old Enum types are still accepted, but in Python they need to be cast to integers. To ensure the API works on older versions
+                of databases, however, there are functions to fetch the class, collection and property IDs from the database rather than
+                relying on Enum values. See Automation .
+
+Short duration Batteries and Storages in Sampled Chronology now
+                have freely optimized Initial SoC / Initial Volume . This change generally improves the
+                robustness and optimality of small storage utilization. It also removes the potential for model sensitivity to relatively minor parameters such as the
+                starting hour of the Planning Horizon . See Initial SoC / Initial Volume .
+
+This version will automatically upgrade any previous Version 8. x or 9. x database. You may need to check the upgrade notes of earlier releases for any compatibility issues.
+
+If you experience any problems upgrading or your simulations run differently or slower in this version during upgrade contact Energy Exemplar Support.
+
+The new attributes in this release are listed in Table 2.
+
+The new input properties in this release are listed in Table 3.
+
+The new reporting properties in this release are listed in Table 4.
+Lists:
+
+
+H2s:
+Expanded Universal Modeling
+Detailed Hydrogen Constraints
+Enhanced LNG Representation
+Faster Nodal Performance
+Better Contingency Analysis
+Advanced Nodal AC Stress Metric
+Improved Gas Emissions Accounting
+Updated Welcome Page
+Solver updates
+API Changes
+Free Initial SoC/Volumes when Sampling Small Batteries & Storages

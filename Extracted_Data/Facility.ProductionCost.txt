@@ -1,0 +1,28 @@
+Header: Facility Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of production
+
+Paragraphs:
+Facility Production Cost is the
+          cost of production and defined as:
+
+Production Cost = Primary
+            Process Cost + ∑ Secondary
+            Processes Cost + Running
+            Cost × Units Operating (× hours) + Production × VO&M
+            Charge
+
+See also:
+Lists:
+	- Facility Marginal
+              Cost
+	- Facility Average
+              Cost
+

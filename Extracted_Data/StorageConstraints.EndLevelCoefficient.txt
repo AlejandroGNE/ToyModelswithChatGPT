@@ -1,0 +1,28 @@
+Header: Storage Constraints End Level Coefficient
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of storage end level.
+
+Paragraphs:
+Storage Constraints End Level Coefficient is the left-hand side coefficient on the storage End Level . This coefficient is
+          usually used in defining storage target constraints.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Storage End Level ... {≤,
+            ≥, =} b j
+
+See also:
+Lists:
+	- Storage Target
+              Level
+	- Storage Target
+              Penalty
+

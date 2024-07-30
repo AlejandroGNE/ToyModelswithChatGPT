@@ -1,0 +1,12 @@
+Header: Data File Historical Year Start
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Start year for historical sampling within the range Year From and Year To
+
+Paragraphs:
+Data File Historical Year Start is the start year for historical sampling within the range Year From and Year To.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Node Marginal Loss Factor
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal loss factor to slack bus(es)
+
+Paragraphs:
+Node Marginal Loss Factor is defined as:
+
+This property indicates how much the locational marginal price at this node is affected by losses relative to the slack bus or buses. Thus its value depends on the selection of slack bus(es) and the decomposition of LMP into components.
+
+See the Locational Marginal Price article for a description of the LMP decomposition method.
+Lists:
+

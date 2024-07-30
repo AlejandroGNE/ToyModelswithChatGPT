@@ -1,0 +1,17 @@
+Header: Physical Contract Offer Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price of energy in band
+
+Paragraphs:
+Physical Contract Offer Price defines the price part of the contract's generation offer in multiple bands.
+
+See also Offer Quantity , Max Generation .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Plant Objectives Operating Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours of operation
+
+Paragraphs:
+Water Plant Objectives Operating Hours Coefficient is the coefficient of number of hours of operation.
+Lists:
+

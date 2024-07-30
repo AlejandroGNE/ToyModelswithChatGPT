@@ -1,0 +1,15 @@
+Header: Battery Annualized Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of units built
+
+Paragraphs:
+Battery Annualized Build Cost is the Build Cost annualized and is calculated according to the formula described in the LT Plan topic.
+Lists:
+

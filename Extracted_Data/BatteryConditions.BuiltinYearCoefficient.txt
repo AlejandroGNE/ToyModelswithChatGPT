@@ -1,0 +1,15 @@
+Header: Battery Conditions Built in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any battery capacity is built in the year
+
+Paragraphs:
+Battery Conditions Built in Year Coefficient is the coefficient on a binary variable indicating if any battery capacity is built in the year.
+Lists:
+

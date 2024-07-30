@@ -1,0 +1,13 @@
+Header: Message 36
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> Fixed Load will override Generator Min Load.
+
+Paragraphs:
+Message 36 occurs when you define both Generator Fixed Load and Min Load . Because these properties might be in conflict the simulator takes Fixed Load (the stricter constraint) as defined and ignores Min Load .
+
+To avoid this issue do not define Fixed Load and Min Load on the same Generator . Note that you may use a Scenario to switch between these properties in different Model objects.
+Lists:
+

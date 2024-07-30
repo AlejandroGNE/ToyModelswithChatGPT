@@ -1,0 +1,12 @@
+Header: Stochastic Forced Outages in Look-ahead
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If forced outages are included in the look-ahead.
+
+Paragraphs:
+Stochastic Forced Outages in Look-ahead will include forced outages in the look ahead if enabled.
+Lists:
+

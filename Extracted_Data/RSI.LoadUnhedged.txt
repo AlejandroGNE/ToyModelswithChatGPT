@@ -1,0 +1,15 @@
+Header: RSI Load Unhedged
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	PCT Load Unhedged
+
+Paragraphs:
+RSI Load Unhedged is defined as:
+Lists:
+

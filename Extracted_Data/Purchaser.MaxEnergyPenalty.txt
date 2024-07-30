@@ -1,0 +1,17 @@
+Header: Purchaser Max Energy Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Max Energy] and [Max Load Factor] constraints.
+
+Paragraphs:
+Purchaser Max Energy Penalty is Penalty applied to violations of Max Energy and Max Load Factor constraints (and their period-specific variants).
+
+Please note: A value of -1 makes this a hard constraint.
+Lists:
+

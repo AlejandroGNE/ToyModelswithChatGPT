@@ -1,0 +1,22 @@
+Header: Flow Storage Constraints Cycles Coefficient
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of cycles
+
+Paragraphs:
+Flow Storage Constraints Cycles Coefficient sets the coefficient of cycles in the Constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Flow
+            Storage Cycles ... {≤,
+            ≥, =} b j
+Lists:
+

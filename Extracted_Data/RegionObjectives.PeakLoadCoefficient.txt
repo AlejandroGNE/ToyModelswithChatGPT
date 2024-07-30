@@ -1,0 +1,15 @@
+Header: Region Objectives Peak Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of annual peak load
+
+Paragraphs:
+Region Objectives Peak Load Coefficient is Coefficient of annual peak load.
+Lists:
+

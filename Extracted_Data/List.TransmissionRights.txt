@@ -1,0 +1,11 @@
+Header: List Transmission Rights
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Transmission Right objects in the List
+
+Paragraphs:
+List Transmission Rights is set of Main Transmission Right objects in the List.
+Lists:
+

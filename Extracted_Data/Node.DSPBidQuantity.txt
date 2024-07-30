@@ -1,0 +1,15 @@
+Header: Node DSP Bid Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Demand-side participation bid quantity
+
+Paragraphs:
+Node DSP Bid Quantity is the demand-side participation bid quantity. See Region DSP Quantity for more details.
+Lists:
+

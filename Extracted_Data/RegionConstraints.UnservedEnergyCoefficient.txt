@@ -1,0 +1,29 @@
+Header: Region Constraints Unserved Energy Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of unserved energy
+
+Paragraphs:
+Region Constraints Unserved Energy Coefficient is the left-hand side coefficient of Region Unserved Energy in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Region Constraints Dump Energy
+              Coefficient
+	- Region Constraints Net Load
+              Coefficient
+	- Region Zones Unserved
+              Energy Coefficient
+	- Region Nodes Unserved
+              Energy Coefficient
+

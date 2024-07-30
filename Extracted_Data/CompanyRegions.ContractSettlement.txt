@@ -1,0 +1,15 @@
+Header: Company Regions Contract Settlement
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Monies received (+ve) or paid out (-ve) on CfDs in the region
+
+Paragraphs:
+Company Regions Contract Settlement is the monies received (+ve) or paid out (-ve) on CfDs in the region.
+Lists:
+

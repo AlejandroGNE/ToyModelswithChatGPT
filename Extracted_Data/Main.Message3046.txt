@@ -1,0 +1,11 @@
+Header: Message 3046
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Out of Memory Exception reading file: <value>. Tried to allocate <value> kB.
+
+Paragraphs:
+Message 3046 occurs in the following circumstances:
+Lists:
+

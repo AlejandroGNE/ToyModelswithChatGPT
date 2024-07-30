@@ -1,0 +1,15 @@
+Header: Gas Zone Shortage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of shortage in gas supply
+
+Paragraphs:
+Gas Zone Shortage Hours is the number of hours of Shortage in gas supply.
+Lists:
+

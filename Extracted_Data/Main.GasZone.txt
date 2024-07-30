@@ -1,0 +1,13 @@
+Header: Gas Zone Class
+
+Table Details:
+Description:	Set of gas nodes
+
+Paragraphs:
+See also Gas Zone Property Reference for a detailed list of properties for this class of object.
+
+A Gas Zone is a collection of Gas Nodes and provides aggregate reporting across those objects.
+
+See the Gas Modelling article for details.
+Lists:
+

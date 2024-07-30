@@ -1,0 +1,18 @@
+Header: Zone Emissions Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation associated with the emission
+
+Paragraphs:
+Zone Emissions Generation is the Generation associated with the Emission in the Zone .
+
+See also:
+Lists:
+	- Zone Emissions Intensity
+

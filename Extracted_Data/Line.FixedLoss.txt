@@ -1,0 +1,15 @@
+Header: Line Fixed Loss
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed loss on line
+
+Paragraphs:
+Line Fixed Loss is used to define a fixed loss on a line e.g. as a result of transformer losses.
+Lists:
+

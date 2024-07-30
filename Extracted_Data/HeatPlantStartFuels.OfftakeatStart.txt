@@ -1,0 +1,20 @@
+Header: Heat Plant Start Fuels Offtake at Start
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Fuel required to start a unit
+
+Paragraphs:
+Heat Plant Start Fuels Offtake at Start is the fuel used during unit start up. Use multiple bands in combination with Start Cost Time for multiple cooling states as in Start Cost .
+
+The cost incurred due to Fuel Offtake would be added to the Start Cost entry to define the total start up cost of the unit.
+
+See also:
+Lists:
+	- Heat Plant Start Cost .
+

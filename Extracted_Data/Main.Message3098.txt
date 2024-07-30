@@ -1,0 +1,11 @@
+Header: Message 3098
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Cannot aggregate <value> for Power Station <name> with parent <name>, because only <value> of the <value> generators are included in that type of membership.
+
+Paragraphs:
+Message 3098 occurs in the following circumstances:
+Lists:
+

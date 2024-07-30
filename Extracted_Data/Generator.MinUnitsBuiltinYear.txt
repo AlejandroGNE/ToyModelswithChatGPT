@@ -1,0 +1,39 @@
+Header: Generator Min Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically constructed in any single year of the planning horizon
+Units	0	-		
+Max Capacity	500	MW		
+FO&M Charge	50	$/kW/year		
+Max Units Built	3	-		
+Min Units Built in Year	1	-	1/01/2025	31/12/2025
+Build Cost	1500	$/kW		
+Economic Life	25	years		
+WACC	10	%		
+
+Paragraphs:
+Generator Min Units Built in Year
+          sets a lower bound on the number of units built by LT
+            Plan in any single year of the planning horizon. It is generally
+          used to force the building a particular option out of a multi-unit
+          station as in the following example:
+
+Note that Min Units Built in Year must be compatible with Max
+            Units Built i.e. there must be enough units allowed to
+          be built to meet this constraint. In the above example it is allowed
+          to build up to three units in the planning horizon, but one must be
+          built in year 2025.
+
+See also:
+Lists:
+	- Generator Min
+              Units Built
+	- Generator Max
+              Units Built in Year
+

@@ -1,0 +1,20 @@
+Header: Gas Field Random Number Seed
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 2147483647
+Key Property:	No
+Description:	Random number seed assigned to the pipeline for the generation of outages
+
+Paragraphs:
+Setting Gas Pipeline Random Number Seed to a value other than zero allows you to control the sequence of random numbers used to create line distributed maintenance and forced outage events. This seed overrides the seeding of the Gas Pipeline from the Model Random Number Seed .
+
+Note that you can capture the seeds generated from another simulation with the Diagnostic Random Number Seed .
+
+See also:
+Lists:
+	- Generator Random Number Seed
+

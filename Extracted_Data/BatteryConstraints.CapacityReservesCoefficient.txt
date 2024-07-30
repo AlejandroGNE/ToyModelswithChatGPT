@@ -1,0 +1,18 @@
+Header: Battery Constraints Capacity Reserves Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of battery contribution to capacity reserves
+
+Paragraphs:
+Battery Constraints Capacity Reserves Coefficient is the left-hand side coefficient of battery contribution to Capacity Reserves in the constraint.
+
+See also:
+Lists:
+	- Battery Generators Capacity Reserves Coefficient
+

@@ -1,0 +1,16 @@
+Header: Gas Field Inventory Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Charge per unit of inventory each day
+
+Paragraphs:
+Gas Field Inventory Charge is the cost per unit of gas in the field each day. 
+            This cost is included in the optimization objective function and reported in the output property Inventory Cost .
+Lists:
+

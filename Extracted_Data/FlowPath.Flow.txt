@@ -1,0 +1,26 @@
+Header: Flow Path Flow
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net flow of the Commodity
+
+Paragraphs:
+Flow Path Flow is the net flow of
+          the Commodity is the notional
+          forward direction i.e. from the Flow
+            Node From to the Flow Node
+            To . It is defined as:
+
+Flow = Flow Forward - Flow Back
+
+Note that this is the 'sent out' flow prior to any Losses .
+          The flow received is given by:
+
+Flow (received) = Flow - Losses
+Lists:
+

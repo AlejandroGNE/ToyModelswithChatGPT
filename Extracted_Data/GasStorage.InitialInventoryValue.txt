@@ -1,0 +1,15 @@
+Header: Gas Storage Initial Inventory Value
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of inventory in gas storage at the start of a period.
+
+Paragraphs:
+Gas Storage Initial Inventory Value is the Value of inventory in gas storage at the start of a period.
+Lists:
+

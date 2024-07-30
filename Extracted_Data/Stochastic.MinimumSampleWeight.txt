@@ -1,0 +1,25 @@
+Header: Stochastic Minimum Sample Weight
+
+Table Details:
+Units:	-
+Default Value:	1E-06
+Validation Rule:	≥0
+Description:	Minimum sample weight for rolling horizon iterations
+
+Paragraphs:
+Stochastic Minimum Sample Weight
+          applies to the Rolling Horizon algorithm for solving multi-stage
+          stochastic optimization - see MT
+            Schedule Stochastic
+            Algorithm . It is a tolerance used to determine how many stages
+          should be included in one rolling step in rolling horizon. Generally,
+          at each node in the Scenario tree, the branches (Full or Hanging) are
+          assumed to have uniform weights. The last stage in one rolling step is
+          the one which has probabilities(weights) below this tolerance, no more
+          hanging branches are created after this stage.
+
+The number of branching stages calculated based on this parameter
+          can  be overridden with the Rolling
+            Stage Increment setting.
+Lists:
+

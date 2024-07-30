@@ -1,0 +1,19 @@
+Header: Flow Control Build Non-anticipativity
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Flow Control Build Non-anticipativity is Price for violating non-anticipativity constraints in scenario-wise decomposition mode.
+
+See also:
+Lists:
+	- Generator Build Non-anticipativity
+	- Line Build Non-anticipativity
+

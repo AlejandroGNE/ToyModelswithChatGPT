@@ -1,0 +1,11 @@
+Header: Message 100
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Flow Control <name> Units property cannot be dynamic in for Transmission OPF Method = "Large Scale".
+
+Paragraphs:
+Message 100 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Abatement Emissions Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions abated for this emission
+
+Paragraphs:
+Abatement Emissions Abatement is the emissions abated for this Emission and is defined as:
+
+Set also:
+Lists:
+	- Abatement Emissions Net Emissions
+

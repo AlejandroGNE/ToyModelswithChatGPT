@@ -1,0 +1,15 @@
+Header: Company Emissions Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net production of the emission
+
+Paragraphs:
+Company Emissions Production is Net production of the emission.
+Lists:
+

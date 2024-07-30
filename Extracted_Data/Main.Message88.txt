@@ -1,0 +1,14 @@
+Header: Message 88
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Out of Memory Exception reallocating cache to <value> kB.
+
+Paragraphs:
+Message 88 occurs when the internal memory archive the simulator uses to store the data for the simulation are exhausted and the attempt to expand those buffers is refused by the operating system.
+
+See also:
+Lists:
+	- Message 71
+

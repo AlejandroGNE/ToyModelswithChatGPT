@@ -1,0 +1,15 @@
+Header: Zone Charging Station Hours Deferred
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average hours Charging Station load is deferred in the period
+
+Paragraphs:
+Zone Charging Station Hours Deferred is Average hours Charging Station load is deferred in the period.
+Lists:
+

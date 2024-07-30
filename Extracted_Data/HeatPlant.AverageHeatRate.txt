@@ -1,0 +1,20 @@
+Header: Heat Plant Average Heat Rate
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average heat rate
+
+Paragraphs:
+Heat plant Average Heat Rate is the average units of fuel used per GJ of heat production and is calculated as:
+
+See also:
+Lists:
+	- Heat plant SRMC
+	- Heat plant Marginal Heat Rate
+	- Heat plant Efficiency
+

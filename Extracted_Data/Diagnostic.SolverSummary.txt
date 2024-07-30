@@ -1,0 +1,73 @@
+Header: Diagnostic Solver Summary
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print a summary of the solution status, objective function value, etc for each mathematical program solved.
+LOADED	1	Model was solved to optimality (subject to tolerances), and an optimal solution is available.	Unknown
+OPTIMAL	2	Model is loaded, but no solution information is available.	Optimal
+INFEASIBLE	3	Model was proven to be infeasible.	Primal Infeasible Certificate
+INF_OR_UNBD	4	Model was proven to be either unfeasible or unbounded.	Primal Infeasible Certificate
+UNBOUNDED	5	Model was proven to be unbounded.	Dual Infeasible Certificate
+CUTOFF	6	Optimal objective for model was proven to be worse than the value specified in the Cutoff parameter. No solution information is available.	Unknown
+ITERATION_LIMIT	7	Optimization terminated because the total number of simplex iterations performed exceeded the value specified in the value specified in the IterationLimit parameter, or because the total number of barrier iterations exceeded the value specified in the BarIterLimit parameter.	Unknown
+NODE_LIMIT	8	Optimization terminated because the total number of branch-and-out nodes explored exceeded the value specified in the NodeLimit parameter.	Unknown
+TIME_LIMIT	9	Optimization terminated because the time expended exceeded the value specified in the TimeLimit parameter.	If an integer-feasible solution was found: Primal Feasible.  If not: Unknown.
+SOLUTION_LIMIT	10	Optimization terminated because the number of solutions found reach the value specified in the SolutionLimit parameter.	Unknown
+INTERRUPTED	11	Optimization was terminated by user.	If an integer-feasible solution was found: Optimal. If not: Unknown.
+NUMERIC	12	Optimization was terminated due to unrecoverable numerical difficulties.	Optimal
+SUBOPTIMAL	13	Unable to satisfy optimality tolerances; a sub-optimal solution is available.	Optimal
+INPROGRESS	14	An asynchronous optimization call was made, but the associated optimization run is not yet complete.	Default: Unknown
+USER_OBJ_LIMIT	15	User specified an objective limit (a bound on either the best objective or the best bound), and that limit has been reached.	Default: Unknown
+WORK_LIMIT	16	Optimization terminated because the work expended exceeded the value specified in the WorkLimit parameter.	Default: Unknown
+CPX_STAT_OPTIMAL	1	Optimal solution is available.	Optimal
+CPX_STAT_UNBOUNDED	2	Problem has an unbounded array.	Dual Infeasible Certificate
+CPX_STAT_INFEASIBLE	3	Model has proven to be infeasible.	Primal Infeasible Certificate
+CPX_STAT_INForUNBD	4	Model has proven to be either unfeasible or unbounded.	Dual Infeasible Certificate
+CPX_STAT_OPTIMAL_INFEAS	5	Optimal solution is available, but with infeasibilities after scaling.	Optimal
+CPX_STAT_NUM_BEST	6	Solution is available, but not proved optimal, due to numeric difficulties during optimization.	Optimal
+CPX_STAT_ABORT_PRIM_OBJ_LIM	21	Stopped due to a limit on the primal objective.	Dual Infeasible Certificate
+CPX_STAT_ABORT_DUAL_OBJ_LIM	22	Stopped due to limit on dual objective.	Primal Infeasible Certificate
+CPX_STAT_FEASIBLE	23		Primal Feasible
+CPX_STAT_MULTIOBJ_OPTIMAL	301	All sub-problems solved during the solution of a multi-objective problem have been solved to optimality.	Optimal
+CPX_STAT_MULTIOBJ_INFEASIBLE	302	Multi-objective problem has been proven infeasible.	Primal Infeasible Certificate
+CPX_STAT_MULTIOBJ_INForUNBD	303	Multi-objective problem has been proven either infeasible or unbounded.	Dual Infeasible Certificate
+CPX_STAT_MULTIOBJ_UNBOUNDED	304	Multi-objective problem has an unbounded array.	Dual Infeasible Certificate
+CPX_STAT_MULTIOBJ_NON_OPTIMAL	305	All sub-problems solved during the solution of a multi-objective problem have been solved, but at least one of them has not been solved to optimality.	"CPLEX status = {nIn}"
+CPX_STAT_MULTIOBJ_STOPPED	306	The solve of a multi-objective problem was interrupted.	"CPLEX status = {nIn}"
+CPXMIP_OPTIMAL_TOL	102	An optimal solution within the tolerance defined by the relative or absolute MIP gap has been found.	Optimal
+CPXMIP_INFEASIBLE	103	Solution is integer infeasible.	Primal Infeasible Certificate
+CPXMIP_TIME_LIM_FEAS	107	Time limit exceeded, but integer solution exists.	Primal Feasible
+CPXMIP_FAIL_FEAS	109	Terminated because of an error, but integer solution exists.	Primal Feasible
+CPXMIP_ABORT_FEAS	113	Stopped, but an integer solution exists.	Primal Feasible
+CPXMIP_OPTIMAL_INFEAS	115	Stopped; no integer solution.	Optimal
+CPXMIP_UNBOUNDED	118	Problem has an unbounded array.	Dual Infeasible Certificate
+CPXMIP_DETTIME_LIM_FEAS	131	Deterministic time limit exceeded, but integer solution exists.	Primal Feasible
+CPX_STAT_MULTIOBJ_OPTIMAL	301	All sub-problems solved during the solution of a multi-objective problem have been solved to optimality.	Optimal
+CPX_STAT_MULTIOBJ_INFEASIBLE	302	Multi-objective problem has been proven infeasible.	Primal Infeasible Certificate
+CPX_STAT_MULTIOBJ_INForUNBD	303	Multi-objective problem has been proven either infeasible or unbounded.	Dual Infeasible Certificate
+CPX_STAT_MULTIOBJ_UNBOUNDED	304	Multi-objective problem has an unbounded ray.	Dual Infeasible Certificate
+CPX_STAT_MULTIOBJ_NON_OPTIMAL	305	All sub-problems solved during the solution of a multi-objective problem have been solved, but at least one of them has not been solved to optimality.	"CPLEX status = {nIn}"
+CPX_STAT_MULTIOBJ_STOPPED	306	The solve of a multi-objective problem was interrupted.	Optimal
+
+Paragraphs:
+Diagnostic Solver Summary controls the printing of a brief summary of each solution to the mathematical programming problems solved during the simulation. These summaries are of the following format depending on the LP/MIP solved:
+
+For Linear problems, the output is as follows:
+
+For Integer problems, the output is as follows:
+
+Condition numbers are further described in Numerical Stability .
+
+The solver status depends on the solver used in the optimization. The table below presents the status codes, descriptions, and the solver status output generated by PLEXOS for Gurobi.
+
+Gurobi status code Value Description Plexos Status LOADED 1 Model was solved to optimality (subject to tolerances), and an optimal solution is available. Unknown OPTIMAL 2 Model is loaded, but no solution information is available. Optimal INFEASIBLE 3 Model was proven to be infeasible. Primal Infeasible Certificate INF_OR_UNBD 4 Model was proven to be either unfeasible or unbounded. Primal Infeasible Certificate UNBOUNDED 5 Model was proven to be unbounded. Dual Infeasible Certificate CUTOFF 6 Optimal objective for model was proven to be worse than the value specified in the Cutoff parameter. No solution information is available. Unknown ITERATION_LIMIT 7 Optimization terminated because the total number of simplex iterations performed exceeded the value specified in the value specified in the IterationLimit parameter, or because the total number of barrier iterations exceeded the value specified in the BarIterLimit parameter. Unknown NODE_LIMIT 8 Optimization terminated because the total number of branch-and-out nodes explored exceeded the value specified in the NodeLimit parameter. Unknown TIME_LIMIT 9 Optimization terminated because the time expended exceeded the value specified in the TimeLimit parameter. If an integer-feasible solution was found: Primal Feasible. If not: Unknown. SOLUTION_LIMIT 10 Optimization terminated because the number of solutions found reach the value specified in the SolutionLimit parameter. Unknown INTERRUPTED 11 Optimization was terminated by user. If an integer-feasible solution was found: Optimal. If not: Unknown. NUMERIC 12 Optimization was terminated due to unrecoverable numerical difficulties. Optimal SUBOPTIMAL 13 Unable to satisfy optimality tolerances; a sub-optimal solution is available. Optimal INPROGRESS 14 An asynchronous optimization call was made, but the associated optimization run is not yet complete. Default: Unknown USER_OBJ_LIMIT 15 User specified an objective limit (a bound on either the best objective or the best bound), and that limit has been reached. Default: Unknown WORK_LIMIT 16 Optimization terminated because the work expended exceeded the value specified in the WorkLimit parameter. Default: Unknown
+
+The following tables presents the status codes, descriptions, and reported solver statuses for CPLEX LP and MIP.
+
+Table 2. CPLEX LP status codes and corresponding PLEXOS solution statuses.
+
+Table 3. CPLEX MIP status codes and corresponding PLEXOS solution statuses.
+Lists:
+

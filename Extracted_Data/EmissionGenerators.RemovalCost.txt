@@ -1,0 +1,22 @@
+Header: Emission Generators Removal Cost
+
+Table Details:
+Units:	Input: $/kg (Metric), $/lb (U.S. Imperial)    Output: $
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of emissions abatement
+
+Paragraphs:
+As input Emission Generators Removal Cost is the incremental cost of removal of the emission by the generator. This property might represent the cost of operating emission abatement equipment at the plant. The effectiveness of the emission removal technology is defined using the Emission Generators Removal Rate property.
+
+See also:
+
+As output Emission Generators Removal Cost is the cost of emissions removed.
+Lists:
+	- Emission Generators Production Rate
+	- Emission Fuels Production Rate
+	- Abatement Class
+

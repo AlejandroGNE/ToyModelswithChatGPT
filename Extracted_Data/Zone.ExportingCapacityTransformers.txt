@@ -1,0 +1,11 @@
+Header: Zone Exporting Capacity Transformers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Exporting Capacity Transformers is the set of Transformer objects exporting from the capacity Zone . This collection is reserved for reporting only.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Purchaser Max Energy Hour
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in hour
+
+Paragraphs:
+Purchaser Max Energy Hour is Maximum energy in hour. This is the hourly equivalent of Purchaser Max Energy .
+Lists:
+

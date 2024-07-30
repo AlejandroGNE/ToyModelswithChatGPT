@@ -1,0 +1,12 @@
+Header: Diagnostic Embedded Losses
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for embedded loss iterations
+
+Paragraphs:
+This option produces a diagnostic file in XML format that details the iterations performed to remove load embedded in the input load as defined by the Region Load Includes Losses property.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Power2X Min Production Week
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum production in week
+
+Paragraphs:
+Refer to Facility Min
+            Production Week for details.
+Lists:
+

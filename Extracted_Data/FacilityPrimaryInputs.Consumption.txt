@@ -1,0 +1,22 @@
+Header: Facility Primary Inputs Consumption
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of Process Primary Input Commodity consumed by the Facility
+
+Paragraphs:
+Facility Primary
+            Inputs Consumption is the amount of the Primary
+            Process Primary Input Commodity consumed by the Facility in
+          its Production .
+
+See also:
+Lists:
+	- Facility Primary
+              Outputs Production
+

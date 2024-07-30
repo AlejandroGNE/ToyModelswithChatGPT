@@ -1,0 +1,28 @@
+Header: Generator Run Down Rate
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ramp rate that applies while running the unit down from [Min Stable Level] to zero
+Units	1	-
+Max Capacity	100	MW
+Min Stable Level	40	MW
+Run Down Rate	0.5	MW/min.
+
+Paragraphs:
+By default generating units are assumed to run down instantaneously. To override this behaviour Generator Run Down Rate defines a ramping limit that applies while the generating unit is running down from Min Stable Level to zero. This property is a simplified version of Shutdown Profile and is used when the run down rate is constant.
+
+Note that this run down rate can be different to the Max Ramp Down which applies in the normal operating range, and Max Ramp Down does not need to be defined to use Run Down Rate.
+
+Example:
+
+See also:
+Lists:
+	- Shutdown Profile
+	- Run Up Rate
+	- Start Profile
+

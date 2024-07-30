@@ -1,0 +1,34 @@
+Header: Contingency Screening Elements
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Determines which lines/transformers would be screened for post-contingency flow under this contingency
+
+Paragraphs:
+Contingency Screening Elements determines which Lines/Transformers would be screened for post-contingency flow under this contingency.
+
+For contingency screening logic to work: The ST Phase must be enabled, with the Transmission Detail set to Nodal. There has to be at least one screen contingency in the model. A screen contingency is a contingency with Screening Elements set to Monitored Membership or Network Selections. Binding Contingencies under diagnostic object must be enabled.
+
+After ST phase simulation completes, PLEXOS will generate a report file with all the contingency-monitored pairs that has a flow violation. This report file can be found in the solution folder, with file name ends with "Screen Contingency Selection Report.txt". Users can make use of this report and import records in this file back to PLEXOS manually and iterate the process to find all contingency-monitored pairs that need to be monitored in the run for a SCUC solution.
+
+To start the contingency screening process, users need to specify Screening Elements for contingencies wanted to be screened and Screening Mode for Lines/Transformers. Then, users can start to run the first simulation and obtain the screen contingency selection report.
+            	Here is an example showing how to use the records displayed in screen contingency selection report for the next iteration of simulation. Flow violations identified under base case would always be reported at the top. In the example dataset, Line East_North_115 and North_115 have flow violations under base case. Followed by that, a contingency-monitored pair is being reported. ContLine_E_and_W1_W2 is a screen contingency, and North_South_230 is a screened line with flow violation.
+
+For base case violations, users can choose to enforce limits on those elements for the next round of simulation. For contingency-monitored pairs that are identified through the process, users can paste them to contingency membership table as below for the next round of simulation.
+
+
+
+The following undocumented parameters are used to determine if a contingency-monitored pair has a flow violation. Please refer to the Hidden Parameters for default values and more details on those hidden parameters. 1. "PreContingencyLoadingPctThreshold" under "Transmission" class. 2. "PostContingencyLoadingPctThreshold" under "Transmission" class. 3. "LoadingChangeWithContingencyPctThreshold" under "Transmission" class. 4. "TopContingencyMonitoredCount" under "Transmission" class. 5. "TopContingencyCountPerScreeningElement" under "Transmission" class. \ 6. "LODFThresholdForScreeningContingency" under "Transmission" class. \
+             	For a screened Line/Transformer, if its pre-contingency loading is violating PreContingencyLoadingPctThreshold, it will be reported. For a screened Line/Transformer under a screen contingency, if its post-contingency loading/loading change is violating PostContingencyLoadingPctThreshold/LoadingChangeWithContingencyPctThreshold defined by the user, then this contingecy-monitored pair will be reported. Most of the time, we found enforcing only a small subset of these contingency-monitored pairs is already sufficient to guarantee that all the remaining ones are automatically satisfied. So TopContingencyMonitoredCount and TopContingencyCountPerScreeningElement are designed for such purposes. All contingency-monitored pairs identified in the ST phase would be ranked by their aggregated loading changes due to contingency over the run horizon from high to low. TopContingencyMonitoredCount determines the top number of pairs to be reported if more pairs are identified than what users want to report. TopContingencyCountPerScreeningElement determines the top number of screen contingencies to be reported for a single screening element if more elements are identified than what users want to report. Elements with hightest aggregated loading change will be reported. For a certain period, if for a contingency-monitored pair, the max absulte value of LODFs among all contingent elements is even less than LODFThresholdForScreeningContingency, then the violation for this contingency-monitored pair for the period will be ignored.
+
+Please note that adding contingency-monitored pairs to the next iteration through contingency membership table does not guarentee the monitored memberships' post-contingency flow limits would be enforce in the next iteration. Users need to make sure Enforce Limit on Lines/Transformers or SCUC Constraint Voltage Threshold are specified for the expected behavior. Users can also control the From kV level of reported contingency-monitored pairs by putting Lines/Transformers below certain kV with Screening Mode = None.
+Lists:
+	- The ST Phase must be enabled, with the Transmission Detail set to Nodal.
+	- There has to be at least one screen contingency in the model. A screen contingency is a contingency with Screening Elements set to Monitored Membership or Network Selections.
+	- Binding Contingencies under diagnostic object must be enabled.
+

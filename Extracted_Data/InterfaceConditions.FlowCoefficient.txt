@@ -1,0 +1,15 @@
+Header: Interface Conditions Flow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of flow in condition
+
+Paragraphs:
+Interface Conditions Flow Coefficient is Coefficient of flow in condition.
+Lists:
+

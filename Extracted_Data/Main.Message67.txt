@@ -1,0 +1,15 @@
+Header: Message 67
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Constraint <name> cannot be conditional unless defining Constraint RHS of period type = "interval".
+
+Paragraphs:
+Message 67 occurs in the following circumstances:
+
+Since Condition objects are evaluated every interval, which is reported as Hours Active , conditional constraints can only be defined as interval-type i.e. by defining the RHS property.
+Lists:
+	- You define a Constraint object using one of the values RHS Day , RHS Week , RHS Month , RHS Year , RHS Custom , and
+	- make the Constraint 'conditional' by including a Variable object in the Constraint Conditions collection.
+

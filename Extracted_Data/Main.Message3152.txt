@@ -1,0 +1,11 @@
+Header: Message 3152
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Gas Capacity Release Offer <name> has no memberships assigned to it.
+
+Paragraphs:
+Message 3152 occurs in the following circumstances:
+Lists:
+

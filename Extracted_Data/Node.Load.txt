@@ -1,0 +1,70 @@
+Header: Node Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load
+
+Paragraphs:
+Node Load defines the local load at the specified node. There are a number
+              of ways in which the Node load input
+              can be defined, and it is generally built up out of several input
+              components. The input options are considered in the following
+              order:
+
+1. Node Load
+
+If you define Load directly as a input, then:
+
+If the Region defines Fixed
+                Load and/or Fixed
+                Generation then this is assigned to the Node in proportion to the Load input.
+
+2. Region Load
+
+If you define Load on the Region ,
+              the definition of load on the Node depends on whether or not the Zone membership is defined.
+
+Without Zone membership:
+
+Load = ( Region Load × Region Load
+                Scalar + Fixed Load - Fixed Generation ) × Load
+                Participation Factor + Fixed
+                Load
+
+With Zone membership:
+
+Load = ( Region Load × Region Load
+                Scalar + Fixed Load - Fixed Generation ) × Zone Load Participation
+                Factor × Load
+                Participation Factor + Fixed
+                Load
+
+3. Zone Load
+
+If you associate the Node with a Zone and that Zone defines Load as input then:
+
+Load = Zone Load × Zone Load
+                Scalar × Zone Load
+                Participation Factor × Load
+                Participation Factor + Fixed
+                Load
+
+Note, in all cases, if the Node is
+              not 'in-service' according to the Units property, then the load is zero.
+
+Node Load as an output is defined
+              as:
+
+Note: If Single-pass GPF is selected as the Transmission Loss Method , losses are included in the Load.
+
+See also:
+Lists:
+	- Node Flow
+	- Node Net
+              Injection
+

@@ -1,0 +1,15 @@
+Header: Generator Decision Variables Heat Input Definition Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the Decision Variable in the Generator Heat Input definition equation
+
+Paragraphs:
+Generator Decision Variables Heat Input Definition Coefficient is Coefficient of the Decision Variable in the Generator Heat Input definition equation.
+Lists:
+

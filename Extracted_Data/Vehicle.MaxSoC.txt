@@ -1,0 +1,15 @@
+Header: Vehicle Max SoC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Allowable maximum state of charge
+
+Paragraphs:
+Vehicle Max SoC is the allowable maximum state of charge. This is expressed as a percentage of the Capacity defined.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Company Emissions Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission cost net of rights allocation
+
+Paragraphs:
+Company Emissions Cost is the net cost of emissions produced by the Generators the Company owns, and is defined as:
+
+The second term in this formula refers to the Grandfather Rights assigned to the Company which can be defined over any period using one of the property Allocation , Allocation Day , Allocation Week , Allocation Month , or Allocation Year .
+
+See also:
+Lists:
+	- Company Emissions Production
+

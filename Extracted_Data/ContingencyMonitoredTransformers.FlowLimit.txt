@@ -1,0 +1,19 @@
+Header: Contingency Monitored Transformers Flow Limit
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Post-contingency flow limit
+
+Paragraphs:
+Contingency Monitored Transformers Flow Limit sets the transformer post-contingency flow limit for the purposes of security-constrained operation in the Security Constrained Unit Commitment. This input overrides Transformer Overload Rating .
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+	- Transformer Overload Rating
+

@@ -1,0 +1,24 @@
+Header: Battery Min SoC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Allowable minimum state of charge
+Battery1	Max Capacity	25	GWh
+Battery1	Min SoC	10	%
+
+Paragraphs:
+Battery Min SoC is the allowable minimum state of charge of a BESS.  This is expressed as a percentage of the commissioned Capacity (i.e. before any Capacity Degradation ).
+
+Example:
+
+The minimum state of charge that this BESS could obtain is 10% of 25 GWh , which is 2.5 GWh .
+
+See also:
+Lists:
+	- Battery Max SoC
+

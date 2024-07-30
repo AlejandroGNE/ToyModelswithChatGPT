@@ -1,0 +1,15 @@
+Header: Generator Companies Emissions Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from production of emissions
+
+Paragraphs:
+Generator Generator Companies Emissions Cost is defined as:
+Lists:
+

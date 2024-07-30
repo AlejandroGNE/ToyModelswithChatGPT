@@ -1,0 +1,18 @@
+Header: Emission Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation associated with the emission
+
+Paragraphs:
+Emission Generation is the Generation associated with the emission. Generation is summed across all associated Generators and Generator objects that use the defined Fuels producing the emission.
+
+See also:
+Lists:
+	- Emission Intensity
+

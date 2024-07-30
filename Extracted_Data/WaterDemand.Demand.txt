@@ -1,0 +1,15 @@
+Header: Water Demand Demand
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Demand for water
+
+Paragraphs:
+Water Demand Demand is Demand for water.
+Lists:
+

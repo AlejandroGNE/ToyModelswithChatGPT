@@ -1,0 +1,15 @@
+Header: Water Pipeline Maintenance Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to maintenance
+
+Paragraphs:
+Water Pipeline Maintenance Rate is Maintenance rate.
+Lists:
+

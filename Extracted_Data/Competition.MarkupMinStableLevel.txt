@@ -1,0 +1,12 @@
+Header: Competition Mark-up Min Stable Level
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If mark-up should be applied to the full range of unit output including [Min Stable Level].
+
+Paragraphs:
+Competition Mark-up Min Stable Level controls if mark-up , either entered as input or created automatically by a mark-up algorithm, should be applied to the full range of unit output including Min Stable Level . The default is that mark-ups are only applied to the normal operating range of generation.
+Lists:
+

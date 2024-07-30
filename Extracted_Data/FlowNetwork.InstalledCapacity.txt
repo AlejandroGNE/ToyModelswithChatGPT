@@ -1,0 +1,15 @@
+Header: Flow Network Installed Capacity
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow capacity
+
+Paragraphs:
+Flow Network Installed Capacity is Flow capacity.
+Lists:
+

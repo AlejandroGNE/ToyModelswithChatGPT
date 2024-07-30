@@ -1,0 +1,21 @@
+Header: Line Ramp
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Change in flow
+
+Paragraphs:
+Line Ramp is the change in Flow in the interval and is defined as:
+
+See also:
+Lists:
+	- Line Max Ramp Up
+	- Line Max Ramp Down
+	- Line Ramp Penalty
+	- Interface Ramp
+

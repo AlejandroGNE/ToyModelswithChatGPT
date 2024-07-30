@@ -1,0 +1,15 @@
+Header: Power2X Nodes Load Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion of facility load at the node
+
+Paragraphs:
+Power2X Nodes Load Participation Factor is the proportion of the facility's load that occurs at the node.
+Lists:
+

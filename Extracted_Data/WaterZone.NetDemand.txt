@@ -1,0 +1,15 @@
+Header: Water Zone Net Demand
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water demand net of shortages and excesses
+
+Paragraphs:
+Water Zone Net Demand is Water demand net of shortages and excesses.
+Lists:
+

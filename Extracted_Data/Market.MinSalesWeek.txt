@@ -1,0 +1,21 @@
+Header: Market Min Sales Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum sales to the market each week
+
+Paragraphs:
+Market Min Sales Week creates a Constraint object that sets a lower bound on the Sales from the Market each week. By default this is a 'hard'
+          constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Week
+	- Market Constraints Sales Coefficient
+

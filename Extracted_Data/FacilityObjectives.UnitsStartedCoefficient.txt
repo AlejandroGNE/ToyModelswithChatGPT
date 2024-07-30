@@ -1,0 +1,15 @@
+Header: Facility Objectives Units Started Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units started
+
+Paragraphs:
+Facility Objectives Units Started Coefficient is Coefficient on the number of units started.
+Lists:
+

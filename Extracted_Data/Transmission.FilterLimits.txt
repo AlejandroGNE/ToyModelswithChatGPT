@@ -1,0 +1,12 @@
+Header: Transmission Filter Limits
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If transmission limits are filtered using extreme flows from MT Schedule
+
+Paragraphs:
+The aim of this feature is to remove redundant transmission limits (constraints) from the ST schedule phase.  It does this by decomposing the line flows from MT Schedule and builds a list of "extreme" flows, which are used to create a filtering criteria in ST Schedule .  This can considerably improve run-time by reducing the total amount of time spent in the problem optimization (i.e. this will reduce the problem size).
+Lists:
+

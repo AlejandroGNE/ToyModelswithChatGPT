@@ -1,0 +1,18 @@
+Header: Water Node Excess Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of excess supply of water at the node
+
+Paragraphs:
+Water Node Excess Hours is Number of hours of Excess supply of water at the node.
+
+See also:
+Lists:
+	- Water Node Hours of Shortage
+

@@ -1,0 +1,11 @@
+Header: Water Pump Station Upstream Water Storage
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Water Storage situated upstream to the water pump station
+
+Paragraphs:
+Water Pump Station Upstream Water Storage is Water Storage situated upstream to the water pump station
+Lists:
+

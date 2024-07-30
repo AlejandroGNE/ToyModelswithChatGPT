@@ -1,0 +1,84 @@
+Header: Welcome Window
+
+Table Details:
+
+Paragraphs:
+The PLEXOS Welcome Window provides a user-friendly experience for starting up PLEXOS and offers convenient ways to get started with a new or existing database, either locally or on the PLEXOS Cloud.
+
+The Welcome Window offers the following functionalities:
+
+
+
+The Sign in button, available at the top-right corner of the Welcome Window, allows users to sign in to PLEXOS Cloud across various environments to synchronize data between PLEXOS Desktop and the PLEXOS Cloud.
+
+Follow the below steps to Sign in to the PLEXOS Cloud environment:
+
+Refer to the GIF below for example:
+
+
+
+Upon a successful Sign-In, you will see your name and the environment you logged into. Use the Sign out button to log out when needed.
+
+For example:
+
+The Create a New Database panel allows users to create a new PLEXOS database using built-in templates for Electric, Gas, Universal, and Water libraries.
+
+
+
+Follow the below steps to create a New Database:
+
+Refer to the GIF below for example:
+
+
+
+The Open an Existing Database panel showcases recently opened Database files, including both Local Databases and Cloud Studies.
+
+
+
+The users can identify the Database/Studies based on their Database Types, such as whether the study is a Local Study, Cloud (Cloned) Study or Cloud (Not Cloned) Study.
+
+Refer to the image below to identify the different statuses of the Studies in the list:
+
+
+
+For the listed Local and Cloud Studies, users can hover over a Study Name and click on the Action Menu (kebab menu) to perform the following actions:
+
+Refer to the GIF below for example:
+
+
+
+Refer to the GIF below for example:
+
+Refer to the GIF below for example:
+
+The Model Solution panel retrieves the list of all Solutions and displays them based on the Study selected in the Open and Existing Database panel.
+
+Refer to the GIF below for example:
+
+The Product News panel provides links to articles including product release notifications, technical product blogs, trainings, and reference articles such as modelling guides, release notes etc. The latest Product News can help users stay up to date with the latest PLEXOS releases and information from Energy Exemplar.
+
+Refer to the GIF below for example:
+Lists:
+	- Recent: Displays a list of recently opened Databases (up to a maximum 20) that exist on the user’s local machine, including both Local Databases and Cloud Studies.
+	- Cloud: Displays a list of all Cloud Studies with their synchronization status. The Cloud Studies list is automatically refreshed when the Welcome Window is opened. However, users can also use the Refresh icon available in the Cloud section under the Existing Database panel to update the list for new Studies.
+	- Open: Launches the Study in PLEXOS Desktop.
+	- Open Location: Opens the Study path in the Windows Explorer window.
+	- View in Cloud: Launches the Study in PLEXOS Cloud.
+	- Clone to Desktop: Downloads and links the Study from PLEXOS Cloud to Desktop.
+	- Remove: Removes a Study from the Database panel.
+
+
+H2s:
+1. Sign in to PLEXOS Cloud
+2. Create a New Database
+3. Open an Existing Database
+4. Open a Model Solution
+5. Product News
+
+H3s:
+[A] Database Types
+[B] Action Menu
+[C] Search and Filter Studies
+
+H4s:
+Table of Contents

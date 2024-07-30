@@ -1,0 +1,15 @@
+Header: Battery Available SoC
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	SoC less minimum SoC
+
+Paragraphs:
+Battery Available SoC is SoC less minimum SoC .
+Lists:
+

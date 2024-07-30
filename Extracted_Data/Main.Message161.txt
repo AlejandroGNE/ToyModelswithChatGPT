@@ -1,0 +1,11 @@
+Header: Message 161
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Error (value = 0)
+Description:	Constraint <name> Generators <name> cannot define both Constraint Generators [Units Built Coefficient] together with Constraint Generators [Units Built in Year Coefficient].
+
+Paragraphs:
+Message 161 occurs in the following circumstances:
+Lists:
+

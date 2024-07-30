@@ -1,0 +1,15 @@
+Header: Market Buy Block Fixed Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed cost of block purchases
+
+Paragraphs:
+Market Buy Block Fixed Charge is the fixed cost of block purchases. This property works in conjunction with Buy Block (and hour/day/week/month/year variants) and Buy Unit to impose a fixed cost on taking up the purchase.
+Lists:
+

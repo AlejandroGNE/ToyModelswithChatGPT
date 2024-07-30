@@ -1,0 +1,15 @@
+Header: Interface Offer Price Back
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price offered in band for counter-reference direction flows
+
+Paragraphs:
+Interface Offer Price Back is the price offered in band for counter-reference direction flows.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Flow Node Entities Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage share of interest in the Flow Node
+
+Paragraphs:
+Flow Node Entities Share is the percentage share of interest in the Flow Node.
+Lists:
+

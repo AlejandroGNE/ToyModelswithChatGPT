@@ -1,0 +1,11 @@
+Header: Gas Storage Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Storage inherits from
+
+Paragraphs:
+Gas Storage Template is template the Gas Storage inherits from
+Lists:
+

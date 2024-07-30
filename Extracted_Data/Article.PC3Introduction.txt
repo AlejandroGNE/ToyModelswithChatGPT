@@ -1,0 +1,140 @@
+Header: Introduction to PLEXOS Connect 3
+
+Table Details:
+
+Paragraphs:
+The purpose of this user documentation is to provide necessary information for the user to effectively use the PLEXOS Connect system. This documentation accompanies the release version of PLEXOS Connect 3. For additional information or support please contact support@energyexemplar.com.
+
+This documentation is organized into following sections:
+
+This is the introduction section which contains an overview of PLEXOS Connect, system requirements for PLEXOS Connect and some information for use of this documentation.
+
+This is an essential section which explains the conceptual background for use of the PLEXOS Connect system.
+
+This section provides information for installing PLEXOS connect components and walk through the steps in setting up a PLEXOS Connect system.
+
+This section aims to guide you through configuring the PLEXOS Connect Server for integration with supported cloud providers.
+
+This section aims to guide new users through uploading a PLEXOS model, executing it and accessing PLEXOS solution
+
+This section provides a detailed guide in performing operations with PLEXOS Connect launch control user interface.
+
+This section provides a detailed guide in how to use PLEXOS Desktop Edition with a PLEXOS Connect system.
+
+PLEXOS Connect is a client-server system to complement with the PLEXOS Integrated Energy Model (PLEXOS Desktop Edition) simulation tool. PLEXOS Connect is provided for PLEXOS users as a platform to:
+
+There are three main components in PLEXOS Connect:
+Lists:
+	- Allow collaboration in providing data for PLEXOS simulations.
+	- Easily distribute PLEXOS simulations for parallel executions over multiple computers.
+	- Conveniently compare and review results from PLEXOS simulations.
+	- PLEXOS Connect Server : The centre of PLEXOS Connect system in which all other components connect to.
+	- PLEXOS Connect Client : The computing resource that can be used to perform PLEXOS simulations which are dispatched from the PLEXOS Connect Server.
+	- PLEXOS Connect Launch Control : The interface for users to perform operations in PLEXOS Connect System.
+	- PLEXOS Connect Server
+	- Version 2
+	- Version 3
+	- Supported Operating Systems
+	- Windows Server 2016
+	- Windows Server 2019
+	- Windows 10
+	- Supported Architecture
+	- x86
+	- x64
+	- Hardware Recommendations
+	- Dual-core processor
+	- 8 GB RAM
+	- Other Requirements
+	- Microsoft .NET Framework 4.8
+	- Network connection allowing TCP connection on a configurable port
+	- Version 2
+	- Version 3
+	- Windows Server 2016
+	- Windows Server 2019
+	- Windows 10
+	- x86
+	- x64
+	- Dual-core processor
+	- 8 GB RAM
+	- Microsoft .NET Framework 4.8
+	- Network connection allowing TCP connection on a configurable port
+	- Supported Operating System
+	- Windows Server 2016
+	- Windows Server 2019
+	- Windows 10
+	- Supported Architecture
+	- x86
+	- x64
+	- Hardware Recommendations
+	- Dual-core processor
+	- 4 GB RAM
+	- Other Requirements
+	- Microsoft .NET Framework 4.8
+	- Network connected allowing TCP connection on two configurable ports
+	- Windows Server 2016
+	- Windows Server 2019
+	- Windows 10
+	- x86
+	- x64
+	- Dual-core processor
+	- 4 GB RAM
+	- Microsoft .NET Framework 4.8
+	- Network connected allowing TCP connection on two configurable ports
+	- PLEXOS Connect Server
+	- Version 3
+	- Supported Operating Systems
+	- Windows Server 2016
+	- Windows Server 2019
+	- Windows 10
+	- Unix/Linux (using Mono)
+	- Supported Architecture (Windows)
+	- x86
+	- x64
+	- Supported Architecture (Linux)
+	- x64
+	- Required Frameworks
+	- Windows: Microsoft .NET Framework 4.8
+	- Linux: Mono 6.4.0 or newer
+	- Hardware Recommendations
+	- Dual-core or Quad-core processor
+	- 8 GB RAM
+	- PLEXOS Engine
+	- Please check the hardware recommendations for PLEXOS, as they could be higher.
+	- Other Requirements (Windows)
+	- Network connection allowing TCP connection on two configurable ports
+	- Version 3
+	- Windows Server 2016
+	- Windows Server 2019
+	- Windows 10
+	- Unix/Linux (using Mono)
+	- x86
+	- x64
+	- x64
+	- Windows: Microsoft .NET Framework 4.8
+	- Linux: Mono 6.4.0 or newer
+	- Dual-core or Quad-core processor
+	- 8 GB RAM
+	- Please check the hardware recommendations for PLEXOS, as they could be higher.
+	- Network connection allowing TCP connection on two configurable ports
+
+
+H2s:
+Contents
+1. Introduction
+2. Information for the use of this documentation
+3. Overview
+4. Minimum System Requirements
+
+H3s:
+4.1. PLEXOS Connect Launch Control
+4.2. PLEXOS Connect Server
+4.3. PLEXOS Connect Client
+
+H5s:
+Introduction
+PLEXOS Connect Concepts
+Getting started with PLEXOS Connect
+Using PLEXOS Connect in a Cloud Environment
+PLEXOS Connect Launch Control Quick Start Guide
+PLEXOS Connect Launch Control User Interface
+PLEXOS Integrated Energy Model

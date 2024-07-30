@@ -1,0 +1,84 @@
+Header: Global Slicing Block
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Defines blocks of time that should be kept together when performing time slicing e.g. for load duration curves
+Slicing Block	-1		-	1	M1,H1-6;M2,H1-7;M3-4,H1-6;M5-9,H1-7;M10,H1-6;M11,H1-5;M12,H1-5
+Slicing Block	-1		-	2	M1,H7-9;M2,H8-9;M3,H7-9;M4,H7-8;M5-9,H8-9;M10,H7-8;M11,H6-8;M12,H6-8
+Slicing Block	-1		-	3	M1-3,H10-17;M4,H9-16;M5-9,H10-17;M10,H9-16;M11-12,H9-17
+Slicing Block	-1		-	4	M1-2,H18-20;M3,H18-19;M4,H17-18;M5-9,H18-19;M10,H17-19;M11-12,H18-20
+Slicing Block	-1		-	5	M1-2,H21-24;M3,H20-24;M4,H19-24;M5-10,H20-24;M11-12,H21-24
+Year	Month	Day	Period	Band	Value
+2001	1	1	1	11	-1
+2001	1	1	2	12	-1
+2001	1	1	3	13	-1
+2001	1	1	4	13	-1
+2001	1	1	5	13	-1
+2001	1	1	6	12	-1
+2001	1	1	7	11	-1
+2001	1	1	8	10	-1
+2001	1	1	9	10	-1
+2001	1	1	10	9	-1
+2001	1	1	11	9	-1
+2001	1	1	12	9	-1
+2001	1	1	13	9	-1
+2001	1	1	14	10	-1
+2001	1	1	15	10	-1
+2001	1	1	16	10	-1
+2001	1	1	17	9	-1
+2001	1	1	18	8	-1
+2001	1	1	19	8	-1
+2001	1	1	20	8	-1
+2001	1	1	21	8	-1
+2001	1	1	22	9	-1
+2001	1	1	23	10	-1
+2001	1	1	24	11	-1
+2001	1	2	1	12	-1
+2001	1	2	2	13	-1
+2001	1	2	3	14	-1
+2001	1	2	4	14	-1
+2001	1	2	5	13	-1
+2001	1	2	6	11	-1
+...					
+2001	12	30	24	175	-1
+
+Paragraphs:
+Global Slicing Block defines blocks
+          of time that should be kept together when performing time slicing for
+          partial chronology in LT Plan and MT Schedule e.g. for
+          creating load duration curves. This is particularly useful when
+          modelling systems with significant solar generation when it can be
+          important to keep time periods with high and low solar activity in the
+          same blocks regardless of the input system load.
+
+Slicing Block is a multi-band property with each band defining groups
+          of periods that should be kept together. The value of Slicing Block is
+          either 0 (false) or -1 (true) with -1 indicating the period of time
+          belongs to the group defined by the band. It is convenient to define
+          the time periods in each block using Timeslice or Data File.
+
+Example (using Timeslice):
+
+The example in Table 1 there are five blocks of time that should be
+          kept together and these vary across the year with solar intensity.
+
+
+
+Example (using Data File):
+
+To define a complete set of slicing blocks using an external data
+          file, do the following:
+
+
+
+See also:
+Lists:
+	- Generator
+	- MT Schedule Chronology
+	- LT Plan Chronology
+

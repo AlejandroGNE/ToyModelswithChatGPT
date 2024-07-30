@@ -1,0 +1,47 @@
+Header: Dataset To SQL Utility
+
+Table Details:
+
+Paragraphs:
+The Database to SQL Script utility will produce an SQL Script from any given PLEXOS Database, (both Input and Solution databases), which will create and populate an SQL Database with the corresponding schema and data. It currently creates Primary Keys, Foreign Key Relationships and Unique Constraints.
+
+At the present time, SQL Server, MySQL, Oracle, SQLite and Access (32-bit only) are supported. Use the --target command line argument to specify which DBMS you intend to run the script for.
+
+To populate a Microsoft Access Database, use the 32-bit version of DataSetToSQL and ensure you have installed the 32-bit version of the Microsoft Access Database Engine .
+
+The sql script generated may be quite large. It may be necessary, therefore, to execute the resulting script from the command line.
+
+SQL Server: sqlcmd -i script.sql
+
+MySQL: mysql < script.sql
+
+Oracle: sqlplus @script.sql
+
+SQLite: sqlite3 -init script.sql database.db ".exit"
+
+Access databases are created by the utility directly. There is no script output.
+
+The most efficient method to import Solution Data into SQL Server is to pass the --execute flag and SQL Server credentials so that DataSetToSQL can populate the database directly. If this is not possible, similar performance can be achieved by generating data files which can later be imported using SQL Server's BULK INSERT feature. In this case you do not need to specify credentials.
+
+An independent BULK INSERT involves generating data files using the --sqlserverdatafiles flag, and specifying --sqlserverdatafilepath-out (where the files will be written to) and --sqlserverdatafilepath-in (where the files will be read from by SQL Server. This path must be visible to the instance of SQL Server running the import script and would only be set if you plan on moving the files to this location after they are generated.) You can then execute the SQL Script to populate the database.
+
+To more efficiently populate SQLite with Solution data, pass --sqlite-datafiles (and optionally an --sqlite-datafilepath). DataSetToSQL will now generate CSV files for the large t_data tables, and the SQL script will import from these files. Do not move the files once generated as the SQL script references the path explicitly.
+
+A basic query in SQL Server of the solution database would be as follows.
+
+Of the various "numbered" tables, such as t_data_0, t_data_1, t_period_0, t_period_1, etc; the number refers to a period type, where the numbers correspond as follows: 0 = Interval, 1 = Day, 2 = Week, 3 = Month, 4 = Year phase_id's correspond as follows: 1 = LT Plan, 2 = PASA, 3 = MT Schedule, 4 = ST Schedule
+
+A basic query in SQL Server of the solution database would be as follows. In this format, all ids for parameters can be acquired from lookup tables.
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+2. Command Line Usage
+3. DBMS Support
+4. Usage Notes
+5. SQL Server Options
+6. SQLite Options
+7. Solution Query Example (SQL Server)
+8. Solution Query Example - Simple Schema

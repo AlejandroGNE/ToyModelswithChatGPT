@@ -1,0 +1,23 @@
+Header: Financial Contract Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract quantity
+RETAIL #1	Quantity	700	MW	PEAK
+RETAIL #1	Quantity	550	MW	OFF-PEAK
+RETAIL #1	Floor Price	$55	$/MWh	
+RETAIL #1	Cap Price	$55	$/MWh	
+
+Paragraphs:
+Financial Contract Quantity sets the volume of the contract.
+
+Example:
+
+In a Gross Pool this example defines a contract-for-differences ( CfD ), or two-way contract, with a strike price of $55/ MWh . The contract guarantees the generator receives at least this price for generation, and at the same time it guarantees that the load will pay no more than this price for the quantities shown.
+Lists:
+

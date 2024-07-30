@@ -1,0 +1,19 @@
+Header: Storage Min Release
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum rate of release from the storage
+
+Paragraphs:
+Storage Min Release is the minimum (required) rate of release from the storage from all sources including Generator Release and Spill . This might represent a environmental constraint such as a minimum release to maintain downstream river flows.
+
+See also:
+Lists:
+	- Storage Max Release
+	- Storage Max Spill
+

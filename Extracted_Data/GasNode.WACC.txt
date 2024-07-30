@@ -1,0 +1,21 @@
+Header: Gas Node WACC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10
+Validation Rule:	≥0
+Key Property:	No
+Description:	Weighted average cost of capital
+
+Paragraphs:
+Gas Node WACC is the weighted average cost of capital. If no WACC rate is set, the discount rate is used.
+
+See the topic Generator WACC for more details.
+
+See also:
+Lists:
+	- Gas Node Max Units Built
+	- Gas Node Technical Life
+

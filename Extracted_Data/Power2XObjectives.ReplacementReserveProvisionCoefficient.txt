@@ -1,0 +1,15 @@
+Header: Power2X Objectives Replacement Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of replacement reserve provision
+
+Paragraphs:
+Power2X Objectives Replacement Reserve Provision Coefficient is Coefficient of replacement reserve provision.
+Lists:
+

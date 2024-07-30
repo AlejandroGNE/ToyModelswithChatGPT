@@ -1,0 +1,20 @@
+Header: Region Generation Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation capacity built
+
+Paragraphs:
+Region Generation Capacity Built is the total generation capacity built in the period in LT Plan and is defined as:
+
+See also:
+Lists:
+	- Region Generation Capacity
+	- Region Generation Capacity Retired
+	- Region Generator Build Cost
+

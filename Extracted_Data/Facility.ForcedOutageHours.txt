@@ -1,0 +1,21 @@
+Header: Facility Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on forced outage
+
+Paragraphs:
+Facility Forced Outage Hours is
+          the number of hours the facility has any production capacity on Forced
+            Outage in the reporting period.
+
+See also:
+Lists:
+	- Facility Maintenance
+              Hours
+

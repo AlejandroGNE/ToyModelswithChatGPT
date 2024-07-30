@@ -1,0 +1,19 @@
+Header: Variable Error Std Dev
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage standard deviation of errors
+
+Paragraphs:
+Variable Error Std Dev is the percentage standard deviation of errors.
+
+When using lognormal Distribution Type , the value needs to be scaled by
+
+For example, to get Error Std Dev of 20% in lognormal, you will need to enter the value
+Lists:
+

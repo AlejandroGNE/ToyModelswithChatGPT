@@ -1,0 +1,24 @@
+Header: Facility Consumption
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumption of the Primary Input Commodity by the Facility
+
+Paragraphs:
+Facility Consumption is the
+          consumption of the Primary Input Commodity of the Primary
+            Process performed by the facility. It is the total consumed by
+          all Units Operating .
+
+See also:
+Lists:
+	- Facility Units
+	- Facility Max
+              Operating Level
+	- Facility Production
+

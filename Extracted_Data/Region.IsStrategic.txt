@@ -1,0 +1,22 @@
+Header: Region Is Strategic
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the Region's Generators are included in Competition modelling.
+
+Paragraphs:
+Region Is Strategic controls if the Region's Generators are included in Competition modelling. If disabled then Generators in the Region do not mark-up generation above cost or withhold generation.
+
+See also:
+Lists:
+	- Nash-Cournot Competition
+	- Bertrand Competition
+	- LRMC Recovery
+	- Generator Is Strategic
+	- Company Strategic
+

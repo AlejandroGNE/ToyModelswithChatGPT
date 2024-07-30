@@ -1,0 +1,15 @@
+Header: Storage Natural Inflow Rate
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rate of natural inflow
+
+Paragraphs:
+Storage Natural Inflow Rate is Rate of natural inflow.
+Lists:
+

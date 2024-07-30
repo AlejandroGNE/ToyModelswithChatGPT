@@ -1,0 +1,11 @@
+Header: Gas Field Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Gas Field
+
+Paragraphs:
+Gas Field Constraints is set of Constraints on the Gas Field
+Lists:
+

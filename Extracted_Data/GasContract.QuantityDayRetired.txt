@@ -1,0 +1,15 @@
+Header: Gas Contract Quantity Day Retired
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of reduction in quantity daily gas offtake associated with the contract
+
+Paragraphs:
+Gas Contract Quantity Day Retired is Amount of reduction in quantity daily gas offtake associated with the contract.
+Lists:
+

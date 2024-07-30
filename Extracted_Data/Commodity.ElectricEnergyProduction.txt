@@ -1,0 +1,19 @@
+Header: Commodity Electric Energy Production
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent electric energy production
+
+Paragraphs:
+Commodity Electric Energy
+          Production is Equivalent electric energy production, and is defined
+          as:
+
+Electric Energy Production = Production × Energy Density / 3600
+Lists:
+

@@ -1,0 +1,203 @@
+Header: Market Class
+
+Table Details:
+Description:	A market that can supply and/or demand a Commodity
+Type	Description
+Commodity	A Market can buy/sell any Commodity
+                via the Markets
+                membership.
+Electricity	An energy market is connected to one or more Nodes.
+                Trades to and from the energy market are made at these nodes.
+                The megawatt trades act like pseudo loads (for sales) or
+                generators (for purchases). Note that the nodal price will still
+                reflect the marginal cost of production at the node i.e.
+                the external market prices will not always set the prices at
+                these buses.
+Capacity	A capacity market is connected to a set of generators.
+                Those generators receive revenue from the capacity as a function
+                of their availability.
+Heat	A market for heat is connected to one or more Generators
+                that can provide waste heat e.g. for district heating
+                requirements. The conversion rate between the heat input of the
+                generator and the waste heat provided to the market is defined
+                by the property.
+Fuel	A market can be connected to one or more Fuel
+                objects. This feature is designed to model arbitrage between a Fuel Contract and a spot
+                market with the Market object representing the supply of spot
+                market fuel.
+Emission	Emissions can be bought and sold to/from a Market by
+                connecting the Market to one or more Emission
+                objects. Rather than trading the emissions, the sales and
+                purchases into another market e.g. an energy market
+                can contribute to or abate emissions if you define either the Emission Markets
+Sales
+                  Coefficient or Purchases
+                  Coefficient.
+Reserve	Each ancillary services market must be 'connected' to a reserve.
+                The reserve object defines the set of generators that provide
+                the service and their capabilities. Trades can be made in either
+                direction i.e. sales to the external market or
+                purchases to meet local reserve requirements. Note that the
+                reported reserve price will still reflect the marginal cost of
+                reserve provision i.e. the external market prices will
+                not always set the prices of reserve, but all trades will be
+                valued according to the market prices.
+Gas	Natural gas can be bought from or sold a Market by connecting
+                the Market to one or more Gas Node
+                objects. The Market then acts like an export (sales) or import
+                (purchases) at the gas node.
+
+Paragraphs:
+See also Market Property Reference for a detailed list of properties for this class of object.
+
+The Market class is a versatile tool in both market modeling (where
+          the objective function is maximization of net benefit - essentially
+          minimization of system cost) and portfolio optimization (where the
+          objective function is profit maximization).
+
+In market modeling , a Market object represents a source
+          and/or sink for a commodity e.g. electricity, gas, etc (see
+          below for a complete list). Transactions in the market become part of
+          the system cost minimization objective function i.e. Purchases from the market are 'costs' and Sales to the Market are 'benefits' (or 'negative costs'). The properties Max
+          Purchases and Max Sales determine the volume of purchases/sales
+          allowed in the Market. Thus a Market can be either or both a source
+          and a sink. The price paid for purchases and/or received for sales is
+          set by the Price property. This can
+          be either a fixed price or defined as in multi-band pairs of Price and Quantity with Base
+            Quantity to define a market supply/demand curve for a market
+          with depth i.e. where the price varies depending on the
+          amount purchased/sold. An alternative to defining a supply/demand
+          curve is to set a fixed Demand for
+          the given commodity and optionally Shortage
+            Price and Surplus Price .
+          This creates a simple 'vertical' demand function with price caps and
+          is convenient for modeling markets that do not have demand bidding.
+
+In portfolio optimization , the primary input property is
+          the Market Price (which, like most
+          inputs, can be a deterministic or stochastic variable ). 
+          The objective function becomes maximization of revenue less production
+          cost i.e. maximize profit from trades in the market.
+
+Market objects can be buyers or suppliers of the following:
+
+Markets can also be used in a passive sense to 'mark-to-market' Generator Generation or Reserve
+            Provision i.e. to price the production.
+
+Any number of markets can be defined in a simulation and the
+          simulator co-optimize sales and/or purchases to/from all markets
+          simultaneously. Trades in markets can be combined seamlessly with
+          'local' load, ancillary services, etc .
+
+Markets can represent either external markets in which trades are
+          made, or they can represent options or transactions such as physical
+          contracts for generation, load obligations, fuel nominations that are
+          exercisable over some time period e.g. a daily exercisable
+          option.
+
+Markets can be either forward or real-time as described by the Is
+            Forward property. Forward markets are optimized first in a
+          two-stage optimization process. Once the optimal level of forward
+          market sales and purchases has been determined these levels are fixed
+          while the real-time markets are solved. This two-stage optimization
+          ensures that there is no "pure trading" between forward and real-time
+          markets. The two-stage solve is invoked automatically hence there are
+          both forward and real-time markets in the model.
+
+Each Market object provides collections for connecting the external
+          market to the other simulation elements. How this connection works
+          depends on the type of market being modeled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As well as representing complete external markets, Market objects can
+          be used to represent specific exercisable options for either supply or
+          demand. Thus a portfolio optimization could include many Market
+          objects representing available options that are to be optimized
+          exercisable over various time frames.
+
+Options for buying from a market are set up using Max
+            Purchases and one of Buy Block and-or Buy Block Day / Week / Month / Year ,
+          and Buy Unit .
+
+Options for selling to a market are set up using Max
+            Sales and one of Sell Block and-or Sell Block Day / Week / Month / Year ,
+          and Sell Unit
+
+The Block properties (Buy Block, Sell Block and the period
+          derivatives) determine the period over which the option is exercised
+          (i.e. period, day, week, month, year). The Buy Unit ands Sell Unit
+          properties determine the discreet size of the option. For example a
+          buy block of 25 MW allows the option to be exercised in 25 MW
+          increments up to Max Purchases.
+
+
+
+
+
+Markets can be settled using marginal pricing or volume-weighted
+          pricing- the default being marginal pricing. This is controlled by the Is Marginal property.
+
+The volume and value of trades made to/from the market is reported in
+          the properties: Sales , Purchases , Net Sales , Net
+            Purchases , Revenue , Cost , Net Revenue . The volume-weighted
+          price for sales/purchases are reported as Price
+            Received and Price Paid respectively.
+
+To flow these reported trades and revenues/costs back to the
+          portfolio owner you need to add the Company or companies that own the trades in the Market
+            Companies collection. You can share the reported volumes and
+          revenues/cost using the property of that membership.
+
+Note that generators will continue to receive income from energy
+          sales into their transmission node and those incomes will flow back to
+          the owning companies as reported pool revenue. Because some or all of
+          this generation is sold into energy markets there will be some
+          double-counting of revenues. There are couple of ways of dealing with
+          this, you can either:
+
+
+
+
+
+The market class is a very flexible model and with some of the
+          markets it is possible to inadvertently create an unbounded objective
+          function. This is reported by the solver as a dual infeasibility (if
+          the dual problem is infeasible this means the primal problem's
+          objective is unbounded). This situation can happen where your data
+          implies that infinite sales can be made into a market with a
+          non-negative price. You should correct this problem e.g. by
+          setting a cap on sales using Max Sales .
+Lists:
+	- Commodity optionally at one
+            or more Flow Nodes .
+	- Electrical energy e.g. a buyer of Generator Generation at one or more Nodes
+	- Generation capacity e.g. as buyer of Generator Available Capacity
+	- Heat e.g. a buyer of Generator Waste Heat
+	- Fuel e.g. a seller of Fuel to a Generator
+	- Emissions e.g. a buyer of Emissions
+	- Ancillary services e.g. buying or selling Reserve
+	- Gas e.g. a buyer or seller of natural gas at a Gas
+              Node
+	- Manually subtract the reported Generator Pool Revenue from the
+            company revenues/profits; or
+	- Set the Region Generator
+              Settlement Model and Load
+              Settlement Model to "None", meaning that no pool revenues are
+            accumulated to the generators themselves and only trades in the
+            external markets are counted as pool revenues/costs.
+

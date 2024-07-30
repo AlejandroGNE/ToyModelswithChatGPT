@@ -1,0 +1,15 @@
+Header: Gas Plant Units Shutdown
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units shutdown
+
+Paragraphs:
+Gas Plant Units Shutdown is Number of units shutdown.
+Lists:
+

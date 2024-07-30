@@ -1,0 +1,15 @@
+Header: Fuel Source Power2X Delivered Energy
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat energy delivered by Power2X to the fuel
+
+Paragraphs:
+Fuel Source Power2X Delivered Energy is Heat energy delivered by Power2X to the fuel.
+Lists:
+

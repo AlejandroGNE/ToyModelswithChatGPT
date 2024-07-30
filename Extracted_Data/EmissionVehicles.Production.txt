@@ -1,0 +1,20 @@
+Header: Emission Vehicles Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production of the emission by the Vehicle
+
+Paragraphs:
+Emission Vehicles Production is the amount of the emission produced by the vehicle and
+          is defined as:
+
+Production = Distance
+            Coefficient × Distance + Charging
+            Coefficient × Charging
+Lists:
+

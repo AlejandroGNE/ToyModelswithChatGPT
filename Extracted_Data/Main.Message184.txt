@@ -1,0 +1,11 @@
+Header: Message 184
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Region <name> must have at least one Node in service.
+
+Paragraphs:
+Message 184 occurs in the following circumstances:
+Lists:
+

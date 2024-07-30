@@ -1,0 +1,15 @@
+Header: Fuel Contract Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Multiplier on the price of the fuel contract.
+
+Paragraphs:
+Fuel Contract Price Scalar is a value that scales the input Price according to the following formula:
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Gas Plant Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the Gas Plant
+
+Paragraphs:
+Gas Plant Retirement Cost is the cost of retiring the gas plant.
+
+Retirement Cost is calculated as:
+Lists:
+

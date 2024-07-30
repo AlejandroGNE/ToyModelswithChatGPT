@@ -1,0 +1,15 @@
+Header: Power2X Ramp Up Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of ramp up charged at [Ramp Up Charge]
+
+Paragraphs:
+Power2X Ramp Up Cost is Cost of ramp up charged at [Ramp Up Charge].
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Transmission SCUC Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If security constrained unit commitment (SCUC) is enabled
+
+Paragraphs:
+Transmission SCUC Enabled toggles on/off the modelling of a security constrained unit commitment (SCUC). It can take the following values:
+
+Note that you must define Contingency objects to define the SCUC.
+
+See also the article Optimal Power Flow , and the additional options Limit Threshold , and Transmission SCUC Constraint Voltage Threshold .
+Lists:
+

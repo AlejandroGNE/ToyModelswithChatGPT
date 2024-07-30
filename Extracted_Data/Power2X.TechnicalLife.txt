@@ -1,0 +1,16 @@
+Header: Power2X Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the unit
+
+Paragraphs:
+Refer to Facility Technical
+            Life for details.
+Lists:
+

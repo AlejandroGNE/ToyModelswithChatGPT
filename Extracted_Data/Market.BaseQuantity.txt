@@ -1,0 +1,15 @@
+Header: Market Base Quantity
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Expected clearing point on market demand function
+
+Paragraphs:
+Sets the base point on the supply/demand function i.e. above this point represents sales into the market, and below purchases from the market. Must be used with Price and Quantity properties.
+Lists:
+

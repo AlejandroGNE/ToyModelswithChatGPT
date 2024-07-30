@@ -1,0 +1,15 @@
+Header: Gas Contract Reservation Charge
+
+Table Details:
+Units:	$/~/month
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Reservation charge for gas contract
+
+Paragraphs:
+Gas Contract Reservation Charge is a charge for every unit of take quantity in contract reserves, as defined by? Reservation Volume .
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Flow Storage Min Inventory
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum amount of the Commodity required in inventory
+
+Paragraphs:
+Flow Storage Min Inventory is
+          the minimum amount of the Commodity required in inventory. See Commodity Min Inventory for details.
+Lists:
+

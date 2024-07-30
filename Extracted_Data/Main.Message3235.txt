@@ -1,0 +1,11 @@
+Header: Message 3235
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Property cannot be interleaved: <value>. All Constraints group properties are compiled to constraint objects before execution.
+
+Paragraphs:
+Message 3235 occurs in the following circumstances:
+Lists:
+

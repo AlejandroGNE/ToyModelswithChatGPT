@@ -1,0 +1,18 @@
+Header: Transformer Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum MW rating
+
+Paragraphs:
+Transformer Rating is the maximum power that may flow through the transformer.
+
+See also:
+Lists:
+	- Transformer Limit Penalty
+

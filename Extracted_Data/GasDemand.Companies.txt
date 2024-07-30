@@ -1,0 +1,11 @@
+Header: Gas Demand Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the gas demand
+
+Paragraphs:
+Gas Demand Companies is set of companies that own the gas demand
+Lists:
+

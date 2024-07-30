@@ -1,0 +1,57 @@
+Header: Water Modelling
+
+Table Details:
+Water Plant	Water processing plant for processing raw water
+Water Storage	Storage where water can be injected and extracted
+Water Pipeline	Pipeline for transporting water
+Water Node	Connection point in water network
+Water Demand	Demand for water
+Water Zone	Set of water nodes
+
+Paragraphs:
+PLEXOS is an Integrated Energy Model, bringing together Electric, Gas, and Water Models. The simulator provides these classes for the Water Model:
+
+The Water Model provides the capability to model the water supply chain starting with desalination through storage and transport to water demands. A secondary use is to apply the same model to water employment for generation and other water-intensive processes where co optimization with electric/gas/heat is required. The Water Model integrates with LT Plan to calculate optimal investment decisions for water assets. Note that this integrated Water/Gas/Electric Model is not intended to perform the function of a water pipeline flow model. Rather, it uses a simple transportation algorithm to model water flows.
+
+The Water Model is composed of objects from the classes listed above. These connect together as shown in Figure 1.
+
+You Water Model may include any number of these objects in any configuration.
+
+The Water Model tracks flow of water through the network from its source in Water Storage and/or Water Plant objects to consumption by Water Demand objects. Water is generally described in metric units of cubic metres (m 3 ) and rates of demand/production/flow rates in m 3 /day. We use this daily rate but do not preclude intra-day modelling especially when performing water-electric cooptimization. Imperial units would be gallons.
+
+These facilities convert water from one type or grade to another e.g. seawater to fresh. They are a production object and an expansion object. We use the term Water Plant rather than the more specific Desalination Plant because we want this feature to be more broadly applicable than just desalination, though desalination is the primary usage. The following are notes and observations about desalination in particular:
+
+These objects represent storage tanks and other facilities for storing water. They are a production object and an expansion object. These storage elements act similarly to hydro Storage objects in the Electric Model. With these features you are able to optimize the medium to long term usage of water storage while still modelling the fine transportation details in ST Schedule .
+
+The Water and Electric Models integrate at the Water Node. A Node can be attached to a Water Node via the Node membership , and a Storage can attach to a Water Node via the Water Nodes membership. Defining the Node membership instructs the simulator that the Water Plant is physically supplied with electrical power from the Node and it will demand power according to its Energy Usage . Thus connected Water Node objects must have memberships to Node objects to have access to power from the Electric Model. Defining the Water Nodes membership allows for Water Nodes to withdraw from the connected Storage, but not vice versa. This membership will not work if using Energy Hydro Model settings .
+
+The following classes can be built/retired automatically by the LT Plan algorithm:
+
+To define an expansion candidate set the Max Units Built property to unity and the Units property to zero. You can then define the Build Cost and other parameters. Water and Electric Models are co-optimized in LT Plan meaning that optimal decisions are made considering the total cost of the two system combined. Thus it is possible to find the optimal combination of Water and Electric asset investments/retirements over the horizon. The optimal expansion decisions from LT Plan are automatically passed to subsequent simulation phases including the expansion of the Water System.
+Lists:
+	- The two most common technologies for desalination are multi-stage flash distillation (MSF) and reverse osmosis (RO). MSF uses far more energy but has a higher yield than RO.
+	- Co-generation is an option, so we need to be able to link a Water Plant to a Generator so the generation and water production can be linked. This can be done with Constraint.
+	- Water Plant capacity is expressed in terms of the input flow rate (of seawater), not the output rate of fresh water.
+	- Water Plants connect to the electric network and produce an electric load on the network as they process water.
+	- A Water Yield rate determines the conversion between seawater and fresh water.
+	- Desalination produces brine as a by-product. This can be modelled using the Emission class, so Water Plant must link to Emission.
+	- Variable costs include cost of maintenance, labour, pre-treatment and membrane replacement (RO).
+	- There are the usual fixed operation costs.
+	- Water Plant
+	- Water Pipeline
+	- Water Storage
+	- Water Node
+
+
+H2s:
+Contents
+1. Introduction
+2. Water Model
+3. Electric Model Integration
+4. Expansion Planning
+
+H3s:
+2.1. Network Definition
+2.2. Units of Data
+2.3. Water Plant
+2.4. Water Storage

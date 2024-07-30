@@ -1,0 +1,11 @@
+Header: Contingency Monitored Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of lines whose limits are monitored under the contingency
+
+Paragraphs:
+Contingency Monitored Lines defines a set of lines whose post-contingency flows will be monitored (enforced within limits). If this collection is empty then all line flows are monitored.
+Lists:
+

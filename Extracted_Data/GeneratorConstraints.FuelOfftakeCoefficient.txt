@@ -1,0 +1,21 @@
+Header: Generator Constraints Fuel Offtake Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fuel offtake
+
+Paragraphs:
+Generator Generator Fuel Offtake Coefficient is the left-hand side term on the total fuel used ( Fuel Offtake ) in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+where:
+
+By default, this sum is taken over all Generator Fuels . However you can limit the set of Fuels included in the sum by adding Generator Fuels memberships with no associated property definitions. This is a special case of using 'null' memberships to filter the terms included in another constraint property.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Fuel Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation associated with the fuel
+
+Paragraphs:
+Fuel Generation is the Generation from the Generators that use the Fuel .
+
+See also:
+Lists:
+	- Fuel Average Heat Rate
+

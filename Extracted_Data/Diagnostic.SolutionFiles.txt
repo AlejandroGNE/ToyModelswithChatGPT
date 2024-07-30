@@ -1,0 +1,18 @@
+Header: Diagnostic Solution Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write math program solutions to disk in text format
+
+Paragraphs:
+Diagnostic Solution Files toggles on/off writing of diagnostic text files for each solution to the mathematical programming problems solved during the simulation. The files written by this option are in the default text format for the selected solver as defined by the Performance settings of the currently executing Model . These file formats vary in specification, so please refer to the individual solver's documentation for details.
+
+Note that this option may use a lot of disk space (and time) to write the text files and is not recommended for normal use.
+
+See also:
+Lists:
+	- Diagnostic LP Files
+	- Diagnostic MPS Files
+

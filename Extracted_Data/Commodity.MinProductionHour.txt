@@ -1,0 +1,31 @@
+Header: Commodity Min Production Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum production per hour
+
+Paragraphs:
+Commodity Min Production Hour
+          creates a Constraint object that
+          forces the Production of the
+          Commodity each hour. Note that this is the same as setting Min
+            Production when Horizon Periods
+            per Day is 24, and only applies for sub-hourly resolution
+          modeling. By default this is a 'hard' constraint. To create a soft
+          constraint, set the Min
+            Production Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Hour
+	- Commodity Constraints Production
+              Coefficient
+

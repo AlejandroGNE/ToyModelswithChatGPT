@@ -1,0 +1,15 @@
+Header: Gas Transport Discharge Time
+
+Table Details:
+Units:	day
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Time taken to unload gas from the transport
+
+Paragraphs:
+Gas Transport Discharge Time is time taken to unload gas from the transport.
+Lists:
+

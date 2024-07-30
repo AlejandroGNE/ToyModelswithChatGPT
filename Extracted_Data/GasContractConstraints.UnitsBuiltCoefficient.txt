@@ -1,0 +1,20 @@
+Header: Gas Contract Constraints Units Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of units built in Custom Constraint
+
+Paragraphs:
+Gas Contract Constraints Units Built Coefficient is the left-hand side coefficient in the
+          constraint of the binary (0,1) variable indicating if the Gas
+            Contract is built to date.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

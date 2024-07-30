@@ -1,0 +1,25 @@
+Header: Region Transmission Constraint Voltage Threshold
+
+Table Details:
+Units:	kV
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Voltage level at which thermal limits are modeled in this region.
+
+Paragraphs:
+Region Transmission Constraint Voltage Threshold is the voltage level at which thermal limits are modelled in this region.
+
+Region Constraint Voltage Threshold sets the voltage level at which line and transformer (branch) thermal limits are enforced. 
+          This relies on the node voltages being defined a priori . 
+          This setting works in conjunction with the general Transmission Constraint Voltage Threshold . 
+          The value used for the region will be the maximum of the regional and the global value. 
+          To control the threshold uniquely on the region, set the global value to 0 and populate this property to the desired value for all regions.
+
+See also:
+Lists:
+	- Transmission Constraint Voltage Threshold
+	- Region Transmission Constraints Enabled
+

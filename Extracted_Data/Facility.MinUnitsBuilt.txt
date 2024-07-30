@@ -1,0 +1,36 @@
+Header: Facility Min Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically constructed in aggregate over the planning horizon
+Units	0	-
+Max Operating Level	500	-
+FO&M Charge	25,000,000	$
+Max Units Built	1	-
+Min Units Built	1	-
+Build Cost	750,000,000	$
+Economic Life	25	years
+WACC	10	%
+
+Paragraphs:
+Facility Min Units Built requires
+          that a certain number of units are built by LT
+            Plan over the course of the planning horizon. This number must
+          be less than or equal to Max
+            Units Built .
+
+In this example, one unit must be built at some time in the planning
+          horizon. Note that you can control the timing of the build using Date
+            From on the Max
+            Units Built .
+
+See also:
+Lists:
+	- Facility Min
+              Units Built in Year
+

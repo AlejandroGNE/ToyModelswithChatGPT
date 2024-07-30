@@ -1,0 +1,23 @@
+Header: Battery Undispatched Load Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Charging (load) capacity undispatched
+
+Paragraphs:
+Battery Undispatched Load Capacity is defined as:
+
+Undispatched Capacity = MAX(0, Max Load × Units Loading - Load )
+
+This is a measure of how much load capacity is available but not utilized given the unit commitment solution.
+
+See also:
+Lists:
+	- Battery Unused Load Capacity
+	- Balancing Markets
+

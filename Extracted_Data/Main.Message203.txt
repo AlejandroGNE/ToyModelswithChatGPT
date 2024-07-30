@@ -1,0 +1,11 @@
+Header: Message 203
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	The Escalator [Compound Start Date] is later than the end of the horizon. The default date will be used ( <value> ).
+
+Paragraphs:
+Message 203 occurs in the following circumstances:
+Lists:
+

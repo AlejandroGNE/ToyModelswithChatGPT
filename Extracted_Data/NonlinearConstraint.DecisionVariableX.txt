@@ -1,0 +1,11 @@
+Header: Nonlinear Constraint Decision Variable X
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Decision Variable object specifying "X" for the Nonlinear Constraint
+
+Paragraphs:
+Nonlinear Constraint Decision Variable X is the Decision Variable object specifying "X" for the Nonlinear Constraint.
+Lists:
+

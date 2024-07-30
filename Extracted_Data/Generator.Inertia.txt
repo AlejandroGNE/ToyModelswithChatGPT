@@ -1,0 +1,20 @@
+Header: Generator Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Generator Inertia is the amount
+          of inertia provided by the generator and is defined as:
+
+Inertia (MW⋅s) = Inertia
+            Constant (s) × Units
+            Generating × Max Capacity (MW)
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Company Regions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of regions the company has load responsibilities in
+
+Paragraphs:
+The Company Regions collection is used to associate a Company with one or more Regions . The property Load Participation Factor can then be set to assign a load to the company.
+Lists:
+

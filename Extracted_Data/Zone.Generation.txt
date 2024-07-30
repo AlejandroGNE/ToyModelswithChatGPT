@@ -1,0 +1,19 @@
+Header: Zone Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation
+
+Paragraphs:
+Zone Generation is the total generation in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Load
+	- Zone Net Interchange
+

@@ -1,0 +1,17 @@
+Header: Commodity Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue earned from production of the Commodity
+
+Paragraphs:
+Commodity Revenue is the revenue
+          earned from Production of the
+          Commodity at the defined Price and/or sales in Markets .
+Lists:
+

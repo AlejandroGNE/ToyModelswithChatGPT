@@ -1,0 +1,12 @@
+Header: Transmission Cache Transmission Matrices
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Cache the transmission matrices to disk for future use.
+
+Paragraphs:
+This flag controls whether or not the PTDF calculations (B-matrix, etc) are cached to disk for use in future simulations. If caching is allowed subsequent simulations of the same system will read the cached matrices which will improve runtime.
+Lists:
+

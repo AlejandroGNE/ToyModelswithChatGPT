@@ -1,0 +1,15 @@
+Header: Water Zone Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of water demand
+
+Paragraphs:
+Water Zone Cost is Cost of water demand.
+Lists:
+

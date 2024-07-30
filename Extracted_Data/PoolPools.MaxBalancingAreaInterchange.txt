@@ -1,0 +1,17 @@
+Header: Pool Pools Max Balancing Area Interchange
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum financial exports for regions in the Pool
+
+Paragraphs:
+Pool Pools Max Balancing Area Interchange is the maximum financial exports from all Regions in the parent Pool to all Regions in the child Pool.
+
+            Note that financial transaction between a specific pair of regions can be enforced in addition to pool level limit using the Max Balancing Area Interchange specified at Region.Regions level.
+Lists:
+

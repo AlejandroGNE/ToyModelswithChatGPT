@@ -1,0 +1,29 @@
+Header: Vehicle Discharging
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Discharge rate/energy
+
+Paragraphs:
+Vehicle Discharging is the output
+          from the vehicle operating in vehicle-to-grid (V2G) mode. This value
+          is output as seen by the Charging
+            Station . The load drawn from the battery includes additional
+          losses implied by the Discharge
+            Efficiency . For example, if the battery output is 2 kW and
+          Discharge Efficiency is 65% then Discharging will report 1.3 kW while
+          the battery will lose 2 kWh of energy in an hour.
+
+See also:
+Lists:
+	- Vehicle Charging
+	- Vehicle Energy
+	- Vehicle Losses
+	- Vehicle Hours
+              Discharging
+

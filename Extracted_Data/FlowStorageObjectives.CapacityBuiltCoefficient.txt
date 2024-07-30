@@ -1,0 +1,15 @@
+Header: Flow Storage Objectives Capacity Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity built
+
+Paragraphs:
+Flow Storage Objectives Capacity Built Coefficient is Coefficient of capacity built.
+Lists:
+

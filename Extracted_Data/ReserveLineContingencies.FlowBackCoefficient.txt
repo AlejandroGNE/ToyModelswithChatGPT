@@ -1,0 +1,15 @@
+Header: Reserve Line Contingencies Flow Back Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Multiplier on line flow in the counter reference direction in setting the contingency size (Risk ≥ Coefficient * Flow Back)
+
+Paragraphs:
+Reserve Line Contingencies Flow Back Coefficient determines the proportion of flow on the line, in the counter-reference direction, that is considered a risk and thus contributes to the requirement for ancillary services.
+Lists:
+

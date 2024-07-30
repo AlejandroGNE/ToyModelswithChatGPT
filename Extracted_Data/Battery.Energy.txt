@@ -1,0 +1,15 @@
+Header: Battery Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy stored in the BESS
+
+Paragraphs:
+Battery Energy is Energy stored in the BESS.
+Lists:
+

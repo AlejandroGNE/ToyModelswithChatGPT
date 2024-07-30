@@ -1,0 +1,12 @@
+Header: Transformer Class
+
+Table Details:
+Description:	Voltage transformer
+
+Paragraphs:
+See also Transformer Property Reference for a detailed list of properties for this class of
+          object.
+
+Transformers are represented in PLEXOS using Transformer objects. These objects act in a similar way to lines . Hence the key properties of a transformer are Rating , Reactance , Fixed Loss , and Loss Allocation .
+Lists:
+

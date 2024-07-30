@@ -1,0 +1,24 @@
+Header: Gas Demand Demand
+
+Table Details:
+Units:	Input: 1000·~ (Metric), ~ (U.S. Imperial)    Output: GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Demand for gas
+ADELAIDE	Demand	0	TJ	2				Gas Demand (TJ).csv	
+
+Paragraphs:
+Gas Demand Demand is the quantity of gas demanded in each simulation interval. This is a multi-band property, where the various bands can be used to separate the input of different customer demands. The demand used in the simulation is the sum across all defined bands.
+
+Demand is distributed to the associated Gas Nodes according to the Demand Participation Factor .
+
+Example
+
+Here the gas demand is read from an external text file in two bands.
+
+NOTE : This input is a quantity of gas demanded in each simulation interval, not a per hour rate . For simulation  with Horizon Periods per Day other than 24, the quantities should be set appropriately.
+Lists:
+

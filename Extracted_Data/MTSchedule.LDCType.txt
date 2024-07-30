@@ -1,0 +1,17 @@
+Header: MT Schedule LDC Type
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (1,2,3,4,7)
+Description:	Create one LDC for each period of this type in the horizon.
+
+Paragraphs:
+MT Schedule LDC Type determines the period of each LDC. The attribute can take the following values:
+
+The number of blocks (simulation periods) in each LDC is set by the Block Count attribute. The method used to slice the duration curve into blocks is controlled by the LDC Slicing Method .
+
+See also:
+Lists:
+	- MT Schedule Last Block Count
+

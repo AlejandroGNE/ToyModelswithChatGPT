@@ -1,0 +1,17 @@
+Header: Region Uplift Delta
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	5
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Delta parameter for SEM-style uplift payment (proportion of shadow total system revenues after uplift)
+
+Paragraphs:
+Region Uplift Delta is a parameter used in the uplift calculation for the Irish SEM option of Uplift Compatibility .
+
+See also the article Uplift Methods .
+Lists:
+

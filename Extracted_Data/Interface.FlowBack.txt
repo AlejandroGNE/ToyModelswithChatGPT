@@ -1,0 +1,15 @@
+Header: Interface Flow Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow on the interface in the counter-reference direction
+
+Paragraphs:
+Interface Flow Back is defined as Max ( 0, - Interface Flow )
+Lists:
+

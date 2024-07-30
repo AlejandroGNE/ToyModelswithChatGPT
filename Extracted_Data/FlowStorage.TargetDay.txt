@@ -1,0 +1,16 @@
+Header: Flow Storage Target Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Target level of inventory at the end of the day
+
+Paragraphs:
+See Commodity Target
+            Day for details.
+Lists:
+

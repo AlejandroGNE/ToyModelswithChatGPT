@@ -1,0 +1,16 @@
+Header: Flow Storage Min Injection Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of the Commodity that must be added to inventory in any day
+
+Paragraphs:
+See Commodity Min
+            Injection Day for details.
+Lists:
+

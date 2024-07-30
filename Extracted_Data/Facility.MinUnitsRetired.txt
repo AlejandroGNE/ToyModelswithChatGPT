@@ -1,0 +1,23 @@
+Header: Facility Min Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically retired in aggregate over the planning horizon
+
+Paragraphs:
+Facility Min Units Retired is sets
+          a lower bound on the number of units automatically retired in
+          aggregate over the planning horizon in LT
+            Plan . See Max Units
+            Retired for details.
+
+See also:
+Lists:
+	- Facility Min
+              Units Retired in Year
+

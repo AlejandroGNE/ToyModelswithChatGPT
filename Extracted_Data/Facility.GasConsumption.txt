@@ -1,0 +1,15 @@
+Header: Facility Gas Consumption
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas consumption
+
+Paragraphs:
+Facility Gas Consumption is the gas consumption of Facility per unit of the Primary Output.
+Lists:
+

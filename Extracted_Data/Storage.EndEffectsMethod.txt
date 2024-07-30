@@ -1,0 +1,27 @@
+Header: Storage End Effects Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Method used to handle end-of-period storage.
+
+Paragraphs:
+Storage End Effects Method controls
+          the treatment of the final End
+            Volume of each simulation step, and how Waterway flows-in-transit are valued or
+          constrained in the optimization. The switch can take these values:
+
+Note that when LT Plan and/or MT
+            Schedule are run before ST
+            Schedule End Effects Method = "Recycle" applies only to the
+          first simulation phase unless Decomposition
+            Method is set to "None". For example MT
+            Schedule would recycle storage over each year and pass targets
+          to ST Schedule that follow this
+          recycling trajectory.
+Lists:
+

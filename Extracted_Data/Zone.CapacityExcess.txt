@@ -1,0 +1,20 @@
+Header: Zone Capacity Excess
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity excess (above Max Capacity Reserves)
+
+Paragraphs:
+Zone Capacity Excess is the amount that Capacity Reserves is above the defined Max Capacity Reserves limit. It is calculated as:
+
+Excess is allowed only when the Capacity Excess Price is defined.
+
+See also:
+Lists:
+	- Zone Capacity Shortage
+

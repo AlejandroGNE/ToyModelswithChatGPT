@@ -1,0 +1,15 @@
+Header: Node Max Net Injection
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum net injection
+
+Paragraphs:
+Node Max Net Injection sets an upper bound on Net Injection at the node.
+Lists:
+

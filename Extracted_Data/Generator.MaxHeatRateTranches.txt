@@ -1,0 +1,27 @@
+Header: Generator Max Heat Rate Tranches
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 1 And 100
+Key Property:	No
+Description:	Maximum number of tranches in the fuel function piecewise linear approximation.
+
+Paragraphs:
+Generator Max Heat Rate Tranches
+          is the maximum number of tranches in the piecewise linear
+          approximation to the fuel function defined by the Heat
+            Rate Model . This property overrides the Production Max Heat Rate
+            Tranches setting for the executing Model .
+
+See also:
+Lists:
+	- LT Plan Heat
+              Rate Detail
+	- MT Schedule Heat
+              Rate Detail
+	- ST Schedule Heat
+              Rate Detail
+

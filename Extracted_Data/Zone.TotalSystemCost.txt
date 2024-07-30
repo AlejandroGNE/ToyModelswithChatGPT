@@ -1,0 +1,15 @@
+Header: Zone Total System Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total system cost including fuel, VO&M, start and shutdown costs, emissions costs and ramp costs.
+
+Paragraphs:
+Zone Total System Cost is Total system cost including fuel, VO&M, start and shutdown costs, emissions costs and ramp costs.
+Lists:
+

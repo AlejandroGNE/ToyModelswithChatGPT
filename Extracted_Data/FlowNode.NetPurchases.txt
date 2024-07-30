@@ -1,0 +1,27 @@
+Header: Flow Node Net Purchases
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net purchases from Markets
+
+Paragraphs:
+Flow Node Net Purchases is the net
+          of market purchases and market sales made at the Flow Node, and is
+          defined as:
+
+Net Purchases = ∑ Market i Net
+            Purchases i
+
+where: i indexes the Markets
+            attached to the Flow Node
+
+See also:
+Lists:
+	- Flow Node Net
+              Sales
+

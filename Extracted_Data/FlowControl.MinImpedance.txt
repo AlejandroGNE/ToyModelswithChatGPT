@@ -1,0 +1,21 @@
+Header: Flow Control Min Impedance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Min Impedance
+
+Paragraphs:
+Flow Control Min Impedance is user specified Impedance limits for DSR, TCSC and MSSR type of devices. The Impedance limitation can be derived as a function of line flow:
+
+Therefore, the Min Impedance input is applied as flow/angle limits and replacing the user input Max Angle .Note that Min Impedance must be smaller than or equal to Max Impedance.
+
+See also:
+Lists:
+	- Flow Control Type
+	- Flow Control Max Impedance
+

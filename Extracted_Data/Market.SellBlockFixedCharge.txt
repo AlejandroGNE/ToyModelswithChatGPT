@@ -1,0 +1,15 @@
+Header: Market Sell Block Fixed Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed cost of block sales
+
+Paragraphs:
+Market Sell Block Fixed Charge is the fixed cost of block sales. This property works in conjunction with Sell Block (and day/week/month/year variants) and Sell Unit to impose a fixed cost on the sale.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Storage Net Utilization
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of withdrawal and injection
+
+Paragraphs:
+Gas Storages Net Utilization is Net of withdrawal and injection.
+Lists:
+

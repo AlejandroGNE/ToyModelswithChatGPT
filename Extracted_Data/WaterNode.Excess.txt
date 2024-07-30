@@ -1,0 +1,20 @@
+Header: Water Node Excess
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Excess of water supply
+
+Paragraphs:
+Water Node Excess is Excess of water supply relative to the Demand .
+
+See also:
+Lists:
+	- Water Node Shortage
+	- Water Node Excess Cost
+	- Water Node Hours of Excess
+

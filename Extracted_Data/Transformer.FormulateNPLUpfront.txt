@@ -1,0 +1,15 @@
+Header: Transformer Formulate NPL Upfront
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If integer conditions that control non-physical losses should be formulated upfront rather than checked iteratively
+
+Paragraphs:
+Transformer Formulate NPL Upfront is If integer conditions that control non-physical losses should be formulated upfront rather than checked iteratively.
+Lists:
+

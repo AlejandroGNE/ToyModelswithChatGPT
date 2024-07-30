@@ -1,0 +1,15 @@
+Header: Generator Hours Down
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours since the last shutdown
+
+Paragraphs:
+Generator Hours Down is the number of hours since the last shutdown.
+Lists:
+

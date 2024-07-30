@@ -1,0 +1,15 @@
+Header: Gas Zone Emission Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from production of emissions
+
+Paragraphs:
+Gas Zone Emission Cost is the cost incurred from production of emissions.
+Lists:
+

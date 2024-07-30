@@ -1,0 +1,11 @@
+Header: Project Horizon
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	horizon for the project
+
+Paragraphs:
+A Project must run over only one Horizon .
+Lists:
+

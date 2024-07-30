@@ -1,0 +1,19 @@
+Header: Battery Bid Cleared
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity cleared in load bid band
+
+Paragraphs:
+Battery Bid Cleared is the quantity cleared in Load bid band .
+
+See also:
+Lists:
+	- Battery Cleared Bid Price
+	- Battery Cleared Bid Cost
+

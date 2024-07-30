@@ -1,0 +1,15 @@
+Header: Gas Zone Net Variable Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equal to Total Variable Cost – Total Market Revenue
+
+Paragraphs:
+Gas Zone Net Variable Cost is the Net Variable Cost for gas in the entire model.
+Lists:
+

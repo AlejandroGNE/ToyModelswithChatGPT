@@ -1,0 +1,17 @@
+Header: Transmission Constraints Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If transmission line constraints are enabled.
+
+Paragraphs:
+Transmission Constraints Enabled is the master switch for enforcement of Line and Transformer thermal limits. This switch does not affect interfaces or generic constraints .It can take the following values:
+
+Note that by default the limits are added in an iteration. This can be controlled with the setting Formulate Upfront .
+
+See also:
+Lists:
+	- Transmission Limit Threshold
+

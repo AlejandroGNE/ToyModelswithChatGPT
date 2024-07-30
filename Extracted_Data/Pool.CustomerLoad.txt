@@ -1,0 +1,15 @@
+Header: Pool Customer Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total customer load
+
+Paragraphs:
+Pool Customer Load is the sum of customer load across all regions in the Pool.
+Lists:
+

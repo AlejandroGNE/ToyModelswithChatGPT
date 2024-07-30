@@ -1,0 +1,11 @@
+Header: Zone Capacity Purchasers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Capacity Purchasers is [description]
+Lists:
+

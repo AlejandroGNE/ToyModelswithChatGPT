@@ -1,0 +1,15 @@
+Header: Generator Conditions Units Built in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built in the year
+
+Paragraphs:
+Generator Conditions Units Built in Year Coefficient is Coefficient of number of units built in the year.
+Lists:
+

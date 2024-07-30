@@ -1,0 +1,12 @@
+Header: Transmission Max Limit Iterations
+
+Table Details:
+Units:	-
+Default Value:	1000
+Validation Rule:	≥0
+Description:	Maximum number of iterations during any one call to enforce transmission limits.
+
+Paragraphs:
+Transmission constraints are added in an iteration controlled by the settings Constraints Enabled , and Formulate Upfront settings. This setting controls how many iterations are allowed in any one check of the limits. The default is high enough to ensure all limits that are required are added. This option is primarily available as a diagnostic tool since setting it to zero will run the complete simulation but not add any transmission limits.
+Lists:
+

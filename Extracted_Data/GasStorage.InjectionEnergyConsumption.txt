@@ -1,0 +1,15 @@
+Header: Gas Storage Injection Energy Consumption
+
+Table Details:
+Units:	MWh/1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	constant of proportionality for energy consumption of Gas Storage injection
+
+Paragraphs:
+Gas Storage Injection Energy Consumption is the constant of proportionality for the energy consumption proportional to the Gas Storage injection.
+Lists:
+

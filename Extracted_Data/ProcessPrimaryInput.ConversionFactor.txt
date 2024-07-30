@@ -1,0 +1,26 @@
+Header: Process Primary Input Conversion Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Input units per unit of Primary Output
+
+Paragraphs:
+Process Primary
+            Input Conversion Factor translates the primary input Commodity to equivalent units of the Primary
+            Output .  This factor is only required if the Commodity Unit types do not automatically
+          convert and/or the Energy
+            Density is not defined (for conversion to/from energy and
+          non-energy units).
+
+NOTE: The simulator will issue a warning if it cannot automatically
+          determine the conversion factor between units.
+
+See also:
+Lists:
+	- Process Efficiency
+

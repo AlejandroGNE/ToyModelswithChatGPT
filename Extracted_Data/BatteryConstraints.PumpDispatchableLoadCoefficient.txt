@@ -1,0 +1,15 @@
+Header: Battery Constraints Pump Dispatchable Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of pump dispatchable load reserve
+
+Paragraphs:
+Battery Constraints Pump Dispatchable Load Coefficient is Coefficient of pump dispatchable load reserve.
+Lists:
+

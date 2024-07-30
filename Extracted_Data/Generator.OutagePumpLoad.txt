@@ -1,0 +1,39 @@
+Header: Generator Outage Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load drawn by a unit in pumping mode
+Units	1	-	1						
+Max Capacity	10	MW	1						
+Pump Load	15	MW	1						
+Pump Efficiency	75	%	1						
+Units Out	1	-	1			H4,7			
+Units Out	1	-	2			H5-6			
+Outage Rating	4	MW	1						Partial generation outage
+Outage Rating	0	MW	2						Full generation outage
+Outage Pump Load	6	MW	1						Partial pump outage
+Outage Pump Load	15	MW	2						No pump outage
+Units	1	-	1						
+Max Capacity	10	MW	1						
+Pump Load	15	MW	1						
+Pump Efficiency	75	%	1						
+Rating	0	MW	1			H4,7	Rating.csv		
+Outage Pump Load	15	MW	1						Ensure generation outages do not affect the pump load
+
+Paragraphs:
+Generator Outage Pump Load is the load drawn by a unit in pumping mode when an outage of the given type (band) occurs. This is the pumping analog of the Outage Rating property.
+
+Example
+
+In the following example there are two 'types' of outage defined:
+
+NOTE : Be default a generation outage defined either by Units Out or by setting Rating to zero will result in zero pumping. This can be overridden by setting the Outage Pump Load alone as in the following example:
+Lists:
+	- A partial generation that also de-rates the pumping load
+	- A full generation outage that does not affect the pumping load
+

@@ -1,0 +1,23 @@
+Header: Generator Max Heat Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of heat that can be withdrawn from the storage
+
+Paragraphs:
+Generator Max Heat Withdrawal is Maximum amount of heat that can be withdrawn from the storage in any interval. If you need to set limits over other time frames use of the following:
+
+See also:
+Lists:
+	- Generator Max Heat Withdrawal Hour
+	- Generator Max Heat Withdrawal Day
+	- Generator Max Heat Withdrawal Week
+	- Generator Max Heat Withdrawal Month
+	- Generator Max Heat Withdrawal Year
+	- Generator Max Heat Injection
+

@@ -1,0 +1,11 @@
+Header: Reliability Region
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	reference region for the reliability group
+
+Paragraphs:
+Reliabilities Region indicates the reference region for the Reliability object for Equivalent Firm Capacity (EFC) evaluation.
+Lists:
+

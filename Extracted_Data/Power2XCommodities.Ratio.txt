@@ -1,0 +1,15 @@
+Header: Power2X Commodities Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity produced per unit of input energy to the facility
+
+Paragraphs:
+Power2X Commodities Ratio is the amount of the Commodity produced per unit of input energy to the facility.
+Lists:
+

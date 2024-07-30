@@ -1,0 +1,19 @@
+Header: Gas Plant Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of gas plant units retired
+
+Paragraphs:
+Gas Plant Units Retired is Number of gas plant units retired.
+
+See also:
+Lists:
+	- Gas Plant Max Units Retired
+	- Gas Plant Units Built
+

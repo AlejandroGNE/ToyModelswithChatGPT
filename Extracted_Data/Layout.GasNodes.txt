@@ -1,0 +1,11 @@
+Header: Layout Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Node objects in the Layout
+
+Paragraphs:
+Layout Gas Nodes is set of Gas Node objects in the Layout
+Lists:
+

@@ -1,0 +1,23 @@
+Header: Generator Ramp Down Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Ramp Down] constraint.
+
+Paragraphs:
+Generator Ramp Down Violation is
+          the amount that the Max Ramp
+            Down constraint is violated. Note that this is expressed as
+          megawatts not megawatts/minute.
+
+See also:
+Lists:
+	- Generator Ramp Down Violation Hours
+	- Generator Ramp
+              Down Violation Cost
+

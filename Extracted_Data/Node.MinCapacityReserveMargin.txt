@@ -1,0 +1,15 @@
+Header: Node Min Capacity Reserve Margin
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserve margin
+
+Paragraphs:
+Node Min Capacity Reserve Margin is the minimum capacity reserve margin.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Production Transitions Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If generator transitions are modeled
+
+Paragraphs:
+Production Transitions setting controls whether Generator Transitions are enabled.
+Lists:
+

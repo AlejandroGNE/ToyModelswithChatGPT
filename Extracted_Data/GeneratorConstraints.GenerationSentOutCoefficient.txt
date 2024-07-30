@@ -1,0 +1,20 @@
+Header: Generator Constraints Generation Sent Out Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation measured at the station gate
+
+Paragraphs:
+Generator Constraints Generation Sent Out Coefficient is the left-hand side coefficient of Generator Generation in the constraint measured at the station gate i.e. after adjustments for Auxiliary Use .
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- Generator Constraints Generation Coefficient
+

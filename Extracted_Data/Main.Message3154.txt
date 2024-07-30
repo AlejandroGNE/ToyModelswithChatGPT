@@ -1,0 +1,11 @@
+Header: Message 3154
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Internal VoLL for region <name> must increase with increasing internal VoLL level.
+
+Paragraphs:
+Message 3154 occurs in the following circumstances:
+Lists:
+

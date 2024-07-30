@@ -1,0 +1,19 @@
+Header: Cournot Perfect Competition Consumer Surplus
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumer surplus in the perfect competition solution
+
+Paragraphs:
+Cournot Perfect Competition Consumer Surplus is consumer surplus in the perfect competition solution. Since the demand curve is linear this surplus is defined as:
+
+See also:
+Lists:
+	- Cournot Perfect Competition Producer Surplus
+	- Cournot Consumer Surplus
+

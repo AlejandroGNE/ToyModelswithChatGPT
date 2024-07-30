@@ -1,0 +1,15 @@
+Header: Reserve Zones Load Risk
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage of zone's load at risk
+
+Paragraphs:
+Reserve Zones Load Risk is the percentage of zone's load at risk.
+Lists:
+

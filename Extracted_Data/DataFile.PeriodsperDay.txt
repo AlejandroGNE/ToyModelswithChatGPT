@@ -1,0 +1,12 @@
+Header: Data File Periods per Day
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Between 0 And 86400
+Description:	Number of periods per day for Data Files using the Period column
+
+Paragraphs:
+Data File Periods per Day is for use with text input files that use the PERIOD column and whose data are higher or lower resolution than the Horizon Periods per Day . For example you might have a text file that contains data on an hourly basis you want to read those data into a 10-minute simulation. The default behaviour of the data file reader in this case is to assume the file contains 10-minute data. Thus where PERIOD is 24, it is referring to the 24th 10-minute period of the day, not the last hour. By setting Periods per Day = 24 you can tell the reader to treat the data as hourly and upscale it to 10-minute. The algorithm for upscaling is controlled by the Upscaling Method . See that topic for examples.
+Lists:
+

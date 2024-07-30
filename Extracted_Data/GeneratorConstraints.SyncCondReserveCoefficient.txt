@@ -1,0 +1,17 @@
+Header: Generator Constraints Sync Cond Reserve Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of synchronous condenser reserve provision
+
+Paragraphs:
+Generator Constraints Sync Cond Reserve Coefficient is the left-hand side coefficient on the reserve provided by the generator when running in synchronous condenser mode in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+Lists:
+

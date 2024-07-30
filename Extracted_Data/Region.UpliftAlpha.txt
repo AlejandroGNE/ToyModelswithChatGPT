@@ -1,0 +1,17 @@
+Header: Region Uplift Alpha
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Alpha parameter for SEM-style uplift payment (weight on total generation revenues)
+
+Paragraphs:
+Region Uplift Alpha is a parameter used in the uplift calculation for the Irish SEM option of Uplift Compatibility .
+
+See also the article Uplift Methods .
+Lists:
+

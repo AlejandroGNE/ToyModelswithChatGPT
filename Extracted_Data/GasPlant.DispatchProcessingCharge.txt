@@ -1,0 +1,15 @@
+Header: Gas Plant Dispatch Processing Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	This replaces the processing charge for the optimization, but on the output side the Processing Charge is used in the cost calculations.
+
+Paragraphs:
+Gas Plant Dispatch Processing Charge replaces the processing charge for optimization. For output, the Processing Charge is used in the cost calculations.
+Lists:
+

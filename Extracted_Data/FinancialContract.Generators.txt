@@ -1,0 +1,11 @@
+Header: Financial Contract Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators involved in the financial contract
+
+Paragraphs:
+Financial Contract Generators is the set of Generators involved in the financial contract.
+Lists:
+

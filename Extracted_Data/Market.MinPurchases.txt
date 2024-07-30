@@ -1,0 +1,15 @@
+Header: Market Min Purchases
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum purchase from the market
+
+Paragraphs:
+Min Purchases sets a lower bound on purchases made from the market and can be used to override economic purchases.
+Lists:
+

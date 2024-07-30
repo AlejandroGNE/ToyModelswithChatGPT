@@ -1,0 +1,16 @@
+Header: Flow Path Max Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum time to repair
+
+Paragraphs:
+See Facility Max
+            Time to Repair for details.
+Lists:
+

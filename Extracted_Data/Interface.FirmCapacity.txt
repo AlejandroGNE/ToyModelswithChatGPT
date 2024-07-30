@@ -1,0 +1,15 @@
+Header: Interface Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contribution of the interface to region capacity reserves
+
+Paragraphs:
+Interface Firm Capacity is the contribution of the interface to region capacity reserves.
+Lists:
+

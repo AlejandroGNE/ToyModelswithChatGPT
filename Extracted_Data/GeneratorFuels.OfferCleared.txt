@@ -1,0 +1,15 @@
+Header: Generator Fuels Offer Cleared
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	MW cleared in band
+
+Paragraphs:
+Generator Fuels Offer Cleared is the MW cleared in band.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Physical Contract Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Physical Contract
+
+Paragraphs:
+Physical Contract Constraints is set of Constraints on the Physical Contract
+Lists:
+

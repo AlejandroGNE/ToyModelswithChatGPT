@@ -1,0 +1,19 @@
+Header: Battery Units Out
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Battery Units Out is Number of units out of service.
+
+See also:
+Lists:
+	- Generator Units
+              Out
+

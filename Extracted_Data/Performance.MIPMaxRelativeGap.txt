@@ -1,0 +1,41 @@
+Header: Performance MIP Max Relative Gap
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	When set to a value greater than zero, the MIP Max Time is treated as a soft constraint with optimization continuing until the MIP Max Relative Gap is reached.
+
+Paragraphs:
+Performance MIP Max Relative Gap
+          applies only when:
+
+When MIP Max Relative Gap is set to a value greater than zero, the MIP Max Time is treated as a
+            'soft constraint'. Optimization will continue past this time if MIP Relative Gap or MIP Absolute Gap have not been not
+            reached.
+
+After MIP Max Time has been reached, optimisation will continue until any of the following are satisfied: MIP Max Relative Gap is achieved MIP Max Absolute Gap is achieved (this can be defined concurrently) MIP solve time reaches MIP Hard Stop .
+
+This setting is useful when your simulation includes some
+          optimization problems (simulation steps or samples) that are
+          particularly different to solve to within the desired gap.
+
+Example
+
+Consider the example where you prefer all optimizations to finish
+          within a gap of 0.02% and take no longer than 3600s per optimization,
+          but in reality some problems cannot achieve this gap in that time, but
+          you are not prepared to accept any solution with more than a 0.5% gap.
+          In this case the following settings are appropriate:
+
+See also:
+Lists:
+	- MIP Relative Gap =
+            0.02%
+	- MIP Max Time = 3600s
+	- MIP Max Relative Gap = 0.5%
+	- Performance Carry
+              Over MIP Time
+	- Performance MIP Max Time
+	- Performance MIP Hard Stop
+

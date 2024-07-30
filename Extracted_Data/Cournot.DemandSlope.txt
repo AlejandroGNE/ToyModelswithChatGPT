@@ -1,0 +1,19 @@
+Header: Cournot Demand Slope
+
+Table Details:
+Units:	$/MWh2 (Metric), $/MWh/MWh (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	<0
+Key Property:	No
+Description:	Long-run demand function slope
+
+Paragraphs:
+This is the demand function slope for use in Nash-Cournot game.
+
+The demand function is linear function with slope in units of price per megawatt hour per megawatt hour ( e.g. $/ MWh/MWh ) and must be less than zero (negative slope). The higher the (absolute value of) the slope the less elastic the demand function. The demand function is anchored by the Demand Intercept .
+
+As an output this is the demand function slope used in the Nash-Cournot game. If defined as input this is simply a repeat of that input, otherwise it is the slope computed based on the Elasticity assumed.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Stochastic Reduced Sample Count
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Statistically reduce the [Risk Sample Count] to at most this number of random samples for use in simulation.
+
+Paragraphs:
+Stochastic Reduced Sample Count, either alone or in combination with Reduction Relative Accuracy , is used to invoke the Sample Reduction Algorithm .
+
+The default value of zero means that no reduction will occur. Any number that is at least one but less than Risk Sample Count will cause the algorithm to reduce the samples after sampling and before simulation. Reducing the 'raw' sample count will improve execution time and the reduction algorithm aims to reduce the samples simulated with minimal effect on the accuracy of the results.
+
+Note that, after reduction, the weights applied to each simulated sample will not be uniform. The computed weights can be accessed via the Sample Weights diagnostic.
+
+See also:
+Lists:
+	- Stochastic Reduced Outage Pattern Count
+

@@ -1,0 +1,76 @@
+Header: Market Buy Block
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for purchases
+Price	50	$/MWh
+Max Purchases	100	MW
+Buy Block	1	MW
+Buy Unit	5	MW
+Price	50	$/MWh
+Max Purchases	100	MW
+Buy Block Day	1	MW
+Buy Block	5	MW
+Price	50	$/MWh	
+Max Purchases	100	MW	HLH
+Max Purchases	0	MW	LLH
+Buy Block Day	1	MW	
+
+Paragraphs:
+Market Buy Block defines the period
+          over which the option is exercised. Use the default value of 0 to turn
+          off the option, or a 1 to indicate the option is available. Quantities
+          exercised are even over the period up to the Max
+            Purchases . Set the Buy Unit property to a value to exercise the option in discrete blocks.
+
+Example
+
+In the following example, purchases must be made in 5 MW blocks up to
+          a limit of 100 MW.
+
+The duration of the block purchase can be changed from every interval
+          to hour, day, week, month or year using the appropriate period-type
+          version of Buy Block.
+
+Example
+
+In the following example, the purchase decision is made once per day,
+          and if made the 5 MW blocks accepted must be taken in every hour of
+          each day.
+
+To use a profiled option over the course of a day, week, month, or
+          year; combine the derivative version of Buy Block, and configure Max
+          Purchases to represent the pattern. In order to be exercised
+          appropriately, the step size in ST Schedule must be set long enough to
+          include the option period, and if the discreet option size is used,
+          MIP must be selected as this becomes an integer problem. (Note
+          selecting rounded relaxation or LP, will not always result in discreet
+          block sizes)
+
+Example
+
+In the following example the purchase quantity is profiled according
+          to the Timeslice objects "HLH" and
+          "LLH". This profiling is intra-day, though the block purchase decision
+          is made once-per-day.
+
+See also:
+Lists:
+	- Market Buy
+              Block Hour
+	- Market Buy
+              Block Day
+	- Market Buy
+              Block Week
+	- Market Buy
+              Block Month
+	- Market Buy
+              Block Year
+	- Market Buy
+              Block Fixed Charge
+

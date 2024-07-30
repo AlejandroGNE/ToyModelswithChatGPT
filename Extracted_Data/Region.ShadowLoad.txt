@@ -1,0 +1,23 @@
+Header: Region Shadow Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load before uplift or Competition models.
+
+Paragraphs:
+Region Shadow Load is Load before any dynamic Mark-up added by the automated bidding algorithms like RSI or strategic withdrawal of capacity in Nash-Cournot Competition .
+
+See also:
+Lists:
+	- Region Shadow Generation
+	- Region Shadow Price
+	- Region Shadow Cost to Load
+	- Generator Shadow Generation
+	- Region Uplift Enabled
+	- Region Price Cost Mark-up
+

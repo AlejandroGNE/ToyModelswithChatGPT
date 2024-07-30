@@ -1,0 +1,26 @@
+Header: Node Charging Station Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from Charging Stations
+
+Paragraphs:
+Node Charging Station Generation is
+          the total generation from charging stations, and is defined as:
+
+Charging Station Generation = ∑ ( Charging
+            Station Discharging / 1000 )
+
+where: the division converts the charging
+            station discharging from kilowatt-hours to megawatt-hours
+
+See also:
+Lists:
+	- Node Charging
+              Station Load
+

@@ -1,0 +1,20 @@
+Header: Waterway Min Flow Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of min flow constraint
+
+Paragraphs:
+Waterway Min Flow Violation is amount that the Min Flow constraint is violated.
+
+See also:
+Lists:
+	- Waterway Min Flow Penalty
+	- Waterway Hours of Min Flow Violation
+	- Waterway Min Flow Violation Cost
+

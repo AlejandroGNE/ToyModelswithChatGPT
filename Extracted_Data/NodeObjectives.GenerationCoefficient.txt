@@ -1,0 +1,15 @@
+Header: Node Objectives Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node generation
+
+Paragraphs:
+Node Objectives Generation Coefficient is Coefficient of node generation.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Vehicle Constraints Generation Coefficient
+
+Table Details:
+Units:	kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation from vehicle to grid
+
+Paragraphs:
+Vehicle Constraints Generation Coefficient is the coefficient of generation (discharging power from vehicle to grid) in the constraint.
+Lists:
+

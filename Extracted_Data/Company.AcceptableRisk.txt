@@ -1,0 +1,16 @@
+Header: Company Acceptable Risk
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Acceptable risk around target net profit
+
+Paragraphs:
+See Entity Acceptable
+            Risk for details.
+Lists:
+

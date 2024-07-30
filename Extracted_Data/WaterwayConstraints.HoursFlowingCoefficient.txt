@@ -1,0 +1,29 @@
+Header: Waterway Constraints Hours Flowing Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of hours the waterway is flowing
+Constraint	Sense	<=
+Constraint	RHS	1
+Waterways ( BYPASS )	Hours Flowing Coefficient	1
+Waterways ( SPILL )	Hours Flowing Coefficient	1
+
+Paragraphs:
+Waterway Constraints Hours Flowing Coefficient is the left-hand side coefficient of the number of hours the waterway is flowing .
+
+Example
+
+In this example the Waterway "SPILL" and "BYPASS" cannot flow at the same time.
+
+NOTE: Adding this coefficient causes the mathematical programming problem to include binary decision variables.
+
+See also:
+Lists:
+	- Waterway Hours Flowing
+	- Waterway Storages Hours Full Coefficient
+

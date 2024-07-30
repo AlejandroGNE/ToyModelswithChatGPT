@@ -1,0 +1,20 @@
+Header: Region Load-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load weighted average price
+
+Paragraphs:
+Region Load-weighted Price is the average price paid by loads and is defined as:
+
+See also:
+Lists:
+	- Region Price
+	- Region Generation-weighted Price
+	- Region Time-weighted Price
+

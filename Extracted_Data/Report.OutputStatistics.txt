@@ -1,0 +1,12 @@
+Header: Report Output Statistics
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If statistics are calculated on multi-sample results
+
+Paragraphs:
+Report Output Statistics
+Lists:
+

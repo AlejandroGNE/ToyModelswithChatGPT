@@ -1,0 +1,11 @@
+Header: Battery Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the battery
+
+Paragraphs:
+Battery Companies is the set of companies that own the BESS
+Lists:
+

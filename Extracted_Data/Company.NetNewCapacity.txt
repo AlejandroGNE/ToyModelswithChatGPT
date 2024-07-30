@@ -1,0 +1,15 @@
+Header: Company Net New Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Capacity (cumulative Max Capacity x (Units Built - Units Retired))
+
+Paragraphs:
+Company Net New Capacity is Net Capacity (cumulative Max Capacity x (Units Built - Units Retired)).
+Lists:
+

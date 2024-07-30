@@ -1,0 +1,15 @@
+Header: Gas Field Max Ramp Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of change in gas field in a day
+
+Paragraphs:
+Gas Field Max Ramp Day is the maximum allowed rate of change (Ramp) in gas field End Volume between one day and the next.
+Lists:
+

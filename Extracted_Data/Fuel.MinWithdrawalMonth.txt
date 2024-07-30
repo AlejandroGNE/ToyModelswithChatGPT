@@ -1,0 +1,22 @@
+Header: Fuel Min Withdrawal Month
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of fuel that must be taken from stockpile each month
+
+Paragraphs:
+Fuel Min Withdrawal Month is the amount of fuel that must be taken from stockpile each month.
+
+See also:
+Lists:
+	- Fuel Min Withdrawal
+	- Fuel Min Withdrawal Hour
+	- Fuel Min Withdrawal Day
+	- Fuel Min Withdrawal Week
+	- Fuel Min Withdrawal Year
+

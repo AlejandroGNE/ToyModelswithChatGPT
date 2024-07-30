@@ -1,0 +1,15 @@
+Header: Zone Zones Max Balancing Area Interchange
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum financial exports from parent zone to child zone.
+
+Paragraphs:
+Zone Zones Max Balancing Area Interchange defines the maximum financial exports from parent zone to child zone. When financial transactions are modeled, each zone balances its own load, generation and transactions from other zones. Note : Max Balancing Area Interchange must be explicitly defined for each pair of export transactions. For example, if Max Financial Export is defined for the membership Z1.Z2, but not defined for Z2.Z1, then financial transaction from Z1 to Z2 will be allowed, but no financial transaction will be allowed from Z2 to Z1.
+Lists:
+

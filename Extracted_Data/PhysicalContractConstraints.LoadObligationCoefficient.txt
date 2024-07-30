@@ -1,0 +1,18 @@
+Header: Physical Contract Constraints Load Obligation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total load obligation contracted (LT Plan)
+
+Paragraphs:
+PhysicalContract Constraints Load Obligation Coefficient is the left-hand side coefficient on the amount of physical contract load purchased in LT Plan to date.
+
+See also:
+Lists:
+	- PhysicalContract Constraints Generation Capacity Coefficient
+

@@ -1,0 +1,18 @@
+Header: Emission Generators Incremental Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Incremental cost of the emission to the generator
+
+Paragraphs:
+Emission Generators Incremental Cost is the Emission component of the incremental cost of Generation based on emissions priced at the Shadow Price .
+
+See also:
+Lists:
+	- Emission Generators SRMC
+

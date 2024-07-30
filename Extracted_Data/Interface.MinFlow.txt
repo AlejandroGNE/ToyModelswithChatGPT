@@ -1,0 +1,20 @@
+Header: Interface Min Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow on interface
+
+Paragraphs:
+Interface Min Flow as an input sets a lower bound on the net flow on the interface ( i.e. for net flow in the reverse reference direction). This limit can be made soft by setting the Limit Penalty property.
+
+As an output by interval Min Flow repeats the input value, but in summary data it reports the minimum value of Flow in the summary period (day, week, month, year).
+
+See also:
+Lists:
+	- Interface Max Flow
+

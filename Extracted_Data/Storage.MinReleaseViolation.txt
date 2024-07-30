@@ -1,0 +1,20 @@
+Header: Storage Min Release Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the [Min Release] constraint.
+
+Paragraphs:
+Storage Min Release Violation is the amount by which the Min Release constraint is violated. The units match those for Release . Note that violations are allowed only if Min Release Penalty is defined as a non-negative number.
+
+See also:
+Lists:
+	- Storage Min Release Violation Hours
+	- Storage Min Release Violation Cost
+	- Storage Max Release Violation
+

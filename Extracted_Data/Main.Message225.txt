@@ -1,0 +1,18 @@
+Header: Message 225
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Variable bounds are badly scaled. Range is [<value>, <value>].This may result in numerical instability and degraded performance.
+
+Paragraphs:
+Message 225 is one of four warning messages related to problem scaling.
+
+This warning occurs when the variable bounds (on x j ) in the mathematical programming problem being solved are badly scaled i.e. they are either very small (less than 1×10 -8 ) or very large (greater than 1×10 20 ) or the spread of values is very large (greater than 1×10 16 ). Badly scaled coefficients cause more overhead for the solver engine and can lead to problems that are difficult to solve and/or create rounding errors that lead to inaccurate solutions or to the problem being incorrectly declared infeasible. It is advisable to diagnose the source of these coefficients e.g. by printing the LP or MPS file, and modifying whatever input data are causing those coefficients to be so small/large.
+
+See also:
+Lists:
+	- Message 223
+	- Message 224
+	- Message 226
+

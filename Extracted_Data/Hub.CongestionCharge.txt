@@ -1,0 +1,15 @@
+Header: Hub Congestion Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Congestion component of the hub price
+
+Paragraphs:
+Hub Congestion Charge is Congestion component of the hub price. It is aggregated from Node Congestion Charge .
+Lists:
+

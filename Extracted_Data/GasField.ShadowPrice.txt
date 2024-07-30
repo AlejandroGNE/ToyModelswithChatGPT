@@ -1,0 +1,15 @@
+Header: Gas Field Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of gas in the field
+
+Paragraphs:
+Gas Field Shadow Price is the incremental value of the next/last unit of gas in the field.
+Lists:
+

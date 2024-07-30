@@ -1,0 +1,15 @@
+Header: LT Plan End Effects Method
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1)
+Description:	Method used to account for end of horizon effects
+
+Paragraphs:
+LT Plan End Effects Methods controls
+          how time after the end of the planning horizon is considered in the
+          objective function of LT Plan. This setting can take the following
+          values:
+Lists:
+

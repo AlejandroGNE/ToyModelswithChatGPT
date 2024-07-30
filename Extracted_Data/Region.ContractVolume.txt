@@ -1,0 +1,18 @@
+Header: Region Contract Volume
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contract volume
+
+Paragraphs:
+Region Contract Volume is the total Settlement Quantity (volume) on Financial Contracts in the Region and is defined as:
+
+See also:
+Lists:
+	- Region Contract Settlement
+

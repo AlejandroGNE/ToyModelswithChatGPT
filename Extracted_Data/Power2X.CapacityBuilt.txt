@@ -1,0 +1,16 @@
+Header: Power2X Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity built (Max Load x Units Built)
+
+Paragraphs:
+Refer to Facility Capacity
+            Built for details.
+Lists:
+

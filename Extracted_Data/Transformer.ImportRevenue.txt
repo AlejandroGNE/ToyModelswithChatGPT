@@ -1,0 +1,20 @@
+Header: Transformer Import Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from energy imported
+
+Paragraphs:
+Transformer Import Revenue is the revenue from energy imported. It is a component of Rental when the Transmission Rental Method = "Point to Point" and is calculated as:
+
+See also:
+Lists:
+	- Transformer Import Cost
+	- Transformer Export Revenue
+	- Transformer Rental
+

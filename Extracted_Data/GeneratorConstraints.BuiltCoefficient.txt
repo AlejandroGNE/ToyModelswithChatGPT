@@ -1,0 +1,20 @@
+Header: Generator Constraints Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any generation capacity is built to date
+
+Paragraphs:
+Generator Constraints Built Coefficient is the left-hand side coefficient on the binary
+          (0,1) variable indicating if any capacity is built to date in LT Plan .
+
+See also:
+Lists:
+	- Generator Constraints Built in
+              Year Coefficient
+

@@ -1,0 +1,20 @@
+Header: Vehicle Age
+
+Table Details:
+Units:	cycles
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of cycles completed
+
+Paragraphs:
+Vehicle age is the number of cycles completed by each Vehicle's battery. An average across all units in the Vehicle object is given.
+
+More detail cycles including a formula and examples are given in Battery Age .
+
+A detailed Vehicle model is necessary for Vehicle energy storage limits to be modelled. See Vehicle for a comparison 
+                of simple and detailed vehicle models (including necessary properties that must be defined etc.).
+Lists:
+

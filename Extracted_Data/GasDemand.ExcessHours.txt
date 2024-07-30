@@ -1,0 +1,18 @@
+Header: Gas Demand Excess Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of excess supply of gas
+
+Paragraphs:
+Gas Demand Excess Hours is the number of hours in which there is a Excess in gas supply i.e. where the supply constrained above the Demand .
+
+See also:
+Lists:
+	- Gas Demand Hours of Shortage
+

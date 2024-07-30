@@ -1,0 +1,11 @@
+Header: Message 3021
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	<value>.<value> with parent <name> and child <name> Filename: <name> used to define <value> properties for the same object, but must only be used to define one property for any one object.
+
+Paragraphs:
+
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Facility Outage Operating Level
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit rating during outage
+
+Paragraphs:
+Facility Outage Rating sets the
+          maximum operating level of each unit during the associated Forced or Maintenance outage. The
+          default value is zero means that the outage is total. To specify a
+          partial outage use a value greater than zero and less than the Max
+            Operating Level . See the Units
+            Out topic for examples.
+
+See also:
+Lists:
+	- Facility Outage
+              Factor
+

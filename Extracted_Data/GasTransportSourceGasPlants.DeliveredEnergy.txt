@@ -1,0 +1,15 @@
+Header: Gas Transport Source Gas Plants Delivered Energy
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat energy delivered by gas plant to the gas transport
+
+Paragraphs:
+Gas Transport Source Gas Plants Delivered Energy is Heat energy delivered by gas plant to the gas transport.
+Lists:
+

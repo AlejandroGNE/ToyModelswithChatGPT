@@ -1,0 +1,15 @@
+Header: Water Zone Available Capacity
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Aggregate of Water Availability of Water Plants in the Water Zone
+
+Paragraphs:
+Water Zone Available Capacity is Aggregate of Water Availability of Water Plants in the Water Zone.
+Lists:
+

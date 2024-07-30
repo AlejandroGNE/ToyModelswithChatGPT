@@ -1,0 +1,15 @@
+Header: Flow Path Entities Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage share of interest in the Flow Path
+
+Paragraphs:
+Flow Path Entities Share is the percentage share of interest in the Flow Path.
+Lists:
+

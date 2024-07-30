@@ -1,0 +1,11 @@
+Header: List Flow Networks
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Network objects in the List
+
+Paragraphs:
+List Flow Networks is set of Flow Network objects in the List
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Region Peak Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak load
+
+Paragraphs:
+Region Peak Load is the maximum input Load over all intervals in the period.
+
+For example, if Partial Chronology maps three intervals with loads 10MW, 20MW and 30MW to a single LDC, the block
+            Peak Load is 30MW. In Full Chronology ST Schedule , each interval is modelled directly, so the input Region Load is summed over all bands and reflected in this property.
+
+Note that you can control which periods of time are included in the search for Peak Load with the Peak Period property.
+
+See also:
+Lists:
+	- Region Generation Capacity
+	- Region Planning Peak Load
+	- Region Capacity Reserves
+

@@ -1,0 +1,15 @@
+Header: Fuel Objectives Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation with given fuel
+
+Paragraphs:
+Fuel Objectives Generation Coefficient is Coefficient of generation with given fuel.
+Lists:
+

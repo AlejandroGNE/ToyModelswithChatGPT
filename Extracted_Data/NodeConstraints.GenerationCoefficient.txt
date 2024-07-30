@@ -1,0 +1,15 @@
+Header: Node Constraints Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node generation
+
+Paragraphs:
+Node Constraints Generation Coefficient is the left-hand side coefficient for Generation in the constraint.
+Lists:
+

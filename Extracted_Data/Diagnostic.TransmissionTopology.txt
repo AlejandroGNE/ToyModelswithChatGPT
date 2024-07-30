@@ -1,0 +1,12 @@
+Header: Diagnostic Transmission Topology
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write a summary of the transmission topology to the log
+
+Paragraphs:
+Diagnostic Transmission Topology toggles on/off printing a report of the network statistics to the log and screen. An example is depicted below.
+Lists:
+

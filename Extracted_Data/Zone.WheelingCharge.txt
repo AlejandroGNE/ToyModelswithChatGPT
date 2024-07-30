@@ -1,0 +1,18 @@
+Header: Zone Wheeling Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Wheeling charge on exports from the zone
+
+Paragraphs:
+Zone Wheeling Charge is Wheeling charge on exports from the zone.
+
+See also:
+Lists:
+	- Wheeling Method
+

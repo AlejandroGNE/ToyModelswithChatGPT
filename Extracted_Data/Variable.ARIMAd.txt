@@ -1,0 +1,15 @@
+Header: Variable ARIMA d
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	ARIMA differencing parameter
+
+Paragraphs:
+Variable ARIMA d is the differencing parameter for the ARIMA sampling method.
+Lists:
+

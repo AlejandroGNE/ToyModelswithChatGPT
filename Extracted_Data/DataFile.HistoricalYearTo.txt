@@ -1,0 +1,12 @@
+Header: Data File Historical Year To
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Last year read for historical sampling
+
+Paragraphs:
+Data File Historical Year To is the last year read from the data file for historical sampling.
+Lists:
+

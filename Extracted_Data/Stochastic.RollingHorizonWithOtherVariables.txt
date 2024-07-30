@@ -1,0 +1,16 @@
+Header: Stochastic Rolling Horizon With Other Variables
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Perform historical sampling for all variable types
+
+Paragraphs:
+This option applies only when the scenario tree is constructed with multiple full branches. 
+                    It needs to be set as True when the model has properties besides (or other than) Storage Natural Inflow that need to 
+                    be stochastic and doing historical or PARMA sampling, and/or the model has any variable doing random sampling.
+
+
+Lists:
+

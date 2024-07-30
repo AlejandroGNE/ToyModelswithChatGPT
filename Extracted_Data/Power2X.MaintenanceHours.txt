@@ -1,0 +1,16 @@
+Header: Power2X Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on maintenance
+
+Paragraphs:
+Refer to Facility Maintenance
+            Hours for details.
+Lists:
+

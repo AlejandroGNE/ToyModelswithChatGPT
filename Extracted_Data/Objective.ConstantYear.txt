@@ -1,0 +1,15 @@
+Header: Objective Constant Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Objective constant each year (000's)
+
+Paragraphs:
+Objective Constant Year is Objective constant each year (000's).
+Lists:
+

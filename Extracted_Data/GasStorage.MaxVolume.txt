@@ -1,0 +1,15 @@
+Header: Gas Storage Max Volume
+
+Table Details:
+Units:	Input: 1000·~ (Metric), ~ (U.S. Imperial)    Output: TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum volume of gas allowed in storage
+
+Paragraphs:
+Gas Storage Max Volume is the maximum volume of gas allowed in storage. The 'working gas' is thus the difference between this value and the Min Volume .
+Lists:
+

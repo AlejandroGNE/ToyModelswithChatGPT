@@ -1,0 +1,25 @@
+Header: Gas Basin Constraints Units Built in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of gas field units built in the year
+
+Paragraphs:
+Gas Basin Constraints Units Built in Year Coefficient is the coefficient of number of gas
+          field units built in the year.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where: n is the total number of Gas Fields in the Gas Basin.
+
+See also:
+Lists:
+	- Gas Basin Constraints Units Built
+              Coefficient
+

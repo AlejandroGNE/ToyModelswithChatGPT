@@ -1,0 +1,15 @@
+Header: Financial Contract Regions Shortfall
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortfall of generation to meet contract
+
+Paragraphs:
+Financial Contract Regions Shortfall is Shortfall of generation to meet contract.
+Lists:
+

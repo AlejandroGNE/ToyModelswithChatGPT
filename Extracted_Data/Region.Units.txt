@@ -1,0 +1,21 @@
+Header: Region Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Region is included in the simulation.
+
+Paragraphs:
+Region Units is a flag that indicates if the Region is included in the simulation or not (a zero value means that it is not included).  The setting can have a Scenario applied.
+
+All Nodes associated with the excluded regions will also be omitted from the simulation.  Furthermore any objects that were exclusively related to the omitted Regions and Nodes will also be excluded from the simulation.
+
+See also:
+Lists:
+	- Region Aggregate Transmission
+	- Zone Units
+

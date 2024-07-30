@@ -1,0 +1,51 @@
+Header: PLEXOS User Interface Guide Chapter 7
+
+Table Details:
+
+Paragraphs:
+To keep the user interface clear of unnecessary elements PLEXOS hides any class of objects, collections and properties that are not specifically enabled using the Configuration Manager for the database. When you create a new file a default set of classes, collections and properties are enabled but in most circumstances you will need to expand this set. In addition, the default is that most enabled properties are static properties meaning that their value is constant i.e. cannot vary over time, be read from an external file or be subject to a data Scenario or vary stochastically using a Variable. Using the Configuration Manager you can change the status of most properties from static to dynamic or vice versa. To access the Configuration Manager click the Configuration button on the main toolbar/ribbon.
+
+The following functions can now be performed:
+
+Enabled properties are added to the right-most list where attributes such as "Dynamic", "Bands" and "Default" values are displayed. Change a property from/to dynamic data entry by ticking/ unticking the box in the "Dynamic" column associated with the property. Change the number of bands for entry using the spinner control in the Bands column e.g. Generator [Offer Quantity], or Generator [Heat Rate] as shown in Figure 67. Note that you can toggle the entire database to "All Dynamic" mode by ticking the box in the bottom-left corner. In "All Dynamic" mode all properties that are allowed to be dynamic are locked to that entry mode.
+
+Note: The Config Window is subject to the Configuration Lock in the Database Settings with the exception of the One to Many collection setting. The One to Many setting for collections is subject to the Memberships Lock in the Database Settings.
+
+The Ribbon provides the following functions:
+
+Allows the selected item to be renamed.
+
+Applies to the Facility class. Allows a new class to be created based on the Facility class.
+
+The current configuration can be saved to a file and imported back in at any time.
+
+The properties and attributes in the config Tree are, by default, ordered in such a way that the most commonly used Properties are towards the top of their sub-tree. You can change the sorting to Alphabetical by Name with this Ribbon button.
+
+Resets the name of the selected item to its default.
+
+Resets the name of all items to their default.
+
+This will disable any Properties which do not have any data set for them. (Attributes are not affected.)
+
+Any enabled properties which are Dynamic and have only one value (with no qualifying dates or tags) will be converted to a static property.
+
+Property Tags group related Properties. Selecting one or more tags will highlight the Properties in the tree which are tagged with the selected tags so that they are easy to locate.
+
+The Facility class can be cloned to create a new class with a more appropriate name for your particular use. Selecting the Facility class will reveal the Clone button in the Ribbon. This will present a prompt for the new name for your class, and the name of the collection, which is generally the pluralized version of the class name.
+
+
+
+After creating the clone, you will also be able to rename any of the properties to more appropriate names as well. (See above section.)
+Lists:
+	- Enable a class of objects by ticking the box next to the class name in the left-most list e.g. the Node class is disabled by default.
+	- Enable a collection by ticking the box next to the collection is disabled by default.
+	- Where applicable, toggle a collection between "One to One" or "One to Many", which affects how many children can be defined in a membership for the collection (only one or else any number of children).
+	- View the available properties by navigating through the tree of folders of the selected class.
+	- Enable or disable a property by ticking/unticking the box next to the property name.
+
+
+H2s:
+Contents
+1. Configuration
+2. Ribbon Functions
+3. Clone the Facility Class

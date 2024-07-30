@@ -1,0 +1,11 @@
+Header: Message 3108
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Report <name> <value> [<value>] cannot be reported by period.
+
+Paragraphs:
+Message 3108 occurs in the following circumstances:
+Lists:
+

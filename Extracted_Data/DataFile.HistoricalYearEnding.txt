@@ -1,0 +1,12 @@
+Header: Data File Historical Year Ending
+
+Table Details:
+Units:	-
+Default Value:	12
+Validation Rule:	Between 1 And 12
+Description:	Month that years end in the historical data
+
+Paragraphs:
+Data File Historical Year Ending is the month that years end in the historical data. By default, a "year" ends in December (the 12th month) but if the historical year begins on July 1 then each year will end on June 30, the Historical Year Ending property should be set to 6 instead.
+Lists:
+

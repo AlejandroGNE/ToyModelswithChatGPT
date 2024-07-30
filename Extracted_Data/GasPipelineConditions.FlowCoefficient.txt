@@ -1,0 +1,15 @@
+Header: Gas Pipeline Conditions Flow Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on gas pipeline flow
+
+Paragraphs:
+Gas Pipeline Conditions Flow Coefficient is the coefficient on gas pipeline flow.
+Lists:
+

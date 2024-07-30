@@ -1,0 +1,12 @@
+Header: ST Schedule Discount Period Type
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (1,2,3,4,6,7)
+Description:	A unique discount factor will be computed for each of these periods.
+
+Paragraphs:
+Period type for discount rate
+Lists:
+

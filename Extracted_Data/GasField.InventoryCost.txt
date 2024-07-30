@@ -1,0 +1,16 @@
+Header: Gas Field Inventory Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from the Inventory Price of holding gas in a field
+
+Paragraphs:
+Gas Field Inventory Cost is the total cost of holding gas in the field. 
+            This is calculated based on the input Inventory Charge and the field ending volume each period. Also includes Carrying Cost
+Lists:
+

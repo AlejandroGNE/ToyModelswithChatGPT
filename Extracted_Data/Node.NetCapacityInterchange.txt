@@ -1,0 +1,18 @@
+Header: Node Net Capacity Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Export Capability - Import Capability
+
+Paragraphs:
+Node Net Capacity Interchange is the notional net import \ export capability from the Node accounting for Line Firm Capacity .
+
+See also:
+Lists:
+	- Node Firm Generation Capacity
+

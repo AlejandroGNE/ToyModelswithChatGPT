@@ -1,0 +1,18 @@
+Header: Company Constraints Committed Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of company committed generation capacity
+
+Paragraphs:
+Company Constraints Committed Capacity Coefficient is the left-hand side coefficient on the sum of committed capacity across all generators belonging to the company weighted by Share .
+
+See also:
+Lists:
+	- Company Regions Committed Capacity Coefficient
+

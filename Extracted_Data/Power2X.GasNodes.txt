@@ -1,0 +1,11 @@
+Header: Power2X Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	The set of gas nodes the facility supplies
+
+Paragraphs:
+Power2X Gas Nodes is the set of Gas Node objects the facility supplies.
+Lists:
+

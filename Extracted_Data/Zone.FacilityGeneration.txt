@@ -1,0 +1,15 @@
+Header: Zone Facility Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from connected Facilities
+
+Paragraphs:
+Zone Facility Generation is Generation from connected Facilities.
+Lists:
+

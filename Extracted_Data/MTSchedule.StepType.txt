@@ -1,0 +1,14 @@
+Header: MT Schedule Step Type
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	In (1,2,3,4,7)
+Description:	Each simulation step will span steps of this type.
+
+Paragraphs:
+MT Schedule Step Type combines with At a Time to control the size of each optimization step. The attribute can take these values:
+
+Within in each step, e.g. year, the original dispatch periods, e.g. hours of the year, are aggregated into Load Duration Curves (LDC) or Price Duration Curves (PDC). The number of LDC or PDC created is controlled by the LDC Type attribute. The number of simulation periods (blocks) in each LDC or PDC is controlled by the Block Count and Last Block Count attribute.
+Lists:
+

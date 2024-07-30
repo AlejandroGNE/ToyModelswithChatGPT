@@ -1,0 +1,49 @@
+Header: Emission Generators Production Rate
+
+Table Details:
+Units:	kg/MWh (Metric), lb/MWh (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per MWh of generation
+CCGT1	Units	1	-
+CCGT1	Max Capacity	320	MW
+CCGT1	Heat Rate	7.9	GJ/MWh
+"NOx" Generators "CCGT1"	Production Rate	1.25	kg/MWh
+
+Paragraphs:
+Emission Generators Production Rate defines the rate of emission production as a function of the megawatt Generation . This on top of emissions defined via the Generator Fuels membership and Fuel Production Rate .
+
+Production Rate is useful for emissions such as " NOx " that are best expressed as a function of both Fuel Offtake and Generation .
+
+Example
+
+
+
+Setting Emission Production Using Load Points and Bands
+
+The limit is "backward facing" for the following setting PLEXOS will allocate emission rates as follows:
+
+
+
+
+
+PLEXOS will allocate the emissions as follows:
+
+
+
+Note: The last block includes the value of Max Capacity of the generator. If this block is not included, no emission will be allocated for that block.
+
+See also:
+Lists:
+	- Load Point Value = 10 MW - Band is set to "1"
+	- Load Point Value = 190 MW - Band is set to "2"
+	- Load Point Value = 800 MW - Band is set to "3"
+	- Production Rate Value = 5kg/MWh - Band is set to "1"
+	- Production Rate Value = 10kg/MWh - Band is set to "2"
+	- Production Rate Value = 20kg/MWh - Band is set to "3"
+	- Emission Generators Removal Rate
+	- Generator Fuels Emission Scalar
+

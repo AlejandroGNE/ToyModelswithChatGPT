@@ -1,0 +1,11 @@
+Header: Message 199
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Multi-fuel CHP Generator <name> requires identical heat rate functions. Average heat rate at maximum power across defined fuels will be considered for heat production formulation.
+
+Paragraphs:
+Message 199 occurs in the following circumstances:
+Lists:
+

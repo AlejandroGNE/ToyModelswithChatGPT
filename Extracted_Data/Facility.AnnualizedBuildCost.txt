@@ -1,0 +1,24 @@
+Header: Facility Annualized Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of units built
+
+Paragraphs:
+Facility Annualized Build Cost is
+          the annuity calculated from the input Build
+            Cost , Economic Life , and WACC as described in the LT
+            Plan topic.
+
+See also:
+Lists:
+	- Facility Levelized
+              Cost
+	- Facility Total
+              Cost
+

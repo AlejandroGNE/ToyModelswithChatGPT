@@ -1,0 +1,16 @@
+Header: Model Objective Priority
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥0
+Description:	Priority of the objective when doing hierarchical multi-objective optimization
+
+Paragraphs:
+This is the priority value for the default objective function. This
+          is used for sequential Lexicographic multi-objective. Solution 1 is
+          the highest priority and the order of priority is 2,3,... and so on. The
+          default cost objective has highest priority by default. The priority
+          of user-defined objective function is set with the Objective Priority property.
+Lists:
+

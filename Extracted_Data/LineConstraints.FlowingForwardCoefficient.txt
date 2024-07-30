@@ -1,0 +1,25 @@
+Header: Line Constraints Flowing Forward Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the line is flowing in the reference direction, 0 otherwise)
+
+Paragraphs:
+Line Constraints Flowing Forward Coefficient is the coefficient on the binary variable
+          indicating if the line is flowing in the reference direction. The
+          binary is 1 if the line is flowing in the reference direction, 0
+          otherwise. With the coefficient represented by a (i,j) the
+          following term is added to the formulation:
+
+See also:
+Lists:
+	- Line Constraints Flowing Back
+              Coefficient
+	- Line Constraints Flow Forward
+              Coefficient
+

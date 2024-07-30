@@ -1,0 +1,12 @@
+Header: Transmission Enforce Limits On Lines In Interfaces
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If lines and transformers in interfaces should have their limits enforced regardless of voltage
+
+Paragraphs:
+Transmission Enforce Limits On Branches In Interfaces is a switch that ensures that lines and transformers involved in interfaces have their individual thermal limits enforced irrespective of their voltage and the Transmission Constraint Voltage Threshold setting. It can take the following values:
+Lists:
+

@@ -1,0 +1,58 @@
+Header: Flow Path Class
+
+Table Details:
+Description:	A path in a flow network
+
+Paragraphs:
+See also Flow Path Property Reference for a detailed list of properties for this class of object.
+
+Related Classes: Commodity , Flow
+            Network , Flow Node , Flow
+            Storage .
+
+Flow Path objects work as the links between Flow
+            Node objects to represent a Flow
+            Network .
+
+The following is a basic guide to using Flow Path:
+
+
+
+Flow Path objects can represent uni-directional or bi-directional
+          flows, but are bi-directional by default. To define a uni-directional
+          flow, set up the Flow Node From and Flow Node To memberships
+          in the correct direction and set Max
+            Flow equal to the maximum flow allowed and set Min
+            Flow zero.
+
+Flows on the path can be continuous or in discrete 'bundles' as
+          defined by the Bundle Size property.
+
+Flows can be subject to losses as determined by the Efficiency property.
+
+See the example in the Flow Network topic.
+
+You can define custom constraints on Flow Node via the Constraints membership. The Objectives membership allows you to include Flow Path coefficients in your
+          multi-objective optimization problems.
+
+Flow Path supports expansion in LT Plan .
+          The key input properties are Max
+            Units Built and Build Cost and optionally FO&M Charge .
+          Expansion costs can be treated as a lump sum or automatically
+          annualized by defining WACC and Economic Life . Units can be
+          built from Project Start
+            Date or immediately if this not defined. Other available
+          constraints related to expansion are:
+
+Retirement occurs automatically after the Technical
+            Life . Retirements can be optimized if you define Max
+            Units Retired and will incur a Retirement
+            Cost .
+Lists:
+	- Project Start Date
+	- Min Units Built
+	- Max Units Built in
+              Year
+	- Min Units Built in
+              Year
+

@@ -1,0 +1,11 @@
+Header: Gas Contract Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Contract inherits from
+
+Paragraphs:
+Gas Contract Template is template the Gas Contract inherits from
+Lists:
+

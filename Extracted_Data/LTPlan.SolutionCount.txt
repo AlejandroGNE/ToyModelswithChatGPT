@@ -1,0 +1,22 @@
+Header: LT Plan Solution Count
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Maximum number of solutions produced in the solution hierarchy
+
+Paragraphs:
+Solution Count is the maximum number of solutions produced in the Solution Hierarchy . By default LT Plan will only compute the global optimal solution in terms of the expansion and production decisions. Setting this value to a number greater than one causes the simulator to continue finding combinations of the expansion decisions, and resulting production outcome, in order from optimal to second-to-optimal, third-to-optimal etc . Solutions are unique in their combination of options, not the specific timing or number of units installed/retired on the options. For example, if you have three Generator objects as expansion options there are eight unique combinations:
+
+For 11 expansion options there would be 2048 combinations.
+
+The timing of the options is not counted in the combinations nor is the number of Units Built / Units Retired . Only the decision to build/retire or not is considered in producing the combinations, greatly reducing the search space of this algorithm.
+
+If you set Solution Count greater than the feasible number of combinations the algorithm will stop once the last feasible combination has been computed.
+
+The solutions, including the optimal solution, are written to the simulation output folder in text files in the same format as the Write Expansion Plan Text Files setting. The full solution is not saved but can be reproduced by using these text files as input to a subsequent simulation.
+
+You can also terminate the search according to Solution Quality .
+Lists:
+

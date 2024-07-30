@@ -1,0 +1,19 @@
+Header: Company Total Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of fixed and variable generation costs
+
+Paragraphs:
+Company Total Cost is the total of generator fixed and variable generation costs and is defined as:
+
+See also:
+Lists:
+	- Company Annualized Build Cost
+	- Company Levelized Cost
+

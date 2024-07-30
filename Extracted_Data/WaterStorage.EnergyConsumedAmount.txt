@@ -1,0 +1,21 @@
+Header: Water Storage Energy Consumed Amount
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Energy consumption defining the water storage energy consumption curve.
+
+Paragraphs:
+Water Storage Energy Consumed Amount works together with Energy Consumed Withdrawal Level to create a piecewise linear function between the storage withdrawal and the electric energy required.  The following are requirements for the properties to be used:
+
+When activated, constraints will be added to enforce the relationship between withdrawal and the energy. The values of the Energy Consumed Withdrawal Level points should cover the full capability of the pipeline. In other words, the withdrawal cannot be less than the lowest input value or greater than the highest input value. So in general the first point should be specified as 0 and the highest point should be at least as large as the max withdrawal in a day. A linear function is created between each pair of adjacent points to determine the energy required at every flow level.
+Lists:
+	- Both are specified with the same number of bands
+	- The number of bands is greater than or equal to 2
+	- The water node for the storage is connected to an electric node that is in service
+	- The maximum value of the Energy Consumed Flow Level is greater than 0
+

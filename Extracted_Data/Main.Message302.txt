@@ -1,0 +1,11 @@
+Header: Message 302
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Expected no more than <value> element(s) to remain in the RPN stack, but found <value> after evaluating the expression for Row <name>
+
+Paragraphs:
+Message 302 occurs in the following circumstances:
+Lists:
+

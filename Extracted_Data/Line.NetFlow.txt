@@ -1,0 +1,15 @@
+Header: Line Net Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Flow on the line
+
+Paragraphs:
+Line Net Flow is Net Flow on the line. This property is for summary report only.
+Lists:
+

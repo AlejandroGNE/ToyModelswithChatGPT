@@ -1,0 +1,18 @@
+Header: Region Regions Firm Exports
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The firm exports from the parent region to the child regions for Capacity Expansion Decomposition
+
+Paragraphs:
+Region Regions Firm Exports are the firm exports from the parent region to the child region for Capacity Expansion Decomposition.  This input is only used between Regions that are in different Capacity Expansion Groups.
+
+See also:
+Lists:
+	- Capacity Expansion Decomposition
+

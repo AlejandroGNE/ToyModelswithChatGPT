@@ -1,0 +1,17 @@
+Header: Fuel Max Offtake Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum fuel offtake in hour
+
+Paragraphs:
+Fuel Max Offtake Hour is the maximum
+          fuel offtake in one hour - see Max
+            Offtake for more details.
+Lists:
+

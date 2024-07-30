@@ -1,0 +1,74 @@
+Header: Constraint Penalty Price
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating the constraint where the special value of -1 indicates that no violation is allowed.
+RHS Year	150000000	-	1
+Penalty Quantity	30000000	-	1
+Penalty Quantity	2000000	-	2
+Penalty Price	1	$	1
+Penalty Price	0.3333	$	2
+RHS	100	-	1			
+Penalty Price	-1	$	1			PEAK
+Penalty Price	100	$	1			OFF-PEAK
+
+Paragraphs:
+Constraint Penalty Price is used
+          with or without Penalty
+            Quantity to create soft constraints.
+
+If only one level of penalty is required then setting the Penalty
+          Price property alone will ensure that any violations are priced at
+          that level. Setting the Penalty
+            Quantity property will limit the amount of constraint violation
+          allowed at the given price. Any number of violation tranches (or
+          bands) may be specified using pairs of Penalty
+            Quantity and Penalty
+            Price with increasing band numbers as shown in the example
+          below.
+
+The Penalty Price property has the same units as the RHS , e . g . for an interval type constraint on generation,
+          the right-hand side will be entered in megawatts so the penalty price
+          should be entered in $/ MWh is assumed,
+          but for the annual emission limit shown below $/tonne is assumed
+          because the right-hand side is in tonnes (thousands of the base unit).
+
+Convexity of penalty price/quantities is assumed, meaning that bands
+          order is not forced. It is not required to introduce monotonically
+          increasing penalty prices in consecutive bands (as in example below),
+          although bands can be reordered by the solver.
+
+Example:
+
+In example above, penalty in band 2 would have a 'higher' priority
+          than band 1.
+
+Negative Penalty Price is allowed and creates incentive to violate
+          the constraint 'e.g.' to create a water value function on a Storage though you should be careful not to create an unbounded (dual
+          infeasible) problem. Additionally, there is a special case of a
+          single-band of Penalty Price equal to -1 and this indicates that the
+          Constraint is hard. This is useful for enforcing the Constraint
+          strictly in selected periods.
+
+Example:
+
+In this example the Constraint is strictly binding during "PEAK"
+          periods, and a soft constraint with penalty price 100 during
+          "OFF-PEAK". These periods of time are defined using Timeslice objects.
+
+NOTE: Very large or very small values for Penalty Price, e.g. greater than 1E+06 or less than 1E-6, can cause numerical instability
+          in the solver and should be avoided.
+
+See also:
+Lists:
+	- Constraint Price
+              Setting
+	- Constraint Violation
+	- Constraint Penalty
+              Cost
+

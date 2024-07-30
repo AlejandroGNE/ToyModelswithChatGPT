@@ -1,0 +1,15 @@
+Header: Facility Conditions Production Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Facility production
+
+Paragraphs:
+Facility Conditions Production Coefficient is the coefficient of Facility production.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Constraint Include in ST Schedule
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the constraint is modelled in the ST Schedule phase.
+
+Paragraphs:
+Constraint Include in ST Schedule switches on/off enforcing the constraint in the ST Schedule simulation phase. The flag can take these values:
+
+Note that constraints with a period greater than the step size of ST Schedule are automatically excluded unless they have been decomposed by the higher level MT Schedule and/or LT Plan phases.The value of this property cannot be changed during the simulation itself, i.e. it cannot be used to toggle the constraint in and out of the specific simulation phase.
+
+See also Constraint .
+Lists:
+

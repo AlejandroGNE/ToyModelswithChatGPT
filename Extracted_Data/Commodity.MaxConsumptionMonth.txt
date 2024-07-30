@@ -1,0 +1,28 @@
+Header: Commodity Max Consumption Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum consumption per month
+
+Paragraphs:
+Commodity Max Consumption Month
+          creates a Constraint object that
+          limits the Consumption of
+          the Commodity each month. By default this is a 'hard' constraint. To
+          create a soft constraint, set the Max
+            Consumption Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Month
+	- Commodity Constraints Consumption
+              Coefficient
+

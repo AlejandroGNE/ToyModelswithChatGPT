@@ -1,0 +1,15 @@
+Header: Gas Storage Net Injection Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net injection Cost for the gas storage
+
+Paragraphs:
+Gas Storages Net Injection Cost is Net injection Cost for the gas storage.
+Lists:
+

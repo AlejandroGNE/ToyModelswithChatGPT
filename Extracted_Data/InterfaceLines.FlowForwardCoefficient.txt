@@ -1,0 +1,16 @@
+Header: Interface Lines Flow Forward Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of reference direction flow in interface
+
+Paragraphs:
+Interface Lines Flow Forward Coefficient sets the contribution of line flow in the line's reference direction to flow on the interface (where line flows in the reverse reference direction are treated as zero).
+            Note that this property is not available for nodal simulations using the Fixed Shift Factor OPF Method .
+Lists:
+

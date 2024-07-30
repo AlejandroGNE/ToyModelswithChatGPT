@@ -1,0 +1,15 @@
+Header: Heat Node Markets Purchases
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Purchases from the market
+
+Paragraphs:
+Heat Node Markets Purchases is Purchases from the market.
+Lists:
+

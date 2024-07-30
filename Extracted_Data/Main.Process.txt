@@ -1,0 +1,150 @@
+Header: Process Class
+
+Table Details:
+Description:	A process that transforms one or more input commodities to one or more output commodities
+Class	Name	Category	Description
+Process	Battery.Discharge	Electricity Producers	Battery discharging
+Process	Gen.Coal	Electricity Producers	Generates Electricity from Coal
+Process	Gen.Gas.CCGT	Electricity Producers	Generates Electricity from Gas using combined cycle
+Process	Gen.Gas.CT	Electricity Producers	Generates Electricity from Gas using open cycle
+Process	Gen.Hydro	Electricity Producers	Generate Electricity from Hydro Storage
+Process	Gen.PS	Electricity Producers	Generates Electricity from Pumped Storage
+Process	Gen.Solar	Electricity Producers	Generates Electricity from the Sun
+Process	Gen.Wind	Electricity Producers	Generates Electricity from Wind
+Process	H2-Power	Electricity Producers	Generates Electricity from H2
+Process	Imports	Electricity Producers	External supply of Electricity
+Process	Battery.Charge	Electricity Consumers	Battery charging
+Process	CO2.Direct	Electricity Consumers	Direct air capture of CO2
+Process	Exports	Electricity Consumers	Export of Electricity
+Process	Load.PS	Electricity Consumers	Uses Electricity to Pump to Pumped Storage
+Process	Power-eFuel	Electricity Consumers	Creates eFuel from Electricity, H2 and CO2
+Process	Power-H2	Electricity Consumers	Creates H2 from Electricity and water
+Process	Spill.Hydro	Other	Spills energy from Hydro
+Collection	Parent Name	Child Name	Parent
+                  Category	Child
+                  Category
+Process.Primary Input	Gen.Coal	Coal	Electricity Producers	Resources
+Process.Primary Output	Gen.Coal	Electricity	Electricity Producers	Products
+Process.Secondary Inputs	Gen.Coal	Water	Electricity Producers	Resources
+Process.Secondary Outputs	Gen.Coal	CO2.Atmo	Electricity Producers	Emissions
+Process.Secondary Outputs	Gen.Coal	Heat	Electricity Producers	Emissions
+Process.Secondary Outputs	Gen.Coal	Spin.Down	Electricity Producers	Products
+Process.Secondary Outputs	Gen.Coal	Spin.Up	Electricity Producers	Products
+Facility.Primary Process	Plant.Coal	Gen.Coal	Power	Electricity Producers
+Collection	Parent
+                  Name	Child Name	Parent
+                  Category	Child
+                  Category
+Process.Primary Input	Power-H2	Electricity	Electricity Consumers	Products
+Process.Primary Output	Power-H2	H2	Electricity Consumers	Storage
+Process.Secondary Inputs	Power-H2	Water	Electricity Consumers	Resources
+Facility.Primary Process	Plant.Power-H2	Power-H2	H2	Electricity Consumers
+Collection	Parent
+                  Object	Child
+                  Object	Property	Value	Data File	Units
+Processes	System	Gen.Coal	Efficiency	37		%
+Processes	System	Gen.Coal	Processing Charge	5		$
+Process.Secondary Inputs	Gen.Coal	Water	Ratio	0.52		-
+Process.Secondary Outputs	Gen.Coal	CO2.Atmo	Ratio	0.920432432		-
+Process.Secondary Outputs	Gen.Coal	Heat	Ratio	15.44401544		-
+Process.Secondary Outputs	Gen.Coal	Spin.Down	Ratio	1		-
+Process.Secondary Outputs	Gen.Coal	Spin.Down	Operating Minimum Coefficient	-1		-
+Process.Secondary Outputs	Gen.Coal	Spin.Up	Ratio	-1		-
+Process.Secondary Outputs	Gen.Coal	Spin.Up	Operating Capacity Coefficient	1		-
+Process.Secondary Outputs	Gen.Coal	Spin.Up	Unit Maximum	50		%
+Collection	Parent
+                  Object	Child
+                  Object	Property	Value	Data File	Units
+Processes	System	Power-H2	Units	1		-
+Processes	System	Power-H2	Efficiency	70		%
+
+Paragraphs:
+See also Process Property Reference for a detailed list of properties for this class of object.
+
+Related Classes: Commodity , Facility .
+
+
+
+A Process takes one or more Commodity inputs and converts them to one or more Commodity outputs. The
+          conversion process has a given Efficiency and (optionally) Capacity . The
+          Efficiency and Capacity properties are based on a Primary
+            Input to Primary Output relationship. Where there are secondary
+            inputs or outputs, their consumption and production is based on
+          ratios of the primary process, rather than having separate
+          efficiencies.
+
+For example, as shown in Figure 1, the process of generating
+          electricity from a fuel consumes a Primary
+            Input Commodity and produces a Primary
+            Output Commodity, in this case "Electricity" and Secondary
+            Outputs "CO2".
+
+You toggle on/off the modeling of a Process with the Units property. A Process may be 'floating' or 'attached'. Floating Process
+          objects exist on their own and are not associated with any physical
+          location or Facility . Attached
+          Process objects are linked to one or more Facility objects. When a Process is attached to a Facility there are additional technical constraints and costs that can be
+          applied. Note that a Process can be implemented by any number of Facility objects.
+
+
+
+Figure 1: Example Electricity Generation Process
+
+
+
+
+
+The following guide will help you get started using the Process
+          class:
+
+Figure 2: Interlinked Processes and Commodities
+
+Table 1 provides several examples of Process objects and descriptions
+          of their intended purpose. Table shows the memberships that form an
+          electricity generation type of process with secondary outputs of
+          emissions and spinning reserves. Table 3 shows memberships for the
+          conversion of power to hydrogen with inputs of electricity and water
+          and output of hydrogen. Table 4 shows example properties for the
+          electricity generation Process and Table 5 the same for the power to
+          hydrogen Process. Note the use of Operating
+            Minimum Coefficient , Operating
+            Capacity Coefficient , and Unit
+            Maximum to provide additional constraints on the secondary
+          production of the spinning reserve commodities by the Facility .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You can define custom constraints on Process via the Constraints membership. The Objectives membership allows you to include Commodity coefficients in your
+          multi-objective optimization problems.
+Lists:
+	- First create the Commodity objects that your Process will consume and produce.
+	- Decide which Commodity will be
+            the Primary Input and
+            which will be the Primary
+              Output .
+	- If all commodities involved are energy types, or you can provide
+            an Energy Density for
+            them, then the simulator will have enough information to convert
+            between commodities automatically and you need only provide the
+            Process Efficiency . For other
+            processes define the Conversion
+              Factor between the commodities.
+	- Optionally attach the Process to one or more Facility objects that implement that same Process. This allows the definition
+            of additional constraints and efficiency parameters related to how
+            the process performs at a given Facility such as ramp constraints.
+

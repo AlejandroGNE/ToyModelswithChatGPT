@@ -1,0 +1,12 @@
+Header: MT Schedule New Entry Time Lag
+
+Table Details:
+Units:	month
+Default Value:	12
+Validation Rule:	≥0
+Description:	Lag time for entrepreneurial entry.
+
+Paragraphs:
+MT Schedule New Entry Time Lag applies when the New Entry Driver allows "Entrepreneurial" new entry. It defines a lag (number of months) between when each new entry candidate is found to be profitable and when it commences operation.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Transmission Report Voltage Threshold
+
+Table Details:
+Units:	kV
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Voltage level at which transmission reporting begins in this region.
+
+Paragraphs:
+Region Transmission Report Voltage Threshold sets the node voltage threshold above which transmission line and bus information appears in the solution. For example you might want to report the transmission solution for only the high voltage network in this region.  Note that you can force reporting of certain lower voltage elements using the Region Transmission Report Injection and Load Nodes and/or Node Must Report , Line Must Report . It will over write the general Transmission Report Voltage Threshold setting.
+Lists:
+

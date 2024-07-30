@@ -1,0 +1,19 @@
+Header: Generator Pump Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	70
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of pumping
+
+Paragraphs:
+Generator Pump Efficiency is the round-trip efficiency of the pump storage generator expressed as a percentage value. Typical values lie in the range 60 - 80%. Along with Pump Load and connection to a Head Storage this property designates a Generator as a pumped storage generator.
+
+See also:
+Lists:
+	- Generator Pump Load
+	- Generator Pump Units
+

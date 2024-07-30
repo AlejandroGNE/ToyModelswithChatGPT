@@ -1,0 +1,20 @@
+Header: Cournot Perfect Competition Production
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production in the perfect competition solution
+
+Paragraphs:
+Cournot Perfect Competition Production is the total production ( Generation ) in the perfect competition solution i.e. before the Nash-Cournot game is run.
+
+See also:
+Lists:
+	- Cournot Perfect Competition Producer Revenue
+	- Cournot Perfect Competition Producer Surplus
+	- Cournot Production
+

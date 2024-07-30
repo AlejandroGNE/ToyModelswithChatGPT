@@ -1,0 +1,26 @@
+Header: Load Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load at a node
+Load_1	Load	50		MW	1			
+Load_2	Load	80		MW	1			
+Load_3	Load	30		MW	1			
+
+Paragraphs:
+Load Load is used to specify the real power (MW) rating of the load. Loads can be defined separately at a node. In other words, loads belonging to different companies can be assigned to the same node. For example, Load_1 served by Company_1, Load_2 and Load_3 served by Company_2 can each be assigned individually to Node_1.
+
+The following example shows how to input the MW load data at a node using Load .
+
+The user can directly enter the load values as shown above or specify the loads using the Load Participation Factor property. Note: When Load is used to set Loads the property Is Scalable must be set as No for the Load to be enabled.
+
+The total load at a node is the sum of all individual loads connected to the node.
+
+Node Load = ∑ Load(Node)
+Lists:
+

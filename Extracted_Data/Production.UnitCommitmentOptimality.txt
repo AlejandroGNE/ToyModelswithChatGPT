@@ -1,0 +1,14 @@
+Header: Production Unit Commitment Optimality
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	Unit commitment integerization scheme.
+
+Paragraphs:
+Production Unit Commitment Optimality decides how the integer unit commitment decision variables are treated in the optimization. The options are:
+
+Note that this option affects integerization of the unit commitment variables only. There are often other integer variables in the formulation e.g. market block sales/purchase variables, generator AGC range constraints, and unit rough running ranges. These integer decisions are never relaxed.
+Lists:
+

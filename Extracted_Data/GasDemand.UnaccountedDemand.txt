@@ -1,0 +1,15 @@
+Header: Gas Demand Unaccounted Demand
+
+Table Details:
+Units:	Input: %    Output: GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage of unaccounted gas demand
+
+Paragraphs:
+Gas Demand Unaccounted Demand is Percentage of unaccounted gas demand, as input. As output, equal to input percentage of base demand.
+Lists:
+

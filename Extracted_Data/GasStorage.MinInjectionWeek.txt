@@ -1,0 +1,15 @@
+Header: Gas Storage Min Injection Week
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of gas that must be injected into the storage in a week
+
+Paragraphs:
+Gas Storage Min Injection Week is the weekly version of Min Injection .
+Lists:
+

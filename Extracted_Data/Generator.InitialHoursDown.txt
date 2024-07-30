@@ -1,0 +1,28 @@
+Header: Generator Initial Hours Down
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Hours the unit has been down for at time zero
+
+Paragraphs:
+Generator Initial Hours Down is
+          used to set the initial ( t =0) operating state of a single
+          unit facility when used in combination with Min
+            Up Time , Min Down Time , Max Up Time , Max
+            Down Time or multi-band Start
+            Cost . If you define this property you must also define Initial
+            Generation . Only one of Initial Hours Down and Initial
+            Hours Up can be non-zero.
+
+See also:
+Lists:
+	- Generator Initial
+              Units Generating
+	- Generator Initial
+              Hours Up
+

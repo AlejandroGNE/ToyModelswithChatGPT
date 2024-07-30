@@ -1,0 +1,17 @@
+Header: Vehicle Energy Consumption
+
+Table Details:
+Units:	kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy consumed
+
+Paragraphs:
+Vehicle Energy Consumption is the
+          total energy consumed by the vehicle to travel the reported Distance
+          travelled. It is defined as:
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3060
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Solution status:= <value>.
+
+Paragraphs:
+Message 3060 occurs in the following circumstances:
+Lists:
+

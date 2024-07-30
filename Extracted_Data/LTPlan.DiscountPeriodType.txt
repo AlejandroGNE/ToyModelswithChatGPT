@@ -1,0 +1,12 @@
+Header: LT Plan Discount Period Type
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	In (1,2,3,4,6,7)
+Description:	A unique discount factor and expansion decisions will be computed for each of these periods.
+
+Paragraphs:
+Period type for discount rate
+Lists:
+

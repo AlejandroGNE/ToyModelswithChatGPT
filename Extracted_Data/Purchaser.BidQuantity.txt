@@ -1,0 +1,40 @@
+Header: Purchaser Bid Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Quantity bid in band
+Load	Bid Quantity	7000	MW	1
+Load	Bid Quantity	400	MW	2
+Load	Bid Quantity	100	MW	3
+Load	Bid Quantity	120	MW	4
+Load	Bid Quantity	30	MW	5
+Load	Bid Price	10000	$/MWh	1
+Load	Bid Price	9900	$/MWh	2
+Load	Bid Price	8500	$/MWh	3
+Load	Bid Price	5000	$/MWh	4
+Load	Bid Price	1000	$/MWh	5
+Load	Bid Quantity	0	MW	1
+Load	Bid Quantity	7000	MW	2
+Load	Bid Quantity	7400	MW	3
+Load	Bid Quantity	7500	MW	4
+Load	Bid Quantity	7620	MW	5
+Load	Bid Quantity	7650	MW	6
+Load	Bid Price	10000	$/MWh	1
+Load	Bid Price	9900	$/MWh	2
+Load	Bid Price	8500	$/MWh	3
+Load	Bid Price	5000	$/MWh	4
+Load	Bid Price	1000	$/MWh	5
+
+Paragraphs:
+Purchaser Bid Quantity sets the megawatt part of the demand bid (demand step function). The quantities are incremental by default meaning that the total bid is the sum of all bid quantities. You may change to cumulative style of input, where the bid quantity is the total amount at each point by setting the Offer Quantity Format attribute.
+
+Example (using incremental format):
+
+Example (using cumulative format):
+Lists:
+

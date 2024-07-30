@@ -1,0 +1,21 @@
+Header: Generator Pump Units Started
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units stared in pump mode
+
+Paragraphs:
+Generator Pump Units Started is the number of units stared in pump mode and is defined as:
+
+NOTE: At t = 0 of the first simulation step Pump Units Started is always zero.
+
+See also:
+Lists:
+	- Generator Pump Units
+	- Constraint Generators Pump Units Started Coefficient
+

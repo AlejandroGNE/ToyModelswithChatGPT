@@ -1,0 +1,23 @@
+Header: Flow Storage Withdrawal Losses
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses from withdrawals
+
+Paragraphs:
+Flow Storage Withdrawal Losses
+          reports the losses from withdrawals, and is defined as:
+
+Withdrawal Losses = Withdrawal × (1/ Withdrawal
+            Efficiency - 1)
+
+See also:
+Lists:
+	- Flow Storage Injection
+              Losses
+

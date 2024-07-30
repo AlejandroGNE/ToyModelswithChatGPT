@@ -1,0 +1,16 @@
+Header: Power2X Ramp Up Charge
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Charge applied to ramping up
+
+Paragraphs:
+Refer to Facility Ramp
+            Up Charge for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Available Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available generation capacity
+
+Paragraphs:
+Company Available Capacity is the total available generation capacity of the company, and is defined as:
+Lists:
+

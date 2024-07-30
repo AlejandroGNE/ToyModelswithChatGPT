@@ -1,0 +1,14 @@
+Header: Message 25
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	<value> <name> <value> From = <value> To (<value>).
+
+Paragraphs:
+Message 25 occurs when an invalid configuration is defined,e.g. a Transformer is defined with the
+          same Node From as Node
+            To . This can also apply to other class types, e.g. a Waterway cannot be defined with the same Storage From as Storage
+            To .
+Lists:
+

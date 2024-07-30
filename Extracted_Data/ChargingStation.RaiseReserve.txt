@@ -1,0 +1,29 @@
+Header: Charging Station Raise Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of raise (spin up) reserve
+
+Paragraphs:
+Charging Stations Raise
+          Reserve is the provision of raise ('spin up') reserve summed over all
+          raise reserve types (raise,
+          regulation raise and operational). Raise reserve is provided by
+          reserving some Discharging capability from the Vehicle batteries when the SoC is above Min SoC . or by offering to
+          reduce Charging of the
+          battery. This is allowed only when the Max
+            Discharge Rate is non-zero.
+
+See also:
+Lists:
+	- Charging Station Regulation
+              Raise Reserve
+	- Charging Station Lower
+              Reserve
+	- Charging Station Reserves Revenue
+

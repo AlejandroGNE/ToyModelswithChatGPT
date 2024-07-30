@@ -1,0 +1,15 @@
+Header: Water Plant Constraints Installed Capacity Coefficient
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of installed capacity
+
+Paragraphs:
+Water Plant Constraints Installed Capacity Coefficient is Coefficient of installed capacity.
+Lists:
+

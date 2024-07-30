@@ -1,0 +1,32 @@
+Header: Generator Unit Commitment Period
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Period between unit commitment (on/off) decisions.
+
+Paragraphs:
+Generator Unit Commitment Period
+          sets the resolution, in hours, for unit commitment (on/off) decisions
+          as opposed to the production/dispatch decisions. The default value of
+          zero means that unit commitment is performed at the same resolution as
+          production/dispatch. Reducing the resolution for unit commitment will
+          reduce the complexity of the unit commitment problem and might improve
+          solution times. The setting is particularly useful when running very
+          high resolution simulations e.g. where the dispatch interval is a few
+          minutes or seconds.
+
+For example, you might want to select for certain generators to
+          commit on an hourly basis while the dispatch is 5 minutes; or in an
+          hourly simulation you might want some larger generator to commit every
+          three hours, etc.
+
+See also:
+Lists:
+	- Generator Unit
+              Commitment Aggregation
+

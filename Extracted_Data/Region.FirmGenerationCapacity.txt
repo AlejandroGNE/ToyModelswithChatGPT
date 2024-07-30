@@ -1,0 +1,21 @@
+Header: Region Firm Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Region Firm Generation Capacity is based on the Firm Capacity of all the generators in the region.
+
+Paragraphs:
+Region Firm Generation Capacity is based on the Firm Capacity of all the generators in the region and is used to assess the generation capacity for LT Plan .
+
+        It is calculated as:
+
+See also:
+Lists:
+	- Region Net Capacity Interchange
+	- Region Generation Capacity
+

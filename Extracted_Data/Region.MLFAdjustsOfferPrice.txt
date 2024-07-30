@@ -1,0 +1,15 @@
+Header: Region MLF Adjusts Offer Price
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If Generator [Marginal Loss Factor] adjusts [Offer Price].
+
+Paragraphs:
+Region MLF Adjusts Offer Price switches on/off adjustment of Generator Offer Price by the Marginal Loss Factor . The same applies to Line Marginal Loss Factor , Offer Price and Line Marginal Loss Factor Back , Offer Price Back .
+Lists:
+

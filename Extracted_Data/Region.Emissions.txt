@@ -1,0 +1,11 @@
+Header: Region Emissions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of emissions in the region
+
+Paragraphs:
+Region Emissions is set of emissions in the region. This collection is reserved for reporting only.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Ramp Up
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping up
+
+Paragraphs:
+Power2X Ramp Up is Total ramping up.
+Lists:
+

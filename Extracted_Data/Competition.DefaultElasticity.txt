@@ -1,0 +1,12 @@
+Header: Competition Default Elasticity
+
+Table Details:
+Units:	$/MWh2
+Default Value:	-0.2
+Validation Rule:	<0
+Description:	Default price elasticity of demand
+
+Paragraphs:
+Competition Default Elasticity is the default price elasticity of demand for use in the Nash-Cournot game. The value is always negative, which means higher prices reduce demand. The more negative the value, the more responsive demand is to changes in price, and the closer the outcome will be to the perfect competition result.
+Lists:
+

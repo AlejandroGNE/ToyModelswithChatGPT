@@ -1,0 +1,17 @@
+Header: Generator Reserves VO&M Charge
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable O&M cost associated with providing spinning reserve
+
+Paragraphs:
+Generator Reserves VO&M Charge is a variable operations and maintenance cost associated with provision of spinning and replacement reserves. The cost incurred is reported as Reserves VO&M Cost .
+
+See also Reserve Type , VO&M Charge .
+Lists:
+

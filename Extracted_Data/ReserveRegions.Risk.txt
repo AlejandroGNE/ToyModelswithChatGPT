@@ -1,0 +1,15 @@
+Header: Reserve Regions Risk
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of Region load to the Risk
+
+Paragraphs:
+Reserve Regions Risk is the contribution of Region Load to the Risk which is based on the Load Risk .
+Lists:
+

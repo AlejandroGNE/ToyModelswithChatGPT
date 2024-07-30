@@ -1,0 +1,15 @@
+Header: Water Node Facilities Production Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Water production for each unit of production
+
+Paragraphs:
+Water Node Facilities Production Coefficient is Water production for each unit of production.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 173
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> Lines <name> has Constraint Lines [Flow Coefficient] and <value> defined. This coefficient will be ignored.
+
+Paragraphs:
+Message 173 occurs in the following circumstances:
+Lists:
+

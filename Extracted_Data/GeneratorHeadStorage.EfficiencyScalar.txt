@@ -1,0 +1,55 @@
+Header: Generator Head Storage Efficiency Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generation efficiency scalar at the given [Efficiency Point]
+Efficiency Point	95	%	1
+Efficiency Point	85	%	2
+Efficiency Point	75	%	3
+Efficiency Point	65	%	4
+Efficiency Point	55	%	5
+Efficiency Point	45	%	6
+Efficiency Point	35	%	7
+Efficiency Point	25	%	8
+Efficiency Point	15	%	9
+Efficiency Point	5	%	10
+Efficiency Scalar	1	-	1
+Efficiency Scalar	0.982975728	-	2
+Efficiency Scalar	0.965386854	-	3
+Efficiency Scalar	0.947173173	-	4
+Efficiency Scalar	0.928262958	-	5
+Efficiency Scalar	0.908569604	-	6
+Efficiency Scalar	0.887986918	-	7
+Efficiency Scalar	0.866382291	-	8
+Efficiency Scalar	0.843586464	-	9
+Efficiency Scalar	0.819377554	-	10
+
+Paragraphs:
+Generator Head
+            Storage Efficiency Scalar is used to model the effect of 'head'
+          on hydro generation efficiency. It is the generation efficiency scalar
+          associated with the multi-band Efficiency
+            Point . Efficiency Scalar should be defined in multiple bands
+          with the highest value in band 1 and monotonically non-increasing
+          thereafter as in the following example. The Efficiency Scalar values
+          modify the efficiency curve defined by Efficiency
+            Base and Efficiency
+            Incr . Value less than unity imply that efficiency is reduced,
+          values above unity that efficiency is increased.
+
+Example:
+
+Note that the Min Stable
+            Level (or Min Stable
+            Factor ) may also vary according to the available head.
+
+There are two solution approaches available for modeling head effects
+          - see Generator Head
+            Effects Method .
+Lists:
+

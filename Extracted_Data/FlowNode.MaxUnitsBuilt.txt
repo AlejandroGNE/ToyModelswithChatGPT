@@ -1,0 +1,16 @@
+Header: Flow Node Max Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Binary indicating if this is a build candidate
+
+Paragraphs:
+See Facility Max
+            Units Built for details.
+Lists:
+

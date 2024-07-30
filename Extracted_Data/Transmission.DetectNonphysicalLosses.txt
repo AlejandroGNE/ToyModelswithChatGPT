@@ -1,0 +1,22 @@
+Header: Transmission Detect Non-physical Losses
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If non-physical losses should be detected (in the piecewise linear loss model) and removed via mixed-integer programming
+
+Paragraphs:
+Transmission toggles on/off an algorithm that detects and eliminates non-physical losses in the piecewise linear loss model .
+
+PLEXOS detects non-physical losses and reports a warning to the screen and log like the following:
+
+The 'standard' approach to dealing with this is a two step procedure:
+
+This same procedure is built-in to PLEXOS, but is not enabled by default because it involves switching from LP to mixed-integer programming (MIP) to solve. The correction procedure can be turned on using this "Detect Non-physical Losses" option. Non-physical losses are always checked for and warnings issued regardless of the setting of this switch, but the correction procedure is only invoked if this switch is enabled.
+
+In a multi-step or multi-sample simulation, PLEXOS removes the correction each step, starting fresh, which ensures that, at any time only the minimum number of integer elements are present in the formulation.
+
+NOTE: Your optimizer will require a license for mixed integer programming to use this feature.
+Lists:
+

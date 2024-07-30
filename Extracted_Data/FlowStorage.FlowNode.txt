@@ -1,0 +1,12 @@
+Header: Flow Storage Flow Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Flow Node the Flow Storage connects to
+
+Paragraphs:
+Flow Storage Flow Node is the Flow Node the Flow Storage connects
+          to. All Injection and Withdrawal from the storage occur into and out of this node.
+Lists:
+

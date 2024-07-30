@@ -1,0 +1,15 @@
+Header: Water Plant Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the Water Plant
+
+Paragraphs:
+Water Plant Technical Life is the physical life of the Water Plant and is used in LT Plan to force the retirement of the Water Plant after a certain period after it has been constructed. The property applies only to Water Plants that are constructed by LT Plan i.e. those defining Max Units Built .
+Lists:
+

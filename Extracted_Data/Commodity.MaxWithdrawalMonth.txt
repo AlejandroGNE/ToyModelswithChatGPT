@@ -1,0 +1,27 @@
+Header: Commodity Max Withdrawal Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of the Commodity that can be taken from inventory in a month
+
+Paragraphs:
+Commodity Max Withdrawal Month
+          creates a Constraint object that
+          limits the Withdrawal of the
+          Commodity from inventory each month. By default this is a 'hard'
+          constraint. To create a soft constraint, create a Constraint with a Penalty Price .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Month
+	- Commodity Constraints Withdrawal
+              Coefficient
+

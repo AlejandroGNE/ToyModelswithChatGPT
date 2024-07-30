@@ -1,0 +1,19 @@
+Header: Reserve Generators Max Replacement
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum replacement (non-spinning) reserve capability
+
+Paragraphs:
+Reserve Generators Max Replacement defines the maximum response that the generating unit can provide to the replacement reserve requirement. By default a generator can provide its entire off-line capacity up to the defined Rating as replacement reserves.
+
+See also:
+Lists:
+	- Reserve Generators Max Replacement Factor
+	- Reserve Generators Non Spinning Reserve Provision
+

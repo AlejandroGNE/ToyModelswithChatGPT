@@ -1,0 +1,15 @@
+Header: Water Demand Price Paid
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid for water demand
+
+Paragraphs:
+Water Demand Price Paid is Price paid for water demand.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Gas Storage Inventory Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from the Inventory Charge of holding gas in storage
+
+Paragraphs:
+Gas Storage Inventory Cost is the total cost of holding gas in storage. 
+            This is calculated based on the input Inventory Charge and the storage content level each period. Also includes Carrying Cost
+Lists:
+

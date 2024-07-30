@@ -1,0 +1,26 @@
+Header: Market Surplus Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of surplus
+
+Paragraphs:
+Market Surplus Cost is the cost
+          incurred when supply exceeds Demand .
+          It is calculated as:
+
+Surplus Cost = Surplus
+            Price × Surplus
+
+See also:
+Lists:
+	- Market Surplus
+              Hours
+	- Market Shortage
+              Cost
+

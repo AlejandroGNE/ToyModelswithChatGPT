@@ -1,0 +1,17 @@
+Header: Physical Contract Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of cleared generation offers
+
+Paragraphs:
+Physical Contract Generation Cost is the total cost of the generation contract based on its Offer Prices and is defined as:
+
+where:
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Flow Path x
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value to pass-through to solution
+
+Paragraphs:
+Flow Path x is a multi-band value that is passed directly to the solution. The value is not involved in the simulation but is simply a pass-through datum. In summary the value is summed and divided by 1000. Pass-through properties that are attributed to Datafiles follow the slicing methods set in the LT/MT phases.
+
+Pass-through values are useful for benchmarking exercises allowing the convenient comparison of simulated versus actual values.
+Lists:
+

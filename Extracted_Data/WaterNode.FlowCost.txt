@@ -1,0 +1,19 @@
+Header: Water Node Flow Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of flowing water through the node
+
+Paragraphs:
+Water Node Flow Cost is the cost of
+          flows on the Water node, and is defined as:
+
+Flow Cost = Flow
+            Charge × Flow
+Lists:
+

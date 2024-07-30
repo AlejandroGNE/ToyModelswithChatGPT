@@ -1,0 +1,15 @@
+Header: Battery Companies Net Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of generation and load
+
+Paragraphs:
+Battery Companies Net Generation is the net of generation and load.
+Lists:
+

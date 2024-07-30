@@ -1,0 +1,33 @@
+Header: Vehicle Charging
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Charge rate/energy
+
+Paragraphs:
+Vehicle Charging reports the
+          charging rate in kilowatt-hours for interval reporting, or total
+          energy in the reporting period in megawatt-hours for summary
+          reporting. This value is the load on the Charging
+            Station . The energy that reaches the battery is net of charging
+          losses as implied by the Charge
+            Efficiency . For example if Charging is 2 kW and Charge
+          Efficiency is 98% the Charging Station sees a load of 2 kW and the
+          battery receives 2 x 0.98 = 1.96 kWh of Energy in a one-hour period.
+
+The price paid and total cost of electricity used in charging are
+          reported as Charge Price and Charge Cost respectively.
+
+See also:
+Lists:
+	- Vehicle Discharging
+	- Vehicle Energy
+	- Vehicle Losses
+	- Vehicle Hours
+              Charging
+

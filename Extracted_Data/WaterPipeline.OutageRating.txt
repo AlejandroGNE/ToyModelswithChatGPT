@@ -1,0 +1,15 @@
+Header: Water Pipeline Outage Rating
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Water pipeline Max Capacity during the outage
+
+Paragraphs:
+Water Pipeline Outage Rating is Water pipeline Max Capacity during the outage.
+Lists:
+

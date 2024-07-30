@@ -1,0 +1,22 @@
+Header: Zone Max Capacity Reserve Margin
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum capacity reserve margin for capacity planning
+
+Paragraphs:
+Zone Max Capacity Reserve Margin sets an upper bound on the Capacity Reserve Margin in the Zone in LT Plan . The expansion solution will attempt to limit the Capacity Reserve Margin below this value by restricting new builds and/or retiring plant. By default the constraint is 'hard' meaning that it cannot be violated, but the limit can be made 'soft' by setting  the Capacity Excess Price .
+
+Zone Max Capacity Reserve Margin is defined as:
+
+See also:
+Lists:
+	- Zone Min Capacity Reserve Margin
+	- Zone Max Capacity Reserves
+	- Zone Capacity Excess
+

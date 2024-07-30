@@ -1,0 +1,18 @@
+Header: Battery Constraints Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any battery capacity is built to date
+
+Paragraphs:
+Battery Constraints Built Coefficient is the left-hand side coefficient on the binary (0,1) variable indicating if any battery capacity is built to date in LT Plan .
+
+See also:
+Lists:
+	- Battery Constraints Built in Year Coefficient
+

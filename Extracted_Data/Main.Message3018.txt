@@ -1,0 +1,11 @@
+Header: Message 3018
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	<value> [<value>] defined with value <value> and [Date From] = <value> after [Date To] = <value>.
+
+Paragraphs:
+
+Lists:
+

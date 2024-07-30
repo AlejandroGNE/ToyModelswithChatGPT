@@ -1,0 +1,11 @@
+Header: Message 3015
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	<value> [<value>] band = <value> is defined multiple times with value <value>.
+
+Paragraphs:
+
+Lists:
+

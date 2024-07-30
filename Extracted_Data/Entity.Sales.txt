@@ -1,0 +1,15 @@
+Header: Entity Sales
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sales of the Commodity to the Markets
+
+Paragraphs:
+Entity Sales is the Sales to the Markets .
+Lists:
+

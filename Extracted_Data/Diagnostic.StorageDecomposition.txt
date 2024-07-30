@@ -1,0 +1,12 @@
+Header: Diagnostic Storage Decomposition
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for storage decomposition
+
+Paragraphs:
+This option produces a diagnostic file in XML format that details the decomposition of the storages from MT Schedule to ST Schedule.
+Lists:
+

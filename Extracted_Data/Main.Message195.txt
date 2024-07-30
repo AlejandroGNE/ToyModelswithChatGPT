@@ -1,0 +1,11 @@
+Header: Message 195
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> Mark-up Point defined with <value> bands but Generator Bid Cost Mark-up is defined with <value> bands.
+
+Paragraphs:
+Message 195 occurs in the following circumstances:
+Lists:
+

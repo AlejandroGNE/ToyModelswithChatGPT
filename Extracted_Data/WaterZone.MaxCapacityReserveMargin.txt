@@ -1,0 +1,18 @@
+Header: Water Zone Max Capacity Reserve Margin
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum capacity reserve margin for capacity planning
+
+Paragraphs:
+Water Zone Max Capacity Reserve Margin sets an upper bound on the capacity reserve margin in the Water Zone in LT Plan . The expansion solution will attempt to limit the capacity reserve margin below this value by restricting new builds and/or retiring water plants.
+
+See also:
+Lists:
+	- Water Zone Min Capacity Reserve Margin
+

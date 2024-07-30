@@ -1,0 +1,49 @@
+Header: Facility Max Production
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production
+Units	1	-	
+Max Operating Level	250	-	
+Max Production Month	24000	-	M01
+Max Production Month	66000	-	M02
+Max Production Month	68000	-	M03
+Max Production Month	63000	-	M04
+Max Production Month	76000	-	M05
+Max Production Month	36000	-	M06
+Max Production Month	77000	-	M07
+Max Production Month	46000	-	M08
+Max Production Month	22000	-	M09
+Max Production Month	4000	-	M10
+Max Production Month	15000	-	M11
+Max Production Month	8000	-	M12
+
+Paragraphs:
+Facility Max
+            Production (and its period-specific variants Hour , Day , Week , Month and Year )
+          define an upper bound on the sum of Facility Production in the given time period.
+
+A straight-forward approach to modelling a production-constrained
+          facility ( e.g. a hydro generator) is to place periodic limits
+          on the Facility's production as in Table 1.
+
+Note the use Max
+            Production Month variant and time
+            slices (patterns) to change the Production limits by each month
+          of the year.
+
+The simulator converts the Production constraints into Constraint objects. By default the constraints are hard i.e. no
+          violation is allowed. If you prefer to allow violations then use the Max Production Penalty property.
+
+See also:
+Lists:
+	- Facility Max
+              Capacity Factor
+	- Facility Min
+              Production
+

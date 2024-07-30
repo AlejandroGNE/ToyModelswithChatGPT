@@ -1,0 +1,15 @@
+Header: Power2X Outage Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Unit outage rating based on the unit capacity
+
+Paragraphs:
+Power2X Outage Factor is the Unit outage rating based on the unit capacity.
+Lists:
+

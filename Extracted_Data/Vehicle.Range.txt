@@ -1,0 +1,20 @@
+Header: Vehicle Range
+
+Table Details:
+Units:	km (Metric), m (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Remaining range
+
+Paragraphs:
+Vehicle Range reports how far an
+          electric vehicle can travel given the current state
+            of charge of the battery. This only applies to electric
+          vehicles. Range is calculated as:
+
+Range = Energy / ( Efficiency / 1000)
+Lists:
+

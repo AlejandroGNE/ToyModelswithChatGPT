@@ -1,0 +1,15 @@
+Header: Gas Transport Source Gas Storages Delivered Quantity
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas delivered by gas storage to the gas transport
+
+Paragraphs:
+Gas Transport Source Gas Storages Delivered Quantity is Gas delivered by gas storage to the gas transport.
+Lists:
+

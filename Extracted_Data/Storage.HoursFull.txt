@@ -1,0 +1,18 @@
+Header: Storage Hours Full
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the storage is full
+
+Paragraphs:
+Storage Hours Full reports the number of hours the storage is full i.e. when End Volume is at Max Volume (or End Level is at Max Level ).
+
+See also:
+Lists:
+	- Constraint Storages Hours Full Coefficient
+

@@ -1,0 +1,15 @@
+Header: Node Min Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserves
+
+Paragraphs:
+Node Min Capacity Reserves is the minimum capacity reserves.
+Lists:
+

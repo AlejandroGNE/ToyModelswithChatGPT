@@ -1,0 +1,11 @@
+Header: Gas Basin Class
+
+Table Details:
+Description:	Collection of gas fields in a common basin
+
+Paragraphs:
+See also Gas Basin Property Reference for a detailed list of properties for this class of object.
+
+A Gas Basin is a summary class to contain a collection of Gas Fields . Basins might have overall limits on extractable gas, with a number of different Gas Fields candidates (and existing gas fields) inside the basin. A Gas Basin would act as a summary object for Gas Fields, putting over-arching limits on the amount of gas that can be developed. For example, if the basin has 1000 TJ of extractable gas, there might be field development options that exceed this and the model needs to choose which projects are best.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Water Plant Min Stable Production
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum production level
+
+Paragraphs:
+Water Plant Min Stable Production defines a minimum stable production level that the water plant must operate at when committed.
+
+See also Heat modelling
+Lists:
+

@@ -1,0 +1,23 @@
+Header: Flow Path Maintenance
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity out on maintenance
+
+Paragraphs:
+Flow Path Maintenance is the total
+          capacity out-of-service in the reference direction ( discrete + distributed ).
+          See Facility Maintenance for details.
+
+See also:
+Lists:
+	- Flow Path Forced
+              Outage
+	- Flow Path Maintenance
+              Back
+

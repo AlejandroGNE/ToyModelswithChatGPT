@@ -1,0 +1,15 @@
+Header: Generator Closing Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat in storage at the end of the period
+
+Paragraphs:
+Generator Closing Heat is Heat in storage at the end of the period.
+Lists:
+

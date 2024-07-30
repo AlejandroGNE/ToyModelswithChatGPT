@@ -1,0 +1,15 @@
+Header: Water Pipeline VO&M Charge
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operations and maintenance costs of the Water Pipeline
+
+Paragraphs:
+Water Pipeline VO&M Charge is Variable operations and maintenance costs of the Water Pipeline.
+Lists:
+

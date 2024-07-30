@@ -1,0 +1,22 @@
+Header: Node Min Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum load across the current period
+
+Paragraphs:
+Node Min Load is the minimum Load across the current period.
+
+NOTE: Min Load is computed based on the input loads and so does not include loads generated during simulation such as transmission losses.
+
+See also:
+Lists:
+	- Node Peak Load
+	- Region Min Load
+	- Zone Min Load
+

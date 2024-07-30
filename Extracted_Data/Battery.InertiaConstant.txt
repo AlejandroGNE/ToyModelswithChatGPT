@@ -1,0 +1,20 @@
+Header: Battery Inertia Constant
+
+Table Details:
+Units:	s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Stored energy per unit of power
+
+Paragraphs:
+Battery Inertia Constant is the
+          equivalent inertia provided by the battery energy storage system
+          whenever it is charging or discharging.
+
+See Generator Inertia
+          Constant for details.
+Lists:
+

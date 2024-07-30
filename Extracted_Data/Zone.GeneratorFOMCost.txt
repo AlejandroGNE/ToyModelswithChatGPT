@@ -1,0 +1,18 @@
+Header: Zone Generator FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed operations and maintenance costs
+
+Paragraphs:
+Zone Generator FOM Cost is the total fixed operations and maintenance costs, and is defined as:
+
+See also:
+Lists:
+	- Zone Generation Cost
+

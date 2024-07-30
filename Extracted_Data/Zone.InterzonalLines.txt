@@ -1,0 +1,11 @@
+Header: Zone Interzonal Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Interzonal Lines is the set of Lines that connect to other Zones. This collection is reserved for reporting only.
+Lists:
+

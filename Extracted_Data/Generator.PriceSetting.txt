@@ -1,0 +1,46 @@
+Header: Generator Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the generator can set price
+HYDRO	Price Setting	-	
+THERMAL	Price Setting	-1	-
+
+Paragraphs:
+Generator Price Setting indicates
+          if the generator is allowed to set price (marginal cost of generation)
+          i.e. if it can set the pool price when marginal. By default all
+          generators can set price. Turning this option off allows for cases
+          where, due to market rules, a generator or set of generators is not
+          permitted to set the market clearing price even if it is marginal for
+          energy at the optimal solution. This property can be used, for
+          example, to remove the pricing effects of hydro units and ensure that
+          market pricing reflects only thermal incremental costs. This property
+          will also remove the generator from any uplift calculation if Region
+            Uplift is enabled.
+
+To set the flag simply define the property with value 'Yes'(value =
+          -1) on generators that are able to set price or 'No' (value = 0) for
+          those units that must not set price. Note that the default value is
+          true so it is strictly only necessary to list the generators that
+          cannot set price.
+
+Example:
+
+The behaviour of this property changes slightly, depending on the type
+          of Region Load
+            Settlement Model used. In the case where the Most
+            Expensive Dispatched option is used, any Generators that have a value of 'No' for the this option, will simply be excluded
+          from setting the price. However in all other Load
+            Settlement Model cases setting this property to 'No' for any
+          generator, causes the simulation to solve an additional 'pricing' step
+          where non-price setting generators' dispatch levels are 'frozen' at
+          their optimal levels and the marginal price is determined. Thus this
+          option can have an impact on simulation performance.
+Lists:
+

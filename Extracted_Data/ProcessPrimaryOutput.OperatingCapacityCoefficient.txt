@@ -1,0 +1,24 @@
+Header: Process Primary Output Operating Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient in production definition of the capacity of operating units at the Facility
+
+Paragraphs:
+Process Primary
+            Output Operating Capacity Coefficient applies to each Facility implementing the process through the Facility Primary Process membership.
+          It is the coefficient in the production definition equation of the
+          capacity of Units Operating at the Facility . This input can be
+          used to define an output Commodity that is a function of the spare capacity of the Facility .
+
+See also:
+Lists:
+	- Process Secondary
+              Output Operating
+              Capacity Coefficient
+

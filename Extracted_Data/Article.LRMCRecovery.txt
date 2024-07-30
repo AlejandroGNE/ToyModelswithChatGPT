@@ -1,0 +1,79 @@
+Header: LRMC Recovery
+
+Table Details:
+BW01	FO&M Charge	1	25	$/kW/year
+BW01	Equity Charge	1	51.25	$/kW/year
+BW01	Debt Charge	1	22.36	$/kW/year
+
+Paragraphs:
+The variable portion of generation cost is set by fuel prices, generator efficiencies and any opportunity costs implied by other constraints. Generators trading in the market expect to recover their variable costs of operation in every period - referred to as their short-run marginal cost (SRMC). In the medium term, however, they must also cover fixed operating costs, make contributions to debt servicing, and return a profit to shareholders. These fixed cost charges together can be expressed as a per kW capacity charge across some period of time, generally one year. The combined charge (variable plus fixed) is often referred to as long-run marginal cost (LRMC), although in this discussion, it is not a requirement that the fixed cost is necessary related to LRMC.
+
+It is important to note that even under pricing based on short-run marginal costs some generators will recover some fixed costs because:
+
+However, modelled market outcomes based on SRMC alone tend to show most if not all generating companies failing to recover the majority of their fixed costs (including debt and equity servicing requirements). Generators that are not 'viable' under SRMC pricing cannot be assumed to be inefficient or likely to be replaced by new entrant plant because:
+
+Hence the problem of producing 'realistic' price forecasts is by no means straight-forward, and there may be many reasons why prices naturally lie above those implied by SRMC that are not related to market power or gaming. However, it seems sensible to assume that, where market power exists the ability of generators to recoup fixed costs is improved, and this applies across time and space. One way to model the recovery of fixed costs (and often the only method available with other market simulation software) is for the analyst to input a set of energy offers that in some way reflect fixed cost charges. This could be based on historical offering patterns - if they seem to result in recovery of those costs - or some another method. This approach can be implemented with PLEXOS but has several drawbacks:
+
+To address this, PLEXOS can model fixed cost recovery in a totally dynamic and automatic fashion, accounting for natural rents earned across a long period of time such as one fiscal year, and all system constraints and opportunities that arise due to outages, as well as the dynamics of cost recovery across a portfolio of assets. All that is required is for the analyst to input the fixed cost requirements on each generator or transmission line, and invoke the fixed cost recovery model as a model option.
+
+For convenience, PLEXOS divides the total annual fixed cost charge into three components:
+
+The FO&M Charge is equal to the total fixed operations and maintenance cost divided by the installed kilowatts at the generator e.g. if the total annual cost is $66 million and the generator has 2640 MW installed capacity, then the FO&M Charge is: FO&M Charge = 66,000,000 / 2,640,000 = $25 /kW/year The Equity Charge and Debt Charge represent the required return to shareholders and debt respectively on an annual basis. These are a function of the asset value, the debt/equity ratio and the cost of capital. For example, if the above 2640 MW generator is valued at $1.64 billion, the debt equity ratio is 45/55, the required return to shareholders is 15% p.a., and the interest rate is 8% p.a., then the Equity Charge and Debt Charge are: Debt Charge = (1,640,000,000 × 0.45 × 0.08) / 2,640,000 = $22.36 /kW/year Equity Charge = (1,640,000,000 × 0.55 × 0.15) / 2,640,000 = $51.25 /kW/year These fixed cost charges are entered through properties on Generator and Line objects. An example table of fixed cost charges is shown in Table 1.
+
+Table 1: Example of Fixed Cost Charge Properties for a Generator
+
+The cost recovery algorithm is equilibrium Model property. Please note that:
+
+The PLEXOS cost recovery method is a sophisticated and automated price modification heuristic in which the price of generation from each Generator that belongs to a Company is modified to reflect the fixed cost burden of the Company as a whole. This price modification is dynamic and designed to be consistent with the goal of recovering fixed costs across an annual time period. Cost recovery occurs across each MT Schedule step (a year at a time by default). The key steps of the algorithm are:
+
+When a short-term pricing strategy is selected in combination with cost recovery, the pricing solution replaces the SRMC solution in step 1 of the cost recovery method above.
+
+Cost recovery requires one more LP solve at each simulation step. Depending on the length of the model horizon, this requirement can increase the solution time by approximately 25-75 percent. Performance can be improved by allowing the linear programming solver to warm start from the initial solution. This is done by changing the Option under Performance / ST Schedule Iteration Optimizer to "primal simplex".
+
+There are several ways of controlling the fixed cost recovery method:
+
+Fixed costs can be scaled at the region level using the property Fixed Cost Scalar. Set the parameter to a number between 0 and 100%. Setting this parameter to less than 100% reduces the amount of fixed cost considered in the recovery algorithm, but PLEXOS will still report the full amount of fixed costs on each generator/line.
+
+The number of iterations of premium calculation and price modification can be controlled using the Revenue Targeting Iteration option. Note that offer prices will only be increased, thus this option should be used with caution.
+
+The Company property Strategic controls the amount of capacity included in the cost recovery (as a function of the level of generation in the default SRMC case). Lowering this parameter from its default of 100% can help portfolios maintain market share, even when fixed costs are high.
+
+The Company property Markup Bias controls how markups are assigned between peak versus off-peak periods.
+
+It is possible to create market share constraints using the Constraint class, Regions and companies to control market shares during the recovery process.
+
+Other constraints such as Generator Min Capacity Factor can also be used to control loss of market share as fixed costs are loaded into the pricing.
+Lists:
+	- Short-Run Marginal Cost (SRMC) - This is the variable costs of operation
+	- Long-Run Marginal Cost (LRMC) - This is the combined variable and fixed costs
+	- In any period, generators that are infra-marginal (i.e. they have SRMC below the market-clearing price) will earn a natural 'rent' on the constraint that they have a limited amount of capacity available at that price. This rent makes a contribution to fixed costs, and for some generators may actually be sufficient to cover all fixed costs - although this would tend to be the exception rather than the norm; and.
+	- Constraints imposed on the system by such elements as transmission limits, system security, fuel supply, etc might imply that some generators earn additional rents from time to time, which again contribute to fixed costs.
+	- Investments must be made in 'lumps', not small increments as might seem ideal.
+	- In most markets there exist barriers to entry either regulatory or implied by limitations in technologies or fuel supply.
+	- Other constraints such as reserve requirements, or regulated fuel mix policies, and even the fact that technology constantly improves might imply that the mix of plant installed at any moment in time may be far from the technological ideal.
+	- Historical patterns are more often than not poor indicators of medium term future patterns, particularly because they do not account for growth in load, new generator entry, new transmission expansion, or any short-term simulated event such as outages.
+	- The same disadvantages apply to user-defined offers, plus they can be very time-consuming to prepare.
+	- Neither offers based on historical patterns nor user-defined offers can easily 'target' the level of fixed cost recovery required for each portfolio of plant.
+	- Because this is a medium term equilibrium model, it requires that MT Schedule is selected in the Simulation Horizon
+	- Cost recovery is performed across portfolios, thus generator or line that is involved in cost recovery must belong to a Company .
+
+
+H2s:
+Contents
+1. Definitions
+2. Fixed Versus Variable Costs
+3. Motivation
+4. Calculating Fixed Cost Charges
+5. Invoking Recovery Algorithm
+6. Cost Recovery Method
+7. Interaction With Short-term Pricing
+8. Computational Requirements
+9. Controlling Recovery Levels
+
+H3s:
+9.1. Fixed Cost Scalar
+9.2. Recovery Iterations
+9.3. Company Strategic Property
+9.4. Company Markup Bias Property
+9.5. Market Share Constraints
+9.6. Other Effects

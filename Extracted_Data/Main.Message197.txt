@@ -1,0 +1,11 @@
+Header: Message 197
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Region/Zone <name> Maintenance Factor in step <value> accumulates to <value> but would normally sum to <value> which is the total number of hours in the step.
+
+Paragraphs:
+Message 197 occurs in the following circumstances:
+Lists:
+

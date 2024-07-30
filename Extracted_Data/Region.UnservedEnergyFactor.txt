@@ -1,0 +1,15 @@
+Header: Region Unserved Energy Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of energy unserved
+
+Paragraphs:
+Region Unserved Energy Factor is the ratio of unserved energy to load .
+Lists:
+

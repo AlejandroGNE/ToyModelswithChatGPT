@@ -1,0 +1,16 @@
+Header: Flow Storage Inventory Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of keeping the Commodity in inventory
+
+Paragraphs:
+See Commodity Inventory
+            Charge for details.
+Lists:
+

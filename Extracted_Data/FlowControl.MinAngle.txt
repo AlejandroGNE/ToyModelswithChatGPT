@@ -1,0 +1,15 @@
+Header: Flow Control Min Angle
+
+Table Details:
+Units:	°
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Min angle set on the flow control
+
+Paragraphs:
+Flow Control Min Angle is used with Max Angle to set the limits on the flow control.
+Lists:
+

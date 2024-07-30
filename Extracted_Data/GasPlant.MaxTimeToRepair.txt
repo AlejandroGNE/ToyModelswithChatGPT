@@ -1,0 +1,18 @@
+Header: Gas Plant Max Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum time to repair
+
+Paragraphs:
+Gas Plant Max Time To Repair is the upper bound on the repair time. See Generator Max Time to Repair for details.
+
+See also:
+Lists:
+	- Gas Plant Min Time To Repair
+

@@ -1,0 +1,21 @@
+Header: Flow Storage Consumption
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gross amount of the Commodity drawn from the Flow Node
+
+Paragraphs:
+Flow Storage Consumption is the
+          gross amount of the Commodity drawn from the Flow Node. This value
+          differs from Injection according to the Injection
+            Efficiency .
+
+See also:
+Lists:
+	- Flow Storage Production
+

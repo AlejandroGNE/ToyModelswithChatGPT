@@ -1,0 +1,19 @@
+Header: Region Total Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs (fixed O&M, equity, debt)
+
+Paragraphs:
+Region Total Fixed Costs is the total fixed costs of Generators in the Region and is defined as:
+
+See also:
+Lists:
+	- Region Generator FO&M Cost
+	- Region Generator Start & Shutdown Cost
+

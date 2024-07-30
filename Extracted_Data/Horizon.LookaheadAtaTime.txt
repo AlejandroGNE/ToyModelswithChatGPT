@@ -1,0 +1,12 @@
+Header: Horizon Look-ahead At a Time
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of step types in each step of the chronological model look-ahead
+
+Paragraphs:
+Horizon Look-ahead At a Time sets the number of periods in the ST Schedule look-ahead. The resolution of the look-ahead periods is set by the Look-ahead Type .
+Lists:
+

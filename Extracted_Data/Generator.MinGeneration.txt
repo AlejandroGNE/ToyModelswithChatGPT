@@ -1,0 +1,18 @@
+Header: Generator Min Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum Generation in the period
+
+Paragraphs:
+Generator Min Generation is the minimum Generation in the period.
+
+See also:
+Lists:
+	- Generator Max Generation
+

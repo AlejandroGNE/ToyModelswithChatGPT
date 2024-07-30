@@ -1,0 +1,19 @@
+Header: Generator Curtailment Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of non-positive-priced generation curtailed.
+
+Paragraphs:
+Generator Curtailment Factor is the proportion (expressed as a percentage) of No Cost Capacity curtailed i.e. the capacity that is not taken up for Generation .
+
+See also:
+Lists:
+	- Generator Hours Curtailed
+	- Generator Capacity Curtailed
+

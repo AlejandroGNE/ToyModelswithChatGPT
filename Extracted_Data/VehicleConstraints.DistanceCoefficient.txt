@@ -1,0 +1,23 @@
+Header: Vehicle Constraints Distance Coefficient
+
+Table Details:
+Units:	km (Metric), m (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of distance travelled by the vehicle
+
+Paragraphs:
+Vehicle Constraints Distance Coefficient is the left-hand side coefficient of Distance travelled by the vehicle in the Constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Vehicle Distance ... {≤,
+            ≥, =} b j
+
+
+Lists:
+

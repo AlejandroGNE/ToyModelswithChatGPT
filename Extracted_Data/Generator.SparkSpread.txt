@@ -1,0 +1,18 @@
+Header: Generator Spark Spread
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Difference between price received and cost of fuel used to generate.
+
+Paragraphs:
+Generator Spark Spread is the difference between price received and cost of fuel used to generate and is defined as:
+
+See also:
+Lists:
+	- Generator Clean Spark Spread
+

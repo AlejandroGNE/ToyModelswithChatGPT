@@ -1,0 +1,37 @@
+Header: Facility Ramp Up
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping up
+
+Paragraphs:
+Facility Ramp Up is the total
+          ramping up in the period, and is defined as:
+
+Ramp Up = MAX (0, Production t - Production ( t -1) )
+
+where: t indexes periods of the
+            simulation. The t =0 value of Production refers to the
+            previous simulation step and for step one it is set with the Initial
+              Production property.
+
+This is distinct from Ramp which
+          reports the ramping rate in minute. Ramp Up can be used in
+          combination with Minutes of
+            Ramp Up to determine the intensity of ramping up over any
+          period.
+
+See also:
+Lists:
+	- Facility Max
+              Ramp Up
+	- Facility Ramp
+              Up Charge
+	- Facility Ramp
+              Down
+

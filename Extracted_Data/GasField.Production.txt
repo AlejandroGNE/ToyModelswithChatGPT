@@ -1,0 +1,19 @@
+Header: Gas Field Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas produced by the gas field
+
+Paragraphs:
+Gas Field Production is the quantity of gas produced by the gas field.
+
+See also:
+Lists:
+	- Gas Field Min Production
+	- Gas Field Max Production
+

@@ -1,0 +1,21 @@
+Header: Generator Average Heat Rate
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average heat rate
+
+Paragraphs:
+Generator Average Heat Rate is the average units of fuel used per megawatt of generation and is calculated as:
+
+See also:
+Lists:
+	- Generator SRMC
+	- Generator Average Cost
+	- Generator Marginal Heat Rate
+	- Generator Efficiency
+

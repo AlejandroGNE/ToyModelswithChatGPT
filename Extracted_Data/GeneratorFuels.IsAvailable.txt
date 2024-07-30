@@ -1,0 +1,18 @@
+Header: Generator Fuels Is Available
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the fuel is available for use by the generator
+
+Paragraphs:
+Generator Fuels Is Available is used to switch Fuel objects used by a generator on/off e.g. to make a generator change the fuel it uses partway through the simulation horizon.
+
+See also:
+Lists:
+	- Fuel Units
+

@@ -1,0 +1,24 @@
+Header: Reserve Mutually Exclusive
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	If generation capacity providing this reserve is mutually exclusive to other reserves
+
+Paragraphs:
+Reserve Mutually Exclusive applies
+          to reserves based on spare production capacity and controls whether or
+          not the capacity reserved for this service can also be used to provide
+          reserve to other 'like' services. Note that the mutually exclusive
+          limit is based on the spare capacity and not the Max
+            Response values for the individual reserve objects.
+
+The property can take the following values:
+
+
+Lists:
+

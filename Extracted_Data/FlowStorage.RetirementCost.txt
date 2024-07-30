@@ -1,0 +1,16 @@
+Header: Flow Storage Retirement Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring a unit
+
+Paragraphs:
+Refer to Commodity Retirement
+            Cost .
+Lists:
+

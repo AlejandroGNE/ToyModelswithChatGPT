@@ -1,0 +1,11 @@
+Header: Vehicle Fleets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Fleets the Vehicle belongs to
+
+Paragraphs:
+Vehicle Fleets is the set of fleets the vehicle belongs to.
+Lists:
+

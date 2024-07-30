@@ -1,0 +1,15 @@
+Header: Storage Water Value Point
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Volume associated with [Water Value] in multiple bands
+
+Paragraphs:
+Storage Water Value Point is the volume associated with Water Value or Energy Value in multiple bands. See Water Value for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Node Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity reserves (net of Peak Load)
+
+Paragraphs:
+Node Capacity Reserves is Capacity reserves (net of Peak Load).
+Lists:
+

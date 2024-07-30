@@ -1,0 +1,15 @@
+Header: Region Wheeling Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Export wheeling charge method
+
+Paragraphs:
+Region Wheeling Method is Export Wheeling Charge method.
+Lists:
+

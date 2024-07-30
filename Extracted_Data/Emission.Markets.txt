@@ -1,0 +1,11 @@
+Header: Emission Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of markets the emission is bought/sold from/to
+
+Paragraphs:
+Emission Markets is the set of markets bought and sold in the emission.
+Lists:
+

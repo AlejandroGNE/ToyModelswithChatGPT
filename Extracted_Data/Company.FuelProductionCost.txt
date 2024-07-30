@@ -1,0 +1,15 @@
+Header: Company Fuel Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of fuel production from Power2X
+
+Paragraphs:
+Company Fuel Production Cost is the cost of fuel production from Power2X.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Load Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	the node the load belongs to
+
+Paragraphs:
+Load Node is the node associated with the Load object.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Purchaser Bid Cleared
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Bid cleared in band
+
+Paragraphs:
+Purchaser Bid Cleared is the energy cleared in each band of the purchaser bid .
+Lists:
+

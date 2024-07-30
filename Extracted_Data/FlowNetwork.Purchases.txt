@@ -1,0 +1,15 @@
+Header: Flow Network Purchases
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Purchases from Markets
+
+Paragraphs:
+Flow Network Purchases is Purchases from Markets.
+Lists:
+

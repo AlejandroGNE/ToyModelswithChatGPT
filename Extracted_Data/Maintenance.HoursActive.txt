@@ -1,0 +1,15 @@
+Header: Maintenance Hours Active
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the maintenance is active.
+
+Paragraphs:
+Maintenance Hours Active is number of hours the maintenance is active for.
+Lists:
+

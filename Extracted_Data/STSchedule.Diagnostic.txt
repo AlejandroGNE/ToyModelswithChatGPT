@@ -1,0 +1,11 @@
+Header: ST Schedule Diagnostic
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Diagnostic settings for ST Schedule
+
+Paragraphs:
+ST Schedule Diagnostic is the Diagnostic settings for ST Schedule. These override the settings associated with the Model .
+Lists:
+

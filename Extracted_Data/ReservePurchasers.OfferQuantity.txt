@@ -1,0 +1,17 @@
+Header: Reserve Purchasers Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Interruptible load offer price
+
+Paragraphs:
+Reserve Purchasers Offer Quantity sets the quantity part of an offer to provide interruptible load response to the reserve service.
+
+See also Offer Price .
+Lists:
+

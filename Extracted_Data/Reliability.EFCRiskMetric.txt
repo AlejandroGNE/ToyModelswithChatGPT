@@ -1,0 +1,19 @@
+Header: Reliability EFC Risk Metric
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Risk Metric for EFC evaluation.
+
+Paragraphs:
+Reliabilities EFC Risk Metric defines the Risk Metric for Equivalent Firm Capacity (EFC) evaluation. The property has can take on the following values:
+
+
+Lists:
+	- "LOLE Hours" (Value = 0) - Average number of hours with Loss of Load Events in the region across all samples is used as the metric for EFC evaluation.
+	- "EENS" (Value = 1) - Average total unserved energy in the region across all samples is used as the metric for EFC evaluation.
+

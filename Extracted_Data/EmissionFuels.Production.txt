@@ -1,0 +1,19 @@
+Header: Emission Fuels Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net production of the emission
+
+Paragraphs:
+Emission Fuels Production is the gross production of the emission as a result of the consumption of the Fuel by Generators that use the Fuel for generation or for start-up :
+
+See also:
+Lists:
+	- Emission Fuels Production Rate
+	- Emission Fuels Cost
+

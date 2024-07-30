@@ -1,0 +1,11 @@
+Header: Message 3039
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	No header row found, or unable to recognise fields in the header. File <name>.
+
+Paragraphs:
+Message 3039 occurs in the following circumstances:
+Lists:
+

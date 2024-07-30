@@ -1,0 +1,17 @@
+Header: Fleet Replacement Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Fleet Replacement Reserve is the provision of replacement reserve.
+
+See Battery Replacement Reserve .
+Lists:
+

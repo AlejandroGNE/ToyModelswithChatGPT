@@ -1,0 +1,15 @@
+Header: Zone Heat Plant Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat Plant electric load
+
+Paragraphs:
+Zone Heat Plant Load is Heat Plant electric load.
+Lists:
+

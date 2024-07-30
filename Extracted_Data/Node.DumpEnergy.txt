@@ -1,0 +1,29 @@
+Header: Node Dump Energy
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dump energy
+
+Paragraphs:
+Node Dump Energy is the amount of
+          over-generation at the node due to a lack of transmission capacity out
+          of the node and constraints on generation at the node that are forcing
+          certain levels of generation.
+
+Although this is not a physically feasible outcome this variable is
+          useful when diagnosing problems with a transmission network's set up
+          or to identify when there is a lack of flexibility in the generation
+          system e.g. an excess of renewable generation defined with Fixed Load .
+
+You can toggle on/off modelling of dump energy using the Transmission Allow Dump Energy property. You can further refine this setting using the Node Allow Dump Energy property.
+
+See also:
+Lists:
+	- Node Unserved
+              Energy
+

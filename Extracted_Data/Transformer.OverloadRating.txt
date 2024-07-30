@@ -1,0 +1,18 @@
+Header: Transformer Overload Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Emergency rating in the reference direction
+
+Paragraphs:
+Transformer Overload Rating sets the emergency rating of the transformer for the purposes of security-constrained operation. This is the limit used when checking for violations of transformer thermal limits post-contingency in the Security Constrained Unit Commitment. If this overload rating is not defined then the default Rating is used.
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+

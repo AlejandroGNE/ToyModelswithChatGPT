@@ -1,0 +1,22 @@
+Header: Charging Station Discharging
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from discharging
+
+Paragraphs:
+Charging Station Discharging is the generation from discharging the batteries of the Vehicles connected to the
+          charging station reported as the kilowatt load (by period) or
+          megawatt-hours of energy (summary).
+
+See also:
+Lists:
+	- Charging Station Discharge
+              Revenue
+	- Charging Station Charging
+

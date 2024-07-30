@@ -1,0 +1,15 @@
+Header: Facility Objectives Production Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Facility production
+
+Paragraphs:
+Facility Objectives Production Coefficient is Coefficient of Facility production .
+Lists:
+

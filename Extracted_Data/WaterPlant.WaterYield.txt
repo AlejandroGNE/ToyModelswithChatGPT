@@ -1,0 +1,15 @@
+Header: Water Plant Water Yield
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Yield rate of water for the Water Plant
+
+Paragraphs:
+Water Plant Water Yield is the yield rate of water for the Water Plant. A Water Yield rate typically determines the conversion between seawater and fresh water.
+Lists:
+

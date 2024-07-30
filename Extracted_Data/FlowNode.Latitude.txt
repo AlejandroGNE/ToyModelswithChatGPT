@@ -1,0 +1,12 @@
+Header: Flow Node Latitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Latitude
+
+Paragraphs:
+[detail]
+Lists:
+

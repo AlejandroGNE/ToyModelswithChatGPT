@@ -1,0 +1,21 @@
+Header: RSI Non Utility Contract Volume
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non Utility Contract Volume
+
+Paragraphs:
+RSI Non Utility Contract Volume is defined as:
+
+if there are generation contracts defined then:
+
+otherwise:
+
+The sum is taken over all companies .
+Lists:
+

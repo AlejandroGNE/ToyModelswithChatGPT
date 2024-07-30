@@ -1,0 +1,21 @@
+Header: Storage Min Volume Violation
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the Min Volume constraint
+
+Paragraphs:
+Storage Min Volume Violation is the
+          violation of the Min Volume constraint priced at Min
+            Volume Penalty .
+
+See also:
+Lists:
+	- Storage Min
+              Volume Violation Cost
+

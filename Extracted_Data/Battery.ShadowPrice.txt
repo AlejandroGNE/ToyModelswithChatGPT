@@ -1,0 +1,15 @@
+Header: Battery Shadow Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal value of energy held in storage
+
+Paragraphs:
+Battery Shadow Price is the value of the dual variable of the storage balance constraint and represents the future value of energy held in storage i.e. the potential saving of thermal costs from the last/next unit of energy in storage.
+Lists:
+

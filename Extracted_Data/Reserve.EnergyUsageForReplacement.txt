@@ -1,0 +1,15 @@
+Header: Reserve Energy Usage For Replacement
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If Reserve energy usage is used for replacement reserve.
+
+Paragraphs:
+Reserve Energy Usage For Replacement is If Reserve energy usage is used for replacement reserve..
+Lists:
+

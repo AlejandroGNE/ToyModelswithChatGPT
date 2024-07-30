@@ -1,0 +1,15 @@
+Header: Gas Plant Processing Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Processing ratio to convert raw natural gas to pipeline quality
+
+Paragraphs:
+Gas Plant Processing Rate is Processing ratio to convert raw natural gas to pipeline quality.
+Lists:
+

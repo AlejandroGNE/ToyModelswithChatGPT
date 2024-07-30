@@ -1,0 +1,11 @@
+Header: Water Zone Exporting Water Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Water Zone Exporting Water Pipelines is the set of Water Pipeline objects that export from the Water Zone .
+Lists:
+

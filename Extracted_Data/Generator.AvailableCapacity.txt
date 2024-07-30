@@ -1,0 +1,25 @@
+Header: Generator Available Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available capacity
+
+Paragraphs:
+Generator Available Capacity is
+          the available Generation capacity and is defined as:
+
+Available Capacity = Rated
+            Capacity - Maintenance - Forced Outage
+
+See also:
+Lists:
+	- Generator Installed
+              Capacity
+	- Generator Dispatchable
+              Capacity
+

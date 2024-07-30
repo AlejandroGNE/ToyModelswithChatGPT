@@ -1,0 +1,15 @@
+Header: Water Storage Constraints Release Coefficient
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of water release
+
+Paragraphs:
+Water Storage Constraints Release Coefficient is Coefficient of water release.
+Lists:
+

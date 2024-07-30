@@ -1,0 +1,19 @@
+Header: Region Interregional Transmission Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total inter-regional losses assigned to region
+
+Paragraphs:
+Region Interregional Transmission Losses is the total losses due to Imports and Exports assigned to the Region and is defined as:
+
+See also:
+Lists:
+	- Region Intra-regional Transmission Losses
+	- Region Transmission Losses
+

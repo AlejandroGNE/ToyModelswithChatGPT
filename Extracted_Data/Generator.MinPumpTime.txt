@@ -1,0 +1,28 @@
+Header: Generator Min Pump Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be run in pump mode after being started
+
+Paragraphs:
+Generator Min Pump Time, for a pumped storage generator , is
+          the minimum number of hours a unit runs when in pump mode. This
+          property is used in combination with Min
+            Pump Load and triggers the formulation of pump-mode unit
+          commitment, analogous to Min Up
+            Time and Min Stable
+            Level . You may optionally define Initial
+            Hours Pumping .
+
+See also:
+Lists:
+	- Generator Min
+              Up Time
+	- Generator Min
+              Pump Down Time
+

@@ -1,0 +1,213 @@
+Header: Balancing Markets
+
+Table Details:
+Max Capacity	200	MW	1
+Min Stable Level	80	MW	1
+Offer Base	100	MW	1
+Offer Quantity	-80	MW	1
+Offer Quantity	-20	MW	2
+Offer Quantity	80	MW	3
+Offer Quantity	20	MW	4
+Offer Price	-9999	$/MWh	1
+Offer Price	28	$/MWh	2
+Offer Price	30	$/MWh	3
+Offer Price	9999	$/MWh	4
+Max Load	300	MW	1	-
+Bid Base	130	MW	1	Load drawn (charging) from DA market closure.
+Bid Quantity	-130	MW	1	Negative quantity for a decr bid, down to 0MW load.
+Bid Quantity	170	MW	2	Positive quantity for an incr bid, up to Max Load.
+Bid Price	35	$/MWh	1	-
+Bid Price	40	$/MWh	1	-
+Head	End Effects Method	0	-	1	DA	DA enforces storage recycling
+Head	End Effects Method	1	-	1	RT	Allow RT storage to change from DA
+Tail	End Effects Method	0	-	1	DA	DA enforces storage recycling
+Tail	End Effects Method	1	-	1	RT	Allow RT storage to change from DA
+Generator DA Gen	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).Generation.csv
+G1	Offer Base	0	MW	1	Generator DA Gen	RT Offers & Bids	-
+G2	Offer Base	0	MW	1	Generator DA Gen	RT Offers & Bids	-
+Generator	SRMC, Price Received	Pump Price Paid
+Battery	Price Received	Price Paid
+Generator	Undispatched Capacity	Undispatched Pump Capacity
+Battery	Undispatched Generation Capacity	Undispatched Load Capacity
+Generator	Unused Capacity	Unused Pump Capacity
+Battery	Unused Generation Capacity	Unused Load Capacity
+Generator	Generaton	Pump Load
+Battery	Generation	Load
+Generation	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).Generation.csv
+Pump Load	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).Pump Load.csv
+SRMC	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).SRMC.csv
+Pump Price Received	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).Pump Price Received.csv
+Und. Capacity	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).Undispatched Capacity.csv
+Und. Pump Capacity	Filename	0	-	1	Model DA Solution\interval\ST Generator(*).Undispatched Pump Capacity.csv
+x1.01	Sampling Method	None		-	1		
+x1.01	Profile	1.01		-	1		Increase of 1%
+x0.99	Sampling Method	None		-	1		
+x0.99	Profile	0.99		-	1		Decrease of 1%
+Offer Base	0	MW	1	Generation			RT Offers & Bids	The DA generation
+Offer Quantity	0	MW	1	Generation			RT Offers & Bids	Decr down to 0MW generation
+Offer Quantity	0	MW	2	Und. Capacity			RT Offers & Bids	Undispatched generating headroom
+Offer Quantity Scalar	-1	MW	1	-			RT Offers & Bids	Negate to create decr offer
+Offer Quantity Scalar	1	MW	2	-			RT Offers & Bids	OK to omit (default value)
+Offer Price	0	$/MWh	1	SRMC			RT Offers & Bids	-
+Offer Price	0	$/MWh	2	SRMC	x	x1.01	RT Offers & Bids	DA SRMC + 1%
+Pump Bid Base	0	MW	1	Pump Load			RT Offers & Bids	The DA pump load
+Pump Bid Quantity	0	MW	1	Pump Load			RT Offers & Bids	Decr down to 0MW load
+Pump Bid Quantity	0	MW	2	Und. Pump Capacity			RT Offers & Bids	Undispatched pumping
+Pump Bid Quantity Scalar	-1	MW	1	-			RT Offers & Bids	Negate to create decr offer
+Pump Bid Quantity Scalar	1	MW	2	-			RT Offers & Bids	OK to omit (default value)
+Pump Bid Price	0	$/MWh	1	Pump Price Received			RT Offers & Bids	-
+Pump Bid Price	0	$/MWh	2	SRMC	x	x0.99	RT Offers & Bids	DA Pump Price Received - 1%
+
+Paragraphs:
+In a balancing market, participants define their dispatch levels from day-ahead market outcomes. The real-time and day-ahead markets are commonly denoted RT and DA respectively.
+
+Bid and offer properties can be used to study balancing markets:
+
+The objective of the balancing process is to select optimal increments (incr) and decrements (decr) around the DA
+                positions to meet changes from DA to RT. Several conditions can change in RT, including load (which may be
+                higher or lower than that used for DA market closure and hence DA market positions).
+
+Input pairs Offer
+                    Quantity and Offer Price can be used to define incr and decr offers. Positive quantities are
+                        interpreted as offers to increment dispatch above a
+                        base quantity, and Negative quantities are interpreted as offers to
+                        decrement dispatch below a base quantity.
+
+The impact on system cost is the
+                product of the incr/decr quantity and the offer price. Thus with a positive price, an incr
+                increases system cost and a decr decreases system cost.
+
+To prevent decr bids below a
+                certain point (such as a Generator's Min Stable Level ), a negative Offer Price can be used with a decr bid band. This increases system costs when decrementing below nominable ranges. Offer Price is
+                otherwise typically positive for both incr and decr offers.
+
+In the context of balancing markets, the base quantity equals the DA generation ( Offer
+                    Base ). Decrement offer bands represent reductions from this base and are defined up to the base quantity. Quantities above Offer Base represent the
+                incremental cost of moving the generation above the DA generation.
+
+The following shows a balancing market offer with a 200MW generator
+                with a day-ahead generation of 100MW and Min
+                    Stable Level of 80MW.
+
+In this example the generator has a day-ahead Generation of 100 MW. If the system chooses to dispatch the generator at 100 MW
+                it incurs zero Cleared
+                    Offer Cost , but if it increments the generator dispatch, it pays
+                the prices defined by the positive offer quantities i.e. the first
+                megawatt increment would cost $30 for up to 180MW dispatch (an 80MW increment from its DA position), then $9999 above
+                that to the Max Capacity .
+                However, if the system chooses to decrement the generation it is paid
+                the prices associated with the negative quantities i.e. the first
+                megawatt decrement earns the system $28, and this price holds for
+                decrements up to 20MW, below which the system must pay $9999 per unit
+                of decrement (since the decrement bid price is negative). Thus, incr offers are cleared from lowest to
+                highest priced, while decr offers are cleared highest to lowest priced
+                (as if the DA dispatch were being 'unwound').
+
+For pumped storage generators, input pairs Pump Bid Quantity and Pump Bid Price allow incr and decr bids to be defined around a base quantity of controlled load
+                ( Pump Bid Base ). For batteries, the equivalent properties are Bid Quantity , Bid Price and Bid Base .
+
+The following shows incr and decr balancing market load bids for a battery. Property Value Units Band Memo Max Load 300 MW 1 - Bid Base 130 MW 1 Load drawn (charging) from DA market closure. Bid Quantity -130 MW 1 Negative quantity for a decr bid, down to 0MW load. Bid Quantity 170 MW 2 Positive quantity for an incr bid, up to Max Load. Bid Price 35 $/MWh 1 - Bid Price 40 $/MWh 1 -
+
+For Batteries , It is good practice to define decr offers and bids which are
+                'full', i.e. defined down to 0MW Generation / Load .
+                Variations in region load, prices and other factors between DA and RT can lead to differences in SoC .
+                If RT offers and bids have zero or no decr, the battery is 'locked in' to Discharge / Charge due
+                as no litte/no variation from its DA position has been defined. The DA dispatches may violate Min SoC / Max SoC due to DA/RT SoC variations, leading to infeasibilities. This problem is most acute for balancing market simulations
+                involving many small RT steps in the absence of Look-ahead .
+
+Full decr bids should also be defined for Pumped Storages with limited Energy Storage Capacity .
+                An alternative is to disable Enforce Bounds in RT.
+
+In DA-RT balancing schemes, End Effects Recycling can often be disabled in RT. As an example
+                with "Head" and "Tail" Storage objects:
+
+Here the End Effects Method is set to "free" in RT, meaning the Storage
+                    End Volume can deviate from the DA solution if 
+                optimal for balancing.
+
+The DA and RT markets are clearly linked: In RT, the base bid and offer quantities (i.e. Offer Base , Bid Base ) are products of DA market outcomes. Unit commitment statuses in RT can optionally be fixed from DA market outcomes. In DA, initial conditions depend on choices made in RT. Consider a day-by-day DA-RT simulation. Storage Initial Volumes and Battery Initial SoCs for day 2 of DA depend on the dispatches made in day 1 of RT (i.e. after balancing), rather than the day 1 DA result.
+
+Simulation of day-by-day balancing markets therefore requires alternating simulation: DA day 1 setting base quantities for RT day 1, which sets initial condition information for DA day 2, which is followed by RT day 2 etc. Each day may be further decomposed
+                into smaller problems (multiple hourly steps etc.).
+
+Interleaved is a simulation mode designed to address the DA-RT coupling.
+                Interleaved simulations run both DA and RT models concurrently: DA outcomes
+                pass information (i.e. Offer Base ) to RT, and RT outcomes pass initial conditions back to DA. Interleaved is
+                described further in Model and is illustrated in Figure 1.
+
+PLEXOS allows for the solution of one Model to act as input for subsequent Models via the Data File class. This is
+                particularly useful for modelling balancing/RT markets
+                because it allows Generation , Load and other DA outcomes to be
+                passed from the DA simulation to the RT simulation
+                without intervening manual intervention or data processing. Note: The Data File Filename wildcard (*) causes properties to be passed directly between simulations during execution:
+                there is no actual file created. In balancing markets, DA outputs used in RT are passed directly: there is no intervening write to CSV files (i.e. via Report Write Flat File )
+                followed by a read. As an example, consider a DA model "DA" producing Generator Generation for a Generator Offer Base in an RT model. The following datafile should be defined: Data File Property Value Units Band Filename Generator DA Gen Filename 0 - 1 Model DA Solution\interval\ST Generator(*).Generation.csv Multiple generators can define RT Offer Base from their (likely separate) DA positions via this single data file. For example for generators G1 and G2: Generator Property Value Units Band Data Files Scenario Memo G1 Offer Base 0 MW 1 Generator DA Gen RT Offers & Bids - G2 Offer Base 0 MW 1 Generator DA Gen RT Offers & Bids - Where DA is simulated at a different interval resolution to RT, the data passed between the models is
+                automatically upscaled or downscaled. The method used for
+                up/downscaling can be controlled by the Data
+                    File Upscaling Method if
+                resolution increases from DA to RT, or
+                vice versa with Downscaling
+                    Method . If these are not defined then the method is chosen that
+                best suits the property e.g. Generator Commit is upscaled using the
+                "Step" method, whereas Fixed Load is upscaled using the "Interpolate" method. PLEXOS automatically passes relevant initial conditions from RT to DA. No input or configuration is required from the user.
+
+Where DA is simulated at a different interval resolution to RT, the data passed between the models is
+                automatically upscaled or downscaled. The method used for
+                up/downscaling can be controlled by the Data
+                    File Upscaling Method if
+                resolution increases from DA to RT, or
+                vice versa with Downscaling
+                    Method . If these are not defined then the method is chosen that
+                best suits the property e.g. Generator Commit is upscaled using the
+                "Step" method, whereas Fixed Load is upscaled using the "Interpolate" method.
+
+Some output properties for relevance as RT simulation inputs are now identified. DA price outputs are useful
+                in RT as offer/bid prices, and may include:
+
+Maximum incr bid quantities are also of interest in RT (i.e. offer/bid quantity, increment band). Some units may have long unit commitment times and the commitment
+                of new units may be impossible in the RT market timeframe. Relevant output properties for such units include:
+
+An example DA-RT bidding strategy for a pumped storage Generator "Pumped Hydro 1" is now given. This example can be
+                followed for generating-only units by neglecting all information concerning bids and pump load.
+                The scenario is as follows:
+
+The following Data File definitions
+                link to the "DA" Model solution:
+
+The following Variable definitions simplify the modelling of the pricing strategy. As an alternative to
+                variables, Offer Price Scalar and Pump Bid Price Scalar can be defined.
+
+The following RT offer properties are defined for "Pumped Storage 1":
+
+To effect the pump load bidding strategy, the following properties are also defined:
+Lists:
+	- In RT, the base bid and offer quantities (i.e. Offer Base , Bid Base ) are products of DA market outcomes.
+	- Unit commitment statuses in RT can optionally be fixed from DA market outcomes.
+	- In DA, initial conditions depend on choices made in RT. Consider a day-by-day DA-RT simulation. Storage Initial Volumes and Battery Initial SoCs for day 2 of DA depend on the dispatches made in day 1 of RT (i.e. after balancing), rather than the day 1 DA result.
+	- Unit commitment statuses in RT can optionally be fixed from DA market outcomes.
+	- Unit commitment is taken from DA: no additional Units Generating or Units Pumping may commit in RT.
+                    The DA Generation / Pump Load form the Offer Base / Pump Bid Base respectively.
+	- In RT, one incr/decr offer is defined for generation and one incr/decr bid is defined for load (pumping).
+	- The generation incr offer is priced at 1% above DA SRMC ( Offer Price ).
+                    All Undispatched Capacity from DA is offered.
+	- The load incr bid is priced at 1% below DA Pump Price Paid ( Pump Bid Price ).
+                    All Undispatched Pump Capacity from DA is offered.
+	- The decr offers and bids are priced at the DA SRMC and Pump Price Paid respectively. The decr offers and bids
+                    are 'full' and take the station down to 0MW generation/load.
+
+
+H2s:
+Contents
+1. Introduction
+2. Balancing Generation Offers
+3. Balancing Load Bids
+4. Best Practices for Batteries and Storages
+5. Day Ahead and Real Time Coupling
+6. Interleaved Run Mode
+7. Passing Data between Day Ahead and Real Time
+8. Relevant Outputs from Day Ahead
+9. Worked Example - Pumped Hydro DA-RT Strategy
+
+H5s:
+Example
+Example

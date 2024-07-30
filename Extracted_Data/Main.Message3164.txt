@@ -1,0 +1,11 @@
+Header: Message 3164
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> RHS Hour is longer than the interval length of <value> hours. The Constraint will be excluded. Try using RHS instead.
+
+Paragraphs:
+Message 3164 occurs in the following circumstances:
+Lists:
+

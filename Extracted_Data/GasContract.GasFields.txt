@@ -1,0 +1,11 @@
+Header: Gas Contract Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas fields that have a contract to produce gas
+
+Paragraphs:
+Gas Contract Gas Fields is gas fields that have a contract to produce gas
+Lists:
+

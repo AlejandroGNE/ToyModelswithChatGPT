@@ -1,0 +1,15 @@
+Header: Hub Generation-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation-weighted average price
+
+Paragraphs:
+Hub Generation-weighted Price is the generation-weighted average price.
+Lists:
+

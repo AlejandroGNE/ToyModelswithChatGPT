@@ -1,0 +1,11 @@
+Header: Abatement Gas Demands
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas demands the abatement technology is connected to
+
+Paragraphs:
+Abatement Gas Demands is the set of gas demands for which the abatement technology is applied.
+Lists:
+

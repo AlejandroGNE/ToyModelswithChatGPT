@@ -1,0 +1,28 @@
+Header: Power2X Levelized Cost
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Levelized cost of the commodity produced
+
+Paragraphs:
+Power2X Levelized Cost is
+          the average total cost of building and operating the Power2X facility
+          per unit of the commodity produced over the assumed lifetime, and is
+          calculated as:
+
+Levelized Cost = ( Total
+            Production Cost + Fixed Cost )
+          / Production
+
+See also:
+
+
+Lists:
+	- Generator Levelized
+              Cost
+

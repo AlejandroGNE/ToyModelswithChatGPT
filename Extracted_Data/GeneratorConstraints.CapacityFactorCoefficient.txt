@@ -1,0 +1,30 @@
+Header: Generator Constraints Capacity Factor Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity factor.
+
+Paragraphs:
+Generator Constraints Capacity Factor Coefficient is the left-hand side coefficient of Generator Capacity Factor in the 
+		  constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+a (i,j) × Generator Capacity Factor ... {≤,
+            ≥, =} b j
+
+Note that the Capacity Factor Coefficient should not be paired with any other terms in a constraint.
+
+See also:
+Lists:
+	- Generator Max
+              Capacity Factor
+	- Generator Min
+              Capacity Factor
+

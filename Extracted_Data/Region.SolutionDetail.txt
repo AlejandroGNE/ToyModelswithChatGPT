@@ -1,0 +1,21 @@
+Header: Region Solution Detail
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2,3)
+Key Property:	No
+Description:	Solution detail to be used for the region
+
+Paragraphs:
+Region Solution Detail is a setting that allows varying level of transmission and unit commitment details by region based on importance of a region to the study. This is particularly useful in nodal studies with large footprint, e.g. Eastern Interconnect in US. SCUC regions are of primary interest. SCED regions are only of interest from a power-flow standpoint. Static regions which are far removed from the main area of interest but may have some impact on the power-flow in SCED region.
+
+For a SCUC Region (Value 1):
+
+For a SCED Region (Value 2):
+
+For a Static Region (Value 3):
+Lists:
+

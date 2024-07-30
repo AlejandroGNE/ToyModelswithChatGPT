@@ -1,0 +1,14 @@
+Header: Performance MIP Max Time with Carry over
+
+Table Details:
+Units:	s
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum time in mixed integer programming algorithm including any unused time carried over
+
+Paragraphs:
+Performance MIP Max Time with Carry over is the total time limit for
+          solving a mixed integer programming problem when surplus time
+            is being carried over between solves.
+Lists:
+

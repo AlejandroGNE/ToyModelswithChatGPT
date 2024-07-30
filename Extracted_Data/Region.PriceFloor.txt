@@ -1,0 +1,15 @@
+Header: Region Price Floor
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Floor on generator offer prices
+
+Paragraphs:
+Region Price Floor works with Price Cap to set bounds on generator Offer Price .
+Lists:
+

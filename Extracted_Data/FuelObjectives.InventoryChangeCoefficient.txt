@@ -1,0 +1,15 @@
+Header: Fuel Objectives Inventory Change Coefficient
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in fuel stockpile level
+
+Paragraphs:
+Fuel Objectives Inventory Change Coefficient is Coefficient of change in fuel stockpile level.
+Lists:
+

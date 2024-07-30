@@ -1,0 +1,29 @@
+Header: Generator Capacity Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price received by the generator for capacity
+
+Paragraphs:
+Generator Capacity Price is the
+          price received by the generator for capacity and is calculated as:
+
+Capacity Price = ( periods_in_year × Capacity Revenue ) / (
+          1000 × Firm Capacity )
+
+The period is the reported period type of Capacity Revenue.
+          For example, if Capacity
+            Revenue is reported daily, periods_in_year = 365 for a
+          non-leap year and 366 for a leap year. If Capacity
+            Revenue is reported monthly, periods_in_year = 12.
+
+Note that the reported summary Capacity Price is calculated based a
+          365-day year and thus the reported values are a little smaller than it
+          should be in a leap year.
+Lists:
+

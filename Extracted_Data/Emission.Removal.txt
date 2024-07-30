@@ -1,0 +1,18 @@
+Header: Emission Removal
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions removed
+
+Paragraphs:
+Emission Removal is the emissions removed as a function of the Generators Removal Rate property.
+
+See also:
+Lists:
+	- Emission Removal Cost
+

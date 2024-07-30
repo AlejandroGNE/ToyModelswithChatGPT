@@ -1,0 +1,17 @@
+Header: Gas Field Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs including amortized build costs
+
+Paragraphs:
+Gas Field Fixed Costs is the total fixed costs including FO&M Cost amortized build costs.
+
+Fixed Cost = Fixed O&M Cost + Annualized Build Cost
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Regions Max Balancing Area Interchange
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum financial exports
+
+Paragraphs:
+Region Regions Max Balancing Area Interchange defines the maximum financial exports from parent region to child region. When financial transactions are modeled, each region balances its own load, generation and transactions from other regions. Note : Max Balancing Area Interchange must be explicitly defined for each pair of export transactions. For example, if Max Financial Export is defined for the membership R1.R2, but not defined for R2.R1, then financial transaction from R1 to R2 will be allowed, but no financial transaction will be allowed from R2 to R1.
+Lists:
+

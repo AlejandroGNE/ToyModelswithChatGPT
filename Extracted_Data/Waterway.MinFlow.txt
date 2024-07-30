@@ -1,0 +1,21 @@
+Header: Waterway Min Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum flow limit
+
+Paragraphs:
+Waterway Min Flow sets the lower bound on the rate of flow in the waterway. If you need to make this constraint soft, set the Min Flow Penalty property.
+
+See also:
+Lists:
+	- Waterway Max Flow
+	- Waterway Min Flow Violation
+	- Waterway Min Flow Violation Cost
+	- Waterway Min Flow Penalty
+

@@ -1,0 +1,21 @@
+Header: Vehicle Auxiliary Consumption
+
+Table Details:
+Units:	kW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Axuiliary energy consumption for vehicle
+
+Paragraphs:
+As an input, Vehicle auxiliary consumption represents energy consumed by each vehicle for purposes other 
+                than driving. For example, auxiliary consumption can represent power drawn from onboard air conditioning, entertainment systems
+                and camera systems. The timing of this auxiliary consumption may differ to the timing of actual driving Demand .
+                Energy to meet auxiliary consumption requirements is taken from the vehicle's Battery .
+
+As an output, auxiliary consumption reports the input multiplied by the Units . Auxiliary consumption
+                also contributes to the total Energy Consumption of the vehicle.
+Lists:
+

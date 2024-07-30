@@ -1,0 +1,15 @@
+Header: Flow Control Hours Binding
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the flow control is operating at maximum angle.
+
+Paragraphs:
+Flow Control Hours Binding is Number of hours the flow control is operating at max or min. The associated Shadow Price is non-zero.
+Lists:
+

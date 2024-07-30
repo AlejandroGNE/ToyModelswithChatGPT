@@ -1,0 +1,35 @@
+Header: Gas Storage Ratchet Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Indicates how the gas storage ratchets are represented
+
+Paragraphs:
+Gas Storages Ratchet Type indicates the gas storage ratchet type function as Step, Linear, or Linear Convex. Step means that the ratchet function is step-wise, keeping each ratchet amount consistent between the bands. See the example here for a more detailed breakdown. Linear means that the ratchet function is piece-wise linear, withdrawing along a line between each point as specified by the multi-band inputs. Linear Convex is similar to Linear, but also forces the function to be convex by adjusting the slopes of the lines. 
+            The adjustments made may cause the storage operation to deviate slightly from the inputs.
+            This removes the need for binary variables in the formulation and may significantly improve performace. Example: The following example shows the difference between "Step" vs "Linear" setting with the same base inputs shown below: Each point represents the ratchet withdrawal amount at different initial volumes .
+
+Step means that the ratchet function is step-wise, keeping each ratchet amount consistent between the bands. See the example here for a more detailed breakdown. Linear means that the ratchet function is piece-wise linear, withdrawing along a line between each point as specified by the multi-band inputs. Linear Convex is similar to Linear, but also forces the function to be convex by adjusting the slopes of the lines. 
+            The adjustments made may cause the storage operation to deviate slightly from the inputs.
+            This removes the need for binary variables in the formulation and may significantly improve performace.
+
+Linear means that the ratchet function is piece-wise linear, withdrawing along a line between each point as specified by the multi-band inputs.
+
+Linear Convex is similar to Linear, but also forces the function to be convex by adjusting the slopes of the lines. 
+            The adjustments made may cause the storage operation to deviate slightly from the inputs.
+            This removes the need for binary variables in the formulation and may significantly improve performace.
+
+The following example shows the difference between "Step" vs "Linear" setting with the same base inputs shown below:
+
+Note that if the Withdrawal Ratchet is close in value to the Maximum Volume of the Gas Storage as in the example above, then the values withdrawn may not follow the expected values exactly. 
+          This is because withdrawing that large amount causes us to 'pass through' each band as we withdraw. This is also why the PLEXOS Step points don't quite align with the Step Function.
+Lists:
+
+
+H3s:
+Example:

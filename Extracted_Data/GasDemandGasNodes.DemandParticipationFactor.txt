@@ -1,0 +1,17 @@
+Header: Gas Demand Gas Nodes Demand Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of gas demand that occurs at the gas node
+
+Paragraphs:
+Gas Demand Gas Nodes Demand Participation Factor is the proportion of gas Demand that occurs at the Gas Node .
+
+If the Gas Demand is connected to one Gas Node the default value for the participation factor is one, otherwise the default value is zero i.e. if you connect a Gas Demand to multiple Gas Nodes you should set these participation factors to non-zero values.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3115
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Generator <name> has memberships to more than one enabled Power Station objects.
+
+Paragraphs:
+Message 3115 occurs in the following circumstances:
+Lists:
+

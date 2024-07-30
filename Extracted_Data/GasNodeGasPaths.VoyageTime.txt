@@ -1,0 +1,15 @@
+Header: Gas Node Gas Paths Voyage Time
+
+Table Details:
+Units:	day
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Time taken for the voyage from one Gas Node on the Gas path to the next Gas Node
+
+Paragraphs:
+Gas Node Gas Paths Voyage Time is Time taken for the voyage from one Gas Node on the Gas path to the next Gas Node.
+Lists:
+

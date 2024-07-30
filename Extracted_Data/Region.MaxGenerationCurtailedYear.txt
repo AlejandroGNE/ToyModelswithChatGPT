@@ -1,0 +1,15 @@
+Header: Region Max Generation Curtailed Year
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum generation curtailed in year
+
+Paragraphs:
+Region Max Generation Curtailed Year is Maximum generation curtailed in year.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Demand Usage Factor Heat Point
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar temperature or HDD levels for piecewise linear function
+
+Paragraphs:
+Gas Demand Usage Factor Heat Point is a multi-band heat level value. It is the heat level for that band where the corresponding Usage Factor Heat will have effect, with respect to Temperature or Heating Degree Days data.
+Lists:
+

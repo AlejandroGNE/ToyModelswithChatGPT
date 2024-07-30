@@ -1,0 +1,64 @@
+Header: Region Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load
+SA	Load	0	MW	LOAD
+SA	Load	0	LOAD	MW	1		
+SA	Load	0	COMMERCIAL	MW	2		
+SA	Load	0	RESIDENTIAL	MW	3		
+SA	Load Scalar	0		-	1	×	INDUSTRIAL GROWTH
+SA	Load Scalar	0		-	2	×	COMMERCIAL GROWTH
+SA	Load Scalar	0		-	3	×	RESIDENTIAL GROWTH
+
+Paragraphs:
+Region Load defines input load
+              at the region level which is then distributed to the Nodes in the Region with the Node Load Participation
+                Factor property, and/or to Zones with the Zone Load Participation
+                Factor when that Zone is part of a Region.
+
+The following example reads the Load from a Data
+                File .
+
+Load is a multi-band property. This allows the definition of load
+              in separate parts that will be added together. The following
+              example defines loads for different classes of customer and
+              applies different growth rates to those loads using an Variable .
+
+See also:
+
+Note that Price may also be used
+              as an input to the simulation as an alternative to Load.
+
+Region Load is the total load
+              that occurred in the region defined as:
+
+Load = ∑ Nodes ( Load )
+
+See also:
+Lists:
+	- Load Forecasting
+	- Region Region Load Includes Losses
+	- Region Region Load Scalar
+	- Region Node Load
+	- Region Zone Load
+	- Region Customer
+                  Load
+	- Region Pump
+                  Load
+	- Region Transmission
+                  Losses
+	- Region Purchaser
+                  Load
+	- Region Net
+                  Market Sales
+	- Region Unserved
+                  Energy
+	- Region Dump
+                  Energy
+

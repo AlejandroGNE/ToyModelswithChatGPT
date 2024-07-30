@@ -1,0 +1,11 @@
+Header: Fuel Contract Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Fuel Contract inherits from
+
+Paragraphs:
+Fuel Contract Template is template the Fuel Contract inherits from
+Lists:
+

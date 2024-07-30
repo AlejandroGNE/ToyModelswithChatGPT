@@ -1,0 +1,22 @@
+Header: Diagnostic Strip Model Name
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Generic writer will strip out the Model name from LP and SOL files
+
+Paragraphs:
+This option is used with the Generic Writer and when enabled it will strip the Model name from the LP, solution files and their file paths.  This can make directory comparisons much easier.  For example, there may be a need to compare the LP files from one model to another, but if you were using a directory/file comparison tool, then all LP's would be flagged as being different, i.e. the model names would be different.
+
+See also:
+Lists:
+	- Use Generic Writer
+	- Sort Row Column Names
+	- Standardize Names
+	- Zero Tolerance LP
+	- Zero Tolerance SOL
+	- Decimal Places LP
+	- Decimal Places SOL
+	- Skip Zero Values
+

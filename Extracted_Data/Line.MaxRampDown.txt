@@ -1,0 +1,23 @@
+Header: Line Max Ramp Down
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate
+
+Paragraphs:
+Line Max Ramp Down is the limit on the amount by which the Flow may decrease each minute. If defined, this constraint is 'hard' meaning that violations are not allowed.
+
+Currently Line Max Ramp Down can only be applied on DC lines.
+
+See also:
+Lists:
+	- Line Max Ramp Up
+	- Line Ramp
+	- Line Ramp Penalty
+	- Interface Max Ramp Down
+

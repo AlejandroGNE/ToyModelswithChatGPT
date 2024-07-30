@@ -1,0 +1,18 @@
+Header: Zone Import Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total import capacity from the Zone
+
+Paragraphs:
+Zone Import Capacity is the total import capacity to the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Export Capacity
+

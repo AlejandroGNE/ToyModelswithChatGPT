@@ -1,0 +1,17 @@
+Header: Gas Node Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the gas node
+
+Paragraphs:
+Gas Node Retirement Cost is the cost of retiring the gas node.
+
+Retirement Cost is calculated as:
+Lists:
+

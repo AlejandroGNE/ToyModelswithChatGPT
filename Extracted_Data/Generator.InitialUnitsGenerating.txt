@@ -1,0 +1,24 @@
+Header: Generator Initial Units Generating
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units generating at time zero
+
+Paragraphs:
+Generator Initial Units
+          Generating is used in combination with Initial
+            Generation to set the initial ( t =0) unit commitment and
+          dispatch state of the facility.
+
+See also:
+Lists:
+	- Generator Initial
+              Hours Down
+	- Generator Initial
+              Hours Up
+

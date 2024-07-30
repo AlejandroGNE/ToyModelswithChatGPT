@@ -1,0 +1,21 @@
+Header: LT Plan Storage Restart
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If recycled storage should restart from their initial volume at the start of each capacity optimization period
+
+Paragraphs:
+By default Storage End
+            Volume is calculated across the entirety of each simulation
+          step. This means that LT Plan simulations with long steps can lead to optimization problems that are
+          difficult and slow to solve. This option breaks the storage tracking
+          at the start of each capacity optimization period (default being year)
+          and restarts the storage from its Initial
+            Volume . The option applies only to storage with End
+            Effects Method = "Recycle", since this is the only sensible
+          option, as it ensures that the storage trajectories match at the end
+          of one year and start of the next.
+Lists:
+

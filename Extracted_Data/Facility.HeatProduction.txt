@@ -1,0 +1,15 @@
+Header: Facility Heat Production
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat production
+
+Paragraphs:
+Facility Heat Production is Heat production.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Flow Node Price Cap Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours Market price cap was applied
+
+Paragraphs:
+Flow Node Price Cap Hours is the
+          number of hours Market Price
+            Cap was applied in markets attached to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Price
+              Floor Hours
+

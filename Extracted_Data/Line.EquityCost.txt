@@ -1,0 +1,15 @@
+Header: Line Equity Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of equity
+
+Paragraphs:
+Line Equity Cost is the cost of equity.
+Lists:
+

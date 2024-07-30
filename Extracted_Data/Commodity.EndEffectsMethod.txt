@@ -1,0 +1,18 @@
+Header: Commodity End Effects Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Method used to value or constrain end-of-period inventory
+
+Paragraphs:
+Commodity End Effects Method
+          controls the treatment of the Closing
+            Inventory of each simulation step. The switch can take these
+          values:
+Lists:
+

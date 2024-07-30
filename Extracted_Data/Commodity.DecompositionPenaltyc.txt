@@ -1,0 +1,18 @@
+Header: Commodity Decomposition Penalty c
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition inventory target penalty function 'c' term
+
+Paragraphs:
+Commodity Decomposition Penalty c
+          is the c term in the decomposition inventory target penalty
+          function. See Decomposition
+            Method for details.
+Lists:
+

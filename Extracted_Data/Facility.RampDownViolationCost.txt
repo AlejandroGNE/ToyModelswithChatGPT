@@ -1,0 +1,27 @@
+Header: Facility Ramp Down Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Ramp Down] violations
+
+Paragraphs:
+Facility Ramp Down Violation Cost
+          is cost of violating the Max Ramp
+            Down constraint, and is defined as:
+
+Ramp Down Violation cost = Ramp
+            Down Violation × Max
+            Ramp Down Penalty
+
+See also:
+Lists:
+	- Facility Ramp
+              Down Violation Hours
+	- Facility Ramp
+              Down Violation
+

@@ -1,0 +1,21 @@
+Header: Generator Min Energy Week
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum energy in week
+
+Paragraphs:
+Generator Min Energy Week is the minimum energy to be produced in a week.  This is the weekly variant of Generator Min Energy
+
+See also:
+Lists:
+	- Generator Min Energy Hour
+	- Generator Min Energy Day
+	- Generator Min Energy Month
+	- Generator Min Energy Year
+

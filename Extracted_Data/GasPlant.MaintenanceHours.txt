@@ -1,0 +1,20 @@
+Header: Gas Plant Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas plant is on maintenance
+
+Paragraphs:
+Gas Plant Maintenance Hours is the number of hours the gas plant is on maintenance.
+
+See also:
+Lists:
+	- Gas Plant Forced Outage Hours
+	- Gas Plant Units Out
+	- Gas Plant Service Factor
+

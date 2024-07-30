@@ -1,0 +1,28 @@
+Header: Stochastic Class
+
+Table Details:
+Description:	Stochastic settings
+
+Paragraphs:
+See also Stochastic Property Reference for a detailed list of properties for this class of
+          object.
+
+Stochastic objects control:
+
+Additional settings are available on the Global class to aid in the input of the scenario tree and hanging branches for stochastic
+        optimization. There are also a number of Hidden Parameters related to stochastic settings.
+
+Each simulation phase also has settings related to sampling and stochastic optimization. In particular, the option to
+        model multiple independent samples, stochastic optimization, or simply the expected value case is controlled by the
+        following phase switches:
+
+Note that, even if your Stochastic object dictates that multiple samples are calculated for the input data, these phase
+        settings control exactly how those samples are used.
+
+To apply a Stochastic object to your Model add it to the Model's Stochastic collection.
+Lists:
+	- PASA Stochastic Method
+	- LT Plan Stochastic Method
+	- MT Schedule Stochastic Method
+	- ST Schedule Stochastic Method
+

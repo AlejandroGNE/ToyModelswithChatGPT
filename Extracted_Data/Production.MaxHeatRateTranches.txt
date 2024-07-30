@@ -1,0 +1,24 @@
+Header: Production Max Heat Rate Tranches
+
+Table Details:
+Units:	-
+Default Value:	10
+Validation Rule:	Between 1 And 100
+Description:	Maximum number of tranches in the fuel function piecewise linear approximation
+
+Paragraphs:
+Production Max Heat Rate
+          Tranches is the maximum number of tranches used in the fitting of the
+          piecewise linear function to the Generator marginal heat rate. See the article Heat
+            Rate Modelling for details.
+
+You can also limit the number of tranches used with the Min
+            Heat Rate Tranche Size setting.
+
+See also:
+Lists:
+	- Production Fuel
+              Use Function Precision
+	- Generator Max
+              Heat Rate Tranches
+

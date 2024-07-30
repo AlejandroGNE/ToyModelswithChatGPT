@@ -1,0 +1,18 @@
+Header: Region Generator Net Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net profit from generators in region
+
+Paragraphs:
+Region Generator Net Profit is the total net profit of Generators in the Region and is defined as:
+
+See also:
+Lists:
+	- Region Generator Net Revenue
+

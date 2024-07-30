@@ -1,0 +1,12 @@
+Header: Competition Contracts Handoff Point
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Location of hand-off for setting of contract settlement price
+
+Paragraphs:
+Competition Contracts Hand-off Point controls Financial Contract.Settlement . It can take the following values:
+Lists:
+

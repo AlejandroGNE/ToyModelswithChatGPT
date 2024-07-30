@@ -1,0 +1,37 @@
+Header: Generator Ramp Up
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping up
+
+Paragraphs:
+Generator Ramp Up is the total
+          ramping up in the period, and is defined as:
+
+Ramp Up = MAX (0, Generation t - Generation ( t -1) )
+
+where: t indexes periods of the
+            simulation. The t =0 value of Generation refers to the
+            previous simulation step and for step one it is set with the Initial
+              Generation property.
+
+This is distinct from Ramp which
+          reports the ramping rate in megawatts per minute.Ramp Up
+          can be used in combination with Minutes
+            of Ramp Up to determine the intensity of ramping up over any
+          period.
+
+See also:
+Lists:
+	- Generator Max
+              Ramp Up
+	- Generator Ramp
+              Up Charge
+	- Generator Ramp
+              Down
+

@@ -1,0 +1,11 @@
+Header: Pool Pools
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Pools the Pool transacts with
+
+Paragraphs:
+Pool Pools is the set of Pools the Pool transacts with.
+Lists:
+

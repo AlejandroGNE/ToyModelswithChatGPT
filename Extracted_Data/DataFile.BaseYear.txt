@@ -1,0 +1,12 @@
+Header: Data File Base Year
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Base year for mapping data from a file with month, day and period but no year
+
+Paragraphs:
+Base Year applies when reading files with Month, Day and Period columns but no Year column. It identifies the original (or 'base') year to which the source data belong. This base year is used to map weekdays to years in the simulation horizon i.e. to ensure that weekdays and weekends are mapped correctly.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3053
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	<value>Specified Data File Base Profile <name> not found.
+
+Paragraphs:
+Message 3053 occurs in the following circumstances:
+Lists:
+

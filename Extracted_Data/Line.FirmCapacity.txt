@@ -1,0 +1,19 @@
+Header: Line Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Net capacity reserves exported
+
+Paragraphs:
+Line Firm Capacity as an input sets the amount of capacity shared across the line, with positive values meaning a flow in the reference direction and negative values flows in the counter reference-direction.
+
+When the Allow Capacity Sharing attribute is set, if Firm Capacity is not defined, the line is able to share capacity up to its Max Rating (reference direction) or Min Rating (counter reference-direction). Capacity sharing will only be used for those regions and zone for which capacity reserve target is set.
+
+As a reporting property in LT Plan this is the capacity shared across the line to meet capacity constraints.
+Lists:
+

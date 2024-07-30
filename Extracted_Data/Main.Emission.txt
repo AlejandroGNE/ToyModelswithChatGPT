@@ -1,0 +1,207 @@
+Header: Emission Class
+
+Table Details:
+Description:	Class of generator emission (e.g. NoX, SoX, CO2, etc)
+Emission
+                    Price	Emission
+                    Shadow Price	Emission Constraints	Emission dispatch	Emission accounting
+				Emission.Price
+			Emission.Shadow Price	Emission.Shadow Price
+			Emission.Shadow Price	Emission.Price
+				
+			Constraint shadow price	Emission Price
+			Constraint shadow price	Constraint shadow price + Emission Shadow Price
+			Constraint shadow price	Emission Price
+			Constraint shadow price	Constraint shadow price
+
+Paragraphs:
+See also Emission Property Reference for a detailed list of properties for this class of object.
+
+
+
+Various activities including the generation of electricity by
+          fossil-fired plant produces a range of combustion by-products such as
+          NO x (NO and NO 2 ), SO x (SO and SO 2 )
+          and CO 2 :
+
+
+
+There is no assumed unit of emission in the simulator, however, the
+          display of units of emission production and other input and output
+          parameters can be set in the Units of Data settings. When specifying
+          the rate of emission production, the "unit of emission" is used, and
+          when reporting emissions in summary (daily, weekly, etc ) the
+          "1000 emission units" is used in display. Note that if the unit of
+          emission is pound (lb), the "1000 emission units" setting should be
+          "000's lb" (or equivalent), not short or long tons (since a short ton
+          is 2000 lb, and a long ton is 2240 lb). Alternatively, the production
+          rates can be manipulated so that when multiplied by 1000, the total
+          production is in equivalent tons i.e. by dividing the
+          production rates by 2, so that summary emission data are shown in
+          short tons.
+
+
+
+
+
+Emissions are associated with Generation by adding Generator objects to the
+          Emission Generators collection
+          and/or Fuel Offtake by the Emission Fuels collections
+          and the following properties:
+
+Emissions associated with Generator Units Started are modeled
+          with the Emission Generators Production at Start property.
+
+The emissions associated with a specific Fuel and Generator can be scaled using
+          the Generator Fuels Emission Scalar property. See that topic for more details.
+
+The sales and purchases into markets e.g. energy markets
+          can contribute to or abate emissions if you define either the Emission Markets Sales
+            Coefficient or Purchases
+            Coefficient .
+
+
+
+
+
+The abatement of emissions is modelled either:
+
+Abatement objects provide detailed modelling of the physical and cost
+          aspects of abatement technologies as well as allowing the simulator to
+          optimize the choice of technologies employed from a set of defined
+          alternatives.
+
+
+
+The incremental cost of emissions on Generation is a function of the Shadow Price and defined production rates net of any removal rate or other scaling.
+          This incremental cost is reported as Generators Incremental Cost and forms part of the SRMC .
+          This dispatch effect of emissions can be adjusted with the Generators Shadow Price
+            Scalar property.
+
+
+
+Basic constraint on the total Production can be entered with the property Max
+            Production which has variants for day, week, month and year
+          types.
+
+More complex emission constraints are created using Constraint objects. To define a constraint on:
+
+In the latter case the simulator uses the list of generators included
+          in the constraints as a filter, so only the emissions of those
+          generators are counted in the constraint (otherwise the constraint
+          would include all emissions). This second method also ensures that
+          only the emission included in the constraint is only one constrained
+          (otherwise it would include all emission types produced by the
+          generators).
+
+The Constraint class provides
+          interval, day, week, month and year period types and also Custom
+          period type, which allows you to create a single constraint that spans
+          any time period whatsoever e.g. you might have a limit on
+          the total emissions of a Generator or group of Generators across several years. Such multi-annual
+          constraints are best handled by LT Plan which can be used to decompose very long-term constraints into
+          equivalent annual limits for MT
+            Schedule .
+
+Because these emission constraints are fully integrated into the
+          mathematical programming problem, the dispatch and pricing outcome will reflect the economic impact of the constraints. This
+          means that, when an emission constraint is binding, lower emitting
+          plant will be favoured over high emission plant, thus the merit-order
+          of generators will change. However generators in many schemes that
+          implement the Kyoto protocol incumbent generating companies are given
+          grandfather rights to emit. This allocation of rights can be modeled
+          using the Company Emissions property. These allocations pass back to the company and affect Net
+            Profit . When running models this will result in generator
+          bidding behaviour reflective of the net position with respect to
+          emissions e.g. a high emitter may retain its place in the
+          merit order if its allocation of emission right is high enough.
+
+
+
+In addition to or instead of modelling physical emission limits,
+          emission taxes/prices can be modeled either by:
+
+Price is treated as the 'accounting
+          price' for emissions. This is the price used to compute cost assigned
+          to generators for their emissions, but it is distinct from the Shadow
+            Price which is the 'dispatch price' meaning that this is the
+          price used to adjust generator offer prices to account for emissions.
+          The following table describes the effect of setting either or both of
+          these properties:
+
+
+
+
+
+It is important that your emission constraints, production rates, and
+          shadow prices are consistent with your model's assumptions about
+          auxiliary use.
+
+The following note applies if you define either generator
+            auxiliaries , or use Marginal
+            Loss Factor at the generator level, and use the default settings
+          of Load Metering Point ,
+          which is that generator offer quantities are generator-terminal, but
+          offer prices are sent-out. For example, the Australian NEM uses
+          generator-terminal loads for dispatch, and thus there is an implicit
+          assumption in the load data about how much generator auxiliaries are
+          included. This has an important impact on emissions modelling because
+          emission constraints are imposed in the optimization on gross
+          (generator-terminal) generation and fuel use, but generator offer
+          prices are calculated on a net (sent-out) basis.
+
+In the case where you input the Shadow
+            Price of the emission then the simulator can correctly computes
+          the effect of that shadow price on the sent-out generator offer
+          prices. Thus in this case the system energy price will correctly
+          reflect the marginal cost of emissions.
+
+However, in the case where you input a quantity constraint on
+          emissions, the shadow price on that constraint is not known a
+            priori and thus the simulator cannot pass through the affect of
+          auxiliary losses on to the generator offer prices that is implied by
+          that emission limit. There will therefore be some mismatch between the
+          energy prices and the emission shadow prices (in general the emission
+          price will be overstated, and the energy price understated).
+
+To compensate in this case you could either:
+
+where:
+
+
+
+
+Lists:
+	- A database may include production details, constraints, and taxes
+            on any number of emissions.
+	- Emissions can be produced, absorbed (scrubbed), constrained, and
+            penalized across all or any subset of generators and/or fuels.
+	- Constraints can be placed on
+            the total of any emission and/or on a subset of producers across any
+            time period including multi-annual constraints.
+	- There is no limit to the number of emission limits modeled.
+	- Emission grandfather rights can be modeled.
+	- Emission Generators Production
+              Rate property defines the functional relationship between
+            megawatt generation and emissions. For more details, see Setting Emission Production Using Load Points and Bands .
+	- Emission Fuels Production
+              Rate property defines the functional relationship between fuel
+            usage and emissions.
+	- As a simple proportion of emissions via the Emission Generators Removal Rate property combined with Removal
+              Cost ; or
+	- Using Abatement objects
+	- the total of an emission produced: add the emission to the Constraint
+              Emissions collection, and set the Constraint Emissions
+	- all emissions produced by one or more generators: add the
+            generators to the Constraint
+              Generators collection and set the Constraint
+              Generators Emission Coefficient for each
+	- all emissions produced by one or more fuels: add the fuels to the Constraint Fuels collection and
+            set the Constraint Fuels Emission Coefficient for each.
+	- a subset of generators that produce an emission: place the
+            emission into the Constraint
+              Emissions collection and set the coefficient
+	- Setting the emission Shadow
+              Price directly; or
+	- Defining a soft constraint i.e. one with one or more bands of penalty price.
+

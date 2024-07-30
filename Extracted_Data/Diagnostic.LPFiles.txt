@@ -1,0 +1,18 @@
+Header: Diagnostic LP Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write math programs to disk in LP text format
+
+Paragraphs:
+Diagnostic LP Files toggles on/off writing of diagnostic text files for each mathematical programming problem solved during the simulation. The files written by this option are in LP format, which is based on the original LP format defined by CPLEX. LP files are relatively easy to read compared to MPS files. By default PLEXOS will use 'fancy' names in the file and these might not be supported for reading back into the mathematical programming software. For example MOSEK will read back LP files written with fancy names, but CPLEX generally will not. You can toggle off use off fancy names with the Generic Names setting.
+
+Note that this option may use a lot of disk space (and time) to write the text files and is not recommended for normal use.
+
+See also:
+Lists:
+	- Diagnostic MPS Files
+	- Diagnostic Solution Files
+

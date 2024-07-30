@@ -1,0 +1,11 @@
+Header: Message 205
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> defined Generator Head Storage Efficiency Point (for <name>) band=<value> value=<value> must be less than or equal to band=<value> value=<value>.
+
+Paragraphs:
+Message 205 occurs in the following circumstances:
+Lists:
+

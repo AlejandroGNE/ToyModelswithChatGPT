@@ -1,0 +1,37 @@
+Header: Reserve Generators Response Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ratio that converts energy ramping to units comparable to reserve ramping units
+
+Paragraphs:
+Response Ratio defines the ratio at which the generator can provide reserve in proportion to its ramping capabilities. It has to be defined along with Reserve . Time Frame and generator's ramp limits (ie. Max Ramp Up and Max Ramp Down ). Response Ratio has a direct impact on both generator's ramping limits and reserve response. They are mutually exclusive, which means that if the generator is ramping up/down in consecutive periods, it should limit the response reserve in proportion to the Response Ratio value. In general:
+
+Reserve Response = min { Max Response, Max Ramp / Response Ratio }
+
+A value Response Ratio < 1 means that the unit is capable (if the available capacity permits it) of providing more MWs of reserve as the operating ramp limit. A response ratio of 0.5 (for example) means that energy ramping is half the rate of reserve ramping and vice versa. A response ratio of 0 will not cause PLEXOS to return an error, but will prevent the generator from providing MWs to the reserve (consider setting Max Response or Max Replacement equal to 0 if this is the desired effect). A full numerical example follows.
+
+The following illustrates how Response Ratio is used and, when defined, shows how active ramping limits can affect the reserve provision (and vice versa):
+
+Ignoring ramping constraints and assuming the generator operates at 70MW, it could provide the following reserve response:
+
+Assume a Timeframe of 1 hr (eg. regulation reserve) and the above Response Ratio, the theoretical reserve response of the unit would then be:
+
+The generator starts the hour at 40MW and ramps to 70MW (assuming it is limited by a Max Ramp Up of 0.5 MW/min.)
+Since the unit is ramping Up at its max capability, it can't provide response for reserve Up services.
+
+The generator changes its dispatch (ramping Up) in 15MW in consecutive hours. In that case the available reserve response of the unit will be limited by:
+
+See also Time Frame , Max Ramp Up , Max Ramp Down , Max Response
+Lists:
+	- A 150MW generator can provide regulation raise reserve with Effectiveness of one and no Max Response other than available spare capacity,
+	- A Max Ramp Up of 0.5 MW/min: meaning that the generator is capable of changing its dispatch level in consecutive hours at a maximum rate of 30MW,
+	- A response ratio of 0.5 is defined,
+	- Case 1: Suppose that at the optimal solution:
+	- Case 2: Suppose that at the optimal solution:
+

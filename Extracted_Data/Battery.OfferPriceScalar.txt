@@ -1,0 +1,31 @@
+Header: Battery Offer Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar applied to the [Offer Price] property
+Offer Base	0	MW	1				Day-ahead Generation
+Offer Quantity	0	MW	1				Day-ahead Generation
+Offer Quantity	55.6	MW	2				
+Offer Price	0	$/MWh	1				Day-ahead SRMC
+Offer Price	0	$/MWh	2				Day-ahead SRMC
+Offer Quantity Scalar	-1	-	1				
+Offer Price Scalar	0.9	-	1				
+Offer Price Scalar	1.1	-	2				
+
+Paragraphs:
+Battery Offer Price Scalar is a scaling factor that can be applied to the Offer Price property.
+
+Example
+
+In the above example the battery forms a two-band balancing offer with a base determined by a day-ahead solution read from a Data File . To convert day-ahead Generation which is a non-negative number into a decrement offer band, which is a negative number, the Offer Quantity Scalar is set to negative one for band one. Offer Price Scalar is then used to create two price bands, one just below and one just above the day-ahead short-run marginal cost of the battery.
+
+See also:
+Lists:
+	- Battery Offer Price Incr
+	- Battery Bid Price Scalar
+

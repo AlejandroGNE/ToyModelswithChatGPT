@@ -1,0 +1,15 @@
+Header: Weather Station Wind Speed
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Wind speed value
+
+Paragraphs:
+Weather Station Wind Speed is the wind speed value for weather effect.
+Lists:
+

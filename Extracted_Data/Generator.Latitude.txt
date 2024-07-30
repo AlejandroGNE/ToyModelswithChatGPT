@@ -1,0 +1,14 @@
+Header: Generator Latitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Latitude
+
+Paragraphs:
+Generator Latitude is the decimal representation of the latitude for the Generator. Latitude is used in combination with Longitude to set coordinates for the Generator when visualizing the power system:
+
+See the User Interface Guide for more details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Plant Output Node Min Blend Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum percentage of the gas produced by the Gas Plant in the blend
+
+Paragraphs:
+Gas Plant Output Node Min Blend Percent is the minimum percentage of the gas produced by the Gas Plant in the blend.
+Lists:
+

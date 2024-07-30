@@ -1,0 +1,24 @@
+Header: Model Execution Order
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Order in which to execute the Model when running in a batch.
+Model 1	1
+Model 2	2
+Model 3	
+Model 4	4
+Model 5	5
+Project.Model	P1	Model 1
+Project.Model	P1	Model 2
+Project.Model	P1	Model 3
+
+Paragraphs:
+Model Execution Order is the order in which to execute the Model when running in a batch.
+
+PLEXOS orders the models in ascending Execution Order if defined.  A typical example of this can be seen in the following table:
+
+In this example "Model 3" is executed first, as its default execution order number is zero.  Similarly this property can be used to define the execution order of the models within a project .  For example, if a Project is defined with the Model memberships, as shown in the table below, then "Model 3" would be executed first followed by "Model 1" and "Model 2".
+Lists:
+

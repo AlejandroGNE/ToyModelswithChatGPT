@@ -1,0 +1,16 @@
+Header: Transmission Formulate Upfront
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If transmission constraints should all be formulated upfront rather than checked iteratively.
+
+Paragraphs:
+Transmission Formulate Upfront controls when transmission limits ( Line , Transformer and Interface ) limits are added to the mathematical program. It can take these values:
+
+By default transmission limits are evaluated in an iteration. This option eliminates those iterations at the cost of a larger upfront problem. It can be useful to experiment with this option especially for simulations involving integer optimization where the cost in terms of runtime of each iteration is potential quite large.
+
+Note that this switch does not control the security constraints of the SCUC algorithm which are always added in an iteration.
+Lists:
+

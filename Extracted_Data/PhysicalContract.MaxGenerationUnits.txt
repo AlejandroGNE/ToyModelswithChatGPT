@@ -1,0 +1,18 @@
+Header: Physical Contract Max Generation Units
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum generation capacity that can be contracted (LT Plan)
+
+Paragraphs:
+Physical Contract Max Generation Units sets the maximum megawatt generation capacity allowed to be purchased. The duration of the contract is determined by setting one of Capacity Charge | Hour | Day | Week | Month | Year .
+
+See also:
+Lists:
+	- Physical Contract Max Load Units
+

@@ -1,0 +1,15 @@
+Header: Zone Net Market Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net profit from all market nodes
+
+Paragraphs:
+Zone Net Market Profit is the net profit from all markets in the Zone :
+Lists:
+

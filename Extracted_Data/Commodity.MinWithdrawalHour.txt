@@ -1,0 +1,30 @@
+Header: Commodity Min Withdrawal Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of the Commodity that must be taken from inventory each hour
+
+Paragraphs:
+Commodity Min Withdrawal Hours
+          creates a Constraint object that
+          forces the Withdrawal of the
+          Commodity from inventory each hour. Note that this is the same as
+          setting Min Withdrawal when Horizon Periods
+            per Day is 24, and only applies for sub-hourly resolution
+          modeling. By default this is a 'hard' constraint. To create a soft
+          constraint, create a Constraint with a Penalty Price .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Hour
+	- Commodity Constraints Withdrawal
+              Coefficient
+

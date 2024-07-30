@@ -1,0 +1,12 @@
+Header: Transmission Limit Bootstrap Threshold Decrement
+
+Table Details:
+Units:	-
+Default Value:	0.25
+Validation Rule:	Between 0 And 1
+Description:	[Limit Threshold] decrement used for each iteration of transmission bootstrap phase.
+
+Paragraphs:
+This is the amount that the limit threshold is decreased each iteration during the bootstrap phase of transmission. See Limit Bootstrap Initial Threshold for details.
+Lists:
+

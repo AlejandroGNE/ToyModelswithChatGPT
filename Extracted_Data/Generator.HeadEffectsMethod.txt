@@ -1,0 +1,38 @@
+Header: Generator Head Effects Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Method used to account for the effects of storage head on efficiency
+
+Paragraphs:
+Generator Head Effects Method
+          controls how the formulation accounts for the effects of storage head
+          on hydro generator efficiency.
+
+This setting can take the following values:
+
+The efficiency of hydro generation is set each simulation step
+              based on the Storage Initial
+                Volume . Efficiency does not change inside the step, so this
+              method works well if the storage is large enough. This method is
+              the fastest because it does not require the formulation of the
+              head to efficiency relationship directly in the optimization. Note
+              that this is the only method available when using the Stochastic
+                Algorithm = "SDDP". In this case the generator efficiency is
+              updated at each stage of the scenario tree in each iteration.
+
+The head to efficiency relationship is formulated inside the
+              optimization problem and efficiency will change dynamically. This
+              approach is the most accurate but is expensive in terms of
+              simulation time.
+
+See also:
+Lists:
+	- Hydro
+              Generator Efficiency and Head Effects
+

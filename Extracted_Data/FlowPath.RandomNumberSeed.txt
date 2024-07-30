@@ -1,0 +1,16 @@
+Header: Flow Path Random Number Seed
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 2147483647
+Key Property:	No
+Description:	Random number seed assigned to the flow path for the generation of outages
+
+Paragraphs:
+Flow Path Random Number Seed is
+          the random number seed assigned for the generation of outages.
+Lists:
+

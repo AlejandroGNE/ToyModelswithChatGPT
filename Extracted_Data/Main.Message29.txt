@@ -1,0 +1,24 @@
+Header: Message 29
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	<value> <name> marginal efficiency is increasing between points <value> (<value> MW, <value>) and <value> (<value> MW, <value>). Consider setting Production Heat Rate Error Method = 'Allow Non-convex'.
+
+Paragraphs:
+Message 29 is produced when the simulator detects that the marginal heat rate function of a Generator is not 'convex' (monotonically non-decreasing). For most generator types the heat rate should increase as Generation increases i.e. it takes more Fuel to produce the next megawatt of power than it did the for the last. In some cases such as when modelling a combined cycle generator or the efficiency function of a hydro generator a non-convex curve might be required. In this case you can change Heat Rate Error Method to "Allow Non-convex" and the formulation will be augmented with integer variables to model the steps of the non-convex curve for the relevant generators.
+
+If a non-convex curve was not intended then this message indicates an error in the data defining the Heat Rate .
+
+Refer to the article Heat Rate Modelling for details of how to define the heat rate function. There are a number of input formats accepted and some accept average rather than marginal heat rates. It is often in this case that non-convex functions can be accidentally defined. To understand why your input might fail the convexity test consider the following steps, which the simulator takes in computing the heat rate function:
+
+The test is then that each block has the same or higher marginal heat rate as the block before it.
+
+Note that if you define incremental heat rates with more tranches than Max Heat Rate Tranches your curve is used 'verbatim' along with your Load Point values i.e. no re-fitting is done of the function.
+
+Heat Rate Error Method determines what happens when a non-convex curve is encountered. The default behavior is for the curve to be 'corrected', which involves an adjustment to the heat rates to force convexity. The procedure is as follows:
+Lists:
+	- Beginning with tranche n = N - 1,
+	- if the marginal heat in tranche n ≤ marginal heat rate in tranche n + 1 continue to tranche n = n - 1
+	- otherwise set marginal heat rate in tranche n equal to the average of marginal heat rates in tranches n and n + 1 capped by the maximum marginal heat rate in all tranches above n + 1
+

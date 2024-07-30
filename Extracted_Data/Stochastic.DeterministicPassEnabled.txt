@@ -1,0 +1,36 @@
+Header: Stochastic Deterministic Pass Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the final deterministic pass is run after iterations of the Rolling Horizon algorithm
+
+Paragraphs:
+This setting toggles on/off the final deterministic pass of a
+          stochastic optimization solved with Rolling
+            Horizon . By default, after the stochastic rolling iterations are
+          complete a final deterministic (Monte Carlo) pass is performed across
+          each of the full branches (scenarios) with storage trajectories
+          following the stochastic optimal solution(s). This is the solution
+          output to the solution file.
+
+You may want to disable this final pass if the only output you need
+          from the Rolling Horizon is the Future
+            Cost Function . For example, your Rolling Horizon model might run
+          with a reduced set of full branches (scenarios) to produce the
+          operational policy. You can then apply that policy in a simulation
+          with more scenarios.
+
+Note that you can control the time horizon of the deterministic pass
+          using the input Horizon Look-ahead
+            Count , for example if you want to run extra years to establish
+          the optimal policy but discard those years in reporting.
+
+See also:
+Lists:
+	- Stochastic Batch
+              Count
+	- Stochastic Deterministic
+              Step Type
+

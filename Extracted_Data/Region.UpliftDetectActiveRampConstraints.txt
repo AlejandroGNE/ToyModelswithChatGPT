@@ -1,0 +1,15 @@
+Header: Region Uplift Detect Active Ramp Constraints
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the uplift calculation should exclude generators on ramp limits
+
+Paragraphs:
+Region Uplift Detect Active Ramp Constraints can take these values:
+Lists:
+

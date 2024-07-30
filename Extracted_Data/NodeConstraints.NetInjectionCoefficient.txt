@@ -1,0 +1,15 @@
+Header: Node Constraints Net Injection Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node net injection
+
+Paragraphs:
+Node Constraints Net Injection Coefficient is the left-hand side coefficient for Net Injection in the constraint.
+Lists:
+

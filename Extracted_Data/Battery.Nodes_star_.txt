@@ -1,0 +1,11 @@
+Header: Battery Nodes*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the battery at each node in this collection
+
+Paragraphs:
+Battery Nodes* is creates copies of the battery at each node in this collection
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Objectives Ramp Down Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of ramp down
+
+Paragraphs:
+Battery Objectives Ramp Down Coefficient is Coefficient of ramp down.
+Lists:
+

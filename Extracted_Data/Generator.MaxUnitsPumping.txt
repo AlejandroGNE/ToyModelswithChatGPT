@@ -1,0 +1,30 @@
+Header: Generator Max Units Pumping
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units allowed to be running in pump mode.
+Units	4	-	1			
+Max Capacity	25	MW	1			
+Pump Efficiency	70	%	1			
+Pump Load	25	MW	1			
+Pump Units	2	-	1			
+Max Units Pumping	0	-	1			H6-24
+
+Paragraphs:
+Generator Max Units Pumping applies to pumped storage generators and sets an upper limit on the number of units that are allowed to run in pump mode at any one time. This number should be not more than the number of Pump Units .
+
+Example:
+
+In the above example there are four generating units, two of which can run in pump mode, but pumping is restricted to hours 1 through 5 of each day (midnight to 6:00 AM).
+
+See also:
+Lists:
+	- Generator Pump Load
+	- Generator Pump Efficiency
+	- Generator Must Pump Units
+

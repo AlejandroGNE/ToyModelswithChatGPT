@@ -1,0 +1,15 @@
+Header: Generator Min Stable Level Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violation of min stable level.
+
+Paragraphs:
+Generator Min Stable Level Penalty is a penalty price for violating the Min Stable Level.
+Lists:
+

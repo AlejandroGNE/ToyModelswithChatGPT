@@ -1,0 +1,11 @@
+Header: Message 3092
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Unknown identifier <name> in Timeslice statement <name>.
+
+Paragraphs:
+Message 3092 occurs in the following circumstances:
+Lists:
+

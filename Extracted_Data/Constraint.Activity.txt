@@ -1,0 +1,17 @@
+Header: Constraint Activity
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constraint activity at optimal solution
+
+Paragraphs:
+The activity on a Constraint is the sum of all left-hand side terms. In the case where the constraint is binding the Activity will equal the right-hand side . When the constraint is Slack the Activity will be less than the right-hand side for less-than-or-equal-to constraints and more than right-hand-side for greater-than-or-equal-to constraints. There is never slack on equality constraints. When the constraint has Violation the Activity will be greater than the right-hand side for less-than-or-equal-to constraints and less than right-hand-side for greater-than-or-equal-to constraints. Activity may be above or below the right-hand side when an equality constraint is violated.
+
+Activity is in the same units as the right-hand side .
+Lists:
+

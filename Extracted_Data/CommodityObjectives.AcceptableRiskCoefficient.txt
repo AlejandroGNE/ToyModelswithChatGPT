@@ -1,0 +1,15 @@
+Header: Commodity Objectives Acceptable Risk Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of entity acceptable risk
+
+Paragraphs:
+Commodity Objectives Acceptable Risk Coefficient is Coefficient of entity acceptable risk.
+Lists:
+

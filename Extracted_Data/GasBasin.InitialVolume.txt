@@ -1,0 +1,15 @@
+Header: Gas Basin Initial Volume
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Volume of gas in the basin at the start of the period
+
+Paragraphs:
+Gas Basin Initial Volume reports the volume of gas in the basin at the start of the period.
+Lists:
+

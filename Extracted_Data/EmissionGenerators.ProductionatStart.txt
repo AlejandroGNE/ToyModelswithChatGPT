@@ -1,0 +1,17 @@
+Header: Emission Generators Production at Start
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced at each unit start up
+
+Paragraphs:
+Emission Generators Production at Start defines the Emission produced when a Generator starts up . This is useful when neither the run up of the Generator , nor the Start Fuels GeneratorStartFuels.Offtake at Start is modelled and therefore the emissions during start-up are not captured through the use of Fuel .
+
+Notice that the definition of this property will lead to extra emissions being added to the generator start emission produced by Start Fuels with the definitions of EmissionFuels.Production Rate and GeneratorStartFuels.Offtake at Start . For more details, see Setting Emission Production Using Load Points and Bands .
+Lists:
+

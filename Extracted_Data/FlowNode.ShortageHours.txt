@@ -1,0 +1,18 @@
+Header: Flow Node Shortage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours demand exceeds supply
+
+Paragraphs:
+Flow Node Shortage is the number of hours of shortage of supply in the Markets connected to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Surplus Hours
+

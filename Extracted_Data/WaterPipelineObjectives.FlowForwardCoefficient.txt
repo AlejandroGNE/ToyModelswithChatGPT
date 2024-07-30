@@ -1,0 +1,15 @@
+Header: Water Pipeline Objectives Flow Forward Coefficient
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Water Pipeline flow at the receiving node
+
+Paragraphs:
+Water Pipeline Objectives Flow Forward Coefficient is Coefficient of Water Pipeline flow at the receiving node.
+Lists:
+

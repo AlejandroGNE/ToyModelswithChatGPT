@@ -1,0 +1,22 @@
+Header: Battery Charging
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Charge rate/energy
+
+Paragraphs:
+Battery Charging is the megawatt
+          rate of charging of the battery (period level) or the gigawatt-hour
+          total energy added to the battery (summary). This differs from the Load according to the Charge
+            Efficiency .
+
+See also:
+Lists:
+	- Battery Discharging
+	- Battery Load
+

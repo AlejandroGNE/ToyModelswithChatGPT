@@ -1,0 +1,11 @@
+Header: List Entities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Entity objects in the List
+
+Paragraphs:
+List Entities is set of Entity objects in the List
+Lists:
+

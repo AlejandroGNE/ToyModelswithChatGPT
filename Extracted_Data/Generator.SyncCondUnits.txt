@@ -1,0 +1,15 @@
+Header: Generator Sync Cond Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of synchronous condenser units
+
+Paragraphs:
+Generator Sync Cond units sets the number of units that can operate as synchronous condensers for the purposes of providing spinning reserve . For hydro unit is often called tail-water depressed mode. The unit is able to run at notional zero output but provide spinning reserve. You can set the Max Response and Offer Price for unit running in this mode.
+Lists:
+

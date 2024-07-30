@@ -1,0 +1,17 @@
+Header: Zone Multi-area LOLP
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loss of load probability including assistants from other connected zones (summary type "Average")
+
+Paragraphs:
+See also:
+Lists:
+	- Zone Multi-area LOLE
+	- Region Multi-area LOLP
+

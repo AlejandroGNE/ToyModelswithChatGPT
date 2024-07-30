@@ -1,0 +1,15 @@
+Header: Heat Node Heat Export Nodes Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion sent to the node
+
+Paragraphs:
+Heat Node Heat Export Nodes Participation Factor is Proportion sent to the node.
+Lists:
+

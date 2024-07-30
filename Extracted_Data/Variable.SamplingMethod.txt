@@ -1,0 +1,31 @@
+Header: Variable Sampling Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Sampling method applied to the variable
+Sampling Method	User			
+Profile	0	OUTAGES	-	200
+OUTAGES	Filename	0	Outages\Units Out.csv	-	200
+Units Out	0		-	1				=	My Variable
+
+Paragraphs:
+Variable Sampling Method controls how samples are created for the variable. It can take the following values:
+
+The last option is advanced. It can be used to read predefined sample data into the Variable without further random modification. For example, assume you have outage data ( Generator Units Out ) defined in a Data File as follows:
+
+NOTE: This file format is "Bands in Columns" and is described in Text File Formats .
+
+These data can be read into a Variable object as follows:
+
+Here the Data File points to the following:
+
+The Variable is then attached to the Generator Units Out property:
+
+NOTE: If you have several Generator objects in the same data Data File , i.e. you are using "Named Bands in Columns" format, then create one Variable object for each Generator and name it the same as the Generator so that the data will be found in the file. Only one Data File is required in this instance.
+Lists:
+

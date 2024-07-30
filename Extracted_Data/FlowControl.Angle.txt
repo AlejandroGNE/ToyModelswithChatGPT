@@ -1,0 +1,16 @@
+Header: Flow Control Angle
+
+Table Details:
+Units:	°
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Angle (initial angle when used as input)
+
+Paragraphs:
+Flow Control Angle is Angle (initial angle when used as input). In the DC-OPF this angle implies a megawatt Flow on the parallel DC line used to model the Flow Control.
+When it is used as a input property, it implies the initial angle setting of the Flow Control.
+Lists:
+

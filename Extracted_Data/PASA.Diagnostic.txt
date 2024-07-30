@@ -1,0 +1,11 @@
+Header: PASA Diagnostic
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Diagnostic settings for PASA
+
+Paragraphs:
+PASA Diagnostic is the Diagnostic settings for PASA. These override the settings associated with the Model .
+Lists:
+

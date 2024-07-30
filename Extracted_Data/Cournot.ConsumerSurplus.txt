@@ -1,0 +1,19 @@
+Header: Cournot Consumer Surplus
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumer surplus in the Nash-Cournot equilibrium solution
+
+Paragraphs:
+Cournot Consumer Surplus is the consumer surplus in the Nash-Cournot equilibrium solution. Since the demand curve is linear this surplus is defined as:
+
+See also:
+Lists:
+	- Cournot Producer Surplus
+	- Cournot Perfect Competition Consumer Surplus
+

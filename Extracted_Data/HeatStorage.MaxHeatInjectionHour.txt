@@ -1,0 +1,15 @@
+Header: Heat Storage Max Heat Injection Hour
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of heat that can be injected into the storage in a hour
+
+Paragraphs:
+Heat Storages Max Heat Injection Hour is the maximum amount of heat that can be injected into the storage in a hour.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Min Capacity Factor Year
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum capacity factor in year
+
+Paragraphs:
+This is the annual variant of Generator Min Capacity Factor .
+Lists:
+

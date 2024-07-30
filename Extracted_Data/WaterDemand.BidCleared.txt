@@ -1,0 +1,15 @@
+Header: Water Demand Bid Cleared
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Bid cleared in band
+
+Paragraphs:
+Water Demand Bid Cleared is Bid cleared in band.
+Lists:
+

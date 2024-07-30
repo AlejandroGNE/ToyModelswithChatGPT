@@ -1,0 +1,43 @@
+Header: Generator Constraints Raise Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of raise reserve provision
+
+Paragraphs:
+Generator Constraints Raise Reserve Provision
+          Coefficient defines a left-hand side coefficient on the generator's
+          provision of raise type reserve services in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where:
+
+By default, this sum includes all Generator Reserves of Type = "Raise". However you can limit the set of Reserves included in this sum by adding Generator Reserves memberships with no
+          associated property definitions. This is a special case of using
+          'null' memberships to filter the terms included in another constraint
+          property.
+
+See also:
+Lists:
+	- Generator Constraints Reserve
+              Provision Coefficient
+	- Generator Constraints Spinning
+              Reserve Coefficient
+	- Generator Constraints Lower
+              Reserve Provision Coefficient
+	- Generator Constraints Regulation
+              Raise Reserve Provision Coefficient
+	- Generator Constraints Regulation
+              Lower Reserve Provision Coefficient
+	- Generator Constraints Replacement
+              Reserve Provision Coefficient
+	- Generator Constraints Inertia
+              Provision Coefficient
+

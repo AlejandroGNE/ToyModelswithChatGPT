@@ -1,0 +1,19 @@
+Header: Facility Fixed Production Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Fixed Production]
+
+Paragraphs:
+Facility Fixed Production Penalty
+          is the penalty for violation of the Fixed
+            Production constraint. Violations are reported in the properties Fixed Production
+            Violation and Fixed
+            Production Violation Cost .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Sync Cond VO&M Charge
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable O&M cost associated with running a unit in synchronous condenser mode
+
+Paragraphs:
+Generator Sync CondVOM Charge is the variable operations and maintenance charge associated with running a generator as a synchronous condenser to provide ancillary services.
+Lists:
+

@@ -1,0 +1,26 @@
+Header: Zone Zones Available Transfer Capability
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability between the zones in the reference direction.
+
+Paragraphs:
+Zone Zones Available Transfer Capability is Available transfer capability from the 'parent' Zone to the 'child' Zone.
+
+If Transmission Detail is set to Nodal:
+
+Line Available Transfer Capability of the Exporting Lines and the reverse Available Transfer Capability of the Importing Lines are collected to calculate Zone Zones Available Transfer Capability.
+
+If Transmission Detail is set to Zonal/Regional:
+
+Zone Zones Available Transfer Capability is reported as the sum of ATCs on the inter-zonal branches.
+
+See also:
+Lists:
+	- Line Available Transfer Capability
+

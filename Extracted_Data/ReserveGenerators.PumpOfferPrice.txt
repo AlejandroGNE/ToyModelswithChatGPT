@@ -1,0 +1,21 @@
+Header: Reserve Generators Pump Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Dispatchable pump load reserve offer price
+Generator ( PumpA )	Pump Load	240	MW
+Reserve ( Spin ).Generators ( PumpA )	Max Pump Response	100	MW
+Reserve ( Spin ).Generators ( PumpA )	Pump Offer Price	5	$/MW
+
+Paragraphs:
+Reserve Generators Pump Offer Price defines a premium (over opportunity cost) on provision of pump dispatchable load response by the pumped storage generator.
+
+See also:
+Lists:
+	- Reserve Generators Max Pump Response
+

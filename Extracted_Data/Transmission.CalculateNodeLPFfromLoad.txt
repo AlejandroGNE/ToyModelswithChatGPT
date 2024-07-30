@@ -1,0 +1,13 @@
+Header: Transmission Calculate Node LPF from Load
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Automatically calculate Node LPF from input Load property
+
+Paragraphs:
+Transmission Calculate Node LPF from Load setting determines if the Node Load property should be used to calculate the Node Load Participation Factor (LPF) property. 
+                    The attribute takes the following values:
+Lists:
+

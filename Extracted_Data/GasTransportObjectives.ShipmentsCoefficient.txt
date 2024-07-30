@@ -1,0 +1,15 @@
+Header: Gas Transport Objectives Shipments Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas transport voyage count
+
+Paragraphs:
+Gas Transport Objectives Shipments Coefficient is the coefficient of gas transport voyage count.
+Lists:
+

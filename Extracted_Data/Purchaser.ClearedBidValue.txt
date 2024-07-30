@@ -1,0 +1,20 @@
+Header: Purchaser Cleared Bid Value
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under demand curve
+
+Paragraphs:
+Purchaser Cleared Bid Value is the value of Load as seen by the Market Operator and is defined as:
+
+See also:
+Lists:
+	- Purchaser Bid Cleared
+	- Purchaser Cleared Bid Price
+	- Purchaser Cost to Load
+

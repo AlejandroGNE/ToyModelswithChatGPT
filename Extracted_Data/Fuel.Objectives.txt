@@ -1,0 +1,11 @@
+Header: Fuel Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Fuel
+
+Paragraphs:
+Fuel Objectives is set of Objective objects involved in the Fuel
+Lists:
+

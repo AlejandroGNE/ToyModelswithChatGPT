@@ -1,0 +1,32 @@
+Header: Facility Max Starts Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Starts] constraint violations
+
+Paragraphs:
+Facility Max Starts Violation Cost
+          is defined as:
+
+Max Starts Violation Cost = Max
+            Starts Penalty × Max
+            Starts Violation
+
+See also:
+Lists:
+	- Facility Max
+              Starts
+	- Facility Max
+              Starts Day
+	- Facility Max
+              Starts Week
+	- Facility Max
+              Starts Month
+	- Facility Max
+              Starts Year
+

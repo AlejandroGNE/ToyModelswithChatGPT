@@ -1,0 +1,15 @@
+Header: Transformer AC Tap Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	>0
+Key Property:	No
+Description:	The turns ratio of the primary winding of a transformer
+
+Paragraphs:
+Transformer AC Tap Ratio is the turns ratio of the primary winding of a transformer relative to that of the secondary.
+Lists:
+

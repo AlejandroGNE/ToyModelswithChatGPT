@@ -1,0 +1,21 @@
+Header: Facility Ramp Up Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of ramp up charged at [Ramp Up Charge]
+
+Paragraphs:
+Facility Ramp Up Cost is the cost
+          of ramping up charged at Ramp Up
+            Charge .
+
+See also:
+Lists:
+	- Facility Ramp
+              Down Cost
+

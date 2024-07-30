@@ -1,0 +1,11 @@
+Header: Gas Path Index
+
+Table Details:
+Enabled	Yes/No	0	In (0,-1)	If the Gas Path Is Enabled
+
+Paragraphs:
+Gas Path Attributes Name Units Default Value Validation Rule Description Enabled Yes/No 0 In (0,-1) If the Gas Path Is Enabled
+
+Name Units Default Value Validation Rule Description Enabled Yes/No 0 In (0,-1) If the Gas Path Is Enabled
+Lists:
+

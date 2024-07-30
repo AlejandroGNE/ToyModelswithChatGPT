@@ -1,0 +1,19 @@
+Header: Transmission Right Hedge Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Type of transmission right
+
+Paragraphs:
+Transmission Right Hedge Type is the type of transmission right.
+
+
+
+Affects Settlement Price calculation: If Option type is selected, then any negative values will be set to 0.
+Lists:
+

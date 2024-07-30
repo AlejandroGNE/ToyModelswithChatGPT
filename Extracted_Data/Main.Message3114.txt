@@ -1,0 +1,11 @@
+Header: Message 3114
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	<value> [Blocks] = <value> cannot be greater than the number of intervals in a <value> = <value>.
+
+Paragraphs:
+Message 3114 occurs in the following circumstances:
+Lists:
+

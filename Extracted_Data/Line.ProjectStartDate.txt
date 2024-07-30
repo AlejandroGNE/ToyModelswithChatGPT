@@ -1,0 +1,32 @@
+Header: Line Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of transmission project, for expansion planning.
+X-Y	Units	0	-
+X-Y	Max Flow	150	MW
+X-Y	Max Units Built	1	-
+X-Y	Project Start Date	1/01/2012	-
+X-Y	Build Cost	2000	$000
+X-Y	Economic Life	35	years
+X-Y	WACC	8	%
+
+Paragraphs:
+Line Project Start Date is first date after which the transmission project can be constructed in LT Plan .
+
+This input is an integer representing a date in Microsoft date format, which is the number of days since 1/01/1900 (January 1, 1900). The default value of 36526 is the date 1/01/2000.
+
+Example
+
+In the above example, the Line cannot be constructed before the year 2012, which has date number 40909.
+
+TIP: To work out the date number that applies to a given date, enter the date into a cell in Microsoft Excel and change the number format of the cell to "General". This will then show the date its underlying number representation.
+
+See also: Line Max Units Built .
+Lists:
+

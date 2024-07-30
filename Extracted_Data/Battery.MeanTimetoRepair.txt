@@ -1,0 +1,22 @@
+Header: Battery Mean Time to Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	No
+Description:	Mean time to repair
+
+Paragraphs:
+Battery Mean Time to Repair is used as the location parameter for many of the functions used to generate the duration of outages.
+
+See also:
+Lists:
+	- Planned and Random Outages
+	- Battery Min Time to Repair
+	- Battery Max Time to Repair
+	- Battery Repair Time Scale
+	- Battery Repair Time Shape
+

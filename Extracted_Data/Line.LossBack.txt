@@ -1,0 +1,15 @@
+Header: Line Loss Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses on flows in the counter-reference direction
+
+Paragraphs:
+Line Loss Back is the Loss incurred when Flow is in the reverse direction. When the flow is the forward direction, this field will be reported as 0.
+Lists:
+

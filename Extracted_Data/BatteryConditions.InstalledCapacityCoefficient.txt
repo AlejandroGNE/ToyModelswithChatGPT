@@ -1,0 +1,15 @@
+Header: Battery Conditions Installed Capacity Coefficient
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of installed capacity
+
+Paragraphs:
+Battery Conditions Installed Capacity Coefficient is the coefficient of installed capacity.
+Lists:
+

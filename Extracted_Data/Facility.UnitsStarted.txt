@@ -1,0 +1,33 @@
+Header: Facility Units Started
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units started
+
+Paragraphs:
+Facility Units Started is the
+          number of units that started up in the period and is defined as:
+
+Units Started t =
+          MAX(0, Units Operating t - Units Operating ( t -1) )
+
+where: t indexes the time interval;
+            and Units
+              Operating 0 is defined by Initial
+              Units Operating
+
+In summary reporting this is  the total number of unit starts
+          that occurred in the period.
+
+See also:
+Lists:
+	- Facility Units
+              Shutdown
+	- Production Unit
+              Commitment Optimality
+

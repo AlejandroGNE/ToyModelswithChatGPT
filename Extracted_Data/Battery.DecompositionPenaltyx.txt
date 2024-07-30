@@ -1,0 +1,16 @@
+Header: Battery Decomposition Penalty x
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1.1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition state-of-charge target penalty function 'x' term
+
+Paragraphs:
+Refer to Commodity Decomposition
+            Penalty x for details.
+Lists:
+

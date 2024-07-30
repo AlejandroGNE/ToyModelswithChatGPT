@@ -1,0 +1,15 @@
+Header: Purchaser Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Purchaser load
+
+Paragraphs:
+Purchaser Load is the energy purchased or load from the purchaser and is defined as:
+Lists:
+

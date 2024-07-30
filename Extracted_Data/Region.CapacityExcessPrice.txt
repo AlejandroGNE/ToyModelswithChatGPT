@@ -1,0 +1,27 @@
+Header: Region Capacity Excess Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty for an excess of capacity reserves
+SA	Load	0	MW	1				Load.csv
+SA	Min Capacity Reserves	250	MW	1				
+SA	Max Capacity Reserves	1000	MW	1				
+SA	Capacity Shortage Price	500	$/kW/year	1				
+SA	Capacity Excess Price	5	$/kW/year	1				
+
+Paragraphs:
+Region Capacity Excess Price is an input to LT Plan and is the penalty for an excess of Capacity Reserves . It applies when Max Capacity Reserves or Max Capacity Reserve Margin is defined.
+
+Example
+
+In this example, the Capacity Reserves are to be maintained between 250-1000 MW with penalties for violating either limit.
+
+See also:
+Lists:
+	- Region Capacity Shortage Price
+

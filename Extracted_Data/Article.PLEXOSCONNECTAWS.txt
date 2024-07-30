@@ -1,0 +1,53 @@
+Header: Getting Started with PLEXOS Connect on Amazon Web Services (AWS)
+
+Table Details:
+
+Paragraphs:
+PLEXOS Connect Server and PLEXOS Connect Client are capable of being ran on Windows Server based Amazon AWS cloud instances. Using the utility PLEXOS Cloud Launcher that comes installed with PLEXOS Launch Control, you are able to setup and start a PLEXOS Connect Server on Amazon AWS.
+
+To start, you will need to click the button '...' next to the Access text box, here you will need to enter the access key and secret key that are associated with your Amazon AWS account. It is also recommended to specify a key pair (press '...' next to the key pair text box), these key pairs are used when creating the Connect Server and Connect Client instances and are required if you wish to login to these instances via remote desktop. You will also need to select a firewall, this firewall will need to be created in your Amazon AWS account settings. The firewall you specify must have TCP ports 399 and 8888 allowed as Connect Server and Connect Client require these ports for communication. The options type and size will configure the instance you will be creating. The type will specify the key hardware of the instance such as CPU count and speed, memory size and storage type. The size option will define how large the hard drive of the instance should be. In the section labelled 'PLEXOS Connect Client', you are able to enter in the setting the Connect Server should use when creating any Connect Clients. If you wish to have separate details for the creation of Connect Clients, uncheck the option 'Use same settings as PLEXOS Connect Server'. After pressing the button labelled 'Launch', the instance ID, public IP and public DNS (if available) will be shown. This information may take a minute to be shown as the instance has to be created and started by the Amazon AWS services first. Once the instance has started, you will be able to login with PLEXOS Launch Control using the public IP or public DNS provided by the PLEXOS Cloud Launcher. The public IP can be retrieved again by viewing the instance in your Amazon AWS account on their website. This public IP may change if the instance is restarted.
+
+Note: Initially, Connect on AWS will only be available in the region: Asia pacific (Sydney).
+
+When launching a new instance (of either the Connect Server or the Connect Client), you may receive an error regarding VPCs and security groups. This is generally caused by incompatibility between the selected settings. If you do not specify a network, it is expected to have a firewall (security group) with VPC set to false. However, if you do specify a network or a firewall (security group) with VPC set to true, you will need ensure the firewall (security group) exists in the same subnet as the network being used. An example of the errors you may receive:
+
+After creating and starting a new Amazon AWS (see §2), you will need to activate the license for PLEXOS Connect Server before being able to use the Connect system. You will not be able to use the Connect system until the license has been activated.
+
+License activation in AWS instances is handled by PLEXOS Launch Control, you will need to login to the Connect Server using the public IP of your instance and the default account (see §5). After logging in, you will be prompted the license is invalid (see above), at this prompt you will need to select "download" so you can save the license file to your machine. You will need to email this license file to your PLEXOS distributor for activation. Once you have received your activated license, you will need to login using PLEXOS Launch Control again and select "Input New" at the invalid license prompt (see above). This will open a file selection window where you can select the activated license, please note this can't be a zip file. Note: You will need PLEXOS Launch Control 2.8 or higher to activate the server license. 5. What is the Default Login? As PLEXOS Connect Server is preconfigured when you start the instance for the first time, a login has already been created for you it is recommended you change the password after your first login. The default login is: Port: 8888 Username: admin Password: admin Note: Connect system must have a valid license before you can use Connect (see §4). 6. How to Set the Timezone or Culture Information? Amazon instances are automatically set to UTC, to adjust this you will need to use remote desktop and adjust this manually, see: http://windows.microsoft.com/en-us/windows/set-clock Amazon instances may use region or culture information different to your own (ie, 'English (United States)'), to adjust this you will need to use remote desktop and adjust this manually, see: http://windows.microsoft.com/en-us/windows/change-system-locale Note: These changes will need to be made to the Connect Server and all Connect Clients. 7. How do I Add Connect Clients? The Connect Clients will be separate Amazon instances to the Connect Server, adding and removing any Connect Clients is done through Launch Control. To add a Connect Client, open Launch Control and go to the 'Client' tab, then press the add button at the top of the tab or in the right click context menu. The new client dialog (shown below) will be auto populated with a mix of auto detected and saved settings. The type and disk size are saved into the settings of Launch Control for convenience. The firewall rule is loaded from the Connect Server and is provided by the settings entered in section §2. The network is optional but may be required depending if the type or firewall requires VPC to be enabled. Figure 3.11 Add New Client Dialog 8. How to Remove Connect Clients To remove any Connect Clients, go to the 'Clients' tab in Launch Control and select one or more clients from the list of clients. Then click the remove button in the top of the client tab or in the right click context menu. This will remove the client from the Connect system and terminate the instance on the Amazon AWS services. 9. Why do the Connect Clients Keep Shutting Down? The AWS based Connect Server is designed to shut down and start up the Connect Clients as needed. It is currently designed around the hourly charging rate of Amazon, a Connect Client will be shut down if it has been idling for more than 10 minutes and it is nearing the end of an hour (measured from start up, not the system clock). The Connect Clients will be started again as needed to perform runs. 10. Additional information about Amazon AWS settings Access and secret keys: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html Key Pairs: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html Firewall/Security Groups: http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/using-network-security.html Instance Types: https://aws.amazon.com/ec2/instance-types/
+
+Note: You will need PLEXOS Launch Control 2.8 or higher to activate the server license.
+
+As PLEXOS Connect Server is preconfigured when you start the instance for the first time, a login has already been created for you it is recommended you change the password after your first login. The default login is: Port: 8888 Username: admin Password: admin
+
+Note: Connect system must have a valid license before you can use Connect (see §4).
+
+Amazon instances are automatically set to UTC, to adjust this you will need to use remote desktop and adjust this manually, see: http://windows.microsoft.com/en-us/windows/set-clock Amazon instances may use region or culture information different to your own (ie, 'English (United States)'), to adjust this you will need to use remote desktop and adjust this manually, see: http://windows.microsoft.com/en-us/windows/change-system-locale
+
+Note: These changes will need to be made to the Connect Server and all Connect Clients.
+
+The Connect Clients will be separate Amazon instances to the Connect Server, adding and removing any Connect Clients is done through Launch Control. To add a Connect Client, open Launch Control and go to the 'Client' tab, then press the add button at the top of the tab or in the right click context menu. The new client dialog (shown below) will be auto populated with a mix of auto detected and saved settings. The type and disk size are saved into the settings of Launch Control for convenience. The firewall rule is loaded from the Connect Server and is provided by the settings entered in section §2. The network is optional but may be required depending if the type or firewall requires VPC to be enabled.
+
+To remove any Connect Clients, go to the 'Clients' tab in Launch Control and select one or more clients from the list of clients. Then click the remove button in the top of the client tab or in the right click context menu. This will remove the client from the Connect system and terminate the instance on the Amazon AWS services.
+
+The AWS based Connect Server is designed to shut down and start up the Connect Clients as needed. It is currently designed around the hourly charging rate of Amazon, a Connect Client will be shut down if it has been idling for more than 10 minutes and it is nearing the end of an hour (measured from start up, not the system clock). The Connect Clients will be started again as needed to perform runs.
+Lists:
+	- "The security group '<sg-id>' does not exist in VPC '<vpc-id>'"
+	- "VPC security groups may not be used for a non-VPC launch"
+	- Access and secret keys: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html
+	- Key Pairs: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
+	- Firewall/Security Groups: http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/using-network-security.html
+	- Instance Types: https://aws.amazon.com/ec2/instance-types/
+
+
+H2s:
+Contents
+1. How do I Setup and Configure Connect on Amazon AWS?
+2. How to Setup a New AWS Instance
+3. Errors Regarding Security Groups of VPC
+4. How to Activate Connect Server on AWS
+5. What is the Default Login?
+6. How to Set the Timezone or Culture Information?
+7. How do I Add Connect Clients?
+8. How to Remove Connect Clients
+9. Why do the Connect Clients Keep Shutting Down?
+10. Additional information about Amazon AWS settings

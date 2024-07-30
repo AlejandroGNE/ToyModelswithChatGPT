@@ -1,0 +1,11 @@
+Header: Water Pump Station Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Water Pump Station inherits from
+
+Paragraphs:
+Water Pump Station Template is template the Water Pump Station inherits from
+Lists:
+

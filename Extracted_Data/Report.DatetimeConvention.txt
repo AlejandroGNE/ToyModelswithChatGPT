@@ -1,0 +1,17 @@
+Header: Report Datetime Convention
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Convention used when writing DATETIME.
+
+Paragraphs:
+Report Datetime Convention controls the way datetime values are written into solution files including text solution files and databases. This setting can take the following values:
+
+For example the interval "1/07/2010 4:00" to "1/07/2010 4:30" could be written "1/07/2010 4:00" (beginning of interval) or "1/07/2010 4:30" (end of interval).
+
+See also:
+Lists:
+	- Data File Datetime Convention
+

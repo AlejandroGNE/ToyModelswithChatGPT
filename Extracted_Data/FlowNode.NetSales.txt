@@ -1,0 +1,26 @@
+Header: Flow Node Net Sales
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net sales to Markets
+
+Paragraphs:
+Flow Node Net Sales is the net of
+          market sales and purchases made at the Flow Node, and is defined as:
+
+Net Sales = ∑ Market i Net
+            Sales i
+
+where: i indexes the Markets
+            attached to the Flow Node
+
+See also:
+Lists:
+	- Flow Node Net
+              Purchases
+

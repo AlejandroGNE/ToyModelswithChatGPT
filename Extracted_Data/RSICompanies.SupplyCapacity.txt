@@ -1,0 +1,15 @@
+Header: RSI Companies Supply Capacity
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total supply capacity from the company.
+
+Paragraphs:
+RSI Companies Supply Capacity is Total supply capacity from the company..
+Lists:
+

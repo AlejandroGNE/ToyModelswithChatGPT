@@ -1,0 +1,37 @@
+Header: Line Class
+
+Table Details:
+Description:	Transmission line (AC, DC, or notional/entrepreneurial interconnector)
+
+Paragraphs:
+See also Line Property Reference for a detailed list of properties for this class of object.
+
+Lines represent physical or notional AC or DC transmission lines in the network.
+
+Each Line object must have a unique Node From and a Node To . By default, lines are bi-directional transmission, and as a result, they have positive and negative flows (forward and back). Lines can be set to be unidirectional by setting the Max Flow or Min Flow property to zero appropriately.
+
+AC Lines Impedance is determined by line reactance and resistance. These are input using the Line Reactance and Resistance properties. These values should be per unit (p.u.) and the MVA Base should be set appropriately. DC Lines Modelling DC lines in PLEXOS simply involves omitting their reactance i.e. lines that do not have reactance defined are controllable DC lines and flow on the lines will be optimized according to the economics of arbitrage and any constraints on the AC networks they connect. You can apply a penalty to changes in the flows on DC lines using the Ramp Penalty property. Losses PLEXOS provides two methods of modelling losses. You choose the method used by setting the Transmission Loss Method property: In addition you can define a custom loss function (other than quadratic) and/or approximate losses using a penalty function. All these methods are also described in the Loss Modelling white paper. See also: The article Optimal Power Flow . Transformer class Node class
+
+Impedance is determined by line reactance and resistance. These are input using the Line Reactance and Resistance properties. These values should be per unit (p.u.) and the MVA Base should be set appropriately.
+
+DC Lines Modelling DC lines in PLEXOS simply involves omitting their reactance i.e. lines that do not have reactance defined are controllable DC lines and flow on the lines will be optimized according to the economics of arbitrage and any constraints on the AC networks they connect. You can apply a penalty to changes in the flows on DC lines using the Ramp Penalty property. Losses PLEXOS provides two methods of modelling losses. You choose the method used by setting the Transmission Loss Method property: In addition you can define a custom loss function (other than quadratic) and/or approximate losses using a penalty function. All these methods are also described in the Loss Modelling white paper. See also: The article Optimal Power Flow . Transformer class Node class
+
+Modelling DC lines in PLEXOS simply involves omitting their reactance i.e. lines that do not have reactance defined are controllable DC lines and flow on the lines will be optimized according to the economics of arbitrage and any constraints on the AC networks they connect.
+
+You can apply a penalty to changes in the flows on DC lines using the Ramp Penalty property.
+
+Losses PLEXOS provides two methods of modelling losses. You choose the method used by setting the Transmission Loss Method property: In addition you can define a custom loss function (other than quadratic) and/or approximate losses using a penalty function. All these methods are also described in the Loss Modelling white paper. See also: The article Optimal Power Flow . Transformer class Node class
+
+PLEXOS provides two methods of modelling losses. You choose the method used by setting the Transmission Loss Method property: In addition you can define a custom loss function (other than quadratic) and/or approximate losses using a penalty function. All these methods are also described in the Loss Modelling white paper.
+
+See also:
+Lists:
+	- The article Optimal Power Flow .
+	- Transformer class
+	- Node class
+
+
+H2s:
+AC Lines
+DC Lines
+Losses

@@ -1,0 +1,15 @@
+Header: Gas Pipeline Max Observed Flow
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of max observed flow in a pipeline.
+
+Paragraphs:
+Gas Pipeline Max Observed Flow is the Quantity of max observed flow in a pipeline.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Message 78
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> Heat Rate band count does not match Generator Load Point band count.
+Load Point	47.5	MW	1
+Load Point	71.25	MW	2
+Load Point	95	MW	3
+Heat Rate	7575	BTU/kWh	1
+Heat Rate	7300	BTU/kWh	2
+Heat Rate	7000	BTU/kWh	3
+
+Paragraphs:
+Message 78 occurs when you define a multi-point heat rate function without the matching Load Point values. Multi-point functions can be defined with either Heat Rate (average heat rate), Heat Rate Incr (marginal heat rate) or Efficiency Incr (marginal efficiency). When you define these values with more than one band you must provide a matching number of bands of Load Point as in the following example using three bands.
+
+Example
+Lists:
+

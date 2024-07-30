@@ -1,0 +1,17 @@
+Header: Generator Spill
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Spill to "the sea"
+
+Paragraphs:
+Generator Spill is the Natural
+            Inflow that was spilled either to the Tail
+            Storage or to "the sea".
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Zone Marginal Loss Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal loss component of the zonal price
+
+Paragraphs:
+Zone Marginal Loss Charge is the marginal loss component of the zonal price.
+Lists:
+

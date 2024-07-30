@@ -1,0 +1,66 @@
+Header: Diagnostic Marginal Unit
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Execute region marginal unit diagnostic (this is an active diagnostic)
+Year / Month / Day / Hour / Minute	The time and date of the period reported
+Sample	The sample number that is being reported
+Region Name*	The name of the region which the sensitivity analysis is being performed on
+Region Shadow Price*	The locational marginal price (LMP) of the reference node (Node Price)
+Uplift*	The uplift for the region (Region Uplift)
+Region Price*	The price of the reported region (Region Price)
+Marginal Region	The name of the region which the marginal unit belongs to
+Marginal Change	The change in the marginal unit's generation in response to a one MW increase in region load. It is most commonly one but values other than unity indicate other units have increased or decreased their generation due to constraints.
+Marginal Unit	The name of the marginal unit for the analysed region. This is a physical object such as a Generator or a Battery. If no marginal object can meet the demand sensitivity, USE will be reported
+Marginal Market	The name of the marginal market for the analysed region. If no marginal object can meet the demand sensitivity, USE will be reported
+Marginal Purchaser	The name of the marginal purchaser for the analysed region. If no marginal object can meet the demand sensitivity, USE will be reported
+Marginal Generation Physical Contract	The name of the marginal generation physical contract for the analysed region. If no marginal object can meet the demand sensitivity, USE will be reported
+Marginal Load Physical Contract	The name of the marginal load physical contract for the analysed region. If no marginal object can meet the demand sensitivity, USE will be reported
+SRMC/Price	The Marginal SRMC or Market/Purchaser/Physical Contract Price
+Load	The Region Load  (excluding any increases performed by the diagnostic report)
+Imports	The imports to the region (Region Imports)
+Exports	The exports from the region (Region Exports)
+Net Load	This is the Region Load + Region Net Interchange
+Heat Rate	The marginal Heat Rate
+Hydro Generation	The sum of all generation by the hydro generators in the region
+Pump Generation	The sum of all generation by the pump generators in the region
+Pump Load	The sum of all load for the pump generators in the region (Generator Pump Load)
+Maintenance Outage	The sum of all generator maintenance outages in that region (Generator Maintenance)
+Forced Outage	The sum of all generator forced outages in that region (Generator Forced Outage)
+Fuel	The name of the fuel that the marginal unit is generating with. If there are no fuels then the name will reported as "None".
+Fuel Price	The price of the fuel being used by the marginal unit (Fuel Price)
+VOM Charge	The marginal VOM Charge
+Wheeling Charge*	This is calculated by:Shadow Price - Marginal Unit's SRMC- ∑x (Emission (x) SRMC - Marginal Unit. SRMCwhere 'n' is the total number of emissions belonging to the marginal unit.
+Unserved Energy	This is the unserved energy in the region (Region Unserved Energy)
+Dump Energy	This is the dump energy in the region (Region Dump Energy)
+Emission Rate	This is the marginal unit's incremental emission production value (Production Rate)
+Emission Cost	This is the marginal unit's incremental emission cost. This is calculated by the following:Emission SRMC - SRMC
+
+Paragraphs:
+The Marginal Unit Diagnostic calculates the marginal unit for each Region in the system or for the whole system. This is calculated by performing a sensitivity analysis on regional load or system load for all periods in the simulation.
+
+Marginal Unit Transmission Detail flag sets the units report level. Note that currently, Fixed shift factor OPF method does not support Regional setting in Marginal Unit Transmission Detail .
+
+Note:
+
+The various steps that are involved in creating this diagnostic are as follows (for regional report):
+
+The marginal unit diagnostic in no way modifies the solution values i.e. the solution database does not include any results from this diagnostic.   The following table (Table 1) describes the values that are reported in the Marginal diagnostic.
+
+Table 1 - Marginal Unit Diagnostic Property Description
+
+* items are for regional report only.
+Lists:
+	- In regional reporting, Region can be excluded from this diagnostic with the Region Include in Marginal Unit flag.
+	- Possible marginal units can be: A physical object with controllable generation and/or load ( Generator , Battery , Power2X etc.) Purchaser Physical Contract Market .
+	- A physical object with controllable generation and/or load ( Generator , Battery , Power2X etc.)
+	- Purchaser
+	- Physical Contract
+	- Market .
+	- A physical object with controllable generation and/or load ( Generator , Battery , Power2X etc.)
+	- Purchaser
+	- Physical Contract
+	- Market .
+

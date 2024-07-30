@@ -1,0 +1,25 @@
+Header: Generator Annualized Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of units built
+
+Paragraphs:
+Generator Annualized Build Cost
+          is the annuity calculated from the input Build
+            Cost , Economic Life , and WACC or Levelized
+            Capital Carrying Rate as described in the LT
+            Plan topic.
+
+See also:
+Lists:
+	- Generator Levelized
+              Cost
+	- Generator Total
+              Cost
+

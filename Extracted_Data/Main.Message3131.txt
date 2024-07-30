@@ -1,0 +1,11 @@
+Header: Message 3131
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Decision Variable <name> Objective Function Coefficient period type <value> is too long for ST Schedule.
+
+Paragraphs:
+Message 3131 occurs in the following circumstances:
+Lists:
+

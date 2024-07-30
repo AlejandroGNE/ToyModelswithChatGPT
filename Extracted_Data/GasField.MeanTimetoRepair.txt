@@ -1,0 +1,21 @@
+Header: Gas Field Mean Time to Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	No
+Description:	Mean time to repair
+
+Paragraphs:
+Gas Field Mean Time to Repair is used as the location parameter for many of the functions used to generate the duration of outages. See Generator Mean Time to Repair for details.
+
+See also:
+Lists:
+	- Gas Field Min Time to Repair
+	- Gas Field Max Time to Repair
+	- Gas Field Repair Time Scale
+	- Gas Field Repair Time Shape
+

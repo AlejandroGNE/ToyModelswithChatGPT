@@ -1,0 +1,11 @@
+Header: Purchaser Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Purchaser inherits from
+
+Paragraphs:
+Purchaser Template is template the Purchaser inherits from
+Lists:
+

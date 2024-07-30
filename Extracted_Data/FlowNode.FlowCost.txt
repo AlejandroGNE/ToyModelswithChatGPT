@@ -1,0 +1,19 @@
+Header: Flow Node Flow Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of flows
+
+Paragraphs:
+Flow Node Flow Cost is the cost
+          incurred for flows through the Flow Node. It is defined as:
+
+Flow Cost = Flow
+            Charge × Flow
+Lists:
+

@@ -1,0 +1,11 @@
+Header: List Water Demands
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Demand objects in the List
+
+Paragraphs:
+List Water Demands is set of Water Demand objects in the List
+Lists:
+

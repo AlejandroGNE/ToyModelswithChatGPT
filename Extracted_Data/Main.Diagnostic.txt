@@ -1,0 +1,18 @@
+Header: Diagnostic Class
+
+Table Details:
+Description:	Diagnostic settings
+
+Paragraphs:
+See also Diagnostic Property
+            Reference for a detailed list of properties for this class of
+          object.
+
+The Diagnostic class provides access to diagnostics from the
+          simulation engine. To apply a Diagnostic object to your Model add it
+          to the Model's Diagnostic collection. Note that associating the object with a Model defines the global settings, but you can optionally associate it with
+          individual simulation phases e.g. LT
+            Plan to run different settings in different phases of your
+          simulation.
+Lists:
+

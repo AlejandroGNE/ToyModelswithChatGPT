@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Max Released Capacity Hour
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum capacity that can be released in a hour
+
+Paragraphs:
+Gas Capacity Release Offer Max Released Capacity Hour is maximum capacity that can be released in a hour.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Heat Plant Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of Heat Plant units built in this year
+
+Paragraphs:
+Heat Plant Units Built is the number of Heat Plant units built in this year.
+
+See also:
+Lists:
+	- Units Retired
+

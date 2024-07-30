@@ -1,0 +1,21 @@
+Header: Generator Min Heat Withdrawal Week
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of heat that must be withdrawn from storage each week
+
+Paragraphs:
+Generator Min Heat Withdrawal Week is Amount of heat that must be withdrawn from storage each week. This is the Week variant of Min Heat Withdrawal .
+
+See also:
+Lists:
+	- Generator Min Heat Withdrawal Hour
+	- Generator Min Heat Withdrawal Day
+	- Generator Min Heat Withdrawal Month
+	- Generator Min Heat Withdrawal Year
+

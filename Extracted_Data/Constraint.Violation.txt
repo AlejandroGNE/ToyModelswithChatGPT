@@ -1,0 +1,15 @@
+Header: Constraint Violation
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constraint violation at optimal solution
+
+Paragraphs:
+If violations are allowed (by setting Penalty Quantity and Penalty Price ) the amount of violation at the optimal solution is reported by this property. The units of Violation are the same as right-hand side.
+Lists:
+

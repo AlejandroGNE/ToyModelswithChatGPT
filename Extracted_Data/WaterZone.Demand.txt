@@ -1,0 +1,15 @@
+Header: Water Zone Demand
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water demand
+
+Paragraphs:
+Water Zone Demand is Water demand.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Node Facilities Production Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Electric Generation for each unit of production
+
+Paragraphs:
+Node Facilities Production Coefficient is Electric Generation for each unit of production.
+Lists:
+

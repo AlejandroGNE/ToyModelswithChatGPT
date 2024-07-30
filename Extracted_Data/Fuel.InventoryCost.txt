@@ -1,0 +1,18 @@
+Header: Fuel Inventory Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost applied to closing inventory in the stockpile
+
+Paragraphs:
+Fuel Inventory Cost is the cost applied to closing inventory in the stockpile and is defined as:
+
+See also:
+Lists:
+	- Fuel Reservation Cost
+

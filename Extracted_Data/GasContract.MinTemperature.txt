@@ -1,0 +1,15 @@
+Header: Gas Contract Min Temperature
+
+Table Details:
+Units:	°C (Metric), °F (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum temperature at which the gas contract is allowed to produce
+
+Paragraphs:
+Gas Contract Min Temperature is Minimum temperature at which the gas contract is allowed to produce.
+Lists:
+

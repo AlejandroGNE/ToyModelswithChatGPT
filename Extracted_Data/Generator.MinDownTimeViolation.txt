@@ -1,0 +1,15 @@
+Header: Generator Min Down Time Violation
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of min down time constraint.
+
+Paragraphs:
+Generator Min Down Time Violation is the amount the Min Down Time constraint was violated.
+Lists:
+

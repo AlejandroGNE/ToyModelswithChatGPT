@@ -1,0 +1,41 @@
+Header: Managing the Connect License Server
+
+Table Details:
+
+Paragraphs:
+1. Introduction
+
+From the license control panel within PLEXOS Connect Launch Control or the PLEXOS Connect Server, you can view information about the license service. To use the License Control Panel in Launch Control, users will need permissions from the 'License' module in the Connect product. Users with the permission 'Add\Edit\Remove rules' from the Connect License module will also be able to view the license server's event log output. To open the license control panel in Launch Control, press the license button at the top of the run panel. If you are using the PLEXOS Connect Server, you can open the license control panel by clicking on the 'licenses' button.
+
+
+
+
+
+The License Control Panel will show to users with the 'View' permission the status of the license server, including; the IP address of the Connect Server, the port number for the license server, which products are licensed, and how many licenses are currently checked out. Users with the 'Add\Edit\Remove Rules' will also see the event log from the license server and create or remove license reservations, license groups and access rules.
+
+2. How Do I View the License Event Log?
+
+Launch Control can receive the license event log from the license server that is built into the Connect Server. The license server will store the 100 most recent lines from the event log for viewing by Launch Control, however, Launch Control has no limit on how much it will hold.
+
+
+
+This event log will show all license requests made by any connecting computers as well as the license request response. If a license request is denied, the reason is listed in this event log. Messages saying, 'Client Machine [<machine>] / User [<user>] connected' are connection tests from PLEXOS products to check the license server is active and able to respond.
+
+NOTE: You will need to have the user permission 'Add\Edit\Remove Rules' from the Connect License module.
+
+3. Where is the Server License File Located?
+
+There are 3 different possible locations for the license file (named 'EE.lic' or 'EE.xml'), one of these locations is hard set while the other 2 are dependent on the location of the Connect Server install folder.
+
+
+
+<Install Path>\Energy Exemplar\Common\ NOTE: This is assuming the Connect Server has permission to write to this folder.
+
+C:\ ProgramData \Energy Exemplar\Common\
+
+<Install Path>\<Connect Folder>\Common\
+Lists:
+	- The first preferred location is dependent on and relative to the install location. Using the example in Figure 4.37, the install path can change to be anything and the Connect folder can be named anything, but the EE folder must be the folder before the Connect folder and named 'Energy Exemplar'. If the EE folder is found before the Connect folder, the license will be stored in:
+	- The second preferred location is if Connect Server does not have permission to write to the first preferred location. This location is based on the Windows common application data folder, this may be different depending on your Windows version and settings. For Windows Vista and newer:
+	- Finally, if the EE folder is not found, the license will be stored in the Connect folder. For example:
+

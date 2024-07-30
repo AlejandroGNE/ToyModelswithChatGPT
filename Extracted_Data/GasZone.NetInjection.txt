@@ -1,0 +1,15 @@
+Header: Gas Zone Net Injection
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas injected into the gas storages in the zone after injection fuel loss
+
+Paragraphs:
+Gas Zone Net Injection is the quantity of gas injected into the gas storages in the zone after injection fuel loss.
+Lists:
+

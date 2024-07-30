@@ -1,0 +1,15 @@
+Header: Interface Violation Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the interface limit in the counter-reference direction.
+
+Paragraphs:
+Interface Violation Back is in summary is the total violation in the reverse reference direction.
+Lists:
+

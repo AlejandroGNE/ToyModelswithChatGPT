@@ -1,0 +1,16 @@
+Header: LT Plan Heat Rate Detail
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (0,1,2)
+Description:	Level of detail for Generator heat rate modelling.
+
+Paragraphs:
+LT Plan Heat Rate Detail can take the following values:
+
+See also:
+Lists:
+	- MT Schedule Heat Rate Detail
+	- ST Schedule Heat Rate Detail
+

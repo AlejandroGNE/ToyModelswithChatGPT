@@ -1,0 +1,11 @@
+Header: Emission Power2X
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Power2X objects that produce the Emission
+
+Paragraphs:
+Emission Power2X is set of Power2X objects that produce the Emission
+Lists:
+

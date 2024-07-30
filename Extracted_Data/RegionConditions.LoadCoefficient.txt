@@ -1,0 +1,15 @@
+Header: Region Conditions Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of region demand in condition
+
+Paragraphs:
+Region Conditions Load Coefficient is Coefficient of region demand in condition.
+Lists:
+

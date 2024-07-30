@@ -1,0 +1,71 @@
+Header: Variable Probability
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	50
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Probability of exceedance (POE)
+Profile	1	-	1
+Profile	2	-	2
+Probability	80	%	1
+Probability	80.01	%	2
+Profile	0	-	1	HIGH.csv
+Profile	0	-	2	MED.csv
+Profile	0	-	3	LOW.csv
+Probability	10	%	1	
+Probability	50	%	2	
+Probability	90	%	3	
+Profile	1	-	1
+Profile	2	-	2
+Probability	80	%	1
+Probability	100	%	2
+Profile	1	-	1
+Profile	2	-	2
+Profile	3	-	3
+Profile	4	-	4
+Profile	5	-	5
+Profile	6	-	6
+Profile	7	-	7
+Profile	8	-	8
+Profile	9	-	9
+Profile	10	-	10
+Probability	10	%	1
+Probability	20	%	2
+Probability	30	%	3
+Probability	40	%	4
+Probability	50	%	5
+Probability	60	%	6
+Probability	70	%	7
+Probability	80	%	8
+Probability	90	%	9
+Probability	100	%	10
+
+Paragraphs:
+Variable Probability is the probability of exceedance (POE) of the exogenous (user-defined) sample in the given band.
+
+Example
+
+Assume a Variable can take one of two values, with probabilities of 80% and 20% respectively. The input for this simple case could look like the following:
+
+Here the first band's value will be chosen approximately 80% of the time, whereas the band 2 value will be chosen only in the remainder of cases. Over a large sample size the average value of the sample will be 1.2.
+
+Example
+
+Assume now that there are three forecasts for a value given in three files with probability of exceedance of 10, 50 and 90 respectively. These can be defined as:
+
+See the Variable topic for more details.
+
+Another method to define the variable [Probability] is to consider it as cumulative probability of the exogenous (user-defined) sample in the given band, by setting the undocumented parameter Stochastic_CumulativeProbability as True (See Hidden Parameter ). In this method, the probabilities entered are numbers in the range of (0, 100%] and must be monotonically increasing along the bands (but not necessarily along the Profile values). The probability of the last band must be equal to 100%.
+
+Example
+
+To achieve the sample with the same probabilities of 80% and 20% for each band as indicated in the first example above, the input via this method should look like the following:
+
+Example
+
+Assume a Variable taking values from 1 to 10, with equal probability. The input via this method should be like:
+Lists:
+

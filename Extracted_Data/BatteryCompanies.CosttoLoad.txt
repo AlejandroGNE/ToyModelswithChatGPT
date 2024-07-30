@@ -1,0 +1,15 @@
+Header: Battery Companies Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load cost
+
+Paragraphs:
+Battery Companies Cost to Load is the load cost.
+Lists:
+

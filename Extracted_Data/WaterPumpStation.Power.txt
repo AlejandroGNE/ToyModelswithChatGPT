@@ -1,0 +1,15 @@
+Header: Water Pump Station Power
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Power consumed by the pump station to achieve the given head and flow rate
+
+Paragraphs:
+Water Pump Stations Power is Power consumed by the pump station to achieve the given head and flow rate.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Facility Secondary Processes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of secondary Processes performed by the Facility
+
+Paragraphs:
+Facility Secondary Processes is set of secondary Processes performed by the Facility
+Lists:
+

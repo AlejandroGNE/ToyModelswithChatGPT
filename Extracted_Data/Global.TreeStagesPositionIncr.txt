@@ -1,0 +1,27 @@
+Header: Global Tree Stages Position Incr
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥1
+Key Property:	No
+Description:	Scenario Tree: Increment to the position of each stage
+Tree Period Type	Week		-	1
+Tree Stages Position Incr	1		-	1
+Tree Stages Position Incr	2		-	53
+
+Paragraphs:
+Global Tree Stages Position Incr works as an alternative to Tree Stages Position in defining the position of each stage using
+          multi-bands. Here is an example,
+
+This automatically positions stages weekly for the first 52 weeks and then every second week after that to the end of the horizon.
+          Please notice that the parameter for the last stage is not required. Also note
+          that Tree Stages Position Inc will be overridden by Tree Stages Position if both of them are defined.
+
+See also:
+Lists:
+	- Global Tree
+              Period Type
+

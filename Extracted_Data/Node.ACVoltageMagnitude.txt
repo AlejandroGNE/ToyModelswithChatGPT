@@ -1,0 +1,15 @@
+Header: Node AC Voltage Magnitude
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The per-unit voltage magnitude of a node, as determined by an AC power flow solution
+
+Paragraphs:
+Node AC Voltage Magnitude is the per-unit voltage magnitude of a node, as determined by an AC power flow solution.
+Lists:
+

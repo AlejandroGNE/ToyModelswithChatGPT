@@ -1,0 +1,17 @@
+Header: Zone Formulate Load
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Load is formulated as a decision variable
+
+Paragraphs:
+Zone Formulate Load is a Flag that indicates if the Load is formulated as a decision variable.
+
+For more information please see Region Formulate Load .
+Lists:
+

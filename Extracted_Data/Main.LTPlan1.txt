@@ -1,0 +1,292 @@
+Header: LT Plan - The Formulation
+
+Table Details:
+GenBuild(g,y)	Number of generating units build in year y
+                for Generator g	integer
+GenLoad(g,t)	Dispatch level of generating unit g in
+                period t	continuous
+USEt	Unserved energy in dispatch period t	continuous
+CapShorty	Capacity shortage in year y	continuous
+D	Discount rate. We then derive DFy
+                = 1/(1 + D)y which is the discount factor
+                applied to year, and DFt which is
+                the discount factor applied to dispatch period t	
+Lt	Duration of dispatch period t	Hours
+BuildCostg	Overnight build cost of generator g	$
+MaxUnitsBuilt(g,y)	Maximum number of units of generator g
+                allowed to be built by the end of year y	
+PMAXg	Maximum generating capacity of each unit of
+                generator g	MW
+Unitsg	Number of installed generating units of generator
+                g	
+VoLL	Value of lost load (energy shortage price)	$/MWh
+SRMCg	Short-run marginal cost of generator g
+                which is composed of Heat
+                  Rate × Fuel Price
+                + VO&M Charge	$/MWh
+FOMChargeg	Fixed operations and maintenance charge of
+                generator g	$
+Loadt	Average power demand in dispatch period t	MW
+PeakLoady	System peak power demand in year y	MW
+ReserveMarginy	Margin required over maximum power demand in year
+                y	MW
+CapShortPrice	Capacity shortage price	$/MW
+1	1/(1+0.12)1	0.892857143
+2	1/(1+0.12)2	0.797193878
+3	1/(1+0.12)3	0.711780248
+4	1/(1+0.12)4	0.635518078
+5	1/(1+0.12)5	0.567426856
+6	1/(1+0.12)6	0.506631121
+7	1/(1+0.12)7	0.452349215
+8	1/(1+0.12)8	0.403883228
+9	1/(1+0.12)9	0.360610025
+10	1/(1+0.12)10 + (1/(1+0.12)10)/0.12	3.005083542
+
+Paragraphs:
+
+
+
+
+
+
+The capacity expansion problem is formulated in the simulator as a
+          Mixed-Integer Linear Program (MILP or MIP for short). To illustrate
+          the very core of this formulation, we develop the following simplified
+          formulation.
+
+
+
+Definitions Let us define the following variables:
+
+We also define the following parameters:
+
+Note this illustrative formulation includes only build decisions, but
+          can easily be extended to include retirements.
+
+The objective function of LT Plan seeks to minimize the net present
+          value of build costs plus fixed operations and maintenance costs plus
+          production costs. The core formulation for LT Plan is thus:
+
+Minimize
+
+∑ ( y ) ∑ ( g ) DF y × ( BuildCost g × GenBuild ( g , y ) )
+
++∑ ( y ) DF y X [ FOMCharge g × 1000 × PMAX g ( Units g + ∑ i≤y GenBuild g,i ) ]
+
++∑ ( t ) DF t∈y × L t × [ VoLL × USE t + ∑ g (SRMC g × GenLoad g,t ) ]
+
+subject to
+
+Equation 1: Energy Balance ∑ ( g ) GenLoad ( g , y ) + USE t = Demand t ∀ t
+
+Equation 2: Feasible Energy Dispatch GenLoad ( g , t ) ≤ PMAX ( Units g + ∑ i≤y GenBuild g , i )
+
+Equation 3: Feasible Builds ∑ i≤y GenBuild g,i ≤ MaxUnitsBuilt g , y
+
+Equation 4: Integrality GenBuild ( g , y ) integer
+
+Note that the LT Plan formulation in its minimal form does not
+          include constraints on capacity margin. Instead the natural trade-off
+          between energy shortage and build costs will ensure that capacity is
+          built if it is economic and that the energy price (dual variable
+          associated with the energy balance constraints) will exactly
+          compensate the marginal build for its production and build costs. The
+          resulting capacity reserve margin could take any value (including
+          negative) and the amount of unserved energy could be any value up to
+          the amount of load i.e. this 'natural' solution may or may
+          not meet acceptable reliability standards.
+
+
+
+
+
+In reality, systems require a certain minimum capacity reserve,
+            which is commonly calculated based on reliability metrics such as LOLP or EENS .
+            These values are not easily modelled directly in the MIP formulation
+            and thus must be converted to a reserve margin (percentage of peak
+            load) or absolute megawatt capacity requirement instead. Thus the
+            additional equation would appear in the formulation:
+
+Equation 5: Capacity Adequacy ∑ ( g ) PMAX g ( Units g + ∑ i≤y GenBuild i ) + CapShort y ≥ PeakLoad y + ReserveMargin y ∀ y
+
+The effect of this constraint is to ensure that new builds occur
+            not just for economic reasons but also to meet the capacity reserve
+            margin: and this constraint may also defer economic retirements.
+
+If the constraint is binding at the optimal solution its shadow
+            price represents a Capacity
+              Price , and the energy price will not, on its own, compensate the marginal build for its build
+            and production costs i.e. compensation comes from a
+            combination of energy and Capacity
+              Payments .
+
+However, the pricing outcome is more complicated than this due to
+            the integer nature of the decision variables involved. In most cases
+            in fact the shadow price on this capacity constraint will be zero,
+            even though it has changed the solution-an effect referred to as a
+            'duality gap'. This is because capacity is added in 'lumps' rather
+            than on a continuous basis, thus in most cases the constraint is
+            slack at the integer optimal solution-see Revenue
+              Adequacy .
+
+However, LT Plan automatically computes a pseudo 'capacity shadow
+            price' in the "Integer Optimal" case based on the loss incurred by
+            the marginal new build in each capacity Region / Zone .
+
+
+
+
+
+It is assumed that neither forced outages nor maintenance outages
+            affect capacity, but that both forced and maintenance outages
+            subtract from available energy.
+
+
+
+
+
+Generator Forced Outage
+              Rate (FOR) and Maintenance
+              Rate (MOR) are included in the LT Plan formulation. FOR and
+            MOR subtract from the energy contribution of generators, thus
+            Equation 2 changes to:
+
+Equation 6: Energy Dispatch Feasibility Accounting for
+              Outage Rates GenLoad g , t ≤ ( 1 - MOR g × MF t - FOR g ) × PMAX g × ( Units g + ∑ ( i ≤ y ) ( GenBuild i ) ) ∀ g , t
+
+where:
+
+
+
+
+
+
+
+When considering the capacity available to meet a capacity margin
+              constraint forced outage and maintenance is ignored in summing
+              generation capacity, since the input reserve margin should already
+              account for forced outages.
+
+The LT Plan attribute Use
+                Effective Load Approach (ELA) provides another means for
+              accounting for forced outage rates. By default the ELA is "off"
+              and the capacity constraints is:
+
+Equation 7: Capacity Constraint ∑ ( g ) PMAX g × ( Units g + ∑ ( i ≤ y ) ( GenBuild i ) ) + CapShort y ≥ PeakLoad y +
+              ReserveMargin y ∀ y
+
+If the ELA is enabled however, the 'raw' generation capacity is
+              used in this equation, but the load is modified, thus the input
+              minimum reserve margin could be zero. The basic premise behind the
+              Effective Load Approach is to take the load and appropriately
+              modify it with respect to the convolved capacity outages. It
+              transposes the convolved generators forced outage rates into the
+              load, modifying the load to account for the capacity outages.
+
+
+
+Equation 8: Generation Capacity with ELA GenLoad g , t ≤ ( 1 - MOR g × MF t - FOR g ) × PMAX g × ( Units g + ∑ ( i ≤ y ) ( GenBuild i ) ) ∀ g , t
+
+
+
+
+
+The Generator Build
+                    Cost property represents the (per kW) overnight cost of
+                  building a new unit, i.e. the all-in capital cost as
+                  per commissioning date. The above formulation shows this cost
+                  being incurred in the year the plant is built. This 'lumpy'
+                  capital cost approach is really only suitable if the planning
+                  horizon is long enough to fully amortize the build cost e.g. at least the Economic
+                    Life of the plant. If the horizon is not long enough to
+                  cover the economic life of the last new build then the 'lumpy'
+                  cost model is incorrect.
+
+The approach used for projects whose life extends past the
+                  end of the planning horizon, is to annualize the build costs i.e. convert them to an equivalent annual charge which is applied
+                  in the year of build and every subsequent year across the
+                  economic life of the generator. Note that Economic
+                    Life can be different to the Technical
+                    Life . The former defines the period over which the
+                  aggregate annualized charge should equal the build cost, and
+                  the latter is the physical lifetime of the plant.
+
+We transform the 'lumpy' build cost input into an annualised
+                  charge suitable for the LT Plan formulation as follows:
+
+Equation 9: Annuity Calculation Annuity {g,y} = Build
+                    Cost {g,y} × 1000 × Max
+                    Capacity g,y × WACC g,y / ( 1 - [ 1 / ( 1 + WACC g ) ] Economic
+                      Life )
+
+The build cost coefficient in the objective function ( i.e. BuildCost g ) is thus replaced by the sum of the
+                  discounted annual charges, starting from the given year y until the end of the economic life of the unit. The discount
+                  rate used is the system
+                    discount rate , whereas the Generator WACC (weighted average cost
+                  of capital) will be project-specific. If no WACC rate is set, the discount
+                    rate is used.
+
+This calculation applies when no depreciation method is
+                  selected. Straight-line and declining balance methods are also available. To view the formulation of these methods,
+                  see Depreciation Benefits .
+
+
+
+
+
+It is important, in the LT Plan formulation that the model
+                  does not inappropriately consider the end of the planning
+                  horizon to also be the 'end of time'. In the above basic
+                  formulation we have implicitly assumed that LT Plan has an
+                  infinite horizon. In practice, the model will have a finite
+                  horizon. We therefore have to take account of so-called 'end
+                  year effects'.
+
+Without some method for dealing with end-year effects, the
+                  model will in the last years of the horizon only build
+                  generators with low build costs even if their marginal
+                  generation costs are high. This is because the average cost of
+                  generation between build year and the end of the planning
+                  horizon, including build costs, will be lower for such
+                  generators.
+
+The option to control the treatment of the last year is set
+                  by the LT Plan End
+                    Effects Method attribute. By default we assume that the
+                  last year of the horizon is repeated an infinite number of
+                  times. The objective function is expanded by the cost of the
+                  years after the final horizon year, which equals the sum of
+                  the present values of generation costs and annualized build
+                  costs. By including annualized build costs in the perpetuity
+                  we are assuming that the system continues to expand after the
+                  final year.
+
+The following table shows the discount factors applied to
+                  each year of a 10-year horizon assuming a discount rate of
+                  12%, and showing the perpetuity applied to the last year.
+
+
+
+
+
+The formulation of battery (storage) expansion is quite
+                  similar to a generator expansion candidate. The charging and
+                  discharge power are regulated by existing and expansion units:
+
+The maximum volume (energy capacity) of the battery is also
+                  expanded if new units are built and allows battery to store
+                  more energy.
+
+In addition, at the beginning of the build period
+                  (yearly/quarterly/monthly), if a battery unit is built, the
+                  initial stored energy ( initial
+                    SOC ) is added to the existing energy level:
+
+Previous
+                    Chapter | Next Chapter
+Lists:
+
+
+H2s:
+2.1.Energy Balance
+2.2.Capacity Balance

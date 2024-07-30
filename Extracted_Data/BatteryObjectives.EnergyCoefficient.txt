@@ -1,0 +1,15 @@
+Header: Battery Objectives Energy Coefficient
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of energy stored in the BESS
+
+Paragraphs:
+Battery Objectives Energy Coefficient is Coefficient of energy stored in the BESS.
+Lists:
+

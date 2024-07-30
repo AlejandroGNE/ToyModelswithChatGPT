@@ -1,0 +1,11 @@
+Header: Layout Water Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Node objects in the Layout
+
+Paragraphs:
+Layout Water Nodes is set of Water Node objects in the Layout
+Lists:
+

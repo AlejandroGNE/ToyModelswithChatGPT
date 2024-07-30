@@ -1,0 +1,13 @@
+Header: Message 170
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	<value> <name> band (<value>) defines outage parameters but no outage duration function definition.
+
+Paragraphs:
+Message 170 occurs in the following circumstances:
+
+Maintenance and Forced outage events can be simulated by PLEXOS engine for all generators that have Maintenance Rate/ Maintenance Frequency and Forced Outage Rate defined respectively. However if the repair time distribution is omitted then a warning will be issued by the simulator and no outages will be modelled for those objects i.e. you must define at a minimum the Mean Time to Repair.
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Message 45
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Variable <name> Value by <value> referenced but not defined.
+Region	X
+Variable	Load
+Region ( X )	Load	0	MW	Load
+Variable ( Load )	Profile	0	MW	Load.csv
+
+Paragraphs:
+Message 45 occurs in the following circumstances:
+
+In this case the referencing property has no definition.
+
+Example
+
+To remedy this issue define at least the Profile as in the following example:
+Lists:
+	- You define a Variable
+	- You use that Variable as input for another property
+	- You do not define any Profile for the Variable
+

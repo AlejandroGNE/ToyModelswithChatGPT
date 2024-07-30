@@ -1,0 +1,22 @@
+Header: Water Plant Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of installed or rated capacity producing
+
+Paragraphs:
+Water Plant Capacity Factor is a
+          measure of the utilization of the Water Plant. Capacity factor is defined
+          as:
+
+Capacity Factor = Production / ( Max Capacity x Units x time )
+
+The term 'time' is the number of hours over which the
+          production is measured.
+Lists:
+

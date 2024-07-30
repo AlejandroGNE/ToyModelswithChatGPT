@@ -1,0 +1,15 @@
+Header: Company Emissions Allocation
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emission rights allocation
+
+Paragraphs:
+Company Emissions Allocation is Emission rights allocation.
+Lists:
+

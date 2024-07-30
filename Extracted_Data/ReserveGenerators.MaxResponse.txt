@@ -1,0 +1,22 @@
+Header: Reserve Generators Max Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum spinning reserve response from generation adjustments
+
+Paragraphs:
+Reserve Generators Max Response sets a limit on the amount of spinning reserve response each generating unit can provide to this reserve. Response is also limited by the Rating of the unit and may also be limited by the combined ramping and reserve response if Response Ratio is defined.
+
+Note that if Reserve Unit Commitment is toggled 'on' then the limit is applied if-and-only-if the units are selected for reserve provision, otherwise no response is allowed.
+
+See also:
+Lists:
+	- Reserve Generators Max Response Factor
+	- Reserve Generators Offer Price
+	- Reserve Generators Spinning Reserve Provision
+

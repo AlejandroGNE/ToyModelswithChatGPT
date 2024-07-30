@@ -1,0 +1,19 @@
+Header: Generator Heat Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total Fuel Offtake for Heat Production
+
+Paragraphs:
+Generator Heat Fuel Offtake is the fuel used for heat production according to the "Physical Method" estimation for the CHP mode fuel consumption.
+
+Heat Fuel Offtake = CHP Heat Fuel Offtake + Boiler Fuel Offtake
+
+See also CHP Heat Fuel Offtake , CHP Power Fuel Offtake
+Lists:
+

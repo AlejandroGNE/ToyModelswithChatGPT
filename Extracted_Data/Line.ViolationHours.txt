@@ -1,0 +1,20 @@
+Header: Line Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	If the line is flowing above is minimum or maximum rating
+
+Paragraphs:
+Line Violation Hours is the number of hours the Line Flow is violating its Max Flow or MinFlow limit.
+
+The summary version of this property reports the number of hours at Max Flow and Violation Back Hours the hours at Min Flow .
+
+See also:
+Lists:
+	- Line Limit Penalty
+

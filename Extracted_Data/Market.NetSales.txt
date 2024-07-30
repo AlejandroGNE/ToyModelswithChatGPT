@@ -1,0 +1,22 @@
+Header: Market Net Sales
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net reserve sold into the market
+
+Paragraphs:
+Market Net Sales is the net of sales
+          to and purchases from the market, and is defined as:
+
+Net Sales = Sales - Purchases
+
+See also:
+Lists:
+	- Market Net
+              Purchases
+

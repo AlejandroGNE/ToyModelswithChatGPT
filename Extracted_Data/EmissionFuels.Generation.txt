@@ -1,0 +1,18 @@
+Header: Emission Fuels Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation associated with the emission
+
+Paragraphs:
+Emission Fuels Generation is the Generation associated with the Emission and the Fuel .
+
+See also:
+Lists:
+	- Emission Fuels Intensity
+

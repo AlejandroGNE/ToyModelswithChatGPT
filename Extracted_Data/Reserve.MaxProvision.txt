@@ -1,0 +1,15 @@
+Header: Reserve Max Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum provision allowed for reserve class
+
+Paragraphs:
+Max Provision sets an upper bounds on the amount of reserve provision from generators and other sources providing this reserve.
+Lists:
+

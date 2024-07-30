@@ -1,0 +1,12 @@
+Header: Transmission Limit Bootstrap Initial Threshold
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	≥0
+Description:	Initial value of [Limit Threshold] during transmission constraint bootstrap phase.
+
+Paragraphs:
+When the simulation first starts, and unless the Formulate Upfront flag is set, the mathematical program contains no transmission limits. The first time the limits are checked is referred to as the 'bootstrap' iteration. This setting controls the violation level at which limits are added during this bootstrap iteration. The concept here is that starting with a higher limit threshold than the default Limit Threshold will trigger 'key' network constraints to be enforced first, reducing the likelihood of having redundant constraints later in the iterations. Thus the threshold start at this initial level, and drops according to the Limit Bootstrap Threshold Decrement until finally finishing at the Limit Threshold where it remains for the rest of the simulation phase.
+Lists:
+

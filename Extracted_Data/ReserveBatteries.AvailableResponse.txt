@@ -1,0 +1,15 @@
+Header: Reserve Batteries Available Response
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available reserve response
+
+Paragraphs:
+Reserve Batteries Available Response is the maximum amount of the ancillary service that could be provided given the current unit commitment ( Units ) and dispatch ( Generation , Load ).
+Lists:
+

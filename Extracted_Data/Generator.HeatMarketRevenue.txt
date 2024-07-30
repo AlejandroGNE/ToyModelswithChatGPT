@@ -1,0 +1,19 @@
+Header: Generator Heat Market Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from heat markets
+
+Paragraphs:
+Generator Heat
+            Market Revenue is defined as:
+
+This sum is made over all heat markets the generator sells waste heat
+          to.
+Lists:
+

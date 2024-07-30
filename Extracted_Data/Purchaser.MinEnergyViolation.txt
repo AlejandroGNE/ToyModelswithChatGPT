@@ -1,0 +1,19 @@
+Header: Purchaser Min Energy Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Min Energy] or [Min Load Factor] constraints.
+
+Paragraphs:
+Purchaser Min Energy Violation is the violation of Min Energy or Min Load Factor constraints.
+
+See also:
+Lists:
+	- Purchaser Min Energy Penalty
+	- Purchaser Min Energy Violation Cost
+

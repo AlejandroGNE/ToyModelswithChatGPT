@@ -1,0 +1,15 @@
+Header: Company Lower Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of lower (spin down) reserve
+
+Paragraphs:
+Company Lower Reserve is Provision of lower (spin down) reserve.
+Lists:
+

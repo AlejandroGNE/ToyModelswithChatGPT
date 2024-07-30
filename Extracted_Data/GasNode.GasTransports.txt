@@ -1,0 +1,11 @@
+Header: Gas Node Gas Transports
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Node Gas Transports is
+Lists:
+

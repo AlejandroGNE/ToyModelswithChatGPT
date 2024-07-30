@@ -1,0 +1,15 @@
+Header: Message 60
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Region <name> implied maximum offer price for dynamic bidding (Region VoLL or Region Price Cap) - Competition Epsilon < 0.
+
+Paragraphs:
+Message 60 is a warning that the implied price cap for Generator Offer Price in the selected dynamic bidding model (see Competition settings) is below zero.
+
+To avoid dynamically calculated offer prices going above the maximum price allowed in the market the parameter Epsilon is subtracted off that maximum and forms a cap on those prices i.e. the cap is:
+
+Values for Epsilon are generally small such as 0.01, whereas VoLL or Price Cap are generally large values such as 10000.
+Lists:
+

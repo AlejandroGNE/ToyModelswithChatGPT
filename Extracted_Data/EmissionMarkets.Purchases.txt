@@ -1,0 +1,15 @@
+Header: Emission Markets Purchases
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Purchases from the market
+
+Paragraphs:
+Emission Markets Purchases is Purchases from the market.
+Lists:
+

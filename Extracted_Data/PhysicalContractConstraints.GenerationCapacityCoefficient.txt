@@ -1,0 +1,18 @@
+Header: Physical Contract Constraints Generation Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total generation capacity contracted (LT Plan)
+
+Paragraphs:
+PhysicalContract Constraints Generation Capacity Coefficient is the left-hand side coefficient on the amount of physical contract generation capacity purchased in LT Plan to date.
+
+See also:
+Lists:
+	- PhysicalContract Constraints Load Obligation Coefficient
+

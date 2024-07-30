@@ -1,0 +1,15 @@
+Header: Power2X Max Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum load of each unit
+
+Paragraphs:
+Power2X The input property Max Load sets an upper bound on electrical load per unit operating. In the output reporting, Max Load is the maximum observed load operating.
+Lists:
+

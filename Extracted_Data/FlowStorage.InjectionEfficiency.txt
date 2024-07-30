@@ -1,0 +1,37 @@
+Header: Flow Storage Injection Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of injected commodity reaching storage net of losses
+Battery	Units	1		-
+Battery	Max Inventory	100		MW
+Battery	Min Inventory	10		MW
+Battery	Opening Inventory	50		MW
+Battery	Injection Efficiency	95		%
+Battery	Withdrawal Efficiency	95		%
+
+Paragraphs:
+Flow Storage Injection
+          Efficiency is the proportion of injected commodity reaching the
+          storage net of any losses.
+
+The example in Table shows properties for a battery energy storage
+          system with 95% charge and discharge efficiency. Note that losses are
+          reported in the Injection
+            Losses and Withdrawal
+            Losses output properties.
+
+
+
+
+
+See also:
+Lists:
+	- Flow Storage Withdrawal
+              Efficiency
+

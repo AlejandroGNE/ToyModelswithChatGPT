@@ -1,0 +1,19 @@
+Header: Region Uplift Include No-Load Cost
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the uplift calculation should include recovery of no-load costs
+
+Paragraphs:
+Region Uplift Include No-Load Cost toggles no-load cost in/out of the cost included when calculating uplift .
+
+See also the article Uplift Methods .
+
+For a discussion of no-load cost refer to the article Heat Rate Modelling .
+Lists:
+

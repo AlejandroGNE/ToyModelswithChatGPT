@@ -1,0 +1,15 @@
+Header: Generator Recycle Penalty
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the recycling constraint.
+
+Paragraphs:
+Generator Recycle Penalty is Penalty for violating the recycling constraint..
+Lists:
+

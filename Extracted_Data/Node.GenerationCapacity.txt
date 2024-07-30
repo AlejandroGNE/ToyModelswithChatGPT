@@ -1,0 +1,19 @@
+Header: Node Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rated capacity (Rating x Units)
+
+Paragraphs:
+Node Generation Capacity is the rated capacity calculated be Rating x Units .
+
+See also:
+Lists:
+	- Node Peak Load
+	- Node Capacity Reserves
+

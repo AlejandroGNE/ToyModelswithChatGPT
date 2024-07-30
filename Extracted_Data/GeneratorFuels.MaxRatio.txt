@@ -1,0 +1,24 @@
+Header: Generator Fuels Max Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Maximum fuel mix ratio
+MULTI	GAS A	Max Ratio	0.75	-
+
+Paragraphs:
+Generator Fuels Ratio sets upper limit on the use of any one fuel.
+
+Example:
+
+Here the generator must run on "Gas A" no more than 75%.
+
+See also:
+Lists:
+	- Generator Fuels Min Ratio
+	- Generator Fuels Ratio
+

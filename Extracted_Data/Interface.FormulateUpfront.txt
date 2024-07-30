@@ -1,0 +1,22 @@
+Header: Interface Formulate Upfront
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If constraints should all be formulated upfront rather than checked iteratively.
+
+Paragraphs:
+Interface Formulate Upfront controls when the limit constraints for the Interface are added to the mathematical programming problem. The setting can take these values:
+
+In general it is more efficient to add constraints only as needed but in some cases performance maybe improved by adding the constraints upfront, avoiding additional iterations.
+
+See also:
+Lists:
+	- Transmission Formulate Upfront
+	- Line Formulate Upfront
+	- Transformer Formulate Upfront
+

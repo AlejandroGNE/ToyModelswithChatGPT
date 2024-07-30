@@ -1,0 +1,15 @@
+Header: Water Plant Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of developing the Water Plant
+
+Paragraphs:
+Water Plant Build Cost as input is the total 'overnight cost' of building the Water Plant for the LT Plan algorithm. The Build Cost must be defined in combination with Economic Life and WACC .
+Lists:
+

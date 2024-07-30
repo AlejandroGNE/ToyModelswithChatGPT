@@ -1,0 +1,16 @@
+Header: Battery Shadow Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid before uplift or mark-up models
+
+Paragraphs:
+Battery Shadow Price Paid is the Price Paid before uplift or
+          mark-up models.
+Lists:
+

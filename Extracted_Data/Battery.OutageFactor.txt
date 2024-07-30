@@ -1,0 +1,21 @@
+Header: Battery Outage Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Battery outage rating based on max power
+
+Paragraphs:
+Battery Outage Factor sets the
+          outage rating of each unit
+          during the associated Forced or Maintenance outage as a
+          proportion of the Max Power .
+
+See similar examples:
+Lists:
+	- Generator Outage Factor
+

@@ -1,0 +1,15 @@
+Header: Generator Lower Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of lower (spin down) reserve
+
+Paragraphs:
+Generator Lower Reserve is the provision of lower (spin down) reserve.
+Lists:
+

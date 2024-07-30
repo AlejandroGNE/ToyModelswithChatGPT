@@ -1,0 +1,15 @@
+Header: Purchaser Max Load Factor Day
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum load factor in day
+
+Paragraphs:
+Purchaser Max Load Factor Day is the Maximum load factor in a day.  This is the daily variant of Purchaser Max Load Factor .
+Lists:
+

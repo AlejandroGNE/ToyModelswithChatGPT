@@ -1,0 +1,18 @@
+Header: Pool ORDC Schedule Sigma
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Standard deviation of the forecasted hourly reserve value for ORDC calculations
+
+Paragraphs:
+Pool ORDC Schedule Sigma is the standard deviation of the forecasted hourly reserve value for ORDC calculations.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

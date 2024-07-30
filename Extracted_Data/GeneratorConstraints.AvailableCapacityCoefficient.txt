@@ -1,0 +1,25 @@
+Header: Generator Constraints Available Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of available capacity
+
+Paragraphs:
+Generator Constraints Available Capacity Coefficient is the left-hand side coefficient of Available Capacity in
+          the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Generator Available Capacity ... {≤, ≥, =} b j
+
+See also:
+Lists:
+	- Generator Constraints Installed
+              Capacity Coefficient
+

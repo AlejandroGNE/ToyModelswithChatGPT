@@ -1,0 +1,11 @@
+Header: Message 3094
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Could not open: <value> It may be in use by another process.
+
+Paragraphs:
+Message 3094 occurs in the following circumstances:
+Lists:
+

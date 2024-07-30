@@ -1,0 +1,19 @@
+Header: Performance Presolve
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Toggles on/off solver presolve
+
+Paragraphs:
+This option toggles on/off use of the solver's presolve algorithm.
+          Presolve performs eliminations and substitutions on the original
+          problem in order to reduce the problem size. The presolve should be
+          left on for most applications, however turning off the presolve can
+          speed up the SDDP algorithm which solves many small problems in parallel.
+
+See also:
+Lists:
+	- Performance Scaling
+

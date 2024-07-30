@@ -1,0 +1,21 @@
+Header: Performance Monitoring Periodic Clearing
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Clear monitored constraints and variables from the formulation periodically (number of steps)
+
+Paragraphs:
+Instructs the simulator to clear any enforced monitored constraints
+          and variables periodically. This includes dynamically enforced
+          transmission limits which by default are carried over between
+          simulation steps.  The setting can take the following values:
+
+Clearing the monitored constraints and variables can improve
+          performance if the problem grows large and is hard to solve at the
+          start of each step, however clearing does result in more monitoring
+          iterations, thus experimentation with this setting is needed to find
+          the best value for your model.
+Lists:
+

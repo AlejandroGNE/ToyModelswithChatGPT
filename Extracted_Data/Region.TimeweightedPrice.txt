@@ -1,0 +1,20 @@
+Header: Region Time-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Time weighted average price
+
+Paragraphs:
+Region Time-weighted Price is the 'simple average' of the Price .
+
+See also:
+Lists:
+	- Region Price
+	- Region Load-weighted Price
+	- Region Generation-weighted Price
+

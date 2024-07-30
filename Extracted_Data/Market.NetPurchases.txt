@@ -1,0 +1,22 @@
+Header: Market Net Purchases
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net purchases from the market
+
+Paragraphs:
+Market Net Purchases is the net of
+          purchases from and sales to the market, and is defined as:
+
+Net Purchases = Purchases - Sales
+
+See also:
+Lists:
+	- Market Net
+              Sales
+

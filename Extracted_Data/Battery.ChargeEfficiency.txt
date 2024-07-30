@@ -1,0 +1,30 @@
+Header: Battery Charge Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	70
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of charging
+BESS	Units	1	-
+BESS	Max Load	10	MW
+BESS	Charge Efficiency	90	%
+
+Paragraphs:
+Battery Charge Efficiency is the
+          ratio of power stored in the battery to the load on the grid i.e. including any losses such as inverter losses.
+
+Example:
+
+If the BESS operates at Max Load of 1 MW for one hour then 1 MWh is the Load on the grid and 1 × 0.9 = 0.9 MWh of Charging is stored in the battery increasing the SoC .
+          The losses are 0.1 MWh .
+
+
+
+See also:
+Lists:
+	- Discharge
+                Efficiency
+

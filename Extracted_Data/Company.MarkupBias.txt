@@ -1,0 +1,23 @@
+Header: Company Mark-up Bias
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Bias given towards high revenue periods in mark-ups (cost recovery algorithm)
+
+Paragraphs:
+Company Mark-up Bias is used in the LRMC Recovery algorithm in it's calculation of Generator Mark-up . It is used to bias mark-ups towards high revenue periods by changing the Revenue Recovery Factors, which are based on the profile of Generator Pool Revenue . This has the effect of tilting the resulting price duration curve to give higher peak and lower off-peak prices.
+
+The effect of various values of Mark-up Bias on the revenue recovery factors is illustrated in Figure 1. Here a simple wave shape is increasingly biased as the value moves from 0 to 5.
+
+
+
+See also:
+Lists:
+	- Company Strategic
+	- Region Fixed Cost Scalar
+

@@ -1,0 +1,15 @@
+Header: RSI Bid-Cost Mark-up
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Bid-Cost Mark-up (P-C)/C
+
+Paragraphs:
+RSI Bid Cost Mark-up is defined as:
+Lists:
+

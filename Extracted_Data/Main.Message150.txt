@@ -1,0 +1,11 @@
+Header: Message 150
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> cannot provide more response to Reserve <name> than Reserve <name> because the service is nested.
+
+Paragraphs:
+Message 150 occurs in the following circumstances:
+Lists:
+

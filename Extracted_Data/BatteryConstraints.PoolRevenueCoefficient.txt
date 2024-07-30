@@ -1,0 +1,15 @@
+Header: Battery Constraints Pool Revenue Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of pool revenue
+
+Paragraphs:
+Battery Constraints Pool Revenue Coefficient is Coefficient of pool revenue.
+Lists:
+

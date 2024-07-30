@@ -1,0 +1,15 @@
+Header: Region Max Unserved Energy Month
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum unserved energy in month
+
+Paragraphs:
+Region Max Unserved Energy Month is Maximum unserved energy in month.
+Lists:
+

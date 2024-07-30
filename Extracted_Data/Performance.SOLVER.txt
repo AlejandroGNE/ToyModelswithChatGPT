@@ -1,0 +1,39 @@
+Header: Performance SOLVER
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	In (0,1,2,3,4,6,7)
+Description:	SOLVER engine used by PLEXOS.
+
+Paragraphs:
+The option Performance SOLVER
+          sets the mathematical programming solver that is used by the simulation
+          engine. The option can take one of the following values:
+
+To use any of the solvers you must license the corresponding "Support
+          for ..." component. The PLEXOS installation includes the libraries for
+          all solvers so no additional installation or configuration is required
+          beyond obtaining a license to run the selected solver.
+
+
+
+
+
+The solvers implement a number of algorithms for optimizing
+          mathematical programming problems. These algorithms are referred to in
+          a number of Performance options. The following explains the available
+          options:
+
+
+
+
+
+Multi-threading (or parallelization) can greatly improve optimizer
+          performance. However, not all algorithms and solvers support
+          multi-threading. Please refer to Optimizing
+            Performance for more details.
+
+
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Max Renomination
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum number of renominations allowed per renomination window for Base Gas Contracts
+
+Paragraphs:
+Gas Contract Max Renomination defines the maximum number of renominations allowed per renomination window for a Base Gas Contract. Renomination windows are determined based on the Gas Contract Renomination Start Period.
+Lists:
+

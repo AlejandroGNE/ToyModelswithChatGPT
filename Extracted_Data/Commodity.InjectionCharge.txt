@@ -1,0 +1,26 @@
+Header: Commodity Injection Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of adding the Commodity to inventory
+
+Paragraphs:
+Commodity Injection Charge is a
+          per-unit charge applied to any Injection into the inventory. The charge applies to the gross amount injected i.e. including Injection Losses .
+          The cost is reported in the property Injection
+            Cost .
+
+See also:
+Lists:
+	- Commodity Delivery
+              Charge
+	- Commodity Withdrawal
+              Charge
+	- Commodity Inventory
+              Charge
+

@@ -1,0 +1,15 @@
+Header: Storage Decomposition Penalty a
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.0489
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition storage target penalty function 'a' term.
+
+Paragraphs:
+Storage Decomposition Penalty a is the a term in the decomposition storage target penalty function. See Decomposition Method for details.
+Lists:
+

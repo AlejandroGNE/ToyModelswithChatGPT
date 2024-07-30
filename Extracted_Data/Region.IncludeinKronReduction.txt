@@ -1,0 +1,24 @@
+Header: Region Include in Kron Reduction
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	A flag indicating if the selected region should be included in the Kron-reduction algorithm
+
+Paragraphs:
+A flag indicating if the selected region should be included in the Kron-reduction algorithm, i.e., simulated in full detail during the ST phase. When this property is set to Yes (True) for one or more contiguous Regions , PLEXOS includes them in the set of regions to simulate in full detail during the ST phase , while the remaining regions are excluded. To accomplish this in a manner that reasonably accounts for energy transactions between the included and excluded regions, PLEXOS leverages the widely used Kron-reduction method.
+
+Here is an example showing how to select the regions corresponding to NYISO (and its immediate neighbors) from the larger EIC Nodal Dataset:
+
+For this feature to work: The ST Phase must be enabled, with the Transmission Detail set to Nodal. The MT Phase must be enabled, with the Transmission Detail set to either Regional or Nodal. The study must correspond to a single-sample run, i.e., multi-sample runs are unsupported.
+
+The method — named after Gabriel Kron and based on the Schur complement of the network’s admittance matrix — creates virtual lines connecting nodes at the interface between the selected regions and those external to them. Furthermore, it also creates virtual generators and/or loads at those nodes to capture the exchange of power between the included and excluded regions. These virtual elements are created before phase execution; however, they are activated at the beginning of the ST phase . Specifically, virtual generators/loads are implemented using market objects. For each interval, the MT solution is used to estimate both the external power transactions and the price paid (received) for the sales (purchases) to (from) these virtual markets. It is worth emphasizing that, as formulated, there is no obligation for the internal network to meet (use) the estimated external demand (supply). For further details, refer to the following article .
+Lists:
+	- The ST Phase must be enabled, with the Transmission Detail set to Nodal.
+	- The MT Phase must be enabled, with the Transmission Detail set to either Regional or Nodal.
+	- The study must correspond to a single-sample run, i.e., multi-sample runs are unsupported.
+

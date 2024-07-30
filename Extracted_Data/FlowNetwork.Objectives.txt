@@ -1,0 +1,11 @@
+Header: Flow Network Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Flow Network
+
+Paragraphs:
+Flow Network Objectives is set of Objectives on the Flow Network
+Lists:
+

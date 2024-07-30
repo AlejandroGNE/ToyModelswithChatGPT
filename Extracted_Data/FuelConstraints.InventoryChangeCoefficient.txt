@@ -1,0 +1,20 @@
+Header: Fuel Constraints Inventory Change Coefficient
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in fuel stockpile level.
+
+Paragraphs:
+Fuel Constraints Inventory Change Coefficient is the left-hand side coefficient of the
+          change in Fuel Closing
+            Inventory for the fuel stockpile in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

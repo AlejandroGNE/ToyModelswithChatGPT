@@ -1,0 +1,15 @@
+Header: Purchaser Max Energy Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Energy] or [Max Load Factor] constraint violations.
+
+Paragraphs:
+Purchaser Max Energy Violation Cost is defined as:
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Generator Include in Uplift
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If this generator's costs are included in the uplift calculations.
+
+Paragraphs:
+Generator Include in Uplift is a flag controls when this generator's costs are included in the uplift calculations. By default all generators contribute to the calculation of uplift. Toggling this off causes the generator's costs to be ignored meaning that their costs are not recovered via the uplift.
+
+See also:
+
+Note: If using the CBP Uplift Compatibility then this setting is static, and applies to the entire horizon, where any "Yes" (-1) values defined will result in the generator contributing to the uplift calculation.  If using the SEM Uplift Compatibility then this setting can be applied dynamically.
+Lists:
+	- Region Uplift Enabled
+	- Region Include in Uplift
+

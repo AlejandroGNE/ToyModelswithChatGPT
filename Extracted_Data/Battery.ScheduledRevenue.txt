@@ -1,0 +1,16 @@
+Header: Battery Scheduled Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from scheduled generation (uniform pricing only)
+
+Paragraphs:
+The scheduled revenue of a Battery is the revenue arising from the Scheduled Generation ,
+                i.e. the solution to the unconstrained Uniform Pricing problem.
+Lists:
+

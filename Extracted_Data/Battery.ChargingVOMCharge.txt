@@ -1,0 +1,19 @@
+Header: Battery Charging VO&M Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge for charging
+
+Paragraphs:
+Battery Charging VO&M Charge is the variable operation and maintenance charge for Charging . In particular, it is the additional VO&M charge which is combined with the Battery VO&M Charge , while the battery is charging. If the Battery VO&M Charge is not provided, then 
+                only Charging VO&M Charge applies to the gross amount of charging.
+
+See also:
+Lists:
+	- Discharging VO&M Charge
+

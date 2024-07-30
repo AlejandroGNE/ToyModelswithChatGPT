@@ -1,0 +1,19 @@
+Header: Reserve Batteries Min Regulation Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum regulation reserve provision when units are in the regulation range
+
+Paragraphs:
+Reserve Batteries Min Regulation Provision is Minimum regulation reserve provision when
+          units are in the regulation range. The following constraint is added
+          to the mathematical programming problem: Regulation Reserve Provision ≥ Units Generating × Min Regulation
+          Provision if-and-only-if Regulation Point ≤ Battery Generation ≤ Regulation Point + Regulation
+          Range
+Lists:
+

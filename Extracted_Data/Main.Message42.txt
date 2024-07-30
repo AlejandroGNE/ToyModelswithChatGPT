@@ -1,0 +1,13 @@
+Header: Message 42
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Solver <value>.
+
+Paragraphs:
+Message 42 is used to relay warning messages from the mathematical programming solver selected via the Performance SOLVER setting.
+
+Consult the solver documentation or contact support if you are unsure of the seriousness of messages you are receiving.
+Lists:
+

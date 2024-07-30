@@ -1,0 +1,11 @@
+Header: Message 153
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <value> [Start Profile] must have same number of bands as Generator Start Cost.
+
+Paragraphs:
+Message 153 occurs in the following circumstances:
+Lists:
+

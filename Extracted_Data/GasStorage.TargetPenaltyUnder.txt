@@ -1,0 +1,15 @@
+Header: Gas Storage Target Penalty Under
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the Min Storage Target.
+
+Paragraphs:
+Gas Storages Target Penalty Under is Penalty for violating the Min Storage Target..
+Lists:
+

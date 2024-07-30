@@ -1,0 +1,15 @@
+Header: Variable ARIMA beta
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	ARIMA moving-average parameter
+
+Paragraphs:
+Variable ARIMA β is the moving-average parameter for the ARIMA sampling method.
+Lists:
+

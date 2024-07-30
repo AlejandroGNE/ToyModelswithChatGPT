@@ -1,0 +1,15 @@
+Header: Facility Electric Energy Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from electric energy produced
+
+Paragraphs:
+Facility Electric Energy Revenue is Revenue from electric energy produced.
+Lists:
+

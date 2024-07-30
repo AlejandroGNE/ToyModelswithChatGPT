@@ -1,0 +1,15 @@
+Header: Generator Source Gas Contracts Delivered Quantity
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas delivered by gas contract to the generator
+
+Paragraphs:
+Generator Source Gas Contracts Delivered Quantity is the gas delivered by gas contract to the generator.
+Lists:
+

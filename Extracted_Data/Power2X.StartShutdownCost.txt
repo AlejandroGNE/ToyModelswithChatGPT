@@ -1,0 +1,15 @@
+Header: Power2X Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unit starts and shutdowns
+
+Paragraphs:
+Power2X Start & Shutdown Cost is Cost of unit starts and shutdowns.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Pipeline Utilization Back
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow back capacity utilization
+
+Paragraphs:
+Gas Pipeline Utilization Back is Flow back capacity utilization.
+Lists:
+

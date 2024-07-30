@@ -1,0 +1,15 @@
+Header: Transmission Right Settlement Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Direction of settlement
+
+Paragraphs:
+Transmission Right Settlement Model is the direction of settlement.
+Lists:
+

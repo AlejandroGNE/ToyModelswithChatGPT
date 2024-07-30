@@ -1,0 +1,18 @@
+Header: Storage Energy Value
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental price of energy generated from storage
+
+Paragraphs:
+Storage Energy Value is the
+          incremental value of the end of period storage and can be entered in
+          multiple bands with Energy
+            Value Point . See Water Value for more details.
+Lists:
+

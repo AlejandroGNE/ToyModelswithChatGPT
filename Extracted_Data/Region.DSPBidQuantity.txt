@@ -1,0 +1,31 @@
+Header: Region DSP Bid Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Bid quantity for demand-side participation
+NSW	DSP Bid Quantity	58	MW	1
+NSW	DSP Bid Quantity	30	MW	2
+NSW	DSP Bid Quantity	83	MW	3
+NSW	DSP Bid Quantity	135	MW	4
+NSW	DSP Bid Price	1000	$/MWh	1
+NSW	DSP Bid Price	5000	$/MWh	2
+NSW	DSP Bid Price	8000	$/MWh	3
+NSW	DSP Bid Price	9000	$/MWh	4
+
+Paragraphs:
+Region Demand-side participation (or dispatchable load) is load that is included in the input load for the region but that can be dispatched-off at a certain price less than VoLL .
+
+DSP Bid Quantity and DSP Bid Price represent DSP in multiple bands, with DSP Bid Quantity representing the amount of demand, and DSP Bid Price representing the price at which the demand will be curtailed.
+
+Example
+
+By Default PLEXOS models the quantities in the bands as incremental curtailments, i.e. the next 30 MW of demand is curtailed at 5000 $/ MWh after 58 MW of the load demand has been dispatched. The defined DSP acts like a Generator located at the Reference Node , which is suited to regional modelling. DSP can also be defined at the Node level with the properties Node DSP Bid Quantity and DSP Bid Price .
+
+The total amount of this load that is curtailed is reported as Demand Curtailed . Demand curtailment adds to Cost of Curtailment .
+Lists:
+

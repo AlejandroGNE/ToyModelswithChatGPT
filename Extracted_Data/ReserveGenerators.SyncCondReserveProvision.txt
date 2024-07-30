@@ -1,0 +1,20 @@
+Header: Reserve Generators Sync Cond Reserve Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision by units in synchronous condenser mode
+
+Paragraphs:
+Reserve Generators Sync Cond Reserve Provision is the reserve Provision by units in synchronous condenser mode. Such units are identified by the Sync Cond Units .
+
+See also:
+Lists:
+	- Reserve Generators Spinning Reserve Provision
+	- Reserve Generators Pump Dispatchable Load Provision
+	- Reserve Generators Non-spinning Reserve Provision
+

@@ -1,0 +1,26 @@
+Header: Constraint Conditions RHS Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	RHS coefficient added when the condition is active
+1->2 MAX	Sense	-	-1
+1->2 MAX	RHS	300	-
+1->2 MAX	1->2	Flow Coefficient	1	-
+A ONLINE	Sense		
+A ONLINE	RHS	1	-
+A ONLINE	GEN A	Units Generating Coefficient	1	-
+1->2 MAX	A ONLINE	RHS Coefficient	100	-
+
+Paragraphs:
+Constraint Conditions RHS Coefficient provides a means of adding a constant to the right-hand side of the constraint when a given Variable is active.
+
+Example:
+
+In this example the Condition "A ONLINE" is active when the Generator "A" is on-line (committed), and this in turn adds 100 MW to the Constraint "1->2 MAX", which set a dynamic limit on the flow on Line "1->2".
+Lists:
+

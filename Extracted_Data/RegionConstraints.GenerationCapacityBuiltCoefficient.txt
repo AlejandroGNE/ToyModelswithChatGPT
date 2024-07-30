@@ -1,0 +1,26 @@
+Header: Region Constraints Generation Capacity Built Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation capacity built
+
+Paragraphs:
+Region Constraints Generation Capacity Built Coefficient is the left-hand side
+          coefficient of the total Region Generators Capacity Built from the
+          start of the horizon up to the current period in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where: k is the current period e.g. year of the simulation.
+
+See also:
+Lists:
+	- Zone Constraints Generation
+              Capacity Built Coefficient
+

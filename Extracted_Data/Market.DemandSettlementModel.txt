@@ -1,0 +1,20 @@
+Header: Market Demand Settlement Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Model used to determine price paid by purchasers.
+
+Paragraphs:
+Market Demand Settlement Model is the model used to determine price paid by purchasers/demands.
+
+See also:
+Lists:
+	- Market Supply Settlement Model
+	- Market Natural Cost
+	- Market Natural Revenue
+

@@ -1,0 +1,11 @@
+Header: Maintenance Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Maintenance inherits from
+
+Paragraphs:
+Maintenance Template is the template the Maintenance inherits from.
+Lists:
+

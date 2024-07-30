@@ -1,0 +1,28 @@
+Header: Flow Node Max Flow Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow through the Flow Node each week
+
+Paragraphs:
+Flow Node Max Flow Week sets an
+          upper bound on the Flow through the
+          node in each week of the simulation. See Max
+            Flow for more details.
+
+See also:
+Lists:
+	- Flow Node Max
+              Flow Hour
+	- Flow Node Max
+              Flow Day
+	- Flow Node Max
+              Flow Month
+	- Flow Node Max
+              Flow Year
+

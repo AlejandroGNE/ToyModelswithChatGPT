@@ -1,0 +1,25 @@
+Header: Region Available Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity Reserves based on Available Capacity
+
+Paragraphs:
+Region Available Capacity Reserves
+          is Capacity Reserves based on Available Capacity.
+
+Available Capacity Reserves = Available
+            Capacity + Curtailable
+            Load - Peak Load - Net
+            Capacity Interchange
+
+See also:
+Lists:
+	- Region Available
+              Capacity Margin
+

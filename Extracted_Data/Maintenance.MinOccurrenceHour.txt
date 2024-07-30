@@ -1,0 +1,22 @@
+Header: Maintenance Min Occurrence Hour
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of times this event must occur each hour.
+
+Paragraphs:
+Maintenance Min Occurrence Hour is Number of times this event must occur each hour.
+
+See also:
+Lists:
+	- Maintenance Min Occurrence
+	- Maintenance Min Occurrence Day
+	- Maintenance Min Occurrence Week
+	- Maintenance Min Occurrence Month
+	- Maintenance Min Occurrence Year
+

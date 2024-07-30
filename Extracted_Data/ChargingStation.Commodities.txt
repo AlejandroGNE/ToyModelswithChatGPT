@@ -1,0 +1,11 @@
+Header: Charging Station Commodities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Commodities consumed by the Charging Station
+
+Paragraphs:
+Charging Station Commodities is set of Commodities consumed by the Charging Station
+Lists:
+

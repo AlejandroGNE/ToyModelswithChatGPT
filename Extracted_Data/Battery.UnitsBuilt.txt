@@ -1,0 +1,18 @@
+Header: Battery Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of BESS units built in this year
+
+Paragraphs:
+Battery Units Built is the number of BESS units built in this year.
+
+See also:
+Lists:
+	- Units Retired
+

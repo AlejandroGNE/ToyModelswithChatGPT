@@ -1,0 +1,28 @@
+Header: Constraint RHS Month
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Right hand side each month (000)
+
+Paragraphs:
+Constraint RHS Month defines the right-hand side (constant) term for each month of the planning horizon. Setting this property defines the period of the constraint as one constraint per month.
+
+NOTE: In most cases for RHS Day/Week/Month/Year/Custom, the RHS scalar is 1000. However, there are some exceptions where the RHS scalar is 1. The exceptions include all non-quantity constraints, 
+    all gas constraints, Maintenance Min Occurrence constraints, constraints related to Storages (with End Volume/End Level/Ramp Coefficient) / Waterways (with Ramp Coefficient) / Maintenances 
+    (with Start Hour Coefficient) / Generators (with Capacity Factor Coefficient or only defined interval Units Started/Units Shutdown/Units Generating/Operating Hours/Pump Operating Hours Coefficient), 
+    constraints using expansion, and constraints not using activities.
+
+See also:
+Lists:
+	- RHS
+	- RHS Hour
+	- RHS Day
+	- RHS Week
+	- RHS Year
+	- RHS Custom
+

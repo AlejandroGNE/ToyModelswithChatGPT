@@ -1,0 +1,18 @@
+Header: Company Emissions Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation associated with the emission
+
+Paragraphs:
+Company Emissions Generation is the Generation associated with the Emission by the Company .
+
+See also:
+Lists:
+	- Company Emissions Intensity
+

@@ -1,0 +1,15 @@
+Header: Storage Globals FCF Shadow Price
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Shadow price of water in storage in Future Cost Function
+
+Paragraphs:
+Storage Globals FCF Shadow Price is the Shadow Price of water in storage in the user-defined Future Cost Function.
+Lists:
+

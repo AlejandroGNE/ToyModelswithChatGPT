@@ -1,0 +1,11 @@
+Header: Horizon Class
+
+Table Details:
+Description:	Simulation horizon
+
+Paragraphs:
+See also Horizon Property Reference for a detailed list of properties for this class of object.
+
+Each Horizon object holds a number of properties that determine both the length and resolution of the simulation horizon.
+Lists:
+

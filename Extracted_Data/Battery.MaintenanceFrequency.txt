@@ -1,0 +1,25 @@
+Header: Battery Maintenance Frequency
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Frequency of maintenance outages in an annual time frame
+Property	Value	Units	Band	Date From
+Maintenance Frequency	1	-	1	1/01/2006
+Maintenance Frequency	0	-	1	1/01/2007
+Maintenance Frequency	1	-	1	1/01/2009
+Maintenance Frequency	0	-	1	1/01/2010
+Mean Time to Repair	300	hrs	1	
+
+Paragraphs:
+Maintenance Frequency is used to specifically set the number of maintenance events that will occur of the given type each year. This is usually for scheduling large surveys and allows PLEXOS to place the maintenance optimally.
+
+Example:
+
+In this example a major survey of 300 hours must be taken every three years (in 2006 and 2009).
+Lists:
+

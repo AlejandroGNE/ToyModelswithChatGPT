@@ -1,0 +1,58 @@
+Header: How to completely Remove PLEXOS Connect
+
+Table Details:
+
+Paragraphs:
+This section provides a guide in how to completely remove Connect Server, Connect Client and Launch Control from the computer. Connect will store files outside of its install directory, these files are required to store any application settings or data files required for models and solutions. After uninstalling Connect Server, Connect Client or Launch Control, these application settings and any temporary files can be manually removed safely.
+
+After uninstalling Connect Server, Connect Client and Launch Control from your computer, you can safely remove the temporary folder that is shared by all components of Connect. This path can be adjusted by the environment variable "PLEXOS_TEMP" (see Advanced Settings in the PLEXOS Wiki for more information).
+
+Depending on which PLEXOS Connect app created the temp file, these files are usually stored within in one of the following folders:
+
+After uninstalling connect server, it is safe to remove the following files or folders:
+
+The settings for Connect Server stores information such as path directory and port number, this file is created per user and stored in the following style:
+
+The license server stores its settings in a separate file to the server settings, this file contains information such as port number and access list. This file is located at:
+
+This path is defined by you and specified in the patch field on the connect Server window. This folder stores all files used by the Connect Server (excluding the above settings files).
+
+See the temporary files section . Note: The license settings file is used by all PLEXOS products, not just the license Server.
+
+After uninstalling Connect Client, it is safe to remove the following files or folders:
+
+This file stores information the number of concurrent executions and client instances, this file is created per user and stored in the following style:
+
+See the temporary files section .
+
+After uninstalling Launch Control, it is safe to remove the following files or folders:
+
+This file stores information about the user preferences including any remembered logins, this file is created per user and depends on if Launch Control is started from PLEXOS. The files are stored in either:
+
+See the temporary files section .
+Lists:
+	- C:\Windows\Temp\~PLEXOS
+	- C:\Windows\Temp\~CONNECTCACHE
+	- C:\Users\<user_name>\AppData\Local\Temp\~PLEXOS
+	- C:\Users\<user_name>\AppData\Local\Temp\~CONNECTCACHE
+
+
+H2s:
+Contents
+1. Introduction
+2. PLEXOS Connect's Temporary Files
+3. PLEXOS Connect Server Files
+4. PLEXOS Connect Client Files
+5. PLEXOS Connect Launch Control Files
+
+H5s:
+Server Settings
+License Settings
+Server Files
+Temporary Files
+Client Settings
+Temporary Files
+User Settings
+Standalone
+PLEXOS Desktop
+Temporary Files

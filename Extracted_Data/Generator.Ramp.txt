@@ -1,0 +1,26 @@
+Header: Generator Ramp
+
+Table Details:
+Units:	MW/min
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rate at which units are ramping
+
+Paragraphs:
+Generator Ramp is the change in
+          output in the period and is defined as:
+
+Ramp t = Generation t - Generation ( t - 1)
+
+where t indexes periods of the simulation. The t =0
+          value of Generation refers to
+          the previous simulation step and for step one it is set with the Initial
+            Generation property.
+
+Limits on ramping are defined with the Max
+            Ramp Up and Max Ramp Down properties.
+Lists:
+

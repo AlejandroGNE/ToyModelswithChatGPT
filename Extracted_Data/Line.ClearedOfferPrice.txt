@@ -1,0 +1,15 @@
+Header: Line Cleared Offer Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal offer band
+
+Paragraphs:
+Line Cleared Offer Price is the price of marginal offer band.
+Lists:
+

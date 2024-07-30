@@ -1,0 +1,11 @@
+Header: Model Interleaved
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	model run interleaved with this model
+
+Paragraphs:
+Model Interleaved specifies another Model that will be run 'interleaved' with this Model. See the Model article for details.
+Lists:
+

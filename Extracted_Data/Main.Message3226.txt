@@ -1,0 +1,11 @@
+Header: Message 3226
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Scenario Tree: Globals [Full Branches Sample Reduction] is disabled. Number of Full and Hanging Branches <value> needs to be less than the number of historical years <value>.
+
+Paragraphs:
+Message 3226 occurs in the following circumstances:
+Lists:
+

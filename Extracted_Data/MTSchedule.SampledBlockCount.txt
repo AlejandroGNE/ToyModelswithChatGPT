@@ -1,0 +1,18 @@
+Header: MT Schedule Sampled Block Count
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of blocks modeled in each sample period (day/week) where zero means the original number of intervals
+
+Paragraphs:
+LT Plan Sampled Block Count applies when the Chronology setting is "Sampled". By default each sample period
+          (day/week/month) is modeled at the resolution set by Horizon Periods per Day (24 periods
+          per day, or "hourly" by default). This parameter is used to reduce the
+          number of modeled simulation periods. The reduction in performed using
+          the same approach as for Fitted Chronology i.e. a curve fit is performed to the specified system profile - see
+          the Chronology topic for
+          details.
+Lists:
+

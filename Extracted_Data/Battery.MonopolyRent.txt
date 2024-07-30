@@ -1,0 +1,27 @@
+Header: Battery Monopoly Rent
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Monopoly rent from competitive bidding
+
+Paragraphs:
+Generator Monopoly Rent is the
+          additional profit earned by the Battery due to the selected strategic bidding algorithm, and defined as:
+
+Monopoly Rent = ( Generation
+            Revenue - Cost to Load ) -
+          ( Shadow Generation
+            Revenue - Shadow Cost
+            to Load )
+
+Generally this value would be positive, meaning that strategic
+          bidding increased profits, but in some cases it can be negative e.g. if mark-ups are so high that volume is lost or if the battery is part
+          of a Company whose overall Net
+            Profit has increased.
+Lists:
+

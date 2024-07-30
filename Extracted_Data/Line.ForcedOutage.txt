@@ -1,0 +1,15 @@
+Header: Line Forced Outage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity forced out
+
+Paragraphs:
+Line Forced Outage is the capacity forced out.
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Gas Node Constraints Units Built in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built in the year constraint
+
+Paragraphs:
+Gas Node Constraints Units Built in Year Coefficient is the left-hand side coefficient in
+          the constraint of the binary (0,1) variable indicating if the Gas
+            Node is built in the year.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Gas Node Constraints Units Built
+              Coefficient
+

@@ -1,0 +1,17 @@
+Header: Battery Objectives Units Out Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units out of service
+
+Paragraphs:
+Battery Objectives Units Out Coefficient is the coefficient of Units Out in the objective.
+
+With the coefficient represented by c (i,j) the following term is added to the objective function:
+Lists:
+

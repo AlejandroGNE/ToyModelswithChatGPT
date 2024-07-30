@@ -1,0 +1,15 @@
+Header: Node Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports from the node
+
+Paragraphs:
+Node Exports are the exports from the node. This property does not include flows on DC lines. The export through DC lines can be viewed under NetDCExport
+Lists:
+

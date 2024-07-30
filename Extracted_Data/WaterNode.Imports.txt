@@ -1,0 +1,15 @@
+Header: Water Node Imports
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Imports on water pipelines
+
+Paragraphs:
+Water Node Imports is Imports on water pipelines.
+Lists:
+

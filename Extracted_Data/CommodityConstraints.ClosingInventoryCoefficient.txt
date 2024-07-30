@@ -1,0 +1,21 @@
+Header: Commodity Constraints Closing Inventory Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Commodity in inventory
+
+Paragraphs:
+Commodity Constraints Closing Inventory Coefficient sets the coefficient of Closing
+            Inventory in the Constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Commodity Closing Inventory ... {≤, ≥, =} b j
+Lists:
+

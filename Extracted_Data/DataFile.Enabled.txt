@@ -1,0 +1,12 @@
+Header: Data File Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the Data File is enabled for build in the next pass
+
+Paragraphs:
+Data File Enabled flags a data file as ready for building in the next round of Load Forecasting .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Transmission Right Price
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scheduled price
+
+Paragraphs:
+Transmission Right Price is the scheduled price.
+Lists:
+

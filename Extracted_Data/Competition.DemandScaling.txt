@@ -1,0 +1,14 @@
+Header: Competition Demand Scaling
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If Nash-Cournot result scales input loads to reflect price elasticity of demand.
+
+Paragraphs:
+Competition Demand Scaling applies when the Equilibrium Model = "Nash-Cournot". Since the Cournot game requires a linear demand function defined by elasticities the Load input to the simulation will be modified to reflect that elasticity i.e. in general the load will decrease in order to raise the price above perfect competition levels. This is the default behaviour (Demand Scaling = True).
+
+The alternative, which can be more convenient, is to 'freeze' the load at input levels but still have the price reflect Cournot gaming behaviour (Demand Scaling = False). This 'freezing' is performed automatically by the simulator and involves one more iteration of the simulation in which the Cournot price is assumed to occur at the perfect competition demand level.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Variable GARCH alpha
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weight on the square of the return in GARCH(1,1)
+
+Paragraphs:
+Variable GARCH α is the weight on the square of the return for the GARCH(1,1) model.
+Lists:
+

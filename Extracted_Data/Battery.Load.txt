@@ -1,0 +1,23 @@
+Header: Battery Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	load (battery recharge)
+
+Paragraphs:
+Battery Load is total load drawn by the BESS from the grid for recharging and includes inverter or other losses implied by the Charge Efficiency property. This is illustrated below:
+
+
+
+See also:
+Lists:
+	- Max Load
+	- Losses
+	- Generation
+	- Charge Efficiency
+

@@ -1,0 +1,18 @@
+Header: Commodity Delivery Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of additions to inventory
+
+Paragraphs:
+Commodity Delivery Cost is the
+          cost of additions to inventory, and is defined as:
+
+Delivery Cost = Delivery × Delivery Charge
+Lists:
+

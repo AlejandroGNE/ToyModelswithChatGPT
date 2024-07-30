@@ -1,0 +1,15 @@
+Header: Gas Plant Outage Max Production
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Plant Max Production during the outage
+
+Paragraphs:
+Gas Plant Outage Max Production is the plant max production during the outage.
+Lists:
+

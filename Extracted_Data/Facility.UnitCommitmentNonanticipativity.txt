@@ -1,0 +1,50 @@
+Header: Facility Unit Commitment Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+Big Plant	Unit Commitment Non-anticipativity	-1	$	This value acts like infinity, so no recourse is
+                available
+Big Plant	Unit Commitment Non-anticipativity Time	36	hrs	
+Small Plant	Unit Commitment Non-anticipativity	0	$	Full recourse is available on unit commitment of
+                this unit
+
+Paragraphs:
+Facility Unit Commitment
+          Non-anticipativity applies to multi-sample simulations with Stochastic
+            Method = "Stochastic" i.e. stochastic optimization
+          using scenario-wise decomposition. It is used to identify the
+          non-anticipative Unit
+            Commitment decisions, can optionally be set in combination with Unit
+            Commitment Non-anticipativity Time .
+
+Defining the property adds the following "non-anticipativity"
+          constraints to the formulation:
+
+Units
+            Operating ( s , t ) = Units
+            Operating ( s +1, t ) ∀ s < S
+
+where: s is the sample number S = Stochastic Risk Sample Count
+
+The property can take any value, but there are two special cases to
+          consider:
+
+Any positive value then acts as a penalty on anticipating the values
+          of the uncertain inputs. It is a useful feature that the
+          non-anticipativity can be relaxed over time as Table 1.
+
+The property is commonly used in short-term two-stage stochastic unit
+          commitment models to ensure that unit commitment decisions
+          do not anticipate future information.
+
+See also:
+Lists:
+	- Facility Production
+              Non-anticipativity
+

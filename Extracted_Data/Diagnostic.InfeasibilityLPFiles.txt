@@ -1,0 +1,12 @@
+Header: Diagnostic Infeasibility LP Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write infeasible and repaired math programs to disk in text format
+
+Paragraphs:
+This property determines whether infeasibilities and repairs are written to LP files.
+Lists:
+

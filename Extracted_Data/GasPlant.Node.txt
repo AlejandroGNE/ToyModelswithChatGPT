@@ -1,0 +1,11 @@
+Header: Gas Plant Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Electric Node the Gas Plant connects to
+
+Paragraphs:
+Gas Plant Node is Electric Node the Gas Plant connects to
+Lists:
+

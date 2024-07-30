@@ -1,0 +1,11 @@
+Header: Hub Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Hub
+
+Paragraphs:
+Hub Constraints is set of Constraint objects involved in the Hub
+Lists:
+

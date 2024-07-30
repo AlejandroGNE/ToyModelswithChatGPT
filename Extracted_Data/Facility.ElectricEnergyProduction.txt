@@ -1,0 +1,15 @@
+Header: Facility Electric Energy Production
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Electric energy production
+
+Paragraphs:
+Facility Electric Energy Production is Electric energy production.
+Lists:
+

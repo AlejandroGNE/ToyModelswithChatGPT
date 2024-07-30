@@ -1,0 +1,15 @@
+Header: Generator Strategic Reference Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Sent-out marginal generation reference price for RSI markup application.
+
+Paragraphs:
+Generator Strategic Reference Price is used to override the cost-based price used as the baseline when applying mark-ups calculated by the RSI algorithm. By default, the mark-ups computed by RSI are applied to the SRMC of the Generator . Since RSI is usually calibrated against a reference year, these markups can become distorted as the marginal cost of the Generator changes over several years (due to escalating fuel costs and other factors). Thus this reference price can be used to define the marginal cost upon which the RSI was calibrated and hence keep the marked up prices at realistic levels.
+Lists:
+

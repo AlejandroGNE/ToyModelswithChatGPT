@@ -1,0 +1,15 @@
+Header: Node Reference Generation
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Reference generation from the network case file
+
+Paragraphs:
+Node Reference Generation is the reference generation from the network case file.
+Lists:
+

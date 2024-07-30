@@ -1,0 +1,71 @@
+Header: Storage Decomposition Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Method used to pass the optimal storage trajectory from one simulation phase to the next.
+
+Paragraphs:
+Storage Decomposition Method
+          controls the way the simulator decomposes the optimal LT
+            Plan or MT Schedule storage
+          trajectory (the sequence of End
+            Volume values in time) down to ST
+            Schedule . Decomposition is generally required only for storage
+          that are large enough that they do not attain their bounds within a
+          single step of ST Schedule . This
+          switch takes the following values:
+
+More information is available in the Hydro
+            Reservoirs article.
+
+Notes:
+
+where:
+
+The size of the bands is controlled by the following power function:
+
+where:
+Lists:
+	- For any method other than "None" and when using partial
+            chronology, it is preferred, but not required, that the LT
+              Plan LDC Type or MT
+              Schedule LDC Type is at
+            least the resolution of the Horizon Chrono Step Type e.g. if ST Schedule is running with
+            day-sized steps (look-ahead included) then the preceding phase
+            should use a day resolution. If the preceding phase runs a coarser
+            resolution LDC such as week then the targets created could violate
+            storage bounds. To compensate for this resolution mismatch penalties
+            are introduced on the storage bounds according to the Decomposition
+              Bound Penalty property. This does not apply to chronological LT Plan or MT
+              Schedule .
+	- Decomposition Method = "Shadow Prices" has a special function when MT Schedule is run with Stochastic
+              Method = "Stochastic". In that mode the Storage Shadow Price is combined with
+            the objective function value in each sample to produce a
+            multi-dimensional shadow prices surface called the Future Cost
+            Function (FCF). The components of this function can be access with
+            the Diagnostic Future
+              Cost Function .
+	- When ST Schedule is run
+            without MT Schedule you may
+            enter a Future Cost Function (FCF) via the Global class.
+	- Decomposition Method = "Targets" creates a penalty function around
+            the decomposed trajectory so that variations are allowed in ST
+              Schedule without creating infeasibilities in the target
+            constraints. The penalty function is a piece-wise linear function
+            that penalizes under-reaching of the target but not over-reaching.
+            The function has 10 bands and the price in each band is based on a
+            multiple of the Shadow Price calculated in MT Schedule thus:
+	- a is Storage Decomposition
+              Penalty a
+	- b is Storage Decomposition
+              Penalty b
+	- c is Storage Decomposition
+              Penalty c
+	- x is Storage Decomposition
+              Penalty x
+

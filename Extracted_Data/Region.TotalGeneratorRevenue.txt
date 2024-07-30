@@ -1,0 +1,18 @@
+Header: Region Total Generator Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total generator revenue including capacity payments.
+
+Paragraphs:
+Region Total Generator Revenue is the total generator revenue including capacity payments and is defined as:
+
+See also:
+Lists:
+	- Region LRMC
+

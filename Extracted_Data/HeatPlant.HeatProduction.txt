@@ -1,0 +1,16 @@
+Header: Heat Plant Heat Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat production
+
+Paragraphs:
+Heat Plant The amount of heat that the heat plant produces.Heat Production  = (Fuel Off-take + 3.6*(Electrical Load))*( Efficiency Incr ) - HeatPlantON *( Efficiency Base ).
+\\
+Lists:
+

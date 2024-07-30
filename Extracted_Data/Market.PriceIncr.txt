@@ -1,0 +1,15 @@
+Header: Market Price Incr
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Increment to market price
+
+Paragraphs:
+Market Price Incr is the increment to market price.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Flow Path Retirement Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the Flow Path
+
+Paragraphs:
+See Facility Retirement
+            Cost for details.
+Lists:
+

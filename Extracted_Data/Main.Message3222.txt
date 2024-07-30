@@ -1,0 +1,11 @@
+Header: Message 3222
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Max Ramp <value> for <value> is not available in Sampled Chronology.
+
+Paragraphs:
+Message 3222 occurs in the following circumstances: When a Gas Field or Gas Storage has Max Ramp defined and the Chronology is Sampled in LT or MT phases
+Lists:
+

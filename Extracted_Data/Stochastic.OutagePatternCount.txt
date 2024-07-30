@@ -1,0 +1,19 @@
+Header: Stochastic Outage Pattern Count
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of outage patterns generated for use in MT and ST Schedule.
+
+Paragraphs:
+Model Outage Pattern Count is the total number of patterns (or iterations) of Generator and Line outages that will be simulated. Each pattern is a complete sequence of outages for each element.
+
+When the simulation executes, each outage element ( Generator or Line ) creates this number of sequences of forced outages and maintenance outages across the span of the simulation Horizon . In theory each pattern represents a unique simulation. How these patterns are handled during the simulation is controlled by the Stochastic Method settings of the particular simulation phase. Please refer to:
+
+When the database contains Variable objects the option Risk Sample Count sets the number of samples of those variables in the simulation. If this sample count is just one, then the number of simulations created is dictated by Outage Pattern Count . However, if the Risk Sample Count is greater than one, it controls the number of simulations created, and a mapping is made between the Risk Sample Count and the number of outage patterns (either 1:1 if the two sample counts match or random assignment otherwise).
+Lists:
+	- LT Plan Stochastic Method
+	- MT Schedule Stochastic Method
+	- ST Schedule Stochastic Method
+

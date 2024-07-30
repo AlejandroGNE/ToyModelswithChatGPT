@@ -1,0 +1,11 @@
+Header: Zone Zones
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of zones the zone connects to
+
+Paragraphs:
+Zone Zones is set of zones the zone connects to
+Lists:
+

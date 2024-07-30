@@ -1,0 +1,15 @@
+Header: Data File Holiday
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	True
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag for holiday period that must be preserved
+
+Paragraphs:
+Data File Holiday is used to define holidays whose load profile should be preserved when mapping source days to future days in Load Forecasting and please also see the holiday example in it.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Water Pump Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Water Pump inherits from
+
+Paragraphs:
+Water Pump Template is template the Water Pump inherits from
+Lists:
+

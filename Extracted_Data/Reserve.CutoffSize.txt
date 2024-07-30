@@ -1,0 +1,17 @@
+Header: Reserve Cut-off Size
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The size below which a generator will not be considered for a share in reserve costs
+
+Paragraphs:
+Reserve Cut-off Size is the megawatt size above which generators are allocated a share of reserve costs i.e. units below this size are not allocated a share of reserve costs.
+
+A typical value for the cut-off size is 50MW.
+Lists:
+

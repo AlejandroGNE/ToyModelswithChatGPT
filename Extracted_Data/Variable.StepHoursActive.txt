@@ -1,0 +1,23 @@
+Header: Variable Step Hours Active
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of hours the Condition is allowed to be active from the first active hour in the step
+
+Paragraphs:
+Variable Step Hours Active is the number of hours, starting from Step Hour Active From that the variable is allowed to be active in any simulation step.
+
+See the article Unit Commitment for examples.
+
+See also:
+Lists:
+	- Variable Include in LT Plan
+	- Variable Include in PASA
+	- Variable Include in MT Schedule
+	- Variable Include in ST Schedule
+

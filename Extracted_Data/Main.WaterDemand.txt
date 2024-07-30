@@ -1,0 +1,14 @@
+Header: Water Demand Class
+
+Table Details:
+Description:	Demand for water
+
+Paragraphs:
+See also Water Demand Property Reference for a detailed list of properties for this class of
+          object.
+
+A Water Demand connects to the water network via the Water Node membership.
+
+See the Water Modelling article for details.
+Lists:
+

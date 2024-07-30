@@ -1,0 +1,17 @@
+Header: Region Generator Settlement Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5,6,7)
+Key Property:	No
+Description:	Model used to determine price paid to generators.
+
+Paragraphs:
+This Region setting determines the price paid to generators for their output. The following options are available:
+
+Note that the price paid by loads is set by the Load Settlement Model property.
+Lists:
+

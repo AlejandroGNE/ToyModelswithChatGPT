@@ -1,0 +1,18 @@
+Header: Flow Node Shortage
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount that demand exceeds supply
+
+Paragraphs:
+Flow Node Shortage is the shortage of supply in the Markets connected to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Surplus
+

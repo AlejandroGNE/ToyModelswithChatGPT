@@ -1,0 +1,11 @@
+Header: Zone Load Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Load Contracts is the set of load Physical Contracts in the Zone. This collection is reserved for reporting only.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 217
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> defines [Commit] property which is incompatible with [Unit Commitment Optimality] = "Dynamic Program". The Generator will use the global commitment setting.
+
+Paragraphs:
+Message 217 occurs in the following circumstances:
+Lists:
+

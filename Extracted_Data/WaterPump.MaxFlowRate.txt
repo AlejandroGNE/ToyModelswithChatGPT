@@ -1,0 +1,15 @@
+Header: Water Pump Max Flow Rate
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Max Flow Rate
+
+Paragraphs:
+Water Pump Max Flow Rate is the upper bound on the flow rate through the Water Pump.
+Lists:
+

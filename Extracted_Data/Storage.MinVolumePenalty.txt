@@ -1,0 +1,32 @@
+Header: Storage Min Volume Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violatiog the Min Volume constraint
+
+Paragraphs:
+Storage Min Volume Penalty is the
+          penalty for violating the Min Volume constraint. The default value of -1 means the constraint is 'hard' and
+          cannot be violated. A value of zero relaxes the constraint and any
+          positive values allows violation at a cost. Note that the constraint
+          is only allowed to be relaxed to zero i.e. negative storage
+          values are not allowed. The violation penalty is expressed in energy
+          terms ($/MWh), therefore if your Storage Model is not "Energy" you should
+          define Downstream
+            Efficiency so the penalty can be interpreted in terms of volume
+          of water in the optimization.
+
+Violations and cost are reported in the properties Min
+            Volume Violation and Min
+            Volume Violation Cost .
+
+See also:
+Lists:
+	- Storage Max
+              Volume Penalty
+

@@ -1,0 +1,18 @@
+Header: Diagnostic Summary Exact Conditioning
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Report exact basis condition number (if available) in the solver summary.
+
+Paragraphs:
+Condition numbers are described in Numerical Stability .
+
+This parameter enables the calculation of exact basis condition numbers which are included in the Solver Summary . This parameter
+                 has no effect if solver summaries are disabled.
+
+Exact condition numbers are more computationally expensive than estimated condition numbers (which are included by default Solver Summary ). As for estimated basis condition numbers, exact condition numbers require a basic feasible solution.
+                Some problems or Performance settings will not generate a basic feasible solution. One example is Barrier algorithm with Crossover disabled.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Fuel Reservation Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost applied to unused inventory capacity in the stockpile
+
+Paragraphs:
+Fuel Reservation Charge is per-unit-per-day cost applied to unused inventory capacity in the stockpile i.e. the cost of reserving space in inventory but not using that space.
+
+See also:
+Lists:
+	- Fuel Inventory Charge
+	- Fuel Reservation Cost
+

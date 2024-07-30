@@ -1,0 +1,15 @@
+Header: Zone Objectives Firm Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total generator [Firm Capacity]
+
+Paragraphs:
+Zone Objectives Firm Capacity Coefficient is Coefficient of total generator [Firm Capacity].
+Lists:
+

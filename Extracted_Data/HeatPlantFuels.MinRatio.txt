@@ -1,0 +1,19 @@
+Header: Heat Plant Fuels Min Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Minimum fuel mix ratio
+
+Paragraphs:
+HeatPlant Fuels is the minimum proportion of the total Fuel Offtake that must come from use of this Fuel .
+
+See also:
+Lists:
+	- HeatPlant Fuels Max Ratio
+	- HeatPlant Fuels Ratio
+

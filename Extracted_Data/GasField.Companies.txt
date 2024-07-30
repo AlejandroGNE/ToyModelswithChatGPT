@@ -1,0 +1,11 @@
+Header: Gas Field Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Set of companies that own the gas field
+
+Paragraphs:
+Gas Field Companies is Set of companies that own the gas field
+Lists:
+

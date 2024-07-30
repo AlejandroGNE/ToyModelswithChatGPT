@@ -1,0 +1,26 @@
+Header: Facility Fixed Production Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that [Fixed Operating Level] is violated
+
+Paragraphs:
+Facility Fixed Production
+          Violation Hours is the number of hours that the Fixed Production constraint is violated in the period.
+
+See also:
+Lists:
+	- Facility Fixed
+              Production
+	- Facility Fixed
+              Production Violation
+	- Facility Fixed
+              Production Violation Cost
+	- Facility Min
+              Production
+

@@ -1,0 +1,15 @@
+Header: Node Net Contract Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of contract sales and generation
+
+Paragraphs:
+Node Net Contract Load is the net of contract sales and generation.
+Lists:
+

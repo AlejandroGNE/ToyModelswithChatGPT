@@ -1,0 +1,11 @@
+Header: Message 3054
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	<value>Invalid fiscal year range: <value>-<value>.
+
+Paragraphs:
+Message 3054 occurs in the following circumstances:
+Lists:
+

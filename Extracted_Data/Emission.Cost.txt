@@ -1,0 +1,19 @@
+Header: Emission Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emissions charged at "Price" (if defined, otherwise at "Shadow Price")
+
+Paragraphs:
+Emission Cost is defined as:
+
+See also:
+Lists:
+	- Emission Shadow Price
+	- Emission Generators Allocation
+

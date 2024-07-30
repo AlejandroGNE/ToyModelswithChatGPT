@@ -1,0 +1,19 @@
+Header: Region Imports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Imports
+
+Paragraphs:
+Region Imports is the total imports to the Region and is defined as:
+
+See also:
+Lists:
+	- Region Exports
+	- Region Net Interchange
+

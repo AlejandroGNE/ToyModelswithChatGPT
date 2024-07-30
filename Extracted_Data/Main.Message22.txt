@@ -1,0 +1,16 @@
+Header: Message 22
+
+Table Details:
+Severity:	Minor (value = 4)
+Default Action:	Warn (value = 1)
+Description:	Reserve <name> has all generation below Reserve Cut-Off Size in <value> period(s).
+
+Paragraphs:
+Message 22 occurs in the following circumstances:
+
+The implication of this message is that the costs will not be allocated in the identified simulation period. To remedy this reduce the Cut-off Size .
+Lists:
+	- Reserve Cost Allocation Model is set to a value other than "None".
+	- The selected cost allocation model tries to allocate the Cost of reserve Provision to the selected generators in the Generator Cost Allocation collection.
+	- None of the generators have Generation above the Cut-off Size .
+

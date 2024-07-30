@@ -1,0 +1,15 @@
+Header: Gas Transport Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of Gas Transport project, for expansion planning.
+
+Paragraphs:
+Gas Transport Project Start Date is Start date of Gas Transport project, for expansion planning..
+Lists:
+

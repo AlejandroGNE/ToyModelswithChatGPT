@@ -1,0 +1,30 @@
+Header: Facility Min Production Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum production in hour
+
+Paragraphs:
+Facility Min Production Hour sets a
+          lower bound on the facility's Production in each hour of the simulation. This variant only applies to
+          sub-hourly models i.e. where Horizon Periods per Day is greater
+          than 24. See Min Production for more details.
+
+See also:
+Lists:
+	- Facility Min
+              Production Day
+	- Facility Min
+              Production Week
+	- Facility Min
+              Production Month
+	- Facility Min
+              Production Year
+	- Facility Min
+              Capacity Factor Hour
+

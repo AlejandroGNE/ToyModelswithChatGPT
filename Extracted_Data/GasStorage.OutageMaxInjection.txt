@@ -1,0 +1,15 @@
+Header: Gas Storage Outage Max Injection
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Storage Max Injection during the outage
+
+Paragraphs:
+Gas Storage Outage Max Injection is the storage max injection during the outage.
+Lists:
+

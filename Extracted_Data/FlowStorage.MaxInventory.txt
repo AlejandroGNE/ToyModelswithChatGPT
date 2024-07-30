@@ -1,0 +1,16 @@
+Header: Flow Storage Max Inventory
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of the Commodity allowed in inventory
+
+Paragraphs:
+Flow Storage Max Inventory is
+          the maximum amount of the Commodity allowed in inventory. See Commodity Max Inventory for details.
+Lists:
+

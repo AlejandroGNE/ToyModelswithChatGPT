@@ -1,0 +1,23 @@
+Header: Line Violation Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the flow limit in the counter-reference direction.
+
+Paragraphs:
+Line Hours Violated Back is aggregate ( GWh ) violation, in the summary period (day/week/month/year), of the Line Min Flow limit.
+
+Violations of flow limits are allowed only if the LimitPenalty is defined.
+
+See also:
+Lists:
+	- Hours Violated
+	- Violation
+	- Violation Cost
+	- Violation Cost Back
+

@@ -1,0 +1,21 @@
+Header: Purchaser Cleared Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal bid band
+
+Paragraphs:
+Purchaser Cleared Bid Price is the Price of marginal Offer band, and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Purchaser Bid Cleared
+	- Purchaser Cleared Bid Value
+

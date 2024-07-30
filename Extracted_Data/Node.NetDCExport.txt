@@ -1,0 +1,17 @@
+Header: Node Net DC Export
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Export from the node on DC lines net of losses
+
+Paragraphs:
+Node Net DC Export is the net export out of the node on DC transformers . This property does not include flows on AC lines .
+
+See also: Net Injection
+Lists:
+

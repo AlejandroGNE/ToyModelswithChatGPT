@@ -1,0 +1,11 @@
+Header: List Financial Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Financial Contract objects in the List
+
+Paragraphs:
+List Financial Contracts is set of Financial Contract objects in the List.
+Lists:
+

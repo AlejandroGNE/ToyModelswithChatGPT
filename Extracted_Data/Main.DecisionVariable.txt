@@ -1,0 +1,121 @@
+Header: Decision Variable Class
+
+Table Details:
+
+Paragraphs:
+See also Decision Variable
+            Property Reference for a detailed list of properties for this
+          class of object.
+
+
+
+
+
+
+
+
+
+Decision Variable objects represent generic decision variables that
+          are defined in the mathematical programming problem associated with
+          the simulation. When you create a Decision Variable object a decision
+          variable (matrix column) is allocated to each period of the
+          simulation. You can then use these variables in Constraint equations.
+
+Decision Variable objects are useful when you need to define a Constraint on an aspect of the simulation that is not definable with the default Constraint coefficients, or to
+          associate a cost with a complex set of conditions. Generic Decision
+          Variable objects may also be used to represent commodities that are
+          not directly modelled by the default set of objects in the simulator e.g. an industrial by-product that is a function of other variables that
+          exist in the simulation.
+
+Other potential uses of Decision Variable are:
+
+
+
+
+
+The key property for Decision Variable is Objective
+            Function Coefficient and its period type variants for hour, day,
+          week, month and year types. The period type of this property sets the
+          period type of the Decision Variable. One of these properties must be
+          defined for the Decision Variable to be included in the Model and hence you can use Scenario on
+          this property to switch a Decision Variable in/out as required.
+
+If you define Objective
+            Function Coefficient there will be one decision variable in the
+          mathematical programming problem for each interval of the horizon. You
+          can change the optimization period by instead defining one of:
+
+It is important to note that the period type of a decision variable
+          must not be greater than that of the given simulations phase's step
+          size.
+
+
+
+
+
+Decision Variables can be continuous, integer, binary,
+          semi-continuous or semi-integer according to the Type attribute. By default the variables are non-negative with no upper
+          bound. This can be changed using the Lower
+            Bound and Upper
+            Bound properties.
+
+
+
+
+
+Coefficients on a Decision Variable can be included into the 'core'
+          formulation via properties on the memberships, for example by defining
+          Decision Variable Nodes Net
+            Injection Definition Coefficient .
+
+
+
+
+
+Decision Variable includes the Definition collection which is of Constraint type. The Constraint placed in
+          this collection automatically gets a coefficient on the Decision
+          Variable equal to the Value
+            Coefficient (default of 1).
+
+It is important to set both the definition constraint and the
+          corresponding Decision Variable to be of the same period type - see Objective
+            Function Coefficient and Constraint
+            Period Type .
+
+This definition constraint is not required but is important when you
+          need to define a Decision Variable with a Time
+            Lag - see that topic for details.
+
+
+
+
+
+Decision Variable objects formulation can be controlled by simulation
+          phase with the attributes: Include
+            in LT Plan , Include
+            in PASA , Include
+            in MT Schedule and Include
+            in ST Schedule .
+
+If a Decision Variable is excluded from the current simulation phase,
+          any Constraint that involves this
+          Decision Variable is also excluded from the simulation phase.
+
+
+
+
+
+Decision Variable reports the Value at the optimal solution along with the Reduced
+            Cost .
+Lists:
+	- Objective
+              Function Coefficient Hour
+	- Objective
+              Function Coefficient Day
+	- Objective
+              Function Coefficient Week
+	- Objective
+              Function Coefficient Month
+	- Objective
+              Function Coefficient Year
+

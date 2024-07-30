@@ -1,0 +1,21 @@
+Header: Entity Constraints Acceptable Risk Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of entity acceptable risk
+
+Paragraphs:
+Entity Constraints Acceptable Risk Coefficient is the left-hand side coefficient of the Acceptable Risk in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Entity Acceptable Risk ... {≤, ≥, =} b j
+Lists:
+

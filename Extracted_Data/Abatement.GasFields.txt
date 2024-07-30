@@ -1,0 +1,11 @@
+Header: Abatement Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas fields the abatement technology is connected to
+
+Paragraphs:
+Abatement Gas Fields is the set of gas fields for which the abatement technology is applied.
+Lists:
+

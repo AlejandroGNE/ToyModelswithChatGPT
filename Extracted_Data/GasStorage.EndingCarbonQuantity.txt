@@ -1,0 +1,15 @@
+Header: Gas Storage Ending Carbon Quantity
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Carbon Quantity of the gas storage at the end of period
+
+Paragraphs:
+Gas Storages Ending Carbon Quantity is Carbon Quantity of the gas storage at the end of period.
+Lists:
+

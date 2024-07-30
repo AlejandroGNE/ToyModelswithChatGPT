@@ -1,0 +1,89 @@
+Header: Managing Jobsets
+
+Table Details:
+
+Paragraphs:
+Users can manage jobsets in the jobset tab on the side panel, all jobsets in the system will be listed in the main panel of the jobset tab. You will need permissions from the 'Jobset Module' in the Connect product to modify the jobsets, by default the user role 'Execute' will allow users to add and remove jobsets.
+
+Please click on the add button at the top of the jobset tab (highlighted below) to add a new jobset to the PLEXOS Connect system. After clicking the add button, the 'Add Jobset' window will be opened.
+
+You will be able to specify the name for the new jobset or you can use the drop-down list to select an existing jobset that you wish to add a new job to. You can also specify which folder to store this new jobset by pressing the folder button ( \ ). After selecting a folder, the jobset drop-down will auto update to include all jobsets in that folder. You will also need to select which dataset and arguments the job should execute. By default, the job will use the latest version, we recommend using the latest version so that the most recent data is always used. The arguments will specify which PLEXOS model should be executed by the PLEXOS Engine. By default, all arguments specified would be executed in sequence on the same client. If you would like them to be distributed, you can check a checkbox will appear under the add and remove arguments button when there is more than one argument. You can also specify the followings in more options:
+
+Press okay on the new job dialog box, and the new job will be added to the specified jobset, You will need to dispatch the job to the system for simulation.
+
+Note: Windows Connect Clients can't use Linux versions of the PLEXOS Engine and vice versa.
+
+Executing a jobset will submit all jobs contained within to the Connect System for execution when a Connect Client is next available.
+
+To execute a jobset, select one or more jobsets (#1) and press the play button at the top of the jobset tab (#2A). Alternatively, you can execute individual jobs by opening a jobset. Then, you can selectively choose which jobs in the jobset you would like to dispatch. Click on the play button (#2A) at the top of the jobset window to dispatch the selected jobs.
+
+Note: You will need to have the user permission 'Execute' from the Connect General module.
+
+You can schedule an execution of a jobset or job to be ran sometime in the future or executed any number of times with a delay between each execution. This can be used in automated systems where datasets may be uploaded on a regular interval and a repeating jobset can be configured to execute using the latest dataset version.
+
+When the schedule button is clicked, the above window will open. From here, you can define what time to schedule the jobset to execute and whether to repeat the jobset. When repeating a jobset, the jobset is executed by the Connect Server at the requested interval. This means you'll see the runs slowly appearing over time and not all at once.
+
+Note: You will need to have the user permission 'Execute' from the Connect General module.
+
+You can edit an existing job at any time, this will modify the selected job without affect any currently executing jobs, however, it will affect any scheduled jobs where there are still repeats left on the repeating schedule (see scheduling jobs ).
+
+You can edit an existing job by opening a jobset and from the job window, select a job you wish to edit (#1), right click the selected item and select open (#2). The New Job window (see Figure 3) will open with all of the values automatically filled in with the data from the job you selected. From here, you can make any changes you require to the job, including changing the dataset and arguments. Pressing the 'Ok' button at the bottom will save any changes to the existing job without creating a new job.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Jobset module.
+
+You can restrict access to a folder by right clicking on a folder in the dataset tab and select permissions. You can then click on the add button at the top of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the folder, will not be able access any datasets within the folder.
+
+Note: You will need to have the user permission 'Add\Edit Permissions' from the Connect Jobset module.
+
+When there are multiple runs ready for execution in Connect, the Connect Server will issue the run with the highest priority first and then order by time submitted if 2 runs have the same priority. If you have specific jobs in one jobset that you want ran before or after other jobs, then you can use the priority level to affect the order in which Connect will execute the jobs. You can change the job's priority in three ways;
+
+Incrementing the job or jobset will increase or decrease the priority by 1 whereas editing the job will allow you to set the exact priority number you want.
+
+First, either select one or more jobsets (#1) or open a jobset, select one or more jobs, then right click on any of the selected jobsets or jobs. In the menu for both options, you'll see 'Increase Priority' and 'Decrease Priority' (#2). Choosing either option will either increase or decrease the priority by a value of 1. This change will be saved immediately but will not affect any runs that were created from any of the selected jobs.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect jobset module.
+
+You can create a copy of any jobset or folder by selecting one or more jobset and/or folders from the jobset tab, then right click on a selected item and select 'Copy' from the menu. Next, navigate to any folder that you have permission to, right click inside the jobset tab and select 'Paste' from the menu. This will copy all selected folders, jobsets and the jobs contained within them to the current folder. Any edits made to the copied jobsets will not affect the original jobset. When copying folders, all folders and jobsets contained within that you have permission to view will also be copied. Any sub folder that you do not have permission to access will be skipped. At the start of the copy of any folder you will be prompted about copying any folder permissions, this will copy all folder permissions for every folder during the copy.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Jobset module.
+
+You can move any jobset or folder by selecting one or more jobset and/or folders from the jobset tab, then right click on a selected item and select 'Cut' from the menu. Next, navigate to any folder you that have permission to, right click inside the jobset tab and select 'Paste' from the menu.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Jobset module.
+
+You can rename any jobset or folder by selecting a single jobset or folder from the jobset tab, then right clicking on the selected item and selecting 'Rename' from the menu. Next, you will be asked to input a new name for the item.
+
+You will need to have the user permission 'Add/Edit' from the Connect Jobset module.
+
+Users can configure a job to split a model up to be executed in parallel. On completion of the simulation splits, PLEXOS Connect will stitch the solutions of the simulations as one solution. Note that only one license is used for the execution of split executions, regardless of the number of splits.
+
+When creating a new argument for a job ( see how to create a job ), you'll be asked to select a model. If you choose only 1 model at this stage (#1), then the split button (#2) will be shown at the bottom of the window.
+
+Clicking on the split button will open the configure split window, where you'll be able to choose how to split your PLEXOS model and how many times to split the model
+
+You can perform a split execution using the details of any job where the selected job does not have multiple arguments defined within it. This will use the details of the job to retrieve the data about the model and show you the configure split window (see Figure 10). After configuring your split execution, the job will be submitted for execution but the job itself will not be modified.
+
+To perform a split execution on a job, open a jobset and select a single job (#1). Then right click that job and select the menu option 'Split Run' (#2). After configuring your split execution, press the 'OK' button to submit the split execution to Connect.
+
+Note: Jobs must only have a single model and single argument specified and you'll need the user permission 'Execute' from the Connect General module.
+Lists:
+	- The engine to perform the simulation (by default it will use the latest engine)
+	- The client to perform the simulation (by default it will use any client that is available)
+	- The priority of the job (by default it is zero)
+	- Tag data, this is a simple text field that is copied to the run entry but is not used by PLEXOS
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Add a New Jobset?
+3. How do I Execute Jobsets for Simulation?
+4. How Do I Schedule a Job for Simulation?
+5. How Do I Edit a Job?
+6. How Do I Restrict Access to a Folder?
+7. How Do I Change the Priority of a Job?
+8.How Do I Copy a Jobset or a Folder?
+9. How Do I Move a Jobset or Folder?
+10. How Do I Rename a Jobset or Folder?
+11. How Do I Add a Split Execution as a Job?
+12. How Do I Split Execute an Existing Job?

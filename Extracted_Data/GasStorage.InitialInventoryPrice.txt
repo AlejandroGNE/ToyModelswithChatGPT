@@ -1,0 +1,15 @@
+Header: Gas Storage Initial Inventory Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Price linked to initial inventory
+
+Paragraphs:
+This input represents per unit price of the initial inventory stored in the Gas Storage. We can arrive at initial inventory value by multiplying this price with initial inventory volume of Gas Storage.
+Lists:
+

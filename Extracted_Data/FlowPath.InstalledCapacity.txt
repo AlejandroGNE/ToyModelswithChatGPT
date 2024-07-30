@@ -1,0 +1,19 @@
+Header: Flow Path Installed Capacity
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed capacity (Max Flow x Units)
+
+Paragraphs:
+Flow Path Installed Capacity is
+          the installed capacity of the path, and is defined as:
+
+Installed Capacity = Max
+            Flow × Units
+Lists:
+

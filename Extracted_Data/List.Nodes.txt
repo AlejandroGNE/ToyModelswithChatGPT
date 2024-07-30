@@ -1,0 +1,11 @@
+Header: List Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Node objects in the List
+
+Paragraphs:
+List Nodes is set of Main Node objects in the List.
+Lists:
+

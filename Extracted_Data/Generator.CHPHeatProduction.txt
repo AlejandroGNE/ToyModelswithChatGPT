@@ -1,0 +1,21 @@
+Header: Generator CHP Heat Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat production from CHP mode
+
+Paragraphs:
+Generator CHP Heat Production is Heat production from CHP mode.
+
+This value is the heat production from the CHP stage only. It excludes the Heat Production from Boiler. It is reported directly from the optimization problem.
+
+Notes:
+
+See also Boiler Heat Production , Boiler Fuel Offtake
+Lists:
+

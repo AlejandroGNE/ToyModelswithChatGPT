@@ -1,0 +1,15 @@
+Header: Gas Basin FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Gas Basin FO&M Cost reports the fixed operation and maintenance cost.
+Lists:
+

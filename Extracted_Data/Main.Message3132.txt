@@ -1,0 +1,11 @@
+Header: Message 3132
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The specified output path and file name are too long. The solution will be written to the following temporary location: <value>
+
+Paragraphs:
+Microsoft Windows has the inherent limitation that no file path can be greater than 260 characters long. In the case when PLEXOS attempts to create a solution output path greater than this length PLEXOS will instead save all solution data in a temporary location which it details in the log file.
+Lists:
+

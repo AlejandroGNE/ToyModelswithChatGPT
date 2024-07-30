@@ -1,0 +1,20 @@
+Header: Message 71
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Out of Memory Exception reallocating buffer to <value> kB.
+
+Paragraphs:
+Message 71 occurs when the internal buffers the simulator uses to store the temporary data for the simulation are exhausted and the attempt to expand those buffers is refused by the operating system.
+
+The following actions may help:
+
+See also:
+Lists:
+	- To reduce the amount of temporary data stored in memory, you can try setting the Performance Cache Text Data in Memory to false. This prevents the simulator from using working memory to store data read from Data File objects.
+	- On 32-bit Windows you can increase the amount of memory available to any single process by setting the /3GB boot switch .
+	- Reduce the number of reported summary (day, week, month, year) properties (number of items selected on the Report associated with the executing Model .
+	- Remove any infeasibilities from the simulation. See Message 210 since repairing infeasibilities consumes memory.
+	- Message 88
+

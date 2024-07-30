@@ -1,0 +1,12 @@
+Header: ST Schedule Storage Formulate Head Effects
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If storage head effects should be formulated in ST Schedule.
+
+Paragraphs:
+This option replaces the undocumented parameter Storage.HeadEffectsIn_STSchedule.
+Lists:
+

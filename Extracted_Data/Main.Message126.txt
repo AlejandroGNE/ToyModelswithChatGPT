@@ -1,0 +1,11 @@
+Header: Message 126
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Generator <name> cannot receive Generator Heat Input from itself.
+
+Paragraphs:
+Message 126 occurs in the following circumstances:
+Lists:
+

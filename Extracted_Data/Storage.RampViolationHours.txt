@@ -1,0 +1,21 @@
+Header: Storage Ramp Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the [Max Ramp] constraint is violated.
+
+Paragraphs:
+Storage Ramp Violation Hours is the number of hours that the Max Ramp constraint is violated.
+
+See also:
+Lists:
+	- Storage Ramp
+	- Storage Ramp Price
+	- Storage Ramp Violation
+	- Storage Ramp Violation Cost
+

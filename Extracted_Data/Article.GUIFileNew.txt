@@ -1,0 +1,12 @@
+Header: Create a New File
+
+Table Details:
+
+Paragraphs:
+PLEXOS stores input data in XML files. You create on database per system you are studying. To create a new database click the New button on the Ribbon Menu, Main Ribbon or Program Button.
+
+Once created, a new instance of the input window should be created with the title <New Database> (Figure 1) and (Figure 2). The settings on this form are described in Settings article.
+
+Note that changes you make to the database are not saved automatically. You must use the Save command. However, PLEXOS recognizes when there are unsaved changes and prompts for save before exiting.
+Lists:
+

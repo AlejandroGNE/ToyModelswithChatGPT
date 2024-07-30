@@ -1,0 +1,19 @@
+Header: Generator Ramp Up Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Ramp Up] constraint.
+
+Paragraphs:
+Generator Ramp Up Violation is the amount that the Max Ramp Up constraint is violated. Note that this is expressed as megawatts not megawatts/minute.
+
+See also:
+Lists:
+	- Generator Hours of Ramp Up Violation
+	- Generator Ramp Up Violation Cost
+

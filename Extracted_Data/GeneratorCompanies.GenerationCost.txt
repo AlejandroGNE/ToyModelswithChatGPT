@@ -1,0 +1,15 @@
+Header: Generator Companies Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of generation
+
+Paragraphs:
+Generator Generator Companies Generation Cost is defined as:
+Lists:
+

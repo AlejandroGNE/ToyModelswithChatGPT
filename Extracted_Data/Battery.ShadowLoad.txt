@@ -1,0 +1,15 @@
+Header: Battery Shadow Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load before mark-up models
+
+Paragraphs:
+Battery Shadow Load is the Load before mark-up models.
+Lists:
+

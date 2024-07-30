@@ -1,0 +1,11 @@
+Header: Region Utilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of utility-owned companies (competitive fringe in RSI)
+
+Paragraphs:
+Region Utilities is set of utility-owned companies (competitive fringe in RSI )
+Lists:
+

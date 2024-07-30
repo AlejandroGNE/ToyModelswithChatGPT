@@ -1,0 +1,15 @@
+Header: Storage Spill Rate
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Spill to "the sea"
+
+Paragraphs:
+Storage Spill Rate is Spill to "the sea".
+Lists:
+

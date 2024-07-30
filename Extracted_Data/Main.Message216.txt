@@ -1,0 +1,11 @@
+Header: Message 216
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> Unit Commitment Optimality = "Rounded Relaxation" might violate [Min Up Time]/[Min Down Time] because Constraint Generators [Units Generating Coefficient] is defined.
+
+Paragraphs:
+Message 216 occurs in the following circumstances:
+Lists:
+

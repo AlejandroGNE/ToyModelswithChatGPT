@@ -1,0 +1,19 @@
+Header: Flow Node Consumption
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Commodity consumed
+
+Paragraphs:
+Flow Node Consumption is the
+          consumption of the Commodity flowing on the network by the Facilities connected to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Production
+

@@ -1,0 +1,18 @@
+Header: Pool ORDC Offline Price Adder
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	ORDC Offline Price Adder
+
+Paragraphs:
+Pool ORDC Offline Price Adder is the ORDC Offline Price Adder.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

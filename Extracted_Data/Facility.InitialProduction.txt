@@ -1,0 +1,52 @@
+Header: Facility Initial Production
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Production at time zero
+Property	Value	Units
+Units	1	-
+Max Operating Level	500	-
+Min Operating Factor	24	%
+Max Ramp Up	120	-
+Max Ramp Down	120	-
+Initial Production	350	-
+Initial Units Generating	1	-
+Initial Hours Up	6	h
+Initial Hours Down	0	h
+Min Up Time	18	h
+Min Down Time	12	h
+
+Paragraphs:
+Facility Initial Production sets
+          the initial ( t =0) production state of the facility i.e. the total production across all units. It is used to initialize
+          constraints such as Max Ramp Up , Max Ramp Down , Min
+            Up Time , Min Down Time , Max Up Time , and Max
+            Down Time . This property is combined with Initial
+            Units Operating and Initial
+            Hours Up or Initial
+            Hours Down when enforcing minimum/maximum up and down time
+          constraints. If you omit Initial
+            Units Operating then it is assumed that, if the initial
+          production is non-zero, all available units are running, otherwise if
+          Initial Production is zero then all units are off at t =0.
+
+If Initial Production is not defined then the initial production is
+          freely optimized i.e. a value is determined by the
+          optimization that minimizes the impact of the initial conditions on
+          the overall system cost.
+
+
+
+In the example in Table 1 the production at t =0 is one unit
+          operating at 500. Because the maximum ramp is 120 the unit can
+          reach a maximum of 470 (350 + 120) or minimum of 230 (350 - 120)
+          in the first hour. Additionally, the unit has been up for six hours
+          and must continue operating for a further 12 to meet the minimum up
+          time.
+Lists:
+

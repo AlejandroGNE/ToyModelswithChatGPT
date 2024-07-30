@@ -1,0 +1,9 @@
+Header: Gas Capacity Release Offer Class
+
+Table Details:
+Description:	The release of available pipeline or storage capacity to another party.
+
+Paragraphs:
+
+Lists:
+

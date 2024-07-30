@@ -1,0 +1,21 @@
+Header: Generator CHP Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Combined heat and power generation from heat mode
+
+Paragraphs:
+CHP Generation is the electrical output from the CHP mode of the generator. It is compute as:
+
+CHP Generation = (1/Ec) * Power-to-Heat Ratio * CHP Heat Production
+
+Where Ec is the energy conversion constant 3.6 [Joules/Wh] (metric) or 3.412 [BTU/Wh] (imperial).
+
+See also Generation , Condense Mode Generation
+Lists:
+

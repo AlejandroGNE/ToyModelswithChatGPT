@@ -1,0 +1,15 @@
+Header: Water Pump Units Operating
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	the number of units on the pump operating in a given period
+
+Paragraphs:
+Water Pump Units Operating is the number of units on the pump operating in a given period.
+Lists:
+

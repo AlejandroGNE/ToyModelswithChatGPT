@@ -1,0 +1,19 @@
+Header: Constraint LHS Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Action applied over left-hand side coefficients
+
+Paragraphs:
+Constraint LHS Type is the action applied over left-hand side coefficients of the constraint. It can take these values:
+
+When using 'MAXSUM' and 'MAX' as constraint type, constraint sense will be set to '≤' and RHS value defined by RHS Day/Week/Month/Year/Custom will not be scaled by 1000.
+
+See also Constraint LHS Type
+Lists:
+

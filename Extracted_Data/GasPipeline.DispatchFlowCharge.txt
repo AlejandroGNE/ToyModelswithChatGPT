@@ -1,0 +1,15 @@
+Header: Gas Pipeline Dispatch Flow Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Dispatch cost of extracting gas at the pipeline receiving node
+
+Paragraphs:
+Gas Pipeline Dispatch Flow Charge is Dispatch cost of extracting gas at the pipeline receiving node.
+Lists:
+

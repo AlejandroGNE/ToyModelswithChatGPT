@@ -1,0 +1,20 @@
+Header: Facility Fixed Production Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Method of interpreting zero values of the [Fixed Production] property.
+
+Paragraphs:
+Facility Fixed Production Method
+          controls how the Fixed
+            Production property is handled when it has a zero value:
+
+By setting this to "Relax when Zero" you can use the fixed production
+          constraint sporadically during the horizon.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Stochastic EFOR Maintenance Adjust
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Adjust EFOR to account for Units Out
+Coal	Forced Outage Rate	10		%	1		
+Coal	Units Out	1		-	1	Sunday, 1 March 2015 00:00:00	Sunday, 31 May 2015 00:00:00
+
+Paragraphs:
+This property applies to all outage facilities such as Generator , Line , Gas Pipeline . It controls the interaction between Forced Outage Rate and planned maintenance defined with Units Out . By default Forced Outage Rate is interpreted as the mean percentage of all hours of the year that the facility is unexpectedly out-of-service. Switching this parameter to true changes this interpretation to be the percentage of in-service hours rather than all hours.
+
+For example, if one defines the following properties:
+
+By default the unit is expected to be forced out for 0.1 × 8760 = 876 hours in the year. With the parameter toggled to true the unit is expected out 0.1 × (8760 - 92 × 24) = 655.2 hours, the difference being the amount of time on scheduled maintenance.
+Lists:
+

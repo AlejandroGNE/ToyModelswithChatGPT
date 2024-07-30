@@ -1,0 +1,47 @@
+Header: Purchaser Max Energy
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy
+Units	1	-	
+Bid Quantity	100	MW	
+Bid Price	100	$/MWh	
+Max Energy Month	24	GWh	M01
+Max Energy Month	66	GWh	M02
+Max Energy Month	68	GWh	M03
+Max Energy Month	63	GWh	M04
+Max Energy Month	76	GWh	M05
+Max Energy Month	36	GWh	M06
+Max Energy Month	77	GWh	M07
+Max Energy Month	46	GWh	M08
+Max Energy Month	22	GWh	M09
+Max Energy Month	4	GWh	M10
+Max Energy Month	15	GWh	M11
+Max Energy Month	8	GWh	M12
+
+Paragraphs:
+The Purchaser Max Energy, and the period-specific variants, defines a upper bound on the Purchaser's Load on an hourly , daily , weekly , monthly , or annual basis.
+
+Example :
+
+A purchaser may be defined with periodic limits on the purchaser's energy like this:
+
+Note the use of Max Energy Month variant and timeslices (patterns) to change the energy limits by each month of the year.
+
+The simulator converts the energy constraints into Constraint objects. By default the constraints are hard i.e. no violation is allowed. If you prefer to allow violations then use the Max Energy Penalty property.
+
+Please note: The interval data type for these properties is not supported.
+
+See also:
+Lists:
+	- Purchaser Max Load Factor
+	- Purchaser Min Energy
+	- Purchaser Min Load Factor
+	- Purchaser Max Energy Violation
+	- Purchaser Max Energy Violation Cost
+

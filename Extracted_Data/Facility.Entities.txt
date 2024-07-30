@@ -1,0 +1,12 @@
+Header: Facility Entities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Entities associated with the Facility
+
+Paragraphs:
+Facility Entities is set of Entities
+          associated with the Facility.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Transmission Report Injection and Load Nodes
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If all injection and load buses (nodes) are reported on (regardless of voltage)
+
+Paragraphs:
+Transmission Report Injection and Load Nodes turns on reporting of all buses that are either injection points (have generators or other generation sources connected), or load points (have non-zero Load Participation Factor ) regardless of their voltage level and setting of Transmission Report Voltage Threshold .
+Lists:
+

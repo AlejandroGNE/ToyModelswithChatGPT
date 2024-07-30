@@ -1,0 +1,18 @@
+Header: Region Constrained Off Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constrained off cost
+
+Paragraphs:
+Region Constrained Off Cost applies when Constraint Payments Enabled is toggled 'on'. It is the total constrained off payments made to Generators and is defined as:
+
+See also:
+Lists:
+	- Region Constrained On Cost
+

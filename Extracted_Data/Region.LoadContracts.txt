@@ -1,0 +1,11 @@
+Header: Region Load Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Load Contracts is the set of load Physical Contracts in the Region. This collection is reserved for reporting only.
+Lists:
+

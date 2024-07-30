@@ -1,0 +1,15 @@
+Header: Battery Self Discharge Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses due to self-discharge
+
+Paragraphs:
+Battery Self discharge losses are the losses incurred due to internal self-discharge effects. It is defined as:
+Lists:
+

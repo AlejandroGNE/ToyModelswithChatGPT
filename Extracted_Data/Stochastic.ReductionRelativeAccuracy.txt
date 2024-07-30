@@ -1,0 +1,12 @@
+Header: Stochastic Reduction Relative Accuracy
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	Between 0 And 1
+Description:	Stop sample reduction when the accuracy of the reduced sample set drops to this level.
+
+Paragraphs:
+Stochastic Reduction Relative Accuracy, either alone or in combination with Reduced Sample Count , is used to invoke the Sample Reduction Algorithm . The default value of one means that no reduction will occur. Any number that is less than one but non-negative will cause the algorithm to reduce the samples after sampling and before simulation.
+Lists:
+

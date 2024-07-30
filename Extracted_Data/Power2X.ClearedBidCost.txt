@@ -1,0 +1,20 @@
+Header: Power2X Cleared Bid Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under the Power2X bid curve
+
+Paragraphs:
+Power2X Cleared Bid Cost is the cost of Load as seen by the Market Operator and is defined as:
+
+Cleared Bid Cost = ∑ ( b ) ( Bid Price b × Bid Cleared b ) See also: Power2X Bid Cleared
+
+See also:
+Lists:
+	- Power2X Bid Cleared
+

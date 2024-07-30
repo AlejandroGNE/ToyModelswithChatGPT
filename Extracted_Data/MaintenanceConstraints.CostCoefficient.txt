@@ -1,0 +1,15 @@
+Header: Maintenance Constraints Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of maintenance cost incurred.
+
+Paragraphs:
+Maintenance Constraints Cost Coefficient is Coefficient of maintenance cost incurred..
+Lists:
+

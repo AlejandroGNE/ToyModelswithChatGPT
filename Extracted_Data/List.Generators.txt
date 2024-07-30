@@ -1,0 +1,11 @@
+Header: List Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Generator objects in the List
+
+Paragraphs:
+List Generators is set of Main Generator objects in the List.
+Lists:
+

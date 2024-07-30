@@ -1,0 +1,15 @@
+Header: Generator Initial Units Pumping
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units pumping at time zero
+
+Paragraphs:
+Generator Initial Units Pumping is Number of units pumping at time zero. It is a part of the generator initial condition.
+Lists:
+

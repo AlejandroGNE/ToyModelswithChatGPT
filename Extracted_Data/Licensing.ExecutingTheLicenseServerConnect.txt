@@ -1,0 +1,34 @@
+Header: Licensing: ExecutingTheLicenseServerConnect
+
+Table Details:
+
+Paragraphs:
+The license server will be started automatically when PLEXOS Connect Server starts.
+
+With the PLEXOS Connect Server window open, clicking the button "Licenses" will open the License Server Control Panel.
+
+Control Panel Because the license server is a service, the service itself can have no visual component. This is where the control panel comes in. The control panel is not physically part of the license server service itself, it is designed to communicate with the service to provide information about what service is doing, and control the settings of the service. To allow PLEXOS Connect Server to continue operating uninterrupted, all adjustable settings in the License Server Control Panel will be applied without the need to restart server. For more information about the control panel, see the links below More Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab Licensing Main Menu
+
+Because the license server is a service, the service itself can have no visual component. This is where the control panel comes in. The control panel is not physically part of the license server service itself, it is designed to communicate with the service to provide information about what service is doing, and control the settings of the service. To allow PLEXOS Connect Server to continue operating uninterrupted, all adjustable settings in the License Server Control Panel will be applied without the need to restart server. For more information about the control panel, see the links below More Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab Licensing Main Menu
+
+Because the license server is a service, the service itself can have no visual component. This is where the control panel comes in.
+
+The control panel is not physically part of the license server service itself, it is designed to communicate with the service to provide information about what service is doing, and control the settings of the service. To allow PLEXOS Connect Server to continue operating uninterrupted, all adjustable settings in the License Server Control Panel will be applied without the need to restart server.
+
+For more information about the control panel, see the links below
+
+More Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab Licensing Main Menu
+
+Control Panel - Monitor Tab Control Panel - Config Tab Control Panel - Access List Tab Control Panel - Groups Tab Control Panel - License Reservation Tab Licensing Main Menu
+Lists:
+	- Control Panel - Monitor Tab
+	- Control Panel - Config Tab
+	- Control Panel - Access List Tab
+	- Control Panel - Groups Tab
+	- Control Panel - License Reservation Tab
+	- Licensing Main Menu
+
+
+H2s:
+Control Panel
+More

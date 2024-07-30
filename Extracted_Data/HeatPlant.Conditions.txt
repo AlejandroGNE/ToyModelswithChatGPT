@@ -1,0 +1,11 @@
+Header: Heat Plant Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Heat Plant
+
+Paragraphs:
+Heat Plant Conditions is set of conditional Variable objects involving the Heat Plant
+Lists:
+

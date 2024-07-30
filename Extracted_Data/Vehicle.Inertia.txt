@@ -1,0 +1,20 @@
+Header: Vehicle Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Vehicle Inertia is the inertia
+          provided by the vehicle when connected to a charging station and is
+          defined as:
+
+Inertia = Inertia
+            Constant × ( Charging + Discharging )
+Lists:
+

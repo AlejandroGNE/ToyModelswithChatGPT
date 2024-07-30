@@ -1,0 +1,16 @@
+Header: Flow Node Expansion Optimality
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	In (0,2)
+Key Property:	No
+Description:	Expansion planning integerization scheme.
+
+Paragraphs:
+See Facility Expansion
+            Optimality for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Line Min Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time to repair (hr)
+
+Paragraphs:
+Line Min Time To Repair is the line equivalent of Generator Min Time to Repair .
+Lists:
+

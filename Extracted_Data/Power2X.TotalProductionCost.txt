@@ -1,0 +1,15 @@
+Header: Power2X Total Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total production cost including VO&M, start and shutdown costs
+
+Paragraphs:
+Power2X Total Production Cost is Total production cost including VO&M, start and shutdown costs.
+Lists:
+

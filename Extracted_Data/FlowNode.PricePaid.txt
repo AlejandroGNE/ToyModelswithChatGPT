@@ -1,0 +1,22 @@
+Header: Flow Node Price Paid
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price paid
+
+Paragraphs:
+Flow Node Price Paid is the
+          average price paid for purchases from Markets attached to the Flow Node, and is defined as:
+
+Price Paid = Cost / Purchases
+
+See also:
+Lists:
+	- Flow Node Price
+              Received
+

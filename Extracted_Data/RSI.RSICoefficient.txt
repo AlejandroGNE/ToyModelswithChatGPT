@@ -1,0 +1,15 @@
+Header: RSI RSI Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	RSI Coefficient in LI equation
+
+Paragraphs:
+This is the coefficient of RSI in the equation for the Lerner Index
+Lists:
+

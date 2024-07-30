@@ -1,0 +1,16 @@
+Header: Power2X Max Ramp Down
+
+Table Details:
+Units:	MW/min
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate that applies at the given load point
+
+Paragraphs:
+Refer to Facility Max
+            Max Ramp Down for details.
+Lists:
+

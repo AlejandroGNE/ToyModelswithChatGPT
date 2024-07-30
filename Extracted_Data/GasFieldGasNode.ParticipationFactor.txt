@@ -1,0 +1,15 @@
+Header: Gas Field Gas Node Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Proportion of gas field contributing to a gas node
+
+Paragraphs:
+Gas Field Gas Node Participation Factor is Proportion of gas field contributing to a gas node.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Generator Start Fuels Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel price
+
+Paragraphs:
+Generator Start Fuels Price is the price of the start fuel including any Transport Charge and is defined as:
+
+See also:
+Lists:
+	- Start Fuels Cost
+

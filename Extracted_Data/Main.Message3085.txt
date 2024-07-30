@@ -1,0 +1,11 @@
+Header: Message 3085
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Timeslice <name> statement contains no identifier.
+
+Paragraphs:
+Message 3085 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Reliability Skip Steps
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates steps that should be skipped.
+
+Paragraphs:
+Reliabilities Skip Steps indicates steps that should be skipped during ST Schedule. List of steps to be skipped is specified as time-series values indicating the steps to be skipped. A step is skipped if it is not the first step of the simulation, and all intervals within the step are marked as such.
+
+Example:
+
+In the following example, all intervals in January 2017 are to be skipped, except those in January 16 th . Since the ST Schedule daily steps, 
+              only 2 steps will be evaluated,January 1 st and January 16 th .
+
+Skip Step Input:
+
+ST Schedule Horizon:
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Company Auxiliary Use
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Auxiliary use
+
+Paragraphs:
+Company Auxiliary Use is the auxiliary use of Generators in the Company :
+
+See also:
+Lists:
+	- Company Generation at RRN
+

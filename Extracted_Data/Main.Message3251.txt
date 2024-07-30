@@ -1,0 +1,11 @@
+Header: Message 3251
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Constraint <value> has a period type <value> that is inconsistent with expansion period type <value>.
+
+Paragraphs:
+Message 3251 occurs in the following circumstances:
+Lists:
+

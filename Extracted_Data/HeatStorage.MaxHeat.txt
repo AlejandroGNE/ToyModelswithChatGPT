@@ -1,0 +1,15 @@
+Header: Heat Storage Max Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum heat allowed in storage
+
+Paragraphs:
+Heat Storages Max Heat is the maximum heat allowed in storage.
+Lists:
+

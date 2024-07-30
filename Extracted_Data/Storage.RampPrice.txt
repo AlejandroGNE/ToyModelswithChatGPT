@@ -1,0 +1,21 @@
+Header: Storage Ramp Price
+
+Table Details:
+Units:	$/GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Incremental value of additional ramping capability.
+
+Paragraphs:
+Storage Ramp Price is the shadow price on the Max Ramp constraint, and can be interpreted as the incremental value of additional storage ramping capability.
+
+See also:
+Lists:
+	- Storage Ramp
+	- Storage Hours of Ramp Violation
+	- Storage Ramp Violation
+	- Storage Ramp Violation Cost
+

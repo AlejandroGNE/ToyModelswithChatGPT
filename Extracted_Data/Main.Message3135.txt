@@ -1,0 +1,13 @@
+Header: Message 3135
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Branch <name> NodeFrom and NodeTo are both defined as <name>. It is dropped from simulation.
+
+Paragraphs:
+Message 3135 occurs in the following circumstances:
+Lists:
+	- Node From and Node To of the Line are the same object.
+	- Node From and Node To of the Transformer are the same object.
+

@@ -1,0 +1,12 @@
+Header: Diagnostic IIS
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Compute the irreducibly inconsistent set (IIS) for each infeasibility and write to disk in text format
+
+Paragraphs:
+[detail]
+Lists:
+

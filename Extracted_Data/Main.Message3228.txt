@@ -1,0 +1,11 @@
+Header: Message 3228
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> is too long for ST Schedule. This constraint will be prorated each step.
+
+Paragraphs:
+Message 3228 occurs in the following circumstances:
+Lists:
+

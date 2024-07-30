@@ -1,0 +1,24 @@
+Header: Vehicle Charge Price
+
+Table Details:
+Units:	c/kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid charging
+
+Paragraphs:
+Vehicle Charge Price is the price
+          paid for electricity to charge the vehicle's battery. It is defined
+          as:
+
+Charge Price = Charge
+            Cost / Charging
+
+See also:
+Lists:
+	- Vehicle Discharge
+              Price
+

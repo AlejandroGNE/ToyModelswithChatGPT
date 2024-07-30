@@ -1,0 +1,15 @@
+Header: Purchaser Benefit Function Shape
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Shape of the benefit function.
+
+Paragraphs:
+Purchaser Benefit Function Shape selects between linear (LP based) and quadratic (QP based) solutions of the Nash-Cournot optimization.
+Lists:
+

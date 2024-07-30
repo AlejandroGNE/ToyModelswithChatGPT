@@ -1,0 +1,11 @@
+Header: Message 85
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	<value> <name> minimum operating level (<value>) should be less than or equal to maximum operating level (<value>).
+
+Paragraphs:
+
+Lists:
+

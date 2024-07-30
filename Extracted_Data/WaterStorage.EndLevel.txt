@@ -1,0 +1,15 @@
+Header: Water Storage End Level
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water storage level at the end of period
+
+Paragraphs:
+Water Storage End Level is Water storage level at the end of period.
+Lists:
+

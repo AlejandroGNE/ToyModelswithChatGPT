@@ -1,0 +1,17 @@
+Header: Water Storage Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the Water storage
+
+Paragraphs:
+Water Storage Retirement Cost is the cost of retiring the water storage.
+
+Retirement Cost is calculated as:
+Lists:
+

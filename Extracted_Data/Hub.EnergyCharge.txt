@@ -1,0 +1,15 @@
+Header: Hub Energy Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy component of the hub price
+
+Paragraphs:
+Hub Energy Charge is Energy component of the hub price. It is aggregated from Node Energy Charge
+Lists:
+

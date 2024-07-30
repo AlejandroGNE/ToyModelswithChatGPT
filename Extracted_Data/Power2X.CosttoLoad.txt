@@ -1,0 +1,23 @@
+Header: Power2X Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of electric load
+
+Paragraphs:
+Power2X Cost to Load is the cost of
+          the electricity consumed by the facility. It is defined as:
+
+Cost to Load = Price
+            Paid x Load
+
+See also:
+Lists:
+	- Power2X Production
+              Cost
+

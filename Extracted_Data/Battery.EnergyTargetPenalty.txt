@@ -1,0 +1,15 @@
+Header: Battery Energy Target Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the battery stored energy target.
+
+Paragraphs:
+Battery Energy Target Penalty is Penalty for violating the battery stored energy target..
+Lists:
+

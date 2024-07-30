@@ -1,0 +1,17 @@
+Header: Heat Plant Class
+
+Table Details:
+Description:	Heat production plant
+
+Paragraphs:
+See also Heat Plant Property Reference for a detailed list of properties for this class of object.
+
+Heat Plant is a special object that produces heat form burning the fuels , and/or recovers heat from Heat Input Nodes and/or converting electricity to heat. To the electrical network, heat plant is a load source (anti-generator). A Heat Plant connects to the electrical system via the Nodes and the heat system via Heat Output Nodes and/or Heat Input Nodes memberships.
+
+Example: Modelling a Waste Heat Recovery Boiler (WHRB) that recovers waste heat from a Gas Turbine (GT) generator with heat top-up from a gas duct burner or electric boiler. Other special modelling requirements are:
+
+Modeling guide:
+
+See also the Heat Modelling article for details.
+Lists:
+

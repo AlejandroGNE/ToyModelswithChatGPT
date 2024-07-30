@@ -1,0 +1,15 @@
+Header: Line Objectives Flow Back Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of counter-reference direction flow
+
+Paragraphs:
+Line Objectives Flow Back Coefficient is Coefficient of counter-reference direction flow.
+Lists:
+

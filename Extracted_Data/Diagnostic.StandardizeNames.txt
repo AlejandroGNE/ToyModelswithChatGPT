@@ -1,0 +1,28 @@
+Header: Diagnostic Standardize Names
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Generic writer will standardize names in LP and SOL files
+
+Paragraphs:
+This option is used with the Generic Writer .
+
+The different solvers use different standards for variable naming.  For example, a variable name "Coal Gen", CPLEX will replace the white space with an underscore character.  This means that LP files written by one solver may not be read correctly using a different solver (e.g. CPLEX).  When this option is enabled the Generic Writer standardizes the constraint and variable names.  The following characters are replaced with an underscore character:
+
+See also:
+Lists:
+	- ' '
+	- '-'
+	- '/'
+	- '+'
+	- Use Generic Writer
+	- Sort Row Column Names
+	- Zero Tolerance LP
+	- Zero Tolerance SOL
+	- Decimal Places LP
+	- Decimal Places SOL
+	- Skip Zero Values
+	- Strip Model Name
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Take-or-Pay Violation
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of take-or-pay constraint
+
+Paragraphs:
+Gas Contract Take-or-Pay Violation is Violation of take-or-pay constraint.
+Lists:
+

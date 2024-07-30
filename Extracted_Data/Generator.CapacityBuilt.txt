@@ -1,0 +1,22 @@
+Header: Generator Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity built (Max Capacity x Units Built)
+
+Paragraphs:
+Generator Capacity Built is the generation capacity built in LT Plan and is calculated as:
+
+Note that this is the 'raw' capacity, not accounting for Firm
+            Capacity .
+
+See also:
+Lists:
+	- Generator Capacity
+              Retired
+

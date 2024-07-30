@@ -1,0 +1,243 @@
+Header: PLEXOS 5 Upgrade Guide
+
+Table Details:
+
+Paragraphs:
+The article describes PLEXOS Version 5: the design goals, and key changes and improvements. All users of PLEXOS 4. x should read this section before upgrading.
+
+The design mantra for the development of PLEXOS 5 was "Simply Faster".
+
+Simpler:
+
+Faster:
+
+New capacity expansion functionality in PLEXOS 5 is described in the LT Plan page.
+
+PLEXOS 5 introduces key changes and improvements such as:
+
+The next section highlights the differences between certain features available both in PLEXOS 4. x and PLEXOS 5. The final section of this article reviews new features in PLEXOS 5 not present in PLEXOS 4. x .
+
+PLEXOS 5.0 automatically upgrades any PLEXOS 4. x database, and makes a backup copy of the PLEXOS 4. x version. Upgrading a PLEXOS 4. x database to PLEXOS 5 is an effortless, automatic process, even though there are some significant changes in the
+        database formats (see Database Schema for details).
+
+The most important functional change in the input side interface is that PLEXOS now works on a temporary copy of your
+        data, so you must save your file after making changes, whereas in PLEXOS 4. x all changes were written directly to your input database. PLEXOS 5.0 will keep track of when the file is
+        'dirty' and needs saving, and will warn you if you about to exit without saving. In other words, you need to
+        explicitly confirm whether the changes are to be saved or not. For this purpose, a new Save command has been added to File
+        menu. This command is also available through a toolbar button.
+
+Whenever a save is done a backup file (.BAK) is created, so you can roll-back to a previous version if you wish.
+
+The look-and-feel of the input-side user interface is essentially the same as the PLEXOS 4. x version. There are however a number of important changes to highlight.
+
+Object tree display selection
+
+For a start, you can use the new Configuration menu item to select which type of object will be displayed in the object
+        tree on the left side of the PLEXOS input interface. With the appropriate settings, the object tree can then be set so that
+        only the relevant objects for the modelling task at hand are displayed, rather than the long list of all available object
+        types.
+
+You need to display the class in the Class Explorer in order to be able to add the corresponding type of object to your
+        model. Items can be added or removed from the list of displayed objects by checking a 'box tree' found in the
+        'Classes' pane available on the Configuration form. Any change of class selection requires that the database be
+        saved, closed and reopened (this is done automatically upon exiting the Configuration form).
+
+Static vs dynamic properties
+
+Similarly to the classes, you also control which properties get displayed on the Properties tree through the
+        Configuration menu. If you want to use a certain object property, this property needs to have been previously enabled
+        through the Configuration menu. To do so, simply make the appropriate checking in the 'box tree' found in the
+        'Properties' pane available on the Configuration form.
+
+Maybe more important than the property display selection feature, is the fact that you now have the ability to specify
+        properties as being either static or dynamic . Static properties are both time and scenario invariant, whereas dynamic properties can change their value
+        across the planning horizon and admit scenario tags.
+
+To switch properties between static and dynamic status you can either:
+
+Any change of property selection or status requires that the database be saved, closed and reopened (this is done
+        automatically upon exiting the Configuration form).
+
+In addition to the explicit distinction between static and dynamic properties, PLEXOS 5 also features attributes . Similarly to static properties, attributes have values that remain constant over the whole simulation
+        planning horizon, and do not admit scenario tags. The key difference is that static properties can be set to be dynamic,
+        whereas attributes always remain static.
+
+If you intend to upgrade a PLEXOS 4. x for use under PLEXOS 5 please note the following. The upgrading utility will automatically work out which data
+        from PLEXOS 4. x should be dynamic and will set up your database properly; so from this point you need only use the configuration
+        to make incremental changes.
+
+The distinction between attributes, static and dynamic properties affects how the properties are displayed on the data
+        grid. The properties tab is now split into a lower pane for the dynamic properties, and an upper pane for the attributes
+        and static properties. Dynamic properties are edited in the same style grid as in PLEXOS 4. x ; but static properties and attributes are edited in a column-wise grid. When you move a datum from static to
+        dynamic it is migrated from the column-wise mode to list mode automatically.
+
+A significant reorganization of Model properties has occurred.
+
+Simulation phase classes
+
+The Horizon class no longer has the on/off switches or other controls for PASA/MT Schedule/ST Schedule. These have been
+        moved out to separate classes, and join the new class LT Plan. You interact with these objects to control when and how
+        these algorithms run. Each Model must have associated with it one of each simulation phase object, but your database can
+        contain any number. For example you can create ST Schedule objects called "ST enabled", "ST disabled"
+        and associate them with Model appropriately.
+
+Simulation options classes
+
+The Model properties form, which previously contained a huge number of options organized into tabs, has been greatly
+        simplified. The detailed options that control market design, production options, transmission options etc. are now defined on separate option classes:
+
+Like the phase classes, each Model must be associated with one of each of these objects, but your database can
+        contain any number of each.
+
+The new organization of model properties into simulation phase and options classes makes it easier to manage multiple
+        models. For example, if you wanted to have lossy and lossless transmission options mixed across 100 models, you can do this
+        by creating two "Transmission" objects, one with losses on, one with them off, and then use the memberships
+        wizard to associate the Models to the Transmission objects as needed.
+
+As another example, assume you wanted to change all models to use MIP unit commitment, and you had 100 models. Under the
+        old method you would need to edit all 100 models, but under the new scheme you can just change this on the Production
+        object and all Models that use that object will use that new setting.
+
+In PLEXOS 5, you can select whether the output data should be written to a separate directory rather than the source
+        directory (the folder containing the input database). This is now the default and you can switch between writing to a
+        sub-folder or to the source folder in the model properties form. There is also an option to write a unique solution file or
+        folder name (which includes version number and datetime stamp). This last option is particularly useful to prevent
+        unintentional solution file overwriting.
+
+Note that the simulation log, and any diagnostic files are also written to the solution folder.
+
+The following new features are available to enhance solution viewing:
+
+Diagnostic is a new simulation object available in PLEXOS 5. Diagnostic settings were specified in PLEXOS 4.8 through
+        the "Diagnostics" of the "Settings" form. This way, these settings were session specific. With the new
+        Diagnostics objects, the diagnostic information that is now provided for each simulation run is no longer set at the
+        session level, but is rather set persistently on a model-by-model basis. To do this, proceed as follows:
+
+The PLEXOS 5.0 database design includes some significant differences with respect to PLEXOS 4. x . Text keys have been replaced by numeric keys, making the database both faster and more efficient.
+
+You can still interact directly with the input database if necessary, but you need to be aware of the changes in
+        database design between these two point releases. These differences are described in the Database Schema wiki article.
+
+This section reviews new modelling features in PLEXOS 5, previously not available in PLEXOS 4. x .
+
+Solver choice and settings PLEXOS 5 seamlessly integrates with three state-of-the-art solvers:
+
+MOSEK is the default solver, and is always available. You can then choose to add either or both CPLEX or Xpress-MP. Note
+        that any one simulation can only use one solver at a time, but using the new Performance object you can easily switch solvers.
+
+Discussions about PLEXOS support of multiple solvers and algorithm performance fine tuning through PLEXOS model settings
+        can be found in the Optimizing Performance wiki article.
+
+LT Plan PLEXOS 5 comes with new capacity expansion analysis functionality. This new algorithm is
+        implemented in PLEXOS 5 as an additional simulation phase called LT Plan.
+
+To include an LT Plan phase in your simulation proceed as follows:
+
+The LT Plan algorithm, properties and settings are described in detail in the LT Plan wiki article.
+
+OpenPLEXOS PLEXOS 5 allows you to customize many of the built-in functions and algorithms in the PLEXOS software; and some
+        of the built-in functions are distributed as open-source code projects with the PLEXOS installation package. This new
+        feature is targeted at developers rather than end-users as it requires significant programming skills. It is covered in
+        the Introduction to OpenPLEXOS wiki
+        article.
+
+Quick review interface When you open up a PLEXOS 5.0 database directly in Access, you will see a
+        'default' set of forms with which you can directly access the input data. These are safe to use on objects,
+        memberships, and attributes, but you can only add or edit properties in this view, not delete them. You should use the
+        PLEXOS interface normally, this concise interface built into the input database is there so you can quickly lookup
+        settings.
+
+Filter Properties by Model A new toolbar item has been added that allows you to filter properties by a
+        particular model. This feature is available through the PLEXOS toolbar displayed in the input interface.
+
+Execution Progress The execution window displays some useful in the title-bar:
+Lists:
+	- Make it easier for novice users to learn how to use PLEXOS by hiding complex elements until they are needed
+	- Give more control to advanced users to control how PLEXOS presents data
+	- Provide more and better documentation
+	- Implement new and improved algorithms
+	- Seamlessly integrate the best mathematical programming engines
+	- Redesign internal set up and reporting engines
+	- Migrate to a faster, more compact database layout
+	- Take advantage of the latest programming features to greatly improve code robustness
+	- Faster LP and MIP engines than MOSEK 4
+	- Currently the best MIP performance available
+	- Faster simulation execution
+	- Lower memory footprint
+	- Runs randomly generated test cases
+	- Finds crash bugs, memory issues, slow code
+	- Provides statistical reliability measure e.g. engine is 99.9999% crash proof
+	- Runs all registered customer cases
+	- Detects and reports differences in results and performance
+	- Outcome: More reliable software Less support time needed for "trivial" problems
+	- More reliable software
+	- Less support time needed for "trivial" problems
+	- More reliable software
+	- Less support time needed for "trivial" problems
+	- "Save" function to MDB or XML
+	- Form-based and column-wise input of "static" data
+	- Input and solution data display
+	- " 
+          OpenPLEXOS" provides source for: Region uplift and marginal unit calculation Mark-up models (Cost recovery, RSI, Bertrand, Cournot)
+	- Region uplift and marginal unit calculation
+	- Mark-up models (Cost recovery, RSI, Bertrand, Cournot)
+	- These provide examples of how to: Add your own custom reporting Add custom pricing and uplift calculations Add custom generator bidding algorithms Add entire constraint/variable classes Automate multiple execution steps
+	- Add your own custom reporting
+	- Add custom pricing and uplift calculations
+	- Add custom generator bidding algorithms
+	- Add entire constraint/variable classes
+	- Automate multiple execution steps
+	- Region uplift and marginal unit calculation
+	- Mark-up models (Cost recovery, RSI, Bertrand, Cournot)
+	- Add your own custom reporting
+	- Add custom pricing and uplift calculations
+	- Add custom generator bidding algorithms
+	- Add entire constraint/variable classes
+	- Automate multiple execution steps
+	- Interface enhancements that provide extended support to novice users, and give more control to advanced users
+	- New and improved algorithms
+	- Seamless integration with the best mathematical programming engines
+	- New customization capabilities
+	- select the corresponding property name on the box tree property and click on the 'Is Dynamic' command button
+          found at the lower right corner of the Configuration form, or
+	- double-click on the selected property name on the box tree property
+	- Design
+	- Production
+	- Transmission
+	- Competition
+	- Stochastic
+	- Performance
+	- create a Diagnostics object
+	- specify the diagnostic information to be reported by setting the value of the corresponding Attribute field to
+          TRUE
+	- add the Diagnostics object to the Diagnostics collection of the appropriate Model object, in the same way as you
+          would proceed with the Horizon or Report objects
+	- MOSEK from MOSEK (www.mosek.com)
+	- CPLEX from ILOG (www.cplex.com)
+	- Xpress-MP from Dash Optimization (www.dashoptimization.com)
+	- Specify the required capacity expansion properties for Generators and Lines (properties such as Max Units
+          Built/Retired, Build/Retirement Cost, WACC, Economic Life and Project Start Date)
+	- Enabled the LT Plan object and specify the appropriate settings (step size, load duration curve, system-wide discount
+          rate and so forth)
+	- Optionally, select LT Plan related output properties such as Capacity Built/Retired or Build/Retirement Cost
+	- Number of the currently executing model and the number of models running in the current batch
+	- Name of the currently executing model
+
+
+H2s:
+Performance
+Reliability
+Graphics & Reporting
+Customization
+New Capacity Expansion Capabilities
+Introduction
+Upgrading
+Editing cycle
+Input configuration
+Simulation classes
+Location of solution files
+Solution viewing
+Diagnostics
+Database format
+New Modelling Capabilities
+Additional features

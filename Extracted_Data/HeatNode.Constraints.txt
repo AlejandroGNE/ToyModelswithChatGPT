@@ -1,0 +1,11 @@
+Header: Heat Node Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Heat Node
+
+Paragraphs:
+Heat Node Constraints is set of Constraints on the Heat Node
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3105
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Escalator <name> cannot define Escalator [Index] together with Escalator [Compound Index].
+
+Paragraphs:
+Message 3105 occurs in the following circumstances:
+Lists:
+

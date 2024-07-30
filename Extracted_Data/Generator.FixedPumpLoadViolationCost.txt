@@ -1,0 +1,19 @@
+Header: Generator Fixed Pump Load Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Fixed Pump Load] violations.
+
+Paragraphs:
+Generator Fixed Pump Load Violation Cost is the cost of Fixed Pump Load violations and is calculated as:
+
+See also:
+Lists:
+	- Generator Fixed Pump Load Violation
+	- Generator Hours of Fixed Pump Load Violation
+

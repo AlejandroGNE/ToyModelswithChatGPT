@@ -1,0 +1,15 @@
+Header: Purchaser Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage share of ownership
+
+Paragraphs:
+Purchaser Companies Nodes is set of nodes the purchaser withdraws energy from. With this collection a single Purchaser object can represent a number of actual loads. The proportion of Load that occurs at each Node is set by the Load Participation Factor property.
+Lists:
+

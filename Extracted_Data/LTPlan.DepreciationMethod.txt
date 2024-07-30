@@ -1,0 +1,17 @@
+Header: LT Plan Depreciation Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Depreciation method for computing annuities
+
+Paragraphs:
+LT Plan Depreciation Method applies
+          to new builds and works in combination with Tax
+            Rate and Inflation Rate to modify the annuity calculations. It can take the following values:
+
+See Depreciation Benefits for
+          further reading on straight-line and declining balance depreciation.
+Lists:
+

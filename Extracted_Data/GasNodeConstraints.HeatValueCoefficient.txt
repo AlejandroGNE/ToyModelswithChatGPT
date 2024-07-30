@@ -1,0 +1,15 @@
+Header: Gas Node Constraints Heat Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas node heat value
+
+Paragraphs:
+Gas Node Constraints Heat Value Coefficient is Coefficient of gas node heat value.
+Lists:
+

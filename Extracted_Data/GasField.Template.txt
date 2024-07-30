@@ -1,0 +1,11 @@
+Header: Gas Field Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Field inherits from
+
+Paragraphs:
+Gas Field Template is template the Gas Field inherits from
+Lists:
+

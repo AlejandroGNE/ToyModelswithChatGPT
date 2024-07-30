@@ -1,0 +1,23 @@
+Header: Storage End Volume
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Storage volume at the end of the period
+
+Paragraphs:
+Storage End Volume is the
+          end-of-period storage volume in native storage units, and is defined
+          as:
+
+The units of End Volume are controlled by the Storage Model .
+
+See also:
+Lists:
+	- Storage Max
+              Volume
+

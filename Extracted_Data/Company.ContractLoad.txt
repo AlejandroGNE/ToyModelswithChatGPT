@@ -1,0 +1,15 @@
+Header: Company Contract Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from physical contracts
+
+Paragraphs:
+Company Contract Load is the total physical contract load assigned to the company, and is defined as:
+Lists:
+

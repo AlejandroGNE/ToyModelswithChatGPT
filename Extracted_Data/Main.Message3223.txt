@@ -1,0 +1,11 @@
+Header: Message 3223
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	The total Gas Demand.Gas Node Demand Participation Factor does not sum to 1.0. Gas Demand: <value>, sum of Demand Participation Factor: <value>.
+
+Paragraphs:
+Message 3223 occurs in the following circumstances: When a Gas Demand - Gas Node or a Water Demand - Water Node membership has Participation Factor defined  and the total across the Nodes does not sum to 1.0.
+Lists:
+

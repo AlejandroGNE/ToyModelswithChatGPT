@@ -1,0 +1,21 @@
+Header: Storage Max Volume Violation
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the Max Volume constraint
+
+Paragraphs:
+Storage Max Volume Violation is the
+          violation of the Max Volume constraint priced at Max
+            Volume Penalty .
+
+See also:
+Lists:
+	- Storage Max
+              Volume Violation Cost
+

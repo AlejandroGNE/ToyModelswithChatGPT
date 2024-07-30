@@ -1,0 +1,19 @@
+Header: Line Export Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Export capacity gained from new builds
+
+Paragraphs:
+Line Export Capacity Built is export capacity gained from new builds and is calculated as:
+
+See also:
+Lists:
+	- Line Import Capacity Built
+	- Line Export Capacity Retired
+

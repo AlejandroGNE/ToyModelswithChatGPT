@@ -1,0 +1,15 @@
+Header: Gas Plant Max Ramp Down Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating [Max Ramp Down] constraint.
+
+Paragraphs:
+Gas Plant Max Ramp Down Penalty is Penalty for violating [Max Ramp Down] constraint..
+Lists:
+

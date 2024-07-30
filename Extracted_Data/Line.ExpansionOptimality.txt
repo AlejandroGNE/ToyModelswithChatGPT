@@ -1,0 +1,21 @@
+Header: Line Expansion Optimality
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	In (0,2)
+Key Property:	No
+Description:	Expansion planning integerization scheme.
+
+Paragraphs:
+Line Expansion Optimality controls the integerization of line build decisions in LT Plan . 
+		  This flag is only applicable when the LT Plan Optimality is Integer. When LT Plan Optimality is Linear then all builds are linear.
+		  It can take the following values:
+
+Note: The option Optimality controls the linear/integer decision at the global level. You can also choose to integerize only part of the horizon using the switch Integerization Horizon .
+
+
+Lists:
+

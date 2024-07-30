@@ -1,0 +1,35 @@
+Header: Market Demand
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed demand (exact amount of sales to the Market)
+Market	Property	Value	Data File	Units	Band	Action	Expression
+Residential	Demand	0	Water Demand	-	1	×	Water Demand Scalar
+Residential	Shortage Price	10000		$	1	=	
+Residential	Max Sales	1000		-	1	=	
+
+Paragraphs:
+Market Demand defines a fixed hourly
+          'demand' or exact amount of sales required in the Market. Shortages
+          are priced at the Shortage Price while surpluses are priced at the Surplus
+            Price .
+
+
+
+For the example in Table 1 the profile of demand values  is read
+          from an external Data File and
+          scaled by a Variable . The Market
+          must be supplied with the demand specified or incur a Shortage
+            Cost of $10,000 per unit.
+
+See also:
+Lists:
+	- Market Supply
+	- Market Max
+              Sales
+

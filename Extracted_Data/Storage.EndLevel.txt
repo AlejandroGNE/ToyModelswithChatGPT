@@ -1,0 +1,18 @@
+Header: Storage End Level
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Storage level at the end of the period
+
+Paragraphs:
+Storage End Level is the end-of-period level (height) of the storage. This property is used only when the Storage Model is set to "Level" so that the storage volume is defined via area and depth inputs and bounded by Min Level and Max Level .
+
+See also:
+Lists:
+	- Storage End Volume
+

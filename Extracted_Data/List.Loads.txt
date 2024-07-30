@@ -1,0 +1,11 @@
+Header: List Loads
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Load objects in the List
+
+Paragraphs:
+List Loads is set of Load objects in the List
+Lists:
+

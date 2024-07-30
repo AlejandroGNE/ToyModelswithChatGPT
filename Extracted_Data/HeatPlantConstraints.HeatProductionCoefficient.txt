@@ -1,0 +1,19 @@
+Header: Heat Plant Constraints Heat Production Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of heat production
+
+Paragraphs:
+Heat Plant Constraints Heat Production Coefficient connects to the
+          heat production of the heat plant.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

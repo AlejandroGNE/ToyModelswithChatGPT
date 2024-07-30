@@ -1,0 +1,21 @@
+Header: Reserve VoRS
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of reserve shortage (-1 sets hard constraint)
+
+Paragraphs:
+Reserve VoRs is the shortage price per megawatt of failing to meet the reserve requirement ( risk ). It is analogous to VoLL for energy.
+
+          
+See also:
+
+Note: The VoRS for Inertia Type reserves has units of $/MW-s.
+Lists:
+	- Reserve Shortage
+

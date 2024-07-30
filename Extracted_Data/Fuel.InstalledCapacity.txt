@@ -1,0 +1,18 @@
+Header: Fuel Installed Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed generation capacity
+
+Paragraphs:
+Fuel Installed Capacity is the total installed generation capacity associated with all Generator objects using the Fuel and is defined as:
+
+See also:
+Lists:
+	- Generator Generation
+

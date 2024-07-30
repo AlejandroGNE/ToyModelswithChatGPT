@@ -1,0 +1,17 @@
+Header: Process Secondary Inputs Consumption
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumption of the Secondary Input Commodity by the Process
+
+Paragraphs:
+Process Secondary Inputs Consumption is the consumption of the Secondary
+            Input Commodity by the
+          Process.
+Lists:
+

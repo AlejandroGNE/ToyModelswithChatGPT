@@ -1,0 +1,15 @@
+Header: Storage Decomposition Bound Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000000
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty applied to violation of storage bounds when the decomposition implies possible violations.
+
+Paragraphs:
+Storage Decomposition Bound Penalty is the penalty applied to violation of storage bounds when the Decomposition Method implies possible violations. This occurs when MT Schedule uses a resolution coarser than is required to balance the storage each ST Schedule step. For example if MT Schedule is using monthly load duration curves, but ST Schedule is defined with daily or weekly optimization steps, there is the possibility that Decomposition Method = "Targets" will produce targets outside the bounds, and so this penalty is required to allow such violations for feasibility.
+Lists:
+

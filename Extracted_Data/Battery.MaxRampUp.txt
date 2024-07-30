@@ -1,0 +1,22 @@
+Header: Battery Max Ramp Up
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp up rate
+
+Paragraphs:
+Battery Max Ramp Up sets a limit on the amount that generation can increase and is expressed as the maximum ramp up rate in megawatts per minute. This limit applies to the Battery Generation .
+
+For multi-unit generating stations the available ramp up is defined as:
+
+See also:
+
+See Generator Max Ramp Down for additional details.
+Lists:
+	- Battery Max Ramp Down
+

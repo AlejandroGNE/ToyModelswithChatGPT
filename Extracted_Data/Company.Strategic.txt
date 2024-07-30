@@ -1,0 +1,34 @@
+Header: Company Strategic
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage of company generation that acts strategically
+Company	Strategic	Units	Band	Timeslice
+FIRM A	0	%	1	
+FIRM B	30	%	1	
+FIRM C	65	%	1	PEAK
+FIRM C	25	%	1	OFF-PEAK
+
+Paragraphs:
+Company Strategic can be used to control the extent of participation by a Company in the automated gaming models ( LRMC Recovery , Nash-Cournot , Shadow Pricing , and Residual Supply Analysis ) when Financial Contract is not defined. Values of Strategic above zero and up to 100% are used to approximate the effect of contracts on gaming behaviour. Strategic = 0 will 'switch off' the Company from participation in these games i.e. their generator offers are then prepared on a short-run marginal cost basis.
+
+The value is applied against the Shadow Generation i.e. the generation of the Company prior to calculation of mark-ups.
+
+Example:
+
+Here "FIRM A" will not participate in gaming (Strategic = 0), "FIRM B" has Strategic of 30% which implies that it has 70% contract cover on its Shadow Generation . "FIRM C" has a different level of strategic coverage by peak and off-peak periods.
+
+This constraint will bind in many cases e.g. when the mark-ups for the company become large enough that the generation falls to the level of the Shadow Generation multiplied by the complement of the strategic factor (100% - Strategic ) i.e. the non-strategic generating capacity.
+
+Note that the simulator adjusts the reported Mark-up by the value of the shadow price on this binding constraint. The shadow price itself is reported as Strategic Shadow Price on the Company.
+
+See also:
+Lists:
+	- Company Mark-up Bias
+	- Region Fixed Cost Scalar
+

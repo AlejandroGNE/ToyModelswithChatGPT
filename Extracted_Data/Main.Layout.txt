@@ -1,0 +1,9 @@
+Header: Layout Class
+
+Table Details:
+Description:	A graphical layout
+
+Paragraphs:
+
+Lists:
+

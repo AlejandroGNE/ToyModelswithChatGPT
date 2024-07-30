@@ -1,0 +1,47 @@
+Header: Licensing: Licensing-EnteringALicenseKey
+
+Table Details:
+
+Paragraphs:
+After sending your license file to your software representative, you will receive an email containing your license information.
+
+There are a number of ways to activate or extend your license.
+
+PLEXOS license (Local and USB) Automated If your license is created but not initialized, just start PLEXOS, you will be prompted for the license key with the Key addition/update window. If you have a current PLEXOS license, but have new license details to extend your license. Start the Energy Exemplar License Manager from the Windows Start Menu --> click Add License Key. You will be prompted with the Key addition/update window. Manual Method Cut the license information shown in your email, and paste it into a text file using notepad, and save the file with the correct name and location. To find out the name and location, use this chart . License Server Automated If your license is created but not initialized, just start the license server, once loaded double click the License Server icon to start the Control Panel, you will be prompted with the Key addition/update window. If you have a current License Server license, but have new license details to extend your license. Start the control panel, as described in step 1 above. From the Control Panel, switch to the Config tab --> click "Check Server License" --> when the "License State" box appears, click "Add/Update key", you will be prompted with the Key addition/update window. Manual Method Cut the license information shown in your email, and paste it into a text file using notepad, and save the file with the correct name and location. To find out the name and location, use this chart . License Key addition/Update Window To add or update you key, with your new key information. Cut the text shown below and paste it into the Input License Validation window. Choose you license type (this may already be selected for you) Click "Add Key" After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed. If no red crosses are marked next to any item, the license is ready for use. NOTE: NA = not applicable More Licensing Main Menu
+
+Automated If your license is created but not initialized, just start PLEXOS, you will be prompted for the license key with the Key addition/update window. If you have a current PLEXOS license, but have new license details to extend your license. Start the Energy Exemplar License Manager from the Windows Start Menu --> click Add License Key. You will be prompted with the Key addition/update window. Manual Method Cut the license information shown in your email, and paste it into a text file using notepad, and save the file with the correct name and location. To find out the name and location, use this chart . License Server Automated If your license is created but not initialized, just start the license server, once loaded double click the License Server icon to start the Control Panel, you will be prompted with the Key addition/update window. If you have a current License Server license, but have new license details to extend your license. Start the control panel, as described in step 1 above. From the Control Panel, switch to the Config tab --> click "Check Server License" --> when the "License State" box appears, click "Add/Update key", you will be prompted with the Key addition/update window. Manual Method Cut the license information shown in your email, and paste it into a text file using notepad, and save the file with the correct name and location. To find out the name and location, use this chart . License Key addition/Update Window To add or update you key, with your new key information. Cut the text shown below and paste it into the Input License Validation window. Choose you license type (this may already be selected for you) Click "Add Key" After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed. If no red crosses are marked next to any item, the license is ready for use. NOTE: NA = not applicable More Licensing Main Menu
+
+Automated
+
+Manual Method
+
+License Server Automated If your license is created but not initialized, just start the license server, once loaded double click the License Server icon to start the Control Panel, you will be prompted with the Key addition/update window. If you have a current License Server license, but have new license details to extend your license. Start the control panel, as described in step 1 above. From the Control Panel, switch to the Config tab --> click "Check Server License" --> when the "License State" box appears, click "Add/Update key", you will be prompted with the Key addition/update window. Manual Method Cut the license information shown in your email, and paste it into a text file using notepad, and save the file with the correct name and location. To find out the name and location, use this chart . License Key addition/Update Window To add or update you key, with your new key information. Cut the text shown below and paste it into the Input License Validation window. Choose you license type (this may already be selected for you) Click "Add Key" After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed. If no red crosses are marked next to any item, the license is ready for use. NOTE: NA = not applicable More Licensing Main Menu
+
+Automated If your license is created but not initialized, just start the license server, once loaded double click the License Server icon to start the Control Panel, you will be prompted with the Key addition/update window. If you have a current License Server license, but have new license details to extend your license. Start the control panel, as described in step 1 above. From the Control Panel, switch to the Config tab --> click "Check Server License" --> when the "License State" box appears, click "Add/Update key", you will be prompted with the Key addition/update window. Manual Method Cut the license information shown in your email, and paste it into a text file using notepad, and save the file with the correct name and location. To find out the name and location, use this chart . License Key addition/Update Window To add or update you key, with your new key information. Cut the text shown below and paste it into the Input License Validation window. Choose you license type (this may already be selected for you) Click "Add Key" After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed. If no red crosses are marked next to any item, the license is ready for use. NOTE: NA = not applicable More Licensing Main Menu
+
+Automated
+
+Manual Method
+
+License Key addition/Update Window To add or update you key, with your new key information. Cut the text shown below and paste it into the Input License Validation window. Choose you license type (this may already be selected for you) Click "Add Key" After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed. If no red crosses are marked next to any item, the license is ready for use. NOTE: NA = not applicable More Licensing Main Menu
+
+To add or update you key, with your new key information. Cut the text shown below and paste it into the Input License Validation window. Choose you license type (this may already be selected for you) Click "Add Key" After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed. If no red crosses are marked next to any item, the license is ready for use. NOTE: NA = not applicable More Licensing Main Menu
+
+To add or update you key, with your new key information.
+
+After the key information is entered, clicking  the 'Add Key' button will create the license. When the license is created it will be automatically checked, and the form below will be displayed.
+
+If no red crosses are marked next to any item, the license is ready for use.
+
+More Licensing Main Menu
+
+Licensing Main Menu
+Lists:
+	- Licensing Main Menu
+
+
+H2s:
+PLEXOS license (Local and USB)
+License Server
+License Key addition/Update Window
+More

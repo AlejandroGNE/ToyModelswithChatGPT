@@ -1,0 +1,32 @@
+Header: Market Price
+
+Table Details:
+Units:	$/~
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price point on market demand function
+
+Paragraphs:
+Market Price can be used alone
+              to set an inelastic price i.e. price does not vary with
+              quantity purchased or sold, or alternatively defined with multiple
+              bands in combination with Quantity and Base Quantity to
+              define a market supply/demand curve for a market with depth.
+
+The actual price paid / received in the market is:
+
+Price (output) = Price (input) × Price
+                Scalar + Price Incr + spread
+
+where: spread adjusts for any
+                defined Bid-Ask Spread
+
+When a Market is connected to a Gas Node and the dataset's Base Unit Setting is Metric 
+			- then when upgrading from earlier PLEXOS versions to version 10 
+			- the manually inputted price will be divided by a 1000 since the metric gas model uses TJ for Quantity and $/GJ for Price. 
+			This scaling is not applied to the values coming from the datafile.
+Lists:
+

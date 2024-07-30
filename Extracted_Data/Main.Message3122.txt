@@ -1,0 +1,11 @@
+Header: Message 3122
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Timeslice <name> is used but does not include any time periods. You should define the Timeslice Include property.
+
+Paragraphs:
+Message 3122 occurs when you create a Timeslice object and use it in your data, but you do not set Include . The latter property is required to define which periods of time the Timeslice captures.
+Lists:
+

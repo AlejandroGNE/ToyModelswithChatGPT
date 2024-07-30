@@ -1,0 +1,37 @@
+Header: Global Hanging Branches Weight
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scenario Tree: Weights for the hanging branches
+Hanging Branches Historical Year Start	1994		-	1
+Hanging Branches Historical Year Start	2001		-	2
+Hanging Branches Historical Year Start	2002		-	3
+Hanging Branches Historical Year Start	2006		-	4
+Hanging Branches Historical Year Start	2007		-	5
+Hanging Branches Historical Year Start	2008		-	6
+Hanging Branches Historical Year Start	2009		-	7
+Hanging Branches Historical Year Start	2011		-	8
+Hanging Branches Historical Year Start	2013		-	9
+Hanging Branches Historical Year Start	2014		-	10
+Hanging Branches Weight	0.107142857		-	1
+Hanging Branches Weight	0.178571429		-	2
+Hanging Branches Weight	0.035714286		-	3
+Hanging Branches Weight	0.035714286		-	4
+Hanging Branches Weight	0.107142857		-	5
+Hanging Branches Weight	0.321428571		-	6
+Hanging Branches Weight	0.035714286		-	7
+Hanging Branches Weight	0.071428571		-	8
+Hanging Branches Weight	0.035714286		-	9
+Hanging Branches Weight	0.071428571		-	10
+
+Paragraphs:
+Global Hanging Branches Weight sets the weights used in the objective function for the hanging branches. By default, the weights are uniform.
+
+The following example defines 10 hanging branches with unique weights. You must supply weights for all hanging branches as defined by Tree Stages Hanging Branches .
+Lists:
+

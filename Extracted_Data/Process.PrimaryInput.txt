@@ -1,0 +1,15 @@
+Header: Process Primary Input
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the primary input Commodity to the Process
+
+Paragraphs:
+Process Primary Input is the
+          input-side Commodity which is
+          transformed by the Process into the Primary
+            Output with the given Conversion
+            Factor and Efficiency .
+Lists:
+

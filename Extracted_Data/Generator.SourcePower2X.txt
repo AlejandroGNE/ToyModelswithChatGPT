@@ -1,0 +1,11 @@
+Header: Generator Source Power2X
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Generator has Source Power2X which deliver to the Generator.
+Lists:
+

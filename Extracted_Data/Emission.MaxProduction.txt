@@ -1,0 +1,21 @@
+Header: Emission Max Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum emission production per interval
+
+Paragraphs:
+Emission Max Production sets a maximum emission production in each interval. This constraint is by default a hard constraint, but this can be changed with the Max Production Penalty property.
+
+See also:
+Lists:
+	- Emission Max Production Day
+	- Emission Max Production Week
+	- Emission Max Production Month
+	- Emission Max Production Year
+

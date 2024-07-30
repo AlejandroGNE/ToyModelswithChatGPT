@@ -1,0 +1,24 @@
+Header: Storage Working Utilization
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Storage utilization based on working volume
+
+Paragraphs:
+Storage Working Utilization is the
+          percentage utilization of storage based on working volume and is
+          defined as:
+
+Working Utilization = Working
+            Volume / Max
+            Volume
+
+See also:
+Lists:
+	- Storage Utilization
+

@@ -1,0 +1,15 @@
+Header: Company Regions Contract Shortfall
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortfall of generation for contracts in region (pro-rated)
+
+Paragraphs:
+Company Regions Contract Shortfall is the shortfall of generation for contracts in region (pro-rated).
+Lists:
+

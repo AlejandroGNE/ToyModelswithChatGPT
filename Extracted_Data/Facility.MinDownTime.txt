@@ -1,0 +1,46 @@
+Header: Facility Min Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be off after being shut down
+
+Paragraphs:
+Facility Min Down Time is the
+          minimum number of hours the unit must be off in any commitment cycle.
+          The number of hours down is reported in the property Hours
+            Down .  Min Down Time is a static property. If it
+          is defined dynamically (varying according to different periods), the
+          maximum value will be used.
+
+By default, Min Down Time is enforced after any shutdown
+          event including forced outages. If you prefer that units are available
+          for commitment immediately after repair following a forced outage,
+          turn on the Production setting Forced Outage
+            Relaxes Min Down Time .
+
+To model a dynamic MDT use custom constraints. For example, consider
+          a Facility with MDT of 6 hours but only between the hours 12pm to 6.00
+          am (next day). Assuming that the Facility has one unit and the
+          simulation resolution is hourly, for time slice H12-6, the custom
+          constraint is written using HoursDownCoefficient , UnitsShutDownCoefficient and time lag such as:
+
+HoursDownCoefficient t +6 ≥ 6 UnitsShutDownCoefficient t
+
+For other time slices, set these coefficients to be zero and the
+          constraint will be deactivated.
+
+See also:
+Lists:
+
+	- Facility Min
+              Up Time
+	- Facility Max
+              Down Time
+	- Facility Max
+              Up Time
+

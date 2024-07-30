@@ -1,0 +1,19 @@
+Header: Region Intraregional Transmission Rental
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total transmission rental on intraregional lines
+
+Paragraphs:
+Region Intra-regional Transmission Rental is the total rental on intra-regional flows and is defined as:
+
+See also:
+Lists:
+	- Region Inter-regional Transmission Rental
+	- Region Transmission Rental
+

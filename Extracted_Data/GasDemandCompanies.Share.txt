@@ -1,0 +1,15 @@
+Header: Gas Demand Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Company's share of the gas demand
+
+Paragraphs:
+Gas Demand Companies Share is Company's share of the gas demand.
+Lists:
+

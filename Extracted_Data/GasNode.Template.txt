@@ -1,0 +1,11 @@
+Header: Gas Node Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Node inherits from
+
+Paragraphs:
+Gas Node Template is template the Gas Node inherits from
+Lists:
+

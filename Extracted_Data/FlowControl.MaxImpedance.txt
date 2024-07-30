@@ -1,0 +1,21 @@
+Header: Flow Control Max Impedance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Max Impedance
+
+Paragraphs:
+Flow Control Max Impedance is user specified Impedance limits for DSR, TCSC and MSSR type of devices. The Impedance limitation can be derived as a function of line flow:
+
+Therefore, the Max Impedance input is applied as flow/angle limits and replacing the user input Min Angle . Note that Max Impedance must be larger than or equal to Min Impedance.
+
+See also:
+Lists:
+	- Flow Control Type
+	- Flow Control Min Impedance
+

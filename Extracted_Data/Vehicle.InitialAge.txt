@@ -1,0 +1,16 @@
+Header: Vehicle Initial Age
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Age of the vehicle battery in number of cycles at the start of the simulation horizon
+
+Paragraphs:
+Vehicle Initial Age is the age of the vehicle's battery in cycles at the start of the simulation horizon. 
+                See Vehicle Age for details.
+Lists:
+

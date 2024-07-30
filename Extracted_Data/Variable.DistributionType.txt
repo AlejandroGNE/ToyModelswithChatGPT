@@ -1,0 +1,23 @@
+Header: Variable Distribution Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Distribution type for error terms
+Profile	50	-	
+Error Std Dev	20	%	
+Min Value	0	-	
+Max Value	100	-	
+
+Paragraphs:
+Sets the shape of the distribution of errors for the Variable :
+
+The following histogram compares normal and lognormal error distributions for the following input and selecting normal or lognormal Distribution Type.
+Lists:
+	- Normal = 0
+	- Lognormal = 1
+

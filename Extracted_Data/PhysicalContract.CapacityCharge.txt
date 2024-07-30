@@ -1,0 +1,22 @@
+Header: Physical Contract Capacity Charge
+
+Table Details:
+Units:	$/kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Hourly fixed charge for contract capacity
+
+Paragraphs:
+Physical Contract Capacity Charge defines the physical contract purchase decision in LT Plan to be by interval, meaning that the contract quantity decision can change every interval of the planning horizon. The value then sets the capacity charge for purchases of generation or load capacity.
+
+See also:
+Lists:
+	- Physical Contract Capacity Charge Hour
+	- Physical Contract Capacity Charge Day
+	- Physical Contract Capacity Charge Week
+	- Physical Contract Capacity Charge Month
+	- Physical Contract Capacity Charge Year
+

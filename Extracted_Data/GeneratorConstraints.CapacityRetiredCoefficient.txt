@@ -1,0 +1,21 @@
+Header: Generator Constraints Capacity Retired Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity retired
+
+Paragraphs:
+Generator Constraints Capacity Retired Coefficient is the left-hand side coefficient of Capacity Retired in the
+          constraint.
+
+With the coefficient represented by a (i,j) the
+          following term is added to the formulation:
+
+... + a (i,j) × Generator Capacity Retired ... {≤, ≥, =} b j
+Lists:
+

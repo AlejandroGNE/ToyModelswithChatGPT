@@ -1,0 +1,18 @@
+Header: Transmission SCUC Constraint Voltage Threshold
+
+Table Details:
+Units:	kV
+Default Value:	0
+Validation Rule:	≥0
+Description:	Voltage level at which SCUC line thermal limits are modelled.
+
+Paragraphs:
+Transmission SCUC Constraint Voltage Threshold sets the voltage level for transmission Lines and Transformers whose post-contingency flows should be monitored and enforced within limits in the security-constrained unit commitment (SCUC) algorithm as described in the article Security Constrained Unit Commitment .  Elements with voltage below this level will not have their limits enforced if the SCUC calculates that they would be violated during any contingency .  This parameter allows you to reduce the number of limits enforced by SCUC and so improve performance.
+
+See also:
+Lists:
+	- Transmission SCUC Interface Constraints Enabled
+	- Contingency Monitored Lines
+	- Contingency Monitored Transformers
+	- Contingency Monitored Interfaces
+

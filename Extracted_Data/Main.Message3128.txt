@@ -1,0 +1,11 @@
+Header: Message 3128
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Cannot fit <value> periods per <value> while pinning the selected number points. Either increase the number of periods or remove the point pinning.
+
+Paragraphs:
+Message 3128 occurs in the following circumstances:
+Lists:
+

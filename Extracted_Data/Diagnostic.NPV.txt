@@ -1,0 +1,18 @@
+Header: Diagnostic NPV
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for LT Plan NPV of optimal plan
+
+Paragraphs:
+Writes a XML diagnostic file containing LT Plan optimal solution costs in terms of their NPV.
+
+The diagnostic file will be created in the solution folder and named Model ( Model name ) NPV Diagnostics.xml . Open in Excel with the stylesheet applied.
+
+The columns headings are:
+
+Note the first eight columns contribute to the objective value in the log file while the Total Emissions Cost and Total FO&M Costs tally with the solution file.
+Lists:
+

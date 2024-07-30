@@ -1,0 +1,15 @@
+Header: Message 222
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	There was a problem writing the zipped solution to the destination drive. The uncompressed solution has been saved in the following location: <value>
+
+Paragraphs:
+Message 222 occurs in the following circumstances:
+
+If there was a problem compressing and moving the solution file to the destination solution folder. Instead, the uncompressed solution will be kept in the user's Temp folder.
+
+To manually recover the solution, navigate to the provided Temp folder location and create a ".zip" archive containing the "Model *** Solution.xml" and all files ending in ".bin". The name given to the archive does not matter.
+Lists:
+

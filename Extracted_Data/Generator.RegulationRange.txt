@@ -1,0 +1,25 @@
+Header: Generator Regulation Range
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Length of regulation reserve range (must be paired with Regulation Point)
+G1	Max Capacity	600	MW
+G1	Min Stable Level	300	MW
+G1	Regulation Point	400	MW
+G1	Regulation Range	150	MW
+
+Paragraphs:
+Generator Regulation Range is the range, starting at Regulation Point , over which the unit can provide regulation reserve i.e. the AGC range.
+
+Example:
+
+In this example the generator can operate between 300 and 600 MW for energy, but can only provide regulation reserve when in the range 400 to 550.
+
+Note: For running time considerations, this feature is only compatible with one regulation reserve or multiple regulation reserves that are not mutually exclusive.
+Lists:
+

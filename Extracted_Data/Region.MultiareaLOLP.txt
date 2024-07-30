@@ -1,0 +1,31 @@
+Header: Region Multi-area LOLP
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loss of load probability considering assistance from other connected regions
+
+Paragraphs:
+NOTE: Multi-area LOLP is only computed by LT Plan and PASA when the Compute Multi-area Reliability Indices setting is 'on'.
+
+The multi-area Loss of Load Probability (LOLP) is calculated by a hybrid method including both the state space decomposition (SSD) and the Monte Carlo simulation (MCS). Generally, for systems with the number of regions smaller than five, SSD is much faster and more accurate than MCS. For very large systems, however, MCS is usually the only option.
+
+Under SSD, the system state space (each region can be considered as a multi-state event) was first decomposed into acceptable sets (all regions have the load satisfied), unacceptable sets (consisting of states that have at least one region with loss of load), and unclassified sets. Each region's LOLP in the unacceptable set was determined by a maximum flow algorithm. This process was repeated for the new unclassified sets until the probability of the new unclassified set was very small (10 -7 to 10 -9 ).
+
+MCS is then used to estimate each region's LOLP in the unclassified sets with small probabilities. The ultimate LOLP for each region is obtained by adding the MCS estimated LOLP value to the value determined by SSD. In MCS, the system state space is first sampled and for each sample the maximum flow algorithm is used to determine the state of each region. The statistic results for these samples are then used as the estimation. To improve MCS's performance and convergence speed, it is very important to implement the most effective sampling method. Commonly used sampling methods are importance sampling and stratified sampling (events which make greater contributions to the results have larger occurrence probabilities).
+
+The optimization of the reserve distribution in the multi-area system can be considered as a network flow problem. The capacity first flows from the source to all the regions. The capacity in each region then flows to the destination (to satisfy the loads). The excess capacity in one region can be transferred to other regions through the connected lines. The flow in the line is only limited by the line capacity. For the maximum flow problem, we have to determine the maximum flow from the source to the destination. When the maximum flow is calculated, the loss state in each region can then be evaluated. Different supporting policies might lead to different maximum flow patterns. The supporting policies assumed in the maximum flow calculation can be found in Region Assisting Priority .
+
+The multi-area LOLP in each region will be much lower than the LOLP calculated from the isolated region as assistants can be obtained from other regions which have excess capacities. Though the transmission line capacity effect is included in the calculation, transmission unreliability is not considered (the transmission line is considered to be completely reliable) and voltage balance constraint is not applied either. If we consider the connected regions as a large system, the LOLP for this system (Multi-area System LOLP) is also recorded at the same time.
+
+Notice that the calculation of multi-area reliability indices can be very time-consuming. The calculation time will increase rapidly with the increase in the number of regions. To improve the processing efficiency, multi-area LOLP is not calculated if all regions have an LOLP less than 0.0001% as the multi-area LOLP will be much smaller than this value.
+
+See also:
+Lists:
+	- Region LOLP
+	- Region Multi-area LOLE
+

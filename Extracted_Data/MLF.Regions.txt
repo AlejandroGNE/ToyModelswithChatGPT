@@ -1,0 +1,11 @@
+Header: MLF Regions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of regions whose demand appears in the MLF equation
+
+Paragraphs:
+MLF Regions is set of regions whose demand appears in the MLF equation using the term Demand Coefficient.
+Lists:
+

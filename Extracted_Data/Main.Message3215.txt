@@ -1,0 +1,11 @@
+Header: Message 3215
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The total share of a vehicle at any particular interval can not be more than 1. The share is redistributed accordingly, so that the total share is equal to 1.
+
+Paragraphs:
+Message 3215 occurs in the following circumstances:
+Lists:
+

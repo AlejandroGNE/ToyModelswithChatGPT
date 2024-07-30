@@ -1,0 +1,15 @@
+Header: Gas Pipeline Is Bidirectional
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the pipeline allows flow in both directions
+
+Paragraphs:
+Gas Pipelines Is Bidirectional is Indicates if the pipeline allows flow in both directions.
+Lists:
+

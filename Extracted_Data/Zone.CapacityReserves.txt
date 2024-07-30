@@ -1,0 +1,25 @@
+Header: Zone Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity reserves (net of Peak Load)
+
+Paragraphs:
+Zone Capacity Reserves is the megawatt capacity reserve margin. The definition of this property depends on the simulation phase.
+
+Capacity Reserves reported by PASA is the capacity margin after allowances for maintenance i.e it is defined as:
+
+Capacity Reserves reported by LT Plan is defined as:
+
+Capacity Reserves reported by MT Schedule and ST Schedule is defined as:
+
+See also:
+Lists:
+	- Zone Capacity Reserve Margin
+	- Zone Maintenance Factor
+

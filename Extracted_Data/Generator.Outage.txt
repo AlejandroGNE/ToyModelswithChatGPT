@@ -1,0 +1,15 @@
+Header: Generator Outage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity lost to outage
+
+Paragraphs:
+Generator Outage is Capacity lost to outage.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Diagnostic Outages
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for generator and line outages
+
+Paragraphs:
+This option produces a diagnostic file in XML format that lists all Generator and Line outages produced by the PASA simulation phase.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Line Marginal Loss Factor Back
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Transmission marginal loss factor (MLF or TLF) for imports
+
+Paragraphs:
+Line Marginal Loss Factor Back is the marginal loss factor of the node at the reference sending end (the Node From ).
+
+This property is used in regional transmission models and approximates the transmission losses from the end of the transmission line to the regional reference node.
+
+The loss factor on the receiving end of the line is given by Marginal Loss Factor .
+
+The Marginal Loss Factor is applied to the Offer Price Back for the Line when modelled as an entrepreneurial flow.
+Lists:
+

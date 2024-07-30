@@ -1,0 +1,26 @@
+Header: Variable Lookup x
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Lookup table for x-axis value
+Lookup x	1	-	1
+Lookup x	5	-	2
+Lookup x	10	-	3
+Lookup y	6	-	1
+Lookup y	35	-	2
+Lookup y	28	-	3
+Lookup Unit	1000	-	1
+
+Paragraphs:
+Variable Lookup x defines the x values for a look-up table used to translate raw sample values to final values used in the simulation. This is a multi-band property used in conjunction with Lookup y and optionally Lookup Unit . Sample values that fall between the lookup table x values are linearly interpolated into y values. Values that fall outside the range of defined x values are truncated to the nearest y value.
+
+Example:
+
+A raw sample value of 3 is first translated to 20.5 (linear interpolation between y values 6 and 35) and then divided by 1000 (lookup unit) to obtain the final value of 0.0205.
+Lists:
+

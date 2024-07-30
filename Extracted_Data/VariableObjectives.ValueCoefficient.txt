@@ -1,0 +1,15 @@
+Header: Variable Objectives Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the variable sample value
+
+Paragraphs:
+Variable Objectives Value Coefficient is Coefficient of the variable sample value.
+Lists:
+

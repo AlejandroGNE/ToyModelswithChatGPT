@@ -1,0 +1,36 @@
+Header: MT Schedule Stochastic Algorithm
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Algorithm invoked by the Stochastic Method when a scenario tree is present
+
+Paragraphs:
+This setting determines which solution method is employed to solve a
+          stochastic optimization in the presence of a scenario tree (as defined
+          by a Global object). The available
+          methods are:
+
+
+Lists:
+	- Rolling Horizon (value = 0, default): Solves using the Rolling
+              Horizon solution method as described in the article Multi-stage
+              Stochastic Optimization . This method is the most robust. It
+            can handle any level of complexity including integer decision
+            variables, non-linear constraints etc and guarantees a fully
+            converged solution. In many cases this method is also the fastest to
+            execute. However, if you require output of the Future
+              Cost Function diagnostic this method will only produce the
+            optimal cuts. Choose the SDDP method if you need the full set of
+            Benders cuts.
+	- Stochastic Dual Dynamic Programming (SDDP) (value = 1): Solves
+            using the 'traditional' SDDP algorithm. This method performs a
+            series of forward and backward passes across the stages of the
+            horizon. Benders cuts are developed at each stage representing the
+            future cost function and value of storage. Iterations occur until
+            convergence criteria are met. This method naturally results in a
+            detailed Future Cost
+              Function which can be used as input to another simulation e.g. to a short-term ST Schedule with
+            the FCF defining the future value of storage.
+

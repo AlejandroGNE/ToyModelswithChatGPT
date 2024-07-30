@@ -1,0 +1,15 @@
+Header: Generator Companies Fixed Load Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation attributable to [Fixed Load] constraint.
+
+Paragraphs:
+Generator Companies Fixed Load Generation is Generation attributable to [Fixed Load] constraint..
+Lists:
+

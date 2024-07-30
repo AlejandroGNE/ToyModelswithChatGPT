@@ -1,0 +1,19 @@
+Header: Battery Constraints Units Retired Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units retired
+
+Paragraphs:
+Battery Constraints Units Retired Coefficient is the left-had side coefficient of the number of Units Retired in the constraint.
+
+See also:
+Lists:
+	- Battery Constraints Units Retired in Year Coefficient
+	- Battery Generators Units Retired Coefficient
+

@@ -1,0 +1,18 @@
+Header: Generator Pump Bid Quantity Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar applied to the [Pump Bid Quantity] property
+
+Paragraphs:
+Generator Pump Bid Quantity Scalar is a scaling factor applied to the defined Pump Bid Quantity property. It performs the same function as Pump Bid Price Scalar but for pumped storage bids.
+
+See also:
+Lists:
+	- Generator Pump Bid Price Scalar
+

@@ -1,0 +1,24 @@
+Header: Change a Model Setting
+
+Table Details:
+
+Paragraphs:
+Model settings are contained in a number of separate components. Some of these components such as a Horizon are required, while others such as Transmission settings are optional. The Model components are displayed in the Model property dialog shown in Figure 1. This dialog is accessed via the right-mouse button pop-up menu for the Model in the Simulation Tree. Here is how to locate the Model object pop-up menu:
+
+To view the current simulation settings, select the tabs in this form corresponding to the type of setting e.g. Horizon or Transmission .
+
+You can change a setting on any tab marked in bold e.g. the Horizon tab in Figure 1. The tab that are not bold are showing the default values of those simulation settings. In order to change these settings you need to associate the Model with a settings object of the appropriate type. For example, if you want to change the Transmission settings but only default values are currently shown do the following:
+
+Figure 5 shows the Model with the newly associated settings object. The tab is now bold indicating that you can change the settings directly, and the Membership list (left side of Figure 5) shows that the Transmission object "Losses" is associated with this Model .
+
+
+
+
+
+
+Lists:
+	- Select the Simulation tab on the Main Window.
+	- Open up the Models collection.
+	- Right click on the Model object you wish to edit and select Properties , or alternatively double-click the Model object.
+	- The Model property window is now displayed (Figure 1).
+

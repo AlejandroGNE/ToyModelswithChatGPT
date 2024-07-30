@@ -1,0 +1,27 @@
+Header: Generator Constraints Units Started Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of unit start
+
+Paragraphs:
+Generator Constraints Units Started Coefficient is the left-hand side coefficient on the
+          number of Generator Units
+            Started in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Generator Units Started ... {≤,
+            ≥, =} b j
+
+See also:
+Lists:
+	- Generator Max
+              Starts
+

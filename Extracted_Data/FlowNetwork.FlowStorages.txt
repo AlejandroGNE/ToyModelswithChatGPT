@@ -1,0 +1,11 @@
+Header: Flow Network Flow Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Flow Network Flow Storages is
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Company Min Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Generation capacity that must be scheduled on maintenance
+
+Paragraphs:
+Company Min Maintenance sets a lower bound on the generation capacity scheduled on maintenance in the PASA optimization. This constraint only affects the calculation of the optimal profile of Region Maintenance Factor and therefore is not a strict constraint on the actual maintenance timing but more of a guideline.
+
+See also:
+Lists:
+	- Company Max Maintenance
+	- Company Min Maintenance Factor
+

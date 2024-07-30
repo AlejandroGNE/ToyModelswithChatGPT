@@ -1,0 +1,19 @@
+Header: Vehicle Commodities Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of energy provided by the Commodity
+
+Paragraphs:
+Vehicle Commodities Ratio is the proportion of Vehicle energy demand provided by the Commodity .
+          For example, if the Commodity is "petrol" and a hybrid electric
+          vehicle gets 75% of its energy from petrol set this number of
+          0.75.  To model a vehicle that is powered entirely by the
+          Commodity set the value to 1.0.
+Lists:
+

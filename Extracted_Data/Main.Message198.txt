@@ -1,0 +1,11 @@
+Header: Message 198
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Node <name> Dump Energy in period <value> is above limit <value> MW by <value> MW due to a constraint infeasibility.
+
+Paragraphs:
+Message 198 occurs in the following circumstances:
+Lists:
+

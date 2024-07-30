@@ -1,0 +1,15 @@
+Header: Line Fixed Flow Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Method of interpreting zero values of the [Fixed Flow] property.
+
+Paragraphs:
+Line Fixed Flow Method controls how the Fixed Flow property is handled when it has a zero value:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: RSI Intercept
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Intercept in LI equation
+
+Paragraphs:
+RSI Intercept is defined as the intercept in the Lerner Index equation.
+Lists:
+

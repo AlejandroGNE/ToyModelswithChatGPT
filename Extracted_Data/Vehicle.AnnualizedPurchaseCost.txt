@@ -1,0 +1,22 @@
+Header: Vehicle Annualized Purchase Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of vehicle purchases
+
+Paragraphs:
+Vehicle Annualized Purchase Cost is
+          the total Purchase Cost of
+          vehicles added in LT Plan converted to
+          an annuity.
+
+See also:
+Lists:
+	- Facility Annualized
+              Build Cost
+

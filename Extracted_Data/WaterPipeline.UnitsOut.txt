@@ -1,0 +1,15 @@
+Header: Water Pipeline Units Out
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Water Pipeline Units Out is Binary indicating if the unit is out of service.
+Lists:
+

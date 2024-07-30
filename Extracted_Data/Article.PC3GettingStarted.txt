@@ -1,0 +1,195 @@
+Header: Getting Started With PLEXOS Connect 3
+
+Table Details:
+
+Paragraphs:
+This section provides information for installing the PLEXOS Connect components and walk through the steps in setting up a PLEXOS Connect System.
+
+To install the PLEXOS Connect Server, PLEXOS Connect Client or PLEXOS Connect Launch Control, you will need to download the relevant PLEXOS Connect installer from our client area: https://www.energyexemplar.com/clientarea/?view=downloads Once the download has completed, please run the installer for the relevant component and follow the install wizard instructions to install the PLEXOS Connect Server, PLEXOS Connect Client or PLEXOS Connect Launch Control. After installing either PLEXOS Connect Server or PLEXOS Connect Client, you will need to initialise a PLEXOS license and configure the components for use. Once configured, the Connect Server and Connect Client will start automatically as a Windows service when the system boots. PLEXOS Connect Launch Control does not require any additional configuration, however, it will depend on the PLEXOS Connect Server to be running and a valid user account to login with.
+
+After running the PLEXOS Connect Server from the desktop shortcut or the start menu entry, you will be presented with the following graphical user interface (Figure 1). If you have not already setup a valid PLEXOS license, you will be prompted to create a new license before you are able to use the PLEXOS Connect Server.
+
+On first start-up and after providing a valid PLEXOS license, you will need to select a location where PLEXOS Connect Server should store all its data. This folder path will contain all data you entire into the PLEXOS Connect system. Click on the browse button (...) to select a location.
+
+After the selected path has been setup, you may be asked to create a user with administrator privileges (Figure 2). This account is not your Windows account but instead the default administrator account that you will need to use when logging in with PLEXOS Connect Launch Control. Now with the PLEXOS Connect Server's data path set, you can now configure the communication port for PLEXOS Connect Server by clicking into the 'Port' text box and entering a new port number. This port will be used by the PLEXOS Connect components to communicate with the PLEXOS Connect Server. To make logging in with Launch Control easier, use we recommend leaving this on the default 8888 port. When you have finished with the configuration, click on the 'Start' button on the PLEXOS Connect Server application to start the PLEXOS Connect Server Windows Service.
+
+Note: Backups can be performed by copying the PLEXOS Connect Server's data path, but it is strongly recommended to shut down the Connect Server before performing a manual backups. Instead, we recommend using the Connect Server's built-in backup utility that can be ran at any time.
+
+The PLEXOS Connect Client is available on two different Operating Systems; Windows (using .Net) and Linux (using mono). The Connect Client will work in the same way as each other, however, they both have different interfaces and setup procedures.
+
+After running the PLEXOS Connect Server from the desktop shortcut or the start menu entry, you will be presented with the following graphical user interface (Figure 3). Each time you open the PLEXOS Connect Client app, it will search for a valid PLEXOS license. If no valid license has been setup or found, then a license wizard will guide you through setting up the PLEXOS license. The license is required when executing PLEXOS simulations as the PLEXOS Engine is unable to perform simulations from within the PLEXOS Connect Client without it. We recommend configuring the PLEXOS Connect Client to use the PLEXOS Connect Server as the license source.
+
+When the PLEXOS Connect Client application is launched, it will search for a valid PLEXOS license. If no license has been setup or found, then a license wizard will guide you through setting up the PLEXOS license. The license is required when executing PLEXOS simulations as the PLEXOS Engine is unable to perform simulations from within the PLEXOS Connect Client without it. After the license checks, you will need to create a connection to a PLEXOS Connect Server. By creating a connection, you will be adding the Connect Client to the PLEXOS Connect system and making it available for performing simulations in the total pool of Connect Clients. To add a new connection, click on the plus button in the top corner to open the new connection dialog.
+
+To add a new connection, you'll need to provide the server address, port number and a valid PLEXOS Connect login. Additionally, you need to give the connection a unique name and a total number of workers, the name will be what is displayed when you are using PLEXOS Connect Launch Control and the workers count will determine the total number of PLEXOS simulations allowed to be performed by that connection at any one time. For example, using a machine with an 8-core processor and large amount of RAM could be suitable for running 2-4 small to average sized PLEXOS simulations at once.
+
+Note: The provided login will require the permission 'Add/Edit/Remove' under the 'Client Module'.
+
+The Connect Client on Linux based machines is a command prompt only interface and only has a single executable. You do not need to install this program, but the installation directory is considered the path where the Connect files are extracted to (the folder containing 'connect.client.exe'). To run this program, you will need to specify some arguments, these arguments instruct the Connect Client which Connect Server to connect to and what name to use. The Connect Server will also need a Linux version of the PLEXOS Engine to be uploaded to it. NOTE: Windows Connect Clients cannot run Linux versions of the PLEXOS Engine and the Linux Connect Client cannot use Windows PLEXOS Engines.
+
+The arguments that the Linux Connect Client can use:
+
+To run the Connect Client on Linux requires mono to be installed (v4.2.1 or newer, packages mono-complete and mono-vbnc), to install this please see Mono's installation help page: http://www.mono-project.com/docs/getting-started/install/linux/ To start, you will need to execute 'mono connect.client.exe' and pass at minimum the details of the Connect Server and a name. An example of this is: mono <install_dir>/connect.client.exe -s 192.168.0.10 -n LinuxClient When running the PLEXOS Engine on Linux, a license server is required due to local and USB licenses not being supported. When the Connect Client starts, it will ensure the license settings file exists (located at $HOME/.config/PLEXOS/EE_reg.xml) and will give a warning if it is set to a license type other than 'server'. If this file does not exist, the Connect Client will populate it with the details for the Connect Server you specified in the '--server' or the '--license-server' argument. The arguments '--license-server' and '--license-port' are optional parameters that have no effect on the Connect Client itself but instead are saved for use by the PLEXOS Engine. These parameters are used during start up to set the license settings file with the details of the license server you provide. The PLEXOS Engine may have additional setup steps, you will need to refer to the PLEXOS - Linux Install guide . The Connect Client on Linux does support auto start up during system power on, to enable this please check the settings for your distribution of Linux.
+
+PLEXOS Connect Server, Connect Client and Launch Control have three environment variables that can be set in Windows to adjust the behaviour of the temporary files. PLEXOS Connect supports the 'PLEXOS_TEMP' and 'MAX_TEMP_FILE_AGE' variables from PLEXOS, these variables allow you to set where the temporary files are stored and how long to keep the files before automatic deletion. More information about these variables can be found on the PLEXOS Wiki's Advanced Settings article: Advanced Settings . Additionally, the environment variable 'PLEXOS_CONNECT_CACHE' controls where Connect 3.1 or newer will download files before use. The purpose of this cache is to save time by reusing the same files instead of downloading the files each time they are required. In the Connect Client, the PLEXOS Engine and any datasets are downloaded to this location before being copied to 'PLEXOS_TEMP' for use in any simulations. While Launch Control will use this location to store engines and dataset downloads before being copied or extracted to your selected download location.
+
+When the PLEXOS Connect Launch Control application starts, you will need to log on to a PLEXOS Connect Server with a valid account via the login pop-up which will be shown automatically. Your login will be one of three options and will be dependent on what your system administrator has configured for you:
+
+The following details are required by the login pop-up to log on:
+
+You will be able to start using the application once you have successfully logged on (see the quick start guide ).
+
+Please note that the error 'Failed to authenticate user' could be caused by a few underlying issues, including:
+
+In PLEXOS Connect 3.4, the Connect Server is able to query a user's Active Directory security group memberships and map these memberships to a Connect user group. This can be enabled by creating rules in the Connect Server's configuration files. Once the rules have been created, the Connect Server will periodically verify an AD based user against the specified security groups during a login.
+
+To create or adjust this mapping, create or edit the file on the Connect Server machine: C:\ProgramData\Energy Exemplar\PLEXOS Connect Server.json
+
+This settings file is automatically reloaded after any modifications. Any existing users will be re-verified after the number of minutes specified by "ADMappingFrequency" while user accounts that are created for the first time login of an AD user will be mapped immediately.
+
+Next, there are two optional settings that can be adjusted: ADMappingFrequency - This is the number of minutes between Connect verifying the user's security info Must be a positive, non-zero number. Defaults to 60 minutes OnADMappingError - This instructs the Connect Server on what to do if a user fails to be added or removed from a Connect user group based on the AD mappings: Fail - Abort adding the user to any groups and deny the login Silent - Ignore any groups that failed and allow with the login
+
+Finally, there is the Active Directory security group to Connect user group mapping. This will instruct the Connect Server which AD security groups to look for and, if the user is a member, which Connect groups to automatically add the user to during login. The mappings are one to many, where each AD security group must be unique but can list one or more Connect user groups. When defining a membership, the left-hand value ("RoleA", "RoleB", etc) is the name that you specified when creating the security group in Active Directory. The right-hand values are a list of Connect Groups that users should be added to if they are a member of the associated security group.
+
+In the below example, users in AD security group "RoleB" will be automatically added to the "Update" and "Execute" Connect groups. Alternatively, if a user is in both security groups "RoleA" and "RoleB", they will be added to the Connect user groups "Admin", "Update", and "Execute".
+
+For more information about creating an Active Directory security group, see: Create a Group Account in Active Directory
+
+Note: The Connect Server machine needs to be joined to the Active Directory domain that your users are in for Windows and/or PLEXOS Connect to be able to verify the logins.
+
+In PLEXOS Connect 3.4, the Connect Server can verify a user's AD security group memberships and only allow the user to login if they belong to a specific group. This is to allow administrators to use Active Directory in preventing some users from logging in to Connect while allowing others.
+
+To modify the AD group requirement, the Connect Server must first be stopped, and any Connect Server apps closed. To do this, open the Connect Server and press the "Stop" button, then close the Connect Server app. This is due to the Connect Server not being able to detect changes to this configuration file, and pressing the "Start" button on any opened Connect Server apps would overwrite your changes back to what it had loaded from when it was opened.
+
+After the Connect Server has stopped, you will need to edit the following file on the Connect Server machine: C:\ProgramData\Energy Exemplar\PLEXOS Connect Server.xml
+
+Next, you will need to check if the XML element "RequiredADGroup" already exists. If it does, you will need to modify that element, but if it does not exist, you will need to add it to the XML (before the end tag "</ServiceSettings>"). When setting the "RequiredADGroup" value, you will need to specify the name of the security group from when you created it in Active Directory.
+
+<RequiredADGroup>SecurityGroupA</RequiredADGroup> PLEXOS Connect Server's configuration file with Required AD example
+
+Once you have saved any modifications to the Server's configuration file, you can close the text editor, open the Connect Server app, and press the "Start" button. With this configuration set, any AD users not in the security group specified by "RequiredADGroup" will be denied login.
+
+Note: The Connect Server machine needs to be joined to the Active Directory domain that your users are in for Windows and/or PLEXOS Connect to be able to verify the logins.
+
+Starting in PLEXOS Connect 3.5R2, Connect's TLS security has been upgraded to 4096bit. The Connect Client and Connect Launch Control will use this by default and requires no further action. The Connect Server will default to 1024bit for compatibility with older products, as PLEXOS 8.2 and older and PLEXOS Connect 3.4 and older are not compatible with the upgrade to 4096bit. PLEXOS 8.3 and Connect Launch Control 3.5R1 are still using the older encryption but have the compatibility changes needed to support Connect 3.5R2's encryption changes, this is to prevent compatibility issues when using the Connect based authenticated server licensing in PLEXOS.
+
+If you wish to enable 4096bit encryption from the Connect Server, the Connect Server must first be stopped, and any Connect Server apps closed. To do this, open the Connect Server and press the "Stop" button, then close the Connect Server app. This is due to the Connect Server not being able to detect changes to this configuration file, and pressing the "Start" button on any opened Connect Server apps would overwrite your changes back to what it had loaded from when it was opened.
+
+After the Connect Server has stopped, you will need to edit the following file on the Connect Server machine: C:\ProgramData\Energy Exemplar\PLEXOS Connect Server.xml
+
+Next, you will need to check if the XML element "SecurityCertificate" already exists. If it does, you will need to modify that element, but if it does not exist, you will need to add it to the XML (before the end tag "</ServiceSettings>"). When setting the "SecurityCertificate" value, you will need to specify which security option you wish to use. The Connect Server 2.5R2 recognises 2 values: "Normal" and "Use4096" (without quotes).
+
+<SecurityCertificate>Use4096</SecurityCertificate> PLEXOS Connect Server's configuration file with the SecurityCertificate option
+
+Once you have saved any modifications to the Server's configuration file, you can close the text editor, open the Connect Server app, and press the "Start" button.
+
+Note: Enabling 4096bit encryption on the Connect Server will break compatibility with PLEXOS 8.2 or older and PLEXOS Connect 3.4 or older products.
+
+Integrated into the PLEXOS Connect Server is the PLEXOS License Server and while they are integrated into the same application, you may need to connect to them separately depending on your version of PLEXOS.
+
+To use the integrated license server within Connect, you will need to open the license manager in PLEXOS. If PLEXOS cannot acquire a license during start up, it will automatically open this window during start up.
+
+Switch to the "Server" tab (#1) and enter the Connect Server's address into the provided fields (#2). Step #3 will depend on the version of PLEXOS you are using and the type of license you have. PLEXOS 8.3 and newer supports authenticated licensing requests, which will require the user to log in to Connect before they can access a license.
+
+Depending on your license, the Connect Server may expose one or two ports for licensing:
+
+Note: Note that enabling "Requires Login" will require you to specify the Connect port number and unchecking "Requires Login" will require you to specify the old licensing port, these two port numbers are not interchangeable.
+
+Follow these steps to get setup license for PLEXOS Connect Server.
+
+If at any point, you need to update the license for the Connect Server, you can apply the new license through 3 different methods:
+
+To upgrade PLEXOS Connect Server, PLEXOS Connect Client or PLEXOS Connect Launch Control, you will need to download and run the relevant PLEXOS Connect installer. The installers can be downloaded from our client area https://www.energyexemplar.com/clientarea/?view=downloads . You will not need to upgrade all components at the same time due to all versions of Connect 3 is compatible with other versions of Connect 3. Prior to installing the new version, you will need to uninstall the old version of Connect, this can be done by opening the Control Panel in Windows and selecting 'Uninstall a Program' or 'Programs and Features'. Then uninstall either 'PLEXOS Connect Server', 'PLEXOS Connect Client' or 'PLEXOS Connect Launch Control' depending on which you wish to upgrade. Once the old version has finished uninstalling, you are now able to follow the install steps listed in the section section 1 to install the new version of each PLEXOS Connect component. After the installation process has completed, your settings should be restored, however, upgrading from prior to Connect 3.0 or 3.1 to Connect 3.2 or later may require you to re-enter some configuration data. This is because older Connect versions stored configuration data under a specific Windows user while 3.2 and newer will use a shared program directory. PLEXOS Connect Server has an automated upgrade step which is performed when starting for the first time. This final step does not require any user interaction as the Connect Server is performing any required changes to its internal database (the database is stored in the Connect data path described in configuring the Connect Server ). Note that once a Connect database has been upgraded, you are unable to use an older version of Connect Server with that database.
+
+All data saved in the PLEXOS Connect system is stored in the location specified during setup of the PLEXOS Connect Server (see the 'Path' field in Figure 9). This allows backups to be performed using the archiving utility that is built into the Connect Server or by using a Windows file copy while the Connect Server is offline. In the event that a rollback is required, changing Connect's data path to a previous version will restore any PLEXOS models and solutions you had but you will lose any changes, models or solutions made since the backup. Since the database system Connect uses can cause modifications to be saved at any time, we strongly recommend using Connect's archiving utility while Connect is online (#2 in Figure 10) or stopping the Connect Server before manually copying the data path.
+
+To use the built-in archiving utility, click the archive button (#2 in Figure 9) on the PLEXOS Connect Server application. See the next section for more information regarding configuring and starting an archive.
+
+Note: The connect files cannot be transferred between 2 different connect systems, this is due to how connect stores data about any stored datasets, engines and run solutions in its database.
+
+Note: When backing up the Connect Server, it is strongly recommended to shut down the Connect Server before performing any backups to avoid any corruption caused by database access during a file copy.
+
+Included within the PLEXOS Connect Server is an archiving utility, this can be configured to backup all of the Connect Server's data to a backup location and automatically remove any old datasets or runs. To open the archiving utility, press the archive button highlighted as #2 in Figure 9, clicking this button will open a window similar to Figure 10. This archive utility is available when the Connect Server is either online or offline.
+
+With the archive settings window open, you will be able to configure:
+
+After configuring the archive options, pressing 'Save' will save the settings to Connect for later use by the archive utility while pressing 'Start' will save the settings and start the archiving process. Once these settings have been configured, the task scheduler available in PLEXOS Connect will be capable of running automated archiving operations where you will need to specify when the operation is to be started. For instance, it would be possible to define runs and datasets older than 1 month are to be deleted and the task scheduler can be defined to have a timer trigger scheduled for every month to run the archive utility action.
+
+Available in the Connect Server is a restore utility, this is to allow any deleted data to be restored from a previous backup. To open the restore utility, click the drop-down button (#1 in Figure 11) and select the option 'Restore Items'.
+
+After clicking this option, you will be presented with the restore wizard. During this wizard, you will need to choose the backup to restore from and what items are to be restored. Prior to starting the restore operation, the wizard will verify the selected items against the current database to determine what items need to be restored and which items already exist. During this stage, the Connect Server may warn of duplicated names, in this case, Connect will auto-generate a new name to avoid name conflicts but you may need to make further changes from Launch Control after the restore has completed.
+
+Note: The connect server must be running for the restore utility to be available.
+
+PLEXOS Connect Server will store all of its data (excluding licensing) in a single folder that you specify during configuration (see Configuring the Connect Server ). Due to this, moving the PLEXOS Connect Server to another machine or to change storage locations will be a simple process:
+
+The license server that is built into the Connect Server stores its data separately to the rest of the Connect system. If you wish to copy these license settings to a different machine or different user account, you'll need to perform these additional steps:
+
+Note: Since PLEXOS Connect 3.2, the license server is running under 'Local System'. You may require local administrator privileges to access the Local System's profile directory.
+
+Added in Connect 3.4, Launch Control will be able to query and display a breakdown by type of the storage usage by the PLEXOS Connect Server. This report will only calculate storage usage for all files stored in the Connect data path from Configuring the Connect Server .
+
+If you have multiple storage drives attached to the Connect Server machine, these will also be shown but they will not have the storage breakdown that the Connect data path has. Instead show an overall storage used vs storage available graph will be shown. For easier identification, the drive with the Connect data path will have the Connect icon (as shown on the C:\ drive in the above figure).
+
+Introduced in Connect 3.3, the PLEXOS Connect Server supports being queried over a HTTP based REST API. This service is optional and will run in parallel to the existing Connect communication (port 8888). The Web API can be enabled or disabled at any time when the Connect Server is offline by clicking the settings button (#1) in Figure 15.
+Lists:
+	- PLEXOS Connect User (i.e. 'UserA')
+	- Windows Active Directory user (i.e. 'ServerA\UserA')
+	- Windows Authentication (no username or password required)
+	- Server The PLEXOS Connect Server hostname or IP address. The TCP communication port configured on the PLEXOS Connect Server (default is 8888).
+	- The PLEXOS Connect Server hostname or IP address.
+	- The TCP communication port configured on the PLEXOS Connect Server (default is 8888).
+	- Username The account username.
+	- Password The account password.
+	- Remember you can choose to remember the logon details by checking this checkbox. By remembering the details, PLEXOS Connect Launch Control will automatically log on when opened.
+	- The PLEXOS Connect Server hostname or IP address.
+	- The TCP communication port configured on the PLEXOS Connect Server (default is 8888).
+	- The entered username and/or password is incorrect.
+	- The Connect Server is not licensed.
+	- There is a time difference more than a couple of minutes between your machine and the Connect Server (time zones should not cause this time difference).
+	- ADMappingFrequency - This is the number of minutes between Connect verifying the user's security info Must be a positive, non-zero number. Defaults to 60 minutes
+	- Must be a positive, non-zero number. Defaults to 60 minutes
+	- OnADMappingError - This instructs the Connect Server on what to do if a user fails to be added or removed from a Connect user group based on the AD mappings: Fail - Abort adding the user to any groups and deny the login Silent - Ignore any groups that failed and allow with the login
+	- Fail - Abort adding the user to any groups and deny the login
+	- Silent - Ignore any groups that failed and allow with the login
+	- Must be a positive, non-zero number. Defaults to 60 minutes
+	- Fail - Abort adding the user to any groups and deny the login
+	- Silent - Ignore any groups that failed and allow with the login
+	- Port 399 - this port can be used by PLEXOS 8.2 and older, or by unchecking "Requires Login" in the license manager for PLEXOS 8.3 or newer. If your license allows, this port will be enabled and configured from the license control panel
+	- If your license allows, this port will be enabled and configured from the license control panel
+	- Port 8888 - this port can only be used by PLEXOS 8.3 or newer when checking "Requires Login" in the PLEXOS license manager This port is defined in the Connect Server app, see section 3
+	- This port is defined in the Connect Server app, see section 3
+	- If your license allows, this port will be enabled and configured from the license control panel
+	- This port is defined in the Connect Server app, see section 3
+	- Backups - Whether or not to backup Connect's data and where to
+	- Runs - Whether or not to remove any old Runs that are older than the specified limit
+	- Datasets - Whether or not to remove any old Dataset Versions that are older than the specified limit
+	- Empty Bin - Whether or not to remove all items that are currently listed as a deleted version, deleted run or deleted engine.
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Install PLEXOS Connect?
+3. How Do I Configure the PLEXOS Connect Server?
+4. How Do I Configure the PLEXOS Client?
+5. How Do I Configure the Environment Variables?
+6. How Do I Login with PLEXOS Connect Launch Control?
+7. How Do I Map an Active Directory Security Group to a Connect User Group?
+8. How Do I Restrict Active Directory User Access to PLEXOS Connect?
+9. How Do I Upgrade PLEXOS Connect's Encryption?
+10. How Do I Connect to the Integrated License
+11. How Do I Initialise a License for PLEXOS Connect Server?
+12. How Do I Update a License for PLEXOS Connect Server?
+13. How Do I Upgrade PLEXOS Connect?
+14. How Do I Backup the PLEXOS Connect Server?
+15. How Do I Migrate the PLEXOS Connect Server?
+16. How Do I View the Storage Usage of the Connect Server?
+17. How Do You Setup PLEXOS Connect Server's HTTP Based Web API?
+
+H3s:
+4.1. PLEXOS Connect Client on Window
+4.2. PLEXOS Connect Client on Linux Based Operating Systems
+14.1. How Do I Use the PLEXOS Connect Archive Utility
+14.2. How Do I Restore Data from a Backup
+15.1 How Do I Migrate the License Server settings?

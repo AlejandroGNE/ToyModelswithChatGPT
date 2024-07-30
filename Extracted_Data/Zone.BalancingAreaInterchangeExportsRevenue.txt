@@ -1,0 +1,15 @@
+Header: Zone Balancing Area Interchange Exports Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from financial exports from the zone.
+
+Paragraphs:
+Zone Balancing Area Interchange Exports Revenue is the total revenue from financial exports from the Zone to other zones.
+Lists:
+

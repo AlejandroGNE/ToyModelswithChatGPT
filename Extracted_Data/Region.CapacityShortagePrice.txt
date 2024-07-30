@@ -1,0 +1,25 @@
+Header: Region Capacity Shortage Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty for a shortage of capacity reserves
+SA	Load	0	MW	1				Load.csv
+SA	Capacity Shortage Price	500	$/kW/year	1				
+SA	Min Capacity Reserve Margin	15	%	1				
+
+Paragraphs:
+Region Capacity Shortage Price is an input to LT Plan and is the penalty for shortage of Capacity Reserves . It applies when Min Capacity Reserves , Min Capacity Reserve Margin , Min Native Capacity Reserve, and Min Native Capacity Reserve Margin is defined.
+
+Example
+
+In this example, the Capacity Reserve Margin is to be maintained at or above 15% with penalties for violating the limit.
+
+See also:
+Lists:
+	- Region Capacity Excess Price
+

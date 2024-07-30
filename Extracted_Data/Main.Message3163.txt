@@ -1,0 +1,11 @@
+Header: Message 3163
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	LT Plan specified [Allow Capacity Sharing] but none of the Regions or Zones have capacity reserve inputs. Capacity will not be shared except as specified in Line Firm Capacity.
+
+Paragraphs:
+Message 3163 occurs in the following circumstances:
+Lists:
+

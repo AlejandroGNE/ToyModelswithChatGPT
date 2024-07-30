@@ -1,0 +1,19 @@
+Header: Flow Control Impedance
+
+Table Details:
+Units:	pu
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent impedance
+
+Paragraphs:
+Flow Control Impedance is the equivalent impedance. It is post calculated based on dispatch line flow and flow control flows.
+
+Impedance = - FC Flow * Line Reactance / Line Flow
+
+Please note that the impedance impact for multi- FCs on a line is not linear. The reported impedance for individual flow control is linearly allocated based on dispatched power flow on them.
+Lists:
+

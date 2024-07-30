@@ -1,0 +1,18 @@
+Header: Diagnostic MPS Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write math programs to disk in MPS text format
+
+Paragraphs:
+Diagnostic MPS Files toggles on/off writing of diagnostic text files for each mathematical programming problem solved during the simulation. The files written by this option are in MPS format, which is the most widely used format. For readability LP files generally easier.
+
+Note that this option may use a lot of disk space (and time) to write the text files and is not recommended for normal use.
+
+See also:
+Lists:
+	- Diagnostic LP Files
+	- Diagnostic Solution Files
+

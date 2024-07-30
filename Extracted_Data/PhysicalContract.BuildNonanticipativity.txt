@@ -1,0 +1,15 @@
+Header: Physical Contract Build Non-anticipativity
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Physical Contract Build Non-anticipativity sets the price for violating the non-anticipativity constraints when LT Plan is run in scenario-wise decomposition mode according to the Stochastic Method attribute. The default value of -1 means that the non-anticipativity constraints are hard constraints. A value of zero means the constraints can be violated at no cost, and any positive value sets a penalty for violating the constraints.
+Lists:
+

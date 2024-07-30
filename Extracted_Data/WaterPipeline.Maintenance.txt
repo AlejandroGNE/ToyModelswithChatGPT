@@ -1,0 +1,15 @@
+Header: Water Pipeline Maintenance
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity out on maintenance
+
+Paragraphs:
+Water Pipeline Maintenance is Capacity out on maintenance.
+Lists:
+

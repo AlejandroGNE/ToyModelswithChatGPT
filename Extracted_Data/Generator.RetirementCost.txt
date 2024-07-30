@@ -1,0 +1,28 @@
+Header: Generator Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring a unit
+
+Paragraphs:
+Generator Retirement Cost is
+              the one-time cost of retiring a unit in LT
+                Plan .
+
+As output Retirement Cost is defined as:
+
+Retirement Cost (output) = Retirement Cost (input) x Units
+                Retired
+
+See also:
+Lists:
+	- Generator Max
+              Units Retired
+	- Generator FO&M
+              Charge
+

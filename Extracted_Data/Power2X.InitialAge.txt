@@ -1,0 +1,15 @@
+Header: Power2X Initial Age
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Age of the Power2X in years at the start of the simulation horizon
+
+Paragraphs:
+Power2X Initial Age at the start of the simulation horizon.  It is typically used in conjunction with the Power Degradation property.
+Lists:
+

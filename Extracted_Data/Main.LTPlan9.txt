@@ -1,0 +1,36 @@
+Header: LT Plan - Monthly Build Decisions
+
+Table Details:
+New M01	FO&M Charge	10
+New M02	FO&M Charge	9.972222
+New M03	FO&M Charge	9.944444
+New M04	FO&M Charge	9.916667
+New M05	FO&M Charge	9.888889
+New M06	FO&M Charge	9.861111
+New M07	FO&M Charge	9.833333
+New M08	FO&M Charge	9.805556
+New M09	FO&M Charge	9.777778
+New M10	FO&M Charge	9.75
+New M11	FO&M Charge	9.722222
+New M12	FO&M Charge	9.694444
+
+Paragraphs:
+The resolution of LT Plan capacity decisions is annual. It is possible however to approximate monthly decisions using the following procedure:
+
+For each Generator that needs monthly resolution create 12 versions of the Generator object (one for each month of the year), so that Generator "New M01", for example, represents a new unit built in January of the year it is built, "New 02" is one built in February of the year it is built, etc. You only need 12 generators, not 12 × years. LT Plan will still decide which year to build it and we will use a Constraint objects to turn off the generation in the months before the unit is built.
+
+There has to be a financial reason why you would delay the build into partway of a year, and so you can discount the Generator FO&M Charge as an approximation. In the below we have discounted the $10/kW/year Generator FO&M Charge by 1/12 for option "M02" and 2/12 for "M03" but because you only get this discount in the first year we have further divided the discount by the 30 year Generator Economic Life so the final adjusted numbers are in the following table.
+
+Next create a "mutually exclusive" Constraint as described in Timing and Staging Constraints that covers all 12 Generator objects.
+
+Finally create 11 constraints (one for each of the months other than month 1). These constraints are of the form:
+
+Generation t ≤ M - M × UnitsBuiltInYear t
+
+M is a large number at least the size of the Generator Max Capacity . The coefficient on UnitsBuiltInYear ( Constraint Generators Units Built in Year Coefficient ) has the Timeslice for the months that the unit does not 'exist' e.g. for the Generator "New M02" the Timeslice on the coefficient is "M01", and for the "New M10" Generator it is "M01-09".
+
+LT Plan now chooses which of the 12 Generator objects to build indicating the optimal month for the new generator to start operating.
+
+Previous Chapter | Next Chapter
+Lists:
+

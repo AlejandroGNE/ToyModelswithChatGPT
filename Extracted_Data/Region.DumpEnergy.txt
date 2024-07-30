@@ -1,0 +1,20 @@
+Header: Region Dump Energy
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dump energy
+
+Paragraphs:
+Region Dump Energy is the total dump energy (over-generation) in the region, and is defined as:
+
+See also:
+Lists:
+	- Region Hours of Dump Energy
+	- Region Cost of Dump Energy
+	- Region Unserved Energy
+

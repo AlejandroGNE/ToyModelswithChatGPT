@@ -1,0 +1,14 @@
+Header: Stochastic SDDP Simplified Chronology
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the chronology is simplified to one block per stage during SDDP iterations
+
+Paragraphs:
+Flag if the chronology is simplified to one block per stage during
+          SDDP iterations except for the final forward pass, in which the
+          chronology is not simplified.
+Lists:
+

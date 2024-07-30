@@ -1,0 +1,16 @@
+Header: Gas Demand Bid Tranches
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	5
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of bid points to generate when auto-generating tranches
+
+Paragraphs:
+Gas Demand Bid Tranches is the number of bid points to generate when auto-generating tranches. 
+          The cleared bid price will be on one of these tranche points.
+Lists:
+

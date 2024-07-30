@@ -1,0 +1,21 @@
+Header: Emission Fuels Intensity
+
+Table Details:
+Units:	kg/MWh (Metric), lb/MWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission intensity of generation
+
+Paragraphs:
+Emission Fuels Intensity is the average emission intensity of Generation associated with the Emission and the Fuel and is defined as:
+
+See also:
+Lists:
+	- Emission Intensity
+	- Emission Generators Intensity
+	- Region Emissions Intensity
+	- Company Emissions Intensity
+

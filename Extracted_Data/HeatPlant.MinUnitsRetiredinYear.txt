@@ -1,0 +1,15 @@
+Header: Heat Plant Min Units Retired in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically retired in any single year of the planning horizon
+
+Paragraphs:
+Heat Plant Min Units Retired in Year is Minimum number of units automatically retired in any single year of the planning horizon.
+Lists:
+

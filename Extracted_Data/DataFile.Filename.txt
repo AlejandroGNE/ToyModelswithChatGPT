@@ -1,0 +1,15 @@
+Header: Data File Filename
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Data file used in the simulation
+
+Paragraphs:
+Data File Filename specifies the name of the output files in Load Forecasting .
+Lists:
+

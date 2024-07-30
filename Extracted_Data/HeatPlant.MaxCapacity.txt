@@ -1,0 +1,15 @@
+Header: Heat Plant Max Capacity
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum heat production
+
+Paragraphs:
+Heat Plant Max Capacity defines the maximum heat production of a heat plant per hour. Note that the heat plant will not exist if Max Capacity and Units are not defined. Heat Production =< (Max Capacity)* Units
+Lists:
+

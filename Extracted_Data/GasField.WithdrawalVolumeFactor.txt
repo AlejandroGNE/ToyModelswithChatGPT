@@ -1,0 +1,15 @@
+Header: Gas Field Withdrawal Volume Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Gas withdrawal factor for gas field.
+
+Paragraphs:
+Gas Field Withdrawal Volume Factor is a percentage of Initial Volume for which withdrawal is allowed in a band. Further withdrawals from the field causing the volume to drop below the volume for this band takes the simulation into the next band. The Withdrawal Volume Factor corresponds with the Withdrawal Rate Scalar value for each band.
+Lists:
+

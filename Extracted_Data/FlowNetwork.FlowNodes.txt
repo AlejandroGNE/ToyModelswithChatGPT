@@ -1,0 +1,11 @@
+Header: Flow Network Flow Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Set of Flow Nodes in the Flow Network
+
+Paragraphs:
+Flow Network Flow Nodes is Set of Flow Nodes in the Flow Network
+Lists:
+

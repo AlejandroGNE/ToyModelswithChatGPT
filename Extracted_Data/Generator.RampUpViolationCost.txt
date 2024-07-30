@@ -1,0 +1,19 @@
+Header: Generator Ramp Up Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Ramp Up] violations.
+
+Paragraphs:
+Generator Ramp Up Violation Cost is cost of violating the Max Ramp Up constraint. The price of violations is set by the Max Ramp Up Penalty property. The total violation is reported as Ramp Up Violation and is defined as:
+
+See also:
+Lists:
+	- Generator Hours of Ramp Up Violation
+	- Generator Ramp Up Violation
+

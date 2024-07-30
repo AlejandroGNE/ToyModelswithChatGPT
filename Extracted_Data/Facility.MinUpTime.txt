@@ -1,0 +1,30 @@
+Header: Facility Min Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be run after being started
+
+Paragraphs:
+Facility Min Up Time is the
+          minimum number of hours the unit must be 'on' in any commitment cycle.
+          Note that Min Up Time (MUT) is a static property. The number of
+          hours up is reported in the property Hours
+            Up . If it is defined dynamically (varying according to different
+          periods), the maximum value will be used. If dynamic MUT is desired,
+          it can be achieve using a custom constraints as show in the Min
+            Down Time topic.
+
+See also:
+Lists:
+	- Facility Min
+              Down Time
+	- Facility Max
+              Down Time
+	- Facility Max
+              Up Time
+

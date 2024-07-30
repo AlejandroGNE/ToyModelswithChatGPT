@@ -1,0 +1,116 @@
+Header: LT Plan Class
+
+Table Details:
+Description:	LT Plan simulation phase
+
+Paragraphs:
+See also LT Plan Property Reference for a detailed list of properties for this class of object.
+
+The settings that control the capacity expansion planning function in
+          the simulator are defined on LT Plan objects. Below is a comprehensive
+          guide to LT Plan.
+
+
+
+
+
+The term "capacity expansion" refers to the problem of finding the
+          optimal combination of generation new builds and retirements and
+          transmission upgrades (and retirements) that minimizes the net present
+          value (NPV) of the total costs of the system over a long-term planning
+          horizon. That is, to simultaneously solve a generation and
+          transmission capacity expansion problem and a dispatch problem from a
+          central planning, long-term perspective.
+
+Capacity expansion is implemented via the LT Plan class of objects.
+          The purpose of the LT Plan is then to solve the capacity expansion
+          problem over the planning horizon-typically expected to be in the
+          range of 10 to 30 years, though any horizon is possible. LT Plan
+          appropriately deals with discounting and end-year effects.
+
+LT Plan runs before the PASA / MT
+            Schedule / ST Schedule phases.
+          It is fully integrated with these other simulation phases. Thus, LT
+          Plan can be run either separately or in sequence with these other
+          simulation phases in a single simulation. In the latter role, the
+          long-term build/retirement decisions made by LT Plan will be
+          automatically passed down to the other phases, providing a seamless
+          solution. In either role, the output of LT Plan can be accessed using
+          the solution viewing functions. In addition the LT Plan build/retire
+          decisions can be written to text file for use in subsequent
+          simulations-see the setting Write
+            Expansion Plan Text Files .
+
+LT Plan can output the optimal expansion solution and optionally a hierarchy of sub-optimal
+          solutions starting working down in solution
+            quality .
+
+LT Plan uses the same generic Constraint facility as other simulation phases. This means that complex unit
+          staging, and other constraints can be modelled. Further, LT Plan
+          provides the same capabilities as MT
+            Schedule in modelling Emissions , Fuel constraints and Reserve .
+          Like MT Schedule LT Plan can run
+          in chronological mode or use Load Duration Curves (LDC) according to
+          the LT Plan Chronology setting.
+          In chronological mode LT Plan will capture the dynamic effects of
+          intermittent generation and load uncertainty on generator cycling.
+          Finally, LT Plan can be run in deterministic or stochastic modes. In
+          stochastic mode it can be used to find the single optimal set of build
+          decisions in the face of uncertainties in any input e.g. load, fuel prices, hydro inflows or wind generation.
+
+The following types of expansion/retirement and features are
+          supported:
+
+See:
+
+Next Chapter
+Lists:
+	- Building new generators
+	- Retiring existing generators
+	- Building new ac or dc
+            transmission lines
+	- Retiring existing ac or dc
+            transmission lines
+	- Adding new
+            transmission flow control devices
+	- Expanding the capacity
+            on existing transmission interfaces
+	- Taking up new physical generation
+              contracts
+	- Taking up new
+            physical load contracts
+	- Adding battery electric
+            storage systems
+	- Developing new gas
+              fields
+	- Building gas
+              processing plants
+	- Building new gas
+              pipelines
+	- Developing new gas
+              nodes
+	- Adding gas
+              storage
+	- Building water
+              processing plants
+	- Building new water
+              pipelines
+	- Developing new water
+              nodes
+	- Adding water
+              storage
+	- LT Plan - Formulation
+	- LT Plan - Problem Size
+	- LT Plan - Turning on LT Plan
+	- LT Plan - Expansion Candidates
+	- LT Plan - Timing and Staging
+              Constraints
+	- LT Plan - Capacity Zones
+	- LT Plan - Capacity Interchange and
+              Coincidence of Peak Loads
+	- LT Plan - Revenue Adequacy
+	- LT Plan - Monthly Build Decisions
+	- LT Plan - Depreciation Benefits
+	- LT Plan - Ancillary Services
+	- LT Plan - Stochastic Optimization
+

@@ -1,0 +1,15 @@
+Header: Generator Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on outage
+
+Paragraphs:
+Generator Outage Hours is Number of hours on outage.
+Lists:
+

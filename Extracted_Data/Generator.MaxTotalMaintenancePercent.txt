@@ -1,0 +1,15 @@
+Header: Generator Max Total Maintenance Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum percent of total maintenance scheduled within the time frame
+
+Paragraphs:
+Generator Max Total Maintenance Percent is maximum percent of total maintenance scheduled within the time frame. Note that two contiguous time frame with the same Max Total Maintenance Percent will be treated as a single time frame in the formulation.  This input is used only in PASA.
+Lists:
+

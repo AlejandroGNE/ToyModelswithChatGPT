@@ -1,0 +1,25 @@
+Header: Generator Fixed Load Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Fixed Load] constraint.
+
+Paragraphs:
+Generator Fixed Load Violation is
+          violation of the Fixed Load constraint. Violations are only permitted if the Fixed
+            Load Penalty is non-negative.
+
+See also:
+Lists:
+	- Generator Fixed
+              Load Generation
+	- Generator Fixed
+              Load Violation Hours
+	- Generator Fixed
+              Load Violation Cost
+

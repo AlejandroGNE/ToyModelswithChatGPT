@@ -1,0 +1,17 @@
+Header: Region Wheeling Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Wheeling cost
+
+Paragraphs:
+Region Wheeling Cost is the WheelingCharges paid on net imports to the Region.
+
+See also Region Wheeling Revenue .
+Lists:
+

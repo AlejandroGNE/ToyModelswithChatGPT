@@ -1,0 +1,22 @@
+Header: Zone Cost of Unserved Energy
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unserved energy.
+
+Paragraphs:
+Zone Cost of Unserved Energy is the cost of unserved energy and defined as:
+
+Note that unserved energy in the simulation objective function is priced at Transmission Internal VoLL .
+
+See also:
+Lists:
+	- Zone Hours of Unserved Energy
+	- Zone Cost of Dump Energy
+	- Zone Cost of Curtailment
+

@@ -1,0 +1,36 @@
+Header: Generator Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically constructed in any single year of the planning horizon
+Units	0	-		
+Max Capacity	500	MW		
+FO&M Charge	50	$/kW/year		
+Max Units Built	1	-	1/01/2020	
+Max Units Built in Year	0	-	1/01/2025	31/12/2025
+Build Cost	1500	$/kW		
+Economic Life	25	years		
+WACC	10	%		
+
+Paragraphs:
+Generator Max Units Built in Year
+          sets an upper limit on the number of new units that LT
+            Plan is allowed to build in any single year of the planning
+          horizon. This property should be used in combination with Max
+            Units Built and offers a finer control over the timing of new
+          builds.
+
+In this example at most one new unit can be built in the planning
+          horizon, but the new build cannot occur until after 1/01/2020 and also
+          cannot happen in the year 2025.
+
+See also:
+Lists:
+	- Generator Min
+              Units Built in Year
+

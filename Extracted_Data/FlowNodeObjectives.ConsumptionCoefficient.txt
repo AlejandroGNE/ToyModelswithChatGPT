@@ -1,0 +1,21 @@
+Header: Flow Node Objectives Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Commodity consumption at the Flow Node
+
+Paragraphs:
+Flow Node Objectives Consumption Coefficient sets the coefficient of Consumption in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+... + c (z,j) × Flow
+            Node Consumption ...
+Lists:
+

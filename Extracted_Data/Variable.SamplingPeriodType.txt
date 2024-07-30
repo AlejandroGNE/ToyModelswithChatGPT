@@ -1,0 +1,15 @@
+Header: Variable Sampling Period Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,6)
+Key Property:	No
+Description:	Period type of temporal sampling where number of periods between samples is [Sampling Frequency].
+
+Paragraphs:
+Variable Sampling Period Type is the time period for temporal sampling where number of periods between samples is Sampling Frequency .
+Lists:
+

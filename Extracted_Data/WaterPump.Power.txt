@@ -1,0 +1,15 @@
+Header: Water Pump Power
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Power consumed by the pump
+
+Paragraphs:
+Water Pump Power is power consumed by the pump.
+Lists:
+

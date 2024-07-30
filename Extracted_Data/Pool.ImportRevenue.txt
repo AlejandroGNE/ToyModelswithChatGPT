@@ -1,0 +1,15 @@
+Header: Pool Import Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from imports
+
+Paragraphs:
+Pool Import Revenue is the sum of revenue from imports across all regions in the Pool.
+Lists:
+

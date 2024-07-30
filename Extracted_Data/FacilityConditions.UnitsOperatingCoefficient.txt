@@ -1,0 +1,15 @@
+Header: Facility Conditions Units Operating Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of units operating
+
+Paragraphs:
+Facility Conditions Units Operating Coefficient is the coefficient of the number of units operating.
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Vehicle Demand
+
+Table Details:
+Units:	km (Metric), m (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Travel demand for vehicle
+
+Paragraphs:
+Vehicle Demand is the hourly travel demand
+            for a vehicle expressed in km (metric) or miles (Imperial US).
+            Demand is typically defined as a time series read from a Data
+            File and connected to a Variable so that stochastics can be applied. Thus, although it can define
+            discrete travel 'events' it is best thought of as the 'expected
+            value' of travel demand in any period. The total demand applied is
+            equal to the Demand input multiplied by the number of Units (number of vehicles).
+
+Note that, if you define the Fixed
+            Load input then the Demand input is ignored.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: List Inclusive Empty
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	This means that an empty collection implies all objects are included.
+
+Paragraphs:
+List Inclusive Empty implies all objects are included when enabled.
+
+See also:
+Lists:
+	- List Filter
+	- List Transient
+	- List Report
+

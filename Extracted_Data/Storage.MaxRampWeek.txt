@@ -1,0 +1,15 @@
+Header: Storage Max Ramp Week
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum of change in storage across each week.
+
+Paragraphs:
+Storage Max Ramp Week is the maximum allowed rate of change ( Ramp ) in storage End Volume between one week and the next. See Max Ramp for more details.
+Lists:
+

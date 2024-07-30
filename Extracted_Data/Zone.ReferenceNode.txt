@@ -1,0 +1,11 @@
+Header: Zone Reference Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the reference node for the zone
+
+Paragraphs:
+Zone Reference Node is the reference node for the zone for the purposes of the Zone Load Settlement Model . By default the reference node is the first in-service node in the Zone.
+Lists:
+

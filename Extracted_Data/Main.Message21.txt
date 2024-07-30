@@ -1,0 +1,11 @@
+Header: Message 21
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> RHS should be defined from the start of the planning horizon.
+
+Paragraphs:
+Message 21 occurs in the following circumstances:
+Lists:
+

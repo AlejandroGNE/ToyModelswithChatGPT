@@ -1,0 +1,11 @@
+Header: Power2X Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the Power2X
+
+Paragraphs:
+Power2X Companies is the set of companies that own the Power2X.
+Lists:
+

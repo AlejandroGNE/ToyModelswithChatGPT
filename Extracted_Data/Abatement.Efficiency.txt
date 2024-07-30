@@ -1,0 +1,22 @@
+Header: Abatement Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Efficiency of emission abatement
+
+Paragraphs:
+As input Abatement Efficiency is the efficiency of Emission abatement i.e the percentage of emissions that are removed by the technology. Where the Abatement technology is associated with more than one Emission you may prefer to set the Emissions Efficiency property instead.
+
+As output this property is defined as:
+
+See also:
+
+
+Lists:
+	- Abatement Net Emissions
+

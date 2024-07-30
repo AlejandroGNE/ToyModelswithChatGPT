@@ -1,0 +1,11 @@
+Header: Region Exporting Transformers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Exporting Transformers is the set of Transformer that export from the Region.  This collection is reserved for reporting only.
+Lists:
+

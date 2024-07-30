@@ -1,0 +1,17 @@
+Header: Node Constraints Phase Angle Coefficient
+
+Table Details:
+Units:	°
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node phase angle
+
+Paragraphs:
+Node Constraints Phase Angle Coefficient is the left-hand side coefficient for Phase Angle in the constraint.
+
+NOTE: Phase Angle only applies to the variable shift-factor OPF
+Lists:
+

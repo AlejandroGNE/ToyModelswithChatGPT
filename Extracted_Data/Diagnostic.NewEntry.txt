@@ -1,0 +1,14 @@
+Header: Diagnostic New Entry
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for MT Schedule new entry calculations
+
+Paragraphs:
+This option produces a diagnostic file in XML format that details the calculations made during the New Entry algorithm in MT Schedule .
+
+Note that this option is not relevant to LT Plan .
+Lists:
+

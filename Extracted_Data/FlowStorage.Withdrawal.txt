@@ -1,0 +1,25 @@
+Header: Flow Storage Withdrawal
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gross amount of the Commodity withdrawn from inventory
+
+Paragraphs:
+Flow Storage Withdrawal is the
+          amount of the Commodity withdrawn
+          from storage. It differs from the amount received ( Production )
+          at the Flow Node according to
+          the Withdrawal
+            Efficiency .
+
+See also:
+Lists:
+	- Flow Storage Injection
+	- Flow Storage Net
+              Withdrawal
+

@@ -1,0 +1,19 @@
+Header: Reserve Batteries Max Charge Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum reserve response from charging load adjustment
+
+Paragraphs:
+Reserve Batteries Max Charge Response is the maximum reserve response that can be effected through variations to a battery's Load level.
+
+Reserve response from adjustments to a battery's Generation level can be limited by Max Response .
+
+Total reserve provision from the whole battery (geneation + load) can be limited by Total Response .
+Lists:
+

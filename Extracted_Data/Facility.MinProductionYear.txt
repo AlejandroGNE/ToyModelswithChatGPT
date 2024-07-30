@@ -1,0 +1,29 @@
+Header: Facility Min Production Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum production in year
+
+Paragraphs:
+Facility Min Production Year sets
+          a lower bound on the facility's Production in each year of the simulation. See Min
+            Production for more details.
+
+See also:
+Lists:
+	- Facility Min
+              Production Hour
+	- Facility Min
+              Production Day
+	- Facility Min
+              Production Week
+	- Facility Min
+              Production Month
+	- Facility Min
+              Capacity Factor Year
+

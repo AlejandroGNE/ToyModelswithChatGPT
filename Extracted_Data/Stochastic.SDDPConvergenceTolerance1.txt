@@ -1,0 +1,20 @@
+Header: Stochastic SDDP Convergence Tolerance 1
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥0
+Description:	Objective function convergence criteria 1 for SDDP
+
+Paragraphs:
+SDDP Convergence Tolerance 1 sets the first stop criteria for the SDDP algorithm that
+          it stops when the relative gap between the upper bound and lower bound
+          is smaller than this tolerance.
+
+See also:
+Lists:
+	- SDDP
+              Convergence Tolerance 2
+	- SDDP
+              Convergence Tolerance 2a
+

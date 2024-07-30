@@ -1,0 +1,17 @@
+Header: Gas Node Delivered Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Delivered price for gas at the gas node
+
+Paragraphs:
+Gas Node Delivered Price is the output of Gas Citygate Pricing functionality in PLEXOS. The blend of gas appearing at each gas node is priced based on injection weights and corresponding prices of node injections.
+
+For details on delivered price calculations, refer to the article Citygate Pricing .
+Lists:
+

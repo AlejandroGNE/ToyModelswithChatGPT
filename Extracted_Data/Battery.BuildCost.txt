@@ -1,0 +1,21 @@
+Header: Battery Build Cost
+
+Table Details:
+Units:	Input: $/kW    Output: $000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building a BESS unit
+
+Paragraphs:
+Battery Build Cost is the cost of building a BESS unit.
+
+Battery Build Cost is the 'overnight' cost of developing a BESS unit.
+
+The Build Cost can be defined in combination with Economic Life and WACC so that LT Plan will compute an annuity. If Build Cost is defined without these parameters then the entire Build Cost will be incurred in the first year. The cost is also treated as a lump sum, if the Economic Life is entirely inside the planning horizon.
+
+As a reported property, Build Cost is calculated as:
+Lists:
+

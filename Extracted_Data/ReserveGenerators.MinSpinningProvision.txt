@@ -1,0 +1,22 @@
+Header: Reserve Generators Min Spinning Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum spinning reserve provision when units are generating
+
+Paragraphs:
+Reserve Generators Min Spinning Provision is the minimum spinning reserve provision when units are generating. The following constraint is added to the mathematical programming problem:
+
+Thus the minimum applies if-and-only-if the generator is 'on'. Note that this limit is relaxed when the generator is running up or running down since no reserve provision is possible during those periods. Note further that if Reserve Unit Commitment is toggled 'on' then the above constraint is applied if-and-only-if the units are selected for reserve provision.
+
+See also:
+Lists:
+	- Reserve Generators Min Provision
+	- Reserve Generators Min Regulation Provision
+	- Reserve Generators Max Response
+

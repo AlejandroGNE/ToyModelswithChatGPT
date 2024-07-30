@@ -1,0 +1,15 @@
+Header: Gas Demand Weather Data Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weather data factor for gas demand function
+
+Paragraphs:
+Gas Demand Weather Data Factor is a multi-band scalar value. Wind Speed data that falls within a Weather Data Variable band will be multiplied by the corresponding Weather Data Factor for that band.
+Lists:
+

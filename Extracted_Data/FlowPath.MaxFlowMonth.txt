@@ -1,0 +1,27 @@
+Header: Flow Path Max Flow Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow on the Flow Path in any month
+
+Paragraphs:
+Flow Path Max Flow Month sets an
+          upper bound on the Flow in each
+          month of the simulation. See Max Flow for more details.
+
+See also:
+Lists:
+	- Flow Path Max
+              Flow Hour
+	- Flow Path Max
+              Flow Day
+	- Flow Path Max
+              Flow Week
+	- Flow Path Max
+              Flow Year
+

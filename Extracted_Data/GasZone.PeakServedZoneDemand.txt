@@ -1,0 +1,15 @@
+Header: Gas Zone Peak Served Zone Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas Peak Served Demand in gas zone
+
+Paragraphs:
+Gas Zones Peak Served Zone Demand is Gas Peak Served Demand in a gas zone.
+Lists:
+

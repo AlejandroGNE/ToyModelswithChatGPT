@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels SRMC
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Short-run marginal cost (Fuel + VO&M + Emissions)
+
+Paragraphs:
+Heat plant Fuels SRMC is the marginal (incremental) cost of generation using the specified fuel and is defined as:
+Lists:
+

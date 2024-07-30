@@ -1,0 +1,18 @@
+Header: Heat Plant Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Heat Plant Max Units Built in Year is Maximum number of units automatically constructed in any single year of the planning horizon.  This value should be less than or equal to Max Units Built .
+
+See also:
+Lists:
+	- Heat Plant Project Start Date
+

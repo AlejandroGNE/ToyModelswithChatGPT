@@ -1,0 +1,25 @@
+Header: Maintenance Min Occurrence
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of times this event must occurs in the Horizon.
+
+Paragraphs:
+Maintenance Min Occurrence is the minimum number of times this event must occur in each step in the simulation Horizon .
+
+Note: This Min Occurrence (Hour/Day/Week/Month/Year) is implemented by ensuring the total Maintenance time (
+Min Occurrence x Duration ) is honoured. It could happen that the number of times in solution is less than required, especially in fitted chronological phases when the number of hours for one maintenance event is longer than Duration because of the LDC.
+
+See also:
+Lists:
+	- Maintenance Min Occurrence Hour
+	- Maintenance Min Occurrence Day
+	- Maintenance Min Occurrence Week
+	- Maintenance Min Occurrence Month
+	- Maintenance Min Occurrence Year
+

@@ -1,0 +1,11 @@
+Header: Message 3088
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Invalid day of week range in Timeslice <name>.
+
+Paragraphs:
+Message 3088 occurs in the following circumstances:
+Lists:
+

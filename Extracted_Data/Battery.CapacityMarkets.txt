@@ -1,0 +1,11 @@
+Header: Battery Capacity Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of capacity markets the battery sells into
+
+Paragraphs:
+Battery Capacity Markets is set of capacity markets the battery sells into
+Lists:
+

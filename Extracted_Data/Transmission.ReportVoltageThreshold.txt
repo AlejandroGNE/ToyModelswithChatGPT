@@ -1,0 +1,12 @@
+Header: Transmission Report Voltage Threshold
+
+Table Details:
+Units:	kV
+Default Value:	0
+Validation Rule:	≥0
+Description:	Voltage level at which transmission reporting begins.
+
+Paragraphs:
+Transmission Report Voltage Threshold sets the node voltage threshold above which transmission line and bus information appears in the solution. For example you might want to report the transmission solution for only the high voltage network.  Note that you can force reporting of certain lower voltage elements using the Transmission Report Injection and Load Nodes and/or Node Must Report , Line Must Report .
+Lists:
+

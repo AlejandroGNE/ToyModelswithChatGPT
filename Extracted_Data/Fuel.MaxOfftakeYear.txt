@@ -1,0 +1,17 @@
+Header: Fuel Max Offtake Year
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum fuel offtake in year
+
+Paragraphs:
+Fuel Max Offtake YEAR is the maximum
+          total fuel that is allowed to be used per year - see Max
+            Offtake for more details.
+Lists:
+

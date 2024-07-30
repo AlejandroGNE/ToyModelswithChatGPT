@@ -1,0 +1,11 @@
+Header: Message 3035
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	The look-ahead in the chronological phase cannot have a higher resolution than the main horizon.
+
+Paragraphs:
+
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Purchaser Min Load Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum load factor
+
+Paragraphs:
+Purchaser Min Load Factor and its period-specific variants define a lower bound on the Purchaser's Load Factor on an hourly , daily , weekly , monthly , or annual basis.
+
+See also:
+Lists:
+	- Purchaser Max Load Factor
+	- Purchaser Min Energy
+	- Purchaser Max Energy
+	- Purchaser Max Energy Violation
+	- Purchaser Max Energy Violation Cost
+

@@ -1,0 +1,19 @@
+Header: Storage Max Release Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Release] and [Max Generator Release] constraint violations.
+
+Paragraphs:
+Storage Max Release Violation Cost is the cost incurred in violating the Max Release and Max Generator Release constraints and is defined as:
+
+See also:
+Lists:
+	- Storage Max Release Violation Hours
+	- Storage Min Release Violation
+

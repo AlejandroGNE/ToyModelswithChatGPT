@@ -1,0 +1,11 @@
+Header: Fuel Contract Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Fuel Contract
+
+Paragraphs:
+Fuel Contract Objectives is set of Objectives on the Fuel Contract
+Lists:
+

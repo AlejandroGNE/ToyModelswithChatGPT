@@ -1,0 +1,30 @@
+Header: Flow Storage Age
+
+Table Details:
+Units:	cycles
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of cycles completed
+
+Paragraphs:
+Flow Storage Age is the number
+          of cycles completed in the given timeframe.
+
+A complete charge and discharge ,
+          between the specified Min SoC and Max SoC values, is
+          considered to be a full cycle with the Age based on 'shallow discharging', where the storage can partially draw
+          down and then refill.
+
+Age = ( Withdrawal / Withdrawal
+              Efficiency + Injection × Injection
+              Efficiency ) × time / 2 × ( Max
+            Inventory - Min
+            Inventory )
+
+The summary value of this property is simply the sum of the interval
+          values.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Diagnostic Future Cost Function
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for the future cost function.
+
+Paragraphs:
+Diagnostic Future Cost Function (FCF) prints the components of the multi-dimensional future cost function (or 'water value' surface) for each stage of the scenario tree solved in MT Schedule . The number of cuts created depends on the selection of Stochastic Algorithm . If Rolling Horizon is used, then only the optimal cuts will be created, but if SDDP is used, the full set of Benders cuts will be created. The FCF can be read into a subsequent simulation to define the future cost of storage.
+
+This diagnostic is unique in that it can be read like any other Data File , for the Global FCF Constant property. By default the Global object name used in this diagnostic is called "FCF" and can only be read into a Global object of the same name.  The diagnostic file can be easily modified if a different Global object name is required.
+
+See also:
+Lists:
+	- Storage Decomposition Method
+

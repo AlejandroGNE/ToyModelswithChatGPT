@@ -1,0 +1,238 @@
+Header: Commodity Class
+
+Table Details:
+Description:	A commodity that can be produced, consumed, stored, transformed, traded, priced and constrained
+Generator	Commodities Consumed	Consuming Generators	set of Commodities consumed by the Generator
+Generator	Commodities Produced	Producing Generators	set of Commodities produced by the Generator
+Battery	Commodities Consumed	Consuming Batteries	set of Commodities consumed by the Battery
+Battery	Commodities Produced	Producing Batteries	set of Commodities produced by the Battery
+Emission	Commodities	Emissions	set of Commodities co-produced with the Emission
+Power2X	Commodities	Power2X	set of Commodities produced by the Facility
+Vehicle	Commodities	Vehicles	set of Commodities consumed by the Vehicle
+Charging Station	Commodities	Charging Stations	set of Commodities consumed by the Charging Station
+Process	Primary Input	Primary Consumers	the primary input Commodity to the Process
+Process	Primary Output	Primary Producers	the primary output Commodity of the Process
+Process	Secondary Inputs	Secondary Consumers	the set of secondary input Commodities to the Process
+Process	Secondary Outputs	Secondary Producers	the set of secondary output Commodities of the Process
+Flow Network	Commodity	Flow Networks	Commodity flowing on the Flow Network
+Category	Commodity	Template	Markets	Unit	Energy Density (MJ)
+Resources	Coal			GJ	0
+Resources	Gas			GJ	0
+Resources	Sun			-	0
+Resources	Water			kL	0
+Resources	Wind			-	0
+Storage	CO2.Cap			t	0
+Storage	eFuel			L	34.2
+Storage	H2			kg	120
+Storage	Hydro			MWh	0
+Storage	Li-ion			MWh	0
+Storage	PS.Head			MWh	0
+Storage	PS.Tail			MWh	0
+Emissions	CO2.Atmo		t	0
+Emissions	Heat			GJ	0
+Products	Electricity	Electricity	MW	0
+Products	Spin.Down	Spin.Down	MW	0
+Products	Spin.Up		Spin.Up	MW	0
+Collection	Parent Object	Child Object	Property	Value	Data File	Units
+Commodities	System	eFuel	End Effects Method	Recycle		-
+Commodities	System	eFuel	Decomposition Method	Targets		-
+Commodities	System	eFuel	Units	1		-
+Commodities	System	eFuel	Max Inventory	100000		L
+Commodities	System	eFuel	Opening Inventory	50000		L
+Vehicle.Commodities	PHEV	eFuel	Ratio	0.75		-
+Vehicle.Commodities	Greenworth	eFuel	Ratio	1		-
+Vehicle.Commodities	Greenliner	eFuel	Ratio	1		-
+Collection	Parent Object	Child Object	Property	Value	Data File	Units
+Commodities	System	Electricity	Units	1		-
+Process.Primary Input	CO2.Direct	Electricity	Conversion Factor	1		-
+Process.Primary Input	Power-eFuel	Electricity	Conversion Factor	0.0095		-
+Process.Primary Input	Power-H2	Electricity	Conversion Factor	0.0333333		-
+Process.Secondary Inputs	Load.PS	Electricity	Ratio	1.3333		-
+Process.Secondary Outputs	Gen.PS	Electricity	Ratio	1		-
+
+Paragraphs:
+See also Commodity Property Reference for a detailed list of properties for this class of object.
+
+Related Classes: Process , Facility , Market , Flow
+            Network , Flow Storage .
+
+
+
+Commodity represents anything that can be produced, consumed, stored,
+          transformed, traded, priced, transported and constrained. 
+          Commodities are the objects that all the other Universal classes act
+          upon. Therefore Commodity is the fundamental building block of the
+          Universal classes. A Commodity can be transformed into one or more
+          other Commodities via Process objects, and those processes can be conducted by one or more Facility objects.  Commodities can also be produced and consumed by other
+          objects outside of the Universal classes e.g. a Generator can produce and consume Commodities. A Commodity might represent a
+          physical resource, a by-product or a non-physical output of a process.
+
+By way of example, a Commodity called
+          "Natural Gas" could be consumed by a Process called "Power Generation" to produce the Commodity objects
+          "Electricity" and "Heat" and this could be conducted at a Facility called "Power Station 1". Commodity objects can represent physical
+          'things' or abstract concepts, for example, a secondary output of the
+          "Electricity Generation" process at "Power Station 1" could be "Spare
+          Capacity". The applications of Commodity are only limited by your
+          imagination.
+
+The units of data for Commodity can be set object-by-object.  A
+          wide selection of predefined Unit types are available for Commodity plus the choice of
+          defining/reporting certain properties as rates rather than quantities
+          of consumption/production with the Unit
+            Type setting. You can select one of the built in units, or leave
+          the Commodity 'unit-less'. If you use the built-in Unit property then conversions between one Commodity and another via a Process can, in many cases, be
+          automatically handled. For energy-type conversions you can set the Energy Density of the
+          Commodity so that its conversion factor to other forms of energy can
+          be determined automatically. For conversions to/from unit-less
+          Commodities you must define the conversion factor with Process Primary Input Conversion
+            Factor .
+
+Commodities are toggled in/out of 'existence' with the Units property. This property takes a value of 0 (the Commodity is not
+          modeled) or 1 or more (the Commodity is modeled) with values greater
+          than one scaling up the storage capacity - see below.
+
+Commodities can be priced, either as a cost per unit for consumption
+          (positive value), or the value of the Commodity when produced
+          (negative price).
+
+Figure 1: Commodity Links
+
+
+
+Figure 1 illustrates the connections that Commodity has to the rest
+          of the object model.  Commodities can be produced and consumed by
+          the Electric, Gas, Water and Transport model via memberships - see
+          Table 1. For example, a Commodity might represent a fuel powering a
+          vehicle in the Transport model via the Vehicle Commodities membership.
+          Commodities can provide input to one or more Process objects which convert them into one or more other Commodities.
+          Commodities can be bought from and sold to Markets .
+
+The following guide will help you get started using the Commodity
+          class:
+
+
+
+
+
+
+
+The Commodity class has built-in storage/inventory modeling
+          capabilities. Defining the Max
+            Inventory property enables storage modeling for the Commodity.
+          Storage can be short-term or long-term and can have external Delivery e.g. to represent natural inflows to a hydro reservoir or
+          delivery of a product to inventory from an external source. Targets
+          for long-term storage are created by LT
+            Plan and/or MT Schedule for
+          use in ST Schedule according to
+          the Decomposition Method property and the treatment of end-of-horizon storage is controlled by
+          the End Effects Method property.
+
+A Commodity object can Formulate
+            Risk in a risk-constrained simulation to bounds the Net
+            Profit associated with production within an Acceptable
+            Risk .
+
+Table 2 provides several examples of Commodity and the use of the Unit and Energy
+            Density attributes. It is not required to set Energy
+            Density for 'natural' energy units, only those that would need
+          translation. Note how the Commodity "Electricity" is associated with a Market object where the Commodity can
+          be sold.
+
+Table 3 shows example properties for the "eFuel" Commodity. This
+          Commodity has storage and so defines the basic properties required to
+          set up the storage. The 'fuel' is used by Vehicle objects at various ratios e.g. the Vehicle "PHEV" obtains 75% of its
+          energy from this fuel.
+
+Table 4 shows example properties for the "Electricity"
+          Commodity.  The Commodity is produced and consumed by several
+          Process objects. Note that the Conversion Factor properties shown
+          highlighted are not required to be input but shown for illustrative
+          purposes. These conversion factors are automatically computed by the
+          simulation engine. For example the conversion factor of "Electricity"
+          to "eFuel" is based on the Energy
+            Density of the fuel being 34.2 MJ/L and the equivalent for
+          "Electricity" being 3600 MJ/MWh which then implies a conversion factor
+          of  0.0095 MWh/L. Note that the illustrated energy density for H 2 of 120 MJ/kg is the lower heating value (LHV). The higher heating
+          value (HHV) of H 2 is 141.84 MJ/kg which may be more appropriate for
+          you own modeling depending on how the H 2 is consumed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Commodity class includes a number of shortcut properties: Max
+            Consumption , Max
+            Production , Min
+            Consumption , Min
+            Production and their period variants. For any Commodity with
+          inventory modeled there are the properties Max
+            Withdrawal , Max Injection , Min Withdrawal , Min
+            Injection , Max Inventory , Min Inventory , and Target and their period variants for creating Constraint objects automatically. You can define custom constraints on Commodity
+          via the Constraints membership.
+
+The Objectives membership
+          allows you to include Commodity coefficients in your multi-objective
+          optimization problems.
+
+Commodity supports expansion of the storage capacity in LT Plan. Each
+          'unit expands the capacity by Max
+            Inventory. The key input properties are Max
+            Units Built and Build Cost and optionally FO&M Charge .
+          Expansion costs can be treated as a lump sum or automatically
+          annualized by defining WACC and Economic Life . Units can be
+          built from Project Start
+            Date or immediately if this not defined. Other available
+          constraints related to expansion are:
+
+Retirement occurs automatically after the Technical
+            Life . Retirements can be optimized if you define Max
+            Units Retired and will incur a Retirement
+            Cost .
+
+See the article Decarbonization for a detailed case study using this class.
+
+
+
+
+Lists:
+	- A Commodity that represents a simple input or
+            externally-sourced  'resource' consumed by processes or other
+            objects may be defined with the Price property alone. You may add a further level of detail by associating
+            the Commodity with a Market . via the
+            Commodity Markets membership
+            and have the market set the price for the Commodity.
+	- A Commodity that is a by-product with no associated price may be
+            defined without any properties.
+	- A Commodity that can be stored should define at least the Max
+              Inventory and optionally the Opening
+              Inventory . You can control the ending inventory by setting one
+            of the Target properties e.g. Target Year or by setting End Effects Method . The
+            optimal profile of storage can be determined by MT
+              Schedule and passed to ST
+              Schedule when the Decomposition
+              Method is set.
+	- To produce or consume a Commodity in the Electric, Gas, Water,
+            Transports, etc models e.g. the Generator
+            class, connect the Commodity to the appropriate membership in that
+            model. See Table 1.
+	- A Commodity can act as a primary or secondary input to a Process or a primary or secondary
+              output of a Process . See the Process topic for more details.
+	- A Commodity can flow on a Flow
+              Network where it is produced, consumed, injected to or
+            withdrawn from storage, and traded in a Market .
+	- Project Start Date
+	- Min Units Built
+	- Max Units Built in
+              Year
+	- Min Units Built in
+              Year
+
+

@@ -1,0 +1,15 @@
+Header: Company Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of units retired
+
+Paragraphs:
+Company Retirement Cost is Cost of units retired.
+Lists:
+

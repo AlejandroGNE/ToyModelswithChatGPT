@@ -1,0 +1,15 @@
+Header: Company Regions Marginal Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal cost of generation in the Region
+
+Paragraphs:
+Company Regions Marginal Cost is the marginal cost of generation in the Region.
+Lists:
+

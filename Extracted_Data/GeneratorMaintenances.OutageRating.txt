@@ -1,0 +1,18 @@
+Header: Generator Maintenances Outage Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit rating during outage
+
+Paragraphs:
+Generator Maintenances Outage Rating is the unit rating during an outage.
+
+See also:
+Lists:
+	- Generator Maintenances Outage Rating Factor
+

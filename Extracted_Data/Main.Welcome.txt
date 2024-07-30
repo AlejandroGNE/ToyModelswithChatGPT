@@ -1,0 +1,18 @@
+Header: PLEXOS Guide
+
+Table Details:
+
+Paragraphs:
+This guide provides information on:
+
+This information can be accessed at any time from within PLEXOS by pressing F1 or by 
+selecting Help/Contents from the Backstage (File) menu. Context sensitive help is also 
+available when selecting any class, collection or property the PLEXOS interface. 
+Select the item you would like to see help about and press F1.
+Lists:
+	- Getting Started: installing PLEXOS and understanding licensing
+	- The User Interface: how to create power system models and use the PLEXOS user graphical interface
+	- Modelling Guides: Articles on aspects of power system modelling and how to make use of the features of PLEXOS
+	- Technical References: Detailed descriptions of algorithm and methods used in PLEXOS
+	- Class Reference: A reference covering all classes, collections, properties, and settings
+

@@ -1,0 +1,21 @@
+Header: Generator Max Energy Day
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in day
+
+Paragraphs:
+Generator Max Energy Day is the Maximum energy in a day.  This is the daily variant of Generator Max Energy
+
+See also:
+Lists:
+	- Generator Max Energy Hour
+	- Generator Max Energy Week
+	- Generator Max Energy Month
+	- Generator Max Energy Year
+

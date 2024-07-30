@@ -1,0 +1,19 @@
+Header: Generator Capacity Curtailed
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of non-positive-priced generation curtailed.
+
+Paragraphs:
+Generator Capacity Curtailed is amount of No Cost Capacity curtailed and is calculated as:
+
+See also:
+Lists:
+	- Generator Hours Curtailed
+	- Generator Curtailment Factor
+

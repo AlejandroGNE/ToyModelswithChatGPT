@@ -1,0 +1,15 @@
+Header: Water Node Objectives Flow Coefficient
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of water node flow
+
+Paragraphs:
+Water Node Objectives Flow Coefficient is Coefficient of water node flow.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Fleet Discharging
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from discharging
+
+Paragraphs:
+Fleet Discharging is the output from the fleet net of any losses.
+Lists:
+

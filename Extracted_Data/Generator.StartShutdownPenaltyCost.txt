@@ -1,0 +1,29 @@
+Header: Generator Start & Shutdown Penalty Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Penalty cost of unit start up and shutdown
+
+Paragraphs:
+Generator Start & Shutdown
+          Penalty Cost is the penalty cost incurred for Units
+            Started and Units
+            Shutdown as defined by the penalties:
+
+This penalty cost is not included in Generation
+            Cost .
+
+See also:
+Lists:
+	- Generator Start
+              Penalty
+	- Generator Shutdown
+              Penalty
+	- Generator Start
+              & Shutdown Cost
+

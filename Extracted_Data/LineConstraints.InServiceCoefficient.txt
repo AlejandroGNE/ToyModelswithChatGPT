@@ -1,0 +1,15 @@
+Header: Line Constraints In Service Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of 0,1 flag indicating if the Line is installed and in service
+
+Paragraphs:
+Line Constraints In Service Coefficient is Coefficient of 0,1 flag indicating if the Line is installed and in service.
+Lists:
+

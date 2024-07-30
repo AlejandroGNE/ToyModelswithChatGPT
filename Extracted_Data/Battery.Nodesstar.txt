@@ -1,0 +1,16 @@
+Header: Battery Nodes*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the battery at each node in this collection
+
+Paragraphs:
+Battery Nodes* is a 'template' feature. Adding Node objects to this collection causes the simulator to create copies of the Battery at each Node . This occurs at runtime and thus allows you to maintain data on a single Battery object but model several objects in the simulation.
+
+All system properties and attributes of the generator are copied e.g. Units , Max Power , Max Units Built , etc .
+
+This template feature is also available for the Purchaser and Generator classes.
+                See Purchaser.Nodes* and Generator.Nodes* for further details.
+Lists:
+

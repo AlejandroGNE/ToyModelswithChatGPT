@@ -1,0 +1,11 @@
+Header: RSI Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the RSI inherits from
+
+Paragraphs:
+RSI Template is template the RSI inherits from
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Diagnostic Transmission Losses
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for convergence of the quadratic loss method
+
+Paragraphs:
+This option produces a diagnostic file in XML format that lists the iterations involved in converging transmission losses for the Transmission Loss Method "SLP (Loss Functions)".
+Lists:
+

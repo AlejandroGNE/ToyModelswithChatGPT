@@ -1,0 +1,21 @@
+Header: Region Load Settlement Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	In (0,1,2,3,4,5,6,7)
+Key Property:	No
+Description:	Model used to determine price paid by loads.
+
+Paragraphs:
+Region Load Settlement Model sets the methodology used to set prices paid by all loads:
+
+In addition to this, if the Generator has user defined offers i.e. Offer Quantity and Offer Price are set, then the Price is interpolated via a piecewise linear curve. In this case when a load falls in between two price bands the price will also be set to lie between those bands rather than selecting the upper band price. This method is based on the Nord Pool Spot Market. See also Offer Quantity format .
+
+Note:  That this feature assumes that the offers are cleared in order, therefore you must enable the Generator Offers Must Clear in Order if the offers are non-monotonic.
+
+Note that the price paid to generators is set by the Generator Settlement Model property.
+Lists:
+

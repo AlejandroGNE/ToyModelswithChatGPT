@@ -1,0 +1,13 @@
+Header: Facility Primary Outputs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Facility Primary Outputs is the
+          output Commodity of the Primary
+            Process conducted at the Facility.
+Lists:
+

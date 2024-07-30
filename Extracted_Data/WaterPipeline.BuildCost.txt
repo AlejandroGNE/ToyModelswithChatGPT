@@ -1,0 +1,15 @@
+Header: Water Pipeline Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building the Water pipeline
+
+Paragraphs:
+Water Pipeline Build Cost is Cost of building the Water pipeline.
+Lists:
+

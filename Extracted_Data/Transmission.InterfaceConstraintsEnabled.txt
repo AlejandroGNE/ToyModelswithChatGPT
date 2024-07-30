@@ -1,0 +1,12 @@
+Header: Transmission Interface Constraints Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If interface constraints are enabled.
+
+Paragraphs:
+Transmission Interface Constraints Enabled is the master on/off switch for enforcement of interface limits. It can take the following values:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Heat Storage Min Heat Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of heat that must be withdrawn from storage
+
+Paragraphs:
+Heat Storages Min Heat Withdrawal is the minimum amount of heat that must be withdrawn from storage per interval.
+Lists:
+

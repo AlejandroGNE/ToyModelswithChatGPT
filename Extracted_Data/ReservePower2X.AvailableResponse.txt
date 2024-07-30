@@ -1,0 +1,15 @@
+Header: Reserve Power2X Available Response
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available reserve response
+
+Paragraphs:
+Reserve Power2X Available Response is Available reserve response.
+Lists:
+

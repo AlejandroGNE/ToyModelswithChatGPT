@@ -1,0 +1,18 @@
+Header: Storage Constraints Inflow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of inflow.
+
+Paragraphs:
+Storage Constraints Inflow Coefficient is the left-hand side coefficient of Storage Inflow in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

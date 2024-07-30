@@ -1,0 +1,19 @@
+Header: Battery Energy Target Month
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	end of month battery stored energy target
+
+Paragraphs:
+Battery Energy Target Month is end of month battery stored energy target.
+
+Energy Target Month Property is used to define a constraint for battery to reach a targeted energy level at the end of each month.
+
+Example: A company owns a large number of batteries in their electric vehicle fleets or Uninterruptible Power Supply (UPS) system. Outside of normal operating hours (i.e. night time or holidays), these idle batteries can be rented by the grid and provide services such as managing peak loads and smoothing renewable energy productions. For instance, during peak hours when load demand is high and renewable energy production is low, these batteries are controlled to reduce their charging power of even switch to discharging mode and inject energy to the grid. On the other hand, they resume normal charging power during off-peak hours. However, it is usually required that these batteries need to reach a certain energy value before the operating hours of the company. In order to enforce this requirement to the simulation, the target [interval, hour, day, week, month, year] property can be used to set that targeted/desired energy level for the batteries.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Pool Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Pool inherits from
+
+Paragraphs:
+Pool Template is the template the Pool inherits from.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Heat Plant Heat Rate Base
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Constant term in fuel use function (no-load cost)
+
+Paragraphs:
+Heat Plant Heat Rate Base is the no-load heat input used in defining the heat rate function .
+Lists:
+

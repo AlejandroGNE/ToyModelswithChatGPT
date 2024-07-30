@@ -1,0 +1,20 @@
+Header: Flow Path Loading Back
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loading in the counter-reference direction relative to flow limit
+
+Paragraphs:
+Flow Path Loading is the loading
+          relative to Min Flow and is
+          defined as:
+
+Loading = MAX(0, - Flow )
+          / Min Flow
+Lists:
+

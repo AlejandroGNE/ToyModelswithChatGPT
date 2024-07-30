@@ -1,0 +1,15 @@
+Header: Transformer Non-physical Loss Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-physical losses in the counter-reference direction
+
+Paragraphs:
+Transformer Non-physical Loss Back is Non-physical losses in the counter-reference direction.
+Lists:
+

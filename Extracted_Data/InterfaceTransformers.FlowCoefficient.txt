@@ -1,0 +1,15 @@
+Header: Interface Transformers Flow Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of transformer flow in interface
+
+Paragraphs:
+Interface Transformers Flow Coefficient is coefficient of transformer Flow in interface.
+Lists:
+

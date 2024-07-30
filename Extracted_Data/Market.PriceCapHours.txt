@@ -1,0 +1,15 @@
+Header: Market Price Cap Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the price cap was applied
+
+Paragraphs:
+Market Price Cap Hours is Number of hours the price cap was applied.
+Lists:
+

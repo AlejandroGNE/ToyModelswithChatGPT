@@ -1,0 +1,21 @@
+Header: Reserve Shortage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve shortfall
+
+Paragraphs:
+Reserve Shortage is amount by which the provision of reserve is below the requirement, and is defined as:
+
+Shortage is penalised at a rate equal to the value of reserve shortage ( VoRs ). This penalty price will set the price for reserve when shortage occurs.
+
+See also:
+Lists:
+	- Reserve Hours of Shortage
+	- Reserve Shortage Cost
+

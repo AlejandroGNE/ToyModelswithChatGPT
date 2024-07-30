@@ -1,0 +1,15 @@
+Header: Heat Plant FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Heat Plant FO&M Cost is the total fixed operations and maintenance cost incurred by use of the fuel, as defined by the F&OM Charge .
+Lists:
+

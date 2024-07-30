@@ -1,0 +1,18 @@
+Header: Performance Monitoring Maximum Threads
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum number of threads for monitored constraint iterations, where -1 means all available threads.
+
+Paragraphs:
+Performance Monitoring Maximum
+          Threads sets the limit on the number of execution threads used when
+          resolving monitored constraints.
+
+See also:
+Lists:
+	- Performance Max
+              Monitored MIP Iterations
+

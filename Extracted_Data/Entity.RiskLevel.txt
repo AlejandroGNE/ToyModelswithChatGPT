@@ -1,0 +1,18 @@
+Header: Entity Risk Level
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.1
+Validation Rule:	Between 0 and 1
+Key Property:	No
+Description:	Risk level for risk-constrained optimization
+
+Paragraphs:
+Entity Risk Level works with Acceptable
+            Risk to set the lowest acceptable Entity Net Profit . Commonly used values
+          are 1% (0.01), 5% (0.05) and 10% (0.1). Higher values are more risk
+          averse. See Formulate Risk for details.
+Lists:
+

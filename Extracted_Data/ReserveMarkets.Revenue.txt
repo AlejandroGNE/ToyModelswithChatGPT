@@ -1,0 +1,15 @@
+Header: Reserve Markets Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from reserve sales in the market
+
+Paragraphs:
+Reserve Markets Revenue is the revenue from reserve sales in the market.
+Lists:
+

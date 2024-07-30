@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Capacity Released
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas capacity released on pipelines or storages
+
+Paragraphs:
+Gas Capacity Release Offer Capacity Released is the amount of gas capacity released on pipelines or storages from Gas Capacity Release Offer.
+Lists:
+

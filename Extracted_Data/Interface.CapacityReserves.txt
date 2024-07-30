@@ -1,0 +1,15 @@
+Header: Interface Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provided by lines in the interface
+
+Paragraphs:
+Interface Capacity Reserves is the reserve provided by lines in the interface.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Contingency Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators that form the contingency
+
+Paragraphs:
+Contingency Generators defines the set of generators whose Generation will be lost in the event of the contingency.
+Lists:
+

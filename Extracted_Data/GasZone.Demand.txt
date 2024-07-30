@@ -1,0 +1,15 @@
+Header: Gas Zone Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas demand
+
+Paragraphs:
+Gas Zone Demand is the sum of Gas Nodes Demand .
+Lists:
+

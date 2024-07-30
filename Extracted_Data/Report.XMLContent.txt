@@ -1,0 +1,18 @@
+Header: Report XML Content
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Content of the zipped-XML solution files. Compact writes only binary solution tables. Raw writes binary and raw XML solution tables.
+
+Paragraphs:
+Report controls the style of the core output table data written into the zipped-XML solution files. This option can take these values:
+
+The "Full" option is useful if you want to extract the XML solution table data and load it into another program or database. Looking at the image below, you can see sample Solution folder contents for Compact and Full solutions. The numbers on the diagram indicate the following: The Binary files contain the solution data, specifically the solution values and data. The XML Solution file contains a list of objects, memberships, etc. and provides context for the data in the Binary files. The file itself does not contain any raw data values itself. The XML version of the Binary files contain object, membership, and data information. These XML files can be queried by scripts by understanding the data schema within the file.
+
+Looking at the image below, you can see sample Solution folder contents for Compact and Full solutions. The numbers on the diagram indicate the following: The Binary files contain the solution data, specifically the solution values and data. The XML Solution file contains a list of objects, memberships, etc. and provides context for the data in the Binary files. The file itself does not contain any raw data values itself. The XML version of the Binary files contain object, membership, and data information. These XML files can be queried by scripts by understanding the data schema within the file.
+
+
+Lists:
+

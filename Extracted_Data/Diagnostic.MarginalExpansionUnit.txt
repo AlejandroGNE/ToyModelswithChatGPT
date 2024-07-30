@@ -1,0 +1,16 @@
+Header: Diagnostic Marginal Expansion Unit
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Run algorithm to calculate the marginal generating unit for expansion (LT Plan).
+
+Paragraphs:
+The Marginal Expansion Unit Diagnostic calculates the marginal expansion Generator for each Region in the system or for the whole system for LT Plan . This is calculated by performing a sensitivity analysis on regional load or system load.
+
+Marginal Unit Transmission Detail flag sets the units report level.
+
+The steps that are involved in creating this diagnostic are as follows (for regional report):
+Lists:
+

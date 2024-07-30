@@ -1,0 +1,17 @@
+Header: Diagnostic Heat Rate
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for Generator Heat Rate curve fitting and non-convex corrections.
+
+Paragraphs:
+Diagnostic Heat Rate produces details of the curve fitting and non-convex corrections made to Generator Heat Rate data.
+
+Three tables are written to the diagnostic:
+
+See also:
+Lists:
+	- Production Heat Rate Error Method
+

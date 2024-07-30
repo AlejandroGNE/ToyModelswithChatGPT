@@ -1,0 +1,15 @@
+Header: Emission Water Plants Production Rate
+
+Table Details:
+Units:	kg/m³ (Metric), lb/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per unit of water
+
+Paragraphs:
+Emission Water Plants Production Rate is Emissions produced per unit of water.
+Lists:
+

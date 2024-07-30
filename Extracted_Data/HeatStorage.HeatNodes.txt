@@ -1,0 +1,11 @@
+Header: Heat Storage Heat Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	set of heat nodes the heat storage injects to and withdraws from
+
+Paragraphs:
+Heat Storage Heat Nodes is the set of heat nodes the heat storage injects to and withdraws from.
+Lists:
+

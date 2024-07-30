@@ -1,0 +1,12 @@
+Header: Scenario Index
+
+Table Details:
+Locked	-	0	In (0,1)	If the Scenario data are locked for editing.
+Read Order	-	0		Order in which to read scenario data (last read scenario has highest priority)
+
+Paragraphs:
+Scenario Attributes Name Units Default Value Validation Rule Description Locked - 0 In (0,1) If the Scenario data are locked for editing. Read Order - 0 Order in which to read scenario data (last read scenario has highest priority)
+
+Name Units Default Value Validation Rule Description Locked - 0 In (0,1) If the Scenario data are locked for editing. Read Order - 0 Order in which to read scenario data (last read scenario has highest priority)
+Lists:
+

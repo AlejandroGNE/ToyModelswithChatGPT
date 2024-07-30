@@ -1,0 +1,29 @@
+Header: Facility Max Production Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production in month
+
+Paragraphs:
+Facility Max Production Month sets
+          an upper bound on the facility's Production in each month of the simulation. See Max
+            Production for more details.
+
+See also:
+Lists:
+	- Facility Max
+              Production Hour
+	- Facility Max
+              Production Day
+	- Facility Max
+              Production Week
+	- Facility Max
+              Production Year
+	- Facility Max
+              Capacity Factor Month
+

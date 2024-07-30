@@ -1,0 +1,27 @@
+Header: Commodity Min Injection Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of the Commodity that must be added to inventory in any month
+
+Paragraphs:
+Commodity Min Injection Month
+          creates a Constraint object that
+          forces the Injection of the
+          Commodity into inventory each month. By default this is a 'hard'
+          constraint. To create a soft constraint, create a Constraint with a Penalty Price .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Month
+	- Commodity Constraints Injection
+              Coefficient
+

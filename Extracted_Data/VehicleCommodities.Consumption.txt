@@ -1,0 +1,25 @@
+Header: Vehicle Commodities Consumption
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumption of the Commodity
+
+Paragraphs:
+Vehicle Commodities Consumption is the amount of the Commodity consumed by the vehicle in
+          the Unit of that Commodity. It is
+          defined as:
+
+Consumption = Energy
+            Consumption x 3.6 / Commodity Energy
+            Density
+
+See also:
+Lists:
+	- Vehicle Commodities Energy
+              Consumption
+

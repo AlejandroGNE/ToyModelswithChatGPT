@@ -1,0 +1,15 @@
+Header: Zone Capacity Shortage Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty for a shortage of capacity reserves
+
+Paragraphs:
+Zone Capacity Shortage Price is the penalty for a shortage of capacity reserves.
+Lists:
+

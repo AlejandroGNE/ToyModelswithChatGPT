@@ -1,0 +1,15 @@
+Header: Flow Storage Objectives Cycles Coefficient
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of cycles
+
+Paragraphs:
+Flow Storage Objectives Cycles Coefficient is Coefficient of cycles.
+Lists:
+

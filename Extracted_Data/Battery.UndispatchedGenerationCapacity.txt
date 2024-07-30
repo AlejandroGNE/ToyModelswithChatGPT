@@ -1,0 +1,23 @@
+Header: Battery Undispatched Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation (discharging) capacity undispatched
+
+Paragraphs:
+Battery Undispatched Generation Capacity is defined as:
+
+Undispatched Capacity = MAX(0, Max Power × Units Generating - Generation )
+
+This is a measure of how much generation capacity is available but not utilized given the unit commitment solution.
+
+See also:
+Lists:
+	- Battery Unused Generation Capacity
+	- Balancing Markets
+

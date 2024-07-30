@@ -1,0 +1,23 @@
+Header: Flow Path Export Limit
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum flow allowed on the Flow Path
+
+Paragraphs:
+Flow Path Export Limit is maximum
+          flow allowed on the Flow Path in the notional forward direction i.e. from the Flow Node From to
+          the Flow Node To .
+
+See also:
+Lists:
+	- Flow Path Flow
+              Forward
+	- Flow Path Import
+              Limit
+

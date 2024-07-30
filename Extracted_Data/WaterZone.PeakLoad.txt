@@ -1,0 +1,15 @@
+Header: Water Zone Peak Load
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak load
+
+Paragraphs:
+Water Zone Peak Load is Peak load.
+Lists:
+

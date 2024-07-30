@@ -1,0 +1,22 @@
+Header: Market Price Floor
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Floor on Market Price when using fixed Demand/Supply
+
+Paragraphs:
+Market Price Floor sets a lower
+          limit on the settlement Price when using fixed Demand / Supply . The number of hours the floor
+          is reached is reported in the property Price
+            Floor Hours .
+
+See also:
+Lists:
+	- Market Price
+              Cap
+

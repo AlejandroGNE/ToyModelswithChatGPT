@@ -1,0 +1,113 @@
+Header: Entering Data
+
+Table Details:
+
+Paragraphs:
+The user interface provides a set of grids in which data can be entered line-by-line or pasted from another program such as Microsoft Excel. In addition data can be imported from text files (either CSV or XML format) - see the article Importing and Exporting Data .
+
+There are three types of data that describe a model and therefore three corresponding tabs in the Data Grid:
+
+The type (class), name, category (optional), and description (optional) of each object in the system (see Creating Objects )
+
+The relationships between objects expressed as a parent object, a collection type, and child object (see Creating Memberships )
+
+Either single-point (static) data defined on the memberships of multi-point (dynamic) data When entering static (or dynamic data), first select the class of objects to which the data apply e.g. Generators in the Main Tree. Then select the Properties tab of the Data Grid. The grid will now show the objects of that type of the available properties in columns as in Figure 1.
+
+NOTE: By default most properties are configured single-point, but most properties can be reconfigured to support dynamic data entry using the Configuration Manager. Properties fall into two categories:
+
+The Max Capacity of the "BW01" Generator is a system-level property (belongs to the Generator alone) and is stored as:
+
+The cost of transporting fuel to the "BW01" generator involves both the fuel and the Generator and hence this property is stored as:
+
+The cost of transporting fuel to the "BW01" generator involves both the Fuel and the Generator and hence this property is stored as:
+
+The Property Tree allows you to:
+
+Entering data at this point is as simple as typing the appropriate numbers in the grid provided. Alternatively you may paste data into the cells by first highlighting (dragging over or using SHIFT-arrow keys) and then pasting. To obtain a template for data entry e.g. in Excel, select the entire grid using the grid selection button (highlighted in red in Figure 1) and copy and paste into Excel. This will copy the columns and rows with existing data. You may now edit those data and paste back the new numbers. Note when pasting back that you should paste only the grid cells not the row or column titles.
+
+NOTE: The object names are provided for reference only and cannot be modified in this view. To change an object's name use the data grid on the Objects tab.
+
+Some data can be configured to be entered in multiple bands e.g. Generator Offer Quantity and Offer Price are usually entered in pairs with multiple bands (or tranches). Another example is heat rate parameters, which are often described as multi-point curves. PLEXOS uses the concept of 'bands' for all such multi-point data. In the static grid, multi-band data are shown in a sequence of columns with the band number on the second, third, etc column as in Figure 2.
+
+For dynamic data however, the band becomes a column as shown below.
+
+Dynamic data are edited in a list format. These additional fields are available for dynamic data (Date From, Date To, Timeslice, Action, Expression, Escalator, Condition, Filename, Variable, and Scenario).
+
+For each object, PLEXOS only allows one Action value per property.
+
+NOTE: For efficient input of lengthy data series e.g. loads, generator bids, etc. data points may 'point' to text files using the Filename field.
+
+In the data grids the membership fields for each property are displayed only when viewing all properties 'i.e.' when the System object selected. In all other views, these fields are hidden, and are automatically updated by the PLEXOS interface. This means that, when entering properties it is usually necessary only to specify the following fields:
+
+The name of the object.
+
+The name of the property. To get help on a property, select the property either in the data grid, or in the property explorer and press F1.
+
+The value the property takes. When you select a particular object in the Object Tree PLEXOS hides the Name field since this implied by your selection. Further, when you select a property in the property tree, the default value is set for the property field, and you need only provide (type or paste in the values). Apart from these essential fields, the other available fields are:
+
+This field shows what units PLEXOS expects for the data. This field is not used as an input, but is purely for information - you can change some of the units used in the current database from the Settings form.
+
+Used to mark the band number for multi-band data (see above).
+
+Sets the date from which the entered value applies. Note that unless you provide a time part here the date to is inclusive i.e. the value applies from midnight at the start of the day.
+
+Sets the date up to which the entered value applies. Note that unless you provide a time part here the date to is inclusive i.e. the value applies up to midnight at the end of the day. Note that data are read in date order, so it is most often not required to use the Date To field since, values are read in sequence one overwrite the previous and so on. Date To is usually on used for defining outage using Units Out .
+
+In this field you can name a defined Timeslice or combine timeslices and patterns. The data in the field will then apply only to the specified time periods. Filename: The Filename field is allowed for all properties where the value may vary period-by-period and is more conveniently input as a list of values in a text file outside of PLEXOS. The value in this field is interpreted either as the name of a Data File, or as the name of a text file that contains the data. Additionally fields may be available if you define any of the following objects in your database:
+
+Escalators allow you to automatically link a value e.g. fuel price to an index.
+
+Conditions allow you to make a property's value dynamic according to simulation conditions. In this field you can name a defined Condition or combine condition names using the same syntax as for Timeslices.
+
+Variables allow you to make a property stochastic.
+
+To include/exclude  sets of data from your models use Scenarios.
+
+At runtime PLEXOS performs a number of tests on your data to check for logical mistakes or the use of ambiguous of these fields. Execution will not proceed if any of these validation rules fail, and you will be informed of what corrections are required. Examples of rules that are checked are:
+Lists:
+	- (Membership Fields) "Generator", "System", "BW01"
+	- Property = "Max Capacity"
+	- Value = 660
+	- (Membership Fields) "Generator.Fuels", "BW01"
+	- Property = "Max Capacity"
+	- Value = 600
+	- (Membership Fields) "Generator.Fuels", "BW01", "Bayswater Coal"
+	- Property = "Transport Charge"
+	- Value = 0.2
+	- Browse by collection e.g. System level or "second-level" properties i.e. those involving two objects.
+	- Browse by property group e.g. "Unit Commitment" in the System Generators properties.
+	- Browse to individual properties
+	- You can also filter and sort properties at will using the right-mouse button commands on the data grid itself.
+	- Values are within a range defined by the validation rules for the property.
+	- The band field is only used on properties that are allowed to be multi-band.
+	- Properties are not defined multiple times with different values.
+
+
+H2s:
+Contents
+1. Introduction
+2. The Property Tree
+3. Static Data
+4. Multi-Band Data
+5. Dynamic Data
+6. Validation Rules
+
+H3s:
+5.1. Data Grid Columns
+
+H5s:
+Objects
+Memberships
+Properties
+Name
+Property
+Value
+Units
+Band
+Date From
+Date To
+Timeslice
+Escalator
+Condition
+Variable
+Scenario

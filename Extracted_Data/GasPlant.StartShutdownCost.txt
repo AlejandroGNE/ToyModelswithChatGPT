@@ -1,0 +1,15 @@
+Header: Gas Plant Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unit starts and shutdowns
+
+Paragraphs:
+Gas Plant Start & Shutdown Cost is Cost of unit starts and shutdowns.
+Lists:
+

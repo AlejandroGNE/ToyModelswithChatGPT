@@ -1,0 +1,11 @@
+Header: Gas Demand Linked Gas Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas contracts linked to the gas demand
+
+Paragraphs:
+Gas Demand Linked Gas Contracts is gas contracts linked to the gas demand
+Lists:
+

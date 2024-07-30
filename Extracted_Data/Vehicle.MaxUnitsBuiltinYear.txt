@@ -1,0 +1,23 @@
+Header: Vehicle Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Vehicle Max Units Built in Year is
+          the maximum number of vehicles purchased in any single year of the
+          planning horizon.
+
+See also:
+Lists:
+	- Facility Max
+              Units Built in Year
+	- Vehicle Min
+              Units Built in Year
+

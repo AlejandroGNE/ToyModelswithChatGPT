@@ -1,0 +1,15 @@
+Header: Region Conditions Price Coefficient
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of region price in condition
+
+Paragraphs:
+Region Conditions Price Coefficient is Coefficient of region price in condition.
+Lists:
+

@@ -1,0 +1,23 @@
+Header: Battery Commodities Produced Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity produced per unit of load
+
+Paragraphs:
+Battery Commodities
+            Produced Pump Load Coefficient is the amount of the Commodity produced per unit of Load .
+
+See also:
+Lists:
+	- Battery Commodities
+              Produced Generation
+              Coefficient
+	- Battery Commodities
+              Consumed Load Coefficient
+

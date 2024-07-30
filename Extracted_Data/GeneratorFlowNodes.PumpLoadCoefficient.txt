@@ -1,0 +1,15 @@
+Header: Generator Flow Nodes Pump Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity on the Flow Node injected(positive)/withdrawn(negative) per unit of pump load
+
+Paragraphs:
+Generator Flow Nodes Pump Load Coefficient specifies the amount of the Commodity on the Flow Node injected(positive)/withdrawn(negative) per unit of pump load.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Water Offtake
+
+Table Details:
+Units:	Input: m³/MWh (Metric), gal./MWh (U.S. Imperial)    Output: m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Water recycled through the generator (e.g. for cooling)
+
+Paragraphs:
+Generator Water Offtake is Water recycled through the generator (e.g. for cooling).
+Lists:
+

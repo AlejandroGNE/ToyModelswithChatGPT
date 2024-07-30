@@ -1,0 +1,15 @@
+Header: Zone Generation Sent Out
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation net of auxiliaries
+
+Paragraphs:
+Zone Generation Sent Out is the total Generator Generation Sent Out and is calculated as:
+Lists:
+

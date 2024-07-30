@@ -1,0 +1,11 @@
+Header: Reserve Generator Cost Allocation
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators over which the cost of the reserve is allocated
+
+Paragraphs:
+Reserve Generator Cost Allocation defines the set of Generators that share in the cost of reserve provision. The algorithm used to allocate reserve costs is defined by the Design setting Ancillary Services Cost Allocation Model.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Message 6
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	The selected equilibrium model requires the definition of Company objects.
+
+Paragraphs:
+Message 6 occurs in the following circumstances:
+
+This method uses Company objects as the 'competitors' and thus if no Company objects are defined then the algorithm will not run.
+
+The solution is to associate your Generator objects with Company objects using the Companies membership.
+Lists:
+	- Competition Equilibrium Model is set to "LRMC/Revenue Recovery"
+	- There are no Company objects defined
+

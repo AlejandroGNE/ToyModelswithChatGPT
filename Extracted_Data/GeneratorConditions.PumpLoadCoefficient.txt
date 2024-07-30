@@ -1,0 +1,15 @@
+Header: Generator Conditions Pump Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of pump load
+
+Paragraphs:
+Generator Conditions Pump Load Coefficient is the coefficient of pump load.
+Lists:
+

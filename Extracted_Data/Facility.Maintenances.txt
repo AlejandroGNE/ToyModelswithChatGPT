@@ -1,0 +1,11 @@
+Header: Facility Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the facility
+
+Paragraphs:
+Facility Maintenances is set of maintenance events on the facility
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Region Pool
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	pool the region is in (for transmission)
+
+Paragraphs:
+Region Pool is the pool the Region is in.
+Lists:
+

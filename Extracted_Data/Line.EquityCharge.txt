@@ -1,0 +1,15 @@
+Header: Line Equity Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual required return on equity
+
+Paragraphs:
+Line Equity Charge is the fixed cost charge for the line associated with providing a market return to shareholders.
+Lists:
+

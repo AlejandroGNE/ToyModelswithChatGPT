@@ -1,0 +1,15 @@
+Header: Generator Fuels Offer Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price of energy in band
+
+Paragraphs:
+Generator Fuels Offer Price allows offers to be defined fuel-by-fuel for multi-fueled units.
+Lists:
+

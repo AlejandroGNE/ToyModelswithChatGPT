@@ -1,0 +1,15 @@
+Header: Generator Ramp Up Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of the maximum ramping up constraint.
+
+Paragraphs:
+Generator Ramp Up Price is shadow price of the maximum ramping up constraint defined by Max Ramp Up . It represents the price that the system would be prepared to pay to gain one more megawatt of ramping up response.
+Lists:
+

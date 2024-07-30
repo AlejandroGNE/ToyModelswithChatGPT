@@ -1,0 +1,25 @@
+Header: Licensing: LicenseServer-SettingUpConnect
+
+Table Details:
+
+Paragraphs:
+This page explains the steps required to setup and get started with PLEXOS Connect License Server.
+
+To view how to setup and get started with PLEXOS Connect, please go to Getting started with PLEXOS Connect
+
+Getting started using the PLEXOS Connect License Server. Follow these steps to get started with the license server. Start PLEXOS Connect Server from your program files or desktop shortcut. Next you will be presented with a "License Creation Successful" window, stating that your license has been created, and displaying it's location, you then have 2 options. Select your region from the list, and click "Send Now". All license details will automatically entered and addressed to your local rep, in your default email client. Then all you need to do is click send. OR Click "Close" and manually email the local license file to your PLEXOS distributor for initialization. This file is called EE.lic and is found in the directory listed on the "License Creation Successful" (by default "C:\Program Files\Energy Exemplar\Common"). Your distributor will return an email containing your license information, There are 2 different methods you can use to enter your license information. If you were sent a text only email, start the license server and when prompted for your key information enter your key from the email. If you were sent a license file, unzip this file into the directory listed previously by the "License Creation Successful" window (by default "C:\Program Files\Energy Exemplar\Common"). If you are using Windows XP, Server 2003 or newer, and you have Microsoft updates from January 2006, you may need to add an exception to the windows firewall for TCP port 399 (this is assuming you are using the default listener port of 399). For more information about adding port exceptions to the windows firewall, please see Microsoft TechNet . The license server will now be licensed and ready to use on your network. More Licensing Main Menu
+
+Follow these steps to get started with the license server. Start PLEXOS Connect Server from your program files or desktop shortcut. Next you will be presented with a "License Creation Successful" window, stating that your license has been created, and displaying it's location, you then have 2 options. Select your region from the list, and click "Send Now". All license details will automatically entered and addressed to your local rep, in your default email client. Then all you need to do is click send. OR Click "Close" and manually email the local license file to your PLEXOS distributor for initialization. This file is called EE.lic and is found in the directory listed on the "License Creation Successful" (by default "C:\Program Files\Energy Exemplar\Common"). Your distributor will return an email containing your license information, There are 2 different methods you can use to enter your license information. If you were sent a text only email, start the license server and when prompted for your key information enter your key from the email. If you were sent a license file, unzip this file into the directory listed previously by the "License Creation Successful" window (by default "C:\Program Files\Energy Exemplar\Common"). If you are using Windows XP, Server 2003 or newer, and you have Microsoft updates from January 2006, you may need to add an exception to the windows firewall for TCP port 399 (this is assuming you are using the default listener port of 399). For more information about adding port exceptions to the windows firewall, please see Microsoft TechNet . The license server will now be licensed and ready to use on your network. More Licensing Main Menu
+
+Follow these steps to get started with the license server.
+
+More Licensing Main Menu
+
+Licensing Main Menu
+Lists:
+	- Licensing Main Menu
+
+
+H2s:
+Getting started using the PLEXOS Connect License Server.
+More

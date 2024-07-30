@@ -1,0 +1,18 @@
+Header: Node Import Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total import capacity to the Node.
+
+Paragraphs:
+Node Import Capacity is the total import capacity to the Node.
+
+See also:
+Lists:
+	- Node Export Capacity
+

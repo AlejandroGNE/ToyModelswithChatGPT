@@ -1,0 +1,15 @@
+Header: RSI Allow Negative Mark-ups
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if negative calculated markups are allowed or truncated at zero
+
+Paragraphs:
+Main.RSI Allow Negative Markups control whether or not negative markups that are computed as a result of the RSI regression formula are truncated to zero (default) or passed through into the simulation.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Gas Field External Injection
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	External injection into the gas field
+Delivery	750	TJ	1			W01,H01
+
+Paragraphs:
+Gas Field External Injection is an external injection of gas into the field. This value can be positive (representing addition of gas to the field from external source) or negative (representing some loss of gas from the field).
+It is important to note that External Injection represents a discrete quantity of gas not a rate, hence you should define the property dynamically as in the following example:
+
+Example
+
+In this example a delivery of 750 TJ of gas occurs on the first day of each week.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Diagnostic Binary Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write math programs to disk in binary format
+
+Paragraphs:
+This diagnostic is for development purposes only.
+Lists:
+

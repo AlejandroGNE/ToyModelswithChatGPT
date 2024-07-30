@@ -1,0 +1,19 @@
+Header: Zone Inflexible Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of generation capacity constrained on and inflexible.
+
+Paragraphs:
+Zone Inflexible Generation is Amount of generation at Min Stable Level , Fixed Load or Min Load .
+
+See also:
+Lists:
+	- Generator Inflexible Generation
+	- Region Inflexible Generation
+

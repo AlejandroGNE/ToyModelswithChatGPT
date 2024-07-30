@@ -1,0 +1,29 @@
+Header: Generator Ramp Down Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load point for use with multi-band Max Ramp Down constraints
+Max Capacity	1000	MW	1
+Max Ramp Down	2	MW/min.	1
+Max Ramp Down	3	MW/min.	2
+Max Ramp Down	3.5	MW/min.	3
+Max Ramp Down	2	MW/min.	4
+Ramp Down Point	250	MW/min.	1
+Ramp Down Point	500	MW/min.	2
+Ramp Down Point	750	MW/min.	3
+Ramp Down Point	1000	MW/min.	4
+Max Ramp Down Penalty	100	$/MW	1
+
+Paragraphs:
+Generator Ramp Down Point is a multi-band property that defines the load point for use with multi-band Max Ramp Down constraints. These should be defined with equal number of bands of Max Ramp Down as in the following example. The ramp limit in the band applies up to the point defined in the band.
+
+Example:
+
+Note that the ramp penalty is also multi-band which allows different penalties for different generation levels.
+Lists:
+

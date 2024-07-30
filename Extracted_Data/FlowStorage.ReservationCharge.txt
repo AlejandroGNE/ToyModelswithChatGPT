@@ -1,0 +1,15 @@
+Header: Flow Storage Reservation Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost applied to unused inventory capacity
+
+Paragraphs:
+Flow Storage Reservation Charge is per-unit-per-day Cost applied to unused inventory capacity.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Node Congestion Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Congestion component of locational marginal price
+
+Paragraphs:
+Node Congestion Charge is the congestion component of locational marginal price.
+Lists:
+

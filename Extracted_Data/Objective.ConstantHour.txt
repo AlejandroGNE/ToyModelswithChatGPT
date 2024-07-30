@@ -1,0 +1,15 @@
+Header: Objective Constant Hour
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Objective constant each hour
+
+Paragraphs:
+Objective Constant Hour is Objective constant each hour.
+Lists:
+

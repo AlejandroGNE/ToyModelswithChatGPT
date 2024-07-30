@@ -1,0 +1,15 @@
+Header: Gas Plant Start Cost Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Incremental cooling time over which the corresponding Start Cost applies
+
+Paragraphs:
+Gas Plant Start Cost Time is used in combination with Start Cost to define cooling states.
+Lists:
+

@@ -1,0 +1,29 @@
+Header: Generator Fixed Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed pump load
+
+Paragraphs:
+As an input Generator Fixed
+              Pump Load defines a fixed profile for pumping and applies only to
+              pumped storage hydro. The values are for the total Pump
+                Load of the Generator across all Pump Units .
+
+This property is the pumping analogue of Generator Fixed Load . See that topic
+              for details.
+
+See also:
+Lists:
+	- Generator Fixed
+              Pump Load Violation Hours
+	- Generator Fixed
+              Pump Load Violation
+	- Generator Fixed
+              Pump Load Violation Cost
+

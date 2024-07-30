@@ -1,0 +1,15 @@
+Header: Power2X Start Profile
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Detailed regime for increasing load from zero to [Min Stable Level] when [Run Up Rate] is non-constant.
+
+Paragraphs:
+Power2X Start Profile is Detailed regime for increasing load from zero to [Min Stable Level] when [Run Up Rate] is non-constant..
+Lists:
+

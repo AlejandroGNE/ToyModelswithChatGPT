@@ -1,0 +1,15 @@
+Header: Water Node Production
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total quantity of water supplied by Supplying Water Plants
+
+Paragraphs:
+Water Node Production is the sum of water supplied by the Water Plants supplying the Water Node.
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Financial Contract Class
+
+Table Details:
+Description:	Financial contract (e.g. CfD, swap, cap, etc)
+
+Paragraphs:
+See also Financial Contract Property Reference for a detailed list of properties for this class of object.
+
+Financial Contracts represent:
+
+The CfD style supports both one-way and two-way contracts. For CfDs you must associate the contract with a Region .
+
+The Quantity property sets the contract volume. The prices are set using the Floor Price and Cap Price properties. You can automatically assign a proportion of the load in a region to a contract, rather than having to specify the contract quantity directly. This allows you to account for load revenue to the portfolio, and also allows you to run stochastic process on the loads and have the contract quantities change automatically. Further the contract quantity can be keyed off one or more generators generation levels.
+
+Contracts can be made conditional i.e. only active when certain simulation conditions arise.
+
+The key outcome of the contract is the Settlement , which flows back to the generating and/or purchasing companies.
+
+Contracts affect bidding behavior of generators i.e. the higher a generating company's contract cover the more likely they are to bid close to marginal cost. In PLEXOS these effects are accounted for in the  game, and also in the LRMC (Revenue Recovery) method, when the Contract Optimize Offers property is enabled.
+Lists:
+	- Contract for Differences ( CfD ) in a Gross Pool ; or
+	- Forward contracts in a Net Pool ; or
+	- Load revenue in a portfolio optimization.
+

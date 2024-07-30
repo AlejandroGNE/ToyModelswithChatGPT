@@ -1,0 +1,15 @@
+Header: Fuel Closing Inventory
+
+Table Details:
+Units:	1000·~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Final fuel in stockpile
+
+Paragraphs:
+Fuel Closing Inventory is the fuel in the stockpile at the end of the period and is defined as:
+Lists:
+

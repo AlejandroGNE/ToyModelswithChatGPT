@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels Marginal Heat Rate
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal heat rate at optimal heat production level
+
+Paragraphs:
+Heat plant Fuels Marginal Heat Rate is the marginal heat rate at optimal heat production level.
+Lists:
+

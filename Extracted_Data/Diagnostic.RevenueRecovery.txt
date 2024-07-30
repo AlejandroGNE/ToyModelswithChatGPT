@@ -1,0 +1,12 @@
+Header: Diagnostic Revenue Recovery
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for the LRMC recovery algorithm
+
+Paragraphs:
+This option produces a diagnostic file in XML format that details all the mark-up calculations done during the revenue recovery method performed when the Competition Equilibrium Model is set to "LRMC Cost Recovery".
+Lists:
+

@@ -1,0 +1,52 @@
+Header: Maintenance Class
+
+Table Details:
+Description:	A class of maintenance events to be optimally placed in time
+
+Paragraphs:
+See also Maintenance Property Reference for a detailed list of properties for this class of object.
+
+The Maintenance class of objects provides function for performing value-based reliability studies. Maintenance events can be optimized on Generator , Line and Gas objects including Gas Pipeline , Gas Plant , Gas Field , Gas Storage and Gas Transport .
+
+Key property The key property for the Maintenance class is Duration . Use this property to Scenario in/out the Maintenance objects from your simulation. Outage elements The Maintenance event can involve one or more: Generators Lines Gas Pipelines Gas Plants Gas Fields Gas Storages Gas Transports By default the event causes a total outage of the element(s). You can create partial outages with properties such as Generators Outage Rating , Lines Outage Max Rating and GasPipelines Outage Max Flow . Resources Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands. Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The key property for the Maintenance class is Duration . Use this property to Scenario in/out the Maintenance objects from your simulation. Outage elements The Maintenance event can involve one or more: Generators Lines Gas Pipelines Gas Plants Gas Fields Gas Storages Gas Transports By default the event causes a total outage of the element(s). You can create partial outages with properties such as Generators Outage Rating , Lines Outage Max Rating and GasPipelines Outage Max Flow . Resources Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands. Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The key property for the Maintenance class is Duration . Use this property to Scenario in/out the Maintenance objects from your simulation.
+
+Outage elements The Maintenance event can involve one or more: Generators Lines Gas Pipelines Gas Plants Gas Fields Gas Storages Gas Transports By default the event causes a total outage of the element(s). You can create partial outages with properties such as Generators Outage Rating , Lines Outage Max Rating and GasPipelines Outage Max Flow . Resources Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands. Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The Maintenance event can involve one or more: Generators Lines Gas Pipelines Gas Plants Gas Fields Gas Storages Gas Transports By default the event causes a total outage of the element(s). You can create partial outages with properties such as Generators Outage Rating , Lines Outage Max Rating and GasPipelines Outage Max Flow . Resources Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands. Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The Maintenance event can involve one or more:
+
+By default the event causes a total outage of the element(s). You can create partial outages with properties such as Generators Outage Rating , Lines Outage Max Rating and GasPipelines Outage Max Flow .
+
+Resources Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands. Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands. Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+Each event can consume resources defined on the properties Cost , Crew and Equipment and Constraint objects can involve these terms. These properties are multi-band allowing you to record different tranches of cost on separate bands.
+
+Constraints The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The event can be restricted such that it occurs only in a defined Window of time. An event can have one or more Prerequisites i.e. maintenance events that must precede the event. Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The event can be restricted such that it occurs only in a defined Window of time.
+
+An event can have one or more Prerequisites i.e. maintenance events that must precede the event.
+
+Optimization The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+
+The optimization can be deterministic or stochastic with the Non-anticipativity property controlling which events are first-stage decisions.
+Lists:
+	- Generators
+	- Lines
+	- Gas Pipelines
+	- Gas Plants
+	- Gas Fields
+	- Gas Storages
+	- Gas Transports
+

@@ -1,0 +1,11 @@
+Header: Message 209
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	<value> <name> [<value>] definition is ambiguous. The datum is defined both with the Escalator <name> and without.
+
+Paragraphs:
+Message 209 occurs in the following circumstances:
+Lists:
+

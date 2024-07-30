@@ -1,0 +1,15 @@
+Header: Purchaser Fixed Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Fixed load
+
+Paragraphs:
+Purchaser Fixed Load is the load equivalent of Generator Fixed Load . It sets an exact megawatt load that must be met regardless of the load bid prices .
+Lists:
+

@@ -1,0 +1,17 @@
+Header: PASA Include Demand Bids
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Include demand bids are load in PASA
+
+Paragraphs:
+PASA Include Demand Bids toggles on/off counting of Purchaser Load Obligation in Region Capacity Reserves and Compute Reliability Indices .
+
+See also:
+Lists:
+	- PASA Include Contract Load
+	- PASA Include Contract Generation
+	- PASA Include DSP
+

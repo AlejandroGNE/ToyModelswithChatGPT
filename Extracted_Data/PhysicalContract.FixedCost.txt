@@ -1,0 +1,15 @@
+Header: Physical Contract Fixed Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed cost of contract capacity
+
+Paragraphs:
+Physical Contract Fixed Cost is defined as:
+Lists:
+

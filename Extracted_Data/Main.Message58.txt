@@ -1,0 +1,11 @@
+Header: Message 58
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Referenced external text file not found: <value>.
+
+Paragraphs:
+Message 58 occurs when a you define a Data File object and one or more properties read from that file, but the Filename provided does not exist. Generally this error is fatal but it may be issued as a warning only when you are using the wildcard syntax (*) to read files from one Model solution into another Model . See the article Balancing Markets for examples.
+Lists:
+

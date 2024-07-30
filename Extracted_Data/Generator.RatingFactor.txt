@@ -1,0 +1,19 @@
+Header: Generator Rating Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum dispatchable capacity of each unit expressed as a percentage of [Max Capacity]
+
+Paragraphs:
+Generator Rating Factor sets the unit Rating as a percentage of Max Capacity (or Rating if Rating is defined).
+
+Rating Factor can be defined as a multi-band property when used in conjunction with Generator Head
+           Storage Efficiency Point to define a different rating depending on
+           the amount of head available at a hydro generator.
+Lists:
+

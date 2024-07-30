@@ -1,0 +1,17 @@
+Header: Gas Pipeline End Effects Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Method used to value or constrain end-of-period gas volumes.
+
+Paragraphs:
+Gas Pipeline End Effects Method controls the method used to value or constrain the final End Volume of each simulation step. The setting can take these values:
+
+Note that when LT Plan and/or MT Schedule are run before ST Schedule End Effects Method = "Recycle" applies only to the first simulation phase run; unless Decomposition Method is set to "None".
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Generator Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Generator
+
+Paragraphs:
+Generator Conditions is set of conditional Variable objects involving the Generator
+Lists:
+

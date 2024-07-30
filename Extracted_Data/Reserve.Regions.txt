@@ -1,0 +1,11 @@
+Header: Reserve Regions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of regions that set the load risk
+
+Paragraphs:
+Main.Reserve Regions is the set of regions whose demand ( Load ) contributes to the requirement for the ancillary service. The proportion of load counted is set by the Demand Risk property.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Region Intraregional Transmission Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total losses on all intraregional lines
+
+Paragraphs:
+Region Intraregional Transmission Losses is the total losses on intra-regional lines and is defined as:
+
+See also:
+Lists:
+	- Region Inter-regional Transmission Losses
+	- Region Transmission Losses
+

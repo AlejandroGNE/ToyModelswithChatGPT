@@ -1,0 +1,17 @@
+Header: Node Reference Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Reference load for distributed load slack model
+
+Paragraphs:
+Node Reference Load is used to enter the reference load case that will be used to distribute the 'slack' when calculating shift factors. These are only required if the Transmission PTDF Method is set to "Distributed Load Slack".
+
+See also Region Reference Load
+Lists:
+

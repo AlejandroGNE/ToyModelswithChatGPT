@@ -1,0 +1,15 @@
+Header: Battery Companies Annualized Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of units built
+
+Paragraphs:
+Battery Companies Annualized Build Cost is the annualized cost of units built.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Constraint Feasibility Repair Weight
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.01
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weight applied to relaxing the constraint in feasibility repair. Lower values mean less penalty to relax the constraint. -1 means the constraint cannot be relaxed.
+
+Paragraphs:
+Constraint Feasibility Repair Weight is the weight (penalty) applied to relaxing the Constraint in Feasibility Repair . Lower values mean less penalty to relax the Constraint . -1 means the constraint cannot be relaxed.
+Lists:
+

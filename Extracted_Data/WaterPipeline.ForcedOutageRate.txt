@@ -1,0 +1,15 @@
+Header: Water Pipeline Forced Outage Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to forced outage
+
+Paragraphs:
+Water Pipeline Forced Outage Rate is Forced outage rate.
+Lists:
+

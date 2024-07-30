@@ -1,0 +1,15 @@
+Header: Gas Field Heat Value
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Heat value of gas produced by the Gas Field
+
+Paragraphs:
+Gas Field Heat Value is Heat value of gas produced by the Gas Field.
+Lists:
+

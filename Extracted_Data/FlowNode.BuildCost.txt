@@ -1,0 +1,27 @@
+Header: Flow Node Build Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building the Flow Node
+
+Paragraphs:
+Flow Node Build Cost is the
+              cost of building a new Flow Node for LT
+                Plan . This cost can be defined in combination with Economic
+                Life and WACC so that LT Plan computes an annuity as
+              described in the article LT Plan .
+              If Build Cost is defined without these parameters then the entire
+              cost is incurred in the period the Flow Node is added.
+
+As output Build Cost is the total cost of Units
+                Built in the reporting period.
+
+See also:
+Lists:
+	- Facility Build Cost
+

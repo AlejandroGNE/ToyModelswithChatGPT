@@ -1,0 +1,15 @@
+Header: Transformer Constraints Flow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of transformer flow equation
+
+Paragraphs:
+Transformer Constraints Flow Coefficient is the coefficient of transformer flow in the constraint equation.
+Lists:
+

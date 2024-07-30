@@ -1,0 +1,15 @@
+Header: Transformer Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow through the transformer (sent out)
+
+Paragraphs:
+Transformer Flow is the megawatt flow through the transformer.
+Lists:
+

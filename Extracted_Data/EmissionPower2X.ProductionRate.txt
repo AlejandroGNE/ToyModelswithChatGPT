@@ -1,0 +1,15 @@
+Header: Emission Power2X Production Rate
+
+Table Details:
+Units:	kg/GJ (Metric), lb/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced from one unit of gas produced from the Power2X object
+
+Paragraphs:
+Emission Power2X Production Rate is the emissions produced from one unit of gas produced from the Power2X object.
+Lists:
+

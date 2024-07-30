@@ -1,0 +1,15 @@
+Header: Water Pipeline System Curve Coefficient C
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	System curve coefficient C for the constant term
+
+Paragraphs:
+Water Pipeline System Curve Coefficient C is System curve coefficient C for the constant term.
+Lists:
+

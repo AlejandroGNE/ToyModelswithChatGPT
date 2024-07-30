@@ -1,0 +1,11 @@
+Header: Heat Node Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	external heat markets connected to the heat node
+
+Paragraphs:
+Heat Node Markets is set of markets the heat node trades in
+Lists:
+

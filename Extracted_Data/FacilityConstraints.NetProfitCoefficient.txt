@@ -1,0 +1,15 @@
+Header: Facility Constraints Net Profit Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of net profit
+
+Paragraphs:
+Facility Constraints Net Profit Coefficient is Coefficient of net profit.
+Lists:
+

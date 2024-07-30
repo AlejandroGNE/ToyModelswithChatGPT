@@ -1,0 +1,15 @@
+Header: Gas Plant Objectives Installed Capacity Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of installed capacity
+
+Paragraphs:
+Gas Plant Objectives Installed Capacity Coefficient is the coefficient of installed capacity.
+Lists:
+

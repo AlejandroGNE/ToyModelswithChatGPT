@@ -1,0 +1,20 @@
+Header: Facility Min Production Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Min Production] and [Min Capacity Factor] constraints
+
+Paragraphs:
+Facility Min
+          Production Penalty is the penalty applied to violations of the Min
+            Production or Min
+            Capacity Factor constraints and its period-specific variants.
+          The penalty is per unit of Production .
+          A value of -1 makes this a hard constraint.
+Lists:
+

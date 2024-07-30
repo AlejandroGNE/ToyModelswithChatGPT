@@ -1,0 +1,19 @@
+Header: Node DSP Bid Cleared
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity cleared in demand-side participation bid band
+
+Paragraphs:
+Node DSP Bid Cleared is the quantity cleared in demand-side participation bid band.
+
+See also:
+Lists:
+	- Node Cleared DSP Bid Price
+	- Node Cleared DSP Bid Cost
+

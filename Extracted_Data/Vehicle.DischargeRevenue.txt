@@ -1,0 +1,21 @@
+Header: Vehicle Discharge Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from discharging
+
+Paragraphs:
+Vehicle Discharge Revenue is the
+          revenue earned when the vehicle is discharging from the battery to the
+          grid (V2G). It is defined as:
+
+Discharge Revenue = Charging
+            Station Discharge
+            Price x Discharging
+Lists:
+

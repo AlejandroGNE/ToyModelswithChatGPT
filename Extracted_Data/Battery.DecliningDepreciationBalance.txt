@@ -1,0 +1,15 @@
+Header: Battery Declining Depreciation Balance
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Balance applied to declining depreciation method
+
+Paragraphs:
+Battery Declining Depreciation Balance is the Balance applied to declining depreciation method.
+Lists:
+

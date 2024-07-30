@@ -1,0 +1,51 @@
+Header: Generator Min Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum level of station load (must run/run of river)
+Units	4	-	
+Max Capacity	150	MW	
+Min Stable Level	60	MW	
+Min Load	0	MW	Min Load.csv
+
+Paragraphs:
+Generator Min Load sets a lower
+          bound on the Generation from the facility in each dispatch interval
+          regardless of the unit commitment.
+
+How the value of Min Load is interpreted depends on the Min
+            Load Global setting. It controls whether the value is across all
+          units at the facility or unit-by-unit.
+
+By default Min Load is a hard constraint, but can be made a soft
+          constraint by defining Min
+            Load Penalty and any violations are reported in the properties Min Load Violation , Min
+            Load Violation Cost and Min
+            Load Violation Hours .
+
+For the example in Table 1 the Min Load is a time series read from a Data File .
+
+The amount of Generation attributable to the Min Load requirement is reported as Min
+            Load Generation .
+
+Note that Min Load is automatically derated by the Generator Forced Outage Rate and Maintenance Rate in
+          non-chronological simulation phases e.g. when LT
+            Plan or MT Schedule are
+          using load duration curves. This is done to simulate the effect of
+          outages on the ability of the station to meet the Min Load
+          requirement.
+
+See also:
+Lists:
+	- Generator Min
+              Stable Level
+	- Generator Fixed
+              Load
+	- Generator Max
+              Load
+

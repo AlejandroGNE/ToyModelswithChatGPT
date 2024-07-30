@@ -1,0 +1,17 @@
+Header: Gas DSM Program Variable Cost
+
+Table Details:
+Units:	Input: $/~    Output: $
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable cost of gas dsm program
+
+Paragraphs:
+Gas DSM Programs Variable Cost is Variable cost of gas dsm program.
+
+Variable Cost = Input Variable Cost * Reduction Amount
+Lists:
+

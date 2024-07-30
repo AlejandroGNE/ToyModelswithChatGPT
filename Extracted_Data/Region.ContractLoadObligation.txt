@@ -1,0 +1,18 @@
+Header: Region Contract Load Obligation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Physical contract load obligation
+
+Paragraphs:
+Region Contract Load Obligation is the total load obligation from Load Contracts in the Region and is defined as:
+
+See also:
+Lists:
+	- Region Contract Generation Capacity
+

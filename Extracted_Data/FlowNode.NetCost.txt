@@ -1,0 +1,27 @@
+Header: Flow Node Net Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net value of Market purchases
+
+Paragraphs:
+Flow Node Net Cost is the net
+          value of market purchases and market sales made at the Flow Node, and
+          is defined as:
+
+Net Cost = ∑ Market i Net
+            Cost i
+
+where: i indexes the Markets
+            attached to the Flow Node
+
+See also:
+Lists:
+	- Flow Node Net
+              Revenue
+

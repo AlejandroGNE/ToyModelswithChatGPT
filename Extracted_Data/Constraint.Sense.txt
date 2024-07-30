@@ -1,0 +1,20 @@
+Header: Constraint Sense
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (-1,0,1)
+Key Property:	No
+Description:	Constraint sense (less than or equal to, equal to, greater than or equal to)
+
+Paragraphs:
+Constraint Sense defines the direction of the constraint. The constraint sense must take one of the following values:
+
+See also:
+
+Note that at the current implementation, the sense of the constraint will be the sense in the first period of the simulation and does not change through out the simulation.
+Lists:
+	- Constraint RHS
+

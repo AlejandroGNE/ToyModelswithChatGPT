@@ -1,0 +1,12 @@
+Header: Diagnostic MIP Progress
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Show progress messages from the MIP solver
+
+Paragraphs:
+Toggles on/off display of progress messages from the selected solver during the solution of Mixed Integer Programming problems.
+Lists:
+

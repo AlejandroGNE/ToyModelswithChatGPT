@@ -1,0 +1,12 @@
+Header: LT Plan - Ancillary Services
+
+Table Details:
+
+Paragraphs:
+LT Plan includes the same model of ancillary services as MT Schedule. The LT Plan can optimize capacity expansion while respecting ancillary services requirements, with risk and provision coming from generators and lines i.e. where the ancillary services requirement is dynamic and based on the loading of one or more transmission lines LT Plan will correctly set the risk according to which lines are in service inside any given new build combination. Where LT Plan differs from MT Schedule is in the treatment of maintenance and forced outage rates. Whereas MT Schedule models these using Monte Carlo, LT Plan uses derating.
+
+Where LT Plan differs from MT Schedule is in the treatment of maintenance and forced outage rates. Whereas MT Schedule models these using Monte Carlo, LT Plan uses derating.
+
+Previous Chapter | Next Chapter
+Lists:
+

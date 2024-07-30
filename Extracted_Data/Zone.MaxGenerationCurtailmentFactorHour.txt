@@ -1,0 +1,15 @@
+Header: Zone Max Generation Curtailment Factor Hour
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum proportion of generation curtailed in hour
+
+Paragraphs:
+Zone Max Generation Curtailment Factor Hour is Maximum proportion of generation curtailed in hour.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: List Gas Capacity Release Offers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Capacity Release Offer objects in the List
+
+Paragraphs:
+List Gas Capacity Release Offers is set of Gas Capacity Release Offer objects in the List
+Lists:
+

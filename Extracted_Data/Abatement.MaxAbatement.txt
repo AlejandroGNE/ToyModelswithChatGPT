@@ -1,0 +1,15 @@
+Header: Abatement Max Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum emission abatement rate
+
+Paragraphs:
+Abatement Max Abatement is a cap on the Abatement rate for all Emission objects. You can define caps on each Emission with the Emissions Max Abatement property.
+Lists:
+

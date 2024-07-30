@@ -1,0 +1,63 @@
+Header: Numerical Stability
+
+Table Details:
+
+Paragraphs:
+It is possible to define ill-conditioned problems in PLEXOS. Broadly, ill-conditioned problem solutions are sensitive to small changes in their input. In an energy
+                    context, this means that small perturbations in properties such as Load , Generator Rating etc. can cause
+                    significantly larger changes in the solution (build decisions from LT Plan , Generator Generation etc.). By contrast, well-conditioned (or well-posed) problems are robust: the magnitude of output changes following input perturbation is generally small. Ill-conditioning is not unique to
+                    PLEXOS or even linear programming: it is a broader phenomenon within the wider field of numerical analysis.
+
+Ill-conditioning can cause: 'Sensitive' outputs (build decisions, generation, storage levels etc.). Small changes to key inputs can cause much larger changes to these outputs. Slow solver progress: large numbers of Barrier iterations may be required to solve the model. High-precision numerical representation (within solvers): this increases run time and memory consumption. Inconsistency in solution generation: significant variation in run times can occur, resulting in unreliability under fixed MIP Max Time .
+
+Consider a basic feasible solution (BFS) to an LP. Both Simplex and Barrier (with Crossover ) algorithms produce a BFS. This BFS
+                    has a property known as a condition number which is a direct measure of numerical stability. The higher the condition number, the more ill-posed the BFS (and likely, but not always,
+                    the broader problem. A problem may have many feasible solutions of comparable quality).
+
+Solving integer problems involves solving many LPs. Once an integer solution has been found below the MIP Relative Gap , PLEXOS
+                    typically studies a final LP to extract key solution information (i.e. prices). The condition number of this final LP provides insight into conditioning.
+
+If a BFS is generated, Diagnostic Solver Summary will print its estimated
+                    condition number. Not all PLEXOS problems, solutions or choices of algorithm will generate a BFS: one example is Barrier algorithm with Crossover disabled. The MOSEK solver also does not implement condition number
+                     estimation, hence use of this solver causes condition numbers to be excluded from the summary.
+
+Estimated condition numbers are typically much faster to compute than exact condition numbers. If detailed investigation into ill-conditioning is being undertaken,
+                     exact condition numbers can be added to solver summaries via Summary Exact Conditioning . The performance impact of exact
+                    condition number reporting was found to be small to most models (less than 1% additional run time).
+
+If ill-posedness is present in a model (i.e. through very large estimated or exact condition numbers), modelling adjustments can often improve numerical stability.
+                    Generally, reducing the numeric ranges between minimum and maximum matrix components, RHS values, decivion variable bounds and objective function coefficients will
+                    significant improve the problem numerics. Typically, small adjustments are required (perhaps only a few Custom constraint RHS values).
+                    Diagnostic options Task Size and LP Files can be used in tandem to isolate and adjust
+                    problematic model components.
+
+Appropriate unit selection can also considerably improve problem numerics. For example, annual emissions constraints can be represented equivalently in terms of tonnes and gigatonnes. 
+                    The latter unit choice may however have considerably better numeric properties in a large-scale, long-term model.
+
+Several PLEXOS properties can also be used to improve model numerics. These include: Constraint Scalar Storage Internal Volume Scalar Gas Storage Internal Volume Scalar
+
+Additional resources on numerical stability in linear & integer programming are given here: Wikipedia - Condition number Gurobi - The case of linear systems Gurobi - Why scaling and gemoetry is relevant Gurobi - Improving ranges for variables and constraints CPLEX - Ill conditioning CPLEX - MIP kappa: detecting and 
+                            coping with ill-conditioned MIP models
+Lists:
+	- 'Sensitive' outputs (build decisions, generation, storage levels etc.). Small changes to key inputs can cause much larger changes to these outputs.
+	- Slow solver progress: large numbers of Barrier iterations may be required to solve the model.
+	- High-precision numerical representation (within solvers): this increases run time and memory consumption.
+	- Inconsistency in solution generation: significant variation in run times can occur, resulting in unreliability under fixed MIP Max Time .
+	- Constraint Scalar
+	- Storage Internal Volume Scalar
+	- Gas Storage Internal Volume Scalar
+	- Wikipedia - Condition number
+	- Gurobi - The case of linear systems
+	- Gurobi - Why scaling and gemoetry is relevant
+	- Gurobi - Improving ranges for variables and constraints
+	- CPLEX - Ill conditioning
+	- CPLEX - MIP kappa: detecting and 
+                            coping with ill-conditioned MIP models
+
+
+H2s:
+1. Introduction
+2. Numerical Stability in LPs/MIPs
+3. Conditioning Insight in PLEXOS
+4. Improving Numerical Stability
+5. Further Reading

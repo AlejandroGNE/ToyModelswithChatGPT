@@ -1,0 +1,11 @@
+Header: List Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Line objects in the List
+
+Paragraphs:
+List Lines is set of Main Line objects in the List.
+Lists:
+

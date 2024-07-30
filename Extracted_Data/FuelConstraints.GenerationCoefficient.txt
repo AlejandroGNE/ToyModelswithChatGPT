@@ -1,0 +1,20 @@
+Header: Fuel Constraints Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation with given fuel
+
+Paragraphs:
+Fuel Constraints Generation Coefficient Sets the left-hand side coefficient of Fuel Generation in the Fuel .
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where:
+Lists:
+

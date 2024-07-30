@@ -1,0 +1,20 @@
+Header: Heat Plant Min Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be off after being shut down
+
+Paragraphs:
+Heat Plant Min Down Time is the minimum number of hours the unit must be off in any commitment cycle.
+
+Note that, by default, Min Down Time is enforced after any shutdown event including forced outages. If you prefer that units are available for commitment immediately after repair following a forced outage, turn on the Production setting Forced Outage Relaxes Min Down Time .
+
+See also:
+Lists:
+	- Heat Plant Min Up Time
+

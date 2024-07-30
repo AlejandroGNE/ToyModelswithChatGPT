@@ -1,0 +1,15 @@
+Header: Region Raise Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of raise (spin up) reserve
+
+Paragraphs:
+Region Raise Reserve is Provision of raise (spin up) reserve.
+Lists:
+

@@ -1,0 +1,23 @@
+Header: PLEXOS User Interface Guide Chapter 8
+
+Table Details:
+
+Paragraphs:
+To protect data from accidental change you can lock various parts of the database to editing. The locking controls are settable by database and are located under the Settings menu on the Home ribbon. The Locks tab contains the controls shown in Figure 68.
+
+The locks are enabled or disabled by sliding the sliding the lock image across the slider control. Figure 69 shows the options all in the locked state.
+
+Locks or unlocks the Configuration window. Locking this prevents the user from enabling or disabling features such as collections and properties or changing the dynamic/static status of properties. The Configuration screen is still accessible but is placed in a read-only state.
+
+Locks or unlocks the Objects grid. Locking this prevents adding, deleting, editing or renaming any object. The Objects grid is placed in a read-only state as are the name, category and description controls on the class forms.
+
+Locks or unlocks the Memberships grid. Locking this prevents adding, deleting or editing memberships.
+
+Locks or unlocks object attributes. This applies particularly to simulation settings pages. Locking this prevents the user from changing simulation options such as Production or Transmission settings.
+
+Locks or unlocks properties. Locking this prevents adding, deleting or editing properties. There are two levels to this control as described below. The Scenario [Locked] attribute allows you to choose which data can be edited and which are locked. For data that is not marked with a Scenario the Properties Lock option directly controls the lock/unlock status. But for data marked with a Scenario, the Scenario attribute [Locked] controls the locking. The row marker for the Properties Grid shows a lock symbol for the rows that are locked (the base data). The Scenario data are by default Unlocked.
+Lists:
+
+
+H2s:
+Protecting Data

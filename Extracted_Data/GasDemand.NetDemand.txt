@@ -1,0 +1,20 @@
+Header: Gas Demand Net Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas demand net of shortages, excesses and DSM Program reductions
+
+Paragraphs:
+Gas Demand Net Demand is the gas demand net of shortages, excesses and DSM Programs reductions and is calculated as:
+
+This represents the actual consumption of gas.
+
+See also:
+Lists:
+	- Gas Demand Cost
+

@@ -1,0 +1,15 @@
+Header: Company Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Weighted average price paid for purchases
+
+Paragraphs:
+Company Price Paid is the load-weighted average price paid by the company for energy purchases, and is defined as:
+Lists:
+

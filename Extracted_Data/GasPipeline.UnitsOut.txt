@@ -1,0 +1,18 @@
+Header: Gas Pipeline Units Out
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+As input Gas Pipeline Units Out sets the number of units 'out of service' for maintenance. This multi-band property is used to define 'discrete' maintenance events. The severity of the outages may vary according to the Outage Rating property as in the following example:
+
+As output Gas Pipeline Units Out reports if the pipeline is on outage with zero Outage Rating .
+Lists:
+	- Gas Pipeline Service Factor
+

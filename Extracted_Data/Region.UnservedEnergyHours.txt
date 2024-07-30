@@ -1,0 +1,20 @@
+Header: Region Unserved Energy Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of unserved energy (USE)
+
+Paragraphs:
+Region Unserved Energy Hours is the total number hours in which there was any level of Unserved Energy .
+
+See also:
+Lists:
+	- Region Dump Energy Hours
+	- Region VoLL
+	- Transmission Internal VoLL
+

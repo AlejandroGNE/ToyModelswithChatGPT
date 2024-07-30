@@ -1,0 +1,24 @@
+Header: Production Increment and Decrement
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If simultaneous closure of increment and decrement bids/offers around a base is allowed
+
+Paragraphs:
+In Balancing Markets , increment and decrement offers and bids are commonly defined relative to an Offer Base or Bid Base . It is possible to define 'degenerate' increment and
+                decrement offers and bids. Degenerate offer/bid clearing corresponds to clearing multiple bid and/or offer bands simultaneously in a way that reduces system cost but does not actually
+                change Net Generation . Possible degenerate offers and bids include:
+
+Generators which can pump and generate as well as Batteries can also experience degenerate clearing through bid/offer interactions:
+
+This setting prevents the degenerate clearing of offers and bids across all offers and/or bids defined around a base. This prevention introduces integers to the formulation and may have performance impacts.
+
+This model-wide setting can be overriden for individual objects with Generator Simultaneous Increment and Decrement and Battery Simultaneous Increment and Decrement .
+Lists:
+	- Degenerate offer: an increment offer band can be cleared with a decrement offer band profitably,
+	- Degenerate bid: an increment bid band can be cleared with a decrement bid band profitably.
+	- Degenerate increment: an increment offer band can be cleared with a increment bid band profitably,
+	- Degenerate decrement: a decrement offer band can be cleared with a decrement bid band profitably.
+

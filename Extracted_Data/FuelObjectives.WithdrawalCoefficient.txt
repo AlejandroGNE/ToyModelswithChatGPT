@@ -1,0 +1,15 @@
+Header: Fuel Objectives Withdrawal Coefficient
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of withdrawal from fuel stockpile
+
+Paragraphs:
+Fuel Objectives Withdrawal Coefficient is Coefficient of withdrawal from fuel stockpile.
+Lists:
+

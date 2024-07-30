@@ -1,0 +1,15 @@
+Header: Gas Zone Gas Pipeline Total Reservation Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total reservation costs for gas pipelines
+
+Paragraphs:
+Gas Zones Gas Pipeline Total Reservation Costs is the Total reservation costs for gas pipelines.
+Lists:
+

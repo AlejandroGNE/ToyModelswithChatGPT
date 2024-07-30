@@ -1,0 +1,15 @@
+Header: Flow Path Flows in Transit
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Commodity flow in transit at the end of the period
+
+Paragraphs:
+Flow Path Flows in Transit is the commodity flow in transit at the end of the period.
+Lists:
+

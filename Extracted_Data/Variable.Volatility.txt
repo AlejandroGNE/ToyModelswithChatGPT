@@ -1,0 +1,21 @@
+Header: Variable Volatility
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	GARCH(1,1) volatility metric of sample values
+
+Paragraphs:
+Variable Volatility is the volatility of the actual sample values, which is calculated based on the GARCH(1,1) model using Variable Value .
+
+See also:
+Lists:
+	- Variable Value
+	- Variable GARCH alpha
+	- Variable GARCH beta
+	- Variable GARCH omega
+

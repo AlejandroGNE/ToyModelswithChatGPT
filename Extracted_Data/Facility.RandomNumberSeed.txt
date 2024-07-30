@@ -1,0 +1,31 @@
+Header: Facility Random Number Seed
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 2147483647
+Key Property:	No
+Description:	Random number seed assigned to the facility for the generation of outages
+
+Paragraphs:
+Setting Facility Random Number
+          Seed to a value other than zero allows you to control the sequence of
+          random numbers used to create distributed maintenance and
+          forced outage events. This seed overrides the Random
+            Number Seed defined on the Model .
+
+Note that you can capture the seeds generated from another simulation
+          with the Diagnostic Random
+            Number Seed .
+
+This option can be useful if you want to ensure that a sequence of
+          outages is repeated regardless of other changes in the data input,
+          since by default the seeding can change when new Facility objects are added to the system.
+
+To instead save a particular pattern of outages so that you can reuse
+          them, use the Write Outage
+            Text Files feature of PASA .
+Lists:
+

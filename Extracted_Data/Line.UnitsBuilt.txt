@@ -1,0 +1,18 @@
+Header: Line Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units built
+
+Paragraphs:
+Line Units Built is a binary value indicating if the Line was built in the reported year.
+
+See also:
+Lists:
+	- Line Build Cost
+

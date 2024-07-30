@@ -1,0 +1,16 @@
+Header: Transmission Interruption Sharing
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If region interruption sharing is activated.
+
+Paragraphs:
+Transmission Interruption Sharing refers to the sharing of unserved energy across regions during periods of supply interruption. When enabled, this option invokes a dynamic interruption-sharing algorithm in PLEXOS that:
+
+In general, interruption sharing will result in higher levels of unserved energy.
+
+NOTE: This algorithm mimic "pain sharing" approach taken by NEMMCO in the Australian NEM during times of outage. It is included here for compatibility with that market model and is not recommended for use in other contexts.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Percentage of Demand
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage that maximum daily take value (supply) will be adjusted according to
+
+Paragraphs:
+Gas Contract Percentage of Demand is the Percentage that maximum daily take value (supply) will be adjusted according to.
+Lists:
+

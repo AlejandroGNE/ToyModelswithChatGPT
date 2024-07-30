@@ -1,0 +1,16 @@
+Header: Performance MIP Hard Stop
+
+Table Details:
+Units:	s
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Hard limit on the mixed integer programming time when using MIP Max Relative Gap and MIP Max Time is a soft limit
+
+Paragraphs:
+Performance MIP Hard Stop applies
+          when MIP Max Relative
+            Gap and/or MIP Max Absolute
+            Gap is set and defines a hard limit limit on the mixed integer
+          programming run time.
+Lists:
+

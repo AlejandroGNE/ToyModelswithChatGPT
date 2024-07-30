@@ -1,0 +1,16 @@
+Header: Power2X Max Starts Hour
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of starts allowed in a hour
+
+Paragraphs:
+Refer to Facility Max
+            Starts Hour for details.
+Lists:
+

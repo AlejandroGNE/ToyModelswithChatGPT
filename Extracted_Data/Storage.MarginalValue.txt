@@ -1,0 +1,24 @@
+Header: Storage Marginal Value
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal energy value of water held in storage
+
+Paragraphs:
+Storage Marginal Value is defined
+          as the shadow price (dual variable of the balance constraint)
+          converted to potential energy using Downstream
+            Efficiency .
+
+See also:
+Lists:
+	- Storage Initial
+              Potential Energy
+	- Storage End
+              Potential Energy
+

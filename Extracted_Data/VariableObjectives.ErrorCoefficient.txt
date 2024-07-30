@@ -1,0 +1,15 @@
+Header: Variable Objectives Error Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the variable sample error
+
+Paragraphs:
+Variable Objectives Error Coefficient is Coefficient of the variable sample error.
+Lists:
+

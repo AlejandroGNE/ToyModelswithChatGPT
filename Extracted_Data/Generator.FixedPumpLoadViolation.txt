@@ -1,0 +1,19 @@
+Header: Generator Fixed Pump Load Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Fixed Pump Load] constraint.
+
+Paragraphs:
+Generator Fixed Pump Load Violation is violation of the Fixed Pump Load constraint. Violations are only permitted if the Fixed Pump Load Penalty is non-negative.
+
+See also:
+Lists:
+	- Generator Hours of Fixed Pump Load Violation
+	- Generator Fixed Pump Load Violation Cost
+

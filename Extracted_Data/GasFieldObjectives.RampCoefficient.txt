@@ -1,0 +1,15 @@
+Header: Gas Field Objectives Ramp Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in gas field end volume
+
+Paragraphs:
+Gas Field Objectives Ramp Coefficient is Coefficient of change in gas field end volume.
+Lists:
+

@@ -1,0 +1,190 @@
+Header: LT Plan - Expansion Candidates
+
+Table Details:
+Max Capacity	300	MW
+Max Units Built	1	
+Build Cost	175	$/kW
+Economic Life	30	years
+WACC	12	%
+Project Start Date	1/01/2012	1900 date system day
+Technical Life	30	years
+Max Capacity	300	MW
+Min Load	150	MW
+Offer Quantity	100	MW	1
+Offer Quantity	75	MW	2
+Offer Price	0	$/MWh	1
+Offer Price	25	$/MWh	2
+Max capacity	20	MW	
+Rating	18	MW	M01
+Rating	20	MW	M02
+Rating	16.5	MW	M03
+...	...	...	
+Rating	17	MW	M12
+Min load	1	MW	M1
+Min load	3	MW	M2
+Min load	7	MW	M3
+...	...	...	...
+Min load	0.5	GWh	M12
+Max Energy MONTH	8	GWh	M01
+Max Energy MONTH	9.5	GWh	M02
+Max Energy MONTH	7.1	GWh	M03
+...	...	...	...
+Max Energy MONTH	5	GWh	M12
+Max Units Built	1	-	
+Max Units Built	1500	$/kW	
+Economic Life	30	years	
+WACC	12	%	
+Max Units Built	300	-	
+Max Capacity	1	MW	
+Rating	0	MW	Normalized Wind.csv
+Firm Capacity	0.07	MW	
+Units	1	-	
+Units	0	-	1/01/2016
+Units	1	-	
+Max Units Retired	1	-	1/01/2010
+Min Units Retired	0	-	
+Min Units Retired	1	-	1/01/2020
+Retirement Cost	9500	$000	
+Heat Rate	10	GJ/MWh	
+Heat Rate	10.1	GJ/MWh	1/01/2011
+Heat Rate	10.201	GJ/MWh	1/01/2012
+...	...	...	...
+Heat Rate	10.93685	GJ/MWh	1/01/2020
+Fixed O&M Charge	13	$/kW/year	
+Fixed O&M Charge	13.325	$/kW/year	1/01/2011
+Fixed O&M Charge	13.65813	$/kW/year	1/01/2012
+...	...	...	...
+Fixed O&M Charge	16.23522	$/kW/year	1/01/2020
+Max load	2	MW
+Capacity Charge Month	15	$/kW/month
+Max Load Units	100	-
+
+Paragraphs:
+Contents
+
+Generation CHP, Cogeneration and other Constrained Resources Hydro, Geothermal and other Energy Constrained Resources Wind and other Intermittent Resources Retirements Planned Retirements Economic Retirements Transmission Line Additions, Upgrades, and Retirements Interface Expansion Physical Contracts
+
+1. Generation
+
+To correctly define a generation expansion candidate you should define at least the following Generator properties:
+
+If your LT Plan is using Discount Rate then also define:
+
+And it is useful to also define:
+
+This is in addition to the properties that define the production cost of the generator, such as Heat Rate , Fuel Price and VO&M Charge .
+
+Example
+
+You may optionally define the Technical Life property if the project's physical lifetime is known to be limited. The property Project Start Date may also be defined in order to set an earliest date the project can be completed, for example:
+
+If some units already exist, or are scheduled to come into service at known times, you can define Units as well. These 'incumbent' units are then in addition to those that might be added from the Max Units Built .
+
+By default, units will be built in any number at a time up to Max Units Built , but you can force building of units in 'sets' e.g. sets of 10 at a time, with the property Build Set Size .
+
+Where a project starts and finishes within the planning horizon, the entire build cost is incurred within the horizon (in the year of the build), otherwise an annuity is computed, and the last year is assumed to continue in perpetuity. As described above, the properties Economic Life and WACC are used to compute this annuity.
+
+In all other respects a generation project is the same as a normal Generator . Thus the location of the project is defined by the Generator Nodes memberships i.e. if you have identical project types that can be built in one of multiple locations you must define a Generator at each location.
+
+The production cost model for new generators is identical to that used by MT Schedule and is fully featured, meaning you can model anything that can be modelled in normal simulations, including but not limited to:
+
+You define these limits in the normal way and the simulator takes care of invoking them only when the unit is actually built.
+
+2. CHP, Cogeneration and other Constrained Resources
+
+Generators with special restrictions, such as Combined Heat and Power (CHP), can be modelled using the normal Generator properties. For example, a CHP plant might have a Min Load restriction representing its heat load. The simulator takes care of only imposing this constraint once the plant is built. For example:
+
+Other generators, such as cogeneration, might have known operating regimes that can be represented with multi-band offers like this:
+
+Again the simulator ensures that the offer only 'exists' once the plant is built. Offers are always per generating unit, so the amount offered will automatically increase as the number of units built increases.
+
+3. Hydro, Geothermal and other Energy Constrained Resources
+
+LT Plan can model new hydro, geothermal and other energy constrained resources. For example a 'simple' hydro generation project with capacity, energy limits and run-of-river generation varying by month could be defined as follows:
+
+This simplified approach can work well for small hydro with limited storage, but when modelling a system with larger hydro or where the hydro provides a significant proportion of the total energy demand it is necessary to model the variability in hydro energy more directly—see Stochastic Optimization .
+
+4. Wind and other Intermittent Resources
+
+Intermittency of generation affects the amount of installed capacity that can be relied upon at peak times. This particularly applies to wind. Here is a typical set of input properties for a wind generation candidate:
+
+Here the Filename reference points to a normalized series of wind power for the location i.e. an hourly series. The Firm Capacity defines how much of the installed capacity counts towards capacity reserves in Equation 5.
+
+When modelling with load duration curves, wind intermittency has more of an effect on the short-term energy balancing than the aggregate energy balance implied by the LDC, thus a single 'expected value' wind profile is generally adequate unless the amount of wind capacity is large in which case it may be worthwhile to model wind variability directly in the LT Plan formulation - see Stochastic Optimization .
+
+5. Retirements
+
+Retirements can be economic, planned, or part of a logical sequence of project stages.
+
+5.1. Planned Retirements
+
+If the unit's retirement is planned and the retirement date is known, then the Units property is all that is needed, as in the following example:
+
+In this example the generator is 'in service' from the start of the planning horizon (no date given for Units = 1), and goes out of service on January 1, 2016.
+
+5.2. Economic Retirements
+
+LT Plan is able to optimize the timing of retirements. Because building of new generators incurs a significant fixed cost and inefficient existing plant can be 'bypassed' by simply not being dispatched, it is largely the fixed operations and maintenance costs that drive retirements. As plant age, their fixed costs can rise, and their heat rate degrades. This scenario is represented in the following data where the heat rate degrades by 1% p.a. and the operations and maintenance charge increases by 2.5% p.a.:
+
+In the above example the unit is forced to retire no later than 1/01/2020 but no earlier than 1/01/2010 but LT Plan can chose to retire it any time inside that window.
+
+6. Transmission
+
+The planned expansion/retirement of AC and DC lines from the system is enabled using the Line Units property, with the restriction that AC expansion/retirement is only supported by the Variable Shift Factor OPF method. The simulator automatically recomputes the shift factors required to cope with the changes in topography. LT Plan supports all types of transmission constraints including security-constrained Optimal Power Flow .
+
+6.1. Line Additions, Upgrades, and Retirements
+
+Optimized transmission line expansion using the Max Units Built property and retirement using the Max Units Retired property in LT Plan works in much the same way as generation expansion. There are no restrictions on the number of lines that may run between any two nodes, thus the expansion of an existing line can be modelled as the addition of one or more new lines between the same nodes.
+
+The complete replacement of one line with another can be achieved using the Constraint class—see Timing and Staging Constraints .
+
+6.2. Interface Expansion
+
+Expansion of existing transmission interfaces (via the Interface class) is a feature available to all OPF methods. Expansion is done in continuous units of megawatts, thus the only data required are:
+
+Expansion using Interface objects is useful for both zonal/regional transmission and full-nodal AC expansion. In the latter case:
+
+7. Physical Contracts
+
+LT Plan can optimize the purchase of generation and/or load contracts represented by Physical Contract objects. These differ from generator new builds in that the decision to purchase a contract is made at regular intervals, rather than a one-off decision for a generator. You determine the contract interval by setting one of the following properties on the Physical Contract :
+
+The number of 'times' a contract can be 'expanded' is set by either:
+
+These properties are equivalent to Max Units Built for generators and lines. Thus a valid set up of a candidate load contract whose quantity can be renegotiated every month would be:
+
+Here LT Plan will decide the optimal amount of the contract to take up each month. The total quantity that can be purchased in this case is 200 (2 MW × 100) in increments of 2 MW.
+
+Previous Chapter | Next Chapter
+Lists:
+	- Max Capacity in MW
+	- Max Units Built
+	- Build Cost which in $/kW
+	- Economic Life in years
+	- WACC which is the discount rate applied to the project's costs
+	- FO&M Charge in $/kW/year
+	- energy and capacity factor constraints
+	- emissions costs and limits
+	- fuel constraints
+	- unit commitment and technical limits
+	- Expansion Cost in $MM/MW
+	- Max Expansion in MW
+	- WACC which is the weighted-average cost of capital for interface expansion
+	- Define Interface objects for each AC path that can be expanded
+	- Remove the 'normal' flow limits on the Line objects in the path
+	- Define the expansion cost parameters and normal limits for the Interface objects
+	- Set the Transmission Detail option in LT Plan to "nodal"
+	- Use Transmission settings to control application of other constraints such as SC-OPF
+	- Capacity Charge - for a contract whose quantity can be changed every period
+	- Capacity Charge DAY - for a contract whose quantity can be changed daily
+	- Capacity Charge WEEK - for a contract whose quantity can be changed weekly
+	- Charge MONTH - for a contract whose quantity can be changed monthly
+	- Capacity Charge YEAR - for a contract whose quantity can be changed annually
+	- Max Generation Units - for generation contracts
+	- Max Load Units - for load contracts
+
+
+H2s:
+5.1.Planned Retirements
+5.2.Economic Retirements
+6.1.Line Additions, Upgrades, and Retirements
+6.2.Interface Expansion

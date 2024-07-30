@@ -1,0 +1,24 @@
+Header: Facility Initial Units Operating
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units operating at time zero
+
+Paragraphs:
+Facility Initial Units Operating
+          is used in combination with Initial
+            Production to set the initial ( t =0) unit commitment and
+          dispatch state of the facility.
+
+See also:
+Lists:
+	- Facility Initial
+              Hours Down
+	- Facility Initial
+              Hours Up
+

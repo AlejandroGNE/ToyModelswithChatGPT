@@ -1,0 +1,19 @@
+Header: Object Categories
+
+Table Details:
+
+Paragraphs:
+Grouping objects into categories improves ease of navigation in the tree view of objects in both input and solution databases. Note that categories are also used in the Solution Viewer when running automatic aggregate queries on data. To create and edit categories, select the Categorize command from the pop-up menu of the collection of objects e.g. to categorize your generators, right-click the Generators collection in the main tree.
+
+Figure 2 shows the categorize objects form. From this form you can:
+
+You can delete a sequence of categories by repeatedly pressing DEL and Y (to confirm the delete).
+
+Once the categories are defined and objects have been assigned to those categories the System and Simulation trees will display your objects inside the categories: showing the categories as folders (see Figure 3). The categories are used throughout the interface by PLEXOS to organize your objects, and they are passed through to the solution database. Objects inside the categories are always sorted in alphabetical order, whereas the categories display in the order you define in the Category editor.
+
+Although categorizing objects does not change the nature of the objects inside the simulation, it will result in the order of objects being read differently, and this can affect the generation of random seeds for modelling e.g. forced outages of Generators. If you want to be able to reorder, or add/remove objects without affecting the random seeds, use the individual random seed properties of objects like Generator and Line e.g. Generator Random Number Seed.
+Lists:
+	- Add, delete, or rename categories
+	- Change the order that categories appear in
+	- Change the assignment of objects to categories
+

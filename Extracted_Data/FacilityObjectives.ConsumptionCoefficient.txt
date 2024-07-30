@@ -1,0 +1,15 @@
+Header: Facility Objectives Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Facility consumption in the Objective
+
+Paragraphs:
+Facility Objectives Consumption Coefficient is Coefficient of Facility consumption in the Objective.
+Lists:
+

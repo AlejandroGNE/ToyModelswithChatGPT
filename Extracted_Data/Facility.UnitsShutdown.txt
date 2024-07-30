@@ -1,0 +1,34 @@
+Header: Facility Units Shutdown
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units shutdown
+
+Paragraphs:
+Facility Units Shutdown is the
+          number of units that stopped operating in the period, and is defined
+          as:
+
+Units Shutdown t =
+          MAX(0, Units Operating ( t -1) - Units Operating ( t ) )
+
+where: t indexes the time interval;
+            and Units
+              Operating 0 is defined by Initial
+              Units Operating
+
+In summary reporting this is the total number of unit shut downs that
+          occurred in the period.
+
+See also:
+Lists:
+	- Facility Units
+              Started
+	- Production Unit
+              Commitment Optimality
+

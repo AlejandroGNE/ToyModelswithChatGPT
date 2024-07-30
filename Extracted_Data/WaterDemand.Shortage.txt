@@ -1,0 +1,15 @@
+Header: Water Demand Shortage
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortage of water supply
+
+Paragraphs:
+Water Demand Shortage is Shortage of water supply.
+Lists:
+

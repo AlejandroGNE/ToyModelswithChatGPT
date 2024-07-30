@@ -1,0 +1,11 @@
+Header: Physical Contract Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the physical contract
+
+Paragraphs:
+A physical contract can be owned by more than one company. The share of ownership is set by the Share property.
+Lists:
+

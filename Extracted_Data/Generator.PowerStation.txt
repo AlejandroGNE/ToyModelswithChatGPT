@@ -1,0 +1,13 @@
+Header: Generator Power Station
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	power station the generator belongs to
+
+Paragraphs:
+Generator Power Station is power station the generator belongs to for the purpose of aggregating this Generator with a set of 'like' Generators.
+
+See Power Station for more details.
+Lists:
+

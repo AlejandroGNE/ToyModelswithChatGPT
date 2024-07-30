@@ -1,0 +1,69 @@
+Header: RSI Class
+
+Table Details:
+Description:	Residual supply index analysis
+RSI =	Total Supply - Largest Supplier's Supply
+Total Demand
+Intercept	0.14[11.08]	0.57[14.77]
+RSI (gross RSI specification)	-0.53[72.76]	-1.81[35.55]
+RSI_Square (RSI*RSI)		0.54[27.75]
+Pct_load_unhedged	0.65[70.98]	0.06[66.77]
+Normalized Load (hourly load/annual average load)		0.4[32.89]
+Dummy for Peakhour	0.086[23.77]	0.018[4.00]
+Dummy for Summer Months	0.15[48.19]	0.1[30.83]
+R Squared	0.46	0.49
+Number of Observations	31333	31333
+
+Paragraphs:
+See also RSI Property Reference for a detailed list of properties for this class of object.
+
+Residual Supply Index (RSI) is a technique developed by the California ISO. The following explanatory material is adapted
+      from "Market Based Simulation in the CAISO Transmission Evaluation Assessment Methodology (TEAM)", a presentation by
+      Mingxia Zhang, June 14, 2004. This technique has general applicability, thus the references to California in the below are for
+      explanation only.
+
+Modelling strategic bidding can be approached from multiple angles. Game theoretical approaches such as Nash-Cournot game (physical withholding) or Supply Function Equilibrium (economic
+      withholding) are difficult to implement in a complex network model. Empirical approaches can be based on backcast simulation
+      and calibration (or regression analysis) and offer a simpler alternative.
+
+Residual Supply Index "RSI" is an empirical approach to modelling strategic bidding. It develops a historical
+      relationship (regression) between Price-cost Mark-up and certain system conditions. It uses the regression results to
+      predict Bid-cost Mark-up under future system conditions and applies the bid-cost mark-ups
+      to the supply bids and runs the model to determine dispatch and market clearing prices.
+
+Price-Cost mark-up regression results estimate the relationship between price-cost mark-ups and system conditions using
+      hourly data ( e.g. in California the regression study covered November 1999 to October 2000 and 2003). The price-cost mark-up is
+      expressed as the Lerner Index. The Lerner Index at region i and hour t is:
+
+The system conditions are represented by several key variables ( e.g. , RSI, % of Unhedged load, etc .)
+
+A Residual Supply Index provides a good measure on the extent to which the largest supplier in the market is
+      "pivotal" to meeting demand.
+
+An RSI value less than 1 indicated the largest supplier is pivotal in meeting demand. In the CAISO markets, RSI values
+      less than 1.2 have generally been associated with market prices in excess of estimated competitive levels.
+
+To create the regression equations do the following:
+
+You can now enter the regression terms using the RSI properties .
+
+Example of Regression Results
+
+RSI currently isn't compatible with Step Link Mode of Parallel.
+
+We can apply regression results prospectively to predict hourly price-cost mark-ups in future years, and then use
+      predicted price-cost mark-ups as bid-cost mark-ups.
+
+The Bid-Cost Mark-up functionality is incorporated directly into PLEXOS. The RSI and other determinants of predicted
+      bid-cost mark-ups can be computed internally in PLEXOS. The projected bid-cost mark-ups can be automatically incorporated
+      into the market-price run.
+
+Each RSI object in PLEXOS is associated with a single Region object. The Lerner Index defines the amount of mark-up applied in the Region via this formula:
+
+Bid Cost Mark-up = Bounded Lerner Index / (1 - Bounded Lerner Index )
+
+The Bid Cost Mark-up is applied automatically to the Generators in the Region associated with the RSI. The Competition setting controls how the Region-wide BMU is applied to individual Generator objects. By default the mark-ups vary according to the location of the Generator
+      in the merit-order, with marginal generators receiving the full mark-up and inframarginal generators receiving less
+      mark-up.
+Lists:
+

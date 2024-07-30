@@ -1,0 +1,15 @@
+Header: Storage Natural Inflow Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of natural inflows
+
+Paragraphs:
+Storage Natural Inflow Energy is Potential energy of natural inflows.
+Lists:
+

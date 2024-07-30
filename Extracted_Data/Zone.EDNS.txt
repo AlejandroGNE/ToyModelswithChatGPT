@@ -1,0 +1,26 @@
+Header: Zone EDNS
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Expected demand not served (summary type "Average")
+
+Paragraphs:
+NOTE: EDNS is only computed by PASA when the Compute Reliability Indices setting is 'on'.
+
+This is the expected demand not served in the PASA period. The EDNS is determined, by taking the total area where the demand (d) is greater than the installed capacity (IC).
+
+Figure 1 shows an example, where a single region has an installed capacity of say 6 MW, and an effective load of 11MW.  Therefore the total EDNS is the total area of the shaded section, which can be calculated by simple geometry.  In this case it is simply:
+
+Attach:LDC.jpg Δ Figure 1: A convolved LDC (described in LOLP )
+
+See also:
+Lists:
+	- Zone LOLP
+	- Zone LOLE
+	- Zone EENS
+

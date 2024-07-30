@@ -1,0 +1,21 @@
+Header: Stochastic Reduced Outage Pattern Count
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Statistically reduce the outage patterns to at most this number.
+
+Paragraphs:
+Stochastic Reduced Outage Pattern Count invokes the Sample Reduction Algorithm on the pool of Outage Pattern Count outage draws, reducing the number of samples iterated through in the Monte Carlo simulation.
+
+The default value of zero means that no reduction will occur i.e. all Outage Pattern Count draws are simulated. Any number that is at least one but less than Outage Pattern Count will cause the algorithm to reduce the samples after sampling and before simulation. Reducing the 'raw' sample count will improve execution time and the reduction algorithm aims to reduce the samples simulated with minimal effect on the accuracy of the results.
+
+This option allows you to draw from a large pool of outage patterns e.g. Outage Pattern Count = 1000, but reduce the simulated set for faster execution e.g. Reduced Outage Pattern Count = 50.
+
+Note that, after reduction, the weights applied to each simulated sample will not be uniform. The computed weights can be accessed via the Sample Weights diagnostic.
+
+See also:
+Lists:
+	- Stochastic Reduced Sample Count
+

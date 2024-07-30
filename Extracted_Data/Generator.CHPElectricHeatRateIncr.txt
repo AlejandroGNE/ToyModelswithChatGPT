@@ -1,0 +1,20 @@
+Header: Generator CHP Electric Heat Rate Incr
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental electric heat rate in heating mode
+
+Paragraphs:
+Generator CHP Electric Heat Rate Incr is the incremental electric heat rate in heating mode.
+
+This parameter is used to define the efficiency of electricity production in CHP mode. It is used to define the Fuel Offtake function as described in the article Combined Heat and Power .
+
+See also:
+Lists:
+	- Generator Power to Heat Ratio
+

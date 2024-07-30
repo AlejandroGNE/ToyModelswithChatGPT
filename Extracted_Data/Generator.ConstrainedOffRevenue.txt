@@ -1,0 +1,15 @@
+Header: Generator Constrained Off Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constrained off revenue
+
+Paragraphs:
+Constrained off revenue compensates a generator trading in a Uniform Pricing market for times when its marginal cost is below the SMP but it is not dispatched. See Constrained On Revenue for a description of the method used to compute these payments.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Reserve Generators Cleared Offer Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal offer band
+
+Paragraphs:
+Reserve Generators Cleared Offer Price is the marginal cost of Provision as seen by the objective function of the Market Operator.
+
+See also:
+Lists:
+	- Reserve Generators Cleared Offer Cost
+

@@ -1,0 +1,18 @@
+Header: Zone Contract Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Physical contract generation capacity
+
+Paragraphs:
+Zone Contract Generation Capacity is the total generation capacity of Generation Contracts in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Contract Load Obligation
+

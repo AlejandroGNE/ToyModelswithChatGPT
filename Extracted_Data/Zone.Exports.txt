@@ -1,0 +1,19 @@
+Header: Zone Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports
+
+Paragraphs:
+Zone Exports is the total exports from the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Imports
+	- Zone Net Interchange
+

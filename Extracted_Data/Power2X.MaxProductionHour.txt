@@ -1,0 +1,16 @@
+Header: Power2X Max Production Hour
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production in hour
+
+Paragraphs:
+Refer to Facility Max
+            Production Hour for details.
+Lists:
+

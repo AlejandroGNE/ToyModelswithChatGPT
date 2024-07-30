@@ -1,0 +1,19 @@
+Header: Contingency Monitored Interfaces Max Flow Limit
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Post-contingency flow limit in the reference direction
+
+Paragraphs:
+Contingency Monitored Interfaces Max Flow Limit sets the interface post-contingency flow limit in the reference direction for the purposes of security-constrained operation in the Security Constrained Unit Commitment. This input overrides Interface Overload Max Rating .
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+	- Interface Overload Max Rating
+

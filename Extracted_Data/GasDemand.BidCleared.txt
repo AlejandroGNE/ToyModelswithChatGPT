@@ -1,0 +1,15 @@
+Header: Gas Demand Bid Cleared
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Bid cleared in band
+
+Paragraphs:
+Gas Demand Bid Cleared is Bid cleared in band.
+Lists:
+

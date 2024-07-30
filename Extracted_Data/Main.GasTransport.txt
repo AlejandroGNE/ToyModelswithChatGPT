@@ -1,0 +1,38 @@
+Header: Gas Transport Class
+
+Table Details:
+Description:	Gas shipment
+Contract 1	Quantity	15	TJ	12/03/2017	12/03/2017
+Contract 2	Quantity Day	200	TJ	15/03/2017	16/03/2017
+Property	Value	Units
+Max Volume	4	MMcf
+Max Shipments Month	2	-
+
+Paragraphs:
+See also Gas Transport Property Reference for a detailed list of properties for this class of object.
+
+Gas Transport can be used for modeling both contract and spot market liquefied natural gas (LNG) shipments.
+
+When the Gas Contracts membership is defined the Gas Contract works to define the delivery quantity of gas at the Import Node for the Gas Transport. As an illustration, consider a Gas Transport with two Gas Contracts as defined in the table below: Object Name Property Value Units Date From Date To Contract 1 Quantity 15 TJ 12/03/2017 12/03/2017 Contract 2 Quantity Day 200 TJ 15/03/2017 16/03/2017 From the table above, it can be seen that there will be 15 TJ gas arriving the import node in each period of the day 12/03/2017 so the total imported gas in that day is 360 TJ, provided the period is one hour. It can also be seen that there will be 200 TJ gas arriving the import node in the first interval of day 5/03/2017 and 16/03/2017, respectively. Generally, for other versions of Gas Contract Quantity , we assume the quantity is defined for the first interval in that time frame. Note that when a Gas Contract is linked to a Gas Transport, the memberships between the Gas Contract and other objects are ignored. For example, if the Gas Contract has two memberships one is for Gas Field and the other is for Gas Transport, the Gas Field membership will be deleted. Spot Market LNG Shipments The Gas Transport class can also be used to model the spot market i.e. optimization of timing and load of shipping. To enable this feature, we should at least define the two input properties, Max Volume and Max Shipments or one of its variant. As an illustration, consider a gas transport with two key properties as defined in the table below: Property Value Units Max Volume 4 MMcf Max Shipments Month 2 - From the table above, it is clear that in each month the maximum number of LNG voyages is limited to two and the max volume of the LNG ship should not be larger than 4 MMcf . The timing of the shipping will be co-optimized with other gas objects. See the Gas Modelling article for details about other gas classes.
+
+When the Gas Contracts membership is defined the Gas Contract works to define the delivery quantity of gas at the Import Node for the Gas Transport.
+
+As an illustration, consider a Gas Transport with two Gas Contracts as defined in the table below:
+
+From the table above, it can be seen that there will be 15 TJ gas arriving the import node in each period of the day 12/03/2017 so the total imported gas in that day is 360 TJ, provided the period is one hour. It can also be seen that there will be 200 TJ gas arriving the import node in the first interval of day 5/03/2017 and 16/03/2017, respectively. Generally, for other versions of Gas Contract Quantity , we assume the quantity is defined for the first interval in that time frame.
+
+Note that when a Gas Contract is linked to a Gas Transport, the memberships between the Gas Contract and other objects are ignored. For example, if the Gas Contract has two memberships one is for Gas Field and the other is for Gas Transport, the Gas Field membership will be deleted.
+
+The Gas Transport class can also be used to model the spot market i.e. optimization of timing and load of shipping. To enable this feature, we should at least define the two input properties, Max Volume and Max Shipments or one of its variant.
+
+As an illustration, consider a gas transport with two key properties as defined in the table below:
+
+From the table above, it is clear that in each month the maximum number of LNG voyages is limited to two and the max volume of the LNG ship should not be larger than 4 MMcf . The timing of the shipping will be co-optimized with other gas objects.
+
+See the Gas Modelling article for details about other gas classes.
+Lists:
+
+
+H2s:
+Contract LNG Shipments
+Spot Market LNG Shipments

@@ -1,0 +1,15 @@
+Header: Flow Control Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the flow control
+
+Paragraphs:
+Flow Control Technical Life is the physical life of the Flow Control and is used in LT Plan to force the retirement of the Flow Control after a certain period after it has been constructed. The property applies only to objects that are constructed by LT Plan i.e. those defining Max Units Built .
+Lists:
+

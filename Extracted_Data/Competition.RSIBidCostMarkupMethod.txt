@@ -1,0 +1,12 @@
+Header: Competition RSI Bid-Cost Mark-up Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Method used in applying calculated bid cost markups to companies then generating units.
+
+Paragraphs:
+Competition RSI Bid Cost Mark-up Method controls the application of calculated Bid Cost Mark-up to Generator offers in the RSI algorithm. It can take these values:
+Lists:
+

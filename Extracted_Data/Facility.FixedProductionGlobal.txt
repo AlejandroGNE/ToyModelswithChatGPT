@@ -1,0 +1,23 @@
+Header: Facility Fixed Production Global
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If [Fixed Production] applies across all units at the Facility or unit-by-unit
+
+Paragraphs:
+Facility Fixed Production Global
+          controls how the Fixed
+            Production property is interpreted for multi-unit facilities. It
+          can take the following values:
+
+The values are for the total Production across all units , except in LT Plan for expansion options in
+              which case Fixed
+                Production is the value for each existing unit or unit
+              built.
+Lists:
+

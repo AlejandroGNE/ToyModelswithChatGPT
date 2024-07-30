@@ -1,0 +1,16 @@
+Header: Heat Storage Decomposition Bound Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000000
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty applied to violation of storage bounds when the decomposition implies possible violations
+
+Paragraphs:
+Refer to Commodity Decomposition
+            Bound Penalty for details.
+Lists:
+

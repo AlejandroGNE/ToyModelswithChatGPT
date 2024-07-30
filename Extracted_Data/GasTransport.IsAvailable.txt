@@ -1,0 +1,15 @@
+Header: Gas Transport Is Available
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if Gas Transport is available for flow.
+
+Paragraphs:
+Gas Transport Is Available is Indicates if Gas Transport is available for flow..
+Lists:
+

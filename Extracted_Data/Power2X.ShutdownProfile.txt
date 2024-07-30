@@ -1,0 +1,15 @@
+Header: Power2X Shutdown Profile
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Detailed regime for running the unit down from [Min Stable Level] when [Run Down Rate] is non-constant.
+
+Paragraphs:
+Power2X Shutdown Profile is Detailed regime for running the unit down from [Min Stable Level] when [Run Down Rate] is non-constant..
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Facility Min Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time to repair
+
+Paragraphs:
+Facility Min Time to Repair sets
+          the lower limit on either a continuous or triangular repair time
+          distribution. See the Mean
+            Time to Repair property for details.
+
+See also:
+Lists:
+	- Facility Max
+              Time to Repair
+

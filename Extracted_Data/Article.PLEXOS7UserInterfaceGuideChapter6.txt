@@ -1,0 +1,47 @@
+Header: PLEXOS User Interface Guide Chapter 6
+
+Table Details:
+
+Paragraphs:
+PLEXOS includes a tool for comparing/merging changes between versions of your input databases (XML files). There are three ways in which this tool is launched and used:
+
+To review the changes you have made to the database since the last time you unsaved the file, click Changes on the Home ribbon.
+
+This launches the compare tool. In this example, some Gas Demands have been renamed.
+
+Using the Item Left/Right, Subtree Left/Right, Selections Left/Right buttons in the Compare section of the Home ribbon, you can perform merge operations from one version to the other: Item Left/Right will merge the selected item only Subtree Left/Right will merge the selected item and all items below it Selections Left/Right will merge the checked items
+
+Use the Comparison Tool command from the PLEXOS tab to launch the tool independent of the current session. A dialog box prompts you to browse for the two file versions. Use the browse buttons to select the files.
+
+PLEXOS does not manage versions of your input automatically unless you are using the PLEXOS Connect feature. Thus to use the tool this way you must have previously saved two versions of the same input database. You cannot sensibly compare two independent databases. That is to say, you should only compare databases which share a common "ancestor". If you use Save As or copy the physical file on disk and make changes to the new copy, the two databases are descended from the same common ancestor, and PLEXOS will be able to determine (for example) objects that have been renamed. Once you have selected the two input file versions to compare, press OK to start the comparison.
+
+The Change Management System provides a way for users to create a database that is a subset of a larger database. This subset database (or "Change Database") allows one to transfer selected objects and data to related databases (that is, databases that share the same "ancestor"). The specific scenario this intends to address is where two users begin to make divergent changes to two separate copies of the one database. If one user is maintaining certain types of data, they are able to export their changes to a Change Database which can then be imported into the other copy.
+
+Using the Compare Tool in this example, we can export the Gas Demands name changes. All of the differences between these databases have been marked with a check. When we save a Change Database by clicking on the button immediately to the left of the path ("C:\Desktop\GasModelExample" in the example), we will be saving a new database containing only the checked items in the left hand tree. This essentially provides a means to export all the changes which have been made to the database. We can later load those changes back and apply them to some other copy of the database. A Change Database is not limited only to the changes between two databases. It will consist of any items which have been check marked, whether they appear as differences or not in the Compare Tool Window. The Select All button in the Ribbon will reset all of the selections so that all (and only) differences are selected. The typical manner in which a Change Database would be generated is for the purpose of isolating new changes to a database, and so this is the primary method for creating a Change Database. You can also select Create Change Database from the PLEXOS menu to select a subset of database objects from a standalone database, as in the following screen.
+
+A Change Database should be fairly indistinguishable from any other database in that it can be loaded into the main PLEXOS user interface and edited, or even executed, just like any other database. A Change Database is, however, marked internally as a Change Database. This means that when you load it into the left hand side of the Database Compare Tool, the Compare Tool knows that this database is supposed to be a subset of the potentially larger database you load on the right hand side, and will filter out of the right hand side any irrelevant objects. That is, any objects which are not present in the Change Database, allowing you to focus on merging the changes into your target database. A Change Database may also contain information about deleted data and objects. When you generate a Change Database by comparing one database with another, any items which were deleted in the left database will be added to the Change Database but marked as deleted. In this way, the Change Database carries with it information about objects which should be removed from the target database. To apply a Change Database to a target database, one can load the Change Database into the left hand side of the Compare Tool. When we select the Change Database, the software recognizes the database as a Change Database. The "Change Database" check box under the file name will be checked automatically. The check box is, however, always available for the user to check or uncheck, whether the left hand database is a change database or not. This check box allows the user to treat any database as a Change Database, or to treat a Change Database as a regular database. The difference, as aforementioned, is that with a Change Database the Compare Tool will filter out of the right hand side any objects which don't appear in the Change Database, and will also count delete information in a Change Database as deletions to the target database. To merge our Change Database into the target database, we can use the usual merge buttons, selecting a single object or sub tree to merge to the right. The comparison tool provides navigation commands that allow you to move sequentially through the changes in the file. Colour codes indicate data edits and additions. Once you have merged a set of changes into a final version, use the Save command in the tool window (left hand side) to save the "hybrid" version to a new file.
+
+The Import Change Database option in the PLEXOS menu enables users to merge several change databases with another "base" database sharing the same ancestor.
+
+After filling the fields and clicking Import , the merging process begins. All of the objects, memberships, attributes and properties can be merged. The target database can be loaded in PLEXOS directly after the merging. Using the Import Change Database wizard will not apply any deletion information. Where a Change Database contains dynamic data for an object, the dynamic data for the object in the base database will be entirely replaced by the dynamic data in the Change Database on a Scenario by Scenario basis. For example, if Region R1 in the Base Database contained dynamic values marked with Scenario1 and Scenario2, and a Change Database was Imported containing dynamic values for R1's Scenario2 only, all of the dynamic data for R1, Scenario2 in the Base Database would be replaced with the Scenario2 data in the Change Database, but the data for Scenario1 in the Base Database would be left as is.
+
+Please refer to the documentation for PLEXOS Connect for details on how to launch comparison tool from that program.
+Lists:
+	- Item Left/Right will merge the selected item only
+	- Subtree Left/Right will merge the selected item and all items below it
+	- Selections Left/Right will merge the checked items
+	- Base Database : Database to which data will be imported.
+	- Change Databases : Multiple Change Databases can be listed here to be merged together into the Base Database.
+	- Target Database : Database which includes merged result of Base and Change databases.
+
+
+H2s:
+Contents
+1. Introduction
+2. Changes in Current Session
+3. Two Versions on Disk
+4. Change Management System
+5. Applying a Change Database
+6. Bulk Import of Change Databases
+7. Carve Out
+8. Comparison in PLEXOS Connect

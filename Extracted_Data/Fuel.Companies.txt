@@ -1,0 +1,11 @@
+Header: Fuel Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the fuel
+
+Paragraphs:
+Fuel Companies is the set of Company objects that 'own' the Fuel . This is primarily used to capture the Fuel Inventory Cost .
+Lists:
+

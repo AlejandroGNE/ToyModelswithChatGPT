@@ -1,0 +1,25 @@
+Header: Flow Control Min Voltage
+
+Table Details:
+Units:	kV
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Min Voltage
+
+Paragraphs:
+Flow Control Min Voltage is user specified voltage limits for SSSC and DSSC type of devices. The voltage limitation can be derived as extra bound for Flow Control phase angle:
+
+Assumption is introduced here to adopt the nonlinear equation to linear programming:
+
+Therefore, the Min Voltage input is applied as angle limits and replacing the user input Min Angle :
+
+Please note that V nom is the nominated line voltage, which is read from Node Voltage . If Node Voltage is not defined, the Flow Control Min Voltage will be ignored.
+
+See also:
+Lists:
+	- Flow Control Type
+	- Flow Control Max Voltage
+

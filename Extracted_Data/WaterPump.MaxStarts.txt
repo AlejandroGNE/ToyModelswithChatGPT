@@ -1,0 +1,47 @@
+Header: Water Pump Max Starts
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of starts allowed
+
+Paragraphs:
+Water Pump Max Starts (and its
+          period-specific variants Hour , Day , Week , Month and Year )
+          sets an upper bound on the number of Units
+            Started in the given period.
+
+The property is converted to a Constraint object with Water Pump Constraints Units
+            Started Coefficient . The constraint requires modeling unit
+          commitment and so only applies to chronological simulation
+          phases. If the constraint period is longer than the ST
+            Schedule optimization step size it will be decomposed by MT
+            Schedule , however for this to work MT
+            Schedule must be run in chronological mode i.e. not "partial" chronology but either "fitted"
+          or "sampled". For example if you set Max Starts Year and your ST
+            Schedule optimization step
+          is one day, you must enable MT
+            Schedule in the same run in chronological mode so the simulator
+          can decompose the constraint to equivalent day limits.
+
+By default this is a hard constraint, but can be made soft by
+          defining the Max Starts
+            Penalty .
+
+See also:
+Lists:
+	- Water Pump Max
+              Starts Hour
+	- Water Pump Max
+              Starts Day
+	- Water Pump Max
+              Starts Week
+	- Water Pump Max
+              Starts Month
+	- Water Pump Max
+              Starts Year
+

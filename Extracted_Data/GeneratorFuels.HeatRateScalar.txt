@@ -1,0 +1,15 @@
+Header: Generator Fuels Heat Rate Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scalar on base generator heat rate function
+
+Paragraphs:
+Generator Fuels Heat Rate Scalar is used to modify (scale) the heat rate defined on the Generator (see the article Heat Rate Modelling ) so that the heat rate when the Generator is using this Fuel .
+Lists:
+

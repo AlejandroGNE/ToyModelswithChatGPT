@@ -1,0 +1,15 @@
+Header: Generator Objectives Available Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of available capacity
+
+Paragraphs:
+Generator Objectives Available Capacity Coefficient is Coefficient of available capacity.
+Lists:
+

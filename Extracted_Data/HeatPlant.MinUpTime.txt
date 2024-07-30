@@ -1,0 +1,18 @@
+Header: Heat Plant Min Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be run after being started
+
+Paragraphs:
+Heat Plant Min Up Time is the minimum number of hours the unit must be 'on' in any commitment cycle.
+
+See also:
+Lists:
+	- Heat Plant Min Down Time
+

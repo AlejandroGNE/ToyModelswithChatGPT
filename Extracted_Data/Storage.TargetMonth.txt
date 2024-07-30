@@ -1,0 +1,25 @@
+Header: Storage Target Month
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	end of month storage target
+
+Paragraphs:
+Storage Target Month sets the end-of-month target for the End Volume . This target will be set every month of the simulation.
+
+You can define a penalty for violation of this constraint with the Target Penalty property.
+
+See also:
+Lists:
+	- Storage Target
+	- Storage Target Hour
+	- Storage Target Day
+	- Storage Target Week
+	- Storage Target Year
+	- Storage Target Level Month
+

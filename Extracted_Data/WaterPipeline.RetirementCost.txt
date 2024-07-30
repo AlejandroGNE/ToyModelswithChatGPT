@@ -1,0 +1,15 @@
+Header: Water Pipeline Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the Water pipeline
+
+Paragraphs:
+Water Pipeline Retirement Cost is Cost of retiring the Water pipeline.
+Lists:
+

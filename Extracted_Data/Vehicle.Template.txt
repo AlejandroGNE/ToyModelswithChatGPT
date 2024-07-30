@@ -1,0 +1,11 @@
+Header: Vehicle Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Vehicle inherits from
+
+Paragraphs:
+Vehicle Template is the template from which vehicle inherits.
+Lists:
+

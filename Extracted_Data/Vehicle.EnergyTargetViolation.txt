@@ -1,0 +1,19 @@
+Header: Vehicle Energy Target Violation
+
+Table Details:
+Units:	kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the [Energy Target] constraint.
+
+Paragraphs:
+Vehicle Energy Target Violation is the violation of the Energy Target constraint.
+
+See also:
+Lists:
+	- Vehicle Energy Target Penalty
+	- Vehicle Energy Target Violation Cost
+

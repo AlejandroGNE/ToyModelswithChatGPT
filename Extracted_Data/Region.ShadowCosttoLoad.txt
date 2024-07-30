@@ -1,0 +1,21 @@
+Header: Region Shadow Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost to load of their energy purchases based on [Shadow Price].
+
+Paragraphs:
+Region Shadow Cost to Load  is the Cost to Load prior to calculation of Uplift and before any mark-ups are added by the automated bidding algorithms like RSI .
+
+See also:
+Lists:
+	- Region Shadow Price
+	- Generator Shadow Generation
+	- Region Uplift Enabled
+	- Region Price Cost Markup
+

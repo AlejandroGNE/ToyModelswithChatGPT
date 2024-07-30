@@ -1,0 +1,24 @@
+Header: Vehicle Hours Charging
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours in charging state
+
+Paragraphs:
+Vehicle Hours Charging is the
+          number of hours in the charging state in the period i.e when Charging is non-zero.
+
+
+Lists:
+	- Vehicle Hours
+              In Use
+	- Vehicle Hours
+              Discharging
+	- Vehicle Hours
+              Idle
+

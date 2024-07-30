@@ -1,0 +1,11 @@
+Header: Weather Station Gas Demands
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Weather Station Gas Demands is the set of Gas Demand objects attached to the Weather Station Gas Node .
+Lists:
+

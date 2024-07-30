@@ -1,0 +1,28 @@
+Header: Battery Non-physical Discharge Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to non-physical discharging of the battery. A value of -1 means none is allowed.
+
+Paragraphs:
+Battery Non-physical Discharge Penalty is the penalty applied to non-physical discharging of the battery. Non-physical discharging is
+                analogous to Dump Energy : energy reducing SoC but not appearing elewhere in the system (i.e. servicing load through Generation , Self Discharge etc.). A value of -1 means none is allowed. Other values cause non-physical discharging variables to be formulated, priced at the supplied value.
+
+Non-physical charge and discharge penalties do not represent physical system capability. They are primarily diagnostic tools (i.e. diagnosis and correction of infeasibilities).
+
+If Unserved Energy is allowed , non-physical penalties should
+                be priced above the cost of USE ( VoLL ). A value of 10x VoLL is a useful starting point.
+
+Non-physical charging and discharging is reported in Battery Non-physical Charge Adjustments and Battery Non-physical Discharge Adjustments respectively.
+
+See also:
+Lists:
+	- Battery Non-physical Charge Penalty
+	- Battery Non-physical Charge Adjustments
+	- Battery Non-physical Discharge Adjustments
+

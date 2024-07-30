@@ -1,0 +1,12 @@
+Header: Transmission Report Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If transmission reporting is enabled.
+
+Paragraphs:
+Transmission Report Enabled is the master on/off switch for transmission reporting. Toggling this switch off will turn off reporting for nodes , lines , interfaces , transformers , and Flow Controls .
+Lists:
+

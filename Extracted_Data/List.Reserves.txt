@@ -1,0 +1,11 @@
+Header: List Reserves
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Reserve objects in the List
+
+Paragraphs:
+List Reserves is set of Main Reserve objects in the List.
+Lists:
+

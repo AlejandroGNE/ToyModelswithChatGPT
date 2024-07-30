@@ -1,0 +1,15 @@
+Header: Reserve Static Risk
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Additional static risk over and above dynamic risk
+
+Paragraphs:
+Reserve Static Risk defines a megawatt reserve requirement independent of the defined Min Provision and/or risks defined by proportions of load (see Load Risk ) or by the largest generator (see Generator Contingencies ).
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Line Wheeling Cost Back
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Wheeling cost of flows in the counter-reference direction
+
+Paragraphs:
+Line Wheeling Cost Back is the wheeling cost of flows in the counter-reference direction.
+Lists:
+

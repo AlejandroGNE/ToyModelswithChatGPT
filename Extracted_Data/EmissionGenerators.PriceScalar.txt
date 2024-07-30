@@ -1,0 +1,15 @@
+Header: Emission Generators Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar on the accounting cost of generation for this emission
+
+Paragraphs:
+Emission Generators Price Scalar is the scalar on the accounting cost of generation for this emission.
+Lists:
+

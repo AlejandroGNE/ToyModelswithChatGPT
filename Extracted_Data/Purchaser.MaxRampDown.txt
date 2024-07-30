@@ -1,0 +1,15 @@
+Header: Purchaser Max Ramp Down
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate
+
+Paragraphs:
+Purchaser Max Ramp Down is the load equivalent of Generator Max Ramp Down .
+Lists:
+

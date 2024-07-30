@@ -1,0 +1,15 @@
+Header: Node Objectives Net Injection Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node net injection
+
+Paragraphs:
+Node Objectives Net Injection Coefficient is Coefficient of node net injection.
+Lists:
+

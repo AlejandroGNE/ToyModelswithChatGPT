@@ -1,0 +1,23 @@
+Header: Fuel Inventory Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost applied to closing inventory in the stockpile
+
+Paragraphs:
+Fuel Inventory Charge is the
+          per-unit-per-day cost applied to closing
+            inventory in the stockpile.
+
+See also:
+Lists:
+	- Fuel Reservation
+              Charge
+	- Fuel Inventory
+              Cost
+

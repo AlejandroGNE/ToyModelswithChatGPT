@@ -1,0 +1,29 @@
+Header: Zone Constraints Unserved Energy Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of unserved energy
+
+Paragraphs:
+Zone Constraints Unserved Energy Coefficient is the left-hand side coefficient of Zone Unserved Energy in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Zone Constraints Dump Energy
+              Coefficient
+	- Zone Constraints Net Load
+              Coefficient
+	- Zone Regions Unserved
+              Energy Coefficient
+	- Zone Nodes Unserved
+              Energy Coefficient
+

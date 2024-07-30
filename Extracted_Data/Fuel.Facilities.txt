@@ -1,0 +1,11 @@
+Header: Fuel Facilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Facilities that consume the Fuel
+
+Paragraphs:
+Fuel Facilities is the set of Facilities that consume the Fuel.
+Lists:
+

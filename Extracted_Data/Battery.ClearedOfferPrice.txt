@@ -1,0 +1,23 @@
+Header: Battery Cleared Offer Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal offer band
+
+Paragraphs:
+Battery Cleared Offer Price is the Price of marginal Offer band adjusted for the Marginal Loss Factor and is defined as:
+
+where:
+
+NOTE: The Marginal Loss Factor adjustment can be toggled on/off with the Region MLF Adjusts Offer Price setting.
+
+See also:
+Lists:
+	- Battery Offer Cleared
+	- Battery Cleared Offer Cost
+

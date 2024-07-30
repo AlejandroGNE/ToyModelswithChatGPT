@@ -1,0 +1,22 @@
+Header: Maintenance Window
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Window of time over which the maintenance is allowed.
+Duration	36	hrs	
+Window	0	-	
+Window	-1	-	WINTER
+
+Paragraphs:
+Maintenance Window is a Yes/No flag that indicates which periods of time the event is allowed to occur. By default the event is allowed to occur at any time.
+
+Example
+
+In the following example the event is only allowed to occur in "WINTER".
+Lists:
+

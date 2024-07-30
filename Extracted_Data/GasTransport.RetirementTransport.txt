@@ -1,0 +1,15 @@
+Header: Gas Transport Retirement Transport
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the gas transport is eligible for retirement planning
+
+Paragraphs:
+Gas Transport Retirement Transport indicates if the gas transport is eligible for retirement planning.
+Lists:
+

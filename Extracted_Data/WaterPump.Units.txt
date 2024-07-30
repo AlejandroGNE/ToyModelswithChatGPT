@@ -1,0 +1,22 @@
+Header: Water Pump Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of installed units
+
+Paragraphs:
+Water Pump Units is the number of installed units. 
+          This can simply indicate the existence (1) or not (0) of a single unit, or the presence of multiple units. 
+          For multi-unit facilities the units are treated identically and properties apply to each unit thus there 
+          is no need to adjust other properties on the pump when the number of units changes. 
+          The number of units can change via input at any time during the simulation horizon and there is no limit to the number of units. See also: Water Pump Units Operating
+
+See also:
+Lists:
+	- Water Pump Units Operating
+

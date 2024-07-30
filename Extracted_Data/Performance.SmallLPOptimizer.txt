@@ -1,0 +1,17 @@
+Header: Performance Small LP Optimizer
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Between 0 And 9
+Description:	Optimizer used to solve 'small' liner programming problems.
+
+Paragraphs:
+Performance Small LP Optimizer
+          sets the optimization algorithm used by the selected SOLVER for all small LP problems, as defined by Small
+            LP Non-zero Count . The available values for this option are
+          described on the SOLVER page.If
+          the option is left to 'Auto' then the Dual Simplex algorithm is
+          employed.
+Lists:
+

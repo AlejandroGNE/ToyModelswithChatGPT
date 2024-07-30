@@ -1,0 +1,19 @@
+Header: Variable Constraints Positive Error Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the positive sample error
+
+Paragraphs:
+Variable Constraints Positive Error Coefficient is the left-hand side coefficient of the Variable sample error bounded below by zero.
+
+See also:
+Lists:
+	- Variable Constraints Error Coefficient
+	- Variable Constraints Negative Error Coefficient
+

@@ -1,0 +1,24 @@
+Header: Generator Min Energy Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10000000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Min Energy] and [Min Capacity Factor] constraints.
+
+Paragraphs:
+Generator Min
+          Energy Penalty is the penalty applied to violations of the Min
+            Energy or Min
+            Capacity Factor constraints and its period-specific variants.
+          The penalty is per gigawatt-hour hence the default implies a penalty
+          per megawatt-hour of $10000. A value of -1 makes this a hard
+          constraint.
+
+If the Penalty is set to 0, PLEXOS will interpret the input for Min Energy Hour/Day/... as 0. 
+		 Consequently, all penalties and violations will be calculated assuming a RHS (right-hand side) value of 0 for the Min Energy constraints.
+Lists:
+

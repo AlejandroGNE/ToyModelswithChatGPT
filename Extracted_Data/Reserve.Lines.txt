@@ -1,0 +1,11 @@
+Header: Reserve Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of lines that share the reserve
+
+Paragraphs:
+Reserve Lines is set of lines that share the reserve
+Lists:
+

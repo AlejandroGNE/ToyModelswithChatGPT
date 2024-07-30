@@ -1,0 +1,15 @@
+Header: Production Cooling States Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If generator unit cooling states are enabled
+
+Paragraphs:
+Production Cooling States Enabled setting indicates if generator cooling states are enabled.
+
+When cooling states are enabled (default) all defined bands of Generator Start Cost are modeled (in chronological simulation phases). 
+                    When cooling states are disabled, only band two (if defined) is used , otherwise band one if only a single band is defined.
+Lists:
+

@@ -1,0 +1,23 @@
+Header: Battery Max Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a battery can discharge after discharging starts
+
+Paragraphs:
+Battery Max Up Time is the maximum number of hours a battery can discharge after discharging starts. It is based only on discharging, not charging.
+                Max Up Time is a static property. If it is defined dynamically (varying according to different periods), the maximum value will be used.
+
+Note: It is recommended to set the Min Discharge Level to a value greater than 0 when this property is used.
+
+See also:
+Lists:
+	- Battery Min Up Time
+	- Battery Min Down Time
+	- Battery Max Down Time
+

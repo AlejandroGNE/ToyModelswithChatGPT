@@ -1,0 +1,12 @@
+Header: LT Plan Write Expansion Plan Text Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If expansion plans should be written to text files
+
+Paragraphs:
+LT Plan Write Expansion Plan Text Files toggles on/off production of a text file (located in the solution directory) that contains the complete optimal expansion plan from LT Plan in a format that can be used directly as input to another simulation run.
+Lists:
+

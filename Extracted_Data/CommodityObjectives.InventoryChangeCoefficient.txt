@@ -1,0 +1,20 @@
+Header: Commodity Objectives Inventory Change Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in the amount of the Commodity in inventory
+
+Paragraphs:
+Commodity Objectives InventoryChange Coefficient sets the coefficient of Inventory Change in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+
+Lists:
+

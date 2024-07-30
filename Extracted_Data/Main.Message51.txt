@@ -1,0 +1,11 @@
+Header: Message 51
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> Pump Units = <value>, cannot be greater than Generator Units = <value>.
+
+Paragraphs:
+Message 51 occurs when you define the number of Generator Pump Units greater than Units . The Units input is the total number of units in the station and Pump Units should be a subset of those units.
+Lists:
+

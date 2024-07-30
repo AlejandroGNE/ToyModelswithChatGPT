@@ -1,0 +1,15 @@
+Header: Water Storage Shadow Price
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of water in the storage
+
+Paragraphs:
+Water Storage Shadow Price is the shadow price of water in the storage i.e. it is the value to the system of the last/next unit of water in storage.
+Lists:
+

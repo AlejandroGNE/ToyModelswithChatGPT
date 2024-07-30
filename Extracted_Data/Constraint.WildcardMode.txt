@@ -1,0 +1,25 @@
+Header: Constraint Wildcard Mode
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Controls whether or not the Constraint is copied when it is associated with a wildcard membership.
+
+Paragraphs:
+Constraint Wildcard Mode is Controls whether or not the Constraint is copied when it is associated with a wildcard membership.
+
+Constraints are not copied to each new object, instead a single constraint is split across the new objects. E.g. If we have a generation coefficient = 100MW on one generator and four new copies are made, the sum total of generation for the new generators will be 100MW
+
+Whether a constraint is copied or split is decided internally, the decision is based on what other objects are attached to the constraint.
+
+Copy regardless of other memberships. Using our example above, when this property is set to Copy, the four new generators will each have a generation coefficient constraint = 100MW
+
+For further reading on wildcard memberships see:
+Lists:
+	- Generator.Nodes*
+	- Purchaser.Nodes*
+

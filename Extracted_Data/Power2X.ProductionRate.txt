@@ -1,0 +1,15 @@
+Header: Power2X Production Rate
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rate of production/volume of production
+
+Paragraphs:
+Power2X Production Rate is the rate of production (interval reporting) or the volume of production (summary reporting).
+Lists:
+

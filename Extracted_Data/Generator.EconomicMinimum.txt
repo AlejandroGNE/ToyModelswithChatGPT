@@ -1,0 +1,15 @@
+Header: Generator Economic Minimum
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit minimum generation economically available
+
+Paragraphs:
+Generator Economic Minimum is a soft lower limit on Generation which might represent the bottom of the 'normal' unit operating range, with generation between this level and Min Stable Level being reserved for ancillary (lower) services or times of potential over generation.  Generation below Economic Minimum is automatically priced relative to the Region Price Floor according to Competition Epsilon . This price level ensures that the generation will be unloaded before Dump Energy .
+Lists:
+

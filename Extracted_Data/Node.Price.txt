@@ -1,0 +1,15 @@
+Header: Node Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Locational marginal price
+
+Paragraphs:
+How the price at a node (transmission bus) is calculated depends on the OPF Algorithm selected. In the standard OPF the nodal price is a direct output of the optimization and are equal to the shadow price (dual variable) on the net injection constraint at the node. In the large-scale OPF nodal price is not directly available and instead is computed from the system lambda and constraint shadow prices modified by the shift factors.
+Lists:
+

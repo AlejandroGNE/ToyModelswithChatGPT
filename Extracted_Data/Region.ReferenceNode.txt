@@ -1,0 +1,13 @@
+Header: Region Reference Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the reference node for the region
+
+Paragraphs:
+A notional reference node in the Region, which is relevant for the
+          Region Load Settlement
+            Model .
+Lists:
+

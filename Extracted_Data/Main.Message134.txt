@@ -1,0 +1,11 @@
+Header: Message 134
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Line <name> Units Out > Line Units in <value> periods.
+
+Paragraphs:
+Message 134 occurs in the following circumstances:
+Lists:
+

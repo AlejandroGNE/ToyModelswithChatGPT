@@ -1,0 +1,19 @@
+Header: Flow Node Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of shortage
+
+Paragraphs:
+Flow Node Shortage Cost is the shortage cost in the Markets connected to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Surplus
+              Cost
+

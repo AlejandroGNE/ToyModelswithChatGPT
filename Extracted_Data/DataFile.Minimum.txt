@@ -1,0 +1,15 @@
+Header: Data File Minimum
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum value of the created profile
+
+Paragraphs:
+Data File Minimum sets the minimum in the series for Load Forecasting .
+Lists:
+

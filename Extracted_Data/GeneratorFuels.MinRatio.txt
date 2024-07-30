@@ -1,0 +1,19 @@
+Header: Generator Fuels Min Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Minimum fuel mix ratio
+
+Paragraphs:
+Generator Fuels is the minimum proportion of the total Fuel Offtake that must come from use of this Fuel .
+
+See also:
+Lists:
+	- Generator Fuels Max Ratio
+	- Generator Fuels Ratio
+

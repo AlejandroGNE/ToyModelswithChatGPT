@@ -1,0 +1,17 @@
+Header: Gas Transport Variable Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Variable operation and maintenance cost
+
+Paragraphs:
+Gas Transport Variable Cost is Variable operation and maintenance cost.
+
+Variable Cost = Shipping Cost + Canal Cost + Shipping Cost + Port Cost
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Field Target Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the target
+
+Paragraphs:
+Gas Field Target Penalty is Penalty for violating the target.
+Lists:
+

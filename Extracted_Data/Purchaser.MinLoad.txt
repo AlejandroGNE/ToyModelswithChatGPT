@@ -1,0 +1,30 @@
+Header: Purchaser Min Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum load if any load is cleared.
+Purchaser	Min Load	350	MW
+Purchaser	Max Load	496	MW
+Purchaser	Bid Quantity	500	MW
+Purchaser	Bid Price	100	$/MWh
+
+Paragraphs:
+Purchaser Min Load is the minimum Load that must be cleared if any
+          load is cleared at all. It is similar to the Generator property Min Stable Level .
+
+NOTE : Defining this property will result in the
+          addition of binary decision variables to the mathematical programming
+          problem.
+
+See also:
+Lists:
+	- Purchaser Max
+              Load
+	- Purchaser Fixed
+              Load
+

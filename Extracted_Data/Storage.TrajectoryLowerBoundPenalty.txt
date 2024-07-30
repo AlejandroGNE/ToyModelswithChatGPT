@@ -1,0 +1,15 @@
+Header: Storage Trajectory Lower Bound Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for running the storage below the stochastic optimal storage trajectory
+
+Paragraphs:
+Storage Trajectory Lower Bound Penalty is Price for running the storage below the stochastic optimal storage trajectory.
+Lists:
+

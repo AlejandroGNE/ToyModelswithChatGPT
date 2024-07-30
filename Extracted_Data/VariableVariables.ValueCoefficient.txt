@@ -1,0 +1,21 @@
+Header: Variable Variables Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the Variable Value in the definition of this Variable
+
+Paragraphs:
+Variable Variables Value Coefficient is the left-hand side coefficient on the child
+          Variable's Value in the equation
+          that defines when the parent conditional Variable is active. This allows you to decide when one Variable is active
+          depending on the value of another.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the definition:
+Lists:
+

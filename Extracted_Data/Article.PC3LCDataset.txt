@@ -1,0 +1,111 @@
+Header: Managing Datasets
+
+Table Details:
+
+Paragraphs:
+Users can manage datasets in the dataset tab on the side panel, users can browse all the datasets in the system here. You will need permissions from the 'Dataset Module' in the Connect Product to modify any dataset, by default the user role 'Update' will allow users to add and remove datasets.
+
+Please click on the add button at the top of the dataset tab to add a new dataset to the PLEXOS Connect system. A dialog box as shown below will be presented.
+
+Here you can select which folder to store the dataset in by clicking on the folder button (\), this button will update to show the folder path that you have chosen. The drop-down list will list all datasets within the selected folder or allow you to create a new dataset by typing in a new name. By choosing an existing dataset, you will also be able to choose a base version, this will add the files from the base version but only store any new or modified files. The base version is not required but is there if you only need to add more files to an existing version. You can then enter the version number and the description for the dataset you intend to upload to the system. You must also select files to upload to the system, one easy way is to just drag and drop the files the simulation requires into the new dataset dialog box. Press okay on the new dataset dialog box, and the new dataset files will be uploaded.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Dataset module.
+
+Datasets have the ability to store multiple versions, this allows each version to have the option of inheriting data from a previous version.
+
+To add a new dataset version, please repeat the steps to open the new dataset window (see adding a new dataset). Once the new dataset window is open, click the drop-down (#1) to open the list of datasets in the current folder and select the dataset you wish to add a new version to. After selecting an existing dataset, the version number will be automatically created based on the previous versions already added. By default, Connect will pre-select the 'base' drop-down if the auto-created version number is less than #.10. Base versions are used to reduce the total number of files that are stored in the Connect Server by only storing the files that have changed from version to version. Consequently, when a user or a Connect Client downloads any given version, it will have to download all other versions that it inherits from. Due to this, we recommend creating a new independent version with no base inheritance if the majority of files have changed or there have been several versions since the last independent version.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Dataset module.
+
+By editing a dataset version, instead of adding a new version, you will have the opportunity to remove files from a version without the need to reupload everything again. The version you are editing will not be affect, instead all changes are saved to a new version. To edit a dataset version, open a dataset and select the version you wish to edit (#1), then right click the version and select 'Edit' (#2).
+
+Here you can add new files, remove existing files or replace existing files with new versions of the file. If the version you are editing inherits from another version, then the Connect Server will merge as few versions as possible to remove any deleted files before saving everything as a new version.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Dataset module.
+
+You can execute any dataset or version without the need for creating a job. This can be useful if you need to perform a one-off simulation for a PLEXOS model. First, you'll need to select a single dataset in the dataset tab, then click the play button at the top of the dataset tab (highlighted above). After clicking this button, the execute dataset window will be opened with the dataset pre-filled with the dataset you had selected.
+
+With the execute dataset window open, you'll need to specify at least one argument before you can submit the execution job. The arguments will specify which PLEXOS model or project should be executed by a Connect Client. If there is more than one argument and "Parallel" is unchecked under more options then these will be executed sequentially on the same Connect Client and in the listed order of the run window.
+
+Optionally, you can also specify the following under the 'More Options' section:
+
+Pressing the 'OK' button will create a new run where it will then wait for a Connect Client to perform the simulation.
+
+Note: You will need to have the user permission 'Execute' from the Connect General module.
+
+You can restrict access to a folder by right clicking on a folder in the dataset tab and select permissions. A permissions window will be presented. You can then click on the add button at the top of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the folder, will not be able access any datasets within the folder.
+
+Note: You will need to have the user permission 'Add\Remove Permissions' from the Connect Dataset module.
+
+By Checking out a dataset, you can prevent other users from modifying that dataset. This includes preventing anyone from adding or removing versions contained within the dataset. If you would like to check out a dataset, you can right click on the dataset in the dataset tab and select 'Check out'. Similarly, you can check the dataset back in by right clicking on the dataset and select 'Check in'.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Dataset module.
+
+When downloading a dataset from Connect, you'll have 2 options available:
+
+After selecting 'Download' from the right click menu, you will be asked to select a folder to download to. If the selected folder already has files within this folder, then you'll be warned about files potentially being overwritten. However, files will only be overwritten if the dataset/version has a file with the same name as what is in the destination. Once the download is complete, each dataset will be in its own folder (if using option #1) and each version will be downloaded their own folder. These folders will be named with either the dataset name or the version name.
+
+Note: You will need to have the user permission 'Download' from the Connect Dataset module.
+
+When you delete a dataset version, it is initially moved to a remove version view. This is done because versions have files physically stored in the Connect Server and there would be no way to restore versions once these files have been deleted. Removing versions from the removed version view will permanently delete the version and any associated files from the Connect Server. To clean up any removed versions, you'll have 2 options: from the dataset or from a removed versions window.
+
+After clicking the bin icon (highlighted in Figure 11), the icon will switch to a blue triangle to allow you to switch back to the 'normal' versions view. Once in the removed versions view, you can select one or more versions, right click any selected version and select 'Remove' from the menu. Please note that removing a version may fail if another version is inheriting from the selected version.
+
+To open the removed version window, click the bin icon at the top of the dataset tab (highlighted in Figure 12). This will open a window similar to the normal dataset window, but will instead list all versions that have been removed from all datasets. If you have already deleted a dataset, then any versions it contained will only show in this window. To permanently remove any version, select one or versions, right click any selected version and select 'Remove' from the menu. Please note that removing a version may fail if another version is inheriting from the selected version.
+
+Note: You will need to have the user permission 'Remove\Restore' from the Connect Dataset module.
+
+You can create a copy of any dataset or folder by selecting one or more datasets and/or folders from the dataset tab, then right click on a selected item and select 'Copy' from the menu. Next, navigate to any folder that you have permission to, right click inside the dataset tab and select 'Paste' from the menu. This will copy all selected folders, datasets and the versions contained within them to the current folder. Any edits made to the copied datasets will not affect the original dataset. When copying datasets, all versions entries will be duplicated but files stored in the Connect Server will not be duplicated. This is to reduce the storage requirements that would be needed since a version's files can't be modified once uploaded. These files will be removed once all versions referencing them are permanently removed. When copying folders, all folders and datasets contained within that you have permission to view will also be copied. Any sub folder that you do not have permission to access will be skipped. At the start of the copy of any folder you will be prompted about copying any folder permissions, this will copy all folder permissions for every folder during the copy.
+
+Note: You will need to have the user permission 'Add\Edit\ from the Connect Dataset module.
+
+You can move any dataset or folder by selecting one or more datasets and/or folders from the dataset tab, then right click on a selected item and select 'Cut' from the menu. Next, navigate to any folder you that have permission to, right click inside the dataset tab and select 'Paste' from the menu. This will move all selected items to the new location, maintaining any jobset references, folder permissions and upload timestamps.
+
+Note: You will need to have the user permission 'Add\Edit' From the Connect Dataset module.
+
+You can rename any dataset or folder by selecting a single dataset or folder from the dataset tab, then right clicking on the selected item and selecting 'Rename' from the menu. Next, you will be asked to input a new name for the item.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Dataset module.
+
+In Connect, you are able to restrict access to specific folders across all versions within a dataset. This can be used if some users shouldn't have access to specific data (ie, fuel prices) but they still need to be able to run the dataset and perform simulations. To modify these permissions, select a dataset and open it (right click and select 'Open'), from this window you will be presented with a lock button (highlighted below in Figure 13).
+
+On this window is a few items:
+
+Note: You will need the user permission 'Add\Remover Permissions' from the Connect Dataset module.
+Lists:
+	- The option to run all arguments sequentially or in parallel
+	- The jobjset the run should be listed as
+	- The engine to perform the simulation (by default it will use the latest engine)
+	- The client to perform the simulation (by default it will use any client that is available)
+	- The priority of the job (by default is zero)
+	- Top left, 'Displaying Version: ###' - This will tell you which version was used to create the folder structure you can see. However, the permissions are stored in the dataset and not the displaying version.
+	- Top Right Plus Icon - Adds a new folder to the currently selected folder. Minus Icon - Removes the selected folder, this will remove the current folder and any permissions stored inside it. Refresh Icon - Refreshes the current window, this will reload all information about the dataset permission and the displayed version's folder structure.
+	- Plus Icon - Adds a new folder to the currently selected folder.
+	- Minus Icon - Removes the selected folder, this will remove the current folder and any permissions stored inside it.
+	- Refresh Icon - Refreshes the current window, this will reload all information about the dataset permission and the displayed version's folder structure.
+	- Folder View - This is the current folder structure for the dataset, this is generated from existing dataset permissions and the displayed version since both could have folders that don't exist in the other.
+	- Users List - This is the list of users in the Connect System and is only enabled after you select a folder in the folder view. If any user is checked, then only the users that are checked will have permission to view the data in that folder.
+	- Plus Icon - Adds a new folder to the currently selected folder.
+	- Minus Icon - Removes the selected folder, this will remove the current folder and any permissions stored inside it.
+	- Refresh Icon - Refreshes the current window, this will reload all information about the dataset permission and the displayed version's folder structure.
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Add a New Dataset?
+3. How Do I Add a New Dataset Version?
+4. How Do I Edit a Dataset Version?
+5. How Do I Execute a Dataset Without a Jobset?
+6. How Do I Restrict Access to a Folder?
+7. How Do I Check Out or Check In a Dataset?
+8. How Do I Download a Dataset?
+9. How Do I Permanently Remove a Dataset Version?
+10. How Do I Copy a Dataset or Folder?
+11. How Do I Move a Dataset or Folder?
+12. How Do I Rename a Dataset or Folder?
+13. How Do I Modify a Dataset's Internal Permissions?
+
+H3s:
+9.1. Remove Dataset Version from a Dataset
+9.2. Remove Dataset Version from the Remove Versions Window

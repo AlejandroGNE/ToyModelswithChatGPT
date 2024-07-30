@@ -1,0 +1,11 @@
+Header: List Interfaces
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Interface objects in the List
+
+Paragraphs:
+List Interfaces is set of Main Interface objects in the List.
+Lists:
+

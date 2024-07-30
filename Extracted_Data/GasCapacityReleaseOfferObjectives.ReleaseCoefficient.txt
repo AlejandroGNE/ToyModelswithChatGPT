@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Objectives Release Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas capacity release offers
+
+Paragraphs:
+Gas Capacity Release Offer Objectives Release Coefficient is Coefficient of gas capacity release offers.
+Lists:
+

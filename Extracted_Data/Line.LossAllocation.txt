@@ -1,0 +1,21 @@
+Header: Line Loss Allocation
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.5
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Proportion of line losses allocated to the receiving node
+1-2	Loss Allocation	1	-
+1-3	Loss Allocation	0.9	-
+
+Paragraphs:
+Line Loss Allocation determines how much of the loss on the line is assigned to the receiving node (in the lines reference direction).
+
+Example:
+
+In this example bus "1" is allocated none of the losses on line "1-2", and 10% of the losses on line "1-3".
+Lists:
+

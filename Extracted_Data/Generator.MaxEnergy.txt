@@ -1,0 +1,48 @@
+Header: Generator Max Energy
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy
+Units	1	-	
+Max Capacity	250	MW	
+Max Energy Month	24	GWh	M01
+Max Energy Month	66	GWh	M02
+Max Energy Month	68	GWh	M03
+Max Energy Month	63	GWh	M04
+Max Energy Month	76	GWh	M05
+Max Energy Month	36	GWh	M06
+Max Energy Month	77	GWh	M07
+Max Energy Month	46	GWh	M08
+Max Energy Month	22	GWh	M09
+Max Energy Month	4	GWh	M10
+Max Energy Month	15	GWh	M11
+Max Energy Month	8	GWh	M12
+
+Paragraphs:
+Generator Max
+            Energy (and its period-specific variants Hour , Day , Week , Month and Year )
+          defines an upper bound on the sum of generator Generation across any interval, hour, day, week, month, or year.
+
+A straight-forward approach to modelling an energy-constrained
+          generator (e.g. a hydro generator) is to place periodic limits on the
+          generator's energy as in Table 1.
+
+Note the use Max Energy
+            Month variant and time slices (patterns) to change the energy limits by each month of the year.Note
+          the unit of Max Energy is gigawatt-hours not megawatt-hours like Generation .
+
+The simulator converts the energy constraints into Constraint objects. By default the constraints are hard i.e. no
+          violation is allowed. If you prefer to allow violations then use the Max Energy Penalty property.
+
+See also:
+Lists:
+	- Generator Max
+              Capacity Factor
+	- Generator Min
+              Energy
+

@@ -1,0 +1,34 @@
+Header: Import and Export
+
+Table Details:
+
+Paragraphs:
+The following features are available in PLEXOS:
+
+See the following articles on using PLEXOS Import, Export and Copy To Clipboard / Paste.
+Lists:
+	- PLEXOS can export/ import data from/ to any input database.
+	- Import has the ability to add data to a PLEXOS database from an external, unrelated system.
+	- Ability to copy and paste objects between two databases e.g. User 1 creates or modifies the data for an object e.g. stochastic variable. User 2 can then simply open that DB and copy/paste the new object into their own database.
+	- Import/Export database can be written in 2 different formats. XML (More) Excel Workbooks
+	- XML (More)
+	- Excel Workbooks
+	- XML (More)
+	- Excel Workbooks
+	- Uses a standard structure for all PLEXOS XML data.
+	- Data is validated against a schema which allows the user to see any import data problems.
+	- Does not allow for easy modification but has the advantage of small file sizes.
+	- Allows fast import and export operations.
+	- Greatly improves usability by providing Cut/Copy/Paste of whole objects via the clipboard.
+	- The advantage of this approach is that these workbooks can be manually created/edited and embellished with comments or even link to external data sources.
+	- The exported Excel file contains four sheets (attributes, objects, memberships, and properties), with one optional sheet (categories). These sheets contain the same fields as the tabs in the PLEXOS interface You can manually edit/add/delete these data (Note that the System object is not exported so you must ensure that the file these data are imported to has the correct system name (when referenced in properties).
+	- Importing PLEXOS data
+	- Exporting PLEXOS data
+	- Copy To Clipboard and Paste
+
+
+H2s:
+Contents
+1. Introduction
+2. XML Format
+3. Excel Format

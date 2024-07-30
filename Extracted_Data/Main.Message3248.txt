@@ -1,0 +1,11 @@
+Header: Message 3248
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Scenario Tree: Stochastic Stages Period Type = <name> is not implemented for Hanging Branches trees.
+
+Paragraphs:
+Message 3248 occurs in the following circumstances: when setting up a hanging branch scenario tree, Global Tree Period Type is defined other than weekly or monthly.
+Lists:
+

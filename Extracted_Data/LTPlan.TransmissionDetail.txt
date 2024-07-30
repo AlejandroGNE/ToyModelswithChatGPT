@@ -1,0 +1,25 @@
+Header: LT Plan Transmission Detail
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Level of detail used in transmission modelling in LT Plan.
+
+Paragraphs:
+LT Plan Transmission Detail controls the level of detail that the transmission network is modelled in LT Plan.
+
+The attribute can take these values:
+
+The transmission network is modelled only to the Region level with all resources inside the region connected to a single notional node. Only links between regions are modelled and a transportation algorithm computes the flows.
+
+The full transmission network is modelled to nodal level and the Optimal Power Flow (OPF) is computed. Zonal (value = 2) The transmission network is modelled only to the Zone level with all resources inside the zone connected to a single notional node. Only links between zones are modelled and a transportation algorithm computes flows. Nodes that are not associated with a Zone are included as 'zones' by themselves. See also: PASA Transmission Detail MT Schedule Transmission Detail ST Schedule Transmission Detail
+
+The transmission network is modelled only to the Zone level with all resources inside the zone connected to a single notional node. Only links between zones are modelled and a transportation algorithm computes flows. Nodes that are not associated with a Zone are included as 'zones' by themselves.
+
+See also:
+Lists:
+	- PASA Transmission Detail
+	- MT Schedule Transmission Detail
+	- ST Schedule Transmission Detail
+

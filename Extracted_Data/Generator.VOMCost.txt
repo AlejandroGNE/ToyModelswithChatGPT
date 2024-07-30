@@ -1,0 +1,25 @@
+Header: Generator VO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total variable operation and maintenance cost
+
+Paragraphs:
+Generator VO&M Cost is the
+          total variable operations and maintenance cost, and is defined as:
+
+VO&M Cost = VO&M
+            Charge x Generation
+
+See also:
+
+
+Lists:
+	- Generator Generation
+              Cost
+

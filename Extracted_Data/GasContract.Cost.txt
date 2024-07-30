@@ -1,0 +1,15 @@
+Header: Gas Contract Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of gas used under contract
+
+Paragraphs:
+Gas Contract Cost is cost of gas supplied under a given contract.
+Lists:
+

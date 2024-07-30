@@ -1,0 +1,14 @@
+Header: Performance MIP Focus
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	High-level solution strategy for the MIP solver
+
+Paragraphs:
+The MIP Focus parameter controls the high-level solution strategy for
+          mixed integer programming models. The parameter can take the following
+          values:
+Lists:
+

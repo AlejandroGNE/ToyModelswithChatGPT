@@ -1,0 +1,11 @@
+Header: Message 3086
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Invalid month range in Timeslice <name>.
+
+Paragraphs:
+Message 3086 occurs in the following circumstances:
+Lists:
+

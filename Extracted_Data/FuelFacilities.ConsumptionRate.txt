@@ -1,0 +1,15 @@
+Header: Fuel Facilities Consumption Rate
+
+Table Details:
+Units:	GJ/~ (Metric), MMBtu/~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fuel consumed per unit of the Primary Output from the Facility
+
+Paragraphs:
+Fuel Facilities Consumption Rate is the fuel consumed per unit of the Primary Output from the Facility.
+Lists:
+

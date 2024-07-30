@@ -1,0 +1,11 @@
+Header: Vehicle Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Vehicle
+
+Paragraphs:
+Vehicle Constraints is set of Constraints on the Vehicle
+Lists:
+

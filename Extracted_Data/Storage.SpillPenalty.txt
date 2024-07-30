@@ -1,0 +1,15 @@
+Header: Storage Spill Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.0001
+Validation Rule:	≥0
+Key Property:	No
+Description:	Penalty applied to spill from the storage to "the sea" in the last period of each simulation step.
+
+Paragraphs:
+Storage Spill Penalty is the penalty applied to Spill from the storage to "the sea" in the last period of each simulation step. This penalty is applied only when the End Effects Method is "Free" and no target is constraining the storage End Volume and is designed to prevent arbitrary spill of water. The penalty is also applied to Exporting Waterways that flow "to the sea".
+Lists:
+

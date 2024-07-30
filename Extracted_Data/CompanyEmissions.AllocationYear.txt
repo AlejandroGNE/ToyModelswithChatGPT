@@ -1,0 +1,27 @@
+Header: Company Emissions Allocation Year
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emission rights allocation
+GENCO_A	CO2	5000000	tons
+GENCO_B	CO2	12500000	tons
+
+Paragraphs:
+Company Emissions Allocation Year sets the annual amount of Grandfather Rights the company has to emit the given emission. These rights are accounted for in the calculation of Emissions Cost . The resulting change in Net Profit will affect the way the company bids in LRMC (Revenue Recovery) mode.
+
+Note that the units of this allocation are those of the Summary Emission Unit set on the Units settings for the current database.
+
+Example:
+
+See also:
+Lists:
+	- Allocation HOUR
+	- Allocation DAY
+	- Allocation WEEK
+	- Allocation MONTH
+

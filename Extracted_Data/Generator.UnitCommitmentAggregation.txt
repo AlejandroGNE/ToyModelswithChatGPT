@@ -1,0 +1,25 @@
+Header: Generator Unit Commitment Aggregation
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the generator is aggregated into an equivalent single unit for the purpose of unit commitment
+
+Paragraphs:
+Generator Unit Commitment
+          Aggregation applies to generators with Units > 1 and indicates if the units should be aggregated into an
+          equivalent single unit for the purpose of unit commitment. Aggregating
+          to a single unit can improve the solve time for the unit commitment
+          problem. The automatically-aggregated unit will have capacity equal to
+          the sum of the station capacity ( Units x Max Capacity ) and a Min
+            Stable Level equal to that of one unit.
+
+See also:
+Lists:
+	- Generator Unit
+              Commitment Period
+

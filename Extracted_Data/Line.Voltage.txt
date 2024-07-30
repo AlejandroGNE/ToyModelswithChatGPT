@@ -1,0 +1,15 @@
+Header: Line Voltage
+
+Table Details:
+Units:	kV
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Voltage of the line
+
+Paragraphs:
+Line Voltage is the voltage of the line.
+Lists:
+

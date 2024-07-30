@@ -1,0 +1,30 @@
+Header: Commodity Min Injection Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of the Commodity that must be added to inventory in any hour
+
+Paragraphs:
+Commodity Min Injection Hours
+          creates a Constraint object that
+          forces the Injection of the
+          Commodity into inventory each hour. Note that this is the same as
+          setting Min Injection when Horizon Periods
+            per Day is 24, and only applies for sub-hourly resolution
+          modeling. By default this is a 'hard' constraint. To create a soft
+          constraint, create a Constraint with a Penalty Price .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Hour
+	- Commodity Constraints Injection
+              Coefficient
+

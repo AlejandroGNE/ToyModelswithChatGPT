@@ -1,0 +1,17 @@
+Header: Power2X Recovery Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capital cost recovery price
+
+Paragraphs:
+Power2X Recovery Price is the price charged in addition to commodity or usage charge to recover the capital expenses of build. It is calculated by amortizing the build costs over the horizon.
+
+See also: Recovered Capital Cost
+Lists:
+

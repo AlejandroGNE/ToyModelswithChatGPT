@@ -1,0 +1,50 @@
+Header: Reserve Regions LOLP Target
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Loss of Load Probability target for this region
+
+Paragraphs:
+Reserve Regions LOLP Target sets a upper bound on the Loss of Load Probability (for
+          each dispatch period) in the Region specified in the membership in ST Schedule . The unit commitment
+          will attempt to meet the required LOLP Target by making decision of
+          the amount of spinning reserve. The constraint is only statistically
+          satisfied, i.e., the LOLP in the solution can be a little higher or
+          lower than the set target in the region.
+
+The formula for the LOLP constraint, which is integrated into the
+          unit commitment optimization, can be written as:
+
+where t : index of the dispatch period, i : index
+          of the generating unit, SR : total spinning reserve, U : generating unit commitment, C : coefficient of the LOLP
+          constraint.
+
+The coefficient C is calculated for all generators (with FORs ) in each period based on the capacity
+          and forced outage rate of all generation units as well as the user
+          provided LOLP target. Since the constraint actually uses the provided
+          LOLP criterion to determine the optimum spinning reserve during the
+          unit commitment, both the spinning reserve and the unit commitment are
+          required in the optimization model which is, therefore, an MIP
+          problem.
+
+It should be noted that the constraint might not be accurate in some
+          cases, such as very small systems (e.g., the number of generating
+          units in service < 20; notice that generators with zero Forced
+          Outage Rate are not included in the calculation of the LOLP constraint
+          coefficients) and systems having a few large units or having large
+          share of units with high forced outage rates. Also, the constraint is
+          only suitable for small LOLP values, e.g., less than 10%; for larger
+          LOLP values, the accuracy is not guaranteed.
+
+See also:
+Lists:
+	- Region LOLP
+              Target
+	- Zone LOLP
+              Target
+

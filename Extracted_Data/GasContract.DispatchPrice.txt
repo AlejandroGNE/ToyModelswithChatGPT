@@ -1,0 +1,15 @@
+Header: Gas Contract Dispatch Price
+
+Table Details:
+Units:	Input: $/~    Output: $/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Dispatch Price of Gas Contract
+
+Paragraphs:
+Gas Contract Dispatch Price is the Dispatch Price of gas contract.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Field Withdrawal Rate Scalar
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum amount of gas that can be withdrawn from the field.
+
+Paragraphs:
+Gas Field Withdrawal Rate Scalar scales the Withdrawal Ratchet to set an upper bound on the maximum amount of gas that can be withdrawn from the field within a time period and band. This value corresponds with the Withdrawal Volume Factor for the given band.
+Lists:
+

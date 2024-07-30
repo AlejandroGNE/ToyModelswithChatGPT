@@ -1,0 +1,15 @@
+Header: Water Plant Energy Consumption
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The total electric and heat consumption of the Water Plant
+
+Paragraphs:
+Water Plant Energy Consumption is the total electric and heat consumption of the Water Plant.  Electrical energy is needed to operate and maintain Water Plants , so this is modeled as a demand variable in the water-electricity co-optimization models.
+Lists:
+

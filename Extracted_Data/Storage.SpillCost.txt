@@ -1,0 +1,15 @@
+Header: Storage Spill Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Spill Penalty multiplied by the Spill amount
+
+Paragraphs:
+Storage Spill Cost is the Spill Penalty multiplied by the Spill from the storage to "the sea". See Spill Penalty for when Spill Cost is calculated and what the quantity means.
+Lists:
+

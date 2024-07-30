@@ -1,0 +1,42 @@
+Header: Purchaser Max Load Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum load factor
+Max Load Factor Month	24	%	M01
+Max Load Factor Month	66	%	M02
+Max Load Factor Month	68	%	M03
+Max Load Factor Month	63	%	M04
+Max Load Factor Month	76	%	M05
+Max Load Factor Month	36	%	M06
+Max Load Factor Month	77	%	M07
+Max Load Factor Month	46	%	M08
+Max Load Factor Month	22	%	M09
+Max Load Factor Month	4	%	M10
+Max Load Factor Month	15	%	M11
+Max Load Factor Month	8	%	M12
+
+Paragraphs:
+The Purchaser Max Load Factor, and its period-specific variants, defines an upper bound on the Purchaser's Load Factor on an hourly , daily , weekly , monthly , or annual basis. The factor will be applied to the minimum value of the Max Load or the sum of the Bid Quantities .
+
+Example:
+
+A purchaser may have monthly load factors like this:
+
+Note the use Load Factor Month variant and timeslices (patterns) to change the load factor limits by month of year.
+
+The simulator converts the energy constraints into Constraint objects. By default the constraints are hard i.e. no violation is allowed. If you prefer to allow violations then use the Max Energy Penalty property.
+
+See also:
+Lists:
+	- Purchaser Max Energy
+	- Purchaser Min Energy
+	- Purchaser Min Load Factor
+	- Purchaser Max Energy Violation
+	- Purchaser Max Energy Violation Cost
+

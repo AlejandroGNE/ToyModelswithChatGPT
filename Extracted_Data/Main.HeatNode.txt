@@ -1,0 +1,19 @@
+Header: Heat Node Class
+
+Table Details:
+Description:	Heat connection point
+
+Paragraphs:
+See also Heat Node Property Reference for a detailed list of properties for this class of object.
+
+All other Heat Model objects connect to Heat Node objects via memberships. Heat node objects are used to connect the heat supplying sources to heat consuming sources. In addition, heat nodes can be linked directly together to model a heat pipe or heat by-pass. Note that heat nodes do not have storage capability, which means excess heat injection will be dumped on the node.
+
+Net Heat Injection = Heat Injection (from supplying sources) - Heat Withdrawal (From consuming sources) - Heat Dump
+
+If a heat node is exporting heat to another Heat Export Nodes , the amount of export heating to that node will be:
+
+Heat Export = Net Heat Injection
+
+See the Heat Modelling article for details.
+Lists:
+

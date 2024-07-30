@@ -1,0 +1,19 @@
+Header: Reserve Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision
+
+Paragraphs:
+Reserve Provision is the total amount of the reserve being provided, and is defined as:
+
+i.e. this is the sum of generator, interruptible load, and battery reserve provision.
+
+Note: The Provision for Inertia Type reserves has units of MW-s.
+Lists:
+

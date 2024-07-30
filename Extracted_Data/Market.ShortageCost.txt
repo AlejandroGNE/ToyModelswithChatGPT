@@ -1,0 +1,26 @@
+Header: Market Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of shortage
+
+Paragraphs:
+Market Shortage Cost is the cost
+          incurred when Demand exceeds supply.
+          It is calculated as:
+
+Shortage Cost = Shortage
+            Price × Shortage
+
+See also:
+Lists:
+	- Market Shortage
+              Hours
+	- Market Surplus
+              Cost
+

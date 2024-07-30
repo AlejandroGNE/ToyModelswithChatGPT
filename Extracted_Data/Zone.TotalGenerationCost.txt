@@ -1,0 +1,15 @@
+Header: Zone Total Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of generation and start and shutdown costs and emissions costs
+
+Paragraphs:
+Zone Total Generation Cost is the total generation cost including fuel, variable operations and maintenance costs, start and shutdown costs and emissions costs and is defined as:
+Lists:
+

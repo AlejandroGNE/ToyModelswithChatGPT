@@ -1,0 +1,15 @@
+Header: Storage Max Ramp Month
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum of change in storage across each month.
+
+Paragraphs:
+Storage Max Ramp Month is the maximum allowed rate of change ( Ramp ) in storage End Volume between one month and the next. See Max Ramp for more details.
+Lists:
+

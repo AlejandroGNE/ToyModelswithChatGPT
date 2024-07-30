@@ -1,0 +1,11 @@
+Header: Message 141
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	The chronological Horizon including look-ahead must be a subset of the planning horizon.
+
+Paragraphs:
+Message 141 occurs in the following circumstances:
+Lists:
+

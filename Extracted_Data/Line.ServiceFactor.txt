@@ -1,0 +1,15 @@
+Header: Line Service Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of installed capacity available for transfer
+
+Paragraphs:
+Line Service Factor is the proportion of installed capacity available for transfer.
+Lists:
+

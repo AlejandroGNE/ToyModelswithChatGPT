@@ -1,0 +1,21 @@
+Header: Performance Feasibility Repair Failure
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Action to take if an infeasible problem cannot be repaired.
+
+Paragraphs:
+If the simulation encounters a problem that is infeasible it will automatically attempt to repair the infeasibility (see Model Feasibility Repair ). If there are insufficient constraints allowed to be relaxed or any other issue occurs that means the infeasibility cannot be repaired then no solution will be available for that particular problem. By default this will halt the simulation but this option allows for the simulator to attempt to continue.
+
+This option can take the following values:
+
+The simulator will stop if an infeasible problem cannot be repaired.
+
+The last solution obtained will be used or a null (zero) solution if none are available.
+
+See also:
+Lists:
+	- Diagnostic Feasibility Repair Weight
+

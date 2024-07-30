@@ -1,0 +1,15 @@
+Header: Variable Expected Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Expected value
+
+Paragraphs:
+Variable Expected Value is the expected value of the variable. In most cases this is the Profile except in the case where Profile is multi-band and random sampling occurs, in which case the Expected Value is the average of the values in the bands.
+Lists:
+

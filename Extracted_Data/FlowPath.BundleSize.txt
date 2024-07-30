@@ -1,0 +1,30 @@
+Header: Flow Path Bundle Size
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Size of bundles flowed on the Flow Path
+Source.to.Sink	Flow Charge	1	$
+Source.to.Sink	Bundle Size	25	-
+Source.to.Sink	Max Flow	550	-
+Source.to.Sink	Min Flow	0	-
+
+Paragraphs:
+Flow Path Bundle Size constrains
+          the Flow on the path to be in
+          multiples of the given size.
+
+
+
+For the example in Table 1, the Flow can take values 0, 25, 50, 75, ... up to the maximum flow of 550.
+
+Note that if the flow limits ( Max
+            Flow and Min Flow ) are not a
+          multiple of Bundle Size the flow will be capped at the highest
+          multiple of Bundle Size less than the limit.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Performance Hint Mode
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Controls how variable hints are used by the solver
+
+Paragraphs:
+If you know a feasible and/or quality integer solution, passing it
+          to the solver as a 'hint' or start solution might help speed up the
+          optimization. These values are passed in properties such as Generator Hint Units Built . The
+          setting can take one of the following values:
+
+
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 96
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	MLF <name> right-hand side term must be non-negative.
+
+Paragraphs:
+Message 96 occurs in the following circumstances:
+Lists:
+

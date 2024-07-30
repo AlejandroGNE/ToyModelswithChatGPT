@@ -1,0 +1,17 @@
+Header: Generator Fuels SRMC
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Short-run marginal cost (Fuel + VO&M + Emissions)
+
+Paragraphs:
+Generator Fuels SRMC is the marginal (incremental) cost of generation using the specified fuel and is defined as:
+
+Note that this equation uses the Fuel Shadow Price which reflects the incremental cost as seen by the optimization. Fuel Cost however is calculated based on the 'settlement price' or Fuel Price .
+Lists:
+

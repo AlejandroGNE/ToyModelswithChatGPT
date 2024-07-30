@@ -1,0 +1,18 @@
+Header: Message 4
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	MT Schedule New Entry Driver is enabled but Generator Max Units Built is not defined.
+
+Paragraphs:
+Message 4 occurs in the following circumstances:
+
+The new entry algorithm looks for Generator objects defining a non-zero Max Units Built and these are considered for economic entry. If none are defined then no new entry will be calculated.
+
+See also:
+Lists:
+	- MT Schedule New Entry Driver is enabled.
+	- There are no Generator objects defining Max Units Built
+	- MT Schedule Capacity Expansion
+

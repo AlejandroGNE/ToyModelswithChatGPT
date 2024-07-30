@@ -1,0 +1,15 @@
+Header: Gas Zone Excess
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Excess of gas supply
+
+Paragraphs:
+Gas Zone Excess is the sum of Gas Nodes Excess .
+Lists:
+

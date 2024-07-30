@@ -1,0 +1,19 @@
+Header: Flow Path Flow Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of flows
+
+Paragraphs:
+Flow Path Flow Cost is the cost of
+          flows on the network, as is defined as:
+
+Flow Cost = Flow
+            Charge × ( Flow Forward + Flow Back )
+Lists:
+

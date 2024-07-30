@@ -1,0 +1,37 @@
+Header: Licensing: LicenseServer-LicenseReservationTabConnect
+
+Table Details:
+
+Paragraphs:
+In the license reservation tab, you are able to set a number of reserved licenses to be only available to specific computers.
+
+This reservation system work as a lower limit, meaning the specified computers or groups will have 'n' licenses available to only it. Any computer that does not have any reserved licenses or any computer that has gone over its reservation amount will have licenses issued from any remaining non-reserved licenses.
+
+Adding a license reservation To add a new license reservation and under the section named "Add New", you will need to specify three options: Product: Which product to create a reservation for, in brackets next to the name will be how many licenses are available to be reserved. Machine: Which computer, IP or group this reservation is for, you can type the computer name or IP address ( see allowed IP addresses ) or select a group from the group down list. Reserve: How many licenses to reserve for the computer or group specified in "Machine". Note: Each computer or group can only have 1 reservation rule per product. Note: Only groups, machine names or IP addresses will work and not domain names. Editing a license reservation To edit a license reservation, select one and right click on it, then select "Edit" from the context menu. This will change the "Add New" section to "Edit Reservation". This will have the product, machine and reserve automatically filled with the details of the license reservation. Once finished, you can click either: "Edit Reserve" will submit any changes and change the section back to "Add New". "Cancel" will clear the values and change the section back to "Add New" More Allowed IP address rules Licensing Main Menu
+
+To add a new license reservation and under the section named "Add New", you will need to specify three options: Product: Which product to create a reservation for, in brackets next to the name will be how many licenses are available to be reserved. Machine: Which computer, IP or group this reservation is for, you can type the computer name or IP address ( see allowed IP addresses ) or select a group from the group down list. Reserve: How many licenses to reserve for the computer or group specified in "Machine". Note: Each computer or group can only have 1 reservation rule per product. Note: Only groups, machine names or IP addresses will work and not domain names. Editing a license reservation To edit a license reservation, select one and right click on it, then select "Edit" from the context menu. This will change the "Add New" section to "Edit Reservation". This will have the product, machine and reserve automatically filled with the details of the license reservation. Once finished, you can click either: "Edit Reserve" will submit any changes and change the section back to "Add New". "Cancel" will clear the values and change the section back to "Add New" More Allowed IP address rules Licensing Main Menu
+
+To add a new license reservation and under the section named "Add New", you will need to specify three options:
+
+
+
+Editing a license reservation To edit a license reservation, select one and right click on it, then select "Edit" from the context menu. This will change the "Add New" section to "Edit Reservation". This will have the product, machine and reserve automatically filled with the details of the license reservation. Once finished, you can click either: "Edit Reserve" will submit any changes and change the section back to "Add New". "Cancel" will clear the values and change the section back to "Add New" More Allowed IP address rules Licensing Main Menu
+
+To edit a license reservation, select one and right click on it, then select "Edit" from the context menu. This will change the "Add New" section to "Edit Reservation". This will have the product, machine and reserve automatically filled with the details of the license reservation. Once finished, you can click either: "Edit Reserve" will submit any changes and change the section back to "Add New". "Cancel" will clear the values and change the section back to "Add New" More Allowed IP address rules Licensing Main Menu
+
+To edit a license reservation, select one and right click on it, then select "Edit" from the context menu. This will change the "Add New" section to "Edit Reservation". This will have the product, machine and reserve automatically filled with the details of the license reservation.
+
+Once finished, you can click either:
+
+More Allowed IP address rules Licensing Main Menu
+
+Allowed IP address rules Licensing Main Menu
+Lists:
+	- Allowed IP address rules
+	- Licensing Main Menu
+
+
+H2s:
+Adding a license reservation
+Editing a license reservation
+More

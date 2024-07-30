@@ -1,0 +1,28 @@
+Header: Flow Node Min Flow Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow through the Flow Node each year
+
+Paragraphs:
+Flow Node Min Flow Year sets a
+          lower bound on the Flow through the
+          node in each year of the simulation. See Min
+            Flow for more details.
+
+See also:
+Lists:
+	- Flow Node Min
+              Flow Hour
+	- Flow Node Min
+              Flow Day
+	- Flow Node Min
+              Flow Week
+	- Flow Node Min
+              Flow Month
+

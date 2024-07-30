@@ -1,0 +1,23 @@
+Header: Generator Net New Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Capacity (cumulative Max Capacity x (Units Built - Units Retired))
+
+Paragraphs:
+Generator Net New Capacity is the
+          net addition to Installed
+            Capacity associated with new builds and retirements up to given
+          period, and is defined as:
+
+Net New Capacity t = ∑ k ≤ t ( Units
+            Built k - Units
+            Retired k ) × Max
+            Capacity t
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Water Plant Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Electric Node the Water Plant connects to
+
+Paragraphs:
+Water Plant Node is the electrical node the Water Plant connects to withdraw electricity for its energy usage.
+Lists:
+

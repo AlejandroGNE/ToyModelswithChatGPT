@@ -1,0 +1,18 @@
+Header: Region Contract Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from physical contracts
+
+Paragraphs:
+Region Contract Load is the total load from Load Contracts in the Region and is defined as:
+
+See also:
+Lists:
+	- Region Contract Generation
+

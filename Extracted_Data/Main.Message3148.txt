@@ -1,0 +1,11 @@
+Header: Message 3148
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> cannot define a transition with itself.  This transition membership has been removed.
+
+Paragraphs:
+Message 3148 occurs in the following circumstances:
+Lists:
+

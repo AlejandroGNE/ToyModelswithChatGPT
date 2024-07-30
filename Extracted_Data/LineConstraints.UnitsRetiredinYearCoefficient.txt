@@ -1,0 +1,15 @@
+Header: Line Constraints Units Retired in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of lines retired in the year
+
+Paragraphs:
+Line Constraints Units Retired in Year Coefficient is Coefficient of number of lines retired in the year.
+Lists:
+

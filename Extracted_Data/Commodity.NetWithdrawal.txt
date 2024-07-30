@@ -1,0 +1,18 @@
+Header: Commodity Net Withdrawal
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of withdrawal and injection
+
+Paragraphs:
+Commodity Net Withdrawal is
+          defined as:
+
+Net Withdrawal = Withdrawal - Injection
+Lists:
+

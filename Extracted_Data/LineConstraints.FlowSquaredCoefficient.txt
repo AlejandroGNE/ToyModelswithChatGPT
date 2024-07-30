@@ -1,0 +1,33 @@
+Header: Line Constraints Flow Squared Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of square of line flow
+
+Paragraphs:
+Line Constraints Flow Squared Coefficient is the left-hand side coefficient on the
+          square of the Line Flow in the constraint.
+
+This constraint term is intended for use in generic transmission
+          constraints where the square of flow (on a line other than that in the
+          constraint) forms a part of the limit. See Generator Constraints Generation
+            Squared Coefficient for more details and an example.
+
+NOTE : Constraints including dynamically evaluated
+          terms like this cannot be used as Definition constraints for a Decision
+            Variable .
+
+See also:
+Lists:
+	- Generator Constraints Generation
+Squared
+              Coefficient
+	- Generator Constraints Generation
+SUM
+              Squared Coefficient
+

@@ -1,0 +1,11 @@
+Header: Transformer Node From
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	node that the transformer takes power from
+
+Paragraphs:
+Transformer Node From is node that the transformer takes power from
+Lists:
+

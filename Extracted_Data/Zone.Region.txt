@@ -1,0 +1,11 @@
+Header: Zone Region
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the region the zone belongs to
+
+Paragraphs:
+
+Lists:
+

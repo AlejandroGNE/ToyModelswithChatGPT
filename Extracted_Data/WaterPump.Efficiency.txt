@@ -1,0 +1,15 @@
+Header: Water Pump Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Water Pump efficiency
+
+Paragraphs:
+Water Pump Efficiency is Water Pump efficiency.
+Lists:
+

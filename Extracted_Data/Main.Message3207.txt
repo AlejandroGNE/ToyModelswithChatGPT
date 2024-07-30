@@ -1,0 +1,11 @@
+Header: Message 3207
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Expansion file '<value>' does not exist.
+
+Paragraphs:
+Message 3207 occurs in the following circumstances:
+Lists:
+

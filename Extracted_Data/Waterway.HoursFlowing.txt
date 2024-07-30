@@ -1,0 +1,18 @@
+Header: Waterway Hours Flowing
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the waterway is flowing
+
+Paragraphs:
+Waterway Hours Flowing reports the number of hours the waterway is flowing i.e. where Flow is non-zero.
+
+See also:
+Lists:
+	- Constraint Waterways Hours Flowing Coefficient
+

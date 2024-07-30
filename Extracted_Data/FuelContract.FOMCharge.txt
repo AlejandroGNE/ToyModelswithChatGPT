@@ -1,0 +1,15 @@
+Header: Fuel Contract FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed charge for the fuel contract
+
+Paragraphs:
+Fuel Contract FO&M Charge is the annual fixed charge for the fuel contract.
+Lists:
+

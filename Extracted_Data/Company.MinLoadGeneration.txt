@@ -1,0 +1,15 @@
+Header: Company Min Load Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation attributable to Min Load constraint
+
+Paragraphs:
+Company Min Load Generation is the total generation of the company attributable to the setting of Min Load on the company's generators, and is defined as:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Companies Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total recharge and discharge losses
+
+Paragraphs:
+Battery Companies Losses is the total recharge and discharge losses.
+Lists:
+

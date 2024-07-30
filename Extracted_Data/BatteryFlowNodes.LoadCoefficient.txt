@@ -1,0 +1,15 @@
+Header: Battery Flow Nodes Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity on the Flow Node injected(positive)/withdrawn(negative) per unit of load
+
+Paragraphs:
+Battery Flow Nodes Load Coefficient specifies the amount of the Commodity on the Flow Node injected(positive)/withdrawn(negative) per unit of load.
+Lists:
+

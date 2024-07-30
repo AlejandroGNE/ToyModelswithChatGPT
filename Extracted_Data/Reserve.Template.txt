@@ -1,0 +1,11 @@
+Header: Reserve Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Reserve inherits from
+
+Paragraphs:
+Reserve Template is template the Reserve inherits from
+Lists:
+

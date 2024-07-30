@@ -1,0 +1,24 @@
+Header: Commodity Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units built
+
+Paragraphs:
+Commodity Units Built is the
+          number of inventory 'units' built in LT
+            Plan .
+
+See also:
+Lists:
+	- Commodity Units
+	- Commodity Max
+              Units Built
+	- Commodity Build
+              Cost
+

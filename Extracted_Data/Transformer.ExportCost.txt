@@ -1,0 +1,20 @@
+Header: Transformer Export Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of energy exported
+
+Paragraphs:
+Transformer Export Cost is the cost of energy exported. It is a component of Rental when the Transmission Rental Method = "Point to Point" and is calculated as:
+
+See also:
+Lists:
+	- Transformer Export Revenue
+	- Transformer Import Cost
+	- Transformer Rental
+

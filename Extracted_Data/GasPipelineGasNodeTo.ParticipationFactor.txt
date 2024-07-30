@@ -1,0 +1,15 @@
+Header: Gas Pipeline Gas Node To Participation Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Percentage of total Gas Node inflow from a given importing Gas Pipeline
+
+Paragraphs:
+Gas Pipeline Gas Node To Participation Factor is the percentage of total inflow at Gas Node To, excluding flows from Gas Fields, from the connected Gas Pipeline.
+Lists:
+

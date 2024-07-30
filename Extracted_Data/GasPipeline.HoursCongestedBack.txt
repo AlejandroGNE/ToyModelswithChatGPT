@@ -1,0 +1,15 @@
+Header: Gas Pipeline Hours Congested Back
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the pipeline is congested in the counter-reference direction
+
+Paragraphs:
+Gas Pipeline Hours Congested Back is Number of hours the pipeline is congested in the counter-reference direction.
+Lists:
+

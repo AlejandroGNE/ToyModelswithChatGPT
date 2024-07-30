@@ -1,0 +1,15 @@
+Header: Water Plant Electric Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The part of the [Energy Consumption] met by electric
+
+Paragraphs:
+Water Plant Electric Load is The part of the [Energy Consumption] met by electric.
+Lists:
+

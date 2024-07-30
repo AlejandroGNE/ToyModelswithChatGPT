@@ -1,0 +1,11 @@
+Header: List MLFs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of MLF objects in the List
+
+Paragraphs:
+List MLFs is set of MLF objects in the List
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Physical Contract Bid Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	MW bid in band
+LOAD1	Bid Quantity	70	MW	1
+LOAD1	Bid Quantity	5	MW	2
+LOAD1	Bid Price	10000	$/MWh	1
+LOAD1	Bid Price	500	$/MWh	2
+
+Paragraphs:
+Physical Contract Bid Quantity defines the quantity part of the load bid at the Load Node .
+
+Example:
+
+Bid Price defines the price part of the load bid. Higher values will clear first i.e. in this example the 70 MW load will clear unless the energy price exceeds $10000/ MWh , the additional 5 MW load however will only dispatch if the energy price is less than or equal to $500/ MWh , above that price that load will not be met.
+
+You can place lower and upper bounds on the load dispatched using the Min Load and Max Load properties.
+Lists:
+

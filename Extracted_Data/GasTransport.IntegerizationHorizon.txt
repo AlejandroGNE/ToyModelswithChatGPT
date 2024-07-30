@@ -1,0 +1,19 @@
+Header: Gas Transport Integerization Horizon
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Number of years over which the expansion decisions are integerized
+
+Paragraphs:
+Gas Transport Integerization Horizon is the number of years over which the expansion decisions are integerized.
+
+See also:
+Lists:
+	- Gas Transport Expansion 
+                Max Volume
+

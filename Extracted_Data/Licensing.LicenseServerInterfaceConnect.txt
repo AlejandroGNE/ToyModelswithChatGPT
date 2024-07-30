@@ -1,0 +1,43 @@
+Header: Licensing: LicenseServerInterfaceConnect
+
+Table Details:
+
+Paragraphs:
+The License Server Control Panel is designed to allow you to administer and monitor PLEXOS licensing.
+
+The License Server interface is broken into 2 main areas.
+
+Top Area The top area contains the basic information about the license server. The "Server Info" group contains: computer name, if the service status (running, stopped or a faulted) and the IP address and port number to use when connecting to the license service. In the "License Status" group, there are 3 tools to use: "Check Server License" button can be used to diagnose any issues with the license file. It will also create a license file if one does not already exist. If you are using the license server for the first time, Check License will prompt you for the name and company of the license. "View Server License" button allows you to read the data from the current server license file, in a readable format. Information displayed includes number of licenses available for each product, expiry dates, and who the product is licensed to. "View Other License" button works the same as View Server License, but allows you to browse for and view any license file. Tabbed Area Monitor Tab Config Tab Access List Tab Groups Tab License Reservation Tab More Running the License Server Licensing Main Menu
+
+The top area contains the basic information about the license server. The "Server Info" group contains: computer name, if the service status (running, stopped or a faulted) and the IP address and port number to use when connecting to the license service. In the "License Status" group, there are 3 tools to use: "Check Server License" button can be used to diagnose any issues with the license file. It will also create a license file if one does not already exist. If you are using the license server for the first time, Check License will prompt you for the name and company of the license. "View Server License" button allows you to read the data from the current server license file, in a readable format. Information displayed includes number of licenses available for each product, expiry dates, and who the product is licensed to. "View Other License" button works the same as View Server License, but allows you to browse for and view any license file. Tabbed Area Monitor Tab Config Tab Access List Tab Groups Tab License Reservation Tab More Running the License Server Licensing Main Menu
+
+The top area contains the basic information about the license server.
+
+The "Server Info" group contains: computer name, if the service status (running, stopped or a faulted) and the IP address and port number to use when connecting to the license service.
+
+In the "License Status" group, there are 3 tools to use:
+
+Tabbed Area Monitor Tab Config Tab Access List Tab Groups Tab License Reservation Tab More Running the License Server Licensing Main Menu
+
+Monitor Tab Config Tab Access List Tab Groups Tab License Reservation Tab More Running the License Server Licensing Main Menu
+
+More Running the License Server Licensing Main Menu
+
+Running the License Server Licensing Main Menu
+Lists:
+	- "Check Server License" button can be used to diagnose any issues with the license file. It will also create a license file if one does not already exist. If you are using the license server for the first time, Check License will prompt you for the name and company of the license.
+	- "View Server License" button allows you to read the data from the current server license file, in a readable format. Information displayed includes number of licenses available for each product, expiry dates, and who the product is licensed to.
+	- "View Other License" button works the same as View Server License, but allows you to browse for and view any license file.
+	- Monitor Tab
+	- Config Tab
+	- Access List Tab
+	- Groups Tab
+	- License Reservation Tab
+	- Running the License Server
+	- Licensing Main Menu
+
+
+H2s:
+Top Area
+Tabbed Area
+More

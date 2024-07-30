@@ -1,0 +1,15 @@
+Header: Gas Transport Max Shipments Week
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum weekly number of voyages
+
+Paragraphs:
+Gas Transport Max Shipments Week is the weekly version of Gas Transport Max Shipments .
+Lists:
+

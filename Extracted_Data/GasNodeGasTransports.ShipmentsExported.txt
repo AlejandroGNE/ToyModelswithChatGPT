@@ -1,0 +1,15 @@
+Header: Gas Node Gas Transports Shipments Exported
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of shipments exported through the Gas Transport
+
+Paragraphs:
+Gas Node Gas Transports Shipments Exported is the number of shipments exported by each Gas Transport from a Gas Node.
+Lists:
+

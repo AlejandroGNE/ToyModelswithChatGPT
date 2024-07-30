@@ -1,0 +1,11 @@
+Header: Zone Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Markets is the set of energy Markets in the Zone. This collection is reserved for reporting only.
+Lists:
+

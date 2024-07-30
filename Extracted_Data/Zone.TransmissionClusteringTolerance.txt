@@ -1,0 +1,15 @@
+Header: Zone Transmission Clustering Tolerance
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 and 100
+Key Property:	No
+Description:	Cluster nodes until this level of accuracy is reached (100% means no clustering)
+
+Paragraphs:
+Zone Transmission Clustering Tolerance is a clustering criteria based on the level of accuracy required (where 100% means no clustering). See Region Transmission Clustering Tolerance for details.
+Lists:
+

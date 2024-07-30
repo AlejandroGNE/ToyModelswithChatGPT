@@ -1,0 +1,15 @@
+Header: Interface Min Expansion In Year
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum interface expansion allowed in the year
+
+Paragraphs:
+Interface Min Expansion In Year is the minimum interface expansion allowed in the year.
+Lists:
+

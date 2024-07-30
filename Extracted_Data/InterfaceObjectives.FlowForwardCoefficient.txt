@@ -1,0 +1,15 @@
+Header: Interface Objectives Flow Forward Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of reference direction flow
+
+Paragraphs:
+Interface Objectives Flow Forward Coefficient is Coefficient of reference direction flow.
+Lists:
+

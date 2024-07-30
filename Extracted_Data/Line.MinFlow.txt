@@ -1,0 +1,29 @@
+Header: Line Min Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow
+A-B	Max Flow	100	MW
+B-C	Max Flow	100	MW
+B-C	Min Flow	-90	MW
+
+Paragraphs:
+As input Line Min Flow sets the limit on flow in the counter-reference direction. It needs only be defined when its value is not simply the negative of Max Flow . Min Flow should not be greater than Max Flow. If Min Flow is greater than Max Flow, PLEXOS will display fatal error Message 3138 .
+
+Example
+
+In the above example the Line "A-B" has an implied Min Flow of -100, whereas Line "B-C" specifically sets the Min Flow to -90 while the Max Flow is 100.
+
+As output Line Min Flow is the minimum value of Flow in the reporting period.
+
+See also:
+Lists:
+	- Line Min Rating
+	- Line Import Limit
+	- Line Loading Back
+

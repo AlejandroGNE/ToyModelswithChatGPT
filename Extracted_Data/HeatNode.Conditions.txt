@@ -1,0 +1,11 @@
+Header: Heat Node Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Heat Node
+
+Paragraphs:
+Heat Node Conditions is set of conditional Variable objects involving the Heat Node
+Lists:
+

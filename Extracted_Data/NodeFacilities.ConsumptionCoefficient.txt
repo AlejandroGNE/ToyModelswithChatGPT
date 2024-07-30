@@ -1,0 +1,15 @@
+Header: Node Facilities Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Electric Load for each unit of consumption
+
+Paragraphs:
+Node Facilities Consumption Coefficient is Electric Load for each unit of consumption.
+Lists:
+

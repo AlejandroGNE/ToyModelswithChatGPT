@@ -1,0 +1,11 @@
+Header: Message 119
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> band count for Generator Emissions [Production Rate] (for <name> = <value>) should equal Generator Load Point band count (<value>).
+
+Paragraphs:
+Message 119 occurs in the following circumstances:
+Lists:
+

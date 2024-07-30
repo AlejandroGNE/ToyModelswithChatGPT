@@ -1,0 +1,13 @@
+Header: Region Regions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of regions the region connects to
+
+Paragraphs:
+In input this collection is used to set wheeling charges between Regions . See Wheeling Charge .
+
+As an output collection it reports the inter-regional flows. By default the solution database will show all possible Region to Region connections as reporting collections.
+Lists:
+

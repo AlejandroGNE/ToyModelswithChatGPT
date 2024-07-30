@@ -1,0 +1,11 @@
+Header: Process Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Process inherits from
+
+Paragraphs:
+Process Template is template the Process inherits from
+Lists:
+

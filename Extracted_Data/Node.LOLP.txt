@@ -1,0 +1,20 @@
+Header: Node LOLP
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loss Of Load Probability (summary type "Average")
+
+Paragraphs:
+Node LOLP is the Loss Of Load Probability. For details and examples see Region LOLP .
+
+See also:
+Lists:
+	- Node LOLE
+	- Node EENS
+	- Node EDNS
+

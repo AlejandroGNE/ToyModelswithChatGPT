@@ -1,0 +1,21 @@
+Header: Heat Plant Max Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a unit can be run after being started
+
+Paragraphs:
+heat plant Max Up Time is the maximum number of hours a unit can be run after being started.
+
+This constraint is useful for modelling demand-side options such as industrial refrigeration, which can be invoked at peak times but must be restored to normal load within a given number of hours.
+
+See also:
+Lists:
+	- Heat Plant Min Up Time
+	- Heat Plant Min Down Time
+

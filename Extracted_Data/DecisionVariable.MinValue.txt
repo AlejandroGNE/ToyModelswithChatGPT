@@ -1,0 +1,18 @@
+Header: Decision Variable Min Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum value of generic decision variable
+
+Paragraphs:
+Decision Variable Min Value is minimum Value of the generic decision variable across the reported time period.
+
+See also:
+Lists:
+	- Decision Variable Max Value
+

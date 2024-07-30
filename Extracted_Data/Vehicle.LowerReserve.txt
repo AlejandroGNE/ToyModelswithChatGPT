@@ -1,0 +1,28 @@
+Header: Vehicle Lower Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of lower (spin down) reserve
+
+Paragraphs:
+Vehicle Lower Reserve is the
+          provision of lower ('spin down') reserve summed over all lower reserve types (lower and regulation lower).
+          Lower reserve is provided by reserving some Charging capability to the battery when the SoC is below Max SoC or by offering to
+          reduce Discharging from the
+          battery. This is allowed only when the Vehicle is connected to
+          Charging Stations providing vehicle-to-grid (V2G) services i.e. when Charging Station Max
+            Discharge Rate is non-zero.
+
+See also:
+Lists:
+	- Vehicle Regulation
+              Lower Reserve
+	- Vehicle Raise
+              Reserve
+	- Vehicle Reserves Revenue
+

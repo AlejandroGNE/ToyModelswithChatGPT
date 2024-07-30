@@ -1,0 +1,19 @@
+Header: Variable Raw Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Raw sample value before application of [Min Value], [Max Value] or lookup table.
+
+Paragraphs:
+Variable Raw Value is the sample value before application of Min Value , Max Value or any defined Look-up Table .
+
+For Sampling Method "Random Sampling" the Raw Value is equal to Profile + Error . For Sampling Method "Samples in Bands" the Raw Value is read directly from the Profile . The final sample value used in the simulation is reported as Value Note: Variable Raw Values are reported as zero unless they are tagged to a property.
+
+Note: Variable Raw Values are reported as zero unless they are tagged to a property.
+Lists:
+

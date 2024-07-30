@@ -1,0 +1,11 @@
+Header: Message 3244
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Both the Rating Factor and Max Capacity have values that vary over time for unit <name>. This may cause the sampled available energy to not match expected results when percentage inputs are set to be scaled.
+
+Paragraphs:
+Message 3244 occurs in the following circumstances:
+Lists:
+

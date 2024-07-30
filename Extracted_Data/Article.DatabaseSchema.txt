@@ -1,0 +1,76 @@
+Header: Database Schema
+
+Table Details:
+t_config	Master/Data	Miscellaneous configuration information for the database such as Revision number
+t_class_group	Master	List of class groups e.g. "Production", "Transmission" groups
+t_class	Master	List of classes e.g. "Generator", "Region", etc
+t_category	Data	List of categories for each class of object e.g. "Generator" might have categories "Thermal" and "Hydro"
+t_unit	Master	List of unit labels for properties e.g. "MW" for the property "Generation"
+t_attribute	Master	List of attributes allowed on each class. Attributes are static values such as "Longitude" and "Latitude" for "Generator" objects
+t_collection	Master	List of collections defining the types of memberships allowed e.g. "Generator" has a "Fuels" collection
+t_property_group	Master	List of property groupings e.g. "Production", "Expansion" properties, etc
+t_property	Master	List of properties allowed on each collection e.g. "Transport Charge" is a property on the "Generator.Fuels" membership type
+t_collection_report	Master	List of collections that are inferred from user memberships e.g, a "Generator" belongs to one or more "Region" objects via its "Generator.Nodes" memberships and the "Node.Region" membership
+t_property_report	Master	List of report properties e.g. "Generator" has report property ''Generation"
+t_object	Data	List of user-defined objects by class
+t_attribute_data	Data	List of attributes defined on the objects
+t_membership	Data	List of memberships between objects e.g. "Generator" "Thermal" may use "Fuel" "Coal" through the "Generator.Fuels" collection
+t_report	Data	List of report properties selected by the user
+t_class_group	Master	List of class groups e.g. "production","Transmission" groups
+t_class	Master	List of classes e.g. "Generator", "Region", etc
+t_category	Data	List of categories for each class of object e.g. "Generator" might have categories "Thermal" and "Hydro"
+t_unit	Master	List of unit labels for properties e.g. "MW" for the property "Generation"
+t_attribute	Master	List of attributes allowed on each class. Attributes are static values such as "Longitude" and "Latitude for "Generator" objects
+t_collection	Master	List of collections defining the types of memberships allowed e.g. "Generator" has a "Fuels" collection
+t_property	Master	List of properties allowed on each collection e.g. "Transport Charge" is a property on the "Generator.Fuels" membership type
+t_object	Data	List of user-defined objects by class
+t_attribute_data	Data	List of attributes defined on the objects
+t_membership	Data	List of memberships between objects e.g. "Generator" "Thermal" may use "Fuel" "Coal" through the "Generator.Fuels" collection
+t_model	Master	List of "Model" objects that are included in the solution database. This applies only to solutions of "Project" objects
+t_phase	Master	List of simulation phases e.g. "LT Plan", "ST Schedule"
+t_band	Master	List of band numbers for multi-band data such as "Offer Quantity"
+t_sample	Master	List of samples for multi-sample simulations
+t_timeslice	Master	List of timeslices reported on
+t_key	Master	List of keys each of which is a unique combination of model, phase, property, band, sample and timeslice
+t_period_0	Master	List of intervals e.g. 5-minute or 1-hour periods in the horizon
+t_period_1	Master	List of calendar days in the horizon
+t_period_2	Master	List of weeks in the horizon
+t_period_3	Master	List of calendar months in the horizon
+t_period_4	Master	List of fiscal years in the horizon
+t_phase_1	Master	Map of intervals to periods in LT Plan
+t_phase_2	Master	Map of intervals to periods in PASA
+t_phase_3	Master	Map of intervals to periods in ST Schedule
+t_phase_4	Master	Map of intervals to periods in ST Schedule
+t_data_0	Data	List of solution values by period
+t_data_1	Data	List of solution values by day
+t_data_2	Data	List of solution values by week
+t_data_3	Data	List of solution values by month
+t_data_4	Data	List of solution values by fiscal year
+
+Paragraphs:
+This article describes the input and solution database schema for PLEXOS. Both XML and Microsoft® Access .MDB file formats implement the same schema.
+
+PLEXOS input databases describes two layers:
+
+The Master Layer describes and defines rules for the input of data in the Data Layer. It builds the data model and rules in the following sequence
+
+Classes are types of objects e.g. Generator is a class, so is Fuel. Collections are unique combinations of classes (two only) e.g. the collection Generator.Fuels lists the fuels used by each generator.
+
+In addition to these 'core' tables The database schema defines primary keys and referential integrity rules that must be followed. These ensure that:
+
+Thus the input database schema is completely self-contained and self-checking and it is impossible to orphan data. Figure 1 illustrates the database schema for PLEXOS Version 5.x through 6.x. This schema is very close to first-normal, meaning that there is no repetition of data, except as is required to enforce appropriate referential integrity rules. The structure is highly compact, making use of numeric keys wherever possible and storing string names of elements only once. In fact all keys and joins are made with integers. Every user element (objects, memberships, data) are tagged with unique integer keys. These keys are self-generating (auto-numbers). The tables in the schema are described in the following table:
+
+The schema for the solution database files is shown in Figure 2 and described in the following table.
+
+Please see the following page for information about interacting with PLEXOS databases and Solution files using the dataset to SQL Utility .
+Lists:
+	- Invalid combinations of objects cannot be created in memberships
+	- No duplicate definitions exist for objects or memberships
+	- Deleting objects results in cascaded deletions of memberships and properties
+
+
+H2s:
+Contents
+1. Introduction
+2. Input Database Schema
+3. Solution Database Schema

@@ -1,0 +1,24 @@
+Header: Data File Locale
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	The numeric index of the locale that should be used to read the file.
+English - United States	1033
+English - United Kingdom	2057
+German - Germany	1031
+Italian - Italy	1040
+Spanish - Spain (Modern Sort)	3082
+
+Paragraphs:
+Data File Locale identifies the culture settings that were used when the Data File was created. These settings generally only affect files that use the DATETIME field which includes text solution files.
+
+The complete list of Locale identifiers can be found here .
+
+Some commonly used locale are:
+
+See also:
+Lists:
+	- Report Locale
+

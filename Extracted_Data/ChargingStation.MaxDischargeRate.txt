@@ -1,0 +1,22 @@
+Header: Charging Station Max Discharge Rate
+
+Table Details:
+Units:	kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum discharge rate
+
+Paragraphs:
+Charging Stations Max
+          Discharge Rate is the maximum amount of power that can be sent to the
+          grid for each unit at the charging station. The total discharge rate
+          for the charging station is Units x Max Discharge Rate.
+
+See also:
+Lists:
+	- Charging Station Max
+              Charge Rate
+

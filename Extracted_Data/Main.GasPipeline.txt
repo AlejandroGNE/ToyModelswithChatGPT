@@ -1,0 +1,13 @@
+Header: Gas Pipeline Class
+
+Table Details:
+Description:	Pipeline for transporting gas
+
+Paragraphs:
+See also Gas Pipeline Property Reference for a detailed list of properties for this class of object.
+
+A Gas Pipeline connects two parts of the gas network via the Gas Node From and Gas Node To memberships.
+
+See the Gas Modelling article for details.
+Lists:
+

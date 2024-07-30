@@ -1,0 +1,12 @@
+Header: LT Plan Capacity Payments Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If payments are made for generation capacity
+
+Paragraphs:
+LT Plan Capacity Payments Enabled toggles on/off calculation of capacity payments to generators. By default no capacity payments are made. When enabled generators are paid the capacity shadow price for corresponding capacity zone or region they are in multiplied by their Firm Capacity per unit.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Zone Available Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available capacity
+
+Paragraphs:
+Zone Available Capacity is defined as:
+
+See also:
+Lists:
+	- Zone Generation Capacity
+	- Zone Dispatchable Capacity
+

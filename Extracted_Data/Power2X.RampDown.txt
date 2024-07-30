@@ -1,0 +1,15 @@
+Header: Power2X Ramp Down
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping down
+
+Paragraphs:
+Power2X Ramp Down is Total ramping down.
+Lists:
+

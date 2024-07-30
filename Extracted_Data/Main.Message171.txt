@@ -1,0 +1,11 @@
+Header: Message 171
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Node <name> Phase Angle is at an upper or lower bound in period <value>.
+
+Paragraphs:
+Message 171 occurs in the following circumstances:
+Lists:
+

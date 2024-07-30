@@ -1,0 +1,16 @@
+Header: Battery Constraints Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total reserve provision (from all types)
+
+Paragraphs:
+See Generator Constraints Reserve
+            Provision Coefficient .
+Lists:
+

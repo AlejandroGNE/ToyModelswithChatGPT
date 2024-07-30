@@ -1,0 +1,12 @@
+Header: Diagnostic Computer Information
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Output computer information.
+
+Paragraphs:
+This setting toggles on/off reporting of computer information in the log file and screen messages as in the following example:
+Lists:
+

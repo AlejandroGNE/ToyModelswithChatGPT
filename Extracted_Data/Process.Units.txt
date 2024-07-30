@@ -1,0 +1,17 @@
+Header: Process Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Process is modeled
+
+Paragraphs:
+Process Units is a flag (0,1)
+          indicating if the Process 'exists'. Use this property tagged with a Scenario to control when the Process
+          is included in your simulation.
+Lists:
+

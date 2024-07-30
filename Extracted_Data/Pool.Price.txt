@@ -1,0 +1,15 @@
+Header: Pool Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy price
+
+Paragraphs:
+Pool Price is the average price across all regions in the Pool.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Gas Plant Mean Time to Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	No
+Description:	Mean time to repair
+
+Paragraphs:
+Gas Plant Mean Time to Repair is used as the location parameter for many of the functions used to generate the duration of outages. See Generator Mean Time to Repair for details.
+
+See also:
+Lists:
+	- Gas Plant Min Time to Repair
+	- Gas Plant Max Time to Repair
+	- Gas Plant Repair Time Scale
+	- Gas Plant Repair Time Shape
+

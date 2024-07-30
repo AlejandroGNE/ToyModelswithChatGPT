@@ -1,0 +1,17 @@
+Header: Storage Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Key Property:	No
+Description:	Model used to define and model storage volumes (used to override the file-level Hydro Model setting).
+
+Paragraphs:
+Storage Model setting overrides the file level setting for the model used to describe the hydro storage volumes (see Hydro Model ). This setting can take the following values:
+
+See the article pump storage for more details.
+Lists:
+

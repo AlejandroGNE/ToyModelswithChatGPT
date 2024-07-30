@@ -1,0 +1,11 @@
+Header: Message 3111
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	The look-ahead in the chronological phase (<value> periods per day) must divide the planning horizon resolution (<value> periods per day).
+
+Paragraphs:
+Message 3111 occurs in the following circumstances:
+Lists:
+

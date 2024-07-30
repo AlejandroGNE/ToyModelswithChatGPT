@@ -1,0 +1,20 @@
+Header: Market Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Market can set price
+
+Paragraphs:
+Market Price Setting indicates if the Market can set price.
+
+See also:
+Lists:
+	- Generator Price Setting
+	- Physical Contract Price Setting
+	- Purchaser Price Setting
+

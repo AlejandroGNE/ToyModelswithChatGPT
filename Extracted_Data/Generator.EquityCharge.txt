@@ -1,0 +1,15 @@
+Header: Generator Equity Charge
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual required return on equity
+
+Paragraphs:
+Generator Equity Charge is the required return on equity ( e.g. to shareholders), and forms part of the total fixed cost charge of the generator along with FOM Charge , and Debt Charge .
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Flow Path Initial Flow Delay
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Delay on the Initial Flow in this band
+
+Paragraphs:
+Flow Path Initial Flow Delay sets
+                a delay on the arrival of the Initial Flow . The property is multi-band allowing you to define multiple
+                batches of delayed flows that arrive after the start of the simulation
+                horizon.
+
+See also:
+Lists:
+	- Flow Path Traversal Time
+

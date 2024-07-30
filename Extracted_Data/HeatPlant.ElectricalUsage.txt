@@ -1,0 +1,15 @@
+Header: Heat Plant Electrical Usage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Electrical usage from the electric boiler
+
+Paragraphs:
+Heat Plant Electric usage is the electricity used to convert to heat in the electric boiler part of the heat plant.
+Lists:
+

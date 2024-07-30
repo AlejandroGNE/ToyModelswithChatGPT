@@ -1,0 +1,16 @@
+Header: Gas DSM Program Reduction Amount Built
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand reduction amount chosen to be implemented
+
+Paragraphs:
+Gas DSM Program Reduction Amount Built is the amount of demand reduction chosen to be implemented in the period with the highest expansion max demand reduction.
+            The chosen demand reductions in other periods will scale accordingly so that same implementation level is maintained for all the periods.
+Lists:
+

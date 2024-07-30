@@ -1,0 +1,19 @@
+Header: Generator Start Gas Nodes Emission Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar on emissions from this generator and start gas node combination
+
+Paragraphs:
+Generator Start Gas Nodes Emission Scalar is a Scalar on emissions from this generator and start gas node combination.
+
+See also:
+Lists:
+	- Generator Start Fuels Emission Scalar
+	- Co-optimization of Gas and Power .
+

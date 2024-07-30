@@ -1,0 +1,17 @@
+Header: Region Uniform Pricing Relax Transmission Limits
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If transmission limits are relaxed in calculating SMP
+
+Paragraphs:
+Region Uniform Pricing Relax Transmission Limits is a flag that controls how transmission limits are treated in the Uniform Pricing calculation. It can take the following values:
+
+The limits affected by this option are lines , interfaces , and generic transmission constraints .
+Lists:
+

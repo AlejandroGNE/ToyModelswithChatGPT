@@ -1,0 +1,22 @@
+Header: Facility Constraints Capacity Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity built
+
+Paragraphs:
+Facility Constraints Capacity Built Coefficient is the left-hand side coefficient of Facility Capacity Built in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Facility Capacity Built ... {≤,
+            ≥, =} b j
+Lists:
+

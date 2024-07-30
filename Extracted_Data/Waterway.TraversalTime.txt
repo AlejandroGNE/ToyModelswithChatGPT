@@ -1,0 +1,19 @@
+Header: Waterway Traversal Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Time taken for flows to traverse the waterway
+
+Paragraphs:
+Waterway Traversal Time is the number of hours taken for water to flow down the waterway ( Storage From to Storage To ).
+
+A zero traversal time means that water flowing on the waterway arrives in the same trading period that it was released. A non-zero value however means that flows are delayed.
+
+Handling delayed flows at the beginning and end of the horizon is important. If they are not taken into account then delayed flows in the final few periods will 'disappear', i . e . they will be valued at zero and not accounted for in final storage. However, PLEXOS provides two methods automatically for handling delayed flows. First, if the destination storage has its Water Value property set, then it is assumed that the storage is large enough that delayed flows can be accumulated into the last period in the horizon and valued at that given water value. Alternatively, if no water value is specified then it is assumed that delayed flows should be recycled to the beginning of the horizon.
+Lists:
+

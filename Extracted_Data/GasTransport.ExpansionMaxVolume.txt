@@ -1,0 +1,20 @@
+Header: Gas Transport Expansion Max Volume
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Expansion Max Volume is the volume up to which the capacity of the transport can be expanded
+
+Paragraphs:
+Gas Transport Expansion Max Volume is the amount of potential volume during LT plan optimization. For an expansion transport, an LT plan will choose the optimal level of gas release for the transport. The resulting Max Volume from the LT plan are utilized in the subsequent phases.
+
+Multi-band Expansion Max Volume inputs are interpreted as fixed decision points for expansion plan. LT plan expansion decision must select one of the specified bands.
+
+See also:
+Lists:
+	- Gas Transport Build Cost
+

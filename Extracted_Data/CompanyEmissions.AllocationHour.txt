@@ -1,0 +1,21 @@
+Header: Company Emissions Allocation Hour
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emission rights allocation
+
+Paragraphs:
+Company Emissions Allocation HOUR is the hourly variant of Allocation .
+
+See also:
+Lists:
+	- Allocation DAY
+	- Allocation WEEK
+	- Allocation MONTH
+	- Allocation YEAR
+

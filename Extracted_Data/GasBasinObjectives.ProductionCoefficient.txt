@@ -1,0 +1,15 @@
+Header: Gas Basin Objectives Production Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas basin production
+
+Paragraphs:
+Gas Basin Objectives Production Coefficient is Coefficient of gas basin production.
+Lists:
+

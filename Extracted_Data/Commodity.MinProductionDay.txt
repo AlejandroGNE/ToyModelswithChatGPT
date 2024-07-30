@@ -1,0 +1,28 @@
+Header: Commodity Min Production Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum production per day
+
+Paragraphs:
+Commodity Min Production creates
+          a Constraint object that forces
+          the Production of the
+          Commodity each day. By default this is a 'hard' constraint. To create
+          a soft constraint, set the Min
+            Production Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Day
+	- Commodity Constraints Production
+              Coefficient
+

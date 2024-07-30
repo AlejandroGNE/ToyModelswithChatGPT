@@ -1,0 +1,17 @@
+Header: Region Uplift Detect Active Min Stable Level Constraints
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the uplift calculation should exclude units running at min stable level
+
+Paragraphs:
+Region Uplift Detect Active Min Stable Level Constraints can take these values:
+
+This option is usually set to true, since generator min stable is a generator technical constraint not a system constraint i.e. if the generator makes a loss, while on min stable level, that loss is not made due to any system constraint such as stability or thermal limits of the transmission network, and hence the generator should not be compensated.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Water Node Flow Charge
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of flowing water through the node
+
+Paragraphs:
+Water Node Flow Charge is applied to every unit of Flow through the Water Node .
+
+The total cost from this charge is reported as Flow Cost .
+Lists:
+

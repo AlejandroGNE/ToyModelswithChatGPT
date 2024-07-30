@@ -1,0 +1,15 @@
+Header: Power2X Ramp
+
+Table Details:
+Units:	MW/min
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rate at which units are ramping
+
+Paragraphs:
+Power2X Ramp is Rate at which units are ramping.
+Lists:
+

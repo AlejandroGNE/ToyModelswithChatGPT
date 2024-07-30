@@ -1,0 +1,15 @@
+Header: Line Shadow Price Back
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow/expansion price for counter-reference direction flows
+
+Paragraphs:
+Line Shadow Price Back is the Shadow/expansion price for counter-reference direction flows. Only includes shadow price for base case, i.e in pre-contingency state.
+Lists:
+

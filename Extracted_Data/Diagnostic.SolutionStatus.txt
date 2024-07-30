@@ -1,0 +1,29 @@
+Header: Diagnostic Solution Status
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Status of the solution to each mathematical programming problem.
+
+Paragraphs:
+Diagnostic Solution Status writes the final solution status of each optimization task. Every call to the optimizer is included in this diagnostic XML file. PLEXOS records the solution status for each LP/QP/MIP problem.
+Solver call results are display in each line of the file. The information refers to:
+
+The following example shows the execution results for full run (all phases) with 3 samples.
+
+--------------------------------------------------------------------------------------------------------------------------------
+ Gurobi 9.5.1....................................................................................................................
+ Real Time ..................................................................................................         0.0360 sec.
+ Iterations .................................................................................................                 398
+ Status .....................................................................................................             Optimal
+ Objective ..................................................................................................       7.683033e+010
+ -------------------------------------------------------------------------------------------------------------------------------- See also: Diagnostic Solver Summary
+
+See also:
+Lists:
+	- When: Information of PLEXOS simulation phase, sample (for independent sample) and step.
+	- Problem type: Optimization task type (eg.Linear Programming, Mixed Integer, Quadratic Programming).
+	- Solution diagnostic: CPU time, objective function, number of iterations (nodes in case of MIP), solution method (wining algorithm in the case of concurrent), solution quality as returned by the optimizer. For MIP problems, the objective function column shows the best integer solution found along with additional tree search (branch-and-bound) information: Final gap and best bound.
+	- Diagnostic Solver Summary
+

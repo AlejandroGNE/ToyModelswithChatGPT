@@ -1,0 +1,15 @@
+Header: Flow Control Objectives Negative Angle Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the flow control angle is negative, 0 otherwise)
+
+Paragraphs:
+Flow Control Objectives Negative Angle Coefficient is Boolean value (1 if the flow control angle is negative, 0 otherwise).
+Lists:
+

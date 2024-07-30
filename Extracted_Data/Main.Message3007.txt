@@ -1,0 +1,11 @@
+Header: Message 3007
+
+Table Details:
+Severity:	Minor (value = 4)
+Default Action:	Warn (value = 1)
+Description:	Skipped checking for missing files.
+
+Paragraphs:
+
+Lists:
+

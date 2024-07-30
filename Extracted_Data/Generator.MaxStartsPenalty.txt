@@ -1,0 +1,22 @@
+Header: Generator Max Starts Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Max Starts] constraints.
+
+Paragraphs:
+Generator Max Starts Penalty is
+          the penalty applied to violations of Max
+            Starts constraint and its period variants ( Hour , Day , Week , Month , and Year ). The value is the
+          penalty applied to each Units
+            Started above the given limit. The default value of -1 means "no
+          violation allowed". Violations are reported in the properties Max
+            Starts Violation and Max
+            Starts Violation Cost .
+Lists:
+

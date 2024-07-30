@@ -1,0 +1,15 @@
+Header: Gas Demand Source Gas Contracts Delivered Quantity
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas delivered by gas contract to the gas demand
+
+Paragraphs:
+Gas Demand Source Gas Contracts Delivered Quantity is Gas delivered by gas contract to the gas demand.
+Lists:
+

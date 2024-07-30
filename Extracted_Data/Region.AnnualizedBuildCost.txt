@@ -1,0 +1,31 @@
+Header: Region Annualized Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of generating units built
+
+Paragraphs:
+Region Annualized Build Cost is the sum of all build cost annuities from LT Plan and is defined as: `"Region Annualized Build Cost" = sum_(i=1)^n ("Generation Participation Factor"_i)*("Annualized Build Costs"_i)` This includes the annualized build costs associated with all the object classes listed below: Battery Charging Station Commodity Facility Flow Storage Generator Power2X Process See also: Region Total Cost Region Levelized Cost
+
+`"Region Annualized Build Cost" = sum_(i=1)^n ("Generation Participation Factor"_i)*("Annualized Build Costs"_i)`
+
+This includes the annualized build costs associated with all the object classes listed below: Battery Charging Station Commodity Facility Flow Storage Generator Power2X Process
+
+See also:
+Lists:
+	- Battery
+	- Charging Station
+	- Commodity
+	- Facility
+	- Flow Storage
+	- Generator
+	- Power2X
+	- Process
+	- Region Total Cost
+	- Region Levelized Cost
+

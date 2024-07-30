@@ -1,0 +1,15 @@
+Header: Company Generator Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity provided by generators
+
+Paragraphs:
+Company Generator Firm Capacity is the total firm capacity for the generators owned by the company, and is defined as:
+Lists:
+

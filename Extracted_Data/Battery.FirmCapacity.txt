@@ -1,0 +1,28 @@
+Header: Battery Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contribution of the battery to capacity reserves
+Units	100	-					
+Max Power	1	MW					
+Firm Capacity	0.08	MW					
+
+Paragraphs:
+Battery Firm Capacity is the contribution of the battery to capacity reserves. By default the capacity provided by each battery unit to regional or zonal capacity reserves requirements is equal to the Max Power , but this can be overridden by defining Firm Capacity directly.
+
+Firm Capacity is used in the calculation of Region (and/or Zone ) Capacity Reserves in both PASA and LT Plan . For LT Plan it is the contribution each unit installed/built/retired makes towards any Capacity Requirement in that Region or Zone .
+
+Example
+
+The total installed capacity in this case is 100 × 1MW = 100MW, but the Firm Capacity is only 8% of this, or 8MW.
+
+Battery Firm Capacity as output is based on the input Firm Capacity if that is defined:
+
+otherwise:
+Lists:
+

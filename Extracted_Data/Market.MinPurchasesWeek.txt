@@ -1,0 +1,23 @@
+Header: Market Min Purchases Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum purchase from the market each week
+
+Paragraphs:
+Market Min Purchases Week
+          creates a Constraint object that
+          sets a lower bound on the Purchases from the Market each week. By default this is a 'hard' constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Week
+	- Market Constraints Purchases
+              Coefficient
+

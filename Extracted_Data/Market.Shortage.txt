@@ -1,0 +1,20 @@
+Header: Market Shortage
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount that demand exceeds supply
+
+Paragraphs:
+Market Shortage is the amount that Demand exceeds the available supply to
+          the Market. The cost of shortage is reported in the property Shortage
+            Cost .
+
+See also:
+Lists:
+	- Market Surplus
+

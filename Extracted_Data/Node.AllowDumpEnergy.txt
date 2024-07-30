@@ -1,0 +1,17 @@
+Header: Node Allow Dump Energy
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Model Node [Dump Energy] in the mathematical program.
+
+Paragraphs:
+Node Allow Dump Energy gives finer resolution to the simulation setting Transmission Allow Dump Energy . It can take these values:
+
+The primary purpose of this property is to give finer control over the size of the mathematical program by allowing to you limit the number of dump energy terms in the problem.
+Lists:
+

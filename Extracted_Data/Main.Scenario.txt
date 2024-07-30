@@ -1,0 +1,22 @@
+Header: Scenario Class
+
+Table Details:
+Description:	Data scenario
+
+Paragraphs:
+See also Scenario Property Reference for a detailed list of properties for this class of
+          object.
+
+Scenario objects allow data to be labelled with a particular scenario name. Scenarios are created in the same ways as
+        other objects. Once created, any property can be tagged with that scenario name. Model objects (the objects that are executed during a simulation) have a Scenarios collection. Adding a Scenario to this collection instructs PLEXOS to use all
+        the properties tagged with that scenario name as well as all properties that have no tag. Data from Scenarios overrides
+        untagged data.
+
+Where two Scenarios specify values for the same datum in the same time period, the Scenarios are read in alphabetical
+        order. Although this behaviour can be overridden using the Read Order property.
+
+Selecting a Scenario object in the PLEXOS interface and the Properties window displays all the properties in the
+        database that are tagged with that Scenarios name. Deleting a Scenario object causes all data associated with that Scenario
+        to be deleted too.
+Lists:
+

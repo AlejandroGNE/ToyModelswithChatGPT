@@ -1,0 +1,15 @@
+Header: Gas Node Shipments Imported
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of shipments received from Gas Transports
+
+Paragraphs:
+Gas Node Shipments Imported is the number of shipments received from Gas Transports.
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Vehicle SoC
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	State of charge
+
+Paragraphs:
+Vehicle SoC is a measurement of available battery energy and is defined as:
+
+SoC = Energy / Capacity x Units
+
+The value will be between Min SoC and Max SoC .
+
+Note: For simulations using partial chronology e.g. LT
+            Plan with Chronology =
+          "Partial" the value of SoC might be out
+          of the range [0%, 100%] in between energy storage balance periods. For
+          chronological simulations however the SoC will always be inside range.
+Lists:
+

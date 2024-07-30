@@ -1,0 +1,12 @@
+Header: Diagnostic Marginal Unit Transmission Detail
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Transmission area for marginal unit diagnostic
+
+Paragraphs:
+The Marginal Unit Transmission Detail sets the transmission calculation level for Marginal Expansion Unit and Marginal Unit .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Entity Production
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production of the Commodity by the Facilities
+
+Paragraphs:
+Entity Production is the sum of Facility Production of the Commodity traded in the Market indicated by the Entity Markets collection.
+Lists:
+

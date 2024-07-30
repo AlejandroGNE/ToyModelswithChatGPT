@@ -1,0 +1,36 @@
+Header: Line Max Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow
+A-B	Max Flow	1000	MW	
+A-B	Max Rating	1000	MW	SUMMER
+A-B	Max Rating	900	MW	WINTER
+
+Paragraphs:
+As input Line Max Flow sets the maximum allowable flow on the line (otherwise known as the Line's thermal limit). The user must set the Zero Treatment Limit as Unlimited to include lines with no defined Max Flow and Min Flow values.
+
+By default a Line may flow in both directions with the maximum flow allowed in the counter-reference direction assumed to be the negative of Max Flow. If you need to set a different limit in that direction use the Min Flow property.
+
+To de-rate a transmission line for a period of time use Max Rating and Min Rating . For example, in the following case, the lines are given ratings for summer and winter periods.
+
+Example:
+
+As output Line Max Flow is the maximum value of Flow in the reporting period.
+
+When Max Flow = Min Flow = 0 in the input database, the line will be turned off as not in service. If Max Flow is smaller than Min Flow, PLEXOS will display fatal error Message 3138 . When using Piece-Wise Linear loss method or wheeling charge, the formulation of line flow equation will require a finite bound on the limit. Plexos will automatically create a Max Flow value of 99999 MW if it is undefined. If the flow in the line might exceed this value, it is recommended to set the Max Flow with a desirable value manually.
+
+See also:
+Lists:
+	- When Max Flow = Min Flow = 0 in the input database, the line will be turned off as not in service.
+	- If Max Flow is smaller than Min Flow, PLEXOS will display fatal error Message 3138 .
+	- When using Piece-Wise Linear loss method or wheeling charge, the formulation of line flow equation will require a finite bound on the limit. Plexos will automatically create a Max Flow value of 99999 MW if it is undefined. If the flow in the line might exceed this value, it is recommended to set the Max Flow with a desirable value manually.
+	- Line Max Rating
+	- Line Export Limit
+	- Line Loading
+

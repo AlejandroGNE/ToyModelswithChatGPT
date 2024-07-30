@@ -1,0 +1,18 @@
+Header: Entity Total Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total production cost including production, VO&M, start and shutdown costs
+
+Paragraphs:
+Entity Total Production Cost is the
+          sum of Facility Total
+            Production Cost which includes production, VO&M, start and
+          shutdown costs.
+Lists:
+

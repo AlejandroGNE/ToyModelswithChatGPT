@@ -1,0 +1,15 @@
+Header: Water Pump Pump Curve Coefficient C
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Pump Curve Coefficient C for the constant term
+
+Paragraphs:
+Water Pump Pump Curve Coefficient C is Pump Curve Coefficient C for the constant term.
+Lists:
+

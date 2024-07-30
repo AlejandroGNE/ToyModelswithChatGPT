@@ -1,0 +1,15 @@
+Header: Fuel Min Offtake Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum fuel offtake in hour
+
+Paragraphs:
+Fuel Min Offtake Hour is the minimum fuel offtake in one hour - see Min Offtake for more details.
+Lists:
+

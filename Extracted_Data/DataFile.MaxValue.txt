@@ -1,0 +1,15 @@
+Header: Data File Max Value
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum value allowed after application of the growing algorithm.
+
+Paragraphs:
+Data File Max Value is applied after the growth algorithm and caps the final value of the data series.
+Lists:
+

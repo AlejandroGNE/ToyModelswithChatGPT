@@ -1,0 +1,11 @@
+Header: Generator Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the generator
+
+Paragraphs:
+Generator Maintenances is the set of Maintenance objects taken out on generator.
+Lists:
+

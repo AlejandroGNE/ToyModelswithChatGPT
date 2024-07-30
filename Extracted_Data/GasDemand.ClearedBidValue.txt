@@ -1,0 +1,19 @@
+Header: Gas Demand Cleared Bid Value
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under demand curve
+
+Paragraphs:
+Gas Demand Cleared Bid Value is Area cleared under demand curve and is defined as:
+
+See also:
+Lists:
+	- Gas Demand Bid Cleared
+	- Gas Demand Cleared Bid Price
+

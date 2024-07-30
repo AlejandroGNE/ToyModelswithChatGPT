@@ -1,0 +1,18 @@
+Header: Gas Plant Retail Electric Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Retail price of electric power used by the gas plant
+
+Paragraphs:
+Gas Plant Retail Electric Price is the retail price of electric power used by the gas plant.
+            When this is populated and the gas plant is connected to an electric node, PLEXOS will use a two-pass solution. In the first pass
+            this retail price is included in the optimization as a multiplier on the electricity delivered to the gas plant. In the second pass,
+            this price is reduced by the shadow price of the electric node from the first pass.
+Lists:
+

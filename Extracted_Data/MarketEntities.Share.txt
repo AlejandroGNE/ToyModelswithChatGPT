@@ -1,0 +1,15 @@
+Header: Market Entities Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Entities share of the market trades
+
+Paragraphs:
+Market Entities Share is Entities share of the market trades.
+Lists:
+

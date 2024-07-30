@@ -1,0 +1,16 @@
+Header: Commodity Build Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating build non-anticipativity constraints
+
+Paragraphs:
+See Facility Build
+            Non-anticipativity for details.
+Lists:
+

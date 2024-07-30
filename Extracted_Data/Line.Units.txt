@@ -1,0 +1,26 @@
+Header: Line Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the line is in service (0,1)
+Property	Value	Units	Date From
+Max Flow	500	MW	
+Min Flow	-300	MW	
+Units	0	-	
+Units	1	-	1/01/2012
+
+Paragraphs:
+Line Units indicates whether or not the line exists or not.
+
+Example:
+
+Here the line does not exist until 1/01/2012.
+
+NOTE: If you want to indicate that the line is temporarily out of service for a period, use the Units Out property.
+Lists:
+

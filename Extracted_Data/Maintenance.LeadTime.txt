@@ -1,0 +1,15 @@
+Header: Maintenance Lead Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum number of hours lead time between the start of this event and the end of any Prerequisites.
+
+Paragraphs:
+Maintenance Lead Time is the minimum number of hours lead time between the start of this event and the end of any Prerequisites .
+Lists:
+

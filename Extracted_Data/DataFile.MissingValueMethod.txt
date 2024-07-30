@@ -1,0 +1,12 @@
+Header: Data File Missing Value Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Method used to fill missing values when reading Data Files
+
+Paragraphs:
+The article Text File Formats describes the many formats allowed for text file input data. Some of those formats allow values to be missing. Often this is used to compress input by removing values that repeat. The Data File attribute Missing Value Method controls how those missing values are treated:
+Lists:
+

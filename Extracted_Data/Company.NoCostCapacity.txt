@@ -1,0 +1,15 @@
+Header: Company No Cost Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity available at no cost.
+
+Paragraphs:
+Company No Cost Capacity is Capacity available at no cost..
+Lists:
+

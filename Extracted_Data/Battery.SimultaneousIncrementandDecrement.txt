@@ -1,0 +1,16 @@
+Header: Battery Simultaneous Increment and Decrement
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Degenerate increment and decrement offers and bids can be cleared simultaneously
+
+Paragraphs:
+If defined, this property overrides the model-wide Production Increment and Decrement attribute . If not defined,
+                degenerate bid clearing for this battery is allowed as per the production option.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Reserve Power2X Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve revenue
+
+Paragraphs:
+Reserve Power2X Revenue is Reserve revenue.
+Lists:
+

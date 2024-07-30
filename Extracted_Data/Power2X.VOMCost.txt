@@ -1,0 +1,15 @@
+Header: Power2X VO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total variable operation and maintenance cost
+
+Paragraphs:
+Power2X VO&M Cost is the total variable operation and maintenance cost resulting from production at the facility.
+Lists:
+

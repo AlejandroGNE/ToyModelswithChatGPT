@@ -1,0 +1,18 @@
+Header: Region Emissions Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation associated with the emission
+
+Paragraphs:
+Region Emissions Generation is the Generation associated with the Emission in the Region .
+
+See also:
+Lists:
+	- Region Emissions Intensity
+

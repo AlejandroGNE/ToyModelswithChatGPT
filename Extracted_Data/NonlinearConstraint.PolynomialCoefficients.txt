@@ -1,0 +1,15 @@
+Header: Nonlinear Constraint Polynomial Coefficients
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficients defining the polynomial
+
+Paragraphs:
+Nonlinear Constraint Polynomial Coefficients is the Coefficients defining the polynomial.
+Lists:
+

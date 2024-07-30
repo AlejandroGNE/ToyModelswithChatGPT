@@ -1,0 +1,13 @@
+Header: MT Schedule Variables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Variables providing profiles for chronological slicing, fitting or sampling
+
+Paragraphs:
+MT Schedule Variables is the
+          set of Variable objects providing Profile shapes for chronological
+          slicing, fitting or sampling.
+Lists:
+

@@ -1,0 +1,45 @@
+Header: Using PLEXOS Integrated Energy Model
+
+Table Details:
+
+Paragraphs:
+To start using PLEXOS Connect in PLEXOS Desktop Edition you will need to click on the Connect button in the home tab.
+
+A version selector dialog box will be presented as shown below.
+
+You will need to select Version 2 so that it will work with PLEXOS Connect 2.0 Please uncheck "Always Ask" so the version select will not bother you the next time you click on the Connect button. PLEXOS Launch Control will launch and you will need to log on normally.
+
+Firstly you will need to have your database to save opened in PLEXOS Desktop Edition. You can save your database to PLEXOS Connect by clicking on the down arrow on the save button in the home tab of PLEXOS, and select 'Save database to PLEXOS Connect' from the drop-down menu as shown below.
+
+The dialog box as shown below will be presented.
+
+Then, you will need to click on the browse button (...) on the first row to select a dataset. Here you can select an existing dataset. By choosing an existing dataset, you will be adding a new version of the dataset to the system. Alternatively, you can click on the add button  on the top panel to add a completely new dataset and select the newly created dataset. You can enter the version and the description for the dataset you intend to upload to the system. The files for the database will be added automatically. Press okay on the new dataset dialog box, and the new dataset files will be uploaded.
+
+Note: You will need to have update privileges to save your database to PLEXOS Connect.
+
+Please click on the down arrow on the open button in the home tab of PLeXOS and select 'Open database from PLEXOS Connect' from the drop down menu as shown below.
+
+You will need to browse for the dataset and select the version you would like to open. Then the database will be downloaded and opened normally in PLEXOS.
+
+Firstly you need to have your saved database opened in PLEXOS Desktop Edition. Click on the execute button in the home tab of PLEXOS. Configure the projects or models that you would like to simulate. Then click on 'Execute in Connect' button on the lower right.
+
+The files for the database will be added automatically. The arguments for the run will be added automatically based on your selected projects and models. You can also specify the following options:
+
+Press okay on the dialog box, and the files will be uploaded and a new run will be created awaiting the next client to pick it up for simulation.
+
+Please click on the down arrow on the open button in the home tab of PLEXOS, and select 'Open solution from PLEXOS Connect' from the drop down menu as shown in Figure 5.5. Select the completed run you would like to open. Then the solution of the run will be downloaded and opened normally in PLEXOS.
+Lists:
+	- The jobset the run should be assigned to.
+	- The dataset the run should be assigned to.
+	- The engine to perform the simulation (by default it will use the latest engine)
+	- The client to perform the simulation (by default it will use any client that is available)
+	- The priority of the job (by default it is zero)
+
+
+H2s:
+Contents
+1. Introduction
+2. How do I Save my Database to PLEXOS Connect?
+3. How do I Open a Database from PLEXOS Connect?
+4. How do I Execute a Database in PLEXOS Connect?
+5. How do I Open a Solution from PLEXOS Connect?

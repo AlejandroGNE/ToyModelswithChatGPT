@@ -1,0 +1,11 @@
+Header: Pool Class
+
+Table Details:
+Description:	Set of transmission regions in a pool
+
+Paragraphs:
+See also Pool Property Reference for a detailed list of properties for this class of object.
+
+The Pool class offers a flexible concept of a collection of Region objects.
+Lists:
+

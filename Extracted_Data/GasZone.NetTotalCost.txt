@@ -1,0 +1,15 @@
+Header: Gas Zone Net Total Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equal to Grand Total Cost – Total Market Revenue
+
+Paragraphs:
+Gas Zone Net Total Cost is the Net Total Cost for gas in the entire model.
+Lists:
+

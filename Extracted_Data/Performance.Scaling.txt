@@ -1,0 +1,21 @@
+Header: Performance Scaling
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Toggles on/off solver problem scaling
+
+Paragraphs:
+This option toggles on/off use of problem scaling by the solver.
+          Problem scaling generally makes the problem more numerically robust.
+          Scaling should be left on for most applications, however turning it
+          off can speed up the SDDP algorithm which solves many small problems in parallel.
+
+See also:
+Lists:
+	- Performance Presolve
+	- Performance Objective
+              Scalar
+	- Constraint Scalar
+

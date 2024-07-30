@@ -1,0 +1,20 @@
+Header: Charging Station UoS Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total use of system cost
+
+Paragraphs:
+Charging Stations UoS Cost
+          is the total use of system cost incurred by the charging station from
+          charging and discharging from/to the grid. It is defined as:
+
+UoS Cost = UoS
+            Charge x ( Charging + Discharging )
+Lists:
+

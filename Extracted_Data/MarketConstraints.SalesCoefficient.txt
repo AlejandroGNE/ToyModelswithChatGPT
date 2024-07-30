@@ -1,0 +1,15 @@
+Header: Market Constraints Sales Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of market sales
+
+Paragraphs:
+Market Constraints Sales Coefficient is the left-hand side coefficient on the total sales to the market.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Decision Variable Constraints Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Decision Variable value
+
+Paragraphs:
+Decision Variable Constraints Value
+          Coefficient is the coefficient of the Decision Variable value in the Constraint.
+Lists:
+

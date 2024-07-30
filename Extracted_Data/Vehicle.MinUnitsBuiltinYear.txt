@@ -1,0 +1,22 @@
+Header: Vehicle Min Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Vehicle Min Units Built in Year
+          sets the minimum number of units automatically constructed in any
+          single year of the planning horizon in LT
+            Plan .
+
+See also:
+Lists:
+	- Facility Min
+              Units Built in Year
+

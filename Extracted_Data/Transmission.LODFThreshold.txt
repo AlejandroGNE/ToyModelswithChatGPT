@@ -1,0 +1,13 @@
+Header: Transmission LODF Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.03
+Validation Rule:	≥0
+Description:	Minimum absolute value of LODF to be used in contingency flow constraints.
+
+Paragraphs:
+This is the minimum absolute threshold for Line Outage Distribution Factors that are used in contingency flow constraints. Any calculated LODF whose absolute value
+                    is less than this tolerance will be set to 0 for purposes of calculating and constraining the post-contingent flow.
+Lists:
+

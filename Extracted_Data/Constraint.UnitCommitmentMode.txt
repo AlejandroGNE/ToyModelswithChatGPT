@@ -1,0 +1,23 @@
+Header: Constraint Unit Commitment Mode
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Controls how the constraint is handled during unit commitment
+
+Paragraphs:
+Constraint Unit Commitment Mode
+          controls how the constraint is handled during unit commitment. The
+          setting can take one of these values:
+
+This setting is useful in reducing the complexity of the model being
+          solved during unit commitment e.g. you may wish to relax
+          some transmission, reserve, emission or other types of constraints
+          during unit commitment and only enforce them once the commitment is
+          decided.
+Lists:
+

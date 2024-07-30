@@ -1,0 +1,15 @@
+Header: Generator Heat Loss
+
+Table Details:
+Units:	Input: %    Output: GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate at which heat is lost from storage
+
+Paragraphs:
+Generator Heat Loss is the rate at which heat is lost from the heat storage. The property is expressed as an hourly percentage loss rate.  For example, if a heat loss value of 0.1% is specified, then 0.1% of the average of Opening Heat and Closing Heat is lost from the storage each hour.
+Lists:
+

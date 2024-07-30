@@ -1,0 +1,11 @@
+Header: Message 3095
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	File <name> contains no data.
+
+Paragraphs:
+Message 3095 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Stochastic SDDP Resampling
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Flag if resampling is performed for each SDDP iteration at the beginning of the forward pass (The Scenario Tree must be created with PARMA model using Brazilian Methodology)
+
+Paragraphs:
+Stochastic SDDP Resampling is an
+          advanced option for the SDDP algorithm. When enabled, resampling is performed for each SDDP
+          iteration at the beginning of the forward pass. The Scenario Tree must
+          be created with PARMA model using Brazilian
+            Methodology . Resampling can improve convergence.
+Lists:
+

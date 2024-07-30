@@ -1,0 +1,15 @@
+Header: Generator Max Up Time Violation
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of maximum up time constraint.
+
+Paragraphs:
+Generator Max Up Time Violation is the amount the Max Up Time constraint was violated.
+Lists:
+

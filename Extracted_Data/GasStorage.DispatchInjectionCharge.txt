@@ -1,0 +1,15 @@
+Header: Gas Storage Dispatch Injection Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental dispatch cost of injecting gas into the storage
+
+Paragraphs:
+Gas Storage Dispatch Injection Charge is the incremental dispatch cost of injecting gas into the storage. Input with a single band applies to any volume of storage. Multi-banded inputs work in conjuction with the Injection Withdrawal Charge Level input bands.
+Lists:
+

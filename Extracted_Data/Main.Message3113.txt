@@ -1,0 +1,11 @@
+Header: Message 3113
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Data File line <value> defines invalid date YEAR=<value>, MONTH=<value>, DAY=<value>. Conversion error message =<name>. File <name>.
+
+Paragraphs:
+Message 3113 occurs in the following circumstances:
+Lists:
+

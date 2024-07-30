@@ -1,0 +1,15 @@
+Header: Transformer AC Fixed Shift Angle
+
+Table Details:
+Units:	°
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The fixed phase shift angle between the two windings of a single-phase transformer
+
+Paragraphs:
+Transformer AC Fixed Shift Angle is the fixed phase shift angle across the winding of a transformer.
+Lists:
+

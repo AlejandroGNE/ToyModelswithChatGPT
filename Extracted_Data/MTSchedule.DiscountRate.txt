@@ -1,0 +1,19 @@
+Header: MT Schedule Discount Rate
+
+Table Details:
+Units:	%
+Default Value:	0
+Validation Rule:	≥0
+Description:	Discount rate.
+
+Paragraphs:
+Discount Rate is used to translate costs incurred in future periods to present day value. Discount Rate is always an annual rate though the granularity of present value calculations can be controlled by the Discount Period Type property.
+
+The discount rate should be entered as a percentage not a decimal. For example if you want a discount rate of 8%, enter the number 8, not 0.08.
+
+See also:
+Lists:
+	- MT Schedule Discount Period Type
+	- LT Plan Discount Rate
+	- ST Schedule Discount Rate
+

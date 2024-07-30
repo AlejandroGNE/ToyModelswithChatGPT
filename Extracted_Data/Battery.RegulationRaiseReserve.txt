@@ -1,0 +1,15 @@
+Header: Battery Regulation Raise Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation raise reserve
+
+Paragraphs:
+See Generator Regulation Raise Reserve .
+Lists:
+

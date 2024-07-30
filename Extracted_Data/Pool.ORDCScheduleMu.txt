@@ -1,0 +1,18 @@
+Header: Pool ORDC Schedule Mu
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Average of the forecasted hourly reserve value for ORDC calculations
+
+Paragraphs:
+Pool ORDC Schedule Mu is the average of the forecasted hourly reserve value for ORDC calculations.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

@@ -1,0 +1,11 @@
+Header: Message 190
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Uplift was infeasible but successfully repaired. SMP may be outside the range defined by Region Price Floor and Region Price Cap.
+
+Paragraphs:
+Message 190 occurs in the following circumstances:
+Lists:
+

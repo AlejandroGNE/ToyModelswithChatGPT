@@ -1,0 +1,18 @@
+Header: Fuel FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+
+Paragraphs:
+Fuel FO&M Charge is the annual fixed operation and maintenance charge. This cost applies to LT Plan and is incurred if any of the fuel is used in any given year.
+
+See also:
+Lists:
+	- Fuel FO&M Cost
+

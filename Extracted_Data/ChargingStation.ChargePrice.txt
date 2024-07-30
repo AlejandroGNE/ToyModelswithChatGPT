@@ -1,0 +1,30 @@
+Header: Charging Station Charge Price
+
+Table Details:
+Units:	c/kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid charging
+
+Paragraphs:
+Charging Station Charge
+          Price is the price paid per unit of energy drawn from the grid for
+          charging Vehicles attached to the charging station expressed in c/kWh. It is calculated
+          as:
+
+Charge Price = 0.1 ( Node Price + UoS
+            Charge )
+
+Note the factor 0.1 converts the nodal price and UoS
+            Charge in $/MWh to c/kWh for reporting.
+
+See also:
+Lists:
+	- Charging Station Charge
+              Cost
+	- Charging Station Discharge
+              Price
+

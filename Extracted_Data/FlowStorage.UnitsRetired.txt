@@ -1,0 +1,15 @@
+Header: Flow Storage Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units retired
+
+Paragraphs:
+Flow Storage Units Retired is Number of units retired.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Line Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Line
+
+Paragraphs:
+Line Conditions is set of conditional Variable objects involving the Line
+Lists:
+

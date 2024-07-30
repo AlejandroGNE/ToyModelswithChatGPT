@@ -1,0 +1,15 @@
+Header: Node Objectives Phase Angle Coefficient
+
+Table Details:
+Units:	°
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of node phase angle
+
+Paragraphs:
+Node Objectives Phase Angle Coefficient is Coefficient of node phase angle.
+Lists:
+

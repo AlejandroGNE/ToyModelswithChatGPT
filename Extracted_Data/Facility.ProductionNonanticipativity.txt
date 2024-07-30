@@ -1,0 +1,56 @@
+Header: Facility Production Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating production non-anticipativity constraints
+Facility	Property	Value	Units
+A	Units	1	-
+A	Max Operating Level	200	-
+A	Production Non-anticipativity	-1	$
+A	Production Non-anticipativity Time	12	h
+B	Units	1	-
+B	Max Operating Level	100	MW
+B	Production Non-anticipativity	10000	$
+
+Paragraphs:
+Facility Production
+          Non-anticipativity applies to multi-sample simulations with the Stochastic
+            Method "Stochastic" i.e. stochastic optimization
+          using scenario-wise decomposition. It is used to identify the
+          non-anticipative Production decisions, and can optionally be set in combination with Production
+            Non-anticipativity Time .
+
+Defining the property adds the following constraints to the
+          formulation:
+
+Production ( s , t ) = Production ( s +1, t ) ∀ s < S
+
+where: s is the sample number S = Stochastic Risk Sample Count
+
+The property can take any value, but there are two special cases to
+          consider:
+
+The property is commonly used in medium or long-term Rolling
+            Horizon models to ensure that Production decisions do not
+          anticipate future information e.g. hydro inflows. Note that
+          is generally not necessary to define this for the SDDP stochastic algorithm.
+
+
+
+For the example in Table 1 Facility "A" Production is a
+          non-anticipative (or first-stage in a two-stage stochastic
+          optimization) decision for the first 12 hours and a recourse
+          (second-stage) decision after that time, whereas Facility "B" is a
+          non-anticipative decision for all periods but with a penalty of
+          $10,000 if the constraint is violated.
+
+See also:
+Lists:
+	- Facility Unit
+              Commitment Non-anticipativity
+

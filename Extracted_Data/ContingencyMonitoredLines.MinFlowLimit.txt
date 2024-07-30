@@ -1,0 +1,19 @@
+Header: Contingency Monitored Lines Min Flow Limit
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Post-contingency flow limit in the counter-reference direction
+
+Paragraphs:
+Contingency Monitored Lines Min Flow Limit sets the line post-contingency flow limit in the counter-reference direction for the purposes of security-constrained operation in the Security Constrained Unit Commitment. This input overrides Line Overload Min Rating .
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+	- Line Overload Min Rating
+

@@ -1,0 +1,11 @@
+Header: Abatement Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators the abatement technology is connected to
+
+Paragraphs:
+Abatement Generators is the set of Generator objects the abatement technology is connected to.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Demand Source Gas Fields Delivered Emission
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission delivered by gas field to the gas demand
+
+Paragraphs:
+Gas Demand Source Gas Fields Delivered Emission is the emission delivered by gas field to the gas demand.
+Lists:
+

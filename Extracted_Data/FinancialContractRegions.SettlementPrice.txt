@@ -1,0 +1,15 @@
+Header: Financial Contract Regions Settlement Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price the contract is settled at
+
+Paragraphs:
+Financial Contract Regions Settlement Price is Price the contract is settled at.
+Lists:
+

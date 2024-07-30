@@ -1,0 +1,15 @@
+Header: Fuel Tax Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total taxation paid on fuel used
+
+Paragraphs:
+Fuel Tax Cost is the total tax paid for the fuel used. The tax paid per unit of fuel used is defined in input using the Tax property.
+Lists:
+

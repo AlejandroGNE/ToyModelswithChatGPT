@@ -1,0 +1,14 @@
+Header: Decision Variable Type
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4)
+Description:	Type of decision variable (continuous or integer).
+
+Paragraphs:
+Decision Variable Type
+          sets the type for the decision variable in the mathematical
+          programming formulation. It can take one of the following values:
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Power2X Constraints Build Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total build cost
+
+Paragraphs:
+Refer to Facility Constraints Build Cost
+            Coefficient for details.
+Lists:
+

@@ -1,0 +1,14 @@
+Header: Horizon Chrono At a Time
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of steps in the chronological model
+
+Paragraphs:
+Horizon ST Schedule Step Type is used
+          in combination with ST Schedule Step Type to set the length
+          of each optimization problem in ST Schedule.
+Lists:
+

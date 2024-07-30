@@ -1,0 +1,23 @@
+Header: Report Class
+
+Table Details:
+Description:	Set of report selections
+
+Paragraphs:
+See also Report Property Reference for a detailed list of properties for this class of
+          object.
+
+Report objects hold the selections of output properties to be reported on. Report objects are also used to filter the
+        objects reported on. This is done via the list collection of a report and instructs the simulator to report only those
+        objects. If there are no objects of a particular type (e.g. no fuels) in the list, then by default all Fuel objects are
+        reported (see List Inclusive Empty for more information). You can control whether the report filtering
+        applies to interval data or summary data with the options Filter Objects by Interval and Filter Objects in Summary .
+
+The exception is the Timeslices collection. By default the simulator will not report data by user-defined Timeslice , but if you add one or more Timeslice objects to the associated List object the simulator will report all summary data across those selected timeslices.
+
+There are three formats available for the solution data controlled by the settings:
+Lists:
+	- Write XML Files
+	- Write Flat Files
+	- Write Database
+

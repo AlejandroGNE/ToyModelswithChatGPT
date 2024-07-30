@@ -1,0 +1,19 @@
+Header: Flow Control Max Angle
+
+Table Details:
+Units:	°
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Max angle set on the flow control
+PST1	Min Angle	-30	°
+PST1	Max Angle	30	°
+
+Paragraphs:
+Flow Control Max Angle sets the maximum allowable angle on the flow control.
+
+Example:
+Lists:
+

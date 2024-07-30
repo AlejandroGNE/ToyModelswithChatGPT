@@ -1,0 +1,18 @@
+Header: Gas Storage Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas withdrawn from the storage
+
+Paragraphs:
+Gas Storage Withdrawal is the quantity of gas withdrawn from the storage.
+
+See also:
+Lists:
+	- Gas Storage Injection
+

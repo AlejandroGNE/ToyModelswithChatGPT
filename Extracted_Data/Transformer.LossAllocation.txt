@@ -1,0 +1,15 @@
+Header: Transformer Loss Allocation
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.5
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Proportion of transformer losses allocated to the receiving node
+
+Paragraphs:
+Transformer Loss Allocation is the proportion of transformer losses attributed to the receiving bus.
+Lists:
+

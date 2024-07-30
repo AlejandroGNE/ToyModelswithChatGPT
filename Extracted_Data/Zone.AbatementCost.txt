@@ -1,0 +1,18 @@
+Header: Zone Abatement Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission abatement
+
+Paragraphs:
+Zone Abatement Cost is the cost of emission abatement:
+
+See also:
+Lists:
+	- Zone Emissions Cost
+

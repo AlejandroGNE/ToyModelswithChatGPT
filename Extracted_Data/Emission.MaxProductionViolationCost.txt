@@ -1,0 +1,18 @@
+Header: Emission Max Production Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Production] violations.
+
+Paragraphs:
+Emission Max Production Violation Cost is defined as:
+
+See also:
+Lists:
+	- Emission Max Production
+

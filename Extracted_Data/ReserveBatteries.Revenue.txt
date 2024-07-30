@@ -1,0 +1,17 @@
+Header: Reserve Batteries Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve revenue
+
+Paragraphs:
+Reserve Batteries Revenue is the reserve revenue.
+
+See Reserve Generators Revenue .
+Lists:
+

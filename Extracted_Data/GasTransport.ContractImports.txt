@@ -1,0 +1,15 @@
+Header: Gas Transport Contract Imports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Delivered gas associated with gas contracts
+
+Paragraphs:
+Gas Transport Contract Imports is delivered gas associated with gas contracts.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Storage Loss Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate of loss due to evaporation, leakage, etc
+
+Paragraphs:
+Water Storage Loss Rate is the rate of loss due to evaporation, leakage, etc.
+Lists:
+

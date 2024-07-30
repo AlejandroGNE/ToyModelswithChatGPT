@@ -1,0 +1,23 @@
+Header: Charging Station Losses
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total charge and discharge losses
+
+Paragraphs:
+Charging Stations Losses is
+          the total losses occurring as a result of the recharge and discharge
+          processes. For example, as a result of inverter losses.
+
+See also:
+Lists:
+	- Charging Station Charge
+              Efficiency
+	- Charging Station Discharge
+              Efficiency
+

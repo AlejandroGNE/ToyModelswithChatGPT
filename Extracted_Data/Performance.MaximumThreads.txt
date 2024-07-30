@@ -1,0 +1,14 @@
+Header: Performance Maximum Threads
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum number of threads used simultaneously by all simplex and interior point optimizers, where -1 means all available threads.
+
+Paragraphs:
+This setting controls how many execution threads are allowed to be used by all optimizers concurrently. This option only affects the solution of linear (LP) and quadratic (QP) problems. The MIP Maximum Threads controls threading in the MIP optimizer.
+
+See the article Optimizing Performance for details.
+Lists:
+

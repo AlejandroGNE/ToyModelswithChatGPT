@@ -1,0 +1,21 @@
+Header: Interface Ramp
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Change in flow
+
+Paragraphs:
+Interface Ramp is the change in Flow in the interval and is defined as:
+
+See also:
+Lists:
+	- Interface Max Ramp Up
+	- Interface Max Ramp Down
+	- Interface Ramp Penalty
+	- Line Ramp
+

@@ -1,0 +1,15 @@
+Header: Gas Basin Units
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of gas fields in the basin
+
+Paragraphs:
+Gas Basin Units is the number of gas fields in the basin.
+Lists:
+

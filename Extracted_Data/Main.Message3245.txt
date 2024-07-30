@@ -1,0 +1,15 @@
+Header: Message 3245
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Charging Station <name> defines [Deferrable Load] but no simple [Fixed Load] Vehicles are connected.
+
+Paragraphs:
+Deferrable load represents potential deviations from prescribed charging profiles which are defined prior to
+                simulation commencement. Deferment should therefore be used in conjunction with simple Vehicle models (which define Fixed Load ). Non-simple
+                (i.e. detailed) vehicle models allow charging to occur at times and quantities that minimise total system cost: deferment
+                is redundant when charging is cooptimised in this way. See Vehicle for
+                a comparison of simple and detailed vehicle models.
+Lists:
+

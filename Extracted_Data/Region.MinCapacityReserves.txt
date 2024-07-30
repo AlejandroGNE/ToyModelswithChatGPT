@@ -1,0 +1,23 @@
+Header: Region Min Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserves allowed
+
+Paragraphs:
+Region Min Capacity Reserves sets a lower bound on the Capacity Reserves in the Region in LT Plan . The expansion solution will attempt to meet the required Capacity Reserves by new builds and/or restricting plant retirements. By default the constraint is 'hard' meaning that it cannot be violated, but the limit can be made 'soft' by setting  the Capacity Shortage Price .
+
+Region Min Capacity Reserves is defined as:
+
+See also:
+Lists:
+	- Region Max Capacity Reserves
+	- Region Min Capacity Reserve Margin
+	- Region Min Native Capacity Reserve Margin
+	- Region Capacity Shortage
+

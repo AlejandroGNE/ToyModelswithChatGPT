@@ -1,0 +1,17 @@
+Header: Process Secondary Outputs Production
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production of the Secondary Output Commodity by the Process
+
+Paragraphs:
+Process Secondary Outputs Production is the production of the Secondary
+            Output Commodity by the
+          Process.
+Lists:
+

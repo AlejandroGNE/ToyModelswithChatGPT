@@ -1,0 +1,15 @@
+Header: Market Constraints Revenue Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of market sales revenues
+
+Paragraphs:
+Market Constraints Revenue Coefficient is Coefficient of market sales revenues. It only works when market IsMarginal is disabled.
+Lists:
+

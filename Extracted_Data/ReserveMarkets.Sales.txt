@@ -1,0 +1,15 @@
+Header: Reserve Markets Sales
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve sold into the market
+
+Paragraphs:
+Reserve Markets Sales is the reserve sold into the market.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Fuel Objectives In Use Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the Fuel is in use, 0 otherwise)
+
+Paragraphs:
+Fuel Objectives In Use Coefficient is Boolean value (1 if the Fuel is in use, 0 otherwise).
+Lists:
+

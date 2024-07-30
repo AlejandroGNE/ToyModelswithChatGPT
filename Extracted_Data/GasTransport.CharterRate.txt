@@ -1,0 +1,15 @@
+Header: Gas Transport Charter Rate
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The charter cost of gas transport per delivery
+
+Paragraphs:
+Gas Transport Charter Rate is The charter cost of gas transport per delivery.
+Lists:
+

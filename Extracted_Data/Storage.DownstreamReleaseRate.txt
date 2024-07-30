@@ -1,0 +1,15 @@
+Header: Storage Downstream Release Rate
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Release downstream via waterways
+
+Paragraphs:
+Storage Downstream Release Rate is Release downstream via waterways.
+Lists:
+

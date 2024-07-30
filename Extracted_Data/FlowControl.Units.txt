@@ -1,0 +1,15 @@
+Header: Flow Control Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of installed units
+
+Paragraphs:
+Flow Control Units is Number of installed units.
+Lists:
+

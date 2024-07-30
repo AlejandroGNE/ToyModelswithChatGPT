@@ -1,0 +1,11 @@
+Header: Emission Gas Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Contracts that produce the Emission
+
+Paragraphs:
+Emission Gas Contracts is set of Gas Contracts that produce the Emission
+Lists:
+

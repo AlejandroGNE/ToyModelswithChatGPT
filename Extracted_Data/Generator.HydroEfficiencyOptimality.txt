@@ -1,0 +1,24 @@
+Header: Generator Hydro Efficiency Optimality
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	In (-1,0,2)
+Key Property:	No
+Description:	Controls when integers are used to enforce multi-band hydro efficiency functions to dispatch in order
+
+Paragraphs:
+Generator Hydro Efficiency
+          Optimality controls when integers are used to enforce multi-band hydro
+          efficiency functions to dispatch in order. The option only applies to
+          Generator objects with a Head
+            Storage that define Efficiency
+            Incr and Load Point in
+          multiple bands. The setting can take one of the following values:
+
+Note that this setting is independent to Unit
+            Commitment Optimality .
+Lists:
+

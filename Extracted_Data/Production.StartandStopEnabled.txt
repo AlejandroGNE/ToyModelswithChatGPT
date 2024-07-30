@@ -1,0 +1,12 @@
+Header: Production Start and Stop Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If facility start up and shut down are modeled
+
+Paragraphs:
+Production Start and Stop settings control whether Generator starts and stop constraints are formulated.
+Lists:
+

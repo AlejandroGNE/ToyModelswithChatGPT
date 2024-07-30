@@ -1,0 +1,19 @@
+Header: Water Zone Max Capacity Reserves
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum capacity reserves allowed
+
+Paragraphs:
+Water Zone Max Capacity Reserves is defined as:
+
+See also:
+Lists:
+	- Water Zone Max Capacity Reserves
+	- Water Zone Min Capacity Reserve Margin
+

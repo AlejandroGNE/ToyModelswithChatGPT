@@ -1,0 +1,29 @@
+Header: Global Tree Stages Position
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥1
+Key Property:	No
+Description:	Scenario Tree: Position of each stage
+
+Paragraphs:
+Global Tree Stages Position relates
+          to the Scenario Tree and works in conjunction with Tree
+            Period Type to define the position of each stage using
+          multi-bands where stage one is in band one, stage two in band two, etc .
+          Notice that the parameter for the last stage is not required.Also note
+          that you can omit this property for simple trees. See Tree
+            Stages Leaves for details.
+
+See also:
+Lists:
+	- Global Tree
+              Period Type
+	- Global Tree
+              Stages Leaves
+	- Global Tree
+              Stages Hanging Branches
+

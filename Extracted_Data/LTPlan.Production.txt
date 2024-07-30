@@ -1,0 +1,11 @@
+Header: LT Plan Production
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Production settings for LT Plan
+
+Paragraphs:
+LT Plan Production is the Production settings for LT Plan. These override the settings associated with the Model .
+Lists:
+

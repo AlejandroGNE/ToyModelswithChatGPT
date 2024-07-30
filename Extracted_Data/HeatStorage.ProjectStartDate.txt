@@ -1,0 +1,15 @@
+Header: Heat Storage Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of heat storage project, for expansion planning.
+
+Paragraphs:
+Heat Storage Project Start Date is Start date of heat storage project, for expansion planning..
+Lists:
+

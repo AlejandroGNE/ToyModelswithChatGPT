@@ -1,0 +1,71 @@
+Header: Linux Installation Guide
+
+Table Details:
+XmlRegistryRoot/comms/licServer_IP	IP address of the License Server.
+XmlRegistryRoot/comms/licServer_CommsPort	Listening port for the License Server.
+
+Paragraphs:
+PLEXOS requires mono version 4.2.1. or above Installing Mono on Debian systems apt-get install mono-complete mono-vbnc Instructions for other systems can be found here: http://www.mono-project.com/docs/getting-started/install/linux/
+
+Once CPLEX is installed you must ensure that the LD_LIBRARY_PATH environment variable includes the path to libcplex<version>.so. (eg /opt/ibm/CPLEX_Studio126/cplex/bin/
+
+Once MOSEK is installed you must ensure that the LD_LIBRARY_PATH environment variable includes the path to libmosek64.so. (eg /opt/mosek/7/tools/platform/linux64x86/bin/)
+
+Once Gurobi is installed you must ensure that the LD_LIBRARY_PATH environment variable includes the path to libgurobi<version>.so. (eg /opt/gurobi550/linux64/lib/)
+
+The SCIP/SoPlex solver is not supported.
+
+EELPS is supported; no additional installation steps are required.
+
+NOTE: PLEXOS Connect Client is not typically suitable for a Linux Cluster setup.
+
+After the first execution of PLEXOS64.exe (see Executing PLEXOS), the client machine will have a new configuration file in $HOME/.config/PLEXOS/EE_reg.xml. The configuration file is standard XML. The following settings are relevant to the License Server.
+
+Databases created using the PLEXOS GUI on Windows may require some preparation to run on Linux when they refer to external data files. This is because file paths in Linux are case sensitive. In order to prepare the database for execution on Linux, run the following commands:
+
+To execute the database in PLEXOS, execute the following commands:
+
+Some basic command line utilities have been provided to allow users to make changes to a PLEXOS database from the Linux command line. They are as follows:
+
+setsolver will allow you to change the performance object for each model. If you have configured one already but it is not assigned to each model, you can assign it using:
+
+Otherwise you can specify a solver (eg “CPLEX”) to set up a default Performance Object using the specified solver.
+
+Use "mono setsolver.exe - help" to see a list of valid arguments.
+
+setattribute will allow you to make changes to attributes on any object, and can also serve as a tool for browsing the database structure. This utility is interactive unless -x is specified.
+
+setmember will allow you to modify memberships in a similar way to setattribute.
+
+PLEXOSLauncher is able to queue and execute multiple instances of PLEXOS, as well as perform Split Runs, where a single Model is divided into smaller parts. Each part is then executed in parallel and the resulting solutions are joined, or “stitched”, together. On a cluster, PLEXOS processes all run on the same node. Note that PLEXOSLauncher executes several instances of PLEXOS64.exe on multiple threads, and this may not be apparent in a single terminal. Also, please be sure to pass the –n flag on Linux to prevent child processes from hanging.
+
+The PLEXOS Connect Client is designed to be always running. It will connect to a specified Connect Server and wait for PLEXOS simulations to be assigned to it. You can close it at any time by pressing ctrl + c or by pressing escape. This will cause a clean shutdown of the program.
+
+To start, you will need to execute 'mono connect.client.exe' and pass the details of the connect server and a unique display name. An example of this is:
+
+The PLEXOS Engine on Linux requires a license server to operate due to local and USB licenses not being supported. When the Connect Client starts, it will ensure the license settings file exists (located at $HOME/.config/PLEXOS/EE_reg.xml) and will give a warning if it is set to a license type other than ‘server’. If this file does not exist, the Connect Client will populate it with the details for the Connect Server you specified in the ‘--server’ or the ‘--license-server’ argument. The arguments ‘--license-server’ and ‘--license-port’ are optional parameters that have no effect on the Connect Client itself but instead are saved for use by the PLEXOS Engine. These parameters are used during start up to set the license settings file with the details of the license server you provide. The PLEXOS Connect Client on Linux will require the Linux version of the PLEXOS Engine to be uploaded to Connect Server. The Linux Connect Client is unable to use Windows versions of the PLEXOS Engine.
+Lists:
+
+
+H2s:
+Contents
+1. Pre-requisites
+2. PLEXOS Installation
+3. PLEXOS Connect Client Installation
+4. License Server Installation
+5. Executing PLEXOS
+6. Utilities
+7. Executing PLEXOS Connect Client
+
+H3s:
+1.1. Mono Framework
+1.2. CPLEX
+1.3. Mosek
+1.5. Gurobi
+1.6. SCIP/SoPlex
+1.7. EELPS
+4.1. License Server Client Configuration File
+6.1. setsolver
+6.2. setattribute
+6.3. setmember
+6.4. PLEXOSLauncher

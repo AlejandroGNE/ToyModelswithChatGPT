@@ -1,0 +1,15 @@
+Header: Company Regions Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Own load in region
+
+Paragraphs:
+Company Regions Load is the own load in region.
+Lists:
+

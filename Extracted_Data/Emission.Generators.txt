@@ -1,0 +1,11 @@
+Header: Emission Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators that produce the emission
+
+Paragraphs:
+Emission Generators is the set of generators whose megawatt production produces the emission. This production is in addition to any emission produced as a result of fuel used by the generators via the Fuels collection.
+Lists:
+

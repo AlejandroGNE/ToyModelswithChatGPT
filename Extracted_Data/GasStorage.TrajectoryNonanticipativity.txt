@@ -1,0 +1,22 @@
+Header: Gas Storage Trajectory Non-anticipativity
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Gas Storage Trajectory Non-anticipativity is Price for violating non-anticipativity constraints in scenario-wise decomposition mode.
+
+This property can be defined in combination with Trajectory Non-anticipativity Volume to define a multi-band function.
+
+Please see the Trajectory Nonanticipativity help article for an example of this property.
+
+See also:
+Lists:
+	- Gas Storage Trajectory Nonanticipativity Time
+

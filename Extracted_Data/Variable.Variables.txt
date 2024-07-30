@@ -1,0 +1,11 @@
+Header: Variable Variables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	correlation matrix
+
+Paragraphs:
+Variable Variables is the set of Variables in the correlation matrix.
+Lists:
+

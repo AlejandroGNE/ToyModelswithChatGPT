@@ -1,0 +1,15 @@
+Header: Battery Min Charge Level
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum unit charge level when charging
+
+Paragraphs:
+Battery Min Charge Level is the minimum per unit load when charging. The default is zero meaning the units can charge at any level from zero up to Max Load .
+Lists:
+

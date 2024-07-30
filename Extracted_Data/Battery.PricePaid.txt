@@ -1,0 +1,18 @@
+Header: Battery Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid by load
+
+Paragraphs:
+Battery Price Paid is the price paid by load .
+
+See also:
+Lists:
+	- Price Received
+

@@ -1,0 +1,15 @@
+Header: Water Pipeline Retirement Pipeline
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the water pipeline is eligible for retirement planning
+
+Paragraphs:
+Water Pipeline Retirement Pipeline indicates if the water pipeline is eligible for retirement planning.
+Lists:
+

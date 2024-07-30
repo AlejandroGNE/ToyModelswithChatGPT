@@ -1,0 +1,13 @@
+Header: Message 3123
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Unable to run the interleave process due to invalid settings.  Server stochastic mode [<value>] with <value> sample(s) is not consistent with the client stochastic mode [<value>] with <value> sample(s).
+
+Paragraphs:
+Message 3123 occurs in ST Schedule under the following circumstances:
+Lists:
+	- the Stochastic Method used is not Scenario-wise Decomposition ; and
+	- the Stochastic Risk Sample Count for the server and client model runs are not the same.
+

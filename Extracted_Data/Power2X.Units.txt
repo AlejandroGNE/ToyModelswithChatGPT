@@ -1,0 +1,20 @@
+Header: Power2X Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of installed units
+
+Paragraphs:
+Power2X Units is the number of
+          Power2X units represented by the facility, where zero means the
+          facility does not exist.
+
+See also:
+Lists:
+	- Facility Units
+

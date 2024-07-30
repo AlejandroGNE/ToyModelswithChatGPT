@@ -1,0 +1,15 @@
+Header: Market Shortage Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty price for supply shortage
+
+Paragraphs:
+Market Shortage Price is Penalty price for supply shortage.
+Lists:
+

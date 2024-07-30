@@ -1,0 +1,15 @@
+Header: Objective Constant Week
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Objective constant each week (000's)
+
+Paragraphs:
+Objective Constant Week is Objective constant each week (000's).
+Lists:
+

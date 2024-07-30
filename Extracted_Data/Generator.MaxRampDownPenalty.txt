@@ -1,0 +1,23 @@
+Header: Generator Max Ramp Down Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating [Max Ramp Down] constraint.
+
+Paragraphs:
+Generator Max Ramp Down Penalty
+          is the penalty for violating the Max
+            Ramp Down constraint. The default value of -1 indicates a hard
+          constraint.
+
+See also:
+Lists:
+	- Generator Ramp Down Charge
+	- Generator Max
+              Ramp Up Penalty
+

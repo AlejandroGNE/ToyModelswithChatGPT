@@ -1,0 +1,23 @@
+Header: Flow Path Flow Forward
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Commodity flow in the reference direction
+
+Paragraphs:
+Flow Path Flow Forward is the flow
+          of the Commodity in the notional
+          forward direction i.e. from the Flow
+            Node From to the Flow Node
+            To .
+
+See also:
+Lists:
+	- Flow Path Flow
+              Back
+

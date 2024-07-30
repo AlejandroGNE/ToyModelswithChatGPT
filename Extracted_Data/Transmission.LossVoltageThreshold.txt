@@ -1,0 +1,14 @@
+Header: Transmission Loss Voltage Threshold
+
+Table Details:
+Units:	kV
+Default Value:	0
+Validation Rule:	≥0
+Description:	Voltage level at which losses are modelled.
+
+Paragraphs:
+Transmission Loss Voltage Threshold sets the voltage level at and above which losses are modelled in the transmission network. Note that you must set the node (bus) voltages before you can use this switch.
+
+See also the article Loss Modelling .
+Lists:
+

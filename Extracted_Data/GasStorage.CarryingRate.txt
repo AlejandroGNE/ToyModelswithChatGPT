@@ -1,0 +1,15 @@
+Header: Gas Storage Carrying Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Carrying rate for gas storage per year
+
+Paragraphs:
+Gas Storages Carrying Rate is Carrying rate for gas storage per year.
+Lists:
+

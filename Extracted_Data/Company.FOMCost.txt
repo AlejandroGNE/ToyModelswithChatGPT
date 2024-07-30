@@ -1,0 +1,15 @@
+Header: Company FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Company FO&M Cost is the total fixed operation and maintenance cost incurred by the company's generators, and is defined as:
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Global Class
+
+Table Details:
+
+Paragraphs:
+The Global class is used to set certain properties that are global to the simulation
+
+These are properties that would otherwise exist on the Model class but with the additional feature that they can be multi-band and/or have a Scenario applied and/or vary across time.
+
+The Global class currently supports data for:
+
+Note that your database may include any number of Global objects, but only one set of data will be used during execution. One exception is the user-defined Future Cost Function in hydro reservoir operation, where you can have multiple Global objects, which will define multiple Future Cost Functions. When processing the Global data the engine uses a LIFO approach i.e. the Global objects data are read in the order the objects appear in the database and if a property is defined it over-rides the data of any previous object. Note that only defined data are read so that a earlier-read Global object with data won't be overwritten by latter-read objects if they do not define the same datum.
+Lists:
+	- user-defined Future Cost Function in hydro reservoir operation
+	- the weights used for each stochastic sample
+	- how the scenario tree is constructed in a multi-stage stochastic optimization .
+	- controlling time slicing when constructing load duration curves for LT Plan and MT Schedule .
+

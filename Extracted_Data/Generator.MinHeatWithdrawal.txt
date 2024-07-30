@@ -1,0 +1,22 @@
+Header: Generator Min Heat Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of heat that must be withdrawn from storage
+
+Paragraphs:
+Generator Min Heat Withdrawal is Amount of heat that must be withdrawn from storage.
+
+See also:
+Lists:
+	- Generator Min Heat Withdrawal Hour
+	- Generator Min Heat Withdrawal Day
+	- Generator Min Heat Withdrawal Week
+	- Generator Min Heat Withdrawal Month
+	- Generator Min Heat Withdrawal Year
+

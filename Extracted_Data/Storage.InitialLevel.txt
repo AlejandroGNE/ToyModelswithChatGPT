@@ -1,0 +1,19 @@
+Header: Storage Initial Level
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial level
+
+Paragraphs:
+Storage Initial Level defines the storage level at the start of the simulation Horizon under the "Level" Storage Model . See the article hydro reservoirs and stochastic optimization for more details.
+
+See also:
+Lists:
+	- Storage Min Level
+	- Storage Max Level
+

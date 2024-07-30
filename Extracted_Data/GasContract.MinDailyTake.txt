@@ -1,0 +1,15 @@
+Header: Gas Contract Min Daily Take
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Min daily gas offtake associated with the contract
+
+Paragraphs:
+Gas Contract Min Daily Take is the min daily gas offtake associated with the contract.
+Lists:
+

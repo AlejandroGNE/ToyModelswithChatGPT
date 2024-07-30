@@ -1,0 +1,15 @@
+Header: Fuel Contract Price Incr
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Increment to the price of the fuel contract.
+
+Paragraphs:
+Fuel Contract Price Incr is a value that is added to the input Price of the fuel contract according to the following formula:
+Lists:
+

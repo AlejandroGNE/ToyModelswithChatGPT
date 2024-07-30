@@ -1,0 +1,15 @@
+Header: Flow Network Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of Market purchases
+
+Paragraphs:
+Flow Network Cost is Value of Market purchases.
+Lists:
+

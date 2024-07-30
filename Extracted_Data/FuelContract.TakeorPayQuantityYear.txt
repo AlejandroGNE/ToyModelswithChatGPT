@@ -1,0 +1,21 @@
+Header: Fuel Contract Take-or-Pay Quantity Year
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract take-or-pay quantity in year
+
+Paragraphs:
+Sets the take-or-pay level of the Fuel in each simulated year under the Fuel Contract - see Take-or-Pay Quantity .
+
+See also:
+Lists:
+	- Take or Pay Quantity Hour
+	- Take or Pay Quantity Day
+	- Take or Pay Quantity Week
+	- Take or Pay Quantity Month
+

@@ -1,0 +1,16 @@
+Header: Diagnostic Task Size
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print the size of the optimization task.
+
+Paragraphs:
+Diagnostic Task Size toggles on/off printing to the log and screen the size of the mathematical programming task being solved at each step of the simulation. An example of this report is:
+
+The report is only printed when the task sizes actually changes.
+
+See also Diagnostic Task Components .
+Lists:
+

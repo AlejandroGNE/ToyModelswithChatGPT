@@ -1,0 +1,19 @@
+Header: Generator Strategic Shadow Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price on the Company [Strategic] constraint applied to this Generator.
+
+Paragraphs:
+Generator Strategic Shadow Price is defined as:
+
+This value reflects how the Strategic input affects the implied cost of generation. The higher this value the lower the implied cost of generation.
+
+See also Markup .
+Lists:
+

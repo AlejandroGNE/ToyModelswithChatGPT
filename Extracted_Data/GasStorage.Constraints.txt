@@ -1,0 +1,11 @@
+Header: Gas Storage Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Gas Storage
+
+Paragraphs:
+Gas Storage Constraints is set of Constraints on the Gas Storage
+Lists:
+

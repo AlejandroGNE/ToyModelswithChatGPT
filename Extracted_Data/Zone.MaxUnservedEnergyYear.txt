@@ -1,0 +1,15 @@
+Header: Zone Max Unserved Energy Year
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum unserved energy in year
+
+Paragraphs:
+Zone Max Unserved Energy Year is Maximum unserved energy in year.
+Lists:
+

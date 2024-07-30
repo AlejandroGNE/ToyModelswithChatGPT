@@ -1,0 +1,28 @@
+Header: Commodity Min Consumption Custom
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum consumption over custom timeframe
+
+Paragraphs:
+Commodity Min Consumption Custom
+          creates a Constraint object that
+          forces the Consumption of
+          the Commodity over a custom time frame. By default this is a 'hard'
+          constraint. To create a soft constraint, set the Min
+            Consumption Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Custom
+	- Commodity Constraints Consumption
+              Coefficient
+

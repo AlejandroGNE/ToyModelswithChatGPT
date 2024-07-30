@@ -1,0 +1,12 @@
+Header: Transmission Constraint Limit Penalty
+
+Table Details:
+Units:	$/MWh
+Default Value:	-1
+Validation Rule:	Any Value
+Description:	Penalty for exceeding line and transformer limits.
+
+Paragraphs:
+[detail]
+Lists:
+

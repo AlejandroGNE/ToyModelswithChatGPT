@@ -1,0 +1,14 @@
+Header: MT Schedule New Entry Capacity Mechanism
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Capacity payment mechanism.
+
+Paragraphs:
+MT Schedule New Entry Capacity Mechanism applies when the New Entry Driver option is enabled. It controls whether or not new entry candidates will receive an out-of-market capacity payment or incentive to provide capacity, over and above any premium available from generation in the pool.
+
+The setting can take these values:
+Lists:
+

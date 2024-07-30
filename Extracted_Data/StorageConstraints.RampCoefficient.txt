@@ -1,0 +1,23 @@
+Header: Storage Constraints Ramp Coefficient
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in storage end volume.
+
+Paragraphs:
+Storage Constraints Ramp Coefficient is the left-hand side coefficient of change in Storage End Volume ( Ramp )
+          in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Storage Max
+              Ramp
+

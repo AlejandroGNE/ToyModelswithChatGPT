@@ -1,0 +1,15 @@
+Header: RSI Total Internal Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total Internal Capacity
+
+Paragraphs:
+RSI Total Internal Capacity is the total available (and "strategic") capacity in the Region . Strategic capacity is the capacity of generators accounting for the Generator Strategic Rating property (if defined) otherwise simply the Available Capacity .
+Lists:
+

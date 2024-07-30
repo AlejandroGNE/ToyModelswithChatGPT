@@ -1,0 +1,15 @@
+Header: Fleet Charging
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from charging
+
+Paragraphs:
+Fleet Charging is the load from charging.
+Lists:
+

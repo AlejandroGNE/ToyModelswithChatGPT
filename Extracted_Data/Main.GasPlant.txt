@@ -1,0 +1,36 @@
+Header: Gas Plant Class
+
+Table Details:
+Description:	Gas processing plant e.g. converting raw natural gas to pipeline quality
+
+Paragraphs:
+See also Gas Plant Property Reference for a
+          detailed list of properties for this class of object.
+
+A Gas Plant connects two parts of the gas network via the Input Node and Output Node memberships.
+
+See the Gas Modelling article
+          for details.
+
+Natural gas plant is the unit that purifies raw natural gas extracted
+          from a well. The Obligatory membership for this object is the " Gas Plant Output Node " which highlights in which " Gas Node " the "Gas Plant" exports gas. Gas plants can also be linked to
+          electric Nodes.
+
+" Gas Field " can be activated or
+          deactivated from the system with the use of " Units " property. If the user wants to remove it, then the value of zero
+          should be set. The Max. and Min. production of gas can be limited
+          using the " Max Production "
+          and " Min Production "
+          properties respectively, while the consumption of the plant can be set
+          as well.
+
+The maximum units of "Gas Plants" to be built through the Horizon can
+          be constrained from the " Max Units Built " property, while the maximum built number per year can be adjusted
+          by the " Max Unit Built in Year " property. The same stands for the maximum number of retirement gas
+          plat units per year " Max Units Retired in year " or in total within our simulation " Max Units Retired ".
+Lists:
+
+
+H2s:
+Production
+Expansion

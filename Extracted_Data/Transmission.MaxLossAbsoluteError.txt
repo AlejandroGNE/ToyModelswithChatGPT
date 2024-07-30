@@ -1,0 +1,14 @@
+Header: Transmission Max Loss Absolute Error
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Maximum allowed absolute error in the piecewise linear loss function.
+
+Paragraphs:
+Max Loss Absolute Error is used to determine the number of loss tranches in the piecewise linear loss function such that the absolute error at any flow value is smaller than the Max Loss Absolute Error.
+
+See also Max Loss Relative Error
+Lists:
+

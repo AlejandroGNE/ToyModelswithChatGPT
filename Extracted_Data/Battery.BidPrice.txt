@@ -1,0 +1,22 @@
+Header: Battery Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Bid price of load in band
+
+Paragraphs:
+As an input Battery Bid Price is the price part of a multi-band bid for Load . The quantity is set by Bid Quantity . See the Balancing Markets article for details.
+
+As an output Battery Bid Price repeats the input value.
+
+See also:
+Lists:
+	- Battery Bid Cleared
+	- Battery Cleared Bid Price
+	- Battery Cleared Bid Cost
+

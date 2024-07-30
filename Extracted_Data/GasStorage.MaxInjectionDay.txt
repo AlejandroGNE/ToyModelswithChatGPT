@@ -1,0 +1,15 @@
+Header: Gas Storage Max Injection Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of gas that can be injected into the storage in a day
+
+Paragraphs:
+Gas Storage Max Injection Day is the daily version of Max Injection .
+Lists:
+

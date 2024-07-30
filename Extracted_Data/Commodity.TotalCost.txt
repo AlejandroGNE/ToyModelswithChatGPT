@@ -1,0 +1,15 @@
+Header: Commodity Total Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of fixed and variable costs from all facilities involved in production of the commodity
+
+Paragraphs:
+Commodity Total Cost is Total of fixed and variable costs from all facilities involved in production of the commodity.
+Lists:
+

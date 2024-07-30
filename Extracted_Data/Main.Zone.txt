@@ -1,0 +1,23 @@
+Header: Zone Class
+
+Table Details:
+Description:	Set of transmission buses in a zone
+
+Paragraphs:
+See also Zone Property Reference for a detailed list of properties for this class of object.
+
+The Zone class offers a flexible concept of a collection of Node objects. There are two 'types' of Zone:
+
+Each Zone object can be only one type.
+
+Energy Zones and can be used to:
+
+Capacity Zones can be used to define capacity requirements for LT Plan .
+
+Note that Zone is not a subset of Region so it is possible to define Zones that encompass areas spanning multiple regions.
+Lists:
+	- An Energy Zone is defined by populating the Zone Nodes collection.
+	- A Capacity Zone is defined by populating the Zone Capacity Nodes collection.
+	- Report outputs similar to the Region class but across any user-defined set of Nodes either higher or lower resolution than the regions
+	- Define Load input in a similar way to Region Load
+

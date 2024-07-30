@@ -1,0 +1,20 @@
+Header: Commodity Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of project, for expansion planning
+
+Paragraphs:
+Commodity Project Start Date is
+          date at which units can be built by LT
+            Plan .
+
+See Facility Project
+            Start Date for more details.
+Lists:
+

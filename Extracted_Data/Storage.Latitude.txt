@@ -1,0 +1,14 @@
+Header: Storage Latitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Latitude
+
+Paragraphs:
+Storage Latitude is the decimal representation of the latitude for the Storage. Latitude is used in combination with Longitude to set coordinates for the Storage when visualizing the power system:
+
+See the User Interface Guide for more details.
+Lists:
+

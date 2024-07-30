@@ -1,0 +1,40 @@
+Header: Diagnostic Task Components
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print a summary of the formulation elements by class.
+
+Paragraphs:
+Diagnostic Task Components
+          toggles on/off printing to the log and screen of a detailed break down
+          of the components in the mathematical programming problems solved
+          during the simulation. An example of this report is:
+
+The report is in two parts:
+
+Each element carries a prefix that indicates the class of object such
+          as "Gen" for Generator and "Nod"
+          for Node , unless it is a system class
+          such as "Energy". The following fields appear in the report:
+
+The distinction between 'allocated' and 'active' is important.
+          Elements are notionally allocated for all variables and constraints
+          that might be required during the simulation. That is all elements
+          implied by the data and settings for the active Model (not all possible elements). Some elements such as those associated
+          with transmission constraints are left out of the mathematical program
+          (inactive) until required. This report indicates what proportion of
+          those possible elements are actually in-use at any time.
+
+This report can be very useful in analyzing what components of your
+          dataset are taking the most space in the mathematical programming
+          problem. You can then focus on those aspects in improving performance.
+
+NOTE: This diagnostic is very expensive to produce and will
+          significantly slow execution of the simulation. Use it only for
+          testing purposes!
+
+See also Diagnostic Task Size
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Performance MIP Node Optimizer
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,4,5,6,9,10)
+Description:	Optimizer used at the nodes of the branch and bound algorithm.
+
+Paragraphs:
+Performance MIP Node Optimizer
+          sets the optimization algorithm used by the selected SOLVER for solving the nodes of a mixed integer program (MIP) except the root
+          node (see Root Optimizer ).
+          The available values for this option are described on the SOLVER page.
+Lists:
+

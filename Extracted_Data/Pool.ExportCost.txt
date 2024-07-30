@@ -1,0 +1,15 @@
+Header: Pool Export Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of exports
+
+Paragraphs:
+Pool Export Cost is the Cost of exports.
+Lists:
+

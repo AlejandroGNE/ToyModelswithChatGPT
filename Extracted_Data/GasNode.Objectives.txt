@@ -1,0 +1,11 @@
+Header: Gas Node Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Gas Node
+
+Paragraphs:
+Gas Node Objectives is set of Objectives on the Gas Node
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Flow Storage Delivery
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity added to inventory
+
+Paragraphs:
+Flow Storage Delivery is the
+          amount of the Commodity added to inventory from exogenous sources. See Commodity Delivery for details.
+Lists:
+

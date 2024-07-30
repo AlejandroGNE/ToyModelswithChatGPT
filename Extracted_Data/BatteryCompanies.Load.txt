@@ -1,0 +1,15 @@
+Header: Battery Companies Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	load (battery recharge)
+
+Paragraphs:
+Battery Companies Load is load (battery recharge).
+Lists:
+

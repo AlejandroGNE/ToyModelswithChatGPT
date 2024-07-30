@@ -1,0 +1,12 @@
+Header: Stochastic Simplify Hanging Branches Before Branching
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If hanging branches are simplified in detail before branching
+
+Paragraphs:
+This option replaces the undocumented parameter Stochastic.SimplifyHangingBranchesBeforeBranching.
+Lists:
+

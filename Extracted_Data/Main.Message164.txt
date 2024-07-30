@@ -1,0 +1,11 @@
+Header: Message 164
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Non-physical losses detected on Line <name> in period (<value>). Flow <value>, Loss <value>. Consider changing Transmission Detect Non-physical Losses setting.
+
+Paragraphs:
+Message 164 occurs in the following circumstances:
+Lists:
+

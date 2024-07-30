@@ -1,0 +1,15 @@
+Header: Purchaser Min Load Factor Week
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum load factor in week
+
+Paragraphs:
+Purchaser Min Load Factor Week is the Minimum load factor in a week.  This is the weekly variant of Purchaser Min Load Factor .
+Lists:
+

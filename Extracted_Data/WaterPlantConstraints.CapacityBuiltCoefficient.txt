@@ -1,0 +1,15 @@
+Header: Water Plant Constraints Capacity Built Coefficient
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity built
+
+Paragraphs:
+Water Plant Constraints Capacity Built Coefficient is Coefficient of capacity built.
+Lists:
+

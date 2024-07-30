@@ -1,0 +1,11 @@
+Header: Message 3130
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Decision Variable <name> Objective Function Coefficient period type <name> is not consistent with Definition <name>.
+
+Paragraphs:
+Message 3130 occurs in the following circumstances:
+Lists:
+

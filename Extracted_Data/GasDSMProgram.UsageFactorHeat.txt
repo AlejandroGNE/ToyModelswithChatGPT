@@ -1,0 +1,16 @@
+Header: Gas DSM Program Usage Factor Heat
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar heat value regardless of demand
+
+Paragraphs:
+Gas DSM Program Usage Factor Heat is multi-band scalar which denotes energy usage per unit of heat value for one customer. For each Gas Demand attached to the DSM Program, Temperature (or Heating Degree Days ) data that falls within a Usage Factor Heat Point band will be multiplied by the corresponding Usage Factor Heat value for that band.
+                This value is aggregated to calculate max demand reduction for expansion and regular DSM programs.
+Lists:
+

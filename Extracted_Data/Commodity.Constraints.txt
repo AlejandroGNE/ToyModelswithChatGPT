@@ -1,0 +1,34 @@
+Header: Commodity Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Commodity
+
+Paragraphs:
+Commodity Constraints is the set of Constraint objects on the
+          Commodity. The following constraint left-hand side coefficients are
+          available:
+
+You can also define Constraint objects using the shortcut properties Max Consumption , Max
+            Production , Max
+            Withdrawal , Max Injection , Min Consumption , Min
+            Production , Min
+            Withdrawal , Min Injection and their period variants.
+Lists:
+	- Consumption
+              Coefficient
+	- Production
+              Coefficient
+	- Closing
+              Inventory Coefficient
+	- Inventory
+              Change Coefficient
+	- Delivery
+              Coefficient
+	- Injection
+              Coefficient
+	- Withdrawal
+              Coefficient
+
+

@@ -1,0 +1,20 @@
+Header: Market Price Received
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price received
+Interval	False	-	0.0
+True	False	Revenue / Sales
+True	True	Price
+Summary	-	False	Revenue / Sales
+-	True	0.0
+
+Paragraphs:
+In general, Market Price Received is the volume-weighted price received for all sales into the market. However, it is calculated as follows:
+Lists:
+

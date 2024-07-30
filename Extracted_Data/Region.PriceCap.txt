@@ -1,0 +1,25 @@
+Header: Region Price Cap
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cap on generator offer prices
+AREA1	Price Cap	250	-
+AREA1	Price Floor	-150	-
+
+Paragraphs:
+Region Price Cap places an upper limit on any generator Offer Price . This limit is applied both to internally calculated offer prices as well as user-defined offer prices.
+
+Example:
+
+In this example generator offer prices will be limited between -150 and 250.
+
+Price Floor and Price Cap act only to limit generator offer prices. If other constraints or unserved energy or dump energy occur the clearing price, which is bounded between (the negative of) Price of Dump Energy and VoLL , can exceed those limits.
+
+Note that if Price Cap is omitted the value of VoLL is used.
+Lists:
+

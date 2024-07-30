@@ -1,0 +1,11 @@
+Header: ST Schedule Performance
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Performance settings for ST Schedule
+
+Paragraphs:
+ST Schedule Performance is the Performance settings for ST Schedule. These override the settings associated with the Model .
+Lists:
+

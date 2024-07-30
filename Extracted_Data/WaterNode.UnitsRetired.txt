@@ -1,0 +1,19 @@
+Header: Water Node Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of water node units retired
+
+Paragraphs:
+Water Node Units Retired is a number of water node units retired.
+
+See also:
+Lists:
+	- Water Node Max Units Retired
+	- Water Node Units Built
+

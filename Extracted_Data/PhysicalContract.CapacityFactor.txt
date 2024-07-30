@@ -1,0 +1,15 @@
+Header: Physical Contract Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of generation capacity utilized
+
+Paragraphs:
+Physical Contract Capacity Factor is defined as:
+Lists:
+

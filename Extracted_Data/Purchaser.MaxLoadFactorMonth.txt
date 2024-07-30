@@ -1,0 +1,15 @@
+Header: Purchaser Max Load Factor Month
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum load factor in month
+
+Paragraphs:
+Purchaser Max Load Factor Month is the Maximum load factor in a month.  This is the monthly variant of Purchaser Max Load Factor .
+Lists:
+

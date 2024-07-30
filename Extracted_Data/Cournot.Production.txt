@@ -1,0 +1,20 @@
+Header: Cournot Production
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production in the Nash-Cournot equilibrium solution
+
+Paragraphs:
+Cournot Production is the total production ( Generation ) in the Nash-Cournot equilibrium solution.
+
+See also:
+Lists:
+	- Cournot Producer Revenue
+	- Cournot Producer Surplus
+	- Cournot Perfect Competition Production
+

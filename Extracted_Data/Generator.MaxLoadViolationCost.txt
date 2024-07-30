@@ -1,0 +1,15 @@
+Header: Generator Max Load Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Load] violations.
+
+Paragraphs:
+Generator Max Load Violation Cost is the cost of [Max Load] violations.
+Lists:
+

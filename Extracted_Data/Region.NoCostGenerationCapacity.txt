@@ -1,0 +1,20 @@
+Header: Region No Cost Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity available at no cost
+
+Paragraphs:
+Region No Cost Generation Capacity is Generation Capacity available at no cost other than VO&M Charge or UoS Charge and is defined as:
+
+This is output is intended to capture the amount of renewable generation available.
+
+See also:
+Lists:
+	- Region Generation Capacity Curtailed
+

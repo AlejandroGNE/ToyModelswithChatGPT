@@ -1,0 +1,11 @@
+Header: Interface Transformers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of transformers in the interface
+
+Paragraphs:
+Interface Transformers is set of transformers in the interface. The contribution of each Line to the Interface Flow is set by using Interface Transformers Flow Coefficient .
+Lists:
+

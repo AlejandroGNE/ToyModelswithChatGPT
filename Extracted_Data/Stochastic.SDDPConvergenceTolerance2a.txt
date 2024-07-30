@@ -1,0 +1,22 @@
+Header: Stochastic SDDP Convergence Tolerance 2a
+
+Table Details:
+Units:	-
+Default Value:	0.8
+Validation Rule:	≥0
+Description:	Objective function convergence criteria 2 (with adjustment) used in SDDP if simplification applies
+
+Paragraphs:
+SDDP Convergence Tolerance 2a is an adjustment for the second
+          convergence criteria, additional to SDDP
+            Convergence Tolerance 2 it also requires the relative gap is
+          below this tolerance when Simplified
+            Chronology applies in the SDDP algorithm.
+
+See also:
+Lists:
+	- SDDP
+              Convergence Tolerance 1
+	- SDDP
+              Convergence Tolerance 2
+

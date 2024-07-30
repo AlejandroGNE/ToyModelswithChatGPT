@@ -1,0 +1,11 @@
+Header: Message 3026
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Read <value> records(s) for object <name> in band <value>, but expected <value>. Default value of <value> assumed. File: <name>.
+
+Paragraphs:
+
+Lists:
+

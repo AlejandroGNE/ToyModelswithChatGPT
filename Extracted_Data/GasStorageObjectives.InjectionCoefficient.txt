@@ -1,0 +1,15 @@
+Header: Gas Storage Objectives Injection Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas storage injection
+
+Paragraphs:
+Gas Storage Objectives Injection Coefficient is the coefficient of gas storage injection.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Purchaser Interruptible Load Logic
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the interruptible load supplied by the Purchaser is limited by the amount of cleared load bids.
+
+Paragraphs:
+Purchaser Interruptible Load Logic causes interruptible load from purchasers to be tied to the amount of their bid cleared i.e. they can then only provide as much interruptible load reserve as load cleared.
+
+Set this switch if you are using Purchasers to model the load in the system. If you are using Purchasers only to model interruptible load ( i.e. the load is input on the Region or Nodes) then leave this switch off.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Production Rounded Relaxation Tuning
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the Rounded Relaxation method should self-tune the [Rounding Up Threshold].
+
+Paragraphs:
+Production Rounded Relaxation Tuning toggles on/off the self-tuning feature of the Rounded Relaxation Algorithm .
+
+When enabled, the self-tuning algorithm tests all values for the Rounding Up Threshold between the Rounded Relaxation Start Threshold and the Rounded Relaxation End Threshold in increments of the Rounded Relaxation Threshold Increment .
+
+Example
+
+The following log file extract shows the Rounded Relaxation result when the tuning setting is switched off and the Rounding Up Threshold is set to 0.45:
+
+The following is the log file extract for the same case with the tuning setting enabled:
+
+The tuning method searched all rounding thresholds between 0.25 and 0.75 in increments of 0.05 and found that a threshold of 0.35 returned the best objective function value.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Interface Economic Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Economic life of the interface (period over which expansion costs are recovered).
+
+Paragraphs:
+Interface Economic Life is the period over which expansion costs are recovered. It works in combination with WACC when calculating annuities for LT Plan .
+
+See also:
+Lists:
+	- Interface Expansion Cost
+

@@ -1,0 +1,36 @@
+Header: Fuel Energy Density
+
+Table Details:
+Units:	MJ
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Energy per unit of the fuel
+Unit	Energy Density (MJ)
+bbl	6118
+kJ	0.001
+MJ	1
+GJ	1000
+TJ	1000000
+PJ	1000000000
+EJ	1000000000000
+TOE	41868
+kTOE	41868000
+MTOE	41868000000
+kcal	4.148E-6
+MMBTU	1055.0558526
+BBTU	1055055.8526
+Dth	1055.0558526
+MDT	1055055852.6
+
+Paragraphs:
+Fuel Energy Density works with Unit to determine the heat value of the
+          Fuel so that inputs such as Price , Max Offtake , etc can be
+          converted to energy equivalent values. See Commodity Energy Density for details
+          and the Unit topic for examples.
+
+Note that you do not need to set the Energy Density for the following
+          Units:
+
+
+Lists:
+

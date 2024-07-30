@@ -1,0 +1,45 @@
+Header: Line Max Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Maximum number of units automatically retired in aggregate over the planning horizon
+Old HVDC	Units	1	-
+Old HVDC	Max Capacity	500	MW
+Old HVDC	FO&M Charge	2000	$000
+Old HVDC	Max Units Retired	1	-
+Old HVDC	Retirement Cost	1000	$000
+HVDC Stage 1	Units	0	-
+HVDC Stage 1	Max Flow	700	MW
+HVDC Stage 1	Max Units Built	1	-
+HVDC Stage 1	Build Cost	25000	$000
+HVDC Stage 1	Economic Life	35	years
+HVDC Stage 1	WACC	8	%
+HVDC Stage 1	Max Units Retired	1	-
+HVDC Stage 2	Units	0	-
+HVDC Stage 2	Max Capacity	1000	MW
+HVDC Stage 2	Max Units Built	1	-
+HVDC Stage 2	Build Cost	15000	$/kW
+HVDC Stage 2	Economic Life	35	years
+HVDC Stage 2	WACC	8	%
+
+Paragraphs:
+Line Max Units Retired is the maximum number of units automatically retired in aggregate over the planning horizon by LT Plan . The cost of retiring a unit is given by Retirement Cost . Obviously the unit(s) must exist at some time in the planning horizon for there to be retirements. Thus you must define either Units or Max Units Built .
+
+Example
+
+Max Units Retired can also be used to retire a stage of a multi-stage transmission project as in the following example:
+
+Example
+
+Here the Line "HVDC Stage 1" represents the first stage of a HVDC project. "HVDC Stage 2" is the second stage when capacity is upgraded. The two Lines build and retire decisions must be linked logically by Constraints using the coefficients Units Built Coefficient , Units Retired Coefficient , Units Built in Year Coefficient , and Units Retired in Year Coefficient as described in the LT Plan topic.
+
+See also:
+Lists:
+	- Line Max Units Retired in Year
+	- Line Min Units Retired
+

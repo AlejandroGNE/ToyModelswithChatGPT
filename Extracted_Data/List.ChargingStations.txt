@@ -1,0 +1,11 @@
+Header: List Charging Stations
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Charging Station objects in the List
+
+Paragraphs:
+List Charging Stations is set of Charging Station objects in the List
+Lists:
+

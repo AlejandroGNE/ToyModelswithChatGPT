@@ -1,0 +1,15 @@
+Header: Flow Network Average Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average cost of production
+
+Paragraphs:
+Flow Network Average Cost is Average cost of production.
+Lists:
+

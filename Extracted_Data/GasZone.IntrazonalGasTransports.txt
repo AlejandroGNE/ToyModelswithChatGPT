@@ -1,0 +1,11 @@
+Header: Gas Zone Intrazonal Gas Transports
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Intrazonal Gas Transports is set of Gas Transport objects that flow entirely inside the Gas Zone.
+Lists:
+

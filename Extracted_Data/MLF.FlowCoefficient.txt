@@ -1,0 +1,15 @@
+Header: MLF Flow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on line flow
+
+Paragraphs:
+MLF Flow Coefficient is Coefficient on Line Flow in the MLF equation.
+Lists:
+

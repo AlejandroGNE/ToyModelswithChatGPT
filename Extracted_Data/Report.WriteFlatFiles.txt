@@ -1,0 +1,55 @@
+Header: Report Write Flat Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the solution data are written to plain text files
+class	id	name
+System	0	System
+Generator	1	hydro
+Generator	2	thermal
+DATETIME	VALUE
+1/01/2009	0.0
+1/01/2009 1:00 AM	0.0
+1/01/2009 2:00 AM	1.0
+1/01/2009 3:00 AM	1.0
+1/01/2009 4:00 AM	1.0
+1/01/2009 5:00 AM	0.0
+
+Paragraphs:
+Report Write Flat Files toggles on/off writing of the simulation solution to flat (text) files. The format used is Comma-separated Values (CSV).
+
+The files are written into a directory structure, the root of which is controlled by the Output to Folder and Make Unique Name settings. Subfolders report the interval, day, week, etc data separately. Each .CSV files holds the data for one object and property. Object names are replaced with numeric index which can be decoded with the file "id2name.csv".
+
+Example
+
+id2name.csv
+
+The format of the text files is controlled by the Flat File Format setting. The default being 'Datetime' layout as follows (for single-band data):
+
+UnitsGenerating _2.csv
+
+Multi-band data include the additional column BAND which identifies the band associated with each line of data.
+
+NOTE : The DATETIME field is written using the date and time formats as defined by the Locale setting. It is important that the results be used only on computers with the same locale settings, or that you refer to these files with a Data File object with the correct Locale setting. You may prefer to use 'Periods in Columns' format to avoid this issue.
+
+The user interface does not support reading these flat files in its solution viewer. Instead you should use zipped-XML format.
+
+The text files are, however, in a format that can be read by the simulation engine as input , and thus you can use this option to feed solution data from one Model to another. For example one Model might simulate the day-ahead (DA) market and output the Generator Units Generating to text file, which is then read by a second Model representing the Balancing Market or Real-time Market (RTM). Here the Data File Filename property can be used to point to the entire DA solution with a syntax such as:
+
+Here the wildcard * character is used in place of the numeric index of the objects and causes the simulator to search for and use id2name.csv to match the text file solution names to real object names in the input. See the article Balancing Markets for more examples.
+
+NOTE :
+
+1) If reporting by timeslices then the name of the timeslice will be appended to the end of the filename, for example:
+
+2) If reporting flat files by Blocks, users need to set the undocumented parameter SaveSolutionAsBlock as well as toggling on Report Write Flat Files.
+
+3) For Block period type, applying the Periods in Columns format will write the band number the first column and the Block IDs in the succeeding columns.
+
+See also:
+Lists:
+	- Report Write XML Files
+	- Report Write Database
+

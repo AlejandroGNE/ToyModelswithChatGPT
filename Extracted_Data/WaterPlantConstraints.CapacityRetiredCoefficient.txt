@@ -1,0 +1,15 @@
+Header: Water Plant Constraints Capacity Retired Coefficient
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity retired
+
+Paragraphs:
+Water Plant Constraints Capacity Retired Coefficient is Coefficient of capacity retired.
+Lists:
+

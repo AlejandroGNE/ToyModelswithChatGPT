@@ -1,0 +1,15 @@
+Header: Vehicle Replacement Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Vehicle Replacement Reserve is the provision of replacement reserve.
+Lists:
+

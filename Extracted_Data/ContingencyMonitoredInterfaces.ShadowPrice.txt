@@ -1,0 +1,15 @@
+Header: Contingency Monitored Interfaces Shadow Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price for contingency constraint
+
+Paragraphs:
+Contingency Monitored Interfaces Shadow Price is Shadow price for contingency constraint.
+Lists:
+

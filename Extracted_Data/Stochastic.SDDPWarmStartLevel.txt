@@ -1,0 +1,22 @@
+Header: Stochastic SDDP Warm Start Level
+
+Table Details:
+Units:	-
+Default Value:	0.5
+Validation Rule:	Between 0 And 1
+Description:	The levels to fix the storage in SDDP 'warm start' as a proportion of the distance between minimum and maximum storage levels
+
+Paragraphs:
+This option applies when SDDP Warm Start is enabled. The warm start
+          level for each stochastic storage (those with Trajectory
+          Non-anticipativity set) in the first forward pass of the SDDP
+          algorithm is assumed to be:
+
+End
+            Volume = SDDP Warm Start Level × ( Max
+            Volume - Min Volume ) + Min Volume
+
+Hence the value should be defined between 0 (at minimum) and 1 (at
+          maximum).
+Lists:
+

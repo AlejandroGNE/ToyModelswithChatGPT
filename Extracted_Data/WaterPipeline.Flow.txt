@@ -1,0 +1,15 @@
+Header: Water Pipeline Flow
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of water extracted from the pipeline
+
+Paragraphs:
+Water Pipeline Flow is Quantity of water extracted from the pipeline.
+Lists:
+

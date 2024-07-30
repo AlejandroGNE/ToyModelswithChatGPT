@@ -1,0 +1,22 @@
+Header: Generator Ramp Down Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of ramp down charged at [Ramp Down Charge]
+
+Paragraphs:
+Generator Ramp Down Cost is the
+          cost of ramping down charged at Ramp
+            Down Charge . This forms part of the Total
+            System Cost .
+
+See also:
+Lists:
+	- Generator Ramp
+              Up Cost
+

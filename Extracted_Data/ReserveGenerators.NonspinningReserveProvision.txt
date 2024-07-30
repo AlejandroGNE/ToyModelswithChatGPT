@@ -1,0 +1,24 @@
+Header: Reserve Generators Non-spinning Reserve Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision by off-line units
+
+Paragraphs:
+Reserve Generators Non-spinning Reserve Provision is the reserve Provision by off-line units.
+
+When the Generator Reserve is constrained (i.e. Max Response , Max Replacement , Min Provision , Min Replacement Provision , etc. or a custom constraint is defined between the generator and reserve) the Non-spinning Reserve Provision is the Primal Solve value. This value is based on the all the offline units in the system.
+
+Otherwise, the non-spinning reserve is downscaled. For example, if 120 MW Reserve Min Provision is defined but the Non-spinning Reserve Provision from the Primal Solve is 800 MW based on the offline units in the system, PLEXOS calculates an OverProvisionRatio equal to the Min Provision divided by the Non-spinning Reserve Provision from the Primal Solve. This is them multiplied the by the Rating to get the reported Non-spinning Reserve Provision value, in a process called downscaling.
+
+See also:
+Lists:
+	- Reserve Generators Spinning Reserve Provision
+	- Reserve Generators Sync Cond Reserve Provision
+	- Reserve Generators Pump Dispatchable Load Provision
+

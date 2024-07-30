@@ -1,0 +1,15 @@
+Header: Gas Zone Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average of the gas prices across all gas nodes in the Gas Zone
+
+Paragraphs:
+Gas Zone Price is the Average of the gas prices across all Gas Nodes in the Gas Zone.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Node Constraints MLF Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of marginal loss factor
+
+Paragraphs:
+Node Constraints MLF Coefficient is made available for compatibility with older versions. You should use the MLF class in this version of PLEXOS.
+Lists:
+

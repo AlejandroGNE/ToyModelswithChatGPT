@@ -1,0 +1,16 @@
+Header: Power2X Min Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be off after being shut down
+
+Paragraphs:
+Refer to Facility Min
+            Down Time for details.
+Lists:
+

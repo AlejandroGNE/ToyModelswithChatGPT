@@ -1,0 +1,18 @@
+Header: Charging Station Deferment Period
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Length of time load is deferred where zero means one interval
+
+Paragraphs:
+Charging Station Deferment
+          Period is a multi-band property that works in combination with Deferrable
+            Load . It sets the length of time charging load can be deferred
+          in the given band.
+Lists:
+

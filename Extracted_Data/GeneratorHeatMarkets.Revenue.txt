@@ -1,0 +1,15 @@
+Header: Generator Heat Markets Revenue
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from heat sales
+
+Paragraphs:
+Generator Heat Markets Revenue is Revenue from heat sales.
+Lists:
+

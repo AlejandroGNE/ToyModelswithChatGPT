@@ -1,0 +1,15 @@
+Header: Company Contract Volume
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Volume of financial contracts (CfDs)
+
+Paragraphs:
+Company Contract Volume is the total volume of financial contracts held by the company, and is defined as:
+Lists:
+

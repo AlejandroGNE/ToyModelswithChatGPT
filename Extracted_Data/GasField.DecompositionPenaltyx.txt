@@ -1,0 +1,15 @@
+Header: Gas Field Decomposition Penalty x
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1.1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition storage target penalty function 'x' term.
+
+Paragraphs:
+Gas Field Decomposition Penalty x is the x term in the decomposition target penalty function. See Decomposition Method for details.
+Lists:
+

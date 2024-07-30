@@ -1,0 +1,20 @@
+Header: Performance Maximum Parallel Tasks
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum number of parallel optimizations run concurrently, where -1 means one task per CPU.
+
+Paragraphs:
+This setting applies to simulations that solve multiple tasks (mathematical problems) in parallel. The following are examples:
+
+The simulation creates multiple samples e.g. either Stochastic Risk Sample Count or Stochastic Outage Pattern Count is greater than one and the active simulation phase runs the samples in parallel e.g. ST Schedule Stochastic Method = "Parallel Monte Carlo", then the samples will be solved in parallel.
+
+The simulation defines a scenario tree with multiple full branches e.g. Tree Stages Leaves greater than one, and hanging branches Tree Stages Hanging Branches , then the full branches are independent and will be solved in parallel.
+
+The active simulation phase is running steps in parallel e.g. ST Schedule Step Link Mode = "Parallel".
+
+The number of concurrently executing parallel tasks will be limited by this setting. The default value of -1 means the limit will be set equal to the number of processors on the computer e.g. on a computer with 48 'cores' the maximum number of concurrently running tasks will be 48.  It is recommended to restrict the number of parallel tasks to less than or equal to the number of processors and only reduce the limit in the event that memory usage is constraining.
+Lists:
+

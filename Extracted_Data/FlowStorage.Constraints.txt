@@ -1,0 +1,11 @@
+Header: Flow Storage Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Flow Storage
+
+Paragraphs:
+Flow Storage Constraints is set of Constraints on the Flow Storage
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Heat Plant Efficiency Base
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Heat production no-load efficiency
+
+Paragraphs:
+Heat Plant Efficiency Base is the base energy consumption of a heat plant. It describes the base consumption and losses of a heat plant when the plant is on (with or without heat load demand). Heat Production + HeatPlantON *(Efficiency Base) = (Fuel Off-take + 3.6*(Gen Load))*(Efficiency Incr) .See also Efficiency Incr .
+Lists:
+

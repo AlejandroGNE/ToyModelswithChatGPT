@@ -1,0 +1,27 @@
+Header: Process Primary Output Units Operating Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient in production definition of the number of units operating at the Facility
+
+Paragraphs:
+Process Primary
+            Output Units Operating Coefficient applies to each Facility implementing the process through the Facility Primary Process membership.
+          It is the coefficient in the production definition equation of the Units Operating at the Facility .
+          This input can be used to define an output Commodity that is, at least in part, a function of the units operating of the Facility , e.g. in a power
+          system, the Commodity might be
+          "Inertia" provided by an electricity generator.
+
+See also:
+
+
+Lists:
+	- Process Secondary
+              Outputs Units
+              Operating Coefficient
+

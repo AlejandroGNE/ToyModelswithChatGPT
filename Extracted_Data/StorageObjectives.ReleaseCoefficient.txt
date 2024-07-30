@@ -1,0 +1,15 @@
+Header: Storage Objectives Release Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of release
+
+Paragraphs:
+Storage Objectives Release Coefficient is Coefficient of release.
+Lists:
+

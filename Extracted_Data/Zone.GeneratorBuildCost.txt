@@ -1,0 +1,19 @@
+Header: Zone Generator Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of units built
+
+Paragraphs:
+Zone Generator Build Cost is the total cost of generation capacity built in the period from LT Plan and is defined as:
+
+See also:
+Lists:
+	- Zone Generation Capacity Built
+	- Zone Generator Retirement Cost
+

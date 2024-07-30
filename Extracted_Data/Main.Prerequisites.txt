@@ -1,0 +1,56 @@
+Header: Prerequisites
+
+Table Details:
+
+Paragraphs:
+The PLEXOS software is designed to run on Windows based PCs. PLEXOS is a highly technical and resource intensive application, and should always be run on the fastest machines possible.
+
+The recommended minimum specification for test machines is:
+
+The recommended minimum specification for x86 architecture production machines is:
+
+*Note that larger problems may require significantly more RAM to achieve optimal performance.
+
+PLEXOS simulations will always benefit from:
+
+PLEXOS is designed to run on Windows operating systems that are currently supported by Microsoft:
+
+The PLEXOS simulation engine requires the Microsoft .NET common language runtime (CLR). The version of the .NET
+        framework required depends on the version of PLEXOS being installed:
+
+The appropriate .NET Framework version must be installed on the computer before PLEXOS is installed. The installation
+        program will abort if the framework is not installed.
+
+Note that the .NET Framework is automatically installed as part of Windows Update and may already be installed on your
+        computer. You can check to see if it has been installed by opening the Add/Remove Programs applet in the Windows Control
+        Panel. If the framework is not installed please visit http://www.microsoft.com/windowsupdate/ , or run
+        Windows Update from your computer's Start Menu to obtain it. In Windows Update, the .NET Framework is listed under
+        updates for your operating system. Once the framework is installed you will be asked to reboot your computer. There may be
+        updates available for the .NET Framework and these should be installed before running PLEXOS.
+
+PLEXOS  requires only minimal user privileges:
+Lists:
+	- 6th Generation Intel or AMD Processors
+	- 8 GB RAM (16+ GB recommended)*
+	- Work-station class machine
+	- Dual-core or Quad-core processor
+	- 16+ GB RAM*
+	- DirectX 9.0C level graphics or newer
+	- Faster processors (higher clock speed is more benefit than more cores/CPU)
+	- Faster memory e.g., RDRAM rather than SDRAM
+	- Faster disks e.g., SCSI or SATA rather than IDE or UIDE
+	- Windows 11
+	- Windows 10
+	- Windows Server 2022
+	- Windows Server 2019
+	- Windows Server 2016
+	- PLEXOS 8.0/8.1 requires .NET Framework 4.6.1
+	- PLEXOS 8.2/8.3 requires .NET Framework 4.7.2
+	- PLEXOS 9.0 and all minor versions require .NET 5.0
+	- All versions of PLEXOS 9.1 and 9.2 require .NET 6.0
+
+
+H2s:
+Operating Systems Supported
+Microsoft .NET Framework
+User Privileges

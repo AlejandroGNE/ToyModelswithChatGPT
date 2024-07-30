@@ -1,0 +1,15 @@
+Header: Facility Conditions Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Facility consumption
+
+Paragraphs:
+Facility Conditions Consumption Coefficient is the coefficient of Facility consumption.
+Lists:
+

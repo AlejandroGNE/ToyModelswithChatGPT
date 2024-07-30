@@ -1,0 +1,16 @@
+Header: Flow Storage Decomposition Penalty b
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.6931
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition inventory target penalty function 'b' term
+
+Paragraphs:
+See Commodity Decomposition
+            Penalty b for details.
+Lists:
+

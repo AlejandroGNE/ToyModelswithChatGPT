@@ -1,0 +1,15 @@
+Header: Water Plant Capacity Curtailed
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of non-positive-priced production curtailed
+
+Paragraphs:
+Water Plant Capacity Curtailed is calculated as:
+Lists:
+

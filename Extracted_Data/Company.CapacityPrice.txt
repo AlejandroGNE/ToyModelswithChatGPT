@@ -1,0 +1,15 @@
+Header: Company Capacity Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price paid for capacity in the company
+
+Paragraphs:
+Company Capacity Price is the capacity-weighted average price paid for generation capacity in the company.
+Lists:
+

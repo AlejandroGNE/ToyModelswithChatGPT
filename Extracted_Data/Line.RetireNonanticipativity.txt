@@ -1,0 +1,15 @@
+Header: Line Retire Non-anticipativity
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Line Retire Non-anticipativity is the price for violating non-anticipativity constraints in scenario-wise decomposition mode.
+Lists:
+

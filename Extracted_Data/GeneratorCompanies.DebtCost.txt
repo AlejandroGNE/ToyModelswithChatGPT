@@ -1,0 +1,15 @@
+Header: Generator Companies Debt Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of debt
+
+Paragraphs:
+Generator Generator Companies Debt Cost is defined as:
+Lists:
+

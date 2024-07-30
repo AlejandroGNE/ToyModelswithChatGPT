@@ -1,0 +1,11 @@
+Header: Entity Commodities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Entity Commodities is the set of Commodities produced by the Entity's Facilities.
+Lists:
+

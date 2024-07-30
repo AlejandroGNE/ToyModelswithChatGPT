@@ -1,0 +1,11 @@
+Header: Interface Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Interface inherits from
+
+Paragraphs:
+Interface Template is template the Interface inherits from
+Lists:
+

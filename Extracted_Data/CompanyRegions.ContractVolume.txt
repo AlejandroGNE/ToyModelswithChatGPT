@@ -1,0 +1,15 @@
+Header: Company Regions Contract Volume
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Volume of financial contracts (CfDs) sold in the region
+
+Paragraphs:
+Company Regions Contract Volume is the volume of financial contracts (CfDs) sold in the region.
+Lists:
+

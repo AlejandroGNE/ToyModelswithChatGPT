@@ -1,0 +1,25 @@
+Header: Generator Undispatched Pump Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pump capacity online but undispatched
+
+Paragraphs:
+Generator Undispatched Pump Capacity
+                is defined as:
+
+Undispatched Capacity = MAX(0, Input Pump Load × Units Pumping - Output Station-wide Pump Load )
+
+This is a measure of how much pumping (load) capacity is available but
+                not utilized given the unit commitment solution.
+
+See also:
+Lists:
+	- Generator Unused Pump Capacity
+	- Balancing Markets
+

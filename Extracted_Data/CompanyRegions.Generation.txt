@@ -1,0 +1,15 @@
+Header: Company Regions Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation in region
+
+Paragraphs:
+Company Regions Generation is the generation in region.
+Lists:
+

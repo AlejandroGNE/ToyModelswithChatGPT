@@ -1,0 +1,15 @@
+Header: Gas Storage Forced Outage
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of Withdrawal/Injection on Forced Outage
+
+Paragraphs:
+Gas Storage Forced Outage is the amount of Withdrawal/Injection capacity on forced outage.
+Lists:
+

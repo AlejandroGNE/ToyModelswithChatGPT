@@ -1,0 +1,15 @@
+Header: Reserve Regions Load Risk
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage of region's load at risk
+
+Paragraphs:
+Reserve Regions Load Risk is the proportion of Load that contributes to the requirement for the ancillary service (reported as Risk ).
+Lists:
+

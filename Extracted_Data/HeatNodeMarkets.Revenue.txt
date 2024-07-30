@@ -1,0 +1,15 @@
+Header: Heat Node Markets Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from sales to the market
+
+Paragraphs:
+Heat Node Markets Revenue is Revenue from sales to the market.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Storage Initial Carbon Quantity
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Carbon quantity of the gas storage at the start of period
+
+Paragraphs:
+Gas Storages Initial Carbon Quantity is Carbon quantity of the gas storage at the start of period.
+Lists:
+

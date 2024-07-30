@@ -1,0 +1,21 @@
+Header: Generator Min Heat Withdrawal Year
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of heat that must be withdrawn from storage each year
+
+Paragraphs:
+Generator Min Heat Withdrawal Year is Amount of heat that must be withdrawn from storage each year. This is the Year variant of Min Heat Withdrawal .
+
+See also:
+Lists:
+	- Generator Min Heat Withdrawal Hour
+	- Generator Min Heat Withdrawal Day
+	- Generator Min Heat Withdrawal Week
+	- Generator Min Heat Withdrawal Month
+

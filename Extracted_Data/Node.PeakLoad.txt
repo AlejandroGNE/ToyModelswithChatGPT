@@ -1,0 +1,20 @@
+Header: Node Peak Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak load across the current period
+
+Paragraphs:
+Node Peak Load is the maximum value of input Load over all intervals in the period.
+
+For example, if Partial Chronology maps three intervals with loads 10MW, 20MW and 30MW to a single LDC, the block
+            Peak Load is 30MW. In Full Chronology ST Schedule , each interval is modelled directly, so the input Node Load is summed over all bands and reflected in this property.
+
+For summary values the input load at the interval corresponding to the Region Peak Load is reported.
+Lists:
+

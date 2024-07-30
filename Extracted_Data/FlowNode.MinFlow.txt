@@ -1,0 +1,23 @@
+Header: Flow Node Min Flow
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow through the Flow Node each interval
+
+Paragraphs:
+Flow Node Min Flow is the minimum
+          (required) Flow through the Flow
+          Node each interval. You can also limit the flow by Hour , Day , Week , Month or Year .
+
+See also:
+
+
+Lists:
+	- Flow Node Max
+              Flow
+

@@ -1,0 +1,22 @@
+Header: Region Emissions Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission cost
+
+Paragraphs:
+Emissions Cost is the cost
+          incurred by Generators in the Region from production of the Emission .
+          It is calculated as:
+
+where: j indexes the Emission . See also:
+Lists:
+	- Region Emissions Production
+	- Region Emissions
+              Cost
+

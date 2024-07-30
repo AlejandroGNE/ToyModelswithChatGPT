@@ -1,0 +1,11 @@
+Header: Model MT Schedule
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	MT Schedule settings for the model
+
+Paragraphs:
+Model MT Schedule is the MT Schedule settings for the Model. MT Schedule runs if-and-only-if this membership exists.
+Lists:
+

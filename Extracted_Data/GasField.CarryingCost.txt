@@ -1,0 +1,15 @@
+Header: Gas Field Carrying Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total cost of gas carried in the gas field
+
+Paragraphs:
+Gas Field Carrying Cost is the total cost of gas carried in the gas field.
+Lists:
+

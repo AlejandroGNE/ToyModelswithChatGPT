@@ -1,0 +1,15 @@
+Header: Reserve Batteries Charge Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Charging reserve offer price
+
+Paragraphs:
+Reserve Batteries Charge Offer Price is the offer price to be used for the battery when charging and is comparable to the Generator Reserve Pump Offer Price .
+Lists:
+

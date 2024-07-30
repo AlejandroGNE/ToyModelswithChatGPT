@@ -1,0 +1,22 @@
+Header: Fuel Min Offtake
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum fuel offtake per interval
+
+Paragraphs:
+As input Fuel Min Offtake is the minimum amount of fuel that must be used in any interval of the simulation. For multi-period limits see the properties Min Offtake HOUR , Min Offtake DAY , Min Offtake WEEK , Min Offtake MONTH , Min Offtake YEAR .
+
+For this value to be treated as a hard constraint, the Min Offtake Penalty needs to be set to -1. Otherwise, this value is treated as a soft constraint.
+
+As output Fuel Min Offtake is the minimum Offtake in the period.
+
+See also:
+Lists:
+	- Fuel Max Offtake
+

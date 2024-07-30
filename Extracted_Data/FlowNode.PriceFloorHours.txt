@@ -1,0 +1,21 @@
+Header: Flow Node Price Floor Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours Market price floor was applied
+
+Paragraphs:
+Flow Node Price Floor Hours is the
+          number of hours Market Price
+            Floor was applied in markets attached to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Price
+              Cap Hours
+

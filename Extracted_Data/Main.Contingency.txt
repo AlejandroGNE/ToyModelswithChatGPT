@@ -1,0 +1,31 @@
+Header: Contingency Class
+
+Table Details:
+Description:	A contingency for use in security constrained economic dispatch
+
+Paragraphs:
+See also Contingency Property Reference for a detailed list of properties for this class of object.
+
+Each Contingency object defines a contingency for consideration in the security constrained OPF (SCOPF), which in turn is part of the security-constrained unit commitment (SCUC). The SCUC algorithm is detailed in the article Optimal Power Flow and briefly outlined here.
+
+SC-OPF/SCUC The SCUC (also called SCED = security-constrained economic dispatch) is an extension of the standard OPF in which the optimal set of power flows are simultaneously feasible in all defined contingencies. Contingencies are line or generator outages (or combinations) and are defined by adding to the Generators and Lines collections of the Contingency. Thus the PLEXOS SCOPF is a N - x contingency model i.e. each contingency may be a single element or multiple elements. The simulator formulates the OPF so that all post-contingency line flows are within their thermal limits ( Min Rating / Max Rating ). Often the SCOPF will be overly constraining with the standard limits are assumed, thus you can define Overload Min Rating and Overload Max Rating , which will be used as the line limits for post-contingency line flows. The set of flows whose post-contingency values are monitored is by default all lines, transformers, and interfaces whose normal flow levels are monitored (as defined by Transmission options). You can limit the set of post-contingency flows monitored by adding objects to the Monitored Lines , Monitored Transformers , and/or Monitored Interfaces collections. This approach can be used to limit the computation and memory overhead when considering a large number of contingencies. Execution To enable the SC-OPF you must set the Transmission SCUC Enabled property. The simulator reports the Shadow Price on each contingency. You can obtain more details about which elements are binding post-contingency in each contingency using the Binding Contingencies diagnostic.
+
+The SCUC (also called SCED = security-constrained economic dispatch) is an extension of the standard OPF in which the optimal set of power flows are simultaneously feasible in all defined contingencies. Contingencies are line or generator outages (or combinations) and are defined by adding to the Generators and Lines collections of the Contingency. Thus the PLEXOS SCOPF is a N - x contingency model i.e. each contingency may be a single element or multiple elements. The simulator formulates the OPF so that all post-contingency line flows are within their thermal limits ( Min Rating / Max Rating ). Often the SCOPF will be overly constraining with the standard limits are assumed, thus you can define Overload Min Rating and Overload Max Rating , which will be used as the line limits for post-contingency line flows. The set of flows whose post-contingency values are monitored is by default all lines, transformers, and interfaces whose normal flow levels are monitored (as defined by Transmission options). You can limit the set of post-contingency flows monitored by adding objects to the Monitored Lines , Monitored Transformers , and/or Monitored Interfaces collections. This approach can be used to limit the computation and memory overhead when considering a large number of contingencies. Execution To enable the SC-OPF you must set the Transmission SCUC Enabled property. The simulator reports the Shadow Price on each contingency. You can obtain more details about which elements are binding post-contingency in each contingency using the Binding Contingencies diagnostic.
+
+The SCUC (also called SCED = security-constrained economic dispatch) is an extension of the standard OPF in which the optimal set of power flows are simultaneously feasible in all defined contingencies.
+
+Contingencies are line or generator outages (or combinations) and are defined by adding to the Generators and Lines collections of the Contingency. Thus the PLEXOS SCOPF is a N - x contingency model i.e. each contingency may be a single element or multiple elements.
+
+The simulator formulates the OPF so that all post-contingency line flows are within their thermal limits ( Min Rating / Max Rating ). Often the SCOPF will be overly constraining with the standard limits are assumed, thus you can define Overload Min Rating and Overload Max Rating , which will be used as the line limits for post-contingency line flows.
+
+The set of flows whose post-contingency values are monitored is by default all lines, transformers, and interfaces whose normal flow levels are monitored (as defined by Transmission options). You can limit the set of post-contingency flows monitored by adding objects to the Monitored Lines , Monitored Transformers , and/or Monitored Interfaces collections. This approach can be used to limit the computation and memory overhead when considering a large number of contingencies.
+
+Execution To enable the SC-OPF you must set the Transmission SCUC Enabled property. The simulator reports the Shadow Price on each contingency. You can obtain more details about which elements are binding post-contingency in each contingency using the Binding Contingencies diagnostic.
+
+To enable the SC-OPF you must set the Transmission SCUC Enabled property. The simulator reports the Shadow Price on each contingency. You can obtain more details about which elements are binding post-contingency in each contingency using the Binding Contingencies diagnostic.
+
+To enable the SC-OPF you must set the Transmission SCUC Enabled property.
+
+The simulator reports the Shadow Price on each contingency. You can obtain more details about which elements are binding post-contingency in each contingency using the Binding Contingencies diagnostic.
+Lists:
+

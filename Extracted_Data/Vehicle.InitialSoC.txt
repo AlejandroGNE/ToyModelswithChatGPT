@@ -1,0 +1,27 @@
+Header: Vehicle Initial SoC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial state of charge
+
+Paragraphs:
+Vehicle Initial SoC is the
+            initial state of charge of a vehicle unit, at the start of the first
+            period of the Horizon .
+
+As output Initial SoC is the state-of-charge at the beginning of
+            the reporting period.
+
+See also:
+Lists:
+	- Vehicle Max
+              SoC
+	- Vehicle Min
+              SoC
+	- Vehicle SoC
+

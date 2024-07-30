@@ -1,0 +1,23 @@
+Header: Performance Crossover
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If crossover is used to transform the interior solution produced by barrier into a basic solution
+
+Paragraphs:
+Crossover transforms the interior point solution produced by the
+          barrier algorithm into a basic (corner point) solution. By default
+          crossover occurs after every barrier solve. For large-scale linear and
+          mixed integer programming problem e.g. like those produced
+          by LT Plan , turning off the crossover
+          is faster but the resulting solution, although optimal, is not a basic
+          solution and can exhibit minor numeric issues.
+
+Note that for a mixed integer optimization the crossover is required
+          for the root relaxation. Turning off the crossover applies only to the
+          final linear problem with integer variables fixed at their optimal
+          values.
+Lists:
+

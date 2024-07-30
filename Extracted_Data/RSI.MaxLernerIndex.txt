@@ -1,0 +1,18 @@
+Header: RSI Max Lerner Index
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.9
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Upper bound on Lerner Index
+
+Paragraphs:
+RSI Max Lerner Index defines an upper bound on the calculated Lerner Index .
+
+See also:
+Lists:
+	- RSI Min Lerner Index
+

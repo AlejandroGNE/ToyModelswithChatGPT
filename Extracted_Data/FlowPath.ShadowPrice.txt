@@ -1,0 +1,25 @@
+Header: Flow Path Shadow Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price
+
+Paragraphs:
+Flow Path Shadow Price is the dual
+          variable value associated with any binding Max
+            Flow or Min Flow constraint. It can be interpreted as the economic benefit of relaxing
+          the given limit by one unit. In summary reporting, Shadow
+            Price Forward reports the average price for Max
+            Flow constraint while Shadow Price Back reports on the Min
+            Flow constraint.
+
+See also:
+Lists:
+	- Flow Path Hours
+              Congested
+

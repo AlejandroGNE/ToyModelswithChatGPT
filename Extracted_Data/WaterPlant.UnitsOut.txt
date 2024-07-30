@@ -1,0 +1,18 @@
+Header: Water Plant Units Out
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Water Plant Units Out reports how many units are out of service in a given period.
+
+See also:
+Lists:
+	- Water Plant Service Factor
+

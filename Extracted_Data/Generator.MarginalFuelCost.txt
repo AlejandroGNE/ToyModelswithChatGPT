@@ -1,0 +1,18 @@
+Header: Generator Marginal Fuel Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Short-run marginal cost fuel component
+
+Paragraphs:
+Generator Marginal Fuel Cost is the short-run marginal cost fuel component and is defined as:
+
+See also:
+Lists:
+	- Generator SRMC
+

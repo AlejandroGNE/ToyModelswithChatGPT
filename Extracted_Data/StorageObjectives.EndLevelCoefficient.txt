@@ -1,0 +1,15 @@
+Header: Storage Objectives End Level Coefficient
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of storage end level
+
+Paragraphs:
+Storage Objectives End Level Coefficient is Coefficient of storage end level.
+Lists:
+

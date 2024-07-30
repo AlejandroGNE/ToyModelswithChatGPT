@@ -1,0 +1,16 @@
+Header: Generator Generation Credit Start Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Year to start applying Generation Credits
+
+Paragraphs:
+Generator Generation Credit Start Year is year to start applying Generation Credits.
+Specifically, it is the year that corresponds to Band 1 of Generation Credit .  Generation Credit Start Year defaults to the run start year.
+Lists:
+

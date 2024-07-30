@@ -1,0 +1,15 @@
+Header: Purchaser Max Energy Week
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in week
+
+Paragraphs:
+This is the weekly equivalent of Purchaser Max Energy .
+Lists:
+

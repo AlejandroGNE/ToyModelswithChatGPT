@@ -1,0 +1,15 @@
+Header: Water Pipeline Maintenances Outage Rating
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Max Rating during the outage
+
+Paragraphs:
+Water Pipeline Maintenances Outage Rating is Max Rating during the outage.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Emission Constraints Production Coefficient
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of emission production
+
+Paragraphs:
+Emission Constraints Production Coefficient sets the left-hand side term for Emission Production in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+By default, this sum is taken over all Generators producing the Emission . However you can limit the set of Generators included in the sum by adding Emission Companies memberships with no associated property definitions> only the emissions of those Companies will then be included. This is a special case of using 'null' memberships to filter the terms included in another constraint property.
+
+See also:
+Lists:
+	- Emission Constraints Abatement Coefficient
+

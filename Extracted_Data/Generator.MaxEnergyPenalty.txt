@@ -1,0 +1,20 @@
+Header: Generator Max Energy Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Max Energy] and [Max Capacity Factor] constraints.
+
+Paragraphs:
+Generator Max Energy Penalty is the penalty applied to violations of Max
+            Energy and Max
+            Capacity Factor constraints (and their period-specific
+          variants). The default value of -1 makes this a 'hard' constraint.
+          Note the unit is $/GWh not $/MWh thus if you want a penalty of
+          $10,000/MWh enter the value 10,000,000.
+Lists:
+

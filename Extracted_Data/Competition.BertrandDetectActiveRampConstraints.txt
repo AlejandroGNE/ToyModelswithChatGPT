@@ -1,0 +1,18 @@
+Header: Competition Bertrand Detect Active Ramp Constraints
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the Bertrand algorithm should detect when generators are constrained due to ramping.
+
+Paragraphs:
+Competition Bertrand Detect Active Ramp Constraints controls when the Bertrand algorithm detects active Generator ramp constraints ( Max Ramp Up or Max Ramp Down ) and uses this information to adjust the "bid stack" 'i.e.' units that are ramp constrained cannot respond by increasing their Generation and therefore it may be optimal to price above these generators.
+
+You can turn 'off' this option if the Mark-up produced by the Bertrand algorithm are too high due to frequent active ramp constraints.
+
+See also:
+Lists:
+	- Bertrand (Shadow Pricing) article
+	- Competition Bertrand OOMOD Enabled
+

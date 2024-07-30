@@ -1,0 +1,15 @@
+Header: Facility Gas Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from gas produced
+
+Paragraphs:
+Facility Gas Revenue is Revenue from gas produced.
+Lists:
+

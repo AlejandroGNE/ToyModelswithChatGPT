@@ -1,0 +1,11 @@
+Header: Zone Intrazonal Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Intrazonal Lines is the set of Lines that flow inside the Zone. This collection is reserved for reporting only.
+Lists:
+

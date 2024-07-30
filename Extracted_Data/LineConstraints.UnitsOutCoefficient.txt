@@ -1,0 +1,17 @@
+Header: Line Constraints Units Out Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of units out
+
+Paragraphs:
+Line Constraints Units Out Coefficient is the left-hand side coefficient on the number of circuits on the line that are out of service due either to a forced or planned outage.
+
+Note that you can set the number of circuits represented by the line using the Units property.
+Lists:
+

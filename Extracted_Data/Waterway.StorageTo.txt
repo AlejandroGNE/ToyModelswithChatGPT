@@ -1,0 +1,11 @@
+Header: Waterway Storage To
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	storage the waterway takes water to
+
+Paragraphs:
+Waterway Storage To is the sink storage for the waterway. A waterway need not have a sink storage. If not the water is assumed to flow "to the sea".
+Lists:
+

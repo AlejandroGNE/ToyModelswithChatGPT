@@ -1,0 +1,15 @@
+Header: Diagnostic Random Number Seed
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write out the Random Number Seed used for each Generator and Line
+
+Paragraphs:
+Diagnostic Random Number Seed prints the seeds used by Generator and Line objects when drawing random outages and distributing maintenance outages in the simulation. These seeds can be input using Generator Random Number Seed and Line Random Number Seed as input to repeat a given series of outages.
+
+See also:
+Lists:
+	- PASA Write Outage Text Files
+

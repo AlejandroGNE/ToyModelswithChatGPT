@@ -1,0 +1,17 @@
+Header: Battery Shadow Price Received
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received before uplift or mark-up models
+
+Paragraphs:
+Battery Shadow Price Received is
+          the Price Received before
+          uplift or mark-up models.
+Lists:
+

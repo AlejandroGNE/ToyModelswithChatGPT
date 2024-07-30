@@ -1,0 +1,16 @@
+Header: Gas Demand Max Bid Quantity
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum bid quantity when auto-generating steps
+
+Paragraphs:
+Gas Demand Max Bid Quantity is the maximum bid quantity when auto-generating steps. 
+          If this property isn't inputted, the default value is the x-intercept of the demand step elasticity line provided by the Bid Slope , Bid Quantity , and Bid Price ,
+Lists:
+

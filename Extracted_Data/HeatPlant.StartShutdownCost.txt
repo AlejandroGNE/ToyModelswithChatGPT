@@ -1,0 +1,21 @@
+Header: Heat Plant Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unit starts and shutdowns
+
+Paragraphs:
+Heat plant Start & Shutdown Cost is the cost of unit starts.
+
+When using multiple cooling states (hot, warm, cold for example), the reported start cost is based on the active cooling state.
+
+The Start Cost referred to here includes:
+Lists:
+	- The Start Cost
+	- The cost of Start Fuels as defined by the Offtake at Start .
+

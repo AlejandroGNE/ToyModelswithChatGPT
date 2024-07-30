@@ -1,0 +1,35 @@
+Header: Global Sample Weight
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Sampling: Weight applied to samples
+Sample Weight	0.013888889	-	1
+Sample Weight	0.027777778	-	2
+Sample Weight	0.041666667	-	3
+Sample Weight	0.055555556	-	4
+Sample Weight	0.069444444	-	5
+Sample Weight	0.083333333	-	6
+Sample Weight	0.097222222	-	7
+Sample Weight	0.111111111	-	8
+Sample Weight	0.111111111	-	9
+Sample Weight	0.097222222	-	10
+Sample Weight	0.083333333	-	11
+Sample Weight	0.069444444	-	12
+Sample Weight	0.055555556	-	13
+Sample Weight	0.041666667	-	14
+Sample Weight	0.027777778	-	15
+Sample Weight	0.013888889	-	16
+
+Paragraphs:
+Global Sample Weight defines the weight applied to sample. This is a multi-band property where the number of bands must be consistent with the Risk Sample Count .
+
+Example
+
+The following example shows how to over-ride the default uniform weighting of samples with custom values. In this case Risk Sample Count is 16.
+Lists:
+

@@ -1,0 +1,29 @@
+Header: Commodity Max Inventory Change Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of change in inventory in any day
+
+Paragraphs:
+Commodity Max Injection Change
+          creates a Constraint object that
+          limits the change in Closing
+            Inventory of the Commodity from one day to the next. By default
+          this is a 'hard' constraint. To create a soft constraint, set the Max Inventory Change
+            Penalty property. Note that the change in the first period is
+          relative to the Opening
+            Inventory .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+	- Commodity Constraints Inventory
+              Change Coefficient
+

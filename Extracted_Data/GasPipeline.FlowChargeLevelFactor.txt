@@ -1,0 +1,15 @@
+Header: Gas Pipeline Flow Charge Level Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Level factor corresponding to Flow Charge
+
+Paragraphs:
+Gas Pipeline Flow Charge Level Factor is a percentage of Max Flow Day for which flow is allowed in a given band each day. Further flow from the pipeline causing the flow to go above the flow for this band takes the simulation into the next band. The value Flow Charge Level Factor corresponds with the Flow Charge value for each band. This input is an alternative for Flow Charge Level .
+Lists:
+

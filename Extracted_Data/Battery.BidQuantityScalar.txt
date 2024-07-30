@@ -1,0 +1,18 @@
+Header: Battery Bid Quantity Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar applied to the [Bid Quantity] property
+
+Paragraphs:
+Battery Bid Quantity Scalar is a scaling factor applied to the defined Bid Quantity property. It performs the same function as Bid Price Scalar but for bids.
+
+See also:
+Lists:
+	- Battery Bid Price Scalar
+

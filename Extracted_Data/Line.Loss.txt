@@ -1,0 +1,29 @@
+Header: Line Loss
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses
+
+Paragraphs:
+Line Loss is the sum of losses incurred for Flow in both forward and reverse directions.
+
+When losses are defined by Resistance the reported Loss is based on the equation:
+
+Please notice that if the OPF method is set to \it \small "Fixed \ Shift \ Factor" then the calculated loss is multiplied by a Loss Refactor (LR)
+parameter which is calculated as follows:
+
+However, if a piecewise linear loss model is used, the loss is reported as the sum of losses in the active flow segments.
+
+Other loss models can be defined using these parameters:
+
+The loss on the line is allocated to the connected Nodes as defined by the Loss Allocation property.
+Lists:
+	- Line Loss Base
+	- Line Loss Incr
+	- Line Loss Incr 2
+

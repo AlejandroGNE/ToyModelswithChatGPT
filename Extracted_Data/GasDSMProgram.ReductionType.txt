@@ -1,0 +1,16 @@
+Header: Gas DSM Program Reduction Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,2)
+Key Property:	No
+Description:	Function structure for gas dsm program type inputs
+
+Paragraphs:
+Gas DSM Programs Reduction Type specifies how demand reduction is calculated for gas dsm program. The demand reduction is either directly input by the user or is calculated based on usage factor data entered by the user.
+          If reduction type is Usage Factors, corresponding demand type for Gas Demands should be set to Temperature or HDD.
+Lists:
+

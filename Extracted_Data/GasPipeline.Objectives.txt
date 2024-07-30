@@ -1,0 +1,11 @@
+Header: Gas Pipeline Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Gas Pipeline
+
+Paragraphs:
+Gas Pipeline Objectives is set of Objectives on the Gas Pipeline
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Gas Field Capacity Built
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas field capacity built
+
+Paragraphs:
+GasField Capacity Built reports the amount of increase in Gas Field Max Volume as a result of the LT Plan Capacity Expansion
+          and is calculated as:
+Lists:
+

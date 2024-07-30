@@ -1,0 +1,25 @@
+Header: Flow Control Class
+
+Table Details:
+Description:	Flow control
+
+Paragraphs:
+See also Flow Control Property Reference for a detailed list of properties for this class of object.
+
+Flow Control represent FACTS (Flexible Alternating Current Transmission System) devices on the system. These devices are dispatchable elements that modify the apparent phase angle delta along a path, thus allowing flow to be more highly optimized.
+
+A Flow Control is associated with a AC transmission line via its Line collection. The properties Min Angle and Max Angle set the limits for the Flow Control in degrees.
+
+In the DC-OPF the Flow Control is modelled as an equivalent parallel DC line as in Figure 1.
+
+The limits on the parallel DC line are computed based on the Line Reactance and the Flow Control angle bounds:
+
+PLEXOS optimizes the flow on this equivalent DC line and interprets the result as the optimal Angle on the Flow Control.
+
+Often this can result in a quite dynamic use of the angle, thus you can use the Penalty property to penalize changes in the Flow Control's angle from one period to the next.
+
+Note: This class was renamed from Phase Shifter since PLEXOS version 7.2 with extended features Further note: the flow control controls the flow into/out of the line by diverting the flow to other lines that connecting to the same node. Therefore, the limits of the flow control also depend on the limits of these local lines.
+
+Further note: the flow control controls the flow into/out of the line by diverting the flow to other lines that connecting to the same node. Therefore, the limits of the flow control also depend on the limits of these local lines.
+Lists:
+

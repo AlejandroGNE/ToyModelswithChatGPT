@@ -1,0 +1,15 @@
+Header: Line Hint Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Capacity expansion solution to be passed to the optimizer as a hint or initial solution
+
+Paragraphs:
+Line Hint Units Built is Capacity expansion solution to be passed to the optimizer as a hint or initial solution.
+Lists:
+

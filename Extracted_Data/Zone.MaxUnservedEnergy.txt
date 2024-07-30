@@ -1,0 +1,18 @@
+Header: Zone Max Unserved Energy
+
+Table Details:
+Units:	Input: MWh    Output: MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum unserved energy
+
+Paragraphs:
+Zone Max Unserved Energy is the maximum unserved energy that occurred in the time period. This is particularly useful for Reliability modeling because it represents the amount of firm capacity that needs to be added to the system to avoid unserved energy.
+
+See also:
+Lists:
+	- Region Max Unserved Energy
+

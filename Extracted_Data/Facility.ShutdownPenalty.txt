@@ -1,0 +1,25 @@
+Header: Facility Shutdown Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to shutting down a unit
+
+Paragraphs:
+Facility Shutdown Penalty is a
+          penalty applied to shutting down a unit that is additional to the
+          normal Shutdown Cost but is
+          not included in the reported Start
+            & Shutdown Cost . This penalty can be used to affect the
+          optimal unit commitment by either increasing or decreasing a unit's
+          apparent shutdown cost while not affecting the reported costs.
+
+See also:
+Lists:
+	- Facility Start
+              Penalty
+

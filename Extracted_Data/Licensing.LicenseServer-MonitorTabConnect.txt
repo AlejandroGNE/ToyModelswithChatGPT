@@ -1,0 +1,22 @@
+Header: Licensing: LicenseServer-MonitorTabConnect
+
+Table Details:
+
+Paragraphs:
+The monitor tab is used to monitor the status of the license server.
+
+Use this tab to monitor system progress, errors and license checkouts.
+
+CHECKOUTS WINDOW The checkouts window displays information for licenses that are currently checked out, such as the IP address and port number of the client holding the license and the name of the product license checked out.
+
+EVENT LOG The event log displays the time and status of all license server events, such as connections from clients and requests for licenses. This information is logged to a text file when you enable the logging feature on the Config tab.
+
+More Licensing Main Menu
+
+Licensing Main Menu
+Lists:
+	- Licensing Main Menu
+
+
+H2s:
+More

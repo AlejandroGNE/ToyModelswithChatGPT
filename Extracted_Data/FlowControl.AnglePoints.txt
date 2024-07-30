@@ -1,0 +1,31 @@
+Header: Flow Control Angle Points
+
+Table Details:
+Units:	°
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Flow control angle points
+Property	Value	Units	Band
+Angle Points	2	degrees	1
+Flow Loading Points	0	%	1
+Angle Points	1.8	degrees	2
+Flow Loading Points	30	-	2
+Angle Points	0.8	degrees	3
+Flow Loading Points	80	-	3
+
+Paragraphs:
+Flow Control Angle Points is used to define multi-band Flow Control Angles with Flow Control Flow Loading Points . A piece-wise linear curve can be defined with those two properties, given a fixed angle-flow function. The Angle Points is always decreasing with increasing Flow Loading Points , because of the operating principles.
+
+Example:
+
+Properties shown in above table will define a piece-wise linear angle-flow curve as below:
+
+
+
+See also:
+Lists:
+	- Flow Control Flow Loading Points
+

@@ -1,0 +1,15 @@
+Header: Generator Pump Operating Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the unit is operating in pump mode
+
+Paragraphs:
+Generator Pump Operating Hours is the number of hours the unit is operating in pump mode.
+Lists:
+

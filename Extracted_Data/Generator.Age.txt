@@ -1,0 +1,22 @@
+Header: Generator Age
+
+Table Details:
+Units:	yr
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average age of generating units
+
+Paragraphs:
+Generator Age is the average age in years of generating units at the end of each year.
+
+The age is calculated for all generators including those built by LT Plan .
+
+The property Initial Age defines the age of units at the start of the horizon.
+
+See also:
+Lists:
+	- Generator Power Degradation
+

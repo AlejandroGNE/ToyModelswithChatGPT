@@ -1,0 +1,17 @@
+Header: RSI Summer Period
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Summer Period Flag
+
+Paragraphs:
+RSI Summer Period is defined as:
+
+when the trading period month is in the range of the 5th to the 10th month of the year, otherwise it is defined as 0.
+Lists:
+

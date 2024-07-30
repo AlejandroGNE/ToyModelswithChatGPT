@@ -1,0 +1,21 @@
+Header: Generator Min Capacity Factor Hour
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum capacity factor in hour
+
+Paragraphs:
+Generator Min Capacity Factor Hour is Minimum capacity factor in hour.
+
+See also:
+Lists:
+	- Generator Min Capacity Day
+	- Generator Min Capacity Week
+	- Generator Min Capacity Month
+	- Generator Min Capacity Year
+

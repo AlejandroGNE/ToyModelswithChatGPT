@@ -1,0 +1,15 @@
+Header: Transmission Right Pricing Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Pricing method
+
+Paragraphs:
+Transmission Right Pricing Method is Pricing method.
+Lists:
+

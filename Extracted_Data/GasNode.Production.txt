@@ -1,0 +1,15 @@
+Header: Gas Node Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas produced by the gas fields
+
+Paragraphs:
+Gas Node Production is Quantity of gas produced by the gas fields.
+Lists:
+

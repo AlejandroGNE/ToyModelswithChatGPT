@@ -1,0 +1,23 @@
+Header: Battery Unused Load Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Unused load capacity (Max Load x Units - Load)
+
+Paragraphs:
+Battery Unused Load Capacity is defined as:
+
+Undispatched Capacity = MAX(0, Max Load × Units - Load )
+
+This is a measure of total load capacity available. To utilise this capacity additional units are allowed to charge and/or transition from discharging to charging.
+
+See also:
+Lists:
+	- Battery Undispatched Load Capacity
+	- Balancing Markets
+

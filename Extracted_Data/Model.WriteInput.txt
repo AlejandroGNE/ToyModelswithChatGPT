@@ -1,0 +1,16 @@
+Header: Model Write Input
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If Model input should be written to the output location along with the solution.
+
+Paragraphs:
+Model Write Input writes a zipped up compiled version of the input file to the solution folder.  The zip file archive includes the input database and all required datafiles, including the internally created data archives.  All unrelated model information is stripped out making this useful in a number of ways and these may include:
+Lists:
+	- Extracting a specific model for analysis, storage or transportation of data
+	- Separation of certain models into individual datasets
+	- Removing redundant data that may have been left in the model
+	- All internal constraints, such as Max Capacity Factor , which are created during the compiled file stage will be available in the compiled input file.  These can then be modified.  For example the Max Capacity Factor constraint can be changed to a soft constraint, rather than a hard constraint.
+

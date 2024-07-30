@@ -1,0 +1,11 @@
+Header: Flow Storage Entities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Entities associated with the Flow Storages
+
+Paragraphs:
+Flow Storage Entities is the set of Entities associated with the Flow Storages.
+Lists:
+

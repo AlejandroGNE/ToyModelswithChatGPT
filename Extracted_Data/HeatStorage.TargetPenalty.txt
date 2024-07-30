@@ -1,0 +1,15 @@
+Header: Heat Storage Target Penalty
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the target
+
+Paragraphs:
+Heat Storage Target Penalty is the penalty for violating the target.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Zone Capacity Shortage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity Shortage (below Min Capacity Reserves)
+
+Paragraphs:
+Zone Capacity Shortage is the amount that Capacity Reserves is below the defined Min Capacity Reserves limit. It is defined as:
+
+Shortage is allowed only when the Capacity Shortage Price is defined.
+
+See also:
+Lists:
+	- Zone Capacity Excess
+

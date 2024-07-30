@@ -1,0 +1,18 @@
+Header: Generator Rated Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed capacity accounting for [Rating] and [Rating Factor]
+
+Paragraphs:
+Generator Rated Capacity is the total capacity of the generator taking into account Rating and/or Rating Factor defined as:
+
+See also:
+Lists:
+	- Generator Available Capacity
+

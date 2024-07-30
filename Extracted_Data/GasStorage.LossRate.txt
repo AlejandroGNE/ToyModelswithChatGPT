@@ -1,0 +1,15 @@
+Header: Gas Storage Loss Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Rate of loss due to leakage, etc
+
+Paragraphs:
+Gas Storage Loss Rate is Rate of loss due to leakage, etc.
+Lists:
+

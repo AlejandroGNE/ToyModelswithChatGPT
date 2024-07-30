@@ -1,0 +1,11 @@
+Header: Gas Plant Decision Variables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas plants whose equations include the decision variable
+
+Paragraphs:
+Gas Plant Decision Variables is set of gas plants whose equations include the decision variable
+Lists:
+

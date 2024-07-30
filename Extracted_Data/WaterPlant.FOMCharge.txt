@@ -1,0 +1,15 @@
+Header: Water Plant FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+
+Paragraphs:
+Water Plant FO&M Charge is the annual Water Plant fixed operations and maintenance cost. This property forms part of the objective function for LT Plan capacity expansion.
+Lists:
+

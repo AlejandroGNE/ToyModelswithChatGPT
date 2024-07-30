@@ -1,0 +1,23 @@
+Header: Generator Pump Load Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Generator Pump Load Non-anticipativity applies when the phase Stochastic Method is set to "Scenario-wise Decomposition". It is used to identify the non-anticipative Pump Load decisions, and must be set in combination with Pump Load Non-anticipativity Time .
+
+See also:
+Lists:
+	- Generator Pump Unit Commitment Non-anticipativity
+	- Generator Unit Commitment Non-anticipativity
+	- Generator Generation Non-anticipativity
+	- Storage Trajectory Non-anticipativity
+	- Line Flow Non-anticipativity
+	- Interface Flow Non-anticipativity
+

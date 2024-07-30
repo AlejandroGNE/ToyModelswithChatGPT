@@ -1,0 +1,17 @@
+Header: Fleet Regulation Lower Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation lower reserve
+
+Paragraphs:
+Fleet Regulation Lower Reserve is the provision of regulation lower reserve.
+
+See Battery Regulation Lower Reserve .
+Lists:
+

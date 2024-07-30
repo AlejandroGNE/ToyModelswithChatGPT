@@ -1,0 +1,16 @@
+Header: Flow Storage Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Refer to Commodity Max
+            Units Built in Year .
+Lists:
+

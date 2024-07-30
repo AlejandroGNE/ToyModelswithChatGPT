@@ -1,0 +1,18 @@
+Header: Region Levelized Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Levelized cost of electricity
+
+Paragraphs:
+Region Levelized Cost is defined as:
+
+See also:
+Lists:
+	- Region LRMC
+

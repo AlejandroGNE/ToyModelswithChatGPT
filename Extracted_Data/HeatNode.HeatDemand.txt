@@ -1,0 +1,15 @@
+Header: Heat Node Heat Demand
+
+Table Details:
+Units:	Input: GJ (Metric), MMBtu (U.S. Imperial)    Output: GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Heat demand at the node
+
+Paragraphs:
+Heat Node Heat Demand is Heat demand at the node.
+Lists:
+

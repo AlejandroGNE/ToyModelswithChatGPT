@@ -1,0 +1,17 @@
+Header: MT Schedule Sampling Interval
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	In (-1,2,3,4)
+Description:	For Chronology = "Sampled", take [Sample Type] samples in each of these intervals of time.
+
+Paragraphs:
+MT Schedule Sampling Interval applies when the Chronology setting is "Sampled". Sampling Interval can take the following values:
+
+Notice that the value Step is only available for Sample Type = Year. In this case, Sampling Interval can only be and will be automatically set to Step, regardless the input value of Sampling Interval.
+
+See also:
+Lists:
+	- MT Schedule Sample Type
+

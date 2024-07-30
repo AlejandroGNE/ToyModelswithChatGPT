@@ -1,0 +1,12 @@
+Header: Diagnostic SDDP Convergence
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write SDDP convergence diagnostic file
+
+Paragraphs:
+Flag if a diagnostic of SDDP iterations is required, if true then the objective value and Future cost for each stage and each sample will be printed into the file.
+Lists:
+

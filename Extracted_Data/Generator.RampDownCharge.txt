@@ -1,0 +1,27 @@
+Header: Generator Ramp Down Charge
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Charge applied to ramping down
+
+Paragraphs:
+Generator Ramp Down Charge is a
+          charge applied to ramping down. This charge can be used to approximate
+          the maintenance/wear-and-tear cost of ramping. The charge is applied
+          to all Ramp between Min
+            Stable Level and Max
+            Capacity and also to the running down from Min
+            Stable Level to zero.
+          The cost incurred is reported in the property Ramp
+            Down Cost .
+
+See also:
+Lists:
+	- Generator Ramp
+              Up Charge
+

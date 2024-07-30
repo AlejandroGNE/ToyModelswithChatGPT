@@ -1,0 +1,11 @@
+Header: Financial Contract Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditions that apply to the financial contract
+
+Paragraphs:
+Financial Contract Generating Companies is the Generating party or parties for the Financial Contract.
+Lists:
+

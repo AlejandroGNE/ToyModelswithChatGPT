@@ -1,0 +1,27 @@
+Header: Advanced Settings
+
+Table Details:
+
+Paragraphs:
+Some of the default paths and settings in PLEXOS can be overridden using Environmental Variables.
+
+A number of temporary files may be created during the simulation, storing temporary information for the input and solution data. These are saved in the users Temp folder e.g. C:\Users\Administrator\AppData\Local\Temp\~PLEXOS
+
+The default temporary file location can be overridden using the following procedure:
+
+By default, temporary files which are created during the simulation are saved for seven days. A user may need to customize this setting, to either extend or reduce this time. It may be reduced to help "clean up" any old files, especially if their models run relatively quickly. However if a model was to take days to solve, then the client should increase the time period. This is to avoid the possibility that a required file may be incorrectly deleted.
+Lists:
+
+
+H2s:
+Contents
+1. Environmental Variables
+2. Temporary Files
+
+H3s:
+2.1. Temporary File Location
+2.2. Temporary File Age
+
+H5s:
+How to add or change the values of environment variables:
+How to change the default settings:

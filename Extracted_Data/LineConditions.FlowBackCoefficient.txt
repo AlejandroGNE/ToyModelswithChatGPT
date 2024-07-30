@@ -1,0 +1,15 @@
+Header: Line Conditions Flow Back Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of counter-reference direction flow in condition
+
+Paragraphs:
+Line Conditions Flow Back Coefficient is Coefficient of counter-reference direction flow in condition.
+Lists:
+

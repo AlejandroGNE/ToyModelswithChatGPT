@@ -1,0 +1,17 @@
+Header: Transmission Right Source Congestion Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Congestion charge on source side
+
+Paragraphs:
+Transmission Right Source Congestion Charge is Congestion charge on source side.
+
+Please note that this output property is not applied when source side is defined as a zone.
+Lists:
+

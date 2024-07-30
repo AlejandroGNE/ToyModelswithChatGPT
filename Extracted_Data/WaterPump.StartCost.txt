@@ -1,0 +1,24 @@
+Header: Water Pump Start Cost
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of starting a unit
+
+Paragraphs:
+Water Pump Start Cost is the cost of starting a unit. 
+          The cost of starting a unit is reported in the property Start & Shutdown Cost .
+
+If no initial conditions are defined for a Water Pump, the start decision variable 
+          for the first horizon period will not be included in the objective function. 
+          This allows the optimization to assume a start occurred some time in the past 
+          and so it can have a free start at the start of t=0.
+
+See also:
+Lists:
+	- Water Pump Shutdown Cost
+

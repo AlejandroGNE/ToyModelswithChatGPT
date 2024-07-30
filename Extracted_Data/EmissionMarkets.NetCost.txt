@@ -1,0 +1,15 @@
+Header: Emission Markets Net Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of revenue and cost
+
+Paragraphs:
+Emission Markets Net Cost is Net of revenue and cost.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Gas Transport Service Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of Gas transport capacity available for delivery
+
+Paragraphs:
+Gas Transport Service Factor is the
+          proportion of Gas Transport capacity that is available, i.e. , not
+          on outage, and defined as:
+
+Service Factor = 100 x ( Max Volume - Maintenance - Forced Outages ) / Max Volume
+
+Note the definition allows for partial outages therefore the Service Factor can be fractional.
+Lists:
+

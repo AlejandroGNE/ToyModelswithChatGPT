@@ -1,0 +1,15 @@
+Header: Battery Capacity Markets Sales
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity sold to market
+
+Paragraphs:
+Battery Capacity Markets Sales is Capacity sold to market.
+Lists:
+

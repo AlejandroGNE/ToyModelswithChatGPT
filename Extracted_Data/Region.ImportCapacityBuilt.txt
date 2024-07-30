@@ -1,0 +1,19 @@
+Header: Region Import Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Additional import capacity from the Region due to transmission expansion.
+
+Paragraphs:
+Region Import Capacity Built is the additional import capacity from the Region due to transmission expansion in LT Plan and is defined as:
+
+See also:
+Lists:
+	- Region Import Capacity Retired
+	- Region Export Capacity Built
+

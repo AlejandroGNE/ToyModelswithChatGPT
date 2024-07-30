@@ -1,0 +1,13 @@
+Header: Generator Heat Input
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators that provide heat input to the generator
+
+Paragraphs:
+Generator Heat Input is for the modelling of combined-cycle gas turbine plant (CCGT). It is set of gas turbine (GT) or combustion turbine (CT) generators that provide heat input to the generator. Defining this type of membership indicates that this Generator is a heat recovery steam turbine of a CCGT.
+
+See the article Combined Cycle Plant for more details.
+Lists:
+

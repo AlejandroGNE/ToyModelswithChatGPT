@@ -1,0 +1,19 @@
+Header: Generator CHP Heat Surrogate Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel Offtake proportion for Heat production (estimated as input user)
+
+Paragraphs:
+Generator CHP Heat Surrogate Fuel Offtake is a notional measure approach to which is used to estimate fuel offtake replacement in heat production delivered through CHP generation.
+
+The proportion of fuel offtake for heat production is estimated by the user input property [CHP Heat Surrogate Heat Rate Incr]:
+
+CHP Heat Surrogate Fuel Offtake = CHP Heat Surrogate Heat Rate Incr * CHP Heat Production
+Lists:
+

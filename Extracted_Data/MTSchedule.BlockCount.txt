@@ -1,0 +1,15 @@
+Header: MT Schedule Block Count
+
+Table Details:
+Units:	-
+Default Value:	3
+Validation Rule:	≥1
+Description:	Number of load duration curve blocks in each day/week/month.
+
+Paragraphs:
+MT Schedule Block Count applies when the Chronology = "Partial" or "Fitted". It controls the level of detail in each load duration curve (LDC). See the topic LT Plan Block Count for details.
+
+See also:
+Lists:
+	- MT Schedule Last Block Count
+

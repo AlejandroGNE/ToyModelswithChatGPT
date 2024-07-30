@@ -1,0 +1,15 @@
+Header: Facility Objectives Hours Down Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours the unit has been off
+
+Paragraphs:
+Facility Objectives Hours Down Coefficient is Coefficient of number of hours the unit has been off.
+Lists:
+

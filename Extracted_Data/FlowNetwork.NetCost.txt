@@ -1,0 +1,15 @@
+Header: Flow Network Net Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net value of Market purchases
+
+Paragraphs:
+Flow Network Net Cost is Net value of Market purchases.
+Lists:
+

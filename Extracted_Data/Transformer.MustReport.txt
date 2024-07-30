@@ -1,0 +1,19 @@
+Header: Transformer Must Report
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the Transformer must be reported regardless of Transmission [Report Voltage Threshold].
+
+Paragraphs:
+Transformer Must Report is used to override the filtering of Transformer reporting by voltage level as defined by the Transmission Report Voltage Threshold setting. It can take these values:
+
+See also:
+Lists:
+	- Node Voltage
+	- Transmission Report Voltage Threshold
+

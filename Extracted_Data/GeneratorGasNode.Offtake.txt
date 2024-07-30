@@ -1,0 +1,15 @@
+Header: Generator Gas Node Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Generator Gas Node Offtake is the fuel offtake from a gas node membership.
+Lists:
+

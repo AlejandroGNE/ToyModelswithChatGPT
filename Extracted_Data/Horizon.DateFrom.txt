@@ -1,0 +1,12 @@
+Header: Horizon Date From
+
+Table Details:
+Units:	-
+Default Value:	43831
+Validation Rule:	≥0
+Description:	Start date of the planning horizon
+
+Paragraphs:
+This property defines the start of the simulation horizon .
+Lists:
+

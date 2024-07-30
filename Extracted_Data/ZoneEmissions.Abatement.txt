@@ -1,0 +1,21 @@
+Header: Zone Emissions Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions abated
+
+Paragraphs:
+Zone Emissions Abatement is the emissions abated by Generators in the Zone for this Emission .
+          It is calculated as:
+
+where: j indexes the Emission .
+
+See also:
+Lists:
+	- Zone Emissions Abatement Cost
+

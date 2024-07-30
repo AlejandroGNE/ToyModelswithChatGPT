@@ -1,0 +1,26 @@
+Header: Region Capacity Shadow Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of capacity
+
+Paragraphs:
+Region Capacity Shadow Price is reported only by LT Plan and is the incremental value of capacity. The method of calculation of this property depends on the LT Plan Optimality setting. If this is set to "Linear Relaxation" then the capacity shadow price is equal to the value of the dual variable associated with the capacity balance constraint for the Region . Because expansion decisions in "Linear Relaxation" mode are continuous this dual variable will always equal the incremental cost to the system as a whole of adding the last unit of capacity.
+
+However, if the setting is "Integer Optimal" then the lumpy nature of the expansion decisions means that the dual variable on the capacity balance constraint will most-often be zero and so cannot be relied upon. The capacity shadow price can be estimated by examining all the 'new build' Generators in the Region and calculating the premium that would be required to exactly compensate for any losses i.e where the Generator Pool Revenue is not sufficient to cover the annualised Generator Build Cost . The required premia are calculated thus:
+
+and so the Capacity Shadow Price is the maximum of the Premium i .
+
+Note: The net profit value used in this calculation excludes the capacity revenue component.
+
+See also:
+Lists:
+	- Region LRMC
+	- Region Capacity Price
+	- Zone Capacity Shadow Price
+

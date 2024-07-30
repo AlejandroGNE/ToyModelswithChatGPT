@@ -1,0 +1,19 @@
+Header: Facility Efficiency Point
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Operating level associated with [Efficiency Incr]
+
+Paragraphs:
+Facility Efficiency Point is the
+          operating level expressed as a proportion of Max
+            Operating Level , used in combination with Efficiency
+            Incr to define a custom efficiency function for the Primary
+            Process conducted by the Facility overriding the Process Efficiency .
+Lists:
+

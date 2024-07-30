@@ -1,0 +1,12 @@
+Header: Diagnostic Sample From
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Limit diagnostic file writing to sample numbers starting at this number.
+
+Paragraphs:
+Allows a user to specify the sample numbers the diagnostics apply to.  This can be used in conjunction with Sample To to define a range of samples where diagnostics should be produced.
+Lists:
+

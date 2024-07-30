@@ -1,0 +1,15 @@
+Header: Transformer Overload Export Limit
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum post-contingency flow allowed on the transformer
+
+Paragraphs:
+Transformer Overload Export Limit is the maximum post-contingency flow allowed on the transformer.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Waterway Constraints Flow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of waterway flow.
+
+Paragraphs:
+Waterway Constraints Flow Coefficient is the left-hand side coefficient on the flow in the waterway in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

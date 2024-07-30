@@ -1,0 +1,66 @@
+Header: Generator Max Ramp Down
+
+Table Details:
+Units:	MW/min
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate that applies at the given load point
+Units	1	-
+Max Capacity	100	MW
+Min Stable Level	40	MW
+Max Ramp Up	0.5	MW/min.
+Max Ramp Up Penalty	100	$/MW
+Max Ramp Down	0.5	MW/min.
+Max Ramp Down Penalty	100	$/MW
+
+Paragraphs:
+Generator Max Ramp Down sets a
+          limit on the rate at which the generator can decrease production and
+          is expressed in megawatts per minute. This property is multi-band
+          which allows for different ramp limits depending on the generation
+          level. If a single band is defined, then this limit applies for Generation ranges between Min Stable
+            Level and Max Capacity ,
+          unless Run Down Rate or Shutdown Profile are
+          defined in which case this ramping limit applies before shutdown
+          begins.
+
+To define different ramp limits depending on generation level, pair
+          bands of the Max Ramp Down with Ramp
+            Down Point .
+
+For multi-unit generating stations the available ramp down is defined
+          as:
+
+When modelling Reserve the amount of
+          available ramping down capability may be reduced by the provision of
+          lower ancillary services. See the Response
+            Ratio property for more details.
+
+By default the ramping limit is a hard constraint meaning that no
+          violation is allowed. To create soft constraints with a penalty price
+          use the Max Ramp Down
+            Penalty property.
+
+To model the running down period where Generation is between Min Stable Level and zero use either the Shutdown
+            Profile or Run Down Rate properties.
+
+Related reporting properties:
+
+See also:
+Lists:
+
+	- Generator Ramp
+	- Generator Ramp
+              Down Price
+	- Generator Ramp
+              Down Violation Hours
+	- Generator Ramp
+              Down Violation
+	- Generator Ramp
+              Down Violation Cost
+	- Generator Max
+              Ramp Up
+

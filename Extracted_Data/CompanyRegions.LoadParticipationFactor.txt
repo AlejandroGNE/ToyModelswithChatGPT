@@ -1,0 +1,22 @@
+Header: Company Regions Load Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of region load the company is responsible for
+GenCo	North	0.25	-
+GenCo	South	0.10	-
+
+Paragraphs:
+Company Regions Load Participation Factor is used to assign some proportion of region load to a company. This load then appears in the reported Company Load .
+
+Example:
+
+Note:
+Lists:
+	- The values are entered as decimals and not as percentages.
+

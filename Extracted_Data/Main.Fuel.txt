@@ -1,0 +1,126 @@
+Header: Fuel Class
+
+Table Details:
+Description:	Fuel for a thermal generating unit
+
+Paragraphs:
+See also Fuel Property Reference for a
+          detailed list of properties for this class of object.
+
+
+
+Fuel data can be input either:
+
+See the Commodity Unit topic for details on how Unit and Energy
+            Density work together.
+
+The Fuel class is used to represent all types of fuel used for
+          generation or generating unit start up:
+
+Note that the collections Generator Fuels and Generator Start Fuels are one-to-one by
+          default. To model multiple fuels for either generation or start-up you
+          should change the collection to one-to-many using Configuration in the
+          user interface.
+
+
+
+The property Fuel Units is used to
+          switch a Fuel in/out of a running Model .
+
+The property Generator Is
+            Available switches a Fuel in/out of use by a Generator .
+
+
+
+The cost of the Fuel is set by either:
+
+You can define a different dispatch price for the fuel by using the Shadow Price property. In this case
+          the Price inputs are used for
+          accounting only.
+
+
+
+Broadly speaking, there are two sources of emissions associated with
+          Fuel use:
+
+There are many emission types that are commonly modelled, including
+          but not limited to Carbon dioxide (CO 2 ), Sulfur dioxide (SO 2 ),
+          Nitrogen oxide (NO x ), and Mercury (Hg). These are all
+          modelled using the Emission class.
+          Depending on the source and type of emission it might be more
+          appropriate to equate emission production directly with Fuel Offtake or with Generator Generation or a combination. For example, fugitive emissions are usually modelled
+          as a simple function of the Offtake whereas the best approach to modelling combustion emissions depends on
+          the emission type, with CO 2 being a function of Offtake but mercury being more closely related to Generation .
+
+You associate a Fuel with an Emission by adding the Fuel to the Emission Fuels collection, and then defining Emission Fuels Production Rate . For Generation related emissions
+          define Emission Generators Production Rate .
+
+
+
+Simple limits can be defined on fuels using the properties Max
+            Offtake and Min Offtake and
+          their hour/day/week/month/year variants. Fuel
+            Contract objects have similar constraints representing maximum
+          offtake as take-or-pay commitments.
+
+Other Constraints can be defined
+          on Fuel Offtake or Emissions Production associated with
+          the Fuel.
+
+
+
+The Fuel class works with the integrated gas-electric function. Fuel
+          objects provide the pricing information for gas. Fuel objects link to
+          the gas network with the Fuel Gas Nodes membership. This membership indicates which gas nodes the Fuel can be
+          purchased at. A Generator connects
+          to the gas network with the Generator Gas Node membership but should
+          also define a Generator Fuels membership.
+
+See Gas Modelling for more
+          details.
+
+
+
+A Fuel stockpile (inventory) can be modelled, so that any Offtake causes a Withdrawal from
+          inventory. The stockpile is modelled by the simulator whenever you
+          define Opening Inventory or Max Inventory with Delivery .
+          Inventory is tracked through time during the simulation in much the
+          same way as a Storage . Various limits
+          can be placed e.g. Max
+            Withdrawal and charges modelled including Delivery
+            Charge , Withdrawal Charge , Inventory Charge and Reservation
+            Charge . These inventory costs can be accumulated by a Company via the Fuel Companies membership.
+
+
+
+Fuel reports total usage as Offtake as well as the Total Cost and
+          volume-weighted Price . The simple Time-weighted
+            Price can also be reported. Costs are based on the Total
+            Price if defined, otherwise on the Shadow
+            Price .
+
+Fuel-related costs are passed through to Generator objects and reported in Generator Fuel Cost and/or Start
+            Fuel Cost . Generator SRMC is based on the Fuel Shadow Price .
+
+Fuel stockpile levels are reported as Opening
+            Inventory and Closing
+            Inventory .
+
+Fuel objects are reported by Company automatically based on the combination of Generator Fuels and/or Start
+            Fuels and Generator Companies .
+          This does not include inventory costs however, but these can passed to Company reporting if you define Companies membership in input.
+Lists:
+	- In the default units, which is controlled by the Units of Data
+            screen accessible from the Settings menu on the ribbon; or
+	- In custom units defined by the Unit property optionally combined with the Energy
+              Density property.
+	- Fuels are associated with generation using the Generator Fuels collection and for start up
+            via the Generator Start
+              Fuels collection.
+	- Fuels can produce Emissions .
+	- Fuels can be arbitraged in Markets .
+	- defining the Fuel Price property
+            with or without any Tax ; or
+	- by associating the Fuel with one or more Fuel
+              Contract objects.
+

@@ -1,0 +1,11 @@
+Header: Node Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Node
+
+Paragraphs:
+Node Conditions is set of conditional Variable objects involving the Node
+Lists:
+

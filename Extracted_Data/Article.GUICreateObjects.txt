@@ -1,0 +1,35 @@
+Header: How to Create Objects
+
+Table Details:
+
+Paragraphs:
+Objects are the fundamental building blocks of a PLEXOS model. All power system elements like generators, and transmission lines are objects, as are more abstract elements such as data scenarios, and options. There are multiple ways to create new objects:
+
+NOTE: Object names must be unique within each class even if the objects are in different categories.
+
+The Object Properties form has two lists:
+
+Lists the collections available and all memberships defined on the object i.e. you get one entry here per membership. This allows you to quickly review the memberships for the object - Create Memberships . You can double-click any membership to edit it.
+
+Lists the properties that have been activated for this class of object (see Configuration ). If the property has not been defined for the object then the value column shows "not defined", otherwise all defined values are listed. You can double-click any data point to edit the value(s).
+
+NOTE: You can also paste the object category name at the same time as the object name as long as you have defined the categories first - see Categories .
+
+NOTE: Using the Paste Special/Text command results in a faster paste operation from Excel than using the standard Paste command.
+Lists:
+	- Click the right mouse button on the appropriate system collection in the primary tree e.g. the Generators collection.
+	- Select "New Object" e.g. "New Generator" command.
+	- In the dialog that appears (Figure 2) enter a name for the new object, and optionally select a category and type a description, then press Ok
+	- The object will be created in the database and the Object Properties form will appear (Figure 3).
+
+
+H2s:
+Contents
+1. Introduction
+2. Create an Object Using the Objects Grid
+3. Create an Object Using a Wizard
+4. Bulk Enter a List of Objects
+
+H5s:
+Memberships (in red in Figure 3)
+Properties (in blue in Figure 3)

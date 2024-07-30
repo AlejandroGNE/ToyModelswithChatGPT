@@ -1,0 +1,15 @@
+Header: Line Ramp Down Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Flow for use with multi-band Max Ramp Down constraints
+
+Paragraphs:
+Line Ramp Down Point is Flow for use with multi-band Max Ramp Down constraints.
+Lists:
+

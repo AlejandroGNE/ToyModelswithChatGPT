@@ -1,0 +1,15 @@
+Header: Water Zone Excess Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of excess supply of water
+
+Paragraphs:
+Water Zone Excess Hours is Number of hours of excess supply of water.
+Lists:
+

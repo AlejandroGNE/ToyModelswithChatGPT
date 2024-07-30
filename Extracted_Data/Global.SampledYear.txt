@@ -1,0 +1,20 @@
+Header: Global Sampled Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Year selection for LT Plan. Sampling will occur only for selected years.
+
+Paragraphs:
+Global Sampled Year selects years to
+          be run in LT Plan. Only the selected years will be modeled in the
+          sampled chronology.
+
+See also: LT Plan Sample
+            Year Count
+Lists:
+

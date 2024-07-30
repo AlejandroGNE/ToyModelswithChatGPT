@@ -1,0 +1,15 @@
+Header: Gas Pipeline Total Variable Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total Variable Costs of gas from the pipeline
+
+Paragraphs:
+Gas Pipeline Total Variable Costs is the Total Variable Costs of gas from the pipeline.
+Lists:
+

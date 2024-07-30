@@ -1,0 +1,15 @@
+Header: Battery Constrained On Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constrained on revenue
+
+Paragraphs:
+Constrained on revenue compensates a Battery trading in a Uniform Pricing market for times when its marginal cost is above the SMP but it is dispatched.
+Lists:
+

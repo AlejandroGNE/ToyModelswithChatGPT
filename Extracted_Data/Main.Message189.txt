@@ -1,0 +1,11 @@
+Header: Message 189
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Failed to solve uplift. The solver returned solution status <value>.
+
+Paragraphs:
+Message 189 occurs in the following circumstances:
+Lists:
+

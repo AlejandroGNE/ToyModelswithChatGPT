@@ -1,0 +1,16 @@
+Header: Production Gas Demand Resolution
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Resolution of input gas demands
+
+Paragraphs:
+Production Gas Demand Resolution controls the resolution of Gas Demand and Gas Bid Quantity .
+
+The setting can take these values:
+
+Additionally, the Gas Demand Resolution will affect the resolution of the Gas Storage Injection Ratchet and Withdrawal Ratchet properties, as described in their articles.
+Lists:
+

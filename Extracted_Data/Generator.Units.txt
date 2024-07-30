@@ -1,0 +1,55 @@
+Header: Generator Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of installed units
+NEW	Units	1	-	1/01/2006
+NEW	Units	2	-	1/01/2007
+RETIRING	Units	1	-	
+RETIRING	Units	0	-	1/01/2010
+
+Paragraphs:
+Generator Units is the number
+              of installed units at the generation facility. This can simply
+              indicate the existence (1) or not (0) of a single unit, or the
+              presence of multiple units. For multi-unit facilities the units
+              are treated identically and properties such as Max
+                Capacity apply to each unit thus there is no need to adjust
+              other properties on the generator when the number of units
+              changes. The number of units can change via input at any time
+              during the simulation horizon and there is no limit to the number
+              of units.
+
+The number of units can increase in LT
+                Plan according to Max
+                Units Built and reduced by Max
+                Units Retired . Units can automatically retire if the Technical
+                Life property is set.
+
+There is a performance advantage in modeling using multi-unit
+              facilities because Generation is assumed to be spread evenly across the Units
+                Generating . However, when detailed unit commitment is
+              modeled e.g. start up and shutdown, unit commitment is
+              tracked unit-by-unit.
+
+Note:
+
+As output, Units reports the net of existing units and those
+              built or retired in LT Plan thus:
+
+Units (output) = Units (input) + Units
+              Built - Units Retired
+Lists:
+	- Power Station objects
+                group like generators together into multi-unit generators
+                automatically creating a single Generator object with properties
+                equal to the weighted-average value of the original objects.
+	- The Fixed Load property is a value (required Generation )
+                across all units in aggregated, unless the facility is an
+                expansion candidate, in which case Fixed Load is per unit.
+

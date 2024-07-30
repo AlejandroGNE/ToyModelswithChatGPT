@@ -1,0 +1,20 @@
+Header: Generator Clean Spark Spread
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Difference between price received and cost of fuel used to generate accounting for incremental cost of emissions.
+
+Paragraphs:
+Generator Clean Spark Spread is the difference between price received and cost of fuel used to generate accounting for incremental cost of emissions, is defined as:
+
+See also:
+Lists:
+	- Generator Price Received
+	- Generator SRMC
+	- Generator VO&M Charge
+

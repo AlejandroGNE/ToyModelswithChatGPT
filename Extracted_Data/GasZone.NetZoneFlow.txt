@@ -1,0 +1,15 @@
+Header: Gas Zone Net Zone Flow
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Quantity of gas pipeline flow (forward-backward)
+
+Paragraphs:
+Gas Zone Net Zone Flow is the difference between Forward Zone Flow and Back Zone Flow .
+Lists:
+

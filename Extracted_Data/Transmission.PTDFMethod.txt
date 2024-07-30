@@ -1,0 +1,14 @@
+Header: Transmission PTDF Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4)
+Description:	Method for computation of shift factors
+
+Paragraphs:
+Transmission PTDF Method controls the method used to compute power transfer distribution factors (PTDF), or shift factors, as described in the article Optimal Power Flow Methods , and may take the following values:
+
+The selection of slack bus(es) only affects the decomposition of locational marginal prices, not the absolute values. In PLEXOS the LMP components are reported in the properties Energy Charge , Congestion Charge , and Marginal Loss Charge .
+Lists:
+

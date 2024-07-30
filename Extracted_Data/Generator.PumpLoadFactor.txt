@@ -1,0 +1,15 @@
+Header: Generator Pump Load Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	A multiplier (percentage) on the pump load
+
+Paragraphs:
+Generator Pump Load Factor is a multiplier (percentage) on the pump load.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 196
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> defines up to <value> Generator Units and is a Reserve Contingency Generators for <value> Reserve objects but this membership is allowed only for single-unit Generator objects. For multi-unit use separate Generator objects.
+
+Paragraphs:
+Message 196 occurs in the following circumstances:
+Lists:
+

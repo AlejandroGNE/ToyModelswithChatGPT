@@ -1,0 +1,18 @@
+Header: Heat Plant Start Fuels Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Heat plant Start Fuels Offtake is the consumption of the fuel for starting up units, and is defined as:
+
+See also:
+Lists:
+	- Heat plant Start Fuel Offtake
+

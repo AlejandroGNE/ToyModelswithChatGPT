@@ -1,0 +1,30 @@
+Header: Fuel Delivery
+
+Table Details:
+Units:	Input: 1000·~    Output: ~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fuel delivered to the stockpile
+Delivery	750	TJ	1			W01,H01
+
+Paragraphs:
+Fuel Delivery is an amount of the Fuel delivered to into inventory. This is
+          the only way in which the inventory can be replenished.
+
+It is important to note that Delivery represents a discrete quantity
+          of fuel not a rate, hence you should define the property dynamically
+          as in the following example:
+
+Example
+
+In this example a delivery of 750 TJ of "Oil" occurs on the first day
+          of each week.
+
+See also:
+Lists:
+	- Fuel Delivery
+              Charge
+

@@ -1,0 +1,17 @@
+Header: Transmission Right Net Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Settlement net of scheduled Price
+
+Paragraphs:
+Transmission Right Net Profit is the settlement net of scheduled Price.
+
+Net Profit = Settlement - Quantity * Price
+Lists:
+

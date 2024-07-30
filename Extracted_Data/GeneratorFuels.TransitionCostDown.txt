@@ -1,0 +1,20 @@
+Header: Generator Fuels Transition Cost Down
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost required for Fuel Transition shutdown process (surplus over Production Offtake).
+
+Paragraphs:
+Generator Fuels Transition Cost Down is Cost required for Fuel Transition shutdown process (surplus over Production Offtake).
+
+Note:
+Lists:
+	- Please set the generator unit commitment optimality to integer to enable a integer 'stop' variable of the fuel.
+	- It is only for a Chronological phase.
+	- It is recommended to have Generator Min Stable Level defined to enable the min offtake of the fuel.
+

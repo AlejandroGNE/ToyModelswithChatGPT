@@ -1,0 +1,15 @@
+Header: Contingency Shadow Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contingency shadow price
+
+Paragraphs:
+Contingency Shadow Price is the dual variable associated with any binding line flow limits in the post-contingency OPF. This is calculated as:
+Lists:
+

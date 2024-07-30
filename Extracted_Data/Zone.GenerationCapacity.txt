@@ -1,0 +1,20 @@
+Header: Zone Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total installed generation capacity
+
+Paragraphs:
+Zone Generation Capacity is the total installed generation capacity and is defined as:
+
+See also:
+Lists:
+	- Zone Peak Load
+	- Zone Planning Peak Load
+	- Zone Capacity Reserves
+

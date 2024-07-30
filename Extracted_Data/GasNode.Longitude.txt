@@ -1,0 +1,14 @@
+Header: Gas Node Longitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Longitude
+
+Paragraphs:
+Longitude is the decimal representation of the longitude for the Gas Node . Longitude is used in combination with Latitude to set coordinates for the Gas Node when visualizing the system:
+
+See the User Interface Guide for more details.
+Lists:
+

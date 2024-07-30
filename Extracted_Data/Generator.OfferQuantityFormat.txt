@@ -1,0 +1,24 @@
+Header: Generator Offer Quantity Format
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Format for [Offer Quantity] and [Offer Price]
+
+Paragraphs:
+Generator Offer Quantity Format is the format for Offer Quantity and Offer Price .
+
+The total quantity is the sum of offer/bid quantity across the bands. You must define the same number of bands for quantity and price.
+
+The total is the offer quantity/bid in the top band i.e. the offer quantities are similar to load points (see Load Point ). You must define one more quantity band than price band.
+
+See the Offer Quantity topic for examples.
+
+See also:
+Lists:
+	- Generator Offers Must Clear in Order
+

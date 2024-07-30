@@ -1,0 +1,15 @@
+Header: Zone Committed Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of committed units
+
+Paragraphs:
+Zone Committed Capacity is Capacity of committed units.
+Lists:
+

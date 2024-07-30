@@ -1,0 +1,19 @@
+Header: Gas Node Flow Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of flowing gas through the node
+
+Paragraphs:
+Gas Node Flow Cost is the cost of
+          flows on the Gas node, and is defined as:
+
+Flow Cost = Flow
+            Charge × Flow
+Lists:
+

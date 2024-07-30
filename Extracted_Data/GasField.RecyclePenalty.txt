@@ -1,0 +1,19 @@
+Header: Gas Field Recycle Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the recycling constraint.
+
+Paragraphs:
+Gas Field Recycle Penalty is the penalty for violating the intrinsic recycling constraint created when Gas Field End Effects Method = "Recycle". The recycling constraint is of the form:
+
+where:
+
+The default value of -1 means "hard constraint" i.e. no violations are allowed. A value of zero means the recycling constraint can be violated at no cost.
+Lists:
+

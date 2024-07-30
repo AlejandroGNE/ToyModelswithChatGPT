@@ -1,0 +1,17 @@
+Header: Company Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Own generation + generation contracts
+
+Paragraphs:
+Company Generation is the total
+          generation from all sources including generators and physical
+          contracts, and is defined as:
+Lists:
+

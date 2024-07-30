@@ -1,0 +1,15 @@
+Header: Gas Plant Shutdown Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to shutting down a unit
+
+Paragraphs:
+Gas Plant Shutdown Penalty is Penalty applied to shutting down a unit.
+Lists:
+

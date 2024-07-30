@@ -1,0 +1,15 @@
+Header: Generator Objectives Flexibility Up Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of flexibility up
+
+Paragraphs:
+Generator Objectives Flexibility Up Coefficient is Coefficient of flexibility up.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Generator Pump UoS Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Use of system charge for pump load
+
+Paragraphs:
+Generator Pump UoS Charge is a component of the incremental cost of pumping and is used to represent an additional charge that generators may be required to pay to the market operator for adding load to the grid. This charge is added to the incremental cost of pumping similarly to VO&M Charge .
+
+This cost is reported as a component of Generator UoS Cost .
+
+See also:
+Lists:
+	- Generator UoS Charge
+

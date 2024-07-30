@@ -1,0 +1,15 @@
+Header: Generator Min Total Maintenance Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum percent of total maintenance scheduled within the time frame
+
+Paragraphs:
+Generator Min Total Maintenance Percent is minimum percent of total maintenance scheduled within the time frame. Note that two contiguous time frame with the same Min Total Maintenance Percent will be treated as a single time frame in the formulation.  This input is used only in PASA.
+Lists:
+

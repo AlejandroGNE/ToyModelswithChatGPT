@@ -1,0 +1,41 @@
+Header: Water Pump Commit
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Number of units that should be committed
+
+Paragraphs:
+WaterPump Commit predetermines or
+          'hardwires' the unit commitment either in all periods or selected
+          periods. Commit specifies the number of units that (if available)
+          should be committed. A value of -1 for any period means the unit
+          commitment is to be optimized in the usual way. It is acceptable to
+          mix -1 with non-negative values if you wish to set the commitment
+          pattern only in certain time periods.
+
+As with any property its value can change by date and pattern and
+          scenario, and even be read from a flat text file. Note that any
+          non-negative value of Commit is hard constraint e.g. a value of zero
+          means no units are allowed to be committed. If you want to set a
+          minimum unit commitment instead of a fixed commitment, use the Must
+            Run Units property.
+
+Water Pumps with the Commit property defined require less unit
+          commitment overhead in the optimization. This provides the simulation
+          with a significant computational boost, and hence it is desirable to
+          set this for all 'baseload' water pumps, or other water pumps with fixed
+          or semi-fixed commitment schedules. Commit is ignored when a unit is
+          out of service so there is no need to account for outages when
+          defining the property. Note however that Commit overrides other
+          constraints such as Min Down
+            Time and Min Up Time i.e. if you define Commit = 1 a unit will be committed if available
+          regardless of whether or not Min
+            Down Time gets violated and vice versa for Min
+            Up Time .
+Lists:
+

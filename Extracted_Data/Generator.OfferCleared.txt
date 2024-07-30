@@ -1,0 +1,21 @@
+Header: Generator Offer Cleared
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity cleared in band
+
+Paragraphs:
+Generator Offer Cleared is a multi-band output that records the amount cleared in each offer band .
+
+This property is reported for all generators not just those with user-defined offers.
+
+See also:
+Lists:
+	- Generator Cleared Offer Price
+	- Generator Cleared Offer Cost
+

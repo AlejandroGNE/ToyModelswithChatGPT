@@ -1,0 +1,34 @@
+Header: Storage Target
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	storage target
+
+Paragraphs:
+Storage Target sets the
+          end-of-interval target for the End
+            Volume . This target will be set every interval of the
+          simulation.
+
+You can define a penalty for violation of this constraint with the Target Penalty property.
+
+See also:
+Lists:
+	- Storage Target
+              Hour
+	- Storage Target
+              Day
+	- Storage Target
+              Week
+	- Storage Target
+              Month
+	- Storage Target
+              Year
+	- Storage Target
+              Level
+

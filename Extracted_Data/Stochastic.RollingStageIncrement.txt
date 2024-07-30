@@ -1,0 +1,39 @@
+Header: Stochastic Rolling Stage Increment
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	Any Value
+Description:	Number of stages rolled forward each iteration where -1 means this is automatically determined based on the scenario tree
+
+Paragraphs:
+This option applies to models with a scenario tree solved using Stochastic
+            Algorithm = "Rolling Horizon". Please refer to Multi-stage
+            Stochastic Optimization for more information on solving models
+          with scenarios trees. The Rolling Stage Increment sets how many stages
+          (weeks or months) of each iteration of the Rolling Horizon contain
+          branching. By default this is automatically determined based on the
+          probabilities in the scenario tree (see Minimum
+            Sample Weight ), but you can override the default and force the
+          Rolling Horizon method to branch over more or less stages in each
+          iteration.
+
+Example:
+
+Consider the progress messages from this Rolling Horizon simulation
+          with default settings:
+
+Each iteration considers branching over five stages ("Branching
+          Stages 1-5"). If we set Rolling Stage Increment to 10, then the number
+          of iterations will be halved and the length of each iteration in terms
+          of branching will double.
+
+Note that increasing the number of branching stages inevitably leads
+          to numerical instability as the probabilities expressed in the
+          optimization objective function become tiny.
+
+See also:
+Lists:
+	- Stochastic Rolling
+              Lookahead
+

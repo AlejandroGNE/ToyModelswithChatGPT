@@ -1,0 +1,15 @@
+Header: Gas Transport Gas Paths Canal Fees
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of using all canals in gas path by gas transport
+
+Paragraphs:
+Gas Transport Gas Paths Canal Fees is the cost of using all canals in a gas path by the gas transport .
+Lists:
+

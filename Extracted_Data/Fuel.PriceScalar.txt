@@ -1,0 +1,15 @@
+Header: Fuel Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Multiplier on the price of the fuel
+
+Paragraphs:
+Fuel Price Scalar is Multiplier on the price of the fuel.
+Lists:
+

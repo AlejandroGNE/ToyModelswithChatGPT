@@ -1,0 +1,22 @@
+Header: Zone Multi-area LOLE
+
+Table Details:
+Units:	day
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of days of outage including assistants from other connected zones (summary type "Sum")
+
+Paragraphs:
+NOTE: Multi-area LOLE is only computed by PASA when the Compute Multi-area Reliability Indices setting is 'on'.
+
+The Multi-area Loss of Load Expectation index is calculated directly from the Multi-area LOLP . It is simply:
+
+where:
+
+See also:
+Lists:
+	- Zone Multi-area LOLP
+

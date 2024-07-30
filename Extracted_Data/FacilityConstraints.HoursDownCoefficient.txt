@@ -1,0 +1,34 @@
+Header: Facility Constraints Hours Down Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours the unit has been off
+Constraint "EQ7"	Sense	<=	-	1
+Constraint "EQ7"	RHS	0	-	1
+Constraint "EQ7"
+                Facilities "S1C_GT1"	Units Started Coefficient	1	-	1
+Constraint "EQ7"
+                Facilities "GT1"	Hours Down Coefficient	-0.25	-	1
+
+Paragraphs:
+Facility Constraints Hours Down Coefficient is the left-hand side coefficient of the number
+          of hours the units at the facility have been off referenced to the
+          beginning of the simulation interval i.e. the numbers of
+          hours since the unit last shut
+            down . For the first interval of the Horizon this is determined by Initial
+            Hours Down .
+
+For the example in Table 1 the facility " S1C _GT1"
+          cannot start until facility " GT1 " has
+          been off for four hours.
+
+This coefficient can be applied to single- unit or multi-unit facilities. In the latter case, Hours Down Coefficient
+          is the number of hours the whole multi-unit facility has been shut
+          down.
+Lists:
+

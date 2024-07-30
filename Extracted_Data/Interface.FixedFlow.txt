@@ -1,0 +1,15 @@
+Header: Interface Fixed Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed flow on interface
+
+Paragraphs:
+Interface Fixed Flow is the fixed flow on interface.
+Lists:
+

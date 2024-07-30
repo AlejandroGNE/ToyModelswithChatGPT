@@ -1,0 +1,15 @@
+Header: Gas Transport Voyage Progress
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Percentage of voyage completed
+
+Paragraphs:
+Gas Transport Voyage Progress is Percentage of voyage completed.
+Lists:
+

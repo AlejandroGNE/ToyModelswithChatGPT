@@ -1,0 +1,11 @@
+Header: Gas Transport Initial Gas Path
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	initial gas path that the gas transport is on at the beginning of the horizon
+
+Paragraphs:
+Gas Transport Initial Gas Path is initial gas path that the gas transport is on at the beginning of the horizon
+Lists:
+

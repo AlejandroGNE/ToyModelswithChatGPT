@@ -1,0 +1,11 @@
+Header: List Scenarios
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Scenario objects in the List
+
+Paragraphs:
+List Scenarios is set of Scenario objects in the List
+Lists:
+

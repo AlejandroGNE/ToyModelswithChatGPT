@@ -1,0 +1,14 @@
+Header: Water Pipeline Water Node From
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Water Node the Water Pipeline exports from
+
+Paragraphs:
+Water Pipeline Water Node From is Water Node the Water Pipeline exports from.
+
+See also:
+Lists:
+	- Water Pipeline Water Node To
+

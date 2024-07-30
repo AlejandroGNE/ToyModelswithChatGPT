@@ -1,0 +1,15 @@
+Header: Fuel Min Offtake Week
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum fuel offtake in week
+
+Paragraphs:
+Fuel Min Offtake WEEK is the minimum total fuel that must be used per week - see Min Offtake for more details.
+Lists:
+

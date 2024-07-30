@@ -1,0 +1,19 @@
+Header: Interface Overload Min Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emergency rating in the counter-reference direction
+
+Paragraphs:
+Interface Overload Min Rating sets the emergency rating of the Interface for the purposes of security-constrained operation. This is the limit used when checking for violations of Interface limits post-contingency in the Security Constrained Unit Commitment. If this overload rating is not defined then the default Min Flow is used.
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+	- Interface Overload Max Rating
+

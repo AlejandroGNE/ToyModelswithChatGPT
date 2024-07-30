@@ -1,0 +1,15 @@
+Header: Waterway Shadow Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price on max flow constraint
+
+Paragraphs:
+Waterway Shadow Price is the shadow price on max flow constraint.
+Lists:
+

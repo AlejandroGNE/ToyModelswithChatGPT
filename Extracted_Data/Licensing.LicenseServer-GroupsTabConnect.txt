@@ -1,0 +1,37 @@
+Header: Licensing: LicenseServer-GroupsTabConnect
+
+Table Details:
+
+Paragraphs:
+The groups tab is used to create groups of computers to be used with the license reservation. This is to allow a group of computers to share a single license reservation.
+
+Adding a new group To add a new group, in the "Add Group" section and enter a unique group name. After entering a group name, press the "+" button to open up the "Add Group Member" dialog, from here you can enter in any computer name or IP address ( see allowed IP addresses ). If you wish to remove any group members, select one or more members and press the "-" button. Note: It is recommended groups and computers do not share a name. Note: Groups can have up to a maximum of 30 members. Note: Only machine names or IP addresses will work and not domain names. Editing a group To edit any group, select a group and right click on it, then select "Edit" from the context menu. This will change the "Add Group" section to "Edit Group" with the group name and members automatically filled in. There are three buttons at the bottom of the "Edit Group" section: Edit Group: This will submit any changes to the license server. Clear: This will clear all data from the group name and group members, however, any changes will still be made to the group you are editing. Cancel: This will clear all data from the group name and group members, then cancel the edit mode. More Allowed IP address rules Licensing Main Menu
+
+To add a new group, in the "Add Group" section and enter a unique group name. After entering a group name, press the "+" button to open up the "Add Group Member" dialog, from here you can enter in any computer name or IP address ( see allowed IP addresses ). If you wish to remove any group members, select one or more members and press the "-" button. Note: It is recommended groups and computers do not share a name. Note: Groups can have up to a maximum of 30 members. Note: Only machine names or IP addresses will work and not domain names. Editing a group To edit any group, select a group and right click on it, then select "Edit" from the context menu. This will change the "Add Group" section to "Edit Group" with the group name and members automatically filled in. There are three buttons at the bottom of the "Edit Group" section: Edit Group: This will submit any changes to the license server. Clear: This will clear all data from the group name and group members, however, any changes will still be made to the group you are editing. Cancel: This will clear all data from the group name and group members, then cancel the edit mode. More Allowed IP address rules Licensing Main Menu
+
+To add a new group, in the "Add Group" section and enter a unique group name.
+
+After entering a group name, press the "+" button to open up the "Add Group Member" dialog, from here you can enter in any computer name or IP address ( see allowed IP addresses ).
+
+If you wish to remove any group members, select one or more members and press the "-" button.
+
+Editing a group To edit any group, select a group and right click on it, then select "Edit" from the context menu. This will change the "Add Group" section to "Edit Group" with the group name and members automatically filled in. There are three buttons at the bottom of the "Edit Group" section: Edit Group: This will submit any changes to the license server. Clear: This will clear all data from the group name and group members, however, any changes will still be made to the group you are editing. Cancel: This will clear all data from the group name and group members, then cancel the edit mode. More Allowed IP address rules Licensing Main Menu
+
+To edit any group, select a group and right click on it, then select "Edit" from the context menu. This will change the "Add Group" section to "Edit Group" with the group name and members automatically filled in. There are three buttons at the bottom of the "Edit Group" section: Edit Group: This will submit any changes to the license server. Clear: This will clear all data from the group name and group members, however, any changes will still be made to the group you are editing. Cancel: This will clear all data from the group name and group members, then cancel the edit mode. More Allowed IP address rules Licensing Main Menu
+
+To edit any group, select a group and right click on it, then select "Edit" from the context menu. This will change the "Add Group" section to "Edit Group" with the group name and members automatically filled in.
+
+There are three buttons at the bottom of the "Edit Group" section:
+
+More Allowed IP address rules Licensing Main Menu
+
+Allowed IP address rules Licensing Main Menu
+Lists:
+	- Allowed IP address rules
+	- Licensing Main Menu
+
+
+H2s:
+Adding a new group
+Editing a group
+More

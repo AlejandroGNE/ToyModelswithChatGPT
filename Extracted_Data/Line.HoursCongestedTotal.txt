@@ -1,0 +1,25 @@
+Header: Line Hours Congested Total
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours line is congested in the reference direction
+
+Paragraphs:
+Line Hours Congested Total is the number of
+          hours the Line Flow is at or above its Max Flow or at or below its Min
+            Flow . The summary version of this property reports the number of
+          hours at Max Flow and Hours
+            Congested Back the number of hours at Min
+            Flow . Includes hours congested for base case and post-contingent hours.
+
+See also:
+Lists:
+	- Line Hours Congested
+	- Line Shadow
+              Price
+

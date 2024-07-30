@@ -1,0 +1,15 @@
+Header: Nonlinear Constraint Y Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Solution value for the y variable
+
+Paragraphs:
+Nonlinear Constraint Y Value is the Solution value for the y variable.
+Lists:
+

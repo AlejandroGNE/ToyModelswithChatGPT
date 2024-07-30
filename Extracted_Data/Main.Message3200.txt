@@ -1,0 +1,11 @@
+Header: Message 3200
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Could not interpret Variable <name> ML model schema column <name>. Expected Collection_Name_Property.
+
+Paragraphs:
+Message 3200 occurs in the following circumstances:
+Lists:
+

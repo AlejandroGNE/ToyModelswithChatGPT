@@ -1,0 +1,21 @@
+Header: Company Dump Energy Allocation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dump energy allocated to the company.
+C1 (via load object L1)	10
+C2 (via load object L2)	15
+C3 (via load object L3)	20
+C1	1.11
+C2	1.66
+C3	2.22
+
+Paragraphs:
+Company Dump Energy Allocation is Dump energy allocated to the company..
+Lists:
+

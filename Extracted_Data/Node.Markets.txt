@@ -1,0 +1,11 @@
+Header: Node Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	external markets connected to the node
+
+Paragraphs:
+Node Markets is set of markets the node can buy and sell energy at.
+Lists:
+

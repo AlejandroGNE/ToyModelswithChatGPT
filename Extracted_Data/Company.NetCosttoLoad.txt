@@ -1,0 +1,15 @@
+Header: Company Net Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net cost to load
+
+Paragraphs:
+Company Net Cost to Load relates to the company's physical contracts and is defined as:
+Lists:
+

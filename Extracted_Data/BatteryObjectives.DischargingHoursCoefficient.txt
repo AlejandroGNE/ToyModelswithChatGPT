@@ -1,0 +1,15 @@
+Header: Battery Objectives Discharging Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of hours discharging
+
+Paragraphs:
+Battery Objectives Discharging Hours Coefficient is Coefficient of hours discharging.
+Lists:
+

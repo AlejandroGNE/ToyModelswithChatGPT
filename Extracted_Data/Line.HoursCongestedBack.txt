@@ -1,0 +1,20 @@
+Header: Line Hours Congested Back
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours line is congested in the counter-reference direction
+
+Paragraphs:
+Line Hours Congested Back reports the
+          number of hours that the Flow is at Min Flow . Only includes hours congested for base case, i.e in pre-contingency state.
+
+See also:
+Lists:
+	- Line Shadow
+              Price Back
+

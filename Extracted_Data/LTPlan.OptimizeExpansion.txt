@@ -1,0 +1,17 @@
+Header: LT Plan Optimize Expansion
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If expansion is optimized by this simulation phase
+
+Paragraphs:
+By default, LT Plan will optimize
+          expansion for any resource defining the necessary expansion properties e.g. Generator Max
+            Units Built . However, LT Plan may be used to bridge (decompose) constraints or storage only and ignore
+          the expansion optimization, making the simulation phase similar to MT Schedule .
+
+Examples usage:
+Lists:
+

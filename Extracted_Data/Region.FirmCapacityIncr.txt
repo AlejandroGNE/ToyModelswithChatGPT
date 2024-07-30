@@ -1,0 +1,15 @@
+Header: Region Firm Capacity Incr
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Firm Capacity not explicitly modeled that should be included in reserve margin calculations
+
+Paragraphs:
+Region Firm Capacity Incr represents capacity not explicitly modeled that should be included in Capacity Reserve Margin calculations by adding to Firm Generation Capacity . In LT Plan this will have the effect of reducing capacity required to meet Min Capacity Reserve Margin .
+Lists:
+

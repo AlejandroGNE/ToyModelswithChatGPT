@@ -1,0 +1,15 @@
+Header: Heat Storage Build Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating build non-anticipativity constraints
+
+Paragraphs:
+Heat Storage Build Non-anticipativity is the price for violating build non-anticipativity constraints.
+Lists:
+

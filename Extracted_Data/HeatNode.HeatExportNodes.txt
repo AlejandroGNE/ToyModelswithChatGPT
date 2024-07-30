@@ -1,0 +1,12 @@
+Header: Heat Node Heat Export Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of node heat is exported to
+
+Paragraphs:
+Heat Node Heat Export Nodes is the set of heat nodes that the Heat Node is exporting heat to.
+A heat node can connect to many heat export nodes and participation factor can be defined to split the distribution of the heat or use to describe efficiency or loss.
+Lists:
+

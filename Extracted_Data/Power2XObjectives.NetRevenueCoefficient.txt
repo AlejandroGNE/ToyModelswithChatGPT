@@ -1,0 +1,15 @@
+Header: Power2X Objectives Net Revenue Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of net revenue
+
+Paragraphs:
+Power2X Objectives Net Revenue Coefficient is Coefficient of net revenue.
+Lists:
+

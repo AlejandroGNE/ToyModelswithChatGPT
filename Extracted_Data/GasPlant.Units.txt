@@ -1,0 +1,15 @@
+Header: Gas Plant Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of Gas Plant units in service
+
+Paragraphs:
+Gas Plant Units is Number of Gas Plant units in service.
+Lists:
+

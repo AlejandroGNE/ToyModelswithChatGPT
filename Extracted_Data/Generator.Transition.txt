@@ -1,0 +1,25 @@
+Header: Generator Transition
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators that can transition
+
+Paragraphs:
+The transition collection is used to create a relationship between a generator and a group of generators. This relationship describes a transition process between this generator and the target group of generators. A transition happens when shutting down the host generator and turning on the target generators. The host generator can make independent transitions to each generator or to all of them based on the Transition Type setting (individual/group) in the host generator.
+This process is usually associated with a Transition Cost . It should be noted that this cost is independent from other types of cost such as shut down cost. 
+If a transition is made, it will be recorded and a cost is added to the global cost objective. However, this cost is not included in the generation cost of the host or the target generator.
+Another point is that this is a one-way transition, which means a transition is recorded if only there is a switching from the host generator to the target generators, the reverse operation is not applied.
+
+Example:
+
+In this example, we have a CCGT (Combined Cycle Gas Turbine) setup, whereas the heat output from Generator GT1 , GT2 are fed into the input of Generator ST. GT1 -ST (1x1) is a configuration and GT1 & GT2 -ST (2x1) is another configuration to model 2 GTs running in parallel with ST. One way to model the transition from one configuration to another in Plexos is firstly creating two generators that represent these configurations, secondly defining a transition membership between them. Plexos will capture the transition between the two configurations and apply a cost (penalty).
+
+The transition membership only defines the basic operation of the CCGT configuration. For other specific technical requirements, generic constraints and decision variables can be used.
+For example, the transition time from GT1 -ST to GT1 & GT2 -ST is 45 minutes. First of all, we need to know the number of intervals covering the transition time. N = [Transition Time]/[Interval length]. Says the simulation interval is 15 minute, we have N = 45/15 = 3. 
+Using the time lag feature, we will write N custom constraint as:
+
+[ UnitGeneratingCoefficient ](t)_{ GT1 -ST} + [ UnitGeneratingCoefficient ](t)_{ GT1 & GT2 -ST} =<1 (1) [ UnitGeneratingCoefficient ](t)_{ GT1 -ST}+ [ UnitGeneratingCoefficient ](t+1)_{ GT1 & GT2 -ST} =< 1 (2)  ... [ UnitGeneratingCoefficient ](t)_{ GT1 -ST}+ [ UnitGeneratingCoefficient ](t+N)_{ GT1 & GT2 -ST} =<1 (N)
+This means that if GT1 -ST is active, the next 3 intervals (45 minutes), GT1 & GT2 -ST cannot be used.
+Lists:
+

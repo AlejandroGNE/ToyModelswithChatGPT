@@ -1,0 +1,24 @@
+Header: Facility Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue for production
+
+Paragraphs:
+Facility Revenue is the revenue
+          received from production of the Primary
+            Output Commodity of the Primary
+            Process performed by the facility. It is defined as:
+
+Revenue = Production × price
+
+where: price is defined as
+          follows: If the Facility is connected to a Flow
+            Node then price is the Flow Node Price ( i.e. the locational marginal price); otherwise price is set by the Market Price for the Commodity produced.
+Lists:
+

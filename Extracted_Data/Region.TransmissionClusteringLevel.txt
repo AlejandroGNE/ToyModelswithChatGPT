@@ -1,0 +1,22 @@
+Header: Region Transmission Clustering Level
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cluster nodes until this number of equivalent nodes remain (-1 means no clustering)
+
+Paragraphs:
+This setting determines the level of transmission network clustering (or 'equivalencing') performed on the Region . Clustering occurs on the injection points until this number of equivalent injection points (nodes) remain. The default of -1 means no clustering is performed. The method used to cluster injection points is a statistical reduction based on the likeness of their PTDF vectors similar to the method used to reduced statistical samples (see Stochastic Reduced Sample Count ).
+
+Transmission clustering is available when the simulation phase transmission detail is nodal e.g. ST Schedule Transmission Detail = "Nodal" and Transmission OPF Method = "Fixed Shift Factor OPF" only. Clustering reduces the complexity of transmission constraint equations and thus improves performance. It can be useful for large transmission networks where the focus of the study is on particular regions/areas and the results of other regions/areas are of less importance and thus an equivalenced solution is acceptable for those regions/areas.
+
+An alternative clustering criteria based on accuracy is available via the Region Transmission Clustering Tolerance setting.
+
+See also:
+Lists:
+	- Zone Transmission Clustering Level
+

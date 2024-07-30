@@ -1,0 +1,14 @@
+Header: Competition Market Trading Format
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1)
+Description:	Trading format for Cournot model (Bilateral=No Arbitrage, POOLCO=With Arbitrage).
+
+Paragraphs:
+Model Market Trading Format controls the assumption about trading in the Nash-Cournot game. It can take the following values:
+
+In general a pool is a more competitive environment.
+Lists:
+

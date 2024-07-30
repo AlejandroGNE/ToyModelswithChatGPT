@@ -1,0 +1,21 @@
+Header: Charging Station Net Charge Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of cost of charging and revenue from discharging
+
+Paragraphs:
+Charging Stations Net
+          Charge Cost is the net of cost of charging and revenue from
+          discharging and is calculated as:
+
+Net Charge Cost = Charge
+            Cost - Discharge
+            Revenue
+Lists:
+

@@ -1,0 +1,27 @@
+Header: Process Primary Output Unit Maximum
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum production as proportion of primary output
+
+Paragraphs:
+Process Primary
+            Output Operating Minimum Coefficient applies to each Facility implementing the process through the Facility Primary Process membership.
+          It sets a limit on production as a proportion of the nominal capacity
+          of the Units Operating at
+          the Facility . For example. if you
+          want to cap the production of the Primary
+            Output Commodity to half the
+          production capacity set this value to 50%.
+
+See also:
+Lists:
+	- Process Secondary
+              Outputs Unit
+              Maximum
+

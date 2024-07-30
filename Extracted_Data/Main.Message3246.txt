@@ -1,0 +1,11 @@
+Header: Message 3246
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Installed capacity exceeds expansion capacity for expansion candidate <value> <name>.
+
+Paragraphs:
+Message 3246 occurs in the following circumstances: when Installed capacity exceeds Expansion capacity for expansion candidate.
+Lists:
+

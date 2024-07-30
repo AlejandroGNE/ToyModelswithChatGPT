@@ -1,0 +1,30 @@
+Header: Facility Constraints Units Retired Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units retired
+
+Paragraphs:
+Facility Constraints Units Retired Coefficient is the left-had side coefficient of the
+          number of Units Retired in
+          the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × ∑ ( t = 1, k ) ( Facility Units
+            Retired t ) ... {≤,
+            ≥, =} b j
+
+where: k is the current period e.g. year of the simulation
+
+See also:
+Lists:
+	- Facility Constraints Units
+              Retired in Year Coefficient
+

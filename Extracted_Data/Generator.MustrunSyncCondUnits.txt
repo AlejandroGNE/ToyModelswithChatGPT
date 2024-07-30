@@ -1,0 +1,22 @@
+Header: Generator Must-run Sync Cond Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of must-run synchronous condenser units
+HYDRO	Units	1	-	
+HYDRO		1	-	
+HYDRO	Must Run Sync Cond Units	1	-	G1 OUT OF SERVICE
+
+Paragraphs:
+Generator Must-run Sync Cond Units is the number of units that are forced to run in synchronous condenser mode e.g. for reserve purposes.
+
+Example:
+
+In this example, the generator "HYDRO" is a single-unit generator that can operate in synchronous condenser mode. The conditional property dictates that it must run in synchronous condenser mode when the unit "G1" is out of service.
+Lists:
+

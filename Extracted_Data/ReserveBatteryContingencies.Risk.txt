@@ -1,0 +1,20 @@
+Header: Reserve Battery Contingencies Risk
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of Battery contingency to Risk.
+
+Paragraphs:
+Reserve Battery Contingencies Risk is the contribution of Battery Generation and Provision to the dynamic Risk .
+
+See also:
+Lists:
+	- Reserve
+	- Battery Contingencies
+	- Shadow Price
+

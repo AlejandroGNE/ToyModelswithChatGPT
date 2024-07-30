@@ -1,0 +1,17 @@
+Header: Generator Heat Rate
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Average heat rate (total fuel divided by total generation)
+
+Paragraphs:
+Generator Heat Rate is the average heat rate used in defining the heat rate function .
+
+Output Heat Rate is the average heat rate value at Max Capacity including no-load heat rate.
+Lists:
+

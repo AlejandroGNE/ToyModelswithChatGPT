@@ -1,0 +1,23 @@
+Header: Cournot Demand Intercept
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Demand function vertical intercept
+A	Demand Intercept	250	$/MWh
+A	Demand Slope	-0.02	$/MWh/MWh
+
+Paragraphs:
+This is the demand function intercept for use in Nash-Cournot game.
+
+The demand function is linear function with intercept in units of price ( e.g. $/ MWh ). The higher the intercept relative to the Demand Slope , the less elastic the demand function.
+
+Example
+
+As an output this is the demand function intercept used in the Nash-Cournot game. If defined as input this is simply a repeat of that input, otherwise it is the intercept computed based on the Elasticity assumed.
+Lists:
+

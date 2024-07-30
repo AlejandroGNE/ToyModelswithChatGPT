@@ -1,0 +1,28 @@
+Header: Commodity Constraints Built in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any capacity is built in the year
+
+Paragraphs:
+Commodity Constraints Built in Year Coefficient is the left-hand side coefficient on the
+          binary (0,1) variable indicating if any inventory capacity is built in
+            the year in LT Plan .
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × If( Commodity Units Built t = 0, 0, 1) ... {≤, ≥, =} b j
+
+where: t is the given period e.g. year of the simulation
+
+See also:
+Lists:
+	- Commodity Constraints Built
+              Coefficient
+

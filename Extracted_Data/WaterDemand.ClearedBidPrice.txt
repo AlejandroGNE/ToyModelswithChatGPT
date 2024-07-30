@@ -1,0 +1,15 @@
+Header: Water Demand Cleared Bid Price
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal bid band
+
+Paragraphs:
+Water Demand Cleared Bid Price is Price of marginal bid band.
+Lists:
+

@@ -1,0 +1,27 @@
+Header: Water Pump Max Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a pump can be off after being shut down
+
+Paragraphs:
+Water Pump Max Down Time is the
+          maximum number of hours a unit can be off in any commitment cycle. 
+          Max Down Time is a static property. If it is
+          defined dynamically (varying according to different periods), the
+          maximum value will be used.
+
+See also:
+Lists:
+	- Water Pump Min
+              Down Time
+	- Water Pump Min
+              Up Time
+	- Water Pump Max
+              Up Time
+

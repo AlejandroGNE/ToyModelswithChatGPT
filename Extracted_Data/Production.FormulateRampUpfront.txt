@@ -1,0 +1,14 @@
+Header: Production Formulate Ramp Upfront
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If ramp constraints should all be formulated upfront rather than checked iteratively.
+
+Paragraphs:
+Production Formulate Ramp Upfront determines how Generator ramping constraints (defined by Max Ramp Up and/or Max Ramp Down ) are enforced in the mathematical programming problem. This setting can take the following values:
+
+The former option does not require iterations of solutions to solve, and latter will result in iterations but a smaller problem size in general. You should test both settings and compare solution times. Use the method that results in the best solution times.
+Lists:
+

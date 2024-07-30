@@ -1,0 +1,24 @@
+Header: Commodity Injection Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of injections to the inventory
+
+Paragraphs:
+Commodity Injection Cost is the
+          cost of the gross injections to the inventory, and is defined as:
+
+Injection Cost = ( Injection + Injection Losses ) × Injection Charge
+
+
+
+See also:
+Lists:
+	- Commodity Withdrawal
+              Cost
+

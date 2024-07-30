@@ -1,0 +1,27 @@
+Header: Interface Hours Congested
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the interface is congested in pre-contingency state
+Min Flow	-850	MW
+Max Flow	780	MW
+
+Paragraphs:
+Interface Hours Congested is the number of hours the interface is flowing at either Min Flow or Max Flow and the Shadow Price is non-zero. Only includes hours congested for base case, i.e in pre-contingency state. The units of Hours Congested depends on the number of hours in each simulation interval .
+
+For summary reporting the total number of hours this occurs in either direction is reported separately. Hours Congested reports the number of hours at Max Flow and Hours Congested Back reports the number of hours at Min Flow .
+
+Example:
+
+For an Interface defined with these limits:
+
+An example set of flows and reported Hours Congested is shown in Figure 1. The Hours Congested reports as zero when the Flow is between its limits. But in the last 11 hours of this example the flow is at Max Flow and Hours Congested reports as 1 for each hour. In the summary report, the number of Hours Congested is 11.
+
+
+Lists:
+

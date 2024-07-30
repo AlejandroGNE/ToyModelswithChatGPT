@@ -1,0 +1,15 @@
+Header: Power2X Ramp Up Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of the maximum ramping up constraint.
+
+Paragraphs:
+Power2X Ramp Up Price is Shadow price of the maximum ramping up constraint..
+Lists:
+

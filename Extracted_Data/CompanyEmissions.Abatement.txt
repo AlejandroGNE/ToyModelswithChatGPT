@@ -1,0 +1,17 @@
+Header: Company Emissions Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions abated
+
+Paragraphs:
+Company Emissions Abatement is the emissions abated by Generators in the Company :
+
+where \[ j \] is the Emission
+Lists:
+

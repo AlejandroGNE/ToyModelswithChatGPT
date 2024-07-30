@@ -1,0 +1,15 @@
+Header: Gas Storage Source Gas Storages Delivered Emission
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission delivered by source gas storage to the gas storage
+
+Paragraphs:
+Gas Storage Source Gas Storages Delivered Emission is the emission delivered by source gas storage to the gas storage.
+Lists:
+

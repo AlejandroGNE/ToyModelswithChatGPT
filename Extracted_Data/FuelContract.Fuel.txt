@@ -1,0 +1,11 @@
+Header: Fuel Contract Fuel
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	fuel in the contract
+
+Paragraphs:
+Fuel Contract Fuel defines the fuel associated with the contract.
+Lists:
+

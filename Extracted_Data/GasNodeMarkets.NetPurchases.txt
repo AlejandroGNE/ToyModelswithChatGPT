@@ -1,0 +1,15 @@
+Header: Gas Node Markets Net Purchases
+
+Table Details:
+Units:	TJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net purchases from the market
+
+Paragraphs:
+Gas Node Markets Net Purchases is the net purchases from the market.
+Lists:
+

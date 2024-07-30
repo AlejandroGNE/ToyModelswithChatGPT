@@ -1,0 +1,92 @@
+Header: LT Plan - Timing and Staging Constraints
+
+Table Details:
+Max Units Built	0	-	
+Max Units Built	1	-	1/01/2012
+Max Units Built	2	-	1/01/2015
+Max Units Built	4	-	1/01/2020
+Max Units Built in Year	1	-	
+CCGT_stage1	Units	0	-	
+CCGT_stage1	Max Capacity	75	MW	
+CCGT_stage1	Heat Rate	11	GJ/MWh	
+CCGT_stage1	Max Units Built	1	-	1/01/2009
+CCGT_stage1	Max Units Retired	1	-	
+CCGT_stage1	Build Cost	110	$/kW	
+CCGT_stage1	Economic Life	30	years	
+CCGT_stage1	WACC	30	%	
+CCGT_stage2	Units	0	-	
+CCGT_stage2	Max Capacity	325	MW	
+CCGT_stage2	Heat Rate	7.5	GJ/MWh	
+CCGT_stage2	Max Units Built	1	-	1/01/2012
+CCGT_stage2	Build Cost	120	$/kW	
+CCGT_stage2	Economic Life	30	years	
+CCGT_stage2	WACC	12	%	
+CCGT	Units	0	-	
+CCGT	Max Capacity	325	MW	
+CCGT	Heat Rate	7.5	GJ/MWh	
+CCGT	Max Units Built	1	-	1/01/2011
+CCGT	Build Cost	210	$/kW	
+CCGT	Economic Life	30	years	
+CCGT	WACC	12	%	
+CCGT_mutually_exclusive	Sense	<=
+CCGT_mutually_exclusive	RHS	1
+CCGT_mutually_exclusive.Generators.CCGT_stage1	Units Built Coefficient	1.0
+CCGT_mutually_exclusive.Generators.CCGT	Units Built Coefficient	1.0
+CCGT_staging	Sense	<=
+CCGT_staging	RHS	0
+CCGT_staging.Generators.CCGT_stage1	Units Retired in Year Coefficient	-1.0
+CCGT_staging.Generators.CCGT_stage2	Units Built in Year Coefficient	1.0
+
+Paragraphs:
+Contents
+
+Introduction Multi-Stage Plant and Project Dependencies Mutually Exclusive Projects Project Staging
+
+1. Introduction
+
+The earliest possible start date of a project is set using the Generator or Line Project Start Date property. The number of units that can be built is set by the property Max Units Built , and this can vary across time to vary the total number of units built in aggregate. The property Max Units Built in Year limits the number of units built in any particular year. For example, in the following data an increasing total number of units can be built over the course of the horizon, but never more than one any in year:
+
+Any number of units up to the Max Units Built can be forced into service using the Min Units Built . You can also force a minimum number of units to be built in a particular year using the Min Units Built in Year property.
+
+More complex timing constraints are possible, including linking the build/retire decisions of different generators/lines by using generic Constraint class.
+
+2. Multi-Stage Plant and Project Dependencies
+
+Often a 'project' consists of multiple stages and there is a defined staging order and unique performance parameters for each stage. This is modelled in LT Plan using one Generator object per stage, and with the setting of appropriate build and retire inputs, and finally with generic constraints to link the stages.
+
+Consider the following example.
+
+A combined cycle plant can be built in one of two ways:
+
+Assume also that the open-cycle stage can be built 'immediately' whereas the combined-cycle can only be in service at or after 1/01/2012.
+
+Firstly we create Generator objects to represent the two stages (GT and CCGT), and a generator to represent the option to build the CCGT in one step.
+
+The Build Cost is allowed to change over time however for this example we assume a static value. Note also that the "CCGT_stage1" generator must allow 'retirement' by setting the Max Units Retired property. This is so that it can be superseded by the stage 2 plant.
+
+We now link the stages with Constraints to ensure that:
+
+3. Mutually Exclusive Projects
+
+To make two projects, i and j , mutually exclusive we need to create a constraint in the formulation like this:
+
+Note that in this equation y indexes the time periods (years in LT Plan).
+
+Here we create the Constraint object "CCGT_mutually_exclusive", then add in to it the Generators "CCGT_stage1" and "CCGT". We then define the following data:
+
+4. Project Staging
+
+To make sure that the "stage 1" and "stage 2" projects follow each other in sequence we need to create an equation like this:
+
+Here we create the Constraint object "CCGT_staging", then add the Generators "CCGT_stage1" and "CCGT_stage2" to the Constraint Generators collection. We then define the following data:
+
+Note the use of Units Built in Year Coefficient and Units Retired in Year Coefficient , which creates constraints for each year, rather than summing across all years as in the mutually exclusive projects case above.
+
+Previous Chapter | Next Chapter
+Lists:
+	- First as a open-cycle plant of low efficiency with a later upgrade to higher-efficiency combined cycle; or
+	- as a combined cycle plant in one 'stage'.
+	- "CCGT_stage2" is built only if  "CCGT_stage1" is built first
+	- "CCGT_stage1" 'retires' when "CCGT_stage2" is built
+	- "CCGT_stage1" and "CCGT" are mutually exclusive
+

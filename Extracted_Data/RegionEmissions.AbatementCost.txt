@@ -1,0 +1,18 @@
+Header: Region Emissions Abatement Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission abatement
+
+Paragraphs:
+Region Emissions Abatement Cost is the cost of emissions Abatement by Generators in the Region for this Emission . It is calculated
+          as:
+
+where:
+Lists:
+

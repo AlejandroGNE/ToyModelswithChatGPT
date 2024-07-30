@@ -1,0 +1,15 @@
+Header: Gas Pipeline Max Daily Flow
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum daily flow limit of the pipeline
+
+Paragraphs:
+Gas Pipeline Max Daily Flow is the maximum daily flow limit of the pipeline.
+Lists:
+

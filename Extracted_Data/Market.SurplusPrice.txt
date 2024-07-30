@@ -1,0 +1,15 @@
+Header: Market Surplus Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty price for excess supply
+
+Paragraphs:
+Market Surplus Price is Penalty price for excess supply.
+Lists:
+

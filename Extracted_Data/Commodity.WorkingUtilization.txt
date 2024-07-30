@@ -1,0 +1,22 @@
+Header: Commodity Working Utilization
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Working inventory capacity utilization
+
+Paragraphs:
+Commodity Working Utilization is
+          defined as:
+
+Working Utilization = Working
+            Inventory / Max Inventory
+
+See also:
+Lists:
+	- Commodity Utilization
+

@@ -1,0 +1,18 @@
+Header: Interface Export Limit
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum flow allowed on the interface
+
+Paragraphs:
+Interface Export Limit is the maximum flow allowed on the interface:
+
+See also:
+Lists:
+	- Interface Import Limit
+

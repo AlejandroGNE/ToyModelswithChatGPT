@@ -1,0 +1,16 @@
+Header: Power2X Constraints Installed Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of installed capacity
+
+Paragraphs:
+Refer to Facility Constraints Installed Capacity
+            Coefficient for details.
+Lists:
+

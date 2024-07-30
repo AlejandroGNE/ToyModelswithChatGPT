@@ -1,0 +1,18 @@
+Header: Region Wheeling Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Wheeling charge on exports from the region
+
+Paragraphs:
+Region Wheeling Charge is Wheeling charge on exports from the region.
+
+See also:
+Lists:
+	- Wheeling Method
+

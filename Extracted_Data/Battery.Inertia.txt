@@ -1,0 +1,15 @@
+Header: Battery Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Battery Inertia is Provision of inertia.
+Lists:
+

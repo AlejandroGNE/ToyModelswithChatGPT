@@ -1,0 +1,15 @@
+Header: Storage Spill Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of spill to "the sea"
+
+Paragraphs:
+Storage Spill Energy is Potential energy of spill to "the sea".
+Lists:
+

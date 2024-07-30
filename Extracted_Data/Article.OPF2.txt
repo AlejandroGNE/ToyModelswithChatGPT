@@ -1,0 +1,33 @@
+Header: Transmission - Linearized DC-OPF
+
+Table Details:
+r+jx	Impedance represented by the resistance respectively.
+G+jB	Real and imaginary terms of admittance (inverse of impedance). Note that the approximations of the imaginary term, 1/x is called susceptance.
+bus	Constant voltage construction to which transmission lines are connected.
+|V|q	Indicates voltage magnitude and phase angle at a system bus.
+p.u.	"per unit" indicates that the quantity has been scaled down for power calculations, where the scaling is specified by both a kilovolt and megawatt rating for any given section of the power system.
+
+Paragraphs:
+The following is a derivation and motivation for the linearized DC-OPF. This discussion is adapted from (Broad. 19996).
+
+The linearized DC load flow model is motivated by the observations that in large high voltage power systems:
+
+Hence the following approximations can be made:
+
+(Broad, 1996) shows that these assumptions lead to the equation for power flow on a line:
+
+where g kl is the susceptance such that g kl = -B kl = 1/ x Thus the power flow equations are entirely linear and can be represented directly in a linear programming (LP) framework.
+
+To formulate the OPF in PLEXOS, reactance is converted to susceptance using the formula: g kl = 1/x The susceptance determines the power flow on a line using the equation: f kl = g kl (q k - q l ) In this equation q k - q l is the phase angle difference between the buses at each end of the line, measured in radians.
+Lists:
+	- G = r ⁄ (r 2 + x 2 ) ≅ 0;
+	- B = -x ⁄ (r 2 + x 2 ) ≅ 1 ⁄ x ; often the term g=1/x (susceptance) is used in power equations;
+	- cos(qk - q1 ) ≅ 1; this is the first term of the power series equivalent of cos(): and
+	- sin(qk - q1 ) ≅ qk - q1 this is the first term of the power series equivalent of sin().
+
+
+H2s:
+Contents
+1. Definitions
+2. Motivation
+3. Formulation

@@ -1,0 +1,19 @@
+Header: Battery Hours Charging
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours in charging state
+
+Paragraphs:
+Battery Hours Charging is the number of hours in charging state.
+
+See also:
+Lists:
+	- Hours Discharging
+	- Hours Idle
+

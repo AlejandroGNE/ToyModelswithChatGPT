@@ -1,0 +1,15 @@
+Header: Gas Zone Net Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas demand net of shortages and excesses
+
+Paragraphs:
+Gas Zone Net Demand is the sum of Gas Demands Net Demand .
+Lists:
+

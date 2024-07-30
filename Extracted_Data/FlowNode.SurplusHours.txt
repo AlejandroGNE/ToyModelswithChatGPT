@@ -1,0 +1,20 @@
+Header: Flow Node Surplus Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that supply exceeds demand
+
+Paragraphs:
+Flow Node Surplus is the number of
+          hours of surplus of supply in the Markets connected to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Shortage
+              Hours
+

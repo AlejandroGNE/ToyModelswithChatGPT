@@ -1,0 +1,15 @@
+Header: Decision Variable Definition Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Decision Variable value in definition Constraint
+
+Paragraphs:
+Decision Variable Definition Value Coefficient is coefficient of Decision Variable value in definition Constraint.
+Lists:
+

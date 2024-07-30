@@ -1,0 +1,23 @@
+Header: Reserve Generators Replacement Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Replacement reserve offer price in offer band
+
+Paragraphs:
+Reserve Generators Replacement Offer Price is Replacement reserve offer price in offer band.  The quantity part of the replacement offer is defined with Replacement Offer Quantity .
+
+The Replacement Offer Price and Replacement Offer Quantity properties are only applicable to reserves which provide replacement reserves.  These types are:
+
+The Replacement Offer Quantity and Replacement Offer Price properties can be used to set different offers on operational reserves.   For example the spinning reserve component may have one set of offers, while the replacement reserve component may require a second set of offers.
+
+NOTE:  The Replacement Offer Quantity and Replacement Offer Price properties override the Offer Quantity and Offer Price when defined on a Replacement Reserves .
+Lists:
+	- Operational Reserves ; and
+	- Replacement Reserves
+

@@ -1,0 +1,18 @@
+Header: LT Plan Pricing Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Type of generator pricing used in LT Plan.
+
+Paragraphs:
+LT Plan Pricing Method controls how generator offer prices are calculated in LT Plan.  For instance, when the Chronological box in the LT Plan option is unchecked, the LT Plan is modelled non-chronologically hence its generator unit commitment is always linearized. This means that the no-load cost of generation will be spread across the generation of the unit, rather than be "sunk" when a commitment decision is made. This has the effect of making generator offer prices, and hence the resulting nodal and regional prices, appear like average cost, rather than marginal cost.
+
+To control this behaviour you can set this switch to one of these values:
+
+If you are using LT Plan alone for pricing forecasting, then the marginal cost option is best, but if you are using LT Plan as part of a multi-phase simulation with ST Schedule then it is best to keep the default average cost setting.
+
+This switched is also available in MT Schedule as Pricing Method .
+Lists:
+

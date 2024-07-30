@@ -1,0 +1,15 @@
+Header: Purchaser Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid for energy
+
+Paragraphs:
+Purchaser Price Paid is the volume-weighted price paid for all energy purchases. The price is controlled by the combination of Region Load Settlement Model and Purchaser Load Settlement Source :
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Zone Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy price
+
+Paragraphs:
+Zone Price is the price paid by Load in the Zone . How this is computed is controlled by the Load Settlement Model setting.
+
+See also:
+Lists:
+	- Zone Cost to Load
+	- Zone Generator Pool Revenue
+	- Zone Load-weighted Price
+	- Zone Time-weighted Price
+

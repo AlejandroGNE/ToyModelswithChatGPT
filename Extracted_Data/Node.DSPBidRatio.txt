@@ -1,0 +1,15 @@
+Header: Node DSP Bid Ratio
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Demand-side participation quantity as a percentage of nodal load
+
+Paragraphs:
+Node DSP Bid Ratio is the demand-side participation quantity as a percentage of nodal load.
+Lists:
+

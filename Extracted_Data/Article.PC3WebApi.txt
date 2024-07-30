@@ -1,0 +1,47 @@
+Header: PLEXOS Connect Web API
+
+Table Details:
+
+Paragraphs:
+This section provides some guides on accessing and consuming the Web API supported by the PLEXOS Connect Server. PLEXOS Connect's API aims to be cross platform compatible, allowing you to query the Connect Server from any source that supports HTTP based calls. Embedded in the API is an online documentation browser that can be viewed from any browser if you navigate to: http[s]://[server]:[port]/api/connect/[version]/help/
+
+These APIs will be stored under your Connect Server's data path, and any new versions will be copied from the Connect Server install directory when you perform an upgrade. If your environment has multiple versions, the Connect Server will host all versions that are available to it. When hosting any api, the Connect Server will use the version number in the url, so API version 3.3 (included in Connect Server 3.3) will have the url: /api/connect/v3-3/
+
+NOTE: Any provided code examples have been written in PowerShell as it is a common scripting language available on any Windows PC. The results from any API query will be provided in JSON format for best compatibility.
+
+The Connect API relies on the OAuth 2.0 standard to provide authentication and authorization to users connecting to our API, with the Connect Server being the OAuth provider. Because of this, your app will require a registration with the Connect Server before you are granted access to the API. We recommend making a separate app registration for every script and app you might have; this is to provide greater security and allows each app's access to be revoked without affecting any other app you may have. You can create a new app registration at any time in Launch Control by right clicking on your own user (#1), selecting "Edit" (#2) and then navigating to the "App Registrations" tab in the user window.
+
+
+
+
+
+With the app registration tab open, you'll be able to view all apps you currently have registered, as well as create new registrations or delete existing apps. After clicking on the green plus button (#3 in Figure 2), you will be presented with the new app dialog:
+
+To register a new app with PLEXOS Connect, you will need to provide:
+
+After entering a valid name and selecting the appropriate app type, pressing 'OK' will submit the app to the PLEXOS Connect Server where the Connect Server will provide you the app's unique ID and a secret. The secret is a similar concept to a user password, only your specific app should know the secret and your app will need to provide Connect with its App ID and secret in order to authenticate itself during the OAuth 2.0 authorization process.
+
+While making web requests will vary from language to language, the principles of retrieving an OAuth 2.0 access token should be similar. Before requesting the access token from Connect, you will need your app's ID and secret, and if you are using a "Web App", you'll also need a user's username and password. With these details, you'll be able to make a request to the url: http[s]://[server]:[port]/api/oauth/token , and if the provided details are correct, you'll be provided with an access token that is valid for 30 minutes.
+
+If you are using a Web App, PLEXOS Connect will provide you with a refresh token that is valid for one hour after generation. This will allow you to exchange your refresh token for a new access token without requiring the user to enter their credentials again. Please note that when you request a new access token, the refresh token you specified will be invalidated and you'll be provided with a new refresh token.
+
+NOTE: We don't provide a refresh token to native apps; this is because you do not require user credentials to retrieve a new access token.
+
+Where possible, bulk querying of data from the Connect Server will be capped to 100 items. This means you may need to support repeated queries to the Connect Server to retrieve the full list of items, the 'Next' property on the query results will provide a URL for the next query if there is more data available. Additionally, the query results will also have a ' TotalCount ' property, this is the total number of results that can be queried and allows you to calculate how many pages of items there are.
+
+We highly recommend using certificates from a trusted provider, but this might not always be possible. If you decide to use self-signed certificates on your Connect Server machine, you may receive errors from your app or scripts when trying to make calls to our API. Each language will have different ways of trusting certificates, and we strongly recommend checking the certificate is the certificate you are expecting before accepting it in your apps.
+
+In PowerShell , an "Accept All" certificate checker might look like:
+
+While a more secure check, but also harder to keep updated, may look like: Please note: You'll need to replace "your certificate hash" with the hash for your self-signed certificate.
+Lists:
+	- Name A name to allow for easy identification of each app by yourself or an admin. This name must be unique across all apps registered under your user account.
+	- Type The type of app will specify how you will be authenticated and authorized under OAuth . PLEXOS Connect currently supports two types: Web App ( OAuth 2.0 type: Resource Owner Password Credentials) This option is intended for apps where you want the user to provide their login credentials. PLEXOS Connect will then authenticate the user's credentials and provide the app with access to the user's identity. Native ( OAuth 2.0 type: Client Credentials) This option is intended for apps and scripts without user input. The calling app will be granted the identity of the user who registered the app.
+	- Web App ( OAuth 2.0 type: Resource Owner Password Credentials) This option is intended for apps where you want the user to provide their login credentials. PLEXOS Connect will then authenticate the user's credentials and provide the app with access to the user's identity.
+	- Native ( OAuth 2.0 type: Client Credentials) This option is intended for apps and scripts without user input. The calling app will be granted the identity of the user who registered the app.
+	- Web App ( OAuth 2.0 type: Resource Owner Password Credentials) This option is intended for apps where you want the user to provide their login credentials. PLEXOS Connect will then authenticate the user's credentials and provide the app with access to the user's identity.
+	- Native ( OAuth 2.0 type: Client Credentials) This option is intended for apps and scripts without user input. The calling app will be granted the identity of the user who registered the app.
+
+
+H2s:
+3.1. How Do I Refresh an Access Token?

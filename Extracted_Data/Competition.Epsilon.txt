@@ -1,0 +1,12 @@
+Header: Competition Epsilon
+
+Table Details:
+Units:	-
+Default Value:	0.01
+Validation Rule:	>0
+Description:	Minimum margin between competing offer prices or between offer prices and the price cap.
+
+Paragraphs:
+Competition Epsilon is used to maintain a gap between offer prices when computing mark-ups . In the Bertrand Competition (Shadow Pricing) algorithm it prevents unintentional out-of-merit-order dispatch. For example, if a Generator is shadow bidding up from $15.00 to a competitor's price of $30.00, and Epsilon is 0.01, the mark-up is $14.99 resulting in a Offer Price of $29.99. Likewise for the last Generator in the merit-order Epsilon is the gap between the Offer Price and the Region VoLL . Note that Offer Price is capped by Region Price Cap .
+Lists:
+

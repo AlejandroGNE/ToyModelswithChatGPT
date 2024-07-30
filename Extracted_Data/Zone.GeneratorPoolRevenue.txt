@@ -1,0 +1,19 @@
+Header: Zone Generator Pool Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total generator pool revenue
+
+Paragraphs:
+Zone Generator Pool Revenue is the total payment made to Generators and Generation Contracts in the Zone for their Generation , and is defined as:
+
+See also:
+Lists:
+	- Zone Cost to Load
+	- Zone Settlement Surplus
+

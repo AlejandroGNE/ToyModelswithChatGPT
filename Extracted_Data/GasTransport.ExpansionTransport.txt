@@ -1,0 +1,19 @@
+Header: Gas Transport Expansion Transport
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the gas Transport is eligible for expansion planning
+
+Paragraphs:
+Gas Transport Expansion Transport is indicates if the Gas Transport is eligible for expansion planning.
+
+See also:
+Lists:
+	- Gas Transport Expansion 
+                Max Volume
+

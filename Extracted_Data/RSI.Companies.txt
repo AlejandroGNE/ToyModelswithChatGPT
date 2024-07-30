@@ -1,0 +1,11 @@
+Header: RSI Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+RSI Companies is the set of Companies in the Region . This collection is reserved for reporting only.
+Lists:
+

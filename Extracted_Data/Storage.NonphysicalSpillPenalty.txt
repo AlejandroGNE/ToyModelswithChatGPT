@@ -1,0 +1,20 @@
+Header: Storage Non-physical Spill Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to non-physical spill from the storage. A value of -1 means none are allowed.
+
+Paragraphs:
+Storage Non-physical Spill Penalty toggles on/off inclusion of variables that represent 'non-physical' Spill from the Storage . These spills are analogous to Dump Energy in the transmission system i.e. they represent additional releases required to obtain a feasible storage balance. The default value of -1 means that non-physical spill is not allowed.
+
+The amount of non-physical spill is reported as Storage Non-physical Spill . When non-physical spills occur the reported End Volume might be above Max Volume . Thus this setting should only be used to assist with diagnosing infeasibilities in hydro models.
+
+See also:
+Lists:
+	- Storage Non-physical Inflow Penalty
+

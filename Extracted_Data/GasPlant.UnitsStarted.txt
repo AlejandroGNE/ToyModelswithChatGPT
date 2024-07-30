@@ -1,0 +1,15 @@
+Header: Gas Plant Units Started
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units started
+
+Paragraphs:
+Gas Plant Units Started is the number of units started.
+Lists:
+

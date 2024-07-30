@@ -1,0 +1,15 @@
+Header: Maintenance Start Window
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the maintenance event is allowed to start in the period.
+
+Paragraphs:
+Maintenance Start Window is a Yes/No flag if the maintenance event is allowed to start in the period.
+Lists:
+

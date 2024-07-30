@@ -1,0 +1,11 @@
+Header: Message 3055
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Error in Data File Holiday. Expected <value> dates per holiday but got <value>.
+
+Paragraphs:
+Message 3055 occurs in the following circumstances:
+Lists:
+

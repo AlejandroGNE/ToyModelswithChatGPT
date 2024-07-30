@@ -1,0 +1,12 @@
+Header: Model Load Custom Assemblies
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the Model should run custom OpenPLEXOS assemblies.
+
+Paragraphs:
+Model Load Custom Assemblies toggles on/off loading of OpenPLEXOS Assemblies registered with the current database through the Settings / Assemblies table in the user interface. By default all registered assemblies will be loaded. Setting this option to "False" will disable loading of custom assemblies effectively turning off any customisations during execution of the Model.
+Lists:
+

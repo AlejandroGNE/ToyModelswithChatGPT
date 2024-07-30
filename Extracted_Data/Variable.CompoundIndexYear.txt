@@ -1,0 +1,22 @@
+Header: Variable Compound Index Year
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate of escalation per year
+
+Paragraphs:
+Variable Compound Index Year is Rate of escalation per year.
+
+Please Note: The rate of escalation is dependent on the Compound Type used.
+
+See also:
+Lists:
+	- Compound Index Day
+	- Compound Index Week
+	- Compound Index Month
+

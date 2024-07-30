@@ -1,0 +1,20 @@
+Header: Water Plant Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Water plant is on forced outage of Production
+
+Paragraphs:
+Water Plant Forced Outage Hours is the number of hours the Water plant is on forced outage of Production.
+
+See also:
+Lists:
+	- Water Plant Maintenance Hours
+	- Water Plant Units Out
+	- Water Plant Service Factor
+

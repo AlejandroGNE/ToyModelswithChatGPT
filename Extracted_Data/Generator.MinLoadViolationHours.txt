@@ -1,0 +1,20 @@
+Header: Generator Min Load Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that [Min Load] is violated.
+
+Paragraphs:
+Generator Min Load Violation Hours is the Number of hours that Min Load is violated
+
+See also:
+Lists:
+	- Generator Min Load Generation
+	- Generator Min Load Violation
+	- Generator Min Load Violation Cost
+

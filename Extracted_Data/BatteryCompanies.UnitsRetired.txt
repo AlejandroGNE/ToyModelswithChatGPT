@@ -1,0 +1,15 @@
+Header: Battery Companies Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of BESS units retired in this year
+
+Paragraphs:
+Battery Companies Units Retired is the number of BESS units retired in this year.
+Lists:
+

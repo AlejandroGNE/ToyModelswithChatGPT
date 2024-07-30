@@ -1,0 +1,18 @@
+Header: Commodity Decomposition Penalty b
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.6931
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition inventory target penalty function 'b' term
+
+Paragraphs:
+Commodity Decomposition Penalty b
+          is the b term in the decomposition inventory target penalty
+          function. See Decomposition
+            Method for details.
+Lists:
+

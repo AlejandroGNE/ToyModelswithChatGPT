@@ -1,0 +1,17 @@
+Header: Generator Max Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum heat allowed in storage
+
+Paragraphs:
+Generator Max Heat is Maximum heat allowed in storage.
+
+This is a key property that must be defined if heat storage is to be modelled.   Similarly the key properties Power to heat ratio and CHP Electric Heat Rate Incr need to be defined, so that the generator is modelled as a CHP unit.
+Lists:
+

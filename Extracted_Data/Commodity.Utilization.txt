@@ -1,0 +1,23 @@
+Header: Commodity Utilization
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Inventory capacity utilization
+
+Paragraphs:
+Commodity Utilization is defined
+          as:
+
+Utilization = Closing
+            Inventory / Max Inventory
+
+See also:
+Lists:
+	- Commodity Working
+              Utilization
+

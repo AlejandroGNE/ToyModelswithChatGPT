@@ -1,0 +1,15 @@
+Header: Purchaser Max Benefit Function Tranches
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10
+Validation Rule:	≥1
+Key Property:	No
+Description:	Maximum number of tranches in the piecewise linear benefit function.
+
+Paragraphs:
+Purchaser Max Benefit Function Tranches controls the granularity of the demand function for Purchasers when converting the linear demand function (defined by Demand Fn Intercept and Demand Fn Slope ) to a piecewise-linear function.
+Lists:
+

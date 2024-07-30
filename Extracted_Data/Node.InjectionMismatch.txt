@@ -1,0 +1,15 @@
+Header: Node Injection Mismatch
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Absolute value of mismatch of injection due to PTDF threshold.
+
+Paragraphs:
+Node Injection Mismatch is the absolute value difference between Net Injections and net of Imports and Exports. Net Injection = |NetInjection + Imports - Exports| This value provides a measure of mismatch introduced due to the PTDF threshold. If the PTDF threshold is zero, Injection Mismatch will be zero as well. A non-zero threshold will result in a non-zero value for Injection Mismatch for some nodes. The magnitude of mismatch increases with the PTDF threshold.
+Lists:
+

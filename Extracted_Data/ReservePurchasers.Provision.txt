@@ -1,0 +1,15 @@
+Header: Reserve Purchasers Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve
+
+Paragraphs:
+Reserve Purchasers Provision is the interruptible load provided by the purchaser to meet the ancillary service requirement.
+Lists:
+

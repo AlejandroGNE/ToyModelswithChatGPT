@@ -1,0 +1,11 @@
+Header: Water Pump Station Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Water Pump Station
+
+Paragraphs:
+Water Pump Station Objectives is set of Objectives on the Water Pump Station
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Entity Acceptable Risk
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Acceptable risk around target net profit
+
+Paragraphs:
+Entity Acceptable Risk is the Net
+            Profit associated with the Conditional Value at Risk (CVaR) set
+          by the Risk Level . See Formulate
+            Risk for details.
+Lists:
+

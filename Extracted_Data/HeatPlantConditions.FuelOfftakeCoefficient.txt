@@ -1,0 +1,15 @@
+Header: Heat Plant Conditions Fuel Offtake Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fuel offtake in condition
+
+Paragraphs:
+Heat Plant Conditions Fuel Offtake Coefficient is Coefficient of fuel offtake  in condition.
+Lists:
+

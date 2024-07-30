@@ -1,0 +1,29 @@
+Header: Generator Constraints Ramp Down Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of ramp down
+
+Paragraphs:
+Generator Constraints Ramp Down Coefficient is the left-hand side coefficient of Generator Ramp in the downward direction in
+          the constraint.
+
+With the coefficient represented by a (i,j) the
+          following term is added to the formulation:
+
+... + a (i,j) × Generator MAX(0, - Ramp ) ... {≤,
+            ≥, =} b j
+
+See also:
+Lists:
+	- Generator Constraints Ramp Coefficient
+	- Generator Constraints Ramp Up
+              Coefficient
+	- Generator Constraints Ramp
+              Down Violation Coefficient
+

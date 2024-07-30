@@ -1,0 +1,19 @@
+Header: Node Generator Auxiliary Use
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from generator auxiliaries
+
+Paragraphs:
+Node Generator Auxiliary Use is defined as:
+
+See also:
+Lists:
+	- Node Generation Sent Out
+	- Region Load Metering Point
+

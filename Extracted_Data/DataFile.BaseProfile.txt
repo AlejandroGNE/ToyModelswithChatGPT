@@ -1,0 +1,15 @@
+Header: Data File Base Profile
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Base profile for use in creating new profiles
+
+Paragraphs:
+Data File Base Profile specifies the name of the source load profile for Load Forecasting .
+Lists:
+

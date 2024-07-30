@@ -1,0 +1,15 @@
+Header: Power2X Bid Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Quantity bid in band
+
+Paragraphs:
+Power2X Bid Quantity is used in pairs with Bid Price to define a multi-band price premium or 'spread' relative to the Price Paid for the facility to operate.
+Lists:
+

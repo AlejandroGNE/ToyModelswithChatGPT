@@ -1,0 +1,21 @@
+Header: Battery Discharging
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Discharge rate/energy
+
+Paragraphs:
+Battery Discharging is the megawatt
+          rate of discharging of the battery (period level) or the gigawatt-hour
+          total energy removed from the battery (summary). This differs from the Generation according to the Discharge Efficiency .
+
+See also:
+Lists:
+	- Battery Charging
+	- Battery Generation
+

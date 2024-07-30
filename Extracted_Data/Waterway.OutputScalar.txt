@@ -1,0 +1,15 @@
+Header: Waterway Output Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Output flow scalar
+
+Paragraphs:
+Waterway Output Scalar is the output flow scalar.
+Lists:
+

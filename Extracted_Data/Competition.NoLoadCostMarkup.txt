@@ -1,0 +1,50 @@
+Header: Competition No Load Cost Mark-up
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If marginal cost bid should be adjusted to account for no-load cost
+Max Capacity	400		MW	1
+Min Stable Level	100		MW	1
+Load Point	100		MW	1
+Load Point	350		MW	2
+Load Point	400		MW	3
+Heat Rate Base	150		GJ/hr	1
+Heat Rate Incr	9		GJ/MWh	1
+Heat Rate Incr	9		GJ/MWh	2
+Heat Rate Incr	14		GJ/MWh	3
+0	0		150	300						
+100	100	9	1050	2100	18	21	1800	300	3	21
+350	250	9	3300	6600	18	18.85714286	6300	300	0.857142857	18.85714286
+400	50	14	4000	8000	28	20	11200	-3200	-8	28
+
+Paragraphs:
+Competition No-load Cost Mark-up is a flag that indicates if generator mark-ups should be automatically set such that no-load cost is recovered.
+
+Example
+
+Consider a Generator with the following capacity and heat rate properties:
+
+Assuming a Fuel Cost of 2.0 then we have the following:
+
+In this table:
+
+Note that mark-up is only ever positive, and full recovery only occurs when the offer band is fully dispatched. Note further that in the multi-band case, the final offer prices might not be monotonically non-decreasing. If this is the case, integer decision variables are automatically introduced to enforce clearing of the offer bands in physical order.
+
+The no-load cost mark-up is included in the reported properties Generator Mark-up and Offer Price .
+
+Please refer to the article Heat Rate Modelling for an explanation of no-load cost.
+Lists:
+	- Generation is the megawatt production level
+	- Band Quantity is the size of the offer band between the given load points
+	- Heat Rate Incr is the incremental heat rate in the offer band
+	- Fuel Offtake (Heat Rate Base + ∑ Heat Rate Incr b × Band Quantity b ) is the total fuel consumed when the unit is loaded to the top of the offer band
+	- Fuel Cost (Fuel Offtake × Fuel Price) is the total cost
+	- Marginal Cost (Heat Rate Incr × Fuel Price) is the incremental cost of production in the offer band
+	- Average Cost (Fuel Cost / Generation) is the average cost of production
+	- Spot Revenue (Marginal Cost &times Generation) is the revenue that would be paid to the generator based on its marginal cost in the offer band
+	- Loss (Fuel Cost - Spot Revenue) is the loss (positive) or gain (negative)
+	- Mark-up Required (Loss/Generation) is the mark-up (positive) or mark-down (negative) required for the generator to break even when the generator is loaded to the top of the offer band
+	- Offer Price (Marginal Cost + MAX(0, Mark-up Required)) is the final offer price in the band
+

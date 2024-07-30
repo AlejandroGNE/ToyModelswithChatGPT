@@ -1,0 +1,20 @@
+Header: Reserve Generators Total Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum reserve response from generation, pumped load and synchronous condenser adjustments
+
+Paragraphs:
+Reserve Generators Total Response limits the total provision of reserve from the generator across all of the following sources:
+
+Provision from each source can be limited individually through Max Response , Max Pump Response and Max Sync Cond Response respectively.
+Lists:
+	- adjustments to Generation ,
+	- adjustments to any Pumped Loads , and
+	- adjustments from any units in Synchronous Condenser mode.
+

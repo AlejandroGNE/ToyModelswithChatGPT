@@ -1,0 +1,15 @@
+Header: Heat Storage Min Heat Withdrawal Year
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of heat that must be withdrawn from storage each year
+
+Paragraphs:
+Heat Storages Min Heat Withdrawal Year is the minimum amount of heat that must be withdrawn from storage each year.
+Lists:
+

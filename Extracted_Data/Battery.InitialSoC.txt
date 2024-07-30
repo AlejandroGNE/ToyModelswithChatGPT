@@ -1,0 +1,42 @@
+Header: Battery Initial SoC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial State of Charge
+Battery1	Max Power	25	MW
+Battery1	Capacity	2	MWh
+Battery1	Max SoC	90	%
+Battery1	Min SoC	10	%
+Battery1	Initial SoC	10	%
+
+Paragraphs:
+Battery Initial SoC is the initial State of Charge of a BESS unit, at the start of the first period of the Horizon .
+
+Example:
+
+The example shows a typical set up for a BESS unit.
+
+When the following conditions are satisfied, Initial SoC may be freely optimized by PLEXOS (any value from 0 to 100%): Chronology is Sampled , The battery duration (ratio of Capacity to Max Power ) is short 
+                relative to the Sampling Interval . Under the above conditions, freely optimized initial SoC generally results in lower cost, more robust solutions in comparisons to those which
+            strictly adhere to user-defined initial SoC.
+
+As an extreme case, consider sampling only 1 day per year with End Effects Method set to 'Recycle'.
+            A user-defined initial SoC essentially fixes the SoC for one interval duration in each day of the year. If initial SoC is say 0% and simulations start from midnight, the battery cannot
+            effectively be used in a solar soak application to meet nighttime demand, as it will be empty every midnight. 
+            The one-time costs of filling low-duration batteries are contextually negligible 
+            when amortised over the entire Planning Horizon .
+
+See also:
+Lists:
+	- Chronology is Sampled ,
+	- The battery duration (ratio of Capacity to Max Power ) is short 
+                relative to the Sampling Interval .
+	- Battery Max SoC
+	- Battery Min SoC
+	- Battery SoC
+

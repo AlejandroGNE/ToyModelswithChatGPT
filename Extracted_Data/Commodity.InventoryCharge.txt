@@ -1,0 +1,26 @@
+Header: Commodity Inventory Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of keeping the Commodity in inventory
+
+Paragraphs:
+Commodity Inventory Charge is a
+          per-unit-per-day charge applied to Closing
+            Inventory in each Balance
+            Period .
+
+See also:
+Lists:
+	- Commodity Injection
+              Charge
+	- Commodity Withdrawal
+              Charge
+	- Commodity Delivery
+              Charge
+

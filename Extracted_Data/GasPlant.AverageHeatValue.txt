@@ -1,0 +1,15 @@
+Header: Gas Plant Average Heat Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Weighted average heat value of the gas blend served as raw gas to the gas plant
+
+Paragraphs:
+Gas Plants Average Heat Value is Weighted average heat value of the gas blend served as raw gas to the gas plant.
+Lists:
+

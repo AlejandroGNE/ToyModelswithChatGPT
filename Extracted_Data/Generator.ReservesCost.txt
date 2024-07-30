@@ -1,0 +1,17 @@
+Header: Generator Reserves Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from reserves
+
+Paragraphs:
+Generator Reserves Cost is the total cost assigned to the generator for ancillary services, and is defined as:
+
+Note that the cost allocation is controlled by the Reserve Cost Allocation Model property.
+Lists:
+

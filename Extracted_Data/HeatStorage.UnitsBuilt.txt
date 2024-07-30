@@ -1,0 +1,15 @@
+Header: Heat Storage Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of Heat Storage units built in this year
+
+Paragraphs:
+Heat Storage Units Built is the number of Heat Storage units built in this year.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Plant Capacity Retired
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water plant capacity Retired
+
+Paragraphs:
+Water Plant Capacity Retired is Water plant capacity Retired.
+Lists:
+

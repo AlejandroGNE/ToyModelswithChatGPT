@@ -1,0 +1,15 @@
+Header: Waterway Max Flow Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Flow] violations.
+
+Paragraphs:
+Waterway Max Flow Violation Cost is Cost of [Max Flow] violations..
+Lists:
+

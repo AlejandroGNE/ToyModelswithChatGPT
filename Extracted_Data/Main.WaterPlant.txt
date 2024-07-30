@@ -1,0 +1,14 @@
+Header: Water Plant Class
+
+Table Details:
+Description:	Water production plant e.g. desalination plant
+
+Paragraphs:
+See also Water Plant Property Reference for a detailed list of properties for this class of
+          object.
+
+A Water Plant connects two parts of the water network via the Water Node membership.
+
+See the Water Modelling article for details.
+Lists:
+

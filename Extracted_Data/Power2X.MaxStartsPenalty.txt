@@ -1,0 +1,16 @@
+Header: Power2X Max Starts Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Max Starts] constraints.
+
+Paragraphs:
+Refer to Facility Max
+            Starts Penalty for details.
+Lists:
+

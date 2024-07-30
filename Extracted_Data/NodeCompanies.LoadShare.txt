@@ -1,0 +1,15 @@
+Header: Node Companies Load Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage share of load ownership
+
+Paragraphs:
+Node Companies Load Share is Percentage share of load ownership. It is only used if the Nodes are part of a Pool. Otherwise, the Region Load will be used.
+Lists:
+

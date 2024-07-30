@@ -1,0 +1,15 @@
+Header: Company Load-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load-weighted average price
+
+Paragraphs:
+Company Load-weighted Price is Load-weighted average price.
+Lists:
+

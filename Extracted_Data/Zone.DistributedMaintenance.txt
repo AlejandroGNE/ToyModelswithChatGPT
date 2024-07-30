@@ -1,0 +1,20 @@
+Header: Zone Distributed Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maintenance notionally allocated to period
+
+Paragraphs:
+Zone Distributed Maintenance is reported by PASA . It is the Maintenance allocated by the optimization in order to level the Zonal Capacity Reserves .
+
+Note that this maintenance allocation is purely notional. It is subsequently used to produce the Maintenance Factor which acts to direct maintenance scheduling into appropriate high reserve periods.
+
+See also:
+Lists:
+	- Zone Discrete Maintenance
+

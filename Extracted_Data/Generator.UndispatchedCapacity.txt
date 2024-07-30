@@ -1,0 +1,26 @@
+Header: Generator Undispatched Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity on-line but undispatched
+
+Paragraphs:
+Generator Undispatched Capacity
+          is defined as:
+
+Undispatched Capacity = MAX(0, Rating × Units Generating - Generation )
+
+This is a measure of how much generation capacity is available but
+          not utilized given the unit commitment solution.
+
+See also:
+Lists:
+	- Generator Available
+              Capacity
+	- Balancing Markets
+

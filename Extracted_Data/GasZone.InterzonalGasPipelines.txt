@@ -1,0 +1,11 @@
+Header: Gas Zone Interzonal Gas Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Interzonal Gas Pipelines is the set of Gas Pipeline objects that flow between this Gas Zone and others.
+Lists:
+

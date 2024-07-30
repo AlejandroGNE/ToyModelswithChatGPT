@@ -1,0 +1,17 @@
+Header: List Report
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If enabled the list object is passed into the solution file and can be used to build queries in the solution viewer
+
+Paragraphs:
+List Report passes the list object into the solution file to query the data in the solution viewer.
+
+See also:
+Lists:
+	- List Filter
+	- List Transient
+	- List Inclusive Empty
+

@@ -1,0 +1,20 @@
+Header: Message 8
+
+Table Details:
+Severity:	Minor (value = 4)
+Default Action:	Warn (value = 1)
+Description:	Region <name> Capacity Reserves are below Region Min Capacity Reserves by <value> MW.
+
+Paragraphs:
+Message 8 occurs in the following circumstances:
+
+When New Entry Driver = "Reliability" the new entry algorithm will continue adding capacity until the required margin is achieved regardless of the economics. This message is raised when the given capacity margin cannot be achieved in the Region .
+
+The message is information-only and does not require any action. If you do want to ensure that sufficient capacity is built then define more Generator objects with Max Units Built , reduce the Region Load or reduce the Min Capacity Reserves requirement.
+
+See also:
+Lists:
+	- MT Schedule New Entry Driver = "Reliability".
+	- There are insufficient Generator objects with Max Units Built defined to maintain Region Capacity Reserves above Min Capacity Reserves
+	- MT Schedule Capacity Expansion
+

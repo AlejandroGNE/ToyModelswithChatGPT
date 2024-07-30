@@ -1,0 +1,15 @@
+Header: Water Plant Water Availability
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Availability of water
+
+Paragraphs:
+Water Plant Water Availability is calculated as:
+Lists:
+

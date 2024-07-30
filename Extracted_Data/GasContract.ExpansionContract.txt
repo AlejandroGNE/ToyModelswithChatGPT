@@ -1,0 +1,15 @@
+Header: Gas Contract Expansion Contract
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if Gas Contract is eligible for expansion planning
+
+Paragraphs:
+Gas Contract Expansion Contract indicates whether the contract is eligible for expansion. If this property is set to "Yes", the contract's capacity can expand up to the Expansion Quantity Day property during the LT phase of a simulation.
+Lists:
+

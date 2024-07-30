@@ -1,0 +1,24 @@
+Header: Diagnostic Objective Function
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for non-zero terms in the objective function.
+
+Paragraphs:
+Diagnostic Objective Function
+          produces a tab-delimited text diagnostic file that lists all variables
+          that appear in the objective function with a non-zero coefficient and
+          non-zero optimal value along with any objective function constant. It
+          then lists the activity of those variables, such that you can compute
+          term-by-term the elements that make up the complete objective function
+          value.
+
+An example follows:
+
+The columns are:
+
+
+Lists:
+

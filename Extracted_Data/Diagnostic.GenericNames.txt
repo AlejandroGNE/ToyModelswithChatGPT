@@ -1,0 +1,19 @@
+Header: Diagnostic Generic Names
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Use generic names in math program files
+
+Paragraphs:
+Diagnostic Generic Names controls the style of variable and constraint names in text diagnostic files written from the mathematical programming solver (such as LP, MPS, BAS, SOL, etc ). The setting can take these values:
+
+Writing of diagnostic text files from the mathematical programming solver is controlled by these settings:
+
+This option is useful if you wish to transfer the mathematical programming file into a program that does not support 'fancy' names.
+Lists:
+	- Diagnostic LP Files
+	- Diagnostic MPS Files
+	- Diagnostic Solution Files
+

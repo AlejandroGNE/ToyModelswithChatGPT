@@ -1,0 +1,15 @@
+Header: Facility Gas Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas production
+
+Paragraphs:
+Facility Gas Production is Gas production.
+Lists:
+

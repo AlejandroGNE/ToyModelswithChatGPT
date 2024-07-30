@@ -1,0 +1,13 @@
+Header: Message 3231
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Market <name> interacts with multiple classes (<value>). Ensure sales in this market correspond to one physical quantity (electricity, reserve capacity, water etc.).
+
+Paragraphs:
+Message 3231 occurs when a Market object has memberships with classes of different types, such as Reserve and Node .
+                Purchases in this market would represent both electricity and reserve provision (i.e. raise, spinning etc.) simultaneously. This is usually not desired and multiple different market objects should be defined (one for electricity and another
+                for reserve provision). This message can be safely ignored if a fixed or interchangeable commodity is being traded. For example, if a Market is buying or selling a universal Commodity that is a direct substitute for Fuel or Gas .
+Lists:
+

@@ -1,0 +1,38 @@
+Header: Diagnostic Unit Commitment
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for the Rounded Relaxation unit commitment algorithm
+Step	Simulation step number
+Sample	Sample number in the current step (for multi-sample simulations)
+Pass	Rounding pass number (there can be 1-3 of these)
+Region	The Region the Generator is in
+Generator	The Main.Generator
+Unit	The generating unit number for the current Generator
+Period	The period number in the current simulation step
+SRMC	The short-run marginal cost of the Generator
+Price Received	The price received by the Generator
+Generation	The generation of the Generator
+Reserve	The spare capacity used to provide reserve by the Generator
+UC Before	The unit commitment before rounding
+UC After	The unit commitment after rounding
+Min Stable Level	The min stable level of the Generator
+Rating	The rating of the Generator
+Available Units	The number of available units at the Generator
+Deficit	Capacity deficit in the Region after rounding
+Energy Constrained	Yes/No flag if the Generator is energy-constrained
+Min Up Time	The min up time of the Generator
+Hours Up	The number of hours since the unit started up
+Min Up Time Active	Yes/No flag if the min up time impacted the rounding decision
+Min Down Time	The min down time of the Generator
+Hours Down	The number of hours since the unit shut down
+Min Down Time Active	Yes/No flag if the min down time impacted the rounding decision
+
+Paragraphs:
+This option writes a XML format file with details of every unit commitment decision made by the Rounded Relaxation algorithm.
+
+The columns in this report are:
+Lists:
+

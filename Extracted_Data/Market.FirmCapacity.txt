@@ -1,0 +1,26 @@
+Header: Market Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contribution of the market purchases to generation capacity for capacity reserves.
+Purchase	Price	0	-	1				Market Price
+Purchase	Max Sales	0	-	1				
+Purchase	Max Purchases	230	-	1				
+Purchase	Firm Capacity	50	MW	1				
+
+Paragraphs:
+Market Firm Capacity is the assumed contribution of the market purchases to 'generation capacity' for capacity reserves calculations in LT Plan . By default the Max Purchases is assumed 'firm' and counted as an 'import' in the Region Net Capacity Interchange . You may override this by setting Firm Capacity directly.
+
+Example
+
+In the following example the Max Purchases is 230 MW, but only 50 MW can be counted as 'firm' for capacity calculations.
+
+See also:
+Lists:
+	- Market Load Obligation
+

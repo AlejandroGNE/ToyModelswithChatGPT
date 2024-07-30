@@ -1,0 +1,15 @@
+Header: Power2X Start Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to starting a unit
+
+Paragraphs:
+Power2X Start Penalty is Penalty applied to starting a unit.
+Lists:
+

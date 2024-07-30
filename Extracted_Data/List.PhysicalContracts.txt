@@ -1,0 +1,11 @@
+Header: List Physical Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Physical Contract objects in the List
+
+Paragraphs:
+List Physical Contracts is set of Main Physical Contract objects in the List.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Transport Import Node Initial Gas Delivered
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The amount of gas to be delivered to a gas node on the initial gas path
+
+Paragraphs:
+Gas Transport Import Node Initial Gas Delivered is The amount of gas to be delivered to a gas node on the initial gas path .
+Lists:
+

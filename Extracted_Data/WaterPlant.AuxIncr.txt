@@ -1,0 +1,19 @@
+Header: Water Plant Aux Incr
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Auxiliary use per unit of generation
+
+Paragraphs:
+Water Plant Aux Incr is the auxiliary water loss or internal usage per production.
+
+See also:
+Lists:
+	- Water Plant Aux Fixed
+	- Water Plant Aux Base
+

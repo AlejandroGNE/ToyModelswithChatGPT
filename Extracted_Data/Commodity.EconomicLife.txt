@@ -1,0 +1,23 @@
+Header: Commodity Economic Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Economic life of the unit (period over which fixed costs are recovered)
+
+Paragraphs:
+Commodity Economic Life sets the
+          number of years over which the Build
+            Cost is annualized. LT Plan uses
+          this in combination with WACC to
+          compute the annuities.
+
+See also:
+Lists:
+	- Commodity Max
+              Units Built
+

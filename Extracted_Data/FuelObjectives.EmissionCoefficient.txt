@@ -1,0 +1,15 @@
+Header: Fuel Objectives Emission Coefficient
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fuel emission
+
+Paragraphs:
+Fuel Objectives Emission Coefficient is Coefficient of fuel emission.
+Lists:
+

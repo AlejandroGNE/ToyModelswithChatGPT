@@ -1,0 +1,12 @@
+Header: Horizon Chrono Period From
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Start interval for the chronological model
+
+Paragraphs:
+Horizon ST Schedule Trading Period From
+Lists:
+

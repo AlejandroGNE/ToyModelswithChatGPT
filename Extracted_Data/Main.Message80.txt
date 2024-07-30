@@ -1,0 +1,33 @@
+Header: Message 80
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> does not define enough bands of Generator Offer Quantity for cumulative format (at least two required).
+Offer Quantity Format	"Cumulative"	-	1
+Units	1	-	1
+Max Capacity	100	MW	1
+Offer Quantity	40	MW	1
+Offer Quantity	60	MW	2
+Offer Quantity	70	MW	3
+Offer Quantity	80	MW	4
+Offer Quantity	90	MW	5
+Offer Quantity	100	MW	6
+Offer Price	-1000	$/MWh	1
+Offer Price	28.5	$/MWh	2
+Offer Price	30	$/MWh	3
+Offer Price	55	$/MWh	4
+Offer Price	999	$/MWh	5
+
+Paragraphs:
+Message 80 occurs in the following circumstances:
+
+In cumulative format, the quantities are points along the axis of Generation . For the offer to correctly define each band there must be a lower and upper value hence to define N quantity bands you must define N + 1
+
+Example
+
+The following input correctly defines a five-band cumulative energy offer:
+Lists:
+	- Generator Offer Quantity Format is set to "Cumulative".
+	- You define Offer Quantity and Offer Price but the number of quantity bands is less than price bands plus one.
+

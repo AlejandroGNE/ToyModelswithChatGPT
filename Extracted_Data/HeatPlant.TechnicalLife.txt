@@ -1,0 +1,18 @@
+Header: Heat Plant Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the Heat Plant
+
+Paragraphs:
+Heat Plant Technical Life is used in LT Plan and is the technical lifetime of the gas field.  The plant is assumed to process gas from its time of build until the end of its technical life. After that time its Units will be set to zero.
+
+See also:
+Lists:
+	- Heat Plant Economic Life
+

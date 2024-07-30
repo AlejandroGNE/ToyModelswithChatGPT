@@ -1,0 +1,15 @@
+Header: Gas Pipeline Flow Out
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas extracted from the pipeline
+
+Paragraphs:
+Gas Pipeline Flow Out is the quantity of gas extracted from the pipeline after flow losses.
+Lists:
+

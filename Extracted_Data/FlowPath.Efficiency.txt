@@ -1,0 +1,18 @@
+Header: Flow Path Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of flow received net of any losses
+
+Paragraphs:
+Flow Path Efficiency is the
+          proportion of flow received at the Flow
+            Node To net of any losses. For example, if 5% of the Commodity sent out is lost in transit, then the Efficiency is 95%. The losses
+          incurred are reported in the Losses output property.
+Lists:
+

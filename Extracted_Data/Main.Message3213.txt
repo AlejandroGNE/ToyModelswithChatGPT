@@ -1,0 +1,11 @@
+Header: Message 3213
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The value could not be calculated because <name> >= <name>.
+
+Paragraphs:
+Message 3213 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Water Storage Target Week
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	end of week storage target
+
+Paragraphs:
+Water Storage Target Week sets the end-of-week target for the End Volume . This target will be set every week of the simulation.
+
+See also:
+Lists:
+	- Target
+	- Target Hour
+	- Target Day
+	- Target Month
+	- Target Year
+

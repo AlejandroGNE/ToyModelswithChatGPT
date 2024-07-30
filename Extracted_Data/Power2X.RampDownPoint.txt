@@ -1,0 +1,15 @@
+Header: Power2X Ramp Down Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load point for use with multi-band Max Ramp Down constraints
+
+Paragraphs:
+
+Lists:
+

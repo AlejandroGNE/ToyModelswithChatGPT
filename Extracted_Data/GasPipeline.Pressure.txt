@@ -1,0 +1,15 @@
+Header: Gas Pipeline Pressure
+
+Table Details:
+Units:	pa (Metric), psi (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pressure of gas stored in the pipeline at the start of the period
+
+Paragraphs:
+Gas Pipeline Pressure is Pressure of gas stored in the pipeline at the start of the period.
+Lists:
+

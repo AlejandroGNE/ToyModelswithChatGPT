@@ -1,0 +1,15 @@
+Header: Generator Boiler Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Efficiency of the boiler component of a combined-cycle plant
+
+Paragraphs:
+Generator Boiler Efficiency applies to the Heat Recovery Steam Generator component of a combined cycle plant. Raw waste heat from the combustion turbine(s) is converted to energy into the steam turbine according to this efficiency.  Additional fuel heat input from a duct burner is injected after this, so is NOT modified by the Boiler Efficiency.  This total heat input (net waste heat plus duct burner fuel) is then converted into electric generation based upon the Heat Rate of the Steam Turbine.
+Lists:
+

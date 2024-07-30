@@ -1,0 +1,11 @@
+Header: Message 151
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Reserve <name> has Nested Reserve <name> but is itself nested in Reserve <name>.
+
+Paragraphs:
+Message 151 occurs in the following circumstances:
+Lists:
+

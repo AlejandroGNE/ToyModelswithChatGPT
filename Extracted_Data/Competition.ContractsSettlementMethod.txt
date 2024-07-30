@@ -1,0 +1,12 @@
+Header: Competition Contracts Settlement Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Method of calculating contract quantities for settlement
+
+Paragraphs:
+Competition Contracts Settlement Method controls the quantity used to compute financial contract settlements . It applies only to the Gross Pool setting of Region Pool Type . The settlement method can take the following values:
+Lists:
+

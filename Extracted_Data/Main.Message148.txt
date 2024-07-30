@@ -1,0 +1,11 @@
+Header: Message 148
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Reserve <name> Nested Reserve <name> is of a different Reserve Type, but must be the same type.
+
+Paragraphs:
+Message 148 occurs in the following circumstances:
+Lists:
+

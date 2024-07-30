@@ -1,0 +1,227 @@
+Header: Renewable Energy Sources
+
+Table Details:
+Solar	Solar energy is the most abundant energy source and an
+                increasingly important contributor to global energy production.
+                Solar power plants are a large collection of interconnected
+                solar panels. Solar production is a function of solar intensity
+                which varies across the day and seasonally and intermittently
+                with weather conditions.	Generator, Storage
+                (CSP), Variable
+Wind	Wind power is one of the fastest growing renewable energy
+                sectors. Wind power production is a function of wind speed which
+                is highly variable, depending on weather conditions, location
+                and to some extent time of day. To increase reliability, wind
+                farms are being built offshore as well as onshore, and offshore
+                wind energy could in years to come become dominant way of
+                harnessing wind energy.	Generator, Variable
+Geothermal	Geothermal energy refers to power extracted from heat stored
+                in the Earth. It is mostly used to generate electricity, and in
+                some countries also for heating purposes in form of geothermal
+                heating. Unlike solar and wind energy geothermal energy doesn't
+                suffer from intermittency issue.	Generator
+Hydro	Hydropower is renewable energy source that has been used for
+                many hundreds of years in form of waterwheels and mills.
+                Hydropower is one of the most important renewable energy sources
+                globally. Hydropower plants have long lifespan, and relatively
+                low maintenance costs since almost everything is automated.
+                Hydropower also doesn't suffer from intermittency issue like
+                wind and solar power do and ensures constant supply of energy.
+                Hydropower is also very efficient energy source.	Generator, Storage, Waterway,
+                Variable
+Biomass	Biomass refers to biological material deriving from living, or
+                recently living organisms such as wood, waste or biofuels.
+                Biomass has many different forms, but most of these forms are
+                different plant matter grown to generate electricity or produce
+                heat.	Generator
+Tidal	Tidal energy can be harnessed by turbines underwater powered
+                by the movement of the tides. This emerging technology may prove
+                an important energy source especially in regions with large tide
+                differentials.	Generator, Variable
+Solar	Profile	0	Solar Irradiance.csv	-	1
+Solar	Lookup x	0		-	1
+Solar	Lookup x	0.1		-	2
+Solar	Lookup x	0.2		-	3
+Solar	Lookup x	0.3		-	4
+Solar	Lookup x	0.4		-	5
+Solar	Lookup x	0.5		-	6
+Solar	Lookup x	0.6		-	7
+Solar	Lookup x	0.7		-	8
+Solar	Lookup x	0.8		-	9
+Solar	Lookup x	0.9		-	10
+Solar	Lookup x	1.0		-	11
+Solar	Lookup y	0		-	1
+Solar	Lookup y	0.1664		-	2
+Solar	Lookup y	0.2989		-	3
+Solar	Lookup y	0.4145		-	4
+Solar	Lookup y	0.5131		-	5
+Solar	Lookup y	0.5949		-	6
+Solar	Lookup y	0.6596		-	7
+Solar	Lookup y	0.7074		-	8
+Solar	Lookup y	0.7383		-	9
+Solar	Lookup y	0.7522		-	10
+Solar	Lookup y	0.7492		-	11
+Solar	Units	100	-		
+Solar	Max Capacity	1	MW		
+Solar	Fixed Load	0	MW	=	Solar
+Solar	Fixed Load Global	No	-		
+Units	100		-
+Max Capacity	1		MW
+Rating	0	Solar Generation	MW
+Units	0		-
+Max Capacity	1		MW
+Rating	0	Solar Generation	MW
+Firm Capacity	0.15		MW
+Max Units Built	100		-
+Build Cost	750		$/kW
+Economic Life	25		years
+WACC	10		%
+Units	1	-	-	-	-
+Max Capacity	1	-	MW	-	-
+Rating	0	-	MW	=	Wind Variable
+Units	1	-	-
+Max Capacity	200	-	MW
+VO&M Charge	5	-	$/MWh
+
+Paragraphs:
+Renewable energy sources (RES) are modeled using combinations of
+          classes as described in the following table.
+
+Modeling any size of solar from small scale rooftop installations to
+          full solar power plants is simple using the Generator class. Resources can be static or dynamic in size and set up for
+          optimal expansion with LT Plan .
+
+At the most fundamental level, solar production is determined by:
+
+There are two approaches you can take here. You can model solar
+          irradiance and conversion efficiency in detail, or simply model the
+          solar generation directly.
+
+Modeling solar irradiance and conversion efficiency is possible using
+          the Variable class to define a Profile for the solar irradiance and a look-up table to convert irradiance to
+          electrical output. There are many online resources for solar
+          irradiance data and conversion efficiency including Renewables
+            Ninja . Using a source such as this you can create input like
+          that in Table 2. Here the solar irradiance is read from an external Data File . That files contains values
+          for each hour of the simulation horizon. The values of Lookup
+            x and Lookup y convert
+          solar irradiance to electrical output. The solar Generator object would then refer to the Variable as in Table 3.
+
+In this example there is 100 MW of solar generation modeled as 100
+          one megawatt units. Note the use of Fixed
+            Load which makes the solar generation 'must take' and the
+          setting of Fixed Load Global = "no" which means the Fixed Load is interpreted as the load per Unit. To model dispatchable solar i.e. solar that can be turned off if needed, swap out the Fixed
+            Load property for Rating .
+
+
+
+Table 4 illustrates a simpler approach which ignores the conversion
+          from irradiance to electrical output. As in the detailed case, the Units property scales up the Max
+            Capacity to give the total Installed
+            Capacity while the Rating property, read from a Data File ,
+          defines the normalized (values between 0 and 1) solar electrical
+          output in each interval of the horizon. For Monte Carlo simulation or
+          stochastic optimization you can read the solar generation from a Variable object which in turn reads its expected values from the Data
+            File instead, as in Table 3.
+
+When running LT Plan with solar as an
+          expansion option define the additional properties as shown in Table 5
+          in particular the Max Units
+            Built which is the key property for toggling a Generator in/out of the expansion planning optimization. Note the definition of Firm Capacity which
+          determines the generator's contribution to Capacity
+            Reserves .
+
+Note: If the system is small scale e.g. a single household/industrial unit or micro grid you can
+          change the underlying unit of electrical power from the default
+          megawatt (MW) to kilowatt (kW) in the Units
+            of Data Settings .
+
+Concentrated Solar Power (CSP) systems (also known as concentrated
+          solar thermal (CST) systems) are systems that use mirrors or lenses to
+          concentrate solar thermal energy onto a small area. Electrical power
+          is produced when the concentrated light is converted to heat which
+          drives a steam turbine connected to an electrical power generator. In
+          addition, the heat can be stored, generally in a molten salt medium,
+          and used to drive the steam turbine engine when the sun is not
+          shining.
+
+This system can modeled using a Generator connected to a Storage . Power coming
+          in from solar radiation is modeled as Natural
+            Inflow . Heat loss is modeled as a Spill .
+          Losses on start-up of the Generator are modeled with the Head
+            Storage Flow at Start property.
+
+Wind generators can be modeled in the same fashion as solar e.g. by a
+          generator with Max Capacity of 1 and a Rating (or Rating
+            Factor ) read from a Data File directly or via a Variable which
+          represents a normalized wind profile. The capacity installed at the
+          wind site is then input using the Units property as in Table 6.
+
+Wind is generally more variable than solar and it is important to
+          model that intermittency. The Variable class is ideal for this purpose and the example in Table 6 shows how
+          the wind generation can be linked to a Variable .
+          In this case, the Variable is
+          providing normalized wind production data over time. A further step
+          would be to base this on raw wind speed and to use a Lookup
+            Table to convert wind speed to generation as in Table 2 for the
+          solar example.
+
+Geothermal generation is generally more controllable and less
+          intermittent and thus is modeled more like conventional thermal
+          generation as in Table 7. If there is any variability in the output
+          then the Rating property can be
+          applied.
+
+Hydro generation models range from simple energy-constrained
+          resources to complex multi-stage stochastic optimization of cascading
+          river systems. These topics are covered in a series of articles
+          beginning with Hydro Classes .
+
+Biomass is modeled similarly to geothermal, except that its
+          production is often more constrained e.g. by availability of
+          biomass fuel at different times of year, or by schedules for waste
+          disposal. Time of year availability can be controlled with the Rating
+          property and fixed schedules can be modeled with the Fixed
+            Load or Min Load properties.
+
+Tidal energy has similar characteristics to solar in that it is
+          predictable with some degree of weather-related variability.
+
+As described above, RES can be intermittent in nature. This
+          intermittency implies that conventional generation sources fill the
+          'gaps' in RES generation e.g. when the sun is not shining or
+          the wind blowing. To correctly capture the physical and financial
+          effects of intermittency your simulation should be as high resolution
+          as practicable. The resolution of ST Schedule is
+          controlled by Horizon Periods
+            per Day . It is typical to model systems with high levels of RES
+          at resolutions as fine as 5-minutes, but the step size (window over
+          which the optimization occurs) needs to be long enough to optimize the
+          unit commitment of thermal plant and to optimize hydro and pumped
+          storage. For example, you might require an optimization step of one
+          week to fully optimize pumped storage and batteries. However, at
+          5-minute resolution a week has 168 × 12 = 2016 periods. This can
+          lead to very large optimization problems and long run times. There are (at least) two approaches to solving this problem:
+
+LT Plan presents additional challenges
+          due to the very long simulation step. Ideally one would run LT Plan in
+          either 'Fitted' or 'Sampled' mode as controlled by the Chronology setting. However, it can be difficult to obtain enough resolution and
+          have a solvable optimization problem. A solution is to break use
+          multiple steps in LT Plan with overlap. The fastest Chronology mode is 'Partial' which uses load duration
+          curves to simplify the chronology, but the weakness of this approach
+          is that the load curve slicing can place blocks of time with disparate
+          RES generation in the same time block. This can cause the optimization
+          to overvalue the energy value of RES and underplay the intermittency.
+          A solution is to use the Global
+            Slicing Block input to ensure that the slicing preserves the
+          intermittency to the maximum extent possible.
+Lists:
+	- The number of panels;
+	- solar irradiance;
+	- solar panel efficiency; and
+	- ambient temperature.
+
+
+H2s:
+Detailed Solar Model
+Simplified Solar Model

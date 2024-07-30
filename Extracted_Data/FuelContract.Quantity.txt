@@ -1,0 +1,22 @@
+Header: Fuel Contract Quantity
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract quantity
+
+Paragraphs:
+This is the maximum amount of the Fuel available in each simulation period and represents a hard limit. Each unit of the fuel used up to this quantity is priced according to the Fuel Contract Price .
+
+See also:
+Lists:
+	- Quantity Hour
+	- Quantity Day
+	- Quantity Week
+	- Quantity Month
+	- Quantity Year
+

@@ -1,0 +1,15 @@
+Header: Water Pump Station Head
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pump station head
+
+Paragraphs:
+Water Pump Stations Head is Pump station head.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Uplift Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If uplift is added to market prices
+
+Paragraphs:
+Region Uplift Enabled toggles on/off the algorithm that calculates uplift . The uplift algorithm used is controlled by the Uplift Compatibility property. These methods are described in the article Uplift Methods .
+Lists:
+

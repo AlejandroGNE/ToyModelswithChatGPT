@@ -1,0 +1,42 @@
+Header: Report Flat File Format
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Format for text solution files.
+
+Paragraphs:
+Report Flat File Format controls the format of 'flat' (text) solution files when the Write Flat Files setting is enabled. This setting can take the following values:
+
+The format is, for single-band data:
+
+DATETIME, VALUE
+
+and for multi-band data:
+
+DATETIME, BAND, VALUE
+
+The format, is for single-band data:
+
+YEAR, MONTH, DAY, 1, 2, 3, ... , 24
+
+for multi-band data:
+
+YEAR, MONTH, DAY, BAND, 1, 2, 3, ... , 24
+
+for block period type:
+
+BAND, 1, 2, 3, ....., no. of blocks
+
+The format is, for single-band data:
+
+DATETIME, GenA , GenB , ....., GenZ
+
+and for multi-band data:
+
+DATETIME, BAND, GenA , GenB , ....., GenZ
+
+Notice that the formats uses different conventions for defining the date and time. 'Datetime' writes a date-time using the format defined by the Report Locale setting. 'Periods in Columns' is not affected by the locale.
+Lists:
+

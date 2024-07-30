@@ -1,0 +1,53 @@
+Header: Reserve Energy Usage
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage of reserve dispatched in energy market
+REG UP	Type	Regulation Raise	-	
+REG UP	Min Provision	50	MW	PEAK
+REG UP	Min Provision	45	MW	OFF-PEAK
+REG UP	Energy Usage	7	%	
+REG DOWN	Type	Regulation Lower	-	
+REG DOWN	Min Provision	30	MW	PEAK
+REG DOWN	Min Provision	25	MW	OFF-PEAK
+REG DOWN	Energy Usage	93	%	
+
+Paragraphs:
+Reserve Energy Usage defines the expected (or average) percentage of Provision that is dispatched,
+                thus allowing the simulator to account for the fuel used (or water used for hydro) and affect on Generation as a result of reserve Provision . This property is usually associated with regulation reserves, but may be used for any reserve type.
+
+This input means that 7% of the total REG UP provision requires reflection in increased generation and energy consumption.
+                In the supply-demand balance constraints, Energy Usage is accounted for as follows:
+
+Generation + Energy Usage × Provision = Load
+
+Generator Generation is reported after accounting for energy usage.
+                For example, consider a 100 MW generator operating with an energy target of 90 MW and providing 10 MW of raise Type reserve with an energy usage of 5%.
+                The supply-demand equations include 0.5 MW extra 'generation' and reported generation is 90.5 MW. Reserve Provision is the 'gross' provision not adjusted for energy usage.
+
+Energy usage for lower reserves is defined differently compared to raise reserves. If a generator's energy dispatch equals its lower provision, the energy usage 
+                input defines the expected energy adjustment factor after reductions due to lower reserve realisation have been accounted for.
+
+In the above example, if generation target = lower provision = 30MW, the post-reserve energy usage is only 93% of the original energy target. Alternatively, 
+                only 7% of each unit of reserve provision requires reflection in terms of energy balances. The default input corresponding to no energy usage is 1 (100%).
+
+Within the energy balance equations, energy usage results in the following terms for a Lower service:
+
+Generation - (1 - Energy Usage) × Provision = Load
+
+Note that energy usage is suitable for spinning reserve types. If energy usage is required for non-spinning reserves (replacement), this can be enabled via Energy Usage For Replacement .
+                In addition, it should be noted that not all output properties will reflect the energy usage in replacement reserve.
+
+See also:
+Lists:
+	- Reserve Duration
+
+
+H2s:
+Raise Reserve Example
+Lower Reserve Example

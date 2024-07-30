@@ -1,0 +1,11 @@
+Header: List Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Storage objects in the List
+
+Paragraphs:
+List Storages is set of Main.Storage objects in the List.
+Lists:
+

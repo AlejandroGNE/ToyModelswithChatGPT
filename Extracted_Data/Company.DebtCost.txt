@@ -1,0 +1,15 @@
+Header: Company Debt Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of debt
+
+Paragraphs:
+Company Debt Cost is the total debt charge assigned to the company for the ownership of generators and transmission lines, and is defined as:
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Generator Reserve Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of maximum capacity that must be set aside for reserves
+G1	Reserve Share	15	%
+G2	Reserve Share		%
+G3	Reserve Share	10	%
+
+Paragraphs:
+Generator Reserve Share defines a percentage of plant capacity this should be set aside for reserve purposes. This property is not related to the detailed reserve cooptimization , but is a simpler mechanism for hardwiring a particular reserve sharing scheme.
+
+Example:
+Lists:
+

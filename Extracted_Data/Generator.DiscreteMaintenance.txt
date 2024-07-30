@@ -1,0 +1,29 @@
+Header: Generator Discrete Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Planned capacity out of service
+
+Paragraphs:
+Generator Discrete Maintenance is
+          an output of the PASA simulation phase.
+          It reports the amount of maintenance that is defined via the Units
+            Out property. These outages may be full or partial depending on
+          the Outage Rating property.
+
+Discrete maintenance events subtract from the overall maintenance
+          requirement which is defined by Maintenance
+            Rate and/or Maintenance
+            Frequency . The remaining requirement is distributed 'optimally'
+          according to the objective function of PASA and reported as Distributed
+            Maintenance .
+
+Defining Discrete Maintenance events changes the optimal profile of Region Maintenance
+            Factor , which is the primary output of PASA and is used to generate the 'realized' Maintenance .
+Lists:
+

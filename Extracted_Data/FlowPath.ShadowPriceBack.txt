@@ -1,0 +1,23 @@
+Header: Flow Path Shadow Price Back
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of interface limit in the counter-reference direction
+
+Paragraphs:
+Flow Path Shadow Price Back is the
+          average dual variable values associated with the Min
+            Flow constraint.
+
+See also:
+Lists:
+	- Flow Path Shadow
+              Price Forward
+	- Flow Path Hours
+              Congested Back
+

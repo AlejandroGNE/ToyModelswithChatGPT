@@ -1,0 +1,15 @@
+Header: Company Gas Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total gas demand for the company
+
+Paragraphs:
+Company Gas Demand is the Total gas demand for the company.
+Lists:
+

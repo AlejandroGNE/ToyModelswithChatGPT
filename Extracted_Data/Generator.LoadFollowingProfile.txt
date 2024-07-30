@@ -1,0 +1,20 @@
+Header: Generator Load Following Profile
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Profile to follow for proportional load following
+
+Paragraphs:
+Generator Load Following Profile is the profile (shape) to follow in the Proportional Load Following hydro method. The degree to which this shape is followed is controlled by the Load Following Factor . This property is multi-band meaning that you can specify multiple profiles and they will be aggregated to form the final shape for PLF.
+
+Note that if you do not define Load Following Profile the simulator will use the Region Load associated with the Generator instead. That load can be defined any of the usual ways e.g. on the nodes or zones or directly on the region.
+
+See also:
+Lists:
+	- Generator Price Following
+

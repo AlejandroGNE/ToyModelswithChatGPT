@@ -1,0 +1,17 @@
+Header: Gas Field Companies Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production costs associated with company gas field production
+
+Paragraphs:
+Gas Field Companies Production Cost is Production costs associated with company gas field production. It is given by:
+
+Gas Field Companies Production Cost = Production Cost × Gas Field Companies Share
+Lists:
+

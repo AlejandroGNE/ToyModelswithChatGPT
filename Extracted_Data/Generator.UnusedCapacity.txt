@@ -1,0 +1,23 @@
+Header: Generator Unused Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Unused capacity (Rating x Units - Generation)
+
+Paragraphs:
+Generator Unused Capacity is defined as:
+
+Undispatched Capacity = MAX(0, Rating × Units - Generation )
+
+This is a measure of total generation capacity available. To utilise this capacity additional units are allowed to commit and/or transition from pumping to generating (pumped storage generators).
+
+See also:
+Lists:
+	- Generator Undispatched Capacity
+	- Balancing Markets
+

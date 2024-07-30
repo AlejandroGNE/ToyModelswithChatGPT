@@ -1,0 +1,80 @@
+Header: Generator Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of generation project, for expansion planning.
+Units	0	-
+Max Capacity	500	MW
+FO&M Charge	50	$/kW/year
+Max Units Built	1	-
+Project Start Date	1/01/2035	-
+Build Cost	1500	$/kW
+Economic Life	25	years
+WACC	10	%
+Date	Code
+1/01/2025	45658
+1/01/2026	46023
+1/01/2027	46388
+1/01/2028	46753
+1/01/2029	47119
+1/01/2030	47484
+1/01/2031	47849
+1/01/2032	48214
+1/01/2033	48580
+1/01/2034	48945
+1/01/2035	49310
+1/01/2036	49675
+1/01/2037	50041
+1/01/2038	50406
+1/01/2039	50771
+1/01/2040	51136
+1/01/2041	51502
+1/01/2042	51867
+1/01/2043	52232
+1/01/2044	52597
+1/01/2045	52963
+1/01/2046	53328
+1/01/2047	53693
+1/01/2048	54058
+1/01/2049	54424
+1/01/2050	54789
+1/01/2051	55154
+1/01/2052	55519
+1/01/2053	55885
+1/01/2054	56250
+
+Paragraphs:
+Generator Project Start Date is
+          date at which units can be built by LT
+            Plan . The User Interface allows entry of this property using
+          normal date entries, however the value is stored internally as an
+          integer being a date in Microsoft date, which is the number of days
+          since 1/01/1900 (January 1, 1900). The default value of 36526 is the
+          date 1/01/2000.
+
+Note: The Max Units Built property must be defined for expansion candidates, otherwise the LT Plan will build no units by default.
+
+No units can be added before the year 2035 (date number 49310) in the
+          above example.
+
+TIP : To work out the date number
+            that applies to a given date, enter the date into a cell in
+            Microsoft Excel and change the number format of the cell to
+            "General". This will then show the date its underlying number
+            representation. The following table gives the date codes for
+          various years.
+
+
+
+
+
+See also:
+Lists:
+	- Capacity Expansion Planning
+	- Max Units Built
+

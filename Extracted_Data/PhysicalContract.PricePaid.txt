@@ -1,0 +1,15 @@
+Header: Physical Contract Price Paid
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid by load
+
+Paragraphs:
+Physical Contract Price Paid is defined as:
+Lists:
+

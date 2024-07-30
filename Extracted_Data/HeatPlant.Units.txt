@@ -1,0 +1,15 @@
+Header: Heat Plant Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Number of Heat Plant units in service
+
+Paragraphs:
+Heat Plant Units is Number of Heat Plant units in service.
+Lists:
+

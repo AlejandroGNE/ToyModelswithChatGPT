@@ -1,0 +1,18 @@
+Header: Battery Constraints Capacity Built Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity built
+
+Paragraphs:
+Battery Constraints Capacity Built Coefficient is the left-hand side coefficient of Battery Capacity Built in the constraint.
+
+See also:
+Lists:
+	- Battery Generators Capacity Built Coefficient
+

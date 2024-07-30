@@ -1,0 +1,15 @@
+Header: Fleet Annualized Purchase Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of vehicle purchases
+
+Paragraphs:
+Fleet Annualized Purchase Cost is Annualized cost of vehicle purchases.
+Lists:
+

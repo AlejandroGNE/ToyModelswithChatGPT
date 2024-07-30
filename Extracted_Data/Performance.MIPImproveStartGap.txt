@@ -1,0 +1,17 @@
+Header: Performance MIP Improve Start Gap
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Switch strategy to improving the best integer solution when this gap is reached.
+
+Paragraphs:
+Performance MIP Improve Start Gap causes the integer solver to continue searching for better integer solutions after the MIP Relative Gap is reached and up until MIP Max Time is reached or this new gap is obtained.  This setting is useful for solving cases where some simulation steps solve quickly to the desired gap and it is worthwhile allowing the solver to continue searching for a better solution in those situations.
+
+Note: This property is only available for the CPLEX and Gurobi solvers.
+
+See also:
+Lists:
+	- Performance Small MIP Improve Start Gap
+

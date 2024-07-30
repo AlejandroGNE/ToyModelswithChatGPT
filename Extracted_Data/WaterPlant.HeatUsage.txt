@@ -1,0 +1,17 @@
+Header: Water Plant Heat Usage
+
+Table Details:
+Units:	GJ/m³ (Metric), MMBtu/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Heat consumption of Water Plant
+
+Paragraphs:
+Water Plant Heat Usage is the heat consumption of Water Plant, which is met from drawing heat from its heat nodes . This is used to define a desalination water plant.
+
+See also Heat modelling
+Lists:
+

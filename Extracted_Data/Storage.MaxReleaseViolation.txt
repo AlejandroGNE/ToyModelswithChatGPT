@@ -1,0 +1,20 @@
+Header: Storage Max Release Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the [Max Release] and [Max Generator Release] constraint.
+
+Paragraphs:
+Storage Max Release Violation is the amount by which the Max Release and/or Max Generator Release constraints are violated. The units match those for Release and Generator Release . Note that violations are allowed only if Max Release Penalty is defined as a non-negative number.
+
+See also:
+Lists:
+	- Storage Max Release Violation Hours
+	- Storage Max Release Violation Cost
+	- Storage Min Release Violation
+

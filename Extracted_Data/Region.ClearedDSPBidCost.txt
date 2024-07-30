@@ -1,0 +1,21 @@
+Header: Region Cleared DSP Bid Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of cleared demand-side participation bids
+
+Paragraphs:
+Region Cleared DSP Bid Cost is the cost of Demand Curtailed (demand-side participation) as seen by the Market Operator and is defined as:
+
+Note that this includes only the DSP defined on the Region and not that defined on Node objects within the region. Refer to Cost of Curtailment for details.
+
+See also:
+Lists:
+	- Region DSP Bid Cleared
+	- Region Cleared DSP Bid Price
+

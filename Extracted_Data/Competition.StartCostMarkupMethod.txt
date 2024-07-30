@@ -1,0 +1,22 @@
+Header: Competition Start Cost Mark-up Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Algorithm used to apply start cost mark-ups
+
+Paragraphs:
+The Competition Start Cost Mark-up Method is a parameter of Start Cost Mark-up feature . This setting allows users to choose between Simple and Co-Optimise algorithms for calculation of Competition Start Cost Mark-Up recovery.
+
+NOTE: Depending on the size of the model database, the start cost recovery mathematical formulation can impact the model runtimes. For faster results, it is recommended to use the "Simple" algorithm, while for more detailed results, it is recommended to use the "Co-Optimise" algorithm.
+Lists:
+	- In the Simple algorithm, start costs are included in the Objective function.
+	- The Start Costs are recovered in a single window, with no markup calculation for the generator object.
+	- In the Co-Optimize algorithm, production markup bands are introduced. Each band is associated with a unique markup required to recover the start cost. Integer variables are incorporated into the formulation to activate the relevant markup band when a start occurs. This activation depends on the total generation within the specified window.
+	- In the Co-Optimise algorithm, start costs are recovered by introducing multiple markup bands, enabling the start costs to be recovered over a horizon. This horizon is controlled using the Start Cost Markup Window setting, and the number of production bands introduced is regulated by the Start Cost Markup Production Bands setting.
+
+
+H3s:
+[A] Simple Algorithm
+[B] Co-Optimise Algorithm

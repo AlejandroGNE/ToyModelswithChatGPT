@@ -1,0 +1,15 @@
+Header: Gas DSM Program Max Reduction
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum demand reduction for the Gas DSM program
+
+Paragraphs:
+Gas DSM Program Max Reduction is the maximum allowed demand reduction for the Gas DSM program in a given period.
+Lists:
+

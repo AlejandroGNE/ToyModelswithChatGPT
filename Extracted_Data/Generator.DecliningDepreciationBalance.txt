@@ -1,0 +1,15 @@
+Header: Generator Declining Depreciation Balance
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Balance applied to declining depreciation method
+
+Paragraphs:
+Generator Declining Depreciation Balance is used by the LT Plan capacity expansion algorithm when computing annuities for generator Build Cost when the Depreciation Method is set to "Declining Balance".
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Companies Balancing Area Interchange Imports Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of financial imports to the region
+
+Paragraphs:
+Company Companies Balancing Area Interchange Imports Cost is the cost of financial imports to the company.
+Lists:
+

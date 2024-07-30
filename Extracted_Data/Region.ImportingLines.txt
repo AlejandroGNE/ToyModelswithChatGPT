@@ -1,0 +1,11 @@
+Header: Region Importing Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Importing Lines is the set of Lines that import to the Region. This collection is reserved for reporting only.
+Lists:
+

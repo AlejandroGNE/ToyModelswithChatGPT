@@ -1,0 +1,19 @@
+Header: Variable Constraints Error Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the variable sample error
+
+Paragraphs:
+Variable Constraints Error Coefficient is the left-hand side coefficient of the Variable sample error in the constraint.
+
+See also:
+Lists:
+	- Variable Constraints Positive Error Coefficient
+	- Variable Constraints Negative Error Coefficient
+

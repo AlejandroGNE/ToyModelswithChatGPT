@@ -1,0 +1,15 @@
+Header: Interface Max Expansion
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum interface expansion
+
+Paragraphs:
+Interface Max Expansion is the total amount that the interface can be expanded (in both directions) at the cost defined by Expansion Cost . This property applies to LT Plan .
+Lists:
+

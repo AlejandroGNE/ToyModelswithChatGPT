@@ -1,0 +1,30 @@
+Header: Facility Max Starts Hour
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of starts allowed in a hour
+
+Paragraphs:
+Facility Max Starts Hour sets an
+          upper bound on the number of Units
+            Started in each hour of the simulation. This variant only
+          applies to sub-hourly models i.e. where Horizon Periods per Day is greater
+          than 24. See Max Starts for
+          more details.
+
+See also:
+Lists:
+	- Facility Max
+              Starts Day
+	- Facility Max
+              Starts Week
+	- Facility Max
+              Starts Month
+	- Facility Max
+              Starts Year
+

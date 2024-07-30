@@ -1,0 +1,15 @@
+Header: Gas Zone Net Interchange
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net exports on gas pipelines
+
+Paragraphs:
+Gas Zone Net Interchange is defined as:
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Market Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Market
+
+Paragraphs:
+Market Constraints is the set of Constraints involved in the market.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: PASA Write Reliability Text Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the periods selected for Monte Carlo reliability analysis should be written to text files
+
+Paragraphs:
+This PASA option relates to the MT
+            Schedule Reliability Chronology feature. When
+          enabled, two text files are written at the end of the PASA phase. The first lists the periods selected by PASA based on the Reliability
+            Criterion and the value of that criterion ( LOLP or Capacity Reserves ). The
+          second lists all hours in the horizon and indicates if they were
+          selected. This second file is suitable as input via Global Sampled Periods in the case
+          that you prefer to run MT Schedule without first running the reliability period selection in PASA .
+Lists:
+

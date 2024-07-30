@@ -1,0 +1,19 @@
+Header: Zone Settlement Surplus
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Difference between cost to load and generator revenue
+
+Paragraphs:
+Zone Settlement Surplus is the surplus accruing to the Market Operator after  all payments have been made to Generators and monies received from loads and is defined as:
+
+See also:
+Lists:
+	- Zone Transmission Control Rental
+	- Zone Net Cost of Exports
+

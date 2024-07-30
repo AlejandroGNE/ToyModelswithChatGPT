@@ -1,0 +1,15 @@
+Header: Generator Objectives Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total reserve provision (from all types)
+
+Paragraphs:
+Generator Objectives Reserve Provision Coefficient is Coefficient of total reserve provision (from all types).
+Lists:
+

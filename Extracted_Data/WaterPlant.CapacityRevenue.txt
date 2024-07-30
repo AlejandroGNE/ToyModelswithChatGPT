@@ -1,0 +1,21 @@
+Header: Water Plant Capacity Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from capacity payments
+
+Paragraphs:
+Water Plant Capacity Revenue is the
+          revenue from capacity payments. Capacity Revenue is calculated
+          as:
+
+Capacity Revenue = Capacity
+            Price × Max
+            Capacity / periods_in_year
+Lists:
+

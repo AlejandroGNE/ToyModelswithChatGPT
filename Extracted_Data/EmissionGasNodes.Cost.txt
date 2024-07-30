@@ -1,0 +1,17 @@
+Header: Emission Gas Nodes Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission cost
+
+Paragraphs:
+Emission Gas Nodes Cost is the total costs of emissions from the gas node as a result of processing activities. It is calculated as:
+
+Cost = Price × Production
+Lists:
+

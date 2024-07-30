@@ -1,0 +1,15 @@
+Header: Generator Companies Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Generator Companies Inertia is Provision of inertia.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Reserve Purchasers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of purchasers that provide the reserve
+
+Paragraphs:
+Reserve Purchasers is the set of loads that can provide interruptible load in order to meet a raise type ancillary service.
+Lists:
+

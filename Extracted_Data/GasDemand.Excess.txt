@@ -1,0 +1,18 @@
+Header: Gas Demand Excess
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Excess of gas supply
+
+Paragraphs:
+Gas Demand Excess is the amount by which supply of gas exceeds the Demand . This excess has a notional price set by the Excess Price . The associated cost is reported in the Excess Cost property.
+
+See also:
+Lists:
+	- Gas Demand Shortage
+

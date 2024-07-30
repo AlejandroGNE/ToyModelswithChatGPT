@@ -1,0 +1,30 @@
+Header: Line Max Units Retired in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Maximum number of units automatically retired in any single year of the planning horizon
+Old HVDC	Units	1	-		
+Old HVDC	Max Flow	500	MW		
+Old HVDC	FO&M Charge	5000	$000		
+Old HVDC	Max Units Retired	1	-		
+Old HVDC	Min Units Retired	1	-		
+Old HVDC	Retirement Cost	10000	$000		
+Old HVDC	Max Units Retired in Year	0	-	1/01/2010	31/12/2015
+
+Paragraphs:
+Line Max Units Retired in Year is maximum number of units automatically retired in any single year of the planning horizon in LT Plan . This property should be used only in conjunction with Max Units Retired .
+
+Example
+
+In this example the Line must retire at some time in the planning horizon, but cannot retire between the years 2010-15.
+
+See also:
+Lists:
+	- Line Retirement Cost
+	- Line Min Units Retired
+

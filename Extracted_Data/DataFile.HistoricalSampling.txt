@@ -1,0 +1,12 @@
+Header: Data File Historical Sampling
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Sample data from this file between the Year From and Year To
+
+Paragraphs:
+Data File Historical Sampling is a flag indicating if Historical Sampling should be done when the data file includes historical data for the tagged Variable. In sampling, the data will be mapped into the Profile property with multiple bands. It should be used with Historical Year From , Historical Year To , Historical Year Start and Historical Period Type to set first/last year read from the data and also to indicate the start year/period type for the historical sampling.
+Lists:
+

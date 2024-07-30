@@ -1,0 +1,15 @@
+Header: Zone Energy Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy component of locational marginal price
+
+Paragraphs:
+Zone Energy Charge is the energy component of locational marginal price.
+Lists:
+

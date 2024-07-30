@@ -1,0 +1,22 @@
+Header: Region LOLP Target
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Loss of Load Probability target for this region
+
+Paragraphs:
+Region LOLP Target sets a upper bound on the Loss of Load Probability (for each period, i.e., LDC block) in the Region in LT Plan . The expansion solution will attempt to meet the required LOLP Target by new builds and/or restricting plant retirements. The constraint is only statistically satisfied, i.e., the LOLP in the solution can be a little higher or lower than the set target in the region. It should be noted that the constraint might not be accurate for very small systems (the number of generating units in service < 20) and systems having a few large units or having large share of units with high forced outage rates. Therefore, in order to correct the deviations, we will run another one or two optimizations (the results then will be acceptable even for aforementioned cases).
+
+If we need the reliability constraint to ensure that the loss of load cannot occur, for example, more than "2 days in a year", the LOLP Target will be set as 2/365 * 100%, regardless of the modelling time span, 1 year or 10 years. Note that the accumulated annual LOLP in the solution might be smaller than the target provided as the annul LOLP target is allocated evenly to all periods in the year and the constraint is applied to ensure the target in each period is satisfied. Also, the LOLP constraint cannot be applied to periods without expansion generators in LT Plan. The results could also be quite different from different solvers.
+
+See also:
+Lists:
+	- Article COPT
+	- Zone LOLP Target
+	- Reserve Regions LOLP Target
+

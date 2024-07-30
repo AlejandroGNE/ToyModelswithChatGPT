@@ -1,0 +1,11 @@
+Header: Message 91
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Line <name> defined with both Line Reactance and Line Susceptance but only one should be used.
+
+Paragraphs:
+Message 91 occurs in the following circumstances:
+Lists:
+

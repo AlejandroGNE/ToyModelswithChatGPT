@@ -1,0 +1,11 @@
+Header: Message 3033
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	File <name> periods per day in file <name> must be a multiple of Horizon Periods per Day <name>.
+
+Paragraphs:
+
+Lists:
+

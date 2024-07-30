@@ -1,0 +1,30 @@
+Header: Vehicle Energy Target Day
+
+Table Details:
+Units:	kWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	End of day vehicle stored energy target
+
+Paragraphs:
+Vehicle Energy Target Day is the end of day stored energy target. Energy Target Day adds a constraint on the Vehicle's energy level at the end of each day.
+
+Vehicle SoC must be formulated for it
+                to be constrained. This property is therefore only valid with detailed Vehicle models (those defining energy storage properties such as Capacity and Efficiency ). Detailed and simple vehicle models are described in Vehicle . See also: Vehicle Energy Target Penalty Vehicle Energy Target Vehicle Energy Target Hour Vehicle Energy Target Week Vehicle Energy Target Month Vehicle Energy Target Year Vehicle Constraints Energy Coefficient
+
+Vehicle SoC must be formulated for it
+                to be constrained. This property is therefore only valid with detailed Vehicle models (those defining energy storage properties such as Capacity and Efficiency ). Detailed and simple vehicle models are described in Vehicle .
+
+See also:
+Lists:
+	- Vehicle Energy Target Penalty
+	- Vehicle Energy Target
+	- Vehicle Energy Target Hour
+	- Vehicle Energy Target Week
+	- Vehicle Energy Target Month
+	- Vehicle Energy Target Year
+	- Vehicle Constraints Energy Coefficient
+

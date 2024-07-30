@@ -1,0 +1,11 @@
+Header: List Layouts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Layout objects in the List
+
+Paragraphs:
+List Layouts is set of Layout objects in the List
+Lists:
+

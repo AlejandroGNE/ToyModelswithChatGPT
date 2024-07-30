@@ -1,0 +1,19 @@
+Header: Reserve Generators Max Sync Cond Response Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum synchronous condenser reserve response as a proportion of generation capacity
+
+Paragraphs:
+Reserve Generators Max Sync Cond Response Factor is the maximum synchronous condenser reserve response as a proportion of Max Capacity .
+
+See also:
+Lists:
+	- Reserve Generators Max Sync Cond Response
+	- Reserve Generators Sync Cond Reserve Provision
+

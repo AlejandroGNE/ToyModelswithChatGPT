@@ -1,0 +1,21 @@
+Header: Decision Variable Objective Function Coefficient Month
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Objective function value of the generic decision variable in each month
+
+Paragraphs:
+Decision Variable Objective Function Coefficient Month is the variant of Objective Function Coefficient that indicates that there is one decision variable for each month of the horizon rather than every interval.
+
+See also:
+Lists:
+	- Objective Function Coefficient Hour
+	- Objective Function Coefficient Day
+	- Objective Function Coefficient Week
+	- Objective Function Coefficient Year
+

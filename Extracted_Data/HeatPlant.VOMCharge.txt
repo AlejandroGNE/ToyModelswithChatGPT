@@ -1,0 +1,15 @@
+Header: Heat Plant VO&M Charge
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge
+
+Paragraphs:
+Heat Plant VO&M Charge is a component of the incremental cost of gas processing, and is used to recover maintenance costs that are a direct function of processing e.g. wear and tear and other regular equipment replacement and servicing costs.
+Lists:
+

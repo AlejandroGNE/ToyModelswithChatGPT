@@ -1,0 +1,19 @@
+Header: Fleet Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Company ownership share of the Fleet
+
+Paragraphs:
+The ownership of a Fleet can be shared between two or more Companies .  The share of ownership is determined by this property.
+
+Note:
+Lists:
+	- The property values must be entered as percentages like 50%, not decimal values like 0.5
+	- The shares need not sum to unity
+

@@ -1,0 +1,21 @@
+Header: Reserve Risk
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Risk
+
+Paragraphs:
+Reserve Risk is the megawatt requirement for reserve and is defined by the following equation:
+
+Reserve Risk ≥ Static Risk + MAX( Min Provision , dynamic Generator Risk / Risk Adjustment Factor ,
+            dynamic Battery Risk / Risk Adjustment Factor , dynamic Load Risk , Line Risk )
+Lists:
+	- For Generators : Reserves VO&M Charge property is associated with the provision of spinning and replacement reserves. The cost incurred is reported as Reserves VO&M Cost.
+	- For Purchasers : Offer Price in conjunction with Offer Quantity determines provision costs.
+	- For Batteries : Charge Offer Price in conjunction with Offer Quantity determines provision costs.
+

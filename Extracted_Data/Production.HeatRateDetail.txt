@@ -1,0 +1,12 @@
+Header: Production Heat Rate Detail
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Level of detail for Generator heat rate modelling
+
+Paragraphs:
+Production Heat Rate Detail can take the following values:
+Lists:
+

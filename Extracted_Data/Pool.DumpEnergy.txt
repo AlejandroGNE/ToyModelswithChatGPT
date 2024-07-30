@@ -1,0 +1,15 @@
+Header: Pool Dump Energy
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dump energy
+
+Paragraphs:
+Pool Dump Energy is the sum of dump energy across all regions in the Pool.
+Lists:
+

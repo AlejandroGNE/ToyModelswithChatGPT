@@ -1,0 +1,24 @@
+Header: Performance Objective Scalar
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	>0
+Description:	Scale the objective function internally by this factor
+
+Paragraphs:
+Scaling the objective function by a uniform value does not change the
+          optimal solution, but can improve solver performance.  If your
+          objective function is in the order of 1e+8 or higher then setting
+          Objective Scalar = 1e+3 will scale down the objective to the range to
+          1e+5 which is likely to improve performance. Note that this scaling
+          factor is only used inside the solver and is 'undone' when the
+          solution is reported.
+
+See also:
+Lists:
+	- Performance Scaling
+	- Performance Objective
+              Tolerance
+	- Constraint Scalar
+

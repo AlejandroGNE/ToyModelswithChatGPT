@@ -1,0 +1,11 @@
+Header: Heat Plant Heat Output Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of heat nodes the heat plant receives from
+
+Paragraphs:
+Heat plant Heat Output Nodes is the collection of Heat Nodes that the heat plant connects and supplies heat to. A heat plant can connect to many heat nodes. Participation factor can be used to split the proportion of heat production to different heat nodes.
+Lists:
+

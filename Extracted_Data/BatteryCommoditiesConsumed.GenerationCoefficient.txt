@@ -1,0 +1,16 @@
+Header: Battery Commodities Consumed Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity consumed per unit of generation
+
+Paragraphs:
+Battery Commodities
+            Consumed Generation Coefficient is the amount of the Commodity consumed per unit of Generation .
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Flow Node Price Received
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price received
+
+Paragraphs:
+Flow Node Price Received is the
+          average price received for sales to Markets attached to the Flow Node, and is defined as:
+
+Price Received = Revenue / Sales
+
+See also:
+Lists:
+	- Flow Node Price
+              Paid
+

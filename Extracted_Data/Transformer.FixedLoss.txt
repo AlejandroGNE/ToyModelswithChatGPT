@@ -1,0 +1,15 @@
+Header: Transformer Fixed Loss
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed loss on transformer
+
+Paragraphs:
+Transformer Fixed Loss is the fixed megawatt loss associated with the transformer.
+Lists:
+

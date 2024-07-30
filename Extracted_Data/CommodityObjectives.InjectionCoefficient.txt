@@ -1,0 +1,20 @@
+Header: Commodity Objectives Injection Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of injection of the Commodity into inventory
+
+Paragraphs:
+Commodity Objectives Injection Coefficient sets the coefficient of Injection in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Storage Inflow Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of inflows
+
+Paragraphs:
+Storage Inflow Energy is Potential energy of inflows.
+Lists:
+

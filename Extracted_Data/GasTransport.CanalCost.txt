@@ -1,0 +1,15 @@
+Header: Gas Transport Canal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of using canal by gas transport
+
+Paragraphs:
+Gas Transport Canal Cost is the total cost of using canals in the selected gas paths by the gas transport.
+Lists:
+

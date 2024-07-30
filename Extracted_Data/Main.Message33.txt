@@ -1,0 +1,14 @@
+Header: Message 33
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> Offer Quantity defined without Generator Offer Price. The default price of <value> is assumed.
+
+Paragraphs:
+Message 33 occurs when Generator Offer Quantity is defined without also defining Offer Price . The message is raised because the default value for Offer Price is will used in the simulation and this might not be intentional.
+
+See also
+Lists:
+	- Message 34
+

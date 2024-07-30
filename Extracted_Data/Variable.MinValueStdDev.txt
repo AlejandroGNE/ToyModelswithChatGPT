@@ -1,0 +1,15 @@
+Header: Variable Min Value Std Dev
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage standard deviation of minimum value
+
+Paragraphs:
+Variable Min Value Std Dev sets the standard deviation on the Min Value , allowing you to randomize the Min Value according to a probability distribution.
+Lists:
+

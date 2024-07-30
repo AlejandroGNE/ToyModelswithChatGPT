@@ -1,0 +1,15 @@
+Header: Fuel Contract Objectives Offtake Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fuel contract offtake
+
+Paragraphs:
+Fuel Contract Objectives Offtake Coefficient is Coefficient of fuel contract offtake.
+Lists:
+

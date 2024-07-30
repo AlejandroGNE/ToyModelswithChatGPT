@@ -1,0 +1,19 @@
+Header: Water Node Max Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Maximum number of units automatically retired in aggregate over the planning horizon
+
+Paragraphs:
+Water Node Max Units Retired is a binary (0,1) value indicating if retirement of this resource should be considered by LT Plan .
+
+See also:
+Lists:
+	- Water Node Retirement Cost
+	- Water Node Max Units Retired in Year
+

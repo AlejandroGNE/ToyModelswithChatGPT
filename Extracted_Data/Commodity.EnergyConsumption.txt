@@ -1,0 +1,18 @@
+Header: Commodity Energy Consumption
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent energy consumption
+
+Paragraphs:
+Commodity Energy Consumption is
+          Equivalent energy consumption, and is defined as:
+
+Electric Consumption = Consumption × Energy Density / 1000
+Lists:
+

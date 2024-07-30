@@ -1,0 +1,11 @@
+Header: Gas Storage Source Gas Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Storage has Source Gas Contracts which deliver gas to the Gas Storage.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Transformer Outage Max Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Transformer rating in the reference direction during outage
+
+Paragraphs:
+Transformer Outage Max Rating is the transformer equivalent of Generator Outage Rating .
+Lists:
+

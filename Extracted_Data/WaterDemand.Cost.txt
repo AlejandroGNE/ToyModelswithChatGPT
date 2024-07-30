@@ -1,0 +1,15 @@
+Header: Water Demand Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of water demand
+
+Paragraphs:
+Water Demand Cost is Cost of water demand.
+Lists:
+

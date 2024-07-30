@@ -1,0 +1,11 @@
+Header: Abatement Emissions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of emissions that are removed by this abatement technology
+
+Paragraphs:
+Abatement Emissions is the set of Emission objects that are removed by this abatement technology.
+Lists:
+

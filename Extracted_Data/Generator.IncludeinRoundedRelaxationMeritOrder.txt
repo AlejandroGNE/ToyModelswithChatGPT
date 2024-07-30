@@ -1,0 +1,15 @@
+Header: Generator Include in Rounded Relaxation Merit Order
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if Generator is included in the Region merit order for Rounded Relaxation unit commitment.
+
+Paragraphs:
+Generator Include in Rounded Relaxation Merit Order indicates if the Generator is included in the Region merit order for Rounded Relaxation unit commitment. Toggle this switch off if you wish to uncouple a Generator's unit commitment from those of other units.
+Lists:
+

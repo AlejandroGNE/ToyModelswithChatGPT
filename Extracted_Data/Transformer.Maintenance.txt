@@ -1,0 +1,18 @@
+Header: Transformer Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total capacity out of service in the reference direction (discrete + distributed)
+
+Paragraphs:
+Transformer Maintenance is the total capacity out of service in the reference direction ( discrete + distributed ).
+
+See also:
+Lists:
+	- Transformer Maintenance Back
+

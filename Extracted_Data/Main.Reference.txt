@@ -1,0 +1,129 @@
+Header: Reference
+
+Table Details:
+
+Paragraphs:
+Electric
+
+Transmission
+
+Heat
+
+Gas
+
+Water
+
+Transport
+
+Ownership
+
+Universal
+
+Generic
+
+Data
+
+Execute
+
+Simulation
+
+Settings
+
+List
+Lists:
+	- Generator ( description , property reference )
+	- Power Station ( description , property reference )
+	- Fuel ( description , property reference )
+	- Fuel Contract ( description , property reference )
+	- Power2X ( description , property reference )
+	- Battery ( description , property reference )
+	- Storage ( description , property reference )
+	- Waterway ( description , property reference )
+	- Emission ( description , property reference )
+	- Abatement ( description , property reference )
+	- Physical Contract ( description , property reference )
+	- Purchaser ( description , property reference )
+	- Reserve ( description , property reference )
+	- Reliability ( description , property reference )
+	- Financial Contract ( description , property reference )
+	- Cournot ( description , property reference )
+	- RSI ( description , property reference )
+	- Region ( description , property reference )
+	- Pool ( description , property reference )
+	- Zone ( description , property reference )
+	- Node ( description , property reference )
+	- Load ( description , property reference )
+	- Line ( description , property reference )
+	- MLF ( description , property reference )
+	- Transformer ( description , property reference )
+	- Flow Control ( description , property reference )
+	- Interface ( description , property reference )
+	- Contingency ( description , property reference )
+	- Hub ( description , property reference )
+	- Transmission Right ( description , property reference )
+	- Heat Plant ( description , property reference )
+	- Heat Node ( description , property reference )
+	- Heat Storage ( description , property reference )
+	- Gas Field ( description , property reference )
+	- Gas Plant ( description , property reference )
+	- Gas Pipeline ( description , property reference )
+	- Gas Node ( description , property reference )
+	- Gas Storage ( description , property reference )
+	- Gas Demand ( description , property reference )
+	- Gas DSM Program ( description , property reference )
+	- Gas Basin ( description , property reference )
+	- Gas Zone ( description , property reference )
+	- Gas Contract ( description , property reference )
+	- Gas Transport ( description , property reference )
+	- Gas Path ( description , property reference )
+	- Gas Capacity Release Offer ( description , property reference )
+	- Water Plant ( description , property reference )
+	- Water Pipeline ( description , property reference )
+	- Water Node ( description , property reference )
+	- Water Storage ( description , property reference )
+	- Water Demand ( description , property reference )
+	- Water Zone ( description , property reference )
+	- Water Pump Station ( description , property reference )
+	- Water Pump ( description , property reference )
+	- Vehicle ( description , property reference )
+	- Charging Station ( description , property reference )
+	- Fleet ( description , property reference )
+	- Company ( description , property reference )
+	- Commodity ( description , property reference )
+	- Process ( description , property reference )
+	- Facility ( description , property reference )
+	- Maintenance ( description , property reference )
+	- Flow Network ( description , property reference )
+	- Flow Node ( description , property reference )
+	- Flow Path ( description , property reference )
+	- Flow Storage ( description , property reference )
+	- Entity ( description , property reference )
+	- Market ( description , property reference )
+	- Constraint ( description , property reference )
+	- Objective ( description , property reference )
+	- Decision Variable ( description , property reference )
+	- Nonlinear Constraint ( description , property reference )
+	- Data File ( description , property reference )
+	- Variable ( description , property reference )
+	- Timeslice ( description , property reference )
+	- Global ( description , property reference )
+	- Scenario ( description , property reference )
+	- Weather Station ( description , property reference )
+	- Model ( description , property reference )
+	- Project ( description , property reference )
+	- Horizon ( description , property reference )
+	- Report ( description , property reference )
+	- Preview ( description , property reference )
+	- LT Plan ( description , property reference )
+	- PASA ( description , property reference )
+	- MT Schedule ( description , property reference )
+	- ST Schedule ( description , property reference )
+	- Stochastic ( description , property reference )
+	- Transmission ( description , property reference )
+	- Production ( description , property reference )
+	- Competition ( description , property reference )
+	- Performance ( description , property reference )
+	- Diagnostic ( description , property reference )
+	- List ( description , property reference )
+	- Layout ( description , property reference )
+

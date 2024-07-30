@@ -1,0 +1,28 @@
+Header: Commodity Min Production Custom
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum production over custom timeframe
+
+Paragraphs:
+Commodity Min Production Custom
+          creates a Constraint object that
+          forces the Production of the
+          Commodity over a custom timeframe. By default this is a 'hard'
+          constraint. To create a soft constraint, set the Min
+            Production Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Custom
+	- Commodity Constraints Consumption
+              Coefficient
+

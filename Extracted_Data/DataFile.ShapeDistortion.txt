@@ -1,0 +1,16 @@
+Header: Data File Shape Distortion
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Distortion of the original duration curve shape as a function of the difference in maximum and energy growth rates.
+
+Paragraphs:
+Data File Shape Distortion is an optional parameter for the Method = "Quadratic". Shape Distortion controls the formulation of the objective function of the Quadratic Program (QP) used to fit the grown ordered curves to the base ordered curves. The default value of zero means that the objective function penalises any change in the shape of the ordered value curve. Values above zero allow the shape to change as a function of the implied difference in growth rates between the Maximum and Energy series. For example, if the Maximum is growing faster than the Energy then the shape of the ordered value curve will tend to distort upwards towards the 'peak' value and vice versa.
+
+Example '
+
+Figure 1 shows how the Shape Distortion parameter can be used to find a better fit when the Maximum is growing faster than the Energy . Higher values of Shape Distortion bias the growth to the very peak while preserving better the shape of off-peak periods.
+Lists:
+

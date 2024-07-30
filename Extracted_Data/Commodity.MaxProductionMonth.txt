@@ -1,0 +1,28 @@
+Header: Commodity Max Production Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum production per month
+
+Paragraphs:
+Commodity Max Production Month
+          creates a Constraint object that
+          limits the Production of the
+          Commodity each month. By default this is a 'hard' constraint. To
+          create a soft constraint, set the Max
+            Production Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Month
+	- Commodity Constraints Production
+              Coefficient
+

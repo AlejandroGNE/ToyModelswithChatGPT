@@ -1,0 +1,11 @@
+Header: Zone Interzonal Transformers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Interzonal Transformers is the set of Transformers that connect to other Zones. This collection is reserved for reporting only.
+Lists:
+

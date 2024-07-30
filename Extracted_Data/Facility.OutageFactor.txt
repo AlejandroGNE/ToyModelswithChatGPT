@@ -1,0 +1,32 @@
+Header: Facility Outage Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Unit outage rating based on the unit capacity
+Units	1	-
+Max Capacity	200	-
+Outage Factor	90	%
+
+Paragraphs:
+Facility Outage sets the Outage
+            Operating Level of each unit during the associated Outage or Maintenance outage as a
+          proportion of the Max
+            Operating Level . The default value is zero means that the outage
+          is total. To specify a partial outage use a value greater than zero
+          and less than 100. See the Units Out topic for examples.
+
+In this example the outage factor is 90%, and so the implied Outage
+Operating
+            Level is 10 i.e. (1 - Outage Factor) x Max
+            Operating Level .
+
+Note that Outage Factor overrides Outage
+Operating
+            Level if both are defined.
+Lists:
+

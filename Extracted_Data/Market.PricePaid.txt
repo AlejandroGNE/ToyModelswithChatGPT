@@ -1,0 +1,20 @@
+Header: Market Price Paid
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price paid
+Interval	False	-	0.0
+True	False	Cost / Purchases
+True	True	Price
+Summary	-	False	Cost / Purchases
+-	True	0.0
+
+Paragraphs:
+In general, Market Price Paid is the volume-weighted price paid for all purchases from the market. However, it is calculated as follows:
+Lists:
+

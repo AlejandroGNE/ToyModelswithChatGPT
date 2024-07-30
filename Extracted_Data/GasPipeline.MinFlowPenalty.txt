@@ -1,0 +1,15 @@
+Header: Gas Pipeline Min Flow Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Penalty for violating the [Min Flow] constraints.
+
+Paragraphs:
+Gas Pipeline Min Flow Penalty is the penalty for violating the [Min Flow] constraints.
+Lists:
+

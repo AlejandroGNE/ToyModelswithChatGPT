@@ -1,0 +1,11 @@
+Header: Heat Node Water Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of water plants supplied
+
+Paragraphs:
+Heat Node Water Plants is set of water plants supplied
+Lists:
+

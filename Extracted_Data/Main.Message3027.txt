@@ -1,0 +1,11 @@
+Header: Message 3027
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Profile <value> contains <value> zero values.
+
+Paragraphs:
+
+Lists:
+

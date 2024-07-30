@@ -1,0 +1,11 @@
+Header: Line Node From
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	node that the line notionally exports from
+
+Paragraphs:
+Line Node From defines the start point ( node ) of the transmission line in terms of its reference direction.  Exports from this node are considered positive flows, imports are negative flows.
+Lists:
+

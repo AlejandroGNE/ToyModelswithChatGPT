@@ -1,0 +1,21 @@
+Header: Charging Station Min Generation
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum generation across all units
+
+Paragraphs:
+Charging Station Min
+          Generation sets a lower limit on the total discharge (generation) to
+          the grid across all units and Vehicles at the charging station.
+
+See also:
+Lists:
+	- Charging Station Max
+              Discharge Rate
+

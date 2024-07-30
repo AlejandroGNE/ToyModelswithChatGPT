@@ -1,0 +1,11 @@
+Header: Message 3019
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	<value> [<value>] defined with multiple bands but this property cannot be multi-band.
+
+Paragraphs:
+
+Lists:
+

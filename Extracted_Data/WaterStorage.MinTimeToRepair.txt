@@ -1,0 +1,18 @@
+Header: Water Storage Min Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time to repair
+
+Paragraphs:
+Water Storage Min Time To Repair is the lower bound on the repair time. See Generator Min Time to Repair for details. This is a Beta feature.
+
+See also:
+Lists:
+	- Water Storage Max Time To Repair
+

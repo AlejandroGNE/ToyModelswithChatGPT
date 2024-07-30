@@ -1,0 +1,17 @@
+Header: Facility Warm Up Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours warming up
+
+Paragraphs:
+Facility Warm Up Hours is the
+          number of hours the Facility ran the Warm
+            Up Process in the reporting period.
+Lists:
+

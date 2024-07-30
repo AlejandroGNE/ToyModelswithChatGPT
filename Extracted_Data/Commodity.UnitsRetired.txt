@@ -1,0 +1,26 @@
+Header: Commodity Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units retired
+
+Paragraphs:
+Commodity Units Retired is the
+          number of inventory 'units' retired in LT
+            Plan .
+
+See also:
+Lists:
+	- Commodity Units
+	- Commodity Max
+              Units Retired
+	- Commodity Technical
+              Life
+	- Commodity Retirement
+              Cost
+

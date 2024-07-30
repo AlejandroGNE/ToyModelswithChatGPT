@@ -1,0 +1,11 @@
+Header: Battery Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Battery inherits from
+
+Paragraphs:
+Battery Template is the template the Battery inherits from.
+Lists:
+

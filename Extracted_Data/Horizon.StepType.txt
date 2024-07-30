@@ -1,0 +1,12 @@
+Header: Horizon Step Type
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (1,2,3,4)
+Description:	Planning horizon step type
+
+Paragraphs:
+Horizon Planning Step Type
+Lists:
+

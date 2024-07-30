@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Entitlement Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Capacity Release Offer Entitlement type: Gross of pipeline fuel (inflow quantity) or Net of pipeline fuel (outflow quantity).
+
+Paragraphs:
+Gas Capacity Release Offer Entitlement Type indicates whether maximum release entitlement is considering pipelines losses (gross) or not (net).
+Lists:
+

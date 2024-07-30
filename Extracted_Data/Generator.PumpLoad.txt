@@ -1,0 +1,28 @@
+Header: Generator Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load drawn by a unit in pumping mode
+Units	1	-
+Max Capacity	250	MW
+Pump Efficiency	70	%
+Pump Load	240	MW
+
+Paragraphs:
+Generator Pump Load applies to pumped storage generators and as an input property is the maximum megawatt load drawn per unit while in pump mode. As output Pump Load is the total station load from all units that are in pump mode. Along with Pump Efficiency and connection to a Head Storage this property designates a Generator as a pumped storage generator.
+
+Example:
+
+You can define a minimum load level while pumping using the property Min Pump Load .
+
+See also:
+Lists:
+	- Generator Pump Efficiency
+	- Generator Pump Units
+	- Generator Max Units Pumping
+

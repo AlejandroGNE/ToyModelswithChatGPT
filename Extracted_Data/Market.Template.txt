@@ -1,0 +1,11 @@
+Header: Market Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Market inherits from
+
+Paragraphs:
+Market Template is template the Market inherits from
+Lists:
+

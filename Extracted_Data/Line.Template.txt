@@ -1,0 +1,11 @@
+Header: Line Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Line inherits from
+
+Paragraphs:
+Line Template is template the Line inherits from
+Lists:
+

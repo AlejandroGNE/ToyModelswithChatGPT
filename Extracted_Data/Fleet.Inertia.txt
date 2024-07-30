@@ -1,0 +1,19 @@
+Header: Fleet Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Fleet Inertia is the total inertia
+          from vehicles in the fleet and is defined as:
+
+Inertia = ∑ ( Vehicles
+            Share × Inertia )
+Lists:
+

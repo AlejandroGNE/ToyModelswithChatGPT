@@ -1,0 +1,17 @@
+Header: Generator Boiler Heat Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat production from Ancillary Boiler
+
+Paragraphs:
+Generator Boiler Heat Production is the heat production from auxiliary boiler. This value excludes any heat produced by CHP stage or CCGTs . It is reported directly from the optimization problem.
+
+See also Heat Load , CHP Heat Production , Boiler Fuel Offtake
+Lists:
+

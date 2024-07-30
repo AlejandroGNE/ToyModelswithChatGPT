@@ -1,0 +1,16 @@
+Header: Stochastic Brazil Scenario Tree
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Flag if the PARMA scenario tree is created with non-equiprobability
+
+Paragraphs:
+This option applies when the PARMA
+           Model Type is set to "PARMA". When creating the scenario tree, prediction is performed on each stage when a node on a full branch starts branching. 
+           In the default method, the values of all children nodes are predicted within an equiprobable sample space and balanced with the full branch node at the central. 
+           When Brazil Scenario Tree is set as True, it first generates a larger set of N (N = 1000, for example) equiprobable samples, and 
+           then reduces the samples resulting in a smaller set of non-equiprobable scenarios, and assigns them to the full and hanging child nodes.
+Lists:
+

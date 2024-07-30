@@ -1,0 +1,15 @@
+Header: Region SRMC
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Highest short-run marginal cost of running generators
+
+Paragraphs:
+Region SRMC is the highest short-run marginal cost of dispatched generators in the region. Note that this is not necessarily equal to the Price in the region since it does not account for constraints such as Min Stable Level or Reserve that might prohibit a Generator from setting price or augment the price.
+Lists:
+

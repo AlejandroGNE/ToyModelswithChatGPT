@@ -1,0 +1,20 @@
+Header: Storage Downstream Release
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Release downstream via waterways
+
+Paragraphs:
+Storage Downstream Release is the total releases from the Storage out of the connected Waterways . It excludes "open-ended" waterways (spills to the "sea"). So this value accounts just for Flows through Waterways downstream in a cascading system.
+
+See also:
+Lists:
+	- Storage Release
+	- Storage Generator Release
+	- Storage Spill
+

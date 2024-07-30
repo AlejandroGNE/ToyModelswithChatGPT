@@ -1,0 +1,15 @@
+Header: Flow Network Net Interchange
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net exports on Flow Paths
+
+Paragraphs:
+Flow Network Net Interchange is Net exports on Flow Paths.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Physical Contract Load Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of load obligation serviced
+
+Paragraphs:
+Physical Contract Load Factor is defined as:
+Lists:
+

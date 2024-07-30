@@ -1,0 +1,17 @@
+Header: Flow Node Flow Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit cost of flowing the Commodity through the Flow Node
+
+Paragraphs:
+Flow Node Flow Charge is the unit
+          cost of flowing the Commodity through the Flow Node. The Flow and
+          the Flow Cost are reported.
+Lists:
+

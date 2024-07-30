@@ -1,0 +1,21 @@
+Header: Line Loss Base Back
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Interconnector loss function constant parameter for counter-reference direction flows
+
+Paragraphs:
+Line Loss Base Back is the constant term in the equation that defines losses for flows in the counter-reference direction i.e. for notionally negative values of Flow . See Line Loss Incr for details and examples.
+
+This value defaults to Loss Base if that value is defined.
+
+See also:
+Lists:
+	- Line Loss Incr Back
+	- Line Loss Incr2 Back
+

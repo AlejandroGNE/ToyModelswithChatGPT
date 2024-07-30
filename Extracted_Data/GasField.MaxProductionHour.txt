@@ -1,0 +1,15 @@
+Header: Gas Field Max Production Hour
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum hourly production of gas from the field
+
+Paragraphs:
+Gas Field Max Production HOUR is the hourly version of Gas Field Max Production .
+Lists:
+

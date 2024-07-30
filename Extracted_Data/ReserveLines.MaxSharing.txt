@@ -1,0 +1,15 @@
+Header: Reserve Lines Max Sharing
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum amount of reserve shared on the line
+
+Paragraphs:
+Reserve Lines Max Sharing is Maximum amount of reserve shared on the line.
+Lists:
+

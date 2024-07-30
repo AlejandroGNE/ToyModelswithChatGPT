@@ -1,0 +1,26 @@
+Header: Generator Capacity Retired
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity retired (Max Capacity x Units Retired)
+
+Paragraphs:
+Generator Capacity Retired is the production capacity retired in LT Plan and is calculated
+          as:
+
+Capacity Retired = Units
+            Retired × Max Capacity
+
+Note that this is the 'raw' capacity, not accounting for Firm
+            Capacity .
+
+See also:
+Lists:
+	- Generator Capacity
+              Built
+

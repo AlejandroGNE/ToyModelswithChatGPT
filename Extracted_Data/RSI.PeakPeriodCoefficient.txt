@@ -1,0 +1,15 @@
+Header: RSI Peak Period Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Peak Period Coefficient
+
+Paragraphs:
+This is the coefficient of RSI Peak Period in the equation for the Lerner Index
+Lists:
+

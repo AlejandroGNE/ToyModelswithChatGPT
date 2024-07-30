@@ -1,0 +1,25 @@
+Header: Nonlinear Constraint Class
+
+Table Details:
+Description:	Generic non-linear constraint
+
+Paragraphs:
+See also Nonlinear Constraint Property Reference for a detailed list of properties for this class of object.
+
+The Nonlinear Constraint class can be used to represent nonlinear polynomial functions that govern the relationship between two Decision Variables, X and Y .
+
+When used, PLEXOS will automatically create a set of linear constraints to approximate the polynomial function Y = f(X), Y ≤ f(X), or Y ≥ f(X) in the optimization.
+
+The polynomial function f(X) is defined using the Constant Term and the Polynomial Coefficients inputs, and the sense of the constraint is specified using the Sense input.
+
+To relate two optimization variables with a nonlinear constraint, two generic Constraint objects should be used to connect two Decision Variables with corresponding optimization variables 
+            using an equality constraint. The Decision Variables can then be connected with a Nonlinear Constraint to enforce the nonlinear relationship. In the optimization, the nonlinear function is divided up into tranches and 
+            linearized in each tranche. The number of tranches and thus accuracy of the approximation is governed by the Max Tranches input.
+
+Binary variables will potentially be added 
+            for each tranche depending upon the Sense, and in general the more tranches that are used the more difficult the problem will be to solve. It is recommended that both Decision Variables 
+            use the same period    type. Also, the bounds on the X variable should be as tight as possible since these are used to develop the piece-wise linear constraints. This means that the 
+            lower bound should be as large as possible and the upper bound should be as small as possible. Unlimited lower or upper bounds should not be used on the X Decision Variable. In the outputs, 
+            the values of X and Y are reported as well as the actual function values f(X) which can help show how accurate the approximation was.
+Lists:
+

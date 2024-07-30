@@ -1,0 +1,15 @@
+Header: Gas Basin Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs including amortized build costs
+
+Paragraphs:
+Gas Basin Fixed Costs reports the total fixed costs including amortized build costs.
+Lists:
+

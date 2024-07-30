@@ -1,0 +1,21 @@
+Header: Company Loss Allocation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses allocated to the company.
+C1 (via load object L1)	10
+C2 (via load object L2)	15
+C3 (via load object L3)	20
+C1	2.22
+C2	3.33
+C3	4.44
+
+Paragraphs:
+Company Loss Allocation is Losses allocated to the company..
+Lists:
+

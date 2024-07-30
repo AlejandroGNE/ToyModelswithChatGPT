@@ -1,0 +1,11 @@
+Header: Gas Field Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Gas Field
+
+Paragraphs:
+Gas Field Objectives is set of Objectives on the Gas Field
+Lists:
+

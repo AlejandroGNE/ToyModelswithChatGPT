@@ -1,0 +1,15 @@
+Header: Water Demand Excess Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of excess supply of water
+
+Paragraphs:
+Water Demand Excess Hours is Number of hours of excess supply of water.
+Lists:
+

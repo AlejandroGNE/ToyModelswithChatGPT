@@ -1,0 +1,15 @@
+Header: Zone Facility Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from connected Facilities
+
+Paragraphs:
+Zone Facility Load is Load from connected Facilities.
+Lists:
+

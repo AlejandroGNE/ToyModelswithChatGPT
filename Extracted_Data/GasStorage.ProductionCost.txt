@@ -1,0 +1,15 @@
+Header: Gas Storage Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total cost of injections and withdrawals
+
+Paragraphs:
+Gas Storage Production Cost is the total cost of injections and withdrawals and is calculated as:
+Lists:
+

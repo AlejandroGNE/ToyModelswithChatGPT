@@ -1,0 +1,20 @@
+Header: Generator Max Energy Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Energy] or [Max Capacity Factor] constraint violations.
+
+Paragraphs:
+Generator Max Energy Violation
+          Cost is defined as:
+
+Max Energy Violation Cost = Max
+            Energy Violation × Max
+            Energy Penalty
+Lists:
+

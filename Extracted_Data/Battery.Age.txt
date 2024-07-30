@@ -1,0 +1,39 @@
+Header: Battery Age
+
+Table Details:
+Units:	cycles
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of cycles completed
+Batt1	Units	1	-
+Batt1	Capacity	10	MWh
+Batt1	Max Power	1	MW
+Batt1	Max SoC	90	%
+Batt1	Min SoC	10	%
+
+Paragraphs:
+Battery Age is the average age of the Units in cycles.
+
+A complete battery charge and discharge ,
+          between the specified Min SoC and Max SoC values, is considered to be a
+          full cycle, with the Age based on 'shallow discharging', where the battery can partially
+          discharge and then recharge.
+
+Age = ( Generation / Discharge
+              Efficiency + Load × Charge
+              Efficiency ) × time / ( 2 × ( Max
+            SoC - Min SoC ) × Units × Capacity )
+
+The summary value of this property is simply the sum of the interval
+          values.
+
+Assuming a battery has been defined as above, and it discharges for
+          one hour at a constant 1 MW level with 100% discharge efficiency, then
+          the Age would be:
+
+Note that the Capacity used in the age formula is the commissioned unit capacity, i.e. before the effects of any Capacity Degradation .
+Lists:
+

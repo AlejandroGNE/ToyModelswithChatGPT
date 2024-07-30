@@ -1,0 +1,11 @@
+Header: Message 3042
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Viewing of Patterned file data is not currently supported prior to Model compilation.
+
+Paragraphs:
+Message 3042 occurs in the following circumstances:
+Lists:
+

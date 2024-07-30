@@ -1,0 +1,12 @@
+Header: Transmission Contingency Limit Penalty
+
+Table Details:
+Units:	$/MWh
+Default Value:	-1
+Validation Rule:	Any Value
+Description:	Penalty for exceeding contingency flow limits.
+
+Paragraphs:
+[detail]
+Lists:
+

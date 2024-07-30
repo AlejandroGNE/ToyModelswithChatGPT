@@ -1,0 +1,59 @@
+Header: Gas Contract Class
+
+Table Details:
+Description:	Gas contract
+Property	Value	Units
+Contract 1 Quantity	150	TJ
+Contract 2 Quantity	200	TJ
+Max Production	500	TJ
+Gas Demand	680	TJ
+Contract 1 Price	2	$/GJ
+Contract 2 Price	5	$/GJ
+Production Cost	5	$/GJ
+
+Paragraphs:
+See also Gas Contract Property Reference for a detailed list of properties for this class of object.
+
+Gas Contracts represent:
+
+A gas field contract links the quantity and price of a production agreement to the gas field via the Gas Field membership.
+
+Modelling gas contracts requires a form of merit order dispatch with volumes associated with gas contracts getting priority over other volumes designated for "uncontracted" users. Given this, the implementation has to take into account contract priority.
+
+The Quantity property sets an upper bound (hard constraint) on the production from the gas field for the respective intervals to fulfill that contract agreement, whilst the Price is used to calculate the total offtake Cost associated with the executed volumes under that contract. Only after contract volumes are fulfilled can the left over gas in the Gas Field be directed to "uncontracted" demand, if there is spare production capacity and the price signal is right. As an illustration, consider a gas field with two contracts as defined in the table below:
+
+From the table above, it can be seen that from the total demand of 680 TJ, about 350 TJ is contracted, and this will be dispatched first. Then the gas field will dispatch the remaining "uncontracted" gas into the node up to its Max Production , which in this example is 150 TJ as seen in the figure below:
+
+
+
+With the associated costs as given below:
+
+
+
+The Take-or-Pay Quantity property sets an (optional) lower bound (soft constraint) on the production from the gas field for the respective intervals to fulfil that contract agreement, which can be breached at a penalty set by the Take-or-Pay Price . This is similar to the ToP part of a Fuel Contract .
+
+A gas pipeline contract is connected to one or more Gas Pipelines and Gas Fields .
+
+The defined collection of gas pipelines must form a simple path, starting from the gas node which the gas field is connected to.
+
+A gas transport contract is connected to one or more Gas Transports .
+
+The gas contract works to define the delivery quantity of gas at the Gas Transport Import Node . If the variant of Quantity is defined, it is assumed that the quantity is for the first period of that day/week/month/year accordingly.
+
+See the Gas Modelling article for more details about the gas model.
+
+A gas node contract is connected to one or more Gas Nodes .
+
+The gas node(s) must have a Gas Demand membership. If multiple nodes share the same demand then a Demand Participation Factor must be specified for each node.
+Lists:
+	- Gas Field Contracts; or
+	- Gas Pipeline Contracts; or
+	- Gas Transport Contracts; or
+	- Gas Node Contracts.
+
+
+H2s:
+Gas Field Contract
+Gas Pipeline Contract
+Gas Transport Contract
+Gas Node Contract

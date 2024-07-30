@@ -1,0 +1,12 @@
+Header: Competition RSI Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If Residual Supply Index method is used.
+
+Paragraphs:
+Competition RSI Indicator toggles on/off the Residual Supply Index model.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Maintenance Objectives Start Hour Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the hour in the simulation the maintenance event started
+
+Paragraphs:
+Maintenance Objectives Start Hour Coefficient is Coefficient of the hour in the simulation the maintenance event started.
+Lists:
+

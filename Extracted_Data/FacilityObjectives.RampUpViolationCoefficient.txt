@@ -1,0 +1,15 @@
+Header: Facility Objectives Ramp Up Violation Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of max ramp up violation
+
+Paragraphs:
+Facility Objectives Ramp Up Violation Coefficient is Coefficient of max ramp up violation.
+Lists:
+

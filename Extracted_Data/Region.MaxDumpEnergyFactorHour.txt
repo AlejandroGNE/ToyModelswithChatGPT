@@ -1,0 +1,15 @@
+Header: Region Max Dump Energy Factor Hour
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum proportion of energy dumped in hour
+
+Paragraphs:
+Region Max Dump Energy Factor Hour is Maximum proportion of energy dumped in hour.
+Lists:
+

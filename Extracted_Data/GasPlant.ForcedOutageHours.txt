@@ -1,0 +1,20 @@
+Header: Gas Plant Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas plant is on forced outage of Production
+
+Paragraphs:
+Gas Plant Forced Outage Hours is the number of hours the gas plant is on forced outage of Production.
+
+See also:
+Lists:
+	- Gas Plant Maintenance Hours
+	- Gas Plant Units Out
+	- Gas Plant Service Factor
+

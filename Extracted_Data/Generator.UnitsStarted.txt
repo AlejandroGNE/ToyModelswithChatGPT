@@ -1,0 +1,33 @@
+Header: Generator Units Started
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units started
+
+Paragraphs:
+Generator Units Started is the
+          number of units that started up in the period and is defined as:
+
+Units Started t =
+          MAX(0, Units Generating t - Units Generating ( t -1) )
+
+where: t indexes the time interval;
+            and Units
+              Generating 0 is defined by Initial
+              Units Generating
+
+In summary reporting this is  the total number of unit
+          starts that occurred in the period.
+
+See also:
+Lists:
+	- Generator Units
+              Shutdown
+	- Production Unit
+              Commitment Optimality
+

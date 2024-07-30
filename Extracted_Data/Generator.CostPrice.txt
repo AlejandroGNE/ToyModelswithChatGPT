@@ -1,0 +1,81 @@
+Header: Generator Cost Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal cost of energy in band
+Units	1	-
+Max Capacity	250	MW
+Commit	1	-
+Min Stable Level	70	MW
+Heat Rate Base	78	GJ
+Heat Rate Incr	9.175	GJ/MWh
+Offer Quantity	MW	1	70.00	70.00	70.00	70.00	70.00	70.00	70.00	70.00	70.00	70.00
+Offer Quantity	MW	2	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	3	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	4	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	5	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	6	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	7	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	8	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	9	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Quantity	MW	10	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Price	$/MWh	1	24.92	24.92	24.92	24.92	24.92	24.92	24.92	24.92	24.92	24.92
+Offer Price	$/MWh	2	26.22	26.22	26.22	26.22	26.22	26.22	26.22	26.22	26.22	26.22
+Offer Price	$/MWh	3	26.80	26.80	26.80	26.80	26.80	26.80	26.80	26.80	26.80	26.80
+Offer Price	$/MWh	4	27.38	27.38	27.38	27.38	27.38	27.38	27.38	27.38	27.38	27.38
+Offer Price	$/MWh	5	27.96	27.96	27.96	27.96	27.96	27.96	27.96	27.96	27.96	27.96
+Offer Price	$/MWh	6	28.54	28.54	28.54	28.54	28.54	28.54	28.54	28.54	28.54	28.54
+Offer Price	$/MWh	7	29.12	29.12	29.12	29.12	29.12	29.12	29.12	29.12	29.12	29.12
+Offer Price	$/MWh	8	29.69	29.69	29.69	29.69	29.69	29.69	29.69	29.69	29.69	29.69
+Offer Price	$/MWh	9	30.27	30.27	30.27	30.27	30.27	30.27	30.27	30.27	30.27	30.27
+Offer Price	$/MWh	10	30.85	30.85	30.85	30.85	30.85	30.85	30.85	30.85	30.85	30.85
+Cost Price	$/MWh	1	24.92	24.92	24.92	24.92	24.92	24.92	24.92	24.92	24.92	24.92
+Cost Price	$/MWh	2	26.22	26.22	26.22	26.22	26.22	26.22	26.22	26.22	26.22	26.22
+Cost Price	$/MWh	3	26.80	26.80	26.80	26.80	26.80	26.80	26.80	26.80	26.80	26.80
+Cost Price	$/MWh	4	27.38	27.38	27.38	27.38	27.38	27.38	27.38	27.38	27.38	27.38
+Cost Price	$/MWh	5	27.96	27.96	27.96	27.96	27.96	27.96	27.96	27.96	27.96	27.96
+Cost Price	$/MWh	6	28.54	28.54	28.54	28.54	28.54	28.54	28.54	28.54	28.54	28.54
+Cost Price	$/MWh	7	29.12	29.12	29.12	29.12	29.12	29.12	29.12	29.12	29.12	29.12
+Cost Price	$/MWh	8	29.69	29.69	29.69	29.69	29.69	29.69	29.69	29.69	29.69	29.69
+Cost Price	$/MWh	9	30.27	30.27	30.27	30.27	30.27	30.27	30.27	30.27	30.27	30.27
+Cost Price	$/MWh	10	30.85	30.85	30.85	30.85	30.85	30.85	30.85	30.85	30.85	30.85
+Offer Cleared	MW	1	0.00	0.00	0.00	70.00	70.00	70.00	70.00	70.00	70.00	70.00
+Offer Cleared	MW	2	0.00	0.00	0.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	3	0.00	0.00	0.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	4	0.00	0.00	0.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	5	0.00	0.00	0.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	6	0.00	0.00	0.00	0.00	20.00	20.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	7	0.00	0.00	0.00	0.00	0.00	0.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	8	0.00	0.00	0.00	0.00	0.00	0.00	20.00	20.00	20.00	20.00
+Offer Cleared	MW	9	0.00	0.00	0.00	0.00	0.00	0.00	0.00	20.00	20.00	20.00
+Offer Cleared	MW	10	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	20.00
+Units Generating	-	1	0.00	0.00	0.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00
+Generation	MW	1	0.00	0.00	0.00	150.00	170.00	170.00	210.00	230.00	230.00	250.00
+Fuel Offtake	GJ	1	0.00	0.00	0.00	1,381.95	1,572.20	1,572.20	1,964.26	2,166.08	2,166.08	2,371.75
+SRMC	$/MWh	1	23.91	23.91	23.91	28.25	28.83	28.83	29.98	30.56	30.56	31.14
+Generation Cost	$	1	0.00	0.00	0.00	4,145.85	4,716.59	4,716.59	5,892.79	6,498.23	6,498.23	7,115.25
+
+Paragraphs:
+Generator Cost Price is the marginal cost of production excluding emissions. It is reported by band and is paired with Offer Quantity.
+
+Cost Price is the offer that is used in dispatch if:
+
+The true marginal cost may vary across the band so the reported cost price is that at the mid-point of the band.
+
+Please refer to SRMC , for details of how the marginal cost is computed at a megawatt point.
+
+Example:
+
+The following capacity and heat rate input are used in this example:
+
+These are the reported offers including Cost Price:
+Lists:
+	- no user-defined offer is given,
+	- the generator does not alter its bids due to gaming, and
+	- the generator does not have an emission cost.
+

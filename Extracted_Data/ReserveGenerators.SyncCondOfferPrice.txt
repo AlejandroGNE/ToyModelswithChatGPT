@@ -1,0 +1,17 @@
+Header: Reserve Generators Sync Cond Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Synchronous condenser reserve offer price
+
+Paragraphs:
+Reserve Generators sets the price premium for provision of reserve by the generator running in synchronous condenser mode.
+
+See also Max Sync Cond Response .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Min Production Violation
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Min Production] or [Min Capacity Factor] constraints
+
+Paragraphs:
+Power2X Min Production Violation is Violation of [Min Production] or [Min Capacity Factor] constraints.
+Lists:
+

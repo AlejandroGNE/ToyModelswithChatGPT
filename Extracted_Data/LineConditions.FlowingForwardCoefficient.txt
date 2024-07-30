@@ -1,0 +1,15 @@
+Header: Line Conditions Flowing Forward Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the line is flowing in the reference direction, 0 otherwise)
+
+Paragraphs:
+Line Conditions Flowing Forward Coefficient is Boolean value (1 if the line is flowing in the reference direction, 0 otherwise).
+Lists:
+

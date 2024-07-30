@@ -1,0 +1,15 @@
+Header: Reserve Batteries Effectiveness
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Estimated reserve effectiveness (MW/MW)
+
+Paragraphs:
+Reserve Batteries Effectiveness is the estimated reserve effectiveness (MW/MW).
+Lists:
+

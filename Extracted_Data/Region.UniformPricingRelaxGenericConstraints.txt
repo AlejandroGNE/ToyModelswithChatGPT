@@ -1,0 +1,17 @@
+Header: Region Uniform Pricing Relax Generic Constraints
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If other generic constraints are relaxed in calculating SMP
+
+Paragraphs:
+Region Uniform Pricing Relax Generic Constraints is a flag that controls how generic constraints other than transmission constraints are treated in the Uniform Pricing calculation. It can take the following values:
+
+The setting that controls generic transmission constraints is Uniform Pricing Relax Transmission Limits .
+Lists:
+

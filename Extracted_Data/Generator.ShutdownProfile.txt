@@ -1,0 +1,30 @@
+Header: Generator Shutdown Profile
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Detailed regime for running the unit down from [Min Stable Level] when [Run Down Rate] is non-constant.
+Units	1	-	1	
+Max Capacity	100	MW	1	
+Min Stable Level	40	MW	1	
+Shutdown Cost	1000	$	1	
+Shutdown Profile	20	MW	1	H01
+Shutdown Profile	5	MW	1	H02
+
+Paragraphs:
+Generator Shutdown Profile defines a series of megawatt steps that the generating units pass through while running down from Min Stable Level to zero. Note that if this running down rate is constant you should use the Run Down Rate property instead.
+
+The input scheme for this property is a special case, where the Timeslice field is used to identify the stages of the shutdown.
+
+Example:
+
+See also:
+Lists:
+	- Run Down Rate
+	- Run Up Rate
+	- Start Profile
+

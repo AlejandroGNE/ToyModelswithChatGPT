@@ -1,0 +1,15 @@
+Header: Generator Fuels Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation
+
+Paragraphs:
+Generator Fuels Generation is the generation on this specific fuel. If the generator uses only one fuel then this is equal to the generation , otherwise this property reports the generation split across fuels such that the sum across fuels is equal to the total generation.
+Lists:
+

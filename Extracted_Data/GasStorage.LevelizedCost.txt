@@ -1,0 +1,25 @@
+Header: Gas Storage Levelized Cost
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Levelized cost of gas injections and withdrawals
+
+Paragraphs:
+Gas Storage Levelized Cost is
+          calculated as:
+
+Levelized Cost = ( Withdrawal Cost + Injection Cost + Fixed Cost )
+          / ( Withdrawal + Injection )
+
+See also:
+
+
+Lists:
+	- Generator Levelized
+              Cost
+

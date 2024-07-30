@@ -1,0 +1,12 @@
+Header: Diagnostic Data File Read
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Output data file information to log file.
+
+Paragraphs:
+This settings toggles on/off screen and log messages during reading of external data files. The following is an example of the messages shown during file reading:
+Lists:
+

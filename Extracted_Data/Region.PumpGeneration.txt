@@ -1,0 +1,15 @@
+Header: Region Pump Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from pumped storage
+
+Paragraphs:
+Region Pump Generation is Generation from pumped storage.
+Lists:
+

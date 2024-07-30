@@ -1,0 +1,19 @@
+Header: Storage Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from exporting generators
+
+Paragraphs:
+Storage Generation is the Generation from exporting generators .
+
+See also:
+Lists:
+	- Storage Pump Load
+	- Storage Generator Release
+

@@ -1,0 +1,24 @@
+Header: Emission Generators Allocation Year
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emission rights allocation
+
+Paragraphs:
+Emission Generators Allocation Year defines an annual allocation of emissions to the generator in the form of a Grandfather Right.
+
+If this property is defined for an Emission which also has any Company Emission Allocation variant defined, this value will be ignored and the later will be used. If this property is defined for an Emission which has a membership with a Company then this Allocation value will be migrated to Company Emission Allocation .
+
+See also:
+Lists:
+	- Allocation
+	- Allocation Hour
+	- Allocation Day
+	- Allocation Week
+	- Allocation Month
+

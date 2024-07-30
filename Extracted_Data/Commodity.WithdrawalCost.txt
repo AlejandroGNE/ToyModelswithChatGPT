@@ -1,0 +1,23 @@
+Header: Commodity Withdrawal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of withdrawals from inventory
+
+Paragraphs:
+Commodity Withdrawal Cost is the
+          cost of Withdrawal from
+          inventory and is defined as:
+
+Withdrawal Cost = Withdrawal * Withdrawal Charge
+
+See also:
+Lists:
+	- Commodity Injection
+              Cost
+

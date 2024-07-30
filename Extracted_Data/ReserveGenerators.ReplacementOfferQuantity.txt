@@ -1,0 +1,17 @@
+Header: Reserve Generators Replacement Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Replacement reserve offer quantity in offer band
+
+Paragraphs:
+Reserve Generators Replacement Offer Quantity is Replacement reserve offer quantity in offer band.  The price part of the replacement offer is defined with Replacement Offer Price .
+
+Please see the " Replacement Offer Price " page for more details about the replacement reserve offer properties.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Fuel Contract Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of fuel purchased under contract
+
+Paragraphs:
+Company Fuel Contract Cost is the total fuel bill associated with Fuel Contracts owned by the company, and is defined as:
+Lists:
+

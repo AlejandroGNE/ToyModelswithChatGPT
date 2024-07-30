@@ -1,0 +1,18 @@
+Header: Region Unserved Energy Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Key Property:	No
+Description:	Unserved Energy Method to be used for the region
+
+Paragraphs:
+
+Lists:
+	- Greedy Response : Dispatch storage earlier than later.
+	- Min LOLE : Minimize loss of load events. Loss of load event occurs when there is unserved energy in a period.
+	- Min Residual ShortFall : Minimize region outage depth.
+

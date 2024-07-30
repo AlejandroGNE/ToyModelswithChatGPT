@@ -1,0 +1,15 @@
+Header: Flow Control Ramp Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty price per MW change in flow on the device
+
+Paragraphs:
+Flow Control Ramp Penalty is the price per MW change in flow on the device from one period to the next. It can be used in addition to the Penalty input.
+Lists:
+

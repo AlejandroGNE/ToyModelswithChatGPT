@@ -1,0 +1,21 @@
+Header: Generator Constraints Emission Coefficient
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of emission production
+
+Paragraphs:
+Generator Constraints Emission Coefficient sets the left-hand side coefficient of Generator Emissions Production in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+where:
+
+By default, this sum is taken over all Generator Emissions . However you can limit the set of Emissions included in the sum by adding Generator Emission memberships with no associated property definitions. This is a special case of using 'null' memberships to filter the terms included in another constraint property.
+Lists:
+

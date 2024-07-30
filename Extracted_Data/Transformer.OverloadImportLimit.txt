@@ -1,0 +1,15 @@
+Header: Transformer Overload Import Limit
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum post-contingency flow allowed on the line
+
+Paragraphs:
+Transformer Overload Import Limit is the minimum post-contingency flow allowed on the line.
+Lists:
+

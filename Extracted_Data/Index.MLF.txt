@@ -1,0 +1,19 @@
+Header: MLF Index
+
+Table Details:
+Flow Coefficient	MW	False	1		False	Coefficient on line flow
+Intercept	-	False	1		False	Intercept of the MLF equation
+Load Coefficient	-	False	0		False	Coefficient of region demand in the MLF equation
+
+Paragraphs:
+MLF Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Flow Coefficient MW False 1 False Coefficient on line flow Intercept - False 1 False Intercept of the MLF equation MLF Regions Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Load Coefficient - False 0 False Coefficient of region demand in the MLF equation
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Flow Coefficient MW False 1 False Coefficient on line flow Intercept - False 1 False Intercept of the MLF equation MLF Regions Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Load Coefficient - False 0 False Coefficient of region demand in the MLF equation
+
+MLF Regions Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Load Coefficient - False 0 False Coefficient of region demand in the MLF equation
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Load Coefficient - False 0 False Coefficient of region demand in the MLF equation
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Load Coefficient - False 0 False Coefficient of region demand in the MLF equation
+Lists:
+

@@ -1,0 +1,26 @@
+Header: Generator Min Energy
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum energy
+
+Paragraphs:
+Generator Min Energy (and its
+          period-specific variants) defines a lower bound on the sum of Generation across any interval, hour, day, week, month, or year.
+
+The simulator converts the energy constraints into Constraint objects. By default the constraints are soft - see the Min
+            Energy Penalty property for details.  The amount of
+          violation and the cost are reported as Min
+            Energy Violation and Min
+            Energy Violation Cost .
+
+See also:
+Lists:
+	- Generator Max
+              Energy
+

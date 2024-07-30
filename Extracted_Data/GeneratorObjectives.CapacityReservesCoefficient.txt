@@ -1,0 +1,15 @@
+Header: Generator Objectives Capacity Reserves Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generator contribution to capacity reserves
+
+Paragraphs:
+Generator Objectives Capacity Reserves Coefficient is Coefficient of generator contribution to capacity reserves.
+Lists:
+

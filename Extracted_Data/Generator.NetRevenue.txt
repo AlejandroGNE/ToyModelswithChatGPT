@@ -1,0 +1,19 @@
+Header: Generator Net Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net revenue
+
+Paragraphs:
+Generator Net Revenue is defined as:
+
+See also:
+Lists:
+	- Generator Net Profit
+	- Generator Total Generation Cost
+

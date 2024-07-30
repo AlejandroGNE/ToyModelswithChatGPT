@@ -1,0 +1,16 @@
+Header: Flow Storage Balance Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5,6)
+Key Property:	No
+Description:	Frequency of inventory balance
+
+Paragraphs:
+See Commodity Balance
+            Period for details.
+Lists:
+

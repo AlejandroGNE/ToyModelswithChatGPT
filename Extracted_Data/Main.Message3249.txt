@@ -1,0 +1,16 @@
+Header: Message 3249
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Financial coefficient [<value>] defined in non-price prescribed context and will be ignored. Constraint <name>, object <name>.
+
+Paragraphs:
+Some financial coefficients (i.e. Net Profit Coefficient , Net Revenue Coefficient , Pool Revenue Coefficient etc.) require a presribed price input to be formulated.
+
+When price is not fixed through one of these inputs, it is typically an outcome of the cooptimisation itself (for instance calculated from the duals of energy balance constraints). As these are not known prior to
+                simulation commencement, financial coefficients cannot be calculated, and the coefficients are ignored.
+Lists:
+	- For electric classes such as Generator , price must be prescribed at a Node or Region .
+	- For universal classes such as Facility , price must be prescribed through a Market Price or primary output Commodity Price .
+

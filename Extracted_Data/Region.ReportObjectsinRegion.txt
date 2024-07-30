@@ -1,0 +1,15 @@
+Header: Region Report Objects in Region
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If objects in the Region such as Nodes, Lines, Generators, etc should be reported.
+
+Paragraphs:
+Region Report Objects in Region is If objects in the Region such as Nodes, Lines, Generators, etc should be reported in solution.
+Lists:
+

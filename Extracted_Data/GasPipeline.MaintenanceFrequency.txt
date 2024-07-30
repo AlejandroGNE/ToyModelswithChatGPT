@@ -1,0 +1,15 @@
+Header: Gas Pipeline Maintenance Frequency
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Frequency of maintenance outages in an annual time frame
+
+Paragraphs:
+Gas Pipeline Maintenance Frequency is the frequency of maintenance outages in an annual time frame and is an alternative to Maintenance Rate . See Generator Maintenance Frequency for details.
+Lists:
+

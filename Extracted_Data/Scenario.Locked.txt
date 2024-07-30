@@ -1,0 +1,14 @@
+Header: Scenario Locked
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	If the Scenario data are locked for editing.
+
+Paragraphs:
+Scenario Locked sets the lock status of the data associated with the Scenario object. It can take these values:
+
+Note that this lock applies only inside the Graphical User Interface and does not have any effect in the simulation engine.
+Lists:
+

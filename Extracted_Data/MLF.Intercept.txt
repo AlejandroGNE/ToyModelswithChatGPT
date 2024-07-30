@@ -1,0 +1,15 @@
+Header: MLF Intercept
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Intercept of the MLF equation
+
+Paragraphs:
+MLF Intercept is the constant term in the marginal loss factor equation.
+Lists:
+

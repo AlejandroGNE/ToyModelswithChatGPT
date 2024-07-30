@@ -1,0 +1,18 @@
+Header: Horizon Look-ahead Type
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2,6)
+Description:	Step type for look-ahead in chronological model
+
+Paragraphs:
+Horizon Look-ahead Type in combination with Look-ahead At a Time controls the length of the ST Schedule Look-ahead Indicator . It can take the following values:
+
+The look-ahead At a Time is in units of intervals as defined by Look-ahead Periods per Day .
+
+The look-ahead At a Time is in units of days.
+
+The look-ahead At a Time is in units of weeks.
+Lists:
+

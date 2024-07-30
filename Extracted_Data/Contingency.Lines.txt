@@ -1,0 +1,11 @@
+Header: Contingency Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of lines that form the contingency
+
+Paragraphs:
+Contingency Lines defines the set of lines whose Flow will be lost in the event of the contingency.
+Lists:
+

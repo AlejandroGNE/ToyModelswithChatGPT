@@ -1,0 +1,15 @@
+Header: Variable Error
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average sample error
+
+Paragraphs:
+Variable Error is the error (variation) in the sample value around the expected value for the given sample. In summary data this is the mean error (which should converge to zero across enough samples).
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Fuel Min Inventory
+
+Table Details:
+Units:	1000·~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum fuel required in stockpile
+
+Paragraphs:
+Fuel Min Inventory is the minimum fuel required in stockpile. This value must be less-than-or-equal-to Max Inventory .
+Lists:
+

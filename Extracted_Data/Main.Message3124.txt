@@ -1,0 +1,12 @@
+Header: Message 3124
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The marginal unit diagnostic has skipped Region <name> because the reference node <name> is not a load node.
+
+Paragraphs:
+Message 3124 occurs in the following circumstances:
+Lists:
+	- the Region reference node has no demand (i.e. the reference node could just have the Node Price property defined)
+

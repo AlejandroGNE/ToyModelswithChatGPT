@@ -1,0 +1,15 @@
+Header: Water Pump Station Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy consumption over a given period
+
+Paragraphs:
+Water Pump Stations Energy is Energy consumption over a given period.
+Lists:
+

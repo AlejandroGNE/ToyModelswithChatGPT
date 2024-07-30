@@ -1,0 +1,11 @@
+Header: Message 3030
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Data File Shape Distortion increased to: <value>.
+
+Paragraphs:
+
+Lists:
+

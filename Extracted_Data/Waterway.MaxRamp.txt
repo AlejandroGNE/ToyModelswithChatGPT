@@ -1,0 +1,15 @@
+Header: Waterway Max Ramp
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum change in flow (MW or cumecs per hour)
+
+Paragraphs:
+Waterway Max Ramp is the maximum change in flow (MW or cumecs per hour). To correctly enforce the constraint in the initial (t=0) period of a chronological simulation ( e.g. ST Schedule ) you should also define Initial Flow . In the absence of this definition the t=0 ramp constraint is relaxed. This constraint can be made a soft constraint with the Max Ramp Penalty property.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Diagnostic Marginal Loss Charges
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for Node.[Marginal Loss Charge] calculations
+
+Paragraphs:
+This option produces a diagnostic file in XML format that lists every component that goes into the calculation of the Node Marginal Loss Charge solution values.
+Lists:
+

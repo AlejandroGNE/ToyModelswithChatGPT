@@ -1,0 +1,11 @@
+Header: Message 3203
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Could not interpret the property name <name> in Variable <name> ML model schema column name <name>
+
+Paragraphs:
+Message 3203 occurs in the following circumstances:
+Lists:
+

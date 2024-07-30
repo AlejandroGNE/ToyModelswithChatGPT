@@ -1,0 +1,16 @@
+Header: Power2X FO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed operation and maintenance cost
+
+Paragraphs:
+Refer to Facility FO&M
+            Cost for details.
+Lists:
+

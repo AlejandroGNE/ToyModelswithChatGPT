@@ -1,0 +1,11 @@
+Header: List Decision Variables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Decision Variable objects in the List
+
+Paragraphs:
+List Decision Variables is set of Decision Variable objects in the List
+Lists:
+

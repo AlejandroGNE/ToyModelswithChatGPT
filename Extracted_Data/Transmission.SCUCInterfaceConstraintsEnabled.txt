@@ -1,0 +1,15 @@
+Header: Transmission SCUC Interface Constraints Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If enabled interface constraints are monitored in SCUC.
+
+Paragraphs:
+By default Interface post-contingency flows are not monitored in the security-constrained unit commitment (SCUC) algorithm as described in the article Security Constrained Unit Commitment . This setting allows you to include Interface limits to be enforced post-contingency.
+
+See also:
+Lists:
+	- Contingency Monitored Interfaces
+

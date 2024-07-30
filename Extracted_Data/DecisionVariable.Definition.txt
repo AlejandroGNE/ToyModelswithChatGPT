@@ -1,0 +1,11 @@
+Header: Decision Variable Definition
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Constraint that defines the Decision Variable value
+
+Paragraphs:
+Decision Variable Definition is the Constraint that defines the Decision Variable value. This Constraint automatically gets a coefficient on the Decision Variable equal to the Value Coefficient .
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Emission Fuels Abatement Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission abatement
+
+Paragraphs:
+Emission Fuels Abatement Cost is the cost of Fuel emissions abated by the associated Abatement technologies.
+
+See also:
+Lists:
+	- Emission Fuels Abatement
+

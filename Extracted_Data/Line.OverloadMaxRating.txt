@@ -1,0 +1,21 @@
+Header: Line Overload Max Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emergency line rating in the reference direction
+
+Paragraphs:
+Line Overload Max Rating sets the emergency rating of the line for the purposes of security-constrained operation. This is the limit used when checking for violations of line thermal limits post-contingency in the Security Constrained Unit Commitment. If this overload rating is not defined then the default Max Flow or Max Rating is used.
+
+In addition, this property can be used to define the maximum flow that a line can reach when modelling loss in Variable Shift OPF and has a limit penalty.
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+	- Line Overload Min Rating
+

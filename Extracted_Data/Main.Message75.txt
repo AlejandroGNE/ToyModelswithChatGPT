@@ -1,0 +1,11 @@
+Header: Message 75
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Error (value = 0)
+Description:	Generator <name> fuel-specific heat rate functions <value> must all have the same form.
+
+Paragraphs:
+Message 75 occurs in the following circumstances:
+Lists:
+

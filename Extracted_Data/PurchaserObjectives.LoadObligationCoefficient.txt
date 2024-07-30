@@ -1,0 +1,15 @@
+Header: Purchaser Objectives Load Obligation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of load obligation
+
+Paragraphs:
+Purchaser Objectives Load Obligation Coefficient is Coefficient of load obligation.
+Lists:
+

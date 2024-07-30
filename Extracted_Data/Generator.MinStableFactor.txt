@@ -1,0 +1,50 @@
+Header: Generator Min Stable Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum stable generation level as a proportion of [Max Capacity]
+Max Capacity	87	MW	M01
+Max Capacity	87	MW	M02
+Max Capacity	87	MW	M03
+Max Capacity	87	MW	M04
+Max Capacity	80	MW	M05
+Max Capacity	80	MW	M06
+Max Capacity	80	MW	M07
+Max Capacity	80	MW	M08
+Max Capacity	80	MW	M09
+Max Capacity	87	MW	M10
+Max Capacity	87	MW	M11
+Max Capacity	87	MW	M12
+Min Stable Factor	40	%	
+
+Paragraphs:
+Generator Min Stable Factor is
+          the minimum stable generation level defined as a percentage of Max
+            Capacity .
+
+It is convenient to use this property instead of Min
+            Stable Level when Max
+            Capacity changes over time and Min
+            Stable Level is always a set proportion of that value.
+
+In this example Min Stable
+            Level will always be 40% of Max
+            Capacity .
+
+Min Stable Factor can be defined as a multi-band property when used
+          in conjunction with Generator Head
+            Storage Efficiency
+            Point to define a different minimum operating level depending on
+          the amount of head available at a hydro generator.
+
+See also:
+Lists:
+	- Generator Rating
+	- Generator Rating
+              Factor
+

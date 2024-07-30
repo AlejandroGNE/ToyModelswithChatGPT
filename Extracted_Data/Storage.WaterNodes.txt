@@ -1,0 +1,11 @@
+Header: Storage Water Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	water nodes the water storage connects to
+
+Paragraphs:
+Storage Water Nodes is the collection of Water Nodes that the Storage connects to.
+Lists:
+

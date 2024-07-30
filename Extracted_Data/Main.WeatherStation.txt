@@ -1,0 +1,38 @@
+Header: Weather Station Class
+
+Table Details:
+Description:	Collection of all weather events related to local station
+Demand	-	MMBTu	1
+Demand Type	Temperature	-	1
+Customer Count	5	-	1
+Usage Factor Base	1	-	1
+Usage Factor Heat	2	-	1
+Usage Factor Heat	3	-	2
+Usage Factor Heat	4	-	3
+Usage Factor Heat Point	20	-	1
+Usage Factor Heat Point	40	-	2
+Usage Factor Heat Point	80	-	3
+Weather Data Factor	2	-	1
+Weather Data Factor	4	-	2
+Weather Data Variable	5	-	1
+Weather Data Variable	20	-	2
+
+Paragraphs:
+See the Weather Station Property Reference for a detailed list of properties for this class of object.
+
+A weather station is linked to a gas demand through a gas node membership.
+
+The connection relationships between Weather Station and Gas Node classes are as follows: Each Gas Node can only have at most 1 Weather Station connected (0 to 1 Weather Stations) A Weather Station can be connected to more than one Gas Node. Two different Gas Nodes can have the same Weather Station and can use same data for calculations
+
+To use weather data when calculating demand, update the Demand Type property in the linked gas demand. Additional properties must be specified in the linked gas demand object to use weather and wind data. Example: To calculate demand, we have a piecewise demand function. When Gas Demand Demand Type is Input, the demand function is calculated as normal without weather data. When Demand Type is Temperature ( or Heating Degree Days ) the following formula is used. Demand = Customer Count * ( Usage Factor Base + ( Usage Factor Heat * Temperature ) + ( Weather Data Factor * Wind)) Assume the weather station temperature is 55 and the following are the required demand inputs. Property Value Units Band Demand - MMBTu 1 Demand Type Temperature - 1 Customer Count 5 - 1 Usage Factor Base 1 - 1 Usage Factor Heat 2 - 1 Usage Factor Heat 3 - 2 Usage Factor Heat 4 - 3 Usage Factor Heat Point 20 - 1 Usage Factor Heat Point 40 - 2 Usage Factor Heat Point 80 - 3 A temperature value of 55 falls in the third Usage Factor Heat Point band and the temperature will be multiplied by the corresponding Usage Factor Heat value in band three. This results in the following demand calculation, Demand = 5*(1 + (4*55)) Demand = 1105 MMBtu Suppose wind data is added to the weather station such that wind speed is 10 and the following demand properties are also specified. Property Value Units Band Weather Data Factor 2 - 1 Weather Data Factor 4 - 2 Weather Data Variable 5 - 1 Weather Data Variable 20 - 2 A wind speed of 10 falls in the second Weather Data Variable band and the wind speed will be multiplied by the corresponding Weather Data Factor value in the second band. The demand function will be as follows, Demand = 5*(1 + (4*55) +(4*10)) Demand = 1305 MMBtu
+
+See also:
+Lists:
+	- Each Gas Node can only have at most 1 Weather Station connected (0 to 1 Weather Stations)
+	- A Weather Station can be connected to more than one Gas Node. Two different Gas Nodes can have the same Weather Station and can use same data for calculations
+	- Demand = 5*(1 + (4*55))
+	- Demand = 1105 MMBtu
+	- Demand = 5*(1 + (4*55) +(4*10))
+	- Demand = 1305 MMBtu
+	- GasDemand Demand Type
+

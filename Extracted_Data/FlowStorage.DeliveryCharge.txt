@@ -1,0 +1,16 @@
+Header: Flow Storage Delivery Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of deliveries of the Commodity to inventory
+
+Paragraphs:
+See Commodity Delivery
+            Charge for details.
+Lists:
+

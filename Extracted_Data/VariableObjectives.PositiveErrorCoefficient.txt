@@ -1,0 +1,15 @@
+Header: Variable Objectives Positive Error Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the positive sample error
+
+Paragraphs:
+Variable Objectives Positive Error Coefficient is Coefficient of the positive sample error.
+Lists:
+

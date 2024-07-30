@@ -1,0 +1,15 @@
+Header: Zone Transmission Clustering Level
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cluster nodes until this number of equivalent nodes remain (-1 means no clustering)
+
+Paragraphs:
+This setting determines the level of transmission network clustering (or 'equivalencing') performed on the Zone . See Region Transmission Clustering Level for details.
+Lists:
+

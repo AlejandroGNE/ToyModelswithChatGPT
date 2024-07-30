@@ -1,0 +1,11 @@
+Header: Power2X Heat Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	The set of heat nodes the facility supplies
+
+Paragraphs:
+Power2X Heat Nodes is the set of heat nodes the facility supplies
+Lists:
+

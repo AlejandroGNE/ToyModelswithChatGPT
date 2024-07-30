@@ -1,0 +1,32 @@
+Header: Facility Constraints Operating Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours of operation
+Constraint	Sense	<=
+Constraint	RHS	
+Constraint	RHS Day	17.5
+Facility Constraints	Hours of Operation Coefficient	1
+
+Paragraphs:
+Facility Constraints Hours of Operation Coefficient is the coefficient of the number of
+          hours of operation of the facility in the given period in the
+          constraint.
+
+This coefficient can be used to create a constraint that limits the
+          number of hours of operation of a multi-unit facility.
+
+For the example in Table 1 the facility is restricted to operating
+          17.5 hours per day. Note that adding this coefficient causes the
+          mathematical programming problem to include binary decision variables.
+
+See also:
+Lists:
+	- Facility Operating
+              Hours
+

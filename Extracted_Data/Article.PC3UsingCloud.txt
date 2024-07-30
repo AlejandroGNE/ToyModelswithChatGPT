@@ -1,0 +1,169 @@
+Header: Using PLEXOS Connect in a Cloud Environment
+
+Table Details:
+
+Paragraphs:
+PLEXOS Connect can be setup to run in any cloud environment as if it were your own local network, but we are able to provide additional features for specific cloud providers in Connect 3.1 and newer. These additional features provide the ability for the Connect Server to create, start, stop, and destroy cloud based virtual machines (VM) running the Connect Client software.
+
+The PLEXOS Connect Client and the PLEXOS Simulation engine will use the regional settings of the computer they run on. If the regional settings of these computers differ from the regional settings on other machines in the system, problems with reading data correctly may occur. See here for recommendations on configuring the culture settings.
+
+This section aims to provide a small list of recommendations when designing and implementing your cloud environment. Some of these recommendations are for most cases while others will be more of a design consideration.
+
+The PLEXOS Connect Server 3.4 supports both a statically defined group of Connect Clients, or a dynamically created and destroyed group. In both situations, the Connect Server will start and stop the Connect Client VMs as required, but in a dynamic group, the Connect Server will also terminate the unused Connect Clients. Depending on your situation, you may prefer a static group of VMs that you can manually manage, or you may prefer to rely on Virtual Machine images and let the Connect Server destroy VMs to save on cloud costs.
+
+When creating images of Windows with the Connect Client pre-installed, we recommend creating new images periodically to ensure the Connect Clients are running with the latest Windows security updates. While the Connect Server does not need an image created, we also highly recommend keeping this up to date.
+
+We recommend having a static local IP address for the Connect Server, this is due to the PLEXOS engine's licensing and Connect Client's login being set to the Connect Server's IP. Additionally, the Connect Server will use the IP address reported by the internal virtual network in a supported cloud provider or the first IP address reported by Windows. If you are running the Connect Server locally with cloud based Connect Clients, you will need to ensure the Server's IP address is available to the cloud-based Clients.
+
+Virtual network used in your cloud environment may require ports to be opened in the virtual network's firewall for Connect to work properly (by default, TCP ports 8888 and 399 are required), these firewalls may block local communication or only access from outside the virtual network.
+
+Connect 3.1 and newer supports specifying the location to cache any downloaded files from the Connect Server, these files include the PLEXOS engine and any datasets. To reduce network usage and potentially improve simulation setup times, the cache location can be set to a shared location used by all Connect Clients. When deciding to use a shared location, ensure the shared location has faster transfer speeds and has lower access latency than transferring files from the Connect Server and storing locally. Click here for more information .
+
+The client timeout feature can be used to prevent simulations taking too long to complete. This is useful when used with a supported cloud provider to ensure the Connect Clients are not kept online indefinitely. Click here for more information .
+
+When the Connect Server 3.4 is running in an AWS VM, it is able to rely on AWS's S3 cloud storage for its bulk storage needs. When used with Launch Control 3.3 and newer or Connect Clients 3.3 and newer, all file operations will be authorized by the Connect Server with pre-signed URLs, and the file upload or download will occur between S3 and the Connect apps over HTTPS. This allows the Connect Server to offload the file streaming requirements entirely to S3 storage, providing the capability for more downloads at higher transfer speeds. When using Connect 3.2 or older, file transfers will be handled by the Connect Server to provide backwards compatibility, but these file transfers will be limited to the speed of that Connect Server's network connection.
+
+Due to differences between local based storage (default) and S3 based storage, the Connect Server is not able to migrate between the 2 options. Currently, the only way to enable the S3 storage option is by using PowerShell. The below script example is compatible with section §4.4.1.2, allowing you to setup the Connect Server for both; S3 and static Connect Client VM pools with AWS IAM usage. When you execute the below PowerShell commands, you will need to specify a JSON file path which will instruct the Connect Server as to what cloud options you wish to set.
+
+The option "DatabaseDir" is the folder to store any Connect data, this is the same path that you would specify while configuring the Connect Server . During S3 operation, this directory is used to store a local copy of the Connect database and any files the Connect Server is currently using. The option "Admin" will also be required as this is the default administrator user (see §3.2). There is no password option as Launch Control will prompt for a password on first login.
+
+Next, the option "CloudStorage" will define the S3 settings you wish for Connect to use. The settings in the below example that you will need to update are: "BucketName", and "BucketPath". BucketName is the name for your S3 bucket that you defined when creating a bucket in the AWS website, while BucketPath is the path within the bucket that you wish to store any Connect data in. To avoid conflict errors, this path should only be used by a single Connect Server.
+
+Note: Some S3 settings are stored in: C:\ProgramData\Energy Exemplar\PLEXOS Connect Server Cloud.xml This assists in redownloading the Connect database during start-up if the database is deleted locally.
+
+The Connect Server can be installed in either a cloud based virtual machine (VM), a local VM or a local machine. The installation procedure in sections §3.1 and §3.2 outlines how to install the Connect Server regardless of the location. Please note, if the Connect Server is installed locally then you will need to ensure the Connect Clients based in the cloud have access to your local network. A site to site VPN will allow you to join your local network to a cloud network.
+
+Once the Connect Server is running, you will need to login to Launch Control using a user account with administrator access, then go to the 'Client' tab and click the settings button to open the Client settings popup.
+
+With the Client settings popup open, navigate to the 'Cloud' tab to view the cloud settings. From here, you'll be able to define the Cloud provider you wish to use, the configuration of the Connect Client cloud VMs and define when the Connect Server is to start and stop the cloud based VMs. The following options will be available: Create Clients - This instructs the Connect Server if it can create new virtual machines as required Max Clients - This is the maximum number of cloud based virtual machines that should exist at any time Workers - This is the number of simulations that can run on any given cloud based Connect Client Auto Delete - This is how many hours to wait after shutting down a VM before it should be deleted. The Connect Server will favour starting an existing VM over creating a new one. This option can be unchecked to allow virtual machines to exist indefinitely Provider - Which cloud provider you wish to use Provider Login - Varies for each provider, defines the credentials used to login to the cloud provider's API Client Instance - Varies for each provider, defines the specifications of the Connect Client cloud VM
+
+When the Connect Server is configured to use a statically defined group of Connect Clients, it will not be responsible for creating or destroying the Virtual Machines but it will continue to start and stop them as required. This can provide you with greater flexibility in your choice of Virtual Machines as you will not be restricted to a single hardware configuration. However, leaving virtual machines permanently defined may occur additional charges from your cloud provider.
+
+The PLEXOS Connect Server can be configured for cloud support with a static pool of clients in one of two ways depending on the cloud configuration. The first option is to use the Launch Control UI, as this is suitable for the majority of cloud configurations. The second option is to use PowerShell while the Connect Server is offline, this is suitable for when the use of AWS' IAM instance role is required for authorization.
+
+To configure the cloud options using Launch Control, see section §4.2 for an explanation of the available options. As the Connect Clients will be created manually, you will need to adjust a few specific settings: Create Clients - This will need to be unchecked, we do not want the Connect Server to create any VMs Auto Delete - This will need to be unchecked, we do not want the Connect Server to delete any VMs Workers - This value can be left at one, will not be used Provider Login - This will still need to be provided
+
+After the provider login details are provided, Launch Control will populate and enable the "Client Instance" settings. Because no virtual machines will be created by the Connect Server, these can be left empty or default values. However, if you are using Azure, Launch Control will still require a Username and Password to be provided, these could be set to "Plexos" to allow you to save the configuration.
+
+Using PowerShell, it is possible configure the Connect Server to use the AWS IAM instance profile instead of a user key and secret pair. This has the advantage of allowing you to assign permissions to the AWS EC2 virtual machine itself instead of to a user.
+
+First, you'll need to import the PLEXOS Connect Server to access the PowerShell helpers:
+
+Once you have a json configuration file with your desired settings (explained on the next page), you'll either need to call 'CreateEmptyDatabase' or 'UpdateCloudSettings', depending if you are creating a new database or updating an existing database:
+
+Note: The Connect Server will need to be stopped before you can update an existing database.
+
+When you execute the previous PowerShell commands, you will need to specify a JSON file path which will instruct the Connect Server as to what cloud options you wish to set.
+
+The option "DatabaseDir" is the folder to store any Connect data, this is the same path that you would specify in §3.2. The create database file will also require the option "Admin", this is the default administrator user (see §3.2). There is no password option as Launch Control will prompt for a password on first login.
+
+Finally, there is the "CloudCompute" option, this is very similar to the options presented by Launch Control in §4.2. This option is the same in both the create database file and the update database file, and can be used for both static or dynamic pools of Connect Clients. The option "EC2Options" is intended to specify the Client Instance settings and should be provided if you are setting "CreateClientVMs" to true.
+
+Once you have configured these files ready for Connect, save these somewhere on your local machine and provide them in the PowerShell commands on the previous page.
+
+We recommend registering the Connect Client after any other OS and software configurations, as the Connect Server will shut down the Client's VM if no simulations have been ran on it within a certain amount of time.
+
+When setting up a Connect Client for use in the cloud, the Connect Client will need to be registered from the command prompt or PowerShell terminal. By specifying the "--register" option, the Connect Client will provide the current VM's instance ID to the Connect Server as part of the registration process. This will allow the Connect Server to start and stop the Client's VM as needed.
+
+The below PowerShell example will register the current VM using the Windows machine's name as the Client's name, as well as set the worker count to half the number of CPU cores. This is just a general guide, as your PLEXOS models might need more or less CPU resources. Finally, it will restart the Connect Client's Windows service, so that it will be ready for simulations.
+
+Note: The Connect Server will terminate the Client VM if "Auto Delete" is enabled in section §4.2, or if "TerminateClientVMs" is set to true in section §4.4.1.2.
+
+When the Connect Server is configured to utilise a dynamic pool of Connect Clients, it will create Virtual Machines up to a limit you specify and destroy them after a period of idle time. This will allow for a reduction in cloud costs as cloud providers may charge you for the storage drives associated with a Virtual Machine, even when the VM is offline. However, for the Connect Server to create a new Virtual Machine as required, it will require a Virtual Machine image to create each machine from. This can be a complex task to create and problem solve if you are unfamiliar with the Windows imaging process.
+
+Before the Connect Server can create any cloud based Connect Clients, a virtual machine image will need to be prepared. This image will need to have the Connect Client preinstalled and configured ready for cloud use.
+
+Please note that while Microsoft Azure can use custom images, it does not require it. This is because the option 'Windows Server' in Launch Control will install the Connect Client on first start up and use the 'English (United States)' regional settings.
+
+First, you will need to create a Windows VM with your desired cloud provider. Please see your provider's how to guides for how to start a new virtual machine. When selecting a version of Windows, we recommend the latest version of Windows Server, but the non-Server editions of Windows will also work fine (i.e. Windows 10).
+
+Once the new VM has started and you have been able to login using remote desktop or another similar tool. Once logged in as an admin, install the Connect Client following the getting started guide . You will not need to follow the configuration guide as a different configuration will be required.
+
+After the Connect Client install has completed, open the Connect Client.
+
+With the Connect Client open, click the settings button (#1) to open the settings window and then check the option 'Enable Cloud' (#2) to make the Connect Client ready for a cloud VM image. Once the setting has been saved, you can close the Connect Client and perform any other OS customisations, such as setting any environment variables (see here for more information ) or installing any other software.
+
+With the VM now configured and ready for use, you will need to follow your cloud provider's how to guides for running the Windows sysprep tool and creating a virtual machine image.
+
+The process of performing a Windows system image using sysprep can remove any culture information configured on the machine before sysprep was ran. Due to this, you may need to reconfigure the culture information when a cloud VM is started for the first time or a specify an 'unattend.xml' file for use by sysprep when you create the VM image.
+
+Example 1 (below) is an example of an 'unattend.xml' file that can be provided to sysprep when creating a new Windows image. In this example, the InputLocale and UILanguage are set to en-US as the cloud VM was originally created using an English (United States) copy of Windows and the setup process will need those settings to match. The options SystemLocale and UserLocale have been set to en-AU so that the regional settings (ie: datetime and number formats but not the display language) are set to the English (Australia) formats. Before setting these options, the appropriate language packs should be downloaded and installed to the machine. Additionally, the need for these settings may vary with each cloud provider, for example Microsoft Azure may not need these values while Amazon AWS does due to differences in how images are created.
+
+To help ensure the system has the correct defaults after the system has been started (ie 'InputLocale' and 'UILanguage'), a culture configuration file should be imported during system specialization. Figure 4.9 is an example of a culture configuration file that can be imported during the specialization phase of sysprep, where the system then handles any restarts as required. In the example in Figure 4.8, the file is saved in the location C:\Setup\culture.xml and called by having a RunSynchronousCommand with the path control intl.cpl,, /f:"C:\Setup\culture.xml" . Since the 'Order' value will vary based on the unattend.xml, we recommend adjusting this value to avoid duplicated order values.
+
+If your cloud provider already has an 'unattend.xml' generated for your VM, the example should be merged with your cloud provider's 'unattend.xml' file.
+
+When the Connect Server is operating in an AWS cloud environment and it is configured to use either S3 or EC2, it will need the following permissions be granted to it (either via a user or ec2 role, depending on earlier configuration). These permissions are to grant it the ability to control EC2 machines (query, start, stop, create, and delete) or to control files in S3 (query, upload, and delete).
+
+If you are using Launch Control to configure the AWS cloud support in Connect, then you will require the following additional permissions. These are to allow Launch Control to query your AWS account and find what options you have available.
+Lists:
+	- Create Clients - This instructs the Connect Server if it can create new virtual machines as required
+	- Max Clients - This is the maximum number of cloud based virtual machines that should exist at any time
+	- Workers - This is the number of simulations that can run on any given cloud based Connect Client
+	- Auto Delete - This is how many hours to wait after shutting down a VM before it should be deleted. The Connect Server will favour starting an existing VM over creating a new one. This option can be unchecked to allow virtual machines to exist indefinitely
+	- This option can be unchecked to allow virtual machines to exist indefinitely
+	- Provider - Which cloud provider you wish to use
+	- Provider Login - Varies for each provider, defines the credentials used to login to the cloud provider's API
+	- Client Instance - Varies for each provider, defines the specifications of the Connect Client cloud VM
+	- This option can be unchecked to allow virtual machines to exist indefinitely
+	- Create Clients - This will need to be unchecked, we do not want the Connect Server to create any VMs
+	- Auto Delete - This will need to be unchecked, we do not want the Connect Server to delete any VMs
+	- Workers - This value can be left at one, will not be used
+	- Provider Login - This will still need to be provided
+	- Default Input Profiles for Windows culture settings
+	- Getting Started Guide
+	- Virtual Machine Instance Types
+	- Best Practices
+	- How to create a Windows virtual machine image (Amazon Machine Image, AMI)
+	- Access Keys The provided access key will need permission to create/destroy EC2 VMs In Connect, access keys are encrypted during transport and at rest
+	- The provided access key will need permission to create/destroy EC2 VMs
+	- In Connect, access keys are encrypted during transport and at rest
+	- The provided access key will need permission to create/destroy EC2 VMs
+	- In Connect, access keys are encrypted during transport and at rest
+	- Getting Started Guide
+	- Virtual Machine Instance Types
+	- Best Practices
+	- How to create a Windows virtual machine image
+	- Application ID and Authentication keys The provided application ID will need the ability to create and destroy VMs In Connect, Access keys are encrypted during transport and at rest
+	- The provided application ID will need the ability to create and destroy VMs
+	- In Connect, Access keys are encrypted during transport and at rest
+	- Please Note: When connect creates a new VM, it is created using managed disks rather than storage accounts When deleting a VM, Connect will delete the VM's disks and network interfaces
+	- When connect creates a new VM, it is created using managed disks rather than storage accounts
+	- When deleting a VM, Connect will delete the VM's disks and network interfaces
+	- The provided application ID will need the ability to create and destroy VMs
+	- In Connect, Access keys are encrypted during transport and at rest
+	- When connect creates a new VM, it is created using managed disks rather than storage accounts
+	- When deleting a VM, Connect will delete the VM's disks and network interfaces
+
+
+H2s:
+Contents
+1. Introduction
+2. Recommendations
+3. Configuring the PLEXOS Connect Server for AWS S3 storage support
+4. Configuring the PLEXOS Connect Server for Cloud Support
+5. Static Pool of Connect Clients
+6. Dynamic Pool of Connect Clients
+7. Additional Information
+8. What Permissions does AWS Require?
+
+H3s:
+5.1. Configuring the PLEXOS Connect Server for Cloud Support
+5.2. Registering the Connect Client as a Cloud VM
+6.1. Creating the Connect Client Virtual Machine Windows
+6.2. Configuring the Culture Settings of the Connect Client
+7.1. Amazon EC2
+7.2. Microsoft Azure
+8.1. What Permissions does Launch Control Require to Configure AWS Support?
+
+H4s:
+5.1.1. Using Launch Control
+5.1.2. Using PowerShell
+
+H5s:
+Static vs Dynamic pool of Connect Clients
+Windows Images (Dynamic Pool)
+PLEXOS Connect Server IP Address
+Firewalls
+Connect file caching
+Client Timeout

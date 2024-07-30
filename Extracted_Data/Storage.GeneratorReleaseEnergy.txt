@@ -1,0 +1,15 @@
+Header: Storage Generator Release Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of generator releases
+
+Paragraphs:
+Storage Generator Release Energy is Potential energy of generator releases.
+Lists:
+

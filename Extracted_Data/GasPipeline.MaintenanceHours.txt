@@ -1,0 +1,20 @@
+Header: Gas Pipeline Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the pipeline is on maintenance
+
+Paragraphs:
+Gas Pipeline Maintenance Hours is the number of hours the pipeline is on maintenance.
+
+See also:
+Lists:
+	- Gas Pipeline Hours of Forced Outage
+	- Gas Pipeline Units Out
+	- Gas Pipeline Service Factor
+

@@ -1,0 +1,15 @@
+Header: Gas Transport Shipping Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The per unit cost of shipping the gas on the transport
+
+Paragraphs:
+Gas Transport Shipping Charge is the per unit cost of shipping the gas on the transport.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Fuels Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Company Fuels Offtake is Fuel offtake.
+Lists:
+

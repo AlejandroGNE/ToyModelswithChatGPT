@@ -1,0 +1,17 @@
+Header: Generator Initial Age
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Average age of units at the start of the simulation horizon
+
+Paragraphs:
+Generator Initial Age sets the average age of units at the start of the simulation horizon.  This is can be used in conjunction with the Power Degradation property.
+
+The equivalent output is Age .
+Lists:
+

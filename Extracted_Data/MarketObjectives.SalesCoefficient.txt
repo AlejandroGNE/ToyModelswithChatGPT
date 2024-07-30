@@ -1,0 +1,15 @@
+Header: Market Objectives Sales Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of market sales
+
+Paragraphs:
+Market Objectives Sales Coefficient is Coefficient of market sales.
+Lists:
+

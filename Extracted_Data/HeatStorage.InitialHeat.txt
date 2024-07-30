@@ -1,0 +1,17 @@
+Header: Heat Storage Initial Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial heat in the storage
+
+Paragraphs:
+Heat Storage Initial Heat is the initial heat in the storage at the start of the first period of the horizon.
+
+As an output, Initial Heat is the heat in storage at the start of the period.
+Lists:
+

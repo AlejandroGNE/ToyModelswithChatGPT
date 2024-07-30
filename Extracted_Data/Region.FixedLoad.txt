@@ -1,0 +1,26 @@
+Header: Region Fixed Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed load
+A	Load	0	MW		Load Forecast.csv
+A	Fixed Load	600	MW	05/1/2005	
+
+Paragraphs:
+Region Fixed Load gets added to the other input loads. It is used to represent additional loads that are not already accounted for in the load forecast e.g. additional smelter loads.
+
+Example:
+
+Fixed Load reports the total fixed load across all Nodes in the Region .
+
+See also:
+Lists:
+	- Node Fixed Generation
+	- Region Fixed Generation
+	- Node Fixed Load
+

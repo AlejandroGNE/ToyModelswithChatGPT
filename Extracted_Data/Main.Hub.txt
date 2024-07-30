@@ -1,0 +1,11 @@
+Header: Hub Class
+
+Table Details:
+Description:	A collection of nodes representing a pricing area
+
+Paragraphs:
+See also Hub Property Reference for a detailed list of properties for this class of object.
+
+Hub is a passive class used to contain a collection of nodes used in pricing contracts.
+Lists:
+

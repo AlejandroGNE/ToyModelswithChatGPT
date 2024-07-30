@@ -1,0 +1,21 @@
+Header: Power2X Objectives Units Started Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of unit start
+
+Paragraphs:
+Power2X Objectives Units Started Coefficient sets the coefficient of Units
+            Started in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+... + c (z,j) × Power2X Units Started ...
+Lists:
+

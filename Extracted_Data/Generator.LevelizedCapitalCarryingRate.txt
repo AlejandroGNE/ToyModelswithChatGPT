@@ -1,0 +1,30 @@
+Header: Generator Levelized Capital Carrying Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Levelized capital carrying rate
+
+Paragraphs:
+Generator Levelized Capital
+          Carrying Rate is the yearly cost for the generation project as a
+          percentage of the Build Cost.
+
+The levelized capital carrying rate is the rate that a company is
+          expected to pay to finance its assets. Specifying Levelized Capital
+          Carrying Rate overrides the properties that otherwise specify the
+          yearly cost of a generation project i.e. WACC , Economic Life , Depreciation
+            Method , Tax Rate , and Inflation
+            Rate . The Discount Rate will be applied based upon the LCCR Apply Discounting input. 
+            The End Effects Method will be applied if applicable.
+
+The yearly cost applied to the generation project will be equal to:
+
+Levelized Capital Carrying Rate x Build
+            Cost
+Lists:
+

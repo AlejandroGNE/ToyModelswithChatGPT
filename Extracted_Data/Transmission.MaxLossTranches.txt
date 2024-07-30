@@ -1,0 +1,14 @@
+Header: Transmission Max Loss Tranches
+
+Table Details:
+Units:	-
+Default Value:	100
+Validation Rule:	≥1
+Description:	Maximum number of tranches in piecewise linear line loss function.
+
+Paragraphs:
+Transmission Max Loss Tranches is the maximum number of loss tranches used to model line flow when using the piecewise linear loss model. The tranches begin at maximum import and run forward from that point to maximum export.
+
+See also the article Loss Modelling .
+Lists:
+

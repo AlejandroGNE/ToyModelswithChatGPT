@@ -1,0 +1,36 @@
+Header: Generator Natural Inflow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Natural inflow to the generator (controllable and uncontrolled)
+
+Paragraphs:
+Generator Natural Inflow is the
+          natural inflow directly to the generator. This inflow occurs after any
+          release from the (optional) Head
+            Storage . The flow can be partly controllable as defined by the Controllable Inflow property. The uncontrolled inflows must be either generated with or
+          spilled past the generator either to 'the sea' or the Tail
+            Storage (if defined) in the period they arrive. The controllable
+          inflows are similar but can be used any time inside a single partial chronology block e.g. week.
+
+The Natural Inflow is also a reporting property along with:
+
+See also:
+Lists:
+	- Generator Controllable
+              Inflow
+	- Generator Uncontrolled
+              Inflow
+	- Generator Spill
+	- Generator Storage
+              Release
+	- Storage Generator
+              Release
+	- Generator Water
+              Release
+

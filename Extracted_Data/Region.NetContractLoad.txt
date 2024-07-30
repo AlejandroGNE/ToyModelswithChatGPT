@@ -1,0 +1,15 @@
+Header: Region Net Contract Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of contract sales and generation
+
+Paragraphs:
+Region Net Contract Load is the net of Physical Contract load and generation and is defined as:
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Region Import Capacity Retired
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reduction in import capacity from the Region due to transmission retirements.
+
+Paragraphs:
+Region Import Capacity Retired is the reduction in import capacity from the Region due to transmission retirements in LT Plan and is defined as:
+
+See also:
+Lists:
+	- Region Import Capacity Built
+	- Region Export Capacity Retired
+

@@ -1,0 +1,15 @@
+Header: Storage Downstream Release Energy
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of downstream releases
+
+Paragraphs:
+Storage Downstream Release Energy is Potential energy of downstream releases.
+Lists:
+

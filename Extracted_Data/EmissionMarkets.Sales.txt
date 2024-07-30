@@ -1,0 +1,15 @@
+Header: Emission Markets Sales
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sales to the market
+
+Paragraphs:
+Emission Markets Sales is Sales to the market.
+Lists:
+

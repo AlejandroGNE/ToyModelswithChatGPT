@@ -1,0 +1,15 @@
+Header: Water Pipeline Repair Time Scale
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Repair time function scale parameter (for exponential,Weibull,lognormal,SEV,LEV)
+
+Paragraphs:
+Water Pipeline Repair Time Scale is Repair time function scale parameter (for exponential,Weibull,lognormal,SEV,LEV).
+Lists:
+

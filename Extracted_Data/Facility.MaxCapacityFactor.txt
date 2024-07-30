@@ -1,0 +1,53 @@
+Header: Facility Max Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum capacity factor in the interval
+Units	1	-	
+Max Operating Level	250	-	
+Max Capacity Factor Month	24	%	M01
+Max Capacity Factor Month	66	%	M02
+Max Capacity Factor Month	68	%	M03
+Max Capacity Factor Month	63	%	M04
+Max Capacity Factor Month	76	%	M05
+Max Capacity Factor Month	36	%	M06
+Max Capacity Factor Month	77	%	M07
+Max Capacity Factor Month	46	%	M08
+Max Capacity Factor Month	22	%	M09
+Max Capacity Factor Month	4	%	M10
+Max Capacity Factor Month	15	%	M11
+Max Capacity Factor Month	8	%	M12
+
+Paragraphs:
+Facility Max
+            Capacity Factor (and its period-specific variants ( Hour , Day , Week , Month and Year )
+          define an upper bound on a facility' capacity
+            factor on an hourly, daily, weekly, monthly, or annual basis.
+
+A straight-forward approach to modelling an production-limited
+          Facility ( e.g. a hydro generator) is to place periodic limits
+          on the capacity factor as in Table 1
+
+Note the use Capacity
+            Factor Month variant and time
+            slices (patterns) to change the capacity factor limits by month
+          of year.
+
+The simulator converts these constraints into Constraint objects. By default the constraints are 'hard' i.e. no violation is allowed. If you prefer to allow violations then set
+          the Max Production
+            Penalty property.
+
+See also:
+Lists:
+	- Facility Min
+              Capacity Factor
+	- Facility Max
+              Production
+	- Facility Min
+              Production
+

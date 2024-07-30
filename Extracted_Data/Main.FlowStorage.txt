@@ -1,0 +1,61 @@
+Header: Flow Storage Class
+
+Table Details:
+Description:	A storage located at a Flow Node
+
+Paragraphs:
+See also Flow Storage Property
+            Reference for a detailed list of properties for this class of
+          object.
+
+Related Classes: Commodity , Flow
+            Network , Flow Path , Flow
+            Storage .
+
+Flow Storage provides locational storage of a Commodity in a Flow Network . You do not
+          need to specify the Commodity stored as it is inferred from the Flow Storage connection to the Flow
+            Network via the Flow Storage Flow
+            Node membership.
+
+The following is a basic guide to using Flow Storage:
+
+Flow Storage implements the same storage-related features as Commodity but with a locational aspect. See that topic for details.
+
+Flow Storage implements a range of properties that allow you to model
+          most types of storage. For example, to model a battery energy storage
+          system (BESS) you can define the Injection
+            Efficiency and Withdrawal
+            Efficiency representing the Charge
+            Efficiency and Discharge
+            Efficiency of the battery respectively.
+
+Flow Storage includes a comprehensive list of build-in constraint
+          types including minimum and maximum injection and withdrawal , amount of
+          the commodity in storage, the target storage quantity at the end of each period and the number of ' cycles '
+          performed by the storage.
+
+Flow Storage supports expansion of the storage capacity in LT Plan.
+          Each 'unit expands the capacity by Max
+            Inventory. The key input properties are Max
+            Units Built and Build Cost and optionally FO&M Charge .
+          Expansion costs can be treated as a lump sum or automatically
+          annualized by defining WACC and Economic Life . Units can be
+          built from Project Start
+            Date or immediately if this not defined. Other available
+          constraints related to expansion are:
+
+Retirement occurs automatically after the Technical
+            Life . Retirements can be optimized if you define Max
+            Units Retired and will incur a Retirement
+            Cost .
+
+See the Flow Network topic for
+          an example.
+Lists:
+	- Project Start Date
+	- Min Units Built
+	- Max Units Built in
+              Year
+	- Min Units Built in
+              Year
+

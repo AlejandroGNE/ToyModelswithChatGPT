@@ -1,0 +1,15 @@
+Header: Stochastic SDDP Warm Start
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the first forward pass of SDDP is replaced by fixed 'warm start' storage levels
+
+Paragraphs:
+This switch enables the 'warm start' feature in the SDDP algorithm. When warm start is enabled the first forward pass is
+          skipped and storage levels at each stage are assumed to be at the SDDP Warm Start Level . 
+          Warm start can given SDDP a better starting point and reduce the
+          number of iterations to convergence.
+Lists:
+

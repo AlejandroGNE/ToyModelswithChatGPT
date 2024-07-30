@@ -1,0 +1,15 @@
+Header: Commodity Withdrawal Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of commodity withdrawn from storage net of losses
+
+Paragraphs:
+Commodity Withdrawal Efficiency is Proportion of commodity withdrawn from storage net of losses.
+Lists:
+

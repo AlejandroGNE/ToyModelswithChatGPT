@@ -1,0 +1,15 @@
+Header: Line Min Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rated minimum (overrides Min Flow)
+
+Paragraphs:
+Line Min Rating is used in combination with Max Rating to de-rate transmission flows periodically. If Min Rating is not defined the Min Flow is used, and if both are defined the maximum of them is used. Note that you need only use Min Rating if its values is not equal to the negative of Max Rating .
+Lists:
+

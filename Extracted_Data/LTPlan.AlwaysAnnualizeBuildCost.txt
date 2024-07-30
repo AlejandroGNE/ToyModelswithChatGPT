@@ -1,0 +1,16 @@
+Header: LT Plan Always Annualize Build Cost
+
+Table Details:
+Units:	-
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If [Build Cost] is always annualized even when an option retires inside the horizon
+
+Paragraphs:
+LT Plan Always Annualize Build Cost can take the following values:
+
+The objective function coefficient for build decision variables is always the sum of annualized Build Cost and never the lump sum Build Cost .
+
+The objective function coefficient for build decision variables is the lump sum Build Cost if Economic Life or Technical Life imply the option retires inside the horizon, otherwise it is the sum of annualized build cost.
+Lists:
+

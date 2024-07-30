@@ -1,0 +1,15 @@
+Header: Battery Min Discharge Level
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum discharge level when discharging
+
+Paragraphs:
+Battery Min Discharge Level is the minimum per unit generation when discharging. The default is zero meaning the units can discharge at any level from zero up to Max Power .
+Lists:
+

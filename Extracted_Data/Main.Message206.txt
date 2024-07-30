@@ -1,0 +1,11 @@
+Header: Message 206
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Variable <name> definition as a function of other Variable objects implies a circular reference.
+
+Paragraphs:
+Message 206 occurs in the following circumstances:
+Lists:
+

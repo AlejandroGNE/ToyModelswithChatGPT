@@ -1,0 +1,11 @@
+Header: Fuel Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Fuel
+
+Paragraphs:
+Fuel Constraints is the set of Constraints involved in the fuel.
+Lists:
+

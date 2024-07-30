@@ -1,0 +1,15 @@
+Header: Region Enforce Transmission Limits On Lines In Interfaces
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If lines in interfaces should have their limits enforced regardless of voltage in this region.
+
+Paragraphs:
+Region Enforce Transmission Limits On Lines In Interfaces is a switch that ensures that lines involved in interfaces have their individual thermal limits enforced irrespective of their voltage and the Region Transmission Constraint Voltage Threshold setting. It can take the following values:
+Lists:
+

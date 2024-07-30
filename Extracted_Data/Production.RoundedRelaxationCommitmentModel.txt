@@ -1,0 +1,18 @@
+Header: Production Rounded Relaxation Commitment Model
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Determines if the unit commitment decisions are made centrally or by self-commitment
+
+Paragraphs:
+This option applies when the setting Production Unit Commitment Optimality is set to "Rounded Relaxation".
+
+The option can take the following values:
+
+The unit commitment calculated by the Rounded Relaxation heuristic is treated as a hard-constraint. In the mathematical program this unit commitment is set by applying bounds to the unit commitment decision variables. This mimics unit commitment decided by a central UCED algorithm i.e. unit commitment decisions are made by the market operator rather than by the generators independently. In some cases this might cause infeasibilities e.g. when unit commitment variables are involved in complex constraints that the Rounded Relaxation method might not account for, such as dynamic transmission limits.
+
+The unit commitment is treated as soft constraints on the unit commitment variables with violation penalties reflecting the market price floor and cap respectively. This mimics a 'self-commitment' market in which generators attempt to signal their unit commitment decisions to the market operator by setting very low or high prices on bands of generation. This approach avoids infeasibilities when unit commitment variables are involved in complex constraints, but might result in dispatch that violates minimum generation levels and/or might produce periods of very low or high price.
+Lists:
+

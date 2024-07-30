@@ -1,0 +1,15 @@
+Header: Gas DSM Program Expansion Max Reduction
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Expansion max reduction offtake associated with the gas dsm program
+
+Paragraphs:
+Gas DSM Programs Expansion Max Reduction is Expansion max reduction offtake associated with the gas dsm program.
+Lists:
+

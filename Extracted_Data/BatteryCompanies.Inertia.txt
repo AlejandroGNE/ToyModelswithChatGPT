@@ -1,0 +1,15 @@
+Header: Battery Companies Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Battery Companies Inertia is the provision of inertia.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas DSM Program Usage Factor Heat Point
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar temperature or HDD levels for piecewise linear function
+
+Paragraphs:
+Gas DSM Program Usage Factor Heat Point is multi-band temperature or HDD levels for piecewise linear function used to calculate demand reduction.
+Lists:
+

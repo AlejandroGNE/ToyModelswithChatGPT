@@ -1,0 +1,15 @@
+Header: Battery Objectives Charging Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of hours charging
+
+Paragraphs:
+Battery Objectives Charging Hours Coefficient is Coefficient of hours charging.
+Lists:
+

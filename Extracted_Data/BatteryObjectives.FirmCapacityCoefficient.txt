@@ -1,0 +1,19 @@
+Header: Battery Objectives Firm Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity as measured by [Firm Capacity]
+
+Paragraphs:
+Battery Objectives Firm Capacity Coefficient is the coefficient of Firm
+            Capacity in the objective.
+
+With the coefficient represented by c (i,j) the following
+          term is added to the objective function:
+Lists:
+

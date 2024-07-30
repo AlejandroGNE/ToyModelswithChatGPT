@@ -1,0 +1,19 @@
+Header: PASA Reliability Max Samples
+
+Table Details:
+Units:	h
+Default Value:	1E+30
+Validation Rule:	≥1
+Description:	For reliability-based sampled chronology select no more than this many hours per year
+
+Paragraphs:
+This PASA option relates to the MT
+            Schedule Reliability Chronology feature.  From
+          the selected intervals, this number are selected for running in MT
+          Schedule Monte Carlo simulation.
+
+See also:
+Lists:
+	- MT Schedule Reliability
+              Min Contiguous Block
+

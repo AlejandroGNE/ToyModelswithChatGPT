@@ -1,0 +1,19 @@
+Header: Purchaser Load Obligation
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load obligation for capacity reserves.
+
+Paragraphs:
+Purchaser Load Obligation defines the amount of load considered as 'firm' for the purposes of capacity planning in LT Plan and for maintenance optimization in PASA . It can be defined directly as input or is otherwise calculated as either:
+
+or:
+
+capped by Max Load
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Storage Non-physical Inflow Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to non-physical inflow to the storage. A value of -1 means none are allowed.
+
+Paragraphs:
+Storage Non-physical Inflow Penalty toggles on/off inclusion of variables that represent 'non-physical' Inflow to the Storage . These inflows are analogous to Unserved Energy in the transmission system i.e. they represent shortages of inflows required to obtain a feasible storage balance. The default value of -1 means that non-physical inflows are not allowed.
+
+The amount of non-physical inflows is reported as Storage Non-physical Inflow . When non-physical inflows occur the reported End Volume might be below Min Volume and even negative. Thus this setting should only be used to assist with diagnosing infeasibilities in hydro models.
+
+See also:
+Lists:
+	- Storage Non-physical Spill Penalty
+

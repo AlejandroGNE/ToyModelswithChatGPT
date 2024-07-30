@@ -1,0 +1,22 @@
+Header: Emission Max Production Hour
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum emission production in hour
+
+Paragraphs:
+Emission Max Production Hour is Maximum emission production in hour.
+
+See also:
+Lists:
+	- Max Production
+	- Max Production Day
+	- Max Production Week
+	- Max Production Month
+	- Max Production Year
+

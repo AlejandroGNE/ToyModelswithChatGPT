@@ -1,0 +1,18 @@
+Header: Water Storage Maintenances Outage Max Injection
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Water Storage Max Injection during the outage
+
+Paragraphs:
+WaterStorage Maintenances Outage Max Injection is WaterStorage Max Injection during the outage.
+
+See also:
+Lists:
+	- Outage Max Withdrawal
+

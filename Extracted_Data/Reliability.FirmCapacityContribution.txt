@@ -1,0 +1,15 @@
+Header: Reliability Firm Capacity Contribution
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Firm Capacity Contribution
+
+Paragraphs:
+Reliabilities Firm Capacity Contribution is the Equivalent Firm Capacity (EFC) of the set of generators associated with the Reliability object with respect to the input Risk Metric.
+Lists:
+

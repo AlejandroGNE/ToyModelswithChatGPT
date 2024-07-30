@@ -1,0 +1,17 @@
+Header: Battery Repair Time Scale
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Repair time function scale parameter (for exponential,Weibull,lognormal,SEV,LEV)
+
+Paragraphs:
+Battery Repair Time Scale sets the scale parameter of the repair time distribution in the Monte Carlo outage simulation.
+
+The distribution types are discussed further in the article Planned and Random Outages .
+Lists:
+

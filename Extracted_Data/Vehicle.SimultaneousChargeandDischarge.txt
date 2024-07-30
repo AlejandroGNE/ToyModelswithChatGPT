@@ -1,0 +1,19 @@
+Header: Vehicle Simultaneous Charge and Discharge
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Vehicle can charge and discharge simultaneously
+
+Paragraphs:
+If defined, Vehicle Simultaneous Charge and Discharge overrides the global Production Pump and Generate setting. Simultaneous charging and discharging is allowed or prevented as specified.
+
+If preventing simultaneous charging and discharging, note that linear Unit Commitment Optimality will relax
+                the integer restrictions underpinning the prevention. Any unit commitment optimality except linear is therefore recommended when preventing
+                simultaneous charging and discharging. Unit commitment optimality can be defined via Production Unit Commitment Optimality .
+Lists:
+

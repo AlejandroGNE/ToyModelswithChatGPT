@@ -1,0 +1,15 @@
+Header: Gas Pipeline Decomposition Penalty c
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition storage target penalty function 'c' term.
+
+Paragraphs:
+Gas Pipeline Decomposition Penalty c is the c term in the decomposition target penalty function. See Decomposition Method for details.
+Lists:
+

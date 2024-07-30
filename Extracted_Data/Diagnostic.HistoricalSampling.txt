@@ -1,0 +1,12 @@
+Header: Diagnostic Historical Sampling
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write the historical samples.
+
+Paragraphs:
+This option produces a diagnostic file in CSV format that reports samples for Historical Sampling .
+Lists:
+

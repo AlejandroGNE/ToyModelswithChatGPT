@@ -1,0 +1,15 @@
+Header: Generator Energy Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scalar applied to generator energy limits and energy implied by capacity factor constraints
+
+Paragraphs:
+Generator Energy Scalar is the scalar applied to generator energy limits and energy implied by capacity factor constraints.Note that currently the Energy Scalar property does not support using action on an expression ( variable )
+Lists:
+

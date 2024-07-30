@@ -1,0 +1,19 @@
+Header: Commodity Electric Energy Consumption
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent electric energy consumption
+
+Paragraphs:
+Commodity Electric Energy
+          Consumption is the equivalent electric energy consumption, and is
+          defined as:
+
+Electric Energy Consumption = Consumption × Energy Density / 3600
+Lists:
+

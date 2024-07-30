@@ -1,0 +1,484 @@
+Header: Text File Formats
+
+Table Details:
+2003	7	1	1933	9018	8875	8472	8050	...	7620
+2003	7	2	9493	9163	8977	8555	8078	...	7639
+2003	7	3	9593	9272	9067	8622	8144	...	7718
+2003	7	4	9528	9261	9080	8670	8136	...	7727
+2003	7	5	9795	9437	9178	8645	8214	...	7650
+2003	7	6	8469	8118	7853	7490	7136	...	6811
+2003	7	7	8170	7865	7738	7451	7129	...	6807
+2003	7	8	9333	9018	8875	8471	8050	...	7620
+2003	7	9	9493	9163	8977	8555	8078	...	7639
+2003	7	10	9593	9272	9067	8622	8143	...	7718
+2003	7	11	9528	9262	9080	8670	8137	...	7727
+2003	7	12	9566	9225	9008	8490	7917	...	7508
+2003	7	1	1	315	145	60	10	10	10	10	10	130	0
+2003	7	1	2	315	125	60	10	10	10	10	10	150	0
+2003	7	1	3	315	105	60	10	10	10	10	10	170	0
+2003	7	1	4	340	80	50	50	10	10	10	10	10	130
+...	...	...	...	...	...	...	...	...	...	...	...	...	...
+2003	7	1	24	340	140	50	50	10	10	10	10	10	70
+1/07/2003	315	145	60	10	10	10	10	10	130	0
+1/07/2003 1:00 AM	315	125	60	10	10	10	10	10	150	0
+1/07/2003 2:00 AM	315	105	60	10	10	10	10	10	170	0
+1/07/2003 3:00AM	340	80	50	50	10	10	10	10	10	130
+...	...	...	...	...	...	...	...	...	...	...
+1/07/1002 11:00 PM	340	140	50	50	10	10	10	10	10	70
+1	1	1	9333
+1	1	2	9493
+1	1	3	9593
+...	...	...	...
+1	1	22	9795
+1	1	23	8469
+1	1	24	8170
+...	...	...	...
+12	31	22	9593
+12	31	23	9528
+12	31	24	9566
+2008	1	1	1	95	63	43.2	...
+2008	1	1	2	203.35	72	...	
+2008	1	1	3	12.6	158	...	...
+2008	1	1	4	33.4	16.8	294.4	...
+...	...	...	...	...	...	...	...
+2008	1	1	6	2.7	29.4	4.8	...
+...	...	...	...	...	...	...	...
+1/01/2008	95	63	43.2	...
+1/01/2008 1:00 AM	133.5	203.35	72	...
+1/01/2008 2:00 AM	12.6	158	...	...
+1/01/2008 3:00 AM	33.4	16.8	294.4	...
+...	...	...	...	...
+1/01/2008 7:00 AM	2.7	29.4	4.8	...
+...	...	...	...	...
+Bearspaw_1	0.0723	0.0825	0.0655	0.0559	0.0546	0.0334	0.0571	0.0528174	0.041382	0.0563	0.0836	0.0823
+Lemolo_2_1	0.0597	0.0714	0.0520264	0.0336	0.0444	0.0343	0.0728	0.064	0.0648	0.0679	0.044	0.0458
+Interlakes_1	0.0723	0.0825	0.0655	0.0559	0.0546	0.0334	0.0571	0.0528174	0.041382	0.0563	0.0836	0.0823
+Salt_Springs_1	0.031167	0.04084	0.079033	0.052965	0.07146	0.063988	0.095152	0.09854	0.084381	0.018527	0.013812	0.026154
+Mica_1	0.1	0.1	0.0134	0.019	0.00617	0.00513	0.0527	0.1	0.0859503	0.0632	0.1	0.1
+PPCCGT	P1-3	380	40	...	10	-	-
+PPCCGT	P4-14	335	40	40	...	10	-
+PPCCGT	P15-32	320	51	60	10	...	35
+PPCCGT	P33-48	335	46	50	20	...	35
+PLAYB-AG	P1-12	90	90	...	-	-	-
+PLAYB-AG	P13-43	160	20	...	-	-	-
+PLAYB-AG	P44-48	90	90	...	-	-	-
+...	...	...	...	...	...	...	...
+2002	M01, W1, 7, PEAK	100
+2002	M01, W2-6, PEAK	150
+2003	M01, W1,7, PEAK	100
+2003	M01, W2-6, PEAK	150
+BOB	1	2003	7	1	1	11
+BOB	2	2003	7	2	1	22
+BOB	3	2003	7	3	1	23
+...	...	...	...	...	...	...
+BOB	11	2003	7	5	1	70
+JANE	1	2003	7	6	1	5
+JANE	2	2003	7	7	1	5.2
+JANE	3	2003	7	8	1	6.1
+...	...	...	...	...	...	...
+JANE	11	2003	7	10	1	7
+...	...	...	...	...	...	...
+2003	1	5
+2003	2	5.5
+2003	3	6
+...	...	...
+2003	10	6.1
+2003	11	5
+2003	12	5.2
+2004	1	6.1
+...	...	...
+2005	7	7
+...	...	...
+MONTH	1-2
+DAY	3-4
+YEAR	5-6
+Data Set Identifier	7
+FERC ID	8-15
+DAY of the week	16
+Time Zone	17
+Data (AM hours)	21-80
+MONTH	1-2
+DAY	3-4
+YEAR	5-8
+Data Set Identifier	7
+FERC ID	8-15
+DAY of the week	16
+Time Zone	17
+Data (PM hours)	21-80
+MONTH	1-2
+DAY	3-4
+YEAR	5-6
+Data Set Identifier	9
+FERC ID	10-17
+DAY of the week	18
+Time Zone	19
+Data (AM hours)	23-82
+MONTH	1-2
+DAY	3-4
+YEAR	5-6
+Data Set Identifier	9
+FERC ID	10-17
+DAY of the week	18
+Time Zone	19
+Data (PM hours)	23-82
+BARCALDN	2002	7	1	9	57									
+BARCALDN	2002	7	1	13	14	42								
+BARCALDN	2002	7	1	14	26	31								
+BARCALDN	2002	7	1	15	53	4								
+BARCALDN	2002	7	1	43	2	55								
+BARCALDN	2002	7	1	44	57									
+BARCALDN	2002	7	2	13	15	42								
+BARCALDN	2002	7	2	14	26	31								
+BARCALDN	2002	7	2	15	53	4								
+BARCALDN	2002	7	2	43	2	55								
+BARCALDN	2002	7	2	44	57									
+BARCALDN	2002	7	3	13	15	42								
+BARCALDN	2002	7	3	14	26	31								
+BARCALDN	2002	7	3	15	53	4								
+BARCALDN	2002	7	3	43	2	55								
+BARCALDN	2002	7	3	44	57									
+Load	0	MW	1	Load.csv
+Offer Quantity	0	MW	11	Offer Quantity.csv
+Offer Price	0	MW	10	Offer Price.csv
+Start Cost	0	$	1	Start Cost Hot.csv
+Start Cost	0	$	2	Start Cost Warm.csv
+Start Cost	0	$	3	Start Cost Cold.csv
+Fixed Load	-1	MW	1	-	-	-
+Fixed Load	0	MW	1	1/02/2010 6:00 AM	2/01/2010 6:00 AM	Fixed Load.csv
+Fixed Load	0	MW	1	1/10/2010 6:00 AM	2/10/2010 6:00 AM	Fixed Load.csv
+Offer Quantity	0	MW	1	1/02/2010 6:00 AM		Offer Quantity_1.csv
+Offer Quantity	0	MW	1	1/10/2010 6:00 AM		Offer Quantity_2.csv
+Offer Quantity	0	MW	1	1/02/2010 6:00 AM	1/10/2010 5:59 AM	Offer Quantity_1.csv
+Offer Quantity	0	MW	1	1/10/2010 6:00 AM	12/31/2010 6:00 AM	Offer Quantity_2.csv
+Mark-up	0	$/MWh	1	Peak	Peak Mark-up.csv
+Mark-up	0	$/MWh	1	Off Peak	Off Peak Mark-up.csv
+Price	0	$/GJ	1	CPI	Fuel Price.csv
+BESS Capacity	Filename	0	[BESS.xlsx]BESS!Capacity
+BESS Max Power	Filename	0	[BESS.xlsx]BESS!MaxPower
+
+Paragraphs:
+Most properties can be read from an external text file rather than
+          from data defined inside the input database. The simulator supports
+          several different text file layouts with any user-defined delimiter
+          (the defaults being comma or tab):
+
+The most commonly used layout is "Periods In Columns" where each line
+          is a day. When multi-band data are used e.g. for multi-band generator
+          offers, several other layouts are possible. Missing data can be automatically filled. Text file data can be
+          automatically upscaled or downscaled to match the number of
+          periods-per-day being modelled in your simulation. For example, you
+          can input 5-minute data into an hourly simulation or vice versa.
+
+The text file delimiter can be set to any ASCII character using the Settings menu item of the Backstage view.
+
+The default characters are the comma (ASCII code 44) and tab (ASCII
+          code 9), but in some situations it may be convenient to change this to
+          a custom delimiter: see the section Regional
+            Number Formats . Note that it is important to avoid using the delimiter in object names
+          when data are read from files that contain object names e.g. if you
+          want to use commas in object names that will be read from a file then
+          use tab or a customer character.
+
+Every text file has a header row containing a number of
+          delimiter-separated fields (or columns). The text in these fields is
+          not case sensitive but in the rest of this document we will use upper
+          case for field names. Dates can be entered as actual date and time with the DATETIME field. Values in this field are interpreted using the local computer's
+          region date/time settings. To override this you can specify the region
+          date/time format for a file with the Data
+            File Locale setting. The time part of a date/time value by
+          default refers to the start of the period e.g. "1/01/2009 3:00 AM" in
+          an hourly simulation would refer to the period "1/01/2009 3:00 AM -
+          4:00 AM". You can change this with the Data
+            File Datetime Convention if your time parts refer to end of
+          period as is common with data from market systems. A more transportable option for date/time is to define dates using
+          explicit YEAR , MONTH , and DAY fields. The time
+          is implied by the column order in "Periods In Columns" format, or in
+          other formats by a PERIOD field, where this period number
+          matches the periods of the day starting at midnight. Data that apply to certain patterns of time e.g. monthly, or certain
+          hours of the day or days of week are supported in two formats:
+
+
+
+From left to right the header row in this format specify the YEAR , MONTH , and DAY respectively. If you want a single
+          sample year to apply to all years you may omit the YEAR column. Note however your sample year must include February 29th.
+
+You must use the exact labels (though as mentioned earlier case is
+          not important). The fourth (or third if YEAR is
+          absent) and successive columns contain data for each consecutive
+          period (1, 2, 3, 4 T). The following illustrates the "Periods in
+          Columns" file layout.
+
+The leading columns specify the time period using one of the
+          following combinations:
+
+The following tables illustrate the two alternative versions of this
+          file format. It is important to note that the format of dates in the DATETIME field is region-specific and so files defined using this field might
+          not be transportable between computers in different regions.
+
+If you have a representative year's worth of data and you want it
+          mapped to the Horizon based simply on
+          the month, day and period of day, you may omit the YEAR column
+          in a bands in columns format as in the following example.
+
+The leading columns specify the date and time using either:
+
+Successive columns are titled with the names of the objects the data
+          refer to. The names must match the corresponding names of the objects
+          using the data in the input database, but are case insensitive. Where
+          the data refer to "second level" properties i.e. those that belong to
+          a membership linking two objects together, use the format "parent name
+          child name" e.g. "Big CoalCoal".
+
+The columns define patterns or Timeslice names. You may also include the NAME column.
+
+A NAME column can be used in any file format except "Names in
+          Columns". Thus it is possible to have more than one object's data in a
+          Named format file. This is particularly convenient for entering
+          generator offers and purchaser bids. The word "Name" must appear in
+          the header in order for the simulator to recognize this file format:
+          again, case is not important.
+
+In the simplest case the file may have just NAME and VALUE columns.
+
+As with "Names in Columns" where the data are for object properties
+          e.g. Generator Offer Price ,
+          the NAME column is matched to the object name. The data that
+          are second-level properties e.g. Generator
+            Fuels Transport Charge , again should be the concatenation of the
+          parent name and the child name. A PATTERN column may appear in any file type except "Periods
+          in Columns". The PATTERN field is a text descriptor with the
+          same format as the Pattern/Timeslice field in a database i.e. it can
+          use 'raw' pattern codes like "M1, H1-5", or Timeslice object names
+          such as "WEEKDAY-PEAK". The Timeslices used must be defined
+          in the database that uses the files. The following uses both a NAME and PATTERN columns.
+
+PATTERN can be combined with YEAR, MONTH, DAY, and Period columns to create patterns of data that change at certain dates. For
+          example, if a pattern should change every year you can do the
+          following:
+
+A BAND column may appear in any format except "Bands in
+          Columns", Periods in Columns", and "Names in Columns". This is useful
+          when entering data for a large number of bands, for example:
+
+The date columns YEAR, MONTH, and DAY need not be present as
+          a set in the file. For example if you want to change values each
+          calendar year, then include only the YEAR column. Likewise if
+          the value changes monthly then include only the YEAR and MONTH columns as in this example:
+
+EEI format files contain no commas and are fixed column width, with
+          an eighty column format. EEI format files contain two header rows with
+          the fields shown in the following tables. Unlike CSV files, which may
+          contain data to any resolution, EEI format files contain only hourly
+          data. The lines of data in an EEI file must follow a pattern with the
+          odd lines giving data for AM hours, and the even lines PM data.
+
+There are two styles of EEI file supported by the simulator:
+
+The 2-digit format is 80 columns wide, while the 4-digit format is 82
+          columns.
+
+Text files can be created from a database, text editor, or most
+          conveniently from Microsoft Excel. When using Excel, please note that
+          Excel versions up to Version 11 (Office 2003) have a row limit of
+          65536 which means you can edit 179 years of data in "Periods in
+          Columns" layout, but only 7 years of hourly data in the other formats.
+          Excel from Version 12 (Office 2007) onwards can edit 1048576 rows at a
+          time. After creating the data in Excel as in the screen shot below, remember
+          to save the file not in native Excel format, but in either "CSV (Comma
+          delimited) *.csv" format or "Text (Tab delimited) *.txt" format. The
+          latter format will use tab delimiters, which is most suitable when
+          your local decimal place character is a comma.
+
+Where the values in the text file repeat, it can be more efficient to
+          remove the repeated values, as shown below, where three days of
+          half-hourly bid data is compressed into 16 lines. All formats apart
+          from "Periods in Columns" and those that use a Pattern field support
+          filling missing values. Data need not be defined for the first period of the horizon. The file
+          reader will search back for the last defined value and fill forward in
+          time. If no value can be found that can be filled into the start of
+          the horizon a warning issued and the default value of the property is
+          assumed.
+
+The Horizon setting Periods per
+            DAY can be set to any value from 5 minute periods, to
+          half-hourly, hourly, 2-hourly and so on. The simulator can accept
+          input data in any time interval and either upscale or downscale the
+          data automatically. The most convenient file layout for this is
+          "Periods in Columns" where the file reader can easily infer the number
+          of periods-per-day of the file data and perform the necessary
+          averaging (downscaling) or interpolating (up-scaling). For file
+          formats with a PERIOD column, it is not always reliable for
+          the reader to infer the periods-per-day
+            of the data file since missing values are supported so there
+          might not exist in the file a complete set of period numbers.
+
+Example applications of this are:
+
+On regional settings such as German where the decimal separator is a
+          comma rather than a full stop it is still possible to use both CSV as
+          well as TXT (tab delimited) file formats. Note that the decimal
+          separator is set in Windows via the Region and Language in the
+          Customize Format dialog box as in Figure 3. This figure shows
+          side-by-side the difference between US English and German formats.
+
+With the comma as decimal separator it is obviously difficult to use
+          the comma also as a delimiter, therefore Microsoft Excel will use a
+          semi-colon instead and the simulator can recognise this format. Figure
+          4 shows how a table of values might look in Microsoft Excel with comma
+          decimal separator. This is saved into text as:
+
+This text will read correctly under German regional settings, but
+          will not read correctly when the decimal separator is a full stop.
+
+An alternative to using CSV files with semi-colon delimiters is to
+          use tab-delimited files (TXT). Microsoft Excel can generate these
+          files. Note however that the simulator will assume that the decimal
+          separator matches the regional settings; since comma can be used as a
+          thousand separators in some systems and decimal in others. Note that CSV files that using the comma delimiter and full stop for
+          decimal separator are supported by default when the delimiter setting
+          is comma, so you can always use these files regardless of regional
+          settings.
+
+The FILENAME or DATA FILE fields in the property grid are
+          used to link to text files. Thus a single property entry in the
+          database can point to many periods and bands of data resident in a
+          text file. Examples are shown below.
+
+When specifying a filename in the input file, the filename may be
+          specified as either fully qualified or relative. A fully qualified
+          filename specifies the entire file location, e.g.
+          "C:\Data\LOAD\Load.csv". Alternatively, a relative filename contains
+          only a portion of the full file location, e.g. "LOAD\Load.csv". With
+          this latter specification, the designated folder "LOAD" should be in
+          the same location as the input file.
+
+The following example shows how to point to a file containing a
+          single band of data.
+
+There are two ways to specify multi-band data read from files. You
+          can point to a single file that contains all the bands as in the
+          following example:
+
+Here the BAND field specifies how many bands of data should
+          be read from the file. This figure can vary for each object even if
+          their data are in the same file e.g. one can create a file with up to
+          10 bands of data but specify that certain objects have data in only a
+          subset of those bands. Secondly you can point each individual band to a file as in the
+          following example:
+
+In the latter case the text files contain a single band of data each.
+
+The DATE FROM and/or DATE TO fields can be used with
+          Data File so that only a given range dates are read from the file. You
+          can also combine reading of data from text files with other values
+          entered in the property data grid, you can also read from a file
+          multiple times for different date ranges as in the following example:
+
+In this example the Generator
+            Fixed Load property is defined with a 'base' value of -1 with
+          other values read from a file for two specific date ranges. The file
+          data takes precedence over the non-file data.
+
+If a property is defined using multiple datafiles with different
+          dates in the DATE FROM field and an empty DATE TO field as shown in the example below, then the datafile reader may not
+          be able to infer the data accurately.
+
+
+
+Hence, the user should ensure that the file DATE FROM and DATE
+            TO fields should form non-intersecting disjoint sets as shown
+          below.
+
+The Timeslice field combined with Data File allows
+          you to read different files into time slices as in the following
+          example where the Generator Mark-up property is read from two files one for Timeslice "Peak" the other for "Off-Peak":
+
+The ESCALATOR field can be used with DATA FILE to
+          apply an escalation factor to data in the file as in the following
+          example where a Fuel Price series is
+          read from a text file and escalated according to the Escalator object "CPI":
+
+Data File Filename supports
+          references to data ranges in Microsoft Excel. The data should be
+          structured in one of the above text file formats.
+
+In this case the named range "Capacity" exists on a worksheet called "BESS" in the file BESS.xlsx.
+
+Please note that Microsoft Excel (XLSX) files are not currently supported on PLEXOS Cloud.
+Lists:
+	- Flat file layouts allow definition of date and time,
+            period-of-day, bands (for multi-band data) and even patterns such as
+            repeating monthly values; and
+	- Edison Electric Institute (EEI) format.
+	- By entering a PATTERN field
+	- By placing the patterns in the field headers - see Patterns in
+            Columns format
+	- YEAR, MONTH, DAY and Period, where period is a 1-based
+            index to the interval in the day e.g. 1-24 periods for hourly data,
+            1-48 for half-hourly, 1-288 for 5 minute data, etc. Note that for this method, the first period corresponds to 12:00 AM
+            midnight, regardless of the starting interval ( Day
+              Begins ) in the Horizon settings.
+	- YEAR, MONTH, DAY, so the value applies to the entire day.
+	- YEAR, MONTH, so the value applies to the entire month.
+	- YEAR, WEEK, so the value applies to the entire week, where
+            week is the week number in the defined according to Horizon
+              Week Beginning .
+	- DATETIME, where the date format matches the local region
+            settings for the computer.
+	- If your input does not contain data for February 29, the data for
+            February 28 (or nearest defined day) will be repeated.
+	- To map the weekdays/weekends properly you should set the Data
+              File attribute Base Year to match the fiscal year of the data
+            in the file. If you do not set this attribute the assumption will be
+            made that the data are sourced from the year prior to the start of
+            the horizon.
+	- YEAR, MONTH, DAY and Period , where period is a 1-based
+            index to the interval in the day e.g. 1-24 periods for hourly data,
+            1-48 for half-hourly, 1-288 for 5-minute data, etc Note that for this method, the first period corresponds to 12:00 AM
+            midnight, regardless of the starting interval ( Day
+              Begins ) in the Horizon settings.
+	- DATETIME , where the date format matches the local region
+            settings for the computer.
+	- 2-digit date format
+	- 4-digit date format
+	- The use of hourly data in 5-minute simulation, which requires
+            up-scaling the hourly data to 5-minute intervals by interpolation.
+	- The use of half-hourly data in an hourly simulation which requires
+            downscaling the data by taking the average of each half-hourly
+            value.
+
+
+H2s:
+Contents
+1. Introduction
+2. The Text File Layouts
+3. Creating and Editing Files
+4. Repeated and Missing Values
+5. Downscaling and Upscaling
+          Periods Per Day
+6. Regional Number Formats
+7. Referencing Text Files in the
+          Data Grid
+8. Reading Data from Excel
+
+H3s:
+2.1. Delimiter
+2.2. Fields (Columns)
+2.3. Periods in Columns
+2.4. Bands in Columns
+2.5. Bands in Columns - Simple
+          Annual Pattern
+2.6. Names in Columns
+2.7. Patterns in Columns
+2.8. NAME, PATTERN and BAND
+          Columns
+2.9. YEAR, MONTH and DAY
+          Columns
+2.10. Edison Electric
+          Institute (EEI) Format
+7.1. Filename
+7.2. Single Band Data
+7.3. Multi-band Data
+7.4. Date Ranges
+7.5. Timeslice
+7.6. Escalator

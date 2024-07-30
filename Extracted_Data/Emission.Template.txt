@@ -1,0 +1,11 @@
+Header: Emission Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Emission inherits from
+
+Paragraphs:
+Emission Template is template the Emission inherits from
+Lists:
+

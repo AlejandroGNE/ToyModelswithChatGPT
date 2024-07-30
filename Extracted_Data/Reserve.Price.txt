@@ -1,0 +1,27 @@
+Header: Reserve Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price
+
+Paragraphs:
+As an input, Price sets the external value of Reserve Provision , which is an alternative to defining a megawatt Min Provision . This value applies to every unit provided. In this 'price-driven' mode the Generators and/or Purchasers will provide as much reserve as is economical at this price.
+
+To instead model an external reserve 'market' where purchases of reserve are also allowed, and the price is a function of the amount bought or sold, create a Market object and add the Reserve to the Reserves collection.
+
+Reserve Price as reported by interval is the marginal value of reserve at the optimal solution to the energy and ancillary services cooptimization. It is taken from the shadow price on the constraint that matches reserve Provision and Risk (requirement). Note that if Price is also an input the reported Price by interval is just the input value.
+
+As a summary property Price is defined as:
+
+i.e. it is the volume-weighted price.
+
+See also:
+Lists:
+	- Reserve VoRS
+	- Reserve Time-weighted Price
+

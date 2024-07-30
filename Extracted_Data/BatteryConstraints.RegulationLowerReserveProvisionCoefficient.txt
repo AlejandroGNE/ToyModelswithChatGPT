@@ -1,0 +1,16 @@
+Header: Battery Constraints Regulation Lower Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of regulation lower reserve provision
+
+Paragraphs:
+See Generator Constraints Regulation
+            Lower Reserve Provision Coefficient .
+Lists:
+

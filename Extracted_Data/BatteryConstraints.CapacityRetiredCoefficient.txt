@@ -1,0 +1,18 @@
+Header: Battery Constraints Capacity Retired Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity retired
+
+Paragraphs:
+Battery Constraints Capacity Retired Coefficient is the left-hand side coefficient of capacity retired in the constraint.
+
+See also:
+Lists:
+	- Battery Generators Capacity Retired Coefficient
+

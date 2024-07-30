@@ -1,0 +1,15 @@
+Header: Line Offer Cleared Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity cleared in band
+
+Paragraphs:
+Line Offer Cleared Back is the quantity cleared in band.
+Lists:
+

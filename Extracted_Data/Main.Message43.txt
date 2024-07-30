@@ -1,0 +1,19 @@
+Header: Message 43
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Line <name> Min Rating and Line Max Rating (<value>) imply <value> <= Line Flow <= <value> MW.
+Max Flow	100	MW
+Min Flow	-100	MW
+Max Rating	-5	MW
+Min Rating	0	MW
+
+Paragraphs:
+Message 43 occurs when Line Min Rating conflicts with Max Rating . For example you might define the following:
+
+These data imply:
+
+By default the Max Rating will prevail and hence the Flow will be fixed at -5 MW.
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Commodity Injection Losses
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses from injections
+
+Paragraphs:
+Commodity Injection Losses is the
+          losses from injections and is calculated as:
+
+Injection Losses = Injection × (1 - Injection
+            Efficiency )
+
+See also:
+Lists:
+	- Commodity Injection
+              Cost
+	- Commodity Withdrawal
+              Losses
+

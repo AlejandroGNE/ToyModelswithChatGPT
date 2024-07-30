@@ -1,0 +1,15 @@
+Header: Battery Capacity Markets Cleared Offer Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of cleared offer bands.
+
+Paragraphs:
+Battery Capacity Markets Cleared Offer Cost is Cost of cleared offer bands..
+Lists:
+

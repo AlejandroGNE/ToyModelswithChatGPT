@@ -1,0 +1,15 @@
+Header: Region Objectives Committed Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation capacity committed in the region
+
+Paragraphs:
+Region Objectives Committed Capacity Coefficient is Coefficient of generation capacity committed in the region.
+Lists:
+

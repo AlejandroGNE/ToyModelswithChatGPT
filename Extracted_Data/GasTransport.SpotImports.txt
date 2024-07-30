@@ -1,0 +1,15 @@
+Header: Gas Transport Spot Imports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Delivered gas associated with spot market shipments
+
+Paragraphs:
+Gas Transport Spot Imports is delivered gas associated with spot market shipments.
+Lists:
+

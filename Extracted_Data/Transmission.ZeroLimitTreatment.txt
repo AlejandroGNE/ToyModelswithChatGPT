@@ -1,0 +1,20 @@
+Header: Transmission Zero Limit Treatment
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Treatment of AC elements with zero limits
+
+Paragraphs:
+Transmission Zero Limit Treatment setting controls how AC Lines and AC Transformers with zero limits are to be treated in the simulation. The attribute takes the following values
+
+"Treat as Out of Service" (Value = 0)
+
+AC elements with zero limits are out of service for the simulation.
+
+"Treat as unlimited" (Value = 1)
+
+AC elements are considered to be unlimited elements and will not be monitored.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Battery Max Units Retired in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units allowed to be retired in any single year of the planning horizon
+
+Paragraphs:
+Battery Max Units Retired in Year is the maximum number of units automatically retired in any single year of the planning horizon in LT Plan . This property should be used only in conjunction with Max Units Retired .
+
+See also:
+Lists:
+	- Capacity Expansion Planning
+	- Generator Max Units Retired in Year
+	- Battery Retirement Cost
+	- Battery Min Units Retired
+

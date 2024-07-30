@@ -1,0 +1,14 @@
+Header: Water Pipeline Water Node To
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Water Node the Water Pipeline imports to
+
+Paragraphs:
+Water Pipeline Water Node To is Water Node the Water Pipeline imports to.
+
+See also:
+Lists:
+	- Water Pipeline Water Node From
+

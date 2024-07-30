@@ -1,0 +1,15 @@
+Header: Physical Contract Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load on physical contract
+
+Paragraphs:
+Physical Contract Load is the sum of all cleared bids on the physical contract, and is the amount of load at the Load Node .
+Lists:
+

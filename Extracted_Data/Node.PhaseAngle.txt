@@ -1,0 +1,15 @@
+Header: Node Phase Angle
+
+Table Details:
+Units:	°
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Node phase angle
+
+Paragraphs:
+Node Phase Angle is the phase angle at the bus computed by the OPF . You can set bounds on the phase angles (as a proxy to controlling power factors) using the Max Absolute Phase Angle property and the Bounds Node Phase Angles setting.
+Lists:
+

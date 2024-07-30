@@ -1,0 +1,15 @@
+Header: Pool Net Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net generation value
+
+Paragraphs:
+Pool Net Generation is the sum of net generation across all regions in the Pool.
+Lists:
+

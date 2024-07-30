@@ -1,0 +1,15 @@
+Header: Gas Plant Objectives Energy Usage Coefficient
+
+Table Details:
+Units:	kWh/1000·~ (Metric), kWh/~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of energy usage of the Gas Plant
+
+Paragraphs:
+Gas Plant Objectives Energy Usage Coefficient is the coefficient of energy usage of the Gas Plant.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Source Power2X Delivered Emission
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission delivered by Power2X to the generator
+
+Paragraphs:
+Generator Source Power2X Delivered Emission is the emission delivered by Power2X to the generator.
+Lists:
+

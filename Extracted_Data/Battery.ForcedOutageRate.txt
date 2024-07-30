@@ -1,0 +1,27 @@
+Header: Battery Forced Outage Rate
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to forced outage
+
+Paragraphs:
+Battery Forced Outage Rate sets the expected level of unplanned outages, which result in a loss of charge/discharge capability for a certain period of time.
+
+See the article Planned and Random Outages for details.
+
+As output, Forced Outage Rate is
+              the percentage of time the unit is out-of-service in any given
+              period.
+
+See also:
+Lists:
+	- Battery Maintenance
+              Rate
+	- Battery Outage
+              Rating
+

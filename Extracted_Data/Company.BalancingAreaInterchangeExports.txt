@@ -1,0 +1,15 @@
+Header: Company Balancing Area Interchange Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial exports from the company
+
+Paragraphs:
+Company Balancing Area Interchange Exports is Financial exports from the company.
+Lists:
+

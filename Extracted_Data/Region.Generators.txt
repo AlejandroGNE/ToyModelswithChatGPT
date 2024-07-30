@@ -1,0 +1,13 @@
+Header: Region Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Generators is the set of Generators in the Region. This collection is reserved for reporting only.
+
+Generator objects can inject into Nodes that are in different regions, so any reporting properties that refer to this collection take into account the Generator . Nodes Generation Participation Factor .
+Lists:
+

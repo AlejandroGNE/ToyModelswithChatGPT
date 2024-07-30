@@ -1,0 +1,14 @@
+Header: Transmission Bound Node Phase Angles
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the Node [Phase Angle] values are subject to bounds in absolute value.
+
+Paragraphs:
+Transmission Bound Node Phase Angles controls the enforcing of bounds on Node Phase Angle . It can takes these values:
+
+NOTE: Currently both the variable shift-factor OPF and Fixed shift-factor can model phase angle bounds: see OPF Method . If PTDF File is activated, then this input will be ignored.
+Lists:
+

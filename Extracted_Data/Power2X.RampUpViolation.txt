@@ -1,0 +1,15 @@
+Header: Power2X Ramp Up Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Ramp Up] constraint.
+
+Paragraphs:
+Power2X Ramp Up Violation is Violation of [Max Ramp Up] constraint..
+Lists:
+

@@ -1,0 +1,21 @@
+Header: PASA Stochastic Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	Stochastic optimization method for PASA.
+
+Paragraphs:
+PASA Stochastic Method sets the algorithm used in PASA to resolve multi-sample data (defined by Variable objects), where the number of samples is set by the Stochastic Risk Sample Count associated with the executing Model . This is relevant when there exist Variables that change properties that affect PASA such as Region Load or capacity. The attribute can take the following values:
+
+The simulation phases that run after PASA ( MT Schedule and ST Schedule ) use maintenance patterns generated based on the Maintenance Factor calculated by PASA. If either of the multi-sample options is chosen here then the samples in those simulation phases will use maintenance patterns for the corresponding sample in PASA. This improves the outcome of each sample in ST Schedule .
+
+See also:
+Lists:
+	- Stochastic Risk Sample Count
+	- Stochastic Outage Pattern Count
+	- LT Plan Stochastic Method
+	- MT Schedule Stochastic Method
+	- ST Schedule Stochastic Method
+

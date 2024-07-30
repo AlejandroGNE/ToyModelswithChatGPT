@@ -1,0 +1,15 @@
+Header: Reserve Generators Spinning Reserve Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision by spinning reserve
+
+Paragraphs:
+Reserve Generators Spinning Reserve Provision is the total amount of spinning reserve that could be provided.
+Lists:
+

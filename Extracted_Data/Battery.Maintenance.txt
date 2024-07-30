@@ -1,0 +1,15 @@
+Header: Battery Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity out on maintenance
+
+Paragraphs:
+Battery Maintenance is Capacity out on maintenance.
+Lists:
+

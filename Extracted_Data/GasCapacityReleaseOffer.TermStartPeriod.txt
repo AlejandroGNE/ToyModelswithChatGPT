@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Term Start Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Flag to indicate start of the capacity release term
+
+Paragraphs:
+Gas Capacity Release Offer Term Start Period is Flag to indicate start of the capacity release term.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Generator Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Generator inherits from
+
+Paragraphs:
+Generator Template is template the Generator inherits from
+Lists:
+

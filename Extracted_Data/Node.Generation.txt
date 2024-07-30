@@ -1,0 +1,26 @@
+Header: Node Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation
+
+Paragraphs:
+Node Generation is the sum of
+          generation from all sources and is defined as:
+
+Generation = ∑ ( Generators Generation × Generation
+            Participation Factor ) + ∑ ( Physical
+            Contracts Generation ) + Node Fixed Generation + Charging Station
+            Generation
+
+See also:
+Lists:
+	- Node Load
+	- Node Net
+              Injection
+

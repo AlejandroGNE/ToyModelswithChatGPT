@@ -1,0 +1,15 @@
+Header: Fleet Charge Price
+
+Table Details:
+Units:	c/kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid for charging
+
+Paragraphs:
+Fleet Charge Price is the price paid by the fleet for charging.
+Lists:
+

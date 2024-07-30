@@ -1,0 +1,23 @@
+Header: Installation
+
+Table Details:
+
+Paragraphs:
+Before You Install Please note the following before you install: Check that the target machine meets the hardware, software and user right requirements. These requirements are described in detail at the Prerequisites Wiki section. You must remove previous versions of the same PLEXOS point release before installing 'e.g.' If you are installing PLEXOS 5.0 you must remove any previous 5.0 installation. But you may have both PLEXOS 4.8 and 5.0 installed at the same time (please see the compatibility table below for more details. You will need to have Administrator privileges on the computer you are installing on. Installing the Software PLEXOS is installed from a single installation package which can be obtained from your PLEXOS distributor's download page. The package contains both a MSI file and a SETUP.EXE file.  On Windows XP you can choose to run either the MSI or the SETUP.EXE file. On Windows Vista you must run the SETUP.EXE by using the right-mouse button "Run as administrator" command. Once initiated, an installation wizard that will take you through the required steps. Licensing If it is the first time that PLEXOS is installed on the target machine you may need to complete a licensing validation process. This will depend on the licensing model that you have chosen. Detailed  instructions on this issue can be found at the Licensing wiki section.
+
+Please note the following before you install:
+
+Installing the Software PLEXOS is installed from a single installation package which can be obtained from your PLEXOS distributor's download page. The package contains both a MSI file and a SETUP.EXE file.  On Windows XP you can choose to run either the MSI or the SETUP.EXE file. On Windows Vista you must run the SETUP.EXE by using the right-mouse button "Run as administrator" command. Once initiated, an installation wizard that will take you through the required steps. Licensing If it is the first time that PLEXOS is installed on the target machine you may need to complete a licensing validation process. This will depend on the licensing model that you have chosen. Detailed  instructions on this issue can be found at the Licensing wiki section.
+
+PLEXOS is installed from a single installation package which can be obtained from your PLEXOS distributor's download page. The package contains both a MSI file and a SETUP.EXE file.  On Windows XP you can choose to run either the MSI or the SETUP.EXE file. On Windows Vista you must run the SETUP.EXE by using the right-mouse button "Run as administrator" command.
+
+Once initiated, an installation wizard that will take you through the required steps.
+
+Licensing If it is the first time that PLEXOS is installed on the target machine you may need to complete a licensing validation process. This will depend on the licensing model that you have chosen. Detailed  instructions on this issue can be found at the Licensing wiki section.
+
+If it is the first time that PLEXOS is installed on the target machine you may need to complete a licensing validation process. This will depend on the licensing model that you have chosen. Detailed  instructions on this issue can be found at the Licensing wiki section.
+Lists:
+	- Check that the target machine meets the hardware, software and user right requirements. These requirements are described in detail at the Prerequisites Wiki section.
+	- You must remove previous versions of the same PLEXOS point release before installing 'e.g.' If you are installing PLEXOS 5.0 you must remove any previous 5.0 installation. But you may have both PLEXOS 4.8 and 5.0 installed at the same time (please see the compatibility table below for more details.
+	- You will need to have Administrator privileges on the computer you are installing on.
+

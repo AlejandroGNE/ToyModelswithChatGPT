@@ -1,0 +1,19 @@
+Header: Battery Min Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically constructed in aggregate over the planning horizon
+
+Paragraphs:
+Battery Min Units Built requires that a certain number of units are built by LT Plan at some time in the planning horizon. This number must be less than or equal to Max Units Built .
+
+See also:
+Lists:
+	- Generator Min Units Built
+	- Battery Min Units Built in Year
+

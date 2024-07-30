@@ -1,0 +1,15 @@
+Header: Storage Loss
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loss due to evaporation, leakage, etc
+
+Paragraphs:
+Storage Loss is the loss due to evaporation, leakage, etc and is defined as:
+Lists:
+

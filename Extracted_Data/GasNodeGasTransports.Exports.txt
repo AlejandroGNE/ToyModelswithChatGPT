@@ -1,0 +1,15 @@
+Header: Gas Node Gas Transports Exports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports on connected Gas Transports
+
+Paragraphs:
+Gas Node Gas Transports Exports is the amount of gas exported by each Gas Transport from a Gas Node.
+Lists:
+

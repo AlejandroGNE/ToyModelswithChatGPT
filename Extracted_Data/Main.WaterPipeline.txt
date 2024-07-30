@@ -1,0 +1,14 @@
+Header: Water Pipeline Class
+
+Table Details:
+Description:	Water network pipeline
+
+Paragraphs:
+See also Water Pipeline Property Reference for a detailed list of properties for this class
+          of object.
+
+A Water Pipeline connects two parts of the Water network via the Water Node From and Water Node To memberships.
+
+See the Water Modelling article for details.
+Lists:
+

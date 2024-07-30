@@ -1,0 +1,29 @@
+Header: Reserve Generators Available Response
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available reserve response
+
+Paragraphs:
+Reserve Generators Available Response is the maximum amount of the ancillary service that
+          could be provided given the current unit commitment ( Units
+            Generating ), dispatch ( Generation , Pump Load ) and provisions to other "like-service" mutually-exclusive reserves.
+
+Note that Max Response also sets a limit on the amount of reserve response each generating
+          unit can provide to this reserve.
+
+For raise or regulation raise reserves, there is a special case for
+          steam turbine units, where it is getting heat input from CT units. Its
+          total generation capacity should be limited by the number of CTs committed and the CT units' heat rate values.
+
+ST Available Response = Min(Pmax ST ,
+            (∑(Pmax CT * Units
+              Generating CT * (Heat Rate CT - 3.6)) - Heat Load ST )/Heat
+            Rate ST ) - Generation ST
+Lists:
+

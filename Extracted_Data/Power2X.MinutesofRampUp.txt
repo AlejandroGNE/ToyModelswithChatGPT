@@ -1,0 +1,15 @@
+Header: Power2X Minutes of Ramp Up
+
+Table Details:
+Units:	min
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total minutes spent ramping up
+
+Paragraphs:
+Power2X Minutes of Ramp Up is Total minutes spent ramping up.
+Lists:
+

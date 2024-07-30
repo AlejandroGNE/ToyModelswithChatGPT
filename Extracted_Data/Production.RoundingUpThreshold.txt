@@ -1,0 +1,42 @@
+Header: Production Rounding Up Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.5
+Validation Rule:	Between 0 And 1
+Description:	Threshold at which non-integers are rounded up.
+1/01/2010 12:00 PM	0
+1/01/2010 1:00 PM	0.2
+1/01/2010 2:00 PM	0.7
+1/01/2010 3:00 PM	1
+1/01/2010 4:00 PM	1
+1/01/2010 5:00 PM	1
+1/01/2010 6:00 PM	0.4
+1/01/2010 7:00 PM	0
+1/01/2010 8:00 PM	0
+1/01/2010 12:00 PM	0
+1/01/2010 1:00 PM	0
+1/01/2010 2:00 PM	1
+1/01/2010 3:00 PM	1
+1/01/2010 4:00 PM	1
+1/01/2010 5:00 PM	1
+1/01/2010 6:00 PM	0
+1/01/2010 7:00 PM	0
+1/01/2010 8:00 PM	0
+
+Paragraphs:
+This control applies when the Production Unit Commitment Optimality property is set to "Rounded Relaxation". The Rounded Relaxation (RR) method takes the Linear Relaxation (LR) to the unit commitment problem and applies a heuristic procedure to produce an integer solution.
+
+Production Rounding Up Threshold controls how non-integer unit commitment values are rounded. The higher the value, in general the less units will be rounded up.
+
+For example the LR solution might produce the following sequence of unit commitment solution values for a Generator .
+
+The RR with a Rounding Up Threshold of 0.5 would produce the following integer solution:
+
+By default the Rounding Up Threshold is constant and this will apply to all decisions. However the Rounded Relaxation Tuning setting allows you to instruct the simulator to try all values of the threshold between the Rounded Relaxation Start Threshold and the Rounded Relaxation End Threshold in increments of the Rounded Relaxation Threshold Increment and use the threshold that yields the best objective function value. This 'tuning' is performed at each simulation step.
+
+Note that Min Up Time and Min Down Time are also enforced by the RR method, and these will cause the solution to vary from the 'simple' rounding shown in this example. In general, where additional periods of commitment are required to meet Min Up Time then higher priced periods are favoured, and vice versa for Min Down Time .
+
+Finally, generating units may be rounded 'on' by the algorithm to avoid causing a capacity deficit in the Region of dispatch.
+Lists:
+

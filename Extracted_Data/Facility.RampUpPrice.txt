@@ -1,0 +1,23 @@
+Header: Facility Ramp Up Price
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of the maximum ramping up constraint
+
+Paragraphs:
+Facility Ramp Up Price is the
+          shadow price of the maximum ramping up constraint defined by Max
+            Ramp Up . It represents the price that the system would be
+          prepared to pay to gain one more unit of ramping
+            up response.
+
+See also:
+Lists:
+	- Facility Ramp
+              Down Price
+

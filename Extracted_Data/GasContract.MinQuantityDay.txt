@@ -1,0 +1,15 @@
+Header: Gas Contract Min Quantity Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Minimum total gas contract quantity in day
+
+Paragraphs:
+Gas Contract Min Quantity Day is Minimum total gas contract production in day.
+Lists:
+

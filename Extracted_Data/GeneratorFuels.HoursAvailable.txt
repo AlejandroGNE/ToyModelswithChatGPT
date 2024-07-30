@@ -1,0 +1,15 @@
+Header: Generator Fuels Hours Available
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	If the fuel is available for use by the generator
+
+Paragraphs:
+Generator Fuels Hours Available is the number of hours the fuel is available for use by the generator as defined by the Is Available property.
+Lists:
+

@@ -1,0 +1,23 @@
+Header: Gas Contract Companies Averaging Start Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the period is a start period for Demand Share
+
+Paragraphs:
+Averaging start period that is used to get the average of demand values between 2 start periods. Example: If AverageStartPeriod are defined as [1,0,0,1,0,1] for 6 periods, and Demand values are [10,20,30,40,50,60], then average demand values are [25,25,25,25,55,55].
+
+Averaging start period that is used to get the average of demand values between 2 start periods.
+
+Example:
+
+If AverageStartPeriod are defined as [1,0,0,1,0,1] for 6 periods, and Demand values are [10,20,30,40,50,60], then average demand values are [25,25,25,25,55,55].
+
+Gas Contract Companies Averaging Start Period is Indicates if the period is a start period for Demand Share.
+Lists:
+

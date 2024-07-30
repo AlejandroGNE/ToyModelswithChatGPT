@@ -1,0 +1,11 @@
+Header: Message 185
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Generator <name> Start Profile has been defined as a constant value. Use the Timeslice field to define its start-up stages or use Generator Run Up Rate for a constant rate.
+
+Paragraphs:
+Message 185 occurs in the following circumstances:
+Lists:
+

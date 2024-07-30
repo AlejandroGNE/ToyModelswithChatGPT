@@ -1,0 +1,15 @@
+Header: Abatement Consumables Consumption Incr
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental consumption as a function of generation
+
+Paragraphs:
+Abatement Consumables Consumption Incr is the incremental consumption as a function of Generation from the associated Generators . This works with Consumption Base to define the consumption as a function of Generator Generation .
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Zone Cost of Curtailment
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of demand-side participation bids cleared
+
+Paragraphs:
+Zone Cost of Curtailment is defined as:
+
+This sum is performed across DSP bid band .
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Heat Plant SRMC
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Short-run marginal cost (Fuel + VO&M + Emissions)
+
+Paragraphs:
+Heat plant SRMC is the marginal (incremental) cost of HeatProduction , i.e. the variable cost associated with providing one more megawatt of GJ, and is defined as:
+
+If the heat production is zero, the simulator reports the SRMC at Max Capacity .
+Lists:
+

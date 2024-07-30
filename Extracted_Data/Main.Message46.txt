@@ -1,0 +1,11 @@
+Header: Message 46
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	RSI <name> Lines <name> does not import to/from the RSI Region.
+
+Paragraphs:
+Message 46 occurs in the following circumstances:
+Lists:
+

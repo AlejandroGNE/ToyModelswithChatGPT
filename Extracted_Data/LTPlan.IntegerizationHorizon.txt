@@ -1,0 +1,14 @@
+Header: LT Plan Integerization Horizon
+
+Table Details:
+Units:	yr
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Number of years over which the expansion decisions are integerized
+
+Paragraphs:
+LT Plan Integerization Horizon is the number of years over which the expansion decisions are integerized. By default all years of LT Plan have integer constraints enforced, meaning that only integer numbers of generators, lines, etc are built/retired.  For large problems solving the entire horizon integer can be too computationally difficult and therefore this option can be used to reduce computation time and memory usage.
+
+Note that the integer constraints can be relaxed on individual generators with the property Expansion Optimality , and similarly for transmission lines. Interface expansion is always linear, and Physical Contract 'expansion' is always integer.
+Lists:
+

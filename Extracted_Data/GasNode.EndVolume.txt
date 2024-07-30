@@ -1,0 +1,15 @@
+Header: Gas Node End Volume
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	End volume in gas storage
+
+Paragraphs:
+Gas Node End Volume is the sum of End volumes of all the gas storage connected to this gas node.
+Lists:
+

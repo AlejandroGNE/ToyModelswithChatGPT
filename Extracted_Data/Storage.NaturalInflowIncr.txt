@@ -1,0 +1,18 @@
+Header: Storage Natural Inflow Incr
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Increment to [Natural Inflow]
+
+Paragraphs:
+Storage Natural Inflow Incr is a adder to Natural Inflow property.
+
+See also:
+Lists:
+	- Storage Natural Inflow Scalar
+

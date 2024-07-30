@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Min Released Capacity
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum capacity that can be released
+
+Paragraphs:
+Gas Capacity Release Offer Min Released Capacity is the minimum capacity that can be released per interval.
+Lists:
+

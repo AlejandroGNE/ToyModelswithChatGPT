@@ -1,0 +1,21 @@
+Header: Region Cost of Curtailment
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of demand-side participation bids cleared
+
+Paragraphs:
+Region Cost of Curtailment is the cost of demand-side participation bids cleared and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Region Curtailable Load
+	- Region Cost of Unserved Energy
+

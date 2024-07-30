@@ -1,0 +1,15 @@
+Header: Generator Fuels Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	MW offer in band
+
+Paragraphs:
+Generator Fuels Offer Quantity allows offers to be defined fuel-by-fuel for multi-fueled units.
+Lists:
+

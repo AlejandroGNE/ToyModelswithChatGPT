@@ -1,0 +1,15 @@
+Header: Company Regions Pool Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pool revenue from own generation + generation contracts in region
+
+Paragraphs:
+Company Regions Pool Revenue is the pool revenue from own generation + generation contracts in region.
+Lists:
+

@@ -1,0 +1,14 @@
+Header: Stochastic Weibull Shape
+
+Table Details:
+Units:	-
+Default Value:	3
+Validation Rule:	≥0
+Description:	Shape parameter (beta) for the Weibull reliability function.
+
+Paragraphs:
+Model Weibull Shape (β) controls the shape of the Weibull distribution of time between failures for plant in the Monte Carlo model. The value can range between zero and three or more:
+
+The above information is extracted from www.weibull.com
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Companies Generation Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation capacity built
+
+Paragraphs:
+Battery Companies Generation Capacity Built is the generation capacity built.
+Lists:
+

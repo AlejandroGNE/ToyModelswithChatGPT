@@ -1,0 +1,15 @@
+Header: Fuel Min Offtake Month
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum fuel offtake in month
+
+Paragraphs:
+Fuel Min Offtake MONTH is the minimum total fuel that must be used per month - see Min Offtake for more details.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Gas Storage Injection
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas injected into the gas storage
+
+Paragraphs:
+Gas Storage Injection is the quantity of gas injected into the gas storage.
+
+See also:
+Lists:
+	- Gas Storage Withdrawal
+

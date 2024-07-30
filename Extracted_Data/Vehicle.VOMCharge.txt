@@ -1,0 +1,17 @@
+Header: Vehicle VO&M Charge
+
+Table Details:
+Units:	$/km (Metric), $/m (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge
+
+Paragraphs:
+Vehicle VO&M Charge is the
+          variable operation and maintenance charge associated with operating a
+          vehicle. The charge is applied to each unit of Distance travelled (km or mile). The total cost incurred is reported in the VO&M Cost property.
+Lists:
+

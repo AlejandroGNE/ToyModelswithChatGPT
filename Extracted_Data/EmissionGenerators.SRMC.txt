@@ -1,0 +1,17 @@
+Header: Emission Generators SRMC
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Effective SRMC of generation including emission shadow price
+
+Paragraphs:
+Emission Generators SRMC is defined as:
+
+Its represents the incremental cost of Generation including the cost of emissions .
+Lists:
+

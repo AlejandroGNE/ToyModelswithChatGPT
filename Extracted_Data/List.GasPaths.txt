@@ -1,0 +1,11 @@
+Header: List Gas Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Path objects in the List
+
+Paragraphs:
+List Gas Paths is set of Gas Path objects in the List
+Lists:
+

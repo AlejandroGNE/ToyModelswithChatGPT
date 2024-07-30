@@ -1,0 +1,15 @@
+Header: Facility Objectives Operating Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity of operating units
+
+Paragraphs:
+Facility Objectives Operating Capacity Coefficient is Coefficient of capacity of operating units.
+Lists:
+

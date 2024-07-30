@@ -1,0 +1,15 @@
+Header: Water Plant Raw Water
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of raw water input to the water plant
+
+Paragraphs:
+Water Plant Raw Water is Quantity of raw water input to the water plant.
+Lists:
+

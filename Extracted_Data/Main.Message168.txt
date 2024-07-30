@@ -1,0 +1,11 @@
+Header: Message 168
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Non-physical losses detected on Line <name> in period (<value>). Flow <value>, Loss <value>. Correction algorithm invoked.
+
+Paragraphs:
+Message 168 occurs in the following circumstances:
+Lists:
+

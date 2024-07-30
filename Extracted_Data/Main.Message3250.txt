@@ -1,0 +1,11 @@
+Header: Message 3250
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Reliability <value> risk metric has decreased after Generator removal, no EFC convergence possible. Consider increasing VoLL or decreasing MIP gap.
+
+Paragraphs:
+Message 3250 occurs in the following circumstances:
+Lists:
+

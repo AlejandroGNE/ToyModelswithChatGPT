@@ -1,0 +1,22 @@
+Header: Zone Constraints Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of zone load
+
+Paragraphs:
+Zone Constraints Load Coefficient is the left-hand side coefficient of input Zone Load in
+          the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Region Constraints Load Coefficient
+

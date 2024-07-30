@@ -1,0 +1,15 @@
+Header: Constraint Slack
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constraint slack at optimal solution
+
+Paragraphs:
+Inequality constraints can generate slack when the Constraint is not binding. The slack is in the same units as the right-hand side .
+Lists:
+

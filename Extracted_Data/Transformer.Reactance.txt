@@ -1,0 +1,19 @@
+Header: Transformer Reactance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Together with any resistance this makes up the lines impedance
+X110-220kV	Reactance	0.05	p.u.
+X110-220kV	Resistance	0.02	p.u.
+
+Paragraphs:
+Transformer Reactance is used in combination with Resistance to define transformer impedance.
+
+Example
+Lists:
+

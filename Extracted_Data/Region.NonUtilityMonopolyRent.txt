@@ -1,0 +1,18 @@
+Header: Region Non-Utility Monopoly Rent
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generator monopoly rent from competitive bidding
+
+Paragraphs:
+Region Non Utility Monopoly Rent is the Generator Monopoly Rent for Companies in the Region that are not identified as Utilities . This property is provided for use in the RSI mark-up model. The property calculated as:
+
+See also:
+Lists:
+	- Region Utility Monopoly Rent
+

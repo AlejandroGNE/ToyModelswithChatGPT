@@ -1,0 +1,23 @@
+Header: Waterway Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow on waterway
+
+Paragraphs:
+Waterway Flow is the flow on the waterway.
+
+The flow into the waterway is defined as:
+
+And likewise, the flow out of the waterway is defined as:
+
+These flow factors default to unity, which preserves water or energy down a cascading network.
+
+Non-unity flow factors can be used to approximate the loss of potential energy in a cascading network of storages, when using the Potential Energy storage model.
+Lists:
+

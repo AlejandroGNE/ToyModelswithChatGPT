@@ -1,0 +1,15 @@
+Header: Region Battery Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from batteries
+
+Paragraphs:
+Region Battery Generation is Generation from batteries.
+Lists:
+

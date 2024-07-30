@@ -1,0 +1,15 @@
+Header: Generator Objectives Generation SUM Squared Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the square of the summed generation measured at the generator terminal
+
+Paragraphs:
+Generator Objectives Generation SUM Squared Coefficient is Coefficient of the square of the summed generation measured at the generator terminal.
+Lists:
+

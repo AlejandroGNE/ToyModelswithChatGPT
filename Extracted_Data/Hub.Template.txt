@@ -1,0 +1,11 @@
+Header: Hub Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Hub inherits from
+
+Paragraphs:
+Hub Template is the template the Hub inherits from.
+Lists:
+

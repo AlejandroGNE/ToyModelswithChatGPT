@@ -1,0 +1,15 @@
+Header: Generator Fuels Transition Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of transitioning to or from this Fuel.
+
+Paragraphs:
+Generator Fuels Transition Cost is the cost of transitioning to or from this Fuel.
+Lists:
+

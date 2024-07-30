@@ -1,0 +1,15 @@
+Header: Generator Replacement Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Generator Replacement Reserve is the provision of replacement reserve.
+Lists:
+

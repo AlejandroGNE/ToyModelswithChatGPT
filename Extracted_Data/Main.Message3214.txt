@@ -1,0 +1,11 @@
+Header: Message 3214
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The factorial for <name> could not be calculated.
+
+Paragraphs:
+Message 3214 occurs in the following circumstances:
+Lists:
+

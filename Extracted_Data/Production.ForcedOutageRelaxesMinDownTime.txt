@@ -1,0 +1,14 @@
+Header: Production Forced Outage Relaxes Min Down Time
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If ramp constraints should all be formulated upfront rather than checked iteratively.
+
+Paragraphs:
+Production Forced Outage Relaxes Min Down Time controls whether or not Generator Min Down Time is enforced immediately after a unit goes out of service due to a Forced Outage .
+
+By default the unit must continue to stay down for at least the Min Down Time hours. If you turn on this option then a unit can come back into service earlier, once the required repair time is completed.
+Lists:
+

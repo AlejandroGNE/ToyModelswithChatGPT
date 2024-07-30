@@ -1,0 +1,18 @@
+Header: Battery Max Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum time to repair
+
+Paragraphs:
+Battery Max Time to Repair is used to set the upper limit on either a continuous or triangular repair time distribution. See the Mean Time to Repair property for details.
+
+See also:
+Lists:
+	- Battery Min Time to Repair
+

@@ -1,0 +1,20 @@
+Header: Cournot Net Import
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net import in the Nash-Cournot equilibrium solution
+
+Paragraphs:
+Cournot Net Import is the net of imports and exports to/from the Region in the Nash-Cournot equilibrium solution:
+
+NOTE: Net Import is opposite in sign to Region Net Interchange .
+
+See also:
+Lists:
+	- Cournot Perfect Competition Net Import
+

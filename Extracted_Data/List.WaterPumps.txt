@@ -1,0 +1,11 @@
+Header: List Water Pumps
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Pump objects in the List
+
+Paragraphs:
+List Water Pumps is set of Water Pump objects in the List
+Lists:
+

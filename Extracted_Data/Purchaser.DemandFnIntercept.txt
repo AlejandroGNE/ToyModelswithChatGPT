@@ -1,0 +1,15 @@
+Header: Purchaser Demand Fn Intercept
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Demand function vertical intercept
+
+Paragraphs:
+Purchaser Demand Fn Intercept is the demand function vertical intercept.
+Lists:
+

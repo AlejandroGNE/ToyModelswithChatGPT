@@ -1,0 +1,15 @@
+Header: Generator Must Report
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the generator must be reported even if it is out-of-service
+
+Paragraphs:
+Generator Must Report can be set so that the generator must be reported in the solution database even if it is out-of-service. Note that a Generator is "out of service" if Units equals zero (or for LT Plan that no Max Units Built is defined) or if Units Out implies the Generator is out for the entire Horizon .
+Lists:
+

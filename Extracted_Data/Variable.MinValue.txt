@@ -1,0 +1,15 @@
+Header: Variable Min Value
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum allowed sample value
+
+Paragraphs:
+Variable Min Value is the minimum allowed sample value.
+Lists:
+

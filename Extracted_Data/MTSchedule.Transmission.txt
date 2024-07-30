@@ -1,0 +1,11 @@
+Header: MT Schedule Transmission
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Transmission settings for MT Schedule
+
+Paragraphs:
+MT Schedule Transmission is the Transmission settings for MT Schedule. These override the settings associated with the Model .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Water Price Paid
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price paid for water consumption
+
+Paragraphs:
+Generator Water Price Paid is Price paid for water consumption.
+Lists:
+

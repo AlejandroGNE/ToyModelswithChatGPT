@@ -1,0 +1,15 @@
+Header: Gas DSM Program Weather Data Variable
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weather data variable for gas demand function
+
+Paragraphs:
+Gas DSM Program Weather Data Variable is a multi-band wind speed value. It is the wind speed for that band where the corresponding Weather Data Factor will have effect.
+Lists:
+

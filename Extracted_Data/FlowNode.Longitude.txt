@@ -1,0 +1,12 @@
+Header: Flow Node Longitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Longitude
+
+Paragraphs:
+[detail]
+Lists:
+

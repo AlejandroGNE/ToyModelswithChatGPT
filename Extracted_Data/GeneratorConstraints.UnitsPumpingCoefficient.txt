@@ -1,0 +1,21 @@
+Header: Generator Constraints Units Pumping Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units pumping
+
+Paragraphs:
+Generator Constraints Units Pumping Coefficient is the left-hand side coefficient on the number of Generator Units Pumping in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- Generator Max Units Pumping
+	- Generator Must Pump Units
+

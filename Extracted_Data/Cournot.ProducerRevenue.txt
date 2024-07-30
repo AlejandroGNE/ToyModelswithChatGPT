@@ -1,0 +1,19 @@
+Header: Cournot Producer Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Producer revenue in the Nash-Cournot equilibrium solution
+
+Paragraphs:
+Cournot Producer Revenue is the producer revenue in the Nash-Cournot equilibrium solution. This is defined as:
+
+See also:
+Lists:
+	- Cournot Producer Surplus
+	- Cournot Perfect Competition Producer Revenue
+

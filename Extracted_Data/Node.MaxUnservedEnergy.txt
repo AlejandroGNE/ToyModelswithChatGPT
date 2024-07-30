@@ -1,0 +1,17 @@
+Header: Node Max Unserved Energy
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum allowed Unserved Energy at the node.
+
+Paragraphs:
+Node Max Unserved Energy is Maximum allowed Unserved Energy at the node.
+
+Note: If the value is less than 0.000001, the maximum allowed unserved energy bound will not be respect. The value must be set to 0.000001 or greater.
+Lists:
+

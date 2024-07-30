@@ -1,0 +1,28 @@
+Header: Market Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of sales to the market
+
+Paragraphs:
+Market Revenue is the value of sales into the market. The definition of Revenue depends on the
+          Market Is Marginal flag.
+
+If Is Marginal is true then:
+
+Revenue = Sales × Price
+
+else:
+
+Revenue = ∑ b Sales b × Price b
+
+where: b indexes the band of Price
+
+
+Lists:
+

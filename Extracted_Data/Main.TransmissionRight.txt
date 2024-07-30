@@ -1,0 +1,26 @@
+Header: Transmission Right Class
+
+Table Details:
+Description:	Transmission right (FTR, SRA)
+
+Paragraphs:
+See also Transmission Right Property Reference for a detailed list of properties for
+          this class of object.
+
+PLEXOS supports two styles of transmission right using the Transmission Right class:
+
+FTR and SRA settlement will appear as additional contract revenue to the generating or purchasing company owner-equal to
+        the difference in nodal prices multiplied by the contract quantity. Note that these monies will also affect dynamic bidding
+        when using Cost Recovery and LRMC since they will partially offset fixed cost and
+        other revenue requirements.
+Lists:
+	- Add the transmission nodes acting as the 'from' and 'to' nodes in the FTR to the Node From and Node To collections of the Transmission Right respectively.
+	- Set the Companies that own the FTR-you may use the property to split the
+            settlement of the FTR among multiple companies.
+	- Set the Quantity equal to the MW quantity of the FTR.
+	- Add the line or lines whose surpluses ( Rental ) are the subject of the SRA.
+	- Set the Companies that own the FTR-you may use the property to split the
+            settlement of the FTR among multiple companies.
+	- Under the Financial Contract Lines properties set the or property equal to the percentage of line rentals from
+            forward or backward respectively that is included in the contract.
+

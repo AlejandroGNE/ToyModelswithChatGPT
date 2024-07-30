@@ -1,0 +1,21 @@
+Header: Node Unserved Energy
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Unserved energy (USE)
+
+Paragraphs:
+Node Unserved Energy is load at the bus that could not be served by available generation or transmission resources. The price at which load is shed is set by the setting Transmission Internal VoLL and the reported Price is capped at Region VoLL .
+
+You can toggle on/off the modelling of unserved energy at the system level using the Transmission Allow Unserved Energy setting. You can further refine this by using the Node Allow Unserved Energy property.
+
+Note that the amount of unserved energy at the node cannot exceed the input Load .
+
+To help diagnose unserved energy, or in Monte Carlo studies with a large number of samples (iterations) where it might be impractical to save all samples of all time periods due to space limitations in the solution database, you can toggle on the Unserved Energy Diagnostic . The diagnostic file will show details only for periods with unserved energy.
+Lists:
+

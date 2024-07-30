@@ -1,0 +1,11 @@
+Header: Message 3110
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Report <name> <value> [<value>] is not reported in <value> simulation phase.
+
+Paragraphs:
+Message 3110 occurs in the following circumstances:
+Lists:
+

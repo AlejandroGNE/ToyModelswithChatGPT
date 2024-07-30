@@ -1,0 +1,15 @@
+Header: Constraint Price
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constraint dual variable value at optimal solution
+
+Paragraphs:
+The Constraint shadow price is phrased in the context of a primal maximization (benefit maximization) problem, thus a positive value indicates that increasing the right-hand side of a upper limit constraint would increase benefits (or reduce costs). In summary reporting the Price property is the average price across all periods including any zero prices (non-binding) periods. This property in conjunction with Hours Binding is useful in diagnosing problems with generic constraints e.g. generic transmission security constraints.
+Lists:
+

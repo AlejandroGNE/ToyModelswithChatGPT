@@ -1,0 +1,18 @@
+Header: Line Min Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Minimum number of lines automatically retired
+
+Paragraphs:
+Line Min Units Retired is used to force the retirement of a Line at some point in the planning horizon in LT Plan . See Max Units Retired for details.
+
+See also:
+Lists:
+	- Line Min Units Retired in Year
+

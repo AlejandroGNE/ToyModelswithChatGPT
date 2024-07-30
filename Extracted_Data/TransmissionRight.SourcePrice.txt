@@ -1,0 +1,15 @@
+Header: Transmission Right Source Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price on source side
+
+Paragraphs:
+Transmission Right Source Price is Price on source side. Reported price is determined by Pricing Method .
+Lists:
+

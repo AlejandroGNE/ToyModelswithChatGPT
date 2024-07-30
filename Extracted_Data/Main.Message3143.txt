@@ -1,0 +1,11 @@
+Header: Message 3143
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Horizon Typical Week mismatch to the start of the planning horizon.
+
+Paragraphs:
+Message 3143 occurs in the following circumstances:
+Lists:
+

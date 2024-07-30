@@ -1,0 +1,20 @@
+Header: Zone Generation Capacity Retired
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation capacity retired
+
+Paragraphs:
+Zone Generation Capacity Retired is the total generation capacity retired in the period by LT Plan and is defined as:
+
+See also:
+Lists:
+	- Zone Generation Capacity
+	- Zone Generation Capacity Built
+	- Zone Generator Retirement Cost
+

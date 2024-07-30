@@ -1,0 +1,15 @@
+Header: Transmission N-1 Contingency Voltage Threshold
+
+Table Details:
+Units:	kV
+Default Value:	0
+Validation Rule:	≥0
+Description:	Voltage level at which N-1 contingencies are automatically enforced.
+
+Paragraphs:
+Transmission N-1 Contingency Voltage Threshold sets the voltage level for transmission Lines and Transformers for which N-1 contingency case would be added to SCUC once Enforce N-1 Contingencies is turned on. N-1 contingency case will not be added if element voltage is below this level. This parameter allows user to reduce the number of contingency cases and so improve performance.
+
+See also:
+Lists:
+	- Transmission Enforce N-1 Contingencies
+

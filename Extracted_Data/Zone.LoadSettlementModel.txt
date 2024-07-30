@@ -1,0 +1,15 @@
+Header: Zone Load Settlement Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Model used to determine energy prices reported in the zone.
+
+Paragraphs:
+Zone Load Settlement Model sets the methodology used to set prices paid by all loads:
+Lists:
+

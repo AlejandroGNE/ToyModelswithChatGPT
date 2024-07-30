@@ -1,0 +1,16 @@
+Header: Flow Storage Withdrawal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of withdrawals from inventory
+
+Paragraphs:
+See Commodity Withdrawal
+            Cost for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Plant Energy Usage
+
+Table Details:
+Units:	kWh/m³ (Metric), kWh/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Energy consumption of Water Plant
+
+Paragraphs:
+Water Plant Energy Usage is the energy consumption of Water Plant, which is met from drawing electricity from its electrical node .
+Lists:
+

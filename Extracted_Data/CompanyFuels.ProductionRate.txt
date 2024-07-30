@@ -1,0 +1,15 @@
+Header: Company Fuels Production Rate
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rate of production/volume of production from Power2X
+
+Paragraphs:
+Company Fuels Production Rate is the rate of production/volume of production from Power2X.
+Lists:
+

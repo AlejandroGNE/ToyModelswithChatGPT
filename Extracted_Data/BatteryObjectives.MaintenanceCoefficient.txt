@@ -1,0 +1,18 @@
+Header: Battery Objectives Maintenance Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity on maintenance
+
+Paragraphs:
+Battery Objectives Maintenance Coefficient is the coefficient of Maintenance in the objective.
+
+With the coefficient represented by c (i,j) the following
+          term is added to the objective function:
+Lists:
+

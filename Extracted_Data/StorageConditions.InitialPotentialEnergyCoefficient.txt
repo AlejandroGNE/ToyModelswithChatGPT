@@ -1,0 +1,29 @@
+Header: Storage Conditions Initial Potential Energy Coefficient
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the initial potential energy in storage in the condition equation
+
+Paragraphs:
+This is the coefficient of Storage Initial Potential Energy in the Variable condition equation.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the left-hand side of the condition equation:
+
+… + a (i,j) × Storage Initial Potential Energy … {<,≤, ≥,>, =} Profile
+
+Note that the left-hand side of the equation is available in the
+          property Variable Activity and this value can be used not only as a condition test but also to
+          modify other input properties via the Action and Expression fields in
+          the data grid, thus allowing you to multiply two input properties.
+
+See also:
+Lists:
+	- Storage Conditions Initial
+              Volume Coefficient
+

@@ -1,0 +1,15 @@
+Header: Gas Demand Companies Net Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas demand net of shortages and excesses
+
+Paragraphs:
+Gas Demand Companies Net Demand is the gas demand net of shortages and excesses for a given company.
+Lists:
+

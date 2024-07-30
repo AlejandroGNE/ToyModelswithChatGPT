@@ -1,0 +1,37 @@
+Header: Generator Ramp Down
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping down
+
+Paragraphs:
+Generator Ramp Down is the total
+          ramping down in the period, and is defined as:
+
+Ramp Down = MAX (0, Generation ( t -1) - Generation t )
+
+where: t indexes periods of the
+            simulation. The t =0 value of Generation refers to the
+            previous simulation step and for step one it is set with the Initial
+              Generation property.
+
+This is distinct from Ramp which
+          reports the ramping rate in megawatts per minute.Ramp Down
+          can be used in combination with Minutes
+            of Ramp Down to determine the intensity of ramping down over any
+          period.
+
+See also:
+Lists:
+	- Generator Max
+              Ramp Down
+	- Generator Ramp
+              Down Charge
+	- Generator Ramp
+              Up
+

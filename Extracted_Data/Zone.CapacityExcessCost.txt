@@ -1,0 +1,18 @@
+Header: Zone Capacity Excess Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of capacity excess priced at [Capacity Excess Price].
+
+Paragraphs:
+Zone Capacity Excess Cost is calculated as:
+
+See also:
+Lists:
+	- Zone Capacity Shortage Cost
+

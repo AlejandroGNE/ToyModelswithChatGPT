@@ -1,0 +1,22 @@
+Header: Diagnostic Sort Row Column Names
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Generic writer will sort row and columns names
+
+Paragraphs:
+This option is used with the Generic Writer and specifies whether the rows and columns are to be sorted alphabetically or not.  If not, then the order presented is the order in which they were added to the mathematical problem.  This feature is extremely useful to compare LP/Solution files from different versions of PLEXOS (i.e. the order of the rows/columns may be different between the two versions).
+
+See also:
+Lists:
+	- Use Generic Writer
+	- Standardize Names
+	- Zero Tolerance LP
+	- Zero Tolerance SOL
+	- Decimal Places LP
+	- Decimal Places SOL
+	- Skip Zero Values
+	- Strip Model Name
+

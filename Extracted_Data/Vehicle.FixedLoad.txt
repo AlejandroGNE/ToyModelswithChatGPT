@@ -1,0 +1,29 @@
+Header: Vehicle Fixed Load
+
+Table Details:
+Units:	kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed charging load
+
+Paragraphs:
+Vehicle Fixed Load defines a fixed
+          profile of charging for an electric vehicle. This property is used
+          when the charging profile is known upfront and the travel Demand and battery storage is not being modeled. The load includes charging
+          losses (defined by Charge
+            Efficiency ) i.e. it is the demand from the Charging
+            Station . The load appears at whichever Charging Station the
+          Vehicle is attached to at any moment as defined by the Share property.
+
+How the value of Fixed Load is interpreted depends on the Fixed
+            Load Global setting. It controls whether the value is across all
+          vehicles or per-vehicle.
+
+Note that, when Fixed Load is defined, the electric vehicle's battery
+          state-of-charge (Soc) is not modeled and the Demand input is ignored however the distance travelled is computed for the
+          purposes of reporting.
+Lists:
+

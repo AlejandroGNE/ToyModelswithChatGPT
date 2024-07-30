@@ -1,0 +1,15 @@
+Header: Purchaser Tariff
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price paid by customers for load bid cleared
+
+Paragraphs:
+Purchaser Tariff allows a value to be placed on purchaser loads. This tariff is passed back to the owning Companies as additional revenue.
+Lists:
+

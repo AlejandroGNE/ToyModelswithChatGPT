@@ -1,0 +1,12 @@
+Header: Diagnostic Monitored Iterations Summary
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print a summery message after iterations of row/column monitoring
+
+Paragraphs:
+[detail]
+Lists:
+

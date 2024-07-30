@@ -1,0 +1,11 @@
+Header: Company Facilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Facilities owned by the Company
+
+Paragraphs:
+Company Facilities is the set of Facilities owned by the Company.
+Lists:
+

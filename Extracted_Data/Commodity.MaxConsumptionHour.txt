@@ -1,0 +1,31 @@
+Header: Commodity Max Consumption Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum consumption per hour
+
+Paragraphs:
+Commodity Max Consumption Hour
+          creates a Constraint object that
+          limits the Consumption of
+          the Commodity each hour. Note that this is the same as setting Max
+            Consumption when Horizon Periods
+            per Day is 24, and only applies for sub-hourly resolution
+          modeling. By default this is a 'hard' constraint. To create a soft
+          constraint, set the Max
+            Consumption Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Hour
+	- Commodity Constraints Consumption
+              Coefficient
+

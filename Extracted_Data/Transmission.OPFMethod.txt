@@ -1,0 +1,23 @@
+Header: Transmission OPF Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Method for solving optimal power flow.
+
+Paragraphs:
+Transmission OPF Method sets the type of formulation used to model Optimal Power Flow . It can take these values:
+
+The two methods provide broadly similar capabilities, with the variable shift factor being a more verbose formulation similar to the formulations used in these LMP-based markets:
+
+The fixed-shift factor method is a more traditional linearized DC OPF suitable for modelling large networks.
+
+These methods are discussed in detail in the article OPF Methods .
+
+Both methods support modelling of transmission losses.
+Lists:
+	- New Zealand
+	- Singapore
+	- Ireland
+

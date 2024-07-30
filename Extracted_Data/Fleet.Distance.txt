@@ -1,0 +1,15 @@
+Header: Fleet Distance
+
+Table Details:
+Units:	km (Metric), m (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Distance travelled
+
+Paragraphs:
+Fleet Distance is the distance travelled by the fleet.
+Lists:
+

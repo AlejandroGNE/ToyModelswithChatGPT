@@ -1,0 +1,11 @@
+Header: Fuel Contract Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Fuel Contract
+
+Paragraphs:
+Fuel Contract Constraints is a collection used by the simulation engine in modelling Fuel Contracts. It is not a input-side collection.
+Lists:
+

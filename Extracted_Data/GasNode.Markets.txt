@@ -1,0 +1,11 @@
+Header: Gas Node Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	external gas market connected to the gas node
+
+Paragraphs:
+Gas Node Markets is external gas market connected to the gas node
+Lists:
+

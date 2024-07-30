@@ -1,0 +1,17 @@
+Header: List Transient
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Transient lists are not saved in the XML but only exist in the current session.
+
+Paragraphs:
+List Transient prevents a list from being saved to the database. It is beneficial to tweak a database during one session.
+
+See also:
+Lists:
+	- List Filter
+	- List Report
+	- List Inclusive Empty
+

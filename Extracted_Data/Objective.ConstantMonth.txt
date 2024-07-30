@@ -1,0 +1,15 @@
+Header: Objective Constant Month
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Objective constant each month (000's)
+
+Paragraphs:
+Objective Constant Month is Objective constant each month (000's).
+Lists:
+

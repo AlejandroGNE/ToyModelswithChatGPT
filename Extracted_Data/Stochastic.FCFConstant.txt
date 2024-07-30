@@ -1,0 +1,12 @@
+Header: Stochastic FCF Constant
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Constant future cost subtracted from the future cost during SDDP iterations
+
+Paragraphs:
+FCF Constant is a constant future cost subtracted from the future cost during SDDP iterations.
+Lists:
+

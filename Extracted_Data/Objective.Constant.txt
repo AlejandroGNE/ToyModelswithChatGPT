@@ -1,0 +1,15 @@
+Header: Objective Constant
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Is the constant term in objective a'x +b
+
+Paragraphs:
+Objective Constant does not change the solution but is used to control an objective object in and out of a class.
+Lists:
+

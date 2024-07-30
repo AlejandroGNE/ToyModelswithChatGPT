@@ -1,0 +1,19 @@
+Header: Variable Sampling Frequency
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Frequency of temporal sampling of period type [Sampling Period Type] where zero means no sampling.
+
+Paragraphs:
+Variable Sampling Frequency works with Sampling Period Type to sample across a number of user-defined bands of Profile data with the sampling occurring in time as well as across the sample bands.
+
+Example
+
+If Sampling Frequency = 1 and Sampling Period Type = 2 (week) then samples are taken each week at random from the bands of the defined Profile .
+Lists:
+

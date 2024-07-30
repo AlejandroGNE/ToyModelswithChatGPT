@@ -1,0 +1,15 @@
+Header: Maintenance Constraints Hours Active Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours the maintenance is active.
+
+Paragraphs:
+Maintenance Constraints Hours Active Coefficient is Coefficient of number of hours the maintenance is active..
+Lists:
+

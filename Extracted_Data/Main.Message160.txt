@@ -1,0 +1,11 @@
+Header: Message 160
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Error (value = 0)
+Description:	Constraint <name> Lines <name> cannot define both Constraint Lines [Units Retired Coefficient] together with Constraint Lines [Units Retired in Year Coefficient].
+
+Paragraphs:
+Message 160 occurs in the following circumstances:
+Lists:
+

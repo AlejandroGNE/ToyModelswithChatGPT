@@ -1,0 +1,23 @@
+Header: Region Available Capacity Margin
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity Reserve Margin based on Available Capacity
+
+Paragraphs:
+Region Available Capacity Margin is
+          Capacity Reserve Margin based on Available Capacity.
+
+Available Capacity Margin (%) = 100 x Available
+            Capacity / Peak Load
+
+See also:
+Lists:
+	- Region Available
+              Capacity Reserves
+

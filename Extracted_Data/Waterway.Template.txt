@@ -1,0 +1,11 @@
+Header: Waterway Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Waterway inherits from
+
+Paragraphs:
+Waterway Template is template the Waterway inherits from
+Lists:
+

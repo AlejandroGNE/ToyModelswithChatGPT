@@ -1,0 +1,28 @@
+Header: Horizon Compression Factor
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of intervals to output per interval simulated
+
+Paragraphs:
+Horizon Compression Factor reduces
+          the resolution used during simulation without reducing the resolution
+          of the interval data written to the solution file. For example, if Periods per Day is 48
+          (30-minute intervals) and Compression Factor = 4 then the simulation
+          will use a two-hour interval length but the solution file will write
+          out 30-minute interval data. Therefore, increasing the Compression
+          Factor is equivalent to reducing Periods per Day except for the way
+          solution data are written and is convenient if you wish to report on
+          the 'original' interval length but take advantage of increased
+          performance from a lower resolution simulation.
+
+Reducing the resolution used in the simulation can improve
+          performance especially for LT Plan models and stochastic models that spend significant time working with
+          large numbers of intervals.
+
+Note: [Interval Length] x [Compression Factor] should be equal to another accepted interval length. For example, if the interval length is 30 minutes, then the compression factor cannot be 3 because that would create intervals of length 90 minutes, which is not an accepted interval length.
+            Also, if [Interval Length] x [Compression Factor] is greater than an hour, then Hourly reporting is disabled.
+Lists:
+

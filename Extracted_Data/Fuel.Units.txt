@@ -1,0 +1,26 @@
+Header: Fuel Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Flag if fuel exists
+OIL	Units	1	-	1					
+OIL	Units	0	-	1					No Oil
+
+Paragraphs:
+Fuel Units is a binary flag indicating if the fuel exists or not. By default, Fuel objects are available (Units = 1), but by setting Units = 0 you can make the Fuel unavailable.
+
+It is important to note that any Generator associated with Fuel objects that are all unavailable will also be unavailable. Also note that Units may be a dynamic property i.e. change value in time so that a Fuel changes availability during the simulation.
+
+Example
+
+In the following example the Fuel "Oil" is available unless the running Model includes the "No Oil" Scenario .
+
+See also:
+Lists:
+	- Generator Fuels Is Available
+

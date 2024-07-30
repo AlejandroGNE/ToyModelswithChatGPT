@@ -1,0 +1,12 @@
+Header: LT Plan Co-optimize Unit Commitment
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If unit commitment is co-optimized rather than sequentially optimized with expansion
+
+Paragraphs:
+LT Plan Co-optimize Unit Commitment is co-optimized with expansion optimization.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Gas Node Gas Zones
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas zones the gas node belongs to
+
+Paragraphs:
+Gas Node Gas Zones is a set of Gas Zone objects the Gas Node belongs to.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Power2X Constraints Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of load drawn by the facility
+
+Paragraphs:
+Power2X Constraints is the left-hand side coefficient of Load in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

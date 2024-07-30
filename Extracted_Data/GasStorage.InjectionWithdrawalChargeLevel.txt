@@ -1,0 +1,25 @@
+Header: Gas Storage Injection Withdrawal Charge Level
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage of volume that correspond to bands of Injection Withdrawal Charge or Dispatch Injection Withdrawal Charge
+1	25	25%	0 TJ	5 TJ
+2	33	58%	5 TJ	11.6 TJ
+3	42	100%	11.6 TJ	20 TJ
+
+Paragraphs:
+Gas Storage Injection Withdrawal Charge Level allows the user to specify different charges for different bands of the storage volume. The bands are percentages, sum incrementally, and must sum to 100%.
+
+See also: Gas Storage Injection Charge Withdrawal Charge Dispatch Injection Charge Dispatch Withdrawal Charge
+Lists:
+	- Gas Storage
+	- Injection Charge
+	- Withdrawal Charge
+	- Dispatch Injection Charge
+	- Dispatch Withdrawal Charge
+

@@ -1,0 +1,13 @@
+Header: Message 3139
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Property <value> is dropped because the interval length is set to <value>.
+
+Paragraphs:
+Message 3139 occurs when the Horizon Periods per Day is set to 24 and the property [... Hour] is used.
+
+This message indicates that the property [... Hour] is deleted from the model. In general when the Horizon interval length is 1 hour you should use the property for the interval instead of the hourly variant [... Hour].
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Gas Field Use Additive Ratchet
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If additive ratchet use is enforced.
+
+Paragraphs:
+When this is set to True, the ratchet inputs for withdrawal volume and rate in each band are specified in an additive manner. Otherwise the values are cumulative.
+
+See UseAdditiveRatchet for examples of how ratchets works in Gas Storage. 
+        Note that Gas Field doesn't have Injection Ratchets like Gas Storage does.
+Lists:
+

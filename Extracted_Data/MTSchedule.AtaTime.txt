@@ -1,0 +1,26 @@
+Header: MT Schedule At a Time
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of day/week/months/years in each MT Schedule simulation step.
+
+Paragraphs:
+MT Schedule At a Time decides the length in each step (optimization) of the MT Schedule . The type of step is set by the Step Type attribute.
+
+MT Schedule is designed to simulate the horizon in steps that are of uniform duration. The default value of zero means "Auto" and that MT Schedule will use annual steps with the following configuration depending on the Step Type :
+
+Each year is modelled with a notional 366 days. In non-leap years the 29th February is 'empty'.
+
+Each year is modelled with a notional 53 weeks. The last week of the year is 'short' having either two days (non-leap year) or one day (leap year).
+
+Each year is modelled as 12 calendar months.
+
+The above approach ensures that each year is notionally the same duration. The presence of 'empty' or 'short' days or weeks does not affect the simulation results and all reporting is to the original calendar.
+
+You may customise the duration of the MT Schedule steps using the At a Time setting to suit your specific modelling needs.
+
+Note that you may use any LDC Type independent of the step type provided the LDC Type is the same or lower resolution than the Step Type e.g. daily LDC works with weekly and monthly step type, but monthly LDC does not work with daily step type.
+Lists:
+

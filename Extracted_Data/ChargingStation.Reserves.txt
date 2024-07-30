@@ -1,0 +1,11 @@
+Header: Charging Station Reserves
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Reserves provided by the Charging Station
+
+Paragraphs:
+Charging Station Reserves is the set of Reserves provided by the Charging Station.
+Lists:
+

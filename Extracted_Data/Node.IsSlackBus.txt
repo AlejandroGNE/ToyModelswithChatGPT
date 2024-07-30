@@ -1,0 +1,17 @@
+Header: Node Is Slack Bus
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Set if this is the slack bus
+
+Paragraphs:
+A slack bus creates a constant in the linear optimization problem such that the problem can be solved. The choice of the bus is arbitrary. While the choice of the slack bus impacts how the problem is solved, it does not impact the solution.  Hence, the locational marginal pricing (LMP), and the power flow across lines is the same regardless of the slack bus chosen.
+
+See Optimum Power Flow Article for further reading
+Lists:
+

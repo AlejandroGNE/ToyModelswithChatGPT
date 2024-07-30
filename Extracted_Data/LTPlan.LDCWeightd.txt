@@ -1,0 +1,12 @@
+Header: LT Plan LDC Weight d
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	LDC weighting polynomial function 'd' parameter.
+
+Paragraphs:
+This LT Plan setting is described in the MT Schedule article LDC Weight d .
+Lists:
+

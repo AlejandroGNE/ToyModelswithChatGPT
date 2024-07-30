@@ -1,0 +1,11 @@
+Header: Message 135
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	PASA must be enabled in order to use the MT Schedule capacity expansion algorithm.
+
+Paragraphs:
+Message 135 occurs in the following circumstances:
+Lists:
+

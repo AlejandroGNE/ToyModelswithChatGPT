@@ -1,0 +1,28 @@
+Header: Storage Spill
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Spill to "the sea"
+
+Paragraphs:
+Storage Spill is the amount of
+          spill out of the storage. It is the sum of flows down Exporting
+            Waterways that flow "to the sea" and spills directly from the Storage as allowed by the Max
+            Spill property.
+
+Although Spill generally only occurs when the Storage reaches the Max Volume in a
+          cascading hydro network it can be economic to 'spill' water even when
+          the Storage is not full. These
+          'economic' spills can be prevented using the Waterway Flow Control property.
+
+See also:
+Lists:
+	- Storage Release
+	- Storage Downstream
+              Release
+

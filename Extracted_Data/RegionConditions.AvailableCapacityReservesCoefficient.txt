@@ -1,0 +1,19 @@
+Header: Region Conditions Available Capacity Reserves Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of region available capacity reserves in condition
+
+Paragraphs:
+Region Conditions Available Capacity Reserves Coefficient is Coefficient of region
+                available capacity reserves in the Condition.
+
+The capacity reserves are based on the available capacity in the
+                region.
+Lists:
+

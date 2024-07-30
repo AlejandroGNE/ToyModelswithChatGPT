@@ -1,0 +1,23 @@
+Header: Flow Node Max Flow
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow through the Flow Node each interval
+
+Paragraphs:
+Flow Node Max Flow is the maximum Flow allowed through the Flow Node
+          each interval. By default unlimited flow is allowed through the node
+          if it is in service. You can also limit the flow by Hour , Day , Week , Month or Year .
+
+See also:
+
+
+Lists:
+	- Flow Node Min
+              Flow
+

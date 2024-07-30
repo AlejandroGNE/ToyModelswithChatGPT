@@ -1,0 +1,15 @@
+Header: Storage Inflow Rate
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Inflow
+
+Paragraphs:
+Storage Inflow Rate is the rate of inflows.
+Lists:
+

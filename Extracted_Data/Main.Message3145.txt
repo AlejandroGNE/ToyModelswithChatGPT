@@ -1,0 +1,11 @@
+Header: Message 3145
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Unable to formulate constraints for Base Gas Contract <name>. ST schedule must span 365 days if no LT plan or MT schedule is enabled.
+
+Paragraphs:
+Message 3145 occurs in the following circumstances:
+Lists:
+

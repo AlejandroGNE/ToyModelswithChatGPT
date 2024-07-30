@@ -1,0 +1,15 @@
+Header: Gas Contract Companies Gas Supply
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total supply provided by the company
+
+Paragraphs:
+Gas Contract Companies Gas Supply is the total supply provided by the company.
+Lists:
+

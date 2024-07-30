@@ -1,0 +1,18 @@
+Header: Physical Contract Min Load Units
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum load capacity contracted (LT Plan)
+
+Paragraphs:
+Physical Contract Min Load Units sets a minimum megawatt value on the amount of load contract obligation purchased in LT Plan . This quantity cannot exceed Max Load Units .
+
+See also:
+Lists:
+	- Physical Contract Min Generation Units
+

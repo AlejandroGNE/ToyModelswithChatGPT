@@ -1,0 +1,20 @@
+Header: Region Transmission Control Rental
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rental from penalties on changes in flow control angles and DC line flows
+
+Paragraphs:
+Region Transmission Control Rental is the rental from penalties on changes in Flow Control angles and DC Line flows and is defined as:
+
+The Transmission Control Rental is used to identify the portion of Settlement Surplus that is attributable to penalties on Line 'control' constraints.
+
+See also:
+Lists:
+	- Region Settlement Surplus
+

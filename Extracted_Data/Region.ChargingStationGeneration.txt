@@ -1,0 +1,23 @@
+Header: Region Charging Station Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from Charging Stations
+
+Paragraphs:
+Region Charging Station Generation
+          is defined as:
+
+Load = ∑ Nodes ( Charging Station
+            Generation )
+
+See also:
+Lists:
+	- Region Charging
+              Station Load
+

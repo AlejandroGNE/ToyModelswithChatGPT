@@ -1,0 +1,19 @@
+Header: Purchaser Max Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum load (sum of cleared demand bids)
+
+Paragraphs:
+Purchaser Max Load sets an upper bound on the total Bid Cleared . This limit may be less than the total of Bid Quantity .
+
+See also:
+Lists:
+	- Purchaser Min Load
+	- Purchaser Fixed Load
+

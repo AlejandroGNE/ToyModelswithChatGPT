@@ -1,0 +1,15 @@
+Header: Zone Congestion Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Congestion component of zonal price
+
+Paragraphs:
+Zone Congestion Charge is the congestion component of zonal price.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Flow Node Project Start Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of Flow Node project, for expansion planning.
+
+Paragraphs:
+See Facility Project
+            Start Date for details.
+Lists:
+

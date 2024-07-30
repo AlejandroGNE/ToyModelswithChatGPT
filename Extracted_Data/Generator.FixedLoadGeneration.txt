@@ -1,0 +1,26 @@
+Header: Generator Fixed Load Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation attributable to [Fixed Load] constraint.
+
+Paragraphs:
+Generator Fixed Load Generation
+          is the Generation attributable to the Fixed Load constraint.
+
+See also:
+Lists:
+	- Generator Fixed
+              Load Violation Hours
+	- Generator Fixed
+              Load Violation
+	- Generator Fixed
+              Load Violation Cost
+	- Generator Min
+              Load Generation
+

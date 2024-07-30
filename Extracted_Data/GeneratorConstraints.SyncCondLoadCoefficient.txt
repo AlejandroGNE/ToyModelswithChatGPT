@@ -1,0 +1,17 @@
+Header: Generator Constraints Sync Cond Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of synchronous condenser load
+
+Paragraphs:
+Generator Constraints Sync Cond Load Coefficient is the coefficient of synchronous condenser load.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+Lists:
+

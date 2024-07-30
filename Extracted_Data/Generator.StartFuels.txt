@@ -1,0 +1,11 @@
+Header: Generator Start Fuels
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	fuels available for starting units
+
+Paragraphs:
+Generator Start Fuels is the set of fuels the generator can use to start with. You can set the amount of fuel used with the Offtake at Start property.
+Lists:
+

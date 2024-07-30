@@ -1,0 +1,15 @@
+Header: Generator Companies Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Generator Generator Companies Fuel Offtake is defined as:
+Lists:
+

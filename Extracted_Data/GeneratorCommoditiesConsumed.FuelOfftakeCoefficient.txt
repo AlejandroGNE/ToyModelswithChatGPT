@@ -1,0 +1,25 @@
+Header: Generator Commodities Consumed Fuel Offtake Coefficient
+
+Table Details:
+Units:	~/GJ (Metric), ~/Btu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity consumed per unit of fuel used
+
+Paragraphs:
+Generator Commodities
+            Consumed Fuel Offtake Coefficient is the amount of the Commodity consumed per unit of Fuel
+            Offtake .
+
+See also:
+Lists:
+	- Generator Commodities
+              Consumed Generation
+              Coefficient
+	- Generator Commodities
+              Produced Fuel
+              Offtake Coefficient
+

@@ -1,0 +1,11 @@
+Header: Region Purchasers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Purchasers is the set of Purchasers in the Region. This collection is reserved for reporting only.
+Lists:
+

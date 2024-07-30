@@ -1,0 +1,26 @@
+Header: Node Native Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Native load
+
+Paragraphs:
+Node Native Load is defined as:
+
+Native Load = Load - Pump Load - Unserved
+            Energy - Demand Curtailed - Generator Auxiliary Use - Purchaser Load - Charging
+            Station Load - Negative Generation - Battery Load - Heat Plant Load (Usage) - Gas Plant Energy Consumption - Gas Storage Energy Consumption - Water Plant Energy Consumption
+
+where: "Negative Generation" is the Generation from generators with a negative Generation
+              Participation Factor
+
+See also:
+Lists:
+	- Node Customer
+              Load
+

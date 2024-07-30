@@ -1,0 +1,18 @@
+Header: Fuel Average Heat Rate
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average heat rate of generation with the fuel
+
+Paragraphs:
+Fuel Average Heat Rate is the average heat rate of generation with the fuel and is defined as:
+
+See also:
+Lists:
+	- Generator Average Heat Rate
+

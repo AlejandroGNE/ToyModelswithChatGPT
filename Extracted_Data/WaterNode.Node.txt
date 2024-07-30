@@ -1,0 +1,11 @@
+Header: Water Node Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Node the Water Node connects to
+
+Paragraphs:
+Water Node Node is the power Node the water node connects to.
+Lists:
+

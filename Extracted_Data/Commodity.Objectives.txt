@@ -1,0 +1,28 @@
+Header: Commodity Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Commodity
+
+Paragraphs:
+Commodity Objectives is the set of Objective objects on the Commodity.
+          The following objective function coefficients are available:
+
+
+Lists:
+	- Consumption
+              Coefficient
+	- Production
+              Coefficient
+	- Closing
+              Inventory Coefficient
+	- Inventory
+              Change Coefficient
+	- Delivery
+              Coefficient
+	- Injection
+              Coefficient
+	- Withdrawal
+              Coefficient
+

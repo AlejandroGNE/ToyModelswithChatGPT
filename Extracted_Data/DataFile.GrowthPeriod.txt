@@ -1,0 +1,12 @@
+Header: Data File Growth Period
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	In (1,3,4,7)
+Description:	Cycle over which the growth algorithm matches energy targets (day, month, year, quarter)
+
+Paragraphs:
+Data File Growth Period determines the period (or cycle) over which the growth algorithm matches energy targets defined by the Energy input. By default the energy of each year is matched and algorithm attempts to match the Maximum values (and Minimum values if defined) inside each year. This period can be made shorter by setting this option to quarter, month or day.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: LT Plan Maintenance Sculpting
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If LT Plan should sculpt maintenance derating according to the inverse of load.
+
+Paragraphs:
+LT Plan Maintenance Sculpting controls how generation capacity is de-rated in LT Plan. The option can take the following values:
+
+When the Maintenance Sculpting is set to True and the Region Maintenance Factor is not defined, the Region Maintenance Factor will be calculated also using the PASA Maintenance Sculpting .
+
+See also:
+Lists:
+	- PASA Maintenance Sculpting
+

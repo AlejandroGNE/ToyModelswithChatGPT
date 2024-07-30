@@ -1,0 +1,22 @@
+Header: Generator Nodes Generation Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion of generator output injected at the node
+AggHydro	A220kV	Generation Participation Factor	0.9	-
+AggHydro	A110kV	Generation Participation Factor	0.1	-
+
+Paragraphs:
+Generator Nodes Generation Participation Factor is the proportion of generator output injected at the node. Using this property you can split a Generators output across multiple Nodes e.g. for modelling a hydro or other resource where the Generator object aggregates several physical units that inject at different locations.
+
+Example:
+
+See also:
+Lists:
+	- Generator Load Participation Factor
+

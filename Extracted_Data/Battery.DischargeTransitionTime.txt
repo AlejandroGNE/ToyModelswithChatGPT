@@ -1,0 +1,36 @@
+Header: Battery Discharge Transition Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time between operating in discharge mode and charge mode
+Battery	Property	Value	Units
+4hr	Units	1	-
+4hr	Capacity	100	MWh
+4hr	Max Power	25	MW
+4hr	Charge Efficiency	95	%
+4hr	Discharge Efficiency	95	%
+4hr	Discharge Transition Time	1	h
+4hr	Charge Transition Time	2	h
+
+Paragraphs:
+Battery Discharge Transition Time
+          sets the minimum time between operating in discharge mode and charge
+          mode. By default, the battery can switch between modes from one
+          interval to the next.
+
+
+
+For the example in Table 1 the battery must wait at least one hour
+          after discharging before it can charge or two hours to discharge after
+          charging.
+
+See also:
+Lists:
+	- Battery Charge
+              Transition Time
+

@@ -1,0 +1,18 @@
+Header: Gas Pipeline Maintenances Outage Max Flow
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Pipeline Max Flow during the outage
+
+Paragraphs:
+GasPipeline Maintenances Outage Max Flow is the pipeline max flow during the outage.
+
+See also:
+Lists:
+	- Outage Max Flow Back
+

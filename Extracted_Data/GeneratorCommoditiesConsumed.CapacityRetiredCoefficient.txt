@@ -1,0 +1,22 @@
+Header: Generator Commodities Consumed Capacity Retired Coefficient
+
+Table Details:
+Units:	~/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity consumed per unit of capacity retired
+
+Paragraphs:
+Generator Commodities
+            Consumed Capacity Retired Coefficient is the amount of the Commodity consumed per unit of Capacity
+            Retired .
+
+See also:
+Lists:
+	- Generator Commodities
+              Consumed Capacity
+              Built Coefficient
+

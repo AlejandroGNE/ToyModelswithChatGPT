@@ -1,0 +1,17 @@
+Header: Company Reserves Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from reserves
+
+Paragraphs:
+Company Reserves Cost is the total cost of ancillary services assigned to generators in the company, and is defined as:
+
+Note that the cost allocation is controlled by the Design Ancillary Services Cost Allocation Model property.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Gas Demand Shortage
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortage of gas supply
+
+Paragraphs:
+Gas Demand Shortage is the amount by which supply of gas falls short of the Demand . This shortage has a notional price set by the Shortage Price . The associated cost is reported in the Shortage Cost property.
+
+See also:
+Lists:
+	- Gas Demand Excess
+

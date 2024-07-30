@@ -1,0 +1,11 @@
+Header: Fleet Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Companies that own the Fleet
+
+Paragraphs:
+Fleet Companies is set of Companies that own the Fleet.
+Lists:
+

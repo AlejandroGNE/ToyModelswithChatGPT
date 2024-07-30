@@ -1,0 +1,15 @@
+Header: Generator Conditions Units Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of installed units
+
+Paragraphs:
+Generator Conditions Units Coefficient is the coefficient of the number of installed units.
+Lists:
+

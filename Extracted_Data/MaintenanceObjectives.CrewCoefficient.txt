@@ -1,0 +1,15 @@
+Header: Maintenance Objectives Crew Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of maintenance event crew usage
+
+Paragraphs:
+Maintenance Objectives Crew Coefficient is Coefficient of maintenance event crew usage.
+Lists:
+

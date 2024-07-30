@@ -1,0 +1,12 @@
+Header: Diagnostic Times
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	Print the time taken for each activity.
+
+Paragraphs:
+Print the time taken for each activity in the log file.
+Lists:
+

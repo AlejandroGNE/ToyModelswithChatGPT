@@ -1,0 +1,15 @@
+Header: Physical Contract Net Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net cost of cleared generation offers and load bids
+
+Paragraphs:
+Physical Contract Net Generation Cost is defined as:
+Lists:
+

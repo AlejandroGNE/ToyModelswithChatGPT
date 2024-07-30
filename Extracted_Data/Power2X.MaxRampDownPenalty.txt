@@ -1,0 +1,16 @@
+Header: Power2X Max Ramp Down Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating [Max Ramp Down] constraint.
+
+Paragraphs:
+Refer to Facility Max
+            Max Ramp Down Penalty for details.
+Lists:
+

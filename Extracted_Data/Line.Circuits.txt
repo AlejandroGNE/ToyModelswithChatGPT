@@ -1,0 +1,27 @@
+Header: Line Circuits
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥1
+Key Property:	No
+Description:	Number of circuits in the notional interconnector for the purposes of outage modelling
+Property	Value	Units
+Max Flow	500	MW
+Min Flow	-300	MW
+Circuits	2	-
+Forced Outage Rate	0.5	%
+Mean Time to Repair	6	hrs
+
+Paragraphs:
+Line Circuits does not affect the amount of transmission capacity (that is dictated by the Max Flow and Min Flow properties). Instead the Circuits property splits the transmission line as multiple circuits so that any random outage or planned maintenance events produce partial and full outages.
+
+Example:
+
+Here the Circuits = 2 means that the line is treated as a double-circuit for the purposes of outages, and will suffer a combination of single (250 MW in the reference direction, 150 in the reverse) and double circuit (complete outage) failures.
+
+NOTE: The existence or otherwise of the line is controlled by the [Line.Units|Units] property.
+Lists:
+

@@ -1,0 +1,30 @@
+Header: Emission Fuels Production Rate
+
+Table Details:
+Units:	kg/GJ (Metric), lb/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per unit of energy
+CCGT1	Units	1	-
+CCGT1	Max Capacity	320	MW
+CCGT1	Heat Rate	7.9	GJ/MWh
+"CO2" Fuels "Gas"	Production Rate	68.4	kg/GJ
+
+Paragraphs:
+Emission Fuels Production Rate defines the rate of emission production as a function of Fuel consumption ( Offtake ) and may include both the direct emissions from burning of the fuel as well as emissions associated with mining/extracting/transporting the fuel.
+
+Example
+
+Assume Generator " CCGT1 " uses Fuel "Gas" with:
+
+Then 1 megawatt of Generation from " CCGT1 " will produce 68.4 × 7.9 = 540.36 kg of " CO2 ".
+
+See also:
+Lists:
+	- Emission Generators Production Rate
+	- Emission Generators Removal Rate
+	- Generator Fuels Emission Scalar
+

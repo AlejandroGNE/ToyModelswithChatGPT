@@ -1,0 +1,15 @@
+Header: Transformer Voltage
+
+Table Details:
+Units:	kV
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Voltage of the transformer
+
+Paragraphs:
+Transformer Voltage is the voltage of the transformer. It is reported as the minimum voltage of the Node From and Node To .
+Lists:
+

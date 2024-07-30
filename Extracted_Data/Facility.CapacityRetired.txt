@@ -1,0 +1,24 @@
+Header: Facility Capacity Retired
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity retired
+
+Paragraphs:
+Facility Capacity Retired is the production capacity retired in LT Plan and is calculated
+          as:
+
+Capacity Retired = Units
+            Retired × Max
+            Operating Level
+
+See also:
+Lists:
+	- Facility Capacity
+              Built
+

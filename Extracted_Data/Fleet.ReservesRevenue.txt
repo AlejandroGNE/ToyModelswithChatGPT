@@ -1,0 +1,17 @@
+Header: Fleet Reserves Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from provision of reserves
+
+Paragraphs:
+Fleet Reserves Revenue is the revenue from provision of reserves.
+
+See Battery Reserves Revenue .
+Lists:
+

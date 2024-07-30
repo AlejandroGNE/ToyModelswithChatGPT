@@ -1,0 +1,15 @@
+Header: Generator Companies Replacement Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Generator Generator Companies Replacement Reserve is defined as:
+Lists:
+

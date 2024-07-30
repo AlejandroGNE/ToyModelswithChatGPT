@@ -1,0 +1,20 @@
+Header: Facility Price Received
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received for production
+
+Paragraphs:
+Facility Price Received is the
+          average price received for production of the Primary
+            Output Commodity of the Primary
+            Process performed by the facility, and is defined as:
+
+Price Received = Revenue / Production
+Lists:
+

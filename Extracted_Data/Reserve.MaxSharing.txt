@@ -1,0 +1,15 @@
+Header: Reserve Max Sharing
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum reserve contribution from other regions/zones
+
+Paragraphs:
+Reserve Max Sharing is the maximum reserve contribution from other regions/zones.
+Lists:
+

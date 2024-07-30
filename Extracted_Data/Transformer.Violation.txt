@@ -1,0 +1,23 @@
+Header: Transformer Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of flow limit
+
+Paragraphs:
+Transformer Violation is the amount of violation of the Transformer thermal limits as defined by Rating .
+
+As a summary property, Violation is the today violation ( GWh ) in the summary period (day/week/month/year) for flows in the reference direction.
+
+Violations can only occur if the property Limit Penalty is defined.
+
+See also:
+Lists:
+	- Violation Back
+	- Violation Cost
+

@@ -1,0 +1,11 @@
+Header: Gas Zone Gas Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Gas Contracts is the set of Gas Contract objects in the Gas Zone .
+Lists:
+

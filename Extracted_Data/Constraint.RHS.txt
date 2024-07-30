@@ -1,0 +1,57 @@
+Header: Constraint RHS
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Constraint RHS constant
+RHS	one constraint for every interval/block
+RHS Hour	one constraint per hour
+RHS Day	one constraint per day
+RHS Week	one constraint per week
+RHS Month	one constraint per calendar month
+RHS Year	one constraint per year
+RHS Custom	one constraint spanning any set of periods in the
+                planning horizon
+
+Paragraphs:
+Constraint RHS (Right Hand Side)
+          is the constant term of a constraint. Setting this property defines
+          the constraint to be one-per-interval for chronological methods and
+          one-per-block for non-chronological methods. Generally, "RHS" is only
+          used in ST modeling.
+
+There are versions of RHS for each possible period type of a
+          constraint:
+
+The RHS is interpreted as normal units, e . g .
+          megawatts for generation. But for day, week, etc the values
+          are interpreted as being in 1000's of the base units, e . g. gigawatt hours for generation. NOTE: When summarizing emissions from either fuels or generators the Metric model defines one unit in summary (day, week, month, year)
+          as 1000 of the base units, whereas the Imperial U.S. model uses 2000
+          units. Thus if you define a >constraint on total emissions over a day, week, month or year you must should
+          enter the limit in the appropriate unit e . g . if the
+          production rate is in lb/MWh then an annual constraint would be in
+          short tons, where one short ton equals 2000 lbs.
+
+Daily constraints (defined with RHS
+            Day ) cover days of the simulation where a day starts at the hour
+          set by the Horizon Day Beginning attribute (default of midnight). Weekly constraints (defined with RHS Week ) cover weeks as set by
+          Horizon Week Beginning attribute, which defaults to the day of week of the first day of the
+          planning horizon. Annual constraints (defined with RHS
+            Year ) cover years as set by Horizon Year
+            Ending attribute, which defaults to years beginning in the same
+          month as the planning horizon.
+
+If there are similar constraints that apply to different time periods e . g. a daily limit and a weekly limit, then separate
+          constraint objects should be created for each.
+
+Multi-annual constraints and constraints over custom time periods can
+          be created using RHS Custom .
+
+The right-hand side is the 'key' property for the Constraint object i . e . if right-hand side is not defined the
+          constraint is not considered in the simulation.
+Lists:
+

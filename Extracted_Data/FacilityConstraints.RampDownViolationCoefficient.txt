@@ -1,0 +1,27 @@
+Header: Facility Constraints Ramp Down Violation Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of max ramp down violation
+
+Paragraphs:
+Facility Constraints Ramp Down Violation Coefficient is the left-hand side coefficient of Facility Ramp
+            Down Violation in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Facility Ramp Down Violation ) ... {≤, ≥, =} b j
+
+See also:
+Lists:
+	- Facility Constraints Ramp Down
+              Coefficient
+	- Facility Constraints Ramp
+              Up Violation Coefficient
+

@@ -1,0 +1,19 @@
+Header: Charging Station Installed Capacity
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total charging capacity of the station
+
+Paragraphs:
+Charging Station Installed
+          Capacity is the total charging capacity of the station. It is
+          calculated as:
+
+Installed Capacity = Units x Max Charge Rate
+Lists:
+

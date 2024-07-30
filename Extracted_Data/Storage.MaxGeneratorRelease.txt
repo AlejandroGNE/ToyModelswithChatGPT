@@ -1,0 +1,19 @@
+Header: Storage Max Generator Release
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of release for generation from the storage
+
+Paragraphs:
+Storage Max Generator Release is the maximum allowed rate of release for generation from the storage.
+
+See also:
+Lists:
+	- Storage Max Release
+	- Storage Max Spill
+

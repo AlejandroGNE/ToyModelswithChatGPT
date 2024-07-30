@@ -1,0 +1,11 @@
+Header: Message 3202
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Could not interpret the <name> object name <name> in Variable <name> ML model schema column name <name>
+
+Paragraphs:
+Message 3202 occurs in the following circumstances:
+Lists:
+

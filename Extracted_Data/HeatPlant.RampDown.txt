@@ -1,0 +1,21 @@
+Header: Heat Plant Ramp Down
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping down
+
+Paragraphs:
+Heat plant Ramp Down is the total GJ ramping down and is defined as:
+
+This is distinct from Ramp which reports the rate of ramping in GJ per hour.
+
+See also:
+Lists:
+	- Heat plant Max Ramp Down
+	- Heat plant Ramp Up
+

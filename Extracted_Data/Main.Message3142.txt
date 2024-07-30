@@ -1,0 +1,11 @@
+Header: Message 3142
+
+Table Details:
+Severity:	Minor (value = 4)
+Default Action:	Warn (value = 1)
+Description:	Skipped validation of the report selections.
+
+Paragraphs:
+Message 3142 occurs in the following circumstances:
+Lists:
+

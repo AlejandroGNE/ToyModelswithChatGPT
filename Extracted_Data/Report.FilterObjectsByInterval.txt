@@ -1,0 +1,16 @@
+Header: Report Filter Objects By Interval
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the selection of objects reported on applies to interval output
+
+Paragraphs:
+Report Filter Objects by Interval controls how object filters are applied in solution reporting for interval ( e.g. hourly) data. Object filters are set up by adding objects to one or more lists, which are then assigned to the Report List collection object e.g. to define the list of Generator objects reported on, create a List object and then add the relevant Generator objects to this List .   Finally you simply need to assign the new List to the Lists collection.  Please note that the List object can also be used as filters for the input editor.
+
+Once the filters are set up, this switch has the following affects:
+
+See also Filter Objects in Summary .
+Lists:
+

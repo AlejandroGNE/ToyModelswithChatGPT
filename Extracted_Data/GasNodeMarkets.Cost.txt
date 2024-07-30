@@ -1,0 +1,15 @@
+Header: Gas Node Markets Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of purchases from the market
+
+Paragraphs:
+Gas Node Markets Cost is Cost of purchases from the market.
+Lists:
+

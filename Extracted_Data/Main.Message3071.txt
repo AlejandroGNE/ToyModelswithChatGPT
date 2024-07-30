@@ -1,0 +1,11 @@
+Header: Message 3071
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Power Station <name> attempts to aggregate [ <value> ] with <value> bands on [ <value> (<name>).<value> (<name>) ] but <value> on the first member.
+
+Paragraphs:
+Message 3071 occurs in the following circumstances:
+Lists:
+

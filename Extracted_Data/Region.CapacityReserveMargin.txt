@@ -1,0 +1,21 @@
+Header: Region Capacity Reserve Margin
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity reserve margin
+
+Paragraphs:
+Region Capacity Reserve Margin is the Capacity Reserves expressed as a percentage and is defined as:
+
+Note that in LT Plan Peak Load is replaced in this definition with Planning Peak Load .
+
+See also:
+Lists:
+	- Region Min Capacity Reserve Margin
+	- Region Max Capacity Reserve Margin
+

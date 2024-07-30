@@ -1,0 +1,15 @@
+Header: Generator Fuels Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rating of generating units when running this fuel
+
+Paragraphs:
+Generator Fuels Rating is the maximum megawatt output of the Generator when running on this Fuel .
+Lists:
+

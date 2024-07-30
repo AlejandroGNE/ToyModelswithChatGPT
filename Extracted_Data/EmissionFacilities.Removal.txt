@@ -1,0 +1,15 @@
+Header: Emission Facilities Removal
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions removed by the Facility
+
+Paragraphs:
+Emission Facilities Removal is the emissions removed by the Facility.
+Lists:
+

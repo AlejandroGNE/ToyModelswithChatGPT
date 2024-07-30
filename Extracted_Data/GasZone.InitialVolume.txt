@@ -1,0 +1,15 @@
+Header: Gas Zone Initial Volume
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Initial volume in gas storage
+
+Paragraphs:
+Gas Zone Initial Volume is the sum of Gas Storages Initial Volume .
+Lists:
+

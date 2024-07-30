@@ -1,0 +1,21 @@
+Header: LT Plan LDC Type
+
+Table Details:
+Units:	-
+Default Value:	3
+Validation Rule:	In (1,2,3,4,7)
+Description:	One LDC is created for each period of this type in horizon.
+
+Paragraphs:
+LT Plan LDC Type controls the type of load duration curve (LDC) used in LT Plan when the Chronology setting is disabled.
+
+It can take the following values:
+
+The number of blocks per LDC is controlled by the Block Count option. The method of slicing the duration curves into blocks is controlled by the LDC Slicing Method setting.
+
+When Chronology = "Fitted" this setting works with Block Count to set the number of periods modelled in each day/week/month/quarter/year.
+
+See also:
+Lists:
+	- LT Plan Last Block Count
+

@@ -1,0 +1,15 @@
+Header: Generator Head Storage Flow at Start
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The amount of water released when starting a generating unit.
+
+Paragraphs:
+Generator Head Storage Flow at Start is the amount of water released from the head storage when a generating unit is started. This release is included in the reported Water Release .
+Lists:
+

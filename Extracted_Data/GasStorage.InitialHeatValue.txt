@@ -1,0 +1,15 @@
+Header: Gas Storage Initial Heat Value
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Initial heat value of the gas stored in the gas storage
+
+Paragraphs:
+Gas Storage Initial Heat Value is Initial heat value of the gas stored in the gas storage.
+Lists:
+

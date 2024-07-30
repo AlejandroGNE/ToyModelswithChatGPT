@@ -1,0 +1,11 @@
+Header: Generator Source Gas Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Generator has Source Gas Plants which deliver gas to the Generator.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Zone Export Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity export capability
+
+Paragraphs:
+Zone Export Capacity is the total export capacity from the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Import Capacity
+

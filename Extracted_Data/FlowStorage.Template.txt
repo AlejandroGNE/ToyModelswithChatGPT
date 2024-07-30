@@ -1,0 +1,11 @@
+Header: Flow Storage Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Flow Storage inherits from
+
+Paragraphs:
+Flow Storage Template is template the Flow Storage inherits from
+Lists:
+

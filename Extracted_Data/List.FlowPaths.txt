@@ -1,0 +1,11 @@
+Header: List Flow Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Path objects in the List
+
+Paragraphs:
+List Flow Paths is set of Flow Path objects in the List
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Heat Market Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from heat markets
+
+Paragraphs:
+Company Heat Market Revenue is the total revenue earned from selling waste heat to a Market , and is defined as:
+Lists:
+

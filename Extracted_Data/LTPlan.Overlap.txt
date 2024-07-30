@@ -1,0 +1,51 @@
+Header: LT Plan Overlap
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥-1
+Description:	Number of years overlap between steps where -1 invokes Rolling Horizon
+20	20 (Auto)	0	1
+20	11	2	2
+20	8	2	3
+
+Paragraphs:
+By default LT Plan solves the entire Horizon in a single optimization step,
+          but there are two alternatives:
+
+Multi-step simulation is invoked with the option Step Size > 0. Overlap can then be any non-negative number.
+
+The advantage of solving in steps is that the resolution of each step
+          can be greater i.e. the number of time periods solved. The
+          disadvantage is that the overall optimality of the solution is
+          compromised due to the lack of 'look-ahead'. To improve on this, the LT Plan Overlap sets the number of years
+          each step of LT Plan overlaps with the next, the default being no
+          overlap. The duration of each step is controlled by the Step Size setting.
+
+The following formula shows the number of steps calculation for a
+          given horizon, step size and overlap, with the overlap and step size
+          combination being valid if it returns an integer:
+
+Number of Steps = (Horizon -
+            Overlap) / (Step Size - Overlap)
+
+Example
+
+You are modelling a 20-year horizon starting in 2011. The table and
+          Figure 1 shows the three possible combinations of At
+            a Time and Overlap.
+
+
+
+
+
+Rolling Horizon mode is invoked with Overlap = -1 and Step Size is > 1.
+
+Rolling Horizon solves in multiple 'stages' progressively resolving
+          the entire horizon to full detail. See the Step Size topic for more details.
+Lists:
+
+
+H2s:
+Solving in Multiple Steps
+Solving with Rolling Horizon

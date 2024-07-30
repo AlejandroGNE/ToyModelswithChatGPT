@@ -1,0 +1,15 @@
+Header: Variable Random Number Seed
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 2147483647
+Key Property:	No
+Description:	Random number seed assigned to the variable
+
+Paragraphs:
+Variable Random Number Seed sets the random number seed used by the variable in generating stochastic samples. This over-rides the seed that would otherwise be set as a result of the Model Random Number Seed .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Offer Quantity Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar applied to the [Offer Quantity] property
+
+Paragraphs:
+Battery Offer Quantity Scalar is a scaling factor that can be applied to the defined Offer Quantity property. See Offer Price Scalar for details.
+Lists:
+

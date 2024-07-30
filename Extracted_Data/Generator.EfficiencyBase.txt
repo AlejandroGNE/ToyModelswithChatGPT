@@ -1,0 +1,15 @@
+Header: Generator Efficiency Base
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Flow rate at notional zero load for hydro unit
+
+Paragraphs:
+Generator Efficiency Base is the 'no load' throughput of hydro generation - see Efficiency Incr for examples.
+Lists:
+

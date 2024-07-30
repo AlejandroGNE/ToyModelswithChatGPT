@@ -1,0 +1,11 @@
+Header: Reserve Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Reserve
+
+Paragraphs:
+Reserve Objectives is set of Objective objects involved in the Reserve
+Lists:
+

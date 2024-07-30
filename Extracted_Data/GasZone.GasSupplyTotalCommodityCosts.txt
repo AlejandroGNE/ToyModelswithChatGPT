@@ -1,0 +1,15 @@
+Header: Gas Zone Gas Supply Total Commodity Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total supply commodity costs
+
+Paragraphs:
+Gas Zones Gas Supply Total Commodity Costs is the Total supply commodity costs.
+Lists:
+

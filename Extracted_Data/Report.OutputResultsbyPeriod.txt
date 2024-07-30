@@ -1,0 +1,20 @@
+Header: Report Output Results by Period
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If results are written by period
+
+Paragraphs:
+Horizon Output Results by Period switches on/off writing of results for each interval of the simulation horizon, where the interval length is defined by Horizon Horizon.Periods per Day .  For sub-hourly e.g. 5-minute models you can also Output Results by Hour .
+
+See also:
+Lists:
+	- Report Output Results by Day
+	- Report Output Results by Hour
+	- Report Output Results by Week
+	- Report Output Results by Month
+	- Report Output Results by Quarter
+	- Report Output Results by Fiscal Year
+

@@ -1,0 +1,11 @@
+Header: Project Models
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	set of models included in the project
+
+Paragraphs:
+Project Models is the set of Models included in the project. The Model are run in sequence and a single solution database is produced.
+Lists:
+

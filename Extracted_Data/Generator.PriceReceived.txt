@@ -1,0 +1,25 @@
+Header: Generator Price Received
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received for generation
+
+Paragraphs:
+The price a Generator receives for its Generation depends on the Region Generator Settlement Model property. The default is for generators to receive the weighted-average Price at the nodes they connect to i.e. nodal pricing weighted by Nodes Generation Participation Factor .
+
+Alternatively you can mark-to-market by adding a Market object with Nodes membership to the Mark-to-Markets collection of the generator. In this case the price received is set by the Market Price .
+
+The following formulae are used depending on the Generator Settlement Model :
+
+In summary data (day, week, month, etc ) the following formula is used:
+
+See also:
+Lists:
+	- Generator Pump Price Paid
+	- Generator Sync Cond Price Paid
+

@@ -1,0 +1,17 @@
+Header: Flow Storage Withdrawal Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of commodity withdrawn from storage net of losses
+
+Paragraphs:
+Flow Storage Withdrawal
+          Efficiency is the proportion of the Commodity withdrawn from storage net of losses. See Injection
+            Efficiency for an example.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Emission Max Production Day
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum emission production in day
+
+Paragraphs:
+Emission Max Production Day sets a maximum emission production in each day in thousands of emission units.
+
+See also:
+Lists:
+	- Max Production
+	- Max Production Hour
+	- Max Production Week
+	- Max Production Month
+	- Max Production Year
+

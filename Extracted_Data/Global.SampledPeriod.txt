@@ -1,0 +1,101 @@
+Header: Global Sampled Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Selects periods for Sampled Chronology in MT Schedule
+Year	Month	Day	Period	Value
+2019	1	1	1	0
+2019	1	1	2	0
+2019	1	1	3	0
+2019	1	1	4	0
+2019	1	1	5	0
+2019	1	1	6	0
+2019	1	1	7	0
+2019	1	1	8	0
+2019	1	1	9	0
+2019	1	1	10	0
+2019	1	1	11	0
+2019	1	1	12	0
+2019	1	1	13	0
+2019	1	1	14	0
+2019	1	1	15	0
+2019	1	1	16	0
+2019	1	1	17	0
+2019	1	1	18	0
+2019	1	1	19	0
+2019	1	1	20	0
+2019	1	1	21	0
+2019	1	1	22	0
+2019	1	1	23	0
+2019	1	1	24	0
+2019	1	2	1	0
+2019	1	2	2	0
+2019	1	2	3	0
+2019	1	2	4	0
+2019	1	2	5	0
+2019	1	2	6	0
+2019	1	2	7	0
+2019	1	2	8	0
+2019	1	2	9	0
+2019	1	2	10	0
+2019	1	2	11	0
+2019	1	2	12	0
+2019	1	2	13	0
+2019	1	2	14	0
+2019	1	2	15	0
+2019	1	2	16	0
+2019	1	2	17	-1
+2019	1	2	18	-1
+2019	1	2	19	-1
+2019	1	2	20	0
+2019	1	2	21	0
+2019	1	2	22	0
+2019	1	2	23	0
+2019	1	2	24	0
+2019	1	3	1	0
+2019	1	3	2	0
+2019	1	3	3	0
+2019	1	3	4	0
+2019	1	3	5	0
+2019	1	3	6	0
+2019	1	3	7	0
+2019	1	3	8	0
+2019	1	3	9	-1
+2019	1	3	10	-1
+2019	1	3	11	-1
+2019	1	3	12	-1
+2019	1	3	13	0
+2019	1	3	14	0
+2019	1	3	15	0
+2019	1	3	16	-1
+2019	1	3	17	-1
+2019	1	3	18	-1
+2019	1	3	19	-1
+2019	1	3	20	-1
+2019	1	3	21	0
+2019	1	3	22	0
+2019	1	3	23	0
+2019	1	3	24	0
+
+Paragraphs:
+Global Sampled Period selects
+          periods for the Reliability sampled Chronology in MT Schedule. Periods with any non-zero value are
+          selected.
+
+Example:
+
+In the following example using an external text file as input, a
+          block of three hours are selected from day two of 2019 and two blocks,
+          one of four hours and one of five hours are selected in day three of
+          2019.
+
+
+
+
+Lists:
+

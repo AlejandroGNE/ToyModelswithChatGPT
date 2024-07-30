@@ -1,0 +1,15 @@
+Header: Facility Flow Nodes Units Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Consumption for each installed unit
+
+Paragraphs:
+Facility Flow Nodes Units Coefficient is the consumption for each installed unit.
+Lists:
+

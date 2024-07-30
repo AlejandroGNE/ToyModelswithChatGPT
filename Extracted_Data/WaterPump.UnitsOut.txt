@@ -1,0 +1,15 @@
+Header: Water Pump Units Out
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Water Pump Units Out is Number of units out of service in a given period.
+Lists:
+

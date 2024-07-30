@@ -1,0 +1,15 @@
+Header: Reliability Perform EFC Evaluation
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Flag indicating if the EFC should be evaluated for the Reliability object.
+
+Paragraphs:
+Reliabilities Perform EFC Evaluation indicates if the Equivalent Firm Capacity (EFC) should be evaluated for the Reliability object.
+Lists:
+

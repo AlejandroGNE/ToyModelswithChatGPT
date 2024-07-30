@@ -1,0 +1,15 @@
+Header: Purchaser Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Purchaser is in service
+
+Paragraphs:
+Purchaser Units indicates if the Purchaser is 'in service'. This flag can be used to switch the purchaser in/out of your Model via a Scenario .
+Lists:
+

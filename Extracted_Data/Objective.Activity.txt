@@ -1,0 +1,15 @@
+Header: Objective Activity
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Variable part of objective value
+
+Paragraphs:
+Objective Activity is Variable part of objective value.
+Lists:
+

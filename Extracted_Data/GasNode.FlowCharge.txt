@@ -1,0 +1,20 @@
+Header: Gas Node Flow Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of flowing gas through the node
+
+Paragraphs:
+Gas Node Flow Charge is applied to every unit of Flow through the Gas Node .
+
+The total cost from this charge is reported as Flow Cost .
+
+See also:
+Lists:
+	- Gas Node Max Flow
+

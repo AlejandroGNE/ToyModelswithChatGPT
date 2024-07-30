@@ -1,0 +1,15 @@
+Header: Facility Conditions Outage Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity on outage
+
+Paragraphs:
+Facility Conditions Outage Coefficient is the coefficient of capacity on outage.
+Lists:
+

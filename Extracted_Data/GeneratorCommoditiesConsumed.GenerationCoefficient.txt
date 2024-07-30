@@ -1,0 +1,24 @@
+Header: Generator Commodities Consumed Generation Coefficient
+
+Table Details:
+Units:	~/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity consumed per unit of generation
+
+Paragraphs:
+Generator Commodities
+            Consumed Generation Coefficient is the amount of the Commodity consumed per unit of Generation .
+
+See also:
+Lists:
+	- Generator Commodities
+              Consumed Pump
+              Load Coefficient
+	- Generator Commodities
+              Produced Generation
+              Coefficient
+

@@ -1,0 +1,18 @@
+Header: Battery Constraints Reserve Provision Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generation coefficient of reserve provision
+
+Paragraphs:
+If a bettery is connected to multiple Reserve , then it applies to all the reserve provision provided on the generation side of the battery.
+
+See Battery Constraints Reserve
+            Provision Coefficient .
+Lists:
+

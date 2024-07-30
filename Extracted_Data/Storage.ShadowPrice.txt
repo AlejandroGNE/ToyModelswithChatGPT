@@ -1,0 +1,15 @@
+Header: Storage Shadow Price
+
+Table Details:
+Units:	$/GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal value of water held in storage
+
+Paragraphs:
+Storage Shadow Price is the value of the dual variable of the storage balance constraint and represents the future value of water held in storage i.e. the potential saving of thermal costs from the last/next unit of water in storage. In the "Potential Energy" Model the units of Shadow Price are in [$/ GWh ].
+Lists:
+

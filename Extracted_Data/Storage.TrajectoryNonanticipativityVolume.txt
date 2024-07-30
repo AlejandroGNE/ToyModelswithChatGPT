@@ -1,0 +1,15 @@
+Header: Storage Trajectory Non-anticipativity Volume
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Volume of violation of non-anticipativity constraints in band
+
+Paragraphs:
+Storage Trajectory Non-anticipativity Volume is the amount of violation of non-anticipativity constraints associated with each band of the Trajectory Non-anticipativity penalty.
+Lists:
+

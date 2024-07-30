@@ -1,0 +1,15 @@
+Header: Model Output to Folder
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If model output should be written to a folder under the source directory, or into the source folder itself
+
+Paragraphs:
+Model Output to Folder toggles on/off writing of solution data to a folder. For example if the Model is called "Base" and this option is 'on' then the solution data will be written to the folder "Model Base Solution" under the folder containing the input database, whereas if the option is 'off' then the solution data will be written into the same folder as the input database.
+
+See also:
+Lists:
+	- Model Make Unique Name
+

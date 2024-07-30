@@ -1,0 +1,19 @@
+Header: Node Load Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion of region load that occurs at the node
+
+Paragraphs:
+Node Load Participation Factor is the proportion of Load that occurs at the node when the load is defined either at the associated Region , Zone and/or Node .
+
+Note the following:
+Lists:
+	- The default value is unity (1) if the associated Region has only one node with valid LPF, but is zero (0) if the Region contains more than one node with valid LPF: therefore in a large-scale transmission network you need only define this property for actual load nodes.
+	- It is allowed that the sum of Load Participation Factors in a region sums to a value other than unity, and no warning or checking of this is performed.
+

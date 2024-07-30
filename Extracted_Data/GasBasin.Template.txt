@@ -1,0 +1,11 @@
+Header: Gas Basin Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Basin inherits from
+
+Paragraphs:
+Gas Basin Template is the template the Gas Basin inherits from.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3050
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Duplicate AM records for <value>.
+
+Paragraphs:
+Message 3050 occurs in the following circumstances:
+Lists:
+

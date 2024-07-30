@@ -1,0 +1,26 @@
+Header: Region Regions Available Transfer Capability
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability between the regions in the reference direction.
+
+Paragraphs:
+Region Regions Available Transfer Capability is Available transfer capability from the 'parent' Region to the 'child' Region.
+
+If Transmission Detail is set to Nodal:
+
+Line Available Transfer Capability of the Exporting Lines and the reverse Available Transfer Capability of the Importing Lines are collected to calculate Region Regions Available Transfer Capability.
+
+If Transmission Detail is set to Zonal/Regional:
+
+Region Regions Available Transfer Capability is reported as the sum of ATCs on the inter-regional branches.
+
+See also:
+Lists:
+	- Line Available Transfer Capability
+

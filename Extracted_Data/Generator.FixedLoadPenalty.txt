@@ -1,0 +1,15 @@
+Header: Generator Fixed Load Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Fixed Load].
+
+Paragraphs:
+Generator Fixed Load Penalty is a penalty for violation of Fixed Load . The default value of -1 means that no violation is allowed. Positive values allow violations. The cost of violations incurred is reported as Fixed Load Violation Cost .
+Lists:
+

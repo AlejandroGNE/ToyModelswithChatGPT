@@ -1,0 +1,62 @@
+Header: LT Plan - Problem Size
+
+Table Details:
+
+Paragraphs:
+
+
+
+
+
+
+
+
+
+
+The capacity 'sub-problem' of the LT Plan formulation uses annual
+          build/retire decisions. Thus the number of these elements in the
+          formulation is relatively small. No problem size reduction is required
+          to these elements. However, if all decisions are integer (as
+          controlled by the LT Plan Optimality option), then the problem can become very hard to solve. You can
+          reduce the number of integers by selectively turning off integer
+          optimization at the Generator level
+          using the Generator Expansion
+            Optimality property. You can also specify the integerization
+          horizon using the LT Plan Integerization
+            Horizon attribute. For example in a 30-year study you can choose
+          to integerize only the first 10 years, leaving decisions beyond 10
+          years linear.
+
+
+
+
+
+LT Plan by default spans the whole simulation planning horizon in a
+          single optimization 'step'. For realistically-sized power systems and
+          long planning horizons this may lead to extremely big problems in the
+          production cost 'sub-problem'. To make this problem tractable, two
+          problem size reduction techniques can be used:
+
+The key controlling parameters for the Chronology options are:
+
+The equivalent parameters are described in detail in the MT
+            Schedule article.
+
+The level of detail used to model Generator heat rates can have a significant effect on the size and difficulty of
+          the LT Plan formulation. The setting LT Plan Heat
+            Rate Detail by default uses the "Simplest" possible form in
+          order to reduce problem size.
+
+Previous
+            Chapter | Next Chapter
+Lists:
+	- LT Plan LDC
+              Type
+	- LT Plan Block
+              Count and Last Block
+              Count
+	- LT Plan Sample
+              Type
+	- LT Plan Reduced
+              Sample Count
+

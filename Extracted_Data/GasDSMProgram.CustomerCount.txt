@@ -1,0 +1,15 @@
+Header: Gas DSM Program Customer Count
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of customers (that have demand values)
+
+Paragraphs:
+Gas DSM Program Customer Count is the number of customers for all the Gas Demands attached to a DSM program.
+Lists:
+

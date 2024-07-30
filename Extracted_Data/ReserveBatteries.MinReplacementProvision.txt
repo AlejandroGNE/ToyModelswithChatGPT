@@ -1,0 +1,15 @@
+Header: Reserve Batteries Min Replacement Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum replacement reserve provision when units are off-line
+
+Paragraphs:
+Reserve Batteries Min Replacement Provision is the minimum replacement reserve provision when units are off-line.
+Lists:
+

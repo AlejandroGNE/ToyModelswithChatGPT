@@ -1,0 +1,11 @@
+Header: Region Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Markets is the set of energy Markets in the Region. This collection is reserved for reporting only.
+Lists:
+

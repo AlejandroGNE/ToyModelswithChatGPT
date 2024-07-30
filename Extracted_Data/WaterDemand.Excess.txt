@@ -1,0 +1,15 @@
+Header: Water Demand Excess
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Excess of water supply
+
+Paragraphs:
+Water Demand Excess is Excess of water supply.
+Lists:
+

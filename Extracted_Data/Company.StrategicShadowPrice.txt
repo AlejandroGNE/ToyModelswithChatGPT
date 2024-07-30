@@ -1,0 +1,15 @@
+Header: Company Strategic Shadow Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price on the Company [Strategic] constraint.
+
+Paragraphs:
+This is the shadow price associated with the constraint created to enforce the Company Strategic property. It represents the marginal cost of that constraint on the companys generation, or perhaps more intuitively the discount being applied to the companys generation in order to keep its non-strategic capacity generating.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Power Station Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Power Station inherits from
+
+Paragraphs:
+Power Station Template is template the Power Station inherits from
+Lists:
+

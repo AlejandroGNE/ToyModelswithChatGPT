@@ -1,0 +1,15 @@
+Header: Battery Companies Replacement Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Battery Companies Replacement Reserve is the provision of replacement reserve.
+Lists:
+

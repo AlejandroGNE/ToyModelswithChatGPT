@@ -1,0 +1,15 @@
+Header: Reserve Purchasers Available Response
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available reserve response
+
+Paragraphs:
+Reserve Purchasers Available Response is the total interruptible load response available from the purchaser.
+Lists:
+

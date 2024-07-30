@@ -1,0 +1,16 @@
+Header: Transmission Limit Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.95
+Validation Rule:	Between 0 And 1
+Description:	Line, Transformer, or Interface flow loading threshold above which limits are added.
+
+Paragraphs:
+Transmission Limit Threshold is a tuning parameter for the iteration that checks transmission Line , Transformer and Interface limits. Reducing this value will result in limits be added earlier in the iterations, but might avoid iterations later in the simulation.
+
+See also:
+Lists:
+	- Transmission Limit Bootstrap Initial Threshold
+	- Transmission Limit Bootstrap Threshold Decrement
+

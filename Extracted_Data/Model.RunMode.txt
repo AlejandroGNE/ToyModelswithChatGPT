@@ -1,0 +1,18 @@
+Header: Model Run Mode
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Switches between Normal and Dry run modes
+
+Paragraphs:
+Model Run Mode can take the following values:
+
+The "Dry" run mode allows users to test their input data and simulation settings without having to run a full simulation. Some outputs which do not rely on solution data, and that simply equal input values, are reported.
+
+Users can use Dry Run Mode to perform unconstrained load flow calculations. To do so users need to input Fixed Load and Fixed Pump Load on all generators and Fixed Flow on DC lines. Flow Controls should not be used during Dry Run load flow calculations.
+
+NOTE: The source code for the load flow calculations can be found in the OpenPLEXOS project and distributed with the installation files.
+Lists:
+

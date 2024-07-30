@@ -1,0 +1,36 @@
+Header: Heat Plant Max Ramp Down
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate
+Units	1	-
+Max Capacity	100	GJ
+hour Stable Level	40	GJ
+Fuel Price	5	$/GJ
+Heat Rate	10	GJ/GJ
+Max Ramp Up	0.5	GJ/hour.
+Max Ramp Up Penalty	100	$/GJ
+Max Ramp Down	0.5	GJ/hour.
+Max Ramp Down Penalty	100	$/GJ
+
+Paragraphs:
+heat plant Max Ramp Down sets a limit on the amount that Heat Production can decrease and is expressed as the maximum ramp down rate in megawatts per hour. This limit applies for Heat Production ranges between Min Stable Level and Max Capacity .
+
+For multi-unit generating stations the available ramp down is defined as:
+
+By default the ramping limit is a hard constraint meaning that no violation is allowed.
+
+Example:
+
+Related reporting properties:
+
+See also:
+Lists:
+	- heat plant Ramp
+	- heat plant Max Ramp Up
+

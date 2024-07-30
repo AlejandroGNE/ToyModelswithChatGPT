@@ -1,0 +1,15 @@
+Header: Hub Generator Pool Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total generator pool revenue
+
+Paragraphs:
+Hub Generator Pool Revenue is the total generator pool revenue.
+Lists:
+

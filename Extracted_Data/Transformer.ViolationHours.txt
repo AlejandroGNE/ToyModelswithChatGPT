@@ -1,0 +1,20 @@
+Header: Transformer Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Transformer Flow exceeds the [Rating].
+
+Paragraphs:
+Transformer Violation Hours is the number of hours the Transformer Flow is violating its Rating .
+
+The summary version of this property reports the number of hours at Rating and Hours Violated Back the hours at - Rating .
+
+See also:
+Lists:
+	- Transformer Limit Penalty
+

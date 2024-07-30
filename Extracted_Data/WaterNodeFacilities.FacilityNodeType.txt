@@ -1,0 +1,19 @@
+Header: Water Node Facilities Facility Node Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0, 1, 2)
+Key Property:	No
+Description:	Specifies whether Node is an input or an output for the Facility
+
+Paragraphs:
+Water Node Facilities Facility Node Type specifies whether the Node is an input or an output for the Facility.
+
+When the default of “Auto” is used for Facility Node Type then PLEXOS will infer whether the Facility inputs/consumes from or output/produces to a Node based upon the input and output Commodities on the Processes.
+
+If the same Commodity is both an input and output or the Commodities use the same Intrinsic value, then the Facility Node Type must be used to specify which Node the Facility consumes from and which Node the Facility produces to.
+Lists:
+

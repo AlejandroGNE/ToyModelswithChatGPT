@@ -1,0 +1,31 @@
+Header: Waterway Class
+
+Table Details:
+Description:	Waterway for representing rivers, canals, and spillways
+
+Paragraphs:
+See also Waterway Property Reference for a detailed list of properties for this class of
+          object.
+
+Waterway objects either:
+
+Combinations of Storage , Waterway, and Generator objects are used to create models of cascading hydro networks. Major storages,
+        head-ponds, tail-ponds, and junctions are modelled with storages. Canals and spillways are modelled with waterways.
+
+Waterway flows can be delayed using the Traversal Time property.
+
+Waterways can have bounds placed on their flows using the Max Flow and Min Flow properties. The units for these limits, and for reported waterway flows is
+        controlled by the Hydro Model database setting. If required (particularly for "Potential
+        Energy" Hydro Model) you can scale the input to a waterway using the Input Scalar property.
+
+The rate of change of flow can be controlled using the Max Ramp property.
+
+Penalties can optionally be applied to violation of waterway Max Flow , Min Flow and Max Ramp constraints with the properties Max Flow Penalty , Min Flow Penalty and Max Ramp Penalty respectively.
+
+When a waterway is acting as a spill, either from one storage to another, or 'to the sea', there can be
+        circumstances in which the optimal solution is to spill water even though the storage is not full. This behaviour can be
+        overridden using the Flow Control flag.
+Lists:
+	- Connect the storages in their Storage From and Storage To collections; or
+	- Spill water from the Storage From 'to the sea'.
+

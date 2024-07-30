@@ -1,0 +1,18 @@
+Header: Flow Control Flow Loading Points
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Flow control line flow points
+
+Paragraphs:
+Flow Control Flow Loading Points is Flow control line flow points, used to generate piece-wise linear angle profile. It is given in percentage input of the max rating of the Line where Flow Control is attaching to.
+
+See also:
+Lists:
+	- Flow Control Angle Points
+

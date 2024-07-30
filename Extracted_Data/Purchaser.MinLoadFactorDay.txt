@@ -1,0 +1,15 @@
+Header: Purchaser Min Load Factor Day
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum load factor in day
+
+Paragraphs:
+Purchaser Min Load Factor Day is the Minimum load factor in a day.  This is the daily variant of Purchaser Min Load Factor .
+Lists:
+

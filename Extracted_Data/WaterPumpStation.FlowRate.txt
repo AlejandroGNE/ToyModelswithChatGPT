@@ -1,0 +1,15 @@
+Header: Water Pump Station Flow Rate
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pump station flow rate
+
+Paragraphs:
+Water Pump Stations Flow Rate is Pump station flow rate.
+Lists:
+

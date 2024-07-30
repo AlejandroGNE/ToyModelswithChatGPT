@@ -1,0 +1,15 @@
+Header: Generator Max Load Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Penalty for violation of [Max Load].
+
+Paragraphs:
+Generator Max Load Penalty is the penalty for violation of the [Max Load] constraint.
+Lists:
+

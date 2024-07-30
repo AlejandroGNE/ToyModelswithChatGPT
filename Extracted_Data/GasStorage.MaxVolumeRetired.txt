@@ -1,0 +1,18 @@
+Header: Gas Storage Max Volume Retired
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of reduction in Gas Storage Max Volume
+
+Paragraphs:
+Gas Storage Max Volume Retired reports the amount of reduction in Gas Storage Max Volume as a result of the LT Plan Capacity Expansion.
+
+See also:
+Lists:
+	- Gas Storage Max Volume Built
+

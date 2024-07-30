@@ -1,0 +1,21 @@
+Header: Company Emissions Allocation Month
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emission rights allocation
+
+Paragraphs:
+Company Emissions Allocation MONTH is the monthly variant of Allocation .
+
+See also:
+Lists:
+	- Allocation HOUR
+	- Allocation DAY
+	- Allocation WEEK
+	- Allocation YEAR
+

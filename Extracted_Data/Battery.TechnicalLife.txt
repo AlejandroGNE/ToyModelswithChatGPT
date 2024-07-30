@@ -1,0 +1,19 @@
+Header: Battery Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of a BESS unit
+
+Paragraphs:
+Battery Technical Life is the technical lifetime of a BESS unit.
+
+See also:
+Lists:
+	- Generator Technical Life
+	- Battery Economic Life
+

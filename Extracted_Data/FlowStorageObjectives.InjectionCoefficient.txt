@@ -1,0 +1,15 @@
+Header: Flow Storage Objectives Injection Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of injection of the Commodity into inventory
+
+Paragraphs:
+See Commodity Objectives Injection Coefficient for details.
+Lists:
+

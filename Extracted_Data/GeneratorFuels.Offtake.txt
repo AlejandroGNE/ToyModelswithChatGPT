@@ -1,0 +1,15 @@
+Header: Generator Fuels Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel offtake
+
+Paragraphs:
+Generator Fuels Offtake is the amount of this type of fuel used by the generator. The fuel consumption is a function of generation according to the heat rate function . For example if the heat rate is constant, then the offtake is given by:
+Lists:
+

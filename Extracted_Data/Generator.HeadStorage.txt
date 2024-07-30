@@ -1,0 +1,11 @@
+Header: Generator Head Storage
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	head storage for the generator
+
+Paragraphs:
+Generator Head Storage is the storage from which the hydro generator takes water. The generator sends out water to the storage defined in it's Tail Storage collection.
+Lists:
+

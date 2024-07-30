@@ -1,0 +1,23 @@
+Header: Market Net Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net cost of purchases from the market
+
+Paragraphs:
+Market Net Cost is the net of the
+          cost of purchases from and the value of sales into the market, and is
+          defined as:
+
+Net Cost = Cost - Revenue
+
+See also:
+Lists:
+	- Market Net
+              Revenue
+

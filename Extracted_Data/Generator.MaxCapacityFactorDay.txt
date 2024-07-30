@@ -1,0 +1,25 @@
+Header: Generator Max Capacity Factor Day
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum capacity factor in day
+
+Paragraphs:
+This is the day version of Generator Max Capacity Factor .
+
+See also:
+Lists:
+	- Generator Max
+              Capacity Factor Hour
+	- Generator Max
+              Capacity Factor Week
+	- Generator Max
+              Capacity Factor Month
+	- Generator Max
+              Capacity Factor Year
+

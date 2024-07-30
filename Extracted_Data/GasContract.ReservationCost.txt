@@ -1,0 +1,17 @@
+Header: Gas Contract Reservation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reservation cost for gas contract
+
+Paragraphs:
+Gas Contract Reservation Cost is the total cost a contract must pay for the volume it has reserved, and is defined as:
+
+Reservation Cost = Reservation Charge x Reservation Volume
+Lists:
+

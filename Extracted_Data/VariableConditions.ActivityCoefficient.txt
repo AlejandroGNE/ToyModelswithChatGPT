@@ -1,0 +1,15 @@
+Header: Variable Conditions Activity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the left-hand-side of the Variable Condition expression
+
+Paragraphs:
+Variable Conditions Activity Coefficient is Coefficient of the left-hand-side of the Variable Condition expression.
+Lists:
+

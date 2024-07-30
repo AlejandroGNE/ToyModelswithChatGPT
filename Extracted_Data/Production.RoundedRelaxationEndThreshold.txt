@@ -1,0 +1,17 @@
+Header: Production Rounded Relaxation End Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.75
+Validation Rule:	≤1
+Description:	End value for [Rounding Up Threshold] when Rounded Relaxation is running self-tune.
+
+Paragraphs:
+Production Rounded Relaxation End Threshold is the end value for the Rounding Up Threshold when the Rounded Relaxation Tuning setting is enabled.
+
+See also:
+Lists:
+	- Production Rounded Relaxation Start Threshold
+	- Production Rounded Relaxation Threshold Increment
+	- Production Unit Commitment Optimality
+

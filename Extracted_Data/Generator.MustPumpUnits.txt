@@ -1,0 +1,36 @@
+Header: Generator Must Pump Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of pump units that must be running in pump mode
+Units	4	-	
+Max Capacity	100	MW	
+Pump Load	100	MW	
+Pump Efficiency	75	%	
+Pump Units	4	-	
+Must-Pump Units	2		H4-6
+
+Paragraphs:
+Generator Must Pump Units, for a pumped storage generator ,
+          defines the number of units that must pump. The number of units
+          available for pumping is defined by Pump
+            Units , which in turn must be no more than the total number of Units . If units are out of service
+          this constraint is automatically relaxed.
+
+This property is typically used to define a period of time when
+          pumping must occur or is required to happen as in the following
+          example where pumping will happen between the hours of 3:00am and
+          6:00am every day:
+
+See also:
+Lists:
+	- Generator Max
+              Units Pumping
+	- Generator Fixed
+              Pump Load
+

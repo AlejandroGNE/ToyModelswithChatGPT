@@ -1,0 +1,20 @@
+Header: Waterway Max Ramp Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Penalty for violating the [Max Ramp] constraint.
+
+Paragraphs:
+Waterway Max Ramp Penalty sets the penalty on violations to the Max Ramp constraints. Note that a value of -1 means hard constraint i.e. no violations allowed.
+
+See also:
+Lists:
+	- Waterway Hours of Ramp Violation
+	- Waterway Ramp Violation
+	- Waterway Ramp Violation Cost
+

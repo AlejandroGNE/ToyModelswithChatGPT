@@ -1,0 +1,15 @@
+Header: Fleet Discharge Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from discharging
+
+Paragraphs:
+Fleet Discharge Revenue is the revenue generated when the fleet discharges.
+Lists:
+

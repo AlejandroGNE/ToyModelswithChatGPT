@@ -1,0 +1,15 @@
+Header: Node Purchaser Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from cleared purchaser bids
+
+Paragraphs:
+Node Purchaser Load is the load from cleared purchaser bids.
+Lists:
+

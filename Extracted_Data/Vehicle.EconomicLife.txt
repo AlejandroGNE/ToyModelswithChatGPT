@@ -1,0 +1,22 @@
+Header: Vehicle Economic Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Economic life of the vehicle (period over which fixed costs are recovered)
+
+Paragraphs:
+Vehicle Economic Life sets the
+          number of years over which the Purchase
+            Cost is annualized.
+
+See also:
+Lists:
+	- Facility Economic
+              Life
+	- Facility WACC
+

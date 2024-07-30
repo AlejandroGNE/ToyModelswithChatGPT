@@ -1,0 +1,11 @@
+Header: Water Pipeline Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Water Pipeline inherits from
+
+Paragraphs:
+Water Pipeline Template is template the Water Pipeline inherits from
+Lists:
+

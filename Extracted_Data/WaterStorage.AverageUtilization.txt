@@ -1,0 +1,15 @@
+Header: Water Storage Average Utilization
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average storage utilization based on end volume
+
+Paragraphs:
+Water Storage Average Utilization is the average of storage Utilization based on end volume.
+Lists:
+

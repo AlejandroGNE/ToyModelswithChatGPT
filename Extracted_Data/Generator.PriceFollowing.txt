@@ -1,0 +1,19 @@
+Header: Generator Price Following
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of energy optimized, where the remainder is proportional load following
+
+Paragraphs:
+Generator Price Following controls the Proportional Load Following hydro method and is the proportion of energy optimized, where the remainder is proportional load following.  The default value of 100% means that all energy is price-optimized and none is modelled as load following, whereas a value of 0% means that all energy is load following and none is dispatched to price.
+
+See also:
+Lists:
+	- Generator Load Following Factor
+	- Generator Load Following Profile
+

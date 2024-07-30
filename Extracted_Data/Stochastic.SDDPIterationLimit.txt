@@ -1,0 +1,12 @@
+Header: Stochastic SDDP Iteration Limit
+
+Table Details:
+Units:	-
+Default Value:	20
+Validation Rule:	≥3
+Description:	Maximum number of iterations in SDDP algorithm
+
+Paragraphs:
+SDDP Iteration Limit is the maximum number of iterations allowed in SDDP algorithm.
+Lists:
+

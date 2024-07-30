@@ -1,0 +1,15 @@
+Header: Gas Field Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Gas Field is in service
+
+Paragraphs:
+Gas Field Units is a flag indicating if the Gas Field is in service (it exists).
+Lists:
+

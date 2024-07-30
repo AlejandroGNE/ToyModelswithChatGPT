@@ -1,0 +1,19 @@
+Header: Gas Node Max Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Binary indicating if this is a build candidate
+
+Paragraphs:
+Gas Node Max Units Built is a binary (0,1) value indicating if this is project should be considered by LT Plan . Setting this value to unity must be combined with setting Units to zero i.e. if Units is unity then the project is already in existence.
+
+See also:
+Lists:
+	- Gas Node Build Cost
+	- Gas Node Max Units Built in Year
+

@@ -1,0 +1,15 @@
+Header: Water Node Min Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Minimum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Water Node Min Units Built in Year is a binary (0,1) flag indicating if the project must be constructed in any single year of the planning horizon.  This value must not be set unless Max Units Built is also set, and can logically only be set for one year.
+Lists:
+

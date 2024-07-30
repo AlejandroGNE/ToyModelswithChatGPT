@@ -1,0 +1,11 @@
+Header: Purchaser Nodes*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the Purchaser at each node in this collection
+
+Paragraphs:
+Purchaser Nodes* is creates copies of the Purchaser at each node in this collection
+Lists:
+

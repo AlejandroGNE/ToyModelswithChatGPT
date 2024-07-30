@@ -1,0 +1,23 @@
+Header: Region Capacity Shortage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity shortage (below Min Capacity Reserves)
+
+Paragraphs:
+Region Capacity Shortage is the amount that Capacity Reserves is below the defined Min Capacity Reserves limit. It is defined as:
+
+Shortage is allowed only when the Capacity Shortage Price is defined.
+
+Note that when LT Plan Allow Capacity Sharing is enabled, the reported Capacity Shortage is at the time of system peak load not at the time of region peak load.
+
+See also:
+Lists:
+	- Region Capacity Excess
+	- Region Capacity Shortage Cost
+

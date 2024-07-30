@@ -1,0 +1,15 @@
+Header: Gas Pipeline Imbalance Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The charge applicable to the volume imbalance
+
+Paragraphs:
+Gas Pipeline Imbalance Charge is the charge applicable to the volume imbalance.
+Lists:
+

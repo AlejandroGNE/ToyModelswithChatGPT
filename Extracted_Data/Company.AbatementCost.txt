@@ -1,0 +1,18 @@
+Header: Company Abatement Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission abatement
+
+Paragraphs:
+Company Abatement Cost is the cost of Emission Abatement for Generators in the Company :
+
+See also:
+Lists:
+	- Company Emissions Cost
+

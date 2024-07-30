@@ -1,0 +1,27 @@
+Header: Variable Condition
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	4
+Validation Rule:	In (-2,-1,0,1,2,4)
+Key Property:	No
+Description:	Conditional value type
+
+Paragraphs:
+Variable Condition defines the
+          sense of the logic statement that defines the dynamic condition. The
+          sense must take one of the following values:
+
+This sets the type of comparison made between the Activity and the Profile value in
+          determining if the logical expression is true or false.
+
+Condition is a static property i.e. it cannot vary across
+          time.
+
+See also:
+Lists:
+	- Variable Activity
+	- Variable Profile
+

@@ -1,0 +1,16 @@
+Header: Stochastic Monte Carlo Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Monte-Carlo outage method.
+
+Paragraphs:
+Stochastic Monte Carlo Method selects between methods for generating random plant outages. It can take the following values:
+
+Note:
+Lists:
+	- Generator and Line outages are precomputed using random number streams - one for each generator and line. Random number sequences are repeatable, if the option Random Number Seed is set to a number other than zero. When set to zero, the random number starting point is random. The option Outage Pattern Count sets how many unique sequences are computed for simulation. When the outage seed is set, the outage patterns are always preserved, even if the number of patterns increases i.e. pattern 1 will always be the same, regardless of how many other patterns are selected. This feature makes comparison between model runs possible, even if one run uses more patterns. It also makes it possible to analyse how key results (such as the level of Unserved Energy ) converge as the number of outage patterns is increased.
+	- When new Generators or Lines are added to the database, the sequence of outages will be changed. If you want to preserve the sequence of outages regardless of additions/deletions of objects from the database set the Generator.Random Number Seed and Line.Random Number Seed properties. These override the Model seed.
+

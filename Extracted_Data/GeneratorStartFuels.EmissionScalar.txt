@@ -1,0 +1,15 @@
+Header: Generator Start Fuels Emission Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar on emissions from this generator and start fuel combination
+
+Paragraphs:
+Generator Start Fuels Emission Scalar acts on emission as a result of Offtake at Start in the same manner as Fuels Emission Scalar . See that topic for details.
+Lists:
+

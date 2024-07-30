@@ -1,0 +1,15 @@
+Header: Decision Variable Objectives Value Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Decision Variable value
+
+Paragraphs:
+Decision Variable Objectives Value Coefficient is Coefficient of Decision Variable value.
+Lists:
+

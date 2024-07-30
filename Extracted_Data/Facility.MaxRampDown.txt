@@ -1,0 +1,51 @@
+Header: Facility Max Ramp Down
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate
+Units	1	-
+Max Operating Level	100	-
+Min Operating Factor	40	%
+Max Ramp Up	30	-
+Max Ramp Up Penalty	100	$
+Max Ramp Down	30	-
+Max Ramp Down Penalty	100	$
+
+Paragraphs:
+Facility Max Ramp Down sets a
+          limit on the rate at which the facility can decrease Production from one interval to the next. The value is the maximum change in
+          production per hour. This limit applies for Production ranges between the minimum
+            operating level and Max
+            Operating Level .
+
+For multi-unit facilities the available ramp down is defined as:
+
+By default the ramping limit is a hard constraint meaning that no
+          violation is allowed. To create soft constraints with a penalty price
+          use the Max Ramp Down
+            Penalty property.
+
+Related reporting properties:
+
+See also:
+Lists:
+
+	- Facility Ramp
+	- Facility Ramp
+              Down Price
+	- Facility Ramp
+              Down Violation Hours
+	- Facility Ramp
+              Down Violation
+	- Facility Ramp
+              Down Violation Cost
+	- Facility Max
+              Ramp Down Factor
+	- Facility Max
+              Ramp Up
+

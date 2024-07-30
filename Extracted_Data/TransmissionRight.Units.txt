@@ -1,0 +1,15 @@
+Header: Transmission Right Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Transmission Right is in service
+
+Paragraphs:
+Transmission Right Units indicates if the Transmission Right is in service. This flag can be used to switch the transmission right in/out of your Model via a Scenario .
+Lists:
+

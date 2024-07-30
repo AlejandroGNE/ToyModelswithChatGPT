@@ -1,0 +1,15 @@
+Header: Company Companies Balancing Area Interchange Imports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial imports to the parent region from child region
+
+Paragraphs:
+Companies Balancing Area Interchange Imports is Financial imports to the parent company from child company.
+Lists:
+

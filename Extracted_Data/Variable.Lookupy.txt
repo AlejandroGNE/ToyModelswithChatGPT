@@ -1,0 +1,15 @@
+Header: Variable Lookup y
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Lookup table for y-axis value
+
+Paragraphs:
+Variable Lookup y defines the y values for a look-up table used to translate raw sample values to final values used in the simulation. See Lookup x for details.
+Lists:
+

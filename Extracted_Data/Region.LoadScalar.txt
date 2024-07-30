@@ -1,0 +1,29 @@
+Header: Region Load Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scale factor for raw load figures (to convert as required to nodal load)
+Load Scalar	1.05	-	HIGH LOAD
+Load Scalar	1	-	BASE LOAD
+Load Scalar	0.95	-	LOW LOAD
+
+Paragraphs:
+Region Load Scalar is used to scale the input Load . This is useful as a simple way of either:
+
+Example:
+
+See also:
+Lists:
+	- escalating loads over time; or
+	- scaling down loads to account for transmission losses; or
+	- creating different load Scenarios ; or
+	- stochastic loads by linking the Load Scalar to a Variable .
+	- Load Forecasting
+	- Region Load Includes Losses
+	- Zone Load Scalar
+

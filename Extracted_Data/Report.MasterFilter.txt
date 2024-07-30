@@ -1,0 +1,17 @@
+Header: Report Master Filter
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	master conditional filter that defines which periods will be reported
+
+Paragraphs:
+The Report Master Filter is the single conditional variable that defines which periods are reported or not in the solution file for the ST phase. The single conditional variable can be comprised of nested conditional variables.
+
+All periods for which the Master Filter conditional variable is not active will be reported simply as "0.0" data. This applies to all samples and summary periods, with summary periods being reported if any of the periods within the summary period are active.
+
+Solution reporting by flat file does support the Report Master Filter, with a key difference being that inactive periods are not reported at all.
+
+The Master Filter conditional variable is not included in the solution report.
+Lists:
+

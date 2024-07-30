@@ -1,0 +1,15 @@
+Header: Water Pump Max Starts Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Max Starts] constraints
+
+Paragraphs:
+Water Pump Max Starts Penalty is the Penalty applied to violations of [Max Starts] constraints.
+Lists:
+

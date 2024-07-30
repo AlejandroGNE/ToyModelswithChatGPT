@@ -1,0 +1,18 @@
+Header: Emission Max Production Violation
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Production] constraints.
+
+Paragraphs:
+Emission Max Production Violation is the violation of the Max Production * constraints. This applies when Max Production Penalty is defined.
+
+See also:
+Lists:
+	- Emission Max Production Violation Cost
+

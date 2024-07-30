@@ -1,0 +1,15 @@
+Header: Water Plant Production
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of water produced by the water plant
+
+Paragraphs:
+Water Plant Production is the total quantity of water produced by the water plant.
+Lists:
+

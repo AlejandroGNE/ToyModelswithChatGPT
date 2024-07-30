@@ -1,0 +1,20 @@
+Header: Zone Dump Energy Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of dump energy.
+
+Paragraphs:
+Zone Hours of Dump Energy is the total number hours in which there was any level of Dump Energy (over generation).
+
+See also:
+Lists:
+	- Zone Hours of Unserved Energy
+	- Zone Price of Dump Energy
+	- Generator Hours Curtailed
+

@@ -1,0 +1,15 @@
+Header: Pool Unserved Energy
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Unserved energy (USE)
+
+Paragraphs:
+Pool Unserved Energy is the total Unserved energy (USE) across all Regions in the Pool.
+Lists:
+

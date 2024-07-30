@@ -1,0 +1,11 @@
+Header: Message 3017
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	<value> [<value>] defined with value <value> but must be <value>.
+
+Paragraphs:
+
+Lists:
+

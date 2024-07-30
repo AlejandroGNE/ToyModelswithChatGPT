@@ -1,0 +1,11 @@
+Header: Node Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Node
+
+Paragraphs:
+Node Constraints is the set of Constraints involved in the node.
+Lists:
+

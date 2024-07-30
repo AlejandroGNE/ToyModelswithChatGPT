@@ -1,0 +1,11 @@
+Header: Emission Commodities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Commodities co-produced with the Emission
+
+Paragraphs:
+Emission Commodities is set of Commodities co-produced with the Emission
+Lists:
+

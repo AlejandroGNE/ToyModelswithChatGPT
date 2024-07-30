@@ -1,0 +1,15 @@
+Header: Water Storage Max Volume
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum volume of Water allowed in storage
+
+Paragraphs:
+Water Storage Max Volume is the maximum volume of water allowed in storage. The 'working water' is thus the difference between this value and the Min Volume .
+Lists:
+

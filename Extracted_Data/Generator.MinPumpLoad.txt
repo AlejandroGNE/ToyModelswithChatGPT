@@ -1,0 +1,18 @@
+Header: Generator Min Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum unit load while pumping
+
+Paragraphs:
+Generator Min Pump Load, for a pumped storage generator , is
+          the minimum per unit load when in pump mode. The default is zero
+          meaning the units can pump at any level from zero up to Pump
+            Load .
+Lists:
+

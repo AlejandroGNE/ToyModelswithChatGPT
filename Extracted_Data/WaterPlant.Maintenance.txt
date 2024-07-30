@@ -1,0 +1,15 @@
+Header: Water Plant Maintenance
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of Production on maintenance
+
+Paragraphs:
+Water Plant Maintenance is the amount of production capacity on maintenance.
+Lists:
+

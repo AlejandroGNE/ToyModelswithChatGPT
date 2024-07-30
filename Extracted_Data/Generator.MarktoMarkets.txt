@@ -1,0 +1,11 @@
+Header: Generator Mark-to-Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	market used to mark-to-market energy and reserves
+
+Paragraphs:
+Generator Mark-to-Markets collection defines the set of Market that mark-to-market the generators generation or ancillary services. The Price Received is then set by the Market with a Nodes membership, while ancillary service prices received are set by Markets with Reserves memberships.
+Lists:
+

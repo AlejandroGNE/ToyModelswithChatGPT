@@ -1,0 +1,15 @@
+Header: Generator Heat Injection Charge
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of injecting heat into the storage
+
+Paragraphs:
+Generator Heat Injection Charge is Incremental cost of injecting heat into the storage.
+Lists:
+

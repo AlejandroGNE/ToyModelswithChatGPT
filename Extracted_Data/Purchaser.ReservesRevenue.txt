@@ -1,0 +1,15 @@
+Header: Purchaser Reserves Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue earned from interruptible load provision
+
+Paragraphs:
+Purchaser Reserves Revenue is the revenue earned from interruptible load provision.
+Lists:
+

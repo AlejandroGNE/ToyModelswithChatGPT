@@ -1,0 +1,11 @@
+Header: Power2X Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Power2X
+
+Paragraphs:
+Power2X Objectives is set of Objectives on the Power2X
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Zone Flexibility Down
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of generation that could be unloaded
+
+Paragraphs:
+Zone Flexibility Down is the amount of generation that could be unloaded.
+
+See also:
+Lists:
+	- Zone Flexibility Up
+

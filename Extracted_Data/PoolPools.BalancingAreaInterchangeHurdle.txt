@@ -1,0 +1,17 @@
+Header: Pool Pools Balancing Area Interchange Hurdle
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Financial hurdle rate for exports from the regions in the pool
+
+Paragraphs:
+Pool Pools Balancing Area Interchange Hurdle is the hurdle rate of financial exports from each Region in the parent Pool to every Region in the child Pool. Regions in the same pool are allowed to transact at no cost.
+          
+          Note that hurdle rates specified at Region.Regions override the rates specified at Pool.Pools level.
+Lists:
+

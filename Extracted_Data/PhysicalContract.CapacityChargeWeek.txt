@@ -1,0 +1,22 @@
+Header: Physical Contract Capacity Charge Week
+
+Table Details:
+Units:	$/kW/week
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weekly fixed charge for contract capacity
+
+Paragraphs:
+Physical Contract Capacity Charge Week defines the physical contract purchase decision in LT Plan to be by week, meaning that the contract quantity decision can change every week of the planning horizon. The value then sets the capacity charge for purchases of generation or load capacity.
+
+See also:
+Lists:
+	- Physical Contract Capacity Charge
+	- Physical Contract Capacity Charge Hour
+	- Physical Contract Capacity Charge Day
+	- Physical Contract Capacity Charge Month
+	- Physical Contract Capacity Charge Year
+

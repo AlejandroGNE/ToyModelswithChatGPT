@@ -1,0 +1,19 @@
+Header: PASA Transmission Detail
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Definition of maintenance area for PASA.
+
+Paragraphs:
+PASA Transmission Detail controls the level of detail that the transmission network is modelled in PASA . The attribute can take these values:
+
+Note that PASA uses a simple transportation model of transmission.
+
+See also:
+Lists:
+	- LT Plan Transmission Detail
+	- MT Schedule Transmission Detail
+	- ST Schedule Transmission Detail
+

@@ -1,0 +1,15 @@
+Header: Power2X Constraints Fixed Costs Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of fixed costs
+
+Paragraphs:
+Power2X Constraints Fixed Costs Coefficient is Coefficient of fixed costs.
+Lists:
+

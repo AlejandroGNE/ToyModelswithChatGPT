@@ -1,0 +1,19 @@
+Header: Zone Wheeling Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Wheeling revenue on exports from the zone
+
+Paragraphs:
+Zone Wheeling Revenue is the revenue earned based on net exports to other Zones as defined by the inter-Zonal Wheeling Charge .
+
+Zone export wheeling revenue defined by Wheeling Charge is included.
+
+See also Zone Wheeling Cost .
+Lists:
+

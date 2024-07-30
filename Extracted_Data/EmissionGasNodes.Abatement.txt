@@ -1,0 +1,15 @@
+Header: Emission Gas Nodes Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions abated
+
+Paragraphs:
+Emission Gas Nodes Abatement is the amount of emissions abated.
+Lists:
+

@@ -1,0 +1,28 @@
+Header: Generator Rough Running Range
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Length of rough running range (must be paired with Rough Running Point)
+Gen	Units	1	1	-
+Gen	Max Capacity	1	300	MW
+Gen	Min Stable Level	1	15	MW
+Gen	Rough Running Point	1	200	MW
+Gen	Rough Running Range	1	25	MW
+Gen	Rough Running Point	2	270	MW
+Gen	Rough Running Range	2	25	MW
+
+Paragraphs:
+A Generator Rough Running Range is a range of output levels that must be avoided. Typically these apply to hydro generators and are output levels that might cause cavitation in the turbines, PLEXOS allows modelling of rough running ranges on any unit type. Rough Running Point marks the start of a rough running range and Rough Running Range is the length of the range, both properties are in megawatts.
+
+In PLEXOS, rough running ranges are only modelled on single unit generators i.e. these properties will be ignored for multi-unit stations.
+
+The rough running range properties are multi-band, so you can model more than one rough running range on a unit by setting the properties for each range on a different band.
+
+Example:
+Lists:
+

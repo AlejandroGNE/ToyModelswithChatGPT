@@ -1,0 +1,15 @@
+Header: Generator Objectives Maintenance Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity on maintenance
+
+Paragraphs:
+Generator Objectives Maintenance Coefficient is Coefficient of capacity on maintenance.
+Lists:
+

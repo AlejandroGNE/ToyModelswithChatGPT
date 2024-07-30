@@ -1,0 +1,12 @@
+Header: LT Plan LDC Weight b
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	Any Value
+Description:	LDC weighting polynomial function 'b' parameter.
+
+Paragraphs:
+This LT Plan setting is described in the MT Schedule article LDC Weight b .
+Lists:
+

@@ -1,0 +1,32 @@
+Header: Decision Variable Objective Function Coefficient
+
+Table Details:
+Units:	Input: -    Output: $
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Objective function value of the generic decision variable
+Objective Function Coefficient	0	Interval Optimization
+Objective Function Coefficient Day	0	Day Optimization
+Lower Bound	0	
+Upper Bound	30	
+
+Paragraphs:
+Decision Variable Objective Function Coefficient represents a cost in the minimization objective function of the decision variables in the formulation. By default these are scaled by the number of hours in each simulation period.
+
+Note that the coefficient may be scaled by the number of hours in each simulation period according to the setting of Time Invariant .
+
+This is the key property for Decision Variable and thus can have Scenario applied to switch the element in/out of any running Model . Note that in order for the Decision Variable to be included in a simulation you must define one of Objective Function Coefficient or the following period variants even if you set the value to zero:
+
+Example
+
+The following variable is a continuous type with lower bound of zero and upper bound of 30. It is either optimized each interval or day depending on the Scenario in the running Model .
+Lists:
+	- Objective Function Coefficient Hour
+	- Objective Function Coefficient Day
+	- Objective Function Coefficient Week
+	- Objective Function Coefficient Month
+	- Objective Function Coefficient Year
+

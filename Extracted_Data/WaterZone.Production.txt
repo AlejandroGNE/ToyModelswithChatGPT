@@ -1,0 +1,15 @@
+Header: Water Zone Production
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of water produced by the water plants
+
+Paragraphs:
+Water Zone Production is Quantity of water produced by the water plants.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Transformer Available Transfer Capability
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability on the transformer.
+
+Paragraphs:
+Transformer Available Transfer Capability is Available transfer capability remaining on the transformer. Reported Available Transfer Capability will be on the same direction as the current transformer Flow .
+
+See Line ATC for more information.
+Lists:
+

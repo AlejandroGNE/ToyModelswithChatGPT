@@ -1,0 +1,22 @@
+Header: Generator Outage Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit rating during outage
+
+Paragraphs:
+Generator Outage Rating sets the Rating of each unit during the Forced or Maintenance outage defined on the same band. The default value is zero means that
+          the outage is total. To specify a partial outage use a value greater
+          than zero and less than the Max
+            Capacity . See the Units Out topic for examples.
+
+See also:
+Lists:
+	- Generator Outage
+              Factor
+

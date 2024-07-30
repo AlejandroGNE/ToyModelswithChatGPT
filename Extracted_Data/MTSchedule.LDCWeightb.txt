@@ -1,0 +1,12 @@
+Header: MT Schedule LDC Weight b
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	Any Value
+Description:	LDC weighting polynomial function 'b' parameter.
+
+Paragraphs:
+MT Schedule LDC Weight b is the weighting polynomial function 'b' (linear) parameter. See the article on LDC Slicing Method for details.
+Lists:
+

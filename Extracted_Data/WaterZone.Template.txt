@@ -1,0 +1,11 @@
+Header: Water Zone Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Water Zone inherits from
+
+Paragraphs:
+Water Zone Template is template the Water Zone inherits from.
+Lists:
+

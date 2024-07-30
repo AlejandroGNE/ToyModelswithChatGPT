@@ -1,0 +1,15 @@
+Header: Company Net Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Max(0, load - generation)
+
+Paragraphs:
+Company Net Load relates to the company's physical contracts and is defined as:
+Lists:
+

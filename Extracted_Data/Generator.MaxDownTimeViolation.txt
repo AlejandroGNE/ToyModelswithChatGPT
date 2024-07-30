@@ -1,0 +1,15 @@
+Header: Generator Max Down Time Violation
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of maximum down time constraint.
+
+Paragraphs:
+Generator Max Down Time Violation is the amount the Max Down Time constraint was violated.
+Lists:
+

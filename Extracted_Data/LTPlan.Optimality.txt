@@ -1,0 +1,14 @@
+Header: LT Plan Optimality
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (0,1,2)
+Description:	LT Plan integerization scheme.
+
+Paragraphs:
+LT Plan Optimality switches between linear and integer solution modes. The attribute can take the following values:
+
+The linear case has the advantage that capacity prices are consistent with the marginal build decisions.
+Lists:
+

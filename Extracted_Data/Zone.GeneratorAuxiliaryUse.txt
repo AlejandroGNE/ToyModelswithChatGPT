@@ -1,0 +1,15 @@
+Header: Zone Generator Auxiliary Use
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from generator auxiliaries
+
+Paragraphs:
+Zone Generator Auxiliary Use is calculated as:
+Lists:
+

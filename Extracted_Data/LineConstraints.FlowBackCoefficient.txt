@@ -1,0 +1,26 @@
+Header: Line Constraints Flow Back Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of counter-reference direction flow
+
+Paragraphs:
+Line Constraints Flow Back Coefficient is the left-hand side coefficient on the
+          transmission line's flow in the counter-reference direction, with flow
+          in the reference direction treated as zero.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Line Constraints Flow Forward
+              Coefficient
+	- Line Constraints Flowing Back
+              Coefficient
+

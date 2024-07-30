@@ -1,0 +1,24 @@
+Header: Gas Contract Expansion Optimality
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,2)
+Key Property:	No
+Description:	Expansion planning integerization scheme.
+
+Paragraphs:
+Gas Contract Expansion Optimality determines whether to expand the contract using Linear or Integer build decisions. Specifying this property overrides the LT Plan Integerization Horizon settings for the contract.
+		  This flag is only applicable when the LT Plan Optimality is Integer. When LT Plan Optimality is Linear then all builds are linear.
+
+If Expansion Optimality is set to Integer, the contract must expand all the way up to the Expansion Quantity Day property or not expand at all. 
+        
+        If discrete build points are specified using the multi-band option for Expansion Quantity Day, Expansion Optimality should be set to Linear.
+        
+        If Expansion Optimality is set to Linear, the contract can expand to any value up to the Expansion Quantity Day property. When a contract expands to only a percentage of its Expansion Quantity Day, the Reservation Cost of the contract is also scaled down by that percentage.
+
+It can take the following values:
+Lists:
+

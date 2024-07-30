@@ -1,0 +1,15 @@
+Header: Gas Transport Charter Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Charter cost of gas transport
+
+Paragraphs:
+Gas Transport Charter Cost is the total charter cost of the gas transport.
+Lists:
+

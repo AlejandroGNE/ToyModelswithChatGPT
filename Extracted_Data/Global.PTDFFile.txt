@@ -1,0 +1,31 @@
+Header: Global PTDF File
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Input file for PTDF values
+
+Paragraphs:
+Global PTDF File defines part of the file name of the input PTDF CSV files. If PTDF file is entered, then PLEXOS will read in user defined PTDF (shift factors) through CSV files instead of letting PLEXOS to calculate it. If this input is not specified, PLEXOS will calculate PTDFs by default.
+
+To get the data format of a PTDF file, you can make a run with PTDF (Shift Factors) being turned on under the diagnostic object. The PTDF diagnostic file is a CSV file. It’s basically a table containing all PTDF values between nodes and paths. Node names and path names are listed on the first few rows and columns in the file.
+                Here is an example showing how the PTDF diagnostic file looks like:
+
+
+
+Users can come up with their own PTDF files with the PTDFs they calculate and the data format provided through the diagnostics. The files should be named according to the PTDF File input, which is a non-negative number. If "1" is entered for PTDF File, then we expect a corresponding file “PTDF_1.csv” saved in the “Network Matrices” folder that locates in the same place as the input XML file.
+                Users can specify multiple values for PTDF File input to represent time varying PTDFs for the model.
+
+With the following input being specified,
+
+
+
+we are expecting the corresponding PTDF CSV files in the following location, assuming input XML file locates at "C:\Inputs\75 bus case for Hack" on your local disk. If PLEXOS cannot locate the files in the desired location, it will calculate PTDFs.
+
+NOTE: This input only works for simulation phases with Transmission Detail being set to Nodal. When this input is active, Enforce Bounds on Phase Angles will be ignored.
+Lists:
+

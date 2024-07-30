@@ -1,0 +1,47 @@
+Header: Company Class
+
+Table Details:
+Description:	Energy utility or other ownership entity
+
+Paragraphs:
+See also Company Property Reference for a detailed list of properties for this class of object.
+
+A Company (or firm) is a financial entity that owns electric generation, transmission, gas assets or transportation fleets and can be a party to one or more physical and financial contracts.
+
+A Company might be used to represent a generation company, transmission company, gas company, or it could be a notional collection of assets upon which reporting is required. Company has collections for 'ownership' of the following objects:
+
+A Company may contain any number and combination of these members, and most of these elements may belong to multiple companies i.e. companies may share ownership of assets and hence share in their reported generation, revenue, costs, etc .
+
+As well as providing a means of grouping other objects for reporting, Companies are the primary objects used to define competitive entities in the gaming models such as Nash-Cournot Competition , Bertrand, Residual Supply Analysis, and LRMC (Revenue Recovery) methods. You can group generators into Companies to use these models. The extent to which a Company participates in gaming is controlled by the level of Financial Contract cover and/or the setting of the Strategic property.
+
+A Company object can Formulate Risk in a risk-constrained simulation to bounds its Net Profit within an Acceptable Risk .
+
+To create a new company, right click on the Companies collection the explorer pane and select New Company. The New Company wizard will be displayed. You must provide a unique name for the Company, and optionally a description and category. As with any collection create categories via the right-mouse button Categorize command. Then add the assets the Company owns into the collections of the Company.
+
+Ownership shares are set using the "Share" properties, for example:
+Lists:
+	- Battery
+	- Generator
+	- Fuel
+	- Fuel Contract
+	- Physical Contract
+	- Purchaser
+	- Battery
+	- Generation Contract
+	- Purchase Contract
+	- Pool
+	- Node
+	- Load
+	- Line
+	- Transmission Right
+	- Gas Field
+	- Gas Demand
+	- Gas Contract
+	- Fleet
+	- Generator Companies Share
+	- Fuel Companies Share
+	- Line Companies Share
+	- Purchaser Companies Share
+	- Market Companies Share
+	- Gas Demand Companies Share
+

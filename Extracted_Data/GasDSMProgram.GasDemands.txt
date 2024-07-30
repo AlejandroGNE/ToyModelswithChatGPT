@@ -1,0 +1,11 @@
+Header: Gas DSM Program Gas Demands
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	set of gas demand for the DSM program
+
+Paragraphs:
+Gas DSM Program Gas Demands is set of gas demand for the DSM program
+Lists:
+

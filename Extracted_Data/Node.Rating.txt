@@ -1,0 +1,21 @@
+Header: Node Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum power flow through the Node
+
+Paragraphs:
+Node Rating is the maximum power flow through the Node where the flow is defined as:
+
+The transmission loss is not included in the current bus rating calculation.
+
+See also:
+Lists:
+	- Node Max Net Injection
+	- Node Max Net Offtake
+

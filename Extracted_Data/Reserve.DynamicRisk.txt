@@ -1,0 +1,24 @@
+Header: Reserve Dynamic Risk
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If elements in the Generator Contingencies and Line Contingencies collections are considered for dynamic risk calculations
+
+Paragraphs:
+Reserve Dynamic Risk toggles on/off consideration of dynamic risk in the ancillary services co-optimization . With this switch toggled on, the Risk for each class of reserve considers the maximum of:
+
+Note that the contribution of Flow to the risk is determined by the properties Flow Forward Coefficient and Flow Back Coefficient . Generation risks may also be lessened by a Risk Adjustment Factor .
+
+See also:
+Lists:
+	- Generation from the Generators listed in the Generator Contingencies collection,
+	- Generation from the Batteries listed in the Battery Contingencies collection; and
+	- Flow on the Lines listed in the Line Contingencies collection.
+	- Reserve Min Provision
+	- Reserve Static Risk
+

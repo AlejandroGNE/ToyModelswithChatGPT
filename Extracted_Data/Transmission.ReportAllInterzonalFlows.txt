@@ -1,0 +1,12 @@
+Header: Transmission Report All Interzonal Flows
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If line flows between zones should be reported regardless of kV.
+
+Paragraphs:
+Transmission Report All Interzonal Flows turns on reporting of transmission lines that connect zones regardless of their voltage and setting of Transmission Report Voltage Threshold .
+Lists:
+

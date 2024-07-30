@@ -1,0 +1,20 @@
+Header: Generator Constraints Sync Cond Operating Hours Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of hours the generating unit is running in synchronous condenser mode
+
+Paragraphs:
+Generator Constraints Sync Cond Operating Hours Coefficient is the coefficient of number of hours the generating unit is running in synchronous condenser mode.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- Generator Sync Cond Operating Hours
+

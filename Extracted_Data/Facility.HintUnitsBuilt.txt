@@ -1,0 +1,17 @@
+Header: Facility Hint Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Capacity expansion solution to be passed to the optimizer as a hint or initial solution
+
+Paragraphs:
+Facility Hint Units Built 
+          defines a capacity expansion solution to be passed to the optimizer as
+          a 'hint' or initial solution depending on the setting Performance Hint Mode .
+Lists:
+

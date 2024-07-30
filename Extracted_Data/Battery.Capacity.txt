@@ -1,0 +1,24 @@
+Header: Battery Capacity
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Capacity of the BESS
+
+Paragraphs:
+Battery Capacity is the energy
+          storage of one Unit of the BESS.
+
+See also:
+Lists:
+	- Battery Installed
+              Capacity
+	- Battery Capacity
+              Built
+	- Battery Max
+              Power
+

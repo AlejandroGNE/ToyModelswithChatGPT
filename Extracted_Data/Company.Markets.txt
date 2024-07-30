@@ -1,0 +1,11 @@
+Header: Company Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Markets the Company own trades in
+
+Paragraphs:
+Company Markets is the markets that own the trades in the company.
+Lists:
+

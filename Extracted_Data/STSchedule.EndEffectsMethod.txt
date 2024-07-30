@@ -1,0 +1,12 @@
+Header: ST Schedule End Effects Method
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1)
+Description:	Method used to account for end of horizon discounting
+
+Paragraphs:
+ST Schedule End Effects Methods controls how time after the end of the planning horizon is considered in ST Schedule. This attribute can take the following values:
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Gas Pipeline Flow Capacity Outage
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow capacity on outage due to maintenance or forced outage
+
+Paragraphs:
+Gas Pipeline Flow Capacity Outage reports the amount of reduction in flow capacity due to maintenance or forced outage.
+
+See also:
+Lists:
+	- Gas Pipeline Service Factor
+

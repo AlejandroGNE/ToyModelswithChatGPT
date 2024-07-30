@@ -1,0 +1,22 @@
+Header: Flow Path Import Limit
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum flow allowed on the Flow Path
+
+Paragraphs:
+Flow Path Import Limit is maximum
+          flow allowed on the Flow Path in the notional backward direction i.e. from the Flow Node To to the Flow Node From .
+
+See also:
+Lists:
+	- Flow Path Flow
+              Back
+	- Flow Path Export
+              Limit
+

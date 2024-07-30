@@ -1,0 +1,17 @@
+Header: Generator Condense Mode Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Combined heat and power generation from condense mode
+
+Paragraphs:
+Generator: Condense Mode Generation is the electrical output from the condense mode of the Co-generators. It is computed as:
+
+Condense Mode Generation = Generation - CHP Generation
+Lists:
+

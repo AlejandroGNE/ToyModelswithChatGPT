@@ -1,0 +1,20 @@
+Header: Generator Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the unit
+
+Paragraphs:
+Generator Technical Life is the
+          physical life of the asset in years. This property is used in LT
+            Plan to force the 'retirement' of the unit once it reaches a
+          certain age.
+
+Note that Technical Life applies in two situations:
+Lists:
+

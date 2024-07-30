@@ -1,0 +1,18 @@
+Header: Vehicle Max Discharge Rate
+
+Table Details:
+Units:	kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum discharge rate
+
+Paragraphs:
+Vehicle Max Discharge Rate is the maximum discharge rate of the vehicle.
+
+See also:
+Lists:
+	- Battery Max Power
+

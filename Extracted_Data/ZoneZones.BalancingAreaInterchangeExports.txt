@@ -1,0 +1,15 @@
+Header: Zone Zones Balancing Area Interchange Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial exports from the zone
+
+Paragraphs:
+Zone Zones Balancing Area Interchange Exports is the financial exports from the parent zone to child zones.
+Lists:
+

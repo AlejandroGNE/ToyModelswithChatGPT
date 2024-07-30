@@ -1,0 +1,12 @@
+Header: Horizon Chrono Date From
+
+Table Details:
+Units:	-
+Default Value:	43831
+Validation Rule:	≥0
+Description:	Start date for the chronological model
+
+Paragraphs:
+Horizon ST Schedule From
+Lists:
+

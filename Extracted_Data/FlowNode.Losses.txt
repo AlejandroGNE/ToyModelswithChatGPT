@@ -1,0 +1,15 @@
+Header: Flow Node Losses
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses incurred at the Flow Node
+
+Paragraphs:
+Flow Node Losses is Losses incurred at the Flow Node.
+Lists:
+

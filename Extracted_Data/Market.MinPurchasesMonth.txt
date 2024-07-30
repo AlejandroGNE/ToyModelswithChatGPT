@@ -1,0 +1,23 @@
+Header: Market Min Purchases Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum purchase from the market each month
+
+Paragraphs:
+Market Min Purchases Month creates a Constraint object that sets a lower
+          bound on the Purchases from the
+          Market each month. By default this is a 'hard' constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Month
+	- Market Constraints Purchases
+              Coefficient
+

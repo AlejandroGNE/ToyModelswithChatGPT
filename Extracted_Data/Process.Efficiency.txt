@@ -1,0 +1,17 @@
+Header: Process Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Ratio of primary output production to primary input consumption
+
+Paragraphs:
+Process Efficiency is the ratio of primary output production to primary input consumption
+          expressed as a percentage. Note that this is independent of the Conversion
+            Factor between the two commodities involved.
+Lists:
+

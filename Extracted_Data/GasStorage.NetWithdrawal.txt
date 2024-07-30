@@ -1,0 +1,15 @@
+Header: Gas Storage Net Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net withdrawal after withdrawal fuel loss
+
+Paragraphs:
+Gas Storage Net Withdrawal is Net withdrawal after withdrawal fuel loss.
+Lists:
+

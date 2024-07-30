@@ -1,0 +1,17 @@
+Header: Command Line Options
+
+Table Details:
+
+Paragraphs:
+The PLEXOS engine can be run from the command line, which allows for models, projects and solution merging to be executed without opening the PLEXOS graphical user interface.
+
+Below is the help information displayed in the command line which details all possible arguments that can be passed on to the engine:
+
+Please note that one or more "\m" or "\p" parameters can be specified, allowing you to execute multiple models or projects. PLEXOS64.exe is the engine executable which exists in the install directory of PLEXOS. To use this in the command line either change your working directory to the install location or enter the full path of PLEXOS64.exe, for example "C:\...install directory...\PLEXOS64.exe". Any arguments, such as model name, project name, output path or destination file, that might contain spaces will need to wrapped in quotations. An example command might be: "C:\Program Files (x86)\Energy Exemplar\PLEXOS 7.3\PLEXOS64.exe" "C:\Plexos Models\Test model.xml" -m "Base model" -n -sp 5 5 Users can also do split runs in the command line using the PLEXOS Launcher executable, see article Split Run Settings .
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+2. Possible Arguments

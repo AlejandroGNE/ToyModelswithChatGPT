@@ -1,0 +1,151 @@
+Header: ST Schedule Class
+
+Table Details:
+Description:	ST Schedule simulation phase
+
+Paragraphs:
+See also ST
+              Schedule Property Reference for a detailed list of properties
+            for this class of object.
+
+ST Schedule is mixed-integer programming (MIP) based chronological
+          optimization. It is distinct from LT Plan and MT Schedule in that it model
+          days of the horizon at full resolution, as dictated by the Horizon Periods per Day setting. At
+          the default setting this means every hour, but the resolution can be
+          customized to any feasible length e.g. 5-minute intervals.
+
+ST Schedule is designed to emulate the dispatch and pricing of real
+          market-clearing engines, but it provides a wealth of additional
+          functionality to deal with:
+
+Emulation of real market-clearing engines involves clearing generator
+          offers against forecast load accounting for transmission and other
+          constraints to produced a dispatch and pricing outcome. ST Schedule
+          can do this but the simulator extends this basic functionality by
+          allowing you to specify fundamental data such as generator start costs
+          and constraints, heat-rate curves, fuel costs, etc . as well
+          as or in addition to market data such as generator offers, and the
+          dynamic formulation engine in the AMMO software at the heart of the
+          simulator tailors the representation of each simulation element, such
+          as a generator, at runtime and on a case-by-case basis. This allows
+          you to seamlessly mix market data with fundamental data as desired -
+          relying on the simulator to compute the appropriate market
+          representation at runtime, and maximize simulation efficiency.
+
+ST Schedule provides two methods for modelling the chronology:
+
+In this mode, ST Schedule runs every trading period and maintains
+          chronological consistency across the horizon. For example it can model
+          generator start ups and shutdowns and track the status of units across
+          time. The Horizon options allow you
+          to select either the whole or only a subset of the planning horizon
+          for execution with ST Schedule.
+
+When selecting the planning horizon, the step type is chosen from
+          years, months, weeks, or days. But the ST
+            Schedule Step Type must be either weeks, days, hours, or
+          minutes. The reason for this is related to the way in which PLEXOS
+          sets up and solves the ST Schedule problem. At runtime PLEXOS:
+
+The length of each ST step is controlled by the ST
+            Schedule At a Time property. In general the longer each step of
+          the ST Schedule is, the greater the execution time will be for each of
+          those steps, but there is some overhead is switching from one step to
+          the next. You should experiment with these settings to find the best
+          combination for their models.
+
+Note further, that the outcome of the simulation can be influenced by
+          the size of the ST step when there are significant intertemporal
+          aspects. This is because the state of the system, e.g. generator unit commitment, is recorded and carried over from one step
+          to the next, but each step does not look-ahead to the next. Hence
+          unless the model has no intertemporal elements, e.g. when
+          performing a pure market-clearing emulation, it is recommended that
+          the ST be run in steps of no less than one day at a time.
+
+To further improve the optimization of unit commitment decisions you
+          can configure ST Schedule to use a look-ahead period ahead of each step. This allows the step size of ST Schedule to
+          be kept small ( e.g. a day at a time) but sufficient
+          look-ahead maintained for unit commitment decisions.
+
+When ST Schedule is run in typical week mode, the horizon options are
+          simplified. The simulation will always run across the whole planning
+          horizon, and the only option to chose is the size of each step of the
+          ST Schedule i.e. how many trading periods should be 'solved'
+          at once. Typically, large models should be run in daily or evenly
+          hourly steps, smaller models can run in weekly steps.
+
+Running in this mode reduces the amount of simulation work for ST
+          Schedule by more than a factor of four, but PASA and MT Schedule are still run in
+          exactly the same manner.
+
+Note that solution data for the typical week is written into the
+          solution database, and the user interface will explode those data out
+          so that a full chronology can be viewed. This means that the size of
+          the solution database is also reduced when ST Schedule is run in this
+          mode. Summary data (daily, weekly, monthly, annual) are all calculated
+          based on the mapping of typical weeks to trading periods i.e. the
+          daily data for a day that was not part of a typical week, is taken
+          from the day of the same type in the typical week that was run. Thus,
+          summary data are complete, but may not match input data such as total
+          energy, and peak demand.
+
+The selection of week inside the month is controlled by the option Typical Week . The beginning day
+          of week is set by the Week
+            Beginning option. When set to automatic, the week begins on the
+          same day of week as the first day of the planning horizon.
+
+By default the steps of ST Schedule are executed in sequence and each
+          links to the previous for initial conditions. Step link behaviour is
+          controlled with the setting Step
+            Link Mode and additional options. Steps can be executed in
+          parallel for a significant speed improvement and to better utilized
+          compute resources.
+
+ST Schedule is capable of performing Monte Carlo simulation where the
+          samples differ in:
+
+The number of samples executed is controlled by settings on the Stochastic object associated with the executing Model .
+
+The Stochastic Method setting allows you to choose between running the samples sequentially,
+          or in parallel. Parallel is more efficient but requires more memory to
+          execute.
+
+Guided Monte Carlo is a variation in which only selected simulation
+          steps solve all samples. This is available via a hidden
+            parameter .
+
+The Stochastic Method setting also allows the stochastic samples to be used as 'scenarios'
+          in a two-stage stochastic optimization, where selected decisions are
+          taken as 'non-anticipative' while others are recourse. For example,
+          this approach can determine the optimal unit commitment of selected
+          generators given uncertainty in forecast load or price. See the Unit
+            Commitment Non-anticipativity for more information.
+
+Reporting can be done for every sample and additionally statistics
+          can be reported (min, max, mean, std. dev.). See the Report topic for more details.
+Lists:
+	- unit commitment
+	- constraint modelling
+	- financial/portfolio optimization
+	- Monte Carlo simulation
+	- stochastic optimization
+	- dynamically constructs a mathematical programming problem to
+            represent the first step of the ST Schedule; and then
+	- as each step is evaluated, the same problem is simply modified to
+            represent the next step, and so on until the required horizon has
+            been evaluated.
+	- the outage state of Generators and/or Lines
+	- the value of one or more stochastic Variables
+
+
+H2s:
+2.1. Full
+          Chronology
+2.2. Typical
+          Week
+4.1. Monte
+          Carlo Simulation
+4.2.
+          Stochastic Optimization
+4.3.
+          Reporting

@@ -1,0 +1,17 @@
+Header: Pool Generator Pool Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total generator pool revenue
+
+Paragraphs:
+Pool generator pool revenue is the sum of generator pool revenue across all regions in the Pool.
+
+
+Lists:
+

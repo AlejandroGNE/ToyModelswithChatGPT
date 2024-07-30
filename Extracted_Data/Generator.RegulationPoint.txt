@@ -1,0 +1,15 @@
+Header: Generator Regulation Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start point of regulation reserve range
+
+Paragraphs:
+Generator Regulation Point is used in combination with Regulation Range to define a megawatt range over which the unit can provide regulation reserve .
+Lists:
+

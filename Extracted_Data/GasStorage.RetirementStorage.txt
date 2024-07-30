@@ -1,0 +1,15 @@
+Header: Gas Storage Retirement Storage
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the gas storage is eligible for retirement planning
+
+Paragraphs:
+Gas Storage Retirement Storage indicates if the gas storage is eligible for retirement planning.
+Lists:
+

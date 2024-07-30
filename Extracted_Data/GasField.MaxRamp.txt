@@ -1,0 +1,17 @@
+Header: Gas Field Max Ramp
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of change in gas field per interval
+
+Paragraphs:
+Gas Field Max Ramp is the maximum allowed rate of change (Ramp) in gas field End Volume between one dispatch interval and the next. The volume is allowed to change up or down by this amount at most. By default the constraint is a hard constraint meaning that no violations are allowed.
+
+The Ramp can also be constrained over longer time periods using the Max Ramp Hour , Max Ramp Day , Max Ramp Week , Max Ramp Month , Max Ramp Year properties.
+Lists:
+

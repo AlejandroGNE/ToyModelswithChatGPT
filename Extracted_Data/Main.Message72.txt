@@ -1,0 +1,11 @@
+Header: Message 72
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	MOSEK encountered a fatal internal error and terminated abnormally.
+
+Paragraphs:
+Message 72 occurs in the following circumstances:
+Lists:
+

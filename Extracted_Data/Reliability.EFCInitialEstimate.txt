@@ -1,0 +1,15 @@
+Header: Reliability EFC Initial Estimate
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial Firm Capacity Estimate for the set of generators associated with the Reliability object.
+
+Paragraphs:
+Reliabilities EFC Initial Estimate is the Initial Firm Capacity Estimate for the set of generators associated with the Reliability object.
+Lists:
+

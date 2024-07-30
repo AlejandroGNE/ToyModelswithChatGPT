@@ -1,0 +1,39 @@
+Header: Generator Power Degradation
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual degradation of power with age
+
+Paragraphs:
+Generator Power Degradation is the annual degradation in generation capacity that occurs with age. This degradation primarily affects the following properties:
+
+The average age of units at the start of the horizon can be set with the Initial Age property. In output, the property Age reports the average age of units at the end of each year.
+
+See also:
+Lists:
+	- Dispatchable Capacity
+	- Undispatched Capacity
+	- Capacity Factor
+	- No Cost Capacity
+	- Capacity Curtailed
+	- Hours Curtailed
+	- Curtailment Factor
+	- Flexibility Up
+	- Available Capacity
+	- Max Capacity
+	- Installed Capacity
+	- Rating
+	- Rated Capacity
+	- Firm Capacity
+	- Min Load
+	- Max Load
+	- Maintenance
+	- Forced Outage
+	- Pump Load
+	- Age-based Degradation
+

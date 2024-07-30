@@ -1,0 +1,47 @@
+Header: Generator Load Following Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Regression factor for proportional load following
+HYDRO	Max Capacity Factor Month	40		%	1
+HYDRO	Price Following	50		%	1
+HYDRO	Load Following Profile	0	LOAD	MW	1
+HYDRO	Load Following Factor	0.7		MW	1
+
+Paragraphs:
+Generator Load Following Factor is the regression factor for the Proportional Load Following (PLF) hydro method.
+
+This method implements the hydro modelling method adopted by the TEPPC in the WECC and is described in the documentation for their 2012 studies. They define the generation in any period 'G' as follows:
+
+where:
+
+The method 'fixes' part or all of a generator's output to a pre-determined value by making its generation follow a given shape, which typically is a load profile but could be any series.
+
+The method has three parameters:
+
+Example
+
+In the below example 50% of the available energy of the "HYDRO" generator will be dispatched to follow the shape defined with a factor of 0.7 in terms of how it reacts to changes in that shape.
+
+The PLF method requires that a generator is energy constrained and supports generators that define any of the following:
+
+Note that if you set Price Following = 0 then all energy is load following and thus the related energy constraint is disabled which means you can run shorter optimization steps.
+Lists:
+	- L is the load following shape value in each period.
+	- K is the load following factor indicating how close changes in G mirror changes in L.
+	- Lbar is the average load following shape value.
+	- Gbar must be determined by an optimization performed internally to the simulator.
+	- Max Capacity
+	- Rating
+	- Rating Factor
+	- Min Stable Level
+	- Min Stable Factor
+	- Min Load
+	- Max Capacity Factor (all periods variants)
+	- Max Energy (all period variants)
+

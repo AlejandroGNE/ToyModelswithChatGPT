@@ -1,0 +1,15 @@
+Header: Generator Last Start State
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of hours the unit had been down before the last start
+
+Paragraphs:
+Generator Last Start State is the number of hours the unit had been down before the last start. To define a generator to start partway through a start profile at the beginning of the horizon, you must define this property along with Initial Generation and Initial Hours Up .
+Lists:
+

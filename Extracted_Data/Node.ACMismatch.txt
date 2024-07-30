@@ -1,0 +1,24 @@
+Header: Node AC Mismatch
+
+Table Details:
+Units:	MVA (Metric),  (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The magnitude of the complex power mismatch between the left- and right-hand sides of the AC power balance equation, as initialized using a PLEXOS economic dispatch
+
+Paragraphs:
+Node AC-mismatch is the absolute mismatch (MVA) at each node resulting from initialization of the AC Power Flow (ACPF) equations using PLEXOS' dispatch. While it is not possible to draw definitive conclusions from this output property due to the highly nonlinear nature of the ACPF equations, its overall range and nodal variation should be indicative of the ACPF-feasibility of a given PLEXOS dispatch. For instance, a PLEXOS dispatch with an average AC-mismatch of 10 MVA and a maximum of 100 MVA is generally more ACPF-compatible than one with an average AC-mismatch of 100 MVA and a maximum of 1000 MVA. For a detailed technical description of this output property, refer to the following article .
+
+In order for the calculation of this output property to be triggered, the following input properties must be populated with data: Line Resistance Line Reactance Transformer Resistance Transformer Reactance Specifying these additional input properties is recommended but optional: Line AC Line-charging Susceptance Transformer AC Tap Ratio Transformer AC Fixed Shift Angle
+Lists:
+	- Line Resistance
+	- Line Reactance
+	- Transformer Resistance
+	- Transformer Reactance
+	- Line AC Line-charging Susceptance
+	- Transformer AC Tap Ratio
+	- Transformer AC Fixed Shift Angle
+

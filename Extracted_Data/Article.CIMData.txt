@@ -1,0 +1,264 @@
+Header: CIM Data
+
+Table Details:
+Abbreviation	Description
+IEC	International Electro-technical Commission
+CIM	Common Information Model
+RDF	Resource Description Framework
+XML	Xtensible Markup Language
+PLEXOS Object	PLEXOS Property	CIM Object	CIM Field
+Node	-	TopologicalNode	-
+Line	-	ACLineSegment	-
+	Resistance		r
+	Reactance		x
+	Susceptance		bch
+Line	-	Line	-
+Line	-	Switch	-
+Region	-	GeographicalRegion	-
+Zone	-	SubGeographicalRegion	-
+Transformer	-	PowerTransformer	-
+Generator	-	HydroGeneratingUnit	-
+Generator	-	NuclearGeneratingUnit	-
+Generator	-	WindGeneratingUnit	-
+Generator	-	ThermalGeneratingUnit	-
+Generator	-	GenerationUnit	-
+	Fixed Load		baseP
+	Heat Rate		efficiency
+	Initial Generation		initialP
+	Max Ramp Down		lowerRampRate
+	Rating		maxEconomicP
+	Max Capacity		maxOperatingP
+	Min Down Time		minimumOffTime
+	Min Stable Level		minOperatingP
+	Marginal Loss Factor		penaltyFactor
+	Max Ramp Up		raiseRampRate
+	Start Cost		startupCost
+	Start Cost Time		startupTime
+	UoS Charge		variableCost
+Purchaser	-	EnergyConsumer	-
+
+Paragraphs:
+The capability to import and export standard CIM RDF/XML (IEC CIM
+          version 16 / 17) files exists within the software. The "Using
+          Import/Export" articles describe how to operate the import/export
+          functionality, whereas this article has been written to provide a more
+          technical overview of how the CIM data is being handled. CIM data
+          files hold detailed information for electric power transmission and
+          distribution systems, so the aim of this article is to capture the
+          high level requirements, design details and limitations of the CIM
+          PLEXOS tool.
+
+The tool has two core modules, which are:
+
+
+
+
+
+The following are terms and/or acronyms that are relevant to this
+          document.
+
+The following points list the actions of the importer:
+
+The following points highlight important features of the Import tool:
+
+The following points list the actions of the exporter:
+
+The following points highlight aspects of the Export tool:
+
+Currently, the CIM importer has been designed to target and address
+          the transmission data. However, this is customizable by modifying the
+          "mapping" json file, which will be described in more detail below in
+          the advanced section (see below).
+
+The key data that is supported are described here, in
+          a simplified mapping table:
+
+The table above lists the object and property
+            mappings, but does not indicate that the relevant memberships are
+            also created. For example, the line objects will of course be
+            connected to the appropriate nodes, so these memberships are handled
+            as expected.
+
+The CIM PLEXOS importer/exporter has pre-defined mappings, which are
+          defined in the cimplexos-mappings.json file, located in the
+          installation folder of PLEXOS.
+
+The mapping is largely converted into the following
+          sections:
+
+Note:
+
+The following snippet provides an example of a straight forward
+          CIM->PLEXOS mapping, e.g. Region.
+
+In this example, a single geographical region is
+          defined, but no other properties. Therefore this is classed as a
+          simple class mapping.
+
+The following snippet provides an example of a more advanced mapping
+          of the object and properties, e.g. Generator.
+
+This example show the mapping for a generator object,
+          however this has to use a custom "import/export handler", as there is
+          a need to manipulate and generate additional import information. This
+          also details a number of fields, which are directly converted into the
+          PLEXOS equivalent.
+
+The following assumptions and constraints are applicable to this
+          tool:
+Lists:
+	- CIM Importer - This module reads the CIM/XML file, converts the
+            data into equivalent PLEXOS objects, memberships and properties and
+            imports these into a standard dataset.
+	- CIM Exporter - This module reads the PLEXOS dataset (XML format),
+            converts the data into the equivalent CIM structure and writes the
+            data to a CIM XML/RDF file format.
+	- Read the internal mapping file (cimplexos-mappings.json) (Note:
+            This file can be modified - please see the advanced configuration
+            section)
+	- Read the CIM XML file and build an internal CIM Model Iterate through the mapping file, creating the appropriate
+                object, membership and property mappings Invokes the "Import Handler" class if it is defined, which
+                defines custom handling for each of the classes (i.e. no direct
+                CIM->PLEXOS conversion)
+	- Iterate through the mapping file, creating the appropriate
+                object, membership and property mappings
+	- Invokes the "Import Handler" class if it is defined, which
+                defines custom handling for each of the classes (i.e. no direct
+                CIM->PLEXOS conversion)
+	- Imports the internal CIM Model into a new dataset (or an existing
+            dataset)
+	- Iterate through the mapping file, creating the appropriate
+                object, membership and property mappings
+	- Invokes the "Import Handler" class if it is defined, which
+                defines custom handling for each of the classes (i.e. no direct
+                CIM->PLEXOS conversion)
+	- The import process will automatically create custom column data,
+            in order to store CIM data which is required for any export. For
+            example fields like CimGuid, CimName, Substation, SyncMachine etc.,
+            are created to store CIM specific meta-information.
+	- Read the internal mapping file (cimplexos-mappings.json) (Note:
+            This file can be modified - please see the advanced configuration
+            section)
+	- Read the PLEXOS dataset and build an internal CIM Model Iterate through the mapping file, creating the appropriate CIM
+                objects based on the defined object, membership and property
+                settings Invokes the "Export Handler" class if it is defined, which
+                defines custom handling for each of the classes (i.e. no direct
+                CIM->PLEXOS conversion)
+	- Iterate through the mapping file, creating the appropriate CIM
+                objects based on the defined object, membership and property
+                settings
+	- Invokes the "Export Handler" class if it is defined, which
+                defines custom handling for each of the classes (i.e. no direct
+                CIM->PLEXOS conversion)
+	- Exports the internal CIM Model as a CIM XML-RDF file.
+	- Iterate through the mapping file, creating the appropriate CIM
+                objects based on the defined object, membership and property
+                settings
+	- Invokes the "Export Handler" class if it is defined, which
+                defines custom handling for each of the classes (i.e. no direct
+                CIM->PLEXOS conversion)
+	- Data can be exported from: Input datasets : The input dataset must have
+                the required custom fields, which represent the CIM meta-data,
+                namely CimGuid, CimName, Substation, SyncMachine, etc. These are
+                all automatically created through the import process, however a
+                dataset that was created through other means, will need to have
+                this data manually entered to allow a successful export. Solution datasets : Solution data which is
+                derived from an input database, that contains the meta-data, can
+                also be exported. This is very useful for exporting certain
+                optimization decisions, e.g. build candidates from a LT Plan
+                simulation. Combined input/solution datasets : This is an
+                enhancement to the "solution dataset" export functionality. The
+                solution dataset will contain only a subset of the CIM data,
+                e.g. CIM id's, but other key information may be missing. For
+                example, input data like Generator Max Capacity will not exist,
+                so a combined input/output export will provide far more
+                information. In order to invoke this, it is expected that the
+                input database be stored within the solution zip file. This can
+                be done manually, or the simulation engine can be instructed to
+                do this, via undocumented parameter options. This option is
+                called [Model IncludeInputData] and information about this can
+                be found in the undocumented parameter help.
+	- Input datasets : The input dataset must have
+                the required custom fields, which represent the CIM meta-data,
+                namely CimGuid, CimName, Substation, SyncMachine, etc. These are
+                all automatically created through the import process, however a
+                dataset that was created through other means, will need to have
+                this data manually entered to allow a successful export.
+	- Solution datasets : Solution data which is
+                derived from an input database, that contains the meta-data, can
+                also be exported. This is very useful for exporting certain
+                optimization decisions, e.g. build candidates from a LT Plan
+                simulation.
+	- Combined input/solution datasets : This is an
+                enhancement to the "solution dataset" export functionality. The
+                solution dataset will contain only a subset of the CIM data,
+                e.g. CIM id's, but other key information may be missing. For
+                example, input data like Generator Max Capacity will not exist,
+                so a combined input/output export will provide far more
+                information. In order to invoke this, it is expected that the
+                input database be stored within the solution zip file. This can
+                be done manually, or the simulation engine can be instructed to
+                do this, via undocumented parameter options. This option is
+                called [Model IncludeInputData] and information about this can
+                be found in the undocumented parameter help.
+	- Input datasets : The input dataset must have
+                the required custom fields, which represent the CIM meta-data,
+                namely CimGuid, CimName, Substation, SyncMachine, etc. These are
+                all automatically created through the import process, however a
+                dataset that was created through other means, will need to have
+                this data manually entered to allow a successful export.
+	- Solution datasets : Solution data which is
+                derived from an input database, that contains the meta-data, can
+                also be exported. This is very useful for exporting certain
+                optimization decisions, e.g. build candidates from a LT Plan
+                simulation.
+	- Combined input/solution datasets : This is an
+                enhancement to the "solution dataset" export functionality. The
+                solution dataset will contain only a subset of the CIM data,
+                e.g. CIM id's, but other key information may be missing. For
+                example, input data like Generator Max Capacity will not exist,
+                so a combined input/output export will provide far more
+                information. In order to invoke this, it is expected that the
+                input database be stored within the solution zip file. This can
+                be done manually, or the simulation engine can be instructed to
+                do this, via undocumented parameter options. This option is
+                called [Model IncludeInputData] and information about this can
+                be found in the undocumented parameter help.
+	- The CIM file exported will differ from the original CIM file that
+            was used for import. The reason for this is that only a partial list
+            of classes are imported and stored. While other key CIM information
+            needs to be auto-generated, e.g. some classes like Terminal,
+            SynchronousMachine, etc.
+	- To the extent possible, field level mappings between CIM and
+            PLEXOS are defined in the mapping file, but the conversion may
+            require some "custom handlers" to process the relevant data.
+	- The original CIM Guids are retained to the extent possible,
+            storing them as custom column data. However, the exceptions are
+            Terminal, Power TransformerEnd and Synchronous machines, as these
+            are re-generated dynamically during the export.
+
+
+H2s:
+Contents
+1. Introduction
+2.
+          Technical Approach
+3. Supported Data
+4.
+          Advanced Configuration and CIM Tool Configuration
+5. Assumptions
+
+H3s:
+1.1.
+          Overview
+1.2.
+          Terms, Definitions and Acronyms
+2.1.
+          Importing Data
+2.2.
+          Importer Notes
+2.3.
+          Exporting Data
+2.4. Exporter Notes
+4.1. Simple Mapping
+4.2. Advanced Mapping

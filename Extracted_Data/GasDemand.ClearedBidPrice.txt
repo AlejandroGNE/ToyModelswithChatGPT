@@ -1,0 +1,21 @@
+Header: Gas Demand Cleared Bid Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price of marginal bid band
+
+Paragraphs:
+Gas Demand Cleared Bid Price is Price of marginal bid band. Gas Demand Cleared Bid Price is the Price of marginal Quantity band, and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Gas Demand Bid Cleared
+	- Gas Demand Cleared Bid Value
+

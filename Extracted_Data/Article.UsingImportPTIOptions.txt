@@ -1,0 +1,60 @@
+Header: PLEXOS PSSE Import Options
+
+Table Details:
+
+Paragraphs:
+The PSSE, or PTI, options can be seen in the following screenshot.
+
+The naming convention for these options are as follows:
+
+The naming convention for these options are as follows:
+
+The naming convention is essentially the same as the "US" option, but this format uses additional Excel (xls or xlsx) files for data definitions and object mapping. The differences are as follows:
+
+Note: This option has been implemented for specific US clients. If further information is required then please contact support.
+Lists:
+	- Generators: GEN_{Name}_{Unit ID} (No Category)
+	- Regions: {Name}(No category)
+	- Zones: {Name}(No category)
+	- Nodes: {ID}_{Name}_{Voltage Level} {Categorized by voltage level)
+	- Lines: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}_CKT
+	- Transformers: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}_CKT
+	- Transformers: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}
+	- Generators: GEN_{Name}_{Unit ID} (No category)
+	- Regions: {Name} (No category)
+	- Zones: {Name} (No category)
+	- Nodes: {ID}_{Name}_{Voltage Level} (Categorized by region)
+	- Lines: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}_CKT
+	- Transformers: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}
+	- Generators: GEN_{Id}_{Unit ID} (No category)
+	- Regions: {Name} (No category)
+	- Zones: {Name} (No category)
+	- Nodes: {ID}_{Voltage Level} (Categorized by voltage level)
+	- Lines: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}_CKT
+	- Transformers: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}
+	- Generators: GEN_{Id}_{Unit ID} (No category)
+	- Regions: {Name} (No category)
+	- Zones: {Name} (No category)
+	- Nodes: {ID}_{Voltage Level} (Categorized by region)
+	- Lines: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}_CKT
+	- Transformers: {PLEXOS Node Name From}_{PLEXOS Node Name To}_{Unit ID}
+	- Generators: GEN_{Bus Id}_{Bus Name}_{Bus Voltage}_{Unit ID} (Categorized by region)
+	- Regions: {Name} (No category)
+	- Zones: {Id}_{Name} (No category)
+	- Nodes: {ID}_{Name}_{Voltage Level} (Categorized by region)
+	- Lines: {Bus From Id}_{Bus From Name}_{Bus To Id}_{Bus To Name}_{Line Voltage}_{Unit ID} (Categorized by Node From)
+	- Transformers: {Bus From Id}_{Bus From Name}_{Bus From Voltage}_{Bus To Id}_{Bus To Name}_{Bus To Voltage}_{ID} (Categorized by Node From)
+	- Nodes: The name is taken directly from the comments in the raw file (/**/).
+	- Regions: The regions are red as is, except for the CASIO region which is split into sub-regions - "PGAE", "SCE", "SDGE", and "VEA"
+	- Interfaces: the interface names are read from a xls file called "MPDATA_Interface_Definitions". The memberships and properties for these interfaces are directly extracted from the "MPDATA_Interface_Limits" file.
+	- Contingencies: These are imported directly from a file called "MPDATA_Contingency"
+
+
+H2s:
+Contents
+1. Import ID and Name with the Nodes Categorized by Voltage Level
+2. Import ID and Name with the Nodes Categorized by Region
+3. Import ID with the Nodes Categorized by Voltage Level
+4. Import ID with the Nodes Categorized by Region
+5. Import with a "fixed" Format (US)
+6. Import with a "fixed" Format (US/CASIO)

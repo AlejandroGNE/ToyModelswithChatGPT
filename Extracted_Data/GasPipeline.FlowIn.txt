@@ -1,0 +1,15 @@
+Header: Gas Pipeline Flow In
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas pumped into the pipeline
+
+Paragraphs:
+Gas Pipeline Flow In is the quantity of gas pumped into the pipeline.
+Lists:
+

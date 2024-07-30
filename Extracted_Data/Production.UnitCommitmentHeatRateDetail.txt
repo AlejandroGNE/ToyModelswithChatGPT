@@ -1,0 +1,30 @@
+Header: Production Unit Commitment Heat Rate Detail
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If modeling fully detailed heat rates for unit commitment. Otherwise perform a two-pass UC/ED.
+
+Paragraphs:
+Production Unit Commitment Heat
+          Rate Detail toggles on/off co-optimization of detailed heat
+            rate functions and unit commitment.  When 'on' (default)
+          the detailed multi-point heat rate functions and any integers
+          associated with non-convex
+            heat rate functions are optimized simultaneously with unit
+          commitment. When 'off' the heat rates are simplified to the average
+          value at maximum output during an initial optimization pass to
+          determine the unit commitment. That unit commitment solution (integer
+          on/off and start/stop decisions) is then frozen and then fully
+          detailed heat rate functions reinstated for a second-pass to compute
+          the optimal dispatch.
+
+Turning off this option generally results in faster solution times
+          for UC/ED problems without significantly compromising solution
+          quality. Note however turning off this option will trigger two passes
+          for the UC/ED rather than one, which in some cases might be slower.
+          You should confirm that the solution is of acceptable quality by
+          comparing model runs with and without the option unchecked.
+Lists:
+

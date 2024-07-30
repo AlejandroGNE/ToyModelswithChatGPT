@@ -1,0 +1,23 @@
+Header: Facility Net New Capacity
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity net of build and retire
+
+Paragraphs:
+Facility Net New Capacity is the
+          net addition to Installed
+            Capacity associated with new builds and retirements up to given
+          period, and is defined as:
+
+Net New Capacity t = ∑ k ≤ t ( Units
+            Built k - Units
+            Retired k ) × Max
+            Operating Level t
+Lists:
+

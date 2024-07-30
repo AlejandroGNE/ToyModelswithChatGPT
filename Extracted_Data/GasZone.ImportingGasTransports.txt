@@ -1,0 +1,11 @@
+Header: Gas Zone Importing Gas Transports
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Importing Gas Transports is the set of Gas Transport objects that import to the Gas Zone.
+Lists:
+

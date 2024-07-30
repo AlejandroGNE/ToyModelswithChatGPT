@@ -1,0 +1,18 @@
+Header: Zone Contract Load Obligation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Physical contract load obligation
+
+Paragraphs:
+Zone Contract Load Obligation is the total load obligation from Load Contracts in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Contract Generation Capacity
+

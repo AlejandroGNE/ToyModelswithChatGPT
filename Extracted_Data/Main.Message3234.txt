@@ -1,0 +1,11 @@
+Header: Message 3234
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Invalid inputs for sampled chronology. Sampling interval type, sample type or reduced sample count of the <value> object should match that in the sampling file <value>.
+
+Paragraphs:
+Message 3234 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Node Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of gas at the gas node
+
+Paragraphs:
+Gas Node Shadow Price is the shadow price of gas at the Gas Node . It represents the value to the system of the next/last unit of gas supply at the Gas Node .
+Lists:
+

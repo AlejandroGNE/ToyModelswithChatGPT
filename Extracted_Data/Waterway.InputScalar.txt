@@ -1,0 +1,15 @@
+Header: Waterway Input Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Input flow scalar
+
+Paragraphs:
+Waterway Input Scalar is the input flow scalar.
+Lists:
+

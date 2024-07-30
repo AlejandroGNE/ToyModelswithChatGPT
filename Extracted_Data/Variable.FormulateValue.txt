@@ -1,0 +1,21 @@
+Header: Variable Formulate Value
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Value is formulated as a decision variable
+
+Paragraphs:
+Variable Formulate Value is a flag that indicates if the Value is formulated as a decision variable. 
+            All types of variables (i.e. defined solely from Profile , randomly sampled variables, booleans, lookup variables etc.) are supported.
+
+This variable has been exposed, so it can be used in conjunction with the RHS Constant feature.
+
+As described in the Concise Modelling Guide , variables can be referenced with the token prefix 'VarValue_'. The default 1-period 
+            lag can also be disabled by appending '{0}'.
+Lists:
+

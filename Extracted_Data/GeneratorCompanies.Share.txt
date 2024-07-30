@@ -1,0 +1,24 @@
+Header: Generator Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage share of ownership
+CCGT1	GenCo1	50	%
+CCGT2	GenCo2	50	%
+
+Paragraphs:
+The ownership of a Generator can
+          be shared between two or more Companies .
+          The share of ownership is determined by this property.
+
+Note:
+Lists:
+	- the property values must be entered as percentages like 50% not
+            decimal values like 0.5
+	- the shares need not sum to unity.
+

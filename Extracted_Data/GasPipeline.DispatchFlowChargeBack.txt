@@ -1,0 +1,15 @@
+Header: Gas Pipeline Dispatch Flow Charge Back
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Dispatch cost of extracting gas at the pipeline sending node
+
+Paragraphs:
+Gas Pipeline Dispatch Flow Charge Back is Dispatch cost of extracting gas at the pipeline sending node.
+Lists:
+

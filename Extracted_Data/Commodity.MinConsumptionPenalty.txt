@@ -1,0 +1,18 @@
+Header: Commodity Min Consumption Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Min Consumption] constraints
+
+Paragraphs:
+Commodity Min Consumption Penalty
+          sets the penalty for violating the Min
+            Consumption constraint and its period variants. The default
+          value of -1 means 'hard constraint'.
+Lists:
+

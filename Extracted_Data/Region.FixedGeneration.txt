@@ -1,0 +1,28 @@
+Header: Region Fixed Generation
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed (or embedded) generation
+SA1	Fixed Generation		MW	
+SA1	Fixed Generation	100	MW	1/01/2008
+
+Paragraphs:
+Region Fixed Generation represents embedded or 'behind-the-meter' generation/load. See Node Fixed Generation for details. Fixed generation is assigned to the nodes in the region according to their load participation factors .
+
+Example:
+
+In this example a fixed amount of embedded generation will be counted in the region post 1/01/2008.
+
+Fixed Generation reports the total fixed generation across all Nodes in the Region .
+
+See also:
+Lists:
+	- Region Fixed Load
+	- Node Fixed Generation
+	- Node Fixed Load
+

@@ -1,0 +1,15 @@
+Header: Emission Gas Demands Production Rate
+
+Table Details:
+Units:	kg/~ (Metric), lb/~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced from one unit of gas produced from the gas demand
+
+Paragraphs:
+Emission Gas Demands Production Rate is Emissions produced from one unit of gas produced from the gas demand.
+Lists:
+

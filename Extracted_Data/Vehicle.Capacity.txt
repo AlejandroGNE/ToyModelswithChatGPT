@@ -1,0 +1,27 @@
+Header: Vehicle Capacity
+
+Table Details:
+Units:	kWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Capacity of the vehicle
+
+Paragraphs:
+Vehicle Capacity is the battery
+            size for an electric or hybrid-electric vehicle in kilowatt-hours.
+            To model an internal combustion engined (ICE) car, simply omit this
+            property.
+
+As output Vehicle Capacity is the
+            total energy storage of the vehicle and is defined as:
+
+Capacity (output) = Capacity (input) x Units
+
+See also:
+Lists:
+	- Vehicle Efficiency
+	- Vehicle Commodities Ratio
+

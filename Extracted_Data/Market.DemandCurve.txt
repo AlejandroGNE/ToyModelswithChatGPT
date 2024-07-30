@@ -1,0 +1,15 @@
+Header: Market Demand Curve
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the input multi-band Price/Quantity pairs are points on a demand curve; or incremental demand blocks.
+
+Paragraphs:
+Market Demand Curve controls the interpretation of Price / Quantity pairs for markets with depth. See the Quantity topic for details and examples.
+Lists:
+

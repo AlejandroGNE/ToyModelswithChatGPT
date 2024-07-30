@@ -1,0 +1,15 @@
+Header: Storage Marginal Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal energy cost of water released from the storage
+
+Paragraphs:
+Marginal cost of releases at the solution as defined in Storage Energy Value . If Storage Water Value is defined, it would be computed as Water Value / Downstream Efficiency (at the solution).
+Lists:
+

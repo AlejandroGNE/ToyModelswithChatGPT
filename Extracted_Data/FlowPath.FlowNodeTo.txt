@@ -1,0 +1,11 @@
+Header: Flow Path Flow Node To
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Flow Node the Flow Path imports to
+
+Paragraphs:
+Flow Path Flow Node To is Flow Node the Flow Path imports to
+Lists:
+

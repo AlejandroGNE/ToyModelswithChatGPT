@@ -1,0 +1,19 @@
+Header: MT Schedule Write Bridge Text Files
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If bridge information such as constraint decomposition and storage targets should be written to text files
+
+Paragraphs:
+If this option is selected then MT Schedule will write Constraint decomposition and Storage target/water value information to text files. This is the same information that would automatically be passed to ST Schedule and can be used to run ST Schedule independently from MT Schedule . The text files are in a format that can be read directly into another simulation e.g. as Constraint RHS Week and Storage Target Week if ST Schedule is running in week steps.
+
+Decomposition information is written at the resolution of the ST Schedule as defined by Horizon Chrono Step Type .
+
+See also:
+Lists:
+	- LT Plan Write Expansion Plan Text Files
+	- Write Outage Text Files
+	- ST Schedule Step Link Mode
+

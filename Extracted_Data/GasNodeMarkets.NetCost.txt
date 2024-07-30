@@ -1,0 +1,15 @@
+Header: Gas Node Markets Net Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of revenue and cost
+
+Paragraphs:
+Gas Node Markets Net Cost is Net of revenue and cost.
+Lists:
+

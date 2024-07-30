@@ -1,0 +1,15 @@
+Header: Generator Objectives Sync Cond Reserve Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of synchronous condenser reserve provision
+
+Paragraphs:
+Generator Objectives Sync Cond Reserve Coefficient is Coefficient of synchronous condenser reserve provision.
+Lists:
+

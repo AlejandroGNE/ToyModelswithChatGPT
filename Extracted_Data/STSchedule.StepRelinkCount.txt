@@ -1,0 +1,20 @@
+Header: ST Schedule Step Relink Count
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of steps that require relinking of initial conditions in parallel Step Link Mode, where 1 means no relinking
+
+Paragraphs:
+ST Schedule Step Relink Count
+          applies when Step Link Mode = "Parallel".  "Relinking" refers to running an additional pass
+          of selected simulation steps taking into account the initial
+          conditions from the previous step. The steps within in each Sequential
+            Steps block are already linked together by end conditions (of
+          one step) to the initial conditions (of the next step), but outside of
+          those blocks of steps (by default in all steps) the optimization is
+          free to choose initial conditions such as Generator Initial Generation , Initial Units
+            Generating , etc .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Basin End Volume
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Volume of gas in the basin at the end of the period
+
+Paragraphs:
+Gas Basin End Volume is the volume of gas in the basin at the end of the period.
+Lists:
+

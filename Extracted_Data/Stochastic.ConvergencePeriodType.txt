@@ -1,0 +1,15 @@
+Header: Stochastic Convergence Period Type
+
+Table Details:
+Units:	-
+Default Value:	4
+Validation Rule:	In (1,2,3,4,7)
+Description:	Convergent Monte Carlo convergence period type.
+
+Paragraphs:
+The Convergent Monte Carlo is to draw a number of candidate patterns for each final pattern that is used in the simulation and compute a Chi-square statistic based on convergence period type. This means for each candidate pattern it sums up the observed maintenance across the convergence period and compares to the expected maintenance amounts and choose the best fit one. Please note that different Convergent Period Type impacts the pattern. For example, monthly Convergent Period produces patterns such as more frequent outage events but with shorter durations comparing to that produced by Yearly Convergent Period. Carefully choose this period type if Maintenance Factor is user-defined, eg. the patterns might not well capture maintenance requirements specifically by month in a yearly convergence period type setting.
+
+See also:
+Lists:
+	- Convergent Smoothing
+

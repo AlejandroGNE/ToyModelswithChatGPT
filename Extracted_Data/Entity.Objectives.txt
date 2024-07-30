@@ -1,0 +1,11 @@
+Header: Entity Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Entity
+
+Paragraphs:
+Entity Objectives is set of Objectives on the Entity
+Lists:
+

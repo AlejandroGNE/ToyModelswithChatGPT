@@ -1,0 +1,11 @@
+Header: List Facilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Facility objects in the List
+
+Paragraphs:
+List Facilities is set of Facility objects in the List
+Lists:
+

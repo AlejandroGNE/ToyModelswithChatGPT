@@ -1,0 +1,15 @@
+Header: Facility Integerization Horizon
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Number of years over which the expansion decisions are integerized
+
+Paragraphs:
+Facility Integerization Horizon is the number of consecutive years starting at year 1 over which the expansion decisions are integerized. This setting can be used to override the LT Plan Integerization Horizon .
+Lists:
+

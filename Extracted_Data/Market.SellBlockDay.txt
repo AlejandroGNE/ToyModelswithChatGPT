@@ -1,0 +1,15 @@
+Header: Market Sell Block Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for sales across each day
+
+Paragraphs:
+Setting this version of Sell Block instructs PLEXOS that blocks across each day must be taken up together.
+Lists:
+

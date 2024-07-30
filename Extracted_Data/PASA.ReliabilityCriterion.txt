@@ -1,0 +1,27 @@
+Header: PASA Reliability Criterion
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Criterion used to select periods for Monte Carlo reliability analysis
+
+Paragraphs:
+This PASA option relates to the MT
+            Schedule Reliability Chronology feature. Periods
+          are selected for Monte Carlo simulation in MT
+            Schedule based on this setting. Specifically, the statistic is
+          computed for each period (where the period is controlled by PASA Step Type ) and the periods ranked.
+          The top Reliability Max
+            Sample s periods are then selected for Monte Carlo simulation.
+          The statistic used to rank periods is controlled by this option and
+          can take one the following values:
+
+Note that only objects selected for reporting are included in the
+          statistic used to select periods i.e. you can limit the scope
+          of the analysis by adding a filter to the Lists collection of the Report object
+          associated with the running Model . For
+          example. you might want the reliability analysis to apply only to a
+          single Region , Zone or Node .
+Lists:
+

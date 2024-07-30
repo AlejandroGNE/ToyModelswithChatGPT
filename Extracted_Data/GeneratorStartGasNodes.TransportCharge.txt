@@ -1,0 +1,19 @@
+Header: Generator Start Gas Nodes Transport Charge
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of transporting the gas to the generator
+
+Paragraphs:
+Generator Start Gas Nodes Transport Charge is cost of transporting the gas to the generator.
+
+See also:
+Lists:
+	- Generator Start Fuels Transport Charge
+	- Co-optimization of Gas and Power .
+

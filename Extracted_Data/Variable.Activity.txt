@@ -1,0 +1,57 @@
+Header: Variable Activity
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of the left hand side of the equation defining the conditional Variable
+Collection	Parent Object	Child Object	Property	Value	Data File	Units
+Variables	NEM	SA1.Renewables	Condition	=		-
+Variables	NEM	SA1.Renewables	Profile	0		-
+Generator.Conditions	BLUFF1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	CATHROCK	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	CLEMGPWF	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	CNUNDAWF	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	HALLWF1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	HALLWF2	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	HDWF1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	HDWF2	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	HDWF3	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	LGAPWF1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	LKBONNY1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	LKBONNY2	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	LKBONNY3	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	MTMILLAR	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	NBHWF1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	SNOWNTH1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	SNOWSTH1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	SNOWTWN1	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	STARHLWF	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	WATERLWF	SA1.Renewables	Available Capacity Coefficient	1		MW
+Generator.Conditions	WGWF1	SA1.Renewables	Available Capacity Coefficient	1		MW
+
+Paragraphs:
+Variable Activity is the total of
+          the left hand side of the equation defining the conditional Variable. This is the value that is tested against the right-hand side
+          (defined by Profile ) with the
+          given Condition to determine if
+          the expression is true or false.
+
+Reporting the Activity allows you to see the full details of the
+          expression. It is also useful to simply calculate a value based on the
+          coefficients for use in reporting. Additionally, you can set another
+          Variable equal to a conditional Variable and that Variable will take
+          on the Activity (left-hand side) value.
+
+
+
+In this example the left-hand side expression for the Variable
+          "SA1.Renewables" sums up the Available
+            Capacity of several Generator objects. The Variable Value is true
+          if the sum is zero or false otherwise, and Activity is that sum of
+          available capacity.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3129
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Generator <name> band count for Generator Fuels Heat Rate (for <name> = <value>) should equal Generator Load Point band count (<value>).
+
+Paragraphs:
+Message 3129 occurs in the following circumstances:
+Lists:
+

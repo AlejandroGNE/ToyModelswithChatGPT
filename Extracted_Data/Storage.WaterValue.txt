@@ -1,0 +1,73 @@
+Header: Storage Water Value
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental price of water released from storage
+Pukaki	Max Volume	1300	GWh
+Pukaki	Initial Volume	900	GWh
+Pukaki	Water Value	45	$/MWh
+Max Volume	50	GWh	1
+Initial Volume	41	GWh	1
+Water Value	35	$/GWh	1
+Water Value	10000	$/GWh	1
+Water Value	9000	$/GWh	2
+Water Value	500	$/GWh	3
+Water Value	250	$/GWh	4
+Water Value	125	$/GWh	5
+Water Value	90	$/GWh	6
+Water Value	50	$/GWh	7
+Water Value	37.5	$/GWh	8
+Water Value	35	$/GWh	9
+Water Value	-100	$/GWh	10
+Water Value Point	5	GWh	1
+Water Value Point	10	GWh	2
+Water Value Point	15	GWh	3
+Water Value Point	20	GWh	4
+Water Value Point	25	GWh	5
+Water Value Point	30	GWh	6
+Water Value Point	35	GWh	7
+Water Value Point	40	GWh	8
+Water Value Point	45	GWh	9
+Water Value Point	50	GWh	10
+
+Paragraphs:
+Storage Water Value is the price of
+          water at the end of each simulation step (or end-of-horizon for a
+          single step simulation) It can be used as an alternative to setting
+          the End Effects Method .
+          Water Value defaults to units of $/GWh for the Storage "Potential Energy" Model . When using
+          either the "Volume" or "Level" model it is more convenient to use Energy Value ($/MWh) and Energy
+            Value Point (GWh) in combination with the conversion factor
+          (either automatically calculated or input via Downstream
+            Efficiency ) so that the energy value can be converted to native
+          volumes of water in storage.
+
+Example:
+
+Here the storage remaining at the end of the step is valued at $45/ MWh .
+
+Given uncertainty in natural
+            inflow the Water Value is not constant for all volumes of
+          storage. The lower the storage the higher the water value since the
+          risk of running short is high. Likewise when the storage nears full
+          the water value is low due to the risk of spill. You can define a
+          multi-band water value function that discourages release when the
+          storage is low and encourages extra release when it is near full. This
+          is done using the Water Value or Energy
+            Value in combination with Water
+            Value Point as in the following example:
+
+The above example defines 10 storage volume bands at various prices
+          with higher prices for lower storage volumes leading up to negative
+          price for very high volumes. The above example is simplified in that
+          the Water Value bands are constant over time. A more realistic
+          assumption would be that the values are sculpted over time with high
+          penalties for release during periods of low inflow, and vice versa for
+          periods of high inflow.
+Lists:
+

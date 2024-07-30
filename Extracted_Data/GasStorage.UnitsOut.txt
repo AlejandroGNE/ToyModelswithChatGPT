@@ -1,0 +1,18 @@
+Header: Gas Storage Units Out
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Gas Storage Units Out reports if the Storage is on outage.
+
+See also:
+Lists:
+	- Gas Storage Service Factor
+

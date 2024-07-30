@@ -1,0 +1,30 @@
+Header: Storage Balance Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5,6)
+Key Property:	No
+Description:	Frequency of storage balance
+
+Paragraphs:
+Storage Balance Period determines
+          the frequency with which storage balance constraints are enforced in
+          chronological simulation. This setting can take the following values:
+
+Reducing the frequency with which storage is balanced can improve
+          simulation time. The trade off is that between balance periods the
+          storage bounds are not enforced. For example if you set Balance Period
+          = "Day"(1) the storage limits will be enforced only at the end of each
+          day. This approximation might be acceptable for long and mid-term
+          modelling if the speed up in simulation time is significant e.g. in LT Plan run in chronological mode.
+          Another application is in sub-hourly modelling where balancing every
+          interval is expensive computationally and not always necessary.
+
+See also:
+Lists:
+	- Generator Unit
+              Commitment Period
+

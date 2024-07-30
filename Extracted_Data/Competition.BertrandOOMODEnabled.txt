@@ -1,0 +1,15 @@
+Header: Competition Bertrand OOMOD Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If the Bertrand algorithm should seek to maximize profits by out-of-merit-order dispatch.
+
+Paragraphs:
+Competition Bertrand OOMOD Enabled toggles on/off a feature of the Bertrand algorithm that seeks to maximize profits by out-of-merit-order dispatch. This feature is described in the Bertrand (Shadow Pricing) article.
+
+See also:
+Lists:
+	- Competition Bertrand Detect Active Ramp Constraints
+

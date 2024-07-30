@@ -1,0 +1,16 @@
+Header: Gas Transport Formulate Round Trip
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the Gas Transport should return to the Export node before setting out on the next voyage
+
+Paragraphs:
+If Gas Transport Formulate Round Trip is set to Yes, the Gas Transport must return to the Export Node before setting out on the next voyage. 
+			   If Formulate Round Trip is set to No, the Gas Transport can commence its next trip from the Export node without having completed its previous trip.
+Lists:
+

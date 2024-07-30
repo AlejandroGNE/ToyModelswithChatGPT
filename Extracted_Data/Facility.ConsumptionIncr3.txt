@@ -1,0 +1,15 @@
+Header: Facility Consumption Incr3
+
+Table Details:
+Units:	~/~³
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Process consumption function third-order term
+
+Paragraphs:
+Facility Consumption Incr3 is Primary Process consumption function third-order term.
+Lists:
+

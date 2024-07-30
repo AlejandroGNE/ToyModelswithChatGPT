@@ -1,0 +1,18 @@
+Header: Message 5
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Failed to complete solution table indexing <value>. Check the size of the solution database (2GB maximum).
+
+Paragraphs:
+Message 5 occurs only when writing the solution data to Microsoft Access database (MDB) files. The error usually happens when the size of the solution database is too large index i.e. if it were to be indexed its total size would exceed 2GB, which is the limit for databases of this format. Non-indexed databases are slow to query but still contain all the solution data.
+
+To avoid this problem consider either:
+
+See also:
+Lists:
+	- Reducing the number of properties written to the solution database, which is controlled by the Report object.
+	- Use the (default) zipped-XML solution file format, which has no in-built size limit.
+	- Message 11
+

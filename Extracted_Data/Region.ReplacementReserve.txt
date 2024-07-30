@@ -1,0 +1,15 @@
+Header: Region Replacement Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Region Replacement Reserve is Provision of replacement reserve.
+Lists:
+

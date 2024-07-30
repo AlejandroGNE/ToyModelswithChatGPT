@@ -1,0 +1,11 @@
+Header: Message 213
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Ignore (value = 3)
+Description:	Error reporting formulation diagnostics. <value>
+
+Paragraphs:
+Message 213 occurs in the following circumstances:
+Lists:
+

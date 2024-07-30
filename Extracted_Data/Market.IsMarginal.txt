@@ -1,0 +1,24 @@
+Header: Market Is Marginal
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the market sets price on a marginal price basis; rather than block-by-block settlement.
+Energy	Is Marginal	-1	-
+Spin Up	Is Marginal	-1	-
+Waste Heat	Is Marginal	0	-
+
+Paragraphs:
+Market Is Marginal controls how the
+          price is calculated for use in settlements e.g. computing Revenue and Cost . It can take the following
+          values:
+
+The latter (false) setting is suitable for waste heat, fuel, and
+          capacity markets whereas the marginal setting is suitable for energy
+          and ancillary services markets.
+Lists:
+

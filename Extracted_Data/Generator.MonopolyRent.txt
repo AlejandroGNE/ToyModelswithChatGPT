@@ -1,0 +1,38 @@
+Header: Generator Monopoly Rent
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Monopoly rent from competitive bidding
+
+Paragraphs:
+Generator Monopoly Rent is the
+          additional profit earned by the Generator due to the selected dynamic Mark-up /strategic
+          bidding algorithm, and defined as:
+
+Monopoly Rent = ( Pool
+            Revenue - Generation
+            Cost ) - ( Shadow Pool
+            Revenue - Shadow Generation Cost)
+
+Generally this value would be positive, meaning that strategic
+          bidding increased profits, but in some cases it can be negative e.g. if mark-ups are so high that volume is lost.
+
+For Nash-Cournot a negative value can indicate that the simulated
+          solution using the inelastic demand function (fixed level of demand)
+          does not correspond to the equilibrium found against the linear demand
+          curve used in this method.
+
+See also:
+Lists:
+	- Competition Pricing
+              Strategy
+	- Competition RSI
+              Enabled
+	- Competition Equilibrium
+              Model
+

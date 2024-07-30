@@ -1,0 +1,18 @@
+Header: Company Emissions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of emissions produced by the company
+
+Paragraphs:
+The Company Emissions collection is used to associate a company with a set of emissions that it has Grandfather Rights to produce.
+
+Those rights are set by the following:
+Lists:
+	- Allocation HOUR
+	- Allocation DAY
+	- Allocation WEEK
+	- Allocation MONTH
+	- Allocation YEAR
+

@@ -1,0 +1,19 @@
+Header: Reserve Batteries Total Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum reserve response from charge and discharge adjustments
+
+Paragraphs:
+Reserve Batteries Total Response is the maximum reserve response through adjustments to both:
+
+Maximum responses from Generation and Load adjustments can be limited independently through Max Response and Max Charge Response respectively.
+Lists:
+	- a battery's Generation ; and
+	- a battery's Load .
+

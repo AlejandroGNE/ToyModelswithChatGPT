@@ -1,0 +1,34 @@
+Header: PLEXOS Connect 3's Account Permissions
+
+Table Details:
+General Module	Execute Runs	Execute any dataset or jobset or create a quick run	Execute
+Dataset module	Add\Edit	Add, edit or rename any Dataset Folder, Dataset or Dataset Version	Update
+Dataset Module	Remove\Restore	Remove any Dataset Folder, Dataset or Dataset Version or restore any removed Dataset Version	Update
+Dataset Module	Download	Download any Dataset or Dataset Version that the user has access to view	Review
+Dataset Module	Add\Remove Permissions	Grant or Revoke user's access to specific Dataset Folders or internal Dataset permissions	Admin
+Jobset Module	Add\Edit	Add, edit or rename any jobset Folder, Jobset or job	Execute
+Jobset Module	Remove	Remove any Jobset Folder, Jobset or Job	Execute
+Jobset Module	Add\Remove Permissions	Grant or Revoke user's access to specific Jobset Folders	Admin
+Engine Module	Add\Edit	Add or edit any Engine	Update
+Client Module	Add\Edit\Remove	Edit or remove any Connect Client or Folder, add Folders or edit Connect's general settings for Connect Clients	Update
+Client Module	View Live Simulation Output	View the console output of any Connect Client	Review
+Client Module	Add\Edit Cloud Clients	Add or edit any cloud based Connect Client	Admin
+Client Module	Add\Remove Permissions	Grant or Revoke a user's ability to edit or view output of any client	Admin
+Client Module	Add\Edit	Add or Edit any Account, Group or Role	Admin
+Account Module	Remove	Remove any Account, Group or Role	Admin
+Account Module	Add\Remove Solution Permissions	Grant or Revoke a user's access to specific PLEXOS Solution properties	Admin
+Runs Module	Stop\Resume\Modify	Stop and resume, change the priority or lock and unlock any Run	Execute
+Runs Module	Remove\Restore	Remove or restore any Run or Deleted Run	Update
+Runs Module	Download	Download the solution, summary, log or any other file from a Run or Deleted Run	Review
+License Module	View	View the general licensing information from the Connect Server's license Server	Update
+license Module	Add\Edit\Remove Rules	Add, edit or remove any license reservation, group or access rule	Admin
+Task Schedular Module	Configure Settings	Configure the SMTP email settings for the Connect Server's Task Schedular system	Admin
+Task Schedular Module	Add\Edit\Remove	Add, edit or remove scheduled tasks	Update
+Task Schedular Module	View\Edit\Remove all	View, edit or remove the scheduled tasks made by other users	Admin
+
+Paragraphs:
+This article aims to provide a list of permissions that are available in the PLEXOS Connect 3 system. Since these permissions may change, you can view the list of permissions available in your version of the PLEXOS Connect Server by opening the account control panel and adding or editing a user role.
+
+Note: The default roles are intended to be additive, for example: the admin group is the combination of the roles: Review+Execute+Update+Admin.
+Lists:
+

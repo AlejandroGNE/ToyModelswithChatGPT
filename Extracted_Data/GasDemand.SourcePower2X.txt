@@ -1,0 +1,11 @@
+Header: Gas Demand Source Power2X
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Demand has Source Power2X objects which deliver gas to the Gas Demand.
+Lists:
+

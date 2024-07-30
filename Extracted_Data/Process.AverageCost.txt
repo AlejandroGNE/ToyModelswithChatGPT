@@ -1,0 +1,18 @@
+Header: Process Average Cost
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average cost of production
+
+Paragraphs:
+Process Average Cost is the average
+          cost of production, and is defined as:
+
+Average Cost = Cost / Production
+Lists:
+

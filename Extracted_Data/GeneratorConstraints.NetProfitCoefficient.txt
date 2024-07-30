@@ -1,0 +1,21 @@
+Header: Generator Constraints Net Profit Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of net profit
+
+Paragraphs:
+Generator Constraints Net Profit Coefficient is Coefficient of net profit.
+
+See also:
+Lists:
+	- Generator Constraints Pool Revenue Coefficient
+	- Generator Constraints Net Revenue Coefficient
+	- Generator Constraints Start&Shutdown Cost Coefficient
+	- Generator Constraints Fixed Costs Coefficient
+

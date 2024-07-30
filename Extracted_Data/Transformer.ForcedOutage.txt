@@ -1,0 +1,21 @@
+Header: Transformer Forced Outage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity forced out
+
+Paragraphs:
+Transformer Forced Outage is the capacity forced out.
+
+See also:
+Lists:
+	- Transformer Units
+                        Out
+	- Transformer Maintenance
+	- Transformer Forced Outage Rate
+

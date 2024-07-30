@@ -1,0 +1,17 @@
+Header: Interface Limit Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of limits
+
+Paragraphs:
+Interface Limit Penalty is used to make the limit on interface flows 'soft' i.e. the limit can be violated at a unit cost equal to the penalty price. The violation incurred is reported in the Violation and Violation Back properties.
+
+Note that this penalty appears in the optimization's objective function, thus if a violation occurs the penalty price will affect the locational marginal prices and rents generated on the interface.
+Lists:
+

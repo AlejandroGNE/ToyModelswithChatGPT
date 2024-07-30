@@ -1,0 +1,15 @@
+Header: Power2X Bid Base
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Base load for balancing bid
+
+Paragraphs:
+Power2X Bid Base is the base load for balancing bid.
+Lists:
+

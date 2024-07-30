@@ -1,0 +1,11 @@
+Header: Message 3049
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	EEI File <name> has record length <value>, expected 80 or 82.
+
+Paragraphs:
+Message 3049 occurs in the following circumstances:
+Lists:
+

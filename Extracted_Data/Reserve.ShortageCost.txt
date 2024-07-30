@@ -1,0 +1,19 @@
+Header: Reserve Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of Reserve Shortage.
+
+Paragraphs:
+Reserve Shortage Cost is the cost of Reserve Shortage , and is defined as:
+
+See also:
+Lists:
+	- Reserve Shortage
+	- Reserve Hours of Shortage
+

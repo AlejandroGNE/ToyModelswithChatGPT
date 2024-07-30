@@ -1,0 +1,11 @@
+Header: Message 158
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Error (value = 0)
+Description:	Constraint <name> Lines <name> cannot define both Constraint Lines [Export Capacity Built Coefficient] together with Constraint Lines [Import Capacity Built Coefficient].
+
+Paragraphs:
+Message 158 occurs in the following circumstances:
+Lists:
+

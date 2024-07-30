@@ -1,0 +1,12 @@
+Header: Facility Flow Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Set of Flow Nodes the Facility connects to
+
+Paragraphs:
+Facility Flow Nodes is the set of Flow Node objects the Facility
+          connects to. The Facility can either consume or produce the Commodity flowing on that network depending on the Process objects associated with the Facility.
+Lists:
+

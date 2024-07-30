@@ -1,0 +1,15 @@
+Header: Gas Contract Differential Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of basis differential costs for Gas Contract
+
+Paragraphs:
+Gas Contract Differential Cost is Total of basis differential costs for Gas Contract.
+Lists:
+

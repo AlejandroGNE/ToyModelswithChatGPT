@@ -1,0 +1,19 @@
+Header: Transmission Right Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Company's share of the transmission right
+FTR_1	GENCO_A	Share	67	%
+FTR_1	GENCO_B	Share	33	%
+
+Paragraphs:
+Settlement from the Transmission Right is shared between the owning companies according to the Share.
+
+Example
+Lists:
+

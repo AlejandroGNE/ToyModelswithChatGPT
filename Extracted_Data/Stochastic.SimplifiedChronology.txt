@@ -1,0 +1,14 @@
+Header: Stochastic Simplified Chronology
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the chronology is simplified to one block per stage during Rolling Horizon iterations
+
+Paragraphs:
+Flag if the chronology is simplified to one block per stage during
+          Rolling Horizon iterations except for the final deterministic pass, in
+          which the chronology is not simplified.
+Lists:
+

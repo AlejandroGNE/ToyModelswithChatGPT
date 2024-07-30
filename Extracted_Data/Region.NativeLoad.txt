@@ -1,0 +1,15 @@
+Header: Region Native Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Native load
+
+Paragraphs:
+Region Native Load is the total native load that occurred in the region defined as:
+Lists:
+

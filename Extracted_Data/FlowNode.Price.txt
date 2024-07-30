@@ -1,0 +1,19 @@
+Header: Flow Node Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Market price
+
+Paragraphs:
+Flow Node Price is the Market Price of the Commodity flowing on the Flow Network in any Markets attached to the Flow Node.
+
+See also:
+Lists:
+	- Flow Node Shadow
+              Price
+

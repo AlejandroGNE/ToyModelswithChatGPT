@@ -1,0 +1,19 @@
+Header: Water Pump Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of shutting down a unit
+
+Paragraphs:
+Water Pump Shutdown Cost is the cost of shutting down a unit. 
+          The cost of shutting down a unit is reported in the property Start & Shutdown Cost .
+
+See also:
+Lists:
+	- Water Pump Start Cost
+

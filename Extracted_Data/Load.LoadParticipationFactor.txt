@@ -1,0 +1,21 @@
+Header: Load Load Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Proportion of company load that occurs at a node
+Company_1	Load	100		MW	1			
+Load_1	Load Participation Factor	0.3		-	1			
+Load_2	Load Participation Factor	0.2		-	1			
+Load_3	Load Participation Factor	0.5		-	1			
+
+Paragraphs:
+Load Load Participation Factor is the proportion of Company Load that occurs at a node. Let's say that a company (Company_1) serves three customers Load_1, Load_2, and Load_3 at nodes Node_1, Node_2, and Node_3, respectively. Let the total load served by the company be equal to 100 MW and Load_1, Load_2, Load_3 be 30 MW, 20 MW, and 50 MW, respectively.
+
+The following example shows how to input the above data using Company and Load .
+Lists:
+

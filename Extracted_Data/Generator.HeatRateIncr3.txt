@@ -1,0 +1,15 @@
+Header: Generator Heat Rate Incr3
+
+Table Details:
+Units:	GJ/MWh³ (Metric), Btu/kWh³ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Third-order polynomial term in unit fuel use function
+
+Paragraphs:
+Generator Heat Rate Incr3 is the third-order heat rate term used in defining the heat rate function .
+Lists:
+

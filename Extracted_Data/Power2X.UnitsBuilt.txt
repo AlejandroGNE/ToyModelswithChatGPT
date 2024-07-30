@@ -1,0 +1,15 @@
+Header: Power2X Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units built
+
+Paragraphs:
+Power2X Units Built is the Number of units built.
+Lists:
+

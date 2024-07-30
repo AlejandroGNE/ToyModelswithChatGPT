@@ -1,0 +1,15 @@
+Header: Emission Gross Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions prior to removal or abatement
+
+Paragraphs:
+Emission Gross Production is production of the emission prior to Removal or Abatement .
+Lists:
+

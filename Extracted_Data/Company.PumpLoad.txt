@@ -1,0 +1,15 @@
+Header: Company Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load drawn by pump storage generators
+
+Paragraphs:
+Company Pump Load is the total pump load from generators the company has a share of, and is defined as:
+Lists:
+

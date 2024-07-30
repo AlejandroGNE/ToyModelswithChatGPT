@@ -1,0 +1,17 @@
+Header: Generator Constraints Generation SUM Squared Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the square of the summed generation
+
+Paragraphs:
+Generator Constraints Generation SUM Squared Coefficient is a variation of Generation
+            Squared Coefficient whereby the Taylor Expansion excludes the
+          constant term.
+Lists:
+

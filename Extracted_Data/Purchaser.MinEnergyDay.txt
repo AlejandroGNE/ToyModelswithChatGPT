@@ -1,0 +1,15 @@
+Header: Purchaser Min Energy Day
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum energy in day
+
+Paragraphs:
+This is the daily equivalent of Purchaser Min Energy .
+Lists:
+

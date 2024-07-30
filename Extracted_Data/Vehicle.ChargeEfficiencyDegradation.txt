@@ -1,0 +1,20 @@
+Header: Vehicle Charge Efficiency Degradation
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Degradation in charge efficiency with age in number of cycles
+
+Paragraphs:
+Vehicle Charge Efficiency Degradation is the percentage of original nameplate charge efficiency lost with each battery cycle completed
+                (see Vehicle Age ).
+
+The cycles accumulated in each step induce degradation for the following steps (no degradation occurs wihin a single step).
+
+See also Vehicle Discharge Efficiency Degradation .
+Lists:
+

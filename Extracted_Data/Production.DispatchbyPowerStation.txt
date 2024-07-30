@@ -1,0 +1,14 @@
+Header: Production Dispatch by Power Station
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If generators in power stations should be treated in aggregate for dispatch.
+
+Paragraphs:
+Production Dispatch By Power Station switches on/off aggregation of generators into power stations , and can take the following values:
+
+The aggregation is done during preprocessing of data and applies to the entire simulation. Aggregating generators this way can reduce the size of the mathematical problem solved in the simulation and hence improve performance.  To make use of this facility you must first defined Power Station objects.
+Lists:
+

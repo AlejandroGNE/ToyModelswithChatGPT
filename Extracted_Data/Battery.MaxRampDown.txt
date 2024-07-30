@@ -1,0 +1,17 @@
+Header: Battery Max Ramp Down
+
+Table Details:
+Units:	MW/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum ramp down rate
+
+Paragraphs:
+Battery Max Ramp Down sets a limit on the amount that generation can decrease and is expressed as the maximum ramp down rate in megawatts per minute.
+
+See Generator Max Ramp Down for additional details.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Variable Include in LT Plan
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the condition is allowed to be active in the LT Plan phase.
+
+Paragraphs:
+Variable Include in LT Plan decides if the condition is allowed to be active in the LT Plan phase. See Include in ST Schedule for examples.
+
+See also:
+Lists:
+	- Variable Include in PASA
+	- Variable Include in MT Schedule
+	- Variable Include in ST Schedule
+

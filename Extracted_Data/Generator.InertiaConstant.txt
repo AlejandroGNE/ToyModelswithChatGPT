@@ -1,0 +1,43 @@
+Header: Generator Inertia Constant
+
+Table Details:
+Units:	s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Stored energy per unit of capacity
+
+Paragraphs:
+Generator Inertia Constant
+          represents how much stored energy the generator has per unit of capacity .
+          This means the inertia constant represents how long the generator
+          could generate at its rated power using only its stored rotational
+          kinetic energy, so the inertia constant is measured in units of
+          seconds. A 1-GW generator with an inertia constant of 4 seconds could
+          deliver 1 GW of power for 4 seconds (or has 4 GW⋅s of stored energy).
+          Typical power plants have inertia constants in the range of 2 to 7
+          seconds, with hydro plants having the lowest inertia, and gas plants
+          having the highest inertia per unit of capacity.
+
+The Inertia Constant must be defined for a generator to provide
+          inertia to a Reserve of Type = "Inertia". The generator provides inertia whenever it is operating,
+          which includes generating, pumping (for pumped storage) or when
+          operating as a synchronous condenser (see Sync
+            Cond Units ). The total amount of inertia available is thus equal
+          to:
+
+Inertia (MW⋅s) = Inertia Constant (s) ×
+          Max Capacity (MW) × ( Units
+            Generating + Units Pumping + Units Sync Cond )
+
+See also:
+Lists:
+	- Battery Inertia
+              Constant
+	- Power2X Inertia
+              Constant
+	- Vehicle Inertia
+              Constant
+

@@ -1,0 +1,18 @@
+Header: Zone Emissions Removal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission removal
+
+Paragraphs:
+Zone Emissions Removal Cost is the cost of emissions removed by Generators in the Zone for this Emission as a function of the Emission Generators Removal Rate and Removal Cost . It is
+          calculated as:
+
+where: j indexes the Emission .
+Lists:
+

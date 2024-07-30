@@ -1,0 +1,11 @@
+Header: Message 3058
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Error interpreting Holiday on band <value>. Could not locate holiday start date in year <value>.
+
+Paragraphs:
+Message 3058 occurs in the following circumstances:
+Lists:
+

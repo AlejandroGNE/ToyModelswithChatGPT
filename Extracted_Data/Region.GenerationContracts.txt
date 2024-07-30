@@ -1,0 +1,13 @@
+Header: Region Generation Contracts
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Generation Contracts is the set of generation Physical Contracts in the Region. This collection is reserved for reporting only.
+
+The membership between a Region and a Physical Contract is implied by the Generation Node membership.
+Lists:
+

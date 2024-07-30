@@ -1,0 +1,11 @@
+Header: List Cournots
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Cournot objects in the List
+
+Paragraphs:
+List Cournots is set of Cournot objects in the List
+Lists:
+

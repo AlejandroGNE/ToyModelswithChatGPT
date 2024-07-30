@@ -1,0 +1,15 @@
+Header: Line Objectives Spare Import Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on spare line capacity in the counter-reference direction
+
+Paragraphs:
+Line Objectives Spare Import Capacity Coefficient is Coefficient on spare line capacity in the counter-reference direction.
+Lists:
+

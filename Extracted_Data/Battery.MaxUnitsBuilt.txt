@@ -1,0 +1,42 @@
+Header: Battery Max Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of BESS units that can be built
+New Battery	Units	0	-
+New Battery	Build Cost	500	$/kW
+New Battery	Max Units Built	2	-
+New Battery	Capacity	2	MWh
+New Battery	Max Power	10	MW
+New Battery	Units	1	-
+New Battery	Capacity	2	MWh
+New Battery	Max Power	10	MW
+New Battery	Units	2	-
+New Battery	Capacity	4	MWh
+New Battery	Max Power	20	MW
+
+Paragraphs:
+Battery Max Units Built sets an upper limit on the number of new units that LT Plan is allowed to build in total across the entire planning horizon.
+
+Note: This property must be defined for expansion candidates, otherwise the LT Plan will build no units by default.
+
+You can control when the new build is allowed to occur either by using the Project Start Date property or by using Max Units Built with a Date From tag.
+
+Max Units Built can be more than one to represent a multi-unit BESS. For example, you might want to increase the number of units that is allowed to be built over time. However, it is important to note that Max Units Built is a cumulative number, so the dated series of values must be monotonically non-decreasing.
+
+In a BESS system the capacity built is reflected in both the Capacity and Max Power values.  Therefore any capacity built will increase the Capacity and Max Power values of the BESS.  Each unit built acts as an incremental increase in these property values.
+
+Example:
+
+If one unit was built then the available BESS power and capacity would be:
+
+If two units were built then the available BESS power and capacity would be:
+
+See also: Capacity Expansion Planning , Generator Max Units Built
+Lists:
+

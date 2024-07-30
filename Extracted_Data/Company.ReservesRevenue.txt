@@ -1,0 +1,15 @@
+Header: Company Reserves Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from provision of reserves
+
+Paragraphs:
+Company Reserves Revenue is the total income earned by the company's generators and purchasers for providing ancillary services (reserves) plus income earned by selling ancillary services to external markets , and is defined as:
+Lists:
+

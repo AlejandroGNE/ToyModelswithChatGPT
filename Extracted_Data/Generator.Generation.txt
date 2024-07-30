@@ -1,0 +1,27 @@
+Header: Generator Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation
+
+Paragraphs:
+Generator Generation is the
+          megawatt generation (or 'load') on the facility. For multi-unit
+          generators it is the total generation across all Units
+            Generating . By convention the 'gross' or 'generator-terminal'
+          generation figure is reported i.e. including Auxiliary
+            Use .
+
+See also:
+Lists:
+	- Generator Generation
+              Sent Out
+	- Generator Initial
+              Generation
+	- Setting Emission Production Using Load Points and Bands
+

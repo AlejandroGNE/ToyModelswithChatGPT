@@ -1,0 +1,15 @@
+Header: Generator Fuels Heat Rate Incr
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Average marginal heat-rate in band
+
+Paragraphs:
+Generator Fuels Heat Rate Incr is the fuel-specific version of Heat Rate Incr .
+Lists:
+

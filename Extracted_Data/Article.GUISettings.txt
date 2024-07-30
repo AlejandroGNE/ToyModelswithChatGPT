@@ -1,0 +1,161 @@
+Header: Settings
+
+Table Details:
+1 acre	43,560 square feet
+1 feet	0.3048 metres
+1 cubic metre	35.3146667
+1 acre-feet	1233.489238
+1 cubic metre per second (cumecs)	4600 cubic metres per second
+1 acre-feet	0.3426
+1 cumecs	2.9186 acre-feet
+1 cumec day (CMD)	86400 cubic metres
+1 CMD	24 cumecs
+1 CMD	70.0456 acre-feet
+
+Paragraphs:
+The settings form controls the following preferences related to the current database:
+
+The simulator supports tow unit systems (metric and Imperial US) and, within that, three systems for defining hydro data. In addition you may change the unit for electric load and energy e.g. switch form megawatt (MW) to kilowatt (kW) for small systems.
+
+It is important to note that the simulator uses the symbols you enter for units only as labels. It does not attempt to interpret the labels. Thus if you change the electric load unit from the default megawatt (MW) to kilowatt (kW) you must also change the other system units so that the relativity between units is maintained. This is illustrated in Figure 2 where the electric load unit has been changed to kW and all other units have been scaled down three orders of magnitude.
+
+Defines:
+
+Defines:
+
+Three key calculations are affected by the selected units system:
+
+The Hydro Model selection affects the units used to define hydro storage and hydro generator efficiency . There are three options available:
+
+This model makes these assumptions:
+
+Hence, this model is suitable only for simple 'linear' cascaded systems.
+
+The Level Model uses elevations (e.g. above sea level) and reference areas. In metric mode the storage elevations are in metres (m), storage volumes are measured in thousands of cubic metres, and flows are measured in cubic metres per second (cumecs). In imperial mode the storage elevations are in feet (ft), storage volumes are measured in thousands of cubic feet, and flows are measured in cubic feet per second (ft3/sec). In this model, storages are assumed to form a trapezoid shape (defined by the properties Low Ref Level, Low Ref Area). Unlike the potential energy model, here you must define the efficiency of generation using Efficiency Incr and Efficiency Base. Generator efficiencies are measured in megawatts per cubic metres per second (MW/cumec) in metric mode, and in megawatts per cubic feet per second (MW/ft3/sec) in imperial mode.
+
+In the Volume model, the unit of storage is a volume of water, rather than levels or potential energy. Hence you must define the efficiency of generation using Efficiency Incr and Efficiency Base. In metric mode:
+
+In imperial mode:
+
+Locks or unlocks the Configuration window. Locking this prevents the user from enabling or disabling features such as collections and properties or changing the dynamic/static status of properties. The Configuration screen is still accessible but is placed in a read-only state.
+
+Locks or unlocks the Objects grid. Locking this prevents adding, deleting, editing or renaming any object. The Objects grid is placed in a read-only state as are the name, category and description controls on the class forms.
+
+Locks or unlocks the Memberships grid. Locking this prevents adding, deleting or editing memberships.
+
+Locks or unlocks object attributes. This applies particularly to simulation settings pages. Locking this prevents the user from changing simulation options such as Production or Transmission settings.
+
+Locks or unlocks properties. Locking this prevents adding, deleting or editing properties. There are two levels to this control as described below. The Scenario Locked attribute allows you to choose which data can be edited and which are locked. For data that are not marked with a Scenario the Properties Lock option directly controls the lock/unlock status. But for data marked with a Scenario the Scenario attribute Locked controls the locking. The row marker for the Properties Grid shows a lock symbol for the rows that are locked (the base data). The Scenario data are by default Unlocked. The locks are enabled or disabled by sliding the lock image across the slider control. Figure 3 shows the options all in the locked state.
+
+The unique identifier for the message.
+
+An indication of the severity of the issue described in the message. The levels of severity are described below.
+
+The action that the simulator normally takes this message.
+
+The action you prefer the simulator to take for this message. Only the Action field can be edited. You may choose one of the following:
+
+An error is raised when this message appears. The error will stop the simulation immediately.
+
+A warning is produced every time this message is raised by the simulator.
+
+A warning is produced only the first time this message appears in any one simulation
+
+The message is hidden during the simulation and only listed along with the number of occurrences at the end of the simulation. When the Action is changed from default the corresponding row in the table is shown in bold text as in Figure 5 where Message 210 Action has been changed from "Warn" to "Error". You can use the "Reset Defaults" command button to restore all messages to their default actions.
+
+This error either cannot or should not be ignored. In most cases the simulation cannot continue until this error is rectified.
+
+This issue could seriously affect either the simulation performance and/or results though the simulation can continue.
+
+This issue might not affect the simulation results but is serious enough to warrant a warning message.
+
+This message is provided for information only. At the end of every Model log a listing is given of all messages raised by the simulator - regardless of the Action setting. This log table lists, the message, number, severity, action taken and the number of times the message arose. Thus even if you choose to ignore a message during the simulation you may still see the number of times it would have appeared from this table. An example is below:
+
+Custom messages can be defined in a PLEXOS database to be used by PLEXOS Engine during execution. This allows you to add your own conditions to the PLEXOS engine, preventing simulations from continuing or creating warnings if specific conditions are met. When creating a new custom message, you will be able to define:
+
+The message field accepts macros, allowing messages to have the actual values from during the simulation be displayed in the message when its condition is met. These macros are all listed underneath the message field and clicking any of the macro buttons will insert that macro into the message. As an example using the first custom message rule from the image above, the message '{lhs_child} ({lhs}) is not equal to {rhs_child} ({rhs}) in period {p}.' may get changed to 'Gen1 (20) is not equal to Region1 (30) in period 3.' The custom messages can also be imported and exported by selecting the 'Import' or 'Export' button in the ribbon menu. This allows you to use the same custom messages across multiple different databases. Please note that any custom messages with duplicated number values will be overwritten by the imported value.
+
+
+
+
+
+
+
+Custom columns can be added to the Object grid to store additional information for each object. Select which class you want to annotate and add any number of additional information columns to appear in the object grid.
+
+Custom columns can also be imported or exported by selecting the 'Import' or 'Export' buttons on the ribbon menu. Any duplicate column names in the importing file will be ignored during the import process. Note that the 'Import' button will only be enabled when the 'custom columns' tab is selected, and the 'Export' button will be enabled only when the 'custom columns' tab is selected and the input database contains any custom column in it. After a successful import or export the system will pop-out a confirmation dialog box.
+Lists:
+	- Incremental heat rates in giga-joules (Gj) per megawatt-hour (MWh) e.g. 9.5 GJ/MWh.
+	- Heat rate base values (no-load cost) in GJ e.g. 200 GJ/hr
+	- Fuel prices in dollars (or other currency) per giga-joule ($/GJ)
+	- Total fuel use is in tera-joules (TJ)
+	- Emissions production in kilograms (kg)
+	- Total emissions in tonnes (where one tonne = 1000 kg)
+	- Heat rates in British thermal units per kilowatt-hour (BTU/kWh)
+	- Heat rate base values (no-load-cost) in millions of BTU (MMBTU)
+	- Fuel prices in dollars per million BTU ($/MMBTU)
+	- Total fuel use is in millions of BTU (MMBTU)
+	- Emissions in pounds (ib)
+	- Total emissions in short (US) tons (where one ton = 2000 ib)
+	- Storage volume in cubic metre days (CMD).
+	- Flows in cubic metres per second (cumec).
+	- Generator efficiencies in megawatt per cubic metres per second (MW/cumec).
+	- Storage volumes in acre-feet (AF).
+	- Flows in acre-feet per hours (AF/hr).
+	- Generator efficiencies in kilowatt hours per acre-feet (kWh/AF).
+	- The action to take when the condition is met, this is the same as above in 'messages' (ie, 'Warn', 'Error', etc).
+	- Left hand side of the equation as a property.
+	- Right hand side can be defined and right hand should be equal, not equal, etc.
+	- Whether the left hand and right hand should be equal, not equal, etc.
+	- A message to be displayed when the condition is true.
+	- Class specifies the class of the simulation object
+	- Name uniquely identifies the object of type Class which is being modified
+	- Attribute specifies the attribute which is being modified
+	- Value specifies the value the attribute is being changed to
+	- Save the database to access the Undocumented Parameters editor.  If the database is not save, the screen is greyed out.
+	- Anything specified in the Class and Attribute tags in "PLEXOS_Param.xml" must conform to the names used in "class_id" and "name".
+	- All values in the Value tags are to be of type double.
+	- All date information uses a format called the OLE Automation Date. It's a floating point number, which is the number of days since 31st December, 1899. It is easy to obtain that number using Excel by formatting a cell as a number and it will automatically convert the date (i.e., 1/12/2022 to 44573.416).
+	- If any simulation objects use foreign characters in their name, please ensure PLEXOS_Param.xml is saved with UTF-8 encoding. To save a text file as UTF-8 will depend on the text editor you use, but almost all text editors, even Windows' Notepad, has an option for how to encode text. UTF-8 is usually the default anyway. In Notepad, when you go to save, you will see the following option:
+	- Caution is advised when changing attributes as some might require other attributes to be modified that might not be obvious at first.
+
+
+H2s:
+Contents
+1. Introduction
+2. Unit systems for entering Data
+3. Locks
+4. Messages
+5. Custom Messages
+6. Undocumented Parameters
+7. Custom Columns
+7. Assemblies
+
+H3s:
+2.1. Electric Load and Energy
+2.2. Metric
+2.3. Imperial U.S.
+2.4. Hydro Model
+2.4.1. Energy
+2.4.2. Level
+2.4.3. Volume
+2.4.4. Hydro Unit Conversions
+
+H5s:
+Configuration
+Objects
+Memberships
+Attributes
+Properties
+Number
+Severity
+Default Action
+Action
+Error (value = 0)
+Warn (value = 1)
+Warn Once (value =2)
+Ignore (value =3)
+Fatal (value=1)
+Serious (value = 2)
+Moderate (value = 3)
+Minor (value = 4)

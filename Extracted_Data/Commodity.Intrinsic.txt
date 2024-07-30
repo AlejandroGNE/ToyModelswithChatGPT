@@ -1,0 +1,12 @@
+Header: Commodity Intrinsic
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4)
+Description:	Intrinsic Commodity
+
+Paragraphs:
+The Commodity Intrinsic input defaults to None, but can also be set to Electricity, Heat, Gas, or Water. The benefit of choosing a specific type is that Universal objects can connect directly to a Node , Heat Node , Gas Node , or Water Node seamlessly.
+Lists:
+

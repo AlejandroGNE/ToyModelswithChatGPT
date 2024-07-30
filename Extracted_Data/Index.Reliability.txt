@@ -1,0 +1,30 @@
+Header: Reliability Index
+
+Table Details:
+EFC Convergence Threshold	%	False	1	≥0	False	Convergence criteria for Reliability evaluation.
+EFC Initial Estimate	MW	False	0	≥0	False	Initial Firm Capacity Estimate for the set of generators associated with the Reliability object.
+EFC Risk Metric	-	False	0	In (0,1)	False	Risk Metric for EFC evaluation.
+Max EFC Iterations	-	False	20	≥0	False	Maximum number of ST Schedule iterations for EFC evaluation.
+Perform EFC Evaluation	Yes/No	False	0	In (0,1)	False	Flag indicating if the EFC should be evaluated for the Reliability object.
+Simplify Generator Properties	Yes/No	False	0	In (0,1)	False	Flag indicating if Generator properties should be ignored for the model.
+Skip Steps	Yes/No	False	0	In (0,1)	False	Indicates steps that should be skipped.
+x	-	True	0		False	Value to pass-through to a solution.
+y	-	True	0		False	Value to pass-through to a solution
+z	-	True	0		False	Value to pass-through to a solution
+Firm Capacity Contribution  - MW	Firm Capacity Contribution - MW	-	LT Plan, MT Schedule, ST Schedule	True	Firm Capacity Contribution
+x	x	Pass-through	LT Plan, MT Schedule, ST Schedule	True	Value to pass-through to a solution.
+y	y	Pass-through	LT Plan, MT Schedule, ST Schedule	True	Value to pass-through to a solution
+z	z	Pass-through	LT Plan, MT Schedule, ST Schedule	True	Value to pass-through to a solution
+
+Paragraphs:
+Reliability Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description EFC Convergence Threshold % False 1 ≥0 False Convergence criteria for Reliability evaluation. EFC Initial Estimate MW False 0 ≥0 False Initial Firm Capacity Estimate for the set of generators associated with the Reliability object. EFC Risk Metric - False 0 In (0,1) False Risk Metric for EFC evaluation. Max EFC Iterations - False 20 ≥0 False Maximum number of ST Schedule iterations for EFC evaluation. Perform EFC Evaluation Yes/No False 0 In (0,1) False Flag indicating if the EFC should be evaluated for the Reliability object. Simplify Generator Properties Yes/No False 0 In (0,1) False Flag indicating if Generator properties should be ignored for the model. Skip Steps Yes/No False 0 In (0,1) False Indicates steps that should be skipped. x - True 0 False Value to pass-through to a solution. y - True 0 False Value to pass-through to a solution z - True 0 False Value to pass-through to a solution Reliability Output Properties Name Summary Name Property Group Phases Multi-band Description Firm Capacity Contribution - MW Firm Capacity Contribution - MW - LT Plan, MT Schedule, ST Schedule True Firm Capacity Contribution x x Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution. y y Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution z z Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution
+
+Name Units Multi-band Default Value Validation Rule Key Property Description EFC Convergence Threshold % False 1 ≥0 False Convergence criteria for Reliability evaluation. EFC Initial Estimate MW False 0 ≥0 False Initial Firm Capacity Estimate for the set of generators associated with the Reliability object. EFC Risk Metric - False 0 In (0,1) False Risk Metric for EFC evaluation. Max EFC Iterations - False 20 ≥0 False Maximum number of ST Schedule iterations for EFC evaluation. Perform EFC Evaluation Yes/No False 0 In (0,1) False Flag indicating if the EFC should be evaluated for the Reliability object. Simplify Generator Properties Yes/No False 0 In (0,1) False Flag indicating if Generator properties should be ignored for the model. Skip Steps Yes/No False 0 In (0,1) False Indicates steps that should be skipped. x - True 0 False Value to pass-through to a solution. y - True 0 False Value to pass-through to a solution z - True 0 False Value to pass-through to a solution Reliability Output Properties Name Summary Name Property Group Phases Multi-band Description Firm Capacity Contribution - MW Firm Capacity Contribution - MW - LT Plan, MT Schedule, ST Schedule True Firm Capacity Contribution x x Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution. y y Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution z z Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution
+
+Reliability Output Properties Name Summary Name Property Group Phases Multi-band Description Firm Capacity Contribution - MW Firm Capacity Contribution - MW - LT Plan, MT Schedule, ST Schedule True Firm Capacity Contribution x x Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution. y y Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution z z Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution
+
+Name Summary Name Property Group Phases Multi-band Description Firm Capacity Contribution - MW Firm Capacity Contribution - MW - LT Plan, MT Schedule, ST Schedule True Firm Capacity Contribution x x Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution. y y Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution z z Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution
+
+Name Summary Name Property Group Phases Multi-band Description Firm Capacity Contribution - MW Firm Capacity Contribution - MW - LT Plan, MT Schedule, ST Schedule True Firm Capacity Contribution x x Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution. y y Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution z z Pass-through LT Plan, MT Schedule, ST Schedule True Value to pass-through to a solution
+Lists:
+

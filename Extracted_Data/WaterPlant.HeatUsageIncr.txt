@@ -1,0 +1,15 @@
+Header: Water Plant Heat Usage Incr
+
+Table Details:
+Units:	GJ/m³ (Metric), MMBtu/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	First-order polynomial term in unit fuel use function (marginal heat rate)
+
+Paragraphs:
+Water Plant Heat Usage Incr is First-order polynomial term in unit fuel use function (marginal heat rate).
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Diagnostic Decimal Places LP
+
+Table Details:
+Units:	-
+Default Value:	6
+Validation Rule:	≥0
+Description:	Generic writer decimal places for LP file writing
+
+Paragraphs:
+The decimal places attribute dictates the number of digits used in the scientific notation representation, as produced by the Generic Writer .
+
+See also:
+Lists:
+	- Use Generic Writer
+	- Sort Row Column Names
+	- Standardize Names
+	- Zero Tolerance LP
+	- Zero Tolerance SOL
+	- Decimal Places SOL
+	- Skip Zero Values
+	- Strip Model Name
+

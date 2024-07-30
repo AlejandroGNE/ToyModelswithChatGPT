@@ -1,0 +1,15 @@
+Header: Generator Investment Tax Credit
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage of the annualized build cost to apply to investment credit
+
+Paragraphs:
+Generator Investment Tax Credit is percentage of the annualized build cost to apply to investment credit.  The credit is directly applied to the build cost and will be reflected in output properties and diagnostics.
+Lists:
+

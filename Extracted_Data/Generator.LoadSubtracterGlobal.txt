@@ -1,0 +1,20 @@
+Header: Generator Load Subtracter Global
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If [Load Subtracter] applies across all units or unit-by-unit
+
+Paragraphs:
+Generator Load Subtracter Global
+          controls how the Load Subtracter property is interpreted for multi-unit generators. It can take the
+          following values:
+
+The value is subtracted from the load regardless of
+          the number of Units installed.
+Lists:
+

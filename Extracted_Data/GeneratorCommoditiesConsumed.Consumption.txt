@@ -1,0 +1,15 @@
+Header: Generator Commodities Consumed Consumption
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumption of the Commodity by the Generator
+
+Paragraphs:
+Generator Commodities Consumed Consumption is the consumption of the Commodity by the Generator.
+Lists:
+

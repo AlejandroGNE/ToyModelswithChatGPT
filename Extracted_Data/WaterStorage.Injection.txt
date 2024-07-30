@@ -1,0 +1,18 @@
+Header: Water Storage Injection
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of water injected into the water storage
+
+Paragraphs:
+Water Storage Injection is quantity of water injected into the water storage.
+
+See also:
+Lists:
+	- Water Storage Withdrawal
+

@@ -1,0 +1,35 @@
+Header: Constraint RHS Custom
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Right hand side value over any custom period (000)
+Constraint ( Max Gas 2010 )	Sense	<=	-		
+Constraint ( Max Gas 2010 )	RHS Custom	6750	-		
+Constraint ( Max Gas 2010 ). Generators ( Gas Plant )	Fuel Offtake Coefficient	1	-	1/07/2009	30/06/2010
+
+Paragraphs:
+Constraint RHS Custom defines the right-hand side (constant) for the constraint. Setting this property results in the set up of one constraint that will apply over the entire planning horizon. The inclusion/exclusion of periods in the constraint is controlled using the left-hand side coefficients alone. Thus this type of constraint can be used to model multi-annual constraints as well as constraint over any custom period of time that does not fit with the 'standard' interval/day/week/month/year constraint versions.
+
+Example:
+
+The following example defines a constraint on the fuel offtake of a generator that applies over a specific period of time; in this case a 'gas year' that is different to the calendar year.
+
+NOTE: In most cases for RHS Day/Week/Month/Year/Custom, the RHS scalar is 1000. However, there are some exceptions where the RHS scalar is 1. The exceptions include all non-quantity constraints, 
+    all gas constraints, Maintenance Min Occurrence constraints, constraints related to Storages (with End Volume/End Level/Ramp Coefficient) / Waterways (with Ramp Coefficient) / Maintenances 
+    (with Start Hour Coefficient) / Generators (with Capacity Factor Coefficient or only defined interval Units Started/Units Shutdown/Units Generating/Operating Hours/Pump Operating Hours Coefficient), 
+    constraints using expansion, and constraints not using activities.
+
+See also:
+Lists:
+	- RHS
+	- RHS Hour
+	- RHS Day
+	- RHS Week
+	- RHS Month
+	- RHS Year
+

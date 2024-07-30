@@ -1,0 +1,28 @@
+Header: Commodity Max Consumption Custom
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum consumption over custom timeframe
+
+Paragraphs:
+Commodity Max Consumption Custom
+          creates a Constraint object that
+          limits the Consumption of
+          the Commodity over a custom time frame. By default this is a 'hard'
+          constraint. To create a soft constraint, set the Max
+            Consumption Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Custom
+	- Commodity Constraints Consumption
+              Coefficient
+

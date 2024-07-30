@@ -1,0 +1,19 @@
+Header: Flow Path Flow Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit cost of flowing the Commodity over the Flow Path
+
+Paragraphs:
+Flow Path Flow Charge is the unit
+          cost of flowing the Commodity over
+          the Flow Path. The charge is made against the absolute value of Flow ( i.e. Flow Forward + Flow Back ) and the cost incurred
+          is reported in the property Flow
+            Cost .
+Lists:
+

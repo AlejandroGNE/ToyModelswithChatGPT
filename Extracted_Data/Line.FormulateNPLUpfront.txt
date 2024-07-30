@@ -1,0 +1,17 @@
+Header: Line Formulate NPL Upfront
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If integer conditions that control non-physical losses should be formulated upfront rather than checked iteratively
+
+Paragraphs:
+Line Formulate NPL Upfront formulation elements the formulation of integer conditions that control non-physical losses (NPL). The setting has effect when Detect Non-physical Losses is enabled. The setting can take these values:
+
+This setting allows you to trade-off the additional size/complexity of formulating these elements upfront versus the time required to perform iterations. If your simulation is large-scale and/or very hard to solve and is iterating to remove NPL, then turning this option on for the Lines that are known to have NPL can yield improvements in overall solution times.
+Lists:
+

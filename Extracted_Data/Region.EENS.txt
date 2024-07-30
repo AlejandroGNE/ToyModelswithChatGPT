@@ -1,0 +1,24 @@
+Header: Region EENS
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Expected energy not served (summary type "Sum")
+
+Paragraphs:
+NOTE: EENS is only computed by LT Plan and PASA when the Compute Reliability Indices setting is 'on'.
+
+This is calculated directly from the EDNS :
+
+where:
+
+See also:
+Lists:
+	- Region LOLP
+	- Region LOLE
+	- Region EDNS
+

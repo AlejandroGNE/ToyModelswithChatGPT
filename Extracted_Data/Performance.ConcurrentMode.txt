@@ -1,0 +1,14 @@
+Header: Performance Concurrent Mode
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Mode for the concurrent optimizer
+
+Paragraphs:
+This setting affects the Concurrent optimizer option.
+
+The setting can take one of the following values:
+Lists:
+

@@ -1,0 +1,29 @@
+Header: Vehicle Non-physical Charge Penalty
+
+Table Details:
+Units:	$/kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to non-physical charging of the vehicle. A value of -1 means none is allowed.
+
+Paragraphs:
+Vehicle Non-physical Charge Penalty is the penalty applied to non-physical charging of the vehicle. Non-physical charging is
+                analogous to Unserved Energy : energy that increases SoC but is not sourced from elewhere
+                in the system (i.e. charging from the grid). A value of -1 means none is allowed. Other values cause non-physical charging variables to be formulated, priced at the supplied value.
+
+Non-physical charge and discharge penalties do not represent physical system capability. They are primarily diagnostic tools (i.e. diagnosis and correction of infeasibilities).
+
+If Unserved Energy is allowed , non-physical penalties should
+                be priced above the cost of USE ( VoLL ). A value of 10x VoLL is a useful starting point.
+
+Non-physical charging and discharging is reported in Vehicle Non-physical Charge Adjustments and Vehicle Non-physical Discharge Adjustments respectively.
+
+See also:
+Lists:
+	- Vehicle Non-physical Discharge Penalty
+	- Vehicle Non-physical Charge Adjustments
+	- Vehicle Non-physical Discharge Adjustments
+

@@ -1,0 +1,11 @@
+Header: Gas Node Gas Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas paths that the gas node is a part of
+
+Paragraphs:
+Gas Node Gas Paths is set of Gas paths that the gas node is a part of
+Lists:
+

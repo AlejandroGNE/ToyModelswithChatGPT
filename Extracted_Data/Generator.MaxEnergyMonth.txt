@@ -1,0 +1,21 @@
+Header: Generator Max Energy Month
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in month
+
+Paragraphs:
+Generator Max Energy Month is the Maximum energy in a month.  This is the monthly variant of Generator Max Energy
+
+See also:
+Lists:
+	- Generator Max Energy Hour
+	- Generator Max Energy Day
+	- Generator Max Energy Week
+	- Generator Max Energy Year
+

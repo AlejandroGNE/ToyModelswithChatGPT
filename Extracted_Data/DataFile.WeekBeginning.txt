@@ -1,0 +1,14 @@
+Header: Data File Week Beginning
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Between -1 And 7
+Description:	Start day for mapping file data to weeks (0=automatic, 1-7=weekday, -1=hydro weeks)
+
+Paragraphs:
+Data File Week Beginning overrides the definition of weeks that would otherwise be controlled by Horizon Week Beginning .  This allows fine control over mapping of weekly data in the file to weeks in the horizon.
+
+Note that an alternative to using this property is to use the Week column in your text file - see Text File Formats for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Zone Exports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports on gas pipelines
+
+Paragraphs:
+Gas Zone Exports is the sum of all Interzonal Gas Pipelines Flow out of the Gas Zone .
+Lists:
+

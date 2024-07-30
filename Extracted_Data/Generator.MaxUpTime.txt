@@ -1,0 +1,30 @@
+Header: Generator Max Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a unit can be run after being started
+
+Paragraphs:
+Generator Max Up Time is the
+          maximum number of hours a unit can be run after being started. A unit
+          is considered 'up' if its Generation is non-zero. The number of hours up is reported in the property Hours Up . Max Up Time is a static property. If it is defined dynamically (varying according to different
+          periods), the maximum value will be used.
+
+This constraint is useful for modelling demand-side options such as
+          industrial refrigeration, which can be invoked at peak times but must
+          be restored to normal load within a given number of hours.
+
+See also:
+Lists:
+	- Generator Min
+              Up Time
+	- Generator Min
+              Down Time
+	- Generator Max
+              Down Time
+

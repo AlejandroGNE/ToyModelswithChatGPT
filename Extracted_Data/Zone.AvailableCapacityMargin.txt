@@ -1,0 +1,20 @@
+Header: Zone Available Capacity Margin
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity Reserve Margin based on Available Capacity
+
+Paragraphs:
+Zone Available Capacity Margin is Capacity Reserve Margin based on Available Capacity.
+
+See also:
+Lists:
+	- Region Available Capacity Margin
+	- Region Available Capacity Reserves
+	- Zone Available Capacity Reserves
+

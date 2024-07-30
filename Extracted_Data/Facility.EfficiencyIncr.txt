@@ -1,0 +1,48 @@
+Header: Facility Efficiency Incr
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Process marginal efficiency at the given [Efficiency Point]
+NH3.Plant	Max Efficiency Tranches	2	-	1
+NH3.Plant	Efficiency Point	40	%	1
+NH3.Plant	Efficiency Point	100	%	2
+NH3.Plant	Efficiency Incr	3506.25	%	1
+NH3.Plant	Efficiency Incr	6010.71	%	2
+3.5	19,635	12,600	441,787.5	3,506.25%	3,506.25%
+8.75	70,125	31,500	1,577,812.5	5,008.93%	6,010.71%
+
+Paragraphs:
+Facility Efficiency Incr is used
+          in multi-band pairs with Efficiency
+            Point to define a custom efficiency function for the Primary
+            Process conducted by the Facility overriding the Process Efficiency .
+          The value in band n is the average efficiency between the Efficiency Point n - 1 and n .
+
+
+
+For the example in Table 1, the raw data are shown in Table 2. Here
+          the input and output energy of the process are used to calculate the
+          efficiency at each production level and then the incremental
+          efficiency using the formula:
+
+Efficiency Incr n = 100
+          × ( Output Energy n - Output Energy ( n -1) ) / (Input Energy n - Input Energy ( n -1) )
+
+
+
+The number of bands (tranches) used in the simulation is set by the Max Efficiency Tranches setting. If you want your efficiency function used 'verbatim' then set
+          this value equal to the number of bands of input supplied, otherwise
+          if you set the value higher or lower than the number of bands supplied
+          the efficiency function will be recalculated to match that number of
+          bands.
+
+The incremental efficiencies do not need to be monotonic e.g. always increasing or decreasing. By default the function is formulated
+          with integer decision variables and constraints that ensure the
+          efficiency bands are taken up in order. You can control this with the Formulate Non-convex setting.
+Lists:
+

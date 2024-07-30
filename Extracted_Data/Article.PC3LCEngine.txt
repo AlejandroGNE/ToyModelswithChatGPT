@@ -1,0 +1,34 @@
+Header: Managing Engines
+
+Table Details:
+
+Paragraphs:
+Users can manage the PLEXOS engines in the engine tab on the side panel. All the available versions of PLEXOS engines in the system will be listed in the main panel of the engine tab. Note that users will need to permissions from the Engine module in the Connect product.
+
+Before you are able to execute any PLEXOS models in Connect, you will need to upload a PLEXOS engine to Connect. Multiple engines can be uploaded to Connect and users will have the option to choose a specific PLEXOS engine when submitting executions to Connect. We recommend uploading a PLEXOS engine version that matches the PLEXOS Desktop release you are using to create the model.
+
+After clicking the add engine button, you'll be prompted to select a PLEXOS engine zip file. This zip file will be what you have downloaded from the client area in our website. Once you have selected the file, the name of the engine would be entered automatically based on the version number of the PLEXOS engine. Pressing okay on the new engine dialog box, and the new engine package will be uploaded.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Engine module.
+
+You can rename any engine by selecting an engine from the engine tab, then right clicking and selecting 'Rename' from the context menu. Next, you will be asked to input a new name for the engine.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Engine module.
+
+Please click on the trash button at the top of the engine tab (highlighted below) to show all the removed engines. NExt, select the engines that you wish to restore, right click on them, and select restore on the context menu. The engines will then be restored.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Engine module.
+
+Please click on the trash button at the top of the engine tab (see Figure 4) to show all the removed engines. Then, select one or more engines that you wish to delete, right click on them, and select 'delete' in the menu. The engines and their files will then be deleted from PLEXOS Connect Server
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Engine module.
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+1. Introduction
+3. How Do I Rename an Engine?
+4. How Do I Restore Removed Engines?
+5. How Do I Permanently Remove an Engine?

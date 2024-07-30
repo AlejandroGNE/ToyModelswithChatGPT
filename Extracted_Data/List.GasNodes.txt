@@ -1,0 +1,11 @@
+Header: List Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Node objects in the List
+
+Paragraphs:
+List Gas Nodes is set of Main Gas Node objects in the List.
+Lists:
+

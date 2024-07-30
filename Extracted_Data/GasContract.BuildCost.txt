@@ -1,0 +1,15 @@
+Header: Gas Contract Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of Gas Contract expansion
+
+Paragraphs:
+Gas Contract Build Cost is cost of building an expansion gas contract.
+Lists:
+

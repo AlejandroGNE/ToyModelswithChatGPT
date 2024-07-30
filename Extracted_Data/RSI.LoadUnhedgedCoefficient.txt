@@ -1,0 +1,15 @@
+Header: RSI Load Unhedged Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load Unhedged Coefficient in LI equation
+
+Paragraphs:
+This is the coefficient of RSI Load Unhedged in the equation for the Lerner Index
+Lists:
+

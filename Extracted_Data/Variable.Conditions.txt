@@ -1,0 +1,11 @@
+Header: Variable Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditions the condition depends on
+
+Paragraphs:
+Variable Conditions is set of conditions the condition depends on
+Lists:
+

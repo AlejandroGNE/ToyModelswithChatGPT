@@ -1,0 +1,18 @@
+Header: Flow Network Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Flow Network is in service
+
+Paragraphs:
+Flow Network Units is a flag if
+          the Flow Network is in service. If the Flow Network is marked
+          out-of-service (value=0) then all the elements inside the network ( Flow Node , Flow
+            Path ) are also out-of-service, however the Facility , Commodity and Market objects are not affected by this flag.
+Lists:
+

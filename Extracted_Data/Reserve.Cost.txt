@@ -1,0 +1,17 @@
+Header: Reserve Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve cost paid to reserve providers
+
+Paragraphs:
+Reserve Cost is defined as:
+
+It represents the cost to the system of providing reserve at the marginal cost of reserve provision. This cost is allocated to generators and/or loads according to the cost allocation scheme selected.
+Lists:
+

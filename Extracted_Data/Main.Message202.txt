@@ -1,0 +1,11 @@
+Header: Message 202
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> skipped because its period type is too short for the resolution of <value>.
+
+Paragraphs:
+Message 202 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Battery Min Charge Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be run in charge mode after being started
+
+Paragraphs:
+Battery Min Charge Up Time is the minimum number of hours a unit must be run in charge mode after being started.
+Lists:
+

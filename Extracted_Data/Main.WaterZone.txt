@@ -1,0 +1,14 @@
+Header: Water Zone Class
+
+Table Details:
+Description:	Set of water network nodes
+
+Paragraphs:
+See also Water Zone Property Reference for a detailed list of properties for this class of
+          object.
+
+A Water Zone is a collection of Water Node objects and provides aggregate reporting across those objects.
+
+See the Water Modelling article for details.
+Lists:
+

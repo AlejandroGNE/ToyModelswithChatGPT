@@ -1,0 +1,15 @@
+Header: Gas Contract Gas Nodes Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas contract-gas node price
+
+Paragraphs:
+Gas Contract Gas Nodes Price is the gas contract-gas node price.
+Lists:
+

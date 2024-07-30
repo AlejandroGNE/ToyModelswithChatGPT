@@ -1,0 +1,35 @@
+Header: Generator Nodes*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the generator at each node in this collection
+
+Paragraphs:
+Generator Nodes* is a 'template' feature. Adding Node objects to this collection causes the simulator to create copies of the Generator at each Node . This occurs at runtime and thus allows you to maintain data on a single Generator object but model several objects in the simulation.
+
+All system properties and attributes of the generator are copied e.g. Units , Max Capacity , Max Units Built , etc .
+
+To use this feature you must first enable the collection in the Config screen.
+
+The Generator copies are named by appending the Node names to the Generator name.
+
+Example
+
+You create a Generator called "NEW_CCGT" and leave its Nodes collection empty. You then add Node objects " NSW1 ", " QLD1 ", " SA1 ", " TAS1 ", " VIC1 " to the Nodes* collection. At runtime the simulator will create copies called "NEW_CCGT_NSW1", "NEW_CCGT_QLD1", "NEW_CCGT_SA1", "NEW_CCGT_TAS1" and "NEW_CCGT_VIC1".
+
+The original Generator "NEW_CCGT" is dropped from the simulation and only the copies are included.
+
+This feature is very useful in LT Plan as a short-cut to defining new build candidates at a large number of nodes. It is also applicable to modelling distributed generation and battery storage (through use of a pumped storage template).
+
+For copying of memberships the following rules are applied:
+
+The following second level objects are never copied:
+
+If our template Generator is part of one or more Constraint objects, whether or not the Constraint objects are copied is controlled by the Wildcard Modesetting .
+
+This template feature is also available for the Purchaser class. See Purchaser.Nodes*
+Lists:
+	- If the membership is one-to-one, the related object is also copied e.g. for Generator Head Storage where the attached generator is the only Exporting Generator, the Storage object is also copied. This allows the creation of template pumped storage units for example where each copy will get a unique set of head and tail storage objects.
+	- If the membership is one-to-many, the membership is copied but the original object is not e.g. if the template Generator is one of several that use a given Fuel the copies will also use that original Fuel object.
+

@@ -1,0 +1,70 @@
+Header: Facility Fixed Production
+
+Table Details:
+Units:	Input: -    Output: ~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed (exact) production
+Units	1	-	1			
+Max Operating Level	250	-	1			
+Fixed Production	15	-	1			W2,H1
+Fixed Production	25	-	1			W2,H2
+Fixed Production	-1	-	1				
+Fixed Production	0	-	1	Tuesday, 1 December 2009 06:00:00	Tuesday, 4 May 2010 06:00:00		FIXED
+Fixed Production	0	-	1	Friday, 7 May 2010 06:00:00	Saturday, 8 May 2010 06:00:00		FIXED
+
+Paragraphs:
+Facility Fixed Production
+              defines a fixed profile of Production from the facility i.e. it constrains the Production to be exactly this value subject to availability.
+
+How the value of Fixed Production is interpreted depends on the Fixed Production Global setting. It controls whether the value is across all
+              units at the facility or unit-by-unit.
+
+Fixed Production over-rides other constraints such as Min
+                Operating Level , Max Ramp
+                Up , and Max Ramp Down .
+
+In the example in Table 1 the facility will be dispatched to
+              follow the given profile (15 in hour 1 of Monday and 25 on hour 2
+              Monday) and beyond that it will follow dispatch according to its
+              costs.
+
+In the example in Table 2 the facility will follow a series of
+              values defined in the Data File "FIXED" but only for the specific date ranges shown, other times
+              the dispatch is optimized normally.
+
+By default the Fixed Production constraint is a hard constraint
+              meaning that no violations are allowed. You can optionally make
+              the constraint 'soft' and introduce a penalty price with the
+              property Fixed
+                Production Penalty . The frequency, quantity and cost of
+              violations are reported in the properties:
+
+Note that Fixed Production is automatically derated by the Facility Forced Outage Rate and Maintenance Rate in non-chronological simulation phases e.g. when LT
+                Plan or MT Schedule are
+              using load duration curves. This is done to simulate the effect of
+              outages on the ability of the station to meet the Fixed Operating
+              Level requirement.
+
+Facility Fixed Production is
+              the Production attributable to the Fixed Production constraint, and is defined
+              as:
+
+Fixed Production = Production - Fixed
+                Production Violation
+
+See also:
+Lists:
+	- Facility Fixed
+                  Production
+	- Facility Fixed
+                  Production Violation Hours
+	- Facility Fixed
+                  Production Violation
+	- Facility Fixed
+                  Production Violation Cost
+	- Facility Commit
+

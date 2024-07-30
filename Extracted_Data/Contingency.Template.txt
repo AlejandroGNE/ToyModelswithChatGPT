@@ -1,0 +1,11 @@
+Header: Contingency Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Contingency inherits from
+
+Paragraphs:
+Contingency Template is template the Contingency inherits from
+Lists:
+

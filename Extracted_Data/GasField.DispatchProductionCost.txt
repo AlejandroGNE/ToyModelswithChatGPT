@@ -1,0 +1,15 @@
+Header: Gas Field Dispatch Production Cost
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental dispatch cost of extracting gas from the field
+
+Paragraphs:
+Gas Field Dispatch Production Cost is the incremental dispatch cost of extracting gas from the field.
+Lists:
+

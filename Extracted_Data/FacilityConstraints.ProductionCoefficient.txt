@@ -1,0 +1,25 @@
+Header: Facility Constraints Production Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Facility production in the Constraint
+
+Paragraphs:
+Facility Constraints is the left-hand side coefficient of the facility's Production in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Facility Production ... {≤,
+            ≥, =} b j
+
+See also:
+Lists:
+	- Facility Constraints Consumption
+              Coefficient
+

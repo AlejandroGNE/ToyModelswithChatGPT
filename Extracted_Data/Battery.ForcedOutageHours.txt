@@ -1,0 +1,17 @@
+Header: Battery Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on forced outage
+
+Paragraphs:
+Battery Forced Outage Hours is
+          the number of hours the unit has any charging/discharging capacity on Forced
+            Outage in the reporting period.
+Lists:
+

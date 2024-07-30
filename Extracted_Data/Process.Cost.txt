@@ -1,0 +1,20 @@
+Header: Process Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Processing cost
+
+Paragraphs:
+Process Cost is the net cost of
+          consumption across Primary Input and Secondary Inputs expressed as a
+          cost per unit of Production:
+
+Cost = (input side) Consumption × Price + Processing
+            Charge × Production
+Lists:
+

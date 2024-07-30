@@ -1,0 +1,11 @@
+Header: Cournot Region
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	region associated with the Cournot game
+
+Paragraphs:
+Cournot Region is the Region associated with the Cournot game.
+Lists:
+

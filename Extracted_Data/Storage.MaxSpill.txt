@@ -1,0 +1,19 @@
+Header: Storage Max Spill
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum allowable spill from the storage to "the sea"
+
+Paragraphs:
+Storage Max Spill is the maximum allowable spill from the storage to "the sea" and allows the storage to spill in order to maintain the End Volume within the Max Volume limit. If this property is not defined then no spill is allowed except from Waterways connected to the Storage .
+
+See also:
+Lists:
+	- Storage Max Generator Release
+	- Storage Max Release
+

@@ -1,0 +1,15 @@
+Header: Message 215
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Generator <name> Fuel Offtake may be inaccurate in <value> periods due to tranche variables clearing out of order. Consider setting Generator Formulate Non-convex="Always".
+
+Paragraphs:
+Message 215 occurs in the following circumstances:
+
+There are multiple reasons why the piece-wise linear approximation of the Fuel Offtake function or Hydro efficiency is not exactly cleared in order. This is due to certain constraints forcing an increment in fuel consumption or water release even though it is naturally penalized in the objective function. There are many mathematical reasons for this to occur, however, the typical constraints that force this behavior are:
+
+For precise solution it is recommended to switch Formulate Non-convex to 'Always'. For convex approximation and fast execution times it is recommended 'Never'.
+Lists:
+

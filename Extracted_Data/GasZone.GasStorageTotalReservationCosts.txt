@@ -1,0 +1,15 @@
+Header: Gas Zone Gas Storage Total Reservation Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total reservation costs for gas storages
+
+Paragraphs:
+Gas Zones Gas Storage Total Reservation Costs is Total reservation costs for gas storages.
+Lists:
+

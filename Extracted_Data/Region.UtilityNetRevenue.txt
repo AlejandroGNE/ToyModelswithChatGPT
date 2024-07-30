@@ -1,0 +1,17 @@
+Header: Region Utility Net Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Utility generator net revenue (producer surplus)
+
+Paragraphs:
+Region Utility Net Revenue is defined as:
+
+The first sum is taken over all financial contracts for Companies in the Region that are identified as Utilities . This property is provided to help with regression analysis in the RSI mark-up model.
+Lists:
+

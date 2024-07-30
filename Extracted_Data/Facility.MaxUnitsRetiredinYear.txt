@@ -1,0 +1,36 @@
+Header: Facility Max Units Retired in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically retired in any single year of the planning horizon
+Units	1	-		
+Max Capacity	500	-		
+FO&M Charge	25,000,000	$		
+Max Units Retired	1	-		
+Min Units Retired	1	-		
+Retirement Cost	10000	$000		
+Max Units Retired in Year	0	-	1/01/2010	31/12/2015
+
+Paragraphs:
+Facility Max Units Retired in Year
+          set the maximum number of units automatically retired in any single
+          year of the planning horizon in LT Plan .
+          The value should be less than or equal to the total units allowed to
+          retire which is set by Max
+            Units Retired .
+
+In this example the sole unit must retire at some time in the planning
+          horizon, but cannot retire between the years 2010-15.
+
+See also:
+Lists:
+	- Facility Retirement
+              Cost
+	- Facility Fixed
+              O&M Charge
+

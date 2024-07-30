@@ -1,0 +1,19 @@
+Header: Generator Max Energy Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Energy] or [Max Capacity Factor] constraints.
+
+Paragraphs:
+Generator Max Energy Violation is the violation of Max Energy or Max Capacity Factor constraints.
+
+See also:
+Lists:
+	- Generator Max Energy Penalty
+	- Generator Max Energy Violation Cost
+

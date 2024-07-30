@@ -1,0 +1,19 @@
+Header: Gas Plant Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of gas plant units built
+
+Paragraphs:
+Gas Plant Units Built is Number of gas plant units built.
+
+See also:
+Lists:
+	- Gas Plant Max Units Built
+	- Gas Plant Units Retired
+

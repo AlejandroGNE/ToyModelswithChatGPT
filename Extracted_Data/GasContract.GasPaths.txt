@@ -1,0 +1,11 @@
+Header: Gas Contract Gas Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Paths that are associated with a Gas Contract to deliver gas
+
+Paragraphs:
+Gas Contract Gas Paths is set of Gas Paths that are associated with a Gas Contract to deliver gas
+Lists:
+

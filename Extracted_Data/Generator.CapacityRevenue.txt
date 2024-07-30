@@ -1,0 +1,40 @@
+Header: Generator Capacity Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from capacity payments
+
+Paragraphs:
+Generator Capacity Revenue is the
+          revenue from capacity payments, calculated when the LT
+            Plan Capacity
+            Payments Enabled setting is 'on'. Capacity Revenue is calculated
+          as:
+
+If Capacity Price is
+          defined as an input,
+
+Capacity Revenue = Capacity
+            Price × (1000 × Firm
+            Capacity ) / periods_in_year
+
+Otherwise,
+
+Capacity Revenue = ( Region Capacity Shadow Price + Zone Capacity
+            Shadow Price ) × (1000 × Firm
+            Capacity ) / periods_in_year
+
+NOTE: The Zone component applies on
+          when the Zone is defined as capacity
+          type.
+
+The Capacity Price is
+          calculated by LT Plan and passed to
+          subsequent simulation phases.
+Lists:
+

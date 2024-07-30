@@ -1,0 +1,15 @@
+Header: Gas Zone Excess Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of gas excesses
+
+Paragraphs:
+Gas Zone Excess Cost is the sum of Gas Nodes Excess Cost .
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Competition Pricing Strategy
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	The Bertrand Competition strategy used to set offer/bid prices each interval.
+
+Paragraphs:
+Competition Pricing Strategy controls the Bertrand Competition (Shadow Pricing) dynamic mark-up algorithm. It can take the following values:
+
+See also:
+Lists:
+	- Competition Bertrand Detect Active Ramp Constraints
+	- Competition Bertrand OOMOD Enabled
+	- Competition Epsilon
+

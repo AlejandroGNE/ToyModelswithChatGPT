@@ -1,0 +1,11 @@
+Header: Power2X Fuels
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	The set of fuels produced by the facility
+
+Paragraphs:
+Power2X Fuels is the set of Fuel objects the facility supplies.
+Lists:
+

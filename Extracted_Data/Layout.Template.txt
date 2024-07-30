@@ -1,0 +1,11 @@
+Header: Layout Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Layout inherits from
+
+Paragraphs:
+Layout Template is template the Layout inherits from
+Lists:
+

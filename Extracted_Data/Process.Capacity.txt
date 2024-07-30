@@ -1,0 +1,27 @@
+Header: Process Capacity
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Capacity of production measured in units of the primary output
+
+Paragraphs:
+Input
+
+Process Capacity is the maximum
+          production capacity measured in units of the primary
+            output . This input is optional. By default the Process has
+          infinite capacity when 'floating' i.e. not linked to any Facility . When linked, it is limited
+          by the Facility Max
+            Operating Level .
+
+Output
+
+Process Capacity as an output reports
+          the minimum of the input Capacity and the production capacity of Facility objects implementing the Process.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Line Fixed Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed flow on line
+1-2	Max Flow	1000	
+1-2	Min Flow	-1000	
+1-2	Fixed Flow	FLOW (1-2).csv	
+
+Paragraphs:
+Line Fixed Flow sets the flow on the line to a fixed value.
+
+Example:
+
+The Fixed Flow must be a feasible flow i.e. between Min Flow and Max Flow . In this example the fixed flow levels are being read from an external text file.
+Lists:
+

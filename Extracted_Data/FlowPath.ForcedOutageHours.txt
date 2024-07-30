@@ -1,0 +1,21 @@
+Header: Flow Path Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on forced outage
+
+Paragraphs:
+Flow Path Forced Outage Hours is
+          the number of hours the path has any capacity on Forced
+            Outage in the reporting period.
+
+See also:
+Lists:
+	- Flow Path Maintenance
+              Hours
+

@@ -1,0 +1,15 @@
+Header: Physical Contract Net Generation Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of generation revenue and cost to load
+
+Paragraphs:
+Physical Contract Net Generation Revenue is defined as:
+Lists:
+

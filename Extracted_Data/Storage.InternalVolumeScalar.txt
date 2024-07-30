@@ -1,0 +1,26 @@
+Header: Storage Internal Volume Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000
+Validation Rule:	>0
+Key Property:	No
+Description:	Storage volume scaling factor used internal to the mathematical program.
+
+Paragraphs:
+Storage Internal Volume Scalar is the scaling factor used internally
+          to the mathematical program for storage volumes. The default value of
+          1000 is generally the best, unless the Max
+            Volume is very large or very small. If you do receive warnings
+          about poor scaling of the mathematical programming problem you can try
+          set the value higher (for very large storage) or smaller (for small
+          storage).
+
+It is recommended to use the same scaling
+          parameter among interconnected storages in a cascade. The warning Message 3225 will be generated if two 
+          storages have different scalars and both connect to a Generator via Head Storage and Tail Storage memberships. This 
+          arrangement can lead to a non-conservation of water through the cascade.
+Lists:
+

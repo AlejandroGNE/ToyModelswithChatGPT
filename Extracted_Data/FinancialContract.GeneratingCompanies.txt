@@ -1,0 +1,11 @@
+Header: Financial Contract Generating Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	generating party or parties
+
+Paragraphs:
+
+Lists:
+

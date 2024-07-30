@@ -1,0 +1,15 @@
+Header: Region Capacity Price Floor
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Floor on the capacity price
+
+Paragraphs:
+Region Capacity Price Floor is Floor on the capacity price.
+Lists:
+

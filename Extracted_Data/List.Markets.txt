@@ -1,0 +1,11 @@
+Header: List Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Market objects in the List
+
+Paragraphs:
+List Markets is set of Main Market objects in the List.
+Lists:
+

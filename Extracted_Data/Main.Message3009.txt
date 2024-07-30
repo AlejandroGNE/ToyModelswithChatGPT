@@ -1,0 +1,11 @@
+Header: Message 3009
+
+Table Details:
+Severity:	Minor (value = 4)
+Default Action:	Warn (value = 1)
+Description:	Skipped checking of memberships.
+
+Paragraphs:
+
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Flow Storage Inventory Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of holding the Commodity in inventory
+
+Paragraphs:
+Flow Storage Inventory Cost is Cost of holding the Commodity in inventory.
+Lists:
+

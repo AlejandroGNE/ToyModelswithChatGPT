@@ -1,0 +1,15 @@
+Header: Generator Max Down Time Penalty
+
+Table Details:
+Units:	$/h (Metric), $/hr (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of max down time
+
+Paragraphs:
+Generator Max Down Time Penalty is a penalty price for violating the Max Down Time.
+Lists:
+

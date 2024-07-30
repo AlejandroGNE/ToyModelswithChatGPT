@@ -1,0 +1,16 @@
+Header: Water Plant Capacity Price
+
+Table Details:
+Units:	$/m³/day/yr (Metric), $/gal./day/yr (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price received by the plant for capacity
+
+Paragraphs:
+Water Plant Capacity Price is the
+          price received by the Water Plant for capacity.
+Lists:
+

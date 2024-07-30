@@ -1,0 +1,15 @@
+Header: Storage Objectives Inflow Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of inflow
+
+Paragraphs:
+Storage Objectives Inflow Coefficient is Coefficient of inflow.
+Lists:
+

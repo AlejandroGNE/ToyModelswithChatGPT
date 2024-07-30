@@ -1,0 +1,14 @@
+Header: Diagnostic Uniform Pricing
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for uplift and Uniform Pricing
+
+Paragraphs:
+This option produces a number of diagnostic files in XML format that detail the calculations for Uplift and Uniform Pricing . If you are using any of the uplift methods or the uniform pricing method , this is a useful diagnostic. Notice that, in the diagnostic file, the first table is for Uplift and the second table is for Uniform Pricing.
+
+When using the Irish SEM uplift method, for different generators, the reported values in the periods were divided into blocks. The region uplift values corresponding the periods were appended to the end column for each generator. Notice that uplift values were calculated for each region but not for the generators.
+Lists:
+

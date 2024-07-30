@@ -1,0 +1,15 @@
+Header: Company Net Contract Volume
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net volume on CfDs (generation - contract volume)
+
+Paragraphs:
+Company Net Contract Volume relates to the company's financial contracts , and is defined as:
+Lists:
+

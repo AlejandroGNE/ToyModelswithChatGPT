@@ -1,0 +1,17 @@
+Header: Generator Strategic Load Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Pumping unit/Anti-generation rating for application in RSI capacity calculations.
+
+Paragraphs:
+Generator Strategic Load Rating is the rating for a pumping unit or Anti-generator that to be used in calculating the Region Strategic Load in addition to Region Load during the RSI bid-cost markup algorithm.
+
+See also RSI Demand , Purchaser Strategic Load Rating and Battery Strategic Load Rating .
+Lists:
+

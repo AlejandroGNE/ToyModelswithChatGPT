@@ -1,0 +1,13 @@
+Header: Gas Contract Gas Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas pipelines that have a contract to transport gas
+
+Paragraphs:
+Gas Contract Gas Pipelines is the collection of gas pipelines which are contracted to transport gas. The defined collection of gas pipelines must form a simple path, starting from the gas node which the Gas Contract Gas Field is connected to, for the collection to be considered valid.
+
+To ensure the contract gas is transported through these pipelines, the total incremental flow charge associated with the pipelines is added as a negative coefficient to the contract production variable in the objective function.
+Lists:
+

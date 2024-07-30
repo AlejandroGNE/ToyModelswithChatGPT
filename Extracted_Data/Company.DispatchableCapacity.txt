@@ -1,0 +1,15 @@
+Header: Company Dispatchable Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	On-line capacity
+
+Paragraphs:
+Company Dispatchable Capacity is On-line capacity.
+Lists:
+

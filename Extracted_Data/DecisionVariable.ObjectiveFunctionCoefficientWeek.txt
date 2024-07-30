@@ -1,0 +1,21 @@
+Header: Decision Variable Objective Function Coefficient Week
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Objective function value of the generic decision variable in each week
+
+Paragraphs:
+Decision Variable Objective Function Coefficient Week is the variant of Objective Function Coefficient that indicates that there is one decision variable for each week of the horizon rather than every interval.
+
+See also:
+Lists:
+	- Objective Function Coefficient Hour
+	- Objective Function Coefficient Day
+	- Objective Function Coefficient Month
+	- Objective Function Coefficient Year
+

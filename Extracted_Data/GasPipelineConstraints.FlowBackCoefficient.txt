@@ -1,0 +1,20 @@
+Header: Gas Pipeline Constraints Flow Back Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas pipeline flow at the sending node
+
+Paragraphs:
+GasPipeline Constraints Flow Back Coefficient is the coefficient of gas pipeline flow at the sending node.
+
+This property can only be applied to bi-directional gas pipelines.
+
+See also:
+Lists:
+	- GasPipeline Max Flow Back
+

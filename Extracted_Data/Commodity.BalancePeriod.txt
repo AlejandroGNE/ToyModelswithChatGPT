@@ -1,0 +1,20 @@
+Header: Commodity Balance Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5,6)
+Key Property:	No
+Description:	Frequency of inventory balance
+
+Paragraphs:
+Commodity Balance Period
+          determines the frequency with which inventory balance constraints are
+          enforced in chronological simulation. This setting can take the
+          following values:
+
+
+Lists:
+

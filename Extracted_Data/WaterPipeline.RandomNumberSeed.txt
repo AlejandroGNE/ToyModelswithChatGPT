@@ -1,0 +1,15 @@
+Header: Water Pipeline Random Number Seed
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 2147483647
+Key Property:	No
+Description:	Random number seed assigned to the pipeline for the generation of outages
+
+Paragraphs:
+Water Pipeline Random Number Seed is Random number seed assigned to the pipeline for the generation of outages.
+Lists:
+

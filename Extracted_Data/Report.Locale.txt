@@ -1,0 +1,18 @@
+Header: Report Locale
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	The numeric index of the locale that should be used to write text files.
+
+Paragraphs:
+Report Locale identifies the culture settings that should be used when the Write Flat Files setting is enabled. This settings affects both the DATETIME (if Flat File Format is set to "Datetime") and the VALUE (the decimal format) fields of the text files written.
+
+The list of Locale identifiers can be found here .
+
+See also:
+Lists:
+	- Report Flat File Format
+	- Data File Locale
+

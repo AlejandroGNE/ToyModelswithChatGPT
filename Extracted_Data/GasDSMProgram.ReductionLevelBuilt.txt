@@ -1,0 +1,15 @@
+Header: Gas DSM Program Reduction Level Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Implementation level of the Gas DSM program
+
+Paragraphs:
+Gas DSM Program Reduction Level Built is the fraction of the Gas DSM prorgram chosen for implementation.
+Lists:
+

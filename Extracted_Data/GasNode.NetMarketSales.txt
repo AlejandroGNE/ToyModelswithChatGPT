@@ -1,0 +1,17 @@
+Header: Gas Node Net Market Sales
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net sales to external gas markets
+
+Paragraphs:
+Gas Node Net Market Sales is Net sales to external gas markets.  It is defined as:
+
+This sum is made over all energy markets connected at the gas node.
+Lists:
+

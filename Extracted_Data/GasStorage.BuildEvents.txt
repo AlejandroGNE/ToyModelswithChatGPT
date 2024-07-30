@@ -1,0 +1,19 @@
+Header: Gas Storage Build Events
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of build events
+
+Paragraphs:
+Gas Storage Build Events is the number of build events occured during the selected period.
+
+See also:
+Lists:
+	- Gas Storage Units Built
+	- Gas Storage Max Units Built
+

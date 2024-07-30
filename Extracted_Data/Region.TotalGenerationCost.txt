@@ -1,0 +1,19 @@
+Header: Region Total Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total generation cost including fuel, VO&M, start and shutdown costs and emissions costs.
+
+Paragraphs:
+Region Total Generation Cost is the total generation cost including fuel, variable operations and maintenance costs, start and shutdown costs and emissions costs and is defined as:
+
+Total Generation Cost = Generation Cost + Start & Shutdown Cost + Emissions Cost .
+
+Note that Generation Cost includes generation costs from Generators , Generation Contracts and Batteries .
+Lists:
+

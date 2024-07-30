@@ -1,0 +1,15 @@
+Header: Variable Lookup Unit
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit of the y values in the lookup table
+
+Paragraphs:
+Variable Lookup Unit defines the unit for the y values in the lookup table defined by Lookup x and Lookup y . The raw sample values are first translated using the lookup table values, then the lookup unit is applied by dividing the translated value by the lookup unit. See Lookup x for an example.
+Lists:
+

@@ -1,0 +1,101 @@
+Header: PLEXOS Cloud Integration with PLEXOS Desktop
+
+Table Details:
+
+Paragraphs:
+PLEXOS Desktop has introduced a new PLEXOS Cloud Integration in version 10.1. The Cloud Integration seamlessly integrates PLEXOS Desktop and PLEXOS Cloud for key workflows and reduces dependency on the PLEXOS Cloud Bridge application. PLEXOS users will notice a Cloud dropdown option in the ribbon menu. Users not having access to PLEXOS Cloud will experience no other differences in PLEXOS Desktop.
+
+The Check Sync Status option allows you to check the current Study status of the local (Desktop) vs Cloud version. If the Cloud version is newer, it will download and merge those changes. If the local (desktop) version is newer it will upload those changes. All versions are tracked and shown in Version History in PLEXOS Cloud.
+
+To access this feature, click on the Cloud dropdown option from the ribbon menu and select Check Sync Status .
+
+
+
+To view your Study in PLEXOS Cloud, follow these steps:
+
+1. Click on the Cloud dropdown option from the ribbon menu and select View Study in Cloud .
+
+
+
+2. The selected Study will open in a new browser tab displaying the Study Overview page in PLEXOS Cloud.
+
+3. The Study Overview page shows a high-level view of the Models, privacy and membership settings, and the Version History. The Version History displays a list of all changes for the Study by all users. NOTE: Each folder should contain only one study. Having two or more studies in one folder can cause certain operations on the study to function improperly.
+
+To view the Integration Logs , c lick on the Cloud dropdown option from the menu and select View Integration Logs to view and edit simulation logs in Notepad.
+
+
+
+1.  Click on the Cloud button from the menu and select View Version History .
+
+
+
+2. This redirects you to the Version History page of PLEXOS Cloud with the Study selected. You can track the changes made to the Study in the past.
+
+
+
+In the latest 10.0 R02 Release of PLEXOS Desktop, Version Management for Cloud Studies has become more accessible. Users can now access and manage their Study's Version History directly from PLEXOS Desktop. The new Version History panel offers a dedicated side panel for Study Version Management, providing users with a clear overview of the Study's status and its change history.
+
+The Version History is displayed in a timeline format, providing visibility into the Study's history. This feature enables seamless pushing of changes as users work and notifies them of any new changes made by collaborators on the Cloud. It also allows the side panel to be pinned, ensuring that it remains visible during editing sessions.
+
+This update eliminates the need to visit the PLEXOS Cloud to manage Study Versions, making the workflow more efficient and user-friendly.
+
+
+
+NOTE: When a Study is cloned from the PLEXOS Cloud, all its versions are grouped into one version and displayed as "Initial Commit" in the Desktop Versions panel.
+
+In addition, the dedicated Pull and Push buttons at the top-right of the Version History panel, enable users to easily pull and push changes between their Local Study and the Cloud.
+
+To view the Version History panel, follow the steps below:
+
+If the panel is not already visible, the user can view the Version History panel for the active Study via the Cloud Ribbon menu.
+
+Select the View Version History in Desktop option.
+
+The Version History panel starts displaying on the right of the screen showing the associated Local Versions of the selected Study.
+
+NOTE: By default, the side panel is shown whenever the user opens any Cloud study. This default behavior can be configured in the Cloud Settings panel if the user does not wish the panel to automatically be shown.
+
+To allow opening the Versions panel automatically when Cloud Study is loaded, click on the PLEXOS menu > Settings > Cloud tab and enable the Open Cloud panel on opening a database checkbox.
+
+Follow the below steps to Pull and Push changes:
+
+If any changes are made to the Cloud, users can Save them using the Ribbon menu.
+
+The Version History panel opens automatically in the Cloud side panel, select the Push option. After clicking Push, changes will be pushed to the Cloud.
+
+Use the View in Cloud option available in the panel to view the full Version History in PLEXOS Cloud.
+
+
+
+
+
+
+Lists:
+	- Introduction
+	- Check Sync Status
+	- View Study in Cloud
+	- View Integration Logs
+	- View Version History
+	- View Version History in Desktop Overview View and Manage Version History Pull and Push Changes
+	- Overview
+	- View and Manage Version History
+	- Pull and Push Changes
+	- Overview
+	- View and Manage Version History
+	- Pull and Push Changes
+
+
+H2s:
+Contents
+Introduction
+Check Sync Status
+
+View Study in Cloud
+View Integration Logs
+View Version History
+View Version History in Desktop
+
+H3s:
+Overview
+View and Manage Version History Panel
+Pull and Push Changes

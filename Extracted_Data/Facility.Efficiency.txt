@@ -1,0 +1,17 @@
+Header: Facility Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Process average efficiency at the given [Efficiency Point]
+
+Paragraphs:
+Facility Efficiency is the
+          efficiency of production expressed as a percentage and report Process Efficiency from the Primary
+            Process conducted by the Facility.
+Lists:
+

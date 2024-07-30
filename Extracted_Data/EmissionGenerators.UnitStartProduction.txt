@@ -1,0 +1,18 @@
+Header: Emission Generators Unit Start Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net production of the emission from unit start up
+
+Paragraphs:
+Emission Generators Unit Start Production is the net production of the emission from Generator Units Started . It contains the net emission production from both Generator Start Fuels and the user defined Production at Start .
+
+See also:
+Lists:
+	- Emission Generators Generation Production
+

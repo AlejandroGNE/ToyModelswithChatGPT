@@ -1,0 +1,22 @@
+Header: Diagnostic Zero Tolerance SOL
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Generic writer zero value tolerance for SOL file writing
+
+Paragraphs:
+This option is used with the Generic Writer .  By default the tolerance setting is zero, which means the Generic Writer produces solution (SOL) files without modifying any values.  However, when this is set to a non-zero number, say 1, the Generic Writer will set all primal/dual values that are less than equal to 1 to zero.
+
+See also:
+Lists:
+	- Use Generic Writer
+	- Sort Row Column Names
+	- Standardize Names
+	- Zero Tolerance LP
+	- Decimal Places LP
+	- Decimal Places SOL
+	- Skip Zero Values
+	- Strip Model Name
+

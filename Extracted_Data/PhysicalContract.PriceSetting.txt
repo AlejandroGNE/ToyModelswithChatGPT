@@ -1,0 +1,20 @@
+Header: Physical Contract Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Physical Contract can set price
+
+Paragraphs:
+Physical Contract Price Setting indicates if the physical contract can set price.
+
+See also:
+Lists:
+	- Generator Price Setting
+	- Purchaser Price Setting
+	- Market Price Setting
+

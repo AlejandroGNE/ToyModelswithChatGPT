@@ -1,0 +1,17 @@
+Header: Decision Variable Lower Bound
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Lower bound of the generic decision variable
+
+Paragraphs:
+Decision Variable Lower Bound is the lower bound (minimum allowable value) for the decision variables in the mathematical programming problem. The variables can take any value between this lower bound and the Upper Bound .
+
+Note that the bound may be scaled by the number of hours in each simulation period according to the setting of Time Invariant .
+Lists:
+

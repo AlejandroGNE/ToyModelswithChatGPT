@@ -1,0 +1,19 @@
+Header: Cournot Perfect Competition Producer Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Producer revenue in the perfect competition solution
+
+Paragraphs:
+Cournot Perfect Competition Producer Revenue is the producer revenue in the perfect competition solution i.e. before the Nash-Cournot game is run. This is defined as:
+
+See also:
+Lists:
+	- Cournot Perfect Competition Producer Surplus
+	- Cournot Producer Revenue
+

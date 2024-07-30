@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel price
+
+Paragraphs:
+Heat plant Fuels Price is the fuel price.
+Lists:
+

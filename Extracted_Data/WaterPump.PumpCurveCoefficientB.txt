@@ -1,0 +1,15 @@
+Header: Water Pump Pump Curve Coefficient B
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Pump Curve Coefficient B for the linear term
+
+Paragraphs:
+Water Pump Pump Curve Coefficient B is Pump Curve Coefficient B for the linear term.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Heat Plant Efficiency
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Efficiency of heat production
+
+Paragraphs:
+Heat plant Efficiency is the efficiency of the heat production.
+Lists:
+

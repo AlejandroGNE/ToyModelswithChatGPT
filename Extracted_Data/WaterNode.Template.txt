@@ -1,0 +1,11 @@
+Header: Water Node Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Water Node inherits from
+
+Paragraphs:
+Water Node Template is template the Water Node inherits from
+Lists:
+

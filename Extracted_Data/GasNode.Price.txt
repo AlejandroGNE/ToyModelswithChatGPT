@@ -1,0 +1,15 @@
+Header: Gas Node Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Settlement price for gas at the gas node
+
+Paragraphs:
+Gas Node Price is Settlement price for gas at the gas node.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Region Load Includes Losses
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if input load includes transmission losses
+
+Paragraphs:
+Region Load Includes Losses indicates if the input Load includes Transmission Losses . This is the case if the load is metered at the generator-terminal rather than at the loads. If the load does include losses, and the Transmission attribute Losses Enabled is on, then the simulator will adjust the input load in an iterative procedure during the simulation so as to avoid double-counting transmission losses. This iterative procedure is generally very efficient, but you can control the number of iterations allowed with the Transmission attribute Max Embedded Loss Iterations .
+
+An alternative to the iterative approach is to apply a scaling factor to the input load. See the topic Load Scalar .
+
+See also:
+Lists:
+	- Region Transmission Losses
+

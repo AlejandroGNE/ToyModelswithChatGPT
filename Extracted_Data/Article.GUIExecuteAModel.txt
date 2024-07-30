@@ -1,0 +1,11 @@
+Header: Execute a Model
+
+Table Details:
+
+Paragraphs:
+Model objects are the primary target of execution for the PLEXOS simulation engine. Any newly created database will contain one Model . To execute the currently enabled Model(s) do the following:
+Lists:
+	- Click Execute or Execute In Parallel (for a number of simulations in parallel) from the main toolbar.
+	- The execute window appears (as shown in Figure 1).
+	- Execution will start automatically.
+

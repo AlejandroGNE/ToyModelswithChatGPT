@@ -1,0 +1,18 @@
+Header: Water Node Min Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Minimum number of units automatically constructed in aggregate over the planning horizon
+
+Paragraphs:
+Water Node Min Units Built is a binary (0,1) value that indicates if the project must be built inside the planning horizon or not. This value cannot be unity if Max Units Built is not also set to unity.
+
+See also:
+Lists:
+	- Water Node Min Units Built in Year
+

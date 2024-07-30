@@ -1,0 +1,16 @@
+Header: Heat Storage Decomposition Method
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Method used to pass the optimal storage trajectory from one simulation phase to the next
+
+Paragraphs:
+Refer to Commodity Decomposition
+            Method for details.
+Lists:
+

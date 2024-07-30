@@ -1,0 +1,15 @@
+Header: Gas Storage Net Withdrawal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net withdrawal cost for the gas storage
+
+Paragraphs:
+Gas Storages Net Withdrawal Cost is Net withdrawal cost for the gas storage.
+Lists:
+

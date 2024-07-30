@@ -1,0 +1,15 @@
+Header: Company Load
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Own load + load contracts
+
+Paragraphs:
+Company Load is the total load assigned to the company from all sources. This includes region load, purchaser load, and physical contract load. The company must be assigned to a region or at least one node in the nodes collection for the company must be assigned to a pool in order for this output to be calculated. Thus this property is defined as:
+Lists:
+

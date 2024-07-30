@@ -1,0 +1,23 @@
+Header: Maintenance Duration
+
+Table Details:
+Units:	h
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Duration of the maintenance event.
+MINOR	Duration	6	hrs	
+MAJOR	Duration	36	hrs	Include MAJOR
+
+Paragraphs:
+Maintenance Duration is the number of hours required for the maintenance. It is the key property for the class meaning that you must define this property for the object to be included in the simulation.
+
+Example
+
+In the following example the Maintenance "MINOR" is always in the simulation whereas the "MAJOR" event is only included if the running Model includes the Scenario "Include MAJOR".
+
+Notice that as an output Maintenance Duration summary type is "Max".
+Lists:
+

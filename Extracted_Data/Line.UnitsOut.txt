@@ -1,0 +1,17 @@
+Header: Line Units Out
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units (circuits) out of service
+
+Paragraphs:
+Line discrete maintenance events are entered using the Units Out property as an input. See the Generator Units Out for details.
+
+As an output, Units Out reports if the Line is out-of-service with either a Forced Outage or Maintenance .
+Lists:
+

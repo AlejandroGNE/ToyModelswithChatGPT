@@ -1,0 +1,15 @@
+Header: Generator Companies Fuel Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fuel bill
+
+Paragraphs:
+Generator Generator Companies Fuel Cost is defined as:
+Lists:
+

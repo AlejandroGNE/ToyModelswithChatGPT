@@ -1,0 +1,27 @@
+Header: Storage Target Level
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	storage target
+
+Paragraphs:
+Storage Target Level sets the end-of-interval target for the End Level . This target will be set every interval of the simulation.
+
+You can define a penalty for violation of this constraint with the Target Penalty property.
+
+The functional relationship between volume and height of a storage is non-linear, so the constraint is formulated using a Taylor Series centered about the target level as illustrated in the following diagram:
+
+See also:
+Lists:
+	- Storage Target Level Hour
+	- Storage Target Level Day
+	- Storage Target Level Week
+	- Storage Target Level Month
+	- Storage Target Level Year
+	- Storage Target
+

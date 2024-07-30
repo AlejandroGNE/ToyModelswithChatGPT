@@ -1,0 +1,15 @@
+Header: Physical Contract Objectives Load Obligation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total load obligation contracted
+
+Paragraphs:
+Physical Contract Objectives Load Obligation Coefficient is Coefficient of total load obligation contracted.
+Lists:
+

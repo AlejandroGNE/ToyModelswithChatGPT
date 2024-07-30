@@ -1,0 +1,49 @@
+Header: LT Plan At a Time
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of years solved in each step of LT Plan
+
+Paragraphs:
+The default behavior of LT Plan is to
+          optimize the entire planning horizon in one 'step', and this is the
+          ideal solution. However, for very large models it might be necessary
+          to break the optimization into multiple steps or to resolve the
+          horizon progressively using Rolling Horizon. The method used is
+          controlled by the Overlap setting
+          combined with Step Size.
+
+For the multi-step method, this option controls the number of
+              years solved in each step. A value of '0' means that the entire
+              horizon is solved in one step.
+
+Note that you must select a number of
+              years that divides the years in the planning horizon precisely.
+              For example, the following combinations are valid:
+
+The following are not valid:
+
+Note that these methods work independently of the Chronology setting, meaning you can further reduce the computational burden of
+          the simulation by choosing Partial, Fitted or Sampled chronologies.
+Lists:
+	- Solve 30 years in 3 steps of 10 years
+	- Solve 21 years in 3 steps of 7 years
+	- Solve 30 years in 4 steps
+	- Solve 20 years in 3 steps
+	- Years 1-20 with full detail in years 1-5 and less detail in
+                years 6-20
+	- Years 5-20 with full detail in years 5-9 and less detail in
+                years 10-20 and optimal build decisions for years 1-4 from the
+                previous solution
+	- Years 10-20 with full detail in years 10-14 and less details
+                in year 15-20 and optimal build decisions for years 1-9 from the
+                previous solutions
+	- Years 15-20 with full detail in years 15-19 and less detail in
+                year 20 and optimal build decisions for years 1-14 from the
+                previous solutions
+	- Year 20 with full detail and optimal build decisions for years
+                1-19 from the previous solutions
+	- A final full detail run with all build decisions locked.
+

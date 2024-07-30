@@ -1,0 +1,15 @@
+Header: Gas Storage Source Gas Fields Delivered Quantity
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas delivered by gas field to the gas storage
+
+Paragraphs:
+Gas Storage Source Gas Fields Delivered Quantity is the gas delivered by gas field to the gas storage.
+Lists:
+

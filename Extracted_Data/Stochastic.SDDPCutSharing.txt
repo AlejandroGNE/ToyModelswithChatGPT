@@ -1,0 +1,17 @@
+Header: Stochastic SDDP Cut Sharing
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Type of cut sharing applied in the SDDP formulation
+
+Paragraphs:
+Stochastic SDDP Cut Sharing is an advanced option for the SDDP algorithm.
+
+The Cut Sharing option determines how the Benders cuts, generated
+          during the backward pass of the algorithm, are shared between nodes
+          (full branches) of the scenario tree. It can take one of the following
+          values:
+Lists:
+

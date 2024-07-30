@@ -1,0 +1,11 @@
+Header: Message 3104
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	The Region <name> defines Region Reference Node of <name> but this is located in Region <name>.
+
+Paragraphs:
+Message 3104 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Demand Companies Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of gas supply shortages
+
+Paragraphs:
+Gas Demand Companies Shortage Cost is the cost of gas supply shortages for a given company.
+Lists:
+

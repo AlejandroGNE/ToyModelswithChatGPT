@@ -1,0 +1,88 @@
+Header: Transmission - Optimal Power Flow Methods
+
+Table Details:
+
+Paragraphs:
+The Fixed Shift Factor OPF (FS-OPF) model is a fully integrated transmission-constrained production cost model designed for transmission studies in large networks i.e. networks with 10,000's of buses and transmission lines. However, it can be equally applied to smaller networks. The FS-OPF employs a linearized DC approximation to the optimal power flow problem. It does a precomputation of network shift factors, which makes the OPF very efficient to solve particularly when the number of line flows and/or buses whose locational marginal price (LMP) needs to be calculated is limited, e.g. you might wish to enforce limits only above 60kV and the FS-OPF is able to exploit this to greatly speed the OPF calculation. Unlike many other implementations of DC-OPF, the PLEXOS FS-OPF can handle:
+
+The FS-OPF can also model transmission losses at all voltage levels in a very fast efficient manner.
+
+Referring to the line flow definition of DC-OPF:
+
+where:
+
+In the FS-OPF the equation from the flow on a branch in the AC network is computed as:
+
+where
+
+A shift-factor is equal to the change in flow on the line \[ j \] for a one megawatt increment in injection at bus \[ i \] and simultaneous withdrawal at the slack bus(es). The shift-factors are a function of the impedances of the paths in the network. The shift-factors though also depend on the choice of slack bus(es). For any choice of slack bus(es) there will be a set of shift-factors that completely describe how injections at each bus in the network affect flows throughout the transmission system. Thus the shift factors can be precomputed and stored prior to the simulation. During the simulation, the shift factors can be used to compute the flow on any AC path that is implied by the current set of network injections (generation and load pattern). They can then be used to formulate constraints that ensure the generation and load solution is feasible with respect to line thermal limits and other user-defined constraints involving line flows 1 . The transmission-constrained production cost problem using precomputed shift factors phrased as a linear programming problem is as follows:
+
+System supply demand balance:    \[ \displaystyle \sum_{k} g_{k} = D \]
+
+Flow Limits:    \[ \displaystyle \underline{f}_{j} \leq \sum_{i} \left[ PTDF_{i,j} \sum_{k \in i} ( g_{k} - LPF_{i} \times D ) \right] \leq \bar{f}_{j} \quad \forall j \]
+
+Generation Limits:    \[ \underline{g}_{k} \leq g_{k} \leq \bar{g}_{k} \]
+
+Node Phase Angle Limits (if enabled):    \[ \underline{\theta}_{i} \leq \theta_{i} \leq \bar{\theta}_{i} \]
+
+In this formulation:
+
+This simplified formulation illustrates how the shift-factors are used to form the transmission constraints. In the FS-OPF sets of shift-factors are computed as required during the simulation. A new set is required for each unique transmission state (topology). * Note that in PLEXOS the Diagnostic switch "Shift Factors" will print the shift factors for the network to a text file located in the same folder as the log file for the simulation. One file is printed for each outage state of the network , and named with a unique hash-code. The shift-factors are used in two ways:
+
+PLEXOS allows you to choose the slack bus(es) used when computing shift-factors. According to the definition of a shift factor, the choice of slack bus or buses will affect the calculated values of the shift-factors: but the choice of slack bus(es) is arbitrary with respect to solving the production cost problem. However the choice of slack bus does affect the LMP decomposition as explained below. Note that if using a single slack bus and the chosen slack bus is far away from the load centres of the network, there may be many shift-factors computed that are "small", and this could make the optimization problem numerically unstable and/or unnecessarily bulky. Distributing the slack across multiple buses rather than to a single bus can potentially yield a set of shift-factors that are more stable.
+
+The VS-OPF linear programming formulation for optimal power flow is identical to the formulation used in the New Zealand and Singapore electricity markets. It is a variation of the "textbook" linearized DC-OPF that models congestion and losses via explicit nodal energy balancing constraints rather than with a fixed set of shift factors. As in the FS-OPF nodal prices reflect transmission marginal loss factors as well as congestion. The primary difference however is that, by modelling a node-by-node energy balance, it produces a more accurate representation of AC network losses because the losses are "sunk" at the ends of the transmission lines, not at the nominated slack bus(es). (Broad, 1996) presents the formulation of a power flow model with quadratic objective and linear constraints consistent with (F.C. Schweppe, 1998). This quadratic programming (QP) problem can be adapted to a linear programming (LP) form if directed arcs are used with simple upper bounds representing the power flow limits. This approach is the basis for the linearized DC load flow in the PLEXOS VS- OPF: see Loss Modelling .
+
+The following is the production cost optimization problem including optimal power flow using the VS-OPF (lossless case):
+
+Minimise    \[ \displaystyle \sum_{k} c_{k} \times g_{k} \]    subject to:
+
+Node Net Injection (net injection = generation - load):    \[ \displaystyle n_{i} = \sum_{k} g_{k} - LPF_{i} \times D \quad \forall i \]
+
+Node Power Balance (net injection = exports - imports):    \[ \displaystyle n_{i} = -q_{i} \sum_{j \in i} b_{j} + \sum_{x(i \rightarrow k)} (b_{k} \times q_{k}) - \sum_{y(l \rightarrow i)} (b_{y} \times q_{i}) \quad \forall i \]
+
+Flow Limits:    \[ \underline{f}_{j} \leq b_{j} (q_{l} - q_{k}) \leq \bar{f}_{j} \quad \forall j \]
+
+Generation Limits:    \[ \underline{g}_{k} \leq g_{k} \leq \bar{g}_{k} \]
+
+In this formulation:
+
+This lossless version of the VS-OPF is mathematically identical to the lossless FS-OPF, but since the VS-OPF models nodal power balance (and phase angles) explicitly, additional constraints can be modelled. In particular, the node phase angles should not move outside reasonable bounds, and the model should adjust the dispatch of generation and transmission to avoid large phase angle differences across the network, hence the node phase angles are bounded according to the equation:    \[ -2\pi \leq q_{i} \leq 2\pi \]
+
+Note that the internal load flow calculations are on a p.u. basis, the phase angles calculated internally are in radians. Radians are converted to degrees for reporting purposes using the formula:    \[ \theta_{i} = 180/\pi \times q_{i} \]
+
+Thus, the reported Node Phase Angle property is in degrees. It is in the modelling of losses that the OPF formulations diverge. The VS-OPF, by virtue of its use of Node phase angle decision variables implicitly accounts for losses when modelling node power balance, and thus the "shift factors" for the system change according to system losses: hence the name variable shift factor OPF.
+Lists:
+	- Random outages on network lines; and
+	- Addition of new nodes/lines or retirement of nodes/lines mid-simulation.
+	- \[ P_{j} \] is the real power flow on transmission line \[ j \] flowing from node \[ a \] to node \[ b \] (in megawatts)
+	- \[ B_{j} \] is the susceptance of line \[ j \], which in linearization is equal to the inverse of reactance \[ X_{j} \] (p.u.)
+	- \[ \theta_{a} \], \[ \theta_{b} \] are the phase angles at the sending and receiving nodes respectively.
+	- \[ PTDF_{i,j} \] is the shift-factor between line \[ j \] and bus \[ i \]
+	- \[ P_{i} \] is the net injection (net of generation and load) at bus \[ i \]
+	- \[ c_{k} \] is the unit cost of production from generator \[ k \]
+	- \[ g_{k} \] is the generation by unit \[ k \], which must be between minimum \[ \underline{g}_{k} \] and maximum \[  \bar{g}_{k} \]
+	- \[ \theta_{i} \] is the phase angle on node \[ i \], which must be between minimum \[ \underline{\theta}_{i} \] and maximum \[ \bar{\theta}_{i} \]
+	- \[ D \] is the total system demand (load)
+	- \[ \displaystyle \sum_{i} \left[ PTDF_{i,j} \sum_{k \in i} ( g_{k} - LPF_{i} \times D ) \right] \] is the power flow on path \[ j \], which must be between minimum \[ \underline{f}_{j} \] and maximum \[ \bar{f}_{j} \]
+	- \[ LPF_{i} \] is the load participation factor for node \[ i \]
+	- \[ c_{k} \] is the unit cost of production from generator \[ k \]
+	- \[ g_{k} \] is the generation by unit \[ k \], which must be between minimum \[ \underline{g}_{k} \] and maximum \[ \bar{g}_{k} \]
+	- \[ D \] is the total system demand (load)
+	- \[ b_{j} \] is the susceptance for line \[ j \]
+	- \[ n_{i} \] is the net injection at node \[ i \]
+	- \[ q_{i} \] is the phase angle at node \[ i \]
+	- \[ LPF_{i} \] is the load participation factor for node \[ i \]
+	- \[ x(i \rightarrow k) \] denotes lines that export out of node \[ i \] and \[ y(l \rightarrow i) \] for those that import
+
+
+H2s:
+Contents
+1. Fixed Shift OPF
+2. Variable Shift OPF
+
+H3s:
+1.1. Introduction
+1.2. Formulation
+2.1. Introduction
+2.2. Formulation

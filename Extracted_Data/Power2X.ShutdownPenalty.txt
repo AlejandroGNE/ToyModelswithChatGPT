@@ -1,0 +1,15 @@
+Header: Power2X Shutdown Penalty
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to shutting down a unit
+
+Paragraphs:
+Power2X Shutdown Penalty is Penalty applied to shutting down a unit.
+Lists:
+

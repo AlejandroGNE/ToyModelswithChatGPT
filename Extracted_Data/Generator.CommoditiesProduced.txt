@@ -1,0 +1,11 @@
+Header: Generator Commodities Produced
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Commodities produced by the Generator
+
+Paragraphs:
+Generator Commodities Produced is set of Commodities produced by the Generator
+Lists:
+

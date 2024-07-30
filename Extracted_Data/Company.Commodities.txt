@@ -1,0 +1,11 @@
+Header: Company Commodities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Company Commodities is the set of Commodities produced by the Company's facilities.
+Lists:
+

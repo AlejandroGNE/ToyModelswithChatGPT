@@ -1,0 +1,24 @@
+Header: Gas Storage Constraints Injection Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas storage injection in the constraint
+
+Paragraphs:
+Gas Storage Constraints Injection Coefficient is the left-hand side coefficient of Gas
+            Storage Injection in
+          the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Gas Storage Constraints Withdrawal
+              Coefficient
+

@@ -1,0 +1,9 @@
+Header: Fleet Class
+
+Table Details:
+Description:	A fleet of vehicles
+
+Paragraphs:
+
+Lists:
+

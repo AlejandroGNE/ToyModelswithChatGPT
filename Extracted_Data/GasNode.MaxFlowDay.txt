@@ -1,0 +1,17 @@
+Header: Gas Node Max Flow Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum flow through the gas node each day
+
+Paragraphs:
+Gas Node Max Flow Day is the daily version of Gas Node Max Flow .
+
+Gas Node Max Flow Day is the maximum flow through the gas node each day.
+Lists:
+

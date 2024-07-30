@@ -1,0 +1,11 @@
+Header: List Timeslices
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Timeslice objects in the List
+
+Paragraphs:
+List Timeslices is set of Main Timeslices objects in the List.
+Lists:
+

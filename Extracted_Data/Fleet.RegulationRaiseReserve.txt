@@ -1,0 +1,17 @@
+Header: Fleet Regulation Raise Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation raise reserve
+
+Paragraphs:
+Fleet Regulation Raise Reserve is the provision of regulation raise reserve.
+
+See Battery Regulation Raise Reserve .
+Lists:
+

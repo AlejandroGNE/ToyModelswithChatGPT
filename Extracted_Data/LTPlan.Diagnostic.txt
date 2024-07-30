@@ -1,0 +1,11 @@
+Header: LT Plan Diagnostic
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Diagnostic settings for LT Plan
+
+Paragraphs:
+LT Plan Diagnostic is the Diagnostic settings for LT Plan. These override the settings associated with the Model .
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Heat Plant Heat Output Nodes Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion sent to the node
+
+Paragraphs:
+Heat Output Nodes Participation Factor is the proportion of heat output injected at the heat node. Using this property you can split the heat output of a heat plant across multiple Heat Output Nodes.
+It can also be used to described the efficiency of waste heat recovery in a heat plant.
+Lists:
+

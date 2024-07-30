@@ -1,0 +1,27 @@
+Header: Generator Efficiency
+
+Table Details:
+Units:	MW/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Efficiency of generation
+
+Paragraphs:
+Generator Efficiency is the efficiency of generation.
+
+Thermal and hydro generators use a different definition for this property. For thermal generators efficiency is defined as:
+
+where:
+
+and for hydro generators, i.e those connected to a Head Storage , the definition is similar to the input property Efficiency Incr :
+
+Again the units of this property depend on the unit system and Storage Model being used e.g. for metric volume the unit is MW/cumec, and for US Imperial volume the unit is MW/AF/hr.
+
+See also:
+Lists:
+	- Generator Water Pumped
+	- Storage Efficiency
+

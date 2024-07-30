@@ -1,0 +1,15 @@
+Header: Gas Contract Take Quantity
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas offtake associated with the contract
+
+Paragraphs:
+Gas Contract Take Quantity is gas offtake associated with the contract.
+Lists:
+

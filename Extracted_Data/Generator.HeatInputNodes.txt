@@ -1,0 +1,12 @@
+Header: Generator Heat Input Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of heat nodes supplying heat to the generator
+
+Paragraphs:
+Generator Heat Input Nodes is the collection of Heat Nodes that the generator connects and receives heat from. Heat received from these heat nodes will help to off-set its fuel off-take.
+A generator can connect to many heat nodes. The total amount of received heat will be the sum of the heat supplied from all the heat input nodes.
+Lists:
+

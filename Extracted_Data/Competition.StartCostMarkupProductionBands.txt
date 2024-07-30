@@ -1,0 +1,12 @@
+Header: Competition Start Cost Mark-up Production Bands
+
+Table Details:
+Units:	-
+Default Value:	100
+Validation Rule:	≥1
+Description:	Number of bands of production used in recovery of a start cost across each window
+
+Paragraphs:
+Competition Start Cost Mark-up Production Bands is a parameter of the Start Cost Mark-up feature. It defines how many bands the total Generator Generation is divided into across each period of time defined by the Start Cost Mark-up Window . The higher the number of bands, the finer graduation is given to the mark-ups, but the larger the required mathematical formulation.
+Lists:
+

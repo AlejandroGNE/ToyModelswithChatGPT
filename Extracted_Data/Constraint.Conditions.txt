@@ -1,0 +1,11 @@
+Header: Constraint Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of switching variables for this constraint
+
+Paragraphs:
+Constraint Conditions is the set of Conditions that apply to the constraint.
+Lists:
+

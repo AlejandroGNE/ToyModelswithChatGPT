@@ -1,0 +1,17 @@
+Header: Financial Contract Floor Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract floor price
+
+Paragraphs:
+Financial Contract Floor Price in a Gross Pool sets the price below which payments are made to the generator, and in a Net Pool it sets the contract price.
+
+See the Quantity topic for examples.
+Lists:
+

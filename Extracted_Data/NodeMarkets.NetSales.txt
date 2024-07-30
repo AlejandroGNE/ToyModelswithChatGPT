@@ -1,0 +1,15 @@
+Header: Node Markets Net Sales
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net sales to the market
+
+Paragraphs:
+Node Markets Net Sales is the net energy sold into the market.
+Lists:
+

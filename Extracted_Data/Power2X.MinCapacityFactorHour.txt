@@ -1,0 +1,16 @@
+Header: Power2X Min Capacity Factor Hour
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum capacity factor in hour
+
+Paragraphs:
+Refer to Facility Min
+            Capacity Factor Hour for details.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Zone Wheeling Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Wheeling cost on imports to the zone
+
+Paragraphs:
+Zone Wheeling Cost is the WheelingCharges paid on net imports to the Zone.
+
+See also Zone Wheeling Revenue .
+Lists:
+

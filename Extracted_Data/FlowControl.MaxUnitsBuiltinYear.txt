@@ -1,0 +1,15 @@
+Header: Flow Control Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically constructed in any single year of the planning horizon
+
+Paragraphs:
+Flow Control Max Units Built in Year is Maximum number of units automatically constructed in any single year of the planning horizon. This property is similar to Line Max Units Built in Year . See that topic for details and examples.
+Lists:
+

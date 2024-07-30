@@ -1,0 +1,26 @@
+Header: Stochastic FCF Scalar
+
+Table Details:
+Units:	-
+Default Value:	1000000
+Validation Rule:	Any Value
+Description:	Scalar for future cost function objective and constraint terms
+
+Paragraphs:
+FCF Scalar is a scalar for the future cost function objective and
+          constraint terms in the SDDP algorithm. Scaling affects the numerical stability of the linear
+          programming problems. It is good practice to experiment with the FCF
+          Scalar to find a value that provides the most stable convergence for
+          the given problem.
+
+As a rough guide, if the total objective function value of your
+          simulation is in the order 1E+9 then an FCF Scalar of 1E+6 might work
+          well. If the objective is in the order 1E+10 then values up to 1E+7
+          might be better. Note that the scalar does not need to be a perfect
+          power of 10 e.g. you can set a value of 5E+6.
+
+See also:
+Lists:
+	- Stochastic FCF
+              Constant
+

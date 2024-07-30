@@ -1,0 +1,38 @@
+Header: Generator Mean Time to Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	No
+Description:	Mean time to repair
+Forced Outage Rate	9	%	1
+Mean Time to Repair	8	hrs	1
+Maintenance Rate	5	%	2
+Mean Time to Repair	36	hrs	2
+
+Paragraphs:
+Generator Mean Time to Repair is
+          used as the location parameter for several of the functions that
+          generate outage duration samples for both forced and maintenance
+          outages. The function used is set by the Repair
+            Time Distribution setting, which is described in the article Planned and Random Outages .
+
+
+
+For the example in Table 1 all forced outages will have duration 8
+          hours and maintenance outages 36 hours.
+
+See also:
+Lists:
+	- Generator Min
+              Time to Repair
+	- Generator Max
+              Time to Repair
+	- Generator Repair
+              Time Scale
+	- Generator Repair
+              Time Shape
+

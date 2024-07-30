@@ -1,0 +1,20 @@
+Header: Storage Working Volume
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Working storage volume at the end of the period
+
+Paragraphs:
+Storage Working Volume is defined
+          as:
+
+See also:
+Lists:
+	- Storage Working
+              Utilization
+

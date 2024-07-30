@@ -1,0 +1,18 @@
+Header: Transformer Min Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum flow
+
+Paragraphs:
+Transformer Min Flow is the minimum Flow on the transformer in the period.
+
+See also:
+Lists:
+	- Transformer Max Flow
+

@@ -1,0 +1,15 @@
+Header: Battery Net Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net profit
+
+Paragraphs:
+Battery Net Profit is the net profit associated with discharge from the BESS.
+Lists:
+

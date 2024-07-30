@@ -1,0 +1,15 @@
+Header: Reserve Generators Initial Raise Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Generator raise reserve provision at time zero
+
+Paragraphs:
+Reserve Generators Initial Raise Provision is Generator raise reserve provision at time zero, which is the Raise Reserve part of Spinning Reserve Provision . It should be set when Duration is defined.
+Lists:
+

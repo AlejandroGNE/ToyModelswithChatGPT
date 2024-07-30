@@ -1,0 +1,30 @@
+Header: Introduction
+
+Table Details:
+
+Paragraphs:
+A Power2X object represents a grid connected facility that uses electricity, and other inputs e.g. water, to generate one or more other commodities e.g. hydrogen, methane (CH4), liquid fuel, ammonia (NH3), heat, etc that can be stored for later use by generation/district heating facilities. Power2X connects the electric, gas water and heat systems, although, you may define the facility using electric objects alone.
+
+The Units property (default value zero) is the key property for Power2X. Use this property to turn on/off the facility. You may also define multiple units at the same facility.
+
+Power2X acts as a load on the electric system. The load can be up to Max Load in megawatts. The facility can connect to more than one Node with load shared according to the Load Participation Factor .
+
+The input electric energy, and optionally water, is converted to one or more output products at the defined Efficiency (the remainder being waste heat). The output can be directed to one or more Fuels (where it is 'stockpiled' for later use), Gas Nodes (where it enters the gas network), or directly to Gas Storages , or to Heat Nodes or Heat Storages . Where multiple products are produced use the Ratio property to control the relative quantities produced.
+
+Electric energy is paid for at the Node Price , and additional variable costs are input with the VO&M Charge property.
+
+The electric energy consumed is reported in the Load property. The total output is reported as Production Rate/Volume .
+
+When a Power2X facility supplies fuels, the Fuel objects automatically model the storage of the product, which is reported as Closing Inventory . Other Fuel outputs show the amounts of injection and withdrawal from the fuel stockpile/storage.
+
+The simulator will optimize the on/off operating decisions of the facility, using the ability to store the output products to arbitrage the electric price over time. The minimum operating level of the facility, when switched on, is defined using with Min Stable Factor property. Additionally, the facility can define a Min Down Time and/or Min Up Time constraint.
+
+Custom constraints can be defined via the Constraint Power2X membership and associated properties such as Units Operating Coefficient .
+
+Power2X facilities can provide ancillary services via the Reserve Power2X membership and Max Response property. For example, Power2X provides a 'raise' service when it is operating by providing the ability to reduce electric load (limited by Min Stable Factor ), and a 'lower' service by increasing load (limited by Max Load ).
+
+Power2X facilities model random and planned outages using the same set of properties as Generator .
+
+Power2X facilities offer the same set of expansion inputs as Generator which allows the simulator to automatically build facilities as required/economic.
+Lists:
+

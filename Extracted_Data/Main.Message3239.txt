@@ -1,0 +1,11 @@
+Header: Message 3239
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> Decision Variable <name> Lower Bound should not be negative when its [Value Squared Coefficient] defined as a negative value.
+
+Paragraphs:
+Message 3239 occurs in the following circumstances:
+Lists:
+

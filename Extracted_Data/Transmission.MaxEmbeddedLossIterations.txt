@@ -1,0 +1,14 @@
+Header: Transmission Max Embedded Loss Iterations
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	≥0
+Description:	Maximum number of iterations for removing embedded losses from load.
+
+Paragraphs:
+Transmission Max Embedded Loss Iterations sets how many iterations are used to account for (remove) transmission losses that are embedded in the input load.
+
+Refer to the article Loss Modeling for details of how these embedded losses are handled.
+Lists:
+

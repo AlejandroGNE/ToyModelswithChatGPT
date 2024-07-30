@@ -1,0 +1,16 @@
+Header: Power2X Load Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Load point for use with multi-point efficiency
+
+Paragraphs:
+Power2X Load Points are used to
+          define multi-point efficiency functions.
+Lists:
+

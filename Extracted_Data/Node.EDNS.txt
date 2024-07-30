@@ -1,0 +1,24 @@
+Header: Node EDNS
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Expected Demand Not Served (summary type "Average")
+
+Paragraphs:
+Node EDNS reports the Expected Demand Not Served.
+
+NOTE: EDNS is only computed by PASA when the Compute Reliability Indices setting is 'on'.
+
+This is the expected demand not served in the PASA period. The EDNS is determined by taking the total area where the demand (d) is greater than the installed capacity (IC).
+
+See also:
+Lists:
+	- Node LOLP
+	- Node LOLE
+	- Node EENS
+

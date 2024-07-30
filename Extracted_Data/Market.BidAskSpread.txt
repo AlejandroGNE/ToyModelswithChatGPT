@@ -1,0 +1,31 @@
+Header: Market Bid-Ask Spread
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Market bid-ask spread
+Property	Value	Units
+Price	35	-
+Bid-Ask Spread	2	-
+
+Paragraphs:
+Market Bid-Ask Spread sets a threshold
+          that must be met before trades are economic. The price received in for
+          sales into the market is the Price less half the Bid Ask Spread value and the price paid for purchases
+          from the market is the Price plus
+          half the Bid Ask Spread.
+
+For the example in Table 1, sales into the market receive 35 - 0.5 x 2
+          = 34 and purchases are paid at 35 + 0.5 x 2 = 36.
+
+See also:
+Lists:
+	- Market Bid
+              Spread
+	- Market Ask
+              Spread
+

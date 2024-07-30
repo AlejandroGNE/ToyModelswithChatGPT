@@ -1,0 +1,25 @@
+Header: Constraint RHS Hour
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Right hand side each hour
+
+Paragraphs:
+Constraint RHS Hour defines the right-hand side (constant) term for each hour of the planning horizon. Setting this property defines the period of the constraint as one constraint per hour.
+
+Note: This type of constraint is not be confused with an interval constraint which produces one constraint for every interval. Thus, RHS Hour only applies to sub-hourly models i.e. those where Horizon Periods per Day is greater than 24.
+
+See also:
+Lists:
+	- RHS
+	- RHS Day
+	- RHS Week
+	- RHS Month
+	- RHS Year
+	- RHS Custom
+

@@ -1,0 +1,15 @@
+Header: Gas Storage Initial Energy
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of heat energy in gas storage at the start of period
+
+Paragraphs:
+Gas Storages Initial Energy is Value of heat energy in gas storage at the start of period.
+Lists:
+

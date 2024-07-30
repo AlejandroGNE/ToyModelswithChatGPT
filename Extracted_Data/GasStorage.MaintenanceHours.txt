@@ -1,0 +1,20 @@
+Header: Gas Storage Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas storage is on maintenance
+
+Paragraphs:
+Gas Storage Maintenance Hours is the number of hours the gas storage is on maintenance.
+
+See also:
+Lists:
+	- Gas Storage Forced Outage Hours
+	- Gas Storage Units Out
+	- Gas Storage Service Factor
+

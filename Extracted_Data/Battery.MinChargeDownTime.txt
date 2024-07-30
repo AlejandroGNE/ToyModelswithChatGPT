@@ -1,0 +1,15 @@
+Header: Battery Min Charge Down Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must refrain from charging after being shut down from charge mode
+
+Paragraphs:
+Battery Min Charge Down Time is the minimum number of hours a unit must refrain from charging after being shut down from charge mode.
+Lists:
+

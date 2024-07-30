@@ -1,0 +1,31 @@
+Header: Variable Include in ST Schedule
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the condition is allowed to be active in the ST Schedule phase.
+Day-ahead	Include in LT Plan	0	Yes/No
+Day-ahead	Include in PASA	0	Yes/No
+Day-ahead	Include in MT Schedule	0	Yes/No
+Day-ahead	Include in ST Schedule	-1	Yes/No
+Day-ahead	Is Active	-1	Yes/No
+Day-ahead	Step Hour Active From	25	-
+Day-ahead	Step Hours Active	-1	-
+
+Paragraphs:
+Variable Include in ST Schedule is If the condition is allowed to be active in the ST Schedule phase. This is particularly useful when using the properties Step Hour Active From and Step Hours Active .
+
+Example
+
+In the following example, the Variable "Day-ahead" is active only in ST Schedule .
+
+See also:
+Lists:
+	- Variable Include in LT Plan
+	- Variable Include in PASA
+	- Variable Include in MT Schedule
+

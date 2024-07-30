@@ -1,0 +1,18 @@
+Header: Water Node Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of water supply shortages
+
+Paragraphs:
+Water Node Shortage Cost is Cost of water supply Shortage priced at the Water Demand Shortage Price .
+
+See also:
+Lists:
+	- Water Node Excess Cost
+

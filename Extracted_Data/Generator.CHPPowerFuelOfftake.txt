@@ -1,0 +1,25 @@
+Header: Generator CHP Power Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel Offtake proportion for Electricity production
+
+Paragraphs:
+Generator CHP Power Fuel Offtake is Fuel Offtake proportion for Electricity production.
+
+Generator CHP Heat Fuel Offtake is a Physical measure approach (Physical measure method) adopted by IEA. The proportion of fuel offtake for electricity production is given by:
+
+F*E/(E+H)
+
+Where:
+
+And,
+
+See also CHP Heat Fuel Offtake
+Lists:
+

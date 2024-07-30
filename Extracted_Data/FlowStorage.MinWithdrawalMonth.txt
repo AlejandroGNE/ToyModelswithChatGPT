@@ -1,0 +1,16 @@
+Header: Flow Storage Min Withdrawal Month
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of the Commodity that must be taken from inventory each month
+
+Paragraphs:
+See Commodity Min
+            Withdrawal Month for details.
+Lists:
+

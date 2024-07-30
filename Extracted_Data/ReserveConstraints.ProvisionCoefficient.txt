@@ -1,0 +1,30 @@
+Header: Reserve Constraints Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of reserve provision
+
+Paragraphs:
+Reserve Constraints sets the left-hand side coefficient of Reserve Provision in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+By default, this sum is taken over all Generator Reserves . However you can limit
+          the set of Reserves included in
+          the sum by adding Reserve Generator memberships with no associated property definitions. This is a special
+          case of using 'null' memberships to filter the terms included in
+          another constraint property.
+
+See also:
+Lists:
+	- Reserve Min
+              Provision
+	- Reserve Max
+              Provision
+

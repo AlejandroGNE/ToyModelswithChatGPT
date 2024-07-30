@@ -1,0 +1,15 @@
+Header: Flow Control FO&M Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+
+Paragraphs:
+Flow Control FO&M Charge is Annual fixed operation and maintenance charge. This property forms part of the objective function for LT Plan capacity expansion.
+Lists:
+

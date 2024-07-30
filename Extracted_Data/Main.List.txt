@@ -1,0 +1,11 @@
+Header: List Class
+
+Table Details:
+Description:	Generic list of objects
+
+Paragraphs:
+See also List Property Reference for a detailed list of properties for this class of object.
+
+Note: This class was introduced in PLEXOS 7.
+Lists:
+

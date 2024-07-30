@@ -1,0 +1,19 @@
+Header: Gas Node Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flag if the gas node is built in this year
+
+Paragraphs:
+Gas Node Units Built is a binary (0,1) value indicating if the resource is built in this year.
+
+See also:
+Lists:
+	- Gas Node Max Units Built
+	- Gas Node Units Retired
+

@@ -1,0 +1,19 @@
+Header: Region Constraint Payments Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Constraint payments compatibility (match to market being modelled)
+
+Paragraphs:
+Region Constraint Payments Enabled toggles on/off constraint payments in the uniform pricing algorithm. The method used to compute the payments is controlled by the Constraint Payments Compatibility setting.
+
+See also:
+Lists:
+	- Region Constrained Off Cost
+	- Region Constrained On Cost
+

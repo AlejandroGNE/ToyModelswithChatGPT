@@ -1,0 +1,14 @@
+Header: Gas Pipeline Gas Node From
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	gas node the gas pipeline exports from
+
+Paragraphs:
+Gas Pipeline Gas Node From is Gas Node the Gas Pipeline exports from.
+
+See also:
+Lists:
+	- Gas Pipeline Gas Node To
+

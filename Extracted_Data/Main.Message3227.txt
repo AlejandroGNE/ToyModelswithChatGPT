@@ -1,0 +1,11 @@
+Header: Message 3227
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	There is a mismatch between the number of offer quantity bands (<value>) and the number of bid-cost mark-up bands (<value>) for <value>.
+
+Paragraphs:
+Message 3227 occurs in the following circumstances:
+Lists:
+

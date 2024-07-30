@@ -1,0 +1,15 @@
+Header: Gas Storage Entitlement Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates whether maximum injection or withdrawal entitlement does not include loss (gross) or includes loss (net).
+
+Paragraphs:
+Gas Storage Entitlement Type indicates whether specified maximum or minimum injection/withdrawal value includes fuel (net) or excludes fuel (gross).
+Lists:
+

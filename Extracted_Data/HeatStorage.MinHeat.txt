@@ -1,0 +1,15 @@
+Header: Heat Storage Min Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum heat allowed in storage
+
+Paragraphs:
+Heat Storages Min Heat is the Minimum heat allowed in storage.
+Lists:
+

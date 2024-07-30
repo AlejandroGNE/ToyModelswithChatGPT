@@ -1,0 +1,15 @@
+Header: Vehicle Constraints Load Coefficient
+
+Table Details:
+Units:	kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of load drawn by vehicle charging
+
+Paragraphs:
+Vehicle Constraints Load Coefficient is the coefficient of vehicle load (charging power) in the constraint.
+Lists:
+

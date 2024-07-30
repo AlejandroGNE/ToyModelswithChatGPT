@@ -1,0 +1,92 @@
+Header: Flow Network Class
+
+Table Details:
+Description:	A network that flows a Commodity
+Class	Name	Category
+Commodity	Water	-
+Process	Production	-
+Market	Demand	-
+Facility	Plant	-
+Flow Network	Water	-
+Flow Node	Bypass	-
+Flow Node	Sink	-
+Flow Node	Source	-
+Flow Path	Bypass.to.Sink	-
+Flow Path	Source.to.Bypass	-
+Flow Path	Source.to.Sink	-
+Flow Storage	Tank	-
+Collection	Parent Name	Child Name
+Commodity.Markets	Water	Demand
+Process.Primary Output	Production	Water
+Facility.Primary Process	Plant	Production
+Facility.Flow Nodes	Plant	Source
+Flow Network.Commodity	Water	Water
+Flow Network.Flow Nodes	Water	Bypass
+Flow Network.Flow Nodes	Water	Sink
+Flow Network.Flow Nodes	Water	Source
+Flow Node.Markets	Sink	Demand
+Flow Path.Flow Node From	Bypass.to.Sink	Bypass
+Flow Path.Flow Node From	Source.to.Bypass	Source
+Flow Path.Flow Node From	Source.to.Sink	Source
+Flow Path.Flow Node To	Bypass.to.Sink	Sink
+Flow Path.Flow Node To	Source.to.Bypass	Bypass
+Flow Path.Flow Node To	Source.to.Sink	Sink
+Flow Storage.Flow Node	Tank	Source
+Collection	Child Object	Property	Value	Data File	Units
+Commodities	Water	Price	0		$/kL
+Processes	Production	Processing Charge	5		$
+Markets	Demand	Demand	0	Water Demand	-
+Markets	Demand	Shortage Price	10000		$
+Markets	Demand	Max Sales	1000		-
+Facilities	Plant	Units	1		-
+Facilities	Plant	Max Operating Level	1000		-
+Flow Nodes	Bypass	Flow Charge	10		$
+Flow Paths	Bypass.to.Sink	Min Flow	0		-
+Flow Paths	Source.to.Bypass	Max Flow	100		-
+Flow Paths	Source.to.Bypass	Min Flow	0		-
+Flow Paths	Source.to.Sink	Flow Charge	1		$
+Flow Paths	Source.to.Sink	Max Flow	550		-
+Flow Paths	Source.to.Sink	Min Flow	0		-
+Flow Storages	Tank	Max Inventory	10000		kL
+Flow Storages	Tank	Opening Inventory	5000		kL
+
+Paragraphs:
+See also Flow Network Property
+            Reference for a detailed list of properties for this class of
+          object.
+
+Related Classes: Commodity , Process , Facility , Market , Flow Node , Flow
+            Path , Flow Storage .
+
+A Flow Network flows a single Commodity through a collection of Flow Node objects linked by Flow Path objects,
+          with optional storage in Flow Storage objects.
+
+Figure 1 shows a three node network in which a Facility "Plant" produces a Commodity "Water" that flows on the network from the "Source" node to the "Sink"
+          node where it is sold in a Market . The
+          Flow Path from "Source" to "Sink" is limited in capacity but the
+          market can be reach via the "Bypass" node along a different set of
+          Flow Path objects but there is a cost associated with flows through
+          that node.
+
+Figure 1: Flow Network Example
+
+Table 1 lists the objects for this example, Table 2 the memberships
+          and Table 3 the properties.
+
+
+
+
+
+
+
+A Flow Network can have connections to other networks through the
+          following memberships:
+
+These connections allow you to import/export to/from your external
+          electric network to the Flow Network.
+Lists:
+	- Node Exporting
+              Flow Paths
+	- Node Importing
+              Flow Paths
+

@@ -1,0 +1,15 @@
+Header: Line Mean Time to Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	24
+Validation Rule:	≥0
+Key Property:	No
+Description:	Mean time to repair
+
+Paragraphs:
+Line Mean Time to Repair is the line equivalent of Generator Mean Time to Repair .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Companies Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Percentage share of ownership
+
+Paragraphs:
+Power2X Companies Share is the percentage share of ownership.
+Lists:
+

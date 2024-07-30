@@ -1,0 +1,15 @@
+Header: Generator Fixed Charge
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generic annual fixed charge
+
+Paragraphs:
+Generator Fixed Charge is a generic annual fixed charge that is treated similarly to FO&M Charge in LT Plan . The multiple bands provide a convenient way to separate various fixed costs such as refurbishment costs from other fixed operational costs.
+Lists:
+

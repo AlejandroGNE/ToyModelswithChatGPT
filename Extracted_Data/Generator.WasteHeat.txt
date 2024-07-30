@@ -1,0 +1,27 @@
+Header: Generator Waste Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Waste heat from generation
+
+Paragraphs:
+Generator Waste Heat is the waste heat (potential energy) after generation. In the metric model this is defined as:
+
+and in the imperial US model:
+
+This output is most relevant when defining CCGT plant using separate gas turbine and steam turbine units (see Heat Input ).
+
+The formula above is adopted in calculating the waste heat produced by the gas turbine or combustion turbine (GT/CT) units. Please note that in reporting, if the generator is attaching to a heat output nodes, waste heat refers to the primal value of the heat this generator ((GT/CT) units) is supplying to the nodes, which may be less than the amount produced (using above formula). This is because generator can dump heat and only deliver the necessary amount of heat to the heat output nodes.
+
+The waste heat from steam turbine (ST) which will not be treated as potential energy is defined differently. See the article Combined Cycle Plant for more details. Waste heat can be captured in general, for example, to model the transport of heat between an electric generator and a Water Plant using Decision Variable coefficients.
+
+See also:
+Lists:
+	- Constraint Generators Heat Production Coefficient
+	- Decision Variable Generators Heat Input Definition Coefficient
+

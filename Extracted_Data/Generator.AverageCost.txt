@@ -1,0 +1,29 @@
+Header: Generator Average Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average cost of generation
+
+Paragraphs:
+Generator Average Cost is the
+          average cost of production and is calculated as:
+
+Average Cost = Generation
+            Cost / Generation
+
+See also:
+Lists:
+	- Generator SRMC
+	- Generator Average
+              Heat Rate
+	- Generator Marginal
+              Heat Rate
+	- Generator Efficiency
+	- Generator Average
+              Total Cost
+

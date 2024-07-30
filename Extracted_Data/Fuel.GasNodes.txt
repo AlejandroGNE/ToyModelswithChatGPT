@@ -1,0 +1,11 @@
+Header: Fuel Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas nodes the fuel is delivered through
+
+Paragraphs:
+Fuel Gas Nodes is set of Gas Node objects the Fuel is delivered through.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Layout Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Node objects in the Layout
+
+Paragraphs:
+Layout Nodes is set of Node objects in the Layout
+Lists:
+

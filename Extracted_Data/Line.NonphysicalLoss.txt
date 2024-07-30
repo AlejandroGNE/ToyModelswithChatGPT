@@ -1,0 +1,15 @@
+Header: Line Non-physical Loss
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-physical losses in the reference direction
+
+Paragraphs:
+Line Non-physical Loss is Non-physical losses in the reference direction.
+Lists:
+

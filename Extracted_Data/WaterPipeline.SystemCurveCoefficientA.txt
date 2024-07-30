@@ -1,0 +1,15 @@
+Header: Water Pipeline System Curve Coefficient A
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	System curve coefficient A for the quadratic term
+
+Paragraphs:
+Water Pipeline System Curve Coefficient A is System curve coefficient A for the quadratic term.
+Lists:
+

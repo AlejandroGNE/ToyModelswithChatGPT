@@ -1,0 +1,22 @@
+Header: Commodity Price
+
+Table Details:
+Units:	$/~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price of the Commodity for the given level of Net Consumption
+
+Paragraphs:
+The input property Commodity Price sets the price
+          per Unit of the Commodity consumed
+          (positive value), or the value of the Commodity produced (negative
+          value).
+
+In interval reporting, the value of the input Price property sets the output Price.
+
+In summary reporting, Price is defined by the ratio, Price = Net Cost / Net Consumption .
+Lists:
+

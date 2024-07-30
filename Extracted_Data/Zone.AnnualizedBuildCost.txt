@@ -1,0 +1,19 @@
+Header: Zone Annualized Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Annualized cost of generating units built
+
+Paragraphs:
+Zone Annualized Build Cost is the sum of all build cost annuities from LT Plan and is defined as:
+
+See also:
+Lists:
+	- Zone Total Cost
+	- Zone Levelized Cost
+

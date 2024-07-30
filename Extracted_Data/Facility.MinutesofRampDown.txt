@@ -1,0 +1,22 @@
+Header: Facility Minutes of Ramp Down
+
+Table Details:
+Units:	min
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total minutes spent ramping down
+
+Paragraphs:
+Facility Minutes of Ramp Down is
+          the total minutes spent ramping down. Combined with Ramp
+            Down it provides a measure of the intensity of ramping down in
+          the given period.
+
+See also:
+Lists:
+	- Facility Minutes
+              of Ramp Up
+

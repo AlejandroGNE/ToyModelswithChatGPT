@@ -1,0 +1,40 @@
+Header: Fuel Price
+
+Table Details:
+Units:	$/~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fuel price
+OIL	Price	50	$/bbl
+GAS	Price	9	$/GJ
+
+Paragraphs:
+This is the per Unit price of the fuel .
+
+
+
+
+
+In the example in Table 1, the price of "OIL" is $50/bbl (which has an Energy Density of 6118 MJ/bbl),
+          thus its implied price per unit of energy is 50/(6118/1000) =
+          $8.17/GJ. "GAS" however is simply $9/GJ.
+
+
+
+
+
+For interval data, if Price is defined as input then it sets the
+          output Price. Otherwise if there are no Fuel
+            Contracts associated with the Fuel the Price is set by the Shadow Price .
+          Finally, if there is one or more Fuel
+            Contracts on the Fuel then the
+          Price is defined as:
+
+In summary data Price is defined by this ratio. If Offtake is zero in any period then this volume-weighted Price is also zero.
+          You can see the time-weighted version in the property Time-weighted
+            Price .
+Lists:
+

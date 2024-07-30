@@ -1,0 +1,15 @@
+Header: Gas Plant Model Capital Cost Recovery
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if capital cost recovery feature is modeled for expansion planning
+
+Paragraphs:
+Gas Plant Model Capital Cost Recovery indicates if capital cost recovery feature is modeled for expansion planning.
+Lists:
+

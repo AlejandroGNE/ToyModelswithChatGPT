@@ -1,0 +1,17 @@
+Header: Commodity Build Cost Multiplier
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,2)
+Key Property:	No
+Description:	Sets the unit for the input Build Cost
+
+Paragraphs:
+Commodity Build Cost Multiplier
+          sets the unit for the input Build
+            Cost . This option can take these values:
+Lists:
+

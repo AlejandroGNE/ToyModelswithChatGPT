@@ -1,0 +1,15 @@
+Header: Water Demand Shortage Price
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Notional price of water shortage
+
+Paragraphs:
+Water Demand Shortage Price is Notional price of water shortage.
+Lists:
+

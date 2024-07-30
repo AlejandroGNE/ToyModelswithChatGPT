@@ -1,0 +1,49 @@
+Header: Gas Storage Use Additive Ratchet
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If additive ratchet use is enforced.
+
+Paragraphs:
+Gas Storage Use Additive Ratchet determines how ratchet inputs are defined. When this is set to Yes, the injection and withdrawal ratchet inputs for volume and rate in each band are specified in an additive manner. Otherwise the values are cumulative.
+
+The "Use Additive Ratchet" field determines whether the multi-band ratchet inputs are cumulative (No) or incremental (Yes). This is both for injection and withdrawal ratchets.
+
+The following examples are for both injection and withdrawal, each of which have equivalent additive and non-additive versions. These examples assume the Gas Storage Ratchet Type is "Step".
+
+The following two sets of inputs are equivalent, and can be interpreted this way:
+
+Withdrawal The following two sets of inputs are equivalent, and can be interpreted this way: When the gas storage is 100-80% full, the maximum withdrawal is 100% of the Withdrawal Ratchet. When the gas storage is 80-50% full, the maximum withdrawal is 90% of the Withdrawal Ratchet. When the gas storage is 50-20% full, the maximum withdrawal is 75% of the Withdrawal Ratchet. When the gas storage is 20-10% full, the maximum withdrawal is 50% of the Withdrawal Ratchet. When the gas storage is 0-10% full, the maximum withdrawal is 25% of the Withdrawal Ratchet. Use Additive Ratchet = Yes Use Additive Ratchet = No
+
+The following two sets of inputs are equivalent, and can be interpreted this way:
+
+
+Lists:
+	- When the gas storage is 0-50% full, the maximum injection is 100% of the Injection Ratchet.
+	- When the gas storage is 50-75% full, the maximum injection is 90% of the Injection Ratchet.
+	- When the gas storage is 75-90% full, the maximum injection is 50% of the Injection Ratchet.
+	- When the gas storage is 90-100% full, the maximum injection is 25% of the Injection Ratchet.
+	- When the gas storage is 100-80% full, the maximum withdrawal is 100% of the Withdrawal Ratchet.
+	- When the gas storage is 80-50% full, the maximum withdrawal is 90% of the Withdrawal Ratchet.
+	- When the gas storage is 50-20% full, the maximum withdrawal is 75% of the Withdrawal Ratchet.
+	- When the gas storage is 20-10% full, the maximum withdrawal is 50% of the Withdrawal Ratchet.
+	- When the gas storage is 0-10% full, the maximum withdrawal is 25% of the Withdrawal Ratchet.
+
+
+H3s:
+Examples:
+
+H4s:
+Injection
+Withdrawal
+
+H5s:
+Use Additive Ratchet = Yes
+Use Additive Ratchet = No
+Use Additive Ratchet = Yes
+Use Additive Ratchet = No

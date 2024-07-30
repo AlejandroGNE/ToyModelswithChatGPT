@@ -1,0 +1,36 @@
+Header: Market Max Purchases
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum purchase from the market
+Property	Value	Units	Timeslice
+Price	60	-	
+Max Purchases	200	-	HLH
+Max Purchases	0	-	LLH
+Max Sales	0	-	
+Buy Block Day	25	-	
+
+Paragraphs:
+Market Max Purchases sets an upper
+          bound on the amount bought from the market at the given Price in any interval. If you prefer to set a fixed supply from the market
+          use the Supply property instead.
+
+Note that when a supply curve is defined using Price and Quantity there is a natural
+          upper bound on the purchases set by the Base
+            Quantity less then lowest quantity point.
+
+The example in Table 1 is a a daily exercisable buy option. Purchases
+          are made in 25 MW blocks up to 200 MW at a price of $60/ MWh .
+          The blocks are taken over the "HLH" timeslice e.g. peak
+          periods.
+
+See also:
+Lists:
+	- Market Max
+              Sales
+

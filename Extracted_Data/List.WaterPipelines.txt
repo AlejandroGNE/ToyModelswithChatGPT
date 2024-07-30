@@ -1,0 +1,11 @@
+Header: List Water Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Pipeline objects in the List
+
+Paragraphs:
+List Water Pipelines is set of Water Pipeline objects in the List
+Lists:
+

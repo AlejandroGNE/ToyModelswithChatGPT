@@ -1,0 +1,17 @@
+Header: Reserve Risk Adjustment Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of contingency size (MW reserve/MW contingency)
+
+Paragraphs:
+Reserve Risk Adjustment Factor divides the risk from Generator Contingencies and Battery Contingencies . The response that must be made in the timeframe for the reserve class is reduced. For example, if the largest single generation source is providing a combination of generation and reserve to 600MW, and the Risk Adjustment Factor is set to 2, only 300MW reserve will be required to cover that risk. In reality this factor reflects the fact that it is not necessary to have the entire contingency covered inside a short timeframe.
+
+Note: To avoid the risk exceeding the response level required by the Risk Adjustment Factor, a non-zero cost should be specified for the provision of reserves from each source. See Reserve Risk for more details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Zone Zones Wheeling Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Wheeling cost on exports to the zone
+
+Paragraphs:
+Zone Zones Wheeling Cost is Wheeling cost on exports to the zone.
+Lists:
+

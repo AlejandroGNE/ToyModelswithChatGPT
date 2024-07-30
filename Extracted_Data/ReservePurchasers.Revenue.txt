@@ -1,0 +1,17 @@
+Header: Reserve Purchasers Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve revenue
+
+Paragraphs:
+Reserve Purchasers Revenue is defined as:
+
+This is the revenue earned by the purchaser for provision of interruptible load response to the ancillary service.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Region Hours at Minimum
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that generation is constrained to minimum.
+
+Paragraphs:
+Region Hours at Minimum is the number of hours that generation is at Min Stable Level
+
+See also:
+Lists:
+	- Region Hours at Minimum
+	- Zone Hours at Minimum
+

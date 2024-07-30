@@ -1,0 +1,11 @@
+Header: Gas Zone Intrazonal Gas Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Intrazonal Gas Pipelines is set of Gas Pipeline objects that flow entirely inside the Gas Zone .
+Lists:
+

@@ -1,0 +1,25 @@
+Header: Transformer Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if transformer is in service
+T01	Units	1	-	2008 UPGRADES
+T01	Units	0	-	
+T01	Units	0	-	
+T01	Units	1	-	1/01/2015
+
+Paragraphs:
+Transformer Units is a property that can be used to switch the Transformer in/out of the simulation using scenarios or to bring the Transformer in or out of service at any time during the simulation horizon.
+
+Examples
+
+In the following table the Transformer is out of service by default and only in service under the Scenario "UPGRADES".
+
+In the next example the Transformer is out-of-service until the start of the 2015 year.
+Lists:
+

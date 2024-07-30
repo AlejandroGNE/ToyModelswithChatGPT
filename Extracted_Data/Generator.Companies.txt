@@ -1,0 +1,11 @@
+Header: Generator Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the generator
+
+Paragraphs:
+A Generator may be owned by one or more companies. The ownership shares are defined by the Share property.
+Lists:
+

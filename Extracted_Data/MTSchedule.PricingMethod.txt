@@ -1,0 +1,16 @@
+Header: MT Schedule Pricing Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Type of generator pricing used in MT Schedule
+
+Paragraphs:
+MT Schedule Pricing Method controls how generator offer prices are calculated in MT Schedule.  Because MT Schedule is a non-chronological model its generator unit commitment is always linearized. This means that the no-load cost of generation will be spread across the generation of the unit, rather than be "sunk" when a commitment decision is made. This has the effect of making generator offer prices, and hence the resulting nodal and regional prices, appear like average cost, rather than marginal cost.
+
+To control this behaviour you can set this switch to one of these values:
+
+If you are using MT Schedule alone for pricing forecasting, then the marginal cost option is best, but if you are using MT Schedule as part of a multi-phase simulation with ST Schedule then it is best to keep the default average cost setting.
+Lists:
+

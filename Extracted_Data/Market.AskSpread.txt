@@ -1,0 +1,15 @@
+Header: Market Ask Spread
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Spread on purchases from the market
+
+Paragraphs:
+This property is used to override the spread on purchases from the market  see Bid-Ask Spread .
+Lists:
+

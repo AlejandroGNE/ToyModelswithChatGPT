@@ -1,0 +1,11 @@
+Header: Gas Storage Gas Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	gas node the gas storage connects to
+
+Paragraphs:
+This collection represents the list of Gas Nodes available for injection and withdrawal for the Gas Storage.
+Lists:
+

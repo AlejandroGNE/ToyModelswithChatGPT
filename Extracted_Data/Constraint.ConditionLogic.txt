@@ -1,0 +1,17 @@
+Header: Constraint Condition Logic
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Logic used in combining conditions associated with the constraint
+
+Paragraphs:
+Constraint Condition Logic controls how multiple conditions applied to a constraint, through the Conditions collection, are combined to set the active status of the constraint. It can take the following values:
+
+You should only set this property once i.e. it is a static property.
+Lists:
+

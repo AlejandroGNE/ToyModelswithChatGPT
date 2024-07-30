@@ -1,0 +1,15 @@
+Header: Preview Class
+
+Table Details:
+Description:	Preview of the input data used
+
+Paragraphs:
+
+
+Preview --> Completed Preview Step 1 of 730. Time: 00:00:00.0. Elapsed:
+          00:00:00.0. Remaining: 00:00:28.4. Memory: 184 MB (0.07% of 261,742) Completed Preview Step 2 of 730. Time: 00:00:00.0. Elapsed:
+          00:00:00.0. Remaining: 00:00:19.1. Memory: 184 MB (0.07% of 261,742) ... ... ... Completed Preview Step 729 of 730. Time: 00:00:00.0. Elapsed:
+          00:00:06.4. Remaining: 00:00:00.0. Memory: 182 MB (0.07% of 261,742) Completed Preview Step 730 of 730. Time: 00:00:00.0. Elapsed:
+          00:00:06.4. Remaining: 00:00:00.0. Memory: 183 MB (0.07% of 261,742) Preview Completed. Time: 00:00:06.8 <-- Preview
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 108
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Variable <name> Profile property defined with <value> band(s) but expected ≥ <value> when using Variable Sampling Method = "Bands As Samples".
+
+Paragraphs:
+Message 108 occurs in the following circumstances:
+Lists:
+

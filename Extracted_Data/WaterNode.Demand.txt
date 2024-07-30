@@ -1,0 +1,17 @@
+Header: Water Node Demand
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand at the water node
+
+Paragraphs:
+Water Node Demand is Demand at the water node.
+
+The actual quantity of water served is the net of this value at the Shortage and Excess .
+Lists:
+

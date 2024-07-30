@@ -1,0 +1,23 @@
+Header: Water Pipeline Energy Consumed Amount
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Energy consumption defining the pipeline energy consumption curve.
+
+Paragraphs:
+Water Pipeline Energy Consumed Amount is Energy consumption defining the pipeline energy consumption curve.
+
+Energy Consumed Amount works with Water Pipelines Energy Consumed Flow Level to create a piecewise linear function between the pipeline flow and the electric energy required.  The following are requirements for the properties to be used:
+
+When activated, constraints will be added to enforce the relationship between flow and energy. The values of the Energy Consumed Flow Level points should cover the full capability of the pipeline. In other words, the absolute value of the actual flow cannot be less than the lowest input value or greater than the highest input value. So in general the first point should be specified as 0 and the highest point should be at least as large as the max capacity. Note that the relationship is between the absolute value of the flow and the energy, so the inputs should always be non-negative.  A linear function is created between each pair of adjacent points to determine the energy required at every flow level.
+Lists:
+	- Both are specified with the same number of bands
+	- The number of bands is greater than or equal to 2
+	- At least one of the water nodes for the pipeline is connected to an electric node that is in service
+	- The maximum value of the Energy Consumed Flow Level is greater than 0
+

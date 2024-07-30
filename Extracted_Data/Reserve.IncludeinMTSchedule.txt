@@ -1,0 +1,19 @@
+Header: Reserve Include in MT Schedule
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the reserve is modelled in the MT Schedule phase.
+
+Paragraphs:
+Reserve Include in MT Schedule toggles on/off the reserve in the MT Schedule simulation phase. This flag works in combination with the Is Enabled setting.
+
+See also:
+Lists:
+	- Reserve Include in LT Plan
+	- Reserve Include in ST Schedule
+

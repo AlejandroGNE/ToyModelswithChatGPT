@@ -1,0 +1,15 @@
+Header: Region DSP Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Bid price for demand-side participation
+
+Paragraphs:
+Region DSP Bid Price defines the price part of a bids for demand-side participation. See the DSP Bid Quantity topic for details.
+Lists:
+

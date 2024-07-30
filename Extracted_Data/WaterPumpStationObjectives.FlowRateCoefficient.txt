@@ -1,0 +1,15 @@
+Header: Water Pump Station Objectives Flow Rate Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Water Pump Station flow rate
+
+Paragraphs:
+Water Pump Station Objectives Flow Rate Coefficient is the coefficient of Water Pump Station flow rate.
+Lists:
+

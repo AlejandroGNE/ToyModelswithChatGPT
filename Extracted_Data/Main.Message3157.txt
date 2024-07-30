@@ -1,0 +1,11 @@
+Header: Message 3157
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Scenario Tree: Globals [Hanging Branches Historical Year Start] data are invalid, please try using [Hanging Branches Sample Reduction].
+
+Paragraphs:
+Message 3157 occurs in the following circumstances:
+Lists:
+

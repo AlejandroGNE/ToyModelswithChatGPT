@@ -1,0 +1,18 @@
+Header: Battery Duration
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Battery duration used to determine the MWh capacity
+
+Paragraphs:
+Battery Duration is Battery duration used to determine the MWh capacity.
+
+Battery MWh Capacity = [Max Power] * [Duration] / [Discharge
+          Efficiency]
+Lists:
+

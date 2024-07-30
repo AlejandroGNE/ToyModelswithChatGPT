@@ -1,0 +1,11 @@
+Header: Model Report
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	report for the model
+
+Paragraphs:
+The Report settings that apply to the Model .
+Lists:
+

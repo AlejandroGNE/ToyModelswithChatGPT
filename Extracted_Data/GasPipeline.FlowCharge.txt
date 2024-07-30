@@ -1,0 +1,22 @@
+Header: Gas Pipeline Flow Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of extracting gas from the pipeline
+
+Paragraphs:
+Gas Pipeline Flow Charge is the incremental cost of inserting gas at the pipeline receiving node. 
+            Flow Charge is a multi-band property and can be used to specify different charges for different flow levels when used in conjunction with 
+            Flow Charge Level. This is charged against the Flow forward in each interval. The total cost of 
+            this charge is reported as Production Cost . When multiple bands are used, these should be
+            specified in increasing order by cost. See also: Gas Pipeline Max Flow
+
+See also:
+Lists:
+	- Gas Pipeline Max Flow
+

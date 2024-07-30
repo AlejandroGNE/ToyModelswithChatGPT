@@ -1,0 +1,15 @@
+Header: Fuel Source Gas Contracts Delivered Energy
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat energy delivered by gas contract to the fuel
+
+Paragraphs:
+Fuel Source Gas Contracts Delivered Energy is Heat energy delivered by gas contract to the fuel.
+Lists:
+

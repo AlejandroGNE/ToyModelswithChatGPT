@@ -1,0 +1,11 @@
+Header: Facility Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Facility
+
+Paragraphs:
+Facility Conditions is the set of conditional Variable objects involving the Facility.
+Lists:
+

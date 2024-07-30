@@ -1,0 +1,16 @@
+Header: Process Shadow Price
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of production
+
+Paragraphs:
+Process Shadow Price is the dual
+          variable value associated with the production decision variable.
+Lists:
+

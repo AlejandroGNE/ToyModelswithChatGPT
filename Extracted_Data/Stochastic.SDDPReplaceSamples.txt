@@ -1,0 +1,18 @@
+Header: Stochastic SDDP Replace Samples
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the forward pass samples in SDDP should be replaced by user-defined samples
+
+Paragraphs:
+Stochastic SDDP Replace Samples is an advanced option for the SDDP algorithm.
+
+When enabled, the forward pass samples generated for the scenario
+          tree are replaced with user-defined samples. These user-defined
+          samples are provided as Variable objects with names that match the original Variable object's providing the inflow samples but with "_FWD" appended to the
+          name. For example, if you have Storage Natural Inflow defined with a Variable called "Big Lake" then the
+          corresponding forward pass samples would be defined by a Variable named "Big Lake_FWD". That Variable should have Sampling Method = "User" and the Profile band count should match the number of full branches ( Global Tree Stages Leaves ).
+Lists:
+

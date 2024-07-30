@@ -1,0 +1,15 @@
+Header: Gas Pipeline Loss
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas pipeline flow loss amount
+
+Paragraphs:
+Gas Pipeline Loss is the amount of gas lost between Node From and Node To , as determined by Loss Rate .
+Lists:
+

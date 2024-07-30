@@ -1,0 +1,19 @@
+Header: Generator Pump Bid Cleared
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity cleared in pump load bid band
+
+Paragraphs:
+Generator Pump Bid Cleared is the quantity cleared in Pump Load bid band .
+
+See also:
+Lists:
+	- Generator Cleared Pump Bid Price
+	- Generator Cleared Pump Bid Cost
+

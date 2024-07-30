@@ -1,0 +1,11 @@
+Header: List Batteries
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Battery objects in the List
+
+Paragraphs:
+List Batteries is the set of Battery objects in the List.
+Lists:
+

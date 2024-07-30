@@ -1,0 +1,19 @@
+Header: Transformer Rental
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Transmission rent in pre-contingency state
+
+Paragraphs:
+Transformer Rental is the economic rent on the transformer due to congestion and losses. Only includes flow/shadow price for base case, i.e in pre-contingency state—see Line Rental for more information.
+
+See also:
+Lists:
+	- Transformer Rental Total
+	- Transformer Rental Back
+

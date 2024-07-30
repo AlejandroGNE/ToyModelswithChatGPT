@@ -1,0 +1,22 @@
+Header: Storage Inflow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Inflow
+
+Paragraphs:
+Storage Inflow is the total inflow
+          to the storage including Natural
+            Inflow , generation from upstream , pumping from downstream , and waterway flows .
+
+See also:
+Lists:
+	- Storage Release
+	- Storage End
+              Volume
+

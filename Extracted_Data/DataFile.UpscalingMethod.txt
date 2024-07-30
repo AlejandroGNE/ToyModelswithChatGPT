@@ -1,0 +1,36 @@
+Header: Data File Upscaling Method
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	In (-1,0,1,2)
+Description:	Method used to upscale data e.g. from hourly to 5-minute resolution.
+1/01/2009 22:40:00	100	100	100	100
+1/01/2009 22:50:00	100	100	100	133.3333333
+1/01/2009 23:00:00	116.6666667	200	116.6666667	166.6666667
+1/01/2009 23:10:00	133.3333333	200	133.3333333	200
+1/01/2009 23:20:00	150	200	150	200
+1/01/2009 23:30:00	166.6666667	200	166.6666667	200
+1/01/2009 23:40:00	183.3333333	200	183.3333333	200
+1/01/2009 23:50:00	200	200	200	166.6666667
+2/01/2009	183.3333333	100	183.3333333	133.3333333
+2/01/2009 0:10:00	166.6666667	100	166.6666667	100
+2/01/2009 0:20:00	150	100	150	100
+2/01/2009 0:30:00	133.3333333	100	133.3333333	100
+2/01/2009 0:40:00	116.6666667	100	116.6666667	100
+2/01/2009 0:50:00	100	100	100	100
+
+Paragraphs:
+Data File Upscaling Method is the method used to upscale data e.g. from hourly to 1-minute resolution. The setting can take the following values:
+
+Example
+
+The following are hourly input data:
+
+These data can be up-scaled to 10-minute. The following show the outcomes of the three approaches:
+
+See also:
+Lists:
+	- Data File Downscaling Method
+	- Data File Periods per Day
+

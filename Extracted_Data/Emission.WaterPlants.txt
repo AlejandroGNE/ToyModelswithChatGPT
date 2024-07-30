@@ -1,0 +1,11 @@
+Header: Emission Water Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Water Plants that produce the Emission
+
+Paragraphs:
+Emission Water Plants is set of Water Plants that produce the Emission
+Lists:
+

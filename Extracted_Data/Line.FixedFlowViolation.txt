@@ -1,0 +1,15 @@
+Header: Line Fixed Flow Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Fixed Flow] constraint.
+
+Paragraphs:
+Line Fixed Flow Violation is the violation of Fixed Flow constraint.
+Lists:
+

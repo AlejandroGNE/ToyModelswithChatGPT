@@ -1,0 +1,11 @@
+Header: Desalination
+
+Table Details:
+
+Paragraphs:
+Desalination water plant is a special water plant that uses heat and/or electricity as a main source of energy to produce fresh water from sea water. The key property to model a desalination water plant is Heat Usage and/or Energy Usage , which represents the heat and/or electricity consumption when producing water. Desalination water plant also requires a connection to a heat supplying and distribution network through one or many Heat Nodes and/or a connection to the power system via Electrical Node See Heat modelling article for an example of desalination simulation.
+Lists:
+
+
+H2s:
+1. Introduction

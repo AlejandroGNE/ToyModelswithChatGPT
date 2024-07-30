@@ -1,0 +1,17 @@
+Header: Production Rounded Relaxation Threshold Increment
+
+Table Details:
+Units:	-
+Default Value:	0.05
+Validation Rule:	≥0.01
+Description:	Increment value for [Rounding Up Threshold] when Rounded Relaxation is running self-tune.
+
+Paragraphs:
+Production Rounded Relaxation Threshold Increment is the amount by which the Rounding Up Threshold is incremented each iteration when the Rounded Relaxation Tuning setting is enabled.
+
+See also:
+Lists:
+	- Production Rounded Relaxation Start Threshold
+	- Production Rounded Relaxation End Threshold
+	- Production Unit Commitment Optimality
+

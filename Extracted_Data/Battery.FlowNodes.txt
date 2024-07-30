@@ -1,0 +1,11 @@
+Header: Battery Flow Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Nodes the Battery connects to
+
+Paragraphs:
+Battery Flow Nodes is the set of Flow Nodes the Battery connects to.
+Lists:
+

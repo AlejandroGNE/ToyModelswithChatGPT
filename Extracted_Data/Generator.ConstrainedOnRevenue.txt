@@ -1,0 +1,17 @@
+Header: Generator Constrained On Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constrained on revenue
+
+Paragraphs:
+Constrained on revenue compensates a generator trading in a Uniform Pricing market for times when its marginal cost is above the SMP but it is dispatched.
+
+The following pseudo-code describes the calculations for Constrained On and Constrained Off payments:
+Lists:
+

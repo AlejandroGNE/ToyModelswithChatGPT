@@ -1,0 +1,15 @@
+Header: Gas Contract Gas Nodes Commodity Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Commodity costs for the Gas contract-Gas Node.
+
+Paragraphs:
+Gas Contract Gas Nodes Commodity Cost is Commodity costs for the Gas contract-Gas Node..
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Line Import Limit
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum flow allowed on the line
+
+Paragraphs:
+Line Import Limit is the minimum flow allowed on the line and accounts for Min Flow and Min Rating inputs:
+
+See also:
+Lists:
+	- Line Export Limit
+	- Line Available Transfer Capability
+

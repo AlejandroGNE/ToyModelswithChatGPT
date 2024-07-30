@@ -1,0 +1,28 @@
+Header: Commodity Constraints Units Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built
+
+Paragraphs:
+Commodity Constraints Units Built Coefficient is the left-hand side coefficient of the
+          number of inventory Units Built from the start of the horizon up to the current period in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × ∑ ( t = 1, k ) ( Commodity Units Built t ) ... {≤, ≥, =} b j
+
+where: k is the current period e.g. year of the simulation
+
+See also:
+Lists:
+	- Commodity Constraints Units
+              Built in Year Coefficient
+

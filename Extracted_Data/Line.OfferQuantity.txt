@@ -1,0 +1,15 @@
+Header: Line Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Quantity offered in band for reference direction flows
+
+Paragraphs:
+Line Offer Quantity is the quantity offered in band for reference direction flows.
+Lists:
+

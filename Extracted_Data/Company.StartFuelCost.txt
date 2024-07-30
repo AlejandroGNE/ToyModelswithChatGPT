@@ -1,0 +1,15 @@
+Header: Company Start Fuel Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of fuel for unit starts
+
+Paragraphs:
+Company Start Fuel Cost is Cost of fuel for unit starts.
+Lists:
+

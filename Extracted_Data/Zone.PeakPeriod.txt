@@ -1,0 +1,15 @@
+Header: Zone Peak Period
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Indicates periods that include the peak load
+
+Paragraphs:
+Zone Peak Period indicates periods that include the peak load. See Region Peak Period for details.
+Lists:
+

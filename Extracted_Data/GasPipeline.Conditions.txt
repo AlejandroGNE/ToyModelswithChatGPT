@@ -1,0 +1,11 @@
+Header: Gas Pipeline Conditions
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of conditional Variable objects involving the Gas Pipeline
+
+Paragraphs:
+Gas Pipeline Conditions is set of conditional Variable objects involving the Gas Pipeline
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Heat Node Facilities Units Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Heat consumption for each installed unit
+
+Paragraphs:
+Heat Node Facilities Units Coefficient is Heat consumption for each installed unit.
+Lists:
+

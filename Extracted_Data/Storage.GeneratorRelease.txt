@@ -1,0 +1,27 @@
+Header: Storage Generator Release
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Release for generation
+
+Paragraphs:
+Storage Generator Release is the
+          total water released by exporting
+            generators . In the Volume and Level model, these values are in m 3 /s.
+          Note that this includes water from Generator Natural Inflow as well as
+          water from the storage.
+
+See also:
+Lists:
+	- Storage Generation
+	- Storage Pump
+              Load
+	- Storage Downstream
+              Release
+	- Storage Spill
+

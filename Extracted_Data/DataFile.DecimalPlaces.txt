@@ -1,0 +1,12 @@
+Header: Data File Decimal Places
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of decimal places in output written to text files
+
+Paragraphs:
+Data File Decimal Places sets the number of decimal places written out to files in Load Forecasting .
+Lists:
+

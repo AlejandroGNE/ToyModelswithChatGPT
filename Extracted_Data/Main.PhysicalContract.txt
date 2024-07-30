@@ -1,0 +1,41 @@
+Header: Physical Contract Class
+
+Table Details:
+Description:	Physical contract (import, export, or wheel)
+Physical Contract.Generation Node	EXT_200	AAA_220kV
+EXT_200	Max Generation	200	MW
+EXT_200	Max Load	0	MW
+Band
+EXT_200	Max Generation	200	MW	
+EXT_200	Max Load	0	MW	
+EXT_200	Offer Quantity	100	MW	1
+EXT_200	Offer Quantity	100	MW	2
+EXT_200	Offer Price	0	$/MWh	1
+EXT_200	Offer Price	50	$/MWh	2
+
+Paragraphs:
+See also Physical Contract Property Reference for a detailed list of properties for this class of object.
+
+A physical contract represents external generation and/or load that can be optimized according to an offer/bid step function and other constraints. By combining simultaneous generation and load parts these can also represent wheeling arrangements through a network. These objects are commonly used to represent trades with areas outside of the transmission system being studied.
+
+The generation side of a contract is defined by adding a node to the Generation Node collection and defining Max Generation . You may define a offer function for generation using Offer Quantity / Offer Price in multiple bands. The load side of the contract is defined by adding a node to the Load Node collection and defining Max Load . You may define a demand function using the Bid Quantity / Bid Price in multiple bands.
+
+NOTE : You must set both Max Generation and Max Load . For example if using only the generation side you still set Max Load to zero.
+
+Example: A generation contract with zero cost
+
+Example: A generation contract with a two-band cost function
+
+At the Region level physical contract generation and load acts just like generator generation and 'normal' dispatchable load.
+
+The properties Min Load and Min Generation define lower bounds on generation and load from the contract respectively.
+
+You can assign ownership of the contract generation / load to one or more companies . The ownership can be shared using the Share property and the generation/load and financial settlement of the contract will flow through to those companies.
+
+The fixed cost of the contract can be entered using any of Fixed Cost , Fixed Generation Charge , and Fixed Load Charge properties.
+
+Max Generation and Max Load are the 'key' properties for a Physical Contract. Thus you may use a Scenario to tag these properties and switch the contract in/out of your Models .
+
+You can optimize the purchasing of physical contract generation and load capacity as part of an integrated resource plan using LT Plan .
+Lists:
+

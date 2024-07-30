@@ -1,0 +1,12 @@
+Header: Diagnostic Max Infeasibility Log Lines
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum number of infeasibility diagnostic lines written to the screen and log file.
+
+Paragraphs:
+Diagnostic Max Infeasibility Log Lines controls the number of lines printed to the screen and log file when diagnosing an infeasibility. This applies on when the Infeasibilities setting is toggled 'on'. The default value of -1 means that all lines are printed. In the case where the infeasibility is 'deep' and/or in a large problem, the number of elements (constraints and variables) involved in the infeasibility can be huge, and it takes time and disk space to write all the information where perhaps only the repair information is useful. In this case you can limit the number of diagnostic lines with this switch e.g. you might set maximum of 100 lines per infeasibility.
+Lists:
+

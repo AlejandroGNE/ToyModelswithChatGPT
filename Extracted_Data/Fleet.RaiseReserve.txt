@@ -1,0 +1,17 @@
+Header: Fleet Raise Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of raise (spin up) reserve
+
+Paragraphs:
+Fleet Raise Reserve is the provision of raise (spin up) reserve.
+
+See Battery Raise Reserve .
+Lists:
+

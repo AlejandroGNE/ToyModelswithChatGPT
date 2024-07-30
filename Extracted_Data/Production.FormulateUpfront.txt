@@ -1,0 +1,14 @@
+Header: Production Formulate Upfront
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If production constraints should all be formulated upfront rather than checked iteratively.
+
+Paragraphs:
+Production Formulate Upfront controls certain logic constraints on start and stop decision variables in the mathematical program and how they are included in the problem. It can take these values:
+
+These logic constraints are rarely violated but can be required in models with significant ramping and start constraints combined with Reserve constraints. If the constraints are required, an additional iteration will occur in the simulation, and this can be eliminated (at the cost of a larger upfront formulation) by setting this switch.
+Lists:
+

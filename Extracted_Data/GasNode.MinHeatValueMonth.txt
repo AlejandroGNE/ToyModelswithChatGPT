@@ -1,0 +1,15 @@
+Header: Gas Node Min Heat Value Month
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum monthly heat value obtained from all the gas sources connected to the gas node
+
+Paragraphs:
+Gas Nodes Min Heat Value Month is Minimum monthly heat value obtained from all the gas sources connected to the gas node.
+Lists:
+

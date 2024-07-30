@@ -1,0 +1,11 @@
+Header: Reserve Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of markets the reserve is bought/sold from/to
+
+Paragraphs:
+Reserve Markets is the set of Market objects that are bought/sold from/into the reserve.
+Lists:
+

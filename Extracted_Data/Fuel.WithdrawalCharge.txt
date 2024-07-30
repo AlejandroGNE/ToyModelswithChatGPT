@@ -1,0 +1,19 @@
+Header: Fuel Withdrawal Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of taking fuel from stockpile
+
+Paragraphs:
+Fuel Withdrawal Charge is the incremental cost of taking fuel from stockpile, independent of the Fuel Price .
+
+See also:
+Lists:
+	- Fuel Delivery Charge
+	- Fuel Withdrawal Cost
+

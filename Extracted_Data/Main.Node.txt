@@ -1,0 +1,30 @@
+Header: Node Class
+
+Table Details:
+Description:	Transmission node/bus
+
+Paragraphs:
+See also Node
+              Property Reference for a detailed list of properties for this
+            class of object.
+
+Nodes connect to the transmission system:
+
+A Node must belong to a Region and
+          may belong to one or more Zone objects.
+          Electric load is defined directly with the Load property or through the Region or Zone (s) with the Load
+            Participation Factor property.
+
+A Node might be part of a simple 'transportation' network or a
+          complex ac transmission network. For ac networks, a Node represents a
+          'bus' in the transmission network, and Line and Transformer objects represent
+          ac or dc lines and transformers respectively.
+Lists:
+	- Production resources such as Generator , Battery and Physical
+              Contract ; and
+	- Load resources such as Load , Purchaser ,
+            and Power2X ; and
+	- Market objects which can act as a
+            generation or load resource.
+
+

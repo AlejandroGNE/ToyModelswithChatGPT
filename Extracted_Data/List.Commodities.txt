@@ -1,0 +1,11 @@
+Header: List Commodities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Commodity objects in the List
+
+Paragraphs:
+List Commodities is set of Commodity objects in the List
+Lists:
+

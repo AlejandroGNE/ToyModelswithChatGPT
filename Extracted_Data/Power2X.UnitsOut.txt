@@ -1,0 +1,15 @@
+Header: Power2X Units Out
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of units out of service due to maintenance
+
+Paragraphs:
+Power2X Units Out is the number of units out of service due to maintenance.
+Lists:
+

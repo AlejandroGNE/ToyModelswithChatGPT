@@ -1,0 +1,15 @@
+Header: Generator Max Pump Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a unit can be run in pump mode after being started
+
+Paragraphs:
+Generator Max Pump Up Time is the maximum number of hours a unit can be run in pump mode after being started.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Line Commission Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Date the line was commissioned for use with [Technical Life]
+
+Paragraphs:
+Line Commission Date is the date the line was commissioned for use with Technical Life .
+
+See also:
+Lists:
+	- Generator Commission Date
+	- Flow Control Commission Date
+

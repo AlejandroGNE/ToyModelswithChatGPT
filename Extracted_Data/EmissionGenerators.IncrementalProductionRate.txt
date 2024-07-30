@@ -1,0 +1,15 @@
+Header: Emission Generators Incremental Production Rate
+
+Table Details:
+Units:	kg/MWh (Metric), lb/MWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Incremental rate of emission production by the generator
+
+Paragraphs:
+Emission Generators Incremental Production Rate is the incremental rate of emission production by the generator.
+Lists:
+

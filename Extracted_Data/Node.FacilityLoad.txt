@@ -1,0 +1,15 @@
+Header: Node Facility Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from connected Facilities
+
+Paragraphs:
+Node Facility Load is the load from connected Facilities.
+Lists:
+

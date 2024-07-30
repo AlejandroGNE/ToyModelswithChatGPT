@@ -1,0 +1,25 @@
+Header: Stochastic Deterministic Step Type
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,2,3,4)
+Description:	The step type for solving the final deterministic pass of the rolling horizon where "None" solves the entire horizon in one step
+
+Paragraphs:
+This setting applies to the final deterministic pass of a stochastic
+          optimization solved with Rolling
+            Horizon . The deterministic pass is performed after the rolling
+          iterations and involves only the full branch samples (the final set of
+          samples reported on). This pass sets storage trajectories based on the
+          optimal stochastic outcome from the rolling iterations. Because this
+          pass only solves the full branch samples by default it solves the
+          entire horizon in a single step, but this option allows you to split
+          the solve into steps for the case where the horizon is very long and
+          solving the entire horizon would be slow or consume too much memory.
+          The option can take the following values:
+
+Note when solving in steps that the step length does not need to
+          match up perfectly with the number of time periods in the horizon.
+Lists:
+

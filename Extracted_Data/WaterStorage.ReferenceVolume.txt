@@ -1,0 +1,20 @@
+Header: Water Storage Reference Volume
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Reference volume of water in the storage
+
+Paragraphs:
+Water Storage Reference Volume is used to estimate storage level as a function of 
+          storage volume when the cross section area of the storage may not be constant. 
+          Along with Reference Level , the user inputs tranches of 
+          coordinate points that will be used to fit the polynomial equation: Storage Level = p 3 *Storage_Volume 3 + p 2 *Storage_Volume 2 + p 1 *Storage_Volume + p 0
+
+Storage Level = p 3 *Storage_Volume 3 + p 2 *Storage_Volume 2 + p 1 *Storage_Volume + p 0
+Lists:
+

@@ -1,0 +1,32 @@
+Header: Horizon Look-ahead Count
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of additional look-ahead steps in the planning horizon
+
+Paragraphs:
+This attribute defines a look-ahead period in the Horizon .
+          The total number of Step Type periods in the Horizon is thus Step Count + Look-ahead
+          Count. For example, if Step Type is "Year" and Step Count 4 and
+          Look-ahead Count 3 then the Horizon is 7 years long.
+
+The look-ahead period only applies to MT
+            Schedule when running Rolling
+            Horizon or SDDP stochastic models.
+          In all other cases look-ahead is treated the regular horizon. In
+          stochastic models the look-ahead period is ignored when running the
+          final deterministic pass of Rolling Horizon and the final forward pass
+          of SDDP. This means the solution file will have not data for that
+          look-ahead period. The purpose of this is to run additional time
+          periods while iterating to find the optimal policy and the discarding
+          those additional periods in reporting.
+
+See also:
+Lists:
+	- Stochastic Deterministic
+              Pass Enabled
+	- Stochastic SDDP
+              Final Pass Enabled
+

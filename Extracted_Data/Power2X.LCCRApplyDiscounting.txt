@@ -1,0 +1,15 @@
+Header: Power2X LCCR Apply Discounting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the discount rate should be applied to the LCCR
+
+Paragraphs:
+Power2X LCCR Apply Discounting indicates whether the Discount Rate will be applied to the annualized build cost when the Levelized Capital Carrying Rate is used.
+Lists:
+

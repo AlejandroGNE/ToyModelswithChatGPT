@@ -1,0 +1,25 @@
+Header: Generator Pump Transition Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time between operating in pump mode and generation mode
+
+Paragraphs:
+Generator Pump Transition Time is
+          sets the minimum time, for a pumped
+            storage generator , between operating in pump mode and generation
+          mode . By default, the generator can switch between modes from one
+          interval to the next.
+
+See also:
+Lists:
+	- Generator Generation
+              Transition Time
+	- Generator Min
+              Pump Down Time
+

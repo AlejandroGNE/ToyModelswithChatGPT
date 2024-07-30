@@ -1,0 +1,20 @@
+Header: Storage Ramp Violation
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of the [Max Ramp] constraint.
+
+Paragraphs:
+Storage Ramp Violation is the amount by which the Max Ramp constraint is violated.
+
+See also:
+Lists:
+	- Storage Ramp
+	- Storage Ramp Price
+	- Storage Ramp Violation Cost
+

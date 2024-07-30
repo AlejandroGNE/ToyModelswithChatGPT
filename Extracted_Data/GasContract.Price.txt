@@ -1,0 +1,15 @@
+Header: Gas Contract Price
+
+Table Details:
+Units:	Input: $/~    Output: $/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price of gas contract
+
+Paragraphs:
+Gas Contract Price is price of gas in a given supply contract.
+Lists:
+

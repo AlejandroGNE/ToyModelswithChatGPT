@@ -1,0 +1,15 @@
+Header: Gas Transport Initial Gas Path Initial Volume
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Initial volume of gas being carried by the gas transport
+
+Paragraphs:
+Gas Transport Initial Gas Path Initial Volume is Initial volume of gas being carried by the gas transport.
+Lists:
+

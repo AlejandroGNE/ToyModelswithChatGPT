@@ -1,0 +1,12 @@
+Header: Horizon Year Ending
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Between 0 And 12
+Description:	Last month of the fiscal year
+
+Paragraphs:
+This property defines years for the purpose of summary reporting and for constraint period type of year. By default a "year" runs from the beginning month as set by Horizon Date From for 12 months e.g. if the planning horizon begins on April 1 then each year will end on March 31, but if the Year Ending property is set to 12 each year will end on December 31.
+Lists:
+

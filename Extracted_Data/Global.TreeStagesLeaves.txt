@@ -1,0 +1,46 @@
+Header: Global Tree Stages Leaves
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥1
+Key Property:	No
+Description:	Scenario Tree: Number of leaves in each stage
+Tree Period Type	Week (2)	-	1
+Tree Stages Position	2	-	1
+Tree Stages Position	15	-	2
+Tree Stages Position	30	-	3
+Tree Stages Leaves	2	-	1
+Tree Stages Leaves	4	-	2
+Tree Stages Leaves	12	-	3
+
+Paragraphs:
+Global Tree Stages Leaves relates to
+          the Scenario Tree and sets the number of leaves (nodes) at in each
+          stage in the tree.
+
+You have two options when defining the tree depending on its
+          complexity:
+
+Note that if you are using Hanging
+            Branches , this property sets only the number of full branches at
+          each stage. If using the traditional scenario tree, the value for the
+          last stage is not required.
+
+For example in Table 1 the Stochastic Risk Sample Count is 12
+          and a 4-stage Scenario Tree is constructed with the tree as
+          illustrated in Figure 1.
+
+
+
+See also:
+Lists:
+	- Global Tree
+              Period Type
+	- Global Tree
+              Stages Position
+	- Global Tree
+              Stages Hanging Branches
+

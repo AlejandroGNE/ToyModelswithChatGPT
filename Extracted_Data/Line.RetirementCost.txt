@@ -1,0 +1,20 @@
+Header: Line Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the line
+
+Paragraphs:
+Line Retirement Cost as input is cost of retiring the Line in LT Plan . See Max Units Retired for details.
+
+Line Retirement Cost as output is defined as:
+
+See also:
+Lists:
+	- Line Build Cost
+

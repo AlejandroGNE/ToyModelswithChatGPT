@@ -1,0 +1,20 @@
+Header: Region Dump Energy Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of dump energy
+
+Paragraphs:
+Region Dump Energy Hours is the total number hours in which there was any level of Dump Energy (over generation).
+
+See also:
+Lists:
+	- Region Cost of Dump Energy
+	- Region Unserved Energy Hours
+	- Generator Hours Curtailed
+

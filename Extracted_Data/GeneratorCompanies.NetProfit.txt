@@ -1,0 +1,15 @@
+Header: Generator Companies Net Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net profit = net revenue - fixed costs
+
+Paragraphs:
+Generator Generator Companies Net Profit is defined as:
+Lists:
+

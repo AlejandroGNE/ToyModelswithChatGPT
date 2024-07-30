@@ -1,0 +1,15 @@
+Header: Reserve Batteries Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Reserve offer quantity in offer band
+
+Paragraphs:
+Reserve Reserve Batteries Offer Quantity defines the quantity part of a offer for provision of reserve by the BESS. The price part of the offer is defined with Offer Price .
+Lists:
+

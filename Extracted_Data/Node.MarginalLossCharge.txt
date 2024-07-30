@@ -1,0 +1,15 @@
+Header: Node Marginal Loss Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal loss component of locational marginal price
+
+Paragraphs:
+Node Marginal Loss Charge is the marginal loss component of locational marginal price. When loss modeling is disabled in transmission settings, this value is post-calculated and reported.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total cost of production
+
+Paragraphs:
+Power2X Production Cost is Total cost of production.
+Lists:
+

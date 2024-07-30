@@ -1,0 +1,15 @@
+Header: Weather Station Heating Degree Days
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Value for heating degree days
+
+Paragraphs:
+Weather Station Heating Degree Days is the value entered for degree-calculated days for weather effect.
+Lists:
+

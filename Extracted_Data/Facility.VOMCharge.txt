@@ -1,0 +1,25 @@
+Header: Facility VO&M Charge
+
+Table Details:
+Units:	$
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge
+
+Paragraphs:
+Facility VO&M Charge is a
+              component of the incremental cost of production used to recover
+              maintenance costs that are a direct function of production e.g. wear and tear and other regular equipment replacement
+              and servicing costs. This is a component of a facility's Marginal
+                Cost .
+
+The variable operations and maintenance cost associated with the Production is reported in
+              the property VO&M Cost and is part of the Production
+                Cost.
+
+As Output VO&M Charge reports the input value.
+Lists:
+

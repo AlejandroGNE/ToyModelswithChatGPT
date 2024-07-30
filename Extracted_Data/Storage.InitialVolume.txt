@@ -1,0 +1,50 @@
+Header: Storage Initial Volume
+
+Table Details:
+Units:	GWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Storage volume at the start of the period
+PUMP1	Max Volume	5	GWh
+PUMP1	Initial Volume	0	GWh
+PUMP1 TAIL	Max Volume	5	GWh
+PUMP1 TAIL	Initial Volume	5	GWh
+
+Paragraphs:
+Storage Initial Volume as an input
+          sets the volume in the storage at the start of the first period of the Horizon . The units of Initial Volume
+          are controlled by the Storage Model .
+
+Example:
+
+The example show a typical set up for a pump storage system.
+
+When the following conditions are satisfied, initial volume may be freely optimized by PLEXOS (any value from 0 to Max Volume ): Chronology is Sampled , The storage duration (ratio of Max Volume to connected Generator Max Capacity ) is short 
+                relative to the Sampling Interval . Under the above conditions, freely optimized initial volumes generally result in lower cost, more robust solutions in comparisons to those which
+            strictly adhere to user-defined initial volumes.
+
+As an extreme case, consider sampling only 1 day per year with End Effects Method set to 'Recycle'.
+            A user-defined initial volume essentially fixes the storage volume for one interval duration in each day of the year. 
+            If initial volume is 0 and simulations start from midnight, the storage cannot
+            effectively be used in a solar soak pumped hydro application to meet nighttime demand, as it will be empty every midnight. 
+            The one-time costs of filling low-duration storages are contextually negligible 
+            when amortised over the entire Planning Horizon .
+
+As an output, Initial Volume is the volume in storage at the start of
+          the period.
+
+See also:
+Lists:
+	- Chronology is Sampled ,
+	- The storage duration (ratio of Max Volume to connected Generator Max Capacity ) is short 
+                relative to the Sampling Interval .
+	- Storage Max
+              Volume
+	- Storage Min
+              Volume
+	- Storage End
+              Volume
+

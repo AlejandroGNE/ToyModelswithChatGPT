@@ -1,0 +1,18 @@
+Header: Region Utility Contract Settlement
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Utility generator contract settlement
+
+Paragraphs:
+Region Utility Contract Settlement is the Financial Contract Settlement for Companies in the Region that are identified as Utilities . This property is provided for use in the RSI mark-up model. The property calculated as:
+
+See also:
+Lists:
+	- Region Non-Utility Contract Settlement
+

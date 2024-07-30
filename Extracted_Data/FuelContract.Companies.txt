@@ -1,0 +1,11 @@
+Header: Fuel Contract Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of companies that own the fuel contract
+
+Paragraphs:
+Fuel Contract Companies is set of companies that own the fuel contract. The share that each Company has of the Fuel Contract is set by the Share property.
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Power2X Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of production
+
+Paragraphs:
+Power2X Shadow Price is the maximum shadow price among the output produced, i.e., fuels, and in service commodities, by the Power2X facility. An illustration of the Power2X Shadow Price Calculation is provided in Figure 1.
+
+Figure 1: The Shadow Price calculation for Power2X
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Demand Excess Price
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-100
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Notional price of water oversupply
+
+Paragraphs:
+Water Demand Excess Price is Notional price of water oversupply.
+Lists:
+

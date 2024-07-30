@@ -1,0 +1,15 @@
+Header: Heat Storage Dump Heat Penalty
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to dump heat from the storage. A value of -1 means dump is not allowed.
+
+Paragraphs:
+Heat Storage Dump Heat Penalty is the penalty applied to dump heat from the storage. A value of -1 means dump is not allowed.
+Lists:
+

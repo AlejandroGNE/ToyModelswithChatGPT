@@ -1,0 +1,15 @@
+Header: Node Hubs Pricing Weight
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Wheeling charge for exports to the zone
+
+Paragraphs:
+Node Hubs Pricing Weight is Wheeling charge for exports to the zone.
+Lists:
+

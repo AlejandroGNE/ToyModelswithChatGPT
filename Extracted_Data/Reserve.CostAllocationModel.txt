@@ -1,0 +1,17 @@
+Header: Reserve Cost Allocation Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Key Property:	No
+Description:	Reserve cost allocation method.
+
+Paragraphs:
+Reserve Cost Allocation Model sets the method used to allocate the cost of reserve back to the set of generators identified in the Generator Cost Allocation collection. The available options are:
+
+Note that only generators that meet the Cut-off Size are considered for cost allocation.
+Lists:
+

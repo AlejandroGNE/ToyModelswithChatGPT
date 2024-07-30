@@ -1,0 +1,15 @@
+Header: Reserve Time-weighted Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Time weighted average price of reserve.
+
+Paragraphs:
+Reserve Time-weighted Price is the simple time-weighted average of the Price . This contrasts with Price summary output which is volume-weighted.
+Lists:
+

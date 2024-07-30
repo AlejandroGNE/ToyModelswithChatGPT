@@ -1,0 +1,15 @@
+Header: Power2X Flow Nodes Production Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Power2X production on the Flow Node injected(positive)/withdrawn(negative) per unit of production
+
+Paragraphs:
+Power2X Flow Nodes Production Coefficient specifies the amount of the Power2X production on the Flow Node injected(positive)/withdrawn(negative) per unit of production.
+Lists:
+

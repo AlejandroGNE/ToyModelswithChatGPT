@@ -1,0 +1,15 @@
+Header: Company Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation cost
+
+Paragraphs:
+Company Generation Cost is the total generation cost incurred by generators owned by the company, and is defined as:
+Lists:
+

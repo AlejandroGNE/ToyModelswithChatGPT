@@ -1,0 +1,17 @@
+Header: Gas Contract Term Expansion Quantity Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	LT Max daily gas offtake for the term based contract
+
+Paragraphs:
+Gas Contract Term Expansion Quantity Day is the expansion maximum daily gas offtake for the term based contract.
+                For a term based contract, term window is specified using from and to dates. The contract is not available before the from date and after the to date.
+                Multiple bands can be used to specify multiple terms with non-overlapping term windows. Time slices should be used to model seasonality within terms.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Pipeline Objectives Units Retired Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units retired
+
+Paragraphs:
+Water Pipeline Objectives Units Retired Coefficient is the coefficient of number of units retired.
+Lists:
+

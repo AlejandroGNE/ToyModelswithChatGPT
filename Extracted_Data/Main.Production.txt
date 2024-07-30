@@ -1,0 +1,19 @@
+Header: Production Class
+
+Table Details:
+Description:	Production settings
+
+Paragraphs:
+See also Production
+              Property Reference for a detailed list of properties for this
+            class of object.
+
+Production objects control various settings related to the modelling
+          of the generation system such as how strictly integer unit commitment
+          is enforced. To apply a Production object to your Model add it to the Model's Production collection.
+          Note that associating the object with a Model defines the global settings, but you can optionally associate it with
+          individual simulation phases e.g. LT
+            Plan to run different settings in different phases of your
+          simulation.
+Lists:
+

@@ -1,0 +1,27 @@
+Header: Region Constraints Generator Build Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total cost of generator builds
+
+Paragraphs:
+Region Constraints Generator Build Cost is the left-hand side coefficient of the total Region Generators Build Cost from the start of
+          the horizon up to the current period in the constraint. The cost is
+          the nominal lump-sum Build Cost i.e without any adjustment for Discount
+            Rate .
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where: k is the current period e.g. year of the simulation.
+
+See also:
+Lists:
+	- Zone Constraints Generator
+              Build Cost Coefficient
+

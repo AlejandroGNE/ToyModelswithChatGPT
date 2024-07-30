@@ -1,0 +1,17 @@
+Header: Flow Control Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the flow control can transfer price across the network
+
+Paragraphs:
+Flow Control Price Setting is Flag if the flow control can transfer price across the network.
+
+This property is the Flow Control equivalent of Generator Price Setting .
+Lists:
+

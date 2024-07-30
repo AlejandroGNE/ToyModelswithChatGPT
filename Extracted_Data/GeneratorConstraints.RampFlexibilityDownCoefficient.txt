@@ -1,0 +1,17 @@
+Header: Generator Constraints Ramp Flexibility Down Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of ramp flexibility down
+
+Paragraphs:
+Generator Constraints Ramp Flexibility Down Coefficient is the left-hand side coefficient of Ramp Flexibility Down in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+Lists:
+

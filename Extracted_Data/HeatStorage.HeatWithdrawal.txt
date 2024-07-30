@@ -1,0 +1,15 @@
+Header: Heat Storage Heat Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat withdrawn from storage
+
+Paragraphs:
+Heat Storage Heat Withdrawal is the heat withdrawn from storage.
+Lists:
+

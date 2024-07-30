@@ -1,0 +1,16 @@
+Header: Gas Field Initial Inventory Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Price linked to initial inventory
+
+Paragraphs:
+Gas Field Initial Inventory Price is Price linked to initial inventory.
+        This input represents per unit price of the initial inventory carried in the Gas Field . It is used in conjunction with Carrying rate to calculate Carrying cost .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity out on maintenance
+
+Paragraphs:
+Refer to Facility Maintenance for details.
+Lists:
+

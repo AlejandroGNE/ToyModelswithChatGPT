@@ -1,0 +1,11 @@
+Header: Water Plant Output Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Water Node the Water Plant exports water to
+
+Paragraphs:
+Water Plant Output Node is Water Node the Water Plant exports water to
+Lists:
+

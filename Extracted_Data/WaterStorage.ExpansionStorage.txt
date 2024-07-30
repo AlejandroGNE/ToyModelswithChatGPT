@@ -1,0 +1,15 @@
+Header: Water Storage Expansion Storage
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if Water Storage is eligible for expansion planning
+
+Paragraphs:
+Water Storages Expansion Storage indicates if Water Storage is eligible for expansion planning.
+Lists:
+

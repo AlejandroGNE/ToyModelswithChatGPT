@@ -1,0 +1,27 @@
+Header: Vehicle Energy Target Penalty
+
+Table Details:
+Units:	$/kWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the vehicle stored energy target.
+
+Paragraphs:
+Vehicle Energy Target Penalty is the penalty per unit of violation of energy storage targets. This property converts
+                energy targets constraints from hard to soft constraints.
+
+Vehicle SoC must be formulated for energy targets to be formulated. 
+                This property is therefore only valid with detailed Vehicle models (those defining energy storage properties such as Capacity and Efficiency ). Detailed and simple vehicle models are described in Vehicle .
+
+See also:
+Lists:
+	- Vehicle Energy Target
+	- Vehicle Energy Target Hour
+	- Vehicle Energy Target Day
+	- Vehicle Energy Target Week
+	- Vehicle Energy Target Month
+	- Vehicle Energy Target Year
+

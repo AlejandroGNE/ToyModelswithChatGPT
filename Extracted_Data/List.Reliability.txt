@@ -1,0 +1,11 @@
+Header: List Reliability
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Reliability objects in the List
+
+Paragraphs:
+List Reliability is the set of Reliability objects in the List.
+Lists:
+

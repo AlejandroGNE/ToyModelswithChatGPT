@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Release Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Function structure for capacity release type inputs
+
+Paragraphs:
+Gas Capacity Release Offer Release Type is either Base, Swing, or Deal. For Base, each day within a term will have the same amount of capacity released. For Swing, the capacity released per interval if free to vary. For Deal, the Max Released Capacity specifies the exact amount to be released in each interval.
+Lists:
+

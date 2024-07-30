@@ -1,0 +1,20 @@
+Header: Vehicle Net Charge Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of cost of charging and revenue from discharging
+
+Paragraphs:
+Vehicle Net Charge Cost is the net
+          of cost of charging and revenue from discharging. It is defined as:
+
+Net Charge Cost = Charge
+            Cost - Discharge
+            Revenue
+Lists:
+

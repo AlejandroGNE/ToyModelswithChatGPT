@@ -1,0 +1,12 @@
+Header: Market Entities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Entities that own the trades in the Market
+
+Paragraphs:
+Market Entities is the set of Entities
+          that own the trades in the Market.
+Lists:
+

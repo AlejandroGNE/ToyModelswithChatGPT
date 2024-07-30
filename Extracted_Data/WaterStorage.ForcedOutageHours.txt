@@ -1,0 +1,20 @@
+Header: Water Storage Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Water storage is on forced outage of Withdrawal/Injection
+
+Paragraphs:
+Water Storage Forced Outage Hours is the number of hours the Water storage is on forced outage of Withdrawal/Injection.
+
+See also:
+Lists:
+	- Water Storage Maintenance Hours
+	- Water Storage Units Out
+	- Water Storage Service Factor
+

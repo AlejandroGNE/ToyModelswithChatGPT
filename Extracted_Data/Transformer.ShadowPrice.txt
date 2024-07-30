@@ -1,0 +1,19 @@
+Header: Transformer Shadow Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow/expansion price in pre-contingency state
+
+Paragraphs:
+Transformer Shadow Price is the on the Transformer thermal limit as defined by Rating . This shadow price is derived directly from the dual solution to the mathematical programming problem used to solve the simulation. It can be interpreted as the economic benefit of relaxing the Transformer limit constraint by one megawatt. Only includes shadow price for base case, i.e in pre-contingency state.
+
+See also:
+Lists:
+	- Transformer Hours Congested
+	- Transformer Shadow Price Total
+

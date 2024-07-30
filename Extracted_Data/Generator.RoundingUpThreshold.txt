@@ -1,0 +1,18 @@
+Header: Generator Rounding Up Threshold
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Threshold at which non-integers are rounded up.
+
+Paragraphs:
+Generator Rounding Up Threshold is a setting for the Rounded Relaxation unit commitment algorithm. It overrides (for this Generator the master setting Production Rounding Up Threshold that controls the decision to round up non-integer unit commitment values.
+
+See also:
+Lists:
+	- Generator Unit Commitment Optimality
+

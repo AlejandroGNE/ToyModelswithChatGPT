@@ -1,0 +1,11 @@
+Header: Heat Plant Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Heat Plant
+
+Paragraphs:
+Heat Plant Objectives is set of Objectives on the Heat Plant
+Lists:
+

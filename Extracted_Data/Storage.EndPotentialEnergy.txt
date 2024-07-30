@@ -1,0 +1,45 @@
+Header: Storage End Potential Energy
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Potential energy of end volume
+
+Paragraphs:
+Storage End Potential Energy is the
+          potential energy of the End Volume and is calculated as:
+
+End Potential Energy = End
+            Volume × Downstream Efficiency × time
+
+For example, using the metric volume Model :
+
+Therefore the time conversion is GWh = Downstream
+            Efficiency × 86400 / (3600 × 1000) = Downstream
+            Efficiency × 0.024 i.e.
+
+End Potential Energy = End
+            Volume × Downstream
+            Efficiency × 0.024
+
+In a cascading hydro river model the potential energy is summed
+          downstream so the total potential energy declines as you traverse down
+          the river chain.
+
+See also:
+Lists:
+	- Hydro generator efficiency is in MW/m³/s
+	- End Volume is in CMD (cubic metre days) which is equal to 86400m³
+	- Storage Initial
+              Potential Energy
+	- Storage Max
+              Potential Energy
+	- Storage Min
+              Potential Energy
+	- Storage Marginal
+              Value
+

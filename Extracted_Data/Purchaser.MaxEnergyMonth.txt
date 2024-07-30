@@ -1,0 +1,15 @@
+Header: Purchaser Max Energy Month
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in month
+
+Paragraphs:
+This is the monthly equivalent of Purchaser Max Energy .
+Lists:
+

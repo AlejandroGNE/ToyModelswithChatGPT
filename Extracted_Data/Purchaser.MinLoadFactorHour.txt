@@ -1,0 +1,15 @@
+Header: Purchaser Min Load Factor Hour
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum load factor in hour
+
+Paragraphs:
+Purchaser Min Load Factor Hour is the minimum load factor in an hour. This is the hourly variant of Purchaser Min Load Factor .
+Lists:
+

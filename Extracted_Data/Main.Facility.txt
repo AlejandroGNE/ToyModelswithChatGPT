@@ -1,0 +1,224 @@
+Header: Facility Class
+
+Table Details:
+Description:	A facility that performs one or more processes
+Commodity	Unit	Energy Density (MJ)	Unit Type
+Electricity	MW	0	Rate
+H2	kg	141.84	Quantity
+Electricity.Dump	MW	0	Rate
+Process	Primary Input	Primary Output
+Blank.Process		
+Electricity.Dump	Electricity	Electricity.Dump
+Electricity.Generation		Electricity
+H2.via.Electrolysis	Electricity	H2
+Child Object	Property	Value	Data File	Units
+Electricity.Dump	Efficiency	100		%
+Electricity.Dump	Processing Charge	1		$
+H2.via.Electrolysis	Efficiency	69.366		%
+Facility	Primary Process	Capacity Basis
+Electricity.Dump	Electricity.Dump	Output
+Electrolyser	H2.via.Electrolysis	Input
+PV	Electricity.Generation	Output
+WF	Electricity.Generation	Output
+Facility	Property	Value	Unit	Band	Action	Expression
+Electricity.Dump	Units	1	-	1	=	
+Electricity.Dump	Max Operating Level	100000	MW	1	=	
+Electrolyser	Expansion Optimality	Linear	-	1	=	
+Electrolyser	Units	0	-	1	=	
+Electrolyser	Max Operating Level	1	MW	1	=	
+Electrolyser	Min Operating Factor	0	%	1	=	
+Electrolyser	FO&M Charge	50000	$	1	=	
+Electrolyser	Build Cost	2000000	$	1	=	
+Electrolyser	WACC	8	%	1	=	
+Electrolyser	Economic Life	25	yr	1	=	
+Electrolyser	Max Units Built	2700	-	1	=	
+Electrolyser	Min Units Built	0	-	1	=	
+Electrolyser	Build Non-anticipativity	-1	$	1	=	
+PV	Expansion Optimality	Linear	-	1	=	
+PV	Units	0	-	1	=	
+PV	Max Operating Level	1	MW	1	=	
+PV	Fixed Production	1	-	1	×	PV
+PV	FO&M Charge	30000	$	1	=	
+PV	Build Cost	2000000	$	1	=	
+PV	WACC	8	%	1	=	
+PV	Economic Life	25	yr	1	=	
+PV	Max Units Built	35000	-	1	=	
+PV	Min Units Built	0	-	1	=	
+PV	Build Non-anticipativity	-1	$	1	=	
+WF	Expansion Optimality	Linear	-	1	=	
+WF	Units	0	-	1	=	
+WF	Max Operating Level	1	MW	1	=	
+WF	Fixed Production	1	-	1	×	WF
+WF	FO&M Charge	50000	$	1	=	
+WF	Build Cost	2000000	$	1	=	
+WF	WACC	8		1	=	
+WF	Economic Life	25	yr	1	=	
+WF	Max Units Built	35000	-	1	=	
+WF	Min Units Built	0	-	1	=	
+WF	Build Non-anticipativity	-1	$	1	=	
+
+Paragraphs:
+See also Facility Property Reference for a detailed list of properties for this class of object.
+
+Related Classes: Commodity , Process , Market , Entity , Flow Network , Flow
+            Node .
+
+Facility represents physical infrastructure hosting one or more
+          processes ( Process objects which in
+          turn produce and/or consume various Commodity objects). Examples include power stations, processing plants,
+          factories, etc .  Facilities add detail to Process objects relevant to actual physical infrastructure such as: on/off
+          decisions, capacity expansion optimization, maintenance and aspects of
+          process efficiency and technical constraints unique to the facility
+          such as ramping limits, minimum production levels and efficiency as a
+          function of output.
+
+You can toggle a Facility in/out of the simulation using the Units property.
+
+A Facility can connect to one or more Flow
+            Network via memberships to Flow
+            Node objects.
+
+
+
+Figure 1: Example Facility
+
+The following guide will help you get started using the Facility
+          class:
+
+Facility supports multiple Units ,
+          and implements a fully-featured unit commitment and economic dispatch
+          (UC/ED) optimization based on mixed integer programming (MIP).
+          Technical constraints related to the UC/ED optimization are:
+
+Initial conditions can be specified - see Initial
+            Production for details.
+
+Production (dispatch) and Units Operating (unit
+          commitment) can be 'fixed' or preset in some or all periods with the Fixed Production and Commit constraints respectively.
+
+The efficiency of the Primary Process by default is set on the
+          Process Efficiency property, but can be overridden by the Facility
+          with a multi-point efficiency function defined using the properties Efficiency Point and Efficiency
+            Incr .
+
+A Facility conducts a Primary
+            Process and optionally Secondary
+            Processes and those run whenever Units
+            Operating is non-zero. However, Facility supports the ability to
+          run a Warm Up Process during a 'warm up' period set by the Warm
+            Up Time property. The warm up period is triggered when there are
+          any number of Units Started after a period where Units
+            Operating is zero. During the warm-up period, only the Warm
+            Up Process runs i.e. Production is zero.
+
+Facility supports modeling of both Forced and Maintenance outages with
+          various options for the repair
+            time distributions. Planned outages are input with the Units
+            Out property.
+
+Facility supports two-stage and multi-stage stochastic optimization
+          of unit commitment and production - see Production
+            Non-anticipativity for details.
+
+A Facility object can Formulate
+            Risk in a risk-constrained simulation to bounds its Net
+            Profit within an Acceptable
+            Risk . Alternatively, the Facility can participate in an Entity which can Formulate Risk .
+
+The following example relates to the production of hydrogen (H 2 ) from
+          renewable electricity. It defines these Commodity and Process objects:
+
+
+
+
+
+
+
+Note the definition of an "Electricity.Dump" Commodity and related
+          Process which will absorb excess renewable energy production at a
+          nominal cost of $1/MWh. This is necessary in the absence of other
+          consumers of the energy or a Market in
+          which to sell the excess energy.
+
+The Facility objects are as follows:
+
+
+
+The objects have a Primary
+            Process membership to the Process they implement. Multiple Facility objects can implement any one Process .
+          The Process objects define the Efficiency of production as they convert their Primary
+            Input to Primary Output .
+
+The Capacity Basis attribute for a Facility determines the Unit that will be used to define the Max
+            Operating Level of the Facility. For example the "PV" Facility
+          implements the "Electricity.Generation" Process which has a Primary Output Commodity "Electricity" which has Unit MW. Capacity Basis is set
+          to "Output" and therefore the Max
+            Operating Level of the "PV" Facility is expressed in MW. 
+          By contrast the "Electrolyzer" Facility implements the
+          "H2.via.Electrolysis" Process with Primary Input "Electricity" and Primary Output "H2". We want
+          the Max Operating Level of this Facility to be in MW therefore Capacity
+            Basis is set to "Input".
+
+Note that the GUI will display the correct Unit according to the Capacity Basis as shown in Table 5
+
+
+
+The Fixed Production property for "PV" and "WF" objects point to Variable objects that
+          generate the appropriate production profiles for these facilities.
+
+The "H2" Commodity produced in this example can now be sold directly
+          to a Market (by associating the Market
+          object with the Commodity) or connected to a Flow
+            Network , which in turn can have a Market attached to a Flow
+            Node .
+
+The Facility class includes a number of shortcut properties: Max
+            Capacity Factor , Max
+            Production , Max Starts , Min Capacity Factor , Min Production , and their
+          period variants. You can define custom constraints on Facility via the Constraints membership. The Objectives membership allows you
+          to include Facility coefficients in your multi-objective optimization
+          problems.
+
+Facility supports expansion in LT Plan. The key input properties are Max Units Built and Build
+            Cost and optionally FO&M
+            Charge . Expansion costs can be treated as a lump sum or
+          automatically annualized by defining WACC and Economic Life . Units can
+          be built from Project Start
+            Date or immediately if this not defined. Other available
+          constraints related to expansion are:
+
+Retirement occurs automatically after the Technical
+            Life . Retirements can be optimized if you define Max
+            Units Retired and will incur a Retirement
+            Cost .
+
+Two-stage stochastic optimization of expansion is supported - see Build Non-anticipativity for details.
+Lists:
+	- Create one or more Process objects
+            that the Facility will host.
+	- Link the Primary Process and optionally any Secondary
+              Processes to the Facility.
+	- Define the Max
+              Operating Level of the Facility for the Primary
+              Process .
+	- Optionally define any technical constraints such as: Min
+              Operating Factor , Min Up
+              Time , Min Down Time , Must-run Units , Max
+              Ramp Up , Max Ramp Down etc .
+	- Min Operating Factor :
+            specifies the minimum production level when a unit is operating
+	- Start Cost and Shutdown
+              Cost : place costs on starting up or shutting down a unit
+	- Max Ramp Down / Up :
+            place limits on how rapidly the production of a unit can change from
+            one interval to the next
+	- Min Down / Up
+              Time and Max Down / Up Time : place limits on how
+            long a unit must stay on or off once started or shut down
+	- Project Start Date
+	- Min Units Built
+	- Max Units Built in
+              Year
+	- Min Units Built in
+              Year
+

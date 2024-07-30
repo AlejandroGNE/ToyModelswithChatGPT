@@ -1,0 +1,20 @@
+Header: Generator Generation Credit Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price of the generation credits
+
+Paragraphs:
+Generator Generation Credit Price is average price of the generation creditsand is defined as:
+
+Generation Credit Price = Generation Credit Revenue / Generation
+
+See also:
+Lists:
+	- Generator Net Revenue
+

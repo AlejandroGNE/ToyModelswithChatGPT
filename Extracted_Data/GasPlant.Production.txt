@@ -1,0 +1,15 @@
+Header: Gas Plant Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The amount of saleable gas processed
+
+Paragraphs:
+Gas Plant Production is The amount of saleable gas processed.
+Lists:
+

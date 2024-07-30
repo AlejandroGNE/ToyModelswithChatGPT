@@ -1,0 +1,15 @@
+Header: RSI Average Load
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Average Load used in computation of Load Variation
+
+Paragraphs:
+RSI Average Load is Average Load used in computation of Load Variation.
+Lists:
+

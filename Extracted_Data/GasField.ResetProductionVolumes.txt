@@ -1,0 +1,20 @@
+Header: Gas Field Reset Production Volumes
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the production volumes should be reset in the current period.
+
+Paragraphs:
+Gas Field Reset Production Volumes allows the cumulative production volume totals, which are used in conjunction with 
+          multi-band Production Cost and Production Volume values, to be 
+          reset at specified periods. By default, the production in each band is cumulated across the study horizon such that 
+          once one band is used up it cannot be used in subsequent periods. But if this input is set to Yes for a given period, the totals for each band are reset to 0 and 
+          the field will start again producing from the first band.    Note that using this input will not change how the total volume in the Gas Field is tracked across the 
+          simulation.
+Lists:
+

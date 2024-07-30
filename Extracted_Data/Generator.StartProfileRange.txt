@@ -1,0 +1,15 @@
+Header: Generator Start Profile Range
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Maximum range for [Start Profile]
+
+Paragraphs:
+Generator Start Profile Range controls the maximum megawatt range for the Start Profile property. The setting can take the following values:
+Lists:
+

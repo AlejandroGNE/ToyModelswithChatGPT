@@ -1,0 +1,18 @@
+Header: Production Fuel Use Function Precision
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Precision for calculation of linear approximation to fuel function.
+
+Paragraphs:
+Production Fuel Use Function Precision sets a tolerance when fitting a step function to a generators marginal heat rate function . Steps (tranches) are added until the tolerance is met or the Max Heat Rate Tranches is hit.
+
+Refer to the article Heat Rate Modelling for more details.
+
+See also:
+Lists:
+	- Production Max Heat Rate Tranches
+	- Production Heat Rate Error Method
+

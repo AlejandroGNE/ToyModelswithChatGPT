@@ -1,0 +1,15 @@
+Header: Node Facilities Units Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Electric Load for each installed unit
+
+Paragraphs:
+Node Facilities Units Coefficient is Electric Load for each installed unit.
+Lists:
+

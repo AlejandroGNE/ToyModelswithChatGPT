@@ -1,0 +1,11 @@
+Header: Emission Gas Transports
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Transports that produce the Emission
+
+Paragraphs:
+Emission Gas Transports is set of Gas Transports that produce the Emission
+Lists:
+

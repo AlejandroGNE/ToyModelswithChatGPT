@@ -1,0 +1,36 @@
+Header: Generator Max Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum generating capacity of each unit
+
+Paragraphs:
+Generator Max Capacity defines
+          the nominal (generator-terminal) rating of the generating units in
+          megawatts.
+
+This value defines the Installed
+            Capacity and is used to calculate annual fixed cost charges such
+          as F&OM Cost as well as Build Cost . Thus if you need to
+          de-rate a unit periodically do not change the value of the
+          max capacity because altering this value will alter the fixed cost
+          calculation - instead, use the Rating or Rating Factor property.
+
+See also:
+Lists:
+	- Generator Rating
+	- Generator Rating
+              Factor
+	- Generator Min
+              Stable Level
+	- Generator Max Capacity Hour
+	- Generator Max Capacity Day
+	- Generator Max Capacity Week
+	- Generator Max Capacity Month
+	- Generator Max Capacity Year
+

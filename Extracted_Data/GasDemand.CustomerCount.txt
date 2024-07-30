@@ -1,0 +1,15 @@
+Header: Gas Demand Customer Count
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of customers (that have demand values)
+
+Paragraphs:
+Gas Demand Customer Count is the number of customers that is used in the usage factor demand function.
+Lists:
+

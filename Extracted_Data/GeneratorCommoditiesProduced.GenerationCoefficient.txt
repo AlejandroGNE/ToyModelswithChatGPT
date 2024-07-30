@@ -1,0 +1,28 @@
+Header: Generator Commodities Produced Generation Coefficient
+
+Table Details:
+Units:	~/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity produced per unit of generation
+
+Paragraphs:
+Generator Commodities
+            Produced Generation Coefficient is the amount of the Commodity produced per unit of Generation .
+
+If Mutually Exclusive 
+          Production is set as Yes, then a portion of generation of the generator is used for the commodity 
+          production.
+
+See also:
+Lists:
+	- Generator Commodities
+              Produced Pump
+              Load Coefficient
+	- Generator Commodities
+              Consumed Generation
+              Coefficient
+

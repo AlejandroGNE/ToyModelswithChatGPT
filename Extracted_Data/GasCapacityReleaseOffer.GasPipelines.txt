@@ -1,0 +1,11 @@
+Header: Gas Capacity Release Offer Gas Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas pipelines for the gas capacity release offers
+
+Paragraphs:
+Gas Capacity Release Offer Gas Pipelines is set of gas pipelines for the gas capacity release offers
+Lists:
+

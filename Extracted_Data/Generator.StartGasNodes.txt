@@ -1,0 +1,15 @@
+Header: Generator Start Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas nodes available for starting units
+
+Paragraphs:
+Generator Start Gas Nodes is the set of gas nodes connected to the generator and available for starting units. You can set the amount of gas used with the Offtake at Start property.
+
+See also:
+Lists:
+	- Generator Start Fuels
+	- Co-optimization of Gas and Power .
+

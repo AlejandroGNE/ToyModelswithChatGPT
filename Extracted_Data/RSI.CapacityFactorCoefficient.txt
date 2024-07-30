@@ -1,0 +1,15 @@
+Header: RSI Capacity Factor Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Capacity Factor Coefficient in LI equation
+
+Paragraphs:
+RSI Capacity Factor Coefficient is the coefficient of RSI Capacity Factor in the equation for the Lerner Index .
+Lists:
+

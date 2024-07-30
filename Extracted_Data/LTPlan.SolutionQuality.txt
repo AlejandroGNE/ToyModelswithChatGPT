@@ -1,0 +1,14 @@
+Header: LT Plan Solution Quality
+
+Table Details:
+Units:	%
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Description:	Continue producing solutions up to Solution Count or when Solution Quality falls to this level
+
+Paragraphs:
+This option is supplementary to Solution Count . It sets a limit on the quality of solutions in the Solution Hierarchy, terminating the solution search when this quality measure it reached. To measure the quality of solution ( i ) relative to the optimal solution ( i = 0) the following formula is used:
+
+The following is an example of the output of the solution hierarchy algorithm showing the solution number, objective value and quality measure. The Solution Quality is set to 98%:
+Lists:
+

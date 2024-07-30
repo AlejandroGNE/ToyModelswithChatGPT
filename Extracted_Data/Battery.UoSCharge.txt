@@ -1,0 +1,18 @@
+Header: Battery UoS Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Use of system charge for generation
+
+Paragraphs:
+Battery UoS Charge is the use of system charge for generation.  This is a component of the incremental cost of generation and is used to represent an additional charge that may be required to pay to the market operator for delivering (power to grid) rights. This charge is added to the incremental cost of Generation similarly to VOM Charge as part of the non-fuel related variable costs of generation. It applies to generator's energy market cost/offer price. It is not related to reserve and other ancillary services costs/mark-ups/bids.
+
+See also:
+Lists:
+	- UoS Cost
+

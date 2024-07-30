@@ -1,0 +1,11 @@
+Header: Message 3240
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> Sense should be "<=" when Decision Variable Value Squared Coefficient is defined.
+
+Paragraphs:
+Message 3240 occurs in the following circumstances:
+Lists:
+

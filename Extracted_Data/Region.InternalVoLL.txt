@@ -1,0 +1,15 @@
+Header: Region Internal VoLL
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Region specific value of lost load
+
+Paragraphs:
+This parameter can be paired with Internal VoLL Level to create VoLL as a function of lost load. When this parameter is not specified, transmission internal VoLL is used.
+Lists:
+

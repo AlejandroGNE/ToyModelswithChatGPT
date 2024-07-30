@@ -1,0 +1,17 @@
+Header: MT Schedule Step Link Mode
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Controls how the solutions of each step are linked together.
+
+Paragraphs:
+This option controls how the steps of the simulation (controlled by Step Type At a Time are linked together and how they are solved. It can take the following values:
+
+If for example you have a one year horizon and set Step Type = "Month" and At a Time = 1 then MT Schedule will solve 12 one-month steps. "Link" and "Break" modes will solve the steps sequentially, whereas "Parallel" will solve the steps in parallel, which is faster, however in "Break" and "Parallel" modes the initial values of long term storage will not be passed between the steps, hence these modes should be used only on models that are naturally separable by month.
+
+See also:
+Lists:
+	- ST Schedule Step Link Mode
+

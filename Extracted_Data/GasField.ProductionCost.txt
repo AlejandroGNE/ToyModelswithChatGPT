@@ -1,0 +1,29 @@
+Header: Gas Field Production Cost
+
+Table Details:
+Units:	Input: $/~    Output: $
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of extracting gas from the field
+
+Paragraphs:
+As input Gas Field Production Cost is the incremental cost of extracting gas from the field and is charged against every unit of Production .
+
+As output Gas Field Production Cost is calculated as:
+
+Note that Initial Inventory Price is included in the Production Cost input, so that LP evaluates a total price of keeping the gas inside vs releasing it.
+
+For a detailed multi-band example using Production Cost, go to the Gas Field Production Volume page.
+
+See also:
+Lists:
+	- Gas Field Fixed Costs
+
+
+H5s:
+Input
+Output
+Multi-band example:

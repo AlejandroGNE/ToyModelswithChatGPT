@@ -1,0 +1,15 @@
+Header: Emission Gas Nodes Gross Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gross production of the emission
+
+Paragraphs:
+Emission Gas Nodes Gross Production is the gross production of the emission.
+Lists:
+

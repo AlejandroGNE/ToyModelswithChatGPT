@@ -1,0 +1,24 @@
+Header: Region Constraints Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of region generation
+
+Paragraphs:
+Region Constraints Generation Coefficient is the left-hand side coefficient of the total Region Generators Generation in the constraint
+          on a generator-terminal basis i.e. without any adjustment
+          for Auxiliary Use .
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Zone Constraints Generation
+              Coefficient
+

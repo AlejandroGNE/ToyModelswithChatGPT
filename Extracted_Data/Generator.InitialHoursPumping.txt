@@ -1,0 +1,19 @@
+Header: Generator Initial Hours Pumping
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Hours the unit has been pumping for at time zero
+
+Paragraphs:
+Generator Initial Hours Pumping is used in combination with Min Pump Time and Min Pump Load and is the hours the unit has been in pump mode at time zero. A non-zero value means the unit was pumping immediately before the start of the simulation horizon and those hours will be compared to the Min Pump Time to decide if when pumping is allowed to stop. Note that pumping can be interrupted by forced outage .
+
+See also:
+Lists:
+	- Pumped Storage
+	- Generator Initial Hours Up
+

@@ -1,0 +1,11 @@
+Header: Process Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Process
+
+Paragraphs:
+Process Constraints is set of Constraints on the Process
+Lists:
+

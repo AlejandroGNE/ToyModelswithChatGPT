@@ -1,0 +1,80 @@
+Header: Generator Start Profile
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Detailed regime for running the unit up from zero to [Min Stable Level] when [Run Up Rate] is non-constant.
+Units	1	-	1	
+Max Capacity	100	MW	1	
+Min Stable Level	40	MW	1	
+Start Cost	3000	$	1	
+Start Profile	10	MW	1	H01
+Start Profile	30	MW	1	H02
+Start Profile	50	MW	1	H03
+Units	1	-	1	
+Max Capacity	100	MW	1	
+Min Stable Level	40	MW	1	
+Start Cost	1000	$	1	
+Start Cost	2500	$	2	
+Start Cost	5000	$	3	
+Start Cost Time	3	hrs	1	
+Start Cost Time	3	hrs	2	
+Start Cost Time	6	hrs	3	
+Start Profile	30	MW	1	H01
+Start Profile	60	MW	1	H02
+Start Profile	10	MW	2	H01
+Start Profile	30	MW	2	H02
+Start Profile	50	MW	2	H03
+Start Profile	5	MW	3	H01
+Start Profile	15	MW	3	H02
+Start Profile	30	MW	3	H03
+Start Profile	40	MW	3	H04
+Units	1	-	1			
+Max Capacity	100	MW	1			
+Min Stable Level	40	MW	1			
+Fuel Price	5	$/GJ	1			
+Heat Rate	10	GJ/MWh	1			
+Start Profile	10	MW	1			H01
+Start Profile	20	MW	1			H02
+Start Profile	30	MW	1			H03
+Start Profile	40	MW	1			H04
+Start Profile	50	MW	1			H05
+Start Profile	60	MW	1			H06
+Start Profile	70	MW	1			H07
+Start Profile	80	MW	1			H08
+Start Profile	90	MW	1			H09
+Start Profile	100	MW	1			H10
+Max Ramp Up	0.5	MW/min.	1			
+Max Ramp Down	0.5	MW/min.	1			
+Initial Generation	0	MW	1			
+Initial Units Generating	0	-	1			
+
+Paragraphs:
+Generator Start Profile defines a series of megawatt steps that the generating units pass through while starting up. Note that if this running up rate is constant for any given cooling state you should use the Run Up Rate property instead.
+
+Start Profile may also be used to define a ramping rate while a unit is 'cold' that is different to its normal Max Ramp Up —see Example 3 below. This feature is allowed because once a unit reaches Min Stable Level , then by default, the Start Profile acts only as an upper limit on Generation . However this behavior can be changed with the Start Profile Range setting.
+
+The input scheme for Start Profile is a special case, where the Timeslice field is used to identify the stages of the start-up. Multiple bands are then used to vary the start-up regime according to the cooling state of the unit. When using multiple bands in this way you should also define the Start Cost and Start Cost Time using the same number of bands.
+
+Example 1 not using cooling states
+
+Example 2 using hot/warm/cold states
+
+Example 3 modelling a slower ramp rate when unit is cold
+
+In this case the Start Profile limits the ramping capability of the unit to 0.1667 MW/min (10MW/hr) for the first 10 hours after a start. After this time the normal ramping rate of 0.5 MW/min applies. This is illustrated in Figure 1.
+
+
+
+Note for users in Irish SEM: When the Uplift Compatibility attribute is set to "Irish SEM" the Start Profile value is expected to be a single interval and equal to the "block load" plus one period of maximum ramping. The input value is then raised to Min Stable Level if it is defined below that level, consistent with the Irish SEM market rules.
+
+See also:
+Lists:
+	- Run Up Rate
+	- Run Down Rate
+	- Shutdown Profile
+

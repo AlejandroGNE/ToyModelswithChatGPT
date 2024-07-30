@@ -1,0 +1,15 @@
+Header: Battery Max Charge Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of hours a unit can be run in charge mode after being started
+
+Paragraphs:
+Battery Max Charge Up Time is the maximum number of hours a unit can be run in charge mode after being started.
+Lists:
+

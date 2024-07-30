@@ -1,0 +1,29 @@
+Header: Generator Power to Heat Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Ratio of heat production to electric production
+Units	1	-
+Max Capacity	200	MW
+Min Stable Level	50	MW
+Fuel Price	5	$/GJ
+Heat Rate	13	GJ/MWh
+Min Up Time	3	hrs
+Power to Heat Ratio	0.5	-
+CHP Electric Heat Rate Incr	15	GJ/MWh
+Boiler Heat Rate Incr	1.2	GJ/GJ
+Max Boiler Heat	15	GJ
+
+Paragraphs:
+Generator Power to Heat Ratio is the ratio of heat production to electric production in a CHP plant.
+
+This is the key property that is used to identify the Generator object as a combined heat and power plant.
+
+Example
+Lists:
+

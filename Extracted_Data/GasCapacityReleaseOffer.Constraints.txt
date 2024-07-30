@@ -1,0 +1,11 @@
+Header: Gas Capacity Release Offer Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Gas Capacity Release Offer
+
+Paragraphs:
+Gas Capacity Release Offer Constraints is set of Constraints on the Gas Capacity Release Offer
+Lists:
+

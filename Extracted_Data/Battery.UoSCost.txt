@@ -1,0 +1,20 @@
+Header: Battery UoS Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total use of system cost
+
+Paragraphs:
+Battery UoS Cost is the total use of system cost, and is defined as:
+
+Battery -> UoS Cost = UoS Charge × ( Generation + Load )
+
+See also:
+Lists:
+	- UoS Charge
+

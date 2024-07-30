@@ -1,0 +1,17 @@
+Header: Contingency Monitoring Threshold
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Monitor only this percentage of most affected Line/Transformer/Interface flows.
+
+Paragraphs:
+Contingency Monitoring Threshold monitors only this percentage of the most affected Line/Transformer/Interface flows.
+
+It will overwrite the global Contingency Monitoring Threshold set in Transmission .
+Lists:
+

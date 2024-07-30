@@ -1,0 +1,15 @@
+Header: Process Primary Output
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	the primary output Commodity of the Process
+
+Paragraphs:
+Process Primary Output is the
+          output-side Commodity resulting
+          from the transformation by the Process of the Primary
+            Input with the given Conversion
+            Factor and Efficiency .
+Lists:
+

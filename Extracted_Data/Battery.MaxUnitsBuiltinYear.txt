@@ -1,0 +1,17 @@
+Header: Battery Max Units Built in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of BESS units that can be built in a year
+
+Paragraphs:
+Battery Max Units Built in Year sets an upper limit on the number of new units that LT Plan is allowed to build in any single year of the planning horizon. This property should be used in combination with Max Units Built and offers a finer control over the timing of new builds.
+
+See also: Battery Min Units Built in Year .
+Lists:
+

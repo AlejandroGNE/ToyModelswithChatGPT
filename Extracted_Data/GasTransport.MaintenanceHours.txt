@@ -1,0 +1,15 @@
+Header: Gas Transport Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas transport is on maintenance
+
+Paragraphs:
+Gas Transport Maintenance Hours is the number of hours the gas transport is on maintenance.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Zone Water Plant Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water Plant electric load
+
+Paragraphs:
+Zone Water Plant Load is Water Plant electric load.
+Lists:
+

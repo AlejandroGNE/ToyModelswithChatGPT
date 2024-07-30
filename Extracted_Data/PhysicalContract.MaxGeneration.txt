@@ -1,0 +1,15 @@
+Header: Physical Contract Max Generation
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum generation cleared on physical contract
+
+Paragraphs:
+Physical Contract Max Generation sets a limit on the generation dispatched from the physical contract in any interval. This overrides the maximum implied by the sum of Offer Quantity / Offer Price . You must define this property for PLEXOS to include the generation from this contract in your model i.e. it is the key property used to switch the contract in/out of your simulation.
+Lists:
+

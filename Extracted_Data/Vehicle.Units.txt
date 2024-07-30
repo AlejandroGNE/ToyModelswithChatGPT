@@ -1,0 +1,36 @@
+Header: Vehicle Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of vehicles
+Model 3	Units	200,000	-
+Model 3	Capacity	85	kWh
+Model 3	Efficiency	140	Wh/kW
+Model S	Units	50,000	-
+Model S	Capacity	100	kWh
+Model S	Efficiency	180	Wh/kW
+
+Paragraphs:
+Vehicle Units is the number of
+            vehicles represented by the object. This number can increase or
+            decrease across time or automatically as part of LT
+              Plan .
+
+
+
+As output Units is the net of existing units new additions and
+            disposals.
+
+See also:
+
+
+Lists:
+	- Vehicle Capacity
+	- Charging Station Units
+	- Facility Units
+

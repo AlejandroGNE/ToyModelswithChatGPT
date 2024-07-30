@@ -1,0 +1,124 @@
+Header: Timeslice Class
+
+Table Details:
+Description:	Timeslice for applying to data and/or reporting
+Units	1	-				
+Max Capacity	240	MW				
+Pump Efficiency	75	%				
+Pump Load	240	MW				
+Rating	240	MW				
+Rating	250	MW	1/01/2005			
+Units Out	1	-	1/04/2005	3/04/2005		
+Must Run Units	1	-			PEAK	
+Markup	0	$/
+            MWh				PS MARKUP
+Symbol	Range	Meaning
+H	1-24	Hour of the day (1=midnight to 1.00am, 24=11:00pm to 12 midnight).
+W	1-7	Day of week (1=Sunday, 2=Monday, ...)
+D	1-31	Day of month. 
+
+              
+              Note that the day of the month represented by "1-31" may vary depending on the value set for "Days Begin" in the Horizon settings. For example, D7 could actually represent part of the 7th calendar day and part of the 8th calendar day.
+M	1-12	Month of calendar year (1=January, 2=February, ...)
+P	1 - Num. Trading Periods in Day	Trading period of day (depends on horizon settings 
+            e.g. if running with a 30 minute trading period then P1 means midnight to 12:30am, P2 means 12:30am to 1:00am,
+            
+            etc)
+Q	1-4	Quarter of the year (1=Jan to March, 2=April to June, ...)
+K	1-53	Week of the year (1=First week of the year). Note that week of the year numbering is based on
+            ISO-8601. The first week of the year always contains 4 January, the first day of the week is defined by 
+            Week Beginning setting in the horizon 
+            Horizon.
+!	-	This is the "not operator"
+                e.g. "!H1-6" means the data applies in hours other than 1-6. An input of "!W1,H1-6" is considered as "!W1, !H1-6" and means that the data does not apply for weekday one and applies when the hour of the day is not between 1 and 6 on all the other weekdays.
+Pattern	Interpretation
+H1-6	The value applies only when the hour of the day is between 1 and 6
+Hx-y	Consider x and y to be inputs and consider a 24 hour clock as an example. starting time of 24 clock = x-1 end time
+            of 24 clock = y
+H1-6,H18-24	The value applies when the hour of the day is between 1 and 6, or 18-24
+W1,H1-6;W7,H1-6	The value applies only when the hour of the day is between 1 and 6 for weekday one and weekday seven,
+            but not to other weekdays
+P30-48	The value applies to trading periods 30-48 
+            e.g. in a 30-minute trading period model.
+Include	-1	-			H9-20	
+Timeslice	Property	Value	Units	Pattern
+OFF-PEAK	Include	-1	-	H1-8,20-24
+PEAK	Include	-1	-	H9-19
+SUMMER	Include	-1	-	M5-10
+WEEKDAY	Include	-1	-	W2-6
+WEEKDAY OFF-PEAK	Include	-1	-	W2-6,H1-8,20-24
+WEEKDAY PEAK	Include	-1	-	W2-6,H9-19
+WEEKEND	Include	-1	-	W1,7
+WEEKEND OFF-PEAK	Include	-1	-	W1,7,H1-8,20-24
+WEEKEND PEAK	Include	-1	-	W1,7,H9-19
+WINTER	Include	-1	-	M11-12, 1-4
+
+Paragraphs:
+See also Timeslice Property Reference for a detailed list of properties for this class of
+          object.
+
+Every datum (item of data entered via the properties window) in PLEXOS is either static or dynamic . Static data have a constant value regardless of time period whereas dynamic data are those that either
+        change over time or apply only to some given period of time. In PLEXOS most properties (with only very few exceptions) can
+        be entered dynamically. Dynamic data can be as granular as required down to the length of the user-defined trading period
+        duration (which itself can vary from 5 minutes to 24 hours).
+
+Properties are always entered into PLEXOS using the properties window. The example below shows a number of different
+        methods for entering dynamic data.
+
+The Date From , Date To , and Timeslice fields provide a powerful means of applying data to particular periods, or particular types of
+        hours, days, or months inside a range of dates. Dynamic properties like this take precedence over static values. In the
+        example below the static rating for the generator is 240 MW, but this changes (according to the datum with Date From set) at midnight on 1/01/2005 to 250MW.
+
+Note that dates are always displayed using the regional settings of computer.
+
+PLEXOS always reads data in date order, thus most often the Date To field is not required i.e. values that change a number of times across a horizon are most easily defined with a list of properties using Date From only as with the example Rating property in Table 1. But Date To is useful for setting the value of a property for a discrete period of time as in the Units Out
+        definition in Table 1. Note that Date From and Date To can be given time parts e.g. 1/01/2005 4:00am. By default Date From given with no time part means from midnight and Date To given with no
+        time part means midnight the following day i.e. Date From is inclusive by default.
+
+Table 1: Example use of dynamic properties:
+
+When you have data that repeat in a pattern, use the Timeslice field to enter the unique data values once only, rather
+        than listing them with a serious of date-tagged entries. Patterns can be entered into the Timeslice field to repeat values
+        by time of day, day of week, day of month, or month of year.
+
+Patterns are string expressions made up of one or more statements separated by commas and semi-colons. The available
+        symbols are shown in Table 1 and some example patterns are shown in Table 2. A comma between expressions means
+        "AND" whereas a semi-colon means "OR". Thus it is possible to specify a value just once and list the
+        relevant time periods using pattern statements separated by semi-colons as in the third example in Table 3. Pattern symbols
+        are not case sensitive and additional spaces in the patterns will be skipped.
+
+The PLEXOS interface will sort data according to pattern as well as date, etc . Thus when giving a list of simple patterns like monthly values it is best to use two digits for the month
+        number i.e. M01, M02, M03, etc, this way the values will display in the correct order.
+
+Table 2: Symbols Used in Pattern Syntax
+
+Table 3: Example Patterns
+
+Look-ahead Patterns It is possible to define patterns for Look-ahead periods using conditional variables.
+        For more information please see conditional variables .
+
+In the example properties above a Timeslice field is filled out with the pattern "PEAK". This is not actually
+        a pattern, but a Timeslice object. Timeslices are objects in PLEXOS just like other objects such as generators, nodes, etc . The definition can be added/edited by modifying the Include property of the Timeslices as in the following example:
+
+Table 4: Timeslice definition example
+
+Timeslice names can be used in place of the detailed pattern specification described above. For example, the expression
+        PEAK can be entered into the Timeslice field, and PLEXOS will read the definition of PEAK from the Timeslice object during execution.
+        PLEXOS provides a list of the defined Timeslices in a dropdown list in the Timeslice field of the properties window.
+
+Timeslices are created using patterns, date from, date to, and even read from a text file i.e. Timeslices can use all usual input methods (except other Timeslices). For example, if you have a Timeslice
+        that changes in a complex way perhaps due to holiday periods then you can read the Include property of the Timeslice from a text file. Include is the only property for Timeslices and is a simple flag where 0 = false and
+        -1 = true, so all periods with Include = -1 are included in the Timeslice.
+
+You can create as many Timeslice objects as needed. Note that Timeslice names can be used in Data Files , but you cannot use Timeslices or patterns to filter data in a Data File i.e. you cannot have both the Timeslice/Pattern field and the Filename field filled out.
+
+Table 5: Further Timeslice definition examples
+
+
+
+Timeslices have two functions: firstly to apply a pattern to input data and secondly to provide additional period types for summary reporting. Each Report object has a List collection. To report by a Timeslice, create a List object, and create memberships between the List object and the Timeslices. Then, add the List object to the Report's List collection. When the simulation is executed the solution database will include summary reporting by the selected timeslices and all selected summary types (day, week, month, quarter, year).
+
+Notice that for "At Interval" properties the reported summary data are the values at the peak period for that
+        particular timeslice.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Transmission Flow PTDF Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.01
+Validation Rule:	≥0
+Description:	Minimum absolute value of PTDF as coefficient in transmission flow constraints.
+
+Paragraphs:
+Transmission Flow PTDF Threshold is tested against the absolute value of any Power Transfer Distribution Factor (PTDF) or 'shift factor' in the network. Values below this threshold are discarded. Decreasing this value (down to a small non-zero value e.g. 1E-4) will increase accuracy of network flows at the expense of potentially longer runtimes.
+
+See also:
+Lists:
+	- Transmission WheelingPTDFThreshold
+

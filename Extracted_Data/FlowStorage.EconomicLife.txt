@@ -1,0 +1,22 @@
+Header: Flow Storage Economic Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Economic life of the unit (period over which fixed costs are recovered)
+
+Paragraphs:
+Note:
+
+Refer to Commodity Economic
+            Life .
+Lists:
+	- If the Economic Life, Build Cost , and Technical Life are not defined, PLEXOS will assume the Economic Life is 30 years.
+	- If the Economic Life is not defined but the Technical Life is defined, the Technical Life is assumed to be the Economic Life of the Flow Storage.
+	- If both Economic Life and Technical Life are defined, the Economic Life is set to the lesser of the two values.
+	- If the Build Cost is defined but the Technical Life and Economic Life are not, the Economic Life is equal to 1/(Expansion Periods per Year), where the Expansion Periods per Year is determined by the integer value of the Discount Period Type .
+

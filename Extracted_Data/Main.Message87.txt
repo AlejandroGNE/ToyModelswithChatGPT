@@ -1,0 +1,11 @@
+Header: Message 87
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Errors were detected in the efficiency function for <value> <name>. Consider changing Production Heat Rate Error Method.
+
+Paragraphs:
+
+Lists:
+

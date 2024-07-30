@@ -1,0 +1,18 @@
+Header: Transformer Flow Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow through the transformer in the counter-reference direction
+
+Paragraphs:
+Transformer Flow Back is the flow through the transformer in the counter-reference direction.
+
+See also:
+Lists:
+	- Transformer Transformer.Flow
+

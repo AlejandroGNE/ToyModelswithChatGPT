@@ -1,0 +1,26 @@
+Header: LT Plan - Depreciation Benefits
+
+Table Details:
+
+Paragraphs:
+Depreciation, its tax credit implication and the terminal year effects of capital not yet depreciated are important considerations. The LT Plan Depreciation Method attribute can be set to either:
+
+In addition these methods require input of Tax Rate and Inflation Rate .
+
+These methods affect the annuity calculations for Project x as follows:
+
+For both methods we compute both real and nominal annuity factors:
+
+For straight line:
+
+For declining balance:
+
+The Generator attribute Generator Declining Depreciation Balance attribute is provided and used as follows:
+
+The key point to note with both of these formulations is that the tax effect of depreciation must be treated on a nominal basis, hence the adjustment of the real WACC by the rate of inflation. Also note that if no WACC rate is set, the discount rate is used.
+
+Previous Chapter | Next Chapter
+Lists:
+	- straight line
+	- declining balance
+

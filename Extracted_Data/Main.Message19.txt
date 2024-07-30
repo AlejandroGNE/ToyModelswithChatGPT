@@ -1,0 +1,24 @@
+Header: Message 19
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> RHS (period type <value>) is too long for ST Schedule. This Constraint needs to be decomposed by turning on MT Schedule.
+
+Paragraphs:
+Message 19 occurs in the following circumstances:
+
+For example, you define a Constraint with RHS Week but the steps of ST Schedule only span one day at a time.
+
+For weekly constraints you can consider changing the ST Schedule step size to a week, or for month and year types enable MT Schedule which will resolve the constraint and decompose it for ST Schedule .
+
+Note that some properties such as Generator Max Capacity Factor Month are converted by the simulator into equivalent Constraint objects and hence this message can be raised for those constraints.
+
+See also:
+Lists:
+	- A Constraint is defined with one of: RHS Week , RHS Month or RHS Year
+	- ST Schedule is enabled
+	- MT Schedule is not enabled
+	- The length of a step in ST Schedule (controlled by Chrono Step Type and Chrono at a Time ) is shorter than the period type of the Constraint .
+	- Constraint Decomposition
+

@@ -1,0 +1,41 @@
+Header: Gas DSM Program Class
+
+Table Details:
+Description:	Demand side management programs
+
+Paragraphs:
+Gas DSM Program was implemented to model the benefit gained from reducing demand against the cost of program implementation. Standard inputs include: Reduction Type : Used to specify whether Demand Reduction amount is based on Input or Usage Factor Demand Reduction : Total amount of demand that can be reduced FO&M Charge : Annual fixed operation and maintenance charge Variable Cost : Ongoing costs for the DSM Program DSM programs can also be expansion candidates and will require additional inputs such as LT Max Reduction, and Expansion Program. Multi-band LT Max Reduction inputs are interpreted as fixed decision points for expansion plan. LT plan expansion decision must select one of the specified bands. For each DSM program offer for which the Expansion Program variable is set to Yes, make the following changes: Where units is between 0 and 1 and shows the % of DSM program implemented. Note : LT Max Reduction is a constant while Demand Reduction is the LP decision variable . Subject to: Where binary var is in (0,1). For each gas node connected to the demand, and where this demand is mapped to the DSM program offer, modify the net injection definition conservation constraint by adding 1 as the coefficient for the demand reduction for each DSM program offer attached to the Gas Demand. The following equation must hold for period i: Note : DSM demand reduction is going to bring reduction in served demand, which is the benefit of implementing DSM program offer. As a result, take from Gas fields, contracts, and storages will be reduced .
+
+Gas DSM Program was implemented to model the benefit gained from reducing demand against the cost of program implementation.
+
+Standard inputs include:
+
+DSM programs can also be expansion candidates and will require additional inputs such as LT Max Reduction, and Expansion Program.
+
+Multi-band LT Max Reduction inputs are interpreted as fixed decision points for expansion plan. LT plan expansion decision must select one of the specified bands.
+
+For each DSM program offer for which the Expansion Program variable is set to Yes, make the following changes:
+
+
+
+Where units is between 0 and 1 and shows the % of DSM program implemented.
+
+Note : LT Max Reduction is a constant while Demand Reduction is the LP decision variable .
+
+Subject to:
+
+
+
+Where binary var is in (0,1).
+
+For each gas node connected to the demand, and where this demand is mapped to the DSM program offer, modify the net injection definition conservation constraint by adding 1 as the coefficient for the demand reduction for each DSM program offer attached to the Gas Demand. The following equation must hold for period i:
+
+
+
+Note : DSM demand reduction is going to bring reduction in served demand, which is the benefit of implementing DSM program offer. As a result, take from Gas fields, contracts, and storages will be reduced .
+Lists:
+	- Reduction Type : Used to specify whether Demand Reduction amount is based on Input or Usage Factor
+	- Demand Reduction : Total amount of demand that can be reduced
+	- FO&M Charge : Annual fixed operation and maintenance charge
+	- Variable Cost : Ongoing costs for the DSM Program
+

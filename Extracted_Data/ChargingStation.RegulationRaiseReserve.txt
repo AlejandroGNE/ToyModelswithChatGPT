@@ -1,0 +1,25 @@
+Header: Charging Station Regulation Raise Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation raise reserve
+
+Paragraphs:
+Charging Stations Regulation Raise Reserve is the provision of regulation raise reserve.
+          This is provided in the same manner as Raise
+            Reserve but to regulation type services. Note that provision of
+          raise and regulation raise services is mutually exclusive by default i.e. the capacity reserved for one service cannot also be applied to the
+          other.
+
+See also:
+Lists:
+	- Reserve Mutually
+              Exclusive
+	- Charging Station Regulation
+              Lower Reserve
+

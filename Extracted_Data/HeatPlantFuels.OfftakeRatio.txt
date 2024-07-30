@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels Offtake Ratio
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of fuel used by the heat plant
+
+Paragraphs:
+Heat plant Fuels Offtake Ratio is the proportion of fuel used by the Heat plant.
+Lists:
+

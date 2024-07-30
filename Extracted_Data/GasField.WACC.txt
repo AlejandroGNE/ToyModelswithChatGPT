@@ -1,0 +1,19 @@
+Header: Gas Field WACC
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10
+Validation Rule:	≥0
+Key Property:	No
+Description:	Weighted average cost of capital
+
+Paragraphs:
+Gas Field WACC is the weighted average cost of capital. See Generator WACC for details. If no WACC rate is set, the discount rate is used.
+
+See also:
+Lists:
+	- Gas Field Build Cost
+	- Gas Field Economic Life
+

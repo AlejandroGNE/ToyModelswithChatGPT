@@ -1,0 +1,63 @@
+Header: Gas Field Production Volume
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Volume of gas in Production Cost band
+Initial Volume = 1000 TJ	Max Volume = 100 TJ	Demand = 50 TJ
+Production Cost = $10/GJ	Initial Volume = 0 TJ	
+1	10	500
+2	20	800
+3	30	1000
+1	10	500
+2	20	300
+3	30	200
+
+Paragraphs:
+Gas Field Production Volume is the cumulative volume of gas in the Production Cost band. In reality, as the Production from a gas field increases and the volume of gas depletes, the cost of production generally increases. Essentially meaning that the Gas Field can be partitioned into a number of different tranche levels, with varying incremental costs. The Production Volume and Production Cost properties allow a user to define these tranches. A diagram illustrating the partitions of the gas field into tranche levels can be seen in Figure 1.
+
+Figure 1 : Gas Field with multiple tranches
+
+The tranches are cleared in order, regardless of the production tranche costs.
+
+Examples
+
+Consider two simple examples of a gas network that contains a single gas field. The gas demand in these examples will be fixed. The gas network for these examples can be seen in Figure 2 below.
+
+Figure 2 : A simple gas network model containing a single gas field.
+
+Example 1:
+
+In this example the Production Cost does not change. The series in Figure 3 show the amount of gas extracted from the gas field whilst minimizing cost within the gas network.
+
+
+
+Figure 3 : The output results of the simulation for the gas field using the parameters in Table 1.
+
+Example 2:
+
+In this example, multiple tranches are used to introduce different levels of Production Cost . For example, tranche 2 has a production cost of $20 and has a volume up to 800 TJ. For this gas network, the gas extracted from the gas field is shown in Figure 4.
+
+
+
+Demand : Demand = 50 TJ   , Storage : Max Volume = 100 TJ, Initial Volume = 0 TJ
+
+Figure 4 : The production cost simulation for the gas field using the parameters in Table 2.
+
+Figure 5 : The production cost simulation of the gas field using the parameters in Table 2.
+
+An option is available for the user to define Gas Field Production Volume in an incremental format with an undocumented parameter (See " IncrementalInput " in Hidden parameters ).
+
+Example 3:
+
+In this example, multiple tranches are used to introduce different levels of Production Cost in an incremental format. For example, tranche 2 has a production cost of $20 and has a volume of additional 300 TJ. The following defines an equivalent input as that in Example 2.
+
+
+
+Note that while by default the total production values in each band are cumulated over the entire study horizon, they can be reset at specified periods using the Reset Production Volumes input.
+Lists:
+

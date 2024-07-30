@@ -1,0 +1,19 @@
+Header: Generator Maintenances Outage Firm Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of [Firm Capacity] during outage
+
+Paragraphs:
+Generator Maintenances Outage Firm Capacity Factor is the percentage of Firm Capacity available during the maintenance outage event.
+
+See also:
+Lists:
+	- Generator Maintenances Outage Firm Capacity
+	- Generator Outage Rating
+

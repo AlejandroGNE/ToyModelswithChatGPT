@@ -1,0 +1,22 @@
+Header: Water Pump Must-Run Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of must-run units
+
+Paragraphs:
+Water Pump Must Run Units is the
+          number of units at the facility that must be committed in a given period i.e. a lower
+          bound on units operating.
+          The optimizer is free to commit more than this number of units up to the number of available units.
+
+Note that if you want to have fixed commitment, rather than a minimum
+          commitment, then use the Commit property. Please note that if Must Run Units is set equal to Units the property
+          is converted to Commit automatically.
+Lists:
+

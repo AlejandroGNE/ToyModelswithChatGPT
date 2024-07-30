@@ -1,0 +1,15 @@
+Header: Zone Native Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Native load
+
+Paragraphs:
+Zone Native Load is the total native load that occurred in the zone defined as:
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Zone Curtailable Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Curtailable (dispatchable) load
+
+Paragraphs:
+Zone Curtailable Load is the available demand-side participation, either defined on the Zone or on the Nodes in the Zone . Thus it is defined as:
+
+where:
+
+See also:
+Lists:
+	- Zone Demand Curtailed
+	- Zone Cost of Curtailment
+

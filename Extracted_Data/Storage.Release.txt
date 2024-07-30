@@ -1,0 +1,20 @@
+Header: Storage Release
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total releases from storage
+
+Paragraphs:
+Storage Release is the sum of the Storage Storage Downstream Release , Storage Generator Release , and Spill .
+
+See also:
+Lists:
+	- Storage Inflow
+	- Storage End
+              Volume
+

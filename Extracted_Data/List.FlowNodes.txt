@@ -1,0 +1,11 @@
+Header: List Flow Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Node objects in the List
+
+Paragraphs:
+List Flow Nodes is set of Flow Node objects in the List
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Battery Commodities Produced Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity produced per unit of generation
+
+Paragraphs:
+Battery Commodities
+            Produced Generation Coefficient is the amount of the Commodity produced per unit of Generation .
+Lists:
+

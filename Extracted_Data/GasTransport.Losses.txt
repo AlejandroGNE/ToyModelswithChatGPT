@@ -1,0 +1,15 @@
+Header: Gas Transport Losses
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas lost during the voyage
+
+Paragraphs:
+Gas Transport Losses is gas lost during the voyage. It is reported at the time of discharging at the Import Node .
+Lists:
+

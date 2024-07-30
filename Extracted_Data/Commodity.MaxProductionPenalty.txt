@@ -1,0 +1,18 @@
+Header: Commodity Max Production Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Max Production] constraints
+
+Paragraphs:
+Commodity Max Production
+          Penalty  sets the penalty for violating the Max
+            Production constraint and its period variants. The default value
+          of -1 means 'hard constraint'.
+Lists:
+

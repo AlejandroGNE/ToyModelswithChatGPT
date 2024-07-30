@@ -1,0 +1,11 @@
+Header: Power2X Flow Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Nodes the Power2X connects to
+
+Paragraphs:
+Power2X Flow Nodes is the set of Flow Nodes the Power2X connects to.
+Lists:
+

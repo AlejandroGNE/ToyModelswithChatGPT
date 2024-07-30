@@ -1,0 +1,16 @@
+Header: Transmission Enforce N-1 Contingencies
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If N-1 contingencies should be automatically enforced.
+
+Paragraphs:
+Transmission Enforce N-1 Contingencies toggles on/off the N-1 contingency cases for all branches. It can take the following values:
+
+Note that auto added contingency cases would monitor all the lines by default and slow down simulation speed. It is necessary to set a property voltage threshold by N-1 Contingency Voltage Threshold to reduce the case numbers.
+
+See also the article N-1 Contingency Voltage Threshold .
+Lists:
+

@@ -1,0 +1,50 @@
+Header: Quick Start Guide for PLEXOS Connect Launch Control 3
+
+Table Details:
+
+Paragraphs:
+PLEXOS Connect requires at least one PLEXOS Engine to be uploaded before you can perform any simulations. You can download the latest PLEXOS Engine from the downloads page on our website: https://www.energyexemplar.com/clientarea/?view=downloads.
+
+Once you have a PLEXOS Engine zip file ready and you have PLEXOS Connect Launch Control open and logged in, go to the tab 'Engine' (#1) and click the green plus button (#2). You will now be prompted to select the PLEXOS Engine you have downloaded. After selecting the PLEXOS Engine zip file you wish to upload, you will be prompted to provide a name for the engine, by default, the name is made from the engine's version number.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect Engine module.
+
+Before you can perform any PLEXOS simulations in Connect, you will need to upload your PLEXOS model to Connect. The files you need to upload will include the PLEXOS XML file, any required data files and any OpenPLEXOS assemblies.
+
+With PLEXOS Connect Launch Control open and logged in, you will need to have the tab 'Dataset' open (#1) to upload your PLEXOS model. With this tab open, you'll see a green plus icon in the top right (#2) and clicking it will open the 'New Dataset' window. Once this window is open, you'll need to provide a name (#3) and select some files to upload (#4). Alternatively, instead of providing a new dataset name, you can use the drop-down field (#3) and select an existing dataset to upload to. This would create a new 'version' within the dataset. In the section highlighted by #4 in the above figure, you'll see the following buttons:
+
+Once you have added all the files for your model, pressing the button 'OK' at the bottom of the New Dataset window will save the new dataset to Connect. This process may take some time depending on the number of files and the total size of all files.
+
+Note: You will need the user permission 'Add\Edit' from the Connect Dataset module.
+
+To execute a dataset on Connect, you will need to define how the dataset should be executed. This will include specifying which file in your dataset is the PLEXOS XML and which model in the XML to use. In this section, we'll cover how to create a jobset and then executing the jobset. In Connect, a 'jobset' is a collection of 'jobs' and a job defines a way to execute a dataset. While each job can execute a different dataset, we recommend grouping jobs by how you want to execute them. For example, if you always execute 'Model A' and 'Model B' from 'Dataset A', then you could create 2 jobs (one for 'Model A' and one for 'Model B') in 'Jobset A'. Finally, executing 'Jobset A' will mean both 'Model A' and 'Model B' are ran in parallel in Connect. Additionally, by creating a jobset that defines how to execute your dataset, you can upload new versions of your dataset but keep using the same jobset to run the same simulations with new data.
+
+With PLEXOS Connect Launch Control logged in and a dataset already uploaded, go to the tab 'Jobset' (#1) and click the green plus button (#2) at the top of the tab. Once the 'New Job' window has opened, you'll need to provide the following:
+
+Finally, pressing the 'OK' button at the bottom of the window will add the jobset and a job to Connect. Selecting any jobset from the Jobset tab (#1) will show a green play button at the top of the tab, clicking this button will execute all jobs contained within the selected jobset. Note: You will need the user permission 'Add\Edit' from the Connect Jobset Module to add a job or jobset and the permission 'Execute Runs' from the Connect General Module to execute a job. 5. How Do I View the Completed PLEXOS Simulation Results? Once your PLEXOS simulation has finished, the PLEXOS solution will be stored in the Connect Server. To open any solution in PLEXOS, you'll first need to download the solution from Launch Control. Figure 4: Download option in Launch Control's run panel With PLEXOS Connect Launch Control open and logged in, the run panel is always shown as the right-top section of the application. This run panel is filtered by the date filter above the grid and by your selection in the dataset/jobset/etc tab in the left-top section of the application. If at first you don't see the run for you are looking for, check the date filter at the top and optionally, select the dataset or jobset in the left section to hide any irrelevant runs. To download a solution from a run, it must have already finished being executed by a Connect Client, see the 'completed' status icon highlighted by #1 in the above example. If the status icon isn't the completed icon, it may still be executing and you can hover your mouse over the status icon to see a tool tip describing the status. Next, right click the run you want the solution for, then hover over 'Download' (#2) and select 'Solution' (#3) from the sub menu. After clicking any of the download sub menu items, you will be asked for a download location. Once you have chosen a download location and the PLEXOS solution has downloaded, you are able to use PLEXOS Desktop to open the solution. Note: You will need the user permission 'Download' from the 'Runs module' to download any solution data.
+
+Note: You will need the user permission 'Add\Edit' from the Connect Jobset Module to add a job or jobset and the permission 'Execute Runs' from the Connect General Module to execute a job.
+
+Once your PLEXOS simulation has finished, the PLEXOS solution will be stored in the Connect Server. To open any solution in PLEXOS, you'll first need to download the solution from Launch Control.
+
+With PLEXOS Connect Launch Control open and logged in, the run panel is always shown as the right-top section of the application. This run panel is filtered by the date filter above the grid and by your selection in the dataset/jobset/etc tab in the left-top section of the application. If at first you don't see the run for you are looking for, check the date filter at the top and optionally, select the dataset or jobset in the left section to hide any irrelevant runs. To download a solution from a run, it must have already finished being executed by a Connect Client, see the 'completed' status icon highlighted by #1 in the above example. If the status icon isn't the completed icon, it may still be executing and you can hover your mouse over the status icon to see a tool tip describing the status. Next, right click the run you want the solution for, then hover over 'Download' (#2) and select 'Solution' (#3) from the sub menu. After clicking any of the download sub menu items, you will be asked for a download location. Once you have chosen a download location and the PLEXOS solution has downloaded, you are able to use PLEXOS Desktop to open the solution.
+
+Note: You will need the user permission 'Download' from the 'Runs module' to download any solution data.
+Lists:
+	- Add files from a folder: This allows you to select a folder on you computer and all files contained within this folder are added to the dataset.
+	- Add new folder: You can manually create folders within the dataset, once created you will be able to navigate inside to manually add files.
+	- Add files: This will allow you to manually select individual files on your computer and add them to the current folder in the dataset.
+	- Remove selected items: Selecting this option will remove any files you currently have selected. If a folder is selected, then all files and folders contained within are also removed.
+	- Jobset Name - This will be the name that shows in the jobset tab and in the jobset column of the run panel.
+	- Dataset - This is the dataset you wish to be executed by this job. Click the '...' button (#4) to select the dataset you wish to execute. Version (Optional) - You can specify which version of a dataset to use, we recommend the latest
+	- Version (Optional) - You can specify which version of a dataset to use, we recommend the latest
+	- Arguments - This is the list of PLEXOS XML files and models that will be executed as part of the job. Click the plus and minus buttons (#5) to add or remove arguments from the job. If a single job has multiple arguments specified, then these arguments will be executed one after another
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Upload a PLEXOS Engine?
+3. How Do I Upload a PLEXOS Model
+4. How Do I Configure a Dataset for Execution?
+5. How Do I View the Completed PLEXOS Simulation Results?

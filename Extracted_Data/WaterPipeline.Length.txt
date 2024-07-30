@@ -1,0 +1,15 @@
+Header: Water Pipeline Length
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Length of the Water Pipeline
+
+Paragraphs:
+Water Pipeline Length is Length of the Water Pipeline.
+Lists:
+

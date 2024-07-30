@@ -1,0 +1,15 @@
+Header: Global Hanging Branches Sample Reduction
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Hanging Branches historical year start are automatically selected by sample reduction.
+
+Paragraphs:
+More Global Hanging Branches Sample Reduction indicates if the Hanging Branches historical year start are automatically selected by sample reduction. More details could be found in Multi-stage Stochastic Optimization .
+Lists:
+

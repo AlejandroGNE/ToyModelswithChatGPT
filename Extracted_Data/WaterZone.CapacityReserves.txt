@@ -1,0 +1,15 @@
+Header: Water Zone Capacity Reserves
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity reserves (net of Peak Load)
+
+Paragraphs:
+Water Zone Capacity Reserves is Capacity reserves (net of Peak Load).
+Lists:
+

@@ -1,0 +1,33 @@
+Header: Zone Load Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion of region load that occurs in the zone
+
+Paragraphs:
+Zone Load Participation Factor is the
+          proportion of load that occurs in the zone. The application of this
+          property depends on where the load property is defined:
+
+If you define Region Load then the Nodes in the Zone will calculate Load as:
+
+Load = Region Load × Region Load Scalar × Load Participation
+          Factor × Node Load
+            Participation Factor
+
+Otherwise if you define Zone Load then the Nodes in the Zone will calculate Load as:
+
+Load = Zone Load × Zone Load Scalar × Load Participation
+          Factor × Node Load
+            Participation Factor
+
+See Also:
+Lists:
+	- Zone Load
+              Scalar
+

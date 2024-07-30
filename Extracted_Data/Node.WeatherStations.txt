@@ -1,0 +1,11 @@
+Header: Node Weather Stations
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	weather station the node is in
+
+Paragraphs:
+Node Weather Stations is the collection of Weather Stations which contains weather and wind speed data for the given node.
+Lists:
+

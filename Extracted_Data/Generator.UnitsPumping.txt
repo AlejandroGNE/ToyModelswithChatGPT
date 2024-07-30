@@ -1,0 +1,19 @@
+Header: Generator Units Pumping
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units operating in pump mode
+
+Paragraphs:
+Generator Units Pumping is the number of units operating in pump mode. The number of Units that can pump is set by Pump Units . Limits can be set on the number of Units Pumping in any period with the Max Units Pumping and Must Pump Units properties.
+
+See also:
+Lists:
+	- Generator Pump Load
+	- Generator Units Generating
+

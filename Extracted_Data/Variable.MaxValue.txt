@@ -1,0 +1,15 @@
+Header: Variable Max Value
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum allowed sample value
+
+Paragraphs:
+Variable Max Value is the maximum allowed sample value.
+Lists:
+

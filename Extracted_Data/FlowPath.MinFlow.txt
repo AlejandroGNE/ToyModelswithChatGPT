@@ -1,0 +1,31 @@
+Header: Flow Path Min Flow
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum flow on the Flow Path in any interval
+Pipe	Flow Charge	1	$
+Pipe	Max Flow	1000	-
+Pipe	Min Flow	-1000	-
+
+Paragraphs:
+Flow Path Min Flow is the negative of the maximum flow in any interval on the Flow Path in the
+          notional backward direction i.e. from the Flow
+            Node To to the Flow Node
+            From . You can also limit the flow by Hour , Day , Week , Month or Year .
+
+For the example in Table 1, the Flow Path is bi-directional with flow
+          on 1000 allowed in either direction.
+
+Note that positive values of Min Flow are allowed, and imply that a
+          minimum amount of flow must occur in the notional forward direction.
+
+See also:
+Lists:
+	- Flow Path Max
+              Flow
+

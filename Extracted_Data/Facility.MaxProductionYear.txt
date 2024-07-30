@@ -1,0 +1,30 @@
+Header: Facility Max Production Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production in year
+
+Paragraphs:
+Facility Max Production Year sets
+          an upper bound on the facility's Production in each year of the simulation. Years are defined by the starting
+          month of the Horizon . See Max
+            Production for more details.
+
+See also:
+Lists:
+	- Facility Max
+              Production Hour
+	- Facility Max
+              Production Day
+	- Facility Max
+              Production Week
+	- Facility Max
+              Production Month
+	- Facility Max
+              Capacity Factor Year
+

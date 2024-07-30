@@ -1,0 +1,30 @@
+Header: Fuel Contract Class
+
+Table Details:
+Description:	Fuel contract
+GAS LT	Price	3	$/GJ
+GAS LT	Quantity	1900	GJ
+GAS LT	Quantity Year	25000	TJ
+GAS LT	Take-or-Pay Quantity Day	50	TJ
+GAS LT	Take-or-Pay Price	0.25	$/GJ
+
+Paragraphs:
+See also Fuel Contract Property Reference for a detailed list of properties for this class of object.
+
+The Fuel Contract class provides a convenient way to define fuel availability, cost and take-or-pay commitments.
+
+Add the Fuel involved in the contract to the Fuel collection. Optionally define the ownership of the fuel contract using the Companies collection and  property.
+
+You can associate a Fuel with any number of Fuel Contract objects and the contracts are additive e.g. you may have a number of contracts at different price levels.
+
+The details of the contract are defined in two parts:
+
+You may set any of the time-period properties to define the specific set of maximum/minimum constraints on the fuel in the given time period. The maximums are hard limits but the take-or-pay levels are soft constraints with the penalty price defined by Take-or-Pay price.
+
+Example:
+
+Here the contract prices fuel at $3/GJ. There is a limit each period ( e.g. hour) of 1900 GJ perhaps representing a pipeline limit. The contract maximum in a year is 25000 TJ (note that all properties for daily, weekly, etc are in thousands of units). There is also a take-or-pay obligation at the daily level of 50 TJ but this can be breached at cost of $0.25/GJ.
+
+Internal to PLEXOS Fuel Contracts are converted to Constraint objects in the simulation. The Fuel Contracts report the total fuel usage as the Offtake property and the shadow prices on the maximum and take-or-pay constraints as the Shadow Price and Take-or-Pay Shadow Price properties respectively.
+Lists:
+

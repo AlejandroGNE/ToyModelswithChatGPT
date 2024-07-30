@@ -1,0 +1,20 @@
+Header: Emission Markets Sales Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced for each unit sold to the market
+
+Paragraphs:
+Emission Markets Sales Coefficient sets the Emissions produced for each unit sold to
+          the market.
+
+See also:
+Lists:
+	- Emission Markets Purchases
+              Coefficient
+

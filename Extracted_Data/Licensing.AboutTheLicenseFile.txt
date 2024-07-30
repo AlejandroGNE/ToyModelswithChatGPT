@@ -1,0 +1,40 @@
+Header: Licensing: AboutTheLicenseFile
+
+Table Details:
+C:\Program Files\Drayton Analytics\Common	drive:\Drayton Analytics\Common	C:\Program Files\Drayton Analytics\Common	C:\Program Files\Energy Exemplar\Common
+DA_lcl.lic	DA_USB.lic	DA.lic	EE.lic
+C:\Documents and Settings\<Current User>\Application Data\PLEXOS	<Drive>:\Energy Exemplar\Common	C:\Program Files\Energy Exemplar\Common
+EE_lcl.lic	EE_USB.lic	EE.lic
+
+Paragraphs:
+At the core of the product licensing is a product license file. Without this file, access to PLEXOS and associated products is not possible.
+
+The License file(s) are:
+
+Types of License files. There are 3 types of license file Server license - used by a license server to allocate licenses to other machines on the network. USB license - used on a usb dongle to give licenses to the machine that the dongle is currently connected to. Local license - used by the local machine to give licenses to the local machine only (cannot be used by a license server). License File Locations and Naming PLEXOS 4 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.004 R01 and earlier License Server 3.005 R01 and later File Location C:\Program Files\Drayton Analytics\Common drive:\Drayton Analytics\Common C:\Program Files\Drayton Analytics\Common C:\Program Files\Energy Exemplar\Common Name DA_lcl.lic DA_USB.lic DA.lic EE.lic PLEXOS 5 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.005 R01 and later File Location C:\Documents and Settings\<Current User>\Application Data\PLEXOS <Drive>:\Energy Exemplar\Common C:\Program Files\Energy Exemplar\Common Name EE_lcl.lic EE_USB.lic EE.lic If your license file should become corrupted, please return it to your software distributor, for re-initialization. NOTE: Do not return USB dongles if the file is corrupted, the file can be corrected remotely. More Licensing Main Menu
+
+There are 3 types of license file Server license - used by a license server to allocate licenses to other machines on the network. USB license - used on a usb dongle to give licenses to the machine that the dongle is currently connected to. Local license - used by the local machine to give licenses to the local machine only (cannot be used by a license server). License File Locations and Naming PLEXOS 4 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.004 R01 and earlier License Server 3.005 R01 and later File Location C:\Program Files\Drayton Analytics\Common drive:\Drayton Analytics\Common C:\Program Files\Drayton Analytics\Common C:\Program Files\Energy Exemplar\Common Name DA_lcl.lic DA_USB.lic DA.lic EE.lic PLEXOS 5 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.005 R01 and later File Location C:\Documents and Settings\<Current User>\Application Data\PLEXOS <Drive>:\Energy Exemplar\Common C:\Program Files\Energy Exemplar\Common Name EE_lcl.lic EE_USB.lic EE.lic If your license file should become corrupted, please return it to your software distributor, for re-initialization. NOTE: Do not return USB dongles if the file is corrupted, the file can be corrected remotely. More Licensing Main Menu
+
+There are 3 types of license file
+
+License File Locations and Naming PLEXOS 4 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.004 R01 and earlier License Server 3.005 R01 and later File Location C:\Program Files\Drayton Analytics\Common drive:\Drayton Analytics\Common C:\Program Files\Drayton Analytics\Common C:\Program Files\Energy Exemplar\Common Name DA_lcl.lic DA_USB.lic DA.lic EE.lic PLEXOS 5 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.005 R01 and later File Location C:\Documents and Settings\<Current User>\Application Data\PLEXOS <Drive>:\Energy Exemplar\Common C:\Program Files\Energy Exemplar\Common Name EE_lcl.lic EE_USB.lic EE.lic If your license file should become corrupted, please return it to your software distributor, for re-initialization. NOTE: Do not return USB dongles if the file is corrupted, the file can be corrected remotely. More Licensing Main Menu
+
+PLEXOS 4 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.004 R01 and earlier License Server 3.005 R01 and later File Location C:\Program Files\Drayton Analytics\Common drive:\Drayton Analytics\Common C:\Program Files\Drayton Analytics\Common C:\Program Files\Energy Exemplar\Common Name DA_lcl.lic DA_USB.lic DA.lic EE.lic PLEXOS 5 license details are as follows: - PLEXOS Local License PLEXOS USB License License Server 3.005 R01 and later File Location C:\Documents and Settings\<Current User>\Application Data\PLEXOS <Drive>:\Energy Exemplar\Common C:\Program Files\Energy Exemplar\Common Name EE_lcl.lic EE_USB.lic EE.lic If your license file should become corrupted, please return it to your software distributor, for re-initialization. NOTE: Do not return USB dongles if the file is corrupted, the file can be corrected remotely. More Licensing Main Menu
+
+PLEXOS 4 license details are as follows:
+
+PLEXOS 5 license details are as follows:
+
+If your license file should become corrupted, please return it to your software distributor, for re-initialization.
+
+More Licensing Main Menu
+
+Licensing Main Menu
+Lists:
+	- Licensing Main Menu
+
+
+H2s:
+Types of License files.
+License File Locations and Naming
+More

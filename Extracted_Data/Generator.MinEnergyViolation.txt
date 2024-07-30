@@ -1,0 +1,19 @@
+Header: Generator Min Energy Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Min Energy] or [Min Capacity Factor] constraints.
+
+Paragraphs:
+Generator Min Energy Violation is the violation of Min Energy or Min Capacity Factor constraints.
+
+See also:
+Lists:
+	- Generator Min Energy Penalty
+	- Generator Min Energy Violation Cost
+

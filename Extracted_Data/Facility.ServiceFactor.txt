@@ -1,0 +1,29 @@
+Header: Facility Service Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of capacity available for production
+
+Paragraphs:
+Facility Service Factor is the
+          proportion of Installed
+            Capacity that is available i.e. not on outage, and
+          defined as:
+
+Service Factor = 100 x ( Installed
+            Capacity - Maintenance - Forced Outages ) / Installed
+            Capacity
+
+Note the definition allows for partial outages therefore even with a
+          single unit facility the Service Factor can be fractional.
+
+See also:
+Lists:
+	- Facility Capacity
+              Factor
+

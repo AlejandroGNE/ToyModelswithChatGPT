@@ -1,0 +1,15 @@
+Header: Gas Storage Total Operation
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of net withdrawal and net injection
+
+Paragraphs:
+Gas Storage Total Operation is Total of net withdrawal and net injection.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Physical Contract Min Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum load cleared on physical contract
+
+Paragraphs:
+Physical Contract Min Load sets a lower bound on the load dispatched from the physical contract. This overrides the economic load dispatch implied by Bid Quantity / Bid Price .  This value should not exceed the defined Max Load .
+Lists:
+

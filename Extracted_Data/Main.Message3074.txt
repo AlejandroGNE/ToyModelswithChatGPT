@@ -1,0 +1,11 @@
+Header: Message 3074
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Horizon Typical Week does not support running '<value>' steps.
+
+Paragraphs:
+Message 3074 occurs in the following circumstances:
+Lists:
+

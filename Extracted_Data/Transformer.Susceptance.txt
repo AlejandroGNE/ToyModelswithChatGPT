@@ -1,0 +1,15 @@
+Header: Transformer Susceptance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The reciprocal of the reactance of a circuit and thus the imaginary part of its admittance
+
+Paragraphs:
+Transformer Susceptance can be input directly as an alternative to Reactance .
+Lists:
+

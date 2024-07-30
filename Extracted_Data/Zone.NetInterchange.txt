@@ -1,0 +1,19 @@
+Header: Zone Net Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports - Imports
+
+Paragraphs:
+Zone Net Interchange is the net export from the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Load
+	- Zone Generation
+

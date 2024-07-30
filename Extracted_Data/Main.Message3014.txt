@@ -1,0 +1,11 @@
+Header: Message 3014
+
+Table Details:
+Severity:	Minor (value = 4)
+Default Action:	Warn (value = 1)
+Description:	Skipped checking of data against validation rules.
+
+Paragraphs:
+
+Lists:
+

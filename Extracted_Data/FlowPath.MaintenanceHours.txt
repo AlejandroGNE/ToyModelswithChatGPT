@@ -1,0 +1,20 @@
+Header: Flow Path Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on maintenance
+
+Paragraphs:
+Flow Path Maintenance Hours is the
+          number of hours the path has any capacity on Maintenance in the reporting period.
+
+See also:
+Lists:
+	- Flow Path Forced
+              Outage Hours
+

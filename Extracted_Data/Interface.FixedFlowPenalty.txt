@@ -1,0 +1,15 @@
+Header: Interface Fixed Flow Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Fixed Flow].
+
+Paragraphs:
+Interface Fixed Flow Penalty is the penalty for violation of Fixed Flow .
+Lists:
+

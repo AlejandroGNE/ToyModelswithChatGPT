@@ -1,0 +1,15 @@
+Header: Reserve Zones Risk
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of Zone load to the Risk
+
+Paragraphs:
+Reserve Zones Risk is the contribution of Zone load to the Risk.
+Lists:
+

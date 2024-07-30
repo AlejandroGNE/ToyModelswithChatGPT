@@ -1,0 +1,23 @@
+Header: Vehicle Energy
+
+Table Details:
+Units:	kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy stored
+
+Paragraphs:
+Vehicle Energy is the energy stored
+          in the battery at the end of the reporting period. It is calculated as
+          follows:
+
+Energy t = Energy t -1 + Charging t - Discharging t - Demand t x Efficiency / 1000
+
+See also:
+Lists:
+	- Vehicle SoC
+	- Vehicle Range
+

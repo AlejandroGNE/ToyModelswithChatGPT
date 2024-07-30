@@ -1,0 +1,26 @@
+Header: Generator Max Starts Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of starts allowed in a year
+
+Paragraphs:
+Generator Max Starts Year is the maximum number of starts allowed in any year. By default this is a hard constraint, but can be made soft by defining the Max Starts Penalty .
+
+NOTE: If this constraint is intended to be imposed in LT Plan or MT Schedule you must use the chronological version of those phases (see LT Plan Chronology and MT Schedule Chronology ). This rule also applies if you are using one of these phases to decompose the constraint down to ST Schedule .
+
+See also:
+Lists:
+	- Generator Max Starts
+	- Generator Max Starts Hour
+	- Generator Max Starts Day
+	- Generator Max Starts Week
+	- Generator Max Starts Month
+	- Generator Max Starts Violation
+	- Generator Max Starts Violation Cost
+

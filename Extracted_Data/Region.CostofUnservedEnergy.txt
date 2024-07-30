@@ -1,0 +1,22 @@
+Header: Region Cost of Unserved Energy
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unserved energy.
+
+Paragraphs:
+Region Cost of Unserved Energy is the cost of unserved energy and is defined as:
+
+Note that unserved energy in the simulation objective function is priced at Transmission Internal VoLL .
+
+See also:
+Lists:
+	- Region Hours of Unserved Energy
+	- Region Cost of Dump Energy
+	- Region Cost of Curtailment
+

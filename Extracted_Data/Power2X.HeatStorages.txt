@@ -1,0 +1,11 @@
+Header: Power2X Heat Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	The set of Heat Storages connected to Power2X
+
+Paragraphs:
+Power2X Heat Storages is the set of Heat Storages connected to Power2X
+Lists:
+

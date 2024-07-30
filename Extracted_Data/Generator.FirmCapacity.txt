@@ -1,0 +1,56 @@
+Header: Generator Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contribution of the generator to capacity reserves
+Units	100	-					
+Max Capacity	1	MW					
+Rating	0	MW					wind.csv
+Firm Capacity	0.08	MW					
+
+Paragraphs:
+By default the capacity provided by each generating unit to
+              regional or zonal capacity reserves requirements is determined by
+              the Generator Firm
+                Capacity Basis setting, which defaults to the Max
+                Capacity , but this can be overridden by defining Firm
+              Capacity directly.
+
+Firm Capacity is used in the calculation of Region (and/or Zone ) Capacity
+                Reserves in both PASA and LT Plan . For LT
+                Plan it is the contribution each unit
+              installed/built/retired makes towards any Capacity
+                Requirement in that Region or Zone .
+
+Example
+
+This is an example input for a wind generator. The total installed capacity in this case is 100 × 1MW = 100MW, but the Firm Capacity is only 8% of this, or 8MW.
+
+Generator Firm Capacity as
+              output is based on the input Firm Capacity if that is defined:
+
+Firm Capacity = Firm Capacity × Units
+
+otherwise:
+
+Firm Capacity = Installed
+                Capacity or Rated
+                Capacity depending on Firm
+                Capacity Basis
+
+Firm Capacity can also be modeled with multi-bands. 
+              Each consecutive band shows the additional Firm Capacity provided by building additional units in Firm Capacity Unit Count .
+
+Example
+
+In the above example, the first 2 units built have 25 Firm Capacity each (corresponding to Band 1). 
+                The next 3 units built have 20 Firm Capacity each (corresponding to Band 2). Bands 3 and 4 follow likewise.
+
+Note: Any units built beyond what is specified in the Unit Count of the final Band each have the Firm Capacity of the final Band.
+Lists:
+

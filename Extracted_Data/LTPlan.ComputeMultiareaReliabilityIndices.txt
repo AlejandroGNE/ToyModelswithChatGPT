@@ -1,0 +1,19 @@
+Header: LT Plan Compute Multi-area Reliability Indices
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Master switch for computation of reliability indices LOLP, LOLE, etc across multiple areas.
+
+Paragraphs:
+LT Plan Compute Reliability Indices toggles on/off the algorithm that computes the following reliability indices:
+
+These indices are computed using the state space decomposition and Monte Carlo approaches described in the Multi-area LOLP topic.
+
+See also:
+Lists:
+	- Region Multi-area LOLP
+	- Region Multi-area LOLE
+	- PASA Compute Multi-area Reliability Indices
+

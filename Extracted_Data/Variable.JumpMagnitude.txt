@@ -1,0 +1,15 @@
+Header: Variable Jump Magnitude
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Jump magnitude in jump-diffusion model
+
+Paragraphs:
+Variable Jump Magnitude is the relative jump size (ratio of values with and without jumps) in the jump-diffusion model.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 174
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> Generators <name> has Constraint Generators [Reserve Provision Coefficient], but has no reserve memberships defined. This coefficient will be ignored.
+
+Paragraphs:
+Message 174 occurs in the following circumstances:
+Lists:
+

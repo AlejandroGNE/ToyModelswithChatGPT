@@ -1,0 +1,17 @@
+Header: Gas Transport Maintenance Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the Gas Transport is unavailable due to maintenance
+
+Paragraphs:
+Gas Transport Maintenance Rate is the fraction of time
+              annually that the Gas Transport is expected to be out-of-service (OOS)
+              due to scheduled maintenance events.
+Lists:
+

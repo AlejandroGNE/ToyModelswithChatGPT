@@ -1,0 +1,18 @@
+Header: Generator Ramp Down Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of the maximum ramping down constraint.
+
+Paragraphs:
+Generator Ramp Down Price is the
+          shadow price of the maximum ramping down constraint defined by Max
+            Ramp Down . It represents the price that the system would be
+          prepared to pay to gain one more megawatt of ramping down response.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: List Heat Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Heat Plant objects in the List
+
+Paragraphs:
+List Heat Plants is set of Heat Plant objects in the List
+Lists:
+

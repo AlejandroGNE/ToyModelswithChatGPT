@@ -1,0 +1,21 @@
+Header: Model Random Number Seed
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Between 0 And 2147483647
+Description:	Random number seed for this model
+
+Paragraphs:
+Model Random Number Seed is the seed used to create random numbers for the simulation such as Generator Forced Outage and sampling of Variables . The default value of zero means this seed is regenerated every time the Model is run.
+
+To repeat results of a previous run set the seed to a number other zero.
+
+Note that the log file of the simulation reports the seed (generated or input) so that you can input that seed again to repeat the results.
+
+Individual elements can also have their seeds set so that outages and/or sample values are repeatable even if the number of elements in the database changes:
+Lists:
+	- Generator Random Number Seed
+	- Line Random Number Seed
+	- Variable Random Number Seed
+

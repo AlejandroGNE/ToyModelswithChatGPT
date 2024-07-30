@@ -1,0 +1,17 @@
+Header: Generator Strategic Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generating unit rating for application in RSI capacity calculations
+
+Paragraphs:
+Generator Strategic Rating is the generating unit rating that should be used in place of Max Capacity (or Rating ) when calculating the available capacity of the generator during the RSI bid-cost markup algorithm. Thus the "strategic capacity" of the generator will be:
+
+See also RSI Total Supply Capacity
+Lists:
+

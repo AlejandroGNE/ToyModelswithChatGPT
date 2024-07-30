@@ -1,0 +1,23 @@
+Header: Timeslice Include
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the timeslice includes the period
+HLH	Include	-1	Yes/No	1			W2-7,H7-22
+LLH	Include	-1	Yes/No	1			W1;W2-7,H1-6,23-24
+SUMMER	Include	-1	Yes/No	1			M6-9
+WINTER	Include	-1	Yes/No	1			M1-5,10-12
+
+Paragraphs:
+Timeslice Include sets which time periods are included in the Timeslice definition. Use the Date From , Date To , or Pattern fields for "simple" definitions or read the values from a text file, using the Data File field for more complex definitions.
+
+Example
+
+Note that the default value of Include of zero means "do not include" the period, thus you must use a non-zero value e.g. -1 to define which periods are included in the Timeslice .
+Lists:
+

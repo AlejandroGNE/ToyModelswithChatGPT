@@ -1,0 +1,12 @@
+Header: Competition Equilibrium Model
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Equilibrium Model. Optimizes generation / pricing position of portfolios over the short or medium term.
+
+Paragraphs:
+Competition Equilibrium Model determines the competitive behavior in the MT Schedule step of the simulation, with trading strategies then decomposed into the ST Schedule phase. Thus it sets the medium-term 'game' played by strategic entities ( companies ). There are three options available:
+Lists:
+

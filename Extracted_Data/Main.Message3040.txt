@@ -1,0 +1,11 @@
+Header: Message 3040
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Value <name> for object <name> at line <value> in file <name> must be >= <value>
+
+Paragraphs:
+Message 3040 occurs in the following circumstances:
+Lists:
+

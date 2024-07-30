@@ -1,0 +1,18 @@
+Header: Pool ORDC System Lambda
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Max value of Energy Charge over all Nodes
+
+Paragraphs:
+Pool ORDC System Lambda is the max value of Energy Charge over all Nodes.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

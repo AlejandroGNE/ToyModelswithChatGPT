@@ -1,0 +1,15 @@
+Header: Battery Regulation Lower Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation lower reserve
+
+Paragraphs:
+See Generator Regulation Lower Reserve .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Emissions Max Production Day
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum total emission production by emission producers in the region per day
+
+Paragraphs:
+Region Emissions Max Production Day is Maximum total emission production by emission producers in the region per day.
+Lists:
+

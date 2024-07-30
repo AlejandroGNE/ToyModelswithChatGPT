@@ -1,0 +1,15 @@
+Header: Purchaser Min Load Factor Year
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum load factor in year
+
+Paragraphs:
+Purchaser Min Load Factor Year is the Minimum load factor in a year.  This is the daily variant of Purchaser Min Load Factor .
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Water Plant Input Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Water Node the Water Plant imports water from (or 'the sea' if none is defined)
+
+Paragraphs:
+Water Plant Input Node is Water Node the Water Plant imports water from (or 'the sea' if none is defined)
+Lists:
+

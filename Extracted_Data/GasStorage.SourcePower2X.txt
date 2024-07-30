@@ -1,0 +1,11 @@
+Header: Gas Storage Source Power2X
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Storage has Source Power2X which deliver gas to the Gas Storage.
+Lists:
+

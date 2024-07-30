@@ -1,0 +1,11 @@
+Header: Reserve Generator Contingencies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators that are contingencies
+
+Paragraphs:
+Reserve Generator Contingencies is the set of generators that are contingencies. The largest unit Generation combined with Provision in this set is considered when setting the reserve requirement (or Risk ). Note that you can scale the proportion of risk considered using the Risk Adjustment Factor .
+Lists:
+

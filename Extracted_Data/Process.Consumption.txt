@@ -1,0 +1,20 @@
+Header: Process Consumption
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumption of the Primary Input Commodity by the Process
+
+Paragraphs:
+Process Consumption is the
+          Consumption of the Primary Input Commodity by the Process and is defined as:
+
+Consumption = Conversion
+            Factor * (1/ Efficiency )
+          * Production
+Lists:
+

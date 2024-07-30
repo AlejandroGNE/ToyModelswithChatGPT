@@ -1,0 +1,16 @@
+Header: Flow Control Lines*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the flow control at each line in this collection
+
+Paragraphs:
+Flow Control Lines* is creates copies of the flow control at each line in this collection. Adding Line objects to this collection causes the simulator to create copies of the Flow Control at each Line .  This occurs at runtime and thus allows you to maintain data on a single Flow Control object but model several objects in the simulation.
+
+All system properties and attributes of the FlowControl are copied e.g. Units , Min Angle , Max Angle , etc .
+
+This template feature is also available for the Purchaser and Generator classes.
+                See Purchaser.Nodes* and Generator.Nodes* for further details and examples.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Companies Rated Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rated capacity (Rating x Units)
+
+Paragraphs:
+Generator Generator Companies Rated Capacity is defined as:
+Lists:
+

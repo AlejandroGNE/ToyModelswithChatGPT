@@ -1,0 +1,18 @@
+Header: Gas Pipeline Min Volume
+
+Table Details:
+Units:	Input: 1000·~ (Metric), ~ (U.S. Imperial)    Output: TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum volume of gas stored in the pipeline
+
+Paragraphs:
+Gas Pipeline Min Volume sets a lower limit on the Volume of gas stored in the pipeline.
+
+See also:
+Lists:
+	- Gas Pipeline Max Volume
+

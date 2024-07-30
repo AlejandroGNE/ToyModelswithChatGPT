@@ -1,0 +1,21 @@
+Header: Generator Maintenances Outage Rating Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of [Rating] during outage
+
+Paragraphs:
+Generator Maintenances Outage Rating Factor is the percentage of Rating during the maintenance outage where 0% means the unit is entirely out and a value above zero means a partial outage.
+
+If Outage Rating is also defined, Outage Rating will be used instead of Maintenance Outage Rating Factor.
+
+See also:
+Lists:
+	- Generator Maintenances Outage Rating
+	- Generator Outage Rating
+

@@ -1,0 +1,19 @@
+Header: MT Schedule Start Cost Amortization Period
+
+Table Details:
+Units:	h
+Default Value:	0
+Validation Rule:	≥0
+Description:	Number of hours over which generator start costs are amortized
+
+Paragraphs:
+MT Schedule Start Cost Amortization Period provides a method for modelling the effect of Generator Start Cost in MT schedule when using the load duration curve method, which does not model unit commitment (start up and shutdown) explicitly.
+
+The amortization period acts as a default when Min Up Time is not defined. The Start Cost is used to create a mark-up to the incremental cost of generation using the following formula:
+
+Start Cost Mark-up = Start Cost / Start Cost Amortization Period x Rating 
+This has the effect of penalising units with high start cost.
+
+The reported Start & Shutdown Cost includes this mark-up
+Lists:
+

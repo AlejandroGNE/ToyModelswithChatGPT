@@ -1,0 +1,15 @@
+Header: Gas Transport Max Shipments Hour
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum hourly number of voyages
+
+Paragraphs:
+Gas Transport Max Shipments Hour is the hourly version of Gas Transport Max Shipments .
+Lists:
+

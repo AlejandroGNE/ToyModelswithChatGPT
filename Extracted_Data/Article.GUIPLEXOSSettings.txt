@@ -1,0 +1,55 @@
+Header: PLEXOS Settings
+
+Table Details:
+
+Paragraphs:
+PLEXOS settings are accessed from the File Menu. The settings form is shown in Figure 1.
+
+The view options are used to set front size in the tree and grid views as well as the controlling which property fields are displayed by default. Further you can control how object categories are displayed.
+
+Sets the default delimiter for text input files: see Data File .
+
+Controls how missing values are handled when reading data from external text files: see Data File .
+
+Selects the style of execution window:
+
+A graphical execution window that monitors and reports on the progress of your model runs. This tool allows you to chart some simulation outputs as they are produced. In addition the Execution Manager uses separate processes for each Model or Project run in a batch, which can improve memory performance.
+
+A graphical execution window that mimics the console EXE but in a Windows form.
+
+A simple console window execution. This option uses the smallest amount of resource.
+
+TIP: The console version has the advantage that it can be easily paused (PAUSE key) and interrupted (CTRL-BREAK)
+
+These options control the scope of data validation that occurs at the start of execution:
+
+Parses the database for links to external files and checks that those files exist before continuing the simulation
+
+Checks that any required memberships are defined and that any relevant collections are not over-populated and issues appropriate error messages.
+
+Runs a series of logic and other checks over the defined properties and issues appropriate error messages.
+
+Sets the number of concurrent processes run when using parallel execution.
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+2. View
+3. Execution
+
+H3s:
+3.1. Flat File Delimiter (default = Comma)
+3.2. Flat File Missing Value (default = Fill Using Last Known Value)
+3.3. Executable Window Style (default = Console EXE)
+3.4. Data Validation (default = ON)
+3.5. Parallel Execution (default = 2)
+
+H5s:
+Execution Manager
+Windows EXE
+Console EXE
+Check for Missing Files
+Check Memberships
+Check Properties

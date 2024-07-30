@@ -1,0 +1,11 @@
+Header: Objective Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Objective inherits from
+
+Paragraphs:
+Objective Template is template the Objective inherits from
+Lists:
+

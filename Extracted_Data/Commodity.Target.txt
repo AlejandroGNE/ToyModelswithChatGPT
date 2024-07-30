@@ -1,0 +1,25 @@
+Header: Commodity Target
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Target level of inventory at the end of the interval
+
+Paragraphs:
+Commodity Target sets a target
+          level of inventory at the end of each interval. By default this is a
+          'hard' constraint. You can create a soft target by setting Target
+            Penalty .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+	- Commodity Constraints Closing
+              Inventory Coefficient
+

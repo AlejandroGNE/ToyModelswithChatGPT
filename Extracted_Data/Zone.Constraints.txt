@@ -1,0 +1,11 @@
+Header: Zone Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Zone
+
+Paragraphs:
+Zone Constraints is set of constraints involved in the zone
+Lists:
+

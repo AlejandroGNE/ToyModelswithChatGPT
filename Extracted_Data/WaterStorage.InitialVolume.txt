@@ -1,0 +1,22 @@
+Header: Water Storage Initial Volume
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial volume of Water in the storage
+
+Paragraphs:
+Water Storage Initial Volume is the initial volume of Water in the storage at the start of the period.
+
+As an input, this value applies at the start of the simulation Horizon .
+
+See also:
+Lists:
+	- Water Storage End Volume
+	- Water Storage Min Volume
+	- Water Storage Max Volume
+

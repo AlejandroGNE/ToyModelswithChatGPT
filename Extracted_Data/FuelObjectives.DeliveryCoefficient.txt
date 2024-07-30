@@ -1,0 +1,15 @@
+Header: Fuel Objectives Delivery Coefficient
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of delivery to fuel stockpile
+
+Paragraphs:
+Fuel Objectives Delivery Coefficient is Coefficient of delivery to fuel stockpile.
+Lists:
+

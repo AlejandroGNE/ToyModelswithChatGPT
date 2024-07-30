@@ -1,0 +1,18 @@
+Header: Generator Start Fuels Transport Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of transporting fuel to the generator
+
+Paragraphs:
+Generator Start Fuels Transport Cost is cost incurred in transporting the start fuel to the generator, and is defined as:
+
+See also:
+Lists:
+	- Generator Start Fuel Cost
+

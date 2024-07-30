@@ -1,0 +1,15 @@
+Header: Battery Conditions Generation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generation
+
+Paragraphs:
+Battery Conditions Generation Coefficient is the coefficient of generation.
+Lists:
+

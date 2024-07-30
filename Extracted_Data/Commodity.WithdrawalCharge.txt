@@ -1,0 +1,24 @@
+Header: Commodity Withdrawal Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of taking the Commodity out of inventory
+
+Paragraphs:
+Commodity Withdrawal Charge is a
+          per-unit charge applied to any Withdrawal From the inventory.
+
+See also:
+Lists:
+	- Commodity Injection
+              Charge
+	- Commodity Delivery
+              Charge
+	- Commodity Inventory
+              Charge
+

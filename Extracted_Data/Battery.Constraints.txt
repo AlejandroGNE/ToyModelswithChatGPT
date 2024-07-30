@@ -1,0 +1,11 @@
+Header: Battery Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Battery
+
+Paragraphs:
+Battery Constraints is the set of battery objects involved in the Battery.
+Lists:
+

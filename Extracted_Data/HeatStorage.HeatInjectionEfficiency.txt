@@ -1,0 +1,15 @@
+Header: Heat Storage Heat Injection Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of heat injection
+
+Paragraphs:
+Heat Storage Heat Injection Efficiency is the efficiency of injecting heat into storage.
+Lists:
+

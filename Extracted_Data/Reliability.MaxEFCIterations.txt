@@ -1,0 +1,15 @@
+Header: Reliability Max EFC Iterations
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	20
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of ST Schedule iterations for EFC evaluation.
+
+Paragraphs:
+Reliabilities Max EFC Iterations is the maximum number of ST Schedule iterations for Equivalent Firm Capacity (EFC) evaluation. EFC evaluation is terminated if convergence has not been reached by the specified number of iterations.
+Lists:
+

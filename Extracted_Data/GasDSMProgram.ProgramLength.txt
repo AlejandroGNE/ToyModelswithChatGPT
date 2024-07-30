@@ -1,0 +1,15 @@
+Header: Gas DSM Program Program Length
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical Life of Gas dsm program
+
+Paragraphs:
+Gas DSM Programs Program Length is Technical Life of Gas dsm program.
+Lists:
+

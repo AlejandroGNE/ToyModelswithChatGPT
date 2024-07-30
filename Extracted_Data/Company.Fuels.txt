@@ -1,0 +1,11 @@
+Header: Company Fuels
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Company Fuels is the set of Fuels used by the Generators in the Company. This collection is reserved for reporting only.
+Lists:
+

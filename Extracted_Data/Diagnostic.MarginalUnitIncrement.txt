@@ -1,0 +1,15 @@
+Header: Diagnostic Marginal Unit Increment
+
+Table Details:
+Units:	MW
+Default Value:	-1
+Validation Rule:	Any Value
+Description:	Increment used for load in the marginal unit diagnostic.
+
+Paragraphs:
+Diagnostic Marginal Unit Increment is a parameter of the Marginal Unit diagnostic. It sets the amount by which the regional load or system load is incremented when determining the marginal Generator .
+
+Note:
+Lists:
+	- For system level marginal units calculation, this increment is applied to each of the AC network detected in the model and the amount is allocated to slack buses in the network.
+

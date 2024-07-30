@@ -1,0 +1,23 @@
+Header: Generator Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of shutting down a unit
+
+Paragraphs:
+Generator Shutdown Cost is the
+          cost of shutting down a unit. The cost of shut downs is reported in
+          the property Start &
+            Shutdown Cost .
+
+See also:
+Lists:
+	- Generator Start
+              Cost
+	- Generator Shutdown Penalty
+

@@ -1,0 +1,16 @@
+Header: Gas Plant Start Cost
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of starting a unit
+
+Paragraphs:
+Gas Plant Start Cost is Cost of starting a unit. The cost of starts is reported in the property Start
+            & Shutdown Cost .
+Lists:
+

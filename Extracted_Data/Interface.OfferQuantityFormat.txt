@@ -1,0 +1,23 @@
+Header: Interface Offer Quantity Format
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Format for [Offer Quantity] and [Offer Price]
+Detail:	
+
+Paragraphs:
+Interface Offer Quantity Format sets the format for Offer Quantity and Offer Price .
+
+The total quantity is the sum of offer/bid quantity across the bands. You must define the same number of bands for quantity and price.
+
+The total is the offer quantity/bid in the top band. You must define one more quantity band than price band.
+
+See also:
+Lists:
+	- Generator Offer Quantity Format
+

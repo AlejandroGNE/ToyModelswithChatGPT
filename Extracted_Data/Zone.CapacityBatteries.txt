@@ -1,0 +1,11 @@
+Header: Zone Capacity Batteries
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Capacity Batteries is the membership of the zone who holds the Capacity Batteries.
+Lists:
+

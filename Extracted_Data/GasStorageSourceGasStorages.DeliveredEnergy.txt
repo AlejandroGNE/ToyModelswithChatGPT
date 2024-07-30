@@ -1,0 +1,15 @@
+Header: Gas Storage Source Gas Storages Delivered Energy
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat energy delivered by source gas storage to the gas storage
+
+Paragraphs:
+Gas Storage Source Gas Storages Delivered Energy is the heat energy delivered by source gas storage to the gas storage.
+Lists:
+

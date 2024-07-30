@@ -1,0 +1,11 @@
+Header: Gas Storage Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Electric Node the Gas Storage connects to
+
+Paragraphs:
+Gas Storage Node is the Electric Node the Gas Storage connects to.
+Lists:
+

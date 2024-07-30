@@ -1,0 +1,42 @@
+Header: Power2X Constraints Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total reserve provision (from all types)
+
+Paragraphs:
+Power2X Constraints Reserve Provision Coefficient is the left-hand side coefficient on the
+          total Reserves Provision in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where:
+
+By default, this sum includes all Power2X Reserves objects and of any Type i.e. including spinning, non-spinning, pump interruptible
+          load and synchronous condenser reserves.
+
+You can limit the set of Reserves included in this sum by adding Power2X Reserves memberships with no
+          associated property definitions. This is a special case of using
+          'null' memberships to filter the terms included in another constraint
+          property.
+
+You can also limit which limits of reserve are included by instead
+          using one of the following properties:
+Lists:
+	- Power2X Constraints Raise
+              Reserve Provision Coefficient
+	- Power2X Constraints Lower
+              Reserve Provision Coefficient
+	- Power2X Constraints Regulation
+              Raise Reserve Provision Coefficient
+	- Power2X Constraints Regulation
+              Lower Reserve Provision Coefficient
+	- Power2X Constraints Replacement
+              Reserve Provision Coefficient
+

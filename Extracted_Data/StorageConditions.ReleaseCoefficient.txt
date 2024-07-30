@@ -1,0 +1,27 @@
+Header: Storage Conditions Release Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of release in the condition equation
+
+Paragraphs:
+This is the coefficient of Storage Release in the Variable condition equation.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the left-hand side of the condition equation:
+
+… + a (i,j) × Storage Release … {<,≤,
+            ≥,>, =} Profile
+
+Note that the left-hand side of the equation is available in the
+          property Variable Activity .
+
+See also:
+Lists:
+	- Storage Conditions Spill Coefficient
+

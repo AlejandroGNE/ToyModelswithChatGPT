@@ -1,0 +1,15 @@
+Header: Generator Rolling Planning Bonus
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Bonus for remaining online at the end of the look-ahead
+
+Paragraphs:
+Generator Rolling Planning Bonus is an incentive added to the last period of the look-ahead to encourage a generator to remain on.  It is only applicable to ST when look-ahead is specified.
+Lists:
+

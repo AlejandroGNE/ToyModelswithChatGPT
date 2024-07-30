@@ -1,0 +1,42 @@
+Header: Generator Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs including amortized build costs
+
+Paragraphs:
+Generator Fixed Costs is the
+          total fixed costs. It's definition depends on the simulation phase:
+
+Fixed Costs = FO&M Cost + Annualized Build
+                Cost + time × ∑ ( b ) ( Fixed
+                Charge b × 1000 × Installed
+                Capacity ) x (1 - Tax Rate )
+
+Fixed Costs = FO&M Cost + Debt Cost + Equity
+                Cost + time × ∑ ( b ) ( Fixed
+                Charge b × 1000 × Installed
+                Capacity )
+
+Note that when LT Plan is run
+              prior to MT Schedule or ST
+                Schedule the Annualized
+                Build Cost is converted automatically to Debt
+                Charge and Equity
+                Charge with an arbitrary 50/50 ratio. This pass-through
+              ensures that Fixed Costs in those phases accounts for Build
+                Cost and thus can be accounted for in reporting as well as
+              in Equilibrium Model = "LRMC/Revenue Recovery" (and hence market prices can reflect
+              build costs).
+
+See also:
+Lists:
+	- Generator Net
+              Profit
+	- Region LRMC
+

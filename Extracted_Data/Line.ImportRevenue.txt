@@ -1,0 +1,26 @@
+Header: Line Import Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from energy imported
+
+Paragraphs:
+Line Import Revenue is the revenue from energy imported. It is a component of Rental when the Transmission Rental Method = "Point to Point" and is calculated as:
+
+Please note that the loss component in above equation is only considered when transmission loss modelling is enabled.
+
+The revenues are considering the price paid at the "reception" node for the energy received (energy transported minus losses in the reception point) When the line is importing , the energy flows from Node To to Node From. Therefore, Import Revenue = Flow × Price @ Node From When the line is exporting , the energy flows from the Node From to the Node To. Therefore, Export Revenue = Flow × Price @ Node To
+
+See also:
+Lists:
+	- When the line is importing , the energy flows from Node To to Node From. Therefore, Import Revenue = Flow × Price @ Node From
+	- When the line is exporting , the energy flows from the Node From to the Node To. Therefore, Export Revenue = Flow × Price @ Node To
+	- Line Import Cost
+	- Line Export Revenue
+	- Line Rental
+

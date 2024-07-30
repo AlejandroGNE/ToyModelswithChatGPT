@@ -1,0 +1,11 @@
+Header: Gas Zone Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas Zone inherits from
+
+Paragraphs:
+Gas Zone Template is template the Gas Zone inherits from
+Lists:
+

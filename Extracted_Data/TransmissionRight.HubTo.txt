@@ -1,0 +1,11 @@
+Header: Transmission Right Hub To
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	hub for load in the transmission right
+
+Paragraphs:
+Transmission Right Hub To is the hub for load in the transmission right.
+Lists:
+

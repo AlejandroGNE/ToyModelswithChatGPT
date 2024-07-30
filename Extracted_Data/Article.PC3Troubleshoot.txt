@@ -1,0 +1,21 @@
+Header: Troubleshooting PLEXOS Connect
+
+Table Details:
+
+Paragraphs:
+Both the Connect Server and the Connect Client will log any errors they have had to the Windows event log. You can view these logs by opening the Event Viewer, opening the section 'Windows Logs' and selecting 'Application' then look for events with the source 'PLEXOS Connect Server' or 'PLEXOS Connect Client'.
+
+The inbuilt license server will log all activity to the License Control Panel (available in Launch Control and Connect Server), you are also able to enable file logging in the Connect Server's License Control Panel. This file logging will show the same information as is available in the control panels but won't be limited to the past 100 lines. The location of this log is user configurable but by default is the TEMP folder and has the following file name: 'PLXLog##.log' (where '##' is the date/time in the format ddMMyyyy_HHmmss).
+
+Launch Control does not have any error logging capabilities; it will instead prompt the user with an error message when an error occurs. These errors will range from operations could not be completed (ie, failed to add a dataset) to application crashes. Please note, the error 'Failed to authenticate user' could be caused by a few underlying issues, including:
+Lists:
+	- The entered username and/or password is incorrect.
+	- The Connect Server is not licensed.
+	- There is a time difference more than a few minutes between your machine and the Connect Server (time zones should not cause this time difference).
+
+
+H2s:
+Contents
+1. Connect Server or Connect Client
+2. License Server
+3. Launch Control

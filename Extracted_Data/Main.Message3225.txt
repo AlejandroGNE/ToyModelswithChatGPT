@@ -1,0 +1,11 @@
+Header: Message 3225
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Storages <name> and <name> connect in cascade through Generator <name> but have different [Internal Volume Scalar] values <value> and <value>. Choose one value.
+
+Paragraphs:
+Message 3225 occurs in the following circumstances: Storages <name> and <name> connect in cascade through Generator <name> but have different [Internal Volume Scalar] values <value> and <value>. Choose one value.
+Lists:
+

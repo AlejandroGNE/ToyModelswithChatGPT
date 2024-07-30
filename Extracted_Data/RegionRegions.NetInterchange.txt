@@ -1,0 +1,15 @@
+Header: Region Regions Net Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net interchange to region (exports - imports)
+
+Paragraphs:
+Region Regions Net Interchange is the net export from the 'parent' Region to the 'child' Region and is defined as:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Market Sell Block Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for sales across each week
+
+Paragraphs:
+Setting this version of Sell Block instructs PLEXOS that blocks across each week must be taken up together.
+Lists:
+

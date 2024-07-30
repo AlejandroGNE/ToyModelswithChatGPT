@@ -1,0 +1,15 @@
+Header: Storage Target Custom
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	end of horizon storage target
+
+Paragraphs:
+Storage Target Custom is the storage target at the end of the entire horizon.
+Lists:
+

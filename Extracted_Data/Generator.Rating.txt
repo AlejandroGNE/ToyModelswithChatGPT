@@ -1,0 +1,38 @@
+Header: Generator Rating
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rated capacity of units
+PEAKER	Units	1	-	
+PEAKER	Max Capacity	250	MW	
+PEAKER	Rating	225	MW	SUMMER
+PEAKER	Rating	250	MW	WINTER
+
+Paragraphs:
+Generator Rating overrides the Max Capacity .
+
+Rating allows for periodic adjustments to a generator's capacity ( e.g. summer and winter rating) without affecting the calculation of the installed capacity and thus allowing for the correct calculation of capacity factor. As with any property in PLEXOS the rating can be dated, patterned, scenario'd and even read from a text file (list of values by period).
+
+Rating most commonly has a pattern, e . g . summer and winter, or peak and off-peak, to which the rating value applies. Once you decide to use the rating property over a certain period of time, sufficient additional rating properties must be specified such that their associated patterns are fully complementary. If you omit a pattern, PLEXOS assumes that the default rating is zero - PLEXOS does not use the max capacity as a default once you start to specify rating properties. For example, suppose that you set a generator's max capacity equal to 250MW and then specify a rating with pattern SUMMER equal to 225 MW. You must also specify a rating with pattern WINTER, otherwise, PLEXOS assumes that the WINTER rating is zero. This requirement applies generally to any set of complementary patterns e.g. :
+
+Example:
+
+The main motivation for using the rating properties to change the generation limit rather than the max capacity is that the latter is used to compute kW/year fixed cost charges.
+
+Rating can be defined as a multi-band property when used in conjunction with Generator Head
+           Storage Efficiency Point to define a different rating depending on
+           the amount of head available at a hydro generator.
+
+Note that for the output property, rating is the rated capacity with respect to the degradation effect (if defined). In summary reporting, rating is the rated capacity at the time of region peak load.
+
+See also Rating Factor , Raw Rating
+Lists:
+	- PEAK / OFF-PEAK
+	- WEEKDAY / WEEKEND
+	- SUMMER / WINTER
+

@@ -1,0 +1,15 @@
+Header: Water Storage Forced Outage
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of Withdrawal/Injection on Forced Outage
+
+Paragraphs:
+Water Storage Forced Outage is the amount of Withdrawal/Injection capacity on forced outage. This is a Beta feature.
+Lists:
+

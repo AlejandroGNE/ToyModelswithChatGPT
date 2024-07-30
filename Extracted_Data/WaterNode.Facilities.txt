@@ -1,0 +1,11 @@
+Header: Water Node Facilities
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Facility objects connected to the Water Node
+
+Paragraphs:
+Water Node Facilities is the set of Facility objects connected to the Water Node.
+Lists:
+

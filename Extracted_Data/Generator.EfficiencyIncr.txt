@@ -1,0 +1,42 @@
+Header: Generator Efficiency Incr
+
+Table Details:
+Units:	MW/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Efficiency of hydro generation
+Units	1	-	1
+Max Capacity	60	MW	1
+Load Point	20	MW	1
+Load Point	40	MW	2
+Load Point	60	MW	3
+Efficiency Base	58	cumec	1
+Efficiency Incr	0.5	MW/cumec	1
+Efficiency Incr	0.48	MW/cumec	2
+Efficiency Incr	0.42	MW/cumec	3
+Efficiency Base	169	AF	1
+Efficiency Incr	171	kWh/AF	1
+Efficiency Incr	164	kWh/AF	2
+Efficiency Incr	144	kWh/AF	3
+
+Paragraphs:
+Generator Efficiency Incr is the
+          incremental efficiency of hydro generation. It is combined with Load
+            Point in multiple bands to define an efficiency function across
+          the range of generation. The 'no-load efficiency' is defined using Efficiency Base .
+
+Example ( using metric units ) The purpose
+          of this example is to show you how PLEXOS calculates Efficiency by
+          given table 1. Picture 1, 2 and 4 is the process result of
+          calculation.
+
+Example ( using imperial US units )
+
+See also:
+Lists:
+	- Hydro
+              Efficiency and Head Effects article.
+

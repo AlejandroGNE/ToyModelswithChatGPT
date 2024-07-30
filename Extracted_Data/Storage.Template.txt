@@ -1,0 +1,11 @@
+Header: Storage Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Storage inherits from
+
+Paragraphs:
+Storage Template is template the Storage inherits from
+Lists:
+

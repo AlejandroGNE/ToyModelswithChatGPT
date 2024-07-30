@@ -1,0 +1,15 @@
+Header: Gas Plant Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The total cost for processing the gas
+
+Paragraphs:
+Gas Plant Production Cost is The total cost for processing the gas, which is total of processing cost and variable operations maintenance cost, two cost items.
+Lists:
+

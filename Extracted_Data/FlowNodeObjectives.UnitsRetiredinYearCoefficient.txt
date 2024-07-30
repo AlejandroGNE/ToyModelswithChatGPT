@@ -1,0 +1,23 @@
+Header: Flow Node Objectives Units Retired in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units retired in the year
+
+Paragraphs:
+Flow Node Objectives Units Retired in Year Coefficient sets the coefficient of Units
+            Retired in Year in the Objective .
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+... + c (z,j) × Flow
+            Node Units Retired
+            in Year ...
+Lists:
+

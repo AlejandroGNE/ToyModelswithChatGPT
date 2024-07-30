@@ -1,0 +1,20 @@
+Header: Node Distributed Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maintenance notionally allocated to period
+
+Paragraphs:
+Node Distributed Maintenance is reported by PASA . It is the maintenance allocated by the optimization in order to level the nodal Capacity Reserves .
+
+Note that this maintenance allocation is purely notional. It is subsequently used to produce the Maintenance Factor which acts to direct maintenance scheduling into appropriate high reserve periods.
+
+See also:
+Lists:
+	- Node Discrete Maintenance
+

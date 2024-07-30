@@ -1,0 +1,15 @@
+Header: Reserve Lines Sharing
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of reserve shared on the line
+
+Paragraphs:
+Reserve Lines Sharing is Amount of reserve shared on the line.
+Lists:
+

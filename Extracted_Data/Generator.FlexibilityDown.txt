@@ -1,0 +1,26 @@
+Header: Generator Flexibility Down
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of additional generation that could be unloaded
+
+Paragraphs:
+Generator Flexibility Down is the 'raw' amount of additional Generation that could be unloaded given the current commitment state and ignoring Max Ramp Down .
+
+Note that this property is calculated by considering the units as an aggregation (not the unit-by-unit approach).
+
+This property is calculated by the following formula:
+
+where:
+
+See also:
+Lists:
+	- Generator Flexibility Up
+	- Generator Ramp Flexibility Down
+	- Constraint Generators Flexibility Down Coefficient
+

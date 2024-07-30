@@ -1,0 +1,22 @@
+Header: Generator Commodities Consumed Capacity Built Coefficient
+
+Table Details:
+Units:	~/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity consumed per unit of capacity built
+
+Paragraphs:
+Generator Commodities
+            Consumed Capacity Built Coefficient is the amount of the Commodity consumed per unit of Capacity
+            Built .
+
+See also:
+Lists:
+	- Generator Commodities
+              Consumed Capacity
+              Retired Coefficient
+

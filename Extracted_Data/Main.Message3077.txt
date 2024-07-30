@@ -1,0 +1,11 @@
+Header: Message 3077
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Invalid Horizon Chrono Period From option: <value>. Expected an index between 1 and <value>.
+
+Paragraphs:
+Message 3077 occurs in the following circumstances:
+Lists:
+

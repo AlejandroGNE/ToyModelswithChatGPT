@@ -1,0 +1,99 @@
+Header: Vehicle Class
+
+Table Details:
+Description:	An electric vehicle (EV, PHEV, etc)
+
+Paragraphs:
+See also Vehicle Property Reference for a detailed list of properties for this class of object.
+
+Vehicle represents a type of vehicle and is most commonly used to
+          model electric vehicles, but may also model plug-in-hybrid electric
+          vehicles (PHEV) or internal combustion (ICE) powered vehicles. Vehicle
+          objects can represent multiple physical vehicles via the Units property. This allows you to expand the size of the fleet being
+          modeled without having to create additional Vehicle objects i.e. it is the 'key' property. Thus, each Vehicle object represents a
+          specific vehicle type and usage pattern e.g. you might create
+          one object to represent a daily-driven domestic commuting vehicle of
+          given efficiency and battery size, and another to represent a
+          commercial vehicle with a very different range, efficiency and usage
+          pattern.
+
+Electric Vehicle objects connect to one or more Charging
+            Station objects via the Charging
+            Stations membership. Vehicles move between charging stations
+          using the Share property i.e. a share value of 100 means the vehicle is present at the
+          charging station, 0 means it is not present. The Share property represents the probability the vehicle is connected to a given charging station.
+
+You may choose between a 'simple' model in which the charging profile
+          is known upfront and no battery storage is modeled, or a 'detailed'
+          model where the travel demand is the input and the charging demand and
+          battery state-of-charge is modeled explicitly.
+
+The simplest EV representation requires only the input of a Fixed
+            Load , which represents the (known) charging load for a single
+          vehicle 'unit'. The Vehicle must still be connected to at least one
+          Charging Station which draws the appropriate load from the grid. When
+          Fixed Load is defined the battery storage of the vehicle is not
+          modeled so properties like Capacity and Max SoC , and Demand are ignored. Like any property, the values of Fixed Load can be input
+          from a Data File or made stochastic
+          with a Variable .
+
+You may optionally define the Vehicle Efficiency (Wh/km) and Charge Efficiency (%) so that the distance travelled can be computed - see below
+          regarding emission constraints based on distance travelled.
+
+Under the simple Vehicle model, charging decisions are prescribed: Vehicles will charge as per Fixed Load profiles. Some flexibility in charging deferment
+            can be modlled via Charging Station Deferrable Load .
+
+Vehicle Demand is a dynamic
+          property representing the distance travelled across time (km or miles).
+            Connections to Charging Stations via the Share property
+            defines the range of possible possible charging and V2G actions that can be undertaken. Both will occur
+            at the times and magnitudes which minimise total system cost.
+
+Charging is subject to losses according to the Charge
+            Efficiency property and the Losses are reported. According to the properties defined on the Charging
+            Station(s) , the Vehicle charging demand might be deferred
+          partially or fully for a number of hours ('V1G') and/or the Vehicle
+          may discharge from its battery to the electric grid ('V2G'). Discharge
+          is subject to losses according to the Discharge
+            Efficiency property.
+
+Hybrid or ICE vehicles consume fuel via the Vehicle Commodities membership. The Commodities in this collection should be of energy
+          type or convertible to energy with the Commodity Energy Density property.
+
+Vehicles can produce or abate emissions via the Emission Vehicles membership. The amount
+          of emissions (+ve value) or abatement (-ve value) is defined with
+          either or both the Distance
+            Coefficient and Charging
+            Coefficient properties.
+
+Vehicles can provide ancillary services (frequency control and
+          spinning reserve) as defined by the Charging
+            Station(s) .
+
+Vehicle supports expansion in LT Plan .
+          The key input properties are Max
+            Units Built and Purchase
+            Cost and optionally FO&M
+            Charge . Purchase costs can be treated as a lump sum or
+          automatically annualized by defining WACC and Economic Life . Other
+          available constraints related to expansion are:
+
+Vehicle retirement occurs automatically after the Technical
+            Life . Disposal of Vehicles can be optimized if you define Max
+            Units Retired and will incur a Disposal
+            Cost .
+Lists:
+
+	- Explicit formulation of battery energy storage capacity
+	- Actively cooptimized charging and V2G behaviour: this will occur at the times and quantities
+            which minimise system cost.
+
+	- Min Units Built
+	- Max Units Built in Year
+	- Min Units Built in
+              Year
+
+
+H2s:
+Simple Model
+Detailed Model

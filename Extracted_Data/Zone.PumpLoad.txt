@@ -1,0 +1,19 @@
+Header: Zone Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load drawn by pump storage generators
+
+Paragraphs:
+Zone Pump Load is the total Pump Load from Generators in the Zone and as is defined as:
+
+See also:
+Lists:
+	- Zone Generator Pump Cost
+	- Zone Net Generation
+

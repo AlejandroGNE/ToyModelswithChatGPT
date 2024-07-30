@@ -1,0 +1,11 @@
+Header: Message 3247
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Large number of potential operating units for Generator <name> which models unit-by-unit commitment. High memory usage for the optimization may result.
+
+Paragraphs:
+Message 3247 occurs in the following circumstances:
+Lists:
+

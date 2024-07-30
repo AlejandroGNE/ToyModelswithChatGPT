@@ -1,0 +1,17 @@
+Header: Process Secondary Outputs Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Secondary output production as a proportion of primary output production
+
+Paragraphs:
+Process Secondary
+            Outputs Ratio is the secondary output production as a proportion
+          of primary output production.
+Lists:
+

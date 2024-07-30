@@ -1,0 +1,15 @@
+Header: Zone Zones Balancing Area Interchange Hurdle
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Financial hurdle rate for exports from the parent zone to child zone.
+
+Paragraphs:
+Zone Zones Balancing Area Interchange Hurdle defines the hurdle rate of financial exports from parent zone to child zone. See Max Balancing Area Interchange
+Lists:
+

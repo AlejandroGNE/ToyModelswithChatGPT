@@ -1,0 +1,15 @@
+Header: Gas Basin Dispatch Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average dispatch price from basin fields
+
+Paragraphs:
+Gas Basin Dispatch Price is the average dispatch price of all Gas Fields associated with the Gas Basin.
+Lists:
+

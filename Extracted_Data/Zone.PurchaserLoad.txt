@@ -1,0 +1,18 @@
+Header: Zone Purchaser Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from cleared purchaser bids
+
+Paragraphs:
+Zone Purchaser Load is the load bids cleared from Purchasers in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Load
+

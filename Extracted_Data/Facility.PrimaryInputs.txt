@@ -1,0 +1,12 @@
+Header: Facility Primary Inputs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Facility Primary Inputs is the input Commodity of the Primary
+            Process conducted at the Facility.
+Lists:
+

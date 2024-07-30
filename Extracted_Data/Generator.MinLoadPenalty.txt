@@ -1,0 +1,23 @@
+Header: Generator Min Load Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Min Load].
+
+Paragraphs:
+Generator Min Load Penalty is the
+          penalty for violating the Min Load constraint. Non-negative values make the Min
+            Load constraint 'soft' with each megawatt-hour that Generation is below the Min Load priced at
+          this value in the objective function. The default value of -1
+          indicates a 'hard' constraint. The constraint activity (amount of Generation applied to the
+          constraint) is reported in the property Min
+            Load Generation , and violations are reported in the properties Min Load Violation , Min
+            Load Violation Cost and Min
+            Load Violation Hours .
+Lists:
+

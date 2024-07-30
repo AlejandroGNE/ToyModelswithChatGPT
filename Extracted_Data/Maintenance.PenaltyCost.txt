@@ -1,0 +1,15 @@
+Header: Maintenance Penalty Cost
+
+Table Details:
+Units:	$
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of not scheduling this maintenance event.
+
+Paragraphs:
+Maintenance Penalty Cost is the cost of not scheduling this maintenance event.
+Lists:
+

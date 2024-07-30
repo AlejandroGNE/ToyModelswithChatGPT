@@ -1,0 +1,15 @@
+Header: Gas Contract Take-or-Pay Penalty Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty price on the take violation for a Take or Pay contract
+
+Paragraphs:
+Gas Contract Take-or-Pay Penalty Price is Penalty price on the take violation for a Take or Pay contract.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Zone Flexibility Up
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of additional generation that could be provided
+
+Paragraphs:
+Zone Flexibility Up is the amount of additional generation that could be provided.
+
+See also:
+Lists:
+	- Zone Flexibility Down
+

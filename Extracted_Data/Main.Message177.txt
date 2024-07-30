@@ -1,0 +1,11 @@
+Header: Message 177
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The input data diagnostic file <name> could not be written.
+
+Paragraphs:
+Message 177 occurs in the following circumstances:
+Lists:
+

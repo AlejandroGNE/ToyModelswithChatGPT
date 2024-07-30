@@ -1,0 +1,19 @@
+Header: Reserve Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2,3,4,5,6,7,8)
+Key Property:	No
+Description:	Reserve type
+
+Paragraphs:
+Reserve Type sets the type of
+          reserve. The option can take these values:
+
+NOTE: For Regulation reserve, the raising and lower reserves provided
+          by the generator are the same megawatt amount.
+Lists:
+

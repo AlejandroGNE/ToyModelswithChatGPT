@@ -1,0 +1,20 @@
+Header: Gas Node Shortage
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortage of gas supply
+
+Paragraphs:
+Gas Node Shortage is the amount of Shortage in gas supply relative to the Demand .
+
+See also:
+Lists:
+	- Gas Node Excess
+	- Gas Node Shortage Cost
+	- Gas Node Hours of Shortage
+

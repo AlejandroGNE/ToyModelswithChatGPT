@@ -1,0 +1,21 @@
+Header: Line Reactance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Together with any resistance this makes up the lines impedance
+A-B	Reactance	0.05	p.u.
+A-B	Resistance	0.02	p.u.
+
+Paragraphs:
+Line Reactance is used in combination with Resistance to define line impedance.
+
+Example
+
+Note that reactance is converted to susceptance using the formula g = 1 / x. If it is more convenient, the susceptance value can be specified directly using the Susceptance property and the reactance can be omitted.
+Lists:
+

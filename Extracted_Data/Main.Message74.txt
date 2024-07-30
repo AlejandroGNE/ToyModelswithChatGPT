@@ -1,0 +1,22 @@
+Header: Message 74
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Error (value = 0)
+Description:	Generator <name> fuel-specific heat rate functions <value> must all have the same form as the general heat rate.
+CT	Load Point	47.5	MW	1
+CT	Load Point	71.25	MW	2
+CT	Load Point	95	MW	3
+CT	Heat Rate	7575	BTU/kWh	1
+CT	Heat Rate	7300	BTU/kWh	2
+CT	Heat Rate	7000	BTU/kWh	3
+Generator ( CT ).Fuels ( Gas )	Heat Rate Base	50	MMBTU/hr	1
+Generator ( CT ).Fuels ( Gas )	Heat Rate Incr	8	BTU/kWh	1
+Generator ( CT ).Fuels ( Gas )	Heat Rate Incr2	0.02	BTU/kWh²	1
+
+Paragraphs:
+Message 74 occurs when you define heat rate data on both the Generator object and on its Fuels membership, but you use different forms for the heat rate definition.
+
+Example
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Facility One-time Cost
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	One-time cost associated with the project
+
+Paragraphs:
+Facility One-time Cost is
+          incurred in the period the project is built by LT
+            Plan . The cost is added to the Build Cost , and the sum is used to calculate the annualized costs.
+Lists:
+

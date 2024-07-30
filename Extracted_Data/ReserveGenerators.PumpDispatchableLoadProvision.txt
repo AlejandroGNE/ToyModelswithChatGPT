@@ -1,0 +1,20 @@
+Header: Reserve Generators Pump Dispatchable Load Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision by pump dispatchable load
+
+Paragraphs:
+Reserve Generators Pump Dispatchable Load Provision is the reserve Provision by pump dispatchable load.
+
+See also:
+Lists:
+	- Reserve Generators Spinning Reserve Provision
+	- Reserve Generators Sync Cond Reserve Provision
+	- Reserve Generators Non-spinning Reserve Provision
+

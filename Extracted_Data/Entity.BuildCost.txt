@@ -1,0 +1,15 @@
+Header: Entity Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Build cost of Facilities
+
+Paragraphs:
+Entity Build Cost is the build cost of Facilities.
+Lists:
+

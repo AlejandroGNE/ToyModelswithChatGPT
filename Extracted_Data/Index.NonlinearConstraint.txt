@@ -1,0 +1,29 @@
+Header: Nonlinear Constraint Index
+
+Table Details:
+Constant Term	-	False	0		False	Constant Term
+Max Tranches	-	False	10	≥0	False	Number of tranches to be used for piece-wise linear approximation
+Polynomial Coefficients	-	True	0		False	Coefficients defining the polynomial
+Sense	-	False	0	In (-1,0,1)	False	Constraint sense (≤,=,≥)
+x	-	True	0		False	Value to pass-through to solution
+y	-	True	0		False	Value to pass-through to solution
+z	-	True	0		False	Value to pass-through to solution
+Function Value	Function Value	-	LT Plan, MT Schedule, ST Schedule	False	Value of the input function at the current X value
+x	x	Pass-through	LT Plan, PASA, MT Schedule, ST Schedule	True	Value to pass-through to solution
+X Value	X Value	-	LT Plan, MT Schedule, ST Schedule	False	Solution value for the x variable
+y	y	Pass-through	LT Plan, PASA, MT Schedule, ST Schedule	True	Value to pass-through to solution
+Y Value	Y Value	-	LT Plan, MT Schedule, ST Schedule	False	Solution value for the y variable
+z	z	Pass-through	LT Plan, PASA, MT Schedule, ST Schedule	True	Value to pass-through to solution
+
+Paragraphs:
+Nonlinear Constraint Input Properties Name Units Multi-band Default Value Validation Rule Key Property Description Constant Term - False 0 False Constant Term Max Tranches - False 10 ≥0 False Number of tranches to be used for piece-wise linear approximation Polynomial Coefficients - True 0 False Coefficients defining the polynomial Sense - False 0 In (-1,0,1) False Constraint sense (≤,=,≥) x - True 0 False Value to pass-through to solution y - True 0 False Value to pass-through to solution z - True 0 False Value to pass-through to solution Nonlinear Constraint Output Properties Name Summary Name Property Group Phases Multi-band Description Function Value Function Value - LT Plan, MT Schedule, ST Schedule False Value of the input function at the current X value x x Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution X Value X Value - LT Plan, MT Schedule, ST Schedule False Solution value for the x variable y y Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution Y Value Y Value - LT Plan, MT Schedule, ST Schedule False Solution value for the y variable z z Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution
+
+Name Units Multi-band Default Value Validation Rule Key Property Description Constant Term - False 0 False Constant Term Max Tranches - False 10 ≥0 False Number of tranches to be used for piece-wise linear approximation Polynomial Coefficients - True 0 False Coefficients defining the polynomial Sense - False 0 In (-1,0,1) False Constraint sense (≤,=,≥) x - True 0 False Value to pass-through to solution y - True 0 False Value to pass-through to solution z - True 0 False Value to pass-through to solution Nonlinear Constraint Output Properties Name Summary Name Property Group Phases Multi-band Description Function Value Function Value - LT Plan, MT Schedule, ST Schedule False Value of the input function at the current X value x x Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution X Value X Value - LT Plan, MT Schedule, ST Schedule False Solution value for the x variable y y Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution Y Value Y Value - LT Plan, MT Schedule, ST Schedule False Solution value for the y variable z z Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution
+
+Nonlinear Constraint Output Properties Name Summary Name Property Group Phases Multi-band Description Function Value Function Value - LT Plan, MT Schedule, ST Schedule False Value of the input function at the current X value x x Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution X Value X Value - LT Plan, MT Schedule, ST Schedule False Solution value for the x variable y y Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution Y Value Y Value - LT Plan, MT Schedule, ST Schedule False Solution value for the y variable z z Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution
+
+Name Summary Name Property Group Phases Multi-band Description Function Value Function Value - LT Plan, MT Schedule, ST Schedule False Value of the input function at the current X value x x Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution X Value X Value - LT Plan, MT Schedule, ST Schedule False Solution value for the x variable y y Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution Y Value Y Value - LT Plan, MT Schedule, ST Schedule False Solution value for the y variable z z Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution
+
+Name Summary Name Property Group Phases Multi-band Description Function Value Function Value - LT Plan, MT Schedule, ST Schedule False Value of the input function at the current X value x x Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution X Value X Value - LT Plan, MT Schedule, ST Schedule False Solution value for the x variable y y Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution Y Value Y Value - LT Plan, MT Schedule, ST Schedule False Solution value for the y variable z z Pass-through LT Plan, PASA, MT Schedule, ST Schedule True Value to pass-through to solution
+Lists:
+

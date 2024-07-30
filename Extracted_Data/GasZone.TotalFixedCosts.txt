@@ -1,0 +1,19 @@
+Header: Gas Zone Total Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs for gas in entire model, including FOM and reservation costs
+
+Paragraphs:
+Gas Zone Total Fixed Costs is the sum of the fixed costs from gas plants, gas fields, gas nodes, gas dsm programs, intrazonal gas pipelines, gas storages and reservation cost from gas contracts.
+
+Total Fixed Costs = Gas Plant Fixed Costs + Gas Field Fixed Costs + Gas Node Fixed Costs + Gas Storage Fixed Costs + Intrazonal Gas Pipeline Fixed Costs + Gas DSM Program Fixed Costs + Gas Contract Reservation Cost .
+
++ Gas DSM Program Fixed Costs + Gas Contract Reservation Cost .
+Lists:
+

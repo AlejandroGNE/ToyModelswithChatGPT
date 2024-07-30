@@ -1,0 +1,23 @@
+Header: Charging Station Max Charge Rate
+
+Table Details:
+Units:	kW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum charge rate
+
+Paragraphs:
+Charging Stations Max
+          Charge Rate along with Units defines the charging capacity of the charging station. The property
+          sets the maximum charge rate of each unit at the charging station,
+          thus the maximum charge on the grid is Units x Max Charge Rate. This is the maximum rate of charge that can be
+          applied across all connected Vehicles at any one time.
+
+See also:
+Lists:
+	- Vehicle Max
+              Discharge Rate
+

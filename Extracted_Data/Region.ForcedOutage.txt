@@ -1,0 +1,19 @@
+Header: Region Forced Outage
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity forced out
+
+Paragraphs:
+Region Forced Outage is the total generation capacity on forced outage and is defined as:
+
+See also:
+Lists:
+	- Region Maintenance
+	- Region Available Capacity
+

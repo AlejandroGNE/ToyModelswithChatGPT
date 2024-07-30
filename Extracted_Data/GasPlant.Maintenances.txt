@@ -1,0 +1,11 @@
+Header: Gas Plant Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the gas plant
+
+Paragraphs:
+Gas Plant Maintenances is set of maintenance events on the gas plant
+Lists:
+

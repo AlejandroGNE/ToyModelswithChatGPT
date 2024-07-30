@@ -1,0 +1,25 @@
+Header: Performance Carry over MIP Time
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If unused MIP Max Time is carried over to the next MIP solve allowing more time on harder problems
+
+Paragraphs:
+Performance Carry over MIP Time toggles on/off the carry over of any
+          spare time allowance between mixed integer programming (MIP)
+          solves.  This applies only when MIP
+            Max Time is set. When a MIP is solved the solver will be given a
+          time limit according to that setting.  If the solver completes
+          inside the time limit the 'surplus' time is recorded. If Carry over
+          MIP Time is 'on' this surplus time  will be added to the time
+          limit allowed for the next MIP solve. Setting this will allow more
+          time to be spent on harder problems and may improve the overall
+          solution produced, at the cost of a longer overall run time.
+
+Note that the total time allowed including carry over can be limited
+          with the MIP Max
+            Time with Carry over setting.
+Lists:
+

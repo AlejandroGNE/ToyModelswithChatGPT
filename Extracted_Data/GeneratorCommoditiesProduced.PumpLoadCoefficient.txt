@@ -1,0 +1,24 @@
+Header: Generator Commodities Produced Pump Load Coefficient
+
+Table Details:
+Units:	~/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity produced per unit of pump load
+
+Paragraphs:
+Generator Commodities
+            Produced Pump Load Coefficient is the amount of the Commodity produced per unit of Pump Load .
+
+See also:
+Lists:
+	- Generator Commodities
+              Produced Generation
+              Coefficient
+	- Generator Commodities
+              Consumed Pump
+              Load Coefficient
+

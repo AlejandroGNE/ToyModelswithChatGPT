@@ -1,0 +1,18 @@
+Header: Zone Contract Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from physical contracts
+
+Paragraphs:
+Zone Contract Generation  is the total generation from Generation Contracts in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Contract Load
+

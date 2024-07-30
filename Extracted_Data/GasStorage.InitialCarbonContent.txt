@@ -1,0 +1,15 @@
+Header: Gas Storage Initial Carbon Content
+
+Table Details:
+Units:	kg/~ (Metric), lb/~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Initial carbon content of the gas stored in the gas storage
+
+Paragraphs:
+Gas Storage Initial Carbon Content is Initial carbon content of the gas stored in the gas storage.
+Lists:
+

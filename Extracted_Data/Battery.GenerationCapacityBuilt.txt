@@ -1,0 +1,26 @@
+Header: Battery Generation Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation capacity built
+
+Paragraphs:
+Battery Generation Capacity Built
+          is total generation capacity built in LT
+            Plan and is defined as:
+
+Generation Capacity Built = Max
+            Power x Units Built
+
+See also:
+Lists:
+	- Battery Generation
+              Capacity
+	- Battery Capacity
+              Built
+

@@ -1,0 +1,11 @@
+Header: Charging Station Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Charging Station inherits from
+
+Paragraphs:
+Charging Station Template is the template from which the Charging Station inherits.
+Lists:
+

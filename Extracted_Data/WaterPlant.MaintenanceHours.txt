@@ -1,0 +1,20 @@
+Header: Water Plant Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Water plant is on maintenance
+
+Paragraphs:
+Water Plant Maintenance Hours is the number of hours the Water plant is on maintenance.
+
+See also:
+Lists:
+	- Water Plant Forced Outage Hours
+	- Water Plant Units Out
+	- Water Plant Service Factor
+

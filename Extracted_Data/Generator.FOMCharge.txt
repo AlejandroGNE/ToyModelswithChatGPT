@@ -1,0 +1,49 @@
+Header: Generator FO&M Charge
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual fixed operation and maintenance charge
+Units	1	-
+Max Capacity	250	MW
+F&OM Charge	15	$/kW/year
+Rating	250	MW
+
+Paragraphs:
+Generator FO&M Charge is the
+          fixed operations and maintenance charge for each installed unit, and
+          forms part of the annual fixed cost charge along with Debt
+            Charge and Equity Charge .
+          The charge is defined on a per kilowatt-year basis, thus the total
+          FO&M Cost for a unit in a year is defined as:
+
+FO&M
+            Cost = Installed
+            Capacity (MW) x FO&M Charge ($/kW) x 1000
+            (kW/MW)
+
+The tax rate is taken into account if Depreciation
+            Method is set so that:
+
+FO&M Charge (modeled) =
+          FO&M Charge x (1 - Tax Rate )
+
+This charge is combined with the Build
+            Cost in the objective function of LT
+            Plan . The cost is also relevant for retirement candidates (as an avoidable cost).
+
+Fixed costs are only counted against a generator's Installed
+            Capacity i.e. generators with zero Units or zero Units Built do not
+          incur fixed costs. The total fixed operations and maintenance cost
+          incurred is reported in the FO&M
+            Cost property.
+
+The dynamic bidding of generators to recover these fixed costs can be
+          modeled in MT Schedule and ST
+            Schedule according to the Competition Equilibrium Model setting.
+Lists:
+

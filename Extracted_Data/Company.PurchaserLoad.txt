@@ -1,0 +1,15 @@
+Header: Company Purchaser Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from cleared purchaser bids
+
+Paragraphs:
+Main.Company Purchaser Load is the total load from purchasers that the company has a share of, and is defined as:
+Lists:
+

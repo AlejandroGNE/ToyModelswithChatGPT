@@ -1,0 +1,17 @@
+Header: Region Uplift Beta
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Beta parameter for SEM-style uplift payment (weight on squared deviations from shadow price)
+
+Paragraphs:
+Region Uplift Beta is a parameter used in the uplift calculation for the Irish SEM option of Uplift Compatibility .
+
+See also the article Uplift Methods .
+Lists:
+

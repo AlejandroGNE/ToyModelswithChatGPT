@@ -1,0 +1,11 @@
+Header: Gas Basin Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Gas Basin
+
+Paragraphs:
+Gas Basin Constraints is set of Constraints on the Gas Basin
+Lists:
+

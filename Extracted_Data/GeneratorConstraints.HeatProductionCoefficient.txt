@@ -1,0 +1,22 @@
+Header: Generator Constraints Heat Production Coefficient
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of heat production
+
+Paragraphs:
+Generator Constraints Heat Production Coefficient connects to the heat production of the generator.
+
+For CHP units this is the left-hand side coefficient of Heat Production in the constraint, and for other units, such as normal thermal generators, it is the coefficient of Waste Heat .
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- Generator Constraints Waste Heat Coefficient
+

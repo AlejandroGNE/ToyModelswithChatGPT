@@ -1,0 +1,17 @@
+Header: Gas Pipeline Volume Imbalance
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Absolute value of the difference between delivery volume into the pipeline and the redelivered volume off the pipeline.
+
+Paragraphs:
+Gas Pipeline Volume Imbalance is the absolute value of the difference between delivery volume into the pipeline and the redelivered volume off the pipeline.
+
+Volume Imbalance = End Volume - Initial Volume
+Lists:
+

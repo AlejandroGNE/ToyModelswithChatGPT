@@ -1,0 +1,15 @@
+Header: Heat Plant Fuels Heat Rate
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Heat-rate at load point (used with Load Point) or 'b' in the heat input function
+
+Paragraphs:
+Heat Plant Fuels Heat Rate is the fuel-specific version of Heat Rate .
+Lists:
+

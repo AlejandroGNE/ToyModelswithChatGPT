@@ -1,0 +1,18 @@
+Header: Pool ORDC MCL
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum Contingency Level for ORDC calculations
+
+Paragraphs:
+Pool ORDC MCL is the Minimum Contingency Level for ORDC calculations.
+
+See also:
+Lists:
+	- ERCOT Documentation
+

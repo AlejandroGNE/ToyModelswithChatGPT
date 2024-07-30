@@ -1,0 +1,18 @@
+Header: Emission Generators Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions abated
+
+Paragraphs:
+Emission Generators Abatement is the emissions from the Generator abated by the associated Abatement technologies.
+
+See also:
+Lists:
+	- Emission Generators Abatement Cost
+

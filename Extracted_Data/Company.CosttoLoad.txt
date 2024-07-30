@@ -1,0 +1,15 @@
+Header: Company Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pool purchase cost from own load + load contracts
+
+Paragraphs:
+Company Cost to Load is the cost of loads assigned to the company including pump load, purchaser load, physical contract load, and region load, and is defined as:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Take-or-Pay Excess
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Excess take of Take or Pay contract
+
+Paragraphs:
+Gas Contract Take-or-Pay Excess is the swing take of Take or Pay contract after the obligations are met.
+Lists:
+

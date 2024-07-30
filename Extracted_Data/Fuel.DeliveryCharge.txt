@@ -1,0 +1,22 @@
+Header: Fuel Delivery Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of delivering fuel to the stockpile
+
+Paragraphs:
+Fuel Delivery Charge is the per-unit
+          cost of delivering fuel to the stockpile, independent of the Fuel Price .
+
+See also:
+Lists:
+	- Fuel Withdrawal
+              Charge
+	- Fuel Delivery
+              Cost
+

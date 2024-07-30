@@ -1,0 +1,19 @@
+Header: Region Pump Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load drawn by pump storage generators
+
+Paragraphs:
+Region Pump Load is the total Pump Load from Generators in the Region and as is defined as:
+
+See also:
+Lists:
+	- Region Generator Pump Cost
+	- Region Net Generation
+

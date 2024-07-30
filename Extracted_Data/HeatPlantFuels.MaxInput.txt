@@ -1,0 +1,17 @@
+Header: Heat Plant Fuels Max Input
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of fuel input to heat plant
+
+Paragraphs:
+HeatPlant Fuels Max Input sets an upper limit on the amount of the fuel that can be input to the Heat Plant.
+
+Note that for multi-unit Heat Plants this is a maximum total input across all units, not a per-unit value.
+Lists:
+

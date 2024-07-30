@@ -1,0 +1,21 @@
+Header: Generator Max Energy Week
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum energy in week
+
+Paragraphs:
+Generator Max Energy Week is the Maximum energy in a week.  This is the weekly variant of Generator Max Energy
+
+See also:
+Lists:
+	- Generator Max Energy Hour
+	- Generator Min Energy Day
+	- Generator Min Energy Month
+	- Generator Min Energy Year
+

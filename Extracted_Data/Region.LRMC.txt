@@ -1,0 +1,19 @@
+Header: Region LRMC
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Long-run marginal cost of production
+
+Paragraphs:
+Region LRMC is the long-run marginal cost of production as calculated by LT Plan . It is defined as:
+
+This number represents the full cost of serving the load taking into account the cost of expansion as well as the cost of production.
+
+See also:
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Generator Aux Incr
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Auxiliary use per unit of generation
+
+Paragraphs:
+Generator Aux Incr is the auxiliary loss per megawatt of generation and pump load i.e. :
+
+See also:
+Lists:
+	- Generator Auxiliary Use
+	- Generator Aux Fixed
+	- Generator Aux Base
+

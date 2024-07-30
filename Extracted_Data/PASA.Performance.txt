@@ -1,0 +1,11 @@
+Header: PASA Performance
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Performance settings for PASA
+
+Paragraphs:
+PASA Performance is the Performance settings for PASA. These override the settings associated with the Model .
+Lists:
+

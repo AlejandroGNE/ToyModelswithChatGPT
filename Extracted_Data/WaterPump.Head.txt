@@ -1,0 +1,15 @@
+Header: Water Pump Head
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pump head
+
+Paragraphs:
+Water Pump Head is Pump head.
+Lists:
+

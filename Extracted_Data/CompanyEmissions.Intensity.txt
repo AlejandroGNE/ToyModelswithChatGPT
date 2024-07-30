@@ -1,0 +1,21 @@
+Header: Company Emissions Intensity
+
+Table Details:
+Units:	kg/MWh (Metric), lb/MWh (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission intensity of generation
+
+Paragraphs:
+Company Emissions Intensity is the average emission intensity of Generation associated with the Emission and the Company and is defined as:
+
+See also:
+Lists:
+	- Emission Intensity
+	- Emission Generators Intensity
+	- Emission Fuels Intensity
+	- Region Emissions Intensity
+

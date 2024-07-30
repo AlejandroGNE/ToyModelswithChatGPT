@@ -1,0 +1,21 @@
+Header: Region Emissions Abatement
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions abated
+
+Paragraphs:
+Region Emissions Abatement is the emissions abated by Generators in the Region for this Emission .
+          It is calculated as:
+
+where:
+
+See also:
+Lists:
+	- Region Emissions Abatement Cost
+

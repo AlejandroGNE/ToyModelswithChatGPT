@@ -1,0 +1,15 @@
+Header: Water Pump Station Configuration
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Water Pump configuration (series or parallel)
+
+Paragraphs:
+Water Pump Stations Configuration is Water Pump configuration (series or parallel).
+Lists:
+

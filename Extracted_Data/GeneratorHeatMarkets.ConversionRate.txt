@@ -1,0 +1,15 @@
+Header: Generator Heat Markets Conversion Rate
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Conversion rate of generator heat input to waste heat input.
+
+Paragraphs:
+Generator Heat Markets Conversion Rate is Conversion rate of generator heat input to waste heat input..
+Lists:
+

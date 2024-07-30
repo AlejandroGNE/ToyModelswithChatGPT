@@ -1,0 +1,15 @@
+Header: Company Regions Available Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available generation capacity in region
+
+Paragraphs:
+Company Regions Available Capacity is the available generation capacity in region.
+Lists:
+

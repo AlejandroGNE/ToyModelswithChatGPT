@@ -1,0 +1,19 @@
+Header: Cournot Perfect Competition Demand
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand in the perfect competition solution
+
+Paragraphs:
+Cournot Perfect Competition Demand is the demand (Q c ) at the perfect competition equilibrium i.e. before the Nash-Cournot game is played.
+
+See also:
+Lists:
+	- Cournot Perfect Competition Price
+	- Cournot Demand
+

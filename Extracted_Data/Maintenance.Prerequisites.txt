@@ -1,0 +1,11 @@
+Header: Maintenance Prerequisites
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events that must precede this event
+
+Paragraphs:
+Maintenance Prerequisites is the set of maintenance events that must precede this event.
+Lists:
+

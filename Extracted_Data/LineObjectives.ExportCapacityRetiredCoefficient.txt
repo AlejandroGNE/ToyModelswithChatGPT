@@ -1,0 +1,15 @@
+Header: Line Objectives Export Capacity Retired Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of export capacity retired
+
+Paragraphs:
+Line Objectives Export Capacity Retired Coefficient is Coefficient of export capacity retired.
+Lists:
+

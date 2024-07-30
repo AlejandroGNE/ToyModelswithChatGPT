@@ -1,0 +1,43 @@
+Header: Facility Start Window
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if start is allowed in the given time period
+Child Object	Property	Value	Units
+NH3.Plant	Min Operating Level Global	Yes	-
+NH3.Plant	Expansion Optimality	Integer	-
+NH3.Plant	Units	0	-
+NH3.Plant	Max Operating Level	32000	kg
+NH3.Plant	Min Operating Factor	50	%
+NH3.Plant	Start Window	No	Yes/No
+NH3.Plant	Start Window	Yes	Yes/No
+NH3.Plant	Min Up Time	8	h
+NH3.Plant	Min Down Time	24	h
+NH3.Plant	Max Ramp Up Factor	20	%
+NH3.Plant	Max Ramp Down Factor	20	%
+NH3.Plant	FO&M Charge	10000000	$
+NH3.Plant	Build Cost	200000000	$
+NH3.Plant	WACC	8	%
+NH3.Plant	Economic Life	30	yr
+NH3.Plant	Max Units Built	1	-
+
+Paragraphs:
+Facility Start Window is a flag
+          indicating whether a start is allowed in the given time period. This
+          might represent workforce, environmental or other constraints that
+          dictate when the plant can start.
+
+
+
+For the example in Table 1, the plant can only start in hour 9 each
+          day.
+
+Note that restricting the start window can improve the solution time
+          of hard unit commitment problems be eliminating alternative solutions.
+Lists:
+

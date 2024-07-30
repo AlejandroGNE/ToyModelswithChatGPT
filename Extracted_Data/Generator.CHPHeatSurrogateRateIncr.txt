@@ -1,0 +1,17 @@
+Header: Generator CHP Heat Surrogate Rate Incr
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Notional value for heat fuel offtake estimation.
+
+Paragraphs:
+Generator CHP Heat Surrogate Rate Incr is Notional value for heat fuel offtake estimation..
+
+CHP Heat Surrogate Heat Rate Incr emphasizes that this is a notional magnitude, rather than a physical, existing property of the Generator, which is used to estimate fuel offtake replacement in heat production delivered through CHP generation. This property is NOT considered for the optimization. It is only used to compute CHP Heat Surrogate Fuel Offtake .
+Lists:
+

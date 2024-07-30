@@ -1,0 +1,15 @@
+Header: Company Capacity Curtailed
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of non-positive-priced generation curtailed.
+
+Paragraphs:
+Company Capacity Curtailed is Amount of non-positive-priced generation curtailed..
+Lists:
+

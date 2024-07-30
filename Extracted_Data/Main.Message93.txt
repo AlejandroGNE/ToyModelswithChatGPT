@@ -1,0 +1,11 @@
+Header: Message 93
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Market <name> should define equal numbers of bands for Market Price and Market Quantity points.
+
+Paragraphs:
+Message 93 occurs in the following circumstances:
+Lists:
+

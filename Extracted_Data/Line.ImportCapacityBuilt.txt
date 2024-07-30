@@ -1,0 +1,19 @@
+Header: Line Import Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Import capacity gained from new builds
+
+Paragraphs:
+Line Import Capacity Built is import capacity gained from new builds and is calculated as:
+
+See also:
+Lists:
+	- Line Export Capacity Built
+	- Line Import Capacity Retired
+

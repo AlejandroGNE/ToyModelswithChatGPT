@@ -1,0 +1,27 @@
+Header: Process Secondary Inputs Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Secondary input consumption as a proportion of primary input consumption
+
+Paragraphs:
+Process Secondary
+            Inputs Ratio is the secondary input consumption as a proportion
+          of either the Primary Input Consumption or the Primary Output Production .
+          Which denominator is applied depends on the Denominator property.
+
+For example:
+Lists:
+	- In water desalination the Primary
+              Input could be a Commodity called "Seawater" measured in the Unit m 3 with secondary input of a Commodity "Electricity" measured in the Unit kWh. If each 1 m 3 of "Seawater" is combined with 3 kWh of
+            "Electricity" in the Process then you would set the Ratio for
+            "Electricity" to 3 and Denominator = "Input".
+	- In electrolysis, the Primary
+              Input could be a Commodity called "Electricity" measured in the Unit kWh with secondary input of "H 2 O" measured in the Unit kL with primary output being "H 2 " measured in the Unit kg. If each kg of output "H 2 " requires 10 kL of "H 2 O" you would set
+            Ratio for "H 2 O" to 10 and Denominator = "Output".
+

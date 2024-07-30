@@ -1,0 +1,30 @@
+Header: Generator Fuel Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fuel price (when not using Fuels collection)
+BOB	Fuel Price	3	$/GJ
+BOB	Heat Rate	10	GJ/MWh
+
+Paragraphs:
+Generator Fuel Price when used as an input is the fuel price for the generator.
+
+Example
+
+Here the generator has a fixed heat rate of 10 and fuel price of 3, hence its marginal (and average) cost per megawatt hour is 10 x 3 = $30/ MWh .
+
+More commonly though generators are associated with one or more Fuel objects and Price is taken from the Fuels collection.
+
+The fuel price passed on to a generator is defined as:
+
+As an output Fuel Price is the volume-weighted price paid for the fuel and defined as:
+
+See also:
+Lists:
+	- Fuel Time-weighted Price
+

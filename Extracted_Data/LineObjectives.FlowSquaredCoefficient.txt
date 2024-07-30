@@ -1,0 +1,15 @@
+Header: Line Objectives Flow Squared Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of square of line flow
+
+Paragraphs:
+Line Objectives Flow Squared Coefficient is Coefficient of square of line flow.
+Lists:
+

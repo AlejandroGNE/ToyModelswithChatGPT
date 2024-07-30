@@ -1,0 +1,20 @@
+Header: Battery Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Quantity offered in band
+
+Paragraphs:
+Battery Offer Quantity is Quantity offered in band.
+
+See also:
+Lists:
+	- Battery Offer Quantity Scalar
+	- Battery Offer Price Scalar
+	- Generator Offer Quantity
+

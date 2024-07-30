@@ -1,0 +1,21 @@
+Header: Battery Power Degradation
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Degradation of battery power with cycles
+
+Paragraphs:
+Battery Power Degradation is the rate of degradation of battery power with number of cycles. This derates the Max Power as the number of cycles increases.
+
+No degradation will occur within a single step. The cycles accumulated in each step result in degradation for following steps.
+
+See also:
+Lists:
+	- Battery Capacity Degradation
+	- Age-Based Degradation
+

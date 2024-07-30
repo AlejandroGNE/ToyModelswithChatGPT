@@ -1,0 +1,15 @@
+Header: Generator Conditions Installed Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of installed capacity
+
+Paragraphs:
+Generator Conditions Installed Capacity Coefficient is Coefficient of installed capacity.
+Lists:
+

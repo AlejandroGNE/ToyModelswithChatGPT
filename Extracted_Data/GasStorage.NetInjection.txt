@@ -1,0 +1,15 @@
+Header: Gas Storage Net Injection
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net injection after injection fuel loss
+
+Paragraphs:
+Gas Storages Net Injection is Net injection after injection fuel loss.
+Lists:
+

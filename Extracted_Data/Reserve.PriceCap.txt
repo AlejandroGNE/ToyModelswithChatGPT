@@ -1,0 +1,27 @@
+Header: Reserve Price Cap
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cap on Reserve Price for settlement
+Spin Up	VoRS	500	$/MW
+Spin Up	Price Cap	300	$/MW
+Reg Up	VoRS	1000	$/MW
+Reg Up	Price Cap	300	$/MW
+
+Paragraphs:
+Reserve Price Cap is the cap on Reserve Price for settlement.
+
+The Reserve Price is set by the dual variable value (shadow price) associated with the constraint that Provision must equal or exceed the requirement (or Risk ). That shadow price generally takes a value between zero and the VoRS . Price Cap allows you to cap the Price at a lower level than VoRS , while using VoRS to indicate the priority for relaxation of Reserve requirements between multiple classes of Reserve.
+
+Example
+
+In this example the Reserve "Spin Up" has lower priority in terms of Shortfall than "Reg Up" but the Price output are capped at the same value.
+
+See also: Price Floor
+Lists:
+

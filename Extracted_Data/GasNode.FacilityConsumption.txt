@@ -1,0 +1,15 @@
+Header: Gas Node Facility Consumption
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas consumed by connected Facilities
+
+Paragraphs:
+Gas Node Facility Consumption is the gas consumed by connected Facilities.
+Lists:
+

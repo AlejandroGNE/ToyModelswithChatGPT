@@ -1,0 +1,17 @@
+Header: Reserve Nested Reserves Cascading
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the relationship between the reserves is cascading or not
+
+Paragraphs:
+Reserve Nested Reserves Cascading is a flag that determines whether the relationship between the reserves is cascading or not.
+            When the relationship is Cascading, a higher quality nested reserve (e.g. regulation up) can be used to meet a lower quality reserve (e.g. spinning) requirement.
+            When the relationship is not Cascading, the Reserve and its Nested Reserve must be of the same type.
+Lists:
+

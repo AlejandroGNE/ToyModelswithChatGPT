@@ -1,0 +1,12 @@
+Header: Diagnostic Marginal Expansion Increment
+
+Table Details:
+Units:	MW
+Default Value:	1000
+Validation Rule:	Any Value
+Description:	Increment used for load in the region marginal expansion unit diagnostic.
+
+Paragraphs:
+Diagnostic Marginal Expansion Increment is a parameter of the Marginal Expansion Unit diagnostic. It sets the amount by which the load is incremented when determining the marginal expansion Generator .
+Lists:
+

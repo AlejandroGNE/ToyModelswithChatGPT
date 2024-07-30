@@ -1,0 +1,23 @@
+Header: Electricity to Gas
+
+Table Details:
+
+Paragraphs:
+Contents 1. Introduction 1. Introduction Gas Plant can be linked to the electrical network through Electrical Node to represent its electricity consumption when producing gas in a integrated gas and electricity model.
+Property Energy Usage is used to model the average electricity consumption per gas production.
+
+1. Introduction 1. Introduction Gas Plant can be linked to the electrical network through Electrical Node to represent its electricity consumption when producing gas in a integrated gas and electricity model.
+Property Energy Usage is used to model the average electricity consumption per gas production.
+
+1. Introduction
+
+1. Introduction Gas Plant can be linked to the electrical network through Electrical Node to represent its electricity consumption when producing gas in a integrated gas and electricity model.
+Property Energy Usage is used to model the average electricity consumption per gas production.
+
+Gas Plant can be linked to the electrical network through Electrical Node to represent its electricity consumption when producing gas in a integrated gas and electricity model.
+Property Energy Usage is used to model the average electricity consumption per gas production.
+
+Gas Plant can be linked to the electrical network through Electrical Node to represent its electricity consumption when producing gas in a integrated gas and electricity model.
+Property Energy Usage is used to model the average electricity consumption per gas production.
+Lists:
+

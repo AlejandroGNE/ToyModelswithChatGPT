@@ -1,0 +1,141 @@
+Header: PLEXOS Report Engine
+
+Table Details:
+Gen1	Generation	1/1/2013	2.0
+Gen1	Generation	1/1/2013 12:00	2.0
+Gen2	Generation	1/1/2013	1.0
+Gen2	Generation	1/1/2013 12:00	1.0
+Gen1	Generation	1/1/2013	4.0
+Gen2	Generation	1/1/2013	2.0
+Gen1	Generation	1/1/2013	2.0
+Gen1	Generation	1/1/2013 12:00	2.0
+Gen2	Generation	1/1/2013	1.0
+Gen2	Generation	1/1/2013 12"00	1.0
+Gen1	Generation	1/1/2013	100.0
+Gen2	Generation	1/1/2013	100.0
+Gen1	Generation	1/1/2013	2.0
+Gen1	Generation	1/1/2013 12:00	2.0
+Gen1	Generation	1/1/2013	100.0
+Gen2	Generation	1/1/2013	1.0
+Gen2	Generation	1/1/2013 12:00	1.0
+Gen2	Generation	1/1/2013	100.0
+
+Paragraphs:
+The PLEXOS Solution Reporting feature is designed to provide Solution query results with more advanced projection and filtering than the Solution Viewer. It generates results in HTML or XML format.
+
+The Solution Reports Window is accessed via the File tab. The initial screen is essentially disabled, waiting for a Solution database to be selected via the file selection button to the right of the "Source File" field.
+
+In the main area of the Window are basic controls for filtering solution data. The Phase selection allows for a single Phase. The Period Type selection allows for a single Period Type. The Series Type determines which field presents in columns. The Object Range allows for filtering by all Objects in a Collection, all objects in a certain Category under a particular Collection, or a single specific Object. The Date Range allows filtering from a particular Start Date and Period, and a Period Count from that starting date. The Properties list allows filtering by one or more Properties. In the case where the Solution has more than one Model, a similar list for Models is presented. In the case where the Solution has more than one Timeslice, a similar list for Timeslices is presented. In the case where the Solution has more than one Sample, a similar list for Samples is presented. The Query String allows the user to specify their own projection, additional filtering, and grouping. Subreport Links specifies fields to link one Report selection to the next. In addition to the query controls there are two lists on the left edge of the Window. The top most list allows users to save and load the configuration in the query controls. The lower list allows users to group stored configurations from the top most list into "batches", allowing multiple reports to be executed in one action.
+
+The Query String syntax allows custom projection, filtering and grouping. The basic format of the query string consists of a select clause, an optional where clause, an optional group by clause, and an optional order by clause.
+
+The select clause begins with the select keyword. Following this can be any comma-delimited list of field names from the basic Solution query. Any field names which contain spaces must be surrounded by curly braces. The following field names are selectable from a query where the Series Type is "List":
+
+Where the Series Type is not "List", the columns generated can be referred to in the select clause. When changing the Series Type it is important to note the following: Where the Series Type is not set to "List", the fields Value and Units no longer make sense. Instead the Value is presented under its column name. Where the Series Type is Properties, for example, and one of the Properties selected is Generation, the field "Generation" is available and should be used to select the Generation Value. The Value field should not be used in this case. Furthermore, in a Properties query, the Property field should not be used in the select clause either, since each Property will become a column. Likewise in a Names query the Child Name field should not be used, and so on for each Series Type. Where the Series Type is not "List", there is shorthand to refer to all of the additional columns without needing to know their names. The symbol $$ is a placeholder which refers to all of the columns for the Series Type. In a Properties query, for example, where Generation and {Units Generating} were included, "select $$" would be equivalent to "select Generation, {Units Generating}".
+
+Mathematical expressions can be used in the select clause. Here are some examples:
+
+The expressions above would be named "ExprA". Anonymous fields can be given an explicit name using the as keyword, and named columns can also be used in other expressions appearing to the right of the named expression. For example (remembering that names with spaces must be surrounded by curly braces):
+
+select {Child Name}, Value * 2.0 as {Two Times}, {Two Times} * 2.0 as {Four Times} The + operator can also be used to concatenate strings. String literals can be included using double quotes. For example:
+
+Expressions in a select clause can include built-in functions. For example: select {Child Name}, abs(Value) * sign(Value) as Redundant The following built-in functions are available:
+
+As well as there are following aggregation functions:
+
+"a" can be a field name or an expression. "a" can also be the $$ symbol, in which case the function is expanded out as follows, (using SUM as an example in a Properties Series)... SUM($$) is expanded out as- SUM(Generation), SUM({Units Generating}), etc.
+
+A where clause consists of the where keyword, followed by a Boolean expression. Any expression evaluates to True if non-zero
+
+The last example is equivalent to "where Value !=0".
+
+The group by clause is a list of fields by which the results are divided into groups. It should be used in conjunction with aggregation functions in the select clause. The following query with and without the group by illustrates... select {Child Name}, Property, Datetime, SUM(Value) as Value
+
+Example output:
+
+With a group by:
+
+An order by clause changes the default sorting order of the query. It consists of a list of column names, each with an optional sort direction (ascending or descending).
+
+For example: order by Value
+
+Where the sort direction is omitted, ascending order is the default.
+
+Below the Report Title is the facility to add and remove additional tabs. Each tab represents a query which will be run and appended to the end of the report. However, if the previous tab defines fields in the Subreport Links box, that tab becomes a Subreport to the previous result. The subreport links define a key by which to split up the subreport's results. Each division in the subreport is output under the block of results in the parent report where the key ends. To illustrate, consider the following result sets...
+
+Using the subreport links field, specifying "{Child Name}, Property", the second result is linked to the first in the following way...
+
+On the left hand side of the Reporting Window are controls for storing report configurations which can later be applied again. Create a new configuration by setting the inputs as desired, entering a Report Title, and clicking the "+" button on the top panel. The center button can update a selected configuration. The lower panel can create batches of report configurations. Create a batch and drag configurations from the top list into the batch. When the batch is executed it will run all of the specified configurations sequentially.
+Lists:
+	- Model
+	- {Parent Name}
+	- Collection
+	- {Child Name}
+	- Category
+	- Property
+	- Band
+	- Timeslice
+	- Sample
+	- Datetime
+	- Value
+	- Units
+	- Phase
+	- select {Child Name}, Value * 2.0
+	- select {Child Name}, Value + (30 - Value) * 0.5
+	- select {Child Name}, (Generation / 2)
+	- select {Parent Name} = "." {Child Name}
+	- select "Band" + Band
+	- abs(a) - Absolute value of a
+	- acos(a) - Angle whose cosine is a
+	- asin(a) - Angle whose sine is a
+	- atan(a) - Angle whose tangent is a
+	- atan2(a,b) - Angle whose tangent is a
+	- ceil(a) - Smallest integral value that is greater than or equal to a
+	- cos(a) - Cosine of the angle a
+	- cosh(a) - Hyperbolic cosine of the angle a
+	- e() - A constant which is the natural logarithmic base
+	- floor(a) - Largest integral value that is less than or equal to a
+	- if(a,b,c) - If a is non-zero, returns b, else returns c
+	- log(a,b) - Logarithm of a in the base b
+	- max(a,b) - Larger of a and b
+	- min (a,b)) - Smaller of a and b
+	- pi() - A constant which is the ratio of the circumference of a circle to its diameter
+	- rand() - Random number between 0 and 1
+	- round(a,b) - Round a to b fractional digits.
+	- sign(a) - Sign of a to b fractional digits
+	- sin(a) - sine of angle a
+	- sinh(a) - Hyperbolic sine of angle a
+	- sqrt(a) - Square root of a
+	- tan(a) - Tangent of angle a
+	- tanh(a) - Hyperbolic tangent of angle a
+	- MIN(a)
+	- MAX(a)
+	- AVG(a)
+	- COUNT(a)
+	- SUM(a)
+	- where Value > 1.0
+	- where Value * 2.0 >=100.0 and ({Child Name}) =="Gen1" or {Child Name} == "Gen2})
+	- where Value
+	- select {Child Name}, Property, MIN(Datetime) as Datetime, SUM(Value as Value
+	- group by {Child Name}, Property
+	- order by Value desc
+	- order by {Child Name} asc , Value desc
+
+
+H2s:
+Contents
+1. Introduction
+2. The Solution Reports Window
+3. The Query String
+4. Subreports
+5. Storing Configurations
+
+H3s:
+3.1. The Select Clause
+3.2. The Where Clause
+3.3. The Group By Clause
+3.4. The Order By Clause
+
+H4s:
+3.1.1. Select Clause Expressions
+3.1.2. Select Clause Functions

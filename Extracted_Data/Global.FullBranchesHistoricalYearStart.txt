@@ -1,0 +1,15 @@
+Header: Global Full Branches Historical Year Start
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Scenario Tree: First year of historical data for full branches
+
+Paragraphs:
+Global Full Branches Historical Year Start is the First year of historical data for full branches.
+Lists:
+

@@ -1,0 +1,16 @@
+Header: Entity Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of sales to the Markets
+
+Paragraphs:
+Entity Revenue is the value ( Revenue )
+          from Sales to the Markets .
+Lists:
+

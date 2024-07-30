@@ -1,0 +1,15 @@
+Header: Reserve Generators Initial Pump Load Raise Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Pump load raise reserve provision at time zero
+
+Paragraphs:
+Reserve Generators Initial Pump Load Raise Provision is Pump load raise reserve provision at time zero, which is the Lower Reserve part of Pump Dispatchable Load Provision . It should be set when Duration is defined.
+Lists:
+

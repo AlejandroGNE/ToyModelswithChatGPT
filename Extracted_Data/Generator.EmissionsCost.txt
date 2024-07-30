@@ -1,0 +1,20 @@
+Header: Generator Emissions Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost from production of emissions
+
+Paragraphs:
+Generator Emissions Cost is the cost of emissions allocated to the generator and is defined as:
+
+See also:
+
+* Production in this equation refers to the gross production prior to removal at the Removal Rate whereas the reported Production is net of the removal rate.
+Lists:
+	- Emission Generators Allocation
+

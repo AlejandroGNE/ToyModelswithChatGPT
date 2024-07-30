@@ -1,0 +1,19 @@
+Header: Region Fixed Cost Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	This parameter is a percentage to represent the amount of fixed cost considered in the recovery algorithm (but PLEXOS will still report the full amount of fixed costs on each generator/line)
+
+Paragraphs:
+Region Fixed Cost Scalar is used in the LRMC Recovery dynamic mark-up algorithm. It scales, internal to the simulation, the Generator Fixed Costs without affecting the reported costs. Thus this property is used to increase or decrease the amount of fixed costs that Generators will attempt to recover and thus influence the Mark-up values calculated.
+
+See also:
+Lists:
+	- Company Strategic
+	- Company Mark-up Bias
+

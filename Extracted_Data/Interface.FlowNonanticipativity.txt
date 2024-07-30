@@ -1,0 +1,25 @@
+Header: Interface Flow Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Interface Flow Non-anticipativity applies when the Stochastic Method is set to "Scenario-wise Decomposition". It is used to identify the non-anticipative Interface flow decisions i.e. flows whose values must be determined in stage one of the two-stage stochastic optimization. This must be set in combination with Flow Non-anticipativity Time . The property can take any value, but there are two special cases to consider:
+
+Any positive value then acts as a penalty on anticipating the values of the uncertain inputs. It is a useful feature that the non-anticipativity can be relaxed over time as in the following example:
+
+See also:
+Lists:
+	- Line Flow Non-anticipativity
+	- Generator Unit Commitment Non-anticipativity
+	- Generator Generation Non-anticipativity
+	- Generator Pump Unit Commitment Non-anticipativity
+	- Generator Pump Load Non-anticipativity
+	- Storage Trajectory Non-anticipativity
+

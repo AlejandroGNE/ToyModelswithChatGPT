@@ -1,0 +1,22 @@
+Header: Purchaser Min Energy
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum energy
+
+Paragraphs:
+Purchaser Min Energy, and the period-specific variants, defines a lower bound on the Purchaser's Load on an hourly , daily , weekly , monthly , or annual basis.
+
+See also:
+Lists:
+	- Purchaser Min Load Factor
+	- Purchaser Max Energy
+	- Purchaser Max Load Factor
+	- Purchaser Min Energy Violation
+	- Purchaser Min Energy Violation Cost
+

@@ -1,0 +1,15 @@
+Header: RSI Lerner Index Calibration Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Calibration factor added to Lerner Index
+
+Paragraphs:
+Lerner Index Calibration Factor is an adjustment factor in the equation for Lerner Index
+Lists:
+

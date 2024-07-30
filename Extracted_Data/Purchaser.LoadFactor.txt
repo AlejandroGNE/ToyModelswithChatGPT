@@ -1,0 +1,21 @@
+Header: Purchaser Load Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of load bids cleared
+
+Paragraphs:
+Purchaser Load Factor is the proportion of load bids cleared and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Purchaser Max Load Factor
+	- Purchaser Min Load Factor
+

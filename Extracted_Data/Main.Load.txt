@@ -1,0 +1,21 @@
+Header: Load Class
+
+Table Details:
+Description:	Electricity Load
+
+Paragraphs:
+See also Load Property Reference for
+            a detailed list of properties for this class of object.
+
+Load represents the real power (MW) load at a node. There are two
+          methods to input load data in PLEXOS.
+
+The user can use Load if loads served by
+          different companies are present at a node. For example, if at Node_1,
+          Load_1 is served by Company_1, and Load_2 is served by Company 2, then Load should be used. If the user chooses
+          to input load data using Load , then the Region feature is disabled internally
+          by PLEXOS.
+Lists:
+	- Region , and
+	- Load
+

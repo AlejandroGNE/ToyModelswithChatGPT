@@ -1,0 +1,39 @@
+Header: Performance MIP Relative Gap
+
+Table Details:
+Units:	-
+Default Value:	0.0001
+Validation Rule:	≥0
+Description:	Declare the integer solution optimal when this gap is reached between the current integer solution and best-bound linear relaxation (this is not a measure of optimality).
+
+Paragraphs:
+Performance MIP Relative Gap is a
+          solver setting for the mixed integer optimizer. The parameter may take
+          any value in the range 0.0 to 1.0.
+
+When the value:
+
+|bestbound-bestinteger|/(1e-10+|bestinteger|)
+
+falls below the value of this parameter, the mixed integer
+          optimization is stopped.
+
+Here:
+
+
+
+For unit commitment/economic dispatch problems a relative gap of
+          between 0.1-1% can provide a good balance of quality and performance.
+
+See also:
+Lists:
+	- 'bestinteger' refers to the objective function value associated
+            with the best integer feasible solution found so far; and
+	- 'bestbound' refers to the objective function value of any linear
+            relaxation to the integer problem that has yet to be 'ruled out' as
+            potentially leading to a better integer solution
+	- Performance MIP
+              Absolute Gap
+	- Performance MIP
+              Max Relative Gap
+

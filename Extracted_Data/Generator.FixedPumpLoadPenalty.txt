@@ -1,0 +1,15 @@
+Header: Generator Fixed Pump Load Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Fixed Pump Load].
+
+Paragraphs:
+Generator Fixed Pump Load Penalty is the penalty for violation of Fixed Pump Load .
+Lists:
+

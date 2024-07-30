@@ -1,0 +1,11 @@
+Header: Message 3221
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Interleave configuration is ambiguous after generic object compilation. Collection IDs <value> each report <name>.
+
+Paragraphs:
+Message 3221 occurs in the following circumstances:
+Lists:
+

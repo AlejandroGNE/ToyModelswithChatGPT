@@ -1,0 +1,15 @@
+Header: Water Plant Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water production cost
+
+Paragraphs:
+Water Plant Production Cost is Water production cost.
+Lists:
+

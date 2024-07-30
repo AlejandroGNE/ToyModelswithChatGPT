@@ -1,0 +1,35 @@
+Header: Constraint RHS Constant
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Right hand side RPN constant
+
+Paragraphs:
+Constraints RHS Constant defines
+          a text expression that defines the right hand side of the constraint.
+          This expression uses Reverse
+            Polish Notation (RPN) and can involve any combination of values from:
+
+A typical example of where this may be applied is when modelling
+          transmission flow limits that depend on a complex combination of
+          factors such as system inertia. The textual expressions on the
+          right-hand side will be evaluated iteratively during the simulation.
+
+Please note that the Constraint RHS property must also be defined. The evaluated RHS Constant value is added to the RHS value (which can of course be zero).
+
+The RHS Constant value can change over time by using either the date
+          from/to or the Timeslice fields. However it must be noted that the RPN
+          expression cannot be aggregated for partial chronology. Therefore the
+          RPN Constant is read at the beginning of each step and uses the first
+          interval of that step to determine the expression used.
+
+For more details information about the RPN syntax and usage please
+          refer to the Concise
+            Modelling Guide.
+Lists:
+

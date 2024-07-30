@@ -1,0 +1,61 @@
+Header: PLEXOS Connect Concepts
+
+Table Details:
+
+Paragraphs:
+PLEXOS Connect is developed to complement PLEXOS Integrated Energy Model (PLEXOS Desktop Edition) simulation tool to provide centralized data management functionality and distributed computing functionality. It is therefore crucial that PLEXOS Connect is designed to be secure, reliable, and robust against fault or accidental corruption.
+
+PLEXOS Connect has been implemented using centralized architecture (client-server architecture). There are three main components in a PLEXOS Connect system, namely PLEXOS Connect Server, PLEXOS Connect Client and PLEXOS Launch Control. It is recommended that PLEXOS Connect system to be tightly deployed on a local area network. Figure 2.1 shows a typical setup of a PLEXOS Connect system.
+
+PLEXOS Connect Server is the most important component in a PLEXOS Connect system. Each PLEXOS Connect system has one PLEXOS Connect Server, which is the central of the PLEXOS Connect system in which all other components in the system connect to. All data will be stored on and retrieved from the PLEXOS Connect Server.
+
+There will also be computing machines in the network (PLEXOS Connect Client) which are configured (see Getting Started with Connect) to connect to the PLEXOS Connect Server. The PLEXOS Connect Clients will query the PLEXOS Connect Server for data to perform simulations. All PLEXOS simulation jobs queued on the PLEXOS Connect Server will be dispatched to these computers for execution. On completion, the results will be sent back to the server for storage and retrieval.
+
+PLEXOS Launch Control is the graphical user interface for users to perform most of the tasks for PLEXOS Connect system. PLEXOS Launch Control can be used from any computer connected to the network in which a PLEXOS Connect Server is connected to. The functionality of PLEXOS Launch Control is limited based on the user privileges (see PLEXOS Connect Concepts ). PLEXOS Launch Control is bundled with PLEXOS Desktop Edition, or it can be installed separately.
+
+A dataset is a set of files required for a PLEXOS simulation. A dataset usually represents a power system model. Users can create multiple versions of the dataset for archiving, or study purposes. Users can also check-out the dataset. When a dataset is checked-out, other users will not be able to upload any other version of the same dataset. PLEXOS Connect allows users to create folders for organizing datasets. This is useful when the number of datasets grow, enabling users to organize their datasets into folders.
+
+PLEXOS Connect Clients require a PLEXOS engine to perform simulation on the job that has been dispatched to them. PLEXOS engine packages can be downloaded from our client area http://energyexemplar.com/clientarea/?view=downloads . Users will need to upload these engines to PLEXOS Connect Server to make them available for the PLEXOS Connect system.
+
+When a PLEXOS Connect Client is configured to connect to a PLEXOS Connect system, it will be known as a client in the PLEXOS Connect system. The client will serve as a computing resource for the PLEXOS Connect system to be used for performing PLEXOS simulations. A PLEXOS Connect Client can have multiple clients connected to a PLEXOS Connect system. This enables more capable computing machines to perform more simulations in parallel. PLEXOS Connect allows clients to be assigned to groups. This will allow a job to be assigned to a particular group of clients, therefore simulation of the job can only occur on the particular group of clients.
+
+A jobset is a batch of jobs. Users will need to create a job to configure how a dataset should be used for PLEXOS simulations. In a job, users can choose which version of the dataset to simulate; which PLEXOS Engine package to use and which clients the job should and should not be assigned to.
+
+When jobs are dispatched to the system, these jobs will be known as runs. The runs will be queued in the system until the next available client is ready to perform simulations. Once the simulations are complete, the results of these runs will be sent back to the server for storage and retrieval. Please note, only compressed XML solutions will be stored by Connect.
+
+A PLEXOS Connect System supports multiple users using the system concurrently. Each user should have a user account that identifies the user with a username. To log on to the PLEXOS Connect System, the user is required to be authenticated with the user's password.
+
+There are four levels of privileges for a user account:
+
+Typically, a user will start with creating a power system model using PLEXOS Desktop Edition user interface. After a user has created the model, instead of performing the simulation locally, a user can upload the model to a PLEXOS Connect system. The user creates a dataset to represent the uploaded model. When the user has finished uploading the model, the user can configure how a dataset should be simulated by creating a job. Once the job has been created, it can be dispatched to the system. The next available client will perform the simulation. The client will download the required files for the dataset and the required engine to perform the required simulation. On completion, the client will upload the results back to the PLEXOS Connect Server. The user will then be able to query and review the results.
+
+All data of a PLEXOS Connect system is stored on the location where PLEXOS Connect Server is configured (See Getting Started with Connect ). Hence, the data of a PLEXOS Connect system can be backed up by just making copies of the files in the specified location. Consequently, a PLEXOS Connect system can be restored easily by just having the copied files restored to the specified location. Using incremental or differential backup solutions work well in backing up data for a PLEXOS Connect system. PLEXOS Connect provides a tool for backing up the files.
+
+Select a folder and PLEXOS Connect will start making copies of the files into the selected folder. If the files have been copied previously, PLEXOS Connect will skip those files. Please note that PLEXOS Connect makes a snapshot of the files at the start of the backup and hence new files thereafter will not be copied.
+
+PLEXOS Connect System uses the same licensing system as PLEXOS Integrated Energy Model. Please refer to the documentation for PLEXOS Integrated Energy Model for more information. The recommended licensing for use with PLEXOS Connect is server licensing.
+Lists:
+	- None Privileges: At the lowest level with 'none' privileges, users are able to only view and retrieve data from the PLEXOS Connect system. Note that the user can only retrieve data in which he has permission.
+	- Execute Privileges: Execute privileges grants users with the extra privileges to manage jobs, allowing users to add, update and dispatch jobs.
+	- Update Privileges: Update privileges grants users with all the execute privileges and also the privileges to manage datasets, and hence only users with update privileges can add and update datasets.
+	- Administrator Privileges: Administrator privileges grants the user full access to the system which includes, execute and update privileges as well as the privileges to manage accounts which is exclusive to administrator accounts.
+
+
+H2s:
+Contents
+1. Design and Development Goals
+2. PLEXOS Connect Architecture
+3. Datasets
+4. Engines
+5. Clients
+6. Jobsets
+7. Runs
+8. User Accounts and Privileges
+9. PLEXOS Connect Workflow
+10. Backup and Recovery
+11. Licensing
+
+H3s:
+2.1. PLEXOS Connect Server
+2.2. PLEXOS Connect Client
+2.3. PLEXOS Launch Control

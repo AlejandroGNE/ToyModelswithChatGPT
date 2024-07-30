@@ -1,0 +1,17 @@
+Header: Zone Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Zone Inertia  is the total
+          inertia provided by generators, batteries, Power2X and charging
+          stations in the zone.
+Lists:
+

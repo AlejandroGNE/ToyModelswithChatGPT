@@ -1,0 +1,19 @@
+Header: Generator UoS Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total use of system cost
+
+Paragraphs:
+Generator UoS Cost is the total use of system cost, and is defined as:
+
+Note that if Pump UoS Charge is not defined, then UoS Charge is used in its place.
+
+See also Generator SRMC .
+Lists:
+

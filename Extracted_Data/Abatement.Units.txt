@@ -1,0 +1,18 @@
+Header: Abatement Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if emission abatement technology is installed
+
+Paragraphs:
+Abatement Units is a flag that indicates if the Emission abatement technology is installed.
+
+See also:
+Lists:
+	- Abatement Units Out
+

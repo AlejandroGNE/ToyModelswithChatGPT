@@ -1,0 +1,54 @@
+Header: Storage Trajectory Non-anticipativity
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+Trajectory Non-anticipativity	0	$/MW	1
+Trajectory Non-anticipativity	1000	$/MW	2
+Trajectory Non-anticipativity Volume	1	GWh	1
+Trajectory Non-anticipativity Volume	1000	GWh	2
+
+Paragraphs:
+Storage Trajectory
+          Non-anticipativity is the penalty applied to violation of the
+          'non-anticipativity' constraints - those that force the storage
+          release decisions across multiple samples to be identical i.e. that prevent the optimization from anticipating the Natural
+            Inflow . The default value of -1 means the constraints are hard i.e. the same storage trajectory decision must be made for all samples.
+
+For all stochastic optimization problems, except SDDP ,
+          defining the property adds the following constraints to the
+          formulation:
+
+End
+            Volume ( s , t ) = End
+            Volume ( s +1, t ) ∀ s < S
+
+where: s is the sample number S = Stochastic Risk Sample Count
+
+For SDDP , setting
+          this property to-1 simply indicates that this is a stochastic storage.
+
+This property can be defined in combination with Trajectory
+            Non-anticipativity Volume to define a multi-band function.
+
+Note that the units of Trajectory Non-anticipativity are $/ MWh while Trajectory
+            Non-anticipativity Volume is in units of storage ( e.g. GWh , CMD, AF) and thus internally a
+          conversion is made for this penalty to units of storage and this is
+          done by using either Downstream
+            Efficiency or if that is not defined then by computing the Potential
+            Energy .
+
+See also:
+Lists:
+	- Storage Trajectory
+              Non-anticipativity Time
+	- Storage Trajectory
+              Lower Bound Penalty
+	- Storage Trajectory
+              Upper Bound Penalty
+

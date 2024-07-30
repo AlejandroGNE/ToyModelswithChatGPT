@@ -1,0 +1,12 @@
+Header: Performance Small LP Nonzero Count
+
+Table Details:
+Units:	-
+Default Value:	250000
+Validation Rule:	>0
+Description:	Maximum number of non-zeros in a 'small' linear programming problem.
+
+Paragraphs:
+Problems with this number of non-zeros or less are considered 'small' and will always use the solver algorithm set by the Small LP Optimizer . Problems with more non-zeros are considered 'large' and use the optimizers set by the Cold Start Optimizer 1 , Cold Start Optimizer 2 , Cold Start Optimizer 3 , Hot Start Optimizer 1 , etc .
+Lists:
+

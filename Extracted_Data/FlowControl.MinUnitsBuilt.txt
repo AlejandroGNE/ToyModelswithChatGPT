@@ -1,0 +1,15 @@
+Header: Flow Control Min Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of units automatically constructed in aggregate over the planning horizon
+
+Paragraphs:
+Flow Control Min Units Built is Minimum number of units automatically constructed in aggregate over the planning horizon. This property is similar to Line Min Units Built . See that topic for details and examples.
+Lists:
+

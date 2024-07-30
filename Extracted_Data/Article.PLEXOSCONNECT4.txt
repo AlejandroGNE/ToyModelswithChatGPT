@@ -1,0 +1,365 @@
+Header: PLEXOS Launch Control User Interface
+
+Table Details:
+
+Paragraphs:
+Figure 4.1 shows the main user interface for PLEXOS Launch Control. As seen from the interface, there are three main panels, namely the side panel, the run panel and the output panel.
+
+As seen above, the side panel which is on the top left of PLEXOS Launch Control has five tabs:
+
+In the run panel, the runs which have been dispatched to the system will be listed here. The runs are filtered by the date as shown on the top panel of the run panel. Runs that are currently executing are not filtered out of the run panel, and will always be listed by default. The filter settings can be changed by clicking on the top panel of the run panel. The runs listed in the run panel are also filtered by items selected in the selected tab on the side panel. For example, if you have selected the client tab, and select clients with the name "COMPUTER1" and "COMPUTER2", then the run panel will only shows those runs which have been assigned to the two mentioned clients. The columns within the run panel can be customised by right-clicking inside of the run panel and choosing the "Columns" sub-menu. Within this menu, various details for the run can be shown, including run progress, priority, assigned client, and more. When a user selects a run in the run panel where its simulation is still in progress, the output panel will show the current output from the simulation and when available, the current progress percentage of the run. However, if a user selects a completed run, the output panel by default will show the summary of the simulation. You can change what is shown by choosing a different option in the drop down list located in the top left of the output panel.
+
+Note: The run progress percentage requires an engine version of 7.2 or higher, this progress will replace the drop down option in the top left of the output panel.
+
+Users can manage user accounts in the account tab on the side panel. Note that users will need to have administrator privileges to manage user accounts here. All the user accounts in the system will be listed in the main panel of the account tab.
+
+The status of the user account is represented by the colour of the user icon:
+
+You will see the username of each account beside the user icon, and underneath the username is the privileges that have been assigned to the user. Within the account tab, users can:
+
+Users can also change their password here, by clicking on the gold key button.
+
+Please click on the add button on the top panel of the account tab to add a new user account to the PLEXOS Connect system. A dialog box as shown below will be presented.
+
+Please enter the username and password for the new user account into the dialog box. You will need to re-enter the password to confirm the password. You can also assign privileges by clicking on the lower left button and select the desired privileges.
+
+Note: You will need to have administrator privileges to change the privileges of a user account.
+
+Please right click on the user account from the account tab and select rights from the context menu. Then select the desired privileges from the extended menu.
+
+To change the privileges of a user account to basic privileges, you will need to uncheck any checked privileges from the extended menu of the rights context menu.
+
+Note: You will need to have administrator privileges to change the privileges of a user account.
+
+Please click on the gold key button on the top panel of the account tab to change your password. A dialog box as shown below will be presented.
+
+Please enter your current password and your new password into the dialog box. You will also need to re-enter your new password to confirm your new password. If your password change is successful, the connection will be closed and you will need to log on to the system again.
+
+Users can manage engines in the engine tab on the side panel. Note that users will need to have execute privileges to manage engines here. All the available version of PLEXOS engines in the system will be listed in the main panel of the engine tab.
+
+Within the engine tab, users can:
+
+Please click on the add button on the top panel. You will need to browse for the new PLEXOS engine package which will be a zip file. If you do not have a PLEXOS engine package, you can download it from our client area http://energyexemplar.com/clientarea/?view=downloads After you've selected the file, the name of the engine will be entered automatically, which will be the version of the PLEXOS engine selected. Press okay on the new engine dialog box and the new engine package will be uploaded.
+
+Note: You will need to have execute privileges to upload a new engine.
+
+Please click on the trash button on the top panel to show all the removed engines in the engine tab. Then, select the engines that you wished to restore, right click on them, and select restore on the context menu. The engines will then be restored.
+
+Note: You will need to have execute privileges to restore removed engines.
+
+You can create a copy of any engine by selecting one or more engines from the engine tab, then right click on an engine and select 'Copy' from the context menu. Copying engines will not create any new engine files within the PLEXOS Connect Server, but will instead allow a single engine file to have multiple different names. Copying engines will not create any new engine files within PLEXOS Connect, but will instead allow a single engine file to have multiple different names.
+
+Copying engines will not create any new engine files within PLEXOS Connect, but will instead allow a single engine file to have multiple different names.
+
+Note: You will need to have execute privileges to copy engines.
+
+You can rename any engine by selecting an engine from the engine tab, then right clicking and selecting 'Rename' from the context menu. Next, you will be asked to input a new name for the engine. Renaming the engine will modify all references to the engine except in runs that have been deleted, completed or are currently running.
+
+Note: You will need to have execute privileges to rename engines.
+
+Users can manage clients in the client tab on the side panel. Note that users will need to have execute privileges to manage clients here. All the clients in the system will be listed in the main panel of the client tab. If there are client groups, they will be listed here as well.
+
+Within the client tab, users can:
+
+First, you will need to create a group by clicking on the folder button on the top panel of the client tab. You will have to name the group and the group window will be presented. You can then assign clients to the group by clicking on the add button on the top panel of the group window and select the clients you would like to assign to the group. You can open this group window later by double clicking on the group in the client tab.
+
+Note: You will need to have execute privileges to assign clients to a group.
+
+If you would like to stop a client from performing any simulations, right click on the client in the client tab and select 'pause'. You can allow the client to continue requesting for jobs by right clicking on the client and select 'Resume'.
+
+Note: You will need to have execute privileges to stop a client from performing any simulations.
+
+You can restrict access to a client by right clicking on a client in the client tab and select permissions. A permissions window will be presented. You can then click on add button on the top panel of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the client, will not be able to remove, pause, or send jobs to the client.
+
+User accounts, which do not have access to the client, will not be able to remove, pause, or send jobs to the client.
+
+Note: You will need to have execute privileges to administer permissions for a client.
+
+Please right click on the client from the client tab, and select priority from the context menu. Then select the desired priority level from the extended menu. The clients with higher priority will have jobs sent to them first.
+
+Note: You will need to have execute privileges to modify a client's priority.
+
+From the client tab, select this settings button to open the Client Settings window. From here, you can enable or disable the client timeout settings as well as set the timeout length and the default action. The timeout length determines how long a run can be executing for before the Connect Server will request the run to be stopped. The timeout has a minimum of 10 minutes and a maximum of 100 days, 23 hours and 59 minutes. There are three possible default actions to select from, these will determine what the Connect Server will do with any runs that have exceeded the timeout.
+
+Note: You will need to have admin privileges to modify the client settings.
+
+Users can manage datasets in the dataset tab on the side panel. Note that users will need to have update privileges to manage datasets here. Users can browse for all the datasets in the system here.
+
+Within the dataset tab, users can:
+
+Please click on the add button on the top panel of the dataset tab to add a new dataset to the PLEXOS Connect system. A dialog box as shown below will be presented.
+
+Then, you will need to click on the browse button (...) on the first row to select a dataset.
+
+Here you can select an existing dataset. By choosing an existing dataset, you will be adding a new version of the dataset to the system. Alternatively, you can click on the add button on the top panel to add a completely new dataset and select the newly created dataset. You can enter the version and the description for the dataset you intend to upload to the system. You must also select files to upload to the system, one easy way is to just drag and drop the files the simulation requires into the new dataset dialog box. Press okay on the new dataset dialog box, and the new dataset files will be uploaded. Note: You will need to have update privilege to check out a dataset. 5.2. How do I Check Out a Dataset? If you like to check out a dataset to prevent other users from modifying it, you can right click on the dataset in the dataset tab and select 'Check out'. Similarly, you can check the dataset back in by right clicking on the dataset and select 'Check in'. Note: You will need to have update privileges to check out a dataset. 5.3. How do I Restrict Access to a Folder? You can restrict access to a folder by right clicking on a folder in the dataset tab and select permissions. A permissions window will be presented. You can then click on add button on the top panel of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the folder, will not be able access datasets within the folder. Note: You will need to have update privileges to administer permissions for a folder. 5.4. How do I Copy a Dataset or Folder? You can create a copy of any dataset or folder by selecting one or more datasets and/or folders from the dataset tab, then right click on a selected item and select 'Copy' from the context menu. Next, from any folder you have permission to, right click inside the dataset tab and select 'Paste' from the context menu. This will copy all selected folders, datasets and the versions contained within them to the current folder. Any edits made to the copied datasets will not affect the original dataset. When copying folders, all folders and datasets contained within where you have permission to view will also be copied. Any sub folder that you do not have permission to access will be skipped. At the start of the copy of any folder you will be prompted about copying any folder permissions, this will copy all folder permissions for every folder during the copy. Note: You will need to have update privileges to copy a dataset. 5.5. How Do I Move a Dataset or Folder? You can create move any dataset or folder by selecting one or more datasets and/or folders from the dataset tab, then right click on a selected item and select 'Cut' from the context menu. Next, from any folder you have permission to, right click inside the dataset tab and select 'Paste' from the context menu. This will copy all selected folders, datasets and the versions contained within them to the new folder and then delete the originals. When moving folders, all folders and datasets contained within where you have permission to view will also be copied. Any sub folder that you do not have permission to access will be skipped. Moving a dataset will not update any references to it (ie, jobs, runs or email notifications). Note: You will need to have update privileges to move a dataset or a folder. 5.6. How do I Rename a Dataset or Folder? You can rename any dataset or folder by selecting a dataset or folder from the dataset tab, then right clicking on the item and selecting 'Rename' from the context menu. Next, you will be asked to input a new name for the item. Renaming datasets or folders will modify all references to it except in runs that have been deleted, completed or are currently running. Note: You will need to have update privileges to rename a dataset. 6. Managing Jobs Users can manage jobsets in the jobset tab on the side panel. Note that users will need to have execute privileges to manage jobsets here. All the jobsets in the system will be listed in the main panel of the client tab. Within the jobset tab, users can: Add new jobsets, jobs and folders Remove jobsets, jobs and folders Dispatch jobs for simulation Restrict access to jobsets 6.1. How do I Add a New Job? Please click on the add button on the top panel of the jobset tab to add a new job to the PLEXOS Connect system. A dialog box as shown below will be presented. Here, you will need to select which jobset the job should belong to, which dataset the job should simulate and the arguments required. The arguments will specify which projects or models to simulate. If there is more than one argument, then these will be executed in sequence on the same client. If you would like them to be distributed, you would have to create a job for each of the arguments. By default, the job will use the latest version, unless you specify a specific version. You can also specify the followings in more options: The engine to perform the simulation (by default it will use the latest engine) The client to perform the simulation (by default it will use any client that is available) The priority of the job (by default it is zero) Press okay on the new job dialog box and the new job will be added to the specified jobset. You will need to dispatch the job to the system for simulation. Note: Windows Connect Clients can't use Linux versions of the PLEXOS Engine and vice versa. Also, In Connect on AWS, the client auto start up behaviour is not aware of any client preferences. 6.2. How do I Dispatch Jobs for Simulations? You can dispatch all the jobs in a jobset for simulation by selecting the jobset and click on the play button on the top panel of the jobset tab. Alternatively, you can open a jobset by double click on it. Then, you can selectively select jobs in the jobset which you would like to dispatch. Click on the play button on the top panel of the jobset window to dispatch the selected jobs. Note: You will need to have execute privileges to dispatch jobs for simulations. 6.3. How do I Restrict Access to a Jobset? You can restrict access to a jobset by right clicking on a jobset in the dataset tab and select permissions. A permissions window will be presented. You can then click on add button on the top panel of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the jobset, will not be able access jobs within the jobset. Note: You will need to have execute privileges to administer permissions for a jobset. 6.4. How do I Copy a Jobset? You can create a copy of any jobset by selecting one or more jobsets from the jobset tab, then right click on a selected jobset and select 'Copy' from the context menu. Next, you will be asked if you want to have any jobset permissions copied over as well, selecting no will cause all copied jobsets to have no permissions set. All selected jobsets will be copied with any jobs contained inside, after the copy, any changes made will not affect the original jobset. Note: You will need to have execute privileges to copy a jobset. 6.5. How do I Rename a Jobset? You can rename any jobset by selecting a jobsets from the jobset tab, then right click the jobset and select 'Rename' from the context menu. Next, you will be asked to input a new name for the jobset. Renaming the jobset will modify all references to the jobset except in runs that have been deleted, completed or are currently running. Note: You will need to have execute privileges to rename a jobset. 7. Managing Runs Users can manage runs in the run panel. Note that users will need to have execute privileges to manage runs here. Within the run panel, users can: Create a run quickly Remove runs Stop and Resume Re-prioritize runs Download solution from run 7.1. How Do I Create a New Run Quickly? Users can create a new run without going through the steps of creating a dataset and adding a job. This can be done by clicking on the add button on the top panel and a dialog box as shown below will be presented. You must select files required for the run to upload to the system, one easy way is to just drag and drop the files the simulation required the new quick run dialog box. Note that these files will not be stored permanently on the server, they will be marked for deletion once the simulation for the run is performed. You must also specify arguments required for the simulation. The arguments will specify which projects or models to simulate. If there is more than one argument, then these will be executed in sequence on the same client. You can also specify the followings in more options: The jobset the run should be assigned to. The dataset the run should be assigned to. The engine to perform the simulation (by default it will use the latest engine) The client to perform the simulation (by default it will use any client that is available) The priority of the job (By default it is zero) Press okay on the new quick run dialog box, the files will be uploaded and a new run will be created awaiting the next client to pick it up for simulation. Note: Windows Connect Clients can't use Linux versions of the PLEXOS Engine and vice versa. You will need to have execute privileges to create a quick run. In Connect on AWS, the auto start up behaviour is not aware of a run's client preferences. 7.2. How do I Download a Solution Form a Run When a run has completed its simulation, you can download the solution by right clicking on the run and select download in the context menu. Then select solution to download the solution from the run. You will need to specify where you will like to download the solution to. Note: Connect will only store compressed XML solutions. 7.3. How do I download a Solution log From a Run? When a run has completed its simulation, you can download the log files by right clicking on the run, and select download in the context menu. Then select log to download the run log files from the PLEXOS Connect Server. You will need to specify where you would like to download the log files to. 7.4. How do I View a Solution log from a run? When a run has completed its simulation, you can view the log files by selecting a run and in the top left of the output panel, the drop down list will list any available logs that can be viewed. Any selected log will then be loaded into the output panel. 7.5. How do I View an Execution Time Summary for a Run? When a run has completed its simulation and the run has a summary log available, Launch Control can build a list detailing the amount of time each section of execution took to complete. To view this list, select one or more completed runs, right click on a selected run and select 'Execution Summary' in the context menu. This will bring up a new Report Window showing all the values found in the summary log. 7.6. How do I View a Run's Progress? While a run is currently being executed by a client, you are able to see the progress of each phase through the output panel or in the client output window. For both the output panel and the client output window, the progress is shown in the top left. The progress is updated between steps in a single phase, if a phase has a single step then no progress will be available for display. Note: This progress is determined by the output from the run and is not instantaneous. 7.7. How do I Rerun a Completed Run? If you need to restart a completed run, select one or more completed runs and right click a selected run, then select "Rerun" in the context menu. All selected completed runs will be recreated and set to start, these runs will then behave independently of their original runs. Jobset values decided at run creation (ie, latest engine, latest dataset version, etc) will not be recalculated, the values used by the original run will be reused in the new run. Note: Quick runs will require their files to still exist and Connect Server 2.8 or higher. 7.8. How do I Upload a Solution? If you have ran a simulation without using PLEXOS Connect, you are able to upload the simulation results to the PLEXOS Connect system so you can share it with other users. To add your own solution files, right click in the run panel and select 'Upload Solution', a dialog as shown below will open. You must select which solution files to upload, these files need to be in the '.zip' format otherwise they will not be added. The files are then listed in the box next to the label 'Solutions' with the names being the name of the solution files found within each .zip file. This dialog will create a new completed run and will add the solution files to this new run. Under more options, the details of this run can be left blank or be filled with the details available on the PLEXOS Connect system. You can also specify the following in more options: The jobset the solution was created with The dataset the solution was created with The arguments the solution was created with The engine used to perform the simulation Note: You will need to have execute privileges to upload a new solution. 7.9. How do I Schedule jobs for simulations? You can schedule all the jobs in a jobset for simulation, by selecting the jobset and click on the schedule button on the top panel of the jobset tab. Alternatively, you can open a jobset by double click on it. Then, you can selectively select jobs in the jobset which you would like to schedule. Click on the schedule button on the top panel of the jobset window to schedule the selected jobs. When schedule button is clicked, the following dialog will pop up. You then can pick when you would like to schedule the jobs for simulations. Note: You will need to have execute privileges to schedule jobs for simulations. 8. Managing Notifications Users can manage notifications from the email notifications window, which is opened by pressing the email notification button at the top of the run panel. To show more or less columns in the notification window, you can right click the panel and select the desired columns to display. This window will list all email notifications associated with the logged in account or if the user has admin privileges, all notifications will be shown. If you have admin privileges, you are able to configure the email's SMTP settings as well as create, edit or remove anyone's emails notifications. Within the notification window, you can: Add, edit and remove notifications Setup Connect Server's SMTP settings (admins only) Note: You will need to have execute privileges to manage email notifications. 8.1. How do I Setup PLEXOS Connect Server's SMTP Settings? You can configure PLEXOS Connect Server's SMTP settings by pressing the configuration button at the top of the notification window. When the configuration button is clicked, the following window will be opened. From here, you can set the hostname or IP and the port number of the email server that will allow PLEXOS Connect Server to send emails from. You will also need to specify an email address to send the emails from, this will be what will be in the 'From' field in all emails sent. The option 'Require SSL' will specify if PLEXOS Connect Server will need to use a Secure Socket Layer (SSL) when connecting to the specified SMTP server. If a login is required, under 'Use Login' you can specify what username and password is to be used when connecting to the SMTP server. After the settings have been stored in the PLEXOS Connect Server, opening this dialog will have the details automatically filled in for easier editing. The test button will allow you to test if the PLEXOS Connect Server is able to connect to the SMTP server and send an email. PLEXOS Connect Server will attempt to detect if there are any issues with the settings that have been inputted. This process may take a couple of minutes depending on the connection to the SMTP server. Note: You will need to have admin privileges to setup the SMTP settings. 8.2. How do I Create a New Email Notification? You can create new email notifications by clicking on the add button at the top of the notification window and the following dialog box will pop up. In this dialog, you are required to enter an email address and select an option from at least one of the drop down lists. The email address is required since this will be the address the notification will be sent to. Each drop down will list the current possible choices available to you. When any option other than '<any>' is selected from a drop down box, a tick box will appear next to it; this box will give the user the option to be notified for everything except the selected value. You can select which folder to search for datasets in by clicking on the folder button (\), this button will update to show the folder path that you have chosen. The drop down list will also update to list all available datasets within the selected folder. By default, notifications are sent after every matching notification, however, users can delay this by ticking the notify box, selecting this option will only send emails when there are no more matching notifications waiting to run. If you do not have permission to access any datasets or jobsets, they will not be listed in any drop down list. Note: You will need to have execute privileges to add a new notification. 8.3. How do I Edit an Email Notification? Notifications can be edited by double clicking on a notification or by right clicking on a notification and selecting 'Open' from the menu. This will open a dialog similar to the new notification window with all the values automatically filled in. Note: You will need to be the creator or have admin privileges to edit a notification. 9.Managing Licenses From the license control panel within PLEXOS Launch Control, you are able to view information about the license service and if you are an admins, you'll be able to modify the license service. To open the license control panel, press the license button at the top of the run panel. The control panel will allow you to view the basic information about the license as well as the product license list, current checkouts and recent checkins. If you are an admin, you'll also be able to view or modify the port number, license reserving rules, access list and license groups. The below image of the license control panel is from an account with admin access. In the basic information section, it will show the current username and company associated with the license service, whether or not the license has been registered and the expiry date. The IP address box will show a list of IP addresses that can be used to connect to the license server and the port number will show which port the server is currently using, only admins will be able to adjust the port number. On all tabs, except the 'Product Licenses' tab, there is a number included in brackets. For the checkouts and checkins, this number shows the number of entries contained in the tab. The access list has two numbers, the first number is the total number of enabled rules and the last number is the total number of rules. Lastly, the groups tab will show the total number of groups that have been created. 9.1. How do I Manage the License Reservations? Any licenses that have been reserved will only be available to the computer or group that it is reserved for. In the 'Product Licenses' tabs, you can add, edit or remove license reservations. This is to allow specific computers to always have a user set number of licenses available to it regardless of how many other computers are requesting licenses for the same product. To edit a license reservation, select a single reservation and right click on it, then select 'Edit' from the context menu. To remove a license reservation, expand the product it is for, select one or more rules from the product and press the delete button , alternatively, you can select a product and press the delete button to remove all reservations for that product. Note: You will need to have admin privileges to view or modify the reservation rules. 9.2. How do I Add a License Reservation? From the 'Product Licenses' tab, select a product you wish to create a new license reservation for and press the add button , this will open the following dialog. The dialog will show the product you have selected, the total number of licenses this product has and the total number of licenses that are not reserved. In the reserve text box, you will need to enter the number of licenses you wish to reserve and in the machine text box, you can either type in a machine name, type an IP address (see here for valid IP addresses) or press the down arrow and select a group. Note, only machine names or IP addresses will work and not domain names. Note: You will need to have admin privileges to add new reservation rules. 9.3. How do I Group or List the Checkouts or Checkins? In the checkouts or recent checkin tabs, it is possible to change the view of the tabs to be either grouped by product or in a list view. In the list view, all entries will be shown in a list and sorted by time by default. Otherwise when grouped, all entries will be grouped to the product that was checked out, and you can then expand each product individually to show which computers have checked out that product and at what time. 9.4. How do I Manage the Access List? In the access tab, admins are able to change the mode of the access list, add or remove rules and enable or disable individual rules. The mode of the access list can be changed by the drop down menu named 'Setting', there are two modes, 'ban these' which will ban all enabled machines in the list and 'allow only' which will only allow the enabled machines to request licenses from the license server. This access list will take priority over any other setting when I machine is checked. Individual rules can be enabled or disabled by clicking on the check box next to them, this will allow rules to be turned off without being deleted. When adding new rules, you must enter a computer name or an IP as well as a reason, for the available IP address options (see here). Note, only machine names or IP addresses will work and not domain names. It is also possible to edit individual rules by right clicking on a rule and selecting 'Edit' from the context menu. Note: You will need to have admin privileges to view or modify the access list. 9.5. How do I Manage the Group List? In the group tab, admins are able to create groups of machines for use with the license reservations. These groups allow a selection of machines to share a number of reserved licenses. When creating a new group, the group must have a unique name and at least one member. Group members must be either a computer name or an IP address (see here for available IP address options) and each group has a limit of 30 members. Note, the group name must not be the same as any machine name in your network. It is also possible to edit the groups by right clicking on a group and selecting 'Edit' from the context menu. Note: You will need to have admin privileges to view or modify the group list. 9.6. What IP Address Options are Available? The license server supports using specific IP addresses as well as IP address ranges wherever IP addresses are able to be entered. These options are to allow you to specify either a single computer or a range of computers without the need to type in every IP. Examples of valid IP address formats (note,the numbers are used as examples) Specific address (IPv4 + IPv6) E.g 192.168.0.10. This will match only to the computer with this specific address. Wildcard '*' (IPv4 only) E.g. 192.168.*. This will match to any IP starting with '192.168' Ranges E.g. 192.168.0.[100-200] (IPv4 only) This will match to all addresses between and including '192.168.0.100' to '192.168.0.200' E.g. 192.168.0.0-192.168.10.50 (IPv4 + IPv6) This will match to all addresses between and including '192.168.0.0' to '192.168.10.50' Subnet mask (CIDR notation, IPv4 + IPv6) E.g. 192.168.0.10/25. This is a binary based range, written in the format CIDR (Classless Inter-Domain Routing). The number after the slash '/' dictates how many binary bits to compare against. E.g. '192.168.0.10/25' will match any IP with the same first 25 bits or a range of '192.168.0.0' to '192.168.0.127'. 9.7. How do I View the License Event Log? Launch Control is able to receive the license event log from the license server that is built into the Connect Server. The license server will store the 100 most recent lines from the event log for viewing by Launch Control, however, Launch Control has no limit on how much it will hold. This event log will show all license requests made by any connecting computers as well as the license request response. If a license request is denied, the reason is listed in this event log. Messages saying 'Client Machine [<machine>] / User [<user>] connected' are connection tests from PLEXOS products to check the license server is active and able to respond. Note: You will need to have a Connect Server of version 2.8 or higher and admin privileges to view the license event log. 9.8. Where is the Server License File Located? There are 3 different possible locations for the license file (named 'EE.lic' or 'EE.xml'), one of these locations is hard set while the other 2 are dependent on the location of the Connect Server install folder. The first preferred location is dependent on and relative to the install location. Using the example in image shown above, the install path can change to be anything and the Connect folder can be named anything but the EE folder must be the folder before the Connect folder and named 'Energy Exemplar'. If the EE folder is found before the Connect folder, the license will be stored in: '<Install_Path>\Energy Exemplar\Common\'. Note: This is assuming the Connect Server has permission to write to this folder. The second preferred location is if Connect Server does not have permission to write to the first preferred location. This location is hard set to the Windows common application data folder, this may be different depending on your Windows version and settings. For Windows Vista and newer: 'C:\ProgramData\Energy Exemplar\Common\'. Finally, if the EE folder is not found, the license will be stored in the Connect folder. For example, '<<Install_Path>\<Connect_Folder>\Common\'.
+
+You can enter the version and the description for the dataset you intend to upload to the system.
+
+You must also select files to upload to the system, one easy way is to just drag and drop the files the simulation requires into the new dataset dialog box. Press okay on the new dataset dialog box, and the new dataset files will be uploaded.
+
+Note: You will need to have update privilege to check out a dataset.
+
+If you like to check out a dataset to prevent other users from modifying it, you can right click on the dataset in the dataset tab and select 'Check out'. Similarly, you can check the dataset back in by right clicking on the dataset and select 'Check in'.
+
+Note: You will need to have update privileges to check out a dataset.
+
+You can restrict access to a folder by right clicking on a folder in the dataset tab and select permissions. A permissions window will be presented. You can then click on add button on the top panel of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the folder, will not be able access datasets within the folder.
+
+Note: You will need to have update privileges to administer permissions for a folder.
+
+You can create a copy of any dataset or folder by selecting one or more datasets and/or folders from the dataset tab, then right click on a selected item and select 'Copy' from the context menu. Next, from any folder you have permission to, right click inside the dataset tab and select 'Paste' from the context menu. This will copy all selected folders, datasets and the versions contained within them to the current folder. Any edits made to the copied datasets will not affect the original dataset. When copying folders, all folders and datasets contained within where you have permission to view will also be copied. Any sub folder that you do not have permission to access will be skipped. At the start of the copy of any folder you will be prompted about copying any folder permissions, this will copy all folder permissions for every folder during the copy.
+
+Note: You will need to have update privileges to copy a dataset.
+
+You can create move any dataset or folder by selecting one or more datasets and/or folders from the dataset tab, then right click on a selected item and select 'Cut' from the context menu. Next, from any folder you have permission to, right click inside the dataset tab and select 'Paste' from the context menu. This will copy all selected folders, datasets and the versions contained within them to the new folder and then delete the originals. When moving folders, all folders and datasets contained within where you have permission to view will also be copied. Any sub folder that you do not have permission to access will be skipped. Moving a dataset will not update any references to it (ie, jobs, runs or email notifications).
+
+Note: You will need to have update privileges to move a dataset or a folder.
+
+You can rename any dataset or folder by selecting a dataset or folder from the dataset tab, then right clicking on the item and selecting 'Rename' from the context menu. Next, you will be asked to input a new name for the item. Renaming datasets or folders will modify all references to it except in runs that have been deleted, completed or are currently running.
+
+Note: You will need to have update privileges to rename a dataset.
+
+Users can manage jobsets in the jobset tab on the side panel. Note that users will need to have execute privileges to manage jobsets here. All the jobsets in the system will be listed in the main panel of the client tab.
+
+Within the jobset tab, users can:
+
+Please click on the add button on the top panel of the jobset tab to add a new job to the PLEXOS Connect system. A dialog box as shown below will be presented.
+
+Here, you will need to select which jobset the job should belong to, which dataset the job should simulate and the arguments required. The arguments will specify which projects or models to simulate. If there is more than one argument, then these will be executed in sequence on the same client. If you would like them to be distributed, you would have to create a job for each of the arguments. By default, the job will use the latest version, unless you specify a specific version. You can also specify the followings in more options:
+
+Press okay on the new job dialog box and the new job will be added to the specified jobset. You will need to dispatch the job to the system for simulation.
+
+Note: Windows Connect Clients can't use Linux versions of the PLEXOS Engine and vice versa. Also, In Connect on AWS, the client auto start up behaviour is not aware of any client preferences.
+
+You can dispatch all the jobs in a jobset for simulation by selecting the jobset and click on the play button on the top panel of the jobset tab. Alternatively, you can open a jobset by double click on it. Then, you can selectively select jobs in the jobset which you would like to dispatch. Click on the play button on the top panel of the jobset window to dispatch the selected jobs.
+
+Note: You will need to have execute privileges to dispatch jobs for simulations.
+
+You can restrict access to a jobset by right clicking on a jobset in the dataset tab and select permissions. A permissions window will be presented. You can then click on add button on the top panel of the permissions window and select the user accounts you would like to grant permission to. You will need to add yourself first if you do not have administrator privileges. User accounts, which do not have access to the jobset, will not be able access jobs within the jobset.
+
+Note: You will need to have execute privileges to administer permissions for a jobset.
+
+You can create a copy of any jobset by selecting one or more jobsets from the jobset tab, then right click on a selected jobset and select 'Copy' from the context menu. Next, you will be asked if you want to have any jobset permissions copied over as well, selecting no will cause all copied jobsets to have no permissions set. All selected jobsets will be copied with any jobs contained inside, after the copy, any changes made will not affect the original jobset.
+
+Note: You will need to have execute privileges to copy a jobset.
+
+You can rename any jobset by selecting a jobsets from the jobset tab, then right click the jobset and select 'Rename' from the context menu. Next, you will be asked to input a new name for the jobset. Renaming the jobset will modify all references to the jobset except in runs that have been deleted, completed or are currently running.
+
+Note: You will need to have execute privileges to rename a jobset.
+
+Users can manage runs in the run panel. Note that users will need to have execute privileges to manage runs here.
+
+Within the run panel, users can:
+
+Users can create a new run without going through the steps of creating a dataset and adding a job. This can be done by clicking on the add button on the top panel and a dialog box as shown below will be presented.
+
+You must select files required for the run to upload to the system, one easy way is to just drag and drop the files the simulation required the new quick run dialog box. Note that these files will not be stored permanently on the server, they will be marked for deletion once the simulation for the run is performed. You must also specify arguments required for the simulation. The arguments will specify which projects or models to simulate. If there is more than one argument, then these will be executed in sequence on the same client. You can also specify the followings in more options:
+
+Press okay on the new quick run dialog box, the files will be uploaded and a new run will be created awaiting the next client to pick it up for simulation.
+
+Note: Windows Connect Clients can't use Linux versions of the PLEXOS Engine and vice versa. You will need to have execute privileges to create a quick run. In Connect on AWS, the auto start up behaviour is not aware of a run's client preferences.
+
+When a run has completed its simulation, you can download the solution by right clicking on the run and select download in the context menu. Then select solution to download the solution from the run. You will need to specify where you will like to download the solution to.
+
+Note: Connect will only store compressed XML solutions.
+
+When a run has completed its simulation, you can download the log files by right clicking on the run, and select download in the context menu. Then select log to download the run log files from the PLEXOS Connect Server. You will need to specify where you would like to download the log files to.
+
+When a run has completed its simulation, you can view the log files by selecting a run and in the top left of the output panel, the drop down list will list any available logs that can be viewed. Any selected log will then be loaded into the output panel.
+
+When a run has completed its simulation and the run has a summary log available, Launch Control can build a list detailing the amount of time each section of execution took to complete. To view this list, select one or more completed runs, right click on a selected run and select 'Execution Summary' in the context menu. This will bring up a new Report Window showing all the values found in the summary log.
+
+While a run is currently being executed by a client, you are able to see the progress of each phase through the output panel or in the client output window. For both the output panel and the client output window, the progress is shown in the top left. The progress is updated between steps in a single phase, if a phase has a single step then no progress will be available for display.
+
+Note: This progress is determined by the output from the run and is not instantaneous.
+
+If you need to restart a completed run, select one or more completed runs and right click a selected run, then select "Rerun" in the context menu. All selected completed runs will be recreated and set to start, these runs will then behave independently of their original runs. Jobset values decided at run creation (ie, latest engine, latest dataset version, etc) will not be recalculated, the values used by the original run will be reused in the new run.
+
+Note: Quick runs will require their files to still exist and Connect Server 2.8 or higher.
+
+If you have ran a simulation without using PLEXOS Connect, you are able to upload the simulation results to the PLEXOS Connect system so you can share it with other users. To add your own solution files, right click in the run panel and select 'Upload Solution', a dialog as shown below will open.
+
+You must select which solution files to upload, these files need to be in the '.zip' format otherwise they will not be added. The files are then listed in the box next to the label 'Solutions' with the names being the name of the solution files found within each .zip file. This dialog will create a new completed run and will add the solution files to this new run. Under more options, the details of this run can be left blank or be filled with the details available on the PLEXOS Connect system. You can also specify the following in more options:
+
+Note: You will need to have execute privileges to upload a new solution.
+
+You can schedule all the jobs in a jobset for simulation, by selecting the jobset and click on the schedule button on the top panel of the jobset tab. Alternatively, you can open a jobset by double click on it. Then, you can selectively select jobs in the jobset which you would like to schedule. Click on the schedule button on the top panel of the jobset window to schedule the selected jobs. When schedule button is clicked, the following dialog will pop up. You then can pick when you would like to schedule the jobs for simulations.
+
+Alternatively, you can open a jobset by double click on it. Then, you can selectively select jobs in the jobset which you would like to schedule. Click on the schedule button on the top panel of the jobset window to schedule the selected jobs.
+
+When schedule button is clicked, the following dialog will pop up. You then can pick when you would like to schedule the jobs for simulations.
+
+Note: You will need to have execute privileges to schedule jobs for simulations.
+
+Users can manage notifications from the email notifications window, which is opened by pressing the email notification button at the top of the run panel. To show more or less columns in the notification window, you can right click the panel and select the desired columns to display. This window will list all email notifications associated with the logged in account or if the user has admin privileges, all notifications will be shown. If you have admin privileges, you are able to configure the email's SMTP settings as well as create, edit or remove anyone's emails notifications.
+
+Within the notification window, you can:
+
+Note: You will need to have execute privileges to manage email notifications.
+
+You can configure PLEXOS Connect Server's SMTP settings by pressing the configuration button at the top of the notification window. When the configuration button is clicked, the following window will be opened.
+
+From here, you can set the hostname or IP and the port number of the email server that will allow PLEXOS Connect Server to send emails from. You will also need to specify an email address to send the emails from, this will be what will be in the 'From' field in all emails sent. The option 'Require SSL' will specify if PLEXOS Connect Server will need to use a Secure Socket Layer (SSL) when connecting to the specified SMTP server. If a login is required, under 'Use Login' you can specify what username and password is to be used when connecting to the SMTP server. After the settings have been stored in the PLEXOS Connect Server, opening this dialog will have the details automatically filled in for easier editing. The test button will allow you to test if the PLEXOS Connect Server is able to connect to the SMTP server and send an email. PLEXOS Connect Server will attempt to detect if there are any issues with the settings that have been inputted. This process may take a couple of minutes depending on the connection to the SMTP server.
+
+Note: You will need to have admin privileges to setup the SMTP settings.
+
+You can create new email notifications by clicking on the add button at the top of the notification window and the following dialog box will pop up.
+
+In this dialog, you are required to enter an email address and select an option from at least one of the drop down lists. The email address is required since this will be the address the notification will be sent to. Each drop down will list the current possible choices available to you. When any option other than '<any>' is selected from a drop down box, a tick box will appear next to it; this box will give the user the option to be notified for everything except the selected value. You can select which folder to search for datasets in by clicking on the folder button (\), this button will update to show the folder path that you have chosen. The drop down list will also update to list all available datasets within the selected folder. By default, notifications are sent after every matching notification, however, users can delay this by ticking the notify box, selecting this option will only send emails when there are no more matching notifications waiting to run. If you do not have permission to access any datasets or jobsets, they will not be listed in any drop down list.
+
+By default, notifications are sent after every matching notification, however, users can delay this by ticking the notify box, selecting this option will only send emails when there are no more matching notifications waiting to run.
+
+If you do not have permission to access any datasets or jobsets, they will not be listed in any drop down list.
+
+Note: You will need to have execute privileges to add a new notification.
+
+Notifications can be edited by double clicking on a notification or by right clicking on a notification and selecting 'Open' from the menu. This will open a dialog similar to the new notification window with all the values automatically filled in.
+
+Note: You will need to be the creator or have admin privileges to edit a notification.
+
+From the license control panel within PLEXOS Launch Control, you are able to view information about the license service and if you are an admins, you'll be able to modify the license service. To open the license control panel, press the license button at the top of the run panel. The control panel will allow you to view the basic information about the license as well as the product license list, current checkouts and recent checkins. If you are an admin, you'll also be able to view or modify the port number, license reserving rules, access list and license groups. The below image of the license control panel is from an account with admin access. In the basic information section, it will show the current username and company associated with the license service, whether or not the license has been registered and the expiry date. The IP address box will show a list of IP addresses that can be used to connect to the license server and the port number will show which port the server is currently using, only admins will be able to adjust the port number. On all tabs, except the 'Product Licenses' tab, there is a number included in brackets. For the checkouts and checkins, this number shows the number of entries contained in the tab. The access list has two numbers, the first number is the total number of enabled rules and the last number is the total number of rules. Lastly, the groups tab will show the total number of groups that have been created.
+
+Any licenses that have been reserved will only be available to the computer or group that it is reserved for. In the 'Product Licenses' tabs, you can add, edit or remove license reservations. This is to allow specific computers to always have a user set number of licenses available to it regardless of how many other computers are requesting licenses for the same product. To edit a license reservation, select a single reservation and right click on it, then select 'Edit' from the context menu. To remove a license reservation, expand the product it is for, select one or more rules from the product and press the delete button , alternatively, you can select a product and press the delete button to remove all reservations for that product.
+
+Note: You will need to have admin privileges to view or modify the reservation rules.
+
+From the 'Product Licenses' tab, select a product you wish to create a new license reservation for and press the add button , this will open the following dialog. The dialog will show the product you have selected, the total number of licenses this product has and the total number of licenses that are not reserved. In the reserve text box, you will need to enter the number of licenses you wish to reserve and in the machine text box, you can either type in a machine name, type an IP address (see here for valid IP addresses) or press the down arrow and select a group. Note, only machine names or IP addresses will work and not domain names.
+
+Note: You will need to have admin privileges to add new reservation rules.
+
+In the checkouts or recent checkin tabs, it is possible to change the view of the tabs to be either grouped by product or in a list view. In the list view, all entries will be shown in a list and sorted by time by default. Otherwise when grouped, all entries will be grouped to the product that was checked out, and you can then expand each product individually to show which computers have checked out that product and at what time.
+
+In the access tab, admins are able to change the mode of the access list, add or remove rules and enable or disable individual rules. The mode of the access list can be changed by the drop down menu named 'Setting', there are two modes, 'ban these' which will ban all enabled machines in the list and 'allow only' which will only allow the enabled machines to request licenses from the license server. This access list will take priority over any other setting when I machine is checked. Individual rules can be enabled or disabled by clicking on the check box next to them, this will allow rules to be turned off without being deleted. When adding new rules, you must enter a computer name or an IP as well as a reason, for the available IP address options (see here). Note, only machine names or IP addresses will work and not domain names. It is also possible to edit individual rules by right clicking on a rule and selecting 'Edit' from the context menu.
+
+Note: You will need to have admin privileges to view or modify the access list.
+
+In the group tab, admins are able to create groups of machines for use with the license reservations. These groups allow a selection of machines to share a number of reserved licenses. When creating a new group, the group must have a unique name and at least one member. Group members must be either a computer name or an IP address (see here for available IP address options) and each group has a limit of 30 members. Note, the group name must not be the same as any machine name in your network. It is also possible to edit the groups by right clicking on a group and selecting 'Edit' from the context menu.
+
+Note: You will need to have admin privileges to view or modify the group list.
+
+The license server supports using specific IP addresses as well as IP address ranges wherever IP addresses are able to be entered. These options are to allow you to specify either a single computer or a range of computers without the need to type in every IP. Examples of valid IP address formats (note,the numbers are used as examples)
+
+Launch Control is able to receive the license event log from the license server that is built into the Connect Server. The license server will store the 100 most recent lines from the event log for viewing by Launch Control, however, Launch Control has no limit on how much it will hold. This event log will show all license requests made by any connecting computers as well as the license request response. If a license request is denied, the reason is listed in this event log. Messages saying 'Client Machine [<machine>] / User [<user>] connected' are connection tests from PLEXOS products to check the license server is active and able to respond.
+
+Note: You will need to have a Connect Server of version 2.8 or higher and admin privileges to view the license event log.
+
+There are 3 different possible locations for the license file (named 'EE.lic' or 'EE.xml'), one of these locations is hard set while the other 2 are dependent on the location of the Connect Server install folder.
+
+Note: This is assuming the Connect Server has permission to write to this folder.
+Lists:
+	- Dataset tab: In the dataset tab, a user will be able to browse for datasets in which the user has access to. Users will need to have update privileges to be able to manage datasets here. Users with update privileges will also be able to organize datasets here into folders.
+	- Jobset Tab: All the jobsets will be listed in the jobset tab. Users will need to have execute privileges to be able to manage jobsets here.
+	- Client Tab: All the clients will be listed in the client tab. Users will need to have execute privileges to be able to manage clients here. Client groups are also listed here.
+	- Engine Tab: All the engines will be listed in the engine tab. Users will need to have execute privileges to be able to manage engines here.
+	- Account Tab: All the user accounts will be listed in the account tab. Users will need to have administrator privileges to be able to manage accounts here.
+	- A green user icon denotes that the user is online.
+	- A grey user icon denotes that the user is offline
+	- Add new user accounts
+	- Remove user accounts
+	- Modify the privileges of user accounts
+	- Upload new engines
+	- Remove engines
+	- Restore removed engines
+	- Assign clients to groups
+	- Remove clients or groups
+	- Pause and resume clients
+	- Restrict access to clients
+	- Stop Run: Stops the run and you will need to manually restart the run.
+	- Restart Run: Automatically restarts the run, the run will maintain any settings already stored.
+	- Finish Run: The run will be cancelled and a solution added saying "[Client Timeout] Run failed to complete in time".
+	- Add new folders and datasets
+	- Remove folders and datasets
+	- Check out datasets
+	- Restrict access to folders
+	- Add new jobsets, jobs and folders
+	- Remove jobsets, jobs and folders
+	- Dispatch jobs for simulation
+	- Restrict access to jobsets
+	- The engine to perform the simulation (by default it will use the latest engine)
+	- The client to perform the simulation (by default it will use any client that is available)
+	- The priority of the job (by default it is zero)
+	- Create a run quickly
+	- Remove runs
+	- Stop and Resume
+	- Re-prioritize runs
+	- Download solution from run
+	- The jobset the run should be assigned to.
+	- The dataset the run should be assigned to.
+	- The engine to perform the simulation (by default it will use the latest engine)
+	- The client to perform the simulation (by default it will use any client that is available)
+	- The priority of the job (By default it is zero)
+	- The jobset the solution was created with
+	- The dataset the solution was created with
+	- The arguments the solution was created with
+	- The engine used to perform the simulation
+	- Add, edit and remove notifications
+	- Setup Connect Server's SMTP settings (admins only)
+	- Specific address (IPv4 + IPv6) E.g 192.168.0.10. This will match only to the computer with this specific address.
+	- Wildcard '*' (IPv4 only) E.g. 192.168.*. This will match to any IP starting with '192.168'
+	- Ranges E.g. 192.168.0.[100-200] (IPv4 only) This will match to all addresses between and including '192.168.0.100' to '192.168.0.200' E.g. 192.168.0.0-192.168.10.50 (IPv4 + IPv6) This will match to all addresses between and including '192.168.0.0' to '192.168.10.50'
+	- E.g. 192.168.0.[100-200] (IPv4 only) This will match to all addresses between and including '192.168.0.100' to '192.168.0.200'
+	- E.g. 192.168.0.0-192.168.10.50 (IPv4 + IPv6) This will match to all addresses between and including '192.168.0.0' to '192.168.10.50'
+	- Subnet mask (CIDR notation, IPv4 + IPv6) E.g. 192.168.0.10/25. This is a binary based range, written in the format CIDR (Classless Inter-Domain Routing). The number after the slash '/' dictates how many binary bits to compare against. E.g. '192.168.0.10/25' will match any IP with the same first 25 bits or a range of '192.168.0.0' to '192.168.0.127'.
+	- E.g. 192.168.0.[100-200] (IPv4 only) This will match to all addresses between and including '192.168.0.100' to '192.168.0.200'
+	- E.g. 192.168.0.0-192.168.10.50 (IPv4 + IPv6) This will match to all addresses between and including '192.168.0.0' to '192.168.10.50'
+	- The first preferred location is dependent on and relative to the install location. Using the example in image shown above, the install path can change to be anything and the Connect folder can be named anything but the EE folder must be the folder before the Connect folder and named 'Energy Exemplar'. If the EE folder is found before the Connect folder, the license will be stored in: '<Install_Path>\Energy Exemplar\Common\'.
+	- The second preferred location is if Connect Server does not have permission to write to the first preferred location. This location is hard set to the Windows common application data folder, this may be different depending on your Windows version and settings. For Windows Vista and newer: 'C:\ProgramData\Energy Exemplar\Common\'.
+	- Finally, if the EE folder is not found, the license will be stored in the Connect folder. For example, '<<Install_Path>\<Connect_Folder>\Common\'.
+
+
+H2s:
+Contents
+1. Launch Control Interface
+2. Managing Accounts
+3. Managing Engines
+4. Managing Clients
+5. Managing Datasets
+6. Managing Jobs
+7. Managing Runs
+8. Managing Notifications
+9.Managing Licenses
+
+H3s:
+2.1. How do I Add a New User Account?
+2.2. How do I change the privileges of a user account?
+2.3. How do I Change my Password?
+3.1. How do I Upload a New Engine?
+3.2. How do I Restore Removed Engines?
+3.3. How do I Copy an Engine?
+3.4. How Do I Rename an Engine?
+4.1. How do I Assign Clients to a Group?
+4.2. How do I Stop a Client from Performing any Simulations?
+4.3. How do I Restrict Access to a Client?
+4.4. How do I Change the Client's Priority?
+4.5.How do I set the Client's Timeout Settings?
+5.1. How do I Add a New Dataset?
+5.2. How do I Check Out a Dataset?
+5.3. How do I Restrict Access to a Folder?
+5.4. How do I Copy a Dataset or Folder?
+5.5. How Do I Move a Dataset or Folder?
+5.6. How do I Rename a Dataset or Folder?
+6.1. How do I Add a New Job?
+6.2. How do I Dispatch Jobs for Simulations?
+6.3. How do I Restrict Access to a Jobset?
+6.4. How do I Copy a Jobset?
+6.5. How do I Rename a Jobset?
+7.1. How Do I Create a New Run Quickly?
+7.2. How do I Download a Solution Form a Run
+7.3. How do I download a Solution log From a Run?
+7.4. How do I View a Solution log from a run?
+7.5. How do I View an Execution Time Summary for a Run?
+7.6. How do I View a Run's Progress?
+7.7. How do I Rerun a Completed Run?
+7.8. How do I Upload a Solution?
+7.9. How do I Schedule jobs for simulations?
+8.1. How do I Setup PLEXOS Connect Server's SMTP Settings?
+8.2. How do I Create a New Email Notification?
+8.3. How do I Edit an Email Notification?
+9.1. How do I Manage the License Reservations?
+9.2. How do I Add a License Reservation?
+9.3. How do I Group or List the Checkouts or Checkins?
+9.4. How do I Manage the Access List?
+9.5. How do I Manage the Group List?
+9.6. What IP Address Options are Available?
+9.7. How do I View the License Event Log?
+9.8. Where is the Server License File Located?

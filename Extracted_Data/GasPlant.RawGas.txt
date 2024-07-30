@@ -1,0 +1,15 @@
+Header: Gas Plant Raw Gas
+
+Table Details:
+Units:	TJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	The amount of raw gas processed
+
+Paragraphs:
+Gas Plant Raw Gas is The amount of raw gas processed.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Charging Station Deferred Load
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Deferred charging load
+
+Paragraphs:
+Charging Station Deferred
+          Load is the total charging load from connected Vehicles that is deferred into future periods. This deferred load adds to Charging in those future periods. Deferred load occurs to minimize the total
+          system cost i.e. load can be deferred into a periods with a
+          lower electric price.
+
+See also:
+Lists:
+	- Charging Station Deferrable
+              Load
+

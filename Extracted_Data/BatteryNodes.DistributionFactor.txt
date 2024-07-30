@@ -1,0 +1,25 @@
+Header: Battery Nodes Distribution Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion of battery charge and discharge at the node
+Batt1	A220kV	Distribution Factor	0.9	-
+Batt1	A110kV	Distribution Factor	0.1	-
+
+Paragraphs:
+Battery Nodes Distribution Factor is the proportion of battery charge and discharge at the node. This property enables the charging and discharging of a battery to be split across multiple nodes. The charging and discharging of a battery is proportioned symmetrically. For example, a distribution factor of 0.5 at a node implies that half of the charging and half of the discharging absorbs/injects through that node. Distribution factor can be used to model a battery object which connects to multiple different locations.
+
+All distribution factors for a battery object should sum to 1 to reflect the conservation of energy.
+
+Example:
+
+See also:
+Lists:
+	- Battery
+	- Battery Nodes
+

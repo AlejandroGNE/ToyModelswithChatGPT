@@ -1,0 +1,15 @@
+Header: Generator Fuels Transport Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of transporting fuel to the generator
+
+Paragraphs:
+Generator Fuels Transport Cost is defined as:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Market Shortage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours demand exceeds supply
+
+Paragraphs:
+Market Shortage Hours is Number of hours demand exceeds supply.
+Lists:
+

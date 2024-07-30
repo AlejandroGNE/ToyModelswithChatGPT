@@ -1,0 +1,11 @@
+Header: List Contingencies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Contingency objects in the List
+
+Paragraphs:
+List Contingencies is set of Contingency objects in the List
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Flow Network Price Paid
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price paid
+
+Paragraphs:
+Flow Network Price Paid is Average price paid.
+Lists:
+

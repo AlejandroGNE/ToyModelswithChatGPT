@@ -1,0 +1,11 @@
+Header: Gas Field Gas Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	gas node the gas field connects to
+
+Paragraphs:
+Gas Field Gas Node is a set of Gas Nodes the Gas Field connects to.
+Lists:
+

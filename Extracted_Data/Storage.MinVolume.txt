@@ -1,0 +1,21 @@
+Header: Storage Min Volume
+
+Table Details:
+Units:	GWh
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum volume
+
+Paragraphs:
+Storage Min Volume sets a lower bound on the volume of water in the storage in its native units as defined by the Storage Model .
+
+As an output, Min Volume simply repeats the input value.
+
+See also:
+Lists:
+	- Storage Max Volume
+	- Storage Initial Volume
+

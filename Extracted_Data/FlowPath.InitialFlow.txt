@@ -1,0 +1,21 @@
+Header: Flow Path Initial Flow
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Initial flow with optional delay time
+
+Paragraphs:
+Flow Path Initial Flow is the
+                initial flow with optional delay time defined with Initial Flow Delay . The property is multi-band allowing you to specify
+                multiple batches of delayed flows arriving after the start of the
+                simulation horizon.
+
+See also:
+Lists:
+	- Flow Path Traversal Time
+

@@ -1,0 +1,15 @@
+Header: Water Plant Rating Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum dispatchable capacity of each unit expressed as a percentage of [Max Capacity]
+
+Paragraphs:
+Water Plant Rating Factor is Maximum dispatchable capacity of each unit expressed as a percentage of [Max Capacity].
+Lists:
+

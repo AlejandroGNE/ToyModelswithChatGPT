@@ -1,0 +1,15 @@
+Header: Water Pump Flow Rate Point
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Flow rate point for the pump curve
+
+Paragraphs:
+Water Pump Flow Rate Point denotes X co-ordinate in the pump curve.
+Lists:
+

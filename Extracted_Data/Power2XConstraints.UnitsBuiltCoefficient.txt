@@ -1,0 +1,15 @@
+Header: Power2X Constraints Units Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built constraint
+
+Paragraphs:
+Refer to Facility Constraints Units Built Coefficient for details.
+Lists:
+

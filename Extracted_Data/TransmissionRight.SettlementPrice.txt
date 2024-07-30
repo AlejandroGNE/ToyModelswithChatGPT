@@ -1,0 +1,15 @@
+Header: Transmission Right Settlement Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price difference between the source and sink side
+
+Paragraphs:
+Transmission Right Settlement Price is a Price difference between the source and sink side. The prices used in calculation are determined by Pricing Method and Hedge Type .
+Lists:
+

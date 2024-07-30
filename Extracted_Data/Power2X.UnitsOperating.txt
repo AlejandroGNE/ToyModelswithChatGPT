@@ -1,0 +1,16 @@
+Header: Power2X Units Operating
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units operating
+
+Paragraphs:
+Power2X Units Operating is the
+          number of units operating.
+Lists:
+

@@ -1,0 +1,12 @@
+Header: Diagnostic Monitored Iterations
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Print messages for every iteration of row/column monitoring
+
+Paragraphs:
+[detail]
+Lists:
+

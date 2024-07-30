@@ -1,0 +1,18 @@
+Header: Flow Control Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Binary indicating if the unit was built
+
+Paragraphs:
+Flow Control Units Built is Binary indicating if the unit was built.
+
+See also:
+Lists:
+	- Flow Control Build Cost
+

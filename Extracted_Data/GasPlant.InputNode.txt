@@ -1,0 +1,11 @@
+Header: Gas Plant Input Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Gas Node the Gas Plant imports gas from
+
+Paragraphs:
+Gas Plant Input Node is Gas Node the Gas Plant imports gas from
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Gas Demand Shortage Level
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Level corresponding to the Shortage Price
+
+Paragraphs:
+Gas Demand Shortage Level is used to specify tiered bands with different Shortage Price values. The levels are specified in cumulative amounts and are 
+            scaled based on the Gas Demand Resolution. If all the bands are used up PLEXOS will still allow more shortage to occur at the 
+            shortage price of the last band.
+Lists:
+

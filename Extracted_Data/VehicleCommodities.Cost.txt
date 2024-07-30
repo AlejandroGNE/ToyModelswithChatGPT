@@ -1,0 +1,27 @@
+Header: Vehicle Commodities Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost for Energy from the Commodity
+
+Paragraphs:
+Vehicle Commodities Cost is the amount to be paid by the Vehicle for consuming the Commodity . It is
+          defined as:
+
+Cost = Consumption x Commodity Price .
+
+Figure 1: Vehicle Commodity Cost
+
+
+
+Figure 1 illustrates how the Cost is calculated for consuming a Commodity by a Vehicle.
+
+See also:
+Lists:
+	- Vehicle Commodities Energy Consumption
+

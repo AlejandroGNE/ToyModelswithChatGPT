@@ -1,0 +1,16 @@
+Header: Gas Field Ratchet Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Indicates how the gas field ratchets are represented
+
+Paragraphs:
+Gas Fields Ratchet Type indicates the gas field ratchet type function as Step, Linear, or Linear Convex. 
+          See Gas Storage Ratchet Type for examples of how Ratchet Type works in Gas Storage.
+Lists:
+

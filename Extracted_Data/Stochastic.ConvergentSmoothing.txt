@@ -1,0 +1,12 @@
+Header: Stochastic Convergent Smoothing
+
+Table Details:
+Units:	-
+Default Value:	5
+Validation Rule:	≥1
+Description:	Convergent Monte Carlo number of iterations used in converging outage rates.
+
+Paragraphs:
+Model Convergent Smoothing is the number of candidate patterns drawn for each final pattern that is used in the simulation. This applies when the Monte Carlo Method is set to "Convergent Monte Carlo".
+Lists:
+

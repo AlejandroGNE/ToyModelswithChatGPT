@@ -1,0 +1,15 @@
+Header: Gas Transport Max Volume
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum volume of gas the transport can carry
+
+Paragraphs:
+Gas Transport Max Volume is the maximum volume of gas the transport can carry.
+Lists:
+

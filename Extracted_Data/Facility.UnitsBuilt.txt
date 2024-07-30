@@ -1,0 +1,23 @@
+Header: Facility Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units built
+
+Paragraphs:
+Facility Units Built is the number
+          of units built in LT Plan .
+
+See also:
+Lists:
+	- Facility Units
+	- Facility Max
+              Units Built
+	- Facility Build
+              Cost
+

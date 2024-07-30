@@ -1,0 +1,28 @@
+Header: Data File Time Shift
+
+Table Details:
+Units:	h
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Number of hours to shift data in time when interpreting dates where a positive value means the data are from a time zone that is behind the 'reference' time zone.
+North	Filename	0	-	Load.csv
+Southeast	Filename	0	-	Load.csv
+Southwest	Filename	0	-	Load.csv
+North	Time Shift	1	hrs	
+Southeast	Time Shift	0	hrs	
+Southwest	Time Shift	3	hrs	
+
+Paragraphs:
+Data File Time Shift is the number of hours to shift data in time when interpreting dates where a positive value means the data are from a time zone that is behind the 'reference' time zone.
+
+Example
+
+The following file contains data for three Region objects' Load :
+
+If in fact these regions have different time zones the data should be shifted in time so that the simulation, which is formulated on a notional 'reference time zone', models the timing of the loads correctly. Assume that "Southeast" is our reference time zone, and that "North" is one hour behind and "Southwest is three hours behind.
+
+To achieve this we can create three Data File objects and define their Time Shift properties as follows:
+
+The simulation results report in the 'reference time zone' thus:
+Lists:
+

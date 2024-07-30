@@ -1,0 +1,15 @@
+Header: Global FCF Constant
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Future Cost Function: objective function constant term
+
+Paragraphs:
+Global FCF Constant is a constant term related to the Future Cost Function.
+Lists:
+

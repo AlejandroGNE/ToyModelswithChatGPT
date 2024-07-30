@@ -1,0 +1,18 @@
+Header: Water Plant Max Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum time to repair
+
+Paragraphs:
+Water Plant Max Time To Repair is the upper bound on the repair time. See Generator Max Time to Repair for details.
+
+See also:
+Lists:
+	- Water Plant Min Time To Repair
+

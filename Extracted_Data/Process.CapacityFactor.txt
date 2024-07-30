@@ -1,0 +1,16 @@
+Header: Process Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of production capacity used
+
+Paragraphs:
+Process Capacity Factor is the
+          proportion of production Capacity used expressed as a percentage.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Field Max Production Target Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Max Production Target Percent for gas fields
+
+Paragraphs:
+Gas Fields Max Production Target Percent is Max Production Target Percent for gas fields.
+Lists:
+

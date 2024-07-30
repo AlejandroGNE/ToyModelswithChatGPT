@@ -1,0 +1,11 @@
+Header: List Gas Pipelines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Pipeline objects in the List
+
+Paragraphs:
+List Gas Pipelines is set of Main Gas Pipeline objects in the List.
+Lists:
+

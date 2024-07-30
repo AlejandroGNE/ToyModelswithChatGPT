@@ -1,0 +1,20 @@
+Header: Facility Operating Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of operation
+
+Paragraphs:
+Facility Operating Hours is the
+          number of hours any unit is running i.e. that Units
+            Operating is greater than zero.
+
+Constraints can be defined on the hours of operation with the Constraints Operating
+            Hours Coefficient .
+Lists:
+

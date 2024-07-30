@@ -1,0 +1,11 @@
+Header: Water Pipeline Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the water pipeline
+
+Paragraphs:
+Water Pipeline Maintenances is set of maintenance events on the water pipeline
+Lists:
+

@@ -1,0 +1,73 @@
+Header: LT Plan Chronology
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (2,3,4)
+Description:	Type of chronology used
+
+Paragraphs:
+LT Plan Chronology controls the
+          level of detail used in representing the Horizon .
+          The settings can take these values:
+
+The number of modeled periods in each sample period
+              (day/week/month)by default is set by the Horizon Periods per Day . This can
+              be reduced (using the same technique as Fitted Chronology above)
+              with the parameter Sampled
+                Block Count .
+
+NOTE: After sampling a rescaling process is performed, which
+              detects wind, solar, load, etc. profiles (i.e.. highly variable
+              data) and rescales them such that the total energy equals their
+              original input amount. When rescaling the sampled profile, the
+              same method is used as the Load
+                Forecasting . The base profile (that gets rescaled) is the
+              profile that is produced by the sampling process, and the
+              sum/max/min targets come from the original input data for the
+              sampling interval. By default, the linear growth method is used to
+              calculate the scaling factors, and it will automatically switch to
+              quadratic method when linear method produces negative values. The
+              loads in the formulation are the weighted average of the reduced
+              and rescaled samples. To switch off the rescaling process please
+              use the undocumented parameter "SuppressRescalingSampledData"
+              under "Model" class. Please note that input values for properties with percentage unit (%) will not be rescaled, 
+			  such as Rating Factor , Max Capacity Factor and etc. 
+			  This is because most percentage properties are meaningful only when the value is entered between 0 to 100, while rescaling could result in out of 
+			  range situation. It has also been observed that certain profiles with a value range of [0, 1] may demonstrate volatility to an extent where the 
+			  rescaling results by both linear and quadratic methods are not ideal. In this case, user have the option to use the 
+			  undocumented parameter "SuppressRescalingSpecificInputs" under "Model" class to switch off the rescaling for this specific input.
+
+Under the "Partial" option (using duration curves) chronology is
+          maintained only between duration curves, not within the
+          curves i.e. for weekly curves, constraints such as Storage Max Volume are tracked only
+          between weeks, and most technical limits such as ramp constraints, and generator start up and shutdown are not tracked.
+
+For both the "Fitted" and "Sampled" options, full chronological
+          modelling is done. The key difference is that under the "Fitted"
+          option the duration of each time period can vary depending on how the
+          underlying intervals are grouped together, whereas under the "Sampled"
+          option the simulation periods are all the 'native' duration controlled
+          by the Horizon Periods
+            per Day setting.
+
+For energy type models, "Fitted" and "Sampled" options query the Region Load or Market Price (for energy markets) along with adjustment factors such as Generator Load Subtracter .
+
+For Universal models you should associate LT Plan with one or more Variable objects using the Variables collection. The Profile property
+          of those Variable objects is then
+          summed to produce the 'shape' for all chronology types to slice, fit
+          and sample.
+
+See also:
+Lists:
+	- You can reduce the number of blocks used in each curve later in
+            the Horizon using the Last
+              Block Count setting.
+	- Finer control is available over the slicing with the Global Slicing Block property. This
+            is particularly useful for a system with a high concentration of
+            solar generation because it allows you to force periods of similar
+            solar concentration to be kept together in the same LDC block.
+	- MT Schedule Chronology
+	- LT Plan Sample
+              Year Count
+

@@ -1,0 +1,15 @@
+Header: Water Pump Station Max Head
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum head of pump station
+
+Paragraphs:
+Water Pump Station Max Head is upper bound on the head pressure of the Water Pump Station.
+Lists:
+

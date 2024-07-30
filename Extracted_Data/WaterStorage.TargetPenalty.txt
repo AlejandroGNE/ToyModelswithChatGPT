@@ -1,0 +1,21 @@
+Header: Water Storage Target Penalty
+
+Table Details:
+Units:	$/m³ (Metric), $/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the target.
+
+Paragraphs:
+Water Storage Target Penalty is Penalty for violating the target set by one of the following properties:
+Lists:
+	- Target
+	- Target Hour
+	- Target Day
+	- Target Week
+	- Target Month
+	- Target Year
+

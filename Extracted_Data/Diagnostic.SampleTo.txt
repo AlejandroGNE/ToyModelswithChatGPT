@@ -1,0 +1,12 @@
+Header: Diagnostic Sample To
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Limit diagnostic file writing to sample numbers ending at this number (-1 means infinity).
+
+Paragraphs:
+[detail]
+Lists:
+

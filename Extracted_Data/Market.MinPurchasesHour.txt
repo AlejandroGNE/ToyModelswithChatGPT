@@ -1,0 +1,25 @@
+Header: Market Min Purchases Hour
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum purchase from the market each hour
+
+Paragraphs:
+Market Min Purchases Hour creates a Constraint object that sets a lower
+          bound on the Purchases from the
+          Market each hour. By default this is a 'hard' constraint. This
+          property only applies to sub-hourly simulations i.e. where Horizon Periods per Day is greater
+          than 24.
+
+See also:
+Lists:
+	- Constraint RHS
+              Hour
+	- Market Constraints Purchases
+              Coefficient
+

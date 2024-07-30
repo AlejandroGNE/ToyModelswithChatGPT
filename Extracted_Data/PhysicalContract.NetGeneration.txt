@@ -1,0 +1,15 @@
+Header: Physical Contract Net Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net of generation and load
+
+Paragraphs:
+Physical Contract Net Generation is defined as:
+Lists:
+

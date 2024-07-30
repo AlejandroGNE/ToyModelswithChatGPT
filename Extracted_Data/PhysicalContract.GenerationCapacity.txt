@@ -1,0 +1,17 @@
+Header: Physical Contract Generation Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of generation to system capacity reserves
+
+Paragraphs:
+Physical Contract Generation Capacity is the total capacity available for generation from the contract and is defined as:
+
+In LT Plan this will include any generation contracted as part of the LT Plan capacity expansion solution.
+Lists:
+

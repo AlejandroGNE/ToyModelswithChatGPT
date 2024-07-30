@@ -1,0 +1,11 @@
+Header: Message 3052
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	<value> contained only <value> lines of data, expected <value>. <value> Check that the file is complete and that the Horizon Periods per Day is correct.
+
+Paragraphs:
+Message 3052 occurs in the following circumstances:
+Lists:
+

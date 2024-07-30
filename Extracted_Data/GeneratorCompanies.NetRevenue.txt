@@ -1,0 +1,15 @@
+Header: Generator Companies Net Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net revenue
+
+Paragraphs:
+Generator Generator Companies Net Revenue is defined as:
+Lists:
+

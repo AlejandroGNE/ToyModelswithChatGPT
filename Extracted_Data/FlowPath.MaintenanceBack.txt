@@ -1,0 +1,25 @@
+Header: Flow Path Maintenance Back
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total capacity out of service in the reverse reference direction (discrete + distributed)
+
+Paragraphs:
+Flow Path Maintenance Back is the
+          total capacity out of service in the reverse reference direction 
+          ( discrete + distributed ).
+          See Facility Maintenance for details.
+
+See also:
+
+
+Lists:
+	- Flow Path Forced
+              Outage Back
+	- Flow Path Maintenance
+

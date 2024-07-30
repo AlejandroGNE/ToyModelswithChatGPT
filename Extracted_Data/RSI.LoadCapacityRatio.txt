@@ -1,0 +1,15 @@
+Header: RSI Load Capacity Ratio
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Ratio of load to the total internal capacity plus import capability
+
+Paragraphs:
+RSI Load Capacity Ratio is defined as:
+Lists:
+

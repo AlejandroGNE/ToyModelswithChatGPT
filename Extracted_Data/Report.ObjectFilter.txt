@@ -1,0 +1,17 @@
+Header: Report Object Filter
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of filter conditions that define which objects will be reported
+
+Paragraphs:
+The Report Object Filters are the set of conditional variables that define if their membership objects will be reported or not.
+
+Each Object Filter conditional variable can only have one membership with an object to which defines the condition. The object which it has a membership with is the object which is conditionally reported. If the condition does not evaluate as true for any period in the horizon then the object will not be included in the solution report.
+
+Solution reporting by flat files does support the Object Filters, but not if flat files are written using the objects in columns format.
+
+The conditional variables in this Object Filter set will not be included in the solution report.
+Lists:
+

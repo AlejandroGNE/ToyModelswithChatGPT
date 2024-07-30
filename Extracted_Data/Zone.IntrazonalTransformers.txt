@@ -1,0 +1,11 @@
+Header: Zone Intrazonal Transformers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Intrazonal Transformers is the set of Transformers that flow inside the Zone. This collection is reserved for reporting only.
+Lists:
+

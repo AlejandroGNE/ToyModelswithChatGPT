@@ -1,0 +1,21 @@
+Header: Charging Station Fixed Generation
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Fixed generation across all units
+
+Paragraphs:
+Charging Station Fixed
+          Generation defines a minimum amount of generation that should be
+          provided by the charging station to the grid.
+
+See also:
+Lists:
+	- Charging Station Fixed
+              Load
+

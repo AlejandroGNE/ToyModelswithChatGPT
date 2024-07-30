@@ -1,0 +1,20 @@
+Header: Region Price of Dump Energy
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price of dump energy per MWh (1=hard constraint)
+
+Paragraphs:
+Region Price of Dump Energy is the notional penalty price for Dump Energy , which occurs when Generation exceeds the Load . This should be input as a a negative value.
+
+See also:
+Lists:
+	- Transmission Allow Dump Energy
+	- Region Hours of Dump Energy
+	- Region Cost of Dump Energy
+

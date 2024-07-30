@@ -1,0 +1,19 @@
+Header: Region Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports
+
+Paragraphs:
+Region Exports is the total exports from the Region and is defined as:
+
+See also:
+Lists:
+	- Region Imports
+	- Region Net Interchange
+

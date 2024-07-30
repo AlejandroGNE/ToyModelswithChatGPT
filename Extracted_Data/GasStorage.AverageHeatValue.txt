@@ -1,0 +1,15 @@
+Header: Gas Storage Average Heat Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Weighted average heat value of the gas blend injected into the gas storage
+
+Paragraphs:
+Gas Storages Average Heat Value is Weighted average heat value of the gas blend injected into the gas storage.
+Lists:
+

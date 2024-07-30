@@ -1,0 +1,15 @@
+Header: Facility Objectives Units Shutdown Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units shutdown
+
+Paragraphs:
+Facility Objectives Units Shutdown Coefficient is Coefficient on the number of units shutdown.
+Lists:
+

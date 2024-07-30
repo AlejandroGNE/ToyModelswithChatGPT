@@ -1,0 +1,22 @@
+Header: Emission Generators Shadow Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar on the incremental cost of generation for this emission
+
+Paragraphs:
+Emission Generators Shadow Price Scalar is a multiplier on the incremental cost of generation for this Emission and Generator .
+
+The default value of unity means that Generator incremental cost ( SRMC ) includes the cost of emissions based on the defined production rates. A value of zero can be used to remove the impact of emissions costs on the dispatch solution for the Generator . The inclusion of Shadow Price Scalar will affect the costs in the optimization, but not the reported accounting costs related to this Emission or Generator.
+
+Note that from 7.6 version, the Shadow Price Scalar will be also applied on the incremental-emission-cost part of the OfferPrice
+
+See also:
+Lists:
+	- Emission Generators SRMC
+

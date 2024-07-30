@@ -1,0 +1,21 @@
+Header: Region Reference Load
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Reference load for distributed load slack model
+Area A	Reference Load	3750	MW
+Area B	Reference Load	1256	MW
+
+Paragraphs:
+Region Reference Load is used to enter the reference load case that will be used to distribute the 'slack' when calculating shift factors. These are only required if the Transmission PTDF Method is set to "Distributed Load Slack".
+
+Example:
+
+PLEXOS uses the reference load set to renormalize the bus-level load participation factors i.e. for a one megawatt injection at a generation bus each load bus is assigned the slack:
+Lists:
+

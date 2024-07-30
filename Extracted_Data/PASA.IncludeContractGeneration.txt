@@ -1,0 +1,17 @@
+Header: PASA Include Contract Generation
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Include physical contract generation capacity in PASA
+
+Paragraphs:
+PASA Include Contract Generation toggles on/off inclusion of Physical Contract Generation Capacity in the calculation of Region Capacity Reserves and Compute Reliability Indices .
+
+See also:
+Lists:
+	- PASA Include Contract Load
+	- PASA Include Demand Bids
+	- PASA Include DSP
+

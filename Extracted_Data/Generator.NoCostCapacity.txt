@@ -1,0 +1,23 @@
+Header: Generator No Cost Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity available at no cost.
+
+Paragraphs:
+Generator No Cost Capacity is the generation capacity that is available at no cost other than VO&M Charge or UoS Charge . In general this includes renewable resources such as hydro, wind and solar.
+
+Notice that this property is only reported for generators with user defined offers or generators without fuels and head and tail storages. If there are user defined offers, the reported values will be capped by the offer quantities.
+
+See also:
+Lists:
+	- Generator Hours Curtailed
+	- Generator Capacity Curtailed
+	- Generator Curtailment Factor
+	- Region Dump Energy
+

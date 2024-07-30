@@ -1,0 +1,21 @@
+Header: Vehicle Commodities Energy Consumption
+
+Table Details:
+Units:	kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Energy from the Commodity
+
+Paragraphs:
+Vehicle Commodities Energy Consumption is the amount of energy consumed by the vehicle
+          using the given Commodity. It is defined as:
+
+Energy Consumption = Ratio x Distance x ( Efficiency / 1000)
+
+See also:
+Lists:
+	- Vehicle Commodities Consumption
+

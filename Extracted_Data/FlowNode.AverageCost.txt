@@ -1,0 +1,25 @@
+Header: Flow Node Average Cost
+
+Table Details:
+Units:	$/~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average cost of production
+
+Paragraphs:
+Flow Node Average Cost is the average cost of production of
+          the Commodity flowing on the Flow Network across the Facilities connected to the Flow Node. It is defined as:
+
+Average Cost = Production
+            Cost / Production
+
+See also:
+Lists:
+	- Flow Node Marginal
+              Cost
+	- Flow Node Production
+              Cost
+

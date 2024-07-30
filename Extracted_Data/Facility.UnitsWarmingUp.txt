@@ -1,0 +1,15 @@
+Header: Facility Units Warming Up
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units in the warm up process
+
+Paragraphs:
+Facility Units Warming Up is Number of units in the warm up process.
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Fleet Losses
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total charge and discharge losses
+
+Paragraphs:
+Fleet Losses is the total losses occurred as a result of the recharge and discharge processes. For example, as a result of inverter losses.
+
+Refer to the following topics for details:
+Lists:
+	- Charge Efficiency
+	- Discharge Efficiency
+

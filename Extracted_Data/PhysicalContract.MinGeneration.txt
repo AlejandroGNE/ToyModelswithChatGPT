@@ -1,0 +1,15 @@
+Header: Physical Contract Min Generation
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum generation cleared on physical contract
+
+Paragraphs:
+Physical Contract Min Generation sets a lower bound on the generation dispatched from the physical contract in any interval. This overrides the economic generation implied by Offer Quantity / Offer Price . This value should not exceed the defined Max Generation .
+Lists:
+

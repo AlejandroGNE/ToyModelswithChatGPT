@@ -1,0 +1,20 @@
+Header: Zone Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total variable cost of generation
+
+Paragraphs:
+Zone Generation Cost is the total variable cost of generation and is defined as:
+
+This represents the cost of generation based on the cost of Fuel and other variable costs.
+
+See also:
+Lists:
+	- Zone Cleared Offer Cost
+

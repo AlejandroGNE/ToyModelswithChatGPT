@@ -1,0 +1,11 @@
+Header: Gas Contract Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	company that have a contract to supply gas
+
+Paragraphs:
+Gas Contract Companies is company that have a contract to supply gas
+Lists:
+

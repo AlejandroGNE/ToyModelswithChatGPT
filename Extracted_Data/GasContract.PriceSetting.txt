@@ -1,0 +1,19 @@
+Header: Gas Contract Price Setting
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the gas contract can set price at the Gas Node
+
+Paragraphs:
+Gas Contract Price Setting defines if the gas contract can set the price at a Gas Node.
+
+When enabled, this option invokes a price propagation algorithm in PLEXOS that, after solving the dispatch and pricing of a simulation step, will propagate the Gas Contract Price to any Gas Node that it supplies.
+
+NOTE: This option requires that any bi-directional Gas Pipelines being modeled must use the Flow Charge Back property.
+Lists:
+

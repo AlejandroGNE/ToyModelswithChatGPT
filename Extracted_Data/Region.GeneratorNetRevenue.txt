@@ -1,0 +1,19 @@
+Header: Region Generator Net Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generator net revenue (producer surplus)
+
+Paragraphs:
+Region Generator Net Revenue is the total net revenue of generation in the region from Generators , Batteries, and Power2Xs weighted by Partition Factor.
+
+See also:
+Lists:
+	- Region Generator Net Profit
+	- Generation Participation Factor
+

@@ -1,0 +1,11 @@
+Header: Message 3212
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Gas Storage <name> sum of [Injection Withdrawal Charge Level] bands is <name>% but must sum to 100%.
+
+Paragraphs:
+Message 3212 occurs in the following circumstances:
+Lists:
+

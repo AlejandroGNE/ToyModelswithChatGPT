@@ -1,0 +1,21 @@
+Header: Gas Storage Loss
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas storage flow loss amount
+
+Paragraphs:
+Gas Storages Loss is Gas storage flow loss amount.
+
+Loss in gas storage is based on general storage loss logic:
+
+Storage Loss is the loss due to evaporation, leakage, etc. and is defined as:
+
+Loss = Loss Rate × time × 1/2 ( Initial Volume + End Volume ) .
+Lists:
+

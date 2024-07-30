@@ -1,0 +1,18 @@
+Header: Zone Cleared Offer Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under generator offer curve
+
+Paragraphs:
+Zone Cleared Offer Cost is the cost of Generation as seen by the Market Operator and is defined as:
+
+See also:
+Lists:
+	- Zone Generation Cost
+

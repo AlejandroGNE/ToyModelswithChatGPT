@@ -1,0 +1,27 @@
+Header: Company SRMC
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Weighted average SRMC of the company sent out generation
+	SRMC ($/MWh)	Generation Sent Out (MW)	Share (%)
+Gen1	5	100	100
+Gen2	10	300	100
+
+Paragraphs:
+Company SRMC is the weighted average SRMC of the company sent out generation.
+
+For example, if a company has 2 generators with the following outputs:
+
+Then:
+
+Company [SRMC] =  ( 5 x 100 x 100% + 10 x 300 x 100% ) / ( 100 x 100% + 300 x 100% ) =  8.75 ($/ MWh ).
+
+See also:
+Lists:
+	- Generator SRMC
+

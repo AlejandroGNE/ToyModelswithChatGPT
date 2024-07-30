@@ -1,0 +1,21 @@
+Header: Region Net Market Sales
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net sales to external energy markets
+
+Paragraphs:
+Region Net Market Sales is the net sales to external energy markets and is defined as:
+
+See also:
+Lists:
+	- Region Load
+	- Region Generation
+	- Region Net Interchange
+	- Region Purchaser Load
+

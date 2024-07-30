@@ -1,0 +1,86 @@
+Header: Managing Runs
+
+Table Details:
+
+Paragraphs:
+From the run panel, users can view and manage all the runs currently submitted to the Connect system. You will need permissions from the 'Run Module' in the Connect product to make changes to the runs already submitted to the system, by default this is included in the 'Execute' user role. The run panel is filtered based 2 criteria; the date filter at the top of the run panel and your selection in the current in the side panel. Additionally, the columns can be hidden or shown to show specific data about each run by right clicking in the run panel and enabling options under the 'Columns' in the menu.
+
+Note: All users can see any runs that have been submitted to the Connect system, including the current status.
+
+Users can create a new run without going through the steps of creating a dataset and adding a job. This can be done by clicking on the add button at the top of the run panel and a dialog box as shown below will be represented.
+
+You must select files required for the run to upload to the system, one easy way is to just drag and drop the files the simulation required the new quick run dialog box. Note that these files will not be stored permanently on the server, as they will be marked for deletion once the simulation for the run is completed. You must also specify arguments required for the simulation. The arguments would specify which models or project from a PLEXOS XML to execute on a Connect Client. If there is more than one argument, then these would be executed in sequence on the same client. If you would like them to be executed in parallel, then you can check the checkbox under the add and remove argument buttons. Optionally, you can also specify the following in more options:
+
+Pressing okay on the dialog box will upload all the files to the Connect Server, once uploaded, the run will be created and wait for a Connect Client to execute it.
+
+Note: Windows Connect Clients can't use Linux versions of the PLEXOS Engine and vice versa, and you'll need to have the user permission 'Execute' from the Connect General module.
+
+Initially when you open Launch Control, the run panel's date filter will be set to the previous day. This may cause simulations from a few days prior to no longer show in Launch Control. To filter which runs are shown, click the text at the top middle of the run panel (in Figure 4 the text 'From 14/05/2017'). This will open a window to filter by up to 2 dates (see Figure 5).
+
+To adjust the date file, click on the date filter text (highlighted above) to open the date filter settings window.
+
+The option 'Date From' will be the date for the oldest run to show and the option 'Date To' will be the date for the newest run to show. Both options can be disabled using the checkbox, this means there will be no limit for the respective value. Unchecking both options will disable the date filter and show all runs whereas unchecking 'Date To' and checking 'Date From' will show all runs since the specified date. The option 'Save date filter' will save the date filter options so that next time Launch Control is opened, the date filter will be restored to its saved settings instead of being set to the previous day (relative to when Launch Control is opened).
+
+Once a run has completed executing on a Connect Client, you'll need to download the solution from Connect before you can view it in PLEXOS.
+
+To download a solution, first select one or more runs (#1), then right click one of the selected run and hover over the menu category 'Download' (#2). Then select the option 'Solution' (#3) from the sub menu. After clicking this option, you'll be prompted to select a folder on your computer to download to. Once the download has finished, you'll be able to open any of the downloaded solutions in PLEXOS.
+
+Note: Only Compressed XML solutions are stored in Connect.
+
+If you only need to view the solution log from an execution, then follow the steps listed in Section 4 , but instead of choosing the option 'Solution', select 'Log' from the sub menu instead.
+
+If you only need to view the solution log from an execution, then follow the steps listed in section Section 4 , but instead of choosing the option 'Solution', select 'Files' from the sub menu instead. After clicking this option, a file selection window will option, allowing you to select specific files to download from a solution. After pressing 'OK', you'll be prompted for a download location, the files you selected will be downloaded to this location.
+
+Note: Only compressed XML solutions are stored in Connect.
+
+After a run has completed its simulation, you can view the log files by selecting any single run and then in the top left of the output panel, the drop-down list will list any available logs that can be viewed. After you have selected a log file, it will be displayed in the output panel.
+
+Note: You click on a run, the summary file and any log files will be downloaded for viewing in the output panel. These files will be transferred in a compressed format and should remain very small.
+
+Once a run has completed its simulation and the run has a summary log available, Launch Control can build a detailed list of the amount of time that each section of execution took to complete. To view this list, select one or more completed runs, right click on a selected run and click 'Execution Summary' in the menu. This will bring up the Report Window showing all the values found in the summary log files for all selected runs.
+
+While a run is currently being executed by a client, you can see the progress of each phase through the output panel or in the client output window. For both the output panel and the client output window, the progress is shown in the top left (highlighted below). The progress is updated between steps in a single phase, if a phase has a single step then no progress will be available for display.
+
+Note: Progress is determined by the output from the run and is not instantaneous.
+
+If you need to restart a completed run, select one or more completed runs and right click one of the selected runs, then under the "Rerun" menu item, choose the option desire (once, twice or custom). All selected completed runs will be recreated and set to start, these runs will then behave independently of their original runs. Jobset values decided at run creation (ie, latest engine, latest dataset version, etc) will not be recalculated, the values used by the original run will be reused in the new run.
+
+Note: Quick runs will require their files to still exist.
+
+After you delete a run from the run panel, the run will be moved to a removed run list. This is done because runs have files physically stored in the Connect Server and there would be no way to restore these runs once their files have been deleted. To permanently remove any right, click on the trash button at the top of the run panel (highlighted below) to show any removed runs. Then, select the runs that you wish to delete, right click on them, and select delete on the menu. The runs and their files will then be deleted from PLEXOS Connect Server.
+
+Note: You will need to have the user permission 'Execute' from the Connect General module.
+
+If you have executed a simulation without using PLEXOS Connect, then you are still able to upload the simulation results to the PLEXOS Connect system so you can share it with other users. To add your own solution files, right click in the run panel and select 'Upload Solution', a dialog as shown below will open. When the new solution window opens, it will prompt you to select a PLEXOS solution zip file.
+
+You must select which solution files to upload, these files need to be in the ".zip" format otherwise they will not be added. The files are then listed in the box next to the label 'Solutions' with the names being the name of the solution files found within each .zip file. After all selected solutions have been uploaded to the Connect Server, a new run with a completed status will be added and all the uploaded solutions will be added to this new run. Under more options, the details of this run can be left blank or be filled with the details available on the PLEXOS Connect system. Modifying anything under more options will not affect the selected items, instead these are used to populate the details of the new completed run. You can also specify the following in more options:
+
+Note: Only compressed XML solution will be added and you will need to have the user permission 'Execute' from the Connect General module.
+Lists:
+	- The jobset the run should be shown as
+	- The dataset the run should be shown as
+	- The engine to perform the simulation (by default it will use the latest engine)
+	- The client to perform the simulation (by default it will use any client that is available)
+	- The priority of execution (by default it is zero)
+	- The jobset to list the solution as in the run panel
+	- The dataset the solution was created with
+	- The arguments the solution was created with
+	- The engine used to perform the simulation
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Execute a Run Without a Dataset?
+3. How Do I Change the Run Panel's Date Filter?
+4. How Do I Download a Solution from a Run?
+5. How Do I View a Solution Log from a Run?
+6. How Do I View an Execution Time Summary for a Run?
+7. How Do I View a Run's Progress?
+8. How Do I Re-execute a Completed Run?
+9. How Do I Permanently Remove a Run?
+10. How Do I Upload a Solution from a Local PLEXOS Model?
+
+H3s:
+4.1. How Do I Download a Solution Log from a Run?
+4.2. How Do I Download a Specific File from a Run Solution?

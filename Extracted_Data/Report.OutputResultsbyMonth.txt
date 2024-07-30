@@ -1,0 +1,20 @@
+Header: Report Output Results by Month
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If summary results are written by month
+
+Paragraphs:
+Report Output Results by Month switches on/off writing of summary results for each calendar month of the simulation horizon.
+
+See also:
+Lists:
+	- Report Output Results by Period
+	- Report Output Results by Hour
+	- Report Output Results by Day
+	- Report Output Results by Week
+	- Report Output Results by Quarter
+	- Report Output Results by Fiscal Year
+

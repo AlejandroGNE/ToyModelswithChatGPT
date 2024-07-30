@@ -1,0 +1,11 @@
+Header: Transformer Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Transformer
+
+Paragraphs:
+Transformer Constraints is the sets of Constraints involved in the transformer.
+Lists:
+

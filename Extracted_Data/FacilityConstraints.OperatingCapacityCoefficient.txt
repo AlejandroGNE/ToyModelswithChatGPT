@@ -1,0 +1,21 @@
+Header: Facility Constraints Operating Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity of operating units
+
+Paragraphs:
+Facility Constraints Operating Coefficient is the left-hand coefficient on the Operating
+            Capacity in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Facility ( Operating Capacity ) ... {≤, ≥, =} b j
+Lists:
+

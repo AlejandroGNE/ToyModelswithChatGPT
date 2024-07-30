@@ -1,0 +1,12 @@
+Header: Diagnostic Network Traversal
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Invokes network reduction algorithm which can improve performance on large-scale networks.
+
+Paragraphs:
+This switch enables printing of network traversal diagnostic messages to the screen and log file during simulation execution. Traversal information identifies the unique networks in the AC network and their identified slack buses. This information is useful in diagnosing islanding in the network.
+Lists:
+

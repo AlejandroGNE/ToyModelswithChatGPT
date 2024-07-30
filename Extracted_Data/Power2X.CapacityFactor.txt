@@ -1,0 +1,22 @@
+Header: Power2X Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of maximum load being used
+
+Paragraphs:
+Facility Capacity Factor is a
+          measure of the utilization of the facility. Capacity factor is defined
+          as:
+
+Capacity Factor = Production / ( Max Capacity x Units x time )
+
+The term 'time' is the number of hours over which the
+          production is measured.
+Lists:
+

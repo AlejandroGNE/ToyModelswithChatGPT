@@ -1,0 +1,15 @@
+Header: Heat Storage Heat Loss
+
+Table Details:
+Units:	Input: %    Output: GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate at which heat is lost from storage
+
+Paragraphs:
+Heat Storage Heat Loss is the rate at which heat is lost from storage.
+Lists:
+

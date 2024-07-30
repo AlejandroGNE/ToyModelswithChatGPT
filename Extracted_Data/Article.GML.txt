@@ -1,0 +1,22 @@
+Header: Visualization of GML Files
+
+Table Details:
+
+Paragraphs:
+PLEXOS supports export of the power system to Geographic Markup Layout (GML) format which can be read by a number of commercial and freeware viewers such as Cytoscape.
+
+This format is useful for conveniently browsing a transmission network that does not have geospatial information (longitude and latitude) defined. If you do that those data defined, it is more convenient to display the network in Google Earth, as described in the article Visualizing with Google Earth .
+
+To visualize the power system described in a PLEXOS input database, choose the Visualization command from the program menu button. You will be presented with the following dialog box.
+
+Use the arrow buttons to select the Regions you want to export.
+
+Click OK and you will be prompted for a file name. In the dialog box that follows select "GML (*.GML)" as the file format and type a name for the file. Click OK to perform the export.
+
+The resulting GML file can be viewed by a number of available viewers of GML formats.
+
+Below we show how the network is displayed in Cytoscape using the "Organic" layout. To open the file in Cytoscape, choose the File / Import / Network File (Multiple Formats) command and select the GML file you just created.
+
+You can now use the browsing tools in Cytoscape to zoom and navigate around the network. As you zoom in closer, more detail is displayed:
+Lists:
+

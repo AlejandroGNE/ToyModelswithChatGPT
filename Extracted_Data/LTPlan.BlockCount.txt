@@ -1,0 +1,22 @@
+Header: LT Plan Block Count
+
+Table Details:
+Units:	-
+Default Value:	12
+Validation Rule:	≥1
+Description:	Number of load duration curve blocks in each day/week/month.
+
+Paragraphs:
+LT Plan Block Count applies when the Chronology = "Partial" or "Fitted". It controls the level of detail in each load duration curve (LDC) i.e. the number of unique load levels in each LDC. The more blocks the higher the accuracy of the LDC in representing the load, but the larger the optimization problem becomes because each block is a simulation period. The number of load duration curves created is controlled by the LDC Type option, and you can control the number of LDC solved in each simulation step with the At a Time setting.
+
+The block count may vary across the Horizon e.g. to reduce the detail used in later periods of the simulation, using the Last Block Count setting. Reducing the block count over time will improve simulation performance but reducing the number of simulation periods required.
+
+The number of simulation LDC, simulation periods, blocks and the savings from reducing the block count over time is reported in the simulation log file at the start of the simulation phase.
+
+Example
+
+In the following example the simulation Horizon is two years long solved in one step. LDC Type is "Week" and Block Count is five, with Last Block Count set to one.
+
+With Block Count of five the total number of periods would normally be 52 × 2 × 5 = 520, but by reducing over time to one block, with the Last Block Count setting, the simulator reports a total period count of 154.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Heat Injection Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of injecting heat into storage
+
+Paragraphs:
+Generator Heat Injection Cost is Cost of injecting heat into storage.
+Lists:
+

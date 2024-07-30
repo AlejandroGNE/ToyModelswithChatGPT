@@ -1,0 +1,15 @@
+Header: Storage Globals
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Globals defining data for the Storage
+
+Paragraphs:
+Storage Globals is used to define an external Future Cost Function as input to the model. The storage in this membership are used in the future cost formulation.
+
+Users can define multiple future cost linear equations for the same period of time. The slopes for a particular equation corresponds to the water values calculated when the associated storage in this membership reaches that end volume.
+
+External Future Cost Functions are used to define a border condition for large storages so they can be optimized in shorter simulation steps.
+Lists:
+

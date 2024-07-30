@@ -1,0 +1,35 @@
+Header: Vehicle Efficiency
+
+Table Details:
+Units:	Wh/km (Metric), Wh/m (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	200
+Validation Rule:	≥0
+Key Property:	No
+Description:	Electric vehicle efficiency
+
+Paragraphs:
+Vehicle efficiency is the energy required in watt-hours to 
+            travel one unit of distance (km or miles). This is a physical property of the vehicle and governed by 
+            factors such as electric motor and drivetrain efficiencies, friction and air resistance. In the metric system this is measured in watt-hours per kilometre
+            (Wh/km) and Imperial US it is measured in watt-hours per mile
+            (Wh/m). Efficiency concerns the motor and battery system only and
+            is therefore unrelated to Charging Efficiency or Auxiliary Consumption . Output As an output efficiency reflects the input value.
+
+In the metric system this is measured in watt-hours per kilometre
+            (Wh/km) and Imperial US it is measured in watt-hours per mile
+            (Wh/m).
+
+Efficiency concerns the motor and battery system only and
+            is therefore unrelated to Charging Efficiency or Auxiliary Consumption .
+
+As an output efficiency reflects the input value.
+
+See also:
+Lists:
+	- Vehicle Charge
+              Efficiency
+	- Vehicle Demand
+	- Vehicle Energy Consumption
+

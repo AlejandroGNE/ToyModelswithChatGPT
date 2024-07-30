@@ -1,0 +1,15 @@
+Header: Generator Water Consumption
+
+Table Details:
+Units:	Input: m³/MWh (Metric), gal./MWh (U.S. Imperial)    Output: m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Water consumed by the generator (e.g. evaporative cooling losses)
+
+Paragraphs:
+Generator Water Consumption is Water consumed by the generator (e.g. evaporative cooling losses).
+Lists:
+

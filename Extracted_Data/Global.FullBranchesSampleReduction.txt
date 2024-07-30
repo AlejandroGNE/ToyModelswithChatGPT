@@ -1,0 +1,15 @@
+Header: Global Full Branches Sample Reduction
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the Full Branches historical year start are automatically selected by sample reduction.
+
+Paragraphs:
+Global Full Branches Sample Reduction is Flag if the Full Branches historical year start are automatically selected by sample reduction..
+Lists:
+

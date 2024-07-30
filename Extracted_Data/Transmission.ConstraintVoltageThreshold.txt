@@ -1,0 +1,12 @@
+Header: Transmission Constraint Voltage Threshold
+
+Table Details:
+Units:	kV
+Default Value:	0
+Validation Rule:	≥0
+Description:	Voltage level at which thermal limits are modelled.
+
+Paragraphs:
+Transmission Constraint Voltage Threshold sets the voltage level at which line and transformer (branch) thermal limits are enforced. This relies on the node voltages being defined a priori . By default all branch limits are enforced if the Transmission Constraints Enabled switch is on.
+Lists:
+

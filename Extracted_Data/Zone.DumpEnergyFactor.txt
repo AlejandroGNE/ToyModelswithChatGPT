@@ -1,0 +1,15 @@
+Header: Zone Dump Energy Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of energy dumped
+
+Paragraphs:
+Zone Dump Energy Factor is Proportion of energy dumped.
+Lists:
+

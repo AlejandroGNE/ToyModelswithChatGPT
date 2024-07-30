@@ -1,0 +1,33 @@
+Header: Competition Class
+
+Table Details:
+Description:	Competition settings
+
+Paragraphs:
+See also Competition Property
+            Reference for a detailed list of properties for this class of
+          object.
+
+The Competition class groups together settings related to models of
+          non-marginal cost and competitive bidding. To apply a Competition
+          object to your Model add it to the Model's
+            Competition collection. Note that associating the object with a Model defines the global settings, but
+          you can optionally associate it with individual simulation phases e.g. LT Plan to run different settings in
+          different phases of your simulation.
+
+The simulator is capable of calculating Generator mark-ups statically e.g. to
+          recover generator no-load cost or dynamically i.e. accounting for generator availability, transmission congestion as well
+          as portfolio effects such as ownership with the Company class and contracts with the Financial
+            Contract class.
+
+Static mark-ups can be calculated automatically to recover no-load
+          cost with the No Load
+            Cost Mark-up setting.
+
+Four dynamic mark-up methods are described in the following articles:
+
+NOTE: The LRMC Recovery method can be used in conjunction with LT
+            Plan to simulate market-based pricing outcomes resulting from
+          recovery of expansion costs.
+Lists:
+

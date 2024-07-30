@@ -1,0 +1,34 @@
+Header: Emission Markets Purchases Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced for each unit purchased from the market
+Collection	Parent Object	Child Object	Property	Value	Data File	Units
+Emission.Generators	CO2	Thermal - Gas - Mid-merit	Production Rate	700		kg/MWh
+Emission.Generators	CO2	Thermal - Gas - Peaker	Production Rate	700		kg/MWh
+Emission.Vehicles	CO2	EV	Distance Coefficient	-0.2		kg/km
+Emission.Markets	CO2	NEM	Purchases Coefficient	900		-
+Emission.Objectives	CO2	Minimize Emissions	Production Coefficient	1		kg
+
+Paragraphs:
+Emission Markets Purchases Coefficient sets the emissions produced for each unit
+          purchased from the market.
+
+In the example in Table 1 the Emission "CO2" is produced by local
+          fossil-fired generation, but in addition, imports from the Market
+          "NEM" contribute at a rate equivalent to that of coal generation e.g. if imports are from another region that has predominantly coal-fired
+          generation.
+
+
+
+
+
+See also:
+Lists:
+	- Emission Markets Sales Coefficient
+

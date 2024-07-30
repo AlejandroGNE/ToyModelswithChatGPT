@@ -1,0 +1,15 @@
+Header: Gas Contract Supply Excess
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas supply excess
+
+Paragraphs:
+Gas Contract Supply Excess is the Gas supply excess.
+Lists:
+

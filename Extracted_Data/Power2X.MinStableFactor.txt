@@ -1,0 +1,17 @@
+Header: Power2X Min Stable Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum stable operation level as a proportion of [Max Load]
+
+Paragraphs:
+Power2X Min Stable Factor is the
+          minimum allowed electric load, when the facility is operation, defined
+          as a percentage of Max Load .
+Lists:
+

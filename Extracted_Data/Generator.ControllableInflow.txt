@@ -1,0 +1,17 @@
+Header: Generator Controllable Inflow
+
+Table Details:
+Units:	Input: %    Output: MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Proportion of Natural Inflow that is controllable
+
+Paragraphs:
+Generator Controllable Inflow is
+          the proportion of the Natural
+            Inflow that is controllable.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Zone Net Injection Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Summation of gas storage net injection cost
+
+Paragraphs:
+Gas Zones Net Injection Cost is Net Injection Cost for gas in entire model.
+Lists:
+

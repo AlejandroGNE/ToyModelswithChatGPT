@@ -1,0 +1,15 @@
+Header: Gas Plant Start Profile
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Detailed regime for increasing gas production from zero to [Min Stable Level] when [Run Up Rate] is non-constant.
+
+Paragraphs:
+Gas Plant Start Profile is Detailed regime for increasing gas production from zero to [Min Stable Level] when [Run Up Rate] is non-constant..
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Generator Running Cost
+
+Table Details:
+Units:	$/h (Metric), $/hr (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed cost of running a generating unit when on-line
+
+Paragraphs:
+Generator Running Cost is an
+          additional cost (over and above fuel and VO&M
+            Charge ) incurred for each hour that a unit is on-line. The cost
+          is not incurred if the unit is off-line, thus this is a 'semi-fixed
+          cost'. This cost is reported as part of Generation
+            Cost .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Reliability EFC Convergence Threshold
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Convergence criteria for Reliability evaluation.
+
+Paragraphs:
+Reliabilities EFC Convergence Threshold specifies the stopping criteria for Equivalent Firm Capacity (EFC) evaluation. EFC evaluation stops when the risk metric value for the last ST Schedule iteration is within the specified percentage of the target risk metric.
+Lists:
+

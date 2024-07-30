@@ -1,0 +1,17 @@
+Header: Gas Demand Excess Level
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Level corresponding to the Excess Price
+
+Paragraphs:
+Gas Demand Excess Level is used to specify tiered bands with different Excess Price values. The levels are specified in cumulative amounts and are
+            scaled based on the Gas Demand Resolution. If all the bands are used up PLEXOS will still allow more excess to occur at the
+            excess price of the last band.
+Lists:
+

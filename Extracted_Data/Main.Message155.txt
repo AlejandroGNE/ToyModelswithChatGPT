@@ -1,0 +1,11 @@
+Header: Message 155
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	The Horizon (<value> years) could not be factored by the given LT Plan At a Time (<value>) and LT Plan Overlap (<value>).
+
+Paragraphs:
+Message 155 occurs in the following circumstances:
+Lists:
+

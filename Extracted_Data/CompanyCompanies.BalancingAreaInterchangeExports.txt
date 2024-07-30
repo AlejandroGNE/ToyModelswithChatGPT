@@ -1,0 +1,15 @@
+Header: Company Companies Balancing Area Interchange Exports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial exports from parent company to child company
+
+Paragraphs:
+Company Companies Balancing Area Interchange Exports is the financial exports from parent company to child company.
+Lists:
+

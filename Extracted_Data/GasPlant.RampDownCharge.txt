@@ -1,0 +1,15 @@
+Header: Gas Plant Ramp Down Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Charge applied to ramping down
+
+Paragraphs:
+Gas Plant Ramp Down Charge is Charge applied to ramping down.
+Lists:
+

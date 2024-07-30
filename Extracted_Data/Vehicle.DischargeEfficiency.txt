@@ -1,0 +1,17 @@
+Header: Vehicle Discharge Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of discharging
+
+Paragraphs:
+As an input, Vehicle Discharge Efficiency is the ratio of power sent to the grid to the total power discharged from the vehicle including any inverter losses.
+
+As an output, Discharge Efficiency reflects the input value less any Discharge Efficiency Degradation .
+Lists:
+

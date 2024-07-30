@@ -1,0 +1,12 @@
+Header: Production Capacity Factor Constraint Basis
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Basis for capacity factor constraints.
+
+Paragraphs:
+Production Capacity Factor Constraint Basis controls the formula for calculating Generator Capacity Factors . It can take the following values:
+Lists:
+

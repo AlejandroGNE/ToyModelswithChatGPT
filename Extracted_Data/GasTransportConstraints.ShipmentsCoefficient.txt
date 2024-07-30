@@ -1,0 +1,19 @@
+Header: Gas Transport Constraints Shipments Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas transport voyage count
+
+Paragraphs:
+Gas Transport Constraints Shipments Coefficient is the left-hand side coefficient on the number
+          of gas transport voyages in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

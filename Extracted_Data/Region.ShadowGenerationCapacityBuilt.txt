@@ -1,0 +1,15 @@
+Header: Region Shadow Generation Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation capacity built before Competition models.
+
+Paragraphs:
+Region Shadow Generation Capacity Built is Generation capacity built before any automated dynamic mark-up methods like RSI or Nash-Cournot Competition are performed.
+Lists:
+

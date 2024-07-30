@@ -1,0 +1,11 @@
+Header: Purchaser Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	set of nodes the purchaser withdraws energy from
+
+Paragraphs:
+Purchaser Nodes is the set of nodes the purchaser withdraws energy from.
+Lists:
+

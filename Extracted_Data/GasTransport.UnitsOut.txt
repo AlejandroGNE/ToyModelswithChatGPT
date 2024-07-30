@@ -1,0 +1,18 @@
+Header: Gas Transport Units Out
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Gas Transport Units Out defines
+              'discrete' (or planned) maintenance events. The property can be
+              used with the Date From and Date To fields to set the exact period
+              of outage.
+Lists:
+

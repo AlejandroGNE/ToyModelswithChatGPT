@@ -1,0 +1,12 @@
+Header: Production Run Up and Down Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If generator run up and run down are modeled
+
+Paragraphs:
+Production Run Up and Down setting governs whether Generator Start and Generator Shutdown profiles are enabled in the optimization.
+Lists:
+

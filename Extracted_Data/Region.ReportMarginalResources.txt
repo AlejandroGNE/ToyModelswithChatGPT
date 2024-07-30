@@ -1,0 +1,22 @@
+Header: Region Report Marginal Resources
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If marginal resources are reported for the region in the solution
+
+Paragraphs:
+Region Report Marginal Resources is the switch for reporting marginal resources for the region in the solution.
+            When activated, an advanced simplex solve is done in the solver after the LP is solved to determine which resources would respond to a slight
+            adjustment to the region load. Memberships will be dynamically created between the region and all marginal resources (generators, batteries, markets, etc.)
+            in that simulation. The solution will report which resources are marginal each period in those memberships. In most cases there will only be a single
+            marginal resource for a given region and time period, but there can be more than one. A percentage value will be reported for each marginal resource. For multi-sample simulations, reporting will be done for all samples, even if individual samples
+            are not reported in general.
+
+Note that this will only be reported on phases with a Regional Transmission Detail , and by default it will only be reported for the last non-PASA phase. If the MT Schedule hidden parameter AlwaysAllowMarginalResourceReporting is set to True, then the MT phase will also be allowed to report the marginal resources even if the ST Schedule is also enabled. Similarly, if the LT Plan hidden parameter AlwaysAllowMarginalResourceReporting is set to True, then the LT Plan will also be allowed to report the marginal resources even if the MT Schedule or ST Schedule is enabled. This reporting is only available when using Gurobi, CPLEX, or MOSEK.
+Lists:
+

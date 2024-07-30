@@ -1,0 +1,11 @@
+Header: Generator Water Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Water Node the Generator connects to
+
+Paragraphs:
+Generator Water Node is Water Node the Generator connects to.
+Lists:
+

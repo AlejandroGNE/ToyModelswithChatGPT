@@ -1,0 +1,11 @@
+Header: Message 3165
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Variable '<value>' is configured for <value> sampling.  The sampling method needs to be set to '<value>'.
+
+Paragraphs:
+Message 3165 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3161
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	The Generator Outage Rating for <name> is larger than or equal to its rated capacity in certain periods.  Generator Units Out will not be applied to those periods.
+
+Paragraphs:
+Message 3161 occurs in the following circumstances:
+Lists:
+

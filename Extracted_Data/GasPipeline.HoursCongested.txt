@@ -1,0 +1,15 @@
+Header: Gas Pipeline Hours Congested
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the pipeline is congested in the reference direction
+
+Paragraphs:
+Gas Pipeline Hours Congested is Number of hours the pipeline is congested in the reference direction.
+Lists:
+

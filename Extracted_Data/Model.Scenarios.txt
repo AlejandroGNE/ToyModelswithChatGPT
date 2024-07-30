@@ -1,0 +1,11 @@
+Header: Model Scenarios
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of scenarios used by the model
+
+Paragraphs:
+Model Scenarios is the set of Scenario objects whose data should be included in the simulation represented by the Model. Scenario data are read according to the Read Order .
+Lists:
+

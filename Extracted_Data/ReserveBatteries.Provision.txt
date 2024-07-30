@@ -1,0 +1,17 @@
+Header: Reserve Batteries Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision
+
+Paragraphs:
+Reserve Batteries Provision is the total reserve provided by the battery to met the Risk .
+
+See also: Reserve Generators Provision
+Lists:
+

@@ -1,0 +1,11 @@
+Header: List Waterways
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Waterway objects in the List
+
+Paragraphs:
+List Waterways is set of Main Waterway objects in the List.
+Lists:
+

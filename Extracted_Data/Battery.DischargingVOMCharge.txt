@@ -1,0 +1,19 @@
+Header: Battery Discharging VO&M Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge for discharging
+
+Paragraphs:
+Battery Discharging VO&M Charge is the variable operation and maintenance charge for Discharging . In particular, it is the additional VO&M charge which is combined with the Battery VO&M Charge , while the battery is discharging. If the Battery VO&M Charge is not provided, 
+                then only Discharging VO&M Charge applies to the gross amount of discharging.
+
+See also:
+Lists:
+	- Charging VO&M Charge
+

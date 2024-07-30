@@ -1,0 +1,23 @@
+Header: Production Pump and Generate
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If pumped storage/battery is allowed to pump/charge and generate/discharge simultaneously
+
+Paragraphs:
+This setting applies to Batteries , Vehicles and pumped storage Generators . 
+            It controls whether or not generating/discharging and pumping/charging modes are allowed to occur simultaneously in any one interval. By default this is allowed (Pump and Generate is 'True') but you can prevent this from occurring by setting this to 'False'. When you do this the formulation is modified with integer variables to prevent simultaneous generating/discharging and pumping/charging.
+
+Unit Commitment Optimality controls whether or not these integer constraints are obeyed.
+            Optimality can be defined globally ( Production Unit Commitment Optimality ) or for individual objects
+            ( Battery Unit Commitment Optimality , Generator Unit Commitment Optimality ), with
+            the individual settings taking preference. Unit commitment optmality must be 'Integer Optimal' for the integer restrictions to apply. Simultaneous pumping and generation/charging and discharging may occur otherwise.
+
+This Production setting can be overriden for individual objects via:
+Lists:
+	- Generator Simultaneous Pump and Generate ,
+	- Battery Simultaneous Charge and Discharge ,
+	- Vehicle Simultaneous Charge and Discharge .
+

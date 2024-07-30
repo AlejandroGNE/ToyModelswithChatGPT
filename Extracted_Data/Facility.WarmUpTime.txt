@@ -1,0 +1,38 @@
+Header: Facility Warm Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Number of hours required to warm up the Facility
+NH3.Plant	Min Up Time	48	h
+NH3.Plant	Min Down Time	4	h
+NH3.Plant	Warm Up Time	48	h
+NH3.Plant	Warm Up Operating Level	2	MW
+
+Paragraphs:
+Facility Warm Up Time is the
+          number of hours required to warm up the Facility. The warm up period
+          is triggered when there are any number of Units
+            Started after a period where Units
+            Operating is zero. During the warm-up period, only the Warm
+            Up Process runs i.e. Production is zero and the Warm Up Process runs at the output level set by the Warm
+            Up Operating Level .
+
+The number of hours spent warming up is reported in the Warm Up Hours output property.
+
+When Warm Up Time is combined with Min Down Time the warm up
+          behaviour changes as follows:
+
+In the above example, the Facility must warm up for 48 hours unless
+          it has been off for no more than four hours in which case it can warm
+          up in four hours.
+Lists:
+	- The Min Down Time constraint is ignored
+	- The Min Down Time becomes a trigger point at which the warm up
+            period can be interrupted if the unit has been off for no longer
+            than the Min Down Time hours.
+

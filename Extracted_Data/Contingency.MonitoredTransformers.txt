@@ -1,0 +1,11 @@
+Header: Contingency Monitored Transformers
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of transformers whose limits are monitored under the contingency
+
+Paragraphs:
+Contingency Monitored Transformers defines a set of transformers whose post-contingency flows will be monitored (enforced within limits). If this collection is empty then all transformer flows are monitored.
+Lists:
+

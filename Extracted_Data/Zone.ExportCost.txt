@@ -1,0 +1,19 @@
+Header: Zone Export Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of exports
+
+Paragraphs:
+Zone Export Cost is the notional cost of exports and is defined as:
+
+See also:
+Lists:
+	- Zone Import Revenue
+	- Zone Net Cost of Exports
+

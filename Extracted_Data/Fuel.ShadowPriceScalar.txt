@@ -1,0 +1,15 @@
+Header: Fuel Shadow Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Multiplier on the shadow price of the fuel (use only when Shadow Price is defined)
+
+Paragraphs:
+Fuel Shadow Price Scalar is a value that scales the input Shadow Price according to the following formula:
+Lists:
+

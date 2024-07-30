@@ -1,0 +1,20 @@
+Header: Market Max Sales Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum sales to the market each day
+
+Paragraphs:
+Market Max Sales Day creates a Constraint object that sets an upper bound on the Sales from the Market each day. By default this is a 'hard' constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Day
+	- Market Constraints Sales Coefficient
+

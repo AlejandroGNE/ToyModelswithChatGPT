@@ -1,0 +1,28 @@
+Header: Commodity Constraints Build Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total build cost
+
+Paragraphs:
+Commodity Constraints Build Cost is the left-hand side coefficient of Commodity Build Cost from the start of
+          the horizon up to the current period in the constraint. The cost is
+          the nominal lump-sum Build Cost i.e without any adjustment for Discount
+            Rate .
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × ∑ ( t = 1, k ) Commodity Build
+            Cost × Commodity Units
+            Built t ... {≤,
+            ≥, =} b j
+
+where: k is the current period e.g. year of the simulation.
+Lists:
+

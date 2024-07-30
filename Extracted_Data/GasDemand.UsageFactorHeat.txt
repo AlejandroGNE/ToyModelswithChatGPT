@@ -1,0 +1,15 @@
+Header: Gas Demand Usage Factor Heat
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar heat value regardless of demand
+
+Paragraphs:
+Gas Demand Usage Factor Heat is a multi-band scalar denoting the energy usage per unit of heat value for one customer. Temperature (or Heating Degree Days ) data that falls within a Usage Factor Heat Point band will be multiplied by the corresponding Usage Factor Heat value for that band.
+Lists:
+

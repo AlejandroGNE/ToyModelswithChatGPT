@@ -1,0 +1,19 @@
+Header: Generator Dispatchable Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity of committed units between technical limits
+
+Paragraphs:
+Generator Dispatchable Capacity is the available capacity given the unit commitment status of the units i.e. it is the range of Generation possible given the on/off status of the units, which is reported as Units Generating . The feasible operating range is between Min Stable Level and Rating . For example if the generator is operating below Min Stable Level during run up or run down then Dispatchable Capacity is zero.
+
+See also:
+Lists:
+	- Generator Undispatched Capacity
+	- Generator Available Capacity
+

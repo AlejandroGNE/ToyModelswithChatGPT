@@ -1,0 +1,11 @@
+Header: Generator Gas Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of gas nodes connected to the generator
+
+Paragraphs:
+Generator Gas Node is the set of gas nodes connected to the generator.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Purchaser Min Energy Hour
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum energy in hour
+
+Paragraphs:
+Purchaser Min Energy Hour is the minimum energy in an hour. This is the hourly equivalent of Purchaser Min Energy .
+Lists:
+

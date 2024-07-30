@@ -1,0 +1,11 @@
+Header: Charging Station Node
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Charging Station connection point in the electric network
+
+Paragraphs:
+Charging Station Node is the charging station connection point in the electric network
+Lists:
+

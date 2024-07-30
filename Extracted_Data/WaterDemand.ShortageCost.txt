@@ -1,0 +1,15 @@
+Header: Water Demand Shortage Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of water supply shortages
+
+Paragraphs:
+Water Demand Shortage Cost is Cost of water supply shortages.
+Lists:
+

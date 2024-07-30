@@ -1,0 +1,15 @@
+Header: Reserve Batteries Max Replacement Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum replacement (non-spinning) reserve capability as a proportion of generation capacity
+
+Paragraphs:
+Reserve Batteries Max Replacement Factor is the maximum replacement (non-spinning) reserve capability as a proportion of generation capacity.
+Lists:
+

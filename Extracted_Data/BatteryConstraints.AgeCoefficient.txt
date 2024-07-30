@@ -1,0 +1,17 @@
+Header: Battery Constraints Age Coefficient
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of years since the expansion candidate was built
+
+Paragraphs:
+Battery Constraints Age Coefficient is the left-hand side coefficient of Age in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+Lists:
+

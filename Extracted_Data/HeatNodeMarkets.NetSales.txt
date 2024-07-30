@@ -1,0 +1,15 @@
+Header: Heat Node Markets Net Sales
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net sales to the market
+
+Paragraphs:
+Heat Node Markets Net Sales is Net sales to the market.
+Lists:
+

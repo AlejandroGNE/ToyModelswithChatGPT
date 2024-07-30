@@ -1,0 +1,15 @@
+Header: Heat Node Allow Unserved Heat
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Model Heat Node [Unserved Heat] in the mathematical program.
+
+Paragraphs:
+Heat Node Allow Unserved Heat is Model Heat Node [Unserved Heat] in the mathematical program..
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Storage Efficiency
+
+Table Details:
+Units:	MW/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Efficiency of generation
+
+Paragraphs:
+Storage Efficiency is the efficiency of generation from the Exporting Generators and is defined as:
+
+See also:
+Lists:
+	- Storage Pump Load
+

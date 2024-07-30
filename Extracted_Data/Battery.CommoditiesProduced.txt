@@ -1,0 +1,11 @@
+Header: Battery Commodities Produced
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Commodities produced by the Battery
+
+Paragraphs:
+Battery Commodities Produced is set of Commodities produced by the Battery
+Lists:
+

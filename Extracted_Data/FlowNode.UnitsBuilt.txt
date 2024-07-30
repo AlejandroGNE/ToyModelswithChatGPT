@@ -1,0 +1,22 @@
+Header: Flow Node Units Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flag if the Flow Node is built in this year
+
+Paragraphs:
+Flow Node Units Built is the
+          number of units of the Flow Node built by LT
+            Plan .
+
+See also:
+Lists:
+	- Flow Node Units
+	- Flow Node Max
+              Units Built
+

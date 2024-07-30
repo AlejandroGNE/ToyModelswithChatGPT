@@ -1,0 +1,21 @@
+Header: Line Export Limit
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Maximum flow allowed on the line
+
+Paragraphs:
+Line Export Limit is the maximum flow allowed on the line and accounts for Max Flow and Max Rating inputs: Export Limit = MIN( Max Flow , Max Rating )
+
+Note: If Line Constraints are in place that restrict line flow, this can change the maximum allowable flow on the line and the reported export limit.
+
+See also:
+Lists:
+	- Line Import Limit
+	- Line Available Transfer Capability
+

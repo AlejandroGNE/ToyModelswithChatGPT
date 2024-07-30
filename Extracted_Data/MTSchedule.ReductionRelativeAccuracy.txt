@@ -1,0 +1,12 @@
+Header: MT Schedule Reduction Relative Accuracy
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	Between 0 And 1
+Description:	Stop sample reduction when the accuracy of the reduced sample set reaches this level.
+
+Paragraphs:
+MT Schedule Reduction Relative Accuracy applies when the Chronology setting is "Sampled". It provides an alternative way to drive the period sampling. Rather than reducing to a fixed Reduced Sample Count the technique can reduce the samples until a given accuracy is reached, with smaller values representing a less accurate sample. Reduction will occur until the 'worse' criteria is met e.g. either the Reduced Sample Count is reached or the amount of information preserved has fallen to the Reduction Relative Accuracy.
+Lists:
+

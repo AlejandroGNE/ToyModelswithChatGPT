@@ -1,0 +1,15 @@
+Header: Entity Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Retirement costs of Facilities
+
+Paragraphs:
+Entity Retirement Cost is the retirement costs of Facilities.
+Lists:
+

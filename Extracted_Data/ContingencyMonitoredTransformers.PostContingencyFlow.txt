@@ -1,0 +1,15 @@
+Header: Contingency Monitored Transformers Post-Contingency Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Post-Contingent Flows
+
+Paragraphs:
+Contingency Monitored Transformers Post-Contingency Flow reports the post-contingency flow on the monitored transformers under the given contingency. This is reported for all Contingency and Monitored Transformer pairs regardless of whether the resulting constraint was binding.
+Lists:
+

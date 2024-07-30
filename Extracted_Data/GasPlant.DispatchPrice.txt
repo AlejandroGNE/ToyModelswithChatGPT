@@ -1,0 +1,15 @@
+Header: Gas Plant Dispatch Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Incremental dispatch price of processing gas
+
+Paragraphs:
+Gas Plant Dispatch Price is the incremental dispatch price of processing gas.
+Lists:
+

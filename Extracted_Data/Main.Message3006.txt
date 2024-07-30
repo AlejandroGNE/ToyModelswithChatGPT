@@ -1,0 +1,11 @@
+Header: Message 3006
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Warn (value = 1)
+Description:	Power Station <name> conflicts with a Generator of the same name.
+
+Paragraphs:
+Power Station <name> conflicts with a Generator of the same name.
+Lists:
+

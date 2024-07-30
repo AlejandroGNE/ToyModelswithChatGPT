@@ -1,0 +1,15 @@
+Header: Emission Generators Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net production of the emission
+
+Paragraphs:
+Emission Generators Production is the net production of the emission by the Generator , and is defined as:
+Lists:
+

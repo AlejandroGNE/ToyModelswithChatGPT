@@ -1,0 +1,15 @@
+Header: Line Debt Charge
+
+Table Details:
+Units:	$000
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Annual debt charge
+
+Paragraphs:
+Line Debt Charge is the annual debt charge.
+Lists:
+

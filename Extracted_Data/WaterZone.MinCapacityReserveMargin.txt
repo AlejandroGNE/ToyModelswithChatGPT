@@ -1,0 +1,18 @@
+Header: Water Zone Min Capacity Reserve Margin
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserve margin for capacity planning
+
+Paragraphs:
+Water Zone Min Capacity Reserve Margin sets a lower bound on the capacity reserve margin in the Water Zone in LT Plan . The expansion solution will attempt to meet the required capacity reserve margin by new builds and/or restricting water plant retirements.
+
+See also:
+Lists:
+	- Water Zone Max Capacity Reserve Margin
+

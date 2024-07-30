@@ -1,0 +1,22 @@
+Header: Interface Max Flow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow on interface
+
+Paragraphs:
+Interface Max Flow as an input sets an upper bound on the net flow on the interface in the reference direction. This limit can be made soft by setting the Limit Penalty property.
+
+As an output by interval Max Flow repeats the input value, but in summary data it reports the maximum value of Flow in the summary period (day, week, month, year).
+
+Max Flow should not be smaller than Min Flow
+
+See also:
+Lists:
+	- Interface Min Flow
+

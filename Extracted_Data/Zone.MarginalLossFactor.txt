@@ -1,0 +1,15 @@
+Header: Zone Marginal Loss Factor
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average marginal loss factor of buses in the zone
+
+Paragraphs:
+Zone Marginal Loss Factor is the average marginal loss factor of buses in the zone.
+Lists:
+

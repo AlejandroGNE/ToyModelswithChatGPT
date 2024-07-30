@@ -1,0 +1,14 @@
+Header: Gas Pipeline Gas Node To
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	gas node the gas pipeline imports to
+
+Paragraphs:
+Gas Pipeline Gas Node To is Gas Node the Gas Pipeline imports to.
+
+See also:
+Lists:
+	- Gas Pipeline Gas Node From
+

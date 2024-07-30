@@ -1,0 +1,14 @@
+Header: Production Warm Up Process Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If modeling of Facility Warm Up Process is enabled
+
+Paragraphs:
+The Production switch toggles
+          on/off modeling of Facility Warm
+            Up Process in the simulation.
+Lists:
+

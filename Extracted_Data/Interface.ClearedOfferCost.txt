@@ -1,0 +1,15 @@
+Header: Interface Cleared Offer Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under offer curve
+
+Paragraphs:
+Interface Cleared Offer Cost is the area cleared under offer curve.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Fuel Contract Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators whose fuel use is subject to the contract
+
+Paragraphs:
+Fuel Contract Generators is set of generators whose fuel use is subject to the contract.
+Lists:
+

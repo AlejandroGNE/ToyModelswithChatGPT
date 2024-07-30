@@ -1,0 +1,21 @@
+Header: Generator Constraints Capacity Reserves Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of generator contribution to capacity reserves
+
+Paragraphs:
+Generator Constraints Capacity Reserves Coefficient is the left-hand side coefficient of generator contribution to Capacity Reserves in the constraint.
+
+With the coefficient represented by a (i,j) the following term is added to the formulation:
+
+See also:
+Lists:
+	- Generator Regions Capacity Reserves Coefficient
+	- Generator Zones Capacity Reserves Coefficient
+

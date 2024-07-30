@@ -1,0 +1,22 @@
+Header: Abatement Max Abatement Hour
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum abatement in an hour
+
+Paragraphs:
+Abatement Max Abatement Hour is the maximum abatement in an hour.
+
+See also:
+Lists:
+	- Max Abatement
+	- Max Abatement Day
+	- Max Abatement Week
+	- Max Abatement Month
+	- Max Abatement Year
+

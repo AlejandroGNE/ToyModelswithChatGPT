@@ -1,0 +1,13 @@
+Header: Facility Secondary Inputs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Facility Secondary Inputs is the
+          input Commodities of the Secondary
+            Processes conducted at the Facility.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Line Maintenance Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total capacity out of service in the reverse reference direction (discrete + distributed)
+
+Paragraphs:
+Line Maintenance Back is the total capacity out of service in the reverse reference direction (discrete + distributed).
+Lists:
+

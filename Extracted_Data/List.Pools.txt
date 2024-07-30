@@ -1,0 +1,11 @@
+Header: List Pools
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Pool objects in the List
+
+Paragraphs:
+List Pools is the set of Pool objects in the List.
+Lists:
+

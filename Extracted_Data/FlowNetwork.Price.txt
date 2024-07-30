@@ -1,0 +1,15 @@
+Header: Flow Network Price
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Market price
+
+Paragraphs:
+Flow Network Price is Market price.
+Lists:
+

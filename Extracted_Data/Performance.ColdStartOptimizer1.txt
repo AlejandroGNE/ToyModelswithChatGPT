@@ -1,0 +1,14 @@
+Header: Performance Cold Start Optimizer 1
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,4,5,6,9,10)
+Description:	First priority optimizer used to solve problems from a cold-start.
+
+Paragraphs:
+Performance Cold Start
+          Optimizer sets the optimization algorithm used by the selected SOLVER to solve the first problem of each simulation step. The available
+          values for this option are described on the SOLVER page.
+Lists:
+

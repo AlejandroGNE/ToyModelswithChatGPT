@@ -1,0 +1,22 @@
+Header: Generator Max Heat Withdrawal Year
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of heat that can be withdrawn from the storage in a year
+
+Paragraphs:
+Generator Max Heat Withdrawal Year is Maximum amount of heat that can be withdrawn from the storage in a year.
+This is the Year variant of Max Heat Withdrawal .
+
+See also:
+Lists:
+	- Generator Max Heat Withdrawal Hour
+	- Generator Max Heat Withdrawal Day
+	- Generator Max Heat Withdrawal Week
+	- Generator Max Heat Withdrawal Month
+

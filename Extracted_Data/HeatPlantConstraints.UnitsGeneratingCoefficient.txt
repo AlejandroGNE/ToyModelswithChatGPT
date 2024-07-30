@@ -1,0 +1,15 @@
+Header: Heat Plant Constraints Units Generating Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on the number of units generating
+
+Paragraphs:
+Heat Plant Constraints Units Generating Coefficient is Coefficient on the number of units generating.
+Lists:
+

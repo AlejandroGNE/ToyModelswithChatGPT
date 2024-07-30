@@ -1,0 +1,15 @@
+Header: Emission Markets Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from sales to the market
+
+Paragraphs:
+Emission Markets Revenue is Revenue from sales to the market.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Reserve Generator Contingencies Shadow Price
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of Generator contingency constraint.
+
+Paragraphs:
+Reserve Generator Contingencies Shadow Price is the shadow price (dual variable value) of the dynamic risk constraint for the contingency.
+
+See also:
+Lists:
+	- Reserve
+	- Generator Contingencies
+	- Risk
+

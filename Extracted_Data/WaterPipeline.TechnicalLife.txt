@@ -1,0 +1,15 @@
+Header: Water Pipeline Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the Water pipeline
+
+Paragraphs:
+Water Pipeline Technical Life is Technical lifetime of the Water pipeline.
+Lists:
+

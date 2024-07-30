@@ -1,0 +1,19 @@
+Header: Purchaser Max Energy Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Energy] or [Max Load Factor] constraints.
+
+Paragraphs:
+Purchaser Max Energy Violation is the violation of Max Energy or Max Load Factor constraints.
+
+See also:
+Lists:
+	- Purchaser Max Energy Penalty
+	- Purchaser Max Energy Violation Cost
+

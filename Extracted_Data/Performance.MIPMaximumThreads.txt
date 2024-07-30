@@ -1,0 +1,14 @@
+Header: Performance MIP Maximum Threads
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum number of threads used by the mixed integer optimizer, where -1 means all available threads.
+
+Paragraphs:
+This option sets the maximum number of execution threads used by the mixed integer program (MIP) optimizer. There is some additional overhead in using multiple threads in the branch and bound process for the MIP, 
+            so using fewer threads may be faster in some cases. Often a single thread will perform the best for MIPs that solve relatively quickly, so testing should be done to find the best parameter value for a given case. 
+            Note that not all solvers supporting threading for MIP.
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Gas Contract Quantity
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Gas contract quantity
+
+Paragraphs:
+Gas Contract Quantity is the quantity of gas specified in the contract to be supplied at a particular price.
+          It is maximum amount of gas that a contract can produce daily. A contract can produce less than this, but not more. When running with intervals less than 24 hours, the constraints scale down (i.e., when running with hourly intervals and a Quantity Day of 24 TJ, the contract will only be able to produce up to 1 TJ each hour, even if the contract doesn't produce any gas in other hours of the day).
+
+When the gas contract is an expansion candidate, the original Quantity property may be overwritten by the results of expansion based on the Quantity Day .
+Lists:
+

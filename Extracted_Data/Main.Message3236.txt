@@ -1,0 +1,11 @@
+Header: Message 3236
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Line <name> is assumed out-of-service because it is an unconstrained DC link.
+
+Paragraphs:
+Message 3236 occurs in the following circumstances:
+Lists:
+

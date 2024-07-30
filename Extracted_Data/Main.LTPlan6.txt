@@ -1,0 +1,12 @@
+Header: LT Plan - Capacity Zones
+
+Table Details:
+
+Paragraphs:
+Capacity margin constraints can be defined on either Region objects or Zone objects. The Zone class can be used as either an 'energy' zone or a 'capacity' zone and you can overlap those types of zones as necessary. In particular a Zone need not be a subset of a Region . This gives complete flexibility in describing the capacity requirements of the system independently of load areas.
+
+To define a capacity zone, create a Zone object and add Node objects into its Capacity Nodes collection. You may then set the Zone Min Capacity Reserves or Zone Min Capacity Reserve Margin input properties as required. Note that the same inputs are provided on the Region class for the case where the capacity requirements align with the Region definitions. NOTE : The shadow price on these capacity requirement constraints contributes to capacity payments when the LT Plan Capacity Payments Enabled attribute is toggled 'on'.
+
+Previous Chapter | Next Chapter
+Lists:
+

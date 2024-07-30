@@ -1,0 +1,15 @@
+Header: Company Reserves VO&M Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Variable operations and maintenance cost associated with providing reserves
+
+Paragraphs:
+Company Reserves VO&M Cost is Variable operations and maintenance cost associated with providing reserves.
+Lists:
+

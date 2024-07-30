@@ -1,0 +1,15 @@
+Header: Charging Station Capacity Retired
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity retired
+
+Paragraphs:
+Charging Station Capacity Retired is Capacity retired.
+Lists:
+

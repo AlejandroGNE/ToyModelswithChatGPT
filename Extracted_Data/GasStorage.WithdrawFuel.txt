@@ -1,0 +1,15 @@
+Header: Gas Storage Withdraw Fuel
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel amount lost in the gas storage withdrawal
+
+Paragraphs:
+Gas Storage Withdraw Fuel is the amount of fuel lost in the process of gas storage withdrawal.
+Lists:
+

@@ -1,0 +1,27 @@
+Header: Commodity Min Injection Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of the Commodity that must be added to inventory in any year
+
+Paragraphs:
+Commodity Min Injection Year
+          creates a Constraint object that
+          forces the Injection of the
+          Commodity into inventory each year. By default this is a 'hard'
+          constraint. To create a soft constraint, create a Constraint with a Penalty Price .
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Year
+	- Commodity Constraints Injection
+              Coefficient
+

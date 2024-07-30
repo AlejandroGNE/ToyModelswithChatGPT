@@ -1,0 +1,15 @@
+Header: Generator Companies Undispatched Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity on-line but undispatched
+
+Paragraphs:
+Generator Companies Undispatched Capacity is Capacity on-line but undispatched.
+Lists:
+

@@ -1,0 +1,185 @@
+Header: Hidden Parameters for PLEXOS
+
+Table Details:
+Report	CompiledConstraints	Boolean	false		false	Enable a detailed report of compiled constraints. Normally, activity violation properties for a constraint are only reported for user defined constraints.
+Report	Locale	String	null		false	Global Culture format
+Model	EncryptData	Boolean	false		false	Setting to enable data obfuscation (encryption). This will convert all object names into an encrypted form, using a random seed (i.e. cannot be decrypted). This is useful for securing sensitive information. All references to these objects are also updated in the csv data file themselves.
+Model	FlatFileRoundingDP	Integer	8	> 0	false	Rounding precision in flat file writing.
+Model	IncludeInputData	Boolean	false		false	If the input dataset should be included in the solution file, which is used with the CIM exporter functionality.
+Model	IncludeMaintenanceInReliabilityIndices	Boolean	true		false	Include the distributed maintenance in reliability indices calculation. Discrete maintenance is always included.
+Model	IncludeModelNameInFilenames	Boolean	true		false	If the Model name should be included in the filenames such as LP and other diagnostic files.
+Model	MaxConditionConvergenceIterations	Integer	4	> 0	false	Used to define the maximum number of iterations in the condition convergence algorithm.
+Model	RunMode_PASA	Integer	0	In (0,1)	false	Value = 0 ("Normal"), Value = 1 ("Dry") for the PASA phase only. (See above for more details about the "dry run" mode)
+Model	RunMode_LTPlan	Integer	0	In (0,1)	false	Value = 0 ("Normal"), Value = 1 ("Dry") for the LT Plan phase only. (See above for more details about the "dry run" mode)
+Model	RunMode_MTSchedule	Integer	0	In (0,1)	false	Value = 0 ("Normal"), Value = 1 ("Dry") for the MT Schedule phase only. (See above for more details about the "dry run" mode)
+Model	RunMode_STSchedule	Integer	0	In (0,1)	false	Value = 0 ("Normal"), Value = 1 ("Dry") for the ST Schedule phase only. (See above for more details about the "dry run" mode)
+Model	SuppressInterleaveOutages	Boolean	false		false	Setting to true will suppress commencing forced outages in the "day-ahead" model of an interleaved execution.
+Model	SuppressRescalingSampledData	Boolean	false		false	Setting to true will suppress rescaling the sampled data (eg. load, wind, solar) in sampled chronology.
+Model	SuppressRescalingSpecificInputs	Boolean	true		false	False or 0 - Do not suppress rescaling the sampled data of which the input values are within the range of [0,1].  This does not apply to properties with percentage unit (%), such as Rating Factor, Max Capacity Factor and etc., thus percentage inputs will not be rescaled.
+True or 1 - Do suppress rescaling the sampled data of which the input values are within the range of [0,1].
+2 - Do not suppress rescaling the sampled data of which the input values are within the range of [0,1] or properties with percentage unit (%).
+Model	SculptSampleForTotalValues	Boolean	true		false	Setting to true will apply additional sculpting to the sampled data (eg. load, wind, solar) to match the total input values in sampled chronology. This parameter will not override parameters SuppressRescalingSampledData or SuppressRescalingSpecificInputs.
+Model	UseDatafileObjectLookup	String()	null		false	Used to define variable's which will have their name mapped to objects names for data file values look up. If a variable is defined to use DatafileObjectLookup, then in the data file reading process, PLEXOS will find the objects' name instead of variable's name (the objects tagged to current variable), when reading object names from columns. Users can use one such variable for multiple objects instead of creating one variable for each object. Note, maximum only one such variable can be set per object.
+Model	UseQuadraticRescaleProfile	Boolean	true		false	Option to use Quadratic growth method in rescaling the sampled data if the fitting using Linear method is not ideal, setting to false will revert to the original Linear method.
+Model	WriteInputGenericObjects	Boolean	false		false	In the case of 'Write Input' is checked, if 'WriteInputGenericObjects' is true, then keep generated objects and remove original objects in the new generated input .xml file and vice versa.
+Model	PowerstationAggregationMode	Integer	0	In (0,1,2)	false	Mode setting for the run-time auto-powerstation aggregation.
+                            0 = None; No automatic aggregation will take place. The user defined powerstations will be used.
+                            1 = By name; Nodes are grouped by similar names, then generators in those groups are queried and grouped by similar name, while matching the memberships and properties defined.
+                            2 = By geo-location; Nodes are grouped by the geo-location defined (longitude and latitude), then generators in those groups are queried, matching the memberships and properties defined.
+Model	PowerstationAggregationAuto_Diagnostic	Boolean	false		false	Flag if the auto-generation diagnostic should be written out. This will provide information about the powerstation objects created and the generator memberships detected. It can be used to manually add these powerstations into the input dataset, where these can be modified or enabled/disabled.
+LTPlan	AlwaysAllowMarginalResourceReporting	Boolean	false		false	When set to true this allows the marginal resource reporting to take place for the LT Plan phase even if the MT Schedule or ST Schedule is also enabled. Note: the Report Marginal Resources property must also be set to true for any regions for which the reporting is to be done.
+LTPlan	HistoricalSamplingInDeterministicMode	Boolean	false		false	Flag if the expected value should be based on the historical sampling along the scenario tree (with hanging branches defined) in a deterministic LT phase. By default, the hanging branches will be ignored in a deterministic or non-stochastic mode.
+LTPlan	AverageSamples	Boolean	false		false	Controls averaging of loads when LT Plan Chronology = "Sampled".
+LTPlan	BertrandEnabled	Boolean	true		false	Flag if Bertrand competition is enabled in LT Plan when it is also enabled in the Competition settings.
+LTPlan	CournotEnabled	Boolean	true		false	Flag if Cournot competition is enabled in LT Plan when it is also enabled in the Competition settings.
+LTPlan	IncludeAnnuityInPerpetuity	Boolean	false		false	Flag if perpetuity is applied indefinitely into the future for annuity calculations. Otherwise the annuity calculations only continue through the economic life when using perpetuity.
+LTPlan	IncludeMarketInRegionCapacity	Boolean	true		false	Include Markets in region reserve capacity calculation.
+LTPlan	ResolutionBlockCount	Integer()	null	>=1	true	Number of blocks fitted to each [Resolution Type] period.
+LTPlan	ResolutionIntervalCount	Integer()	null	>=1	true	Number of intervals in the Horizon that this band of resolution applies to.
+LTPlan	ResolutionType	Integer()	null	In (1,2,3,4,7)	true	[Resolution Block Count] number of periods will be fitted to each of these period types in the Horizon. 1=day, 2=week, 3=month, 4=year, 7=quarter.
+LTPlan	RunUpDownEnabled	Boolean	true		false	Flag if run up/down or start/shutdown profile is allowed in LT Plan.
+LTPlan	StartStopEnabled	Boolean	true		false	Flag if run start/shutdown decisions are modelled in LT Plan.
+LTPlan	Transmission_DetectNonphysicalLosses	Integer	null	In (0,1,2)	false	Detect and correct non-physical losses (0=Never,1=Auto,2=Always).
+LTPlan	UnitCommitmentOptimality	Integer	-1	In (-1,0,1,2)	false	Overrides Production Unit Commitment Optimality.
+LTPlan	UseOriginalPerpetuityLogic	Boolean	false		false	Flag if the perpetuity logic from 8.3R07 and prior versions should be used.
+MTSchedule	AlwaysAllowMarginalResourceReporting	Boolean	false		false	When set to true this allows the marginal resource reporting to take place for the MT Schedule phase even if the ST Schedule is also enabled. Note: the Report Marginal Resources property must also be set to true for any regions for which the reporting is to be done.
+MTSchedule	AverageSamples	Boolean	false		false	Controls averaging of loads when MT Schedule Chronology = "Sampled".
+MTSchedule	BertrandEnabled	Boolean	true		false	Flag if Bertrand competition is enabled in MT Schedule when it is also enabled in the Competition settings.
+MTSchedule	CournotEnabled	Boolean	true		false	Flag if Cournot competition is enabled in MT Schedule when it is also enabled in the Competition settings.
+MTSchedule	GasFieldMinPercentSecondPass	Double	100.0		false	Percent by which Gas Field min constraints are scaled in the second MT Schedule solve when SecondGasStorageTargetPass is True.
+MTSchedule	ResolutionBlockCount	Integer()	null	>=1	true	Number of blocks fitted to each [Resolution Type] period.
+MTSchedule	ResolutionIntervalCount	Integer()	null	>=1	true	Number of intervals in the Horizon that this band of resolution applies to.
+MTSchedule	ResolutionType	Integer()	null	In (1,2,3,4,7)	true	[Resolution Block Count] number of periods will be fitted to each of these period types in the Horizon. 1=day, 2=week, 3=month, 4=year, 7=quarter.
+MTSchedule	RunSDDPafterRollingHorizon	Boolean	true		false	Flag if manually switch off running SDDP after Rolling Horizon.
+MTSchedule	RunUpDownEnabled	Boolean	true		false	Flag if run up/down or start/shutdown profile is allowed in MT Schedule.
+MTSchedule	SampledYearCount	Integer	0	> 0	false	This is the other option to invoke year sampling in MT Schedule, i.e. automatically select "N" years out of total horizon years. N = 0 means no year sampling.
+MTSchedule	SampledYearList	Integer()	null		false	A list of sample years manually selected for MT Schedule in Sampled chronology, years not contained in the list will be skipped.
+MTSchedule	SecondGasStorageTargetPass	Boolean	false		false	Flag if a second solve is done in MT Schedule which sets Gas Storage targets based on the solution to the first solve.
+MTSchedule	StartStopEnabled	Boolean	true		false	Flag if run start/shutdown decisions are modelled in MT Schedule.
+MTSchedule	Transmission_DetectNonphysicalLosses	Integer	null	In (0,1,2)	false	Detect and correct non-physical transmission losses (0=Never,1=Auto,2=Always)
+MTSchedule	UnitCommitmentOptimality	Integer	-1	In (-1,0,1,2)	false	Overrides Production Unit Commitment Optimality
+STSchedule	BertrandEnabled	Boolean	true		false	Flag if Bertrand competition is enabled in ST Schedule when it is also enabled in the Competition settings.
+STSchedule	CournotEnabled	Boolean	true		false	Flag if Cournot competition is enabled in ST Schedule when it is also enabled in the Competition settings.
+STSchedule	RunUpDownEnabled	Boolean	true		false	Flag if run up/down or start/shutdown profile is allowed in ST Schedule.
+STSchedule	StartStopEnabled	Boolean	true		false	Flag if run start/shutdown decisions are modelled in ST Schedule.
+STSchedule	Transmission_DetectNonphysicalLosses	Integer	null	In (0,1,2)	false	Detect and correct non-physical transmission losses (0=Never,1=Auto,2=Always)
+STSchedule	UnitCommitmentOptimality	Integer	-1	In (-1,0,1,2)	false	Overrides Production Unit Commitment Optimality
+Production	AccountForHeadPotenialEnergy	Boolean	false		false	Accounts for the potential energy of a head storage with regards to Reserve provision, i.e. reserve is limited to the remaining potential energy in the storage.
+Production	DisableOfferBandReduction	Boolean	false		false	Flag to disable the simplification of offer bands for Generators and Fuels.
+Production	EmissionsFormulateUpfront	Boolean	false		false	Flag if emissions are modelled as decision variables in the simulation rather than having their costs pre-computed and passed through to generation costs.
+Production	EmissionsShadowPriceUseProductionDual	Boolean	true		false	Flag if using the model generated emission shadow price (i.e. dual value of emission production variable) in emission cost reporting rather than using the user defined shadow price.
+Production	EnforceLinearUpDownConstraints	Boolean	false		false	This indicates whether min up time, min down time, max up time, and max down time are honored when running with linear commitment. In that case, the max up time and min down time constraints work together
+                            such that the total generation in any given period of length equal to the sum of the max up time and min down time is less than or equal to the max up time multiplied by the max capacity. Because integers are 
+                            not being used, limits governing the operation of facilities for consecutive hours cannot be fully enforced.
+Production	FreezeTolerance	Double	-1.0		false	The tolerance used when freezing the production of generators, batteries, and other facilities in the Uniform Pricing and other algorithms that require fixing the production at a solved value.
+Production	EqualizeGasContractTakeOverIntervals	Boolean	false		false	Forces equal Gas Contract Take Quantity for each interval.
+Production	FillMissingOfferPrices	Boolean	false		false	Flag if missing Generator Offer Price bands are filled with SRMC values or left to default.
+Production	FixedLoadAllUnits	Boolean	true		false	Flag if Generator Fixed Load is to be applied across all units, or per unit.
+Production	ForcedOutageRelaxesMinDownTime	Boolean	false		false	Flag if Generator Min Down Time is relaxed when a unit experiences a forced outage.
+Production	FormulateAllGeneratorRamp	Boolean	false		false	Flag if Generator ramp constraints should be included in the formulation even if the ramp rate is large enough that it would normally never bind.
+Production	HeadEffectsOptimality	Integer	2	In(1,2)	false	Optimality setting for hydro head effects (1=Integer Optimal, 2=Rounded Relaxation).
+Production	HeadEffectsOptimalityRollingWindow	Integer	-1		false	Size of the window over which to roll integer-fixing algorithm for head effects.
+Production	LinearMinStableCommitmentCorrection	Boolean	false		false	Setting to true when modelling Linear Relaxation Unit Commitment will cause unit commitment
+                            binaries to be ceiled in the output if Production/Generation exceeds
+                            Min Operating Level/Min Stable Level. This can increase
+                            the consistency of solutions yielded between solves.
+Production	OffersIncludeEmissions	Boolean	false		false	Flag if Generator [Offer Price] is assumed to include the shadow price of emissions.
+Production	RequireOptimalHeatSplit	Boolean	true		false	Flag if the heat output of a generator/heat plant/heat export node is optimally split among its heat output nodes.
+Production	SteamByPassControlMode	String	Outage	In(Free,Outage,Commitment)	false	The behaviour of the steam by-pass in the heat model. Free: by-pass is always open. Outage: by-pass is open only when the ST generator is out-of-service. Commitment: by-pass is open when ST generator is not committed.
+Production	STGeneratorsWithoutCondenser	String()	null		false	Specify a list of steam turbine (ST) generator names that do not have a condenser. Names must be the same as in the model and are separated by a comma.
+Production	Tiebreaking	Boolean	false		false	Flag if tied Generator offers should be resolved.
+Production	TiebreakingPenalty	Double	0.000001		false	Penalty applied to tie-break constraints.
+Production	UseCumulativeGasDemandMethod	Boolean	false		false	When this undocumented parameter is set to true, Gas Demand is computed by applying all the usage factor bands up to the ending band where temperature of Heating Degree Day (HDD) falls into. If UF(i) is usage factor for band i and H(i) is heat point for band i, NodeHeatPoint is HDD or temperature falling in band n, then Gas Demand is computed using incremental value of heat points for each band as follows: Cumulative Demand = UF(1)*H(1) + UF(2)*(H(2)-H(1)) +..+ UF(n)* (NodeHeatPoint-H(n-1))
+Production	UseGasNodeDeliveredPriceAsFuelShadowPrice	Boolean	true		false	Controls the [Fuel Price] calculation for a Generator connected to a Gas Node. If true, Generator [Fuel Price] comes from Gas Node [Delivered Price]. If false, it comes from the Gas Node [Price].
+Production	SimultaneousFixedLoadAndMinLoad	Boolean	false		false	When True, [Fixed Load] overrides [Min Load] in an interval if [Fixed Load] is defined and positive.
+Transmission	CacheDataForCongestionInsights	Boolean	false		false	Flag if nodal solution data is written to a binary file during the simulation for later use in Congestion Insights.
+Transmission	CacheDataForContingencyScreening	Boolean	false		false	Flag if contingency screening data is written to a binary file during the simulation for later use in Congestion Insights.
+Transmission	DisableNPFCorrection	Boolean	false		false	Disable the non-physical flow correction process. This process is important when running in regional or zonal transmission detail but might result in longer running time.
+Transmission	KVThresholdForContingencyScreening	Double	100		false	KV threshold used to determine what lines are monitored in the contingency screening logic.
+Transmission	NPLRelativeTolerance	Double	0.0001		false	Threshold for detecting non-physical losses. Relative size of error.
+Transmission	NPLTolerance	Double	0.0001		false	Tolerance for detecting non-physical losses.
+Transmission	PumpBehaviourInUniformPricing	Integer	0	In(0,1)	false	Pumped storage behaviour in uniform pricing process. 0 (default): disable pumping and free storage bounds. 1: Freeze pumping at current solution and keep the storage bounds.
+Transmission	ReportEstimatedLosses	Boolean	true		false	Flag if estimated line and transformer losses based on resistance values and flows should be reported when losses are not modeled explicitly in the formulation.
+Transmission	USETolerance	Double	0.0001		false	Minimum Region Unserved Energy before the interruption sharing algorithm is invoked.
+Transmission	PreContingencyLoadingPctThreshold	Double	100.0		false	Percent threshold for pre-contingency loading on a line/transformer used to determine what lines and transformers are reported for the contingency screening logic.
+Transmission	PostContingencyLoadingPctThreshold	Double	100.0		false	Percent threshold for post-contingency loading on a line/transformer used to determine what lines and transformers are reported for the contingency screening logic.
+Transmission	LoadingChangeWithContingencyPctThreshold	Double	20.0		false	Percent threshold for difference between post-contingency loading and pre-contingency loading on a line/transformer used to determine what lines and transformers are reported for the contingency screening logic. Loading changes is defined as (post-contingency flow - pre-contingency flow)/pre-contingency flow limit.
+Transmission	TopContingencyMonitoredCount	Integer	1000		false	Top number of contingency-monitored pairs to be reported for contingency screening logic.
+Transmission	TopContingencyCountPerScreeningElement	Integer	12		false	Top number of screen contingencies to be reported for a single screening element.
+Transmission	LODFThresholdForScreeningContingency	Double	0.0001		false	LODF threshold for considering the violation of a screen contingency.
+Capacity	RegionAssistingPriorities	Integer()	null	>=0	false	The region assisting priority for calculating multi-area reliability indices. See Region Assisting Priority
+Capacity	ZoneAssistingPriorities	Integer()	null	>=0	false	The zone assisting priority for calculating multi-area reliability indices. See Zone Assisting Priority
+Capacity	LineFullOutage	Boolean	false		false	When a line is out within a block, the users want to leave the line completely out (capacity = 0)
+Capacity	SpinningReserve_LTPlan	Boolean	false		false	Flag if derating the capacity of generators which have a min spinning provision in reliability calculations in LT Plan.
+Capacity	SpinningReserve_PASA	Boolean	false		false	Flag if derating the capacity of generators which have a min spinning provision in reliability calculations in PASA.
+Stochastic	ConvergentOutageAdjustMTTR	Boolean	false		false	Flag if the convergent outage logic should adjust the MTTR to avoid partial outages.
+Stochastic	CumulativeProbability	Boolean	false		false	Flag if the input Variable [Probability] is defined as Cumulative Probability in the range of (0, 100]
+Stochastic	GlobalDeterministicStage	Integer	0		false	Number of stages from root node where decision are taken before revealing uncertainty.
+Stochastic	GlobalFCFName	String()	FCF		true	Name of the FCF object when writing the FCF diagnostic file
+Stochastic	GlobalFCFObj	Double()	null		true	Array containing the FCF objective values
+Stochastic	LeavesExpFactor	Double	1.0	Between 0.0 And 1.0	false	Overrides Global Tree Leaves Exp Factor
+Stochastic	NonAnticipativitySense	Integer	0	In (-1,0,1)	false	Value = -1 ("less-than or equal-to"), Value = 0 ("equal to"), Value = 1 ("greater-than or equal-to")
+Stochastic	PositionExpFactor	Double	1.0	Between 0.0 And 1.0	false	Overrides Global Tree Position Exp Factor
+Stochastic	SampleWeight	Double()	null		true	Overrides Global Sample Weight
+Stochastic	SampleWeightingMethod	Integer	0		false	Value = 0 ("Uniform"), Value = 1 ("Custom"). Custom uses sample weights defined by theSampleWeight argument.
+Stochastic	SimplifyFullBranches	Integer	1	In (0,1,2,3)	false	Options to simplify full branches on periods of which the solutions are not recorded in the roll step. 0 = no simplification, 1 = 1 block/stage, 2 = 1 block/stage for 12 months then one block, 3 = one block. The last two options only apply when hanging branches are defined.
+Stochastic	SDDPDisableMainBranch	Boolean	false		false	Flag if main (full) branch formulation should be disabled in the backward pass in SDDP Algorithm.
+Stochastic	SDDPIgnoreCriteria	Boolean	false		false	Flag if all convergence criteria should be ignored, so the SDDP passes will run up to the Iteration Limit (for the SDDP with one sample feature).
+Stochastic	StagesHangingBranches	Integer()	null		true	Overrides Global Tree Stages Hanging Branches
+Stochastic	StagesLeaves	Integer()	null		true	Overrides Global Tree Stages Leaves
+Stochastic	StagesPosition	Integer()	null		true	Overrides Global Tree Stages Position
+Stochastic	StepList	Integer()	null		false	In Guided Monte Carlo, this is the list of ST Schedule steps for which Monte Carlo simulation is performed. Steps not listed run only the first sample.
+Stochastic	TreeInfoInputFile	String	null		false	The scenario tree will be constructed based on the tree information in the input file. See Global Tree Info Input File
+Stochastic	WritePARMAParameters	Boolean	false		false	Write fitted PARMA parameters in a csv file for debugging purposes
+Stochastic	AlignChronologyToStages	Boolean	false		false	Flag if the partial chronology and hence storage balance should be aligned with the stages rather than calendar weeks/months.
+Stochastic	BrazilScenarioTreeErrorCount	Integer	20	> 0	false	Number of raw samples generated for each stage of the Brazil tree before the scenario reduction.
+Stochastic	BrazilScenarioTreeResamplingErrorCount	Integer	10	> 0	false	Number of raw samples generated for each stage of the Brazil tree during SDDP resampling before the scenario reduction.
+Stochastic	RollingHorizonDebug	Boolean	false		false	Used for debugging, this causes the tree weights to be remain constant between iterations of the rolling horizon making it easier to see other changes in the LP.
+Stochastic	RollingHorizonExitatIteration	Integer	Infinity	> 0	false	Used for debugging, this causes the rolling horizon solution method to exit prematurely at the given iteration number.
+Stochastic	RollingHorizonFixedVolumeTolerance	Double	0.000001		false	Tolerance for adjusting the bounds of end volume in the deterministic step of rolling horizon, to handle rounding errors especially when the volume is a very small value.
+Stochastic	SampleStagesPeriodType	Integer	3	In (0,1,2,3)	false	Overrides Global Tree Period Type
+Stochastic	RollingHorizonOverlappingStages	Integer	1	>=0	false	Number of stages overlapped between the roll steps of rolling horizon.
+Stochastic	SDDPStageProgress	Boolean	true		false	Flag if progress is printed each SDDP stage during the iterations.
+Stochastic	SDDPSetFCVariablesFree	Boolean	true		false	Flag if a negative lower bound is needed for FC variables in the FCF formulation. (Set this to false could potentially improve performance if the problem has no negative future costs.)
+Storage	StorageRecycleIgnoreLookAhead	Boolean	false		false	Flag if Recycle period should not include look ahead periods
+Storage	StorageTargetIgnoreLookAhead	Boolean	false		false	Flag if Target period should not include look ahead periods
+Storage	PenalizeOverTarget	Boolean	false		false	Flag if penalize over-reaching of the target in setting Decomposition Method = "Targets". It applies to all storage types.
+Storage	DetectChangeInInitialVolume	Boolean	true		false	Flag if the change in Initial Volume is treated as an inflow
+Storage	ShadowPriceOutMode	Integer	0	In (0,1,2)	false	Shadow price output options for rolling horizon. (default = 0) 0 = dual value averaged across all branches of roll steps, 1 = dual value from the full branches of roll steps, 2 = dual value of deterministic steps.
+SyntheticSeries	Variable	String	null		false	Name of the Variable object for which transformation is applied
+SyntheticSeries	TransformName	String	null		false	Type of transformation applied
+SyntheticSeries	ParameterName	String	null		false	Name of transformation's parameter
+SyntheticSeries	Band	Integer	1		false	Band of transformation's parameter
+SyntheticSeries	Value	Double	0.0		false	Value of transformation's parameter
+SyntheticSeries	Scenario	String	null		false	Scenario for which transformation is used
+Competition	ApplyStrategicAfterPricingStrategy	Boolean	false		false	Controls if Company Strategic constraints are applied before or after Competition Pricing Strategy
+Competition	NewBranchAndBoundMethod	Boolean	true		false	Flag if New branch and bound method (Short path problem formulation) is applied, otherwise use original branch and bound method
+Competition	MaxBranchAndBoundDepth	Integer	Infinity	>0	false	Provide the maximum iterations for the marginal loss calculation in the Bertrand process. A high value will has higher accuracy but possibly longer running time. It should be set for the original branch and bound method only, used together with "NewBranchAndBoundMethod= false"
+Diagnostic	FlowImpact	Boolean	false		false	Write diagnostics for flow impact. The associated Flow Impact GUI component is only available in PLEXOS 7.1 version.
+Diagnostic	FormulationList	Boolean	false		false	Write diagnostics for formulated dynamic constraints.
+Diagnostic	COPTStepFrom	Integer	0	>=0	false	Write out the Capacity Outage Probability Table from this step (included).
+Diagnostic	COPTStepTo	Integer	0	>=0	false	Write out the Capacity Outage Probability Table to this step (included).
+Diagnostic	COPTPeriodFrom	Integer	0	>=0	false	Write out the Capacity Outage Probability Table from this period (included).
+Diagnostic	COPTPeriodTo	Integer	0	>=0	false	Write out the Capacity Outage Probability Table to this period (included).
+Diagnostic	COPTProbTolerance	Double	0.000001	>=0	false	Probability tolerance for Capacity Outage Possibility Table. Note: The Compute Reliability Indices must be enabled in the phase to output this diagnostic.
+Diagnostic	SaveSolutionAsBlock	Boolean	false		false	Save solutions as blocks in flat file format or to print csv's solution in blocks.
+Performance	CacheTextDatainMemory	Boolean	true		false	If external text data are cached to memory (faster).
+Performance	UseCplexForSDDP	Boolean	true		false	If the solver used for the SDDP solves in MT is automatically set to CPLEX.
+Performance	UseInterrupt	Boolean	false		false	If the solver enables the MIP Callback feature, i.e. the MIP solve can be interrupted when integer solutions are available. Please note that this feature can impact performance, for example CPLEX always disables dual and nonlinear reductions in presolve with this option enabled.
+GasField	IncrementalInput	Boolean	false		false	If Gas Field Production Volume is defined in an incremental format.
+Region	ExcludeProfitFromAmortizedCost	Boolean	false		false	If the Amortized cost should subtract the block profit.
+Region	SingleRegionLDC	String	Nothing		false	The name of a specific region who's load data will be used when creating the partial chronology, rather than the total system load.
+Region	DiagnoseDecompositionFiles	String	Nothing		false	Determines whether to keep or delete the temporary files created during Geographic, Chronological, or Capacity Expansion Decomposition. A value of "True" indicates the files should be kept. A value of "False" indicates the files should be deleted.
+Reserve	SetProvisionPrice	Boolean	false		false	If the objective function should include a small penalty on Reserve Provision to avoid over-providing the service.
+Reserve	UseEndContentsInConstraints	Boolean	false		false	Flag to indicate if the period end contents (instead of initial contents) should be used in reserve constraints that limit the reserve provision of storage generators based on the storage contents.
+RSI	SummerStartMonth	Integer	5	In (1,...,12)	false	Start month for RSI Summer Period.
+RSI	SummerEndMonth	Integer	10	In (1,...,12)	false	End month for RSI Summer Period.
+RSI	PeakStartHour	Integer	7	In (1,...,24)	false	Start hour for RSI Peak Period.
+RSI	PeakEndHour	Integer	22	In (1,...,24)	false	Start hour for RSI Peak Period.
+Constraint	ConditionMethod	Integer	1	In (0,1,2)	false	Method used to formulate/solve Constraints with Conditions (0=Ignore, 1=Iterate, 2=Optimize).
+Constraint	CanBorrow	Boolean	true		false	Flag if the Constraint Borrow feature is enabled
+
+Paragraphs:
+For setup and usage information, please refer to the Hidden Parameters technical reference.
+Lists:
+

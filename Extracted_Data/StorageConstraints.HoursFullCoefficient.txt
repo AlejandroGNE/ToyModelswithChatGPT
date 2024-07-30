@@ -1,0 +1,29 @@
+Header: Storage Constraints Hours Full Coefficient
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the number of hours the storage is full.
+Constraint	Sense	<=
+Constraint	RHS	0
+Storages ( LAKE )	Hours Full Coefficient	-1000
+Waterways ( SPILL )	Flow Coefficient	1
+
+Paragraphs:
+Storage Constraints Hours Full Coefficient is the left-hand side coefficient of the number of hours the storage is full .
+
+Example
+
+In this example the Waterway "SPILL" is not allowed to flow unless the Storage "LAKE" is full.
+
+NOTE: Adding this coefficient causes the mathematical programming problem to include binary decision variables.
+
+See also:
+Lists:
+	- Storage Hours Full
+	- Storage Waterways Hours Flowing Coefficient
+

@@ -1,0 +1,15 @@
+Header: RSI RSI
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Residual Supply Index
+
+Paragraphs:
+RSI is defined as:
+Lists:
+

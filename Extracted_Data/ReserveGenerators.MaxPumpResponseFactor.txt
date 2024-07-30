@@ -1,0 +1,19 @@
+Header: Reserve Generators Max Pump Response Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum dispatchable pump load reserve response as a proportion of pump load
+
+Paragraphs:
+Reserve Generators Max Pump Response Factor is the maximum dispatchable pump load reserve response as a proportion of Pump Load .
+
+See also:
+Lists:
+	- Reserve Generators Max Pump Response
+	- Reserve Generators Pump Dispatchable Load Provision
+

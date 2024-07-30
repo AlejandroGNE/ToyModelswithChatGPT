@@ -1,0 +1,83 @@
+Header: Commodity Unit
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Unit the Commodity is measured in
+Commodity
+                  Unit	Type	Name	Base
+                  Units/Metric
+m	Length	metre	m
+km	Length	kilometre	1E+3 m
+Gkm	Length	gigakilometre	1E+9 m
+kg	Mass	kilogram	kg
+t	Mass	tonne	1E+3 kg
+kt	Mass	kilotonne	1E+6 kg
+Mt	Mass	megatonne	1E+9 kg
+Gt	Mass	gigatonne	1E+12 kg
+ton	Mass	short ton	907.185⋅kg
+s	Time	second	s
+min	Time	minute	60s
+hr	Time	hour	3600s
+day	Time	day	86400s
+week	Time	day	604800s
+°C	Temperature	degree Celsius	
+°F	Temperature	degree Fahrenheit	
+HDD	Temperature	Heating Degree Days	
+CDD	Temperature	Cooling Degree Days	
+m2	Area	square metre	m2
+ha	Area	hectare	1E+4m2
+kha	Area	kilohectare	1E+7m2
+km2	Area	square kilometre	1E+6m2
+L	Volume	litre	
+kL	Volume	kilolitre	
+ML	Volume	megalitre	
+GL	Volume	gigalitre	
+m3	Volume	cubic metre	m3
+km3	Volume	cubic kilometre	1E+3 m3
+CMD	Volume	cubic metre days	8.64E+4 m3
+gal	Volume	US gallon	3.78541⋅L
+bbl	Volume	42 gallon barrel	158.987⋅L
+                  (6.12E+9⋅J)
+ft3	Volume	cubic foot	0.0283168⋅m3
+MCF	Volume	thousand cubic feet	28.3168⋅m3
+MMCF	Volume	million cubic feet	28316.8466⋅m3
+MTPA	Volume	million tonnes per annum	1E+9 kg
+kPa	Pressure	kilo-pascals	1E+3⋅kg⋅m-1⋅s-2
+bar	Pressure	bar	1E+5⋅kg⋅m-1⋅s-2
+psi	Pressure	pounds per square inch	6.8947573E+3⋅kg⋅m-1⋅s-2
+kW	Power	kilowatt	1E+3 m2⋅kg⋅s-3
+MW	Power	megawatt	1E+6 m2⋅kg⋅s-3
+GW	Power	gigawatt	1E+9 m2⋅kg⋅s-3
+TW	Power	terawatt	1E+12 m2⋅kg⋅s-3
+kJ	Energy	kilojoule	1E+3 kg⋅m2⋅s-2
+MJ	Energy	megajoule	1E+6 kg⋅m2⋅s-2
+GJ	Energy	gigajoule	1E+9 kg⋅m2⋅s-2
+TJ	Energy	terrajoule	1E+12 kg⋅m2⋅s-2
+PJ	Energy	petajoule	1E+15 kg⋅m2⋅s-2
+EJ	Energy	exajoule	1E+18 kg⋅m2⋅s-2
+kWh	Energy	kilowatt-hour	3.6E+6 kg⋅m2⋅s-3
+MWh	Energy	megawatt-hour	3.6E+9 kg⋅m2⋅s-3
+GWh	Energy	gigawatt-hour	3.6E+12 kg⋅m2⋅s-3
+TWh	Energy	terawatt-hour	3.6E+15 kg⋅m2⋅s-3
+TOE	Energy	tonne equivalent of oil	4.1868E+10 kg⋅m2⋅s-2
+kTOE	Energy	thousand TOE	4.1868E+13 kg⋅m2⋅s-2
+MTOE	Energy	million TOE	4.1868E+16 kg⋅m2⋅s-2
+kcal	Energy	kilocalorie	4184⋅J
+MMBTU	Energy	million BTU	1.055056E+9⋅J
+BBTU	Energy	billion BTU	1.055056E+12⋅J
+Dth	Energy	dekatherm	1.055056E+9⋅J
+MDT	Energy	million dekatherms	1.055056E+15⋅J
+
+Paragraphs:
+Commodity Unit allows you to select
+          between a wide range of in-built units (listed below) or to leave the
+          Commodity unit-less (default). Setting the Unit is useful for two
+          reasons:
+
+The following units are in-built:
+
+
+Lists:
+

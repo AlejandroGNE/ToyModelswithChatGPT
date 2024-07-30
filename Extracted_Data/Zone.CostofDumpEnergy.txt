@@ -1,0 +1,19 @@
+Header: Zone Cost of Dump Energy
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of dump energy.
+
+Paragraphs:
+Zone Cost of Dump Energy is the cost of dump energy (over generation) and  defined as:
+
+See also:
+Lists:
+	- Zone Hours of Dump Energy
+	- Zone Cost of Unserved Energy
+

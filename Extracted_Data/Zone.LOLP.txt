@@ -1,0 +1,121 @@
+Header: Zone LOLP
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loss of load probability (summary type "Average")
+Outage (MW)	Probability
+0	0.9
+100	0.1
+Outage (MW)	Probability
+0	0.81
+100	0.18
+200	0.01
+Outage (MW)	Probability
+0	0.729
+100	0.243
+200	0.027
+300	0.001
+Outage (MW)	Probability
+0	0.656
+5	0.0729
+100	0.219
+105	0.0243
+200	0.0243
+205	0.0027
+300	0.00009
+305	0.00001
+
+Paragraphs:
+The Loss of Load Probability (LOLP) is calculated by using a convolution method.
+
+NOTE: LOLP is only computed by LT Plan and PASA when the Compute Reliability Indices setting is 'on'.
+
+Basically it iterates through all units in the system, accumulating the unit outages and calculating their respective probabilities.  Each of the outage states and the probabilities are then entered into an outage capacity table, which is used to build a LDC curve, from the peak PASA Zone load (plus the net capacity interchange minus any fixed capacity).  This is known as the "Effective Load Approach".   This modified curve is then used to obtain the LOLP per PASA period by using the formula, as given below.
+
+Convolution Formula The formula for calculating the new probabilities when convolving generators is: f(X p ) = (1 - FOR c ).f prev (X p ) + (FOR c ).f prev (X p -C c ) where : f prev (X p ): is the probability of X capacity outage occurs prior to convolving the current generation unit
+            FOR c : is the forced outage rate for the current generation unit
+            C c : is the capacity of the current generation unit This is for the c th generation unit.  This formula is repeated for all generators, with FOR's, in the Zone. NOTE: Discrete maintenance is included in reliability indices calculation. Convolution Examples A simple example of the convolution method is to take a single generator and convolve it with another generation unit.  For example, say we have two generators with the same properties, for simplicity, such that their maximum capacity is 100MW and their FOR is 0.1. Given that the generator has a FOR value of 0.1, then the probability that it is on is 0.9 (1 - 0.1 = 0.9). The outage table for the single generator is given in Table 1.   It can be seen that this is a two-state unit, i.e. it is either on, generating 100MW with a probability of 0.9 or it is off, giving a 100 MW outage, with a probability of 0.1. Outage (MW) Probability 0 0.9 100 0.1 Table 1 : Capacity Outage Table for 1 Unit Convolving this generation unit with another generation unit, which has identical properties, produces an outage table as shown in Table 2. Outage (MW) Probability 0 0.81 100 0.18 200 0.01 Table 2 : Capacity Outage Table for 2 Units Table 2 shows that there can be three possible outage states, zero, 100MW and a 200MW outage.  Both generating units could produce an outage of 100MW, so the probabilities are lumped together. Convolving another generator with the same properties as the previous two generators produces the following outage capacity table as shown in Table 3. Outage (MW) Probability 0 0.729 100 0.243 200 0.027 300 0.001 Table 3 : Capacity Outage Table for 3 Units Table 3 shows that there can be four possible outage states for these three generation units, when convolved together.  Thus far we have provided a very simple example, by only convolving generation units that have the same properties.  The fact that we have used generators with the same maximum capacity values, means that we are able to lump the probabilities together for the same outages. Now, the number of outage states and their equivalent would become much larger if we were to convolve generation units that have different capacity values.  For example, if we were to now convolve another generation unit with the same FOR of 0.1, but with a different maximum capacity value of 5MW, then we would obtain the capacity outage table as detailed in Table 4. Outage (MW) Probability 0 0.656 5 0.0729 100 0.219 105 0.0243 200 0.0243 205 0.0027 300 0.00009 305 0.00001 Table 4 : Capacity Outage Table for 4 Units LOLP Formula The LOLP formulation is given as: LOLP = Sum ( f y .C c .F d (IC-C c ) )
+            for c = 1 to c = N where : C c : is the capacity outage MW value, which can be seen in the above tables
+            f y .C c : is the probability that a capacity outage, C c , occurs
+            IC: is the installed capacity for the Zone
+            F d (IC-C c ): is the value of the built LDC value at demand, IC-C c Note: The reliability indices are calculated on a Zoneal basis and do not consider transmission unreliability. Discrete maintenance is included in reliability indices calculation. See also: Zone LOLE Zone EENS Zone EDNS
+
+The formula for calculating the new probabilities when convolving generators is: f(X p ) = (1 - FOR c ).f prev (X p ) + (FOR c ).f prev (X p -C c ) where : f prev (X p ): is the probability of X capacity outage occurs prior to convolving the current generation unit
+            FOR c : is the forced outage rate for the current generation unit
+            C c : is the capacity of the current generation unit This is for the c th generation unit.  This formula is repeated for all generators, with FOR's, in the Zone. NOTE: Discrete maintenance is included in reliability indices calculation. Convolution Examples A simple example of the convolution method is to take a single generator and convolve it with another generation unit.  For example, say we have two generators with the same properties, for simplicity, such that their maximum capacity is 100MW and their FOR is 0.1. Given that the generator has a FOR value of 0.1, then the probability that it is on is 0.9 (1 - 0.1 = 0.9). The outage table for the single generator is given in Table 1.   It can be seen that this is a two-state unit, i.e. it is either on, generating 100MW with a probability of 0.9 or it is off, giving a 100 MW outage, with a probability of 0.1. Outage (MW) Probability 0 0.9 100 0.1 Table 1 : Capacity Outage Table for 1 Unit Convolving this generation unit with another generation unit, which has identical properties, produces an outage table as shown in Table 2. Outage (MW) Probability 0 0.81 100 0.18 200 0.01 Table 2 : Capacity Outage Table for 2 Units Table 2 shows that there can be three possible outage states, zero, 100MW and a 200MW outage.  Both generating units could produce an outage of 100MW, so the probabilities are lumped together. Convolving another generator with the same properties as the previous two generators produces the following outage capacity table as shown in Table 3. Outage (MW) Probability 0 0.729 100 0.243 200 0.027 300 0.001 Table 3 : Capacity Outage Table for 3 Units Table 3 shows that there can be four possible outage states for these three generation units, when convolved together.  Thus far we have provided a very simple example, by only convolving generation units that have the same properties.  The fact that we have used generators with the same maximum capacity values, means that we are able to lump the probabilities together for the same outages. Now, the number of outage states and their equivalent would become much larger if we were to convolve generation units that have different capacity values.  For example, if we were to now convolve another generation unit with the same FOR of 0.1, but with a different maximum capacity value of 5MW, then we would obtain the capacity outage table as detailed in Table 4. Outage (MW) Probability 0 0.656 5 0.0729 100 0.219 105 0.0243 200 0.0243 205 0.0027 300 0.00009 305 0.00001 Table 4 : Capacity Outage Table for 4 Units LOLP Formula The LOLP formulation is given as: LOLP = Sum ( f y .C c .F d (IC-C c ) )
+            for c = 1 to c = N where : C c : is the capacity outage MW value, which can be seen in the above tables
+            f y .C c : is the probability that a capacity outage, C c , occurs
+            IC: is the installed capacity for the Zone
+            F d (IC-C c ): is the value of the built LDC value at demand, IC-C c Note: The reliability indices are calculated on a Zoneal basis and do not consider transmission unreliability. Discrete maintenance is included in reliability indices calculation. See also: Zone LOLE Zone EENS Zone EDNS
+
+The formula for calculating the new probabilities when convolving generators is:
+
+where :
+
+This is for the c th generation unit.  This formula is repeated for all generators, with FOR's, in the Zone.
+
+NOTE:
+
+Convolution Examples A simple example of the convolution method is to take a single generator and convolve it with another generation unit.  For example, say we have two generators with the same properties, for simplicity, such that their maximum capacity is 100MW and their FOR is 0.1. Given that the generator has a FOR value of 0.1, then the probability that it is on is 0.9 (1 - 0.1 = 0.9). The outage table for the single generator is given in Table 1.   It can be seen that this is a two-state unit, i.e. it is either on, generating 100MW with a probability of 0.9 or it is off, giving a 100 MW outage, with a probability of 0.1. Outage (MW) Probability 0 0.9 100 0.1 Table 1 : Capacity Outage Table for 1 Unit Convolving this generation unit with another generation unit, which has identical properties, produces an outage table as shown in Table 2. Outage (MW) Probability 0 0.81 100 0.18 200 0.01 Table 2 : Capacity Outage Table for 2 Units Table 2 shows that there can be three possible outage states, zero, 100MW and a 200MW outage.  Both generating units could produce an outage of 100MW, so the probabilities are lumped together. Convolving another generator with the same properties as the previous two generators produces the following outage capacity table as shown in Table 3. Outage (MW) Probability 0 0.729 100 0.243 200 0.027 300 0.001 Table 3 : Capacity Outage Table for 3 Units Table 3 shows that there can be four possible outage states for these three generation units, when convolved together.  Thus far we have provided a very simple example, by only convolving generation units that have the same properties.  The fact that we have used generators with the same maximum capacity values, means that we are able to lump the probabilities together for the same outages. Now, the number of outage states and their equivalent would become much larger if we were to convolve generation units that have different capacity values.  For example, if we were to now convolve another generation unit with the same FOR of 0.1, but with a different maximum capacity value of 5MW, then we would obtain the capacity outage table as detailed in Table 4. Outage (MW) Probability 0 0.656 5 0.0729 100 0.219 105 0.0243 200 0.0243 205 0.0027 300 0.00009 305 0.00001 Table 4 : Capacity Outage Table for 4 Units LOLP Formula The LOLP formulation is given as: LOLP = Sum ( f y .C c .F d (IC-C c ) )
+            for c = 1 to c = N where : C c : is the capacity outage MW value, which can be seen in the above tables
+            f y .C c : is the probability that a capacity outage, C c , occurs
+            IC: is the installed capacity for the Zone
+            F d (IC-C c ): is the value of the built LDC value at demand, IC-C c Note: The reliability indices are calculated on a Zoneal basis and do not consider transmission unreliability. Discrete maintenance is included in reliability indices calculation. See also: Zone LOLE Zone EENS Zone EDNS
+
+A simple example of the convolution method is to take a single generator and convolve it with another generation unit.  For example, say we have two generators with the same properties, for simplicity, such that their maximum capacity is 100MW and their FOR is 0.1. Given that the generator has a FOR value of 0.1, then the probability that it is on is 0.9 (1 - 0.1 = 0.9). The outage table for the single generator is given in Table 1.   It can be seen that this is a two-state unit, i.e. it is either on, generating 100MW with a probability of 0.9 or it is off, giving a 100 MW outage, with a probability of 0.1. Outage (MW) Probability 0 0.9 100 0.1 Table 1 : Capacity Outage Table for 1 Unit Convolving this generation unit with another generation unit, which has identical properties, produces an outage table as shown in Table 2. Outage (MW) Probability 0 0.81 100 0.18 200 0.01 Table 2 : Capacity Outage Table for 2 Units Table 2 shows that there can be three possible outage states, zero, 100MW and a 200MW outage.  Both generating units could produce an outage of 100MW, so the probabilities are lumped together. Convolving another generator with the same properties as the previous two generators produces the following outage capacity table as shown in Table 3. Outage (MW) Probability 0 0.729 100 0.243 200 0.027 300 0.001 Table 3 : Capacity Outage Table for 3 Units Table 3 shows that there can be four possible outage states for these three generation units, when convolved together.  Thus far we have provided a very simple example, by only convolving generation units that have the same properties.  The fact that we have used generators with the same maximum capacity values, means that we are able to lump the probabilities together for the same outages. Now, the number of outage states and their equivalent would become much larger if we were to convolve generation units that have different capacity values.  For example, if we were to now convolve another generation unit with the same FOR of 0.1, but with a different maximum capacity value of 5MW, then we would obtain the capacity outage table as detailed in Table 4. Outage (MW) Probability 0 0.656 5 0.0729 100 0.219 105 0.0243 200 0.0243 205 0.0027 300 0.00009 305 0.00001 Table 4 : Capacity Outage Table for 4 Units LOLP Formula The LOLP formulation is given as: LOLP = Sum ( f y .C c .F d (IC-C c ) )
+            for c = 1 to c = N where : C c : is the capacity outage MW value, which can be seen in the above tables
+            f y .C c : is the probability that a capacity outage, C c , occurs
+            IC: is the installed capacity for the Zone
+            F d (IC-C c ): is the value of the built LDC value at demand, IC-C c Note: The reliability indices are calculated on a Zoneal basis and do not consider transmission unreliability. Discrete maintenance is included in reliability indices calculation. See also: Zone LOLE Zone EENS Zone EDNS
+
+A simple example of the convolution method is to take a single generator and convolve it with another generation unit.  For example, say we have two generators with the same properties, for simplicity, such that their maximum capacity is 100MW and their FOR is 0.1. Given that the generator has a FOR value of 0.1, then the probability that it is on is 0.9 (1 - 0.1 = 0.9).
+
+The outage table for the single generator is given in Table 1.   It can be seen that this is a two-state unit, i.e. it is either on, generating 100MW with a probability of 0.9 or it is off, giving a 100 MW outage, with a probability of 0.1.
+
+Table 1 : Capacity Outage Table for 1 Unit
+
+Convolving this generation unit with another generation unit, which has identical properties, produces an outage table as shown in Table 2.
+
+Table 2 : Capacity Outage Table for 2 Units
+
+Table 2 shows that there can be three possible outage states, zero, 100MW and a 200MW outage.  Both generating units could produce an outage of 100MW, so the probabilities are lumped together.
+
+Convolving another generator with the same properties as the previous two generators produces the following outage capacity table as shown in Table 3.
+
+Table 3 : Capacity Outage Table for 3 Units
+
+Table 3 shows that there can be four possible outage states for these three generation units, when convolved together.  Thus far we have provided a very simple example, by only convolving generation units that have the same properties.  The fact that we have used generators with the same maximum capacity values, means that we are able to lump the probabilities together for the same outages.
+
+Now, the number of outage states and their equivalent would become much larger if we were to convolve generation units that have different capacity values.  For example, if we were to now convolve another generation unit with the same FOR of 0.1, but with a different maximum capacity value of 5MW, then we would obtain the capacity outage table as detailed in Table 4.
+
+Table 4 : Capacity Outage Table for 4 Units
+
+LOLP Formula The LOLP formulation is given as: LOLP = Sum ( f y .C c .F d (IC-C c ) )
+            for c = 1 to c = N where : C c : is the capacity outage MW value, which can be seen in the above tables
+            f y .C c : is the probability that a capacity outage, C c , occurs
+            IC: is the installed capacity for the Zone
+            F d (IC-C c ): is the value of the built LDC value at demand, IC-C c Note: The reliability indices are calculated on a Zoneal basis and do not consider transmission unreliability. Discrete maintenance is included in reliability indices calculation. See also: Zone LOLE Zone EENS Zone EDNS
+
+The LOLP formulation is given as: LOLP = Sum ( f y .C c .F d (IC-C c ) )
+            for c = 1 to c = N where : C c : is the capacity outage MW value, which can be seen in the above tables
+            f y .C c : is the probability that a capacity outage, C c , occurs
+            IC: is the installed capacity for the Zone
+            F d (IC-C c ): is the value of the built LDC value at demand, IC-C c Note: The reliability indices are calculated on a Zoneal basis and do not consider transmission unreliability. Discrete maintenance is included in reliability indices calculation. See also: Zone LOLE Zone EENS Zone EDNS
+
+The LOLP formulation is given as:
+
+where :
+
+Note:
+
+See also:
+Lists:
+	- Zone LOLE
+	- Zone EENS
+	- Zone EDNS
+

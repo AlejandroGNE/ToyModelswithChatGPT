@@ -1,0 +1,30 @@
+Header: Charging Station Discharge Price
+
+Table Details:
+Units:	c/kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received discharging
+
+Paragraphs:
+Charging Station Discharge
+          Price is the price received for generation from the charging station
+          provided by Discharging the batteries of connected Vehicles .
+          It is calculated as:
+
+Discharge Price = 0.1 x ( Node Price . - UoS
+            Charge )
+
+Note the factor 0.1 converts the nodal price and UoS
+            Charge in $/MWh to c/kWh for reporting.
+
+See also:
+Lists:
+	- Charging Station Discharge
+              Revenue
+	- Charging Station Charge
+              Price
+

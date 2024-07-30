@@ -1,0 +1,15 @@
+Header: Market Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Market is in service
+
+Paragraphs:
+Market Units indicates if the Market is in service. This flag can be used to switch the market in/out of your Model via a Scenario .
+Lists:
+

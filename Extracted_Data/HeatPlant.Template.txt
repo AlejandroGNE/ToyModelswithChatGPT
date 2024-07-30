@@ -1,0 +1,11 @@
+Header: Heat Plant Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Heat Plant inherits from
+
+Paragraphs:
+Heat Plant Template is template the Heat Plant inherits from
+Lists:
+

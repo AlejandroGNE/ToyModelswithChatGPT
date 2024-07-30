@@ -1,0 +1,20 @@
+Header: Battery Non-physical Charge Adjustments
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-physical charge adjustments required to maintain feasible states of charge.
+
+Paragraphs:
+Battery Non-physical Charge Adjustments is the non-physical charging required to maintain feasible states of charge ( SoC ).
+                Non-physical charging is only allowed when Battery Non-physical Charge Penalty is defined.
+
+See also:
+Lists:
+	- Battery Non-physical Discharge Adjustments
+	- Battery Non-physical Discharge Penalty
+

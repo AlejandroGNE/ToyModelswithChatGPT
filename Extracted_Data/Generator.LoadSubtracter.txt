@@ -1,0 +1,53 @@
+Header: Generator Load Subtracter
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Generation subtracted from the System load duration curve prior to slicing.
+Units	1	-	1	×	PV		
+Max Capacity	1	MW	1				
+Rating	0	MW	1		PV		
+Load Subtracter	0	MW	1	×	PV	PV AVG.csv	Load Subtracter
+PV	Index	3000
+PV	Profile	0	-	1	PV AVG.csv
+PV	Error Std Dev	0	%	1	PV STDDEV.csv
+PV	Min Value	0	-	1	
+PV	Max Value	1	-	1	
+PV	Auto Correlation	70	%	1	
+
+Paragraphs:
+Generator Load Subtracter is
+          capacity subtracted from the system load prior to either slicing of
+          the curve into LDC and then blocks or chronological fitting (depending
+          on the chronology setting of the simulation phase). This applies to MT Schedule and LT
+            Plan . For systems with a significant amount of No
+            Cost Generation Capacity such as solar, wind and other
+          renewables subtracting the profile of this generation off the system
+          load will yield a net load profile that is more accurate for the LDC
+          method.
+
+Note that for simulation the original load is always used. This
+          property only affects the LDC slicing or chronological period
+          fitting/sampling.
+
+The defined amount is by default subtracted from the load regardless of
+          the number of Units installed. However, Load Subtracter Global can be used to control how the value is interpreted for multi-unit generators.
+
+Example
+
+In the following example the Generator represents a renewable source "PV". The 1 MW units are scaled up to
+          the installed capacity via the Escalator shown in Table 2. Likewise the Rating is produced by a Variable in Table
+          3. The Load Subtracter then has the same Variable applied so that the subtracted capacity matches the Rated
+            Capacity in every period.
+
+
+
+
+
+
+Lists:
+

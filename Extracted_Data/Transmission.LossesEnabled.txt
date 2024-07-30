@@ -1,0 +1,14 @@
+Header: Transmission Losses Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If transmission losses are enabled.
+
+Paragraphs:
+Transmission Losses Enabled toggles on/off the modelling of losses in the transmission system. This option switches loss modelling on/off altogether. For more granular control use the Transmission Loss Voltage Threshold switch.
+
+See also the article Loss Modelling .
+Lists:
+

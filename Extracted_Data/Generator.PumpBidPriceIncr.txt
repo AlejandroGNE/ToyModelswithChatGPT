@@ -1,0 +1,21 @@
+Header: Generator Pump Bid Price Incr
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Adder applied to the [Pump Bid Price] property
+
+Paragraphs:
+Generator Pump Bid Price Incr is a simple adder applied to the Pump Bid Price property.
+
+The price calculated for band i (using the standard order of operations) is:
+
+See also:
+Lists:
+	- Generator Pump Bid Price Scalar
+	- Generator Offer Price Incr
+

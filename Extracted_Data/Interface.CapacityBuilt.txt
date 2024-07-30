@@ -1,0 +1,15 @@
+Header: Interface Capacity Built
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity built (expansion of interface in both directions)
+
+Paragraphs:
+Interface Capacity Built is the capacity built (expansion of interface in both directions).
+Lists:
+

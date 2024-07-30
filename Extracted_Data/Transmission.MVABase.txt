@@ -1,0 +1,12 @@
+Header: Transmission MVA Base
+
+Table Details:
+Units:	-
+Default Value:	100
+Validation Rule:	≥0
+Description:	MVA base for AC line parameters.
+
+Paragraphs:
+Transmission MVA Base is used to scale the per unit (p.u.) reactance and resistance back to megawatt values. By default, the MVA base is 100, i.e . a flow of 100 MW is equivalent to a 1 p.u. flow. For example, a 250MW, 275KV transmission line may have a resistance in the order of 0.02 p.u. and a reactance in the order of 0.05 p.u. using a 100 MVA base. Internally, a Voltage Base of 1kV is assumed and these p.u. figures are scaled using the MVA base so that modelled flows and losses are in megawatts.
+Lists:
+

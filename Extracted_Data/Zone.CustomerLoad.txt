@@ -1,0 +1,24 @@
+Header: Zone Customer Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load net of generator auxiliaries and losses
+
+Paragraphs:
+Zone Customer Load is the Load served to customers and is defined as:
+
+If Load Metering Point is set to "Generator Terminal" then:
+
+otherwise:
+
+Please also notice that the above-mentioned explanation applies if the transmission detail in ST class is not Regional. Otherwise, customer load is the Node Customer Load of the Zone reference node.
+
+See also:
+Lists:
+	- Zone Cost to Load
+

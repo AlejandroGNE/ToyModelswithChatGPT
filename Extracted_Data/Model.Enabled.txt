@@ -1,0 +1,12 @@
+Header: Model Enabled
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If the model is ready to be executed
+
+Paragraphs:
+Model Enabled toggles on/off execution of the model. All models with their enabled property set to true will be executed in the next execution batch.
+Lists:
+

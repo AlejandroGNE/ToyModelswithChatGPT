@@ -1,0 +1,352 @@
+Header: Main: Error and Warning Messages
+
+Table Details:
+1	Serious	Warn	Running in Diagnostic Mode! Execution may be slow and/or excessive disk space may be consumed.
+4	Moderate	Warn	MT Schedule New Entry Driver is enabled but Generator Max Units Built is not defined.
+5	Serious	Warn	Failed to complete solution table indexing <value>. Check the size of the solution database (2GB maximum).
+6	Moderate	Warn	The selected equilibrium model requires the definition of Company objects.
+7	Serious	Warn	Optimizer returned the status: <value>
+8	Minor	Warn	Region <name> Capacity Reserves are below Region Min Capacity Reserves by <value> MW.
+9	Moderate	Warn	Transmission SCUC Enabled selected but no Contingency objects are defined.
+11	Serious	Warn	Failed to load data into database: <value>. Check the size of the solution database (2GB maximum for Microsoft Access database format).
+18	Serious	Warn	Constraint <name> cannot include more than one Storage object.
+19	Serious	Warn	Constraint <name> RHS (period type <value>) is too long for ST Schedule. This Constraint needs to be decomposed by turning on MT Schedule.
+21	Moderate	Warn	Constraint <name> RHS should be defined from the start of the planning horizon.
+22	Minor	Warn	Reserve <name> has all generation below Reserve Cut-Off Size in <value> period(s).
+25	Fatal	Error	<value> <name> <value> From = <value> To (<value>).
+29	Moderate	Warn	<value> <name> marginal efficiency is increasing between points <value> (<value> MW, <value>) and <value> (<value> MW, <value>). Consider setting Production Heat Rate Error Method = 'Allow Non-convex'.
+33	Moderate	Warn	Generator <name> Offer Quantity defined without Generator Offer Price. The default price of <value> is assumed.
+34	Moderate	Warn	Generator <name> Offer Price defined without Generator Offer Quantity. Zero quantity assumed.
+36	Moderate	Warn	Generator <name> Fixed Load will override Generator Min Load.
+42	Serious	Warn	Solver <value>.
+43	Moderate	Warn	Line <name> Min Rating and Line Max Rating (<value>) imply <value> <= Line Flow <= <value> MW.
+45	Serious	Error	Variable <name> Value by <value> referenced but not defined.
+46	Serious	Error	RSI <name> Lines <name> does not import to/from the RSI Region.
+48	Fatal	Error	Source database name not set.
+51	Moderate	Warn	Generator <name> Pump Units = <value>, cannot be greater than Generator Units = <value>.
+52	Serious	Error	Purchaser Benefit Function Shape must be set to "Quadratic" for the single-period Nash-Cournot.
+55	Serious	Warn	License feature <name> is required but not available.
+56	Fatal	Error	The license server returned the error: <value>.
+58	Fatal	Warn	Referenced external text file not found: <value>.
+59	Fatal	Error	Market <name> has memberships to more than one class of object, but a Market can only involve one type.
+60	Serious	Error	Region <name> implied maximum offer price for dynamic bidding (Region VoLL or Region Price Cap) - Competition Epsilon < 0.
+67	Serious	Error	Constraint <name> cannot be conditional unless defining Constraint RHS of period type = "interval".
+71	Fatal	Error	Out of Memory Exception reallocating buffer to <value> kB.
+72	Fatal	Error	MOSEK encountered a fatal internal error and terminated abnormally.
+73	Moderate	Error	<value> <name> initial conditions must include [<value>].
+74	Moderate	Error	Generator <name> fuel-specific heat rate functions <value> must all have the same form as the general heat rate.
+75	Moderate	Error	Generator <name> fuel-specific heat rate functions <value> must all have the same form.
+78	Serious	Error	Generator <name> Heat Rate band count does not match Generator Load Point band count.
+79	Serious	Error	Generator <name> Heat Rate Incr band count does not match Generator Load Point band count.
+80	Serious	Error	Generator <name> does not define enough bands of Generator Offer Quantity for cumulative format (at least two required).
+81	Serious	Error	Generator <name> Start Cost Time must have same number of bands as Generator Start Cost and Generator Start Fuels Offtake at Start if defined.
+82	Serious	Error	Generator <name> number of bands for Generator Rough Running Point must match that of Generator Rough Running Range.
+84	Serious	Error	Generator <name> sum of Generator Fuels Ratio must be unity.
+85	Serious	Warn	<value> <name> minimum operating level (<value>) should be less than or equal to maximum operating level (<value>).
+87	Serious	Error	Errors were detected in the efficiency function for <value> <name>. Consider changing Production Heat Rate Error Method.
+88	Fatal	Error	Out of Memory Exception reallocating cache to <value> kB.
+91	Serious	Error	Line <name> defined with both Line Reactance and Line Susceptance but only one should be used.
+93	Serious	Error	Market <name> should define equal numbers of bands for Market Price and Market Quantity points.
+95	Serious	Error	Solution status = <value>.
+96	Serious	Error	MLF <name> right-hand side term must be non-negative.
+100	Serious	Error	Flow Control <name> Units property cannot be dynamic in for Transmission OPF Method = "Large Scale".
+105	Serious	Error	Storage <name> Energy Value defined without Storage Downstream Efficiency.
+108	Serious	Error	Variable <name> Profile property defined with <value> band(s) but expected ≥ <value> when using Variable Sampling Method = "Bands As Samples".
+109	Serious	Error	Variable <name> Min Value must be less than or equal to Variable Max Value.
+110	Moderate	Warn	<value> <name> initial production level (<value>) is outside the feasible operating range (<value> - <value>).
+111	Moderate	Warn	<value> <name> initial units operating (<value>) is greater than the number of installed units (<value>).
+117	Serious	Error	Market <name> Quantity values must be monotonically non-decreasing.
+118	Serious	Error	Market <name> band count for Generator Heat Markets Conversion Rate (for <name> = <value>) should equal Generator Load Point band count (<value>).
+119	Serious	Error	Generator <name> band count for Generator Emissions [Production Rate] (for <name> = <value>) should equal Generator Load Point band count (<value>).
+123	Serious	Error	Constraint <name> Decomposition Method = "Price" cannot be used in combination with a Constraint Penalty Price.
+124	Serious	Warn	MIP license is required, but no license is available for checkout-the linear relaxation will be reported.
+125	Fatal	Error	Could not interpret the Condition <name>.
+126	Fatal	Error	Generator <name> cannot receive Generator Heat Input from itself.
+127	Fatal	Error	Condition <name> cannot be conditional on itself (a member of its own Conditions collection).
+128	Fatal	Error	Condition <name> conditional on Condition <name> which is itself conditional.
+129	Fatal	Error	Condition <name> must not define Condition [Is Active] or a dynamic equation if it is dependent on other conditions.
+130	Moderate	Warn	Stochastic Risk Sample Count = <value> but no Variable objects are defined.
+133	Moderate	Warn	Generator <name> Units Out > Generator Units in <value> periods.
+134	Moderate	Warn	Line <name> Units Out > Line Units in <value> periods.
+135	Serious	Warn	PASA must be enabled in order to use the MT Schedule capacity expansion algorithm.
+137	Moderate	Warn	<value> <name> injects at <value> nodes but does not define <value> Nodes [<value>] for Node <name>.
+138	Moderate	Warn	Purchaser <name> offtakes at <value> nodes but does not define Purchaser Nodes Load Participation Factor for Node <name>.
+141	Fatal	Error	The chronological Horizon including look-ahead must be a subset of the planning horizon.
+142	Serious	Error	Region <name> DSP Bid Quantity band count (<value>) must be the same as Region DSP Bid Price band count (<value>).
+144	Serious	Error	Constraint <name> can define Constraint Generators [Generation Squared Coefficient] (for <name>) only if it is a dynamic constraint.
+145	Serious	Error	Constraint <name> can define Constraint Generators [Generation SUM Squared Coefficient] (for <name>) only if it is a dynamic constraint.
+146	Fatal	Error	Region <name> defines a Region Reference Node <name> that is not inside the Region.
+147	Fatal	Error	Region <name> defines a Region Reference Node <name> that is out-of-service.
+148	Serious	Error	Reserve <name> Nested Reserve <name> is of a different Reserve Type, but must be the same type.
+149	Serious	Error	Reserve <name> Nested Reserve <name> must use a subset of the generators in the master reserve class.
+150	Serious	Error	Generator <name> cannot provide more response to Reserve <name> than Reserve <name> because the service is nested.
+151	Serious	Error	Reserve <name> has Nested Reserve <name> but is itself nested in Reserve <name>.
+152	Serious	Error	Reserve <name> Is Enabled property can only be changed by Scenario.
+153	Serious	Error	Generator <value> [Start Profile] must have same number of bands as Generator Start Cost.
+154	Serious	Error	Generator <value> [Run Up Rate] must have same number of bands as Generator Start Cost.
+155	Fatal	Error	The Horizon (<value> years) could not be factored by the given LT Plan At a Time (<value>) and LT Plan Overlap (<value>).
+156	Serious	Error	Constraint <name> defines Constraint RHS (period type = <value>) but uses coefficients that support Constraint RHS Year only.
+157	Serious	Warn	Node <name> shift factors could not be computed due to an infeasibility in the Y-bus matrix.
+158	Moderate	Error	Constraint <name> Lines <name> cannot define both Constraint Lines [Export Capacity Built Coefficient] together with Constraint Lines [Import Capacity Built Coefficient].
+159	Moderate	Error	Constraint <name> Lines <name> cannot define both Constraint Lines [Units Built Coefficient] together with Constraint Lines [Units Built in Year Coefficient].
+160	Moderate	Error	Constraint <name> Lines <name> cannot define both Constraint Lines [Units Retired Coefficient] together with Constraint Lines [Units Retired in Year Coefficient].
+161	Moderate	Error	Constraint <name> Generators <name> cannot define both Constraint Generators [Units Built Coefficient] together with Constraint Generators [Units Built in Year Coefficient].
+162	Moderate	Error	Constraint <name> Generators <name> cannot define both Constraint Generators [Units Retired Coefficient] together with Constraint Generators [Units Retired in Year Coefficient].
+163	Serious	Error	Failed to fit polynomial to (x,y) coordinates of heat rate function for Generator <name>. <name>.
+164	Moderate	Warn	Non-physical losses detected on Line <name> in period (<value>). Flow <value>, Loss <value>. Consider changing Transmission Detect Non-physical Losses setting.
+166	Moderate	Warn	Power Station <name> only has <value> of <value> units that define [<value>].
+167	Moderate	Warn	Generator <name> outages were not written to text files because text input does not support multi-unit stations with partial outages.
+168	Moderate	Warn	Non-physical losses detected on Line <name> in period (<value>). Flow <value>, Loss <value>. Correction algorithm invoked.
+169	Serious	Warn	The master solution database is missing. Looked for <value>. Database output has been disabled.
+170	Serious	Warn	<value> <name> band (<value>) defines outage parameters but no outage duration function definition.
+171	Moderate	Warn	Node <name> Phase Angle is at an upper or lower bound in period <value>.
+173	Moderate	Warn	Constraint <name> Lines <name> has Constraint Lines [Flow Coefficient] and <value> defined. This coefficient will be ignored.
+174	Moderate	Warn	Constraint <name> Generators <name> has Constraint Generators [Reserve Provision Coefficient], but has no reserve memberships defined. This coefficient will be ignored.
+177	Serious	Warn	The input data diagnostic file <name> could not be written.
+182	Serious	Error	Interface <name> limits imply Interface Min Flow <value> <= Interface Flow <= Interface Max Flow <value>.
+183	Moderate	Warn	Node <name> Unserved Energy in period <value> is above limit <value> MW by <value> MW due to a constraint infeasibility.
+184	Fatal	Error	Region <name> must have at least one Node in service.
+185	Fatal	Error	Generator <name> Start Profile has been defined as a constant value. Use the Timeslice field to define its start-up stages or use Generator Run Up Rate for a constant rate.
+186	Serious	Error	Generator <name> Unit Commitment Optimality = "Rounded Relaxation" is not compatible with Production Unit Commitment Optimality.
+187	Fatal	Error	MT Schedule Stochastic Method and LT Plan Stochastic Method must both be set to "Deterministic" if either setting is "Deterministic".
+188	Fatal	Error	ST Schedule Stochastic Method and LT Plan Stochastic Method must both be set to "Deterministic" if either setting is "Deterministic".
+189	Serious	Error	Failed to solve uplift. The solver returned solution status <value>.
+190	Moderate	Warn	Uplift was infeasible but successfully repaired. SMP may be outside the range defined by Region Price Floor and Region Price Cap.
+193	Serious	Warn	Network separation is detected with Contingency <name>.
+194	Serious	Error	Generator <name> Mark-up Point defined with <value> bands but Generator Mark-up is defined with <value> bands.
+195	Serious	Error	Generator <name> Mark-up Point defined with <value> bands but Generator Bid Cost Mark-up is defined with <value> bands.
+196	Serious	Error	Generator <name> defines up to <value> Generator Units and is a Reserve Contingency Generators for <value> Reserve objects but this membership is allowed only for single-unit Generator objects. For multi-unit use separate Generator objects.
+197	Moderate	Warn	Region/Zone <name> Maintenance Factor in step <value> accumulates to <value> but would normally sum to <value> which is the total number of hours in the step.
+198	Moderate	Warn	Node <name> Dump Energy in period <value> is above limit <value> MW by <value> MW due to a constraint infeasibility.
+199	Moderate	Warn	Multi-fuel CHP Generator <name> requires identical heat rate functions. Average heat rate at maximum power across defined fuels will be considered for heat production formulation.
+200	Serious	Error	Failed to correct non-physical flows. The solver returned solution status <value>.
+201	Moderate	Warn	Non-physical flow correction was infeasible but successfully repaired.
+202	Moderate	Warn	Constraint <name> skipped because its period type is too short for the resolution of <value>.
+203	Moderate	Warn	The Escalator [Compound Start Date] is later than the end of the horizon. The default date will be used ( <value> ).
+204	Moderate	Warn	The Escalator [Compound Start Date] is <value> years outside of the current horizon.
+205	Serious	Warn	Generator <name> defined Generator Head Storage Efficiency Point (for <name>) band=<value> value=<value> must be less than or equal to band=<value> value=<value>.
+206	Fatal	Error	Variable <name> definition as a function of other Variable objects implies a circular reference.
+207	Serious	Error	Read <value> sample weights but expected <value>.
+208	Serious	Warn	Line <name> flow limits must be defined when using Transmission Loss Method = "Piecewise Linear". Loss is turned off for this line.
+209	Serious	Error	<value> <name> [<value>] definition is ambiguous. The datum is defined both with the Escalator <name> and without.
+210	Moderate	Warn	Problem is infeasible. Solution status = <value>.
+211	Fatal	Error	Failed to repair an infeasible problem. Solution status = <value>.
+212	Serious	Warn	Failed to set user-defined solver parameter <value>.
+213	Moderate	Ignore	Error reporting formulation diagnostics. <value>
+214	Serious	Warn	No integer feasible solution exists. The linear solution will be reported. Solution status = <value>.
+215	Serious	Warn	Generator <name> Fuel Offtake may be inaccurate in <value> periods due to tranche variables clearing out of order. Consider setting Generator Formulate Non-convex="Always".
+216	Serious	Warn	Generator <name> Unit Commitment Optimality = "Rounded Relaxation" might violate [Min Up Time]/[Min Down Time] because Constraint Generators [Units Generating Coefficient] is defined.
+217	Serious	Warn	Generator <name> defines [Commit] property which is incompatible with [Unit Commitment Optimality] = "Dynamic Program". The Generator will use the global commitment setting.
+218	Fatal	Error	The <name> Region is missing its Reference Node membership, which is compulsory when using the [Aggregate Transmission] option.
+219	Serious	Error	<value> LOLP Target<value> might not be guaranteed in <value> of <value> periods.
+220	Minor	Warn	Solution hierarchy computed <value> solution(s). No more feasible solutions exist.
+221	Serious	Warn	There was an error writing the solution to the destination drive. The solution has been saved in the following location: <value>
+222	Serious	Warn	There was a problem writing the zipped solution to the destination drive. The uncompressed solution has been saved in the following location: <value>
+223	Serious	Warn	Matrix coefficients are badly scaled. Range is [<value>, <value>].This may result in numerical instability and degraded performance.
+224	Serious	Warn	Variable objective function coefficients are badly scaled. Range is [<value>, <value>].This may result in numerical instability and degraded performance.
+225	Serious	Warn	Variable bounds are badly scaled. Range is [<value>, <value>].This may result in numerical instability and degraded performance.
+226	Serious	Warn	Constraint right-hand side coefficients are badly scaled. Range is [<value>, <value>].This may result in numerical instability and degraded performance.
+300	Serious	Warn	Invalid token <name> in RHS expression for Row <name>
+301	Fatal	Error	Error processing RPN expression for Row <name>. <value> element(s) required in the stack to use the <value> operator
+302	Serious	Warn	Expected no more than <value> element(s) to remain in the RPN stack, but found <value> after evaluating the expression for Row <name>
+3003	Fatal	Warn	<value> but this collection must have exactly <value> member(s).
+3004	Fatal	Warn	<value> but this collection must have at least <value> member(s).
+3005	Fatal	Warn	<value> but this collection cannot have more than <value> member(s).
+3006	Fatal	Warn	Power Station <name> conflicts with a Generator of the same name.
+3007	Minor	Warn	Skipped checking for missing files.
+3008	Fatal	Warn	File not found: <value>
+3009	Minor	Warn	Skipped checking of memberships.
+3013	Fatal	Warn	<value> objects are missing their system membership.
+3014	Minor	Warn	Skipped checking of data against validation rules.
+3015	Fatal	Warn	<value> [<value>] band = <value> is defined multiple times with value <value>.
+3017	Fatal	Warn	<value> [<value>] defined with value <value> but must be <value>.
+3018	Fatal	Warn	<value> [<value>] defined with value <value> and [Date From] = <value> after [Date To] = <value>.
+3019	Fatal	Warn	<value> [<value>] defined with multiple bands but this property cannot be multi-band.
+3020	Fatal	Warn	The input property [<value>] has been associated with the [<value>] collection, but this belongs to the [<value>] collection.  Please use the [Check Database] option in the user interface before re-execution.
+3021	Moderate	Warn	<value>.<value> with parent <name> and child <name> Filename: <name> used to define <value> properties for the same object, but must only be used to define one property for any one object.
+3022	Moderate	Warn	<value>.<value> with parent <name> and child <name> band <value> uses Data File field in combination with Escalator and/or Condition and/or Variable and this is not supported.
+3026	Moderate	Warn	Read <value> records(s) for object <name> in band <value>, but expected <value>. Default value of <value> assumed. File: <name>.
+3027	Moderate	Warn	Profile <value> contains <value> zero values.
+3028	Moderate	Warn	Year ending: <value> skipped because the horizon does not completely span this year.
+3030	Moderate	Warn	Data File Shape Distortion increased to: <value>.
+3031	Moderate	Warn	Data File Energy mismatch (under target) by <value> = <value>".
+3032	Moderate	Warn	Data File Energy mismatch (over target) by <value> = <value>.
+3033	Serious	Warn	File <name> periods per day in file <name> must be a multiple of Horizon Periods per Day <name>.
+3034	Fatal	Error	MOSEK encountered a fatal internal error and terminated abnormally.
+3035	Fatal	Error	The look-ahead in the chronological phase cannot have a higher resolution than the main horizon.
+3037	Serious	Error	No delimiters found in header row of file <value>.
+3038	Serious	Error	Data for <name> not found in file <name> (assumed "Names in Columns" format).
+3039	Fatal	Error	No header row found, or unable to recognise fields in the header. File <name>.
+3040	Serious	Error	Value <name> for object <name> at line <value> in file <name> must be >= <value>
+3041	Serious	Error	Value <name> for object <name> at line <value> in file <name> must be <= <value>
+3042	Serious	Error	Viewing of Patterned file data is not currently supported prior to Model compilation.
+3043	Moderate	Warn	Read <value> records(s) for object <name> in band <value>, but expected <value>. File: <name>.
+3044	Fatal	Error	Error interpreting the header row of <value> <name>.
+3045	Fatal	Error	Error reading line <value> of <value> <name>.
+3046	Fatal	Error	Out of Memory Exception reading file: <value>. Tried to allocate <value> kB.
+3047	Fatal	Error	Error interpreting the header row of <value>.
+3048	Fatal	Error	General error reading line <value> of <value>. Periods per day = <value>.
+3049	Fatal	Error	EEI File <name> has record length <value>, expected 80 or 82.
+3050	Fatal	Error	Duplicate AM records for <value>.
+3051	Fatal	Error	Duplicate PM records for <value>.
+3052	Fatal	Error	<value> contained only <value> lines of data, expected <value>. <value> Check that the file is complete and that the Horizon Periods per Day is correct.
+3053	Fatal	Error	<value>Specified Data File Base Profile <name> not found.
+3054	Fatal	Error	<value>Invalid fiscal year range: <value>-<value>.
+3055	Fatal	Error	Error in Data File Holiday. Expected <value> dates per holiday but got <value>.
+3056	Fatal	Error	Source profile contained too few records. <value>.
+3057	Fatal	Error	Error interpreting Holiday on band <value>. Could not locate base profile holiday start date.
+3058	Fatal	Error	Error interpreting Holiday on band <value>. Could not locate holiday start date in year <value>.
+3059	Fatal	Error	<value>Could not propagate profile year to period <value>.
+3060	Serious	Error	Solution status:= <value>.
+3061	Fatal	Error	Cannot create the profile using the specified parameters. The problem is infeasible. Adjust the parameters and try again.
+3063	Fatal	Error	Database version number <name> does not match engine version number <name>.
+3064	Fatal	Error	<value> validation errors were detected. Please correct these errors before running the simulation.
+3065	Fatal	Error	Selected Model and/or Project objects are not configured with a Horizon object.
+3068	Serious	Error	Capacity Factor constraints cannot be defined with period type of interval.
+3071	Serious	Error	Power Station <name> attempts to aggregate [ <value> ] with <value> bands on [ <value> (<name>).<value> (<name>) ] but <value> on the first member.
+3072	Fatal	Error	ST Schedule must begin inside the planning Horizon.
+3073	Fatal	Error	ST Schedule must run inside the planning Horizon.
+3074	Fatal	Error	Horizon Typical Week does not support running '<value>' steps.
+3075	Fatal	Error	For Horizon Typical Week mode ST Schedule must span one week, e.g. 1 step of 1 week, 7 steps of 1 day, 168 steps of 1 hour, etc.
+3076	Fatal	Error	Horizon contained no months with specified typical week index.
+3077	Fatal	Error	Invalid Horizon Chrono Period From option: <value>. Expected an index between 1 and <value>.
+3078	Fatal	Error	Invalid Horizon Chrono Period To option: <value>. Expected an index between 1 and <value>.
+3079	Fatal	Error	Invalid date range <value> to <value>.
+3080	Serious	Warn	The step settings for this phase cover <value> intervals out of <value> in the horizon. No results will be calculated for the last <value> intervals.
+3082	Fatal	Error	Internal Error: ParsePattern() expected result array of rank 1.
+3084	Serious	Error	Empty statement found in Timeslice <name>.
+3085	Serious	Error	Timeslice <name> statement contains no identifier.
+3086	Serious	Error	Invalid month range in Timeslice <name>.
+3087	Serious	Error	Invalid day of month range in Timeslice <name>.
+3088	Serious	Error	Invalid day of week range in Timeslice <name>.
+3089	Serious	Error	Invalid hour range in Timeslice <name>.
+3090	Serious	Error	Invalid period range in Timeslice <name>.
+3091	Serious	Error	Could not parse Timeslice statement <name>.
+3092	Serious	Error	Unknown identifier <name> in Timeslice statement <name>.
+3093	Serious	Error	Could not interpret the statement <name> in the Timeslice <name>.
+3094	Fatal	Error	Could not open: <value> It may be in use by another process.
+3095	Serious	Error	File <name> contains no data.
+3096	Serious	Error	Invalid data found at line <value> of file <value>.
+3097	Serious	Warn	Cannot aggregate <value> for Power Station <name> with child <name>, because only <value> of the <value> generators have that type of membership.
+3098	Serious	Warn	Cannot aggregate <value> for Power Station <name> with parent <name>, because only <value> of the <value> generators are included in that type of membership.
+3103	Fatal	Error	The property <value> <value> [<value>] has the Condition <name> defined that does not exist.
+3104	Fatal	Warn	The Region <name> defines Region Reference Node of <name> but this is located in Region <name>.
+3105	Fatal	Error	Escalator <name> cannot define Escalator [Index] together with Escalator [Compound Index].
+3106	Serious	Warn	Data File line <value> contains <value> band(s) of data for object <name> but expected <value> bands. File <name>.
+3107	Fatal	Error	Escalator <name> cannot define Escalator [Compound Index] for both period types <name> and <name>.
+3108	Fatal	Warn	Report <name> <value> [<value>] cannot be reported by period.
+3109	Fatal	Warn	Report <name> <value> [<value>] cannot be reported in summary.
+3110	Fatal	Warn	Report <name> <value> [<value>] is not reported in <value> simulation phase.
+3111	Fatal	Error	The look-ahead in the chronological phase (<value> periods per day) must divide the planning horizon resolution (<value> periods per day).
+3112	Fatal	Error	DATETIME field cannot be combined with YEAR, MONTH, DAY, or PERIOD. File <name>.
+3113	Fatal	Error	Data File line <value> defines invalid date YEAR=<value>, MONTH=<value>, DAY=<value>. Conversion error message =<name>. File <name>.
+3114	Fatal	Error	<value> [Blocks] = <value> cannot be greater than the number of intervals in a <value> = <value>.
+3115	Fatal	Error	Generator <name> has memberships to more than one enabled Power Station objects.
+3116	Serious	Error	Data File line <value> defines an invalid date ( <value> ) with <value> culture settings. File <name>.
+3117	Serious	Error	Failed to interpret the Timeslice <name> which appears to have invalid meta-patterns related to Timeslice <name>.
+3118	Serious	Error	Generator <name> was not located in the <value> model <name>.
+3119	Serious	Error	The interleaved property <value>.[<value>] is invalid.
+3121	Serious	Warn	The Model Random Number Seed property has not been set. The number <value> will be used. Variable samples and outage patterns in this simulation will repeat only if this same seed is set.
+3122	Serious	Warn	Timeslice <name> is used but does not include any time periods. You should define the Timeslice Include property.
+3123	Serious	Error	Unable to run the interleave process due to invalid settings.  Server stochastic mode [<value>] with <value> sample(s) is not consistent with the client stochastic mode [<value>] with <value> sample(s).
+3124	Serious	Warn	The marginal unit diagnostic has skipped Region <name> because the reference node <name> is not a load node.
+3128	Fatal	Error	Cannot fit <value> periods per <value> while pinning the selected number points. Either increase the number of periods or remove the point pinning.
+3129	Fatal	Error	Generator <name> band count for Generator Fuels Heat Rate (for <name> = <value>) should equal Generator Load Point band count (<value>).
+3130	Fatal	Error	Decision Variable <name> Objective Function Coefficient period type <name> is not consistent with Definition <name>.
+3131	Serious	Warn	Decision Variable <name> Objective Function Coefficient period type <value> is too long for ST Schedule.
+3132	Serious	Warn	The specified output path and file name are too long. The solution will be written to the following temporary location: <value>
+3133	Serious	Warn	OpenPLEXOS <value>.
+3134	Serious	Error	Conflict detected on Decision Variable <value> bounds, lower bound = <value>, upper bound = <value>, type = <value>
+3135	Serious	Warn	Branch <name> NodeFrom and NodeTo are both defined as <name>. It is dropped from simulation.
+3136	Fatal	Error	Cannot connect Storage objects to Water Node objects when using "Energy" Hydro Model setting.
+3137	Serious	Warn	File <name> contains <value> repeated values.
+3138	Fatal	Error	Line <name> has [Max Flow] lower than [Min Flow];  [Max Flow] = <name> < [Min Flow] = <name>.
+3139	Serious	Warn	Property <value> is dropped because the interval length is set to <value>.
+3140	Serious	Error	Could not interpret the statement <name> in the Timeslice <value>.
+3141	Serious	Warn	MT Schedule will run in one step for the Hanging Branches Rolling Horizon solution method.
+3142	Minor	Warn	Skipped validation of the report selections.
+3143	Fatal	Error	Horizon Typical Week mismatch to the start of the planning horizon.
+3144	Serious	Warn	Constraint <name> Gas Fields <name> defines [End Volume Coefficient] and <value>. The latter coefficient will be ignored.
+3145	Fatal	Error	Unable to formulate constraints for Base Gas Contract <name>. ST schedule must span 365 days if no LT plan or MT schedule is enabled.
+3146	Serious	Warn	Unable to formulate constraints for Base Gas Contract <name> for <value> phase. Contract will be treated as Swing contract for the current phase.
+3147	Serious	Warn	Gas Contract <name> has memberships with multiple classes. Gas Node memberships will be ignored.
+3148	Serious	Warn	Generator <name> cannot define a transition with itself.  This transition membership has been removed.
+3149	Serious	Warn	Gas Pipelines mapped to Gas Capacity Release Offer <name> do not form a path.
+3150	Serious	Warn	Unable to formulate constraints for Base Gas Capacity Release Offer <name> for <value> phase. Release type will be treated as swing for the current phase.
+3151	Serious	Warn	Gas Capacity Release Offer <name> has memberships with multiple classes. Gas pipelines memberships will be used and other memberships will be ignored.
+3152	Serious	Warn	Gas Capacity Release Offer <name> has no memberships assigned to it.
+3153	Serious	Warn	Maximum daily take for gas contract <name> is less than percentage of demand from all demand in this gas contract.
+3154	Serious	Warn	Internal VoLL for region <name> must increase with increasing internal VoLL level.
+3155	Serious	Warn	Scenario Tree: Globals [Hanging Branches Historical Year Start] is not defined. Hanging Branches Sample Reduction will be run automatically.
+3156	Fatal	Error	Scenario Tree: Number of Hanging Branches <value> should be less than the number of historical years <value>.
+3157	Fatal	Error	Scenario Tree: Globals [Hanging Branches Historical Year Start] data are invalid, please try using [Hanging Branches Sample Reduction].
+3159	Serious	Warn	Gas Storage has memberships with multiple gas nodes that each gas node has weather station connected. Only first weather station (connected to first gas node) will be used.
+3160	Serious	Warn	Gas Contract has memberships with multiple gas nodes that each gas node has weather station connected. Only first weather station (connected to first gas node) will be used.
+3161	Fatal	Warn	The Generator Outage Rating for <name> is larger than or equal to its rated capacity in certain periods.  Generator Units Out will not be applied to those periods.
+3162	Moderate	Warn	<value> <name> doesn't define property <value>. The preschedule for the object will be ignored.
+3163	Fatal	Warn	LT Plan specified [Allow Capacity Sharing] but none of the Regions or Zones have capacity reserve inputs. Capacity will not be shared except as specified in Line Firm Capacity.
+3164	Fatal	Warn	Constraint <name> RHS Hour is longer than the interval length of <value> hours. The Constraint will be excluded. Try using RHS instead.
+3165	Fatal	Error	Variable '<value>' is configured for <value> sampling.  The sampling method needs to be set to '<value>'.
+3200	Fatal	Error	Could not interpret Variable <name> ML model schema column <name>. Expected Collection_Name_Property.
+3201	Fatal	Error	Could not interpret the class name <name> in the Variable <name> ML model schema column name <name>
+3202	Fatal	Error	Could not interpret the <name> object name <name> in Variable <name> ML model schema column name <name>
+3203	Fatal	Error	Could not interpret the property name <name> in Variable <name> ML model schema column name <name>
+3204	Serious	Warn	The region <value> cannot belong to two or more decomposition groups.
+3205	Fatal	Error	Error during the decomposition simulations.  Unable to create final solution file.
+3206	Serious	Warn	Geographical decomposition feature has been disabled.  <value>
+3207	Serious	Warn	Expansion file '<value>' does not exist.
+3208	Serious	Error	Gas Storage <name> Injection Charge band count (<value>) must be the same as Gas Storage Injection Withdrawal Charge Level band count (<value>).
+3209	Serious	Error	Gas Storage <name> Withdrawal Charge band count (<value>) must be the same as Gas Storage Injection Withdrawal Charge Level band count (<value>).
+3210	Serious	Error	Gas Storage <name> Dispatch Injection Charge band count (<value>) must be the same as Gas Storage Injection Withdrawal Charge Level band count (<value>).
+3211	Serious	Error	Gas Storage <name> Dispatch Withdrawal Charge band count (<value>) must be the same as Gas Storage Injection Withdrawal Charge Level band count (<value>).
+3212	Serious	Error	Gas Storage <name> sum of [Injection Withdrawal Charge Level] bands is <name>% but must sum to 100%.
+3213	Serious	Warn	The value could not be calculated because <name> >= <name>.
+3214	Serious	Warn	The factorial for <name> could not be calculated.
+3215	Serious	Warn	The total share of a vehicle at any particular interval can not be more than 1. The share is redistributed accordingly, so that the total share is equal to 1.
+3216	Moderate	Warn	Input time series for variable <name> is not stationary, PARMA fitting for it might not be accurate!
+3219	Fatal	Error	The header column <value> in file <name> is not a valid column type.
+3220	Fatal	Error	License unavailable for the following classes: <value>.
+3221	Serious	Warn	Interleave configuration is ambiguous after generic object compilation. Collection IDs <value> each report <name>.
+3222	Serious	Warn	Max Ramp <value> for <value> is not available in Sampled Chronology.
+3223	Moderate	Warn	The total Gas Demand.Gas Node Demand Participation Factor does not sum to 1.0. Gas Demand: <value>, sum of Demand Participation Factor: <value>.
+3224	Serious	Warn	Scenario Tree: Globals Hanging Branches tree settings are ignored in the following cases: 1) LT/MT phase is not running Stochastic mode, or 2) the horizon is too short for running a multi-stage optimization, or 3) sample reduction is required for the stochastic object.
+3225	Serious	Warn	Storages <name> and <name> connect in cascade through Generator <name> but have different [Internal Volume Scalar] values <value> and <value>. Choose one value.
+3226	Serious	Warn	Scenario Tree: Globals [Full Branches Sample Reduction] is disabled. Number of Full and Hanging Branches <value> needs to be less than the number of historical years <value>.
+3227	Moderate	Warn	There is a mismatch between the number of offer quantity bands (<value>) and the number of bid-cost mark-up bands (<value>) for <value>.
+3228	Serious	Warn	Constraint <name> is too long for ST Schedule. This constraint will be prorated each step.
+3229	Fatal	Error	Circular Heat Input memberships detected for the following Generators: <value>, <value>.
+3230	Serious	Warn	Constraint <value> defines [<value>] for Vehicle <value>. Vehicle Max Discharge Rate is zero or does not formulate storage (simple model). Coefficient will be ignored.
+3231	Serious	Warn	Market <name> interacts with multiple classes (<value>). Ensure sales in this market correspond to one physical quantity (electricity, reserve capacity, water etc.).
+3232	Fatal	Warn	Disabling Transmission Aggregation because Kron-reduction has been enabled.
+3233	Serious	Warn	Global Sampling File has been entered, but file <value> cannot be found. Sample reduction will be performed automatically.
+3234	Fatal	Error	Invalid inputs for sampled chronology. Sampling interval type, sample type or reduced sample count of the <value> object should match that in the sampling file <value>.
+3235	Serious	Error	Property cannot be interleaved: <value>. All Constraints group properties are compiled to constraint objects before execution.
+3236	Serious	Warn	Line <name> is assumed out-of-service because it is an unconstrained DC link.
+3237	Serious	Warn	Constraint <name> cannot have more than one negative Decision Variable Value Squared Coefficient defined.
+3238	Serious	Warn	Constraint <name> Decision Variable <name> Value Squared Coefficient should not be positive when a negative value is defined.
+3239	Serious	Warn	Constraint <name> Decision Variable <name> Lower Bound should not be negative when its [Value Squared Coefficient] defined as a negative value.
+3240	Serious	Warn	Constraint <name> Sense should be "<=" when Decision Variable Value Squared Coefficient is defined.
+3241	Serious	Warn	Constraint <name> LHS Type should be "SUM" when Decision Variable Value Squared Coefficient is defined.
+3242	Serious	Warn	Constraint <name> RHS should be zero when a negative Decision Variable Value Squared Coefficient is defined.
+3243	Serious	Warn	Constraint <name> should not define a negative Decision Variable Value Squared Coefficient when other linear terms are defined.
+3244	Serious	Warn	Both the Rating Factor and Max Capacity have values that vary over time for unit <name>. This may cause the sampled available energy to not match expected results when percentage inputs are set to be scaled.
+3245	Serious	Warn	Charging Station <name> defines [Deferrable Load] but no simple [Fixed Load] Vehicles are connected.
+3246	Fatal	Error	Installed capacity exceeds expansion capacity for expansion candidate <value> <name>.
+3247	Serious	Warn	Large number of potential operating units for Generator <name> which models unit-by-unit commitment. High memory usage for the optimization may result.
+3248	Serious	Error	Scenario Tree: Stochastic Stages Period Type = <name> is not implemented for Hanging Branches trees.
+3249	Moderate	Warn	Financial coefficient [<value>] defined in non-price prescribed context and will be ignored. Constraint <name>, object <name>.
+3250	Serious	Error	Reliability <value> risk metric has decreased after Generator removal, no EFC convergence possible. Consider increasing VoLL or decreasing MIP gap.
+3251	Serious	Error	Constraint <value> has a period type <value> that is inconsistent with expansion period type <value>.
+3252	Serious	Error	Variable <value> is being referenced from its Variables - <value> - expression creating a circular reference error.
+3253	Fatal	Error	Minimum retirement capacity exceeds capacity available for retirement for <value> <name>.
+
+Paragraphs:
+Error and warning messages produced during the simulation are listed in the following table. In addition to these messages:
+
+For help on any type of error or warning you may contact Energy Exemplar support .
+
+
+Lists:
+	- A simulation may produce errors or warnings directly from the mathematical programming solver employed.
+	- Infeasibilities may occur and be repaired (noted in the log file) or fail to repair (result in a fatal error).
+

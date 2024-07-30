@@ -1,0 +1,11 @@
+Header: Generator Nodes*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the generator at each node in this collection
+
+Paragraphs:
+Generator Nodes* is creates copies of the generator at each node in this collection
+Lists:
+

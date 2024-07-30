@@ -1,0 +1,16 @@
+Header: Commodity Retire Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating retire non-anticipativity constraints
+
+Paragraphs:
+See Facility Retire
+            Non-anticipativity for details.
+Lists:
+

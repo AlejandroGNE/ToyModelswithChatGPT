@@ -1,0 +1,15 @@
+Header: Generator Capacity Markets Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from capacity market
+
+Paragraphs:
+Generator Capacity Markets Revenue is Revenue from capacity market.
+Lists:
+

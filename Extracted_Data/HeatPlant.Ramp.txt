@@ -1,0 +1,17 @@
+Header: Heat Plant Ramp
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rate at which units are ramping
+
+Paragraphs:
+Heat plant Ramp is defined as:
+
+Limits on ramping are defined with the Max Ramp Up and Max Ramp Down properties.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Capacity Markets Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price of energy in band for capacity market
+
+Paragraphs:
+Generator Capacity Markets Offer Price is Price of energy in band for capacity market.
+Lists:
+

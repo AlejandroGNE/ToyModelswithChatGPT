@@ -1,0 +1,15 @@
+Header: Emission Fuels Gross Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions prior to removal or abatement
+
+Paragraphs:
+Emission Fuels Gross Production is emissions for the Fuel prior to Removal or Abatement .
+Lists:
+

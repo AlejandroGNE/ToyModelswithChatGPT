@@ -1,0 +1,17 @@
+Header: Fuel Min Offtake Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Min Offtake] constraints
+
+Paragraphs:
+Fuel Min Offtake Penalty is penalty cost applied to violations of [Min Offtake] constraints. This is a soft constraint by default.
+
+To make this a hard constraint, the value must be set to -1.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Variable Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Variable operation and maintenance cost
+
+Paragraphs:
+Gas Contract Variable Cost is Variable operation and maintenance cost.
+Lists:
+

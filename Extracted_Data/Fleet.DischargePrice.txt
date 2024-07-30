@@ -1,0 +1,15 @@
+Header: Fleet Discharge Price
+
+Table Details:
+Units:	c/kWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received discharging
+
+Paragraphs:
+Fleet Discharge Price is the price received when the fleet is discharging.
+Lists:
+

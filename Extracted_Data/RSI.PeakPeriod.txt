@@ -1,0 +1,17 @@
+Header: RSI Peak Period
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak Period Flag
+
+Paragraphs:
+RSI Peak Period is defined as:
+
+between the trading period hours of 07:00 to 22:00, otherwise its value is 0.
+Lists:
+

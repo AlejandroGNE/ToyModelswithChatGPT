@@ -1,0 +1,17 @@
+Header: Company Emissions Removal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of emission removal
+
+Paragraphs:
+Company Emissions Removal Cost is the cost of emissions removal by Generators in the Company :
+
+where \[ j \] is the Emission
+Lists:
+

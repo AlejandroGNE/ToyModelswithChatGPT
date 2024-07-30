@@ -1,0 +1,15 @@
+Header: Abatement Consumables Consumption Base
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Consumption at notional zero generation level
+
+Paragraphs:
+Abatement Consumables Consumption Base is the consumption at notional zero generation level i.e. this amount is consumed whenever the Abatement is operating. This works with Consumption Incr to define the consumption as a function of Generator Generation .
+Lists:
+

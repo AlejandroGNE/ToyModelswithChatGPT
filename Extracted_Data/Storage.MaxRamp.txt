@@ -1,0 +1,28 @@
+Header: Storage Max Ramp
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of change in storage
+Max Volume	6	GWh
+Initial Volume	6	GWh
+Natural Inflow	30	MW
+Max Ramp	0.015	GWh
+Max Ramp Day	0.05	GWh
+
+Paragraphs:
+Storage Max Ramp is the maximum allowed rate of change ( Ramp ) in storage End Volume between one dispatch interval and the next. The volume is allowed to change up or down by this amount at most. By default the constraint is a hard constraint meaning that no violations are allowed. Violations can be allowed by defining the penalty price using the Max Ramp Penalty property.
+
+The Ramp can also be constrained over longer time periods using the Max Ramp Hour , Max Ramp Day , Max Ramp Week , Max Ramp Month , Max Ramp Year properties.
+
+The Ramp can also be constrained using the Constraint Storages Ramp Coefficient property. This allows you to create a soft constraint with a multi-band penalty price. It also allows you to limit the ramp across any custom period of time using the RHS Custom type.
+
+Example:
+
+The actual ramp is reported as the Ramp property and the shadow price of the ramping constraint is reported as Ramp Price .
+Lists:
+

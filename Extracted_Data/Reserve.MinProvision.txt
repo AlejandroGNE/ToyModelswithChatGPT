@@ -1,0 +1,19 @@
+Header: Reserve Min Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum required reserve
+
+Paragraphs:
+Reserve Min Provision sets the minimum requirement for the reserve service. The reserve is provided by the defined set of Generators and/or Purchasers (interruptible loads).
+
+Note: The Min Provision for Inertia Type reserves has units of MW-s.
+
+See also Type , Risk , Static Risk
+Lists:
+

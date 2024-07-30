@@ -1,0 +1,11 @@
+Header: Message 3146
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Unable to formulate constraints for Base Gas Contract <name> for <value> phase. Contract will be treated as Swing contract for the current phase.
+
+Paragraphs:
+Message 3146 occurs in the following circumstances:
+Lists:
+

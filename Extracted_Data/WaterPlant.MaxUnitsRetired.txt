@@ -1,0 +1,15 @@
+Header: Water Plant Max Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically retired in aggregate over the planning horizon
+
+Paragraphs:
+Water Plant Max Units Retired is Maximum number of units automatically retired in aggregate over the planning horizon. The cost of retiring a unit is given by Retirement Cost . Obviously the unit(s) must exist at some time in the planning horizon for there to be retirements. Thus you must define either Units or Max Units Built .
+Lists:
+

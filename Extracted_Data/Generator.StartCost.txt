@@ -1,0 +1,78 @@
+Header: Generator Start Cost
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of starting a unit
+Gen	Units	1	1	-
+Gen	Max Capacity	1	300	MW
+Gen	Min Stable Level	1	150	MW
+Gen	Run Up Rate	1	1.0	MW/min.
+Gen	Run Up Rate	2	0.8	MW/min.
+Gen	Run Up Rate	3	0.5	MW/min.
+Gen	Start Cost Time	1	2	hrs
+Gen	Start Cost Time	2	4	hrs
+Gen	Start Cost Time	3	4	hrs
+Gen	Start Cost	1	1000	$
+Gen	Start Cost	2	2500	$
+Gen	Start Cost	3	3000	$
+
+Paragraphs:
+Generator Start Cost is the
+          operations and maintenance cost associated with start up of a unit.
+          The cost of starts is reported in the property Start
+            & Shutdown Cost .
+
+There are two components to the cost associated with unit start up:
+
+The total cost as seen by the optimization is the sum of these two
+          components, thus the reported Unit Start Cost will reflect this.
+
+If desired, the Start Cost can be modified by the Marginal
+            Loss Factor by setting the Region MLF Adjusts Start Cost property.
+
+Generators cool after being shut down, and this increases the cost of
+          re-starting the units. The simulator models this cooling by using
+          multi-band Start Cost in combination with Start
+            Cost Time .
+
+Example:
+
+In this example the unit is:
+
+Note that start cost time is always the incremental number of hours
+          between cooling states. It is not the total time the unit has been
+          cooling. This is set up this way to make it easier to avoid the
+          mistake of mis-ordering the cooling states. Also, the start cost
+          varies linearly between cooling states as in the following
+          illustration.
+
+If no initial conditions are defined for a Generator, the start
+          decision variable for the first horizon period will not be included in
+          the objective function. This allows the optimization to assume a start
+          occurred some time in the past and so it can have a free start at the
+          start of t=0. If this is not desired, Initial
+            Units Generating should be set to 0.
+
+Note:
+
+See also:
+Lists:
+	- 'hot' for up to two hours after being shutdown and costs $1000 to
+            start inside the two hours;
+	- 'warm' for a further four hours ( i.e. up to six hours
+            after being shutdown) and costs $2500 to start at the six hour
+            point;
+	- 'cold' after it has cooled for a further four hours ( i.e. 10 hours in total) and costs $3000 to start at the 10 hour point.
+	- For Irish SEM: When the Uplift
+              Compatibility attribute is set to "Irish SEM" the start cost
+            function is modeled as a step function, not the linear interpolation
+            shown here.
+	- When Start Profile is defined in addition of Start Cost and Star Cost Time bands, the start cost function is modelled as a step function instead of the linear interpolation shown above.
+	- Generator Shutdown
+              Cost
+

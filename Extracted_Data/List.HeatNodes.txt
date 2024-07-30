@@ -1,0 +1,11 @@
+Header: List Heat Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Heat Node objects in the List
+
+Paragraphs:
+List Heat Nodes is set of Heat Node objects in the List
+Lists:
+

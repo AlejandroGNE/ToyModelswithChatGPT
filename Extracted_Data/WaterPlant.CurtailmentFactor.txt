@@ -1,0 +1,18 @@
+Header: Water Plant Curtailment Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of non-positive-priced generation curtailed
+
+Paragraphs:
+Water Plant Curtailment Factor is the proportion of capacity curtailed, i.e. , the capacity that is not taken up for Production . It is calculated as:
+
+See also:
+Lists:
+	- Water Plant Capacity Curtailed
+

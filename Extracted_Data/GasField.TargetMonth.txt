@@ -1,0 +1,15 @@
+Header: Gas Field Target Month
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	End of month gas field target
+
+Paragraphs:
+Gas Field Target Month is End of month gas field target.
+Lists:
+

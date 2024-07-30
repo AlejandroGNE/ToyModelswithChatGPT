@@ -1,0 +1,26 @@
+Header: Line Min Units Retired in Year
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Minimum number of units automatically retired in any single year of the planning horizon
+Old HVDC	Units	1	-		
+Old HVDC	Max Flow	500	MW		
+Old HVDC	FO&M Charge	5000	$000		
+Old HVDC	Max Units Retired	1	-		
+Old HVDC	Min Units Retired in Year	1	-	1/01/2020	31/12/2020
+Old HVDC	Retirement Cost	10000	$000		
+
+Paragraphs:
+Line Min Units Retired in Year forces a retirement in a given year in LT Plan . It must be less than or equal to Max Units Retired .
+
+Example
+
+See also:
+Lists:
+	- Line Min Units Retired
+

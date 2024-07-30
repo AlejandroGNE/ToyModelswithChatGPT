@@ -1,0 +1,11 @@
+Header: Gas Transport Maintenances
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of maintenance events on the gas transport
+
+Paragraphs:
+Gas Transport Maintenances is the set of maintenance events on the gas transport.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Contingency Monitored Lines Post-Contingency Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Post-Contingent Flows
+
+Paragraphs:
+Contingency Monitored Lines Post-Contingency Flow reports the post-contingency flow on the monitored line under the given contingency. This is reported for all Contingency and Monitored Line pairs regardless of whether the resulting constraint was binding.
+Lists:
+

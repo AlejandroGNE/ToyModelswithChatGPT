@@ -1,0 +1,17 @@
+Header: Financial Contract Settlement Quantity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of contract settled
+
+Paragraphs:
+Financial Contract Settlement Quantity is the volume of the contract used to compute the settlement . This varies depending on the setting of Contracts Settlement Method .
+
+Additional quantities can be added to the contract (over and above the Quantity input) by associating load and/or generation with the contract.
+Lists:
+

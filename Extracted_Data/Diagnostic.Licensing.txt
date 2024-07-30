@@ -1,0 +1,12 @@
+Header: Diagnostic Licensing
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Writes details of licenses checked out
+
+Paragraphs:
+Diagnostic Licensing toggles on/off printing the information for all required licenses in the model to the log and screen. An example log output is depicted below:
+Lists:
+

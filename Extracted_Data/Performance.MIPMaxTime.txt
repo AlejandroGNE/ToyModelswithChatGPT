@@ -1,0 +1,29 @@
+Header: Performance MIP Max Time
+
+Table Details:
+Units:	s
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum time in mixed integer programming algorithm
+
+Paragraphs:
+Performance MIP Max Time is the
+          maximum number of seconds spent solving any Mixed Integer Programming
+          (MIP) problem. The optimization will continue until a solution is
+          found that satisfies the MIP
+            Relative Gap and MIP
+            Absolute Gap criteria or this time limit is reached whichever
+          comes first.
+
+If the solver fails to find any feasible integer solution this time
+          the linear relaxation is reported.
+
+See also:
+Lists:
+	- Performance MIP
+              Max Relative Gap
+	- Performance MIP
+              Max Absolute Gap
+	- Performance Carry
+              over MIP Time
+

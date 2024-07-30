@@ -1,0 +1,19 @@
+Header: Generator Start Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Start fuel offtake
+
+Paragraphs:
+Generator Start Fuel Offtake is the amount of all fuels used for starting generating units, and is defined as:
+
+See also:
+Lists:
+	- Generator Start Fuels Offtake
+	- Generator Start Fuel Cost
+

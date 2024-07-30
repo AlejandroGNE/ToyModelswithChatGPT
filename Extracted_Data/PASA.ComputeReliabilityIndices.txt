@@ -1,0 +1,30 @@
+Header: PASA Compute Reliability Indices
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Master switch for computation of reliability indices LOLP, LOLE, etc.
+
+Paragraphs:
+PASA Compute Reliability Indices
+          toggles on/off the algorithm that computes the following reliability
+          indices:
+
+These indices are computed using a convolution approach described in
+          the LOLP topic.
+
+The resulting periods of non-zero LOLP can be used to select the
+          sampled intervals for detailed simulation in MT
+            Schedule - see Chronology .
+
+See also:
+Lists:
+	- Region LOLP
+	- Region LOLE
+	- Region EENS
+	- Region EDNS
+	- LT Plan Compute
+              Reliability Indices
+	- MT Schedule Chronology
+

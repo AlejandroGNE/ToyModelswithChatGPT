@@ -1,0 +1,15 @@
+Header: Emission Facilities Production Rate
+
+Table Details:
+Units:	kg/~ (Metric), lb/~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per unit of the Primary Output of the Facility
+
+Paragraphs:
+Emission Facilities Production Rate is the emissions produced per unit of the Primary Output of the Facility.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Physical Contract Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation on physical contract
+
+Paragraphs:
+Physical Contract Generation is the sum of all cleared offers on the physical contract, and is the amount of generation injected at the Generation Node .
+Lists:
+

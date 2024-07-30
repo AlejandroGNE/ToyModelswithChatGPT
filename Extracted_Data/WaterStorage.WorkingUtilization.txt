@@ -1,0 +1,15 @@
+Header: Water Storage Working Utilization
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Storage utilization based on working volume
+
+Paragraphs:
+Water Storage Working Utilization is the percentage utilization of storage based on working volume and is defined as:
+Lists:
+

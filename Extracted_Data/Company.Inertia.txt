@@ -1,0 +1,19 @@
+Header: Company Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Company Inertia is the total
+          inertia from generators owned by the company and is defined as:
+
+Inertia = ∑ ( Generators
+            Share × Inertia )
+Lists:
+

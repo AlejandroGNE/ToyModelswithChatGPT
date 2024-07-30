@@ -1,0 +1,15 @@
+Header: Company Net Pool Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pool revenue plus financial contract settlement
+
+Paragraphs:
+Company Net Pool Revenue is the company's revenue position after consideration of financial contract settlement, and is defined as:
+Lists:
+

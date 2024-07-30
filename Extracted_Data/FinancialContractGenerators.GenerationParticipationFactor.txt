@@ -1,0 +1,15 @@
+Header: Financial Contract Generators Generation Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of generator load that is settled in the contract
+
+Paragraphs:
+Financial Contract Generators Generation Participation Factor is the proportion of generator load that is settled in the contract.
+Lists:
+

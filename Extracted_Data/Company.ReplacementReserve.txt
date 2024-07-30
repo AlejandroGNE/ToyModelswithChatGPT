@@ -1,0 +1,15 @@
+Header: Company Replacement Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of replacement reserve
+
+Paragraphs:
+Company Replacement Reserve is Provision of replacement reserve.
+Lists:
+

@@ -1,0 +1,35 @@
+Header: Variable Value
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sample value
+
+Paragraphs:
+Variable Value is the actual
+          sample value, which is the Raw Value processed to be within Min Value and Max Value and through any
+          defined Look-up Table (in that
+          order).
+
+The processing is done to any Variable for which the Sampling Method is "Random Sampling" or "Expected Value" i.e. even if the
+          expected value is provided as input it is still processed through the
+          min/max and look-up table to produce the simulation value.
+
+In summary data this is the mean sample value.
+
+For Conditional Variables,
+          Value is a boolean indicating if the expression defining the condition
+          is true or false.
+
+Note: Variable values are reported as zero unless they are associated with a property.
+
+See also:
+Lists:
+	- Variable Error
+	- Variable Raw
+              Value .
+

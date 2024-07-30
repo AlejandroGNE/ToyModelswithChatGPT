@@ -1,0 +1,19 @@
+Header: Region Net Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Exports - Imports
+
+Paragraphs:
+Region Net Interchange is the net export from the Region and is defined as:
+
+See also:
+Lists:
+	- Region Load
+	- Region Generation
+

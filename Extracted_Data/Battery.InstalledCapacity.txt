@@ -1,0 +1,26 @@
+Header: Battery Installed Capacity
+
+Table Details:
+Units:	MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed battery capacity
+
+Paragraphs:
+Battery Installed Capacity is the
+          total storage capacity of the BESS. It is defined as:
+
+Installed Capacity = Capacity × Units
+
+See also:
+Lists:
+	- Battery Capacity
+              Built
+	- Battery Generation
+              Capacity
+	- Battery Max
+              Power
+

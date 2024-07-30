@@ -1,0 +1,18 @@
+Header: Fuel Contract Take-or-Pay Violation
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of take-or-pay constraint
+
+Paragraphs:
+Fuel Contract Take-or-Pay Violation is the violation of Take-or-Pay Quantity constraint.
+
+See also:
+Lists:
+	- Fuel Contract Take-or-Pay Violation Cost
+

@@ -1,0 +1,19 @@
+Header: Gas Contract Contract Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Type of gas contract
+
+Paragraphs:
+Gas Contract Contract Type controls the method used to constrain the final Take Quantity .
+
+The setting can take these values:
+
+Note that ST Schedule must span at least one year when using Contract Type = "Base" without LT Plan or MT Schedule enabled.
+Lists:
+

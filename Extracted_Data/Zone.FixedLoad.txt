@@ -1,0 +1,15 @@
+Header: Zone Fixed Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fixed load
+
+Paragraphs:
+Zone Fixed Load is the sum of Node Fixed Load.
+Lists:
+

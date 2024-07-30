@@ -1,0 +1,17 @@
+Header: Decision Variable Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total objective function contribution of generic decision variable
+
+Paragraphs:
+Decision Variable Cost is the total objective function contribution of the generic decision variable and is defined as:
+
+Note that this objective function coefficient might be scaled by the number of hours in each simulation period according to the setting Time Invariant .
+Lists:
+

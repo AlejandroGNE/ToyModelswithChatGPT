@@ -1,0 +1,15 @@
+Header: Company Gas Imbalance
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total gas supply imbalance for the company (Gas Demand - Gas Supply)
+
+Paragraphs:
+Company Gas Imbalance is the Total gas supply imbalance for the company (Gas Demand - Gas Supply).
+Lists:
+

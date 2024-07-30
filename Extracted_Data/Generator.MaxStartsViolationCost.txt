@@ -1,0 +1,32 @@
+Header: Generator Max Starts Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Starts] constraint violations.
+
+Paragraphs:
+Generator Max Starts Violation
+          Cost is defined as:
+
+Max Starts Violation Cost = Max
+            Starts Penalty × Max
+            Starts Violation
+
+See also:
+Lists:
+	- Generator Max
+              Starts
+	- Generator Max
+              Starts Day
+	- Generator Max
+              Starts Week
+	- Generator Max
+              Starts Month
+	- Generator Max
+              Starts Year
+

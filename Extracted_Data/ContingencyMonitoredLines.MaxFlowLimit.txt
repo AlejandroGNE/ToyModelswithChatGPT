@@ -1,0 +1,19 @@
+Header: Contingency Monitored Lines Max Flow Limit
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Post-contingency flow limit in the reference direction
+
+Paragraphs:
+Contingency Monitored Lines Max Flow Limit sets the line post-contingency flow limit in the reference direction for the purposes of security-constrained operation in the Security Constrained Unit Commitment. This input overrides Line Overload Max Rating .
+
+See also:
+Lists:
+	- Transmission SCUC Enabled setting
+	- Line Overload Max Rating
+

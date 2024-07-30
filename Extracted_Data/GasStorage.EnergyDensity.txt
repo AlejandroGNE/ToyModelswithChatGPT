@@ -1,0 +1,16 @@
+Header: Gas Storage Energy Density
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Energy per unit of the gas
+
+Paragraphs:
+Gas Storage Energy Density is the conversion factor between the Unit of the gas object and the base units defined by the Settings (Metric or Imperial). This allows the use of a different conversion factor than the default Gas Units of Measure used by PLEXOS.
+
+For example, PLEXOS uses a default of 1.038 to convert MCF to MMBTU (1 MCF = 1.038 MMBTU). If your system uses a different factor, for example 1.06, you can enter the conversion value in the Energy Density and it will be used to convert the data for the MCF gas object to the base units of MMBTU.
+
+See Gas Modelling section 2.2 Units of Data for details.
+Lists:
+

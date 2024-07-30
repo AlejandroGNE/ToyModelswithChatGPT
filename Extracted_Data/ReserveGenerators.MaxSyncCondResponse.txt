@@ -1,0 +1,27 @@
+Header: Reserve Generators Max Sync Cond Response
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum synchronous condenser reserve response
+
+Paragraphs:
+Reserve Generators Max Sync Cond Response defines a limit on the maximum response of each
+          generating unit running in synchronous-condenser mode (also referred
+          to as 'tail-water depressed' mode for hydro units). Generators capable
+          of synchronous condenser mode are identified with the Sync
+            Cond Units property.
+
+See also:
+Lists:
+	- Reserve Generators Max Response
+              Factor
+	- Reserve Generators Sync Cond Offer
+              Price
+	- Reserve Generators Spinning
+              Reserve Provision
+

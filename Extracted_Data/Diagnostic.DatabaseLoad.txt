@@ -1,0 +1,12 @@
+Header: Diagnostic Database Load
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Output the database loading process to log file.
+
+Paragraphs:
+This settings toggles on/off screen and log messages during loading of the simulation database. The setting provides a summary of the model and changes depending on the membership of the model. A sample output is displayed below:
+Lists:
+

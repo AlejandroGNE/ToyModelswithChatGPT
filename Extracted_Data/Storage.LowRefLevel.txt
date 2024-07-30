@@ -1,0 +1,17 @@
+Header: Storage Low Ref Level
+
+Table Details:
+Units:	m (Metric), ft (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Low reference level for volume calculation
+
+Paragraphs:
+Storage Low Ref Level is used in combination Low Ref Area as a part of the definition of the size of the storage in the "Level" Storage Model . See the article:
+Lists:
+	- Storage High Ref Area
+	- Storage High Ref Level
+

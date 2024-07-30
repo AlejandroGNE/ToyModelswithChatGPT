@@ -1,0 +1,32 @@
+Header: Storage Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of units of the storage
+Head	End Effects Method	1 ("Free")	-	1					
+Head	Units	0	-	1					Energy
+Head	Units	1	-	1					Storage
+Head	Max Volume	0.012	GWh	1					
+Head	Initial Volume	0.012	GWh	1					
+Hydro	Units	1	-	1					
+Hydro	Max Capacity	1	MW	1					
+Hydro	Max Energy Day	0.012	GWh	1					Energy
+
+Paragraphs:
+Storage Units is the number of
+          storage 'units' where 0 flags indicates the storage does not exist,
+          allowing you to toggle the existence of the Storage in/out of a running Model .
+
+Example
+
+In the following example the Storage exists in the Scenario "Storage" but not in the Scenario "Energy".
+
+This example could be combined with the following Generator data to produce identical results in a one day simulation for both
+          scenarios:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Purchaser Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of energy in band
+
+Paragraphs:
+Purchaser Bid Price sets the price part of the demand bid (demand step function): see Bid Quantity for examples. If the Region MLF Adjusts Bid Price property is set, Bid Price is modified by the Marginal Loss Factor .
+Lists:
+

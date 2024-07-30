@@ -1,0 +1,22 @@
+Header: Gas Storage Target Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the target.
+
+Paragraphs:
+Gas Storage Target Penalty is the penalty for violating the target set by one of the following properties:
+Lists:
+	- Gas Storage Target
+	- Gas Storage Target Day
+	- Gas Storage Target Week
+	- Gas Storage Target Month
+	- Gas Storage Target Year
+	- Gas Storage Min Storage Target Percentage
+	- Gas Storage Max Storage Target Percentage
+

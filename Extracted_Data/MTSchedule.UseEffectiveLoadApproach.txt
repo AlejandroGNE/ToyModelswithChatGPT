@@ -1,0 +1,14 @@
+Header: MT Schedule Use Effective Load Approach
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If MT Schedule uses the effective load approach
+
+Paragraphs:
+MT Schedule Use Effective Load Approach controls the method used to handle generator forced outages in MT Schedule.
+
+The basic premise behind the Effective Load Approach is to take the load and appropriately modify it with respect to the convolved capacity outages. It transposes the convolved generators forced outage rates into the LDC, effectively modifying the load to account for the capacity outages. The effective load approach uses the PASA LOLP convolution method, to take the forced outage rates of all units in a single region / zone and adjust the LDC to reflect the capacity outage states.
+Lists:
+

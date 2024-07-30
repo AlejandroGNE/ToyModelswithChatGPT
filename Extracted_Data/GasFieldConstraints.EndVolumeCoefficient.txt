@@ -1,0 +1,15 @@
+Header: Gas Field Constraints End Volume Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas field end volume
+
+Paragraphs:
+GasField Constraints End Volume Coefficient is Coefficient of gas field end volume.
+Lists:
+

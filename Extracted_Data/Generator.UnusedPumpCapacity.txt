@@ -1,0 +1,23 @@
+Header: Generator Unused Pump Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Unused pump capacity (Pump Load x Pump Units - station pumping load)
+
+Paragraphs:
+Generator Unused Pump Capacity is defined as:
+
+Undispatched Capacity = MAX(0, Input Pump Load × Units - Station-wide Output Pump Load )
+
+This is a measure of total pumping (load) capacity available. To utilise this capacity additional units are allowed to commit for pumping and/or transition from generating to pumping.
+
+See also:
+Lists:
+	- Generator Undispatched Pump Capacity
+	- Balancing Markets
+

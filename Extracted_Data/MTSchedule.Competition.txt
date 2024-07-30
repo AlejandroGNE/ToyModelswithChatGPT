@@ -1,0 +1,11 @@
+Header: MT Schedule Competition
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Competition settings for MT Schedule
+
+Paragraphs:
+MT Schedule Competition is the Competition settings for MT Schedule. These override the settings associated with the Model .
+Lists:
+

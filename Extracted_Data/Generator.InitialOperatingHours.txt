@@ -1,0 +1,15 @@
+Header: Generator Initial Operating Hours
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Hours the unit has been operating since the last forced outage
+
+Paragraphs:
+Generator Initial Operating Hours is Hours the unit has been operating since the last forced outage.
+Lists:
+

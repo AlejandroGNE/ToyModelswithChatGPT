@@ -1,0 +1,38 @@
+Header: Split Run Settings
+
+Table Details:
+
+Paragraphs:
+Split Execution provides the option to split models by Planning Horizon and Chronological Horizon. When the Horizon is split, the dialog prompts for the number of divisions and a units option. The duration of the Horizon will be converted to the specified unit and then divided by the number of divisions. Each division is executed separately, allowing for parallel processing, and the results are combined into a single Solution file when all of the processes are complete, as though it had been run as one process.
+
+The most appropriate method for splitting a model depends on the model itself. It is important to consider the pros and cons of each splitting method. Splitting by horizon can at points, such as horizon start and end dates, provide a "less optimal" solution due to the loss of continuity. Whether splitting by Chronological or Planning Horizon, it is also best to choose the number of divisions and units such that they divide the horizon evenly.
+
+This method of splitting divides the Planning horizon, which in turn will synchronize and split the chronological horizon to the same size as the planning horizon split. The Horizon Input is the unit set in the Planning Horizon. For example, if you split a 1 year horizon by 4, you can split it into 3 months, or 13 weeks depending on the target split period type.
+                    
+                Splitting by Planning Horizon does support the use of look-ahead in the horizon settings, but only look-ahead of whole days. Please note that when using Look-ahead the overall length of both the chronological and non-chronological solutions will be less than the horizon settings as data for the final look ahead period is not recorded.
+
+This method of splitting will only divide the chronological horizon, meaning each segment will run the full planning horizon, then its own portion of the chronological horizon. Splitting by chronological horizon does support the use of look-ahead.
+
+A parallel run will execute as many splits as Concurrent Processes, in parallel. The number of concurrent processes is limited by the number specified in the dialog. Simulations which must be run in excess of this number are queued to run as the initial processes complete so that no more than the specified number are concurrently executing. PLEXOS will only consume (check-out) a single license, regardless of the number of "split" simulations specified.
+
+A sequential execution executes one model at a time (identical to setting concurrent processes to 1). Sequential execution can sometimes be beneficial over parallel execution, for example when using an OpenPLEXOS assembly which requires models to run in order, or when computer resource limitations require one model to be run at a time.
+
+This method will use the current PLEXOS Connect settings to execute the splits, whether that be a single client or multiple.
+
+When using either "execute in parallel" or "execute sequential", control will be passed to PLEXOSLauncher which handles the splitting, queuing and execution of split run models. PLEXOSLauncher can also be used on its own in the command line to execute split runs. Below is the standard help output which details how to use it in the command line.
+Lists:
+
+
+H2s:
+Contents
+1. Introduction
+2. Execution Settings
+3. Execution Methods
+
+H5s:
+Planning Horizon
+Chronological Horizon
+Execute in Parallel
+Execute Sequential
+Execute in Connect
+PLEXOSLauncher

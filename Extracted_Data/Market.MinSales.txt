@@ -1,0 +1,15 @@
+Header: Market Min Sales
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum sales to the market
+
+Paragraphs:
+Min Sales sets a lower bound on the sales made into a market and can be used to override economic sales.
+Lists:
+

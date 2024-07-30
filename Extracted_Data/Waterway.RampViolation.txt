@@ -1,0 +1,20 @@
+Header: Waterway Ramp Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of flow ramp constraint
+
+Paragraphs:
+Waterway Ramp Violation is the violation of flow Max Ramp constraint.
+
+See also:
+Lists:
+	- Waterway Max Ramp Penalty
+	- Waterway Hours of Ramp Violation
+	- Waterway Ramp Violation Cost
+

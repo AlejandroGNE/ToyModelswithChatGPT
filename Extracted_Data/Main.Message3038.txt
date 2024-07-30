@@ -1,0 +1,11 @@
+Header: Message 3038
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Data for <name> not found in file <name> (assumed "Names in Columns" format).
+
+Paragraphs:
+Message 3038 occurs in the following circumstances:
+Lists:
+

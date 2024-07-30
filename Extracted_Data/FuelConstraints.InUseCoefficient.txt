@@ -1,0 +1,71 @@
+Header: Fuel Constraints In Use Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Boolean value (1 if the Fuel is in use, 0 otherwise)
+Generator.Fuels	X	A
+Generator.Fuels	X	B
+Generator.Fuels	X	C
+Generator.Fuels	X	D
+Constraint	X exclude AC
+Constraint	X exclude AD
+Constraint	X exclude BC
+Constraint	X exclude BD
+Constraint	X select 2 fuels
+Generator.Constraints	X exclude AC	X
+Generator.Constraints	X exclude AD	X
+Generator.Constraints	X exclude BC	X
+Generator.Constraints	X exclude BD	X
+Generator.Constraints	X select 2 fuels	X
+Fuel.Constraints	X exclude AC	A
+Fuel.Constraints	X exclude AC	C
+Fuel.Constraints	X exclude AD	A
+Fuel.Constraints	X exclude AD	D
+Fuel.Constraints	X exclude BC	B
+Fuel.Constraints	X exclude BC	C
+Fuel.Constraints	X exclude BD	B
+Fuel.Constraints	X exclude BD	D
+Fuel.Constraints	X select 2 fuels	A
+Fuel.Constraints	X select 2 fuels	B
+Fuel.Constraints	X select 2 fuels	C
+Fuel.Constraints	X select 2 fuels	D
+Constraint ( X exclude AC )	Sense	≤	-	1
+Constraint ( X exclude AC )	RHS	1	-	1
+Constraint ( X exclude AD )	Sense	≤	-	1
+Constraint ( X exclude AD )	RHS	1	-	1
+Constraint ( X exclude BC )	Sense	≤	-	1
+Constraint ( X exclude BC )	RHS	1	-	1
+Constraint ( X exclude BD )	Sense	≤	-	1
+Constraint ( X exclude BD )	RHS	1	-	1
+Constraint ( X select 2 fuels )	RHS	2	-	1
+Constraint ( X exclude AC ).Fuels ( A )	In Use Coefficient	1	-	1
+Constraint ( X exclude AC ).Fuels ( C )	In Use Coefficient	1	-	1
+Constraint ( X exclude AD ).Fuels ( A )	In Use Coefficient	1	-	1
+Constraint ( X exclude AD ).Fuels ( D )	In Use Coefficient	1	-	1
+Constraint ( X exclude BC ).Fuels ( B )	In Use Coefficient	1	-	1
+Constraint ( X exclude BC ).Fuels ( C )	In Use Coefficient	1	-	1
+Constraint ( X exclude BD ).Fuels ( B )	In Use Coefficient	1	-	1
+Constraint ( X exclude BD ).Fuels ( D )	In Use Coefficient	1	-	1
+Constraint ( X select 2 fuels ).Fuels ( A )	In Use Coefficient	1	-	1
+Constraint ( X select 2 fuels ).Fuels ( B )	In Use Coefficient	1	-	1
+Constraint ( X select 2 fuels ).Fuels ( C )	In Use Coefficient	1	-	1
+Constraint ( X select 2 fuels ).Fuels ( D )	In Use Coefficient	1	-	1
+
+Paragraphs:
+Fuel Constraints In Use Coefficient is Boolean value (1 if the Fuel is in use, 0 otherwise). You can use this coefficient to place constraints on combinations of fuels used by a Generator when you also add filtering memberships of Generator objects into the Generators collection.
+
+Example
+
+Generator "X" uses Fuels "A", "B", "C", "D":
+
+Only the combinations "AB" and "CD" are valid. All other combinations must be excluded. To model this we formulate the following constraints:
+
+See also:
+Lists:
+	- Generator Fuels Hours in Use
+

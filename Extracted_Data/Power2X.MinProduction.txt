@@ -1,0 +1,16 @@
+Header: Power2X Min Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum production
+
+Paragraphs:
+Refer to Facility Min
+            Production for details.
+Lists:
+

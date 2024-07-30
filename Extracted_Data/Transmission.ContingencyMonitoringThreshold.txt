@@ -1,0 +1,20 @@
+Header: Transmission Contingency Monitoring Threshold
+
+Table Details:
+Units:	%
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Description:	Monitor only this percentage of most affected Line/Transformer/Interface flows.
+
+Paragraphs:
+Contingency Monitoring Threshold provides a quick way to narrow down the set of branches monitored by a contingency. Contingency shift factors are calculated for all monitored branches and then ranked from largest to smallest relative impact of the outage elements to the branch. Only the top x % of branches will be monitored in SCUC iterations. The default value of 100% means all branches are monitored provided they meet the SCUC Constraint Voltage Threshold .
+
+For the N- x contingency cases, it is assumed the pre-contingency power flow on outage branches are the same in order to make a generalized ranking.
+
+This threshold is ignored if Contingency Monitored Lines/Transformers/Interfaces are not selected.
+
+See also:
+Lists:
+	- Contingency Contingency Monitoring Threshold
+	- Diagnostic Binding Contingencies
+

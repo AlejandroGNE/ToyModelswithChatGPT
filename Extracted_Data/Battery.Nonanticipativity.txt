@@ -1,0 +1,15 @@
+Header: Battery Non-anticipativity
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Battery Non-anticipativity is price for violating non-anticipativity constraints in scenario-wise decomposition mode.
+Lists:
+

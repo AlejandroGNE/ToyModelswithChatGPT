@@ -1,0 +1,27 @@
+Header: Flow Path Capacity Built
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity built
+
+Paragraphs:
+Flow Path Capacity Built is the
+          flow capacity built in LT Plan and is
+          calculated as:
+
+Capacity Built = Units
+            Built × Max Flow
+
+Note that if Max Flow is infinity then a dummy value of 1 is used in
+          reporting.
+
+See also:
+Lists:
+	- Flow Path Capacity
+              Retired
+

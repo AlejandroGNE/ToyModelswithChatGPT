@@ -1,0 +1,11 @@
+Header: Generator Fuels
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of fuels used by the generator
+
+Paragraphs:
+Generator Fuels is the set of fuels used by the thermal generator.  A generator may use any number of fuels. See the Generator Property Index for a list of properties that can be defined specifically for each generator/fuel membership.
+Lists:
+

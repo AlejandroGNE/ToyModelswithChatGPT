@@ -1,0 +1,11 @@
+Header: Physical Contract Load Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	node for load in the contract
+
+Paragraphs:
+Physical Contract Load Node defines the network point at which load is taken by the physical contract.
+Lists:
+

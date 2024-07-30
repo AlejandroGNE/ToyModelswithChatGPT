@@ -1,0 +1,20 @@
+Header: Gas Transport Max Shipments
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of voyages in each step in the simulation horizon
+
+Paragraphs:
+Gas Transport Max Shipments sets an upper bound on the number of voyages in each step in the simulation Horizon . If you need to set limits over other time frames use one of the following:
+Lists:
+	- Gas Transport Max Shipments Hour
+	- Gas Transport Max Shipments Day
+	- Gas Transport Max Shipments Week
+	- Gas Transport Max Shipments Month
+	- Gas Transport Max Shipments Year
+

@@ -1,0 +1,11 @@
+Header: Emission Gas Demands
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Demands that produce the Emission
+
+Paragraphs:
+Emission Gas Demands is set of Gas Demands that produce the Emission
+Lists:
+

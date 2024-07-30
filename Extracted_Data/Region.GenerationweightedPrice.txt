@@ -1,0 +1,20 @@
+Header: Region Generation-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation-weighted average price
+
+Paragraphs:
+Region Generation-weighted Price is the average price paid to generators in the region, and is defined as:
+
+See also:
+Lists:
+	- Region Load-weighted Price
+	- Region Time-weighted Price
+	- Region Price
+

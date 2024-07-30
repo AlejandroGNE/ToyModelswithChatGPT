@@ -1,0 +1,17 @@
+Header: Message 186
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Generator <name> Unit Commitment Optimality = "Rounded Relaxation" is not compatible with Production Unit Commitment Optimality.
+
+Paragraphs:
+Message 186 occurs in the following circumstances:
+
+In order to run "Rounded Relaxation" unit commitment the Production Unit Commitment Optimality must be set to "Rounded Relaxation". You cannot set individual Generator objects to this mode without the 'global' switch set.
+
+To achieve the effect of some Generator objects using "Rounded Relaxation" commitment and others either "Linear Relaxation" or "Integer Optimal" first set the Production Unit Commitment Optimality to "Rounded Relaxation" then 'override' the Generator Unit Commitment Optimality that are not using that mode.
+Lists:
+	- You set Generator Unit Commitment Optimality = "Rounded Relaxation" on one or more Generator objects.
+	- The Production Unit Commitment Optimality setting is any value other than "Rounded Relaxation".
+

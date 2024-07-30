@@ -1,0 +1,15 @@
+Header: Storage Rolling Planning Bonus
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Bonus for storage contents at the end of the look-ahead
+
+Paragraphs:
+Storage Rolling Planning Bonus is an incentive added to the last period of the look-ahead to encourage a higher storage level.  It is only applicable to ST when look-ahead is specified.
+Lists:
+

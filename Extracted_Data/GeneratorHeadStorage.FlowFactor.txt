@@ -1,0 +1,15 @@
+Header: Generator Head Storage Flow Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Units of storage received per unit of generation
+
+Paragraphs:
+Generator Head Storage Flow Factor scales the flows into the generator from the head storage .
+Lists:
+

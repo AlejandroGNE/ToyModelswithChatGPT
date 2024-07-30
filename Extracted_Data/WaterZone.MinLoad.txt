@@ -1,0 +1,15 @@
+Header: Water Zone Min Load
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum load across the current period
+
+Paragraphs:
+Water Zone Min Load is Minimum load across the current period.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Physical Contract Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Physical Contract inherits from
+
+Paragraphs:
+Physical Contract Template is template the Physical Contract inherits from
+Lists:
+

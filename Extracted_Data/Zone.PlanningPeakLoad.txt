@@ -1,0 +1,17 @@
+Header: Zone Planning Peak Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak load in the current capacity optimization period (e.g. year)
+
+Paragraphs:
+Zone Planning Peak Load is an output of LT Plan . It is the peak load used in calculation of reserve margins and in enforcing reserve margin constraints such as Min Capacity Reserve Margin . LT Plan enforces these constraints for the peak period in each year of the horizon. The Planning Peak Load is defined as:
+
+All taken at the time of maximum Load in the planning year.
+Lists:
+

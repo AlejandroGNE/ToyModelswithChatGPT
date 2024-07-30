@@ -1,0 +1,15 @@
+Header: Generator Objectives Inertia Provision Coefficient
+
+Table Details:
+Units:	MW·s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of inertia provision
+
+Paragraphs:
+Generator Objectives Inertia Provision Coefficient is Coefficient of inertia provision.
+Lists:
+

@@ -1,0 +1,26 @@
+Header: Simulation Phases
+
+Table Details:
+
+Paragraphs:
+PLEXOS has four unique simulation phases which are:
+
+The simulation flowchart for these phases can be seen in Figure 1 , below.
+
+
+
+
+
+
+
+
+
+
+
+Figure 1: Simulation Flowchart
+Lists:
+	- LT Plan ;
+	- PASA ;
+	- MT Schedule ; and
+	- ST Schedule
+

@@ -1,0 +1,60 @@
+Header: Facility Min Operating Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum unit level required when operating as a proportion of the maximum
+Max Operating Level	87	-	M01
+Max Operating Level	87	-	M02
+Max Operating Level	87	-	M03
+Max Operating Level	87	-	M04
+Max Operating Level	80	-	M05
+Max Operating Level	80	-	M06
+Max Operating Level	80	-	M07
+Max Operating Level	80	-	M08
+Max Operating Level	80	-	M09
+Max Operating Level	87	-	M10
+Max Operating Level	87	-	M11
+Max Operating Level	87	-	M12
+Min Operating Factor	40	%	
+
+Paragraphs:
+Facility Min Operating Factor is
+          the minimum production level required when operating.
+
+How Min Operating Factor is interpreted (as a facility-wide value or
+          unit-by-unit)  depends on the Min
+            Operating Level Global setting. By default it is expressed as a
+          proportion of the unit Max
+            Operating Level . Setting this creates the following constraints:
+
+Production ≥ Units Operating × Max
+            Operating Level × Min Operating Factor
+
+Units
+            Operating integer
+
+Alternatively, it can be the minimum as a function of Installed
+            Capacity , creating the following constraints:
+
+Production ≥ Operating × Max Operating
+            Level × Units
+
+"Operating" binary
+
+
+
+Note that the integrality constraint is relaxed if Unit
+            Commitment Optimality is set to "Linear Relaxation" since Units
+            Operating in that case is a continuous variable.
+
+In this example the minimum Production of the facility will always be 40% of the committed capacity .
+
+As an alternative you can specify the Min
+            Operating Level directly.
+Lists:
+

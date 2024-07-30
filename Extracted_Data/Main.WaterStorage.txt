@@ -1,0 +1,14 @@
+Header: Water Storage Class
+
+Table Details:
+Description:	Water storage tank
+
+Paragraphs:
+See also Water Storage Property Reference for a detailed list of properties for this class
+          of object.
+
+A Water Storage connects to the water network via the Water Node membership.
+
+See the Water Modelling article for details.
+Lists:
+

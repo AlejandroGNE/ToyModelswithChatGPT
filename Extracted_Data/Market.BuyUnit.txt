@@ -1,0 +1,19 @@
+Header: Market Buy Unit
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for purchases (time independent)
+
+Paragraphs:
+In the absence of the Buy Unit property, purchases from the market are assumed to take any continuous value (zero up to the Max Purchases ), and the amount purchased in any trading period is independent of other periods. Buy Unit however sets the increment (size of the block) that must be purchased from the market. Further, each contiguous block in time represents a single decision variable in the optimization. Thus Buy Unit is used to represent purchases of blocks of the product that must be committed to over a set period of time.
+
+Note that Buy Unit only sets the block size, you must still set Price and Quantity to define the market demand/supply function.
+
+See Sell Unit for an example.
+Lists:
+

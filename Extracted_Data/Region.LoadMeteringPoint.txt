@@ -1,0 +1,17 @@
+Header: Region Load Metering Point
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Metering point for input loads in the region
+
+Paragraphs:
+Region Load Metering Point controls how auxiliary loads (defined on the Generator objects) are handled in the simulation. This attribute can take the following values:
+
+It is important that this option is consistent with the definition of load i.e. if loads are gross (generator terminal) then generation should be metered at the generator terminal, and similarly if loads are net of auxiliary loads, then generation should be treated as sent-out.
+Lists:
+

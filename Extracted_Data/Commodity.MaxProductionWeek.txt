@@ -1,0 +1,28 @@
+Header: Commodity Max Production Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum production per week
+
+Paragraphs:
+Commodity Max Production Week
+          creates a Constraint object that
+          limits the Production of the
+          Commodity each week. By default this is a 'hard' constraint. To create
+          a soft constraint, set the Max
+            Production Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Week
+	- Commodity Constraints Production
+              Coefficient
+

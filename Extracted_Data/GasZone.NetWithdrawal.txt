@@ -1,0 +1,15 @@
+Header: Gas Zone Net Withdrawal
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Quantity of gas withdrawn from the storages in the zone after withdrawal fuel loss
+
+Paragraphs:
+Gas Zone Net Withdrawal is the quantity of gas withdrawn from the storages in the zone after withdrawal fuel loss.
+Lists:
+

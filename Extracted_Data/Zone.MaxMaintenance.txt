@@ -1,0 +1,15 @@
+Header: Zone Max Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum generation capacity allowed to be scheduled on maintenance
+
+Paragraphs:
+Zone Max Maintenance is the maximum generation capacity allowed to be scheduled on maintenance by PASA .
+Lists:
+

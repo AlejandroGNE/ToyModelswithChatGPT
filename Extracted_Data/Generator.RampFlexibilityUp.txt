@@ -1,0 +1,22 @@
+Header: Generator Ramp Flexibility Up
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of unused ramp up capability
+
+Paragraphs:
+Generator Ramp Flexibility Up is the amount of unused ramp up capability given the current commitment state :
+
+Other technical constraints are also included, such as the start and shutdown profiles. When the generator is starting or shutting down, it cannot provide any additional ramp up/down capacity.
+
+See also:
+Lists:
+	- Generator Ramp Flexibility Down
+	- Generator Flexibility Up
+	- Constraint Generators Ramp Flexibility Up Coefficient
+

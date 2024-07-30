@@ -1,0 +1,18 @@
+Header: Generator Balance Period
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5,6)
+Key Property:	No
+Description:	Frequency of storage balance
+
+Paragraphs:
+Generator Balance Period is the frequency that heat storage balance equations are enforced. See the topic Storage Balance Period for details.
+
+See also:
+Lists:
+	- Generator Dispatch Period
+

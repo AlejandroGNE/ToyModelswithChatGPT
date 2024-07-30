@@ -1,0 +1,18 @@
+Header: Transmission Convergence Report Level
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Description:	Level of screen reporting during transmission convergence iterations (none, normal, verbose)
+
+Paragraphs:
+Transmission Convergence Report Level controls the level of screen messages are printed during iterations to enforce transmission constraints.  PLEXOS always iterates to enforce transmission limits - so that the very minimum number of such constraints are active in the mathematical program at any time.
+
+This option can take the following values:
+
+By default ("Normal" mode) these iterations report only a single line such as:
+
+If you would like to see details of each limit that is being enforced then set this switch to "Verbose".  A line will then be printed for every limit, showing the current flow level and the limit applied.
+Lists:
+

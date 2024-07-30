@@ -1,0 +1,11 @@
+Header: Model ST Schedule
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	ST Schedule settings for the model
+
+Paragraphs:
+Model ST Schedule is the ST Schedule settings for the Model. ST Schedule runs if-and-only-if this membership exists.
+Lists:
+

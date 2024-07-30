@@ -1,0 +1,15 @@
+Header: Storage Objectives Ramp Coefficient
+
+Table Details:
+Units:	GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in storage end volume
+
+Paragraphs:
+Storage Objectives Ramp Coefficient is Coefficient of change in storage end volume.
+Lists:
+

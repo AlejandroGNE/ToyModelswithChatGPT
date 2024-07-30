@@ -1,0 +1,22 @@
+Header: Abatement Max Abatement Year
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum abatement in a year
+
+Paragraphs:
+Abatement Max Abatement Year sets a maximum abatement in each year in thousands of abatement units.
+
+See also:
+Lists:
+	- Max Abatement
+	- Max Abatement Hour
+	- Max Abatement Day
+	- Max Abatement Week
+	- Max Abatement Month
+

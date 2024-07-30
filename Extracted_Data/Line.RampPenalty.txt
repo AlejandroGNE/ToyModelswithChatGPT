@@ -1,0 +1,23 @@
+Header: Line Ramp Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for changes in flow on the line
+
+Paragraphs:
+Line Ramp Penalty is the penalty for Ramp i.e. changes in Flow on the line. The penalty is applied to changes up or down in flow.
+
+NOTE: In order to represent these penalties in the objective function the flow variables are split into directed arcs i.e. one variable for forward flow and one for backward flow.
+
+See also:
+Lists:
+	- Line Ramp
+	- Line Max Ramp Up
+	- Line Max Ramp Down
+	- Interface Ramp Penalty
+

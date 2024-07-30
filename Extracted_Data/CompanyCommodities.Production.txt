@@ -1,0 +1,15 @@
+Header: Company Commodities Production
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Production of the Commodity
+
+Paragraphs:
+Company Commodities Production is the production of the Commodity.
+Lists:
+

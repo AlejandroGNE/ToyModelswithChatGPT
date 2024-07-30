@@ -1,0 +1,18 @@
+Header: Battery Price Received
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received for generation
+
+Paragraphs:
+Battery Price Received is the price received for generation .
+
+See also:
+Lists:
+	- Price Paid
+

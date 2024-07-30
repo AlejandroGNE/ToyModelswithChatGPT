@@ -1,0 +1,17 @@
+Header: Flow Storage Max Cycles Day
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Number of cycles allowed each day
+
+Paragraphs:
+Flow Storage Max Cycles Day is
+          the number of cycles allowed each
+          day.
+Lists:
+

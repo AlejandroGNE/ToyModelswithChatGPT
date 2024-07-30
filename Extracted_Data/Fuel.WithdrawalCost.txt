@@ -1,0 +1,18 @@
+Header: Fuel Withdrawal Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of withdrawing fuel from stockpile
+
+Paragraphs:
+Fuel Withdrawal Cost is the cost of withdrawing fuel from stockpile and is defined as:
+
+See also:
+Lists:
+	- Fuel Delivery Cost
+

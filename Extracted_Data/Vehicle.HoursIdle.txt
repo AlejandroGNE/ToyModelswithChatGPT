@@ -1,0 +1,25 @@
+Header: Vehicle Hours Idle
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours in idle state
+
+Paragraphs:
+Vehicle Hours Idle is the number of
+          hours a vehicle is neither charging, discharging or in use
+          (travelling).
+
+
+Lists:
+	- Vehicle Hours
+              In Use
+	- Vehicle Hours
+              Charging
+	- Vehicle Hours
+              Discharging
+

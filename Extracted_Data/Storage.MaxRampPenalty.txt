@@ -1,0 +1,15 @@
+Header: Storage Max Ramp Penalty
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the [Max Ramp Day/Week/Month/Year] constraint.
+
+Paragraphs:
+Storage Max Ramp Penalty is penalty for violating the Max Ramp ( Day / Week / Month / Year ) constraints.
+Lists:
+

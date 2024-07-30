@@ -1,0 +1,15 @@
+Header: Generator Min Down Time Penalty
+
+Table Details:
+Units:	$/h (Metric), $/hr (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Penalty for violation of min down time
+
+Paragraphs:
+Generator Min Down Time Penalty is a penalty price for violating the Min Down Time.
+Lists:
+

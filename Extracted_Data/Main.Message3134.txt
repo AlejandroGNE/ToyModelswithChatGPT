@@ -1,0 +1,11 @@
+Header: Message 3134
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Conflict detected on Decision Variable <value> bounds, lower bound = <value>, upper bound = <value>, type = <value>
+
+Paragraphs:
+An error relating to a Decision Variables bounds and/or type, which will lead to an infeasibility, has been detected.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Battery Total Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sum of self discharge, recharge and discharge losses.
+
+Paragraphs:
+Battery Total Losses are the sum of: Battery Self Discharge Losses losses from internal chemical reactions which occur even without grid connection Battery Losses losses from discharging and charging in connection to the grid, for example inverter inefficiencies. See also: Self Discharge Rate Charge Efficiency Discharge Efficiency
+
+See also:
+Lists:
+	- Battery Self Discharge Losses losses from internal chemical reactions which occur even without grid connection
+	- Battery Losses losses from discharging and charging in connection to the grid, for example inverter inefficiencies.
+	- Self Discharge Rate
+	- Charge Efficiency
+	- Discharge Efficiency
+

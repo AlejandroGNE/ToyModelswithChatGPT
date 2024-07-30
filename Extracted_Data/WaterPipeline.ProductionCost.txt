@@ -1,0 +1,15 @@
+Header: Water Pipeline Production Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of extracting water from the pipeline
+
+Paragraphs:
+Water Pipeline Production Cost is Cost of extracting water from the pipeline.
+Lists:
+

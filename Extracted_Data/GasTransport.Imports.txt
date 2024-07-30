@@ -1,0 +1,15 @@
+Header: Gas Transport Imports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas discharged at the import gas node
+
+Paragraphs:
+Gas Transport Imports is the gas discharged at the import gas node.
+Lists:
+

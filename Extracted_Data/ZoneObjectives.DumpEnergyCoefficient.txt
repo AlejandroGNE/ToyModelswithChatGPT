@@ -1,0 +1,15 @@
+Header: Zone Objectives Dump Energy Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of dump energy (over generation)
+
+Paragraphs:
+Zone Objectives Dump Energy Coefficient is Coefficient of dump energy (over generation).
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Generator Head Storage Efficiency Point
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Storage percentage full associated with [Efficiency Scalar]
+
+Paragraphs:
+Generator Head Storage Efficiency Point is used to model the effect of 'head' on hydro generation efficiency. It is the storage percentage full associated with the multi-band Efficiency Scalar . See that topic for details.
+
+See also: Generator Tail Storage Flow Point
+Lists:
+

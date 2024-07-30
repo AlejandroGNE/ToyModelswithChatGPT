@@ -1,0 +1,15 @@
+Header: Reserve Batteries Max Replacement
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum replacement (non-spinning) reserve capability
+
+Paragraphs:
+Reserve Batteries Max Replacement is the maximum replacement (non-spinning) reserve capability.
+Lists:
+

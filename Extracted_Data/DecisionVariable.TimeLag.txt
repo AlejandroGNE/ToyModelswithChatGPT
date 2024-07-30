@@ -1,0 +1,106 @@
+Header: Decision Variable Time Lag
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Time lag for terms in the generic decision variable definition.
+Constraint	Generation(t) Definition	-	Definition for Decision Variable "Generation(t)"
+Constraint	Generation(t-1) Definition	-	Definition for Decision Variable "Generation(t-1)"
+Constraint	Max Ramp Up	-	Constraint on ramp up rate
+Constraint	Max Ramp Down	-	Constraint on ramp down rate
+Decision Variable	Generation(t)	-	Generation in current period
+Decision Variable	Generation(t-1)	-	Generation in previous period
+Generator.Constraints	Generation(t) Definition	Baseload
+Generator.Constraints	Generation(t) Definition	Intermediate
+Generator.Constraints	Generation(t-1) Definition	Baseload
+Generator.Constraints	Generation(t-1) Definition	Intermediate
+Constraint.Decision Variables	Max Ramp Up	Generation(t)
+Constraint.Decision Variables	Max Ramp Up	Generation(t-1)
+Constraint.Decision Variables	Max Ramp Down	Generation(t)
+Constraint.Decision Variables	Max Ramp Down	Generation(t-1)
+Decision Variable.Definition	Generation(t)	Generation(t) Definition
+Decision Variable.Definition	Generation(t-1)	Generation(t-1) Definition
+Decision Variable ( Generation(t) )	Time Lag	0
+Decision Variable ( Generation(t-1) )	Time Lag	1
+Constraint ( Generation(t) Definition )	RHS	0	-	1
+Constraint ( Generation(t-1) Definition )	RHS	0	-	1
+Constraint ( Max Ramp Down )	Sense	1	-	1
+Constraint ( Max Ramp Down )	RHS	-10	-	1
+Constraint ( Max Ramp Up )	Sense	-1	-	1
+Constraint ( Max Ramp Up )	RHS	10	-	1
+Constraint ( Generation(t) Definition ).Generators ( Baseload )	Generation Coefficient	-1	-	1
+Constraint ( Generation(t) Definition ).Generators ( Intermediate )	Generation Coefficient	-1	-	1
+Constraint ( Generation(t-1) Definition ).Generators ( Baseload )	Generation Coefficient	-1	-	1
+Constraint ( Generation(t-1) Definition ).Generators ( Intermediate )	Generation Coefficient	-1	-	1
+Constraint ( Max Ramp Down ).Decision Variables ( Generation(t) )	Value Coefficient	1	-	1
+Constraint ( Max Ramp Down ).Decision Variables ( Generation(t-1) )	Value Coefficient	-1	-	1
+Constraint ( Max Ramp Up ).Decision Variables ( Generation(t) )	Value Coefficient	1	-	1
+Constraint ( Max Ramp Up ).Decision Variables ( Generation(t-1) )	Value Coefficient	-1	-	1
+
+Paragraphs:
+Decision Variable Time Lag allows you to define a decision variable that corresponds to variables in the simulation in a previous/next time period. For example you might want to define a variable that represents the Generation of a Generator in the simulation period immediate preceding the current period. In this case the Time Lag would be set to one.
+
+When the Time Lag is negative, the definition constraints in the last few periods are freed as they involve variables in the next simulation step. Accordingly, the decision variables corresponding to these periods are not constrained but their values can be set via the lower/upper bound properties.
+
+Another way to realize the negative Time Lag constraints is by introducing some positive Time Lag decision variables and moving the constraints involving future variables to the next optimization step. However, we should not break the links between steps and the first few constraints in the first simulation step involving these decision variables might cause infeasibility which, however, can be solved by freeing these constraints by setting both the constraint sense and RHS.
+
+It is important to understand that Time Lag only works when you use a Definition Constraint and does not apply when you refer to the Decision Variable via the Constraint Decision Variables Value Coefficient .
+
+Thus the method for defining a Time Lag is:
+
+You may then refer to this time-lagged Decision Variable in other Constraint objects with the Constraint Decision Variables Value Coefficient .
+
+Note
+
+Time Lag can be applied to the following coefficients:
+
+Constraint Generators
+
+Constraint Storages
+
+Constraint Waterways
+
+Constraint Fuels
+
+Constraint Reserves
+
+Constraint Decision Variables
+
+Constraint Gas Plants
+
+Constraint Water Plants
+
+In the following example we define a ramp constraint across two generators "Baseload" and "Intermediate" of 10 MW in any period. The objects defined are:
+
+The memberships are:
+
+The attributes are:
+
+The properties are:
+
+This produces equations like the following:
+
+Note that we have also set Generator Initial Generation for "Baseload" of 40 and "Intermediate" of zero, which is necessary when using time-lagged coefficients.
+Lists:
+	- Create a Constraint object to act as the definition for the Decision Variable (and will apply the Time Lag)
+	- Add that Constraint to the Decision Variable Definition collection
+	- Now any coefficient you set in this Constraint will be time lagged appropriately.
+	- Decision Variable's with Time Lag defined will be excluded from any non-chronological simulation phases.
+	- When different interval resolution is applied to look ahead periods, the time-lagged variable definition would be incorrect.
+	- Generation Coefficient
+	- Units Generating Coefficient
+	- Units Pumping Coefficient
+	- Units Started Coefficient
+	- Pump Units Started Coefficient
+	- Units Shutdown Coefficient
+	- End Volume Coefficient
+	- Release Coefficient
+	- Flow Coefficient
+	- Offtake Coefficient
+	- Provision Coefficient
+	- Value Coefficient
+	- Gas Plant Production Coefficient
+	- Water Plant Production Coefficient
+	- Water Plant Units Operating Coefficient
+

@@ -1,0 +1,16 @@
+Header: Flow Path Min Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum time to repair
+
+Paragraphs:
+See Facility Min
+            Time to Repair for details.
+Lists:
+

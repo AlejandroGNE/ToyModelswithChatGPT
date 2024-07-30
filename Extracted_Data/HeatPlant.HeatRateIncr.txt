@@ -1,0 +1,15 @@
+Header: Heat Plant Heat Rate Incr
+
+Table Details:
+Units:	GJ/GJ (Metric), MMBtu/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	First-order polynomial term in unit fuel use function (marginal heat rate)
+
+Paragraphs:
+The derivative of the heat plant's heat function - see Heat Rate Functions .
+Lists:
+

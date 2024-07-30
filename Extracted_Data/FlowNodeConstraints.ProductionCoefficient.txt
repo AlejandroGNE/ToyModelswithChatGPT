@@ -1,0 +1,23 @@
+Header: Flow Node Constraints Production Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Commodity production at the Flow Node in the Constraint
+
+Paragraphs:
+Flow Node Constraints Production Coefficient is the left-hand side coefficient
+          of the Production in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Flow
+            Node Production ... {≤, ≥, =} b j
+Lists:
+

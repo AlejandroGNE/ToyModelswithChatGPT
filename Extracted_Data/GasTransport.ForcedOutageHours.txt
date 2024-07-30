@@ -1,0 +1,17 @@
+Header: Gas Transport Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas transport is on forced outage
+
+Paragraphs:
+Gas Transport Forced Outage Hours is
+          the number of hours the Gas Transport is on Forced
+            Outage in the reporting period.
+Lists:
+

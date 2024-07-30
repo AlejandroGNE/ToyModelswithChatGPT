@@ -1,0 +1,15 @@
+Header: Transformer Max Time To Repair
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum time to repair (hr)
+
+Paragraphs:
+Transformer Max Time To Repair is the transformer equivalent of Generator Max Time to Repair .
+Lists:
+

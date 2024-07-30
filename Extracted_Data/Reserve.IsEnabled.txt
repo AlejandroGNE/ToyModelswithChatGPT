@@ -1,0 +1,27 @@
+Header: Reserve Is Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	Yes
+Description:	Flag if the reserve is enabled
+Spin Down	Type	Lower		
+Spin Down	Is Enabled	0	Yes/No	
+Spin Down	Is Enabled	-1	Yes/No	Include Spin Down
+
+Paragraphs:
+Reserve Is Enabled toggles on/off the reserve service.
+
+Example:
+
+In this example the Reserve "Spin Down" is included in the simulation only when the Scenario "Include Spin Down" is part of the running Model Scenarios .
+
+See also:
+Lists:
+	- Reserve Include in LT Plan
+	- Reserve Include in MT Schedule
+	- Reserve Include in ST Schedule
+

@@ -1,0 +1,19 @@
+Header: Line Limit Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for exceeding the flow limits on the line
+
+Paragraphs:
+Line Limit Penalty defines the penalty cost for exceeding the thermal limit of the line as defined by Max Flow / Max Rating (reference direction) and Min Flow / Min Rating (counter reference direction). Thus this property makes the thermal limit a 'soft constraint' that will be violated if the cost of violation is less than the production cost savings that would result.
+
+The amount of violation is reported as Violation and the cost incurred as Violation Cost .
+
+Note: - Setting a value of zero for Limit Penalty means that the flow are allowed to violate the limits without incurring any violation cost.- Limit penalty is currently not considered in LT plan for expansion candidate.
+Lists:
+

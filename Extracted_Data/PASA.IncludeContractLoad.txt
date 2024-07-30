@@ -1,0 +1,17 @@
+Header: PASA Include Contract Load
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Include physical contract load capacity in PASA
+
+Paragraphs:
+PASA Include Contract Load toggles on/off inclusion of Physical Contract Load Obligation in the calculation of Region Capacity Reserves and Compute Reliability Indices .
+
+See also:
+Lists:
+	- PASA Include Contract Generation
+	- PASA Include Demand Bids
+	- PASA Include DSP
+

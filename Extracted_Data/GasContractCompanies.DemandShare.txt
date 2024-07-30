@@ -1,0 +1,15 @@
+Header: Gas Contract Companies Demand Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Supply provided to the company based on the company gas demand
+
+Paragraphs:
+Gas Contract Companies Demand Share is the Supply provided to the company based on the company gas demand.
+Lists:
+

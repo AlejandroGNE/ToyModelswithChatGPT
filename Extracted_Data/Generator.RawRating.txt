@@ -1,0 +1,15 @@
+Header: Generator Raw Rating
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Rated output capacity of units without considering outages or degradation
+
+Paragraphs:
+See also Rating .
+Lists:
+

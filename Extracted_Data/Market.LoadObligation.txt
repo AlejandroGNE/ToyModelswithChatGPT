@@ -1,0 +1,27 @@
+Header: Market Load Obligation
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contribution of the market sales to the load obligation for capacity reserves.
+Sale	Price	0	-	1				Market Price
+Sale	Max Sales	100	-	1				
+Sale	Max Purchases	0	-	1				
+Sale	Firm Capacity	0	MW	1				
+Sale	Load Obligation	50	MW	1				
+
+Paragraphs:
+Market Load Obligation is the assumed contribution of the market sales to 'load' for capacity reserves calculations in LT Plan . By default the Max Sales is an assumed 'obligation' and counted as an 'export' in the Region Net Capacity Interchange . You may override this by setting Load Obligation directly.
+
+Example
+
+In the following example the Max Sales is 100 MW, but only 50 MW need be counted as an 'obligation' for capacity calculations.
+
+See also:
+Lists:
+	- Market Firm Capacity
+

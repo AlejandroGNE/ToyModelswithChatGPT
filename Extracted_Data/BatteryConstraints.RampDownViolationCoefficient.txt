@@ -1,0 +1,15 @@
+Header: Battery Constraints Ramp Down Violation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of max ramp down violation
+
+Paragraphs:
+Battery Constraints Ramp Down Violation Coefficient is Coefficient of max ramp down violation.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Emission Gas Nodes Production Rate
+
+Table Details:
+Units:	kg/~ (Metric), lb/~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per unit of fuel processed
+
+Paragraphs:
+Emission Gas Nodes Production Rate is Emissions produced per unit of fuel processed.
+Lists:
+

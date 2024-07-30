@@ -1,0 +1,18 @@
+Header: Flow Path Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Flow Path is in service
+
+Paragraphs:
+Flow Path Units is the (0,1) flag
+          indicating if the Flow Path 'exists'.
+
+Refer to Facility Units for details.
+Lists:
+

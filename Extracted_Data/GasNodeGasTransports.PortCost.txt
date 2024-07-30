@@ -1,0 +1,15 @@
+Header: Gas Node Gas Transports Port Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of using port by gas transport
+
+Paragraphs:
+Gas Node Gas Transports Port Cost is the cost of using the port by the gas transport.
+Lists:
+

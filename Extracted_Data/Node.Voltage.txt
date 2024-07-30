@@ -1,0 +1,17 @@
+Header: Node Voltage
+
+Table Details:
+Units:	kV
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Voltage
+
+Paragraphs:
+Node Voltage is not actively used in the simulation but is used to categorize the bus when deciding what voltage threshold branch limits are enforced over.
+
+If the voltage is omitted, a value of zero is assumed. This does not affect the power flow, it simply categorizes the node at that level. Note that categorization of AC lines by voltage is according to the voltages of the buses they connect, thus the bus voltage provides crucial information for the OPF .
+Lists:
+

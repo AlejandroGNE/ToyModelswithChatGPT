@@ -1,0 +1,23 @@
+Header: Zone Constraints Load Squared Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the square of zone load
+
+Paragraphs:
+Zone Constraints Load Squared Coefficient is the left-hand side coefficient on the
+          square of the input Zone Load in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+See also:
+Lists:
+	- Region Constraints Load Squared
+              Coefficient
+

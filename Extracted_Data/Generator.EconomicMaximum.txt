@@ -1,0 +1,15 @@
+Header: Generator Economic Maximum
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Unit maximum generation economically available
+
+Paragraphs:
+Generator Economic Maximum is a soft upper limit on Generation which might represent the top of the 'normal' unit operating range, with generation between this level and Max Capacity being reserved for ancillary (raise) services or times of high electric demand.  Generation above Economic Maximum is automatically priced relative to the Region Price Cap according to Competition Epsilon . This price level ensures that the generation will be dispatched before Unserved Energy .
+Lists:
+

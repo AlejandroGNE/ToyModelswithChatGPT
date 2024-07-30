@@ -1,0 +1,15 @@
+Header: Water Plant Capacity Built
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Water plant capacity Built
+
+Paragraphs:
+Water Plant Capacity Built is Water plant capacity Built.
+Lists:
+

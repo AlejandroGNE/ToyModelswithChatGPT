@@ -1,0 +1,19 @@
+Header: Battery Initial Age
+
+Table Details:
+Units:	cycles
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Age of the battery in number of cycles at the start of the simulation horizon
+
+Paragraphs:
+Battery Initial Age is the average age of each battery unit at the start of the horizon, as measured in the number of cycles already completed. The battery will continue to Age as it accumulates more cycles and this ageing can be linked to Power Degradation and Capacity Degradation .
+
+Examples with a 1% rate of Capacity Degradation and a 4MWh unit Capacity : One unit, initial age of 15 cycles: the starting station-wide capacity is 3.4MWh Two units, initial age of 15 cycles: the starting station-wide capacity is 6.8MWh (each unit has lost 15% of its undegraded capacity).
+Lists:
+	- One unit, initial age of 15 cycles: the starting station-wide capacity is 3.4MWh
+	- Two units, initial age of 15 cycles: the starting station-wide capacity is 6.8MWh (each unit has lost 15% of its undegraded capacity).
+

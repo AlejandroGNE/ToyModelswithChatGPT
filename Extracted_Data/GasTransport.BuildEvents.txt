@@ -1,0 +1,19 @@
+Header: Gas Transport Build Events
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of build events
+
+Paragraphs:
+Gas Transport Build Events is the number of build events.
+
+See also:
+Lists:
+	- Gas Transport Expansion 
+                Max Volume
+

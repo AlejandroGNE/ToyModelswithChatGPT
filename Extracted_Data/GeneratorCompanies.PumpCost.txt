@@ -1,0 +1,15 @@
+Header: Generator Companies Pump Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Pool cost
+
+Paragraphs:
+Generator Generator Companies Pump Cost is defined as:
+Lists:
+

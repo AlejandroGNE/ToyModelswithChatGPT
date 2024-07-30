@@ -1,0 +1,18 @@
+Header: RSI Min Lerner Index
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Lower bound on Lerner Index
+
+Paragraphs:
+RSI Min Lerner Index defines an lower bound on the calculated Lerner Index .
+
+See also:
+Lists:
+	- RSI Max Lerner Index
+

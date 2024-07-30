@@ -1,0 +1,11 @@
+Header: Generator Heat Output Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of heat nodes collecting waste heat from the generator
+
+Paragraphs:
+Generator Heat Output Nodes is the collection of Heat Nodes that the generator connects and supplies heat to. A generator can connect to many heat nodes. Participation factor can be used to split the proportion of heat production to different heat nodes.
+Lists:
+

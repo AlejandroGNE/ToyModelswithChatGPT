@@ -1,0 +1,15 @@
+Header: Region Battery Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Charging load from batteries
+
+Paragraphs:
+Region Battery Load is Charging load from batteries.
+Lists:
+

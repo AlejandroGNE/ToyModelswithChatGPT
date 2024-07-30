@@ -1,0 +1,21 @@
+Header: Region Internal VoLL Level
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Level of unserved energy VoLL applies to
+1	1000	10000
+2	2000	20000
+
+Paragraphs:
+This parameter can be paired with Internal VoLL to create VoLL as a function of lost load.
+          Please note that it is not mandatory to specify internal VoLL level. An extra band is automatically created after the last specified band to capture unserved energy levels up to infinity.
+
+Example: In the example below, we have 2 bands of unserved energy along with their value of lost load. Region VoLL of $2000/MWh is used if unserved energy is 
+          greater than 10000 MWh, otherwise VoLL of $1000/MWh is used.
+Lists:
+

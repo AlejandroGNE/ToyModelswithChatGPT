@@ -1,0 +1,20 @@
+Header: Region Uplift
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Uplift to uniform price due to no load cost and start costs
+
+Paragraphs:
+Region Uplift is an adder to the Shadow Price that is intended to recover no-load cost and Start & Shutdown Cost .
+
+Uplift is only computed when the Uplift Enabled setting is toggled 'on'. The method used is controlled by the Uplift Compatibility setting. For more details about the uplift methods and its parameters refer to the Uplift article.
+
+See also:
+Lists:
+	- Region Include in Uplift
+

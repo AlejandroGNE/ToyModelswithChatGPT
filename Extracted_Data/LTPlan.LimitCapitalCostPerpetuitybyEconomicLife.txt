@@ -1,0 +1,16 @@
+Header: LT Plan Limit Capital Cost Perpetuity by Economic Life
+
+Table Details:
+Units:	-
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	With perpetuity end effect, if annuity calculation should extend beyond the end of the horizon up to the Economic Life
+
+Paragraphs:
+LT Plan Limit Capital Cost Perpetuity by Economic Life controls how annuities are calculated when the Perpetuity End Effects Method is selected. This setting can take the following values:
+
+Annuity calculation for capital cost extends beyond the end of the horizon, but the term of annuity is limited by the Economic Life.
+
+The perpetuity logic applies to annuities.
+Lists:
+

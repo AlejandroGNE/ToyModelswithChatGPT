@@ -1,0 +1,20 @@
+Header: Variable Include in PASA
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the condition is allowed to be active in the PASA phase.
+
+Paragraphs:
+Variable Include in PASA decides if the condition is allowed to be active in the PASA phase. See Include in ST Schedule for examples.
+
+See also:
+Lists:
+	- Variable Include in LT Plan
+	- Variable Include in MT Schedule
+	- Variable Include in ST Schedule
+

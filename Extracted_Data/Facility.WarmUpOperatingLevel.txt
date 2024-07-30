@@ -1,0 +1,17 @@
+Header: Facility Warm Up Operating Level
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Unit operating level when in the warm up period
+
+Paragraphs:
+Facility Warm Up Operating Level
+          is the operating level of the Warm
+            Up Process when in the warm up period. See Warm Up Time for details.
+Lists:
+

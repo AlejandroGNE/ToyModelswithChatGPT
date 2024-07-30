@@ -1,0 +1,15 @@
+Header: Financial Contract Hours Active
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Financial Contract is active.
+
+Paragraphs:
+Financial Contract Hours Active is the number of hours the contract is active in the period. This applies only to contracts that have been associated with one or more Variables .
+Lists:
+

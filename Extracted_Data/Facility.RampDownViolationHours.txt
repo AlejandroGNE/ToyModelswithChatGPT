@@ -1,0 +1,23 @@
+Header: Facility Ramp Down Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of [Max Ramp Down] violation
+
+Paragraphs:
+Facility Ramp Down Violation Hours
+          is the number of hours that the Max
+            Ramp Down constraint is violated.
+
+See also:
+Lists:
+	- Facility Ramp
+              Down Violation
+	- Facility Ramp
+              Down Violation Cost
+

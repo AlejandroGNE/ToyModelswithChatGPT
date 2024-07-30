@@ -1,0 +1,20 @@
+Header: Zone Units
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1)
+Key Property:	Yes
+Description:	Flag if the Zone is in service
+
+Paragraphs:
+Zone Units is a flag that indicates if the zone is included in the simulation or not (a zero value means that it is not included).  The setting can have a Scenario applied.
+
+The Node objects associated with the excluded zones are preserved and only the Zone is removed.
+
+See also:
+Lists:
+	- Region Units
+

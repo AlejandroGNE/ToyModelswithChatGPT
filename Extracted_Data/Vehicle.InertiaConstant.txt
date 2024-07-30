@@ -1,0 +1,20 @@
+Header: Vehicle Inertia Constant
+
+Table Details:
+Units:	s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Stored energy per unit of power
+
+Paragraphs:
+Vehicle Inertia Constant is the
+          equivalent inertia provided by the
+          vehicle when connected to a charging station for each unit of charging and discharging .
+
+See Generator Inertia
+            Constant .
+Lists:
+

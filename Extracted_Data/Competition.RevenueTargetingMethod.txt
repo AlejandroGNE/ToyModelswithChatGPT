@@ -1,0 +1,16 @@
+Header: Competition Revenue Targeting Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2)
+Description:	Method used in adjusting offers to meet revenue targets.
+
+Paragraphs:
+Competition Revenue Targeting Method applies to both the LRMC Recovery and Nash-Cournot games, and controls what scope the revenue targeting algorithm has each bidding round in changing generator markups. It can take the following values:
+
+Markup is increased when Company Net Profit is negative, and decreased if it is positive.
+
+Generally this option is set to "Increment Only", but if you are modelling a emission constrained case you might want high emitters to actually decrease their plant bids in order to overcome the marginal penalty of emissions.
+Lists:
+

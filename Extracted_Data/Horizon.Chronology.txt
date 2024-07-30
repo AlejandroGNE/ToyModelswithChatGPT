@@ -1,0 +1,16 @@
+Header: Horizon Chronology
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Type of chronology used
+
+Paragraphs:
+Horizon ST Schedule Chronology selects between these options:
+
+Full Chronology (value = 0)
+
+Typical Week (value = 1)
+Lists:
+

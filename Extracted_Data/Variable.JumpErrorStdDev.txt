@@ -1,0 +1,15 @@
+Header: Variable Jump Error Std Dev
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Percentage standard deviation of jump magnitude errors
+
+Paragraphs:
+Variable Jump Error Std Dev is the percentage standard deviation of Variable Jump Magnitude errors.
+Lists:
+

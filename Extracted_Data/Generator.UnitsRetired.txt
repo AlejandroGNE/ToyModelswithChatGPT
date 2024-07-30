@@ -1,0 +1,21 @@
+Header: Generator Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units retired
+
+Paragraphs:
+Generator Units Retired is the
+          umber of units retired.
+
+See also:
+Lists:
+	- Generator Units
+	- Generator Max
+              Units Retired
+

@@ -1,0 +1,14 @@
+Header: Decision Variable Time Invariant
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2,3)
+Description:	Controls which aspects of the generic decision variable represent time-invariant values.
+
+Paragraphs:
+Decision Variable Time Invariant controls whether or not the generic decision variable represents a time-invariant value and which aspects of the variable are time invariant. This setting affects how the Lower Bound , Upper Bound and Objective Function Coefficient are interpreted in simulations where Horizon Periods per Day is non-hourly and also in simulation phases such as MT Schedule when intervals are combined together into multi-hour blocks.
+
+The setting can take one of these values:
+Lists:
+

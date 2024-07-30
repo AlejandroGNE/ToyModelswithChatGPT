@@ -1,0 +1,15 @@
+Header: Flow Network Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of Market sales
+
+Paragraphs:
+Flow Network Revenue is Value of Market sales.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Market Purchases
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Purchases from the market
+
+Paragraphs:
+Market Purchases is the volume bought from the market.
+Lists:
+

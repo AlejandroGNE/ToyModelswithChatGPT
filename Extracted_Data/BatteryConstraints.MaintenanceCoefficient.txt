@@ -1,0 +1,20 @@
+Header: Battery Constraints Maintenance Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity on maintenance
+
+Paragraphs:
+Battery Constraints Maintenance Coefficient is the coefficient of capacity on maintenance.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Reserve Generators Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Reserve offer price in offer band
+
+Paragraphs:
+Reserve Reserve Generators Offer Price defines the price (premium) for provision of reserves by the generator. The quantity part of the offer is defined with Offer Quantity .
+
+Note that by default the provision of reserve by the generator is 'priced' at opportunity cost, thus this offer price acts as a premium to that opportunity cost.
+Lists:
+

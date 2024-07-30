@@ -1,0 +1,20 @@
+Header: Zone Available Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity Reserves based on Available Capacity
+
+Paragraphs:
+Zone Available Capacity Reserves is Capacity Reserves based on Available Capacity.
+
+See also:
+Lists:
+	- Region Available Capacity Margin
+	- Region Available Capacity Reserves
+	- Zone Available Capacity Margin
+

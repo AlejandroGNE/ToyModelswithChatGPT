@@ -1,0 +1,77 @@
+Header: Generator Commit
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	≥-1
+Key Property:	No
+Description:	Number of units that should be committed
+B1	Units	1	-	
+B1	Commit	1	-	
+B2	Units	1	-	
+B2	Commit	1	-	PEAK
+B2	Commit	0	-	OFF-PEAK
+B3	Units	1	-	
+B3	Commit	1	-	PEAK
+B3	Commit	-1	-	OFF-PEAK
+B4	Units	4	-	
+B4	Commit	4	-	PEAK
+B4	Must Run Units	2	-	WEEKDAY
+B4	Commit	-1	-	WEEKEND
+
+Paragraphs:
+Generator Commit predetermines or
+          'hardwires' the unit commitment either in all periods or selected
+          periods. Commit specifies the number of units that (if available)
+          should be committed. A value of -1 for any period means the unit
+          commitment is to be optimized in the usual way. It is acceptable to
+          mix -1 with non-negative values if you wish to set the commitment
+          pattern only in certain time periods.
+
+As with any property its value can change by date and pattern and
+          scenario, and even be read from a flat text file. Note that any
+          non-negative value of Commit is hard constraint e.g. a value of zero
+          means no units are allowed to be committed. If you want to set a
+          minimum unit commitment instead of a fixed commitment, use the Must
+            Run Units property, as in Table 1.
+
+Generators with the Commit property defined require less unit
+          commitment overhead in the optimization. This provides the simulation
+          with a significant computational boost, and hence it is desirable to
+          set this for all 'baseload' generators, or other generators with fixed
+          or semi-fixed commitment schedules. Commit is ignored when a unit is
+          out of service so there is no need to account for outages when
+          defining the property. Note however that Commit overrides other
+          constraints such as Min Down
+            Time and Min Up Time i.e. if you define Commit = 1 a unit will be committed if available
+          regardless of whether or not Min
+            Down Time gets violated and vice versa for Min
+            Up Time .
+
+The most common use for Commit is for baseload generators, where one
+          would set Commit equal to the number of units i.e. commit
+          the unit is it is available. Another application is with intermediate
+          type units who might commit during certain hours e.g. peak
+          periods, but be either off during off-peak, or freely optimize their
+          commitment in those other periods.
+
+In these examples:
+
+See also:
+
+
+Lists:
+	- The single unit at "B1" will be committed in any hour it is
+            available.
+	- The single unit at "B2" will be committed in all peak hours and
+            off in all off-peak hours.
+	- The single unit at "B3" will be committed in all peak hours, and
+            available for economic commitment outside of those hours.
+	- All four units at "B4" will be committed on in peak periods, and
+            in weekdays there will be at least two units committed, with
+            commitment outside those periods freely optimized.
+	- Generator Fixed
+              Load
+

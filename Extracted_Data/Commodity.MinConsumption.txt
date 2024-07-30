@@ -1,0 +1,27 @@
+Header: Commodity Min Consumption
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum consumption per interval
+
+Paragraphs:
+Commodity Min Consumption creates
+          a Constraint object that forces
+          the Consumption of the
+          Commodity each interval. By default this is a 'hard' constraint. To
+          create a soft constraint, set the Min
+            Consumption Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+	- Commodity Constraints Consumption
+              Coefficient
+

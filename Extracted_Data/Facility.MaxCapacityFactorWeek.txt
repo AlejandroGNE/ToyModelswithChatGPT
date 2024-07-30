@@ -1,0 +1,28 @@
+Header: Facility Max Capacity Factor Week
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Maximum capacity factor in week
+
+Paragraphs:
+Facility Max Capacity Factor Week
+          sets an upper bound on the facility's Capacity
+            Factor in each week of the simulation. See Max
+            Capacity Factor for more details.
+
+See also:
+Lists:
+	- Facility Max
+              Capacity Factor Hour
+	- Facility Max
+              Capacity Factor Day
+	- Facility Max
+              Capacity Factor Month
+	- Facility Max
+              Capacity Factor Year
+

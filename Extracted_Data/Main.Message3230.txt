@@ -1,0 +1,11 @@
+Header: Message 3230
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <value> defines [<value>] for Vehicle <value>. Vehicle Max Discharge Rate is zero or does not formulate storage (simple model). Coefficient will be ignored.
+
+Paragraphs:
+Message 3230 occurs in the following circumstances:
+Lists:
+

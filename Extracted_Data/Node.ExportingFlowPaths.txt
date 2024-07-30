@@ -1,0 +1,11 @@
+Header: Node Exporting Flow Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of flow paths exporting from the node
+
+Paragraphs:
+Node Exporting Flow Paths is set of flow paths exporting from the node
+Lists:
+

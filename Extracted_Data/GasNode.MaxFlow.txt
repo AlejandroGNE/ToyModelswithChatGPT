@@ -1,0 +1,27 @@
+Header: Gas Node Max Flow
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum flow through the gas node
+
+Paragraphs:
+Gas Node Max Flow is the maximum flow allowed through the Gas Node in any simulation interval. For a Gas Node to be an expansion candidate, the Max Flow must be defined.
+
+If you need to set limits over other time frames use one of the following:
+
+See also:
+
+Note: For a Gas Node to be an expansion candidate, the Max Flow must be defined.
+Lists:
+	- Gas Node Max Flow Hour
+	- Gas Node Max Flow Day
+	- Gas Node Max Flow Week
+	- Gas Node Max Flow Month
+	- Gas Node Max Flow Year
+	- Gas Node Flow Charge
+

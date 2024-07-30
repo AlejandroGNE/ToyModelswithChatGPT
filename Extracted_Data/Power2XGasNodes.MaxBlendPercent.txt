@@ -1,0 +1,15 @@
+Header: Power2X Gas Nodes Max Blend Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum percentage of the gas produced by Power2X in the blend
+
+Paragraphs:
+Power2X Gas Nodes Max Blend Percent is the maximum percentage of the gas produced by Power2X in the blend.
+Lists:
+

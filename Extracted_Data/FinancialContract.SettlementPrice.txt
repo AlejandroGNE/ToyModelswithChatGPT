@@ -1,0 +1,15 @@
+Header: Financial Contract Settlement Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price the contract is settled at
+
+Paragraphs:
+Financial Contract Settlement Price is the actual price that the contract is settled on. How this is computed depends on the setting of Market Pool Type :
+Lists:
+

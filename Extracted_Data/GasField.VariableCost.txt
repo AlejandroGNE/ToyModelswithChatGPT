@@ -1,0 +1,17 @@
+Header: Gas Field Variable Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Variable operation and maintenance cost
+
+Paragraphs:
+Gas Field Variable Cost is Variable operation and maintenance cost.
+
+Variable Cost = Production Cost + Carrying Cost + Inventory Cost + Recovered Capital Cost
+Lists:
+

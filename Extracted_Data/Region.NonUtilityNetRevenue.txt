@@ -1,0 +1,18 @@
+Header: Region Non-Utility Net Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-utility generator net revenue (producer surplus)
+
+Paragraphs:
+Region Non Utility Net Revenue is the Generator Net Revenue for Companies in the Region that are not identified as Utilities . This property is provided for use in the RSI mark-up model. The property calculated as:
+
+See also:
+Lists:
+	- Region Utility Net Revenue
+

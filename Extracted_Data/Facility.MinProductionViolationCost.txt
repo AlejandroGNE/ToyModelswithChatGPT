@@ -1,0 +1,22 @@
+Header: Facility Min Production Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Min Operating Level] violations
+
+Paragraphs:
+Facility Min Production Violation
+          Cost is the cost incurred for violations of the Min
+            Production or Min
+            Capacity Factor constraints, and is defined as:
+
+Min Production Violation Cost = Min
+            Production Violation × Min
+            Production Penalty
+Lists:
+

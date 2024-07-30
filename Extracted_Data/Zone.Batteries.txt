@@ -1,0 +1,11 @@
+Header: Zone Batteries
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Batteries is the zone to which the batteries belong in.
+Lists:
+

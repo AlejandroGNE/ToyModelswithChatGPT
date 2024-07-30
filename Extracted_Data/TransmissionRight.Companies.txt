@@ -1,0 +1,11 @@
+Header: Transmission Right Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	companies that own the transmission right
+
+Paragraphs:
+Transmission Right Companies is the set of companies that own the transmission right. The share of ownership is set by the Share property.
+Lists:
+

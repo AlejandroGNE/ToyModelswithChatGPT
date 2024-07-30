@@ -1,0 +1,19 @@
+Header: Region Min Native Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity reserves supplied only by sources in the Region
+
+Paragraphs:
+Region Min Native Capacity Reserves is the minimum capacity reserves supplied only by sources in the Region i.e. excluding Capacity Interchange .
+
+See also:
+Lists:
+	- Region Min Native Capacity Reserve Margin
+	- Region Min Capacity Reserves
+

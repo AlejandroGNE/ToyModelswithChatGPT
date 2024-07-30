@@ -1,0 +1,15 @@
+Header: Gas Plant Run Up Rate
+
+Table Details:
+Units:	~/min
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ramp rate that applies while increasing gas production from zero to [Min Stable Level].
+
+Paragraphs:
+Gas Plant Run Up Rate is Ramp rate that applies while increasing gas production from zero to [Min Stable Level]..
+Lists:
+

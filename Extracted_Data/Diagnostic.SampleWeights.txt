@@ -1,0 +1,12 @@
+Header: Diagnostic Sample Weights
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for the sample weights
+
+Paragraphs:
+Diagnostic Sample Weights reports the weights of each sample
+Lists:
+

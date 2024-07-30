@@ -1,0 +1,15 @@
+Header: Constraint Hours Binding
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Constraint is binding.
+
+Paragraphs:
+Constraint Hours Binding is the number of hours the Price (shadow price of the constraint) is non-zero. This applies to all period types of constraint.
+Lists:
+

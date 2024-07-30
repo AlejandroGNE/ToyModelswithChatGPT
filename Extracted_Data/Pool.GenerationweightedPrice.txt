@@ -1,0 +1,15 @@
+Header: Pool Generation-weighted Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation-weighted average price
+
+Paragraphs:
+Pool Generation-weighted Price is the average price paid to generators in the pool, and is defined as:
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Region Regions Max Flow
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum flow allowed between the regions
+
+Paragraphs:
+Region Regions Max Flow is Maximum flow allowed between the regions.
+
+Region Regions Max Flow A->B = ∑ Export Line Flow A->B - ∑
+          Import Line Flow B->A
+
+The max flow constraint is always formulated upfront.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Pool Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost to load of their energy purchases
+
+Paragraphs:
+Pool Cost to Load is the sum of Cost to Load across all regions in the Pool.
+Lists:
+

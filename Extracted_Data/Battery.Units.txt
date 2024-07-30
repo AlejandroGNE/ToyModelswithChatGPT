@@ -1,0 +1,27 @@
+Header: Battery Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of BESS units installed
+New Battery	Units	2	-
+New Battery	Capacity	2	MWh
+New Battery	Max Power	10	MW
+
+Paragraphs:
+Battery Units is the number of BESS units installed.
+
+In a BESS system the Units property directly affects the Capacity and Max Power properties.  Each unit built acts as an incremental increase in these property values.
+
+Example:
+
+This would result in a battery energy storage system that has a total Capacity of 4 MWh and a Max Power output of 20 MW.
+
+See similar example:
+Lists:
+	- Generator Units
+

@@ -1,0 +1,11 @@
+Header: Message 3150
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Unable to formulate constraints for Base Gas Capacity Release Offer <name> for <value> phase. Release type will be treated as swing for the current phase.
+
+Paragraphs:
+Message 3150 occurs in the following circumstances:
+Lists:
+

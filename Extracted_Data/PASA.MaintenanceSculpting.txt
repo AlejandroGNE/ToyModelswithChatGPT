@@ -1,0 +1,17 @@
+Header: PASA Maintenance Sculpting
+
+Table Details:
+Units:	%
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Description:	Level of sculpting of maintenance outages: Higher sculpting means outages are more concentrated in high reserve periods
+
+Paragraphs:
+PASA Maintenance Sculpting controls the calculation of Maintenance Factor by the PASA algorithm. Higher values result in a greater bias towards periods of high capacity reserves .  The default value allows some maintenance outages to occur outside of high-reserve periods.
+
+Note that the PASA Maintenance Sculpting will also be used in the calculation of Maintenance Factor by the LT Plan algorithm.
+
+See also:
+Lists:
+	- LT Plan Maintenance Sculpting
+

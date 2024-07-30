@@ -1,0 +1,15 @@
+Header: Gas Plant Consumption
+
+Table Details:
+Units:	Input: 1000·~ (Metric), ~ (U.S. Imperial)    Output: GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The amount of pipeline quality gas consumed in processing
+
+Paragraphs:
+Gas Plant Consumption is The amount of pipeline quality gas consumed in processing.
+Lists:
+

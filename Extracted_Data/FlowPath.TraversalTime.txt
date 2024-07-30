@@ -1,0 +1,20 @@
+Header: Flow Path Traversal Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Time taken for flows to traverse the Flow Path
+
+Paragraphs:
+Flow Path Traversal Time is time
+                taken for flows to traverse the Flow Path.
+
+See also:
+Lists:
+	- Flow Path Initial Flow
+	- Flow Path Initial Flow Delay
+

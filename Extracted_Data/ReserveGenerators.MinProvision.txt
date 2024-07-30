@@ -1,0 +1,21 @@
+Header: Reserve Generators Min Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum reserve provision when generator is available
+
+Paragraphs:
+Reserve Generators Min Provision defines an amount of reserve provision that must be provided by the generator. The following constraint is added to the mathematical programming problem:
+
+This limit applies regardless of whether or not the unit is generating and thus captures provision from spinning and non-spinning reserves. Note that if the generator has no Available Capacity the limit is relaxed.
+
+See also:
+Lists:
+	- Reserve Generators Min Spinning Provision
+	- Reserve Generators Min Regulation Provision
+

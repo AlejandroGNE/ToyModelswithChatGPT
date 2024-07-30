@@ -1,0 +1,24 @@
+Header: Battery Commodities Consumed Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity consumed per unit of load
+
+Paragraphs:
+Battery Commodities
+            Consumed Pump Load Coefficient is the amount of the Commodity consumed per unit of Load .
+
+See also:
+Lists:
+	- Battery Commodities
+              Consumed Generation
+              Coefficient
+	- Battery Commodities
+              Produced Load
+              Coefficient
+

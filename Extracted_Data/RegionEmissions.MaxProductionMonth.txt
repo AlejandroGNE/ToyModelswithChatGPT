@@ -1,0 +1,15 @@
+Header: Region Emissions Max Production Month
+
+Table Details:
+Units:	tonne (Metric), ton (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum total emission production by emission producers in the region per month
+
+Paragraphs:
+Region Emissions Max Production Month is Maximum total emission production by emission producers in the region per month.
+Lists:
+

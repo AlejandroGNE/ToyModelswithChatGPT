@@ -1,0 +1,22 @@
+Header: Battery Offer Base
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Base dispatch point for incr/decr style offer
+
+Paragraphs:
+As an input Battery Offer Base defines the day-ahead dispatch level around which the Offer Quantity and Offer Price are based.
+
+This is used for modelling Balancing Markets or real-time markets. Refer to that topic for details and examples.
+
+As an output Battery Offer Base repeats the input value.
+
+See also:
+Lists:
+	- Battery Bid Base
+

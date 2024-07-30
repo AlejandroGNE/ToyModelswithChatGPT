@@ -1,0 +1,22 @@
+Header: No header found
+
+Table Details:
+
+Paragraphs:
+
+
+When a Contingency occurs, it may create new island(s) due to disconnected branches. In such cases, PLEXOS ensures each island operates independently to maintain local generation and load balance, minimizing the impact on the power grid. Contingency islanding may also cause the main island to lose generation/load. PLEXOS assumes this loss will be compensated by other in-service generators in the same region and formulates the post contingency flow constraints accordingly. A hidden parameter under the Transmission class, AccountForContingencyIslanding, can be used to enable this behavior. By default, this flag is false, and it is assumed that generation/load loss due to Contingency islanding will be compensated by the slack bus.
+
+Step 1: When there is a loss of Generation or Load in a Contingency induced island, Generators in the same region will ramp up or down to compensate for the immediate loss. The lost Generation or Load is distributed among other Generators proportionally to their maximum capacities. This adjustment will alter the line flows compared to their pre-contingency states. LinFlow_l_adjusted = LinFlow_l + ∑ (PTDF_i_l*InjectionChange_i - WeightedAvgPTDF_r_l* InjectionChange _i) Where, •    l: Monitored line in the system. •    i: Node where there is a loss of Generation/Load due to Contingency. •    LinFlow_l: Flow on line l before Contingency. •    LinFlow_l_adjusted: Flow on line l after generation/load loss and a simultaneous power transfer to other Generators. •    InjectionChange_i: Injection change at node i due to loss of Generation/Load. •    WeightedAvgPTDF_r_l: Capacity weighted average PTDF on line l for Nodes in region r. •    Region r: Region where Node i is located in.
+
+Calculated as: WeightedAvgPTDF_r_l = ∑ (GenerationCapacity_j * PTDF_j_l)/ ∑ (GenerationCapacity_j) for all Node j with in-service Generators in the region r excludes Node i) .
+
+Step 2: Formulate post-Contingency flow constraints with adjusted flows from step 1 and LODFs. Where, •    LODFs: Line Outage Distribution Factor.
+Lists:
+
+
+H2s:
+Transmission - Contingency Islanding
+Contents
+1. Introduction
+2. Contingency Islanding is considered a 2-step event in PLEXOS

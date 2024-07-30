@@ -1,0 +1,15 @@
+Header: Battery Constraints Load Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of load consumption (charging) in the constraint
+
+Paragraphs:
+Battery Constraints Load Coefficient is the coefficient of battery load (charging power) in the constraint.
+Lists:
+

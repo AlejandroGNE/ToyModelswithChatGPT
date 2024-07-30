@@ -1,0 +1,15 @@
+Header: Company Contract Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from physical contracts
+
+Paragraphs:
+Company Contract Revenue is the companys share of the revenue earned from physical load contracts, and is defined as:
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Facility Hours Up
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours since the last start
+
+Paragraphs:
+Facility Hours Up is the number of
+          hours since the last start.
+
+See also:
+Lists:
+	- Facility Units
+              Started
+	- Facility Min
+              Up Time
+	- Facility Hours
+              Down
+

@@ -1,0 +1,58 @@
+Header: Licensing
+
+Table Details:
+
+Paragraphs:
+Overview About PLEXOS licensing Choosing a Licensing Model About the License File Setting Up Getting Started Entering a License Key Requesting a License The License Server Version 2.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab Version 3.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab Information For PLEXOS Reps License Issuing System Troubleshooting
+
+Setting Up Getting Started Entering a License Key Requesting a License The License Server Version 2.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab Version 3.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab Information For PLEXOS Reps License Issuing System Troubleshooting
+
+The License Server Version 2.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab Version 3.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab Information For PLEXOS Reps License Issuing System Troubleshooting
+
+Information For PLEXOS Reps License Issuing System Troubleshooting
+
+Troubleshooting
+
+
+Lists:
+	- About PLEXOS licensing
+	- Choosing a Licensing Model
+	- About the License File
+	- Getting Started
+	- Entering a License Key
+	- Requesting a License
+	- Version 2.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab
+	- Setting Up
+	- Executing the License Server
+	- License Server Interface Monitor Tab Config Tab
+	- Monitor Tab
+	- Config Tab
+	- Version 3.x Setting Up Executing the License Server License Server Interface Monitor Tab Config Tab
+	- Setting Up
+	- Executing the License Server
+	- License Server Interface Monitor Tab Config Tab
+	- Monitor Tab
+	- Config Tab
+	- Setting Up
+	- Executing the License Server
+	- License Server Interface Monitor Tab Config Tab
+	- Monitor Tab
+	- Config Tab
+	- Monitor Tab
+	- Config Tab
+	- Setting Up
+	- Executing the License Server
+	- License Server Interface Monitor Tab Config Tab
+	- Monitor Tab
+	- Config Tab
+	- Monitor Tab
+	- Config Tab
+	- License Issuing System
+
+
+H2s:
+Overview
+Setting Up
+The License Server
+Information For PLEXOS Reps
+Troubleshooting

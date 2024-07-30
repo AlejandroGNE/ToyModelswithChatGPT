@@ -1,0 +1,22 @@
+Header: Line Min Capacity Reserves
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum amount of capacity reserves supplied to the receiving Region/Zone.
+
+Paragraphs:
+Line Min Capacity Reserves is the minimum amount of capacity reserves supplied to the receiving Region or capacity Zone where a negative indicates capacity supplied to the sending end. This limit applies to capacity flows in LT Plan and PASA .
+
+If not defined the Line Min Rating is assumed.
+
+See also:
+Lists:
+	- Line Max Capacity Reserves
+	- Line Firm Capacity
+	- Line Capacity Reserves
+

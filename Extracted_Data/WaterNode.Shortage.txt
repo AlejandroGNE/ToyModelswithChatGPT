@@ -1,0 +1,20 @@
+Header: Water Node Shortage
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shortage of water supply
+
+Paragraphs:
+Water Node Shortage is the amount Shortage in water supply relative to the Demand .
+
+See also:
+Lists:
+	- Water Node Excess
+	- Water Node Shortage Cost
+	- Water Node Hours of Shortage
+

@@ -1,0 +1,18 @@
+Header: Power2X Build Cost
+
+Table Details:
+Units:	Input: $/kW    Output: $000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building a unit
+
+Paragraphs:
+Refer to Facility Build
+            Cost for details.
+
+
+Lists:
+

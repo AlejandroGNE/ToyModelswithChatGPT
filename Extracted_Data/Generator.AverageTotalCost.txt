@@ -1,0 +1,18 @@
+Header: Generator Average Total Cost
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average [Total Generation Cost]
+
+Paragraphs:
+Generator Average Total Cost is the average total generation cost, which includes the cost of start-up and shutdown, and is calculated as:
+
+See also:
+Lists:
+	- Generator Average Cost
+

@@ -1,0 +1,12 @@
+Header: LT Plan Allow Capacity Sharing
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If regions/zones can share capacity reserves to meet requirements
+
+Paragraphs:
+LT Plan Allow Capacity Sharing switches on the optimization of sharing of capacity reserves between regions and/or zones for the purposes of satisfying capacity reserve constraints such as Region Min Capacity Reserve Margin . Capacity sharing will only be used for those regions and zone for which capacity reserve target is set. See the LT Plan article for more details.
+Lists:
+

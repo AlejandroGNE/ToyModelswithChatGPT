@@ -1,0 +1,44 @@
+Header: Facility Min Operating Level Global
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If [Min Operating Level/Factor] applies across all units at the Facility or unit-by-unit
+
+Paragraphs:
+Facility Min Operating Level
+          Global controls how Min
+            Operating Level and Min
+            Operating Factor should be interpreted. It can take the
+          following values:
+
+The Min Operating
+                Level or Min
+                Operating Factor (whichever is defined) apply to each of the Units individually. Thus when
+              the facility is dispatched, the minimum production is: Min
+                  Operating Level × Units
+                  Operating ; or Min
+                  Operating Factor × Max
+                  Operating Level × Units
+                  Operating
+
+The Min Operating
+                Level or Min
+                Operating Factor (whichever is defined) apply to total Installed
+                Capacity regardless of the number of Units that make up that capacity. Thus when the facility is dispatched,
+              the minimum production is: Min
+                  Operating Level ; or Min
+                  Operating Factor × Installed
+                Capacity
+
+Setting Min Operating Level Global to true changes the way the
+          simulator models unit commitment. The commitment is 'facility-wide'
+          not 'unit-by-unit'. This affects many aspects of the formulation
+          including start up and shutdown, ramping constraints and the
+          production efficiency function.
+Lists:
+

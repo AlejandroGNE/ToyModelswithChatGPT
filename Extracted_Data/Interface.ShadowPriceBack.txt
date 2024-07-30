@@ -1,0 +1,15 @@
+Header: Interface Shadow Price Back
+
+Table Details:
+Units:	$/MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of interface limit in the counter-reference direction
+
+Paragraphs:
+Interface Shadow Price Back is the average shadow price from all periods where the Flow is in the counter-reference direction the reference direction shadow price is reported as Shadow Price . Only includes shadow price for base case, i.e in pre-contingency state.
+Lists:
+

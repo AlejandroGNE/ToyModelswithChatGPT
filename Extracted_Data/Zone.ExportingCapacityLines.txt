@@ -1,0 +1,11 @@
+Header: Zone Exporting Capacity Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Exporting Capacity Lines is [description]
+Lists:
+

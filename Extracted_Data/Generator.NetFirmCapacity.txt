@@ -1,0 +1,15 @@
+Header: Generator Net Firm Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Firm Capacity net of maintenance and degradation
+
+Paragraphs:
+Generator Net Firm Capacity is Firm Capacity net of maintenance and degradation.
+Lists:
+

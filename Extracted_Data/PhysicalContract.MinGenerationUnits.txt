@@ -1,0 +1,18 @@
+Header: Physical Contract Min Generation Units
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum generation capacity contracted (LT Plan)
+
+Paragraphs:
+Physical Contract Min Generation Units sets a minimum megawatt value on the amount of generation contract capacity purchased in LT Plan . This quantity cannot exceed Max Generation Units .
+
+See also:
+Lists:
+	- Physical Contract Min Load Units
+

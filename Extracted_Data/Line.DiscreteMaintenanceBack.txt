@@ -1,0 +1,21 @@
+Header: Line Discrete Maintenance Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Planned counter-reference direction capacity out of service
+
+Paragraphs:
+Line Discrete Maintenance Back is the
+          counter reference direction capacity out of service, as defined by the Units Out and Outage
+            Min Rating properties.
+
+See also:
+Lists:
+	- Line Discrete
+              Maintenance
+

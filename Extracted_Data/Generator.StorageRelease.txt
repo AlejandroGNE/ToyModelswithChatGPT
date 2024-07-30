@@ -1,0 +1,16 @@
+Header: Generator Storage Release
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Release from the Head Storage to the generator
+
+Paragraphs:
+Generator Storage Release is the
+          release from the Head Storage to the generator.
+Lists:
+

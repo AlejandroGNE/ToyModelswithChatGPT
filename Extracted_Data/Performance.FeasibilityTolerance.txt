@@ -1,0 +1,34 @@
+Header: Performance Feasibility Tolerance
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Allowable violation of variable bounds (0 = solver default value)
+
+Paragraphs:
+Performance Feasibility
+          Tolerance is a solver setting for the simplex optimizer. The default
+          of zero means the solver's default feasibility tolerance will be used,
+          which is generally 1e-6. Values above zero will be passed to the
+          solver.
+
+The feasibility tolerance is the degree to which values of the basic
+          variables calculated by the simplex method may violate their bounds.
+          The solver does not use this tolerance to relax the variable bounds
+          nor to relax right hand side values. This parameter specifies an
+          allowable violation. Feasibility influences the selection of an
+          optimal basis and can be reset to a higher value when a problem is
+          having difficulty maintaining feasibility during optimization. You can
+          also lower this tolerance after finding an optimal solution if there
+          is any doubt that the solution is truly optimal. If the feasibility
+          tolerance is set too low, the solver may falsely conclude that a
+          problem is infeasible. If you encounter reports of unrepairable
+          infeasibility with a small violation, a small adjustment in the
+          feasibility tolerance may improve performance.
+
+See also:
+Lists:
+	- Performance Optimality
+              Tolerance
+

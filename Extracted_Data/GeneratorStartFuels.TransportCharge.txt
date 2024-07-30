@@ -1,0 +1,19 @@
+Header: Generator Start Fuels Transport Charge
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of transporting the fuel to the generator
+
+Paragraphs:
+Generator Start Fuels Transport Charge is cost of transporting the fuel to the generator. Where the fuel is also used for generation this charge over-rides that defined on the Generator Fuels membership.
+
+See also:
+Lists:
+	- Generator Start Fuels Transport Cost
+	- Generator Fuel Transport Cost
+

@@ -1,0 +1,27 @@
+Header: Flow Control Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5)
+Key Property:	No
+Description:	Flow control type
+
+Paragraphs:
+Flow Control Type is Flow control type.
+
+Normal Phase-Shifting Transformer
+
+Distributed Series Reactor (DSR) is a saturable reactor, and therefore the maximum inductance of a fleet of units is current-dependent. The angle-flow curve is modeled by using Angle Points and Flow Loading Points .
+
+Distributed Static Series Compensator (DSSC) is modelled as an AC voltage source in series with any given line. The voltage injected is fully variable within certain bounds.
+
+Mechanically-Switched Series Reactor (MSSR) is able to inject discrete levels of inductance to achieve angle shifting between 0 and Max Angle .
+
+Thyristor-Controlled Series Capacitor (TCSC) is modeled as a current-dependent impedance that can be inductive or capacitive.
+
+Static Synchronous Series Compensator (SSSC) is modeled as a variable series voltage source, with allowable angle ranging from Min Angle to Max Angle . Typically only one unit installed per line
+Lists:
+

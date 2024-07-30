@@ -1,0 +1,11 @@
+Header: Message 157
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Node <name> shift factors could not be computed due to an infeasibility in the Y-bus matrix.
+
+Paragraphs:
+Message 157 occurs in the following circumstances:
+Lists:
+

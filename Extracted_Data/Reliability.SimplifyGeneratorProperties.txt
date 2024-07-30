@@ -1,0 +1,26 @@
+Header: Reliability Simplify Generator Properties
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Flag indicating if Generator properties should be ignored for the model.
+
+Paragraphs:
+Reliabilities Simplify Generator Properties indicates if the following Generator properties should be ignored for the model.
+
+Generator properties are ignored only for ST Schedule.
+Lists:
+	- Min Stable Level
+	- Min Up Time
+	- Max Up Time
+	- Min Down Time
+	- Max Down Time
+	- Max Ramp Down
+	- Max Ramp Up
+	- Ramp Down Charge
+	- Ramp Up Charge
+

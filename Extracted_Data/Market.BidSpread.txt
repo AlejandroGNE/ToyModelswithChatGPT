@@ -1,0 +1,15 @@
+Header: Market Bid Spread
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Spread on sales to the market
+
+Paragraphs:
+This property is used to override the spread on sales into the market  see Bid-Ask Spread .
+Lists:
+

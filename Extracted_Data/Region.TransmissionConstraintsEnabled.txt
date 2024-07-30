@@ -1,0 +1,20 @@
+Header: Region Transmission Constraints Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If transmission line constraints are enabled in this region.
+
+Paragraphs:
+Region Constraints Enabled is the master switch for enforcement of Line and Transformer thermal limits in this region. This switch does not affect interfaces or generic constraints . It will overwrite the general Transmission ConstraintsEnabled setting. It can take the following values:
+
+See also:
+Lists:
+	- Transmission ConstraintsEnabled
+	- Region Transmission Constraint Voltage Threshold
+	- Region Transmission Interface Constraint Enabled
+

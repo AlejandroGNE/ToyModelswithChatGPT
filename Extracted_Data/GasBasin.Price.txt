@@ -1,0 +1,15 @@
+Header: Gas Basin Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price of producing gas from basin fields
+
+Paragraphs:
+Gas Basin Price is the average dispatch price of all Gas Fields associated with the Gas Basin.
+Lists:
+

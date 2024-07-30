@@ -1,0 +1,20 @@
+Header: Emission Shadow Price
+
+Table Details:
+Units:	$/kg (Metric), $/lb (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Shadow price (marginal cost) of emissions
+
+Paragraphs:
+Emission Shadow Price as an input is the incremental cost of the Emission that appears in the simulation objective function as a pseudo-cost.
+
+As an output it is the dual variable value associated with the emission production definition constraint. As such it represents the marginal cost to the system of the last/next unit of Emission Production . This price will reflect both input Shadow Price and/or the price of any binding Emission constraints e.g. defined using Max Production .
+
+See also:
+Lists:
+	- Emission Price
+

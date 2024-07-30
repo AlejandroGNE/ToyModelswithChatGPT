@@ -1,0 +1,14 @@
+Header: Transmission Rental Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Method used to calculate transmission rentals
+
+Paragraphs:
+Transmission Rental Method set the formula used to compute transmission rents . It can take the following values:
+
+The setting of this option does not affect the total rents in the system, which are always equal to the settlement surplus , but it does affect the allocation of rents, and thus can affect the revenues to transmission owners.
+Lists:
+

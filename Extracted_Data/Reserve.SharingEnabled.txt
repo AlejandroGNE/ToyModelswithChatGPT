@@ -1,0 +1,18 @@
+Header: Reserve Sharing Enabled
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If sharing of reserve across the transmission network is enabled.
+
+Paragraphs:
+Reserve Sharing Enabled toggles on/off modelling of the sharing of reserve across the transmission network. See the topic Reserve Sharing for details.
+
+See also:
+Lists:
+	- Reserve Sharing Losses Enabled
+

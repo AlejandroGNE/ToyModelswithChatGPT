@@ -1,0 +1,40 @@
+Header: Heat Plant Run Up Rate
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ramp rate that applies while running the unit up from zero to [Min Stable Level].
+Units	1	-
+Max Capacity	100	GJ
+Min Stable Level	40	GJ
+Run Up Rate	0.5	GJ/hour.
+Units	1	-	1
+Max Capacity	100	GJ	1
+Min Stable Level	40	GJ	1
+Start Cost	5000	$	1
+Start Cost	9000	$	2
+Start Cost Time	6	hrs	1
+Start Cost Time	6	hrs	2
+Run Up Rate	0.75	GJ/hr.	1
+Run Up Rate	0.5	GJ/hr.	2
+
+Paragraphs:
+By default generating units are assumed to run up instantaneously. To override this behaviour Heat Plant Run Up Rate defines a ramping limit that applies while the generating unit is running up from zero to Min Stable Level . This property is a simplified version of Start Profile and is used when the run up rate is constant for any given cooling state.
+
+Note that this run up rate can be different to the Max Ramp Up which applies in the normal operating range, and Max Ramp Up does not need to be defined to use Run Up Rate.
+
+Example:
+
+Run Up Rate is a multi-band property where each band corresponds to a cooling state. Cooling states are defined using multi-band Start Cost and Start Cost Time . In the following example the unit is 'hot' when it has been shutdown for less than six hours and can run up at a rate of 0.75 GJ/hr. slowing to 0.5 GJ/hr. if the unit has been shutdown for longer than six hours.
+
+Example:
+
+See also:
+Lists:
+	- Start Profile
+	- Run Down Rate
+

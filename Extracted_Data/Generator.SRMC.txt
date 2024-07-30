@@ -1,0 +1,23 @@
+Header: Generator SRMC
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Short-run marginal cost (Fuel + VO&M + Emissions)
+
+Paragraphs:
+Generator SRMC is the marginal (incremental) cost of Generation , i.e. the variable cost associated with providing one more megawatt of generation, and is defined as:
+
+If the generation is zero, the simulator reports the SRMC at Max Capacity .
+
+The term 'Heat Production Value' only applies to CHP plant and reflects the incremental value of heat produced in terms of meeting a Heat Load . For example, a CHP generator with an auxiliary boiler can save boiler fuel when it increases electric  production at a rate determined by the Power to Heat Ratio .
+
+See also:
+Lists:
+	- Generator Marginal Fuel Cost
+	- Emission Generators SRMC
+

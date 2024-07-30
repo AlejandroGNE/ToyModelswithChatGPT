@@ -1,0 +1,23 @@
+Header: Objective Priority
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Priority of the objective when doing hierarchical multi-objective optimization
+
+Paragraphs:
+Objective Priority determines the
+          order in which objectives are solved when doing hierarchical
+          multi-objective optimization. Higher priority objectives (those with a
+          higher value of Priority) are solved first. The default objective
+          function's priority is controlled with the Model Objective Priority property. By default that objective has priority 1 and any user
+          defined objective has priority 0 thus user-defined objectives are
+          solved after the default objective. To change this ordering you can
+          modify the Model priority and Objective Priority to obtain the order
+          desired.
+Lists:
+

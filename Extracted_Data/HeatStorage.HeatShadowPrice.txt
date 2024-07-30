@@ -1,0 +1,15 @@
+Header: Heat Storage Heat Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of heat in storage
+
+Paragraphs:
+Heat Storage Heat Shadow Price refers to the dual variable value representing the additional (Maximum, usual) cost for an extra unit of Heat Storage capacity. This value indicates the marginal cost of the last or next unit of Heat Storage capacity required or used in the system.
+Lists:
+

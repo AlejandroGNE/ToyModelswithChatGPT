@@ -1,0 +1,15 @@
+Header: Fuel Shadow Price Incr
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Increment to the shadow price of the fuel (use only when Shadow Price is defined)
+
+Paragraphs:
+Fuel Shadow Price Incr is a value that is added to the input Shadow Price according to the following formula:
+Lists:
+

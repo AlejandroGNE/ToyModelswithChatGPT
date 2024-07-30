@@ -1,0 +1,28 @@
+Header: Line Min Units Built
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Minimum number of lines automatically constructed
+X-Y	Units	0	-
+X-Y	Max Flow	500	MW
+X-Y	Max Units Built	1	-
+X-Y	Min Units Built	1	-
+X-Y	Build Cost	2000	$000
+X-Y	Economic Life	35	years
+X-Y	WACC	8	%
+
+Paragraphs:
+Line Min Units Built requires that the Line is built by LT Plan at some time in the planning horizon. This number must be less than or equal to Max Units Built .
+
+Example
+
+In this example, the Line must be built some time in the planning horizon. Note that you can control the timing of the build using Date From on the Max Units Built .
+
+See also: Line Min Units Built in Year .
+Lists:
+

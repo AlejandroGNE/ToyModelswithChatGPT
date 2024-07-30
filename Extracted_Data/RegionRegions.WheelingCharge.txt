@@ -1,0 +1,19 @@
+Header: Region Regions Wheeling Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Wheeling charge for exports to the region
+
+Paragraphs:
+Region Regions Wheeling Charges defines a cost for wheeling power from the 'parent' to the 'child' Region . If you want the wheeling charge to apply in the reverse direction then you must set the Wheeling Charge on the membership with 'parent' and 'child' in the opposite positions.
+
+See also:
+Lists:
+	- Region Net Interchange
+	- Region Wheeling Cost
+

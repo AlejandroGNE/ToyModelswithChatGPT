@@ -1,0 +1,30 @@
+Header: Facility Min Capacity Factor
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Minimum capacity factor in the interval
+
+Paragraphs:
+Facility Min Capacity Factor (and
+          its period-specific variants ( Hour , Day , Week , Month and Year )
+          define a lower bound on a facility' capacity
+            factor on an hourly, daily, weekly, monthly, or annual basis.
+
+The simulator converts these constraints into Constraint objects. By default the constraints are 'soft' i.e. violation is allowed at a penalty value defined by the Min
+            Production Penalty property. To make this a hard constraint set
+          that penalty to -1.
+
+See also:
+Lists:
+	- Facility Max
+              Capacity Factor
+	- Facility Min
+              Production
+	- Facility Max
+              Production
+

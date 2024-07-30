@@ -1,0 +1,22 @@
+Header: Performance Optimality Tolerance
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Optimality tolerance (0 = solver default value)
+
+Paragraphs:
+Performance Optimality Tolerance
+          is a solver setting for the simplex optimizer. Increasing the
+          optimality tolerance can reduce the solver run time but may lead to
+          differences in the results. The default value of zero means 'use the
+          solver default' which is generally 1e-6.
+
+If barrier is used for the root node and simplex is used for branch and bound nodes, optimality tolerance will also apply during the crossover phase.
+
+See also:
+Lists:
+	- Performance Feasibility
+              Tolerance
+

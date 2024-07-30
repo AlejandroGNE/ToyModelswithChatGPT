@@ -1,0 +1,38 @@
+Header: Market Max Sales
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum sales to the market
+Property	Value	Units	Timeslice
+Price	60	-	
+Max Sales	200	-	HLH
+Max Sales	0	-	LLH
+Max Purchases	0	-	
+Sell Block Day	25	-	
+
+Paragraphs:
+Market Max Sales sets an upper
+          bound on the amount sold into the market at the given Price in any interval. If you prefer to set a fixed demand from the market
+          use the Demand property instead.
+
+Note that when a supply curve is defined using Price and Quantity there is a natural
+          upper bound on the sales set by the total quantity less the Base
+            Quantity .
+
+Example:
+
+The example in Table 1 is a daily exercisable sell option. Sales are
+          made in 25 MW blocks up to 200 MW at a price of $60/ MWh .
+          The blocks are taken over the "HLH" timeslice e.g. peak
+          periods.
+
+See also:
+Lists:
+	- Market Max
+              Purchases
+

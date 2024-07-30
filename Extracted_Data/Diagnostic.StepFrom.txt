@@ -1,0 +1,12 @@
+Header: Diagnostic Step From
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Limit diagnostic file writing to step numbers starting at this number.
+
+Paragraphs:
+Diagnostic Step From works with Diagnostic Step To to limit the production of diagnostics, such as LP Files and Unit Commitment to only the simulation steps numbered in the given range e.g. you might set Step From = 123 and Step To = 125 to have diagnostics produced only for the steps 123, 124, and 125.
+Lists:
+

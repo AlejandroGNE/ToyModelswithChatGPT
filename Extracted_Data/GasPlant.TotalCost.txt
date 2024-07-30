@@ -1,0 +1,15 @@
+Header: Gas Plant Total Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of fixed and variable costs
+
+Paragraphs:
+Gas Plant Total Cost is Total of fixed and variable costs.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Start Profile Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violation of [Start Profile].
+
+Paragraphs:
+Generator Start Profile Penalty is a penalty price for violating the Start Profile.
+Lists:
+

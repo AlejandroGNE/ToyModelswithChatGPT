@@ -1,0 +1,20 @@
+Header: Node Fixed Generation
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Fixed (or embedded) generation at the node
+
+Paragraphs:
+Node Fixed Generation represents embedded generation at the node i.e. generation for load 'behind the meter' and therefore not explicitly modeled. Fixed Generation does not represent an injection to the network since it is net zero generation/load. Instead it adds to the reported Generation and Load at the node and the Region and/or Zone the node belongs to. Fixed Generation does not affect Customer Load and therefore has no effect on prices.
+
+
+
+See also:
+Lists:
+	- Node Fixed Load
+

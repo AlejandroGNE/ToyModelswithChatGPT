@@ -1,0 +1,18 @@
+Header: Interface Flow Non-anticipativity Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Window of time over which to enforce non-anticipativity constraints in scenario-wise decomposition
+
+Paragraphs:
+Interface Flow Non-anticipativity Time sets the timeframe over which flows on the Interface are non-anticipative decisions in a stochastic optimization. This property must be used in conjunction with Flow Non-anticipativity .
+
+See also:
+Lists:
+	- Line Flow Non-anticipativity Time
+

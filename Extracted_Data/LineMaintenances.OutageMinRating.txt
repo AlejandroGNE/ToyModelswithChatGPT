@@ -1,0 +1,15 @@
+Header: Line Maintenances Outage Min Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Line rating in the counter-reference direction during outage
+
+Paragraphs:
+Line Maintenances Outage Min Rating is Line rating in the counter-reference direction during outage.
+Lists:
+

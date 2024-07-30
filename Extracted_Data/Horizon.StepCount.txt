@@ -1,0 +1,12 @@
+Header: Horizon Step Count
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of steps in the planning horizon
+
+Paragraphs:
+Horizon Planning Step Count
+Lists:
+

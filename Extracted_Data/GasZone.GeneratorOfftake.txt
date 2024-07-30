@@ -1,0 +1,15 @@
+Header: Gas Zone Generator Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generator Offtake from Gas Nodes in Gas Zone
+
+Paragraphs:
+Gas Zone Generator Offtake is the generator offtake from all gas nodes in a gas zone.
+Lists:
+

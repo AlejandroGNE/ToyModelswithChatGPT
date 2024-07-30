@@ -1,0 +1,15 @@
+Header: Heat Plant Installed Capacity
+
+Table Details:
+Units:	GJ/h (Metric), MMBtu/h (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Installed capacity
+
+Paragraphs:
+Heat Plant Installed Capacity is defined as:
+Lists:
+

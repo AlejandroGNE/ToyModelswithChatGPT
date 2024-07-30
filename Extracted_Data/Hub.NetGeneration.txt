@@ -1,0 +1,15 @@
+Header: Hub Net Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation net of pump load
+
+Paragraphs:
+Hub Net Generation is the generation net of pump load .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Demand Peak Unserved Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Peak Unserved Demand (with respect to excess and shortage)
+
+Paragraphs:
+Gas Demand Peak Unserved Demand is Peak Unserved Demand (with respect to excess and shortage).
+Lists:
+

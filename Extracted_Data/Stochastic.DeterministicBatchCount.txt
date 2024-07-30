@@ -1,0 +1,19 @@
+Header: Stochastic Deterministic Batch Count
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	For Deterministic Step Type = "None" the samples in the deterministic phase will be divided into this number of batches
+
+Paragraphs:
+This setting applies to the final deterministic pass of a stochastic
+          optimization solved with Rolling
+            Horizon . It applies when Deterministic
+            Step Type = "None" which causes the entire horizon is solved in
+          a single step and all samples solved in parallel. For long horizons
+          and/or a large number of samples this can consume considerable memory.
+          This option allows you to split the samples into a number of batches
+          which are solved in sequence.
+Lists:
+

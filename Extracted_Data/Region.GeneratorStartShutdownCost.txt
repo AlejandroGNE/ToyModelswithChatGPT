@@ -1,0 +1,19 @@
+Header: Region Generator Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of generating unit starts and shutdowns
+
+Paragraphs:
+Region Generator Start & Shutdown Cost is the cost associated with Generators Units Started and Units Shutdown and is calculated as:
+
+See also:
+Lists:
+	- Region Generation Cost
+	- Region Total Generation Cost
+

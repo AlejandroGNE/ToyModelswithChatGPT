@@ -1,0 +1,15 @@
+Header: Fuel Contract Price
+
+Table Details:
+Units:	$/~
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract price
+
+Paragraphs:
+This property defines the unit price of the Fuel under the Fuel Contract . Every unit of fuel used is priced at this level regardless of whether or not the maximum availability (defined by Quantity and period variants) is reached. Thus fuels that are under contract do not need to have their Price property set.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3079
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Invalid date range <value> to <value>.
+
+Paragraphs:
+Message 3079 occurs in the following circumstances:
+Lists:
+

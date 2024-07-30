@@ -1,0 +1,15 @@
+Header: Generator Shadow Price Received
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price received before uplift or mark-up models.
+
+Paragraphs:
+Generator Shadow Price Received is defined as:
+Lists:
+

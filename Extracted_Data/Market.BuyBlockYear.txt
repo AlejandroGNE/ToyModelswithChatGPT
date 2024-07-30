@@ -1,0 +1,15 @@
+Header: Market Buy Block Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Size of block for purchases across each year
+
+Paragraphs:
+Setting this version of Buy Block instructs PLEXOS that blocks across each year must be taken up together.
+Lists:
+

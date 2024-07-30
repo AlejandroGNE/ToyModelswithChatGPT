@@ -1,0 +1,20 @@
+Header: Vehicle Technical Life
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical lifetime of the vehicle
+
+Paragraphs:
+Vehicle Technical Life is the
+          lifetime of the vehicle in years.
+
+See also:
+Lists:
+	- Facility Technical
+              Life
+

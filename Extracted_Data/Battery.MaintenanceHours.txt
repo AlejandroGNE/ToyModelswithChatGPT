@@ -1,0 +1,16 @@
+Header: Battery Maintenance Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours on maintenance
+
+Paragraphs:
+Battery Maintenance Hours is
+          the number of hours the unit has any charging/discharging capacity on Maintenance in the reporting period.
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Commodity Objectives Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient on binary variable indicating if any capacity is built to date
+
+Paragraphs:
+Commodity Objectives Built Coefficient sets the coefficient in the Objective of the binary variable indicating if there have been any Units
+            Built to date.
+
+With the coefficient represented by c (z,j) the following
+          term is added to the z th objective function:
+
+
+Lists:
+

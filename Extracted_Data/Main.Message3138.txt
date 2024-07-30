@@ -1,0 +1,11 @@
+Header: Message 3138
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Line <name> has [Max Flow] lower than [Min Flow];  [Max Flow] = <name> < [Min Flow] = <name>.
+
+Paragraphs:
+Message 3138 occurs in the following circumstances:
+Lists:
+

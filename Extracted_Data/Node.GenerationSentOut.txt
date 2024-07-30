@@ -1,0 +1,19 @@
+Header: Node Generation Sent Out
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation net of auxiliaries
+
+Paragraphs:
+Node Generation Sent Out is defined as:
+
+See also:
+Lists:
+	- Generator Generation Sent Out
+	- Region Load Metering Point
+

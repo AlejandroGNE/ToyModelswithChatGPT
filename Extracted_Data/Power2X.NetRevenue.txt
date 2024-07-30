@@ -1,0 +1,15 @@
+Header: Power2X Net Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net revenue
+
+Paragraphs:
+Power2X Net Revenue is similar to the net revenue of generator .
+Lists:
+

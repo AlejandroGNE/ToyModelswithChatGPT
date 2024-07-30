@@ -1,0 +1,32 @@
+Header: Facility Fixed Production Violation
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Fixed Operating Level] constraint
+
+Paragraphs:
+Facility Fixed Production
+          Violation is the violation of the Fixed Production constraint and is defined as:
+
+Fixed Production Violation = Production - Fixed Production
+
+or (for expansion facilities in LT Plan ):
+
+Fixed Production Violation = Production - Fixed Production x Units
+
+See also:
+Lists:
+	- Facility Fixed
+              Production
+	- Facility Fixed
+              Production Violation Hours
+	- Facility Fixed
+              Production Violation Cost
+	- Facility Min
+              Production
+

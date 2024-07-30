@@ -1,0 +1,12 @@
+Header: Competition RSI Enabled for Load Bids
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If Residual Supply Index method is used for Load Bids.
+
+Paragraphs:
+Competition RSI Enabled for Load Bids is a flag to enable RSI component to pumping/charging as if it were negative generation/discharging. So it gets refunded the RSI value when resouce is pumping/charging. This option can only be enabled when RSI Enabled is enabled. RSI Enabled for Load Bids can be applied to Generators, Batteries and Storages.
+Lists:
+

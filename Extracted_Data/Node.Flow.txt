@@ -1,0 +1,22 @@
+Header: Node Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow through the node
+
+Paragraphs:
+Node Flow is the total energy flow through the node and is equal to:
+
+Node Flow =  σ generation entering the node =  σ generation leaving the node. No losses are modelled.
+
+A limit can be placed on the flow through the node with the Rating property.
+
+See also:
+Lists:
+	- Node Load
+

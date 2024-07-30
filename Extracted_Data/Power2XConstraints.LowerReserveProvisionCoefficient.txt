@@ -1,0 +1,39 @@
+Header: Power2X Constraints Lower Reserve Provision Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of lower reserve provision
+
+Paragraphs:
+Power2X Constraints Lower Reserve Provision
+          Coefficient defines a left-hand side coefficient on the facility's
+          provision of lower type reserve services in the constraint
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where:
+
+By default, this sum includes all Power2X Reserves of Type = "Lower" and "Operational". You can limit the set of Reserves included in this sum by adding Power2X Reserves memberships with no
+          associated property definitions. This is a special case of using
+          'null' memberships to filter the terms included in another constraint
+          property.
+
+See also:
+Lists:
+	- Power2X Constraints Reserve
+              Provision Coefficient
+	- Power2X Constraints Raise
+              Reserve Provision Coefficient
+	- Power2X Constraints Regulation
+              Raise Reserve Provision Coefficient
+	- Power2X Constraints Regulation
+              Lower Reserve Provision Coefficient
+	- Power2X Constraints Replacement
+              Reserve Provision Coefficient
+

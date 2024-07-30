@@ -1,0 +1,18 @@
+Header: Interface Import Limit
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Minimum flow allowed on the interface
+
+Paragraphs:
+Interface Import Limit is the minimum flow allowed on the interface:
+
+See also:
+Lists:
+	- Interface Export Limit
+

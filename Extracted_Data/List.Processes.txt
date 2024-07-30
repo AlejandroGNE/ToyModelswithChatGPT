@@ -1,0 +1,11 @@
+Header: List Processes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Process objects in the List
+
+Paragraphs:
+List Processes is set of Process objects in the List
+Lists:
+

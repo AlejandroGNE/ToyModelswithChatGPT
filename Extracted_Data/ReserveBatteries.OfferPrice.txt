@@ -1,0 +1,15 @@
+Header: Reserve Batteries Offer Price
+
+Table Details:
+Units:	$/MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Reserve offer price in offer band
+
+Paragraphs:
+Reserve Reserve Batteries Offer Price defines the price (premium) for provision of reserves by the BESS. The quantity part of the offer is defined with Offer Quantity .
+Lists:
+

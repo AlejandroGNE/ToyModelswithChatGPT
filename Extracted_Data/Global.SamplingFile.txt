@@ -1,0 +1,67 @@
+Header: Global Sampling File
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Input file for Sampled Chronology in LT plan and/or MT Schedule
+Month	Week	Sampled Reduction Index	Reduced Sample Index	First Sample Interval Offset	Reduced Sample Count
+1	1	-1	1	0	2
+1	2	1	5		
+1	3	1			
+1	4	1			
+1	5	-1			
+2	1	3	3	72	
+2	2	3	4		
+2	3	-1			
+2	4	-1			
+2	5	4			
+3	1	3	2	72	
+3	2	-1	3		
+3	3	-1			
+3	4	2			
+3	5	3			
+4	1	2	2	144	
+4	2	-1	6		
+4	3	2			
+4	4	2			
+4	5	2			
+4	6	-1			
+
+Paragraphs:
+Global Sampling File provides the input for the sampled Chronology in LT plan and/or MT Schedule. 
+		    If Sampling file is entered, PLEXOS will read in user defined reduced sample indices through this CSV file instead of doing sampled reduction internally.
+
+To get the data format of a sampling file, you can make a run with Sample Reduction being turned on under the diagnostic object. 
+		  It’s basically a table containing all period indices of reduced samples and mapping of samples to reduced samples.
+          Here is an example showing how the Sample Reduction diagnostic file can be like for a 2 weeks per month sampling settting:
+
+
+
+
+
+Sampling Interval Type , Sample Type and Reduced Sample Count are shown in the first row in the file. For this case,
+		  Reduced Sample Index column are the 2 sample weeks being selected for each month while Sample Reduction Index column shows the mapping of other weeks to the selected weeks, with any non-zero values being
+          reduced samples. First Sample Interval Offset column only applies to weekly sample type where the first sample is a short week, the days in the week should map to the end part. 
+		  In this example, the first week in the 2nd month has 4 days, so there should be an offset with 3 days (72 intervals) from last month. The same logic applies to the 3rd and 4th month and so on. 
+		  For other sample types, the offset should be zero.
+
+Users can come up with their own sampling files following the data format provided through the diagnostics. The files should be named according to the Sampling File input, which is a non-negative number. 
+			If "0" is entered for Sampling File, then we expect a corresponding file “Sampling_0.csv” saved in the “Sampled Chronology” folder that locates in the same place as the input XML file.
+			Users can specify 2 bands for Sampling File input with band 1 for LT Plan and band 2 for MT Schedule, no matter if the other phase is enabled or not.
+
+With the following input being specified,
+
+
+
+the corresponding Sampling CSV files are expected locating in the desired folder, otherwise it will automatically run sample reduction algorithm.
+
+
+
+NOTE: When using sampling file for sampled chronology in LT plan and/or MT Schedule, user needs to select chrnology = "Sampled" and also define Sampling Interval , Sample Type and Reduced Sample Count in the phase object,
+		    they must match the inputs from the file. It also works for the yearly sampling in LT Plan simulation phase with Sample Year Count being set.
+Lists:
+

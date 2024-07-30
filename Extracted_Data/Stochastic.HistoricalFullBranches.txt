@@ -1,0 +1,15 @@
+Header: Stochastic Historical Full Branches
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Flag if full branches should be mapped by historical data in the PARMA model
+
+Paragraphs:
+This option applies when the PARMA
+            Model Type is set to "PARMA". When set to true, the full
+          branches of the scenario tree are generated from historical data (see Data Fie Historical
+            Sampling ) rather than sampling using PARMA.
+Lists:
+

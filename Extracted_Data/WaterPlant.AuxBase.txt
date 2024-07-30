@@ -1,0 +1,19 @@
+Header: Water Plant Aux Base
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Auxiliary use per unit committed
+
+Paragraphs:
+Water Plant Aux Base is the base auxiliary usage of a water plant when it is producing water.
+
+See also:
+Lists:
+	- Water Plant Aux Fixed
+	- Water Plant Aux Incr
+

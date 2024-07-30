@@ -1,0 +1,11 @@
+Header: Gas Zone Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Zone Gas Fields is the set of Gas Field objects in the Gas Zone .
+Lists:
+

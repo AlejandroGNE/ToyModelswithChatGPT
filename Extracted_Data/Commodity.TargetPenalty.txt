@@ -1,0 +1,16 @@
+Header: Commodity Target Penalty
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for violating the target inventory
+
+Paragraphs:
+Commodity Target Penalty sets the
+          penalty for violating the inventory Target constraint and its period variants.
+Lists:
+

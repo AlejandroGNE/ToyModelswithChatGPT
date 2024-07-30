@@ -1,0 +1,19 @@
+Header: Power2X Power Degradation
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Degradation of Power2X efficiency with cycles
+
+Paragraphs:
+Power2X Power Degradation is the annual degradation in Power2X efficiency that occurs with age. This degradation affects the following properties:
+
+The age of Power2X at the start of the horizon can be set with the Initial Age property.
+Lists:
+	- Efficiency
+	- Production Rate
+

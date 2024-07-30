@@ -1,0 +1,15 @@
+Header: Water Storage Max Storage Target Percent
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Max Storage Target Percent for water storage
+
+Paragraphs:
+Water Storage Max Storage Target Percent is Max Storage Target Percent for water storage.
+Lists:
+

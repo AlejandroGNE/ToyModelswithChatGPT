@@ -1,0 +1,24 @@
+Header: Region Emissions Production
+
+Table Details:
+Units:	kg (Metric), lb (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emissions
+
+Paragraphs:
+Region Emissions Production is the
+          production by Generators in the Region of the Emission .
+          It is calculated as:
+
+where: j indexes the Emission .
+
+See also:
+Lists:
+	- Region Emissions Cost
+	- Region Emissions
+              Cost
+

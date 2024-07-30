@@ -1,0 +1,15 @@
+Header: Gas Transport Import Node Port Fees
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of using gas node by gas transport per day
+
+Paragraphs:
+Gas Transport Import Node Port Fees is the cost of using the gas import node by the gas transport per day .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Storage Outage Max Withdrawal
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Storage Max Withdrawal during the outage
+
+Paragraphs:
+Gas Storage Outage Max Withdrawal is the storage max withdrawal during the outage.
+Lists:
+

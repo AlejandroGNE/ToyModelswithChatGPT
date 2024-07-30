@@ -1,0 +1,16 @@
+Header: Diagnostic Feasibility Repair Weight
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write the weights used in feasibility repair for each variable/constraint class
+
+Paragraphs:
+Writes a diagnostic file describing all the formulation classes used in the current simulation and the repair weights, which are used when feasibility repair is required. You can modify these repair weights with a XML input file "PLEXOS_Weights.xml".
+
+This file is formatted as in the following example:
+
+A weight of -1 means the constraint or variable element must not be relaxed during feasibility repair. Positive values mean relaxation is allowed to make the problem feasible with lower values carrying less penalty for being relaxed e.g. a constraint with weight 0.01 will be relaxed before one with a weight o 0.1.
+Lists:
+

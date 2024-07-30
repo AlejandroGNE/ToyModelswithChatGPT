@@ -1,0 +1,15 @@
+Header: Generator Decomposition Penalty a
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0.0489
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Decomposition storage target penalty function 'a' term.
+
+Paragraphs:
+Generator Decomposition Penalty a is Decomposition storage target penalty function 'a' term..
+Lists:
+

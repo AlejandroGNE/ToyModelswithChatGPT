@@ -1,0 +1,21 @@
+Header: Facility Ramp Up Violation
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Ramp Up] constraint
+
+Paragraphs:
+Facility Ramp Up Violation is
+          the amount that the Max Ramp Up constraint is violated.
+
+See also:
+Lists:
+	- Facility Ramp Up Violation Hours
+	- Facility Ramp
+              Up Violation Cost
+

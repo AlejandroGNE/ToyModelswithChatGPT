@@ -1,0 +1,25 @@
+Header: Purchaser Nodes*
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	creates copies of the Purchaser at each node in this collection
+
+Paragraphs:
+Purchaser Nodes* creates copies of the purchaser object at each node in the Node* collection. All system properties and attributes of the generator are copied e.g. Min Load . The purchaser copies are named according to the Purchaser and Node, e.g. if the purchaser object to be copied is called purchaserA and the Node where the generator is copied to is called SA , the new purchaser object will be named purchaserA_SA .
+
+To use this feature, enable the Purchaser.Nodes* button in the Config screen. Via the membership tree or the membership form, drag the desired Nodes into the Node* field to indicate where the copied objects will go.
+
+Note: The original object is always discarded. Therefore if you require the original object to exist, create a Node* membership with the node the original purchaser object was assigned to.
+
+For memberships the following rule is applied:
+
+The following second level objects are never copied:
+
+If our template generator has a constraint attached, the constraint is copied across to the new generator based on the Wildcard Mode settings.
+
+This template feature is also available for the Generator class. See Generator.Nodes*
+Lists:
+	- If the membership is one-to-one, the membership is copied and the related object is also copied e.g. for Generator Head Storage where the attached generator is the only Exporting Generator, the storage is copied.
+	- If the membership is one-to-many, the membership is not copied.
+

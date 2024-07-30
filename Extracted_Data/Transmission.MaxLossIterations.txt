@@ -1,0 +1,14 @@
+Header: Transmission Max Loss Iterations
+
+Table Details:
+Units:	-
+Default Value:	50
+Validation Rule:	≥1
+Description:	Maximum number of iterations for converging the losses.
+
+Paragraphs:
+Transmission Max Loss Iterations sets an upper bound on the iterations used to converge losses in the quadratic loss model.
+
+See also section "Loss Modeling" in Optimal_Power_Flow article for more details.
+Lists:
+

@@ -1,0 +1,127 @@
+Header: Generator Mark-up
+
+Table Details:
+Units:	$/MWh
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Mark-up above marginal cost
+U1	Units	1	-	1
+U1	Max Capacity	100	MW	1
+U1	Fuel Price	1	$/MMBTU	1
+U1	Heat Rate Incr	10000	BTU/kWh	1
+U1	Min Stable Level	40	MW	1
+U1	Mark-up	2	$/MWh	1
+U2	Units	1	-	1
+U2	Max Capacity	100	MW	1
+U2	Fuel Price	2	$/MMBTU	1
+U2	Heat Rate Incr	10000	BTU/kWh	1
+U2	Min Stable Level	40	MW	1
+U2	Mark-up	1	$/MWh	1
+U2	Mark-up	2	$/MWh	2
+U2	Mark-up	3	$/MWh	3
+U2	Mark-up	4	$/MWh	4
+U2	Mark-up	5	$/MWh	5
+U2	Mark-up	6	$/MWh	6
+U2	Mark-up	7	$/MWh	7
+U2	Mark-up	8	$/MWh	8
+U2	Mark-up	9	$/MWh	9
+U2	Mark-up	10	$/MWh	10
+U3	Units	1	-	1
+U3	Max Capacity	100	MW	1
+U3	Load Point	40	MW	1
+U3	Load Point	65	MW	2
+U3	Load Point	90	MW	3
+U3	Fuel Price	3	$/MMBTU	1
+U3	Heat Rate Incr	9000	BTU/kWh	1
+U3	Heat Rate Incr	10000	BTU/kWh	2
+U3	Heat Rate Incr	11000	BTU/kWh	3
+U3	Min Stable Level	40	MW	1
+U3	Mark-up	1	$/MWh	1
+U3	Mark-up	2	$/MWh	2
+U3	Mark-up	3	$/MWh	3
+U1	Offer Quantity	MW	100									
+	Offer Price	$/MWh	12									
+	Cost Price	$/MWh	10									
+	Mark-up	$/MWh	2									
+	Bid Cost Mark-up	%	20									
+U2	Offer Quantity	MW	46	6	6	6	6	6	6	6	6	6
+	Offer Price	$/MWh	21	22	23	24	25	26	27	28	29	30
+	Cost Price	$/MWh	20	20	20	20	20	20	20	20	20	20
+	Mark-up	$/MWh	1	2	3	4	5	6	7	8	9	10
+	Bid Cost Mark-up	%	5	10	15	20	25	30	35	40	45	50
+U3	Offer Quantity	MW	40	25	25							
+	Offer Price	$/MWh	28	32	36							
+	Cost Price	$/MWh	27	30	33							
+	Mark-up	$/MWh	1	2	3							
+	Bid Cost Mark-up	%	3.70	6.67	9.09							
+
+Paragraphs:
+Generator Mark-up is the absolute
+          amount that the generation of the unit is marked up above marginal
+          cost. If you prefer to use a relative mark-up, use the property Bid Cost Mark-up . It is
+          both an input property (where it sets the mark-up) and an output
+          (where the mark-up is reported). Mark-up is multi-band as input and
+          output.
+
+The Mark-up property provides a convenient way of applying a simple
+          adder to marginal cost without having to define multi-band offers.
+          When the generator offer is missing ( i.e. Offer Price and Offer Quantity are not defined) the generator's offers will be based on SRMC plus any defined mark-up. Thus Generator Mark-up affects the order of the generators bidding into the market, but does not form part of its Generation Cost .
+
+Mark-up is multi-band so that mark-ups can change across the range of
+          generation. You have the choice of matching the mark-up breakpoints with input Load Points , manually defining
+          the breakpoints using Mark-up Point or having the
+          simulator create an even set of breakpoints i.e. :
+
+By default, the mark-up is applied only to generation above Min Stable Level . This can
+          be changed with the Competition Mark-up MSL attribute.
+
+Examples
+
+In the following examples three generators each of 100MW illustrate
+          some of the possible applications of Mark-up:
+
+Notes:
+
+The Mark-up output is defined as:
+
+The latter two terms reflect the marginal effect of Company Strategic constraints and
+          Nash-Cournot volume targets respectively.
+
+Generator Mark-up in output is the
+          amount of mark-up applied in each band over and above the Cost Price . These mark-ups
+          might be input directly (as above) or computed automatically as part
+          of a gaming algorithm.
+
+Examples
+
+The input in the above table produce the following output:
+Lists:
+	- If you define Mark-up Point the simulator
+            will use this to define the breakpoints;
+	- otherwise if you define Load Point and provide the
+            same number of bands of Mark-up then the simulator will match the
+            mark-up to the load points.
+	- otherwise if you provide more or less bands of Mark-up than load
+            point (or do not define load point at all) the simulator will divide
+            the normal generation range into even sized bands and apply the
+            defined mark-ups.
+	- "U1" defines a $2.00 mark-up which will be applied uniformly across
+            its normal generating range of 40-100MW.
+	- "U2" defines a 10-band mark-up but because it does not also define Load Point in 10 bands,
+            PLEXOS will divides the range 40-100MW in 10 bands each of 6MW and
+            apply the 10-band mark-ups. Note that you can still use load points
+            here to define the heat rate function.
+	- "U3" defines a heat rate function using three bands and also
+            provides three bands for Mark-up. Thus PLEXOS will match the mark-up
+            breakpoints to the load points, but exclude the first 40MW from
+            being marked up (unless the above mentioned setting is changed).
+	- Mark-ups will be cleared in cost order. There is currently no
+            equivalent to the option Offers Must Clear in Order for Mark-ups. If you require offers that are non-convex in nature
+            then set this option and use Offer Quantity and Offer Price .
+	- PLEXOS provides a Competition attribute for automatically adding in
+            a No Load Cost Mark-up to generator offers i.e. to compensate for the difference
+            between marginal and average cost.
+

@@ -1,0 +1,19 @@
+Header: Gas Basin Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of building gas fields in the basin
+
+Paragraphs:
+Gas Basin Build Cost is the cost of building gas fields in the basin.
+
+Gas Basin Build Cost = σ Gas Field Build Cost x Gas Field Units Built
+
+For all gas fields belonging to that basin.
+Lists:
+

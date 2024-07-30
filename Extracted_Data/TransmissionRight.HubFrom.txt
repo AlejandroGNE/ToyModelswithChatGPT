@@ -1,0 +1,11 @@
+Header: Transmission Right Hub From
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	hub for generation in the transmission right
+
+Paragraphs:
+Transmission Right Hub From is the hub for generation in the transmission right.
+Lists:
+

@@ -1,0 +1,75 @@
+Header: Managing Users
+
+Table Details:
+
+Paragraphs:
+Administrators can manage user accounts in the user tab on the side panel. All of the user accounts known to the PLEXOS Connect system will be listed in the main panel of the user tab. To modify any user details or user permissions, you will need permissions from the 'User' module in the Connect product, by default these are part of the 'Admin' role. Additionally, users marked as 'Super User' have full access to the user management system as well as a backup in case the admin role loses the 'user' module permissions.
+
+The status of the user account is represented by the colour of the user icon:
+
+You will see the display name of each user beside the user icon, and underneath the display name is the first user group that user is a member of.
+
+Within the users tab, administrators can:
+
+Users can also change their own password here by clicking on the gold key button at the top of the user tab.
+
+Connect requires each user to have a login and while it is possible to share one login across multiple users, we recommend each user having their own login. This allows the system administrator to control the level of access each user has and allows everyone to see which user has performed specific actions (ie, uploading a dataset or executing a run). To add a new user, click on the add button at the top of the user tab (highlighted below) to add a new user account to the PLEXOS Connect system.
+
+To create a new user, you'll need to specify at minimum: a username and a display name. The username is the username that users will use to log into Launch Control, if you want users to login with their Windows Active Directory account, you'll need to specify their Windows account here (ie: ServerA\UserA). The user's display name is displayed by Launch Control in the Account tab, this can be different to the username.
+
+Additionally, you can also specify the following:
+
+Once you have entered everything, pressing the button 'OK' will create the new user. When the user first logs in and the user is not a Windows Active Directory account, they will be prompted for a new password.
+
+If you wish to create an initial password for the user, please login with this new user first before providing the details to the user. Active Directory based accounts will use the same password that would be used when logging into Windows, this password is not stored in PLEXOS Connect.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect User module.
+
+While you are able to follow the previous section to manually register Active Directory based accounts, using the "Windows Authentication" option in the Launch Control login screen will automatically register the new user if they are not recognised by the PLEXOS Connect system. These new users will be automatically added to the "Update"" user group, and afterwards, an admin can modify these users (including disabling the user account) at any time.
+
+Please click on the gold key button at the top of the user tab (highlighted below) to change your password.
+
+With the change password popup open, enter your current password, then your new password, confirm your new password and press 'OK'. If your password change is successful, you will be logged out and must log back in to continue using Connect.
+
+Administrators can reset another user's password at any time, this will mean the next time the user logs in, they will be prompted to set a new password. Once a user's password has been reset, they will be allowed to log in to Connect without a password but they will not be able to use Connect until a new password has been set.
+
+To reset a user's password, select one or more users who aren't yourself (#1), then right click one of the selected users and select "Reset User's Password" from the menu (#2). If any of these users are currently logged in when their password is reset, the PLEXOS Connect Server will automatically log them out.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect User module.
+
+Please right click on the user account from the account tab, and select 'Edit' from the context menu. Then select the desired privileges from the extended menu.
+
+After selecting the option 'Edit', the new user window (see Figure 3) will open in edit mode and be pre-populated with the details for the user you had selected. With the edit user window open, you'll be able to adjust the user groups that user will belong to or remove specific permissions from the user. After pressing 'OK', all changes will be applied immediately without the user needing to log out.
+
+Note: You will need to have the user permission 'Add\Edit' from the Connect User module.
+
+You can modify the solution properties available to individual users. By denying a user to certain properties, PLEXOS Connect will remove these properties from any PLEXOS solution that user tries to download or view. This is useful if, for example, you wish to deny a user from seeing the property 'Price' in any 'Fuel' objects, please note that in this example there would also be a property 'Price' in the membership 'Generator.Fuels'.
+
+To open the solution permissions window, go to the Users tab, select a user (#1) and click on the lock button (#2) at the top of the tab.
+
+In the above image, the user 'demo' has been denied (unchecked) all properties in the category 'Production' for any 'Fuel Contract' objects. When this user downloads any PLEXOS solution (compressed zip only), Connect will remove these properties before allowing the user to open this solution in PLEXOS Desktop.
+
+The drop-down 'Engine' is used to determine the PLEXOS version that should be used to generate the solution property tree. While the solution permissions are applied to all PLEXOS solutions downloaded from Connect, different versions of the PLEXOS engine may have different properties that can be configured.
+
+Note: You will need to have the user permission 'Add\Remove Solution Permissions' from the Connect User module.
+Lists:
+	- A green user icon denotes that the user is online
+	- A grey user icon denotes that the user is offline
+	- Add new user accounts
+	- Remove user accounts
+	- Modify the privileges of user accounts
+	- Email (Optional) : This is the user's email address, it will be used by PLEXOS Connect Launch Control to prepopulate any information that requires an email address (ie, Email Notifications)
+	- Status : New users are enabled by default, but at any time you can disable user accounts to prevent them logging in without deleting the user.
+	- Groups Tab : User permissions are provided by the groups they are a part of, any user can be a part any number of groups (ie, zero or more). By default, there are a few premade groups and roles that have been designed to give a level of access appropriate for specific user activities. Click here to see more information .
+	- Permissions Tab : Once a user is in at least one group, the permissions tab will be populated with all permissions that will be granted to that user. You can finely control the permissions each user has by disabling specific permissions without affecting any other user in the same group(s).
+
+
+H2s:
+Contents
+1. Introduction
+2. How Do I Add a New User Account?
+3. How Do I Add a Windows Active Directory Based Account?
+4. How Do I Change My Password
+5. How Do I Reset Another User's Password?
+6. How Do I Change the Privileges of a User Account?
+7. How Do I Modify a User's PLEXOS Solution Permissions?

@@ -1,0 +1,18 @@
+Header: Generator Total Cost
+
+Table Details:
+Units:	$000
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of fixed and variable costs
+
+Paragraphs:
+Generator Total Cost is calculated as:
+
+See also:
+Lists:
+	- Generator Levelized Cost
+

@@ -1,0 +1,21 @@
+Header: Charging Station Retirement Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring a unit
+
+Paragraphs:
+Charging Station Retirement
+          Cost is the one-time cost of retiring a unit in LT
+            Plan .
+
+See also:
+Lists:
+	- Charging Station Retirement
+              Cost
+

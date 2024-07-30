@@ -1,0 +1,12 @@
+Header: MT Schedule LDC Pin Bottom
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Number of points at the bottom of the LDC that are pinned and cannot be aggregated into blocks.
+
+Paragraphs:
+MT Schedule LDC Pin Bottom is the number of points at the bottom of the LDC that are pinned and cannot be aggregated into blocks. The default value of -1 represents "Auto" and lets the LDC Slicing Method decide how many points should be pinned.
+Lists:
+

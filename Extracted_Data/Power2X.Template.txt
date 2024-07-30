@@ -1,0 +1,11 @@
+Header: Power2X Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Power2X inherits from
+
+Paragraphs:
+Power2X Template is template the Power2X inherits from
+Lists:
+

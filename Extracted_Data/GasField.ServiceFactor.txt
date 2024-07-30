@@ -1,0 +1,15 @@
+Header: Gas Field Service Factor
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Proportion of Field capacity available in production
+
+Paragraphs:
+Gas Field Service Factor is the proportion of field capacity available in production i.e. net of capacity on Maintenance and/or Forced Outage.
+Lists:
+

@@ -1,0 +1,42 @@
+Header: Line Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building the line
+X-Y	Units	0	-
+X-Y	Max Flow	150	MW
+X-Y	Max Units Built	1	-
+X-Y	Build Cost	2000	$000
+X-Y	Economic Life	25	years
+X-Y	WACC	10	%
+X-Y	Build Cost	500	$/kW	1
+X-Y	Build Cost	500	$/kW	2
+X-Y	Build Cost	1000	$/kW	3
+
+Paragraphs:
+Line Build Cost as input is total 'overnight cost' of building the Line for the LT Plan algorithm. The Build Cost must be defined in combination with Economic Life and WACC as in this example:
+
+Note how the property Max Units Built is used to indicate that the Line is allowed to be built.
+
+Build Cost is a multi-band property. This allows user to model a stream of payments leading up to the time of build.
+
+Example
+
+Above example gives a series of payments in three years leading up to the commission date. It also implies that Line 'X-Y' needs three years to be built.
+
+This cost is either treated as a lump sum, if the Economic Life is entirely inside the planning horizon, or it is annualized as described in the LT Plan topic.
+
+See also:
+
+Line Build Cost as output is defined as:
+
+See also:
+Lists:
+	- Line FO&M Charge
+	- Line Retirement Cost
+

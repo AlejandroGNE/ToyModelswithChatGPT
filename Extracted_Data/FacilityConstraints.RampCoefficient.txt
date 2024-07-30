@@ -1,0 +1,27 @@
+Header: Facility Constraints Ramp Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of ramp
+
+Paragraphs:
+Facility Constraints Ramp Coefficient is the left-hand side coefficient of Ramp in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Facility Ramp ... {≤,
+            ≥, =} b j
+
+See also:
+Lists:
+	- Facility Constraints Ramp Up
+              Coefficient
+	- Facility Constraints Ramp Down
+              Coefficient
+

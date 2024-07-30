@@ -1,0 +1,19 @@
+Header: Power2X Formulate Non-convex
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Controls when integers are used to enforce clearing of marginal efficiency tranches in order
+
+Paragraphs:
+Power2X Formulate Non-convex
+          controls when integers are used to enforce clearing of marginal
+          efficiency tranches in order.
+
+Please see Generator Formulate Nonconvex for further details.
+Lists:
+

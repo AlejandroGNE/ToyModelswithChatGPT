@@ -1,0 +1,22 @@
+Header: Generator Pump Bid Base
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Base pump load for balancing bid
+
+Paragraphs:
+As an input Generator Pump Bid Base defines the day-ahead dispatch level around which the Pump Bid Quantity and Pump Bid Price are based.
+
+This is used for modelling Balancing Markets or real-time markets. Refer to that topic for details and examples.
+
+As an output Generator Pump Bid Base repeats the input value.
+
+See also:
+Lists:
+	- Generator Offer Base
+

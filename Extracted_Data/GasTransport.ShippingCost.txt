@@ -1,0 +1,15 @@
+Header: Gas Transport Shipping Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of shipping
+
+Paragraphs:
+Gas Transport Shipping Cost is cost of shipping (including the losses).
+Lists:
+

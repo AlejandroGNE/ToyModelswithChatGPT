@@ -1,0 +1,15 @@
+Header: Purchaser Cost to Load
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of energy purchases
+
+Paragraphs:
+Purchaser Cost to Load is defined as:
+Lists:
+

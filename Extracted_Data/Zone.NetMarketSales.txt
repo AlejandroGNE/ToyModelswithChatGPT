@@ -1,0 +1,21 @@
+Header: Zone Net Market Sales
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net sales to external energy markets
+
+Paragraphs:
+Zone Net Market Sales is the net sales to external energy markets and is defined as:
+
+See also:
+Lists:
+	- Zone Load
+	- Zone Generation
+	- Zone Net Interchange
+	- Zone Purchaser Load
+

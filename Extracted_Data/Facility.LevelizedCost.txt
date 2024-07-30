@@ -1,0 +1,36 @@
+Header: Facility Levelized Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Levelized cost of production
+
+Paragraphs:
+Facility Levelized Cost is 
+          is a measure of the average net present cost of electricity Production
+          for a facility over its lifetime. It is used for investment planning
+          and to compare different methods of electricity Production on a
+          consistent basis. The LCE "represents the average revenue per unit of
+          electricity generated that would be required to recover the costs of
+          building and operating a generating plant during an assumed financial
+          life and duty cycle", and is calculated as the ratio between all the
+          discounted costs over the lifetime of an electricity generating plant
+          divided by a discounted sum of the actual energy amounts delivered
+
+The value reported here is It is calculated as:
+
+Levelized Cost = Total
+            Cost / Production
+
+The Total Cost is the raw
+          value without discounting, thus to compute the true LCE you should
+          apply discounting.
+
+See also:
+Lists:
+	- Region LRMC
+

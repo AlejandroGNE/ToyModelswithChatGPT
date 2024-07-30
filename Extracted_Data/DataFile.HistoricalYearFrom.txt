@@ -1,0 +1,12 @@
+Header: Data File Historical Year From
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	First year read for historical sampling
+
+Paragraphs:
+Data File Historical Year From is the First year read from the data file for historical sampling.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Market Price Floor Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the price floor was applied
+
+Paragraphs:
+Market Price Floor Hours is Number of hours the price floor was applied.
+Lists:
+

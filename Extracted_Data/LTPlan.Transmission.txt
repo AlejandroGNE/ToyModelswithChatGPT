@@ -1,0 +1,11 @@
+Header: LT Plan Transmission
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Transmission settings for LT Plan
+
+Paragraphs:
+LT Plan Transmission is the Transmission settings for LT Plan. These override the settings associated with the Model .
+Lists:
+

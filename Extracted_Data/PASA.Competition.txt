@@ -1,0 +1,11 @@
+Header: PASA Competition
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Competition settings for PASA
+
+Paragraphs:
+PASA Competition is the Competition settings for PASA. These override the settings associated with the Model .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Region Gas Storage Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas Storage electric load
+
+Paragraphs:
+Region Gas Storage Load is the Gas Storage electric load on the Region.
+Lists:
+

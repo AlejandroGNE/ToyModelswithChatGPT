@@ -1,0 +1,15 @@
+Header: Battery Conditions Energy Coefficient
+
+Table Details:
+Units:	MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of energy stored in the BESS
+
+Paragraphs:
+Battery Conditions Energy Coefficient is the coefficient of energy stored in the BESS.
+Lists:
+

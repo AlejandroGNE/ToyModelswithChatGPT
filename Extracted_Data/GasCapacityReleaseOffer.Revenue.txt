@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total revenue from capacity released
+
+Paragraphs:
+Gas Capacity Release Offer Revenue is the sum of Revenue Adder and Revenue Basis multiplied by the Released Capacity in the interval.
+Lists:
+

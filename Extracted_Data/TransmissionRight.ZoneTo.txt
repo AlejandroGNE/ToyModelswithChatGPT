@@ -1,0 +1,11 @@
+Header: Transmission Right Zone To
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	zone for load in the transmission right
+
+Paragraphs:
+Transmission Right Zone To is the zone for load in the transmission right.
+Lists:
+

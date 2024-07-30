@@ -1,0 +1,17 @@
+Header: Charging Station Discharge Efficiency
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Efficiency of discharging
+
+Paragraphs:
+Charging Station Discharge
+          Efficiency is the ratio of power sent to the grid over total power
+          discharged from the batteries of the Vehicles attached i.e. including any inverter losses.
+Lists:
+

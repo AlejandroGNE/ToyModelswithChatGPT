@@ -1,0 +1,15 @@
+Header: Flow Storage Inventory Change
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Change in Commodity in inventory
+
+Paragraphs:
+Flow Storage Inventory Change is Change in Commodity in inventory.
+Lists:
+

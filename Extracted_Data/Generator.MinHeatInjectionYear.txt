@@ -1,0 +1,22 @@
+Header: Generator Min Heat Injection Year
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Amount of heat that must be injected into the storage each year
+
+Paragraphs:
+Generator Min Heat Injection Year is Amount of heat that must be injected into the storage each year.
+This is the annual variant of Min Heat Injection .
+
+See also:
+Lists:
+	- Generator Min Heat Injection Hour
+	- Generator Min Heat Injection Day
+	- Generator Min Heat Injection Week
+	- Generator Min Heat Injection Month
+

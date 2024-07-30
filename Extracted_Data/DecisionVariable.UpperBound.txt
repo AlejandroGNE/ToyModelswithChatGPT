@@ -1,0 +1,17 @@
+Header: Decision Variable Upper Bound
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Upper bound of the generic decision variable
+
+Paragraphs:
+Decision Variable Upper Bound is the upper bound (maximum allowed value) for the decision variables in the mathematical programming problem. The variables can take any value between the Lower Bound and this upper bound.
+
+Note that the bound may be scaled by the number of hours in each simulation period according to the setting of Time Invariant .
+Lists:
+

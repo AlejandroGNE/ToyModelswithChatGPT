@@ -1,0 +1,17 @@
+Header: Fleet Lower Reserve
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of lower (spin down) reserve
+
+Paragraphs:
+Fleet Lower Reserve is the provision of lower (spin down) reserve.
+
+See Battery Lower Reserve .
+Lists:
+

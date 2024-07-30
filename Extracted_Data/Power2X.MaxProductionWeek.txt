@@ -1,0 +1,16 @@
+Header: Power2X Max Production Week
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum production in week
+
+Paragraphs:
+Refer to Facility Max
+            Production Week for details.
+Lists:
+

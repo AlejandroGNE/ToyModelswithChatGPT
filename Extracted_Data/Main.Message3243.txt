@@ -1,0 +1,11 @@
+Header: Message 3243
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Constraint <name> should not define a negative Decision Variable Value Squared Coefficient when other linear terms are defined.
+
+Paragraphs:
+Message 3243 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Region Aggregate Transmission
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If transmission should be aggregated to the region level
+
+Paragraphs:
+Region Aggregate Transmission is a setting that controls when transmission should be aggregated to the Region level. It is used to perform simulations of selected Regions . The setting can have a Scenario applied.
+
+The setting can take these values:
+
+See also:
+Lists:
+	- Region Units
+

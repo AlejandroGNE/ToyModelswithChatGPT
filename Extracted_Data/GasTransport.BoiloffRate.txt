@@ -1,0 +1,15 @@
+Header: Gas Transport Boil off Rate
+
+Table Details:
+Units:	%/day
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate of boil off of gas during the voyage
+
+Paragraphs:
+Gas Transport Boil off Rate is rate of boil off of gas during the voyage.
+Lists:
+

@@ -1,0 +1,23 @@
+Header: Generator Units Sync Cond
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units operating in synchronous condenser mode
+
+Paragraphs:
+Generator Units Sync Cond is the
+          number of units operating in synchronous condenser mode i.e. synchronized to the grid but not generating. In this mode the
+          generator can provide spinning reserve as well as inertia . The
+          maximum number of units running in this mode is set by Sync
+            Cond Units .
+
+See also:
+Lists:
+	- Generator Sync
+              Cond Load
+

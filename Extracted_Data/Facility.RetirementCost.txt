@@ -1,0 +1,28 @@
+Header: Facility Retirement Cost
+
+Table Details:
+Units:	Input: $    Output: $000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring a unit
+
+Paragraphs:
+Facility Retirement Cost is
+              the one-time cost of retiring a unit in LT
+                Plan .
+
+As output Retirement Cost is defined as:
+
+Retirement Cost (output) = Retirement Cost (input) x Units
+                Retired
+
+See also:
+Lists:
+	- Facility Max
+              Units Retired
+	- Facility FO&M
+              Charge
+

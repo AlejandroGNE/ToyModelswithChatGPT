@@ -1,0 +1,15 @@
+Header: Flow Storage Net New Capacity
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity net of build and retire
+
+Paragraphs:
+Flow Storage Net New Capacity is Capacity net of build and retire.
+Lists:
+

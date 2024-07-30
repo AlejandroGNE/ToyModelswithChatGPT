@@ -1,0 +1,16 @@
+Header: Uniform Pricing
+
+Table Details:
+
+Paragraphs:
+In Uniform Pricing mode PLEXOS produces a single market price (SMP) i.e. one price for all transmission regions, zones, and nodes. The SMP is computed by relaxing certain constraints. PLEXOS solves this relaxed model automatically when in uniform pricing mode. In that phase, the following constraints are relaxed:
+
+In addition, the load used in computing SMP is net of pump storage generation. The result is a dispatch that obeys all generator technical limits (such as min stable levels, ramp rates) and whose pricing is driven by thermal generator marginal costs. In a second-phase of the simulation PLEXOS re-establishes the above constraints to produce the final transmission-feasible result. Settlements are made based on the SMP. If any of the above constraints are active, certain generators will require compensation for departures from the SMP generation levels. How these payments are computed is controlled by the Region Constraint Payments Compatibility property.
+Lists:
+	- Transmission line thermal limits ( Min Flow , Max Flow )
+	- Transmission interface limits ( Min Flow , Max Flow )
+	- Transmission Losses
+	- Generic Constraints
+	- Generator fixed load and min load
+	- Ancillary Service requirements
+

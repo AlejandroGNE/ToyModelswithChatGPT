@@ -1,0 +1,20 @@
+Header: Node Curtailable Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Curtailable (dispatchable) load
+
+Paragraphs:
+Node Curtailable Load is the available demand-side participation defined on the Nodes in the Region . Thus it is defined as:
+
+where:
+
+See also:
+Lists:
+	- Node Demand Curtailed
+

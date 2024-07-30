@@ -1,0 +1,33 @@
+Header: Process Secondary Outputs Operating Capacity Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient in production definition of the capacity of operating units at the Facility
+
+Paragraphs:
+Process Secondary
+            Output Operating Capacity Coefficient applies to each Facility implementing the process through the Facility Primary Process membership.
+          It is the coefficient in the production definition equation of the
+          capacity of Units Operating at the Facility . This input can be
+          used to define an output Commodity that is a function of the spare capacity of the Facility .
+
+For example, in an electricity production context, the upward
+          spinning reserve 'output' of a generation facility is limited by the
+          maximum operating level so:
+
+Spinning Reserve Up = Maximum Operating
+          Level × Units Operating - Production
+
+In this case Operating Capacity Coefficient is 1.
+
+See also:
+Lists:
+	- Process Primary
+              Output Operating
+              Capacity Coefficient
+

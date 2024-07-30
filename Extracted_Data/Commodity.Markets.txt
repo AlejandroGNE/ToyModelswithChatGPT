@@ -1,0 +1,12 @@
+Header: Commodity Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Markets the Commodity is traded in
+
+Paragraphs:
+Commodity Markets associates one or
+          more Markets with supply of, or demand for, the Commodity.
+Lists:
+

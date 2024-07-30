@@ -1,0 +1,22 @@
+Header: Reserve Generators Min Regulation Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum regulation reserve provision when units are in the regulation range
+
+Paragraphs:
+Reserve Generators Min Regulation Provision is the minimum regulation reserve provision when units are in the regulation range . The following constraint is added to the mathematical programming problem:
+
+Thus the minimum applies only when the generator is 'on' and inside its regulation range .  Note further that if Reserve Unit Commitment is toggled 'on' then the above constraint is applied if-and-only-if the units are selected for reserve provision.
+
+See also:
+Lists:
+	- Reserve Generators Min Provision
+	- Reserve Generators Min Spinning Provision
+	- Reserve Generators Max Response
+

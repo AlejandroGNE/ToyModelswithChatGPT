@@ -1,0 +1,16 @@
+Header: Stochastic SDDP Head Effects
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If head effects are accounted for in SDDP iterations
+
+Paragraphs:
+Stochastic SDDP Head Effects  is an advanced option for the SDDP algorithm.
+
+When enabled, this option triggers the updating of hydro Generator efficiency functions based
+          on the initial storage at each stage.Refer to the article Hydro
+            Efficiency and Head Effects for details.
+Lists:
+

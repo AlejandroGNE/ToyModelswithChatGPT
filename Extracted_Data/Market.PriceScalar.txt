@@ -1,0 +1,15 @@
+Header: Market Price Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar on market price
+
+Paragraphs:
+Market Price Scalar is the scalar on market price.
+Lists:
+

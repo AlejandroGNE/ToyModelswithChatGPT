@@ -1,0 +1,27 @@
+Header: ST Schedule Sequential Steps
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of steps run in each sequential block when running in parallel Step Link Mode
+
+Paragraphs:
+ST Schedule Sequential Steps
+          applies when Step Link Mode = "Parallel".  It defines the number of steps that should be run
+          together in a regular sequential (linked) block. These blocks of steps
+          are then run in parallel.
+
+For example, if the ST Schedule Step Type = "Day" and At
+            a Time = 1 (i.e. ST Schedule is running day steps) and you set
+          Sequential Steps = 7 then each block of 7 days will run as a regular
+          sequential simulation with ending conditions of one day feeding the
+          initial conditions of the next, and parallelization will be applied to
+          each block of 7 days with the optimization free to choose initial
+          conditions every 7 days.
+
+Note that you can also apply relinking between the parallel blocks of steps, however it is generally better
+          to set a longer group of Sequential Steps than trigger relinking
+          between the step groups.
+Lists:
+

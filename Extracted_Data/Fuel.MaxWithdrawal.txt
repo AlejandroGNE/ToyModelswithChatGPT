@@ -1,0 +1,28 @@
+Header: Fuel Max Withdrawal
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of fuel that can be taken from stockpile
+
+Paragraphs:
+Fuel Max Withdrawal is the maximum
+          amount of fuel that can be taken from stockpile in any interval .
+
+See also:
+Lists:
+	- Fuel Max
+              Withdrawal Hour
+	- Fuel Max
+              Withdrawal Day
+	- Fuel Max
+              Withdrawal Week
+	- Fuel Max
+              Withdrawal Month
+	- Fuel Max
+              Withdrawal Year
+

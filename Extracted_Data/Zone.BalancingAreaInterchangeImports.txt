@@ -1,0 +1,15 @@
+Header: Zone Balancing Area Interchange Imports
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Financial imports to the zone.
+
+Paragraphs:
+Zone Balancing Area Interchange Imports is the total financial imports to the Zone from other Zones.
+Lists:
+

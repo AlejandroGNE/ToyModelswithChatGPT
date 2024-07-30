@@ -1,0 +1,15 @@
+Header: Heat Storage Retirement Storage
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Indicates if the heat storage is eligible for retirement planning
+
+Paragraphs:
+Heat Storage Retirement Storage is Indicates if the heat storage is eligible for retirement planning.
+Lists:
+

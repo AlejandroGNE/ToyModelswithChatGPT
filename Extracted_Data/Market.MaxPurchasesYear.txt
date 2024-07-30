@@ -1,0 +1,23 @@
+Header: Market Max Purchases Year
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum purchase from the market each year
+
+Paragraphs:
+Market Max Purchases Year creates a Constraint object that sets an
+          upper bound on the Purchases from
+          the Market each year. By default this is a 'hard' constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Year
+	- Market Constraints Purchases
+              Coefficient
+

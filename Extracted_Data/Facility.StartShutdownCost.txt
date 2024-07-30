@@ -1,0 +1,28 @@
+Header: Facility Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of unit start up and shutdown
+
+Paragraphs:
+Facility Start & Shutdown Cost
+          is the cost incurred for starting and shutting down units
+
+For chronological simulation phases (see LT Plan Chronology, MT
+          Schedule Chronology and ST
+            Schedule ) this is:
+
+Start & Shutdown Cost = Start
+            Cost × Units Started + Shutdown Cost × Units
+            Shutdown
+
+See also:
+Lists:
+	- Facility Start
+              & Shutdown Penalty Cost
+

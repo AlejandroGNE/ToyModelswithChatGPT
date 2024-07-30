@@ -1,0 +1,19 @@
+Header: LT Plan Sample Year Count
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	For [Chronology] = "Sampled", first select this many years then sample within only those years.
+
+Paragraphs:
+For Chronology = "Sampled", when
+          this Sample Year Count is set, Sample
+            Reduction Algorithm will be invoked firstly select this many
+          years then sample within only those years statistically. Another
+          option is to enter a list of sample years manually via Globals Sampled Year .
+
+Please note these two options only work with Sampled Chronology in LT Plan , and the simulation runs in one single step for the whole horizon. This means using Fitted/Partial Chronology or Rolling
+              Horizon solution method would result in the sample year settings being ignored.
+Lists:
+

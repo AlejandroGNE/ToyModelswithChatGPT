@@ -1,0 +1,15 @@
+Header: Gas Node Facilities Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Gas consumption for each unit of consumption
+
+Paragraphs:
+Gas Node Facilities Consumption Coefficient is Gas consumption for each unit of consumption.
+Lists:
+

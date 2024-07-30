@@ -1,0 +1,15 @@
+Header: Gas Contract Quantity Day Built
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Expansion quantity daily gas offtake associated with the contract
+
+Paragraphs:
+Gas Contract Quantity Day Built is Expansion quantity daily gas offtake associated with the contract.
+Lists:
+

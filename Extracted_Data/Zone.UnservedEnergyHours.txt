@@ -1,0 +1,19 @@
+Header: Zone Unserved Energy Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of unserved energy (USE).
+
+Paragraphs:
+Zone Hours of Unserved Energy is the total number hours in which there was any level of Unserved Energy .
+
+See also:
+Lists:
+	- Zone Hours of Dump Energy
+	- Transmission Internal VoLL
+

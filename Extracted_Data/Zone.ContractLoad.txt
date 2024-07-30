@@ -1,0 +1,18 @@
+Header: Zone Contract Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load from physical contracts
+
+Paragraphs:
+Zone Contract Load is the total load from Load Contracts in the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Contract Generation
+

@@ -1,0 +1,24 @@
+Header: Reserve Batteries Response Ratio
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ratio that converts energy ramping to units comparable to reserve ramping units
+
+Paragraphs:
+Reserve Batteries Response Ratio is the ratio that converts energy ramping to units
+          comparable to reserve ramping units. Response Ratio defines the ratio
+          at which the battery can provide reserve in proportion to its ramping
+          capabilities. It has to be defined along with Reserve Time Frame and
+          battery's ramp limits (ie. Max Ramp Up and Max Ramp Down). Response
+          Ratio has a direct impact on both battery's ramping limits and reserve
+          response. They are mutually exclusive, which means that if the battery
+          is ramping up/down in consecutive periods, it should limit the
+          response reserve in proportion to the Response Ratio value. See also Reserve Generators
+            Response Ratio for more details.
+Lists:
+

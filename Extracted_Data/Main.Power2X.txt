@@ -1,0 +1,12 @@
+Header: Power2X Class
+
+Table Details:
+Description:	Facility to convert electric power to hydrogen and then gas or other products
+
+Paragraphs:
+See also Power2X Property Reference for a detailed list of properties for this class of object.
+
+Refer to the article Power2X
+            Modeling for details.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Reserve Power2X Provision
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Reserve provision
+
+Paragraphs:
+Reserve Power2X Provision is Reserve provision.
+Lists:
+

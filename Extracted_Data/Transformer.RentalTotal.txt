@@ -1,0 +1,19 @@
+Header: Transformer Rental Total
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Transmission rent
+
+Paragraphs:
+Transformer Rental Total is the economic rent on the transformer due to congestion and losses. Includes flow/shadow price for base case and a sum of post-contingency flow multiplied by post-contingency shadow price, for all contingencies that the element is binding under.—see Line Rental for more information.
+
+See also:
+Lists:
+	- Transformer Rental
+	- Transformer Rental Back
+

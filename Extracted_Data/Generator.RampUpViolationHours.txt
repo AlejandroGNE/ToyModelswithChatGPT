@@ -1,0 +1,19 @@
+Header: Generator Ramp Up Violation Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of [Max Ramp Up] violation.
+
+Paragraphs:
+Generator Ramp Up Violation Hours is the number of hours that the Max Ramp Up constraint is violated.
+
+See also:
+Lists:
+	- Generator Ramp Up Violation
+	- Generator Ramp Up Violation Cost
+

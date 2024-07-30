@@ -1,0 +1,15 @@
+Header: Market Constraints Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of market purchase costs
+
+Paragraphs:
+Market Constraints Cost Coefficient is Coefficient of market purchase costs. It only works when market IsMarginal is disabled.
+Lists:
+

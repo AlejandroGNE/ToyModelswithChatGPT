@@ -1,0 +1,15 @@
+Header: Vehicle Latitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Latitude
+
+Paragraphs:
+Vehicle Latitude is the decimal representation of latitude for the Vehicle .
+                Latitude is used in combination with Longitude to set coordinates for the Vehicle when visualizing the power system.
+
+See the User Interface Guide for more details.
+Lists:
+

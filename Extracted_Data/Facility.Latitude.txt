@@ -1,0 +1,18 @@
+Header: Facility Latitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Latitude
+
+Paragraphs:
+Facility Latitude is the decimal
+          representation of the latitude for the Facility. Latitude is used in
+          combination with Longitude to
+          set coordinates when visualizing the system.
+
+See the User
+            Interface Guide for more details.
+Lists:
+

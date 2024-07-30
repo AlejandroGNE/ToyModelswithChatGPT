@@ -1,0 +1,22 @@
+Header: Battery Max Power
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Power at full discharge
+
+Paragraphs:
+Battery Max Power is the power at full discharge measured at the connection point i.e. excluding inverter losses. This is illustrated in the following example:
+
+
+
+See also:
+Lists:
+	- Generation
+	- Discharge Efficiency
+	- Max Load
+

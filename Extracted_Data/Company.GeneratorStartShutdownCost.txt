@@ -1,0 +1,15 @@
+Header: Company Generator Start & Shutdown Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total cost of generation unit starts
+
+Paragraphs:
+Company Start & Shutdown Cost is the total cost incurred by the company's generator for starting up and shutting down, and is defined as:
+Lists:
+

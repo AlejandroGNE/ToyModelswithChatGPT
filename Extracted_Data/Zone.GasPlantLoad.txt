@@ -1,0 +1,15 @@
+Header: Zone Gas Plant Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas Plant electric load
+
+Paragraphs:
+Zone Gas Plant Load is Gas Plant electric load.
+Lists:
+

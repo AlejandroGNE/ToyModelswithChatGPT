@@ -1,0 +1,15 @@
+Header: Heat Plant Build Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of building a unit
+
+Paragraphs:
+Heat Plant Build Cost is Cost of units built.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Flow Network Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Flow Network
+
+Paragraphs:
+Flow Network Constraints is set of Constraints on the Flow Network
+Lists:
+

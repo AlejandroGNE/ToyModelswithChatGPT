@@ -1,0 +1,12 @@
+Header: Diagnostic Unserved Energy
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics each time USE occurs at a node
+
+Paragraphs:
+This option produces a diagnostic file in XML format that lists every period that Unserved Energy occurs at any Node .
+Lists:
+

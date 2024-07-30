@@ -1,0 +1,15 @@
+Header: Gas Storage Reservation Charge
+
+Table Details:
+Units:	$/~/month
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Reservation charge for gas storage
+
+Paragraphs:
+Gas Storage Reservation Charge is a charge for every unit of gas the storage reserves, as defined by Reservation Volume .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Power2X Total System Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total system cost including VO&M, start and shutdown costs, and ramp costs
+
+Paragraphs:
+Power2X Total System Cost is Total system cost including VO&M, start and shutdown costs, and ramp costs.
+Lists:
+

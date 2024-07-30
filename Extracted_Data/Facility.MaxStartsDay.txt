@@ -1,0 +1,28 @@
+Header: Facility Max Starts Day
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of starts allowed in a day
+
+Paragraphs:
+Facility Max Starts Day sets an
+          upper bound on the number of Units
+            Started in each day of the simulation. See Max
+            Starts for more details.
+
+See also:
+Lists:
+	- Facility Max
+              Starts Hour
+	- Facility Max
+              Starts Week
+	- Facility Max
+              Starts Month
+	- Facility Max
+              Starts Year
+

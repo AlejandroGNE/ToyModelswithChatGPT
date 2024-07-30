@@ -1,0 +1,15 @@
+Header: Flow Control Shadow Price
+
+Table Details:
+Units:	$/°
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow (expansion) price
+
+Paragraphs:
+Flow Control Shadow Price is optimal dual variable values associated with the angle/voltage/impedance bounds constraints.
+Lists:
+

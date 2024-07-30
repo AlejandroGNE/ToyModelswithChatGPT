@@ -1,0 +1,21 @@
+Header: Transformer Violation Back Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the flow limit is violated in the counter-reference direction.
+
+Paragraphs:
+Transformer Violation Back Hours is a summary property that is the number of hours in the summary period (day/week/month/year) that the Transformer Flow is greater than the Rating in the counter-reference direction. Violations of flow limits are allowed only if the LimitPenalty is defined.
+
+See also:
+Lists:
+	- Violation Hours
+	- Violation
+	- Violation Back
+	- Violation Cost
+

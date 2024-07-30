@@ -1,0 +1,12 @@
+Header: Stochastic Risk Sample Count
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	≥1
+Description:	Number of random samples generated on each Variable object.
+
+Paragraphs:
+Model Risk Sample Count sets the total number of stochastic samples drawn for all Variables . This can be different to the number of Outage Pattern Count and always takes precedence over that setting when stochastic variables are defined in a model.
+Lists:
+

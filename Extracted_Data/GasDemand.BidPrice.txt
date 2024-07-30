@@ -1,0 +1,18 @@
+Header: Gas Demand Bid Price
+
+Table Details:
+Units:	Input: $/~    Output: $/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of gas in band
+
+Paragraphs:
+Gas Demand Bid Price is the value of gas in the band (demand step function).
+
+See also:
+Lists:
+	- Bid Quantity .
+

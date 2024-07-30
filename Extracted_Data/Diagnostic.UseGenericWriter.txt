@@ -1,0 +1,21 @@
+Header: Diagnostic Use Generic Writer
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Use generic writer for LP and solution files
+
+Paragraphs:
+Different solvers have different format, suffix and number notation for their LP and solution files, which makes it is difficult to compare LP or solution files produced by different solvers.  The "Generic Writer" is a tool that allows the LP and solution format, for all supported solvers, to be written out in a unified format. For example:
+Lists:
+	- Algebraic Files
+	- Sort Row Column Names
+	- Standardize Names
+	- Skip Zero Values
+	- Strip Model Name
+	- Zero Tolerance LP
+	- Zero Tolerance SOL
+	- Decimal Places LP
+	- Decimal Places SOL
+

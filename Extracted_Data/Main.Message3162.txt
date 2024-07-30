@@ -1,0 +1,15 @@
+Header: Message 3162
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	<value> <name> doesn't define property <value>. The preschedule for the object will be ignored.
+
+Paragraphs:
+The following properties are considered as the key properties for generating outage patterns, message 3162 occurs if they are not defined.
+Lists:
+	- Max Flow or Max Flow Day ( Gas Pipeline )
+	- Max Production ( Gas Plant )
+	- Max Production or Max Production Day ( Gas Field )
+	- Max Withdrawal or Max Withdrawal Day ( Gas Storage )
+

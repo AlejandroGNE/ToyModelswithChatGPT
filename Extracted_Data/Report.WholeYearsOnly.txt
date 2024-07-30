@@ -1,0 +1,12 @@
+Header: Report Whole Years Only
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If reporting should be on whole years only
+
+Paragraphs:
+Report Whole Years Only causes partial years of the planning horizon to be dropped from reporting, with the exception of a partial first year. This option is useful when the planning horizon is set to a number of weeks, but the solution required is for exact years.
+Lists:
+

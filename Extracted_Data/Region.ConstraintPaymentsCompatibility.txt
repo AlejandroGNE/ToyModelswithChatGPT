@@ -1,0 +1,25 @@
+Header: Region Constraint Payments Compatibility
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (1,2)
+Key Property:	No
+Description:	Constraint payments compatibility (match to market being modeled)
+
+Paragraphs:
+Region Constraint Payments Compatibility controls the algorithm used to compute constraint payments .
+
+An algorithm that mimics operation of a cost-based pool (similar to the Korean CBP).
+
+An algorithm similar to the Irish SEM.
+
+Constraint payments apply to the uniform pricing algorithm only.
+
+See also:
+Lists:
+	- Region Constrained Off Cost
+	- Region Constrained On Cost
+

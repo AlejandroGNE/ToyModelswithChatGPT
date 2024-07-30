@@ -1,0 +1,15 @@
+Header: Company Waste Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Waste heat from generation
+
+Paragraphs:
+Company Waste Heat is Waste heat from generation.
+Lists:
+

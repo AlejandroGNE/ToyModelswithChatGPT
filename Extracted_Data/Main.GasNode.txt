@@ -1,0 +1,15 @@
+Header: Gas Node Class
+
+Table Details:
+Description:	Connection point in gas network
+
+Paragraphs:
+See also Gas Node Property Reference for a detailed list of properties for this class of object.
+
+All other Gas Model objects connect to Gas Node objects via memberships.
+
+The Electric Model connects to the Gas Model via Generator Gas Node and Gas Nodes memberships. Note that you must define both these memberships for the connection to be recognized i.e. a Generator must use a Fuel that is connected to the Gas Model.
+
+See the Gas Modelling article for details.
+Lists:
+

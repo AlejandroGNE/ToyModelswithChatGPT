@@ -1,0 +1,20 @@
+Header: Gas Field Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the gas field is on forced outage of production
+
+Paragraphs:
+Gas Field Forced Outage Hours is the number of hours the gas field is on forced outage of production.
+
+See also:
+Lists:
+	- Gas Field Maintenance Hours
+	- Gas Field Units Out
+	- Gas Field Service Factor
+

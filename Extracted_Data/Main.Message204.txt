@@ -1,0 +1,11 @@
+Header: Message 204
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	The Escalator [Compound Start Date] is <value> years outside of the current horizon.
+
+Paragraphs:
+Message 204 occurs in the following circumstances:
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Financial Contract Purchasing Companies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	purchasing party or parties
+
+Paragraphs:
+Financial Contract Purchasing Companies is the purchasing party or parties to the Financial Contract.
+Lists:
+

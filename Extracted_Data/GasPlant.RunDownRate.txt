@@ -1,0 +1,15 @@
+Header: Gas Plant Run Down Rate
+
+Table Details:
+Units:	~/min
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Ramp rate that applies while running the unit down from [Min Stable Level] to zero
+
+Paragraphs:
+Gas Plant Run Down Rate is Ramp rate that applies while running the unit down from [Min Stable Level] to zero.
+Lists:
+

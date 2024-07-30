@@ -1,0 +1,24 @@
+Header: Commodity Capacity Built
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity built
+
+Paragraphs:
+Commodity Capacity Built is the
+          additional inventory capacity built in LT
+            Plan , and is defined as:
+
+Capacity Built = Units
+            Built × Max Inventory
+
+See also:
+Lists:
+	- Commodity Capacity
+              Retired
+

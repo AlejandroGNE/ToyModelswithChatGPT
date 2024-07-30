@@ -1,0 +1,11 @@
+Header: Gas Node Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Gas Node
+
+Paragraphs:
+Gas Node Constraints is set of Constraints on the Gas Node
+Lists:
+

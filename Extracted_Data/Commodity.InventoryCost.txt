@@ -1,0 +1,18 @@
+Header: Commodity Inventory Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of holding the Commodity in inventory
+
+Paragraphs:
+Commodity Inventory Cost is the
+          cost of holding the Commodity in inventory based on Closing
+            Inventory and Inventory
+            Charge .
+Lists:
+

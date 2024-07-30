@@ -1,0 +1,11 @@
+Header: Message 3075
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	For Horizon Typical Week mode ST Schedule must span one week, e.g. 1 step of 1 week, 7 steps of 1 day, 168 steps of 1 hour, etc.
+
+Paragraphs:
+Message 3075 occurs in the following circumstances:
+Lists:
+

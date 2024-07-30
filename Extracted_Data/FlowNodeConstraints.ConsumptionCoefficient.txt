@@ -1,0 +1,21 @@
+Header: Flow Node Constraints Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of Commodity consumption at the Flow Node in the Constraint
+
+Paragraphs:
+Flow Node Constraints Consumption Coefficient is the left-hand side coefficient of the Consumption in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Flow
+            Node Consumption ... {≤, ≥, =} b j
+Lists:
+

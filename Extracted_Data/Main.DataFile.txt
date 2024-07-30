@@ -1,0 +1,17 @@
+Header: Data File Class
+
+Table Details:
+Description:	Reference to an external text file
+Base Profile	-	False	0		False	Base profile for use in creating new profiles
+Energy	-	False	0		False	Energy of the created profile
+Filename	-	True	0		False	Data file used in the simulation
+Holiday	Yes/No	True	0	In (0,-1)	False	Flag for holiday period that must be preserved
+Max Value	-	False	1E+30		False	Maximum value allowed after application of the growing algorithm.
+Maximum	-	False	0		False	Maximum value of the created profile
+Min Value	-	False	-1E+30		False	Minimum value allowed after application of the growing algorithm.
+Minimum	-	False	0		False	Minimum value of the created profile
+
+Paragraphs:
+
+Lists:
+

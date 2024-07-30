@@ -1,0 +1,19 @@
+Header: Cournot Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price in the Nash-Cournot equilibrium solution
+
+Paragraphs:
+Cournot Price is price (P * ) at the Nash-Cournot equilibrium solution.
+
+See also:
+Lists:
+	- Cournot Demand
+	- Cournot Perfect Competition Price
+

@@ -1,0 +1,15 @@
+Header: Battery Firm Capacity Unit Count
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	The total number of units installed in band corresponding to the same band of [Firm Capacity]
+
+Paragraphs:
+Battery Firm Capacity Unit Count is the total number of units installed in the band corresponding to the same band of Firm Capacity .
+Lists:
+

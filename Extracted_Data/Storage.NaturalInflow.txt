@@ -1,0 +1,41 @@
+Header: Storage Natural Inflow
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Rate of natural inflow
+BIG	Max Volume	150	GWh	1	
+BIG	Initial Volume	100	GWh	1	
+BIG	Natural Inflow	0	MW	1	INFLOWS.csv
+
+Paragraphs:
+As an input, Storage Natural Inflow
+          is the rate of natural inflow to the storage. When the Storage Model is set to "Potential Energy"
+          this property is in megawatts of potential energy i.e. it is
+          a equivalent rate of inflow not the volume of inflow. When the Model is "Level" or metric "Volume" it is the rate of inflow in native units
+          of storage per second e.g. cubic metres per second (cumecs).
+          In the Imperial US "Volume" Model the units are AF/hr. Thus the units for natural inflow are independent
+          of the length of the simulation intervals.
+
+Often it is convenient to point the input of Natural Inflow to a Data File as in the this example:
+
+Example:
+
+As an output the property is calculated as:
+
+The increment and scaling properties can be used to apply
+          combinations of Escalator and Variable to the Natural Inflow.
+
+See also:
+Lists:
+	- Storage Max
+              Volume
+	- Storage Initial
+              Volume
+	- Generator Natural
+              Inflow
+

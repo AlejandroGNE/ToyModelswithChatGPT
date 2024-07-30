@@ -1,0 +1,41 @@
+Header: Gas Path Class
+
+Table Details:
+Description:	Gas shipment path
+
+Paragraphs:
+See also Gas Path Property Reference for a detailed list of properties for this class of object.
+
+The Gas Path Class allows you to create objects that model the flow of gas along different paths. The object must be Enabled for the Gas Path to appear in your system.
+
+A Gas Path can have memberships with multiple Gas Transports and Gas Nodes , and vice-versa.
+		When a Gas Transport is connected to multiple Gas Paths, it can choose which path to take to best serve the Gas Demands . If a Gas Transport
+		also has an Export Node and an Import Node defined, then this is considered as another Gas Path
+		that the Gas Transport can take.
+
+A Gas Path essentially defines a set of Gas Nodes that a Gas Transport can deliver gas to. The order in which the Gas Transport delivers gas to the Gas Nodes is set using the Sequence property. A Sequence value of 1 specifies the origin node for the Gas Path. 
+		A Sequence value of 2 indicates the next Gas Node that the Gas Transport would visit, and so on. 
+		The Voyage Time specifies the amount of time required for the gas transport to travel from one Gas Node to the next. 
+		The images below demonstrate how values can be specified for Sequence and Voyage Time in PLEXOS, with the Parent Object specified as the desired Node.
+
+In the above screenshot, the Gas Path Path_1 has a membership with three Gas Nodes (gn1, gn2, gn3). gn1 is the export
+		node. Hence, it has a Sequence value of 1. The next node in the Gas Path is gn2. So, it has a Sequence value
+		of 2, and so on.
+
+The Voyage Time specified on gn2 is the time taken by the Gas transport to travel from gn1 to gn2 on Path_1. 
+		The Voyage Time specified on gn3 is the time taken to travel from gn2 to gn3 on Path_1. 
+		The Voyage Time specified on gn1 is the time taken for the return journey on Path_1, i.e., 
+		travel from gn3 to gn1. For example, in the above screenshot, the Gas transport sets out on Path_1 from the Export node (gn1) and reaches gn2 after 2 days. It delivers gas to gn2,
+		and starts its journey to gn3 and reaches gn3 after 2 more days. The Gas transport delivers gas to gn3 and starts its return journey to gn1 and reaches gn1 after one day.
+		Hence, the total return journey time for the Gas Transport on Path_1 in the above case is 2 + 2 + 1 = 5 days.
+
+If the Gas transport has Loading Time and Discharge Time specified, then these times also
+		get added to the time taken for delivering the gas. Please note that the Loading Time is applicable only for the Export node and the Discharge Times are applicable for all nodes except the Export node.
+
+If the Gas Transport has an Export Node and an Import Node defined, then Voyage time
+		defined on the Gas Transport is considered as the voyage time for the journey from the Export node to the Import node. The return journey voyage time for this Gas Path is considered 
+		to be zero.
+
+See the Gas Modelling article to learn more about modeling gas systems in PLEXOS.
+Lists:
+

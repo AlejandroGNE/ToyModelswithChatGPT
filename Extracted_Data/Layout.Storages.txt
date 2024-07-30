@@ -1,0 +1,11 @@
+Header: Layout Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Storage objects in the Layout
+
+Paragraphs:
+Layout Storages is set of Storage objects in the Layout
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Global FCF Sample Map
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	≥1
+Key Property:	No
+Description:	Future Cost Function: historical sample to full branch sample map
+
+Paragraphs:
+Global FCF Sample Map is Future Cost Function: historical sample to full branch sample map.
+Lists:
+

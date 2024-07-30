@@ -1,0 +1,20 @@
+Header: Region Cost of Dump Energy
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of dump energy
+
+Paragraphs:
+Region Cost of Dump Energy is the cost of dump energy (over generation) and defined as:
+
+See also:
+Lists:
+	- Region Hours of Dump Energy
+	- Region Cost of Dump Energy
+	- Region Cost of Unserved Energy
+

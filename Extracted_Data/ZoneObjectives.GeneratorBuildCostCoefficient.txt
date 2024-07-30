@@ -1,0 +1,15 @@
+Header: Zone Objectives Generator Build Cost Coefficient
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of total cost of generator builds
+
+Paragraphs:
+Zone Objectives Generator Build Cost Coefficient is Coefficient of total cost of generator builds.
+Lists:
+

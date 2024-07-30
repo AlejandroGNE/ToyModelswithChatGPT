@@ -1,0 +1,24 @@
+Header: Fuel Max Inventory
+
+Table Details:
+Units:	1000·~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum fuel allowed in stockpile
+
+Paragraphs:
+Fuel Max Inventory is the maximum fuel
+          allowed in stockpile. A Inventory
+            Charge can be applied to capacity used, while a Reservation
+            Charge can be applied for any unused capacity.
+
+See also:
+Lists:
+	- Fuel Min
+              Inventory
+	- Fuel Closing
+              Inventory
+

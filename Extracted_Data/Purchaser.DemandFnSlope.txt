@@ -1,0 +1,15 @@
+Header: Purchaser Demand Fn Slope
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≤0
+Key Property:	No
+Description:	Demand function slope
+
+Paragraphs:
+Purchaser Demand Fn Slope is used in combination with Demand Fn Intercept to define a linear demand function for the purchaser. This representation of load is an alternative to the step bid function defined using Bid Quantity and Bid Price .
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Scheduled Offer Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Area cleared under generator offer curve in unconstrained schedule (uniform pricing only)
+
+Paragraphs:
+Generator Scheduled Offer Cost
+Lists:
+

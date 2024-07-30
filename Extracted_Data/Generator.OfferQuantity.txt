@@ -1,0 +1,54 @@
+Header: Generator Offer Quantity
+
+Table Details:
+Units:	MW
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Quantity offered in band
+Offer Quantity	140	MW	1
+Offer Quantity	50	MW	2
+Offer Quantity	50	MW	3
+Offer Quantity	50	MW	4
+Offer Quantity	90	MW	5
+Offer Price	0	$/MWh	1
+Offer Price	18	$/MWh	2
+Offer Price	22	$/MWh	3
+Offer Price	30	$/MWh	4
+Offer Price	5000	$/MWh	5
+Offer Quantity	0	MW	1
+Offer Quantity	140	MW	2
+Offer Quantity	190	MW	3
+Offer Quantity	240	MW	4
+Offer Quantity	290	MW	5
+Offer Quantity	380	MW	6
+Offer Price	0	$/MWh	1
+Offer Price	18	$/MWh	2
+Offer Price	22	$/MWh	3
+Offer Price	30	$/MWh	4
+Offer Price	5000	$/MWh	5
+
+Paragraphs:
+As an input Generator Offer Quantity defines the quantity part of a multi-band generation offer for each of the Generator Units .
+
+Offer Quantity is either an incremental or cumulative value as determined by the Offer Quantity Format setting.
+
+Examples
+
+An offer in incremental format:
+
+An offer in cumulative format:
+
+Note that for Balancing Markets (or real-time) some Offer Quantity value may be negative to represent decr offers below the defined Offer Base .
+
+When the Uplift Compatibility attribute is set to "Irish SEM" the total quantity offered is extended automatically by the simulator so that it is at least the Rated Capacity . This is done by extending the megawatts in the last non-zero offer band. In all other cases the total quantity offered acts as a upper limit on the Generation per generating unit.
+
+As an output Offer Quantity either reports the input Offer Quantity in incremental style, or reports the equivalent Offer Quantity corresponding to the incremental cost curve of the Generator as dictated by the Max Heat Rate Tranches setting. The incremental cost across each band is reported as Offer Price .
+
+See also:
+Lists:
+	- Generator Offer Quantity Scalar
+	- Generator Offer Price Scalar
+

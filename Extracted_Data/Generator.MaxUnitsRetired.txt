@@ -1,0 +1,58 @@
+Header: Generator Max Units Retired
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum number of units automatically retired in aggregate over the planning horizon
+Old Coal	Units	1	-
+Old Coal	Max Capacity	500	MW
+Old Coal	FO&M Charge	50	$/kW/year
+Old Coal	Max Units Retired	1	-
+Old Coal	Retirement Cost	10000	$000
+CCGT Stage 1	Units	0	-
+CCGT Stage 1	Max Capacity	90	MW
+CCGT Stage 1	Max Units Built	2	-
+CCGT Stage 1	Build Cost	1200	$/kW
+CCGT Stage 1	Economic Life	25	years
+CCGT Stage 1	WACC	10	%
+CCGT Stage 1	Max Units Retired	2	-
+CCGT Stage 2	Units	0	-
+CCGT Stage 2	Max Capacity	355	MW
+CCGT Stage 2	Max Units Built	1	-
+CCGT Stage 2	Build Cost	700	$/kW
+CCGT Stage 2	Economic Life	25	years
+CCGT Stage 2	WACC	10	%
+
+Paragraphs:
+Generator Max Units Retired is
+          the maximum number of units automatically retired in aggregate over
+          the planning horizon by LT Plan . The
+          cost of retiring a unit is given by Retirement
+            Cost . The unit(s) must exist at some time in the planning
+          horizon for there to be retirements i.e. you must define either Units (retiring existing units) or Max
+            Units Built (building and retiring units in the same run).
+
+Max Units Retired can also be used to retire a stage of a multi-stage
+          build as in the following example:
+
+Here the Generator "CCGT Stage 1"
+          represents the first stage of CCGT, being two open-cycle gas turbines.
+          "CCGT Stage 2" is the second stage when the heat recovery steam
+          turbine is added. The two Generator build and retire decisions must be linked logically by Constraints using the coefficients Units
+            Built Coefficient , Units
+            Retired Coefficient , Units
+            Built in Year Coefficient , and Units
+            Retired in Year Coefficient as described in the article Capacity
+            Expansion Planning .
+
+See also:
+Lists:
+	- Generator Max
+              Units Retired in Year
+	- Generator Min
+              Units Retired
+

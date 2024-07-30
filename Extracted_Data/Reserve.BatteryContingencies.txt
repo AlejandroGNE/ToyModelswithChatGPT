@@ -1,0 +1,11 @@
+Header: Reserve Battery Contingencies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of batteries that are contingencies
+
+Paragraphs:
+Reserve Battery Contingencies is the set of batteries that are contingencies. Battery Generation combined with Provision in this set is considered when setting the reserve requirement (or Risk ). Note that you can scale the proportion of risk considered using the Risk Adjustment Factor .
+Lists:
+

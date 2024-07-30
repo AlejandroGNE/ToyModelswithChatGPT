@@ -1,0 +1,15 @@
+Header: Constraint Hours Active
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Constraint is active.
+
+Paragraphs:
+Constraint Hours Active applies to conditional constraints . It is the number of hours that the Constraint is active due to the applied Conditions.
+Lists:
+

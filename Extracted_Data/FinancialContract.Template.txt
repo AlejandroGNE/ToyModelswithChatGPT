@@ -1,0 +1,11 @@
+Header: Financial Contract Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Financial Contract inherits from
+
+Paragraphs:
+Financial Contract Template is template the Financial Contract inherits from
+Lists:
+

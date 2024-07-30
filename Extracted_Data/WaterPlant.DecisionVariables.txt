@@ -1,0 +1,11 @@
+Header: Water Plant Decision Variables
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of water plants whose equations include the decision variable
+
+Paragraphs:
+Water Plant Decision Variables is set of water plants whose equations include the decision variable
+Lists:
+

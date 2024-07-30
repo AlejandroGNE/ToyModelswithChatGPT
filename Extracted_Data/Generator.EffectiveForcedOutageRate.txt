@@ -1,0 +1,31 @@
+Header: Generator Effective Forced Outage Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Effective forced outage rate for use in calculation of reliability indices
+
+Paragraphs:
+Generator Effective Forced Outage
+          Rate is the Forced Outage
+            Rate for use in calculation of reliability
+            indices . This overrides the Forced
+            Outage Rate used to create outage patterns in the main
+          simulation. In addition, you may define the Effective Forced Outage
+          Rate but not the Forced
+            Outage Rate in the case where a generator should be considered
+          unreliable for the purposes of reliability calculations but not in the
+          main simulation.
+
+The purpose of this input is to capture aspects such as short-term
+          storage that are not considered when the reliability
+            indices are calculated. For example, if a small pumped hydro
+          generator has only four hours of storage you might set the Effective
+          Forced Outage Rate = 2 / hours of storage = 12.5% (Note: This figure
+          is illustrative only).
+Lists:
+

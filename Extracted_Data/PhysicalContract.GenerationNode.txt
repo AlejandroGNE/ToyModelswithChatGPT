@@ -1,0 +1,11 @@
+Header: Physical Contract Generation Node
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	node for generation in the contract
+
+Paragraphs:
+Physical Contract Generation Node defines the network point at which generation is received from the physical contract.
+Lists:
+

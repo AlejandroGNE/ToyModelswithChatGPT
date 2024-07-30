@@ -1,0 +1,28 @@
+Header: Commodity Min Consumption Day
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum consumption per day
+
+Paragraphs:
+Commodity Min Consumption Day
+          creates a Constraint object that
+          forces the Consumption of
+          the Commodity each day. By default this is a 'hard' constraint. To
+          create a soft constraint, set the Min
+            Consumption Penalty property.
+
+See also:
+
+
+Lists:
+	- Constraint RHS
+              Day
+	- Commodity Constraints Consumption
+              Coefficient
+

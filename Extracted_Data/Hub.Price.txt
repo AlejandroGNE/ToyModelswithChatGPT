@@ -1,0 +1,15 @@
+Header: Hub Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Price at the hub
+
+Paragraphs:
+Hub Price is the price at the hub. It is reported based on Pricing Method .
+Lists:
+

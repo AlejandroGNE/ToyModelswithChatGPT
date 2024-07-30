@@ -1,0 +1,21 @@
+Header: Flow Network Losses
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total losses in the network
+
+Paragraphs:
+Flow Network Losses is the
+          total losses in the network and consists of:
+Lists:
+	- Flow Path Losses
+	- Flow Storage Injection
+              Losses
+	- Flow Storage Withdrawal
+              Losses
+

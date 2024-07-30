@@ -1,0 +1,16 @@
+Header: Flow Storage Injection Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of adding the Commodity to inventory
+
+Paragraphs:
+See Commodity Injection
+            Charge for details.
+Lists:
+

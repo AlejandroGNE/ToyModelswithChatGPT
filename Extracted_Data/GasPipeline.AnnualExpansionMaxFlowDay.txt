@@ -1,0 +1,15 @@
+Header: Gas Pipeline Annual Expansion Max Flow Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Annual Expansion Max Flow Daily total gas release for the pipeline
+
+Paragraphs:
+Gas Pipeline Annual Expansion Max Flow Day is Annual Expansion Max Flow Daily total gas release for the pipeline.
+Lists:
+

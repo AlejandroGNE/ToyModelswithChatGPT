@@ -1,0 +1,18 @@
+Header: LT Plan Bridge Constraints
+
+Table Details:
+Units:	Yes/No
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Description:	If LT Plan should bridge (decompose) constraints for subsequent simulation phases
+
+Paragraphs:
+This switch toggles on/off bridging (decomposition) of Constraint objects from LT Plan to subsequent
+          simulation phases ( MT Schedule , ST Schedule ). See Optimize
+            Expansion for example usage.
+
+See also:
+Lists:
+	- LT Plan Bridge
+              Storage
+

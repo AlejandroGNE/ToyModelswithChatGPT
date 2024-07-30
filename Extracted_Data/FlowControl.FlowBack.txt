@@ -1,0 +1,15 @@
+Header: Flow Control Flow Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equivalent flow against reference direction due to phase shift
+
+Paragraphs:
+Flow Control Flow Back is Equivalent flow against reference direction due to phase shift.
+Lists:
+

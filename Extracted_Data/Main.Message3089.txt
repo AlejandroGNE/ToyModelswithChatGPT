@@ -1,0 +1,11 @@
+Header: Message 3089
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Invalid hour range in Timeslice <name>.
+
+Paragraphs:
+Message 3089 occurs in the following circumstances:
+Lists:
+

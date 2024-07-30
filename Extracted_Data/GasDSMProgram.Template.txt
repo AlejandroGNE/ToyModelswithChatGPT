@@ -1,0 +1,11 @@
+Header: Gas DSM Program Template
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	template the Gas DSM Program inherits from
+
+Paragraphs:
+Gas DSM Program Template is template the Gas DSM Program inherits from
+Lists:
+

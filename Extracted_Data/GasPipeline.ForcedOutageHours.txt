@@ -1,0 +1,20 @@
+Header: Gas Pipeline Forced Outage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the pipeline is on forced outage
+
+Paragraphs:
+Gas Pipeline Forced Outage Hours is the number of hours the pipeline is on forced outage.
+
+See also:
+Lists:
+	- Gas Pipeline Hours of Maintenance
+	- Gas Pipeline Units Out
+	- Gas Pipeline Service Factor
+

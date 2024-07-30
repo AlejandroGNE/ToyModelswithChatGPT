@@ -1,0 +1,17 @@
+Header: Gas Storage Withdrawal Ratchet
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of gas that can be withdrawn from the storage in any interval when defining a gas storage ratchet.
+
+Paragraphs:
+Gas Storage Withdrawal Ratchet is the maximum amount of gas that can be withdrawn from a storage unit at a time. The resolution of this property depends on the Gas Demand Resolution property. If the Gas Demand Resolution is set to Interval, the Withdrawal Ratchet specifies the maximum amount of gas that can be withdrawn in an interval. Likewise, if the Gas Demand Resolution is set to Hourly or Daily, the Withdrawal Ratchet specifies the maximum amount of gas that can be withdrawn in an hour or day, respectively.
+
+Note that the Withdrawal Rate Scalar property can further limit gas withdrawal from a storage unit.
+Lists:
+

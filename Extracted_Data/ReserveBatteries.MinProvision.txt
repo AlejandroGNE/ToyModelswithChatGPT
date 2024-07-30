@@ -1,0 +1,15 @@
+Header: Reserve Batteries Min Provision
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum reserve provision when generator is available
+
+Paragraphs:
+Reserve Batteries Min Provision is the minimum reserve provision when generator is available.
+Lists:
+

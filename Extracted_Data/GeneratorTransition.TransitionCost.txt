@@ -1,0 +1,16 @@
+Header: Generator Transition Transition Cost
+
+Table Details:
+Units:	$
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost required for a Generator transition
+
+Paragraphs:
+The cost to make a transition from a host generator to a target generator.
+See also Transition and Transition Type
+Lists:
+

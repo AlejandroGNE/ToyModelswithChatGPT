@@ -1,0 +1,11 @@
+Header: Region Exporting Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Exporting Lines is set of lines that export from the Region. This collection is reserved for reporting only.
+Lists:
+

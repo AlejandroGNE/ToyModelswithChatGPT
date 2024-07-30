@@ -1,0 +1,18 @@
+Header: Generator Heat Output Nodes Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between -1 And 1
+Key Property:	No
+Description:	Proportion sent to the node
+
+Paragraphs:
+Generator Heat Output Nodes Participation Factor is the proportion of generator Heat Production sent to the Heat Node . Using this property you can split heat across multiple Heat Node objects.
+
+See also:
+Lists:
+	- Generator Generation Participation Factor
+

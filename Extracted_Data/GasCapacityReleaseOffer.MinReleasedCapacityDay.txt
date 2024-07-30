@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Min Released Capacity Day
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum capacity that can be released in day
+
+Paragraphs:
+Gas Capacity Release Offer Min Released Capacity Day is the minimum capacity that can be released in day.
+Lists:
+

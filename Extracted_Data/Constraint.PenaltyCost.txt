@@ -1,0 +1,17 @@
+Header: Constraint Penalty Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of penalty violations to the primal objective function
+
+Paragraphs:
+Constraint Penalty Cost is defined as:
+
+The sum is taken over all penalty bands .
+Lists:
+

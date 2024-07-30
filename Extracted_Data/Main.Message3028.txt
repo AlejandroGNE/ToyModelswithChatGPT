@@ -1,0 +1,11 @@
+Header: Message 3028
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Year ending: <value> skipped because the horizon does not completely span this year.
+
+Paragraphs:
+
+Lists:
+

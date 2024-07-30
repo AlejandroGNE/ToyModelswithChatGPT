@@ -1,0 +1,17 @@
+Header: Battery Strategic Load Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Pumping unit rating for application in RSI capacity calculations.
+
+Paragraphs:
+Battery Strategic Load Rating is the Strategic Battery load that to be used in calculating the Region Strategic Load in addition to Region Load during the RSI bid-cost markup algorithm.
+
+See also RSI Demand
+Lists:
+

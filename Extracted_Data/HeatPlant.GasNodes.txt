@@ -1,0 +1,11 @@
+Header: Heat Plant Gas Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of source gas nodes for the heat plant
+
+Paragraphs:
+Heat Plant Gas Nodes is set of source gas nodes for the heat plant
+Lists:
+

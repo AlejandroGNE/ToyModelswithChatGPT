@@ -1,0 +1,11 @@
+Header: Message 3140
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Could not interpret the statement <name> in the Timeslice <value>.
+
+Paragraphs:
+Message 3140 occurs in the following circumstances:
+Lists:
+

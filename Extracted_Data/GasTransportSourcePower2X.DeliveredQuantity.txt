@@ -1,0 +1,15 @@
+Header: Gas Transport Source Power2X Delivered Quantity
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas delivered by Power2X to the gas transport
+
+Paragraphs:
+Gas Transport Source Power2X Delivered Quantity is Gas delivered by Power2X to the gas transport.
+Lists:
+

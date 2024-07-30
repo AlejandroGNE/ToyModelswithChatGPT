@@ -1,0 +1,22 @@
+Header: MT Schedule Stochastic Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	Stochastic optimization method for MT Schedule
+
+Paragraphs:
+MT Schedule Stochastic Method sets the algorithm used in MT Schedule to resolve multi-sample data (defined by Variable objects), where the number of samples is set by the Stochastic Stochastic Risk Sample Count . The attribute can take the following values:
+
+When MT Schedule runs in either of the multi-sample modes the decomposition of constraints and other elements performed by the simulation phase yields S solutions and so the corresponding samples in ST Schedule read the decomposition for the appropriate sample. This improves the co-ordination between the simulation phases.
+
+See also:
+Lists:
+	- Storage Trajectory Non-anticipativity
+	- Stochastic Risk Sample Count
+	- Stochastic Outage Pattern Count
+	- LT Plan Stochastic Method
+	- PASA Stochastic Method
+	- ST Schedule Stochastic Method
+

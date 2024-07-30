@@ -1,0 +1,15 @@
+Header: Emission Vehicles
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Vehicles that produce the Emission
+
+Paragraphs:
+Emission Vehicles is set of Vehicles
+          that produce the Emission. The production of emissions is set with the
+          Emission Vehicles Distance
+            Coefficient and/or Charging
+            Coefficient .
+Lists:
+

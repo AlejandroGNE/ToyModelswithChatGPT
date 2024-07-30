@@ -1,0 +1,15 @@
+Header: Competition Start Cost Mark-up Window
+
+Table Details:
+Units:	h
+Default Value:	24
+Validation Rule:	Any Value
+Description:	Number of hours over which a start cost should be recovered using mark-up on production
+
+Paragraphs:
+Competition Start Cost Mark-up Window is a parameter of the Start Cost Mark-up feature. It is the number of hours over which a generator's start cost can be recovered. The window should be no longer than the simulation step size as controlled by the Horizon settings.
+
+See also:
+Lists:
+	- Start Cost Mark-up Production Bands
+

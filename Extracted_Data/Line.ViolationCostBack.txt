@@ -1,0 +1,18 @@
+Header: Line Violation Cost Back
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of violating the flow limit in the counter-reference direction.
+
+Paragraphs:
+Line Violation Cost Back is a summary property that equals the aggregate of Violation Cost for periods where the Line Min Flow limit is violated.
+
+See also:
+Lists:
+	- Line Violation Cost
+

@@ -1,0 +1,11 @@
+Header: Water Pump Station Water Pumps
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	Collection of water pumps associated with the water pump station
+
+Paragraphs:
+Water Pump Station Water Pumps is Collection of water pumps associated with the water pump station
+Lists:
+

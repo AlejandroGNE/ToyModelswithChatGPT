@@ -1,0 +1,19 @@
+Header: Interface Hours Congested Back
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the interface flow is congested in the counter-reference direction
+
+Paragraphs:
+Interface Hours Congested Back is the total number of hours the interface was congested in its counter-reference direction i.e. where the Flow equaled the Min Flow. Only includes hours congested for base case, i.e in pre-contingency state.
+
+See also:
+Lists:
+	- Interface Hours Congested Total
+	- Interface Hours Congested
+

@@ -1,0 +1,15 @@
+Header: Interface Available Transfer Capability Back
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available transfer capability on the interface in the counter-reference direction.
+
+Paragraphs:
+Interface Available Transfer Capability Back is the available transfer capability on the interface in the counter-reference direction.
+Lists:
+

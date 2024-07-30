@@ -1,0 +1,15 @@
+Header: Water Plant Outage Max Production
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Plant Max Production during the outage
+
+Paragraphs:
+Water Plant Outage Max Production is the plant max production during the outage.
+Lists:
+

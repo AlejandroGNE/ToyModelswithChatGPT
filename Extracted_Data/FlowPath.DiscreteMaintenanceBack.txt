@@ -1,0 +1,23 @@
+Header: Flow Path Discrete Maintenance Back
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Planned counter-reference direction capacity out of service
+
+Paragraphs:
+Flow Path Discrete Maintenance
+          Back is the counter reference direction capacity out of service, as
+          defined by the Units Out and Outage Min Rating properties.
+
+See also:
+Lists:
+	- Flow Path Discrete
+              Maintenance
+	- Flow Path Distributed
+              Maintenance Back
+

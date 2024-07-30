@@ -1,0 +1,152 @@
+Header: PLEXOS User Interface Guide Chapter 9
+
+Table Details:
+
+Paragraphs:
+View settings typically affect the look and behaviour of the database windows in PLEXOS.
+
+Sets the font for the main Trees and Grids in the application.
+
+Display small or large icons in PLEXOS tree views.
+
+In the Dynamic Property Grid for database files, this suppresses various columns. In the case of columns which are hidden until used; at least one object of the class must exist before the column becomes visible.
+
+When an opened Solution File is modified in the background, (typically when a new Execution overwrites it), PLEXOS will recognize the file has changed. The behaviour PLEXOS should perform in response to a modified file is selected here.
+
+When an opened Database File is modified in the background, PLEXOS will recognize the file has changed. The behaviour PLEXOS should perform in response to a modified file is selected here.
+
+Specify whether PLEXOS will periodically store file recover information, and at what interval it should do this.
+
+The maximum number of files to appear in the recent files list on the File tab.
+
+When you start PLEXOS it will check online for newer releases of PLEXOS. You can disable this check here.
+
+Pressing Alt in PLEXOS will display Ribbon KeyTips allowing Ribbon items to be activated using the keyboard. You can disable KeyTips here.
+
+When working on an input model, you can hide classes based on what license you have or show all classes regardless of you license (default is checked/hide). This option only applies to users with a XML based license.
+
+The chart feature in PLEXOS attempts to use the hardware accelerated graphics of the video card, installed in the machine. The "Use Software Rendering in Charts" option should be checked if the video card of the machine doesn't support the chart feature and PLEXOS is forced to use rendering instead. This option is unchecked by default.
+
+By default, the main startup page renders the PLEXOS logo and textures, By enabling lite mode, these are disabled. This increases performance when accessing PLEXOS via a remote terminal with limited bandwidth. This option is unchecked by default.
+
+The options on the execution tab typically affect how PLEXOS executes databases.
+
+Sets the default delimiter for text input files: see the help article Text File Formats.
+
+Sets whether or not to display a successful execute to flat file window. This window shows the location of the newly created flat file.
+
+These options control the scope of data validation that occurs at the start of execution:
+
+Controls how missing values are handled when reading data from external text files: see the help article Text File Formats .
+
+Selects the style of execution window: Execution Manager: A graphical execution window that monitors and reports on the progress of your model runs. This tool allows you to chart some simulation outputs as they are produced. In addition the Execution Manager uses separate process for each Model or Project run in a batch, which can reduce memory fragmentation. Console EXE: A simple console window execution. This option uses the smallest amount of resources. Use 3D Viewer: Displays parallel execution in a graphical 3D window. Tip: The console version has the advantage that it can be easily paused (PAUSE key) and interrupted (CTRL-BREAK). Parallel Execution The option Number of concurrent processes sets the number of execution streams that can be run in parallel using the Execute in Parallel feature of the Execution window. This number applies to executions through both Execution Manager and Console EXE. Engine Options Close Execution Window on Completion: When execution completes, the console window can either wait for user input before closing the window, or automatically close. Suppress Solution Writing: Executing a database can be set to suppress writing a solution database. A log file is still written. Termination Protection: The console window cannot be closed until execution is complete. 3. File Settings The settings form is accessed from the Settings toolbar command and controls the following aspects related to the current input file: The units used for certain properties like heat rates, fuels and emissions. Enable locking of data, preventing the modification of particular parts of the database. Modify the message lookup table for the PLEXOS execution engine. Add custom columns on the object grid to store additional information. The list of assemblies to be loaded at runtime which contain customizations written by the user. Database Settings Window - Units of Data Units of Data PLEXOS supports two Unit systems - Metric and Imperial US Base Unit System Within that, three systems for defining Hydro data - Energy, Level and Volume. Hydro Model For detailed information on units of data and unit conversions, please refer to the Concise Modelling Guide PLEXOS help article. Locks Database Settings Window - Locks Locking different parts of the database prevents you from inadvertently modifying data. The various locks are described in the image above. Note: The membership lock also prevents you from switching collections between one-to-one and one-to-many. Messages Database Settings Window - Messages The pre-defined list of messages used by the PLEXOS Engine are displayed. This tab allows you to override the default action taken in the event of a particular message occurring The options are: Warn: Displays the message and continues execution. Error: Displays the message and halts execution. WarnOnce: Displays the message on the first instance. Subsequent instances of this message are ignored. Ignore: Suppresses the display of this message. Custom Messages Database Settings Window - Custom Messages Custom messages can be defined in a PLEXOS database to be used by the PLEXOS Engine during execution. This allows you to add your own conditions to the PLEXOS engine, preventing simulations from continuing or creating warnings if specific conditions are met. When creating a new custom message, you will be able to define: The action to take when the condition is met, this is the same as above in 'Messages' (ie,'Warn, 'Error, etc). Left hand side of the equation as a property. Right hand side can be defined as either a property or a constant value. Whether the left hand and right hand should be equal, not equal, etc. A message to be displayed when the condition is true. The message field accepts macros, allowing messages to have the actual values from during the simulation be displayed in the message when its condition is met. These macros are all listed underneath the message field and clicking any of the macro buttons will insert that macro into the message. As an example using the first custom message rule from the image above, the message '{lhs_child} ({lhs}) is not equal to {rhs_child} ({rhs}) in period {p}.' may get changed to 'Gen1 (20) is not equal to Region1 (30) in period 3.' The custom messages can also be imported and exported by selecting the 'Import' or 'Export' button in the ribbon menu. This allows you to use the same custom messages across multiple different databases. Please note that any custom messages with duplicated number values will be overwritten by the imported value. Undocumented Parameters Database Settings Window - Undocumented Parameters The Undocumented Parameters tab is a UI for creating PLEXOS_Param.xml and PLEXOS_SolverParam.xml files. There are a number of hidden or 'undocumented' control parameters specific to the version of the simulator that are now available through the PLEXOS interface. For more details on the available parameters and values refer to Undocumented Parameters . They will change from version to version. Class specifies the class of the simulation object Name uniquely identifies the object of type Class which is being modified Attribute specifies the attribute which is being modified Value specifies the value the attribute is being changed to The full list of all attributes that can be changed can be found in the table "t_attribute" in the file "master.mdb" which is located in the install directory of PLEXOS. All Classes are detailed in the "class_id" column and all attributes are detailed in the "name" column. Please note the following: Save the database to access the Undocumented Parameters editor.  If the database is not save, the screen is greyed out. Anything specified in the Class and Attribute tags in "PLEXOS_Param.xml" must conform to the names used in "class_id" and "name". All values in the Value tags are to be of type double. All date information uses a format called the OLE Automation Date. It's a floating point number, which is the number of days since 31st December, 1899. It is easy to obtain that number using Excel by formatting a cell as a number and it will automatically convert the date (i.e., 1/12/2022 to 44573.416). If any simulation objects use foreign characters in their name, please ensure PLEXOS_Param.xml is saved with UTF-8 encoding. To save a text file as UTF-8 will depend on the text editor you use, but almost all text editors, even Windows' Notepad, has an option for how to encode text. UTF-8 is usually the default anyway. In Notepad, when you go to save, you will see the following option: Caution is advised when changing attributes as some might require other attributes to be modified that might not be obvious at first. Custom Columns Database Settings Window - Custom Columns Custom columns can be added to the Object grid to store additional information for each object. Select which class you want to annotate and add any number of additional information columns to appear in the object grid. Database Settings Window - Export/Import Custom Columns Custom columns can also be imported or exported by selecting the 'Import' or 'Export' buttons on the ribbon menu. Any duplicate column names in the importing file will be ignored during the import process. Note that the 'Import' button will only be enabled when the 'custom columns' tab is selected, and the 'Export' button will be enabled only when the 'custom columns' tab is selected and the input database contains any custom column in it. After a successful import or export the system will pop-out a confirmation dialog box. Assemblies The Assemblies tab allows you to list custom dynamic link libraries that will be loaded at runtime. These DLL can be used to customise many of the functions in the simulation, as well as provide entirely customised reports. Please refer to the Automation PLEXOS help article for more information.
+
+Tip: The console version has the advantage that it can be easily paused (PAUSE key) and interrupted (CTRL-BREAK).
+
+The option Number of concurrent processes sets the number of execution streams that can be run in parallel using the Execute in Parallel feature of the Execution window. This number applies to executions through both Execution Manager and Console EXE.
+
+The settings form is accessed from the Settings toolbar command and controls the following aspects related to the current input file:
+
+PLEXOS supports two Unit systems - Metric and Imperial US
+
+Within that, three systems for defining Hydro data - Energy, Level and Volume.
+
+Hydro Model For detailed information on units of data and unit conversions, please refer to the Concise Modelling Guide PLEXOS help article.
+
+Locking different parts of the database prevents you from inadvertently modifying data. The various locks are described in the image above.
+
+Note: The membership lock also prevents you from switching collections between one-to-one and one-to-many.
+
+The pre-defined list of messages used by the PLEXOS Engine are displayed. This tab allows you to override the default action taken in the event of a particular message occurring The options are:
+
+Custom messages can be defined in a PLEXOS database to be used by the PLEXOS Engine during execution. This allows you to add your own conditions to the PLEXOS engine, preventing simulations from continuing or creating warnings if specific conditions are met. When creating a new custom message, you will be able to define:
+
+The message field accepts macros, allowing messages to have the actual values from during the simulation be displayed in the message when its condition is met. These macros are all listed underneath the message field and clicking any of the macro buttons will insert that macro into the message. As an example using the first custom message rule from the image above, the message '{lhs_child} ({lhs}) is not equal to {rhs_child} ({rhs}) in period {p}.' may get changed to 'Gen1 (20) is not equal to Region1 (30) in period 3.' The custom messages can also be imported and exported by selecting the 'Import' or 'Export' button in the ribbon menu. This allows you to use the same custom messages across multiple different databases. Please note that any custom messages with duplicated number values will be overwritten by the imported value.
+
+
+
+
+
+
+
+
+
+Custom columns can be added to the Object grid to store additional information for each object. Select which class you want to annotate and add any number of additional information columns to appear in the object grid.
+
+Custom columns can also be imported or exported by selecting the 'Import' or 'Export' buttons on the ribbon menu. Any duplicate column names in the importing file will be ignored during the import process. Note that the 'Import' button will only be enabled when the 'custom columns' tab is selected, and the 'Export' button will be enabled only when the 'custom columns' tab is selected and the input database contains any custom column in it. After a successful import or export the system will pop-out a confirmation dialog box.
+
+The Assemblies tab allows you to list custom dynamic link libraries that will be loaded at runtime. These DLL can be used to customise many of the functions in the simulation, as well as provide entirely customised reports. Please refer to the Automation PLEXOS help article for more information.
+Lists:
+	- Reopen File: Closes the existing file and opens the new version of the file in its place.
+	- Open File in New Tab: Opens the modified file in a new tab. The existing file remains open, but the header will be written in italics to indicate that its contents is out of date.
+	- Refresh Queries: Closes the existing file and opens the new version of the file its place. When the new version opens, and queries which had been displayed in the previous copy will be run again, if possible, in the new version.
+	- Prompt: Present the user with the above options every time a file modification is detected.
+	- Reopen File: Closes the existing file, (losing changes), and opens the new version of the file in its place.
+	- Open File in New Tab: Opens the modified file in a new tab. The existing file remains open, but the header will be written in italics to indicate that its contents is out of date.
+	- Prompt: Present the user with the above options every time a file modification is detected.
+	- Check for Missing Files: Parses the database for links to external files and checks that hose files exist before continuing the simulation.
+	- Check Memberships (Collection Counts): Checks that any required memberships are defined and that any relevant collections are not over-populated and issues appropriate error messages.
+	- Check Data Against Validation Rules: Runs a series of logic and other checks over the defined properties and issues appropriate error messages.
+	- Execution Manager: A graphical execution window that monitors and reports on the progress of your model runs. This tool allows you to chart some simulation outputs as they are produced. In addition the Execution Manager uses separate process for each Model or Project run in a batch, which can reduce memory fragmentation.
+	- Console EXE: A simple console window execution. This option uses the smallest amount of resources.
+	- Use 3D Viewer: Displays parallel execution in a graphical 3D window.
+	- Close Execution Window on Completion: When execution completes, the console window can either wait for user input before closing the window, or automatically close.
+	- Suppress Solution Writing: Executing a database can be set to suppress writing a solution database. A log file is still written.
+	- Termination Protection: The console window cannot be closed until execution is complete.
+	- The units used for certain properties like heat rates, fuels and emissions.
+	- Enable locking of data, preventing the modification of particular parts of the database.
+	- Modify the message lookup table for the PLEXOS execution engine.
+	- Add custom columns on the object grid to store additional information.
+	- The list of assemblies to be loaded at runtime which contain customizations written by the user.
+	- Warn: Displays the message and continues execution.
+	- Error: Displays the message and halts execution.
+	- WarnOnce: Displays the message on the first instance. Subsequent instances of this message are ignored.
+	- Ignore: Suppresses the display of this message.
+	- The action to take when the condition is met, this is the same as above in 'Messages' (ie,'Warn, 'Error, etc).
+	- Left hand side of the equation as a property.
+	- Right hand side can be defined as either a property or a constant value.
+	- Whether the left hand and right hand should be equal, not equal, etc.
+	- A message to be displayed when the condition is true.
+	- Class specifies the class of the simulation object
+	- Name uniquely identifies the object of type Class which is being modified
+	- Attribute specifies the attribute which is being modified
+	- Value specifies the value the attribute is being changed to
+	- Save the database to access the Undocumented Parameters editor.  If the database is not save, the screen is greyed out.
+	- Anything specified in the Class and Attribute tags in "PLEXOS_Param.xml" must conform to the names used in "class_id" and "name".
+	- All values in the Value tags are to be of type double.
+	- All date information uses a format called the OLE Automation Date. It's a floating point number, which is the number of days since 31st December, 1899. It is easy to obtain that number using Excel by formatting a cell as a number and it will automatically convert the date (i.e., 1/12/2022 to 44573.416).
+	- If any simulation objects use foreign characters in their name, please ensure PLEXOS_Param.xml is saved with UTF-8 encoding. To save a text file as UTF-8 will depend on the text editor you use, but almost all text editors, even Windows' Notepad, has an option for how to encode text. UTF-8 is usually the default anyway. In Notepad, when you go to save, you will see the following option:
+	- Caution is advised when changing attributes as some might require other attributes to be modified that might not be obvious at first.
+
+
+H2s:
+Contents
+1. View Settings
+2. Execution Settings
+3. File Settings
+
+H5s:
+Font
+Tree Icon Size
+Property Fields Shown
+On Solution Modified
+On Database File Modified
+File Recovery
+Recent File list
+Check for PLEXOS Updates
+Hide Ribbon KeyTips
+Hide Unlicensed Classes
+Use Software Rendering in Charts
+Lite Mode
+Flat File Delimiter (default = Comma)
+Flat File Success Dialog (default = ON)
+Data Validation (default = ON)
+Flat File Missing Value (default = Fill using last known value)
+Executable (default = Console EXE)
+Parallel Execution
+Engine Options
+Units of Data
+Custom Messages
+Undocumented Parameters
+Custom Columns
+Assemblies

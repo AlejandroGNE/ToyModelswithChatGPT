@@ -1,0 +1,17 @@
+Header: Transmission Right Sink Congestion Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Congestion charge on sink side
+
+Paragraphs:
+Transmission Right Sink Congestion Charge is Congestion charge on sink side.
+
+Please note that this output property is not applied when sink side is defined as a zone.
+Lists:
+

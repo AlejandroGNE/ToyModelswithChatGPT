@@ -1,0 +1,15 @@
+Header: Gas Node Facility Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas produced by connected Facilities
+
+Paragraphs:
+Gas Node Facility Production is the gas produced by connected Facilities.
+Lists:
+

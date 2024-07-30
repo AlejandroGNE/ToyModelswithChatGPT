@@ -1,0 +1,12 @@
+Header: Market Unit Commitment
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	If Market [Buy/Sell Unit] properties act like unit commitment or apply independently every period.
+
+Paragraphs:
+Flag if Market [Buy/Sell Unit] properties act like unit commitment
+Lists:
+

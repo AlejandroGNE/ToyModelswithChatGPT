@@ -1,0 +1,11 @@
+Header: Message 3149
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Gas Pipelines mapped to Gas Capacity Release Offer <name> do not form a path.
+
+Paragraphs:
+Message 3149 occurs in the following circumstances:
+Lists:
+

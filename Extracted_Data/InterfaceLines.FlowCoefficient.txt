@@ -1,0 +1,17 @@
+Header: Interface Lines Flow Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of flow in interface
+
+Paragraphs:
+Interface Lines Flow Coefficient is coefficient of flow in interface. It sets the contribution of the line net Flow to the Interface Flow .
+
+The default value for this property is one, therefore you need only set this value if the coefficient of flow is other than unity. If you need to set directional coefficients use Flow Forward Coefficient and Flow Back Coefficient .
+Lists:
+

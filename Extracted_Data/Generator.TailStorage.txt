@@ -1,0 +1,11 @@
+Header: Generator Tail Storage
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	tail storage for the generator
+
+Paragraphs:
+Generator Tail Storage is the storage into which the hydro generator releases water from generation. The Generator takes water from the storage defined in it's Head Storage collection.
+Lists:
+

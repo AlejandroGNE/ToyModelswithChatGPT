@@ -1,0 +1,17 @@
+Header: Transformer Limit Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for exceeding the flow limits on the Transformer.
+
+Paragraphs:
+Transformer Limit Penalty defines the penalty cost for exceeding the thermal limit of the Transformer as defined by Rating . Thus this property makes the thermal limit a 'soft constraint' that will be violated if the cost of violation is less than the production cost savings that would result.
+
+The amount of violation is reported as Violation and the cost incurred as Violation Cost .
+Lists:
+

@@ -1,0 +1,24 @@
+Header: Zone Emissions Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Emission cost
+
+Paragraphs:
+Zone Emissions Cost is the cost
+          incurred by Generators in the Zone from production of the Emission .
+          It is calculated as:
+
+where: j indexes the Emission .
+
+See also:
+Lists:
+	- Zone Emissions Production
+	- Zone Emissions
+              Cost
+

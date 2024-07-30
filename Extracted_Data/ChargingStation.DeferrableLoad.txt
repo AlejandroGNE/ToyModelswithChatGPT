@@ -1,0 +1,50 @@
+Header: Charging Station Deferrable Load
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Proportion of charging load that can be deferred
+Child Object	Property	Value	Data File	Units	Band
+Supercharger	Deferrable Load	90		%	1
+Supercharger	Deferrable Load	75		%	2
+Supercharger	Deferrable Load	60		%	3
+Supercharger	Deferrable Load	45		%	4
+Supercharger	Deferrable Load	30		%	5
+Supercharger	Deferrable Load	15		%	6
+Supercharger	Deferment Period	1		h	1
+Supercharger	Deferment Period	2		h	2
+Supercharger	Deferment Period	3		h	3
+Supercharger	Deferment Period	4		h	4
+Supercharger	Deferment Period	5		h	5
+Supercharger	Deferment Period	6		h	6
+
+Paragraphs:
+Charging Station Deferrable
+          Load is a multi-band property that works in combination with Deferment
+            Period . It sets the proportion of charging load that can be
+          deferred in the given band. Deferring load can reduce the cost of
+          charging by shifting some or all of the charging load into future
+          periods with a lower electric price.
+
+Deferrable load represents potential deviations from prescribed charging profiles which are defined prior to 
+            simulation commencement. Deferment should therefore be used in conjunction with simple Vehicle models (which define Fixed Load ). Non-simple 
+            (i.e. detailed) vehicle models allow charging to occur at times and quantities that minimise total system cost: deferment 
+            is redundant when charging is cooptimised in this way. Warning 3245 will occur
+            if deferment is being used in conjunction with detailed vehicle models. See Vehicle for 
+            a comparison of simple and detailed vehicle models.
+
+
+
+In the above example 90% of the charging load can be deferred by one
+          hour, which includes the 75% that can be deferred up to two hours,
+          etc.
+
+See also:
+Lists:
+	- Charging Station Deferred
+              Load
+

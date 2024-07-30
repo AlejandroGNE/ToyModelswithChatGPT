@@ -1,0 +1,17 @@
+Header: Region Inertia
+
+Table Details:
+Units:	MW·s
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of inertia
+
+Paragraphs:
+Region Inertia is the total inertia
+          provided by generators, batteries, Power2X and charging stations in
+          the region.
+Lists:
+

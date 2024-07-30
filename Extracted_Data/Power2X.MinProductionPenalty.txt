@@ -1,0 +1,16 @@
+Header: Power2X Min Production Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10000000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Min Production] and [Min Capacity Factor] constraints.
+
+Paragraphs:
+Refer to Facility Min
+            Production Penalty for details.
+Lists:
+

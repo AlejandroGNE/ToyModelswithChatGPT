@@ -1,0 +1,18 @@
+Header: Abatement Consumables Consumption
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Consumable used
+
+Paragraphs:
+Abatement Consumables Consumption is the consumables used by the abatement technology and is defined as:
+
+See also:
+Lists:
+	- Abatement Consumables Cost
+

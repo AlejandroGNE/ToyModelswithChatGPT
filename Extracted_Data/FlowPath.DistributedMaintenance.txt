@@ -1,0 +1,23 @@
+Header: Flow Path Distributed Maintenance
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Ideal reference direction capacity out on maintenance
+
+Paragraphs:
+Flow Path Distributed Maintenance
+          is the ideal reference direction capacity out on maintenance. See Facility Distributed
+            Maintenance for details.
+
+See also:
+Lists:
+	- Flow Path Distributed
+              Maintenance Back
+	- Flow Path Discrete
+              Maintenance
+

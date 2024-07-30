@@ -1,0 +1,22 @@
+Header: Message 210
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Problem is infeasible. Solution status = <value>.
+
+Paragraphs:
+Message 210 occurs whenever the mathematical programming solver detects that a problem is infeasible and the automatic Feasibility Repair algorithm is invoked.
+
+By default this message is not raised, and an error only results if the feasibility repair fails.
+
+The total number of infeasibilities is reported at the end of the simulation as in the following log file extract:
+
+Infeasibilities may indicate problems in your data, or issues with the formulation. Diagnostics are available by enabling the Diagnostic Infeasibilities setting. Contact support if you require help on diagnosing infeasibilities.
+
+See also:
+Lists:
+	- Message 211
+	- Message 214
+	- Constraint Feasibility Repair Weight
+

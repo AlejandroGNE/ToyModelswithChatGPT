@@ -1,0 +1,21 @@
+Header: Generator Max Release
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum rate of release from each unit
+
+Paragraphs:
+Generator Max Release is the
+          maximum rate of water release allowed from each hydro unit.
+
+The unit for these data depends on the Storage Model input for the head
+          storage of the Generator. For example, if Model "Volume" and the unit
+          system is metric the values are in m 3 /s, whereas if the Model is
+          "Energy" the values are in MW.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Fixed Costs
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total fixed costs
+
+Paragraphs:
+Company Fixed Costs is the total fixed costs incurred by the company from the company's generators, and transmission lines, and is defined as:
+Lists:
+

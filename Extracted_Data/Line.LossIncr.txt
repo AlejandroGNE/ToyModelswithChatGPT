@@ -1,0 +1,49 @@
+Header: Line Loss Incr
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Interconnector loss function linear parameter for reference direction flows
+Loss Base	0
+Loss Incr	0.092377612
+Loss Incr2	0.000676456
+Loss Base Back	0
+Loss Incr Back	-0.0748
+Loss Incr2 Back	0.00118245
+Loss Base	0
+Loss Incr	0.253012445
+Loss Incr2	0
+Loss Base Back	0
+Loss Incr Back	-0.213285658
+Loss Incr2 Back	0
+
+Paragraphs:
+Line Loss Incr is the linear (first-order) term in the equation that defines losses for flows in the reference direction.
+
+This value applies in the counter-reference direction if Loss Incr  Back is not defined.
+
+NOTE : Loss Incr and Loss Incr Back multiply the Flow with positive numbers in the reference direction and negative numbers in the counter-reference direction i.e. :
+
+For Flow in the reference direction (positive flows):
+
+and for the counter-reference direction (negative flows):
+
+Thus when using Loss Incr and/or Loss Incr Back alone to define a single linear loss function Loss Incr should be a positive number and Loss Incr Back a negative number. For  quadratic loss equations however, these properties could be either sign.
+
+Example
+
+The following input defines the loss function and associated Marginal Loss Factor shown in Figure 1.
+
+
+
+If we now linearize the above quadratic taking the average negative flow as one function and the average positive flow as the second function.
+
+See also:
+Lists:
+	- Line Loss Base
+	- Line Loss Incr2
+

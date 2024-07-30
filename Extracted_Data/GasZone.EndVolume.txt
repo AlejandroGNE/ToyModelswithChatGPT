@@ -1,0 +1,15 @@
+Header: Gas Zone End Volume
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	End volume in gas storage
+
+Paragraphs:
+Gas Zone End Volume is the sum of Gas Storages End Volume .
+Lists:
+

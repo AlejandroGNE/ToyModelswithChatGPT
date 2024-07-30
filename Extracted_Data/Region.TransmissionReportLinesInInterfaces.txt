@@ -1,0 +1,15 @@
+Header: Region Transmission Report Lines In Interfaces
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If all flows on lines selected interfaces are reported in this region.
+
+Paragraphs:
+Region Transmission Report Lines In Interfaces switches on reporting of lines that are part of interfaces that would normally be skipped according to their voltage level and setting of the Region Transmission Report Voltage Threshold property.
+Lists:
+

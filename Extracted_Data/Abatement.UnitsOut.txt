@@ -1,0 +1,15 @@
+Header: Abatement Units Out
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	Flag if emission abatement technology is out-of-service
+
+Paragraphs:
+Abatement Units Out is a flag that indicates if the Emission abatement technology is out-of-service. The value of Units Out should not be greater than Units .
+Lists:
+

@@ -1,0 +1,33 @@
+Header: PLEXOS User Interface Guide Chapter 2
+
+Table Details:
+8.3	R01, R02, R03, R04	R01, R02, R03, R04	R01, R02, R03, R04	R01, R02, R03, R04		4.8
+R05, R06, R07, R08, R09, R10	R05, R06, R07, R08, R09, R10	R05, R06, R07, R08, R09, R10	R05, R06, R07, R08, R09, R10	R09, R10	5.0
+9.0	R01, R02, R03, R04, R05, R06, R07, R08, R09	R01, R02, R03, R04, R05, R06, R07, R08, R09	R01, R02, R03, R04, R05, R06, R07, R08, R09	R01, R02, R03, R04, R05, R06, R07, R08, R09	R01, R02, R03, R04, R05, R06, R07, R08, R09	5.0
+9.1	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	6.0
+9.2	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	R01, R02, R03, R04, R05	6.0
+
+Paragraphs:
+This chapter provides information on the technical requirements that must be fulfilled in order to run PLEXOS.
+
+The following table summarizes the Windows OS and .NET Framework/Mono compatibility for each version of PLEXOS.
+
+Note: .NET Core applies to versions 5.X and later, and .NET Framework applies to versions 4.X and earlier.
+
+PLEXOS uses advanced charting technology to render charting components, using low-level DirectX GPU acceleration, instead of slower WPF Graphics APIs. Therefore client machines have a basic graphic card that supports DirectX 9.0c (shader model 3) level graphics or newer.
+
+Due to the use of DirectX, hardware rendering can be slow compared to running on a local machine. Windows XP operating system actually disallows access to the DirectX hardware, preventing the use of these charts.
+Lists:
+
+
+H2s:
+Contents
+1. Technical Requirements
+1.2. Charting RequirementsPLEXOS uses advanced charting technology to render charting components, using low-level DirectX GPU acceleration, instead of slower WPF Graphics APIs. Therefore client machines have a basic graphic card that supports DirectX 9.0c (shader model 3) level graphics or newer.1.2.1. DirectX Issues Using Remote Desktop ConnectionsDue to the use of DirectX, hardware rendering can be slow compared to running on a local machine. Windows XP operating system actually disallows access to the DirectX hardware, preventing the use of these charts.
+
+H3s:
+1.1. Requirements
+1.2. Charting Requirements
+
+H4s:
+1.2.1. DirectX Issues Using Remote Desktop Connections

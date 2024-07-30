@@ -1,0 +1,15 @@
+Header: Gas Plant Start Profile Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Start Profile] violations.
+
+Paragraphs:
+Gas Plant Start Profile Violation Cost is the cost from violating the [Start Profile] constraint.
+Lists:
+

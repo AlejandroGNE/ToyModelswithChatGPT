@@ -1,0 +1,65 @@
+Header: Transmission - Introduction
+
+Table Details:
+
+Paragraphs:
+A.J. Wood, B.W. (1996). Power Generation, Operation, and Control. John Wiley & Sons. Broad, K. (1996). Power Generation Planning using Scenario Aggregation. Master of Engineering Thesis. Auckland, New Zealand: School of Engineering, University of Auckland. F.C. Schweppe, M. C. (1998). Spot Pricing of Electricity. Norwell, MA, USA: Kluwer Academic Publishers.
+
+We define the following terms:
+
+The current entering any junction is equal to the current leaving that junction: see Production Cost Modelling 101
+
+The sum of all the voltages around the loop is equal to zero: Production Cost Modelling 101
+
+A line in the transmission network whose impedance is modelled: in PLEXOS this means that at least the Line Reactance and Resistance are defined. AC lines are subject to KCL and KVL.
+
+Constant voltage construction to which transmission lines are connected.
+
+In PLEXOS, nodes are the fundamental connection points for transmission lines, generators and other elements such as purchasers. Therefore we use the term "node" interchangeably with "bus".
+
+A line in the transmission network whose flow is subject to KCL but not KVL: in PLEXOS DC lines are defined using only Resistance.
+
+For convenience loads are often defined on aggregate at the region level, where a region contains a number of transmission nodes. The load participation factor for a node is thus the proportion of the region load that occurs at the node. Region load input combined with static load participation factors can be exploited by PLEXOS when computing the OPF, however PLEXOS permits variable load participation factors and even loads defined directly on the nodes.
+
+Optimal power flow: refers to the generator dispatch and resulting AC power flows that is minimum cost and feasible with respect to thermal limits on the AC transmission lines. The OPF might include other constraints such as interface limits, and other decisions such as the optimal flow on DC lines and Flow Control angles.
+
+The OPF using a linearization of the power flow equations which considers only real power flows and assumes voltages are all 1 p.u. It is important not to confuse Linearized DC-OPF with a transportation solution. In a transportation model the flow on all lines is controllable, but in a DC-OPF the KVL constraints are applied so flows mimic AC flows.
+
+The additional power flow that results from a unit increase in injection at one point in the network matched by a simultaneous withdrawal at one or more pre-defined slack bus(es).
+
+Power Transfer Distribution Factor: another name for a shift factor.
+
+Nodal pricing refers to the calculation of electric prices at each node/bus in a power network, whereby the price reflects the marginal cost (to the system) of serving one more unit of load at that bus, or alternatively the price (the system) would be prepared to pay for one more unit of generation at the node.
+
+Locational Marginal Pricing (LMP) is another name for nodal pricing. The price at a node can be referred to as it's nodal price, or it's locational marginal price.
+
+PLEXOS models power flows using a linearized DC-OPF. For the purposes of determining real power flows, the linearized DC-OPF assumes that resistance is small and voltages are all 1 p.u. This does not, however, preclude the modelling of losses. For example, losses are implemented in both the New Zealand and Singapore electricity markets using a linearized DC-OPF. Generic linear constraints can be defined to represent voltage and other AC-OPF issues. PLEXOS provides two DC-OPF formulations: set by the option Transmission PTDF Method :
+
+Network shift-factors are pre-computed and used to create "side-constraints" to enforce transmission constraints and model transmission losses.
+
+Bus (node) phase angles and branch (line) flows are decision variables in the optimization, thus the shift-factors are implicit and no pre-computation is required, but the formulation size is potentially very large. These options represent the two most commonly used DC-OPF formulations with some unique and powerful enhancements in modelling losses and security-constrained optimal power flow. The PLEXOS implementation of these methods is sufficiently flexible that AC network sections can be combined with non-AC network sections (transportation network), and the network topography does not need to be contiguous i.e. the network may consist of 'islanded' buses or segments. This feature is particularly useful for modelling AC transmission flows and constraints in a subset of the network, where detailed analysis is required, while treating the rest of the network as a more aggregated representation. It is also suitable for multi-region studies where the regions are connected only by DC lines. This document first describes the linearized DC-OPF in general, then the Fixed Shift Factor OPF in PLEXOS. Derivation of nodal prices is explained, then transmission losses. Finally the Variable Shift Factor OPF is described.
+Lists:
+
+
+H2s:
+Contents
+1. Works Cited
+2. Definitions
+3. OPF Methods
+
+H5s:
+Kirchhoff's Current Law (KCL)
+Kirchhoff's Voltage Law (KVL)
+AC Line
+Bus
+Node
+DC Line
+Load Participation Factor
+OPF
+Linearized DC-OPF
+Shift Factor
+PTDF
+Nodal Pricing
+Locational Marginal Pricing
+Fixed Shift Factor OPF
+Variable Shift Factor OPF

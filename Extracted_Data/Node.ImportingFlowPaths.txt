@@ -1,0 +1,11 @@
+Header: Node Importing Flow Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of flow paths importing to the node
+
+Paragraphs:
+Node Importing Flow Paths is set of flow paths importing to the node
+Lists:
+

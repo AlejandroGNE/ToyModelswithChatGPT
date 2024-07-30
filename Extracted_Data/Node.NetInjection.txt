@@ -1,0 +1,17 @@
+Header: Node Net Injection
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net injection (exports - imports)
+
+Paragraphs:
+Node Net Injection is the net export out of the node on the AC network. This property includes flows on AC lines and AC transformers .
+
+See also: Net DC Export
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Line Enforce Limits
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2,3)
+Key Property:	No
+Description:	Controls when flow limits are enforced with regard to Transmission [Constraint Voltage Threshold].
+
+Paragraphs:
+Line Enforce Limits can take these values:
+
+Note: when the line thermal limits are not enforced, the power flow is not bounded and there will be no violation or violation cost.
+Lists:
+

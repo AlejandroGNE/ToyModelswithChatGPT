@@ -1,0 +1,22 @@
+Header: Emission Vehicles Distance Coefficient
+
+Table Details:
+Units:	kg/km (Metric), lb/m (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Emissions produced per unit distance travelled
+
+Paragraphs:
+Emission Vehicles Distance Coefficient is the amount of the emission produced  (+ve
+          value) or abated (-ve value) per unit distance travelled by the
+          Vehicle.
+
+See also:
+Lists:
+	- Emission Vehicles Charging
+              Coefficient
+	- Emission Vehicles Production
+

@@ -1,0 +1,11 @@
+Header: Model Stochastic
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	Stochastic settings for the model
+
+Paragraphs:
+The Stochastic settings that apply to the Model .
+Lists:
+

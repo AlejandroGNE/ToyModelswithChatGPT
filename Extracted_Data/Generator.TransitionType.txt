@@ -1,0 +1,16 @@
+Header: Generator Transition Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1)
+Key Property:	No
+Description:	If the generator can transition between a single generator or to a group of generators.
+
+Paragraphs:
+Setting Transition Type If the generator can transition between a single generator (Individual) or to a group of generators (Group).
+See also Transition and Transition Cost Note that if the setting is "Group", the cost will be the sum of all individual transition cost.
+Lists:
+

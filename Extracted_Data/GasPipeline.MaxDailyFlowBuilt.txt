@@ -1,0 +1,18 @@
+Header: Gas Pipeline Max Daily Flow Built
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of increase in Gas Pipeline Max Daily Flow
+
+Paragraphs:
+Gas Pipeline Max Daily Flow Built reports the amount of increase in Gas Pipeline Max Daily Flow as a result of the LT Plan Capacity Expansion.
+
+See also:
+Lists:
+	- Gas Pipeline Max Daily Flow Retired
+

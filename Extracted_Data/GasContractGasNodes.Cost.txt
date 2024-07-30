@@ -1,0 +1,15 @@
+Header: Gas Contract Gas Nodes Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Sum of commodity cost and basis differential cost under contract-gas node
+
+Paragraphs:
+Gas Contract Gas Nodes Cost is the Cost of gas used under contract-gas node.
+Lists:
+

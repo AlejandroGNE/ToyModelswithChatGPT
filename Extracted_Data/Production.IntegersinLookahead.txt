@@ -1,0 +1,36 @@
+Header: Production Integers in Look-ahead
+
+Table Details:
+Units:	-
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Description:	Controls when the look-ahead contains integers for unit commitment and other decisions.
+
+Paragraphs:
+Production Integers in
+          Look-ahead controls when the look-ahead in ST Schedule contains integer
+          variables for unit commitment and other decisions such as Regulation
+            Range . The setting can take the following values:
+
+For the "Auto" setting, integers are included for a Generator if:
+
+and for a Facility if:
+
+Including integers in the look-ahead increases the run time of models
+          but can improve accuracy.
+
+See also:
+Lists:
+	- Generator Shutdown
+              Profile is defined, or
+	- Generator Run
+              Down Rate is defined, or
+	- Region Uplift
+              Enabled is toggled 'on'.
+	- Facility Min
+              Operating Level Global is toggled on.
+	- Production Formulate
+              Upfront
+	- Production Formulate
+              Ramp Upfront
+

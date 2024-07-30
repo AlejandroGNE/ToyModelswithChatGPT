@@ -1,0 +1,18 @@
+Header: Line Contingency Limit Penalty
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	-1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty for exceeding contingency flow limits
+
+Paragraphs:
+Lines Contingency Limit Penalty is the penalty for exceeding Contingency flow limits. This is separate to the penalty for exceeding thermal limits.
+
+See also:
+Lists:
+	- Contingency Limit Penalty
+

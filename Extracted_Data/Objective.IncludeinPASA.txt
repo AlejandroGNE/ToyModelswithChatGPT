@@ -1,0 +1,15 @@
+Header: Objective Include in PASA
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the objective is modeled in the PASA phase.
+
+Paragraphs:
+Objective Include in PASA is If the objective is modeled in the PASA phase..
+Lists:
+

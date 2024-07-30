@@ -1,0 +1,15 @@
+Header: Battery Objectives Ramp Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of ramp
+
+Paragraphs:
+Battery Objectives Ramp Coefficient is Coefficient of ramp.
+Lists:
+

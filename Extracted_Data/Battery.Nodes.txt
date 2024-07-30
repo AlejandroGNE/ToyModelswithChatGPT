@@ -1,0 +1,11 @@
+Header: Battery Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	set of nodes the battery is connected to
+
+Paragraphs:
+A Battery may be connected to one or more transmission nodes. The distribution of charging and discharging is defined by the Distribution Factor property. The default for this property is one, therefore this property need only be defined when the battery connects to more than one node.
+Lists:
+

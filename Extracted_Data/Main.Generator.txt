@@ -1,0 +1,424 @@
+Header: Generator Class
+
+Table Details:
+Description:	Generating unit, or collection of like generating units
+Units	1	-	1/01/2001	
+Max Capacity	300	MW		
+Min Stable Level	140	MW		
+Heat Rate	11.5	GJ/MWh		
+Fuel Price	4.5	$/GJ		
+Heat Rate	11500	BTU/kWh		
+Fuel Price	4.5	$/MMBTU		
+Units	1	-			
+Max Capacity	1500	MW			
+Min Stable Level	990	MW			
+Min Load	1080	MW			W2-6
+Min Load	990	MW			W1,7
+Units	1	-			
+Max Capacity	60	MW			
+Min Load	5	MW			M1-4,10-12
+Min Load	15	MW			M5-9
+Max Energy MONTH	15	GWh			M1-4,10-12
+Max Energy MONTH	27	GWh			M5-9
+Units	1	-
+Max Capacity	240	MW
+Pump Load	240	MW
+Pump Efficiency	70	%
+Collection
+Generator	Units	1	-
+Generator	Max Capacity	20	MW
+Generator	Sync Cond Units	1	-
+Generator	Sync Cond Load	0.1	MW
+Generator	Sync Cond VO&M Charge	10	$/MW
+Collection
+Generator	Units	1	-
+Generator	Max Capacity	20	MW
+Generator	Generating Units	0	-
+Generator	Sync Cond Units	1	-
+Generator	Sync Cond Load	0.1	MW
+Generator	Sync Cond VO&M Charge	10	$/MW
+Generator	Inertia Constant	7	MW⋅s
+Units	1	-	1/01/2001	1/01/2030
+Max Capacity	150	MW		
+Units	4	-		
+Units	-	5/01/2010		
+Units Out	1	-	8/01/2004	9/01/2004
+
+Paragraphs:
+See also Generator Property Reference for a detailed list of properties for this class of object.
+
+
+
+
+
+
+
+
+
+All types of generation resource e.g. thermal, nuclear,
+          hydro, pump storage, RES, etc . are modeled with the
+          Generator class. There is no need to specifically identify the type of
+          a generator; the simulator infers the type of generator from the data
+          and relationships that are defined on it. Regardless of the type of
+          generator, you must define both Units and Max Capacity . Note that
+          the default value of Units is
+          zero, and hence you must define it for the generator to 'exist'.
+
+
+
+A thermal generator uses one or more fuels. The efficiency of
+          generation is defined using a heat
+            rate function . You can chose to define the fuel cost using the Fuel Price property directly, or
+          indirectly by adding one or more fuels to the generator's Fuels collection, and setting the Price property of the fuel(s). Thermal generators define a normal operating
+          range using the property Min
+            Stable Level .
+
+Example ( using metric units )
+
+Example ( using imperial US units )
+
+NOTE: To switch between metric and imperial units for data entry use
+          the Settings form.
+
+The operation of combined-cycle generators can be optimized in detail
+          as described in the Combined Cycle Plant article.
+
+Combined Heat and Power (CHP) plant are modeled using special input
+          properties, as described in the Combined
+            Heat and Power article.
+
+
+
+Nuclear generators are often run to a strict regime, with a high
+          minimum operating level, which is defined with Min
+            Stable Level . To define a fixed operating regime, use the Fixed
+            Load or the Min Load properties.
+
+Example
+
+
+
+Hydro generators can be modeled in a number of different ways. The
+          simplest approach is to define energy constraints to approximate the
+          availability of water (see Max
+            Energy , and Max
+            Capacity Factor ), and a profile of minimum operating levels to
+          represent run-of-river generation (see Min
+            Load ).
+
+Example
+
+Alternatively if you have a pre-defined profile of hydro generation
+          you can enter this using the Max
+            Load property.
+
+A hydro generator with inflows can be modeled with or without a Head
+            Storage . The Head Storage membership connects the generator to the storage model. Inflows are
+          defined with Storage Natural
+            Inflow property. Generation will draw from the storage according to the defined Efficiency function. To create a cascade of storage, connect the Generator to a Tail Storage . Spillways, and
+          canals are modeled with Waterway objects. See the article Cascading
+            Hydro Networks for more details.
+
+Use the Generator Natural
+            Inflow property to model 'tributary' inflows directly to the
+          Generator. By default these inflows are 'must run' or Spill but can have a controllable element.
+
+Pumped storage plant must have a Head
+            Storage and a Tail Storage defined. In addition you must define the properties Pump
+            Efficiency and Pump Load .
+          You may also define Pump Units and Min Pump Load . Pump
+          storage is usually modeled as a closed system, i.e. no
+          energy flows into or out of the head or tail storage other than from
+          generating or pumping. See the article Pumped
+            Storage for more details.
+
+Example
+
+
+
+Renewable Energy Sources (RES) and battery energy storage systems
+          (BESS) can be modeled to a high level of detail. See the article Renewable
+            Energy Sources .
+
+A synchronous condenser is a generator connected and synchronized to
+          the power grid but not generating electricity. A unit running in this
+          mode can provide spinning reserve or inertia . You can indicate
+          that a generator can run in this mode by setting the Sync
+            Cond Units input property. A synchronous condenser can draw a
+          small amount of load from the grid according to the Sync
+            Cond Load property.
+
+The following example illustrates a generator that can switch between
+          generating and synchronous condenser modes.
+
+
+
+The following example illustrates a generator that acts only as
+            a synchronous condenser to provide inertia. Note the use of Generating Units = 0 to
+          indicate that the Units are not
+          allowed to generate. In this case each unit operating in synchronous
+          condenser mode provides 20 × 7 = 140 MW⋅s inertia.
+
+
+
+
+
+
+
+As with any class, generators can be organized into categories .
+          The categorization of generators does not affect the way they are
+          modeled but it does help when reviewing and editing input and solution
+          data. Categorizing your generators is highly recommended.
+
+
+
+A generator must be connected to the transmission network by adding
+          one or more nodes to the generator's Nodes collection. Note that you may
+          apportion the generation across multiple buses if required using the Generation
+            Participation Factor property. For pumped storage the load can
+          be distributed to one or more nodes with
+          the Load
+            Participation Factor .
+
+The 'wildcard' Nodes* collection is used to create a copy of the Generator at each Node .
+          This is useful in LT Plan for creating
+          'floating' generators i.e. projects whose location is to be
+          optimized along with the expansion decision. It is also useful in
+          modelling small-scale distributed generation such as batteries or
+          demand-side response. See the Nodes* topic for more details.
+
+
+
+The Price Received for Generation is controlled by the
+          attribute Generator
+            Settlement Model . The default is for generators to receive the
+          weighted-average Price at the nodes
+          they connect to but other options are available from this attribute.
+          Alternatively you can mark-to-market by adding a Market object to the Mark-to-Markets collection of the generator.
+
+A Generator object can Formulate
+            Risk in a risk-constrained simulation to bounds its Net
+            Profit within an Acceptable
+            Risk . Alternatively, the Generator can participate in a Company which can Formulate Risk .
+
+
+
+Max Capacity and Units together define the installed
+            capacity of the generating station. In multi-unit generators the
+          units are assumed to have identical characteristics.
+
+The units and/or max capacity properties should not be used
+          to take units in and out of service for planned maintenance or
+          mothballing. To model a case in which one or more units are out of
+          service for periods of time, use the Units
+            Out property with appropriate dates or patterns.
+
+Examples
+
+You can also model random unit outages, called forced outages by
+          defining Forced Outage Rate .
+          Additionally the placement of maintenance outages can be optimized -
+          for a discussion of both random and planned outage modelling see the
+          article Maintenance
+            Scheduling .
+
+
+
+Production cost is represented by offers to the market (also called
+          'bids'). Offers can be entered directly using Offer
+            Quantity and Offer Price .
+          But if user-defined offers are not defined the simulator creates a
+          representation of the unit production cost function using the Fan
+            Approximation method. This automatic method has a similar effect
+          to defining a multi-band offer based on incremental cost, though it
+          also captures the no-load cost.
+
+Production cost is defined using a heat
+            rate function , fuel price ,
+          and variable operations and
+            maintenance cost .
+
+An alternative to defining detailed offers is to define the 'economic
+          range' (with Economic
+            Maximum and/or Economic
+            Minimum ). This might represent the 'normal' operating range with
+          generation outside of that range being reserved for ancillary services
+          or times of shortage or over-generation.
+
+
+
+The simulator optimizes generator unit commitment. The key properties
+          relating to on/off decisions are Min
+            Stable Level , Start Cost ,
+          and Shutdown Cost . You can
+          also model more complex restrictions such as Min
+            Up Time , Min Down Time
+
+By default it is assumed that generating units can run up and down
+          between zero and Min Stable
+            Level instantaneously, with ramping inside the normal operating
+          range restricted by Max Ramp Up and Max Ramp Down . However
+          you can limit the ramping during start up and shutdown by using Run
+            Up Rate (for a constant run up rate for each cooling state) or start profile (for a variable
+          run up rate), and likewise Run
+            Down Rate or shutdown
+            profile for running down.
+
+For operational modelling then initial conditions are defined using
+          the properties Initial
+            Generation , Initial
+            Units Generating , Initial
+            Hours Up , and Initial
+            Hours Down .
+
+Other constraints that affect unit commitment are Fixed
+            Load , Min Load , and Rough
+            Running Ranges .
+
+Unit commitment can be hardwired for all or a selection of periods
+          using the Must-run Units ,
+          and Commit properties.
+
+May other constraints can be defined with properties or via the Constraint class including:
+
+There are a number of solution methods available for the unit
+          commitment problem. The default setting relaxes any integer
+          constraints and provides a simple Linear Relaxation. You should change
+          the Production setting Unit
+            Commitment Optimality to enforce integer constraints. The
+          similarly named option Unit
+            Commitment Optimality setting is also available on the Generator objects so that the
+          solution method for unit commitment can be customized.
+
+The trade off between solution quality and performance of the integer
+          unit commitment can be controlled with the following settings:
+
+
+
+In the context of real-time operation of the generating system, unit
+          commitment decisions must be made ahead of time. This is particularly
+          the case for larger and/or slow start units that may require a notice
+          period before they can begin a start up. Thus if we are optimizing the
+          unit commitment of the system 'now' there will be a window of time
+          over which the decisions we make to commit or not commit certain
+          generators are locked in i.e. where there is no recourse
+          available. This constraint, called the "non-anticipativity" constraint
+          (because it is a constraint on the length of time we can react to
+          unanticipated events) is modeled in the simulator using the special
+          properties:
+
+and for pumped storage pump commitment decisions:
+
+These properties together define the penalty for "perfect foresight",
+          with -1 indicating infinity, and the window of time over which is
+          constraint applies.
+
+Optimizing unit commitment with non-anticipativity constraints
+          requires:
+
+In ST Schedule you would set Stochastic Method =
+          "Scenariowise-decomposition" (which is the method used to solve the
+          stochastic optimization problem).
+
+For all generators with non-anticipativity constraints defined the
+          unit commitment decision over the defined time frame of the constraint
+          will be optimized such that a single optimal commitment is made -
+          optimal with respect to the uncertainty. This single optimal decision
+          path will necessarily be more expensive than the solution of
+          "Independent Samples" (perfect foresight) but is robust against the
+          defined volatilities.
+
+
+
+The rate at which a generating unit changes load level is called the ramp rate . A unit's ramp rate is limited by its physical
+          characteristics. Generally these limits imply that a unit cannot ramp
+          through its entire operating range in any one dispatch interval. This
+          limitation becomes more apparent as the length of interval decreases e.g. in a 5-minute market units can ramp only 1/12th as much per interval
+          as an hourly market. The properties Max
+            Ramp Up and Max Ramp Down set limits on the ramping capabilities. When modelling ancillary
+          services using Reserve object it can
+          be important to account for the combined effect of ramping and reserve
+          provision. See the Response
+            Ratio property for details.
+
+
+
+Generators use some energy 'in house'. This use is defined using the
+          auxiliary use properties described in the property page Auxiliary
+            Use .
+
+
+
+Emissions from production are modeled using the Emission class by associating the Emission with the Generators and/or Fuels . For more details, see Setting
+            Emission Production Using Load Points and Bands .
+
+Similarly, emissions abatement is modeled using the Abatement class by associating the Abatement with the Generators and Emissions .
+
+
+
+Certain common generation constraints are included as properties on
+          the Generator object:
+
+Going beyond this capability, various aspects of generator dispatch
+          and commitment can be included in generic
+            constraints . These might be used to model fuel limits, emission
+          limits, or transmission nomograms for example. Generic constraints can
+          be defined for every period of the simulation, or over aggregate
+          quantities e.g. daily, weekly, monthly, etc.
+
+
+
+The timing of new generation builds and retirements can be optimized
+          using the LT Plan algorithm.
+
+
+
+The property Generation
+            Participation Factor that defines the injection to the network
+          is allowed to be negative. In this case the Generator is treated as a
+          load by the Node . This can be a useful
+          way to model very complex loads especially in LT
+            Plan .
+Lists:
+	- Number of units started in a given period (day, week, month, year
+            or other) using the Max Starts property and period variants.
+	- Number of hours of operation of a multi-unit station using the Constraints Hours
+              of Operation Coefficient
+	- Generator Unit
+              Commitment Aggregation
+	- Generator Unit
+              Commitment Period
+	- Production settings related to
+            heat rate detail, run up/down and start costs
+	- Performance settings for the
+            MIP solver especially the MIP
+              Relative Gap
+	- Unit
+              Commitment Non-anticipativity
+	- Unit
+              Commitment Non-anticipativity Time
+	- Pump
+              Unit Commitment Non-anticipativity
+	- Pump
+              Unit Commitment Non-anticipativity Time
+	- Your simulation is defined with more than one sample of Variable values and/or outage patterns - see the Stochastic topic; and
+	- The simulation phase is set for stochastic optimization.
+	- Energy limits with Max Energy
+	- Capacity factor limits with Max
+              Capacity Factor and Min
+              Capacity Factor
+
+
+H2s:
+1.1. Thermal
+          Generation
+1.2. Nuclear
+          Generation
+1.3. Hydro
+          Generation
+1.4. Pumped
+          Storage
+1.5.
+          Renewable Energy Sources and Energy Storage
+1.6.
+          Synchronous Condenser

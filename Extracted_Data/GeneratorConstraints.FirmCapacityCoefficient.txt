@@ -1,0 +1,21 @@
+Header: Generator Constraints Firm Capacity Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of capacity as measured by [Firm Capacity]
+
+Paragraphs:
+Generator Constraints Firm Capacity Coefficient is the left-hand side coefficient of Firm
+            Capacity in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+Note that this constraint accounts for the effect of Maintenance events on Firm Capacity according to Maintenance Generators Outage Firm Capacity .
+Lists:
+

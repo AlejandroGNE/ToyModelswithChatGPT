@@ -1,0 +1,16 @@
+Header: MT Schedule Reliability Min Contiguous Block
+
+Table Details:
+Units:	h
+Default Value:	0
+Validation Rule:	≥0
+Description:	For reliability based sampled chronology ensure sampled periods are contained in contiguous blocks of at least this many hours
+
+Paragraphs:
+This MT Schedule option relates
+          to the Reliability Chronology feature. This setting applies when PASA is run prior to MT Schedule and
+          the Reliability Criterion is used to select sample periods for when Global Sampled Period is input
+          directly. Intervals are added if needed to ensure no selected interval
+          is contained in a contiguous block of less than this number of hours.
+Lists:
+

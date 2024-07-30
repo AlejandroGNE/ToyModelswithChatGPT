@@ -1,0 +1,11 @@
+Header: Flow Storage Objectives
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Objectives on the Flow Storage
+
+Paragraphs:
+Flow Storage Objectives is set of Objectives on the Flow Storage
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Zone Max Dump Energy
+
+Table Details:
+Units:	Input: MWh    Output: MW
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum dump energy
+
+Paragraphs:
+Zone Max Dump Energy is Maximum dump energy.
+Lists:
+

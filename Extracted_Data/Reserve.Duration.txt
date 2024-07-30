@@ -1,0 +1,58 @@
+Header: Reserve Duration
+
+Table Details:
+Units:	s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Time over which the required response must be maintained
+SPINUP	Type	"Raise"	-
+SPINUP	Min Provision	70	MW
+SPINUP	Timeframe	60	sec.
+SPINUP	Duration	600	sec.
+SPINUP	Energy Usage	5	%
+SPINUP	VoRS	1000	$/MW
+SPINDOWN	Type	"Lower"	-
+SPINDOWN	Min Provision	30	MW
+SPINDOWN	Timeframe	60	sec.
+SPINDOWN	Duration	600	sec.
+SPINDOWN	Energy Usage	95	%
+SPINDOWN	VoRS	1000	$/MW
+
+Paragraphs:
+Reserve Duration is the time over
+          which the required response must be maintained. This contrasts with Timeframe which is the time in
+          which the response is first required. Duration is used to account for
+          the energy 'reservation' implied by reserve provision and affects
+          hydro generators.
+
+Example
+
+For 'raise' type reserve, defining Duration implies that a reservation
+          is made on the Head Storage of a hydro or energy in a storage of a Battery .
+          This translates to a lower bound on Storage End Volume or Battery SoC for each megawatt of Spinning
+            Reserve Provision . For 'lower' type reserve, a similar
+          reservation is made on the Tail
+            Storage of a hydro or energy in a storage of a Battery .
+          This time it translates to a lower bound on tail Storage End Volume or an upper bound on Battery SoC for each megawatt of Pump
+            Dispatchable Load Provision or lower provision from the battery.
+
+For example, if the Generator or Battery provides 100 MW of raise
+          reserve and Duration is 60s, it must have 10 × 60/3600 = 1.7 MWh
+          available in storage. Likewise if the same quantum of lower reserve is
+          provided the storage must have 1.7 MWh of headroom.
+
+Duration interacts with, but is separate to Energy
+            Usage . When that property is defined, the implied lower bound on
+          storage is reduced, to account for the expected uptake of reserve.
+
+When Duration is longer than the period length, initial conditions
+          for generator response provision should be set. See
+Lists:
+	- Reserve Generators Initial
+              Pump Load Raise Provision
+	- Reserve Generators Initial Raise
+              Provision
+

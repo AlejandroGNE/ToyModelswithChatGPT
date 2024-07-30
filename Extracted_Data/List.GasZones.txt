@@ -1,0 +1,11 @@
+Header: List Gas Zones
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Zone objects in the List
+
+Paragraphs:
+List Gas Zones is set of Main Gas Zone objects in the List.
+Lists:
+

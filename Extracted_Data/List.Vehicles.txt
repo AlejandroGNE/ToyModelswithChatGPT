@@ -1,0 +1,11 @@
+Header: List Vehicles
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Vehicle objects in the List
+
+Paragraphs:
+List Vehicles is set of Vehicle objects in the List
+Lists:
+

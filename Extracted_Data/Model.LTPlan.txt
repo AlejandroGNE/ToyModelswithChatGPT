@@ -1,0 +1,11 @@
+Header: Model LT Plan
+
+Table Details:
+Required Members:	0
+Maximum Members:	1
+Description:	LT Plan settings for the model
+
+Paragraphs:
+Model LT Plan is the LT Plan settings for the model. LT Plan runs if-and-only-if this membership exists.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Generator Regulation Raise Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation raise reserve
+
+Paragraphs:
+Generator Regulation Raise Reserve is the provision of regulation raise reserve.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Interface Loading
+
+Table Details:
+Units:	%
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loading relative to thermal limit.
+
+Paragraphs:
+Interface Loading is the loading relative to thermal limit. In the period solution data it is defined as:
+
+and in summary it is the loading in the reference direction:
+
+See also:
+Lists:
+	- Interface Loading Back
+

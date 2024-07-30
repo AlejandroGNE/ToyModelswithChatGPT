@@ -1,0 +1,15 @@
+Header: Variable Profile
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Sample profile of variable values
+
+Paragraphs:
+Profile defines a sequence of values with the expected value being in band 1 - see the Variable topic for information on how samples are created.
+Lists:
+

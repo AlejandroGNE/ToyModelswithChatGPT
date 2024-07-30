@@ -1,0 +1,15 @@
+Header: Generator Companies Net New Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Capacity (cumulative Max Capacity x (Units Built - Units Retired))
+
+Paragraphs:
+Generator Companies Net New Capacity is Net Capacity it is defined as:
+Lists:
+

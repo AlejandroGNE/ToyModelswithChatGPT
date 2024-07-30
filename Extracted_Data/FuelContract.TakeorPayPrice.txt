@@ -1,0 +1,15 @@
+Header: Fuel Contract Take-or-Pay Price
+
+Table Details:
+Units:	$/~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract take-or-pay price
+
+Paragraphs:
+This is the price paid to breach any take-or-pay commitments set by Take-or-Pay Quantity (and period variants).
+Lists:
+

@@ -1,0 +1,18 @@
+Header: Gas Plant Maintenance Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to maintenance
+
+Paragraphs:
+Gas Plant Maintenance Rate is the probability that the gas plant is out-of-service for a planned outage, either full or partial . See Generator Maintenance Rate for details.
+
+See also:
+Lists:
+	- Gas Plant Forced Outage Rate
+

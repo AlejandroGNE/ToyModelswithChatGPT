@@ -1,0 +1,421 @@
+Header: Diagnostic Algebraic
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write LP files in algebraic format
+System	System	-	the system object
+Generator	Hydro.1	Hydro	
+Generator	Hydro.2	Hydro	
+Generator	Pumped.Hydro.3	Hydro	
+Generator	Coal.1	Thermal	
+Generator	Coal.2	Thermal	
+Generator	Coal.3	Thermal	
+Generator	CT.1	Thermal	
+Generator	Nuclear.1	Thermal	
+Generator	Firm.purchase.1	Contracts	
+Generator	Firm.purchase.2	Contracts	
+Fuel	Coal	-	
+Fuel	Gas.contract.1	-	
+Fuel	Nuclear.Fuel	-	
+Fuel	Oil.No.2	-	
+Fuel	Spot.gas	-	
+Storage	Pumped.Head.3	-	
+Storage	Pumped.Tail.3	-	
+Purchaser	Nonfirm.sale.1	-	
+Region	North	-	
+Region	Southeast	-	
+Region	Southwest	-	
+Node	North	-	
+Node	Southeast	-	
+Node	Southwest	-	
+Line	East-West.tie	-	
+Line	Southeast.link	-	
+Line	Southwest.link	-	
+Data File	North Load	-	
+Data File	Southeast Load	-	
+Data File	Southwest Load	-	
+Collection	Parent	Child
+Generator.Fuels	Coal.1	Coal
+Generator.Fuels	Coal.2	Coal
+Generator.Fuels	Coal.3	Coal
+Generator.Fuels	Coal.3	Oil.No.2
+Generator.Fuels	CT.1	Gas.contract.1
+Generator.Fuels	CT.1	Spot.gas
+Generator.Fuels	Nuclear.1	Nuclear.Fuel
+Generator.Start Fuels	Coal.2	Oil.No.2
+Generator.Head Storage	Pumped.Hydro.3	Pumped.Head.3
+Generator.Tail Storage	Pumped.Hydro.3	Pumped.Tail.3
+Generator.Nodes	Hydro.1	North
+Generator.Nodes	Hydro.2	North
+Generator.Nodes	Pumped.Hydro.3	North
+Generator.Nodes	Coal.1	Southwest
+Generator.Nodes	Coal.2	Southwest
+Generator.Nodes	Coal.3	Southwest
+Generator.Nodes	CT.1	Southeast
+Generator.Nodes	Nuclear.1	Southeast
+Generator.Nodes	Firm.purchase.1	Southwest
+Generator.Nodes	Firm.purchase.2	North
+Purchaser.Nodes	Nonfirm.sale.1	Southeast
+Node.Region	North	North
+Node.Region	Southeast	Southeast
+Node.Region	Southwest	Southwest
+Line.Node From	East-West.tie	Southeast
+Line.Node From	Southeast.link	Southeast
+Line.Node From	Southwest.link	North
+Line.Node To	East-West.tie	Southwest
+Line.Node To	Southeast.link	North
+Line.Node To	Southwest.link	Southwest
+Collection	Parent	Child	Property	Value	Data File	Unit	Band
+Generators	System	Hydro.1	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Hydro.1	Units	1		-	1
+Generators	System	Hydro.1	Max Capacity	15		MW	1
+Generators	System	Hydro.1	Min Stable Level	5		MW	1
+Generators	System	Hydro.1	Commit	1		-	1
+Generators	System	Hydro.1	Max Energy Week	2		GWh	1
+Generators	System	Hydro.2	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Hydro.2	Units	1		-	1
+Generators	System	Hydro.2	Max Capacity	20		MW	1
+Generators	System	Hydro.2	Min Stable Level	2		MW	1
+Generators	System	Hydro.2	Max Energy Week	1		GWh	1
+Generators	System	Pumped.Hydro.3	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Pumped.Hydro.3	Units	1		-	1
+Generators	System	Pumped.Hydro.3	Max Capacity	100		MW	1
+Generators	System	Pumped.Hydro.3	Min Stable Level	20		MW	1
+Generators	System	Pumped.Hydro.3	Pump Efficiency	90		%	1
+Generators	System	Pumped.Hydro.3	Pump Load	100		MW	1
+Generators	System	Pumped.Hydro.3	Min Pump Load	10		MW	1
+Generators	System	Coal.1	Max Heat Rate Tranches	3		-	1
+Generators	System	Coal.1	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Coal.1	Units	1		-	1
+Generators	System	Coal.1	Max Capacity	200		MW	1
+Generators	System	Coal.1	Min Stable Level	1		MW	1
+Generators	System	Coal.1	Load Point	1		MW	1
+Generators	System	Coal.1	Load Point	100		MW	2
+Generators	System	Coal.1	Load Point	200		MW	3
+Generators	System	Coal.1	Heat Rate	11900		BTU/kWh	1
+Generators	System	Coal.1	Heat Rate	10350		BTU/kWh	2
+Generators	System	Coal.1	Heat Rate	10330		BTU/kWh	3
+Generators	System	Coal.1	Start Cost	1500		$	1
+Generators	System	Coal.1	Forced Outage Rate	5		%	1
+Generators	System	Coal.1	Mean Time to Repair	168		h	1
+Generators	System	Coal.2	Max Heat Rate Tranches	3		-	1
+Generators	System	Coal.2	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Coal.2	Units	1		-	1
+Generators	System	Coal.2	Max Capacity	100		MW	1
+Generators	System	Coal.2	Min Stable Level	10		MW	1
+Generators	System	Coal.2	Load Point	10		MW	1
+Generators	System	Coal.2	Load Point	50		MW	2
+Generators	System	Coal.2	Load Point	100		MW	3
+Generators	System	Coal.2	Heat Rate	13100		BTU/kWh	1
+Generators	System	Coal.2	Heat Rate	11550		BTU/kWh	2
+Generators	System	Coal.2	Heat Rate	11530		BTU/kWh	3
+Generators	System	Coal.2	Start Cost Time	24		h	1
+Generators	System	Coal.2	Start Cost Time	58		h	2
+Generators	System	Coal.2	Forced Outage Rate	5		%	1
+Generators	System	Coal.2	Mean Time to Repair	168		h	1
+Generators	System	Coal.3	Max Heat Rate Tranches	3		-	1
+Generators	System	Coal.3	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Coal.3	Units	1		-	1
+Generators	System	Coal.3	Max Capacity	50		MW	1
+Generators	System	Coal.3	Min Stable Level	5		MW	1
+Generators	System	Coal.3	Load Point	5		MW	1
+Generators	System	Coal.3	Load Point	10		MW	2
+Generators	System	Coal.3	Load Point	50		MW	3
+Generators	System	Coal.3	Heat Rate	14900		BTU/kWh	1
+Generators	System	Coal.3	Heat Rate	12950		BTU/kWh	2
+Generators	System	Coal.3	Heat Rate	12930		BTU/kWh	3
+Generators	System	Coal.3	Start Cost	1500		$	1
+Generators	System	Coal.3	Start Cost	4000		$	2
+Generators	System	Coal.3	Start Cost Time	16		h	1
+Generators	System	Coal.3	Start Cost Time	32		h	2
+Generators	System	Coal.3	Forced Outage Rate	5		%	1
+Generators	System	Coal.3	Mean Time to Repair	168		h	1
+Generators	System	CT.1	Max Heat Rate Tranches	4		-	1
+Generators	System	CT.1	Fixed Load Method	Relax When Zero		-	1
+Generators	System	CT.1	Units	1		-	1
+Generators	System	CT.1	Max Capacity	10		MW	1
+Generators	System	CT.1	Min Stable Level	1		MW	1
+Generators	System	CT.1	Load Point	1		MW	1
+Generators	System	CT.1	Load Point	3		MW	2
+Generators	System	CT.1	Load Point	5		MW	3
+Generators	System	CT.1	Load Point	10		MW	4
+Generators	System	CT.1	Heat Rate Incr	16500		BTU/kWh	1
+Generators	System	CT.1	Heat Rate Incr	16500		BTU/kWh	2
+Generators	System	CT.1	Heat Rate Incr	16500		BTU/kWh	3
+Generators	System	CT.1	Heat Rate Incr	16500		BTU/kWh	4
+Generators	System	Nuclear.1	Max Heat Rate Tranches	2		-	1
+Generators	System	Nuclear.1	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Nuclear.1	Units	1		-	1
+Generators	System	Nuclear.1	Max Capacity	100		MW	1
+Generators	System	Nuclear.1	Min Stable Level	5		MW	1
+Generators	System	Nuclear.1	Load Point	5		MW	1
+Generators	System	Nuclear.1	Load Point	100		MW	2
+Generators	System	Nuclear.1	Heat Rate Incr	10500		BTU/kWh	1
+Generators	System	Nuclear.1	Heat Rate Incr	10500		BTU/kWh	2
+Generators	System	Nuclear.1	Start Cost	1500		$	1
+Generators	System	Nuclear.1	Commit	1		-	1
+Generators	System	Nuclear.1	Forced Outage Rate	5		%	1
+Generators	System	Nuclear.1	Mean Time to Repair	168		h	1
+Generators	System	Firm.purchase.1	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Firm.purchase.1	Units	1		-	1
+Generators	System	Firm.purchase.1	Max Capacity	20		MW	1
+Generators	System	Firm.purchase.1	Min Stable Level	20		MW	1
+Generators	System	Firm.purchase.1	Commit	1		-	1
+Generators	System	Firm.purchase.1	Offer Quantity	20		MW	1
+Generators	System	Firm.purchase.1	Offer Price	25.5		$/MWh	1
+Generators	System	Firm.purchase.2	Fixed Load Method	Relax When Zero		-	1
+Generators	System	Firm.purchase.2	Units	1		-	1
+Generators	System	Firm.purchase.2	Max Capacity	20		MW	1
+Generators	System	Firm.purchase.2	Min Stable Level	20		MW	1
+Generators	System	Firm.purchase.2	Commit	1		-	1
+Generators	System	Firm.purchase.2	Offer Quantity	20		MW	1
+Generators	System	Firm.purchase.2	Offer Price	24.3		$/MWh	1
+Generator.Fuels	Coal.3	Coal	Ratio	0.95		-	-	1
+-
+Generator.Fuels	Coal.3	Oil.No.2	Ratio	0.05		-	1
+Generator.Start Fuels	Coal.2	Oil.No.2	Offtake at Start	1000		MMBTU	
+Generator.Start Fuels	Coal.2	Oil.No.2	Offtake at Start	500		MMBTU	
+Fuels	System	Coal	Price	1.45		$/MMBTU	1
+Fuels	System	Gas.contract.1	Price	1.7		$/MMBTU	1
+Fuels	System	Nuclear.Fuel	Price	1		$/MMBTU	1
+Fuels	System	Oil.No.2	Price	2.2		$/MMBTU	1
+Fuels	System	Spot.gas	Price	1.8		$/MMBTU	1
+Fuels	System	Spot.gas	Max Offtake Day	0.5		BBTU	1
+Storages	System	Pumped.Head.3	Max Volume	3		GWh	1
+Storages	System	Pumped.Tail.3	Max Volume	3		GWh	1
+Purchasers	System	Nonfirm.sale.1	Bid Quantity	5		MW	1
+Purchasers	System	Nonfirm.sale.1	Bid Quantity	10		MW	2
+Purchasers	System	Nonfirm.sale.1	Bid Price	10000		$/MWh	1
+Purchasers	System	Nonfirm.sale.1	Bid Price	24.3		$/MWh	2
+Regions	System	North	Load Includes Losses	Yes		Yes/No	1
+Regions	System	North	Load	0	NORTH.CSV	MW	1
+Regions	System	North	VoLL	100		$/MWh	1
+Regions	System	Southeast	Load Includes Losses	Yes		Yes/No	1
+Regions	System	Southeast	Load	0	SE.CSV	MW	1
+Regions	System	Southeast	VoLL	80		$/MWh	1
+Regions	System	Southwest	Load Includes Losses	Yes		Yes/No	1
+Regions	System	Southwest	Load	0	SW.CSV	MW	1
+Regions	System	Southwest	VoLL	100		$/MWh	1
+Lines	System	East-West.tie	Max Flow	40		MW	1
+Lines	System	East-West.tie	Min Flow	-40		MW	1
+Lines	System	East-West.tie	Loss Incr	0.04		-	1
+Lines	System	East-West.tie	Loss Incr Back	-0.04		-	1
+Lines	System	East-West.tie	Wheeling Charge	2.5		$/MWh	1
+Lines	System	East-West.tie	Wheeling Charge Back	1.5		$/MWh	1
+Lines	System	Southeast.link	Max Flow	128		MW	1
+Lines	System	Southeast.link	Min Flow	-128		MW	1
+Lines	System	Southeast.link	Loss Incr	0.03		-	1
+Lines	System	Southeast.link	Loss Incr Back	-0.03		-	1
+Lines	System	Southwest.link	Max Flow	114.4		MW	1
+Lines	System	Southwest.link	Min Flow	-114.4		MW	1
+Lines	System	Southwest.link	Loss Incr	0.05		-	1
+Lines	System	Southwest.link	Loss Incr Back	-0.05		-	1
+Data Files	System	North Load	Filename	0	NORTH.CSV	-	1
+Data Files	System	Southeast Load	Filename	0	SE.CSV	-	1
+Data Files	System	Southwest Load	Filename	0	SW.CSV	-	1
+-
+Class	Prefix
+Generator	Gen
+Fuel	Fue
+Fuel Contract	Fue
+Emission	Mis
+Abatement	Aba
+Storage	Sto
+Waterway	Wat
+Power Station	n/a
+Physical Contract	Phy
+Purchaser	Pur
+Reserve	Res
+Battery	Bat
+Power2X	P2X
+Reliability	n/a
+Financial Contract	Fin
+Cournot	n/a
+RSI	n/a
+Region	Reg
+Pool	n/a
+Zone	Zon
+Node	Nod
+Load	n/a
+Line	Lin
+MLF	n/a
+Transformer	Tra
+Flow Control	FC
+Interface	Int
+Contingency	n/a
+Hub	n/a
+Transmission Right	FCR
+Heat Plant	HPl
+Heat Node	HNo
+Heat Storage	HSt
+Gas Field	GFi
+Gas Plant	GPl
+Gas Pipeline	GPi
+Gas Node	GNo
+Gas Storage	GSt
+Gas Demand	GDe
+Gas DSM Program	GDSM
+Gas Basin	GBa
+Gas Zone	GZo
+Gas Contract	GCo
+Gas Transport	GTr
+Gas Capacity Release Offer	GCRO
+Water Plant	WPl
+Water Pipeline	WPi
+Water Node	WNo
+Water Storage	WSo
+Water Demand	WDe
+Water Zone	WZo
+Water Pump Station	WPS
+Water Pump	WPu
+Vehicle	Veh
+Charging Station	Cha
+Fleet	Fle
+Company	Com
+Commodity	Cmd
+Process	Pro
+Facility	Fac
+Maintenance	Mai
+Flow Network	n/a
+Flow Node	FNo
+Flow Path	FPa
+Flow Storage	FSt
+Entity	Ent
+Market	Mar
+Constraint	Con
+Objective	Obj
+Decision Variable	Var
+
+Paragraphs:
+This setting instructs the Generic
+            Writer to produce diagnostic files in an algebraic form, one for
+          each optimization problem solved during the simulation.
+
+Algebraic format summarizes the equations in the LP/MIP/QP problem so
+          that each unique type of equation is represented by a single
+          equation in a semi-algebraic format with its indices and coefficient
+          ranges described. The format is not intended to be readable by
+          optimization codes and cannot be used to reproduce the original
+          optimization problem because it does not contain the full set of
+          problem data, however it is useful for documenting the formulation.
+
+Consider the simple three-area system in Figure 1. The data
+          associated with this is listed in Tables 1-3.
+
+Figure 1:Example three-area system
+
+
+
+
+
+
+
+
+
+
+
+The data contained in the CSV files for system load is illustrated in
+          Figure 2.
+
+Figure 2: Load Data
+
+If we run a simulation on this system with hourly resolution and
+          weekly optimization step the resulting mixed-integer linear
+          programming problem contains 15802 constraints, 13778 variables and
+          1808 integers and 44081 non-zero coefficients. The printed LP format
+          file is 88800 lines long. Although it is possible to read this file it
+          is not easy to understand the mathematical formulation in one glance.
+          This is the purpose of the Algebraic format.
+
+By contrast, the
+          Algebraic format file for this simulation has only 216 lines and is as
+          follows:
+
+The algebraic format is formatted similarly to the familiar LP format
+          with several sections:
+
+Variables and constraints in the problem are grouped by prefix, which
+          is an abbreviation unique to each element. The prefixes form the start
+          of the name of every variable and constraint in the LP file. For
+          example, the prefix "GenFuel" is the fuel consumption by a generator,
+          "LinFlow" is the flow on a transmission line, etc . The
+          prefixes begin with a three letter abbreviation for the class the
+          element pertains to e.g. "Gen" for Generator, "Lin" for
+          Line, "Fue" for Fuel, etc, and are terminated by an underscore.. The
+          complete list is in Table 2.
+
+
+
+The Comments section at the top of the file describes the original
+          problem size.
+
+The Objective Function section begins with one of the keywords minimize or maximize . Each term in the objective function is
+          described in the format:
+
+[ c1, c2] Prefix_*{indices}
+
+where:
+
+c1 and c2 are the smallest and largest
+          objective function coefficient associated with the variable in the
+          original problem respectively
+
+Prefix_ is as described above
+
+{indices} describes the indices for the
+          variable and the index ranges applicable
+
+For example the objective function term:
+
++ [10.5, 16.409569] GenLoad_*{1,…,168}"
+
+refers to the Generator load variable. The "*" denotes where the name
+          of each Generator would appear. The indices description "{1,…,168}"
+          shows that the variable is indexed between 1 and 168 i.e. there is one
+          such variable for each Generator and each hour of a week. The
+          coefficient part "+ [10.5, 16.409569]" indicates that the coefficient
+          values are all in the range 10.5 - 16.409569.
+
+The constraints section begins with the keywords "Subject To". This
+          section lists all the classes of constraint and the variable terms in
+          them. This is formatted similarly to the objective function but each
+          constraint is also shown with its name and indices, for example:
+
+GenPmax_*{1,…,168}: + GenLoad_*{1,…,168} + [-200, -10] GenOn_*{1,…,168}{1,…,168} + GenFan_*{1,…,3}{1,…,168} (<=,=) [0, 100] w_i  0
+
+The name of the constraint comes first and is separated from the rest
+          of the constraint by a colon. In this case the constraint relates to
+          the Generator class and is called "Pmax". It is indexed by time
+          between 1-168 i.e. for each Generator there are 168 such constraints.
+          The terms in the constraint are shown with their indices and
+          coefficient ranges. The constraint sense (or direction) is indicated
+          by the " (<=,=)" part. In this case it shows that some constraints
+          are less-than-or-equal-to and other are equality constraints. Finally
+          the right-hand side coefficient range is shown "[0, 100] ", which in
+          this case shows that the right-hand-side ranges in value from 0-100.
+
+The Bound section begins with the keyword "Bounds". It lists any
+          lower or upper bounds on the variables. Any variable not listed here
+          by default has bounds between zero and infinity. The special keyword
+          "free" means that a variable has no bounds.
+
+The final two sections are the Generals and Binaries. These sections
+          simply list the variables that are general integers (can take any
+          integer value between their bounds) or binary variables (must take the
+          value zero or one only).
+
+The algebraic format file ends with the keyword "End".
+Lists:
+	- Comments
+	- Objective Function
+	- Constraints
+	- Bounds
+	- Generals & Binaries
+
+
+H2s:
+Example System
+LP File
+Algebraic File

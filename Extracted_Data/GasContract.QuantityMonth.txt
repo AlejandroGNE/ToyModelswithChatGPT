@@ -1,0 +1,16 @@
+Header: Gas Contract Quantity Month
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Total gas contract quantity in month
+
+Paragraphs:
+Gas Contract Quantity month is the quantity of gas specified in the contract to be supplied at a particular price.
+            It is maximum amount of gas that a contract can produce monthly. A contract can produce less than this, but not more.
+Lists:
+

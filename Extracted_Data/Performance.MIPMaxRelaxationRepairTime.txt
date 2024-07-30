@@ -1,0 +1,12 @@
+Header: Performance MIP Max Relaxation Repair Time
+
+Table Details:
+Units:	s
+Default Value:	-1
+Validation Rule:	≥-1
+Description:	Maximum time allowed in repairing an infeasible mixed integer programming problem
+
+Paragraphs:
+Model Performance MIP Max Relaxation Time is the maximum number of seconds spent solving a Mixed integer programming problem which is being repaired after an infeasibility reported. The simulation will be terminated if the solver fails to find a solution for the repaired problem within this time.
+Lists:
+

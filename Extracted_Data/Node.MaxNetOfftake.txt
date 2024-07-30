@@ -1,0 +1,15 @@
+Header: Node Max Net Offtake
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum net offtake
+
+Paragraphs:
+Node Max Net Offtake set a lower bound on Net Injection at the node.
+Lists:
+

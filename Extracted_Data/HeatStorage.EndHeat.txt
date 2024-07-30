@@ -1,0 +1,15 @@
+Header: Heat Storage End Heat
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Heat in storage at the end of the period
+
+Paragraphs:
+Heat Storage End Heat is the heat in storage at the end of the period.
+Lists:
+

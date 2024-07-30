@@ -1,0 +1,15 @@
+Header: Variable GARCH beta
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Weight on the variance in GARCH(1,1)
+
+Paragraphs:
+Variable GARCH β is the weight on the variance for the GARCH(1,1) model.
+Lists:
+

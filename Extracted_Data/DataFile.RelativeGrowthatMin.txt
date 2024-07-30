@@ -1,0 +1,12 @@
+Header: Data File Relative Growth at Min
+
+Table Details:
+Units:	%
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Relative growth at the lowest end of the LDC for Method = Quadratic
+
+Paragraphs:
+Data File Relative Growth at Min applies when Method is set to quadratic - see the Load Forecasting article for examples.
+Lists:
+

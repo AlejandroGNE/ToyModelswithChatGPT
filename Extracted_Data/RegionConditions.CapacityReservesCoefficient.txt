@@ -1,0 +1,19 @@
+Header: Region Conditions Capacity Reserves Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of region capacity reserves in condition
+
+Paragraphs:
+Region Conditions Capacity Reserves Coefficient is Coefficient of region capacity
+          reserves in condition.
+
+The region capacity reserves are from all sources including
+          interchange with other expansion zones after new build/retirements.
+Lists:
+

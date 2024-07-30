@@ -1,0 +1,19 @@
+Header: Gas Node Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand at the gas node
+
+Paragraphs:
+Gas Node Demand is the total Gas Demand Demand at the Gas Node .
+
+Gas Node Demand = Gas Demand + Fuel Offtake + Market Sales
+
+The actual quantity of gas served is the net of this value at the Shortage and Excess .
+Lists:
+

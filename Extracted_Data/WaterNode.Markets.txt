@@ -1,0 +1,11 @@
+Header: Water Node Markets
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	external water market connected to the water node
+
+Paragraphs:
+Water Node Markets is the external water market connected to the Water Node.
+Lists:
+

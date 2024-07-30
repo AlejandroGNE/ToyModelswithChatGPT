@@ -1,0 +1,11 @@
+Header: Flow Network Commodity
+
+Table Details:
+Required Members:	1
+Maximum Members:	1
+Description:	Commodity flowing on the Flow Network
+
+Paragraphs:
+Flow Network Commodity is Commodity flowing on the Flow Network
+Lists:
+

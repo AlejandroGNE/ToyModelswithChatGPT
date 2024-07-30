@@ -1,0 +1,25 @@
+Header: Node LOLE
+
+Table Details:
+Units:	day
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Loss Of Load Expected (summary type "Sum")
+
+Paragraphs:
+Node LOLE is the number of days of outage.
+
+NOTE: LOLE is only computed by PASA when the Compute Reliability Indices setting is 'on'.
+
+The Loss of Load Expectation index is calculated directly from the LOLP . It is simply:
+
+where:
+
+See also:
+Lists:
+	- Node LOLP
+	- Node EENS
+

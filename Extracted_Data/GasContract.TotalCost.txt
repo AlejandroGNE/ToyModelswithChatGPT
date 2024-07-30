@@ -1,0 +1,15 @@
+Header: Gas Contract Total Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total of fixed and variable costs
+
+Paragraphs:
+Gas Contract Total Cost is total of fixed and variable costs in a given contract.
+Lists:
+

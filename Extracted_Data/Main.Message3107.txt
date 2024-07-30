@@ -1,0 +1,11 @@
+Header: Message 3107
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Escalator <name> cannot define Escalator [Compound Index] for both period types <name> and <name>.
+
+Paragraphs:
+Message 3107 occurs in the following circumstances:
+Lists:
+

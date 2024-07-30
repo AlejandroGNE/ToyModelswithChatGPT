@@ -1,0 +1,26 @@
+Header: Generator Constraints Units Retired in Year Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units retired in the year constraint
+
+Paragraphs:
+Generator Constraints Units Retired in Year Coefficient is the left-hand side coefficient of
+          the number of Units Retired in the year in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+... + a (i,j) × Generator Units Retired ... {≤,
+            ≥, =} b j
+
+See also:
+Lists:
+	- Generator Units
+              Retired
+

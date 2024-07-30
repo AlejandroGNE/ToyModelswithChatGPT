@@ -1,0 +1,15 @@
+Header: Gas Storage Max Temperature Withdrawal
+
+Table Details:
+Units:	°C (Metric), °F (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum temperature at which the gas storage is allowed to withdraw gas
+
+Paragraphs:
+Gas Storage Max Temperature Withdrawal is Maximum temperature at which the gas storage is allowed to withdraw gas.
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Region Intraregional Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Intraregional Lines is the set of Lines that flow inside the Region. This collection is reserved for reporting only.
+Lists:
+

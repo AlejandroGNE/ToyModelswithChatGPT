@@ -1,0 +1,18 @@
+Header: Gas Node Net Demand
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Demand at the gas node net of shortages, excesses and DSM Program reductions
+
+Paragraphs:
+Gas Node Net Demand is the gas demand at the Gas Node net of shortages, excesses and DSM Program reductions. See also: Gas Demand Net Demand
+
+See also:
+Lists:
+	- Gas Demand Net Demand
+

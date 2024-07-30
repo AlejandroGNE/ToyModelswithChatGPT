@@ -1,0 +1,35 @@
+Header: Generator Min Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a unit must be run after being started
+
+Paragraphs:
+Generator Min Up Time is the
+          minimum number of hours the unit must be 'on' in any commitment cycle.
+          Note that Min Up Time (MUT) is a static property. The number of
+          hours up is reported in the property Hours
+            Up . If it is defined dynamically (varying according to different
+          periods), the maximum value will be used. If dynamic MUT is desired,
+          it can be achieve using a custom constraints as show in the Min
+            Down Time topic.
+
+The Min Up Time is the minimum time operating after Min Stable Level is reached from a hot start. 
+For example, if the Run Up Rate requires 2 hours to reach Min Stable Level and the Min Up Time is 5 hours, the generator will be up for a minimum of 7 hours after a start.  
+When using multiple cooling states, the setting Min Up Time by Cooling State can be used. 
+ When Min Up Time by Cooling State is true, the Min Up Time will respect the time to reach Min Stable Level regardless of whether the generator has a hot, warm, or cold start.
+
+See also:
+Lists:
+	- Generator Min
+              Down Time
+	- Generator Max
+              Down Time
+	- Generator Max
+              Up Time
+

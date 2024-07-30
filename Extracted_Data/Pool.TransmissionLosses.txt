@@ -1,0 +1,15 @@
+Header: Pool Transmission Losses
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total transmission losses
+
+Paragraphs:
+Pool Transmission Losses is the total transmission losses across all Regions in the Pool.
+Lists:
+

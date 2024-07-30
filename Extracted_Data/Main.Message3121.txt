@@ -1,0 +1,15 @@
+Header: Message 3121
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The Model Random Number Seed property has not been set. The number <value> will be used. Variable samples and outage patterns in this simulation will repeat only if this same seed is set.
+
+Paragraphs:
+Message 3121 occurs when the Model Random Number Seed property either has not been set or has been set to zero. A zero value indicates that the random number seed for the simulation will itself be randomly drawn. The seed drawn is reported in the simulation log file thus:
+
+The simulation results can be repeated by entering this number into the Model Random Number Seed property next time you run.
+
+Note that in some circumstances you might want each run of the Model to produce different patterns of outages or samples e.g. when running a large number of Monte Carlo runs. In this case you can suppress this warning via the database Settings form .
+Lists:
+

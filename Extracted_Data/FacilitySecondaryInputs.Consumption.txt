@@ -1,0 +1,22 @@
+Header: Facility Secondary Inputs Consumption
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of Process Secondary Input Commodity consumed by the Facility
+
+Paragraphs:
+Facility Secondary
+            Inputs Consumption is the amount of the Secondary
+            Process Secondary Input Commodity consumed by the Facility in
+          its Production .
+
+See also:
+Lists:
+	- Facility Secondary
+              Outputs Production
+

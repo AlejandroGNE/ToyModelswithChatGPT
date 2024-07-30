@@ -1,0 +1,15 @@
+Header: Abatement Generators Generation Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Proportion of generator emissions that feed into the abatement technology
+
+Paragraphs:
+Abatement Generators Generation Participation Factor is the proportion of generator emissions that feed into the abatement technology.
+Lists:
+

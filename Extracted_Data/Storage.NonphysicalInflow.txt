@@ -1,0 +1,19 @@
+Header: Storage Non-physical Inflow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Non-physical inflow required to maintain feasible storage volumes.
+
+Paragraphs:
+Storage Non-physical Inflow is the non-physical inflow required to maintain feasible storage volumes. Non-physical inflow is only allowed when Storage Non-physical Inflow Penalty is defined.
+
+See also:
+Lists:
+	- Storage Non-physical Spill
+	- Storage Non-physical Spill Penalty
+

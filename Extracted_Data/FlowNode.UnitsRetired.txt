@@ -1,0 +1,22 @@
+Header: Flow Node Units Retired
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flag if the Flow Node is retired in this year
+
+Paragraphs:
+Flow Node Units Retired is the
+          number of units of the Flow Node retired by LT
+            Plan .
+
+See also:
+Lists:
+	- Flow Node Units
+	- Flow Node Max
+              Units Retired
+

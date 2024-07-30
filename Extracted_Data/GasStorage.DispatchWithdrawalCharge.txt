@@ -1,0 +1,15 @@
+Header: Gas Storage Dispatch Withdrawal Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental dispatch cost of withdrawing gas from the storage
+
+Paragraphs:
+Gas Storage Dispatch Withdrawal Charge is the incremental dispatch cost of withdrawing gas from the storage. Input with a single band applies to any volume of storage. Multi-banded inputs work in conjuction with the Injection Withdrawal Charge Level input bands.
+Lists:
+

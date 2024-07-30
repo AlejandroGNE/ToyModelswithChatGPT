@@ -1,0 +1,15 @@
+Header: Node Markets Purchases
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Purchases from the market
+
+Paragraphs:
+Node Markets Purchases is the energy bought from the market.
+Lists:
+

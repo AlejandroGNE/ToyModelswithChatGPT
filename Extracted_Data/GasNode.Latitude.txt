@@ -1,0 +1,12 @@
+Header: Gas Node Latitude
+
+Table Details:
+Units:	°
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Latitude
+
+Paragraphs:
+Latitude is the decimal representation of the latitude for the Gas Node . Latitude is used in combination with Longitude to set coordinates for the Gas Node when visualizing the system: See the User Interface Guide for more details.
+Lists:
+

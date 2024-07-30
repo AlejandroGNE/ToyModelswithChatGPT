@@ -1,0 +1,31 @@
+Header: Horizon Chrono Step Type
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (-1,0,1,2,3)
+Description:	Chronological model step type
+Horizon	Property	Value
+Default	ST Schedule Step Type	Day
+Default	ST Schedule at a Time	1
+
+Paragraphs:
+Horizon ST Schedule Step Type is used
+          in combination with ST Schedule At
+          a Time to set the length of each optimization problem in ST Schedule.
+
+The available values are:
+
+Minute (value = 0)
+
+Hour (value = 1)
+
+Day (value = 2)
+
+Week (value = 3)
+
+Example:
+
+Here each step of the ST Schedule will solve one day.
+Lists:
+

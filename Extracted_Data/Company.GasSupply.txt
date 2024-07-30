@@ -1,0 +1,15 @@
+Header: Company Gas Supply
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total gas supply for the company
+
+Paragraphs:
+Company Gas Supply is the Total gas supply for the company.
+Lists:
+

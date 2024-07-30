@@ -1,0 +1,11 @@
+Header: Heat Storage Constraints
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Constraints on the Heat Storage
+
+Paragraphs:
+Heat Storage Constraints is set of Constraints on the Heat Storage
+Lists:
+

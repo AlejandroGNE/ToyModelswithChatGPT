@@ -1,0 +1,38 @@
+Header: Commodity Delivery
+
+Table Details:
+Units:	~
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Amount of the Commodity added to inventory
+
+Paragraphs:
+Commodity Delivery is the
+              amount of the Commodity added to inventory in each period from an
+              external source. This can be either a rate of 'inflow' to the
+              inventory (when Commodity Unit
+                Type = "Rate") or set quantities ( Commodity Unit Type = "Quantity"). In
+              the latter case the delivery appears each simulation period and so
+              the total delivered over a set time period scales up/down with the Horizon Periods
+                per Day . For example, if Delivery = 10 and the interval
+              length is one hour then the total delivery in a day would be 240
+              regardless of the Unit Type setting, but if the interval length is 24 hours the total delivery
+              would be 240 for the "Rate" setting and 10 for the "Quantity"
+              setting.
+
+Commodity Delivery is the
+              amount of the Commodity added to inventory in each period from an
+              external source as defined in input.
+
+See also:
+Lists:
+	- Commodity Max
+              Inventory
+	- Commodity Min
+              Inventory
+	- Commodity Opening
+              Inventory
+

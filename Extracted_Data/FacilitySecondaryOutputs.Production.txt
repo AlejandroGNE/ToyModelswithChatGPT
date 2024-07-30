@@ -1,0 +1,21 @@
+Header: Facility Secondary Outputs Production
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	True
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of Process Secondary Output Commodity produced by the Facility
+
+Paragraphs:
+Facility Secondary
+            Outputs Production is the amount of the Secondary
+            Process Secondary Output Commodity produced by the Facility.
+
+See also:
+Lists:
+	- Facility Secondary
+              Inputs Consumption
+

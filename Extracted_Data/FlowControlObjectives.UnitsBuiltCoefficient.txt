@@ -1,0 +1,15 @@
+Header: Flow Control Objectives Units Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built
+
+Paragraphs:
+Flow Control Objectives Units Built Coefficient is Coefficient of number of units built.
+Lists:
+

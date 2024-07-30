@@ -1,0 +1,36 @@
+Header: Nash-Cournot Competition
+
+Table Details:
+
+Paragraphs:
+Before reading this article please make sure you are familiar with the background material from these articles:
+
+Wikipedia also gives a good overview of Cournot competition . This article describes that Nash-Cournot implementation and how to make use of it in simulating competitive behavior in electricity markets. In the Cournot game players adjust the quantity of supply they allow to the market and find an equilibrium against a demand function. The demand function tell us how price-responsive demand is i.e. how much consumers will reduce energy demand as price increases. This sensitivity is called the Price Elasticity of Demand (or Elasticity for short) and given the symbol η. Thus in Cournot competition modelling the 'fixed' input load is replaced by demand functions, and the cost minimization objective function is augmented to find the profit-maximizing Nash-Cournot equilibrium rather than the 'perfect competition' solution. Recent research and published literature, referenced in the article Game Theory Models in PLEXOS, has opened the way for practical implementation of Nash-Cournot competition in commercial market simulation software.
+
+Cournot competition requires the definition of a demand function i.e. the relationship between the price that consumers are willing to pay and the quantity they consume. To allow you to easily apply Cournot competition to an existing model we provide a 'default' elasticity input through the Competition Default Elasticity setting. If you provide no other input then the demand function in each simulation period is created automatically based on the perfect competition solution (price and load) and this elasticity. Finer control is available by defining the elasticity using the Region Elasticity property. Here you may vary the elasticity across regions and in time. For example you might assume a less elastic demand during peak load periods.
+
+The Nash-Cournot game can be utilized in price forecasting. However, it is most useful in merger-and-acquisition studies or for computing Competition/Customer Benefits of new generation or transmission projects because, by modelling demand as responsive to price, it can capture the benefits of increased consumption. In this context however it is important to remember that by defining the elasticity (η) alone the simulator must determine the parameters of the demand function around an initial perfect- competition point, and this will vary between Model runs with different data assumptions. If you want to compare a 'base case' against another case to see if Customer Benefits exist (through reductions in price and/or increases in consumption) then it is important to use the same demand functions across scenarios. The method for capturing the base case demand functions for use as input to subsequent simulations is described in the Cournot page.
+
+The model is enabled simply by setting the Competition Equilibrium Model to "Nash-Cournot". As described above there are three ways that demand functions can be defined, and in all cases you defined Region Load as normal:
+
+(2) is the easiest method, but (3) is required if you want to preserve the same demand function across different Model runs. Note that the demand functions inferred or defined can also be reported on Cournot objects associated with Region objects even if the Cournot objects do not define a demand function.
+
+The Company is the primary competing entity in the Cournot game. Generator objects not associated with a Company are treated as "perfect competitors" or "fringe supply". Companies can be excluded from the Cournot game by setting their Strategic property to zero. Likewise the Generator Is Strategic flag can be switched off to disable gaming by given generators. When comparing different market ownership structures use the Generator Companies Share property to switch ownership according to a Scenario. Financial Contract objects are considered in the solution to the game. The higher the contract level of a Company the less capacity is available for gaming and hence the closer the solution will be to Perfect Competition. When Financial Contract is not defined, the Strategic property can be used to simulate a given percentage contract level in lieu of defining detailed contracts e.g. a Strategic value of 30% implies 70% of Perfect Competition Generation is under contract and excluded from the game. Region objects can have their gaming disabled in the Cournot solution by setting Region Is Strategic to false. This is useful for external regions or small internal regions. Disabling gaming in a region has the effect of forcing supply to match the Perfect Competition result.
+
+In the Nash-Cournot solution the Region Load is altered to reflect the equilibrium demand in each load block. The demand from Perfect Competition is reported as Region Shadow Load. The Cournot objects (if defined) output many useful details including the Consumer Surplus and Producer Surplus . They can also report the actual demands and demand function parameters used in the game.
+
+In benchmarking the Cournot solution to historical outcomes it is useful to adjust the Region Elasticity in order to match historical price levels, and the Region Load Scalar in order to rescale demand back to historical levels. Using this approach it is possible to project forward the elasticity and load scaling parameters for forecasting. Note that Nash-Cournot can be used in combination with Bertrand Competition .
+Lists:
+	- Game theory and electricity markets
+	- Game Theory Models in PLEXOS
+
+
+H2s:
+Contents
+1. Background
+2. The Demand Function
+3. Applications
+4. Controlling Parameters
+5. Competitors and Fringe Suppliers
+6. Solution
+7. Benchmarking

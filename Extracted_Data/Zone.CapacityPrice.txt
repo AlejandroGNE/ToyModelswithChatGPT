@@ -1,0 +1,20 @@
+Header: Zone Capacity Price
+
+Table Details:
+Units:	$/kW/yr
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Average price paid for capacity in the zone
+
+Paragraphs:
+Zone Capacity Price is the average price paid for capacity in the Zone and is defined as:
+
+where:
+
+See also:
+Lists:
+	- Zone LRMC
+

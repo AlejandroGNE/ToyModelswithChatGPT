@@ -1,0 +1,15 @@
+Header: Water Plant Constraints Energy Usage Coefficient
+
+Table Details:
+Units:	kWh/m³ (Metric), kWh/gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of energy usage of the Water Plant
+
+Paragraphs:
+Water Plant Constraints Energy Usage Coefficient is Coefficient of energy usage of the Water Plant.
+Lists:
+

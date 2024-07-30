@@ -1,0 +1,16 @@
+Header: Contingency Monitored Transformers Shadow Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price for contingency constraint
+
+Paragraphs:
+Contingency Monitored Transformers Shadow Price is the shadow price for the contingency 
+          flow constraint for this monitored transformer.
+Lists:
+

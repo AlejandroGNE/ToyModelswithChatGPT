@@ -1,0 +1,19 @@
+Header: PLEXOS Connect Launch Control 3 User Interface
+
+Table Details:
+
+Paragraphs:
+This section provides detailed guide in performing the main operations with PLEXOS Connect Launch Control user interface. Figure 1 shows the main user interface for PLEXOS Connect Launch Control. As seen from the interface, there are three main panels, namely the side panel, the run panel and the output panel.
+
+As seen above in Figure 1, the side panel which is on the top left of PLEXOS Launch Control has five tabs:
+
+In the run panel, the runs which have been dispatched to the system will be listed here. The run panel is filtered by the date filter at the top of the panel and by the selection in the current tab in the side panel. For example, if you have the client tab open and the client "COMPUTER1" selected, then the run panel will show all runs since the date in the date filter and that were ran by the client "COMPUTER1". When a user selects a run in the run panel where its simulation is still in progress, the output panel will show the current output from the simulation and when available, the current progress percentage of the run. However, if a user selects a completed run, the output panel by default will show the summary of the simulation. You can change what is shown by choosing a different option in the drop-down list located in the top left of the output panel.
+
+Note: Run progress percentage requires a PLEXOS Engine version of 7.200 R01 or higher, this progress will replace the drop-down option in the top left of the output panel during a simulation.
+Lists:
+	- Dataset : In the dataset tab, a user will be able to browse for datasets in which they have access to.
+	- Jobset : In the jobset tab, a user will be able to browse for jobsets in which they have access to.
+	- Client : All the clients and any client groups will be listed in the client tab.
+	- Engine : All the engines will be listed in the engine tab.
+	- Users : All the user accounts will be listed in the user tab.
+

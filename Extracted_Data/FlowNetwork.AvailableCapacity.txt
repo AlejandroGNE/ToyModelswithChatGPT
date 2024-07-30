@@ -1,0 +1,15 @@
+Header: Flow Network Available Capacity
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Available capacity
+
+Paragraphs:
+Flow Network Available Capacity is Available capacity.
+Lists:
+

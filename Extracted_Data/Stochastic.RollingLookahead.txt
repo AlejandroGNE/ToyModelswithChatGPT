@@ -1,0 +1,29 @@
+Header: Stochastic Rolling Lookahead
+
+Table Details:
+Units:	yr
+Default Value:	1
+Validation Rule:	Any Value
+Description:	Number of years modeled after the end of branching in each rolling iteration
+
+Paragraphs:
+This option applies to models with a scenario tree solved using Stochastic
+            Algorithm = "Rolling Horizon". Please refer to Multi-stage
+            Stochastic Optimization for more information on solving models
+          with scenarios trees. At each iteration, branching will occur for a
+          number of stages (weeks or months) as determined by the Minimum
+            Sample Weight and/or Rolling
+            Stage Increment . The horizon is modeled in detail during the
+          branching stages and then in a more aggregated way afterwards. This
+          option is the number of years modeled after the end of
+          branching.  By default modeling continues for one year after
+          branching stops. After this point the optimization has no further view
+          of the future.
+
+Increasing the lookahead can improve the solution but at the cost of
+          longer runtime and potential numerical issues.
+
+This option has no effect on the final deterministic iteration of
+          Rolling Horizon.
+Lists:
+

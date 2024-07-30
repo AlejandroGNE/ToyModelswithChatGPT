@@ -1,0 +1,67 @@
+Header: Visualisation With Google Earth
+
+Table Details:
+
+Paragraphs:
+PLEXOS supports export of the power system to Keyhole Markup Layout (KML) format which can be read by Google Earth as well as other viewers of geospatial data.
+
+You need to install Google Earth, which is freely available from the Google Earth Web Site.
+
+Google Earth is a geospatial data viewer. As such it relies on coordinates to locate objects. Coordinates are described by longitude and latitude pairs. These coordinates are entered into PLEXOS for the key locational objects using the following properties:
+
+The values are entered as decimal values. In Google Earth you can set the default system to decimal to make it easier to copy coordinates into PLEXOS. This option is available from the Tools/ Options menu in Google Earth:
+
+With this setting changed, you can now place 'pins' in Google Earth in any location and identify the longitude and latitude for those locations. Then copy and paste the parameters into the PLEXOS grid.
+
+PLEXOS supports visualization of Nodes and Lines by Voltage level thus it is useful to enter the Voltage property on the Nodes so this information can be used.
+
+To visualize the power system described in a PLEXOS input database, choose the Visualization command from the program menu button. You will be presented with the following dialog box.
+
+Use the arrow buttons to select the Regions you want to export. From the Hydro tab you may also choose to export the hydro system, provided you have entered longitude and latitude for the Storage objects in the system. Click OK and you will be prompted for a file name. In the dialog box that follows select "Google Earth (*.KML)" as the file format and type a name for the file. You will then be prompted if you would like the file opened in Google Earth immediately, click Yes and the file opens in Google Earth.
+
+The KML file open in Google Earth is shown in the following image. The orange highlight shows how the program represents the data in the KML file so you can navigate the elements:
+
+The power systems organized into the same hierarchical from as the main PLEXOS interface, with these classes represented as folders:
+
+In addition there is a "Generator Connections" and a "Voltages" folder. You can turn on/ off elements using the tick boxes. If you expand out the folders down to the individual elements, double-clicking on an element e.g. a Node will cause Google Earth to zoom into that area.
+
+There are tow ways to display the transmission system:
+
+In the first scheme (which is the default when the file is opened), Nodes are shown as green pins, Lines as yellow lines with the arrows representing the reference direction of flow, and Transformers similarly. The following shows how these elements are displayed when zoomed in to a area like a city:
+
+In the second scheme the system of Nodes, Lines, and Transformers is shown by voltage level. To enable this view, first turn off (untick) the Nodes, Lines, and Transformers collections, and turn on (tick) the Voltages folder. The following image shows how the an area of the system looks with the voltage view:
+
+By expanding the Voltages folder you can turn on/off any voltage levels, for example you may wish to see only the higher voltage networks.
+
+The Regions and Zones folders allow you to visualize the Region and Zone areas in the system. In the following we have turned on display of the Zones and only the 330kV and 500kV networks:
+
+Generator objects are represented by pins with optional connections indicating which node or Nodes they are connected to. Storages are shown as blue pins, with blue Waterways connecting them together along with Generator connections showing the direction of flow through the hydro system, as in the following image of the Snowy Hydro scheme in Australia:
+Lists:
+	- Node Longitude and Latitude
+	- Generator Longitude and Latitude
+	- Storage Longitude and Latitude
+	- Generators
+	- Storages
+	- Waterways
+	- Regions
+	- Zones
+	- Nodes
+	- Lines
+	- Transformers
+
+
+H2s:
+Contents
+1. Introduction
+2. Requirements
+3. Visualizing the Input
+
+H3s:
+2.1. Google Earth
+2.2. Longitude and Latitude
+2.3. Voltage
+3.1. Export
+3.2. Google Earth
+3.3. Transmission
+3.4. Regions and Zones
+3.5. Generators and Hydro

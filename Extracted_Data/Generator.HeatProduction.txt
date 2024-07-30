@@ -1,0 +1,24 @@
+Header: Generator Heat Production
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total Heat Production from Generator (including Ancillary Boiler)
+
+Paragraphs:
+In CHP units this is the total heat produced in CHP Mode and the Auxiliary Boiler:
+
+Heat Production = CHP Heat Production + Boiler Heat Production
+
+For all other thermal generators, this is to the Waste Heat .
+
+Heat output can be directed to another generator via the Heat Input membership or to one or more Heat Node objects and proportioned across those nodes with Generator Heat Output Nodes Participation  Factor .
+
+See also:
+Lists:
+	- Constraint Generators Heat Production Coefficient
+

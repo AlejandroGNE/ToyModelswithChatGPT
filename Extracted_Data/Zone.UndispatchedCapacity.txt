@@ -1,0 +1,20 @@
+Header: Zone Undispatched Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Capacity on-line but undispatched
+
+Paragraphs:
+Zone Undispatched Capacity is part of the Dispatchable Capacity that is undispatched, and is defined as:
+
+This is the total capacity on-line but not dispatched in the Zone based on the Unit Commitment and generation solution.
+
+See also:
+Lists:
+	- Zone Available Capacity
+

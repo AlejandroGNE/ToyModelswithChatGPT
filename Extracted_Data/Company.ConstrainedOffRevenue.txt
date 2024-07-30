@@ -1,0 +1,17 @@
+Header: Company Constrained Off Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Constrained off revenue
+
+Paragraphs:
+Constraint payments are enabled using the Region Constraint Payments Enabled switch.
+
+Company Constrained Off Revenue is the total revenue received by the generators owned by the company for generators constrained off in the realtime dispatch, and is defined as:
+Lists:
+

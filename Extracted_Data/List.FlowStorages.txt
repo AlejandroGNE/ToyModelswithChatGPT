@@ -1,0 +1,11 @@
+Header: List Flow Storages
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Flow Storage objects in the List
+
+Paragraphs:
+List Flow Storages is set of Flow Storage objects in the List
+Lists:
+

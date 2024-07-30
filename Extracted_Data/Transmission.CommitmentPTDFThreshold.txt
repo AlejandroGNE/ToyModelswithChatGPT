@@ -1,0 +1,20 @@
+Header: Transmission Commitment PTDF Threshold
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	≥0
+Description:	Minimum absolute value of PTDF coefficient in commitment solves.
+
+Paragraphs:
+This value represents the PTDF threshold used for iterative transmission constraints in nodal simulations with the Fixed Shift Factor method.
+                In that case when this value is greater than the Flow PTDF threshold, PLEXOS will simplify the unit commitment iterations to only use the PTDFs 
+                of magnitude greater than this input value in the constraint formulation. All PTDFs with absolute value smaller than this will be moved to the RHS based on the 
+                previous iteration's solution values. This simplification can significantly reduce the time it takes to solve for the commitment in a nodal simulation. 
+                Once the unit commitment status has been determined for a step, a final set of transmission iterations is performed with all PTDFs above the Flow PTDF threshold 
+                included in the transmission constraints to ensure that no flow violations remain. This feature is particularly useful when a Flow PTDF Threshold of 
+                0 is required (meaning that no injection mismatch is allowed) which can cause a significantly large number of nonzero values to exist in the constraint matrix. 
+                In that case a value between 0.01 and 0.05 for the Commitment PTDF Threshold will reduce the run time and constraint matrix size while still resulting in a 
+                final solution that has no injection mismatch.
+Lists:
+

@@ -1,0 +1,20 @@
+Header: Market Supply Settlement Model
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Model used to determine price paid to suppliers
+
+Paragraphs:
+Market Supply Settlement Model is the model used to determine price paid to suppliers.
+
+See also:
+Lists:
+	- Market Demand Settlement Model
+	- Market Natural Cost
+	- Market Natural Revenue
+

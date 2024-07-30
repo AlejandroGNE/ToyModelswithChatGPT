@@ -1,0 +1,15 @@
+Header: Gas Storage Volume Power Consumption
+
+Table Details:
+Units:	MW/1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	constant of proportionality for power consumption of Gas Storage current volume
+
+Paragraphs:
+Gas Storage Volume Power Consumption is the constant of proportionality for power consumption proportional to the Gas Storage current volume.
+Lists:
+

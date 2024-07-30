@@ -1,0 +1,15 @@
+Header: Power2X Min Stable Level
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum allowed electric load when operating
+
+Paragraphs:
+Power2X Min Stable Level is Minimum allowed electric load when operating.
+Lists:
+

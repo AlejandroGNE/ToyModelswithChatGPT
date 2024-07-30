@@ -1,0 +1,11 @@
+Header: Reserve Generators
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of generators that provide the reserve
+
+Paragraphs:
+Reserve Generators is the set of generators that provide the reserve.
+Lists:
+

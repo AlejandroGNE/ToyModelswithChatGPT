@@ -1,0 +1,15 @@
+Header: Water Storage Objectives Ramp Coefficient
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in water storage end volume
+
+Paragraphs:
+Water Storage Objectives Ramp Coefficient is the coefficient of change in water storage end volume.
+Lists:
+

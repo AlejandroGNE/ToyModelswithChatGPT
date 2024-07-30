@@ -1,0 +1,20 @@
+Header: Gas Contract Max Quantity Day Retired
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount the contract can be retired in aggregate over the planning horizon
+
+Paragraphs:
+Gas Contract Max Quantity Day Retired is Maximum amount the contract can be retired in aggregate over the planning horizon.
+
+See also:
+Lists:
+	- Gas Contract Expansion Quantity Day
+	- Gas Contract Min Expansion Quantity Day
+	- Gas Contract Min Quantity Day Retired
+

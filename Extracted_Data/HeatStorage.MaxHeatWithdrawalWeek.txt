@@ -1,0 +1,15 @@
+Header: Heat Storage Max Heat Withdrawal Week
+
+Table Details:
+Units:	TJ (Metric), BBtu (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum amount of heat that can be withdrawn from the storage in a week
+
+Paragraphs:
+Heat Storages Max Heat Withdrawal Week is the maximum amount of heat that can be withdrawn from the storage in a week.
+Lists:
+

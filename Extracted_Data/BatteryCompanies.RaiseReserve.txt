@@ -1,0 +1,15 @@
+Header: Battery Companies Raise Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of raise (spin up) reserve
+
+Paragraphs:
+Battery Companies Raise Reserve is the provision of raise (spin up) reserve.
+Lists:
+

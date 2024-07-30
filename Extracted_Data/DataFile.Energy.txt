@@ -1,0 +1,15 @@
+Header: Data File Energy
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Energy of the created profile
+
+Paragraphs:
+Data File Energy sets the energy of the series in Load Forecasting . The defined Energy values should match with the Growth Period . For example, if Growth Period is Month, the Energy should be defined for each month in the forecasting years.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Gas Contract Min Quantity Hour
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	Yes
+Description:	Minimum total gas contract quantity in hour
+
+Paragraphs:
+Gas Contract Min Quantity Hour is Minimum total gas contract production in hour.
+Lists:
+

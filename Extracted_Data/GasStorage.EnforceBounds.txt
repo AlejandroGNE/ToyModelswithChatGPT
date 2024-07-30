@@ -1,0 +1,15 @@
+Header: Gas Storage Enforce Bounds
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If the storage bounds are enforced.
+
+Paragraphs:
+Gas Storage Enforce Bounds is used to toggle on/off enforcing bounds on the storage End Volume defined by Min Volume and Max Volume .
+Lists:
+

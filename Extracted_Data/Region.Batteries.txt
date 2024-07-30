@@ -1,0 +1,11 @@
+Header: Region Batteries
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Region Batteries is membership between regions and the batteries in that region.
+Lists:
+

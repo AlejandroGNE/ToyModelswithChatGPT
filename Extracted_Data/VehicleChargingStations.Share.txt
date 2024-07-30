@@ -1,0 +1,19 @@
+Header: Vehicle Charging Stations Share
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	100
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Time the vehicle is at the charging station
+
+Paragraphs:
+Vehicle Charging Stations Share sets the share of time (or more accurately the 'probability') that the vehicle is connected to the charging station. A value of zero means the vehicle is not at that charging station. A value of 100 means it is connected. Fractional values imply that some proportion of the vehicle(s) are connected to the charging station. These fractional values are very useful for modeling location as a stochastic variable, which is more realistic than assuming all vehicles connect to their charging stations at the same time.
+
+Share is typically defined as a timeseries read from a Data File and connected to a Variable so that stochastics can be applied.
+
+If a vehicle is connected to multiple charging stations and the total sum of shares for the vehicle is more than 100 in any interval, then PLEXOS shows a warning message and the share values are redistributed proportionally. For example, consider a vehicle is connected with two charging stations, and the shares are 100 and 25 at a particular interval. In this scenario, PLEXOS shows a warning message and redistributes the share values as 80 and 20 respectively.
+Lists:
+

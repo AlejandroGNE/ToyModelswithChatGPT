@@ -1,0 +1,11 @@
+Header: Message 156
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Constraint <name> defines Constraint RHS (period type = <value>) but uses coefficients that support Constraint RHS Year only.
+
+Paragraphs:
+Message 156 occurs in the following circumstances:
+Lists:
+

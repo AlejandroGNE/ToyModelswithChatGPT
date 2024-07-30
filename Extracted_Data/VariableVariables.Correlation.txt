@@ -1,0 +1,15 @@
+Header: Variable Variables Correlation
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cross correlation
+
+Paragraphs:
+Variable Variables Correlation is the coefficient of correlation between the variables.
+Lists:
+

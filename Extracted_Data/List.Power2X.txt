@@ -1,0 +1,11 @@
+Header: List Power2X
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Power2X objects in the List
+
+Paragraphs:
+List Power2X is set of Power2X objects in the List
+Lists:
+

@@ -1,0 +1,21 @@
+Header: Node Cleared DSP Bid Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Value of cleared demand-side participation bids
+
+Paragraphs:
+Node Cleared DSP Bid Cost is the cost of Demand Curtailed (demand-side participation) as seen by the Market Operator and is defined as:
+
+Note that this includes only the DSP defined on the Node and not that defined on the Region . Refer to Cost of Curtailment for details.
+
+See also:
+Lists:
+	- Node DSP Bid Cleared
+	- Node Cleared DSP Bid Price
+

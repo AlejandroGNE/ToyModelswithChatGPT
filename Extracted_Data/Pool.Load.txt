@@ -1,0 +1,15 @@
+Header: Pool Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total load
+
+Paragraphs:
+Pool Load is the total load across all regions in the Pool.
+Lists:
+

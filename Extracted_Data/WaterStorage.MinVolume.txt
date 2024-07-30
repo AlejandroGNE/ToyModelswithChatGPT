@@ -1,0 +1,18 @@
+Header: Water Storage Min Volume
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum volume of Water allowed in storage
+
+Paragraphs:
+Water Storage Min Volume is the minimum volume of water allowed in storage.
+
+See also:
+Lists:
+	- Water Storage Max Volume
+

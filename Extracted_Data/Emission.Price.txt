@@ -1,0 +1,17 @@
+Header: Emission Price
+
+Table Details:
+Units:	$/kg (Metric), $/lb (U.S. Imperial)
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price charged per unit of emission (accounting only)
+
+Paragraphs:
+Emission Price as an input is the price of the emission for accounting purposes. It sets the price used in calculating the Cost . Defined alone it does not imply any charge on the Emission Production in the objective function, that can be set with the Shadow Price property instead.
+
+As an output, Price is just the input Price, but if Price is not defined as input then the simulator reports the shadow price of the emission .
+Lists:
+

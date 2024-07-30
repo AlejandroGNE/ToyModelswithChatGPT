@@ -1,0 +1,20 @@
+Header: Generator Fixed Load Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Fixed Load] violations.
+
+Paragraphs:
+Generator Fixed Load Violation Cost is the cost of Fixed Load violations and is calculated as:
+
+See also:
+Lists:
+	- Generator Fixed Load Generation
+	- Generator Fixed Load Violation
+	- Generator Hours of Fixed Load Violation
+

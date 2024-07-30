@@ -1,0 +1,24 @@
+Header: Gas Demand Shortage Price
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Notional price of gas shortage
+
+Paragraphs:
+Gas Demand Shortage Price is the notional price of shortage when supply is not sufficient to meet the Demand . 
+            Multiple bands can be used in conjunction with the Shortage Level input to specify tiered pricing. In this case, the Shortage Price 
+            should be increasing from the lower to upper bands. Gas Demand Shortage Price is a very critical input when designing electric-gas cooptimized models. In case P2X element is converting electricity
+            to gas, the Gas Demand Shortage Price should be smaller than the VoLL on the electricity node. In case gas is being supplied to a generator that is generating electricity, the shortage price of Gas Demand should be higher
+            than the VoLL on electric side.
+
+In output, the required Shortage is reported along with the Hours of Shortage and Shortage Cost .
+
+See also:
+Lists:
+	- Gas Demand Excess Price
+

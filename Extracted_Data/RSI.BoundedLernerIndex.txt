@@ -1,0 +1,15 @@
+Header: RSI Bounded Lerner Index
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Lerner Index (P-C)/P
+
+Paragraphs:
+RSI Bounded Lerner Index is defined as:
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Company Contract Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation from physical contracts
+
+Paragraphs:
+Company Contract Generation is the total physical contract generation assigned to the company, and is defined as:
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3206
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	Geographical decomposition feature has been disabled.  <value>
+
+Paragraphs:
+Message 3206 occurs in the following circumstances:
+Lists:
+

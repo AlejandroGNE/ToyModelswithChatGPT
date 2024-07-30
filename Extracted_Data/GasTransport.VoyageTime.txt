@@ -1,0 +1,15 @@
+Header: Gas Transport Voyage Time
+
+Table Details:
+Units:	day
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Time taken for the voyage from Export Node to Import Node
+
+Paragraphs:
+Gas Transport Voyage Time is time taken for the voyage from Export Node to Import Node.
+Lists:
+

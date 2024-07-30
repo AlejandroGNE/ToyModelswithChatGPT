@@ -1,0 +1,15 @@
+Header: Gas Contract Contract Length
+
+Table Details:
+Units:	yr
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Technical Life of Gas Contract
+
+Paragraphs:
+Gas Contract Contract Length is the technical life of a Gas Contract.
+Lists:
+

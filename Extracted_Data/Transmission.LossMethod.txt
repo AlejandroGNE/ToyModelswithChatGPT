@@ -1,0 +1,18 @@
+Header: Transmission Loss Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,3,4,5)
+Description:	Formulation method used to model transmission losses.
+
+Paragraphs:
+Transmission Loss Method sets the method used to model transmission losses. This property can take the following values:
+
+All methods may be used on either OPF method .
+
+Piece-wise linear is the default because it models losses without need for iteration and can be solved with Linear Programming. The SLP methods can produce much smaller formulations but require iteration. The quadratic method is most accurate but requires Conic solution, which can be slow and is not robust when there are non-physical losses. You may need to experiment with this setting to find the best performance/accuracy trade-off.
+
+The loss methods are described in the Loss Modelling article.
+Lists:
+

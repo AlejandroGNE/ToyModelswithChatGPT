@@ -1,0 +1,27 @@
+Header: Generator Generation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of generation
+
+Paragraphs:
+Generator Generation Cost is the
+          cost of production and defined as:
+
+Generation Cost = Running
+            Cost × Units
+            Generating (×
+          hours) + Fuel Offtake × Fuel Price + Generation × ( VO&M Charge + UoS
+            Cost )
+
+See also:
+Lists:
+	- Generator SRMC
+	- Generator Average
+              Cost
+

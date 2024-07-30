@@ -1,0 +1,19 @@
+Header: Power2X Max Efficiency Tranches
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 1 And 100
+Key Property:	No
+Description:	Maximum number of tranches in the efficiency piecewise linear approximation
+
+Paragraphs:
+Power2X Max Efficiency Tranches is
+          the maximum number of tranches in the efficiency piecewise linear
+          approximation.
+
+Please see the similar property Generator Max Heat Rate Tranches
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Generator Net Profit
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net profit = net revenue - fixed costs
+
+Paragraphs:
+Generator Net Profit is the net
+          of revenues and variable plus fixed costs, and is defined as:
+
+Net Profit = Net
+            Revenue + Capacity
+            Revenue - Start
+            & Shutdown Cost - Fixed
+            Costs
+Lists:
+

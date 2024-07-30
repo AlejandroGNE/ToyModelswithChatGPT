@@ -1,0 +1,19 @@
+Header: Purchaser Constraints Load Obligation Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of load obligation in the constraint
+
+Paragraphs:
+Purchaser Constraints Load Obligation Coefficient is the left-hand side coefficient of Purchaser Load Obligation in the
+          constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

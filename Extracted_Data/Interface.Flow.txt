@@ -1,0 +1,32 @@
+Header: Interface Flow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Flow on the interface
+
+Paragraphs:
+Interface Flow, in reporting by interval, is the net flow on the interface, or:
+
+This sum shows both net and directed Line Flow terms. In practice, the interface would use just one set of Line flow coefficients.
+
+In reporting summary values (day, week, etc ), Flow is defined as the sum of flows in the reference direction and Flow Back is the total flow in the counter-reference direction,
+
+See also: Interface Lines Flow Coefficient Interface Lines Flow Forward Coefficient Interface Lines Flow Back Coefficient Interface Tranformers Flow Coefficient Line Flow Line Flow Back Transformer Flow
+Lists:
+	- Interface Lines Flow Coefficient
+	- Interface Lines Flow Forward Coefficient
+	- Interface Lines Flow Back Coefficient
+	- Interface Tranformers Flow Coefficient
+	- Line Flow
+	- Line Flow Back
+	- Transformer Flow
+
+
+H4s:
+Interval Reporting
+Summary Reporting

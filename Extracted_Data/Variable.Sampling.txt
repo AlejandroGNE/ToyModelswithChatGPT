@@ -1,0 +1,15 @@
+Header: Variable Sampling
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	True (-1)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if random sampling should occur in the period
+
+Paragraphs:
+Variable Sampling is a flag indicating if random sampling should occur in the period. This can be used to toggle on/off random sampling at any period in time. For example your input Profile might not require randomizing for the first year and in this case you can define Sampling = 0 with Date To set to the end of the first year.
+Lists:
+

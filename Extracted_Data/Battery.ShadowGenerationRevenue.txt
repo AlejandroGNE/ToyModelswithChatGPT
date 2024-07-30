@@ -1,0 +1,16 @@
+Header: Battery Shadow Generation Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation revenue before mark-up models
+
+Paragraphs:
+Battery Shadow Generation Revenue
+          is the Generation Revenue before mark-up models.
+Lists:
+

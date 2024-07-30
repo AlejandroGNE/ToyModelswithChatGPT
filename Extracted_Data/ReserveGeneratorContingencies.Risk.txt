@@ -1,0 +1,20 @@
+Header: Reserve Generator Contingencies Risk
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Contribution of Generator contingency to Risk.
+
+Paragraphs:
+Reserve Generator Contingencies Risk is the contribution of Generator Generation and Provision to the dynamic Risk .
+
+See also:
+Lists:
+	- Reserve
+	- Generator Contingencies
+	- Shadow Price
+

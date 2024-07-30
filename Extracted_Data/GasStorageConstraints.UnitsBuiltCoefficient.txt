@@ -1,0 +1,24 @@
+Header: Gas Storage Constraints Units Built Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of number of units built
+
+Paragraphs:
+Gas Storage Constraints Units Built Coefficient is the left-hand side coefficient in the
+          constraint of the binary (0,1) variable indicating if the Gas
+            Storage is built to date.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+
+where: k is the current period e.g. year of the simulation.
+Lists:
+	- Gas Storage Constraints Units
+              Built in Year Coefficient
+

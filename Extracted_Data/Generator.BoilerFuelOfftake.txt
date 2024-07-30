@@ -1,0 +1,19 @@
+Header: Generator Boiler Fuel Offtake
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Fuel Offtake of Ancillary Boiler
+
+Paragraphs:
+Generator Boiler Fuel Offtake is Fuel Offtake of Ancillary Boiler.
+
+Boiler Fuel Offtake is computed as: Boiler Fuel Offtake = Boiler Heat Rate Incr * Boiler Heat Production
+
+See all CHP generator for numerical examples
+Lists:
+

@@ -1,0 +1,19 @@
+Header: Flow Path Losses
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses incurred
+
+Paragraphs:
+Flow Path Losses is the amount of
+          the Commodity lost in transit between the Flow
+            Node From and Flow Node To and is calculated as:
+
+Losses = Flow × (1 - Efficiency)
+Lists:
+

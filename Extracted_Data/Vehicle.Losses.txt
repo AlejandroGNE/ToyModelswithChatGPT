@@ -1,0 +1,23 @@
+Header: Vehicle Losses
+
+Table Details:
+Units:	kW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total charge and discharge losses
+
+Paragraphs:
+Vehicle Losses is the total losses
+          from Charging and Discharging .
+          For example, as a result of inverter losses.
+
+See also:
+Lists:
+	- Vehicle Charge
+              Efficiency
+	- Vehicle Discharge
+              Efficiency
+

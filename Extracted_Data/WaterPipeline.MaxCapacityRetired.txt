@@ -1,0 +1,18 @@
+Header: Water Pipeline Max Capacity Retired
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of reduction in Water Pipeline Max Capacity
+
+Paragraphs:
+Water Pipeline Max Capacity Retired reports the amount of reduction in Water Pipeline Max Capacity as a result of the LT Plan Capacity Expansion.
+
+See also:
+Lists:
+	- Water Pipeline Max Capacity Built
+

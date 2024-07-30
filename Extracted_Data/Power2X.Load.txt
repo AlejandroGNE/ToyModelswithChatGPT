@@ -1,0 +1,16 @@
+Header: Power2X Load
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Load drawn by the facility
+
+Paragraphs:
+Power2X Load is the electric load
+          drawn by the facility.
+Lists:
+

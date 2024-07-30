@@ -1,0 +1,17 @@
+Header: Power2X Inertia Constant
+
+Table Details:
+Units:	s
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Stored energy per unit of power
+
+Paragraphs:
+Inertia Constant is the equivalent of Generator Inertia Constant for the
+          facility. See Inertia for details
+          of how this is calculated for a Power2X facility.
+Lists:
+

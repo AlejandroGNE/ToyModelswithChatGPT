@@ -1,0 +1,17 @@
+Header: Generator Uncontrolled Inflow
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Uncontrolled natural inflow to the generator
+
+Paragraphs:
+Generator Uncontrolled Inflow is
+          the uncontrolled part of Natural
+            Inflow to the generator.
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Water Storage Repair Time Scale
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Repair time function scale parameter (for exponential,Weibull,lognormal,SEV,LEV)
+
+Paragraphs:
+Water Storage Repair Time Scale sets the scale parameter of the repair time distribution in the Monte Carlo outage simulation. Please see Generator Repair Time Scale for details. This is a Beta feature.
+Lists:
+

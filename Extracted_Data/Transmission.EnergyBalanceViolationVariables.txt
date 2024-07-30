@@ -1,0 +1,12 @@
+Header: Transmission Energy Balance Violation Variables
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Include violation variables on the transmission system energy balance equations
+
+Paragraphs:
+This flag toggles on/off the addition of violation variables on the transmission system energy balance equations in the large-scale (fixed shift factor) OPF Method .  These violation terms are a 'quick-and-dirty' way of modeling unserved energy and dump energy (under and over generation) that can be used to help diagnose network islanding or other issues in the network that would otherwise cause infeasibilities. A text report of any violations is written to the solution folder.
+Lists:
+

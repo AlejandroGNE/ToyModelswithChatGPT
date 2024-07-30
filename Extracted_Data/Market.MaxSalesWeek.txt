@@ -1,0 +1,23 @@
+Header: Market Max Sales Week
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Maximum sales to the market each week
+
+Paragraphs:
+Market Max Sales Week
+          creates a Constraint object that
+          sets an upper bound on the Sales from the Market each week. By default this is a 'hard' constraint.
+
+See also:
+Lists:
+	- Constraint RHS
+              Week
+	- Market Constraints Sales
+              Coefficient
+

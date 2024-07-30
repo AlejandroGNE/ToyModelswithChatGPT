@@ -1,0 +1,14 @@
+Header: Transmission Internal VoLL
+
+Table Details:
+Units:	$
+Default Value:	100000
+Validation Rule:	Between 0 And 1E+9
+Description:	Value of Lost Load used internally
+
+Paragraphs:
+Transmission Internal VoLL is the mathematical value of lost load as used inside the optimization when unserved energy is allowed . This differs from the accounting value of lost load, which is used ex-post to calculate the cost of curtailment . For example, some markets set true VoLL to relatively low $250/ MWh . At this price some constraints such a fuel limits, emission limits could easily generate shadow prices above VoLL and hence cause unserved energy when generation resources are available. But with internal VoLL is set to a very high number the optimization chooses available generation and transmission resources ahead of load-shedding.
+
+NOTE: In reporting, nodal and regional prices are always capped at VoLL (not internal VoLL ), however reported constraint shadow prices may exceed VoLL , indicating that internal VoLL was active.
+Lists:
+

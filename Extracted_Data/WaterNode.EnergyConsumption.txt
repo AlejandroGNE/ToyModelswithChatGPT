@@ -1,0 +1,15 @@
+Header: Water Node Energy Consumption
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total energy consumed for pipeline utilization
+
+Paragraphs:
+Water Node Energy Consumption is Total energy consumed for pipeline utilization.
+Lists:
+

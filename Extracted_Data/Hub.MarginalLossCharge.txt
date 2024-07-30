@@ -1,0 +1,15 @@
+Header: Hub Marginal Loss Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Marginal loss component of the hub price
+
+Paragraphs:
+Hub Marginal Loss Charge is Marginal loss component of the hub price. It is aggregated from Node Marginal Loss Charge .
+Lists:
+

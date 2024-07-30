@@ -1,0 +1,40 @@
+Header: Global Tree Period Type
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (0,1,2,3,4,5,6)
+Key Property:	No
+Description:	Scenario Tree: Period type for stage positions
+BinaryTree	Tree Period Type	Week (2)	-	1
+BinaryTree	Tree Stages Position	3	-	1
+BinaryTree	Tree Stages Position	4	-	2
+BinaryTree	Tree Stages Leaves	2	-	1
+BinaryTree	Tree Stages Leaves	4	-	2
+
+Paragraphs:
+Global Tree Period Type sets the
+          period type for the Tree
+            Stages Position argument. The setting can take these values:
+
+Example
+
+In the following, a three-stage tree is defined where the first stage
+          ends at week 3, the second at 4.
+
+Notice that the Tree Period Type will affect the sample values. If
+          this parameter is not set to Interval, the samples will be averaged in
+          the provided Tree Period Type. When using Global Tree Stages Hanging Branches , only the weekly and monthly Tree Period Type are supported. Additionally,
+		  monthly tree is incompatible when ST phase is enabled, as the monthly stage future cost function derived from the prior phase will not align with any ST step type.
+
+See also:
+Lists:
+	- Global Tree
+              Stages Position
+	- Global Tree
+              Stages Leaves
+	- Global Tree
+              Stages Hanging Branches
+

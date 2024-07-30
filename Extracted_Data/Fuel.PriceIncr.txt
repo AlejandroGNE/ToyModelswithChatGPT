@@ -1,0 +1,15 @@
+Header: Fuel Price Incr
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Increment to the price of the fuel
+
+Paragraphs:
+Fuel Price Incr is Increment to the price of the fuel.
+Lists:
+

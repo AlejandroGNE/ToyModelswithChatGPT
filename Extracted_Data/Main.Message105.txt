@@ -1,0 +1,11 @@
+Header: Message 105
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Error (value = 0)
+Description:	Storage <name> Energy Value defined without Storage Downstream Efficiency.
+
+Paragraphs:
+Message 105 occurs in the following circumstances:
+Lists:
+

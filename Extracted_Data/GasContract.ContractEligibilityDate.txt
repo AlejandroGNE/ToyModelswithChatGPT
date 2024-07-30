@@ -1,0 +1,15 @@
+Header: Gas Contract Contract Eligibility Date
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	36526
+Validation Rule:	≥0
+Key Property:	No
+Description:	Start date of Gas Contract expansion planning.
+
+Paragraphs:
+Gas Contract Contract Eligibility Date is the earliest date a Gas Contract can be built.
+Lists:
+

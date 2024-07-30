@@ -1,0 +1,29 @@
+Header: Generator Mark-up Point
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Load point for use with multi-point [Mark-up] or [Bid-Cost Mark-up].
+Units	1	-	1
+Max Capacity	100	MW	1
+Min Stable Level	40	MW	1
+Fuel Price	5	$/GJ	1
+Heat Rate	10	GJ/MWh	1
+Mark-up	1	$/MWh	1
+Mark-up	5	$/MWh	2
+Mark-up Point	60	MW	1
+
+Paragraphs:
+Generator Mark-up Point is a load point for use with multi-point Mark-up or Bid-Cost Mark-up . This property controls the breakpoints between bands of mark-up over-riding the default banding behaviour described in the Mark-up property page. Note that mark-up is not applied to generation below Min Stable Level unless the Competition Mark-up Min Stable Level setting is on.
+
+The number of mark-up points (bands) should be one less than the Mark-up bands as the final mark-up band will be extended to the capacity of the generator.
+
+Example:
+
+In the above example a mark-up of $1/ MWh is applied to generation from 40 to 60 MW while $5 is applied above 60 MW.
+Lists:
+

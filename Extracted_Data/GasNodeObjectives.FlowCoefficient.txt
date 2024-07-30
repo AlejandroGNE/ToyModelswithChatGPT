@@ -1,0 +1,15 @@
+Header: Gas Node Objectives Flow Coefficient
+
+Table Details:
+Units:	1000·~ (Metric), ~ (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of gas node flow
+
+Paragraphs:
+Gas Node Objectives Flow Coefficient is the coefficient of gas node flow.
+Lists:
+

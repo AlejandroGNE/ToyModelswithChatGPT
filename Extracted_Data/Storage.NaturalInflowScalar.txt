@@ -1,0 +1,18 @@
+Header: Storage Natural Inflow Scalar
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Multiplier on [Natural Inflow]
+
+Paragraphs:
+Storage Natural Inflow Scalar is multiplier on the Natural Inflow property.
+
+See also:
+Lists:
+	- Storage Natural Inflow Incr
+

@@ -1,0 +1,15 @@
+Header: Water Node End Volume
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	End volume in water storage
+
+Paragraphs:
+Water Node End Volume is the sum of End volumes of all the Water Storage connected to this water node.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Scenario Read Order
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Order in which to read scenario data (last read scenario has highest priority)
+Scenario1	Read Order	1
+Model1.Scenario2	Read Order	2
+
+Paragraphs:
+Scenario Read Order can be used to set the reading order for this Scenario object's data relative to other Scenario objects' data. Use this when you have two or more Scenario objects in your Model that define the same data.
+
+By default Scenario data are read in the same order as the Scenario objects are displayed in the Graphical User Interface, which is by category and alphabetical within categories. Scenario data read later overwrites earlier data, thus the higher the Read Order the higher the 'priority' of the data. Scenario objects have Read Order zero by default so setting a Read Order value greater than zero will make the Scenario have higher priority than any default Scenario .
+
+Please note that the ModelScenarios.ReadOrder will override any Read Order setting on the specified scenario.  However, both priorities are processed, for example say the following read order properties are defined:
+
+Here all data tagged with "Scenario 1" will be assigned the highest priority (1) and all data assigned to Scenario2 will be assigned the second highest priority (2).  However, the latter entry will only apply to "Model1".
+
+Please also note that input data tagged with a conditional variable will override any read ordering.
+Lists:
+

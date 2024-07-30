@@ -1,0 +1,18 @@
+Header: Water Storage Units Out
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of units out of service
+
+Paragraphs:
+Water Storage Units Out reports if the Storage is on outage. This is a Beta feature.
+
+See also:
+Lists:
+	- Water Storage Service Factor
+

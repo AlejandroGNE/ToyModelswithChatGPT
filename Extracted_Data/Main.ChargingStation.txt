@@ -1,0 +1,104 @@
+Header: Charging Station Class
+
+Table Details:
+Description:	An electric vehicle charging station
+
+Paragraphs:
+See also Charging Station
+            Property Reference for a detailed list of properties for this
+          class of object.
+
+Charging Station can represent any type of charging infrastructure
+          for electric Vehicles . This could be
+          domestic or commercial on-premise charging, or a station in a charging
+          network e.g. supercharger. Charging Station objects can
+          represent multiple physical stations via the Units property. This allows you to expand the size of the charging
+          infrastructure being modeled without having to create additional
+          Charging Station objects i.e. it is the 'key' property.
+
+Charging Stations connect to the electric grid with the Charging
+            Station Node membership. Vehicles connect to the Charging
+          Station with the Vehicle
+            Charging Stations membership and the Share property i.e. vehicles move between charging stations
+          according to this property and can be partially present at multiple
+          charging stations simultaneously - a feature that is designed for
+          modeling a large fleet of vehicles and charging stations with a
+          probabilistic model for the present location of the fleet.
+
+Properties of Charging Station allow you to select between three
+          levels of complexity with respect to charging and discharging of
+          electric vehicle batteries:
+
+Charging draws electric power from the grid. Charging Stations have a Max Charge Rates in
+          kilowatts. The total available charge rate scales up and down with the
+          number of Units . If Vehicles Charge Efficiency is less
+          than 100% then some of this energy will be lost and this is reported
+          in the Losses output
+          property.
+
+V1G is defined with the multi-band properties Deferrable Load and
+          Deferment Period. The optimization will choose whether or not to defer
+          the charging load according to the limits defined by these properties.
+          The amount of load deferred is reported in the Deferred Load property.
+
+V2G is enabled by setting the Max
+            Discharge Rate in kilowatts. Discharge from batteries is subject
+          to the Vehicles Discharge
+            Efficiency and any losses are added into the Losses output property. Discharge appears as additional Generation in the electric grid, and the optimization will arbitrage the electric
+          price to find the best times to charge and discharge.
+
+All charging and discharging is subject to a use-of-system
+            charge , which might, for example, represent distribution system
+          costs.
+
+Charging Station load and generation is reported at the Node , Region and Zone as Charging Station Load , Charging Station
+            Deferred Load , and Charging
+            Station Generation .
+
+Charging Stations can provide ancillary services via the Charging
+            Station Reserves membership. 'Raise' type services can be
+          provided when:
+
+'Lower' type services can be provided when:
+
+The co-optimization will trade off charging and discharging with
+          electric and ancillary services prices to find the optimal
+          combination. Charging Station output properties report the amount of
+          each type of reserve provided and the revenue earned from reserve
+          provision.
+
+Refer to the Vehicle page for
+          details on how to model EVs and charging.
+
+Charging Station supports expansion in LT Plan. The key input
+          properties are Max Units
+            Built and Build Cost and optionally FO&M
+            Charge . Expansion costs can be treated as a lump sum or
+          automatically annualized by defining WACC and Economic Life .
+          Other available constraints related to expansion are:
+
+Charging Station retirement occurs automatically after the Technical
+            Life . Retirements can be optimized if you define Max
+            Units Retired and will incur a Retirement
+            Cost .
+Lists:
+	- 'V0G': Charging demand from electric vehicles is 'fixed', based on
+            distance travelled and efficiency, and that charging demand must be
+            met as soon as the electric vehicles attach to the charging station.
+	- 'V1G': Some or all of the charging demand can be deferred in time
+            so that charging occurs at a more economic time.
+	- 'V2G': The electric vehicle batteries can not only charge from the
+            station, but also discharge to the grid.
+	- The charging station defers some charging load; or
+	- The charging station holds some discharge capacity in reserve.
+	- The charging station holds some deferrable charging load in
+            reserve; or
+	- The charging station is discharging to the grid.
+	- Project Start Date
+	- Min Units Built
+	- Max Units Built
+              in Year
+	- Min Units
+              Built in Year
+
+

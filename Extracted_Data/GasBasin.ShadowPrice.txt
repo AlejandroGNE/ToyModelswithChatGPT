@@ -1,0 +1,15 @@
+Header: Gas Basin Shadow Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Shadow price of gas in the basin
+
+Paragraphs:
+Gas Basin Shadow Price is the shadow price of gas in the basin.
+Lists:
+

@@ -1,0 +1,73 @@
+Header: Generator Forced Outage Rate
+
+Table Details:
+Units:	%
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Expected proportion of time the facility is unavailable due to forced outage
+Property	Value	Units
+Forced Outage Rate	2.5	%
+Min Time to Repair	3	hrs
+Mean Time to Repair	36	hrs
+Max Time to Repair	100	hrs
+
+Paragraphs:
+Generator Forced Outage Rate
+              sets the expected level of unplanned outages, which result in a
+              partial or complete loss of generating capacity for a certain
+              period of time. See the article Planned
+                and Random Outages for details about the repair time
+              distribution.
+
+In the example in Table 1 the facility is expected to be out of
+              service 2.5% of the time and each time it is out-of-service the
+              repair will fall in the range 3-100 hours with the mode of that
+              distribution being 36 hours.
+
+The property Forced
+                Outage Rate Denominator controls the interpretation of
+              Forced Outage Rate, which has been developed with
+              reference to the IEEE Standard definitions.
+
+The setting can take the following values:
+
+By default then, the Forced Outage Rate above of 2.5% implies
+              that on average units will be out of service (OOS) 0.025 x 8760 =
+              219 hours per annum. The repair time distribution is constant ( Mean Time to Repair only is given) thus there will be on average 219 / 36 = 6 random
+              outage events per annum each of 36 hrs.
+
+Note that Forced Outage Rate is a multi-band property, meaning
+              you can define several types of outage with different outage
+              duration functions. You can also model partial outages with the Outage Rating property.
+
+It is important to note how Forced Outage Rate acts in
+              combination with Units Out .
+              Forced Outage Rate is converted to Mean Time Between Failures
+              (MTBF) with the formula:
+
+MTBF = (1 - Forced Outage Rate) × Mean Time to Repair /
+              Forced Outage Rate
+
+MTBF ignores any pre-defined outage period. For example if Forced
+              Outage Rate = 10% and Units Out implies the unit is out-of-service for 25% of the year, in the
+              results you will see an annual Forced Outage Rate of 7.5% i.e. the unit will be forced out 10% of the available hours.
+
+You can change this behavior and have the forced outage rate
+              automatically adjusted such that the annual rate is unaffected by Units Out with the setting Stochastic EFOR
+                Maintenance Adjust .
+
+As output, Forced Outage Rate reports values consistent with the Forced Outage
+                Rate Denominator setting i.e. by default, it is
+              the percentage of time the unit is out-of-service in any given
+              period.
+
+See also:
+Lists:
+	- Generator Maintenance
+              Rate
+	- Generator Outage
+              Rating
+

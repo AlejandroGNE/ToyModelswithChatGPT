@@ -1,0 +1,15 @@
+Header: Gas Capacity Release Offer Revenue Adder
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Revenue Adder for capacity release offer
+
+Paragraphs:
+The sum of Gas Capacity Release Offer Revenue Adder and Revenue Basis multiply the Released Capacity in the interval for Revenue .
+Lists:
+

@@ -1,0 +1,11 @@
+Header: Message 3080
+
+Table Details:
+Severity:	Serious (value = 2)
+Default Action:	Warn (value = 1)
+Description:	The step settings for this phase cover <value> intervals out of <value> in the horizon. No results will be calculated for the last <value> intervals.
+
+Paragraphs:
+Message 3080 occurs in the following circumstances:
+Lists:
+

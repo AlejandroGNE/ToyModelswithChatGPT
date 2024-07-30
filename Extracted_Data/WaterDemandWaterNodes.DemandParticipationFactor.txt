@@ -1,0 +1,17 @@
+Header: Water Demand Water Nodes Demand Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of water demand that occurs at the water node
+
+Paragraphs:
+Water Demand Water Nodes Demand Participation Factor is the proportion of water Demand that occurs at the Water Node .
+
+If the Water Demand is connected to one Water Node the default value for the participation factor is one, otherwise the default value is zero i.e. if you connect a Water Demand to multiple Water Nodes you should set these participation factors to non-zero values.
+Lists:
+

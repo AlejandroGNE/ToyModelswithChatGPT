@@ -1,0 +1,17 @@
+Header: Zone Zones Net Balancing Area Interchange
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net Financial Interchange (Financial Exports - Financial Imports) from parent zone to child zone.
+
+Paragraphs:
+Zone Zones Net Balancing Area Interchange is net financial interchange from the parent zone to child zones. It is defined as:
+
+Net Balancing Area Interchange = Balancing Area Interchange Exports - Balancing Area Interchange Imports.
+Lists:
+

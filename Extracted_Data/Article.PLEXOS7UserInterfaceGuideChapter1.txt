@@ -1,0 +1,18 @@
+Header: PLEXOS User Interface Guide Chapter 1
+
+Table Details:
+
+Paragraphs:
+Before reading this guide you should read Production Cost Modelling 101 and the Concise Modelling Guide .
+
+This document provides an introduction to PLEXOS® software, its features, core data concepts, the graphical user interface and an overview of its modelling features. It makes references to other articles contained in the PLEXOS Help system where you can find more detail on particular features.
+
+This document provides a reference for the graphical user interface (GUI) of PLEXOS® for Power Systems. The GUI provides functionality to create, view and modify files. This guide gives an overview over the technical requirements, introduces the main interface elements and gives guidance on entering data as well as viewing the solutions.
+Lists:
+
+
+H2s:
+Contents
+1. Prerequisites
+2. About This Document
+3. Scope

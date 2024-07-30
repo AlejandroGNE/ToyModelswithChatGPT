@@ -1,0 +1,19 @@
+Header: Reserve Shortage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours of shortage.
+
+Paragraphs:
+Reserve Shortage Hours is the number of hours of shortage .
+
+See also:
+Lists:
+	- Reserve Shortage
+	- Reserve Shortage Cost
+

@@ -1,0 +1,11 @@
+Header: Process Secondary Outputs
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	the set of secondary output Commodities of the Process
+
+Paragraphs:
+Process Secondary Outputs is the set of secondary output Commodities of the Process
+Lists:
+

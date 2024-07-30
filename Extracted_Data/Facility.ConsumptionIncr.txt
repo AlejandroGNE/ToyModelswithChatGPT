@@ -1,0 +1,15 @@
+Header: Facility Consumption Incr
+
+Table Details:
+Units:	~/~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Primary Process consumption function first-order term
+
+Paragraphs:
+Facility Consumption Incr is Primary Process consumption function first-order term.
+Lists:
+

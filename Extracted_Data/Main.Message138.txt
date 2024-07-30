@@ -1,0 +1,11 @@
+Header: Message 138
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Purchaser <name> offtakes at <value> nodes but does not define Purchaser Nodes Load Participation Factor for Node <name>.
+
+Paragraphs:
+Message 138 occurs in the following circumstances:
+Lists:
+

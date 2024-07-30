@@ -1,0 +1,15 @@
+Header: Fuel Min Offtake Year
+
+Table Details:
+Units:	1000·~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Minimum fuel offtake in year
+
+Paragraphs:
+Fuel Min Offtake YEAR is the minimum total fuel that must be used per year - see Min Offtake for more details.
+Lists:
+

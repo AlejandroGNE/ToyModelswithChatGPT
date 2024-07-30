@@ -1,0 +1,15 @@
+Header: Gas Transport Exports
+
+Table Details:
+Units:	GJ (Metric), MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas loaded at the export gas node
+
+Paragraphs:
+Gas Transport Exports is the gas loaded at the export gas node.
+Lists:
+

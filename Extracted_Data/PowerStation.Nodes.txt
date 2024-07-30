@@ -1,0 +1,11 @@
+Header: Power Station Nodes
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	(optional) set of nodes the power station injects at
+
+Paragraphs:
+Power Station Nodes is an optional set of nodes the power station injects at. This overrides the set of nodes the Generators in the Power Station inject at.
+Lists:
+

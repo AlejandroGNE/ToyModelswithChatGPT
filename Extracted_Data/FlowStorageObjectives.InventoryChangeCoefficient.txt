@@ -1,0 +1,15 @@
+Header: Flow Storage Objectives Inventory Change Coefficient
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of change in the amount of the Commodity in inventory
+
+Paragraphs:
+See Commodity Objectives Inventory Change Coefficient for details.
+Lists:
+

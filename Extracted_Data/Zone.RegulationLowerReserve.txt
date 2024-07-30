@@ -1,0 +1,15 @@
+Header: Zone Regulation Lower Reserve
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Provision of regulation lower reserve
+
+Paragraphs:
+Zone Regulation Lower Reserve is Provision of regulation lower reserve.
+Lists:
+

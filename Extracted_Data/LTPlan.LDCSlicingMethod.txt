@@ -1,0 +1,12 @@
+Header: LT Plan LDC Slicing Method
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Method used to slice the LDC into blocks.
+
+Paragraphs:
+This LT Plan setting is described in the MT Schedule article LDC Slicing Method .
+Lists:
+

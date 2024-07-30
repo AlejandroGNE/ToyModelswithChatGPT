@@ -1,0 +1,22 @@
+Header: Fuel Contract Take-or-Pay Quantity
+
+Table Details:
+Units:	~
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Contract take-or-pay quantity
+
+Paragraphs:
+This is the amount of the Fuel that must be used in each simulation period. This limit can be breached at a penalty set by the Take-or-Pay Price .
+
+See also:
+Lists:
+	- Take or Pay Quantity Hour
+	- Take or Pay Quantity Day
+	- Take or Pay Quantity Week
+	- Take or Pay Quantity Month
+	- Take or Pay Quantity Year
+

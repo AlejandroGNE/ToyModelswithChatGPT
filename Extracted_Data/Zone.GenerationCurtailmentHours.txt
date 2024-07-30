@@ -1,0 +1,15 @@
+Header: Zone Generation Curtailment Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that non-positive-priced generation has been curtailed
+
+Paragraphs:
+Zone Generation Curtailment Hours is Number of hours that non-positive-priced generation has been curtailed.
+Lists:
+

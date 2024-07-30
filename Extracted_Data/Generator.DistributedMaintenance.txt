@@ -1,0 +1,25 @@
+Header: Generator Distributed Maintenance
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Ideal capacity out of service
+
+Paragraphs:
+Generator Distributed Maintenance
+          is an output of the PASA simulation
+          phase. It represents the 'idealized' maintenance profile for the Generator assuming that any amount of capacity from zero to Max
+            Capacity can be scheduled at any time. This idealized profile
+          forms part of the calculation of Region Maintenance Factor but is
+          not directly used to define maintenance events for the individual Generator . The 'realized' maintenance
+          events are reported during MT Schedule and ST Schedule with the Maintenance property.
+
+See also:
+Lists:
+	- Generator Discrete
+              Maintenance
+

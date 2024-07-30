@@ -1,0 +1,15 @@
+Header: Flow Network Price Floor Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours Market price floor was applied
+
+Paragraphs:
+Flow Network Price Floor Hours is Number of hours Market price floor was applied.
+Lists:
+

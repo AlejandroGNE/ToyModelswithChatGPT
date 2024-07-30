@@ -1,0 +1,15 @@
+Header: Nonlinear Constraint Sense
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	In (-1,0,1)
+Key Property:	No
+Description:	Constraint sense (≤,=,≥)
+
+Paragraphs:
+Nonlinear Constraint Sense is Constraint sense (≤,=,≥).
+Lists:
+

@@ -1,0 +1,15 @@
+Header: Entity Constraints Consumption Coefficient
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of consumption from facilities associated with the entity
+
+Paragraphs:
+Entity Constraints Consumption Coefficient is Coefficient of consumption from facilities associated with the entity.
+Lists:
+

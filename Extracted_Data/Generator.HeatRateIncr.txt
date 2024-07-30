@@ -1,0 +1,15 @@
+Header: Generator Heat Rate Incr
+
+Table Details:
+Units:	GJ/MWh (Metric), Btu/kWh (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	True
+Default Value:	1
+Validation Rule:	Any Value
+Key Property:	No
+Description:	First-order polynomial term in unit fuel use function (marginal heat rate)
+
+Paragraphs:
+The derivative of the generator's heat function - see Heat Rate Functions .
+Lists:
+

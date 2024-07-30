@@ -1,0 +1,15 @@
+Header: Battery Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring a BESS unit
+
+Paragraphs:
+Battery Retirement Cost is Cost of retiring a BESS unit in LT Plan .
+Lists:
+

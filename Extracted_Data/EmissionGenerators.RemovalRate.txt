@@ -1,0 +1,31 @@
+Header: Emission Generators Removal Rate
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 100
+Key Property:	No
+Description:	Proportion of emissions removed (scrubbed)
+Steam1	Units	1	-
+Steam1	Max Capacity	600	MW
+Steam1	Heat Rate	10	GJ/MWh
+Coal	Price	5	$/GJ
+"CO2" Fuels "Coal"	Production Rate	94.33	kg/GJ
+"CO2" Generators "Steam1"	Removal Rate	50	%
+
+Paragraphs:
+Emission Generators Removal Rate is the proportion of emissions, produced by the Generator that are removed/scrubbed/sequestered by the Generator .
+
+Emissions are produced when Generation occurs through the definition of one or a combination of Generators Production Rate , and by way of the Generator Fuels and/or Start Fuels memberships, the Fuels Production Rate properties. This Removal Rate is applied against both sources.
+
+Example
+
+Assume Generator "Steam1" uses Fuel "Coal" and that "Coal" is a producer of Emission " CO2 ".
+
+To define the Removal Rate we put the Generator into the Emission Generators collection and set the property thus:
+
+In this example 1 MWh of Generation uses 10 GJ of "Coal" and produces 10 × 94.33 = 943.3 kg of " CO2 " but 50% of this is removed to give a net Production of 471.65 kg.
+Lists:
+

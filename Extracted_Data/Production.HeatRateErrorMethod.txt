@@ -1,0 +1,18 @@
+Header: Production Heat Rate Error Method
+
+Table Details:
+Units:	-
+Default Value:	2
+Validation Rule:	In (0,1,2,3,4)
+Description:	Method for handling non-convex heat rate functions.
+
+Paragraphs:
+Production Heat Rate Error Method controls how the simulator handles non-convexities it detects in Generator marginal heat rate functions. It can take the following values:
+
+See also:
+Lists:
+	- Production Max Heat Rate Tranches
+	- Production Fuel Use Function Precision
+	- Message 29
+	- Diagnostic Heat Rate
+

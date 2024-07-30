@@ -1,0 +1,149 @@
+Header: Modelling the Australian NEM
+
+Table Details:
+Region	A region is a notional transmission / dispatch area, which (loosely) corresponds to the state boundaries in Australia.	Region Object
+Regional Reference Node (RRN)	Each NEM region contains a single reference node at which generator bids are mad and supply/ demand is balanced.	Node Object
+Notional (Regulated) Interconnector	A collection of lines that define a transmission interface between two regions. These lines operate to maximize the benefit of the transmission service to the system as a whole. They are subject to limits in each direction.	Line Object
+Market Network Service Provider (MNSP)	An entrepreneurial interconnector which derives revenue through participation in the spot market	Line Object
+Generator	Generators bid to service the load.They make 10-band bids, subject to a maximum load, and other constraints such as ramping limitations.	Generator Object
+Demand Side Participation	The NEM does not support demand-bidding per se, but AEMO bids certain large loads with which it or the jurisdictions have contracts for interruption. Load forecasts are generally prepared assuming such dispatchable loads are included. DSP may be bid using the Bid Price and Bid Quantity Region properties.	Region Object
+Generic Constraint	Load flow is not explicitly accounted for in the regional NEM, but generic constraints (linear constraints involving generator output, line flows, and demand conditions) are added to the market clearing problem to model AC constraints imposed by thermal limits, voltage limits, transient stability issues, etc.	Constraint Object
+Pump Storage	Pump storage is not directly accounted for in the NEM market clearing, but is an important feature of the generation system.	Generator objects combined with two Storage objects (upper and lower storages)
+Energy Limited Plant	Energy limitations across the medium term are not accounted for in NEM market clearing, but are crucial to modelling generator behaviour.	Generator object combined with a constraint
+Ancillary Service	The NEM includes six reserve classes (three raises services and three lower services) as well as raise and lower regulation reserve.	Reserve Object
+Qld-NSW	Qld	South Pine 275 kV	NSW	Sydney West 330kV
+Victoria-NSW	Victoria	Thomastown 66kV	NSW	Sydney West 330kV
+Victoria-SA	Victoria	Thomastown 66kV	SA	Torrens Island 66kV
+Victoria-Tasmania (entrepreneurial)	Victoria	Thomastown 66kV	Tasmania	George Town 220kV
+
+Paragraphs:
+NOTE: This description of the Australian NEM and application in the simulator is current as of September 2011.
+
+The Australian NEM is a wholesale electricity market whose operation is based on a gross pool model with ex-ante settlement. It uses regional rather than locational pricing. Region boundaries are constructed between areas with significant interconnection limits. The Australian Energy Market Operator, AEMO (formerly NEMMCO) is able to schedule generators across the regions based on the physical limits of the regulated interconnectors as well as the market (or unregulated) interconnector linking Tasmania to the rest of the NEM. PLEXOS' flexibility makes it possible to accurately model the relatively unique features of the NEM with regards to Load and Settlement, Regional and interconnector requirements, as well as other generic constraints which define real-life characteristics of the market.
+
+The Australian NEM is easily seen as a system of various market elements which are adequately modelled using the respective objects in PLEXOS. Table 1 below gives a summary of the market components describing the NEM while pointing to the objects PLEXOS uses to model its operations.
+
+An electricity market clearing matches supply and demand by clearing generator offers against fixed loads and purchaser bids. It then settles the market by making the appropriate transfers from purchasers to generators. It is important when simulating any market that:
+
+In the Australian NEM generator offers and settlements are made at different points - offer quantities are referenced to generator terminals (gross generation) while settlements are made on sent-out quantities (net generation). The market-clearing price mainly referred to as the spot price in the NEM is the average of six 5-minute dispatch prices in preceding half-hour intervals. The spot price is calculated per region (regional pricing), unlike the markets like the New Zealand market which clears at each connection point (nodal pricing). The market price cap set by the Australian National Electricity Rules (NER) is currently at $12,500/MWh with a price floor at -$1000/MWh [2]. In PLEXOS these price limits could be modelled by selecting the Region object's VoLL or Price Cap and Price of Dump Energy or Price Floor for the cap and floor respectively, depending on what reports the user wants to compute. Demand-side participation (DSP) in the NEM is handled differently from the supply and demand equation as it is assumed to be demand not needed to be met by generation [2]. PLEXOS models this type of peculiar demand pattern using the region's object DSP Bid Quantity alongside the DSP Bid Price in multiple bands to indicate dispatchable loads at certain prices less than the VoLL. PLEXOS by default models this sort of offer (gross) and settlement (net) arrangement, using generator objects and region objects respectively, to concisely account for the different locations of the generators and load areas; considering their different loss profiles. Figure 1 is a high level topology showing the different points supply and demand are measured in the NEM. The options and functionalities of the PLEXOS environment is able to model offering and settlement, metering point, and pricing methods used in the NEM as will be shown further in the document.
+
+The settlement prices used for both generators and customers in the NEM is calculated by multiplying the spot prices at the RRN in the different regions by the respective amount of energy produced or consumed while taking account of the loss factors. PLEXOS models market settlements using one of these options:
+
+These options control how supply and demand are balanced and settlements are made in the NEM. PLEXOS generates extra energy to meet transmission losses proportional to the generator marginal loss factor (MLF) ; therefore, PLEXOS will generate more than the input load. PLEXOS first estimates the level of inter-regional losses then subtracts these from the load forecast, before clearing the market. This mirrors the process that occurs in the Australian NEM market dispatch engine (NEMDE).
+
+The table shows data for Gen 1 located in Region A and connected at Node 1 which happens to be different from the Regional Reference Node, the resolution below shows how PLEXOS accounts for the settlement and metering points. Given that the offer quantity is measured from the Generator terminal and the offer price at the Sent Out terminals, Gen 1 Offer Price at RRN = Offer price / MLF = 50/0.9 = $55.56 $/MWh Gen 2 Offer Price at RRN = 70 $/MWh (assuming MLF of 1). Therefore Gen 2 sets the spot price for the trading period at 70 $/MWh. During settlement , Gen 1 receives its revenue calculated using a Price received based on the Price at the RRN adjusted by its MLF and Aux loss. That is, Price received by Gen 1 = Spot Price x MLF x [Sent Out] generation OR (Assuming static bids for both generators), Gen 1 revenue per hour = (70 x 0.9) $/MWh x 100(1 - 0.05) MW x 1hour = $ 5985 Based on the NEM Regional pricing practice a uniform market clearing price is calculated in each region, and is equal to the nodal price at the regional reference node. Hence to define the settlement and the metering point in any region, properties (if static) are selected from the pull down menu as shown in Figure 3. If these properties are made dynamic, then the values (0 - 5) are used to represent the options chosen.
+
+The Australian NEM comprises five inter-connected regions viz: Queensland, New South Wales, Victoria, Tasmania and South Australia. Each region has a designated reference node (RRN) where the electricity spot prices are set. Adjacent regions are interconnected via high-voltage transmission lines allowing the flow of electricity between regions depending on the regional prices, but within physical limits. The Map in figure 3 shows the NEM regions including the two different types of interconnectors which will be discussed in detail later in this guide. The regulation and physical constraints of these interconnectors play a major role in the variation of spot prices across regions and as a result are modelled different in PLEXOS to mirror real-life operations of the interconnectors.
+
+AEMO manages the central dispatch process in the Australian NEM. This process involves determining the generators to include in each five minute dispatch interval in order to satisfy forecast demand for that interval and calculating the quantity of electricity that is necessary for the generators in the dispatch to provide to the market in that interval. The central dispatch engine, NEMDE, uses a linear programming (LP) dispatch algorithm to determine the generators to be dispatched in the given interval. The algorithm takes into account physical transmission network losses and constraints. Important points about this dispatch process that AEMO cites are that:
+
+Before discussing the approach that PLEXOS uses to model interregional transmission and losses in more detail, it is first necessary to discuss the NEM concept of the marginal loss factor (MLF). In the NEM, an MLF represents the change in network transmission losses that result from an incremental increase in load at a particular connection point, relative to the change in losses that would otherwise occur if the location of the load was at the RRN. Consequently, an MLF refers the price at each transmission connection point to a RRN or vice versa. Specifically, AEMO defines an MLF as: marginal loss factor = (change in generation at the RRN) / (change in load at the connection point) (1)
+            = (change in network losses + change in load) / (change in load)
+            = 1 + (change in loss / change in load at the connection point)
+            The MLF at a RRN = 1 by definition. A critical point is that the MLF is not equivalent to the marginal loss; however, it is a function of the marginal loss. For example, in the dispatch process, a generator with a higher MLF than an identical generator has an advantage in the dispatch because its offer price (referred to the RRN) is reduced relative to the identical generator with the lower MLF. The equations that characterise the relationship between the MLFs and prices are given below. Connection Point Price Referred to RRN Generator bid price at RRN = Generator bid price at connection point / (MLF x DLF) Load offer price at RRN = Load offer price at connection point / (MLF x DLF) RRN Price Referred to Connection Point Price at generator connection point = RRN spot price x (MLF x DLF) Price at load connection point = RRN spot price x (MLF x DLF) In these equations, the DLF denotes the average distribution loss factor, which is the loss factor between the transmission connection point and the end-use customer (load) connection point [4].
+
+The NEM model uses intra-regional loss factors to represent losses between a RRN and a transmission network connection point within a region [4]. Annually pre-determined static MLFs are applied to the various connection points and reflect in pricing within the regions as described in the previous section. AEMO provides through the TNSP yearly MLF for all the regions and their connection points as is provided in [3].
+
+Representation of inter-regional losses with static loss factors is not appropriate since inter-regional flows may be significantly large and highly variable. These characteristics of inter-regional flow clearly have substantial implications for inter-regional loss modelling. For cross-regional representation, the complex transmission network interconnections that exist in reality between two specific regions in the NEM are modelled as a single, notional interconnector between the regions.
+
+In the NEM model, the notional interconnector provides a simple link representation of the often complex mesh of individual transmission lines that form the actual, physical interconnection between two regions. These include the unregulated and regulated interconnectors in the NEM and function between all adjacent regions as in figure 4. The National Electricity Code requires AEMO to account for losses across regions in the dispatch and pricing process through the use of an inter-regional loss factor equation for each pair of interconnected regions in order to represent the variation in MLFs across the notional links annually. The 2011/12 inter-regional loss factor equations for the four pairs of interconnected regions are shown in table 2.
+
+For each interconnector, the notional direction of flow is from RRN1 to RRN2, and is modelled by the NEM model as positive flow. Consequently, flow from Victoria to SA is positive while flow in the opposite direction is negative represented by Max Flow and Min Flow in PLEXOS respectively.
+
+These are dynamic equations defined for every financial year by AEMO to cater for the variations in energy flow patterns while minimizing distortions in the commitment of units across regions. The inter-regional loss factor equation for the 2011/12 financial year were obtained using linear regression analysis with appropriate variables to ensure the requirements of the NEMDE are met. These variables include:
+
+In general, the process for calculating the interregional loss factor equations (LFE) involves:
+
+This process is completed for each relevant RRN pair to derive its associated loss factor equation.
+
+Appendix B of AEMO's List of Regional Boundaries and Marginal Loss Factors for the 2011/12 Financial Year (July 2011) provides the inter-regional LFEs for the regulated interconnectors as follows: LFE: South Pine 275 referred to Sydney West 330 = 0.9964+ 1.8369E-04*NQt -3.9581E-06*Nd + 1.3024E-05*Qd LFE: Sydney West 330 referred to Thomastown 66 = 1.0247+ 1.6789E-04*VNt -1.9279E-05*Vd + 1.1680E-05*Nd -2.6149E-05*Sd LFE: Torrens Island 66 referred to Thomastown 66 = 1.0104+ 2.8491E-04*VSAt -8.8115E-06*Vd + 2.5182E-05*Sd Where: Qd = Queensland demand Vd = Victorian demand Nd = New South Wales demand Sd = South Australian demand NQt = transfer from New South Wales to Queensland VNt = transfer from Victoria to New South Wales VSAt = transfer from Victoria to South Australia
+
+Graphical plots of these inter-regional losses across a range of interconnector flow can also be found in [3]. The loss models for some of the other interconnectors (IC) namely Basslink, Murraylink, and the Terranora Interconnector (previously Directlink) are quite different. The Basslink IC loss equation is determined using the MW power at the sending and receiving points as shown in the equation: P(send) = P(receive) + [ (-3.92x10 -3 ) * P(receive) + (1.0393x10 -4 ) * P(receive) 2 + 4] for 40MW ≥ P ≤ 630MW Where: P(send) - Power in MW measured at the sending end, P(receive) - Power in MW measured at the receiving end. [3] For the Murraylink and Terranora ICs, AEMO calculated their losses for the 2011/12 FY in relation to the flows through them given as: Murraylink loss = 0.0748*Flowt + 1.1825E-03*Flowt 2 Terranora interconnector loss = 0. 0872*Flowt + 8.9563E-04*Flowt 2 Where: Flowt represents the periodic flows through the ICs. (Source: [3])
+
+The loss equations above include terms for levels of regional demand, an approach that is also used in the market-clearing engine, NEMDE, which, like PLEXOS, must approximate the loss functions with a multi-tranche linear approximation. PLEXOS offers three options for handling these loss functions:
+
+MLF equations can be entered directly into PLEXOS. This approach has the advantage that loss functions on the inter-regional interconnectors are calculated every period, ensuring that the simulated losses and inter-regional prices are as close as possible to an emulation of the market. There is no significant additional overhead or iteration required, so this is a very efficient approach. By creating the MLF object for each equation and defining the Flow Coefficient and Intercept as well as the MLF Region Load Coefficient, PLEXOS simulates the loss functions as close to market outcomes as possible.
+
+The Line properties: Loss Base, Loss Incr, Loss Incr2, Loss Incr2 Back, Loss Incr Back, and Loss Base Back, are entered into PLEXOS. These parameters are derived from fitting quadratic functions to the loss functions curves formed from the LFEs. See full article on Notional Interconnectors for more details. Unless these parameters change on a period by period basis (i.e making the properties dynamic in the PLEXOS configuration settings), this approach is not as accurate as entering the MLF equations directly.
+
+Interconnector losses are attributed to the sending and receiving regions in certain proportions. In the Australian NEM, these proportions are fixed constants. PLEXOS Line objects include the properties Loss Allocation and Loss Allocation Back . By default, these values are both 0.5, which causes PLEXOS to attribute the line losses evenly to the sending and receiving regions. These properties may be set to any value between zero and one, but they should sum to one in any period.
+
+The NEM uses 10-piece linear loss functions across the entire range of feasible flows, notionally treating maximum import as the 'zero-point' for the approximation. In PLEXOS, the model option Transmission: Max Loss Tranches determines how many loss tranches are used in each direction of flow. Thus, setting this value to 5 will replicate the approach used in the NEM. Modelling of losses can be triggered on/off in the transmission option as well as other settings to vary outcomes of loss modellings as shown in the figure 5.
+
+In markets such as the Australian NEM entrepreneurial interconnectors are called "market network service providers" (MNSP) (in other words, they are unregulated) and are modelled as generators and loads with linking constraints . In PLEXOS the same result is achieved using Line objects in the same way as other transmission lines. PLEXOS identifies the Line as entrepreneurial (MNSP) when the Line is owned by a Company or if the Line bids its MW capacity at certain prices which will be explained further here.
+
+Entrepreneurial interconnectors should not use the marginal loss factor equation (LFE) facility to define losses (as is used to model notional interconnectors), instead they should use the properties Loss Incr, Loss Incr2, [Line.LossIncrBack|Loss Incr Back]], and Loss Incr2 Back (or in an AC model, Resistance). This is because the loss function for these lines should pass through the origin. In addition the static marginal loss factors at each connection point can be specified using the properties Marginal Loss Factor and Marginal Loss Factor Back. These factors should be based around unity i.e. the default is 1.
+
+Line offers are constructed in an identical manner to Generator offers, through the use of the Offer Quantity, Offer Price, Offer Quantity Back, or Offer Price Back properties. The Offer Quantity and Offer Quantity Back values determine the breakpoints for the Line loss function approximation while the Offer Price and Offer Price Back values are in $/MWh. PLEXOS however interprets these monetary values as premia, i.e. as margins above the natural arbitrage prices. Note that Offer Price is scaled by Marginal Loss Factor to give the final delivered price for energy, and likewise for Offer Price Back and the Marginal Loss Factor Back.
+
+Entrepreneurial interconnectors return their settlement surplus (Rental) back to their owning company as profit. Using the properties FO&M Charge, Equity Charge, and Debt Charge, fixed costs can be specified for the line. PLEXOS then uses the following calculation to determine Net Profit for the line: Net Profit = Rental - Fixed Costs
+
+PLEXOS can dynamically construct offers for entrepreneurial lines using the Cost Recovery and LRMC method. For more details on how to model this see the Entrepreneurial Interconnectors article.
+
+These constraints approximate the effect of transmission network limits and other system constraints not explicitly accounted for in a model. For example, in the Australian NEM, hundreds of 'system normal' constraints are used to model the effect of intra-regional transmission effects. The generic constraints often involve combinations of transmission line flows, generator loads, and regional loads. For a complete list of the variables that can be involved in a generic constraint see the Constraint Index. In the Australian NEM, there are a number of constraints on transmission flows as well as on generators and overall regional reserve levels. The 2010 National Transmission Network Development Plan (NTNDP) developed by AEMO provided a comprehensive spread sheet of generic network constraints related to line flows, generators and regional requirements. The NTNDP constraints which can be directly imported from the spread sheet or manually defined in PLEXOS can precisely be modelled as part of the NEM objects. These constraints have these components in common:
+
+The following steps summarise the requirements to transform the raw specification of generic constraints like is found in the NTNDP sheet to Constraint objects in PLEXOS: Create one Constraint object for each of the generic constraints.
+
+NOTE: Coefficients must be given as left-hand side values. However if the constraints are given as right-hand side values, they must be entered into PLEXOS using the opposite sign. The coefficients are set for Line objects using the Flow Coefficient or Flow Back Coefficient properties. The coefficients for Generators and Regions are set with the Generation Coefficient and Region Demand Coefficient respectively. See the Nomograms article for more detailed guide on Setting up generic constraints.
+Lists:
+	- The units for supply offers and demand bids match those used in the real market.
+	- Settlements are modelled at the correct metering points.
+	- Locational Marginal Pricing (Nodal Pricing) (value = 0)
+	- Regional (Reference Node Pricing) (Value = 1)
+	- Regional Load Weighted Price (Value = 2)
+	- Pays-as-Bid (Value = 3)
+	- Generators make energy offers where the quantity component (MW) is measured at the generator-terminal (but generally the price component is at the connection point (sent-out), i.e. it accounts for in-house use). Although this approach may seem inconsistent, it is necessary to correctly account for in-house use for settlements purposes.
+	- The transmission losses between the generator gate (where the sent-out figure is calculated) and the regional reference node are modelled with a fixed intra-regional loss factor. In PLEXOS, the Marginal Loss Factor property on each Generator is this intra-regional loss factor.
+	- When the market is cleared, the sent-out offer prices are scaled by these loss factors to give a regional reference node price. The market is cleared against generator-terminal (and cross-border) demand, and produces regional reference prices. In settlement, these prices are rescaled for each generator (and load point) using the intra-regional loss factors once more and generators are paid for their net supply (sent-out).
+	- the dispatch algorithm calculates separate dispatch and market prices for each RRN;
+	- the prices that determine the order of dispatch are the generator offers adjusted by the relevant loss factors (as explained in example 1) since notional trading occurs at each RRN;
+	- the market-clearing price is the marginal price, not the average price, of all dispatched electricity;
+	- prices for locations within a region, other than the RRN, are calculated through the use of a static, intra-regional loss factor that is defined with respect to the RRN for that region; and
+	- price differences across regions are calculated using interregional loss factor equations. [1]
+	- linear terms
+	- the notional interregional flow between the RRNs to which the loss factor equations apply; and
+	- regional demands represented by equation equations
+	- applying the transmission pricing program (as with intra-regional constraints) to calculate MLFs for all generator/load connection points in the transmission network for all trading periods;
+	- selecting the pair of RRNs of interest, e.g. Torrens Island 66 and Thomastown 66;
+	- dividing the MLF of the notionally receiving RRN by the MLF of the other RRN for all trading periods, e.g. dividing the Torrens Island 66 MLF by the Thomastown 66 MLF such that the inter-regional LFE ultimately refers the Torrens Island MLF to the Thomastown MLF; and
+	- applying regression analysis to determine the best fit equation that explains the MLF variation as a function of the inter-regional transfer flows and the regional demands, e.g. estimating the best fit of the equation that explains the variation in the MLF for the V-SA Interconnector as a function of changes in the interconnector flow, given the South Australian and Victorian regional sent-out demands.
+	- A name that uniquely identifies them.
+	- A right-hand side value (constraint field)
+	- A constraint sense (left of the constraint field)
+	- Various other coefficients on transmission flows and/ or generator loads
+
+
+H2s:
+Contents
+1. Background
+2. Market Elements
+3. Load and Settlement
+4. Interconnectors in the NEM
+5. Generic Constraint
+6. References
+
+H3s:
+3.1. Settlement Model
+3.2. Offer Quantity and Offer Price Metering Point
+4.1. Dispatch and Pricing
+4.2. NEM Loss Model
+4.3. Inter-regional Interconnectors
+4.4. Representation in PLEXOS
+4.5. Entrepreneurial Interconnectors
+5.1. Setting up Constraints
+
+H4s:
+4.2.1. Marginal Loss Factor Definition and Relationship to Prices
+4.2.2. Intra-regional Losses
+4.2.3. Inter-regional Losses
+4.3.1. National Interconnectors
+4.3.2. Inter-regional Loss Factor Equations
+4.3.3. Loss Factor Equations (LFEs) for 2011/12 Financial year
+4.4.1. Entering MLF Equations into PLEXOS
+4.4.2. Entering Loss Functions
+4.4.3. Allocation of Losses to Regions
+4.4.4. Linear Approximation
+4.5.1. Line Losses
+4.5.2. Energy Offers
+4.5.3. Profitability and Fixed Costs
+4.5.4. Cost Recovery

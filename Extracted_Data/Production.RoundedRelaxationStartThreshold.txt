@@ -1,0 +1,17 @@
+Header: Production Rounded Relaxation Start Threshold
+
+Table Details:
+Units:	-
+Default Value:	0.25
+Validation Rule:	≥0
+Description:	Start value for [Rounding Up Threshold] when Rounded Relaxation is running self-tune.
+
+Paragraphs:
+Production Rounded Relaxation Start Threshold is the start value for the Rounding Up Threshold when the Rounded Relaxation Tuning setting is enabled.
+
+See also:
+Lists:
+	- Production Rounded Relaxation End Threshold
+	- Production Rounded Relaxation Threshold Increment
+	- Production Unit Commitment Optimality
+

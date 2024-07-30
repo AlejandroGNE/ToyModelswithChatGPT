@@ -1,0 +1,32 @@
+Header: Variable Compound Type
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1)
+Description:	Type of compound escalator (nominal or annual equivalent rate)
+CPI^	Compound Index Year	2	%	1/01/2010
+CPI	Index	1	-	1/01/2010
+CPI	Index	1.02	-	1/01/2011
+CPI	Index	1.04	-	1/01/2012
+CPI	Index	1.06	-	1/01/2013
+...	...	...	...	...
+...	...	...	...	...
+CPI	Index	1.2	-	1/01/2020
+
+Paragraphs:
+The available values are:
+
+The rate of escalation is increased by the defined value at every period type.  For example an escalator with a Compound Index Day of 1% will increment its base value by an additional 1% every day.
+
+The rate of escalation is increased by a pre-calculated value at every period type up to the defined rate.  For example an escalator with a Compound Index Month of 12% will increment its base value by 1% every month in order to obtain the 12% target.
+
+The following shows a basic example of an escalator called "CPI" and its application to a fuel price. The example shows how a 2% annual escalation in fuel prices would be modelled. Note that in PLEXOS you may create as many escalators as you need and apply them to any input data.
+
+^ The Compound Type is Nominal
+
+This type of Escalator information can also be entered using the similar Escalator Index method, as shown in the example below.  However when the same value is repeated a number of times it is far easier to use the "Compound" properties.
+
+An example of the above data defined using Escalator Index :
+Lists:
+

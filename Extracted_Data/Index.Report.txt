@@ -1,0 +1,28 @@
+Header: Report Index
+
+Table Details:
+Datetime Convention	-	0	In (0,1)	Convention used when writing DATETIME.
+Filter Objects By Interval	Yes/No	-1	In (0,-1)	If the selection of objects reported on applies to interval output
+Filter Objects In Summary	Yes/No	-1	In (0,-1)	If the selection of objects reported on applies to summary output
+Flat File Format	-	0	In (0,1,2)	Format for text solution files.
+Locale	-	0	≥0	The numeric index of the locale that should be used to write text files.
+Output Results by Day	Yes/No	0	In (0,-1)	If summary results are written by day
+Output Results by Fiscal Year	Yes/No	-1	In (0,-1)	If summary results are written by year
+Output Results by Hour	Yes/No	0	In (0,-1)	If summary results are written by hour
+Output Results by Month	Yes/No	0	In (0,-1)	If summary results are written by month
+Output Results by Period	Yes/No	-1	In (0,-1)	If results are written by period
+Output Results by Quarter	Yes/No	0	In (0,-1)	If summary results are written by Quarter
+Output Results by Sample	Yes/No	0	In (0,-1)	If each sample is output
+Output Results by Week	Yes/No	0	In (0,-1)	If summary results are written by week
+Output Statistics	Yes/No	0	In (0,-1)	If statistics are calculated on multi-sample results
+Whole Years Only	Yes/No	0	In (0,-1)	If reporting should be on whole years only
+Write Flat Files	Yes/No	0	In (0,-1)	If the solution data are written to plain text files
+Write XML Files	Yes/No	-1	In (0,-1)	If the solution data are written to XML files
+XML Content	-	0	In (0,1)	Content of the zipped-XML solution files. Compact writes only binary solution tables. Raw writes binary and raw XML solution tables.
+
+Paragraphs:
+Report Attributes Name Units Default Value Validation Rule Description Datetime Convention - 0 In (0,1) Convention used when writing DATETIME. Filter Objects By Interval Yes/No -1 In (0,-1) If the selection of objects reported on applies to interval output Filter Objects In Summary Yes/No -1 In (0,-1) If the selection of objects reported on applies to summary output Flat File Format - 0 In (0,1,2) Format for text solution files. Locale - 0 ≥0 The numeric index of the locale that should be used to write text files. Output Results by Day Yes/No 0 In (0,-1) If summary results are written by day Output Results by Fiscal Year Yes/No -1 In (0,-1) If summary results are written by year Output Results by Hour Yes/No 0 In (0,-1) If summary results are written by hour Output Results by Month Yes/No 0 In (0,-1) If summary results are written by month Output Results by Period Yes/No -1 In (0,-1) If results are written by period Output Results by Quarter Yes/No 0 In (0,-1) If summary results are written by Quarter Output Results by Sample Yes/No 0 In (0,-1) If each sample is output Output Results by Week Yes/No 0 In (0,-1) If summary results are written by week Output Statistics Yes/No 0 In (0,-1) If statistics are calculated on multi-sample results Whole Years Only Yes/No 0 In (0,-1) If reporting should be on whole years only Write Flat Files Yes/No 0 In (0,-1) If the solution data are written to plain text files Write XML Files Yes/No -1 In (0,-1) If the solution data are written to XML files XML Content - 0 In (0,1) Content of the zipped-XML solution files. Compact writes only binary solution tables. Raw writes binary and raw XML solution tables.
+
+Name Units Default Value Validation Rule Description Datetime Convention - 0 In (0,1) Convention used when writing DATETIME. Filter Objects By Interval Yes/No -1 In (0,-1) If the selection of objects reported on applies to interval output Filter Objects In Summary Yes/No -1 In (0,-1) If the selection of objects reported on applies to summary output Flat File Format - 0 In (0,1,2) Format for text solution files. Locale - 0 ≥0 The numeric index of the locale that should be used to write text files. Output Results by Day Yes/No 0 In (0,-1) If summary results are written by day Output Results by Fiscal Year Yes/No -1 In (0,-1) If summary results are written by year Output Results by Hour Yes/No 0 In (0,-1) If summary results are written by hour Output Results by Month Yes/No 0 In (0,-1) If summary results are written by month Output Results by Period Yes/No -1 In (0,-1) If results are written by period Output Results by Quarter Yes/No 0 In (0,-1) If summary results are written by Quarter Output Results by Sample Yes/No 0 In (0,-1) If each sample is output Output Results by Week Yes/No 0 In (0,-1) If summary results are written by week Output Statistics Yes/No 0 In (0,-1) If statistics are calculated on multi-sample results Whole Years Only Yes/No 0 In (0,-1) If reporting should be on whole years only Write Flat Files Yes/No 0 In (0,-1) If the solution data are written to plain text files Write XML Files Yes/No -1 In (0,-1) If the solution data are written to XML files XML Content - 0 In (0,1) Content of the zipped-XML solution files. Compact writes only binary solution tables. Raw writes binary and raw XML solution tables.
+Lists:
+

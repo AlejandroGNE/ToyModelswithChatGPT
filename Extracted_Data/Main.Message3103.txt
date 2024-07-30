@@ -1,0 +1,11 @@
+Header: Message 3103
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	The property <value> <value> [<value>] has the Condition <name> defined that does not exist.
+
+Paragraphs:
+Message 3103 occurs in the following circumstances:
+Lists:
+

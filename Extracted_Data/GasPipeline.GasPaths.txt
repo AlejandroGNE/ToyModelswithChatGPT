@@ -1,0 +1,11 @@
+Header: Gas Pipeline Gas Paths
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Paths that are associated with a Gas Pipeline to deliver gas
+
+Paragraphs:
+Gas Pipeline Gas Paths is set of Gas Paths that are associated with a Gas Pipeline to deliver gas
+Lists:
+

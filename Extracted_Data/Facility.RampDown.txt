@@ -1,0 +1,38 @@
+Header: Facility Ramp Down
+
+Table Details:
+Units:	-
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total ramping down
+
+Paragraphs:
+Facility Ramp Down is the total
+          ramping down in the period, and is defined as:
+
+Ramp Down = MAX (0, Production ( t -1) - Production t )
+
+where: t indexes periods of the
+            simulation. The t =0 value of Production refers to the
+            previous simulation step and for step one it is set with the Initial
+              Production property.
+
+This is distinct from Ramp which
+          reports the ramping rate per minute.
+
+Ramp Down can be used in combination with Minutes
+            of Ramp Down to determine the intensity of ramping down over any
+          period.
+
+See also:
+Lists:
+	- Facility Max
+              Ramp Down
+	- Facility Ramp
+              Down Charge
+	- Facility Ramp
+              Up
+

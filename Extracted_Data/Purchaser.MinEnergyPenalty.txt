@@ -1,0 +1,17 @@
+Header: Purchaser Min Energy Penalty
+
+Table Details:
+Units:	$/GWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	10000000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Penalty applied to violations of [Min Energy] and [Min Load Factor] constraints.
+
+Paragraphs:
+Purchaser Min Energy Penalty is Penalty applied to violations of Min Energy and Min Load Factor constraints (and their period-specific variants).
+
+Please note: A value of -1 makes this a hard constraint.
+Lists:
+

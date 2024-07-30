@@ -1,0 +1,16 @@
+Header: Diagnostic Binding Contingencies
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for binding Contingency constraints
+
+Paragraphs:
+This option produces a diagnostic file in XML format that lists the transmission elements whose post-contingency flows are at their limits during each contingency. This information is not available in the standard Contingency solution data.
+
+In addition to the post-contingency flow report, a pre-contingency binding report is also added into this diagnostic file as a "base" case. It contains the congestion information on all the branches before any contingency case happens. It should be noted that only information of congested lines (lines with shadow price >0) will be written in the file.
+
+Lastly, a separate contingency selection report will also be generated if Transmission Enforce N-1 Contingencies option is enabled. This report is designed to provide details of the 'high risk' contingencies. If any post-contingency flow is more than 85% of branch flow limit, the contingency case name and 'high risk' monitored lines will be printed. The printed list can be used to either narrow down the N-1 case number or form up N-x contingency cases.
+Lists:
+

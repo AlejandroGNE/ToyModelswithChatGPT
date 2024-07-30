@@ -1,0 +1,29 @@
+Header: Water Pipeline Energy Consumption
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total energy consumed for pipeline utilization
+
+Paragraphs:
+Water Pipeline Energy Consumption is the electrical energy consumed by the pipeline pumps. Electricity energy is needed to maintain the flow rate within the water pipeline. This energy consumption is linked to the electricity system as a demand variable in water-electricity co-optimization models. The Hazen-Williams equation is used to obtain the electrical consumption of pumps required to maintain a given flow on a pipeline given the pipe size and frictional properties.
+
+The Hazen-Williams equation is:
+
+Energy consumption equation
+
+where:
+
+In terms of simulation variables:
+
+where:
+
+and:
+
+Energy consumption on water pipeline is allocated to the Water Node objects at either end of the pipeline. Memberships between the Water Node and electricity node makes the connection to the electricity model, as a variable load.
+Lists:
+

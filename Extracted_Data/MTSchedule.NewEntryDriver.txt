@@ -1,0 +1,18 @@
+Header: MT Schedule New Entry Driver
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	In (0,1,2,3)
+Description:	New entry driver.
+
+Paragraphs:
+MT Schedule New Entry Driver controls the automatic capacity expansion algorithm described in the MT Schedule topic.
+
+This setting can take the following values:
+
+See also:
+Lists:
+	- MT Schedule New Entry Time Lag
+	- MT Schedule New Entry Capacity Mechanism
+

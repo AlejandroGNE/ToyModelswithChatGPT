@@ -1,0 +1,19 @@
+Header: Maintenance Cost
+
+Table Details:
+Units:	$
+Mode:	Input/Output
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of the maintenance event.
+
+Paragraphs:
+Maintenance Cost is the cost of the maintenance event. It is a multi-band property allowing you to record different types of costs in separate bands. You can use this property to formulate constraints across multiple Maintenance objects using the Constraint Maintenances Cost Coefficient .
+
+See also:
+Lists:
+	- Maintenance Crew
+	- Maintenance Equipment
+

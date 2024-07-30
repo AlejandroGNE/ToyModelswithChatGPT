@@ -1,0 +1,18 @@
+Header: Region Export Capacity
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Total export capacity from the Region
+
+Paragraphs:
+Region Export Capacity is the total export capacity from the Region and is defined as:
+
+See also:
+Lists:
+	- Region Import Capacity
+

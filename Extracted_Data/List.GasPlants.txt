@@ -1,0 +1,11 @@
+Header: List Gas Plants
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Gas Plant objects in the List
+
+Paragraphs:
+List Gas Plants is set of Gas Plant objects in the List
+Lists:
+

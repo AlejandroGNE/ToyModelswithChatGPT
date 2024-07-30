@@ -1,0 +1,15 @@
+Header: Flow Network Shortage Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours demand exceeds supply
+
+Paragraphs:
+Flow Network Shortage Hours is Number of hours of shortage in supply.
+Lists:
+

@@ -1,0 +1,22 @@
+Header: Facility Formulate Non-convex
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	2
+Validation Rule:	In (0,1,2)
+Key Property:	No
+Description:	Controls when integers are used to enforce clearing of marginal efficiency tranches in order
+
+Paragraphs:
+Facility Formulate Non-convex
+          controls when integer variables and constraints are formulated so that
+          the marginal efficiency tranches ( Efficiency
+            Point and Efficiency
+            Incr ) are despatched in order.
+
+Settings other than 'Auto' supersede the Heat
+            Rate Error Method setting in the Production object.
+Lists:
+

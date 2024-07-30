@@ -1,0 +1,42 @@
+Header: Heat Plant Start Cost
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Cost of starting a unit
+Gen	Units	1	1	-
+Gen	Max Capacity	1	300	MW
+Gen	Min Stable Level	1	150	MW
+Gen	Run Up Rate	1	1.0	MW/min.
+Gen	Run Up Rate	2	0.8	MW/min.
+Gen	Run Up Rate	3	0.5	MW/min.
+Gen	Start Cost Time	1	2	hrs
+Gen	Start Cost Time	2	4	hrs
+Gen	Start Cost Time	3	4	hrs
+Gen	Start Cost	1	1000	$
+Gen	Start Cost	2	2500	$
+Gen	Start Cost	3	3000	$
+
+Paragraphs:
+Heat Plant Start Cost is the operations and maintenance cost associated with start up of a unit. Internally to PLEXOS there are two components to the cost associated with unit start up:
+
+The total cost as seen by the optimization is the sum of these two components, thus the reported Unit Start Cost will reflect this.
+
+Heat Plants cool after being shut down, and this increases the cost of re-starting the units. The simulator models this cooling by using multi-band Start Cost in combination with Start Cost Time .
+
+Example:
+
+In this example the unit is:
+
+Note that start cost time is always the incremental number of hours between cooling states. It is not the total time the unit has been cooling. This is set up this way to make it easier to avoid the mistake of mis-ordering the cooling states. Also, the start cost varies linearly between cooling states as in the following illustration.
+
+Also note that when there are multiple cooling states and the start profile is defined, the step function instead of the linear interpolation will be used, due to technical difficulties.
+Lists:
+	- 'hot' for up to two hours after being shutdown and costs $1000 to start inside the two hours;
+	- 'warm' for a further four hours ( i.e. up to six hours after being shutdown) and costs $2500 to start at the six hour point;
+	- 'cold' after it has cooled for a further four hours ( i.e. 10 hours in total) and costs $3000 to start at the 10 hour point.
+

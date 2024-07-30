@@ -1,0 +1,15 @@
+Header: Company Regions Generation at RRN
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Own generation taken to the regional reference node
+
+Paragraphs:
+Company Regions Generation at RRN is the own generation taken to the regional reference node.
+Lists:
+

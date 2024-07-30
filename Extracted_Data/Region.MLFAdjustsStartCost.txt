@@ -1,0 +1,15 @@
+Header: Region MLF Adjusts Start Cost
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	If Generator [Marginal Loss Factor] adjusts [Start Cost].
+
+Paragraphs:
+Region MLF Adjusts Start Cost is switches on/off adjustment of Generator Start Cost by the Marginal Loss Factor .
+Lists:
+

@@ -1,0 +1,146 @@
+Header: Modelling the Irish SEM
+
+Table Details:
+Rating	Generator	-
+Offer Quantity	Generator Offer Quantity	Must be converted from cumulative to incremental. This is done automatically by the simulator when the Generator Offer Quantity Format is set to "Cumulative". See note below about how the total quantity offered is extended up to RATING.
+Offer Price	Generator	Has one less band than Offer Quantity.
+No Load Cost	Generator Offer No Load Cost	-
+Min Stable Level	Generator Min Stable Level	-
+Ramp Up Rate	Generator Max Ramp Up	-
+Ramp Down Rate	Generator Max Ramp Down	-
+Start Cost	Generator	-
+Start Time	Generator Start Cost Time	Start Cost Time is incremental in the simulator not cumulative. All bands must have a time defined even though the last value is not required to define the step function. A large dummy value can be used.
+Block Load	Generator Start Profile	Start Profile holds the BLOCK LOAD plus half the RAMP UP RATE. Internal to the simulator, the maximum of this value and the MIN STABLE LEVEL is calculated and determines the limit for generation in the period of a start.
+Shut Down	Generator Shutdown Profile	Shutdown Profile holds the MIN STABLE LEVEL plus half the RAMP DOWN RATE.
+Min On Time	Generator Min Up Time	-
+Min Off Time	Generator Min Up Time	-
+Performance	MIP Maximum Threads	-1	MIP benefits from multi-threading during branch-and cut. -1 indicates to use all available threads.
+Performance	MIP Relative Gap	0.025%	This gap provides good quality solutions from the solver.
+Performance	MIP Max Time	300	Assuming a computer of modern specification this should be enough time to gain a good solution.
+Performance	SmallMIPRelativeGap	0.025%	As above
+Performance	SmallMIPMaxTime	300	As above
+Production	Formulate Upfront	Yes	Reduces the number of iterations of MIP solved by formulating all unit commitment logic constraints upfront.
+
+Paragraphs:
+The Irish Single Electricity Market (SEM) is an ex-post, centralised unit commitment design. It is modelled as a single transmission 'zone' i.e. with no transmission constraints or losses. The term ex-post refers to the calculation of generator unit commitment, dispatch and subsequent pricing after the actual trading day and based on ideal conditions in which the market rules can be applied without distortion by external constraints such as transmission or other security constraints. This means the market dispatch and pricing can be somewhat divorced from what actually happened on the day, but it also makes the design relatively 'simple' and open to audit. Contrast this with ex-ante and/or self-commitment markets such as New Zealand and Australia. In self-commitment markets, the market run determines only the megawatt dispatch of generators, with the on/off decisions being self-managed and reflected by appropriate generator offers. In an ex-ante market the market run is done on a rolling timeframe e.g. every five minutes, and the settlement is performed on the average of those 5-minute runs. The SEM operates on a half-hourly time step with each trading day starting at 6:00 AM and running till 5:30 AM the next calendar day. The market clearing software models an additional 6 hours of 'look-ahead' i.e. until midday the next day. This look-ahead period is designed to improve unit commitment decisions for slow-start plant. The centralised unit commitment model relies on generators providing details of not just incremental production costs but also start costs and other technical limits such as block load-described below-and ramping limits. The market pricing run produces a shadow (or market-clearing) price for energy which is equal to the dual variable associated with the energy balance constraint. Final pricing adds an uplift component that compensates generators for financial losses incurred due to unrecovered start costs. The uplift is calculated based on the 'shadow' price of generation and generation and commitment costs via a second optimization using quadratic programming (essentially a least-squares fitting procedure with additional constraints ensure revenue-adequacy).
+
+A generator in this market is defined with the following characteristics:
+
+Unit availability for generation set half-hourly
+
+Multi-band prices set daily
+
+Multi-band quantities in cumulative format (one more band is defined than for OFFER PRICE)
+
+This is the cost of operating the unit at national zero generation. This cost acts as the constant term in the generation function.
+
+The minimum generation level allowed when the unit is 'on'.
+
+Ramping up is limited by the maximum ramping rate up in megawatt-per-minute. This limit applies after the unit has reached MIN STABLE LEVEL.
+
+Ramping down is limited by the defined maximum ramping rate down in megawatt-per-minute. This limit applies after the unit has reached MIN STABLE LEVEL.
+
+Start cost is defined in three bands representing cooling states (cold, warm, and hot) with associated hours between states. Each state is further defined with a 'block load'. The block load is used to calculate the initial generation level of the unit in the first half-hour of a start. That level is given by: Generation ≤ MAX( MINSTABLELEVEL, BLOCKLOAD + RAMPUPRATE × 30 / 2 ) Note that transitions from one cooling state to the next are modelled as step changes in start cost and no linear interpolation is done as the unit cools.
+
+Unit shut down in the market engine does not strictly follow the market rules. Instead units are modelled as having an extra limit in the period of shutdown: Generation ≤ MAX( MINSTABLELEVEL, RAMPDOWNRATE × 30 / 2 )
+
+When performing short-term simulations or benchmarking exercises it is very important to set initial conditions for the generating units. The simulator needs to know if generators were up/down and for how long and at what generation level they started. The following three properties are sufficient:
+
+The Generator Initial Units Generating property does not need to be set in this case because all Generator objects in the Irish SEM are single unit, so the value is implied by the initial generation.
+
+The Region setting Uplift Compatibility when set to "Irish SEM" causes the following compatibility-related changes to occur in the simulator:
+
+The Transmission setting [Transmission.InternalVoLL|Internal VoLL]] is the penalty that appears in the objective function for under-generation . It is set at €100,295 to be consistent with the similar penalty used in the market engine.
+
+Region VoLL is the price reported when there is unserved energy and is not set here because we instead use Region Price Cap.
+
+Region Price Cap sets the maximum allowed price after uplift is applied and is set to €1000.
+
+Region Price of Dump Energy is the penalty in the objective function for over-generation. The default value is -€1000. It is not known if the market engine has an analogue for dump energy.
+
+Region Price Floor is set to -€100. This sets a lower bound on the reported market price.
+
+Ramp violation might occur if a unit goes on forced outage. Ramp violations should not be allowed in general and are only allowed to avoid infeasibilities. Thus the value of the Max Ramp Up Penalty is left at default of -1 (hard constraint) while the Max Ramp Down Penalty is set to €100,000/MW.
+
+In the Irish SEM there are several complicating factors:
+
+Clearly where data is not available no benchmark can be performed. The market operates taking into account changes to/from daylight-savings time. The simulator does not. Therefore market data for the change to daylight savings (e.g. March 28 2010) must be expanded to include the hour that is skipped as daylight time comes into effect, and likewise for the change out of daylight savings (e.g. October 31 2010) the extra hour must be removed. The market engine solves the unit commitment and dispatch problem using Lagrangian Relaxation (LR). The simulator uses mixed-integer programming (MIP). Both methods aim to solve the same problem and in ideal conditions will find the same optimal solution (if a unique solution exists). However both methods can sometimes find it difficult to prove optimality once they have found a high quality integer solution. This optimality 'gap' is in general more likely to be closed by MIP than LR, so one would expect out of a benchmark exercise that the solutions of the MIP are on average superior to those of LR in terms of lower objective function value. See below for recommended settings for the MIP gap tolerance and time limit. Interconnector flows over Moyle can be difficult to replicate in a simulation. Moyle flows are based on (unknown) contractual obligations and bear little resemblance to economic flows. It is recommend that in benchmarking the Moyle flows are left fixed at    actual levels. Hydro resources are scheduled by the market engine to a daily maximum. The MIP of the simulator may use these resources     differently within the day. This is to be expected. The pumped storage model of the simulator should closely follow actual market outcomes, but again the MIP may choose different slightly different timing of generation and pumping in order to improve the solution. It has been found in benchmarking exercises that the flows in/out of the Turlough Hill pumped storage do not balance from time-to-time when the actual generation and pump load are reconciled. Adjustments may need to be made when the level of the storage in reality changes due to natural inflow or spill and that information is not communicated to the market. Peat generation is given priority dispatch. It is recommended that peat generation is fixed at actual levels for the benchmarking. Units being 'on test' are an important consideration. The market must follow a prescribed generation schedule for units on test, and the profile might imply violations of minimum up and down times, ramping and start-up and shutdown levels. The simulator uses the Fixed Load property to indicate units on test. The simulated dispatch should match the actuals. Forced outages, especially early in the dispatch day (starting 6:00 AM) can cause violation of ramping and/or shutdown constraints. No data are available for forced outages and thus the simulator must violate constraints too. How the market engine prioritises constraints versus how the simulator does so could cause a difference in results during these (rare) periods.
+
+When benchmarking the simulator against market outcomes, a staged approach is recommended beginning with a simulations in which as many of the identified sources of result differences are eliminated and working up to a 'free' simulation. The following models are a guide:
+
+The following elements are fixed to their market outcomes:
+
+Moyle is fixed by setting Line Fixed Flow equal to the MSQ. Note that in the simulator database Moyle is usually defined with reverse direction to that of the market and so the MSQ must be switched. Note further there seems to be no particular reason for this and in future Moyle could be reversed in direction in the simulator. Peat, and hydro generation are fixed by setting Fixed Load pointing to a CSV file of actual generation. Pumped storage is 'fixed' by:
+
+Unit commitment is fixed using Generator [commit] read the CSV and equal to 0/1 flag depending on whether to unit is off/on.
+
+Unit commitment is fixed using Generator [Commit] read from CSV and equal to 0/1 flag depending on whether to unit is off/on.
+
+As for the "Fixed" model but with unit commitment freely optimized using MIP e.e. the Generator [commit] properties are not included.
+
+As for "MIP" model but the hydro generation is modelled as energy constrained with total daily generation equal to that aggregate MSQ. Pumped storage generation and pumping is allowed to be optimized and no additional fixed loads or generation are input. This model provides the final benchmark.
+
+Any of the above MIP model can be run using "Rounded Relaxation" unit commitment. The setting of the Rounding Up Threshold parameter should be tested for values between 1 and 9 in small increments to find the value that delivers the best objective function value. Alternatively the 'self-tune' feature can be invoked with the Rounded Relaxation Tuning setting.
+
+The following performance settings are recommended:
+Lists:
+	- Generator Initial Generation
+	- Generator Initial Hours Up
+	- Generator Initial Hours Down
+	- Availability of data
+	- Daylight savings treatment
+	- Unit commitment using Lagrangian Relaxation
+	- Interconnector flows ("Moyle")
+	- Hydro Dispatch
+	- Pumped Storage dispatch
+	- Peat generation Constraints
+	- Units on test
+	- Forced outages (lack of data on this which means ramps can be violated)
+	- Moyle
+	- Peat generation
+	- Hydro Generation
+	- Pumped storage generation and pumping
+	- Unit commitment
+	- Turning off the TH1-4 generators
+	- Input the TH generation in aggregate of the four units using the Region [Fixed Generation] property
+	- Input the TH pump load in aggregate of the four units using the region [Fixed Load] property
+	- Turning off TH1-4 generators
+	- Input the TH generation in aggregate of the four units using the region [Fixed Generation] property.
+	- Input the TH pump load in aggregate of the four units using the Region [Fixed Load] property
+
+
+H2s:
+1. Background
+2. Generator Offers and Technical Data
+3. Initial Conditions
+4. Settings
+5. Benchmarking
+6. Performance
+
+H3s:
+4.1. Uplift
+4.2. Internal VoLL
+4.3. VoLL
+4.4. Price Cap
+4.5. Price of Dump Energy
+4.6. Price Floor
+4.7. Ramp Violation Penalty
+5.1. Potential Sources of Difference
+5.2. Benchmarking Procedure
+
+H5s:
+Rating
+Offer Price
+Offer Quantity
+No Load Cost
+Min Stable Cost
+Ramp Up Rate
+Ramp Down Rate
+Start Cost, Time, and Block Load
+Shut Down
+Min On Time
+Min Off Time
+Fixed Model
+MIP Model
+MIP Hydro Model
+Rounded Relaxation Models

@@ -1,0 +1,20 @@
+Header: Flow Path Hours Congested Forward
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the Flow Path is congested in the reference direction
+
+Paragraphs:
+Flow Path Hours Congested Forward
+          reports the number of hours that the Flow is at Max Flow .
+
+See also:
+Lists:
+	- Flow Path Shadow
+              Price
+

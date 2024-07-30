@@ -1,0 +1,18 @@
+Header: Zone Net Cost of Exports
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net cost of exports
+
+Paragraphs:
+Zone Net Cost of Exports is the notional net cost of Exports from the Zone and is defined as:
+
+See also:
+Lists:
+	- Zone Settlement Surplus
+

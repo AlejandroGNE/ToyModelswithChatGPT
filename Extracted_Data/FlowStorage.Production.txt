@@ -1,0 +1,21 @@
+Header: Flow Storage Production
+
+Table Details:
+Units:	~
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Net amount of the Commodity released to the Flow Node
+
+Paragraphs:
+Flow Storage Production is the
+          net amount of the Commodity released to the Flow Node. This value
+          differs from Withdrawal according to the Withdrawal
+            Efficiency .
+
+See also:
+Lists:
+	- Flow Storage Consumption
+

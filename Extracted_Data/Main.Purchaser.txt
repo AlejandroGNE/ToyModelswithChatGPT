@@ -1,0 +1,37 @@
+Header: Purchaser Class
+
+Table Details:
+Description:	Demand
+ABC	Fixed Load	100	MW	
+XYZ	Bid Quantity	90	MW	1
+XYZ	Bid Quantity	10	MW	2
+XYZ	Bid Price	9000	$/
+            MWh	1
+XYZ	Bid Price	150	$/
+            MWh	2
+
+Paragraphs:
+See also Purchaser Property Reference for a detailed list of properties for this class of
+          object.
+
+Purchaser objects are used to define:
+
+Purchasers are connected at a transmission node using the Node Nodes collection.
+
+Purchaser load can be defined either as 'fixed' using the Fixed Load property, or 'dispatchable' using the Bid Quantity and Bid Price properties. The following examples show how these properties are used.
+
+Fixed Load can be combined with the multi-band bids in which case it defines the
+        part of the total bid quantity that must be taken up. The total bid quantity acts as a cap on the load in this case.
+
+Energy purchased from the pool is priced according to the Load Settlement Model property.
+
+Bids are cleared from the highest to lowest priced.
+
+A constraint can be modelled such that a minimum load is cleared if any is cleared at all using the Min Load property.
+
+The 'wildcard' Nodes* collection is used to create a copy of the Purchaser object at each Node . This is useful in LT Plan for creating 'floating' purchasers i.e. projects whose location is to be optimized along with the expansion decision.
+Lists:
+	- Loads that are in addition to those defined by Region Load or Node Load ; and/or
+	- Load bids using pairs of quantity and price that represent loads in a two-way bidding pool
+	- Interruptible loads for the purpose of providing response to spinning reserves
+

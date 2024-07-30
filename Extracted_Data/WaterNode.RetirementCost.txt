@@ -1,0 +1,15 @@
+Header: Water Node Retirement Cost
+
+Table Details:
+Units:	$000
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Cost of retiring the water node
+
+Paragraphs:
+Water Node Retirement Cost is Cost of retiring the water node.
+Lists:
+

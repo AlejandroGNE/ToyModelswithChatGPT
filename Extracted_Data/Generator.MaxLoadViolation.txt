@@ -1,0 +1,15 @@
+Header: Generator Max Load Violation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Violation of [Max Load] constraint.
+
+Paragraphs:
+Generator Max Load Violation is the violation of the [Max Load] constraint.
+Lists:
+

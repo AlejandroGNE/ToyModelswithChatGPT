@@ -1,0 +1,11 @@
+Header: Water Demand Water Nodes
+
+Table Details:
+Required Members:	1
+Maximum Members:	unbounded
+Description:	set of Water Nodes the Water Demand occurs at
+
+Paragraphs:
+Water Demand Water Nodes is Water Nodes the Water Demand connects to.
+Lists:
+

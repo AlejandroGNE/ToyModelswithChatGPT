@@ -1,0 +1,20 @@
+Header: Power2X VO&M Charge
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Variable operation and maintenance charge
+
+Paragraphs:
+Power2X VO&M Charge is the
+          variable operation and maintenance charge, which is paid for every
+          unit of electric load drawn.
+
+See also:
+Lists:
+	- Facility VO&M Charge
+

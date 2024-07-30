@@ -1,0 +1,17 @@
+Header: Gas Node Delivered Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Delivered cost of gas at the gas node
+
+Paragraphs:
+Gas Node Delivered Cost is the injection weighted cost of gas delivered at a given gas node. It is calculated by multiplying delivered price by amount of node inflow.
+
+For details on delivered price calculations, refer to the article Citygate Pricing .
+Lists:
+

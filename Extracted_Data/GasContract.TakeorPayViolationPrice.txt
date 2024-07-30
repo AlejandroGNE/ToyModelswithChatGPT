@@ -1,0 +1,15 @@
+Header: Gas Contract Take-or-Pay Violation Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Penalty price on the take violation for a Take or Pay contract
+
+Paragraphs:
+Gas Contract Take-or-Pay Violation Price is a Penalty price on the take violation for a Take or Pay contract.
+Lists:
+

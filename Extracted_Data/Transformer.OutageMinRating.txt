@@ -1,0 +1,15 @@
+Header: Transformer Outage Min Rating
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Transformer rating in the counter-reference direction during outage
+
+Paragraphs:
+Transformer Outage Min Rating is the minimum flow on the transformer in the outage state. The maximum flow is given by Outage Max Rating .
+Lists:
+

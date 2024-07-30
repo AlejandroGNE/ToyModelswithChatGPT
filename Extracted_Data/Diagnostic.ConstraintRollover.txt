@@ -1,0 +1,12 @@
+Header: Diagnostic Constraint Rollover
+
+Table Details:
+Units:	Yes/No
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Description:	Write diagnostics for constraint RHS carry-over in ST Schedule
+
+Paragraphs:
+This option produces a diagnostic file in XML format that lists the roll-over of inter-temporal constraints that span multiple ST Schedule steps.
+Lists:
+

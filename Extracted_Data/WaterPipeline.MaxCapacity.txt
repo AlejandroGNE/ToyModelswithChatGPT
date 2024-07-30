@@ -1,0 +1,15 @@
+Header: Water Pipeline Max Capacity
+
+Table Details:
+Units:	m³/day (Metric), gal./day (U.S. Imperial)
+Mode:	Input Only
+Multi-band:	False
+Default Value:	1E+30
+Validation Rule:	≥0
+Key Property:	No
+Description:	Maximum flow rate on the water pipeline
+
+Paragraphs:
+Water Pipeline Max Capacity is Maximum flow rate on the water pipeline.
+Lists:
+

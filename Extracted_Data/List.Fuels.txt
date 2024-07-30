@@ -1,0 +1,11 @@
+Header: List Fuels
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Fuel objects in the List
+
+Paragraphs:
+List Fuels is set of Main Fuel objects in the List.
+Lists:
+

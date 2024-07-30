@@ -1,0 +1,32 @@
+Header: Licensing: About
+
+Table Details:
+
+Paragraphs:
+How it works When you start PLEXOS or associated application, a request is made for a license for that product. If a license is available for your machine, you will be granted the license, and you will be able to use the application. If however there are no licenses available, you will be denied access to the application, and the application will not be allowed to continue. For a better understanding of how the licensing model works, please refer to the diagram below. Licensing Request Flow Chart Next Choosing a Licensing Model About the License File Licensing Main Menu
+
+When you start PLEXOS or associated application, a request is made for a license for that product. If a license is available for your machine, you will be granted the license, and you will be able to use the application. If however there are no licenses available, you will be denied access to the application, and the application will not be allowed to continue. For a better understanding of how the licensing model works, please refer to the diagram below. Licensing Request Flow Chart Next Choosing a Licensing Model About the License File Licensing Main Menu
+
+When you start PLEXOS or associated application, a request is made for a license for that product. If a license is available for your machine, you will be granted the license, and you will be able to use the application.
+
+If however there are no licenses available, you will be denied access to the application, and the application will not be allowed to continue.
+
+For a better understanding of how the licensing model works, please refer to the diagram below.
+
+Licensing Request Flow Chart Next Choosing a Licensing Model About the License File Licensing Main Menu
+
+Next Choosing a Licensing Model About the License File Licensing Main Menu
+
+Next Choosing a Licensing Model About the License File Licensing Main Menu
+
+Choosing a Licensing Model About the License File Licensing Main Menu
+Lists:
+	- Choosing a Licensing Model
+	- About the License File
+	- Licensing Main Menu
+
+
+H2s:
+How it works
+Licensing Request Flow Chart
+Next

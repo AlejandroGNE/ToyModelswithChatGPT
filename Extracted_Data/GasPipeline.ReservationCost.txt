@@ -1,0 +1,15 @@
+Header: Gas Pipeline Reservation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Gas pipeline reservation cost
+
+Paragraphs:
+Gas Pipeline Reservation Cost is the total cost a pipeline must pay for the volume it has reserved, and is defined as:
+Lists:
+

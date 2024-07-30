@@ -1,0 +1,15 @@
+Header: Objective Relative Tolerance
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Between 0 And 1
+Key Property:	No
+Description:	Allowable relative degradation for the objective when doing hierarchical multi-objective optimization for MIP models
+
+Paragraphs:
+Objective Relative Tolerance is Allowable relative degradation for the objective when doing hierarchical multi-objective optimization for MIP models.
+Lists:
+

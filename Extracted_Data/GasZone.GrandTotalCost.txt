@@ -1,0 +1,16 @@
+Header: Gas Zone Grand Total Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Equal to Total Fixed Cost + Total Variable Costs (Total Variable Cost Includes penalty costs)
+
+Paragraphs:
+Gas Zone Grand Total Cost is the Grand Total Cost for gas in the entire model including penalty costs. Please note that emission costs are treated as penalty costs for not meeting the emission standards.
+          Hence,Grand Total cost includes any Gas Node emission costs along with other cost components.
+Lists:
+

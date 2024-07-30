@@ -1,0 +1,90 @@
+Header: Getting Started With PLEXOS Connect
+
+Table Details:
+
+Paragraphs:
+To install the PLEXOS Connect Server or PLEXOS Connect Client, you will need to download and run the relevant PLEXOS Connect installer. The installers can be downloaded from our client area: http://energyexemplar.com/clientarea/?view=downloads After downloading the installer, run the installer and follow the steps to install PLEXOS Connect. During the installation process, you will be asked for the credentials of a local Windows account (Figure 3.1 and Figure 3.2), this is required for the PLEXOS Connect Windows service. When configuring PLEXOS Connect through its user interface (see section 5 and section 6), you will need to be using the same Windows account that the PLEXOS Connect Windows service is configured here with.
+
+After PLEXOS Connect has been installed, you will need to initialise license and configure PLEXOS Connect Server or Client (see section 5 or section 6 ) by running PLEXOS Connect application from desktop shortcut or from the program menu (Energy Exemplar > PLEXOS Connect > 'PLEXOS Connect Server' or 'PLEXOS Connect Client'). Once configured, PLEXOS Connect Server will start automatically as a Windows service when the system boots.
+
+Note: PLEXOS Connect Server interface can only be ran from the account the service logs on as.
+
+After entering your Windows account, you may be prompted with a message asking to grant logon as service rights (Figure 3.3). This permission is required to allow Windows services (such as the PLEXOS Connect service) to run with the login of the specified account.
+
+This section contains some information about common problems that could occur while opening the PLEXOS Connect Server or Connect Client user interface.
+
+The error "PLEXOS Connect can only be configured from the account the service runs as" occurs when the PLEXOS Connect service has either:
+
+To upgrade PLEXOS Connect Server, PLEXOS Connect Client or PLEXOS Launch Control, you will need to download and run the relevant PLEXOS Connect installer. The installers can be downloaded from our client area http://energyexemplar.com/clientarea/?view=downloads . You do not need to upgrade all components at the same time, Connect 2 is backwards and forwards compatible with other Connect 2 versions. Prior to installing the new version, you will need to uninstall the old version of Connect, this can be done by opening the Control Panel in Windows and selecting 'Uninstall a Program' or 'Programs and Features'. Then uninstall either 'PLEXOS Connect Server', 'PLEXOS Connect Client' or 'PLEXOS Launch Control' depending on which you wish to upgrade. Once the old version has finished uninstalling, you are now able to follow the install steps list in the section 1 for Connect Server or Connect Client and section 9 for Launch Control. Finally, after you have installed the new version, PLEXOS Connect Client and PLEXOS Launch Control will be ready for use. PLEXOS Connect Server has an automated upgrade step which is performed when starting for the first time. This final step does not require any user interaction as the Connect Server is performing any required changes to its internal database (the database is stored in the Connect data path described in section 5 ).
+
+Note: Once a Connect database has been upgraded, you are unable to use an older version of Connect Server with that database.
+
+To move the PLEXOS Connect Server to another machine or change storage locations, you will first need to stop the Connect Server by pressing the 'Stop' button on the Connect Server application. Once the PLEXOS Connect Server has stopped, please follow these steps to move the Connect Server database:
+
+Note: If the Connect Server's IP address or hostname change, then Connect Clients may no longer be able to connect and will need to be removed from the Connect Client and Launch Control before being re-added.
+
+You will be presented with the graphical user interface (Figure 3.4) as shown below when you first launch the PLEXOS Connect Server application.
+
+Firstly, you will need to select a location where PLEXOS Connect Server should store all its data. Click on the browse button (...) to select a location. PLEXOS Connect Server will now request for a PLEXOS Connect license while initializing the selected path. A license wizard will help you setup the license if no license has been setup. You will be asked to create an account with administrator privileges (Figure 3.2) when the selected path has been setup. You can use this account to log on to PLEXOS Connect Server via PLEXOS Launch Control (in section 8 ).
+
+Now with the PLEXOS Connect Server application (Figure 3.4) you can now configure the TCP communication port for PLEXOS Connect Server. The default port is 8888. When you have finished with the configuration, click the 'Start' button on the PLEXOS Connect Server application for PLEXOS Connect Server Windows Service to begin.
+
+To install PLEXOS Connect Client, you will need to run the PLEXOS Connect Client installer. The installer can be downloaded from our client area: http://energyexemplar.com/clientarea/?view=downloads Run the installer and follow the steps to install the PLEXOS Connect Client. A windows service for PLEXOS Connect Client will be installed as part of the installation. Note that, similar to PLEXOS Connect Server, you will be asked for your credentials for a Windows account. The windows service for PLEXOS Connect Client will log on as the account every time it is started. After the PLEXOS Connect Client has been installed, you will need to configure PLEXOS Connect Client (see section 6.1 ) by running PLEXOS Connect Client from desktop or from the program menu (Energy Exemplar > PLEXOS Connect > PLEXOS Connect Client). Once configured, PLEXOS Connect Client will start automatically as a Windows service when the system boots.
+
+Note: PLEXOS Connect Server interface can only be ran from the account the service logs on as
+
+You will be presented with the graphical user interface (Figure 3.3) as shown below when you first launch the PLEXOS Connect Client application.
+
+A current license will be requested when the PLEXOS Connect Client application is loaded. If no license has been setup, a license wizard will help you setup the license. Please setup the license required for performing PLEXOS simulations on the machine. You will need to create a connection to a PLEXOS Connect Server for the PLEXOS Connect Client. By creating a connection, you will add a client to the specified PLEXOS Connect system. Click on the add button to add a client to a PLEXOS Connect Server.
+
+To create a new connection, you will need to enter the PLEXOS Connect Server host name and the TCP communication port configured (default is 8888) into the new connection dialog box (Figure 3.4). You will also need to enter a name for the client, usually the computer name. Note that you will not be able to use a client name that already exists on the PLEXOS Connect system. A PLEXOS Connect Client can have multiple connections which means it can run multiple jobs simultaneously. For example, a computer with an 8-core processor and 8 GB RAM might be suitable for running up to four jobs of average size at a time. In this case you can add the connection to the server four times with different names e.g. "PC1_1", "PC1_2", etc.
+
+After entering the details for the Connect Server and given the connection a name, you will need to login to Connect. This is the same account as what you'd use to log into Launch Control and is needed to authorise this Connect Client for use in the Connect System. The account you enter will need to have the permission level 'Execute' or higher. Once you are ready, click the 'Start' button on the PLEXOS Connect Client application for PLEXOS Connect Client Windows Service to begin.
+
+The Connect Client on Linux based machines is a command prompt only interface and only has a single executable. You do not need to install this program, but the installation directory is considered the path where the Connect files are extracted to (look for the folder containing 'connect.client.exe'). To run this program, you will need to specify some arguments, these arguments instruct the client which Connect Server to connect to and what name to use. The Connect Server will also need a Linux version of the PLEXOS Engine to be uploaded to it, please note that Windows Connect Clients cannot run Linux Engines and the Linux Connect Client cannot use Windows PLEXOS Engines. The arguments that the Connect Client can use:
+
+Connect Client on Linux requires mono to be installed (v3.0.3 or newer, packages mono-complete and mono-vbnc), to install this please see Mono's installation help page: http://www.mono-project.com/docs/getting-started/install/linux/ To start, you will need to execute 'mono connect.client.exe' and pass at minimum the details of the Connect Server and a name. An example of this is: mono <install_dir>/connect.client.exe -s 192.168.0.10 -n LinuxClient The PLEXOS Engine on Linux requires a license server to operate due to local and USB licenses not being supported. When the Connect Client starts, it will ensure the license settings file exists (located at $HOME/.config/PLEXOS/EE_reg.xml) and will give a warning if it is set to a license type other than 'server'. If this file does not exist, the Connect Client will populate it with the details for the Connect Server you specified in the '-server' or the '-license-server' argument. The arguments '-license-server' and '-license-port' are optional parameters that have no effect on the Connect Client itself but instead are saved for use by the PLEXOS Engine. These parameters are used during start up to set the license settings file with the details of the license server you provide. The PLEXOS Engine may require additional setup, you will need to refer to the PLEXOS - Linux Install guide. The Connect Client on Linux does support auto start up during system power on, to enable this please check the settings for your distribution of Linux.
+
+Note that PLEXOS Launch Control can be launched from PLEXOS Desktop Edition (see Using PLEXOS Integrated Energy Model ). Alternatively, to install PLEXOS Launch Control, you will need to run the PLEXOS Launch Control installer. The installer can be downloaded from: http://energyexemplar.com/clientarea/?view=downloads . Run the installer and follow the steps to install the PLEXOS Launch Control. Once installed, you can start PLEXOS Launch Control application from desktop or from all programs menu in start menu (Energy Exemplar > PLEXOS Connect > PLEXOS Launch Control).
+
+When PLEXOS Launch Control application starts, you need to log on to a PLEXOS Connect Server with a valid account via the log on dialog box which will be shown automatically.
+
+The following details are required by the log on form to log on:
+
+You will be able to start using the application (see PLEXOS Launch Control User Interface ) once you have successfully logged on. You can connect to multiple PLEXOS Connect Servers with PLEXOS Launch Control. Click on the computers icon to setup multiple connections.
+
+Integrated into the PLEXOS Connect Server is the PLEXOS License Server, whilst they are integrated into the same application, you will need to connect to them separately. On the PLEXOS Connect Server window (see 'How do I configure PLEXOS Connect Server?' on this page) is the port number for Connect, this will allow you to connect to the Server using either the PLEXOS Connect Client or PLEXOS Launch Control. The license server uses a separate port for its communication that is displayed in the license control panel (see License Server Interface ), you will need to use this port number in PLEXOS products that require connecting to a license server.
+
+PLEXOS Connect Server, Connect Client and Launch Control have 2 environment variables that can be set in Windows to adjust the behaviour of the temporary files. PLEXOS Connect supports 'PLEXOS_TEMP' and 'MAX_TEMP_FILE_AGE', these variables allow you to set where the temporary files are stored and how long to keep the files before automatic deletion. More information about these variables can be found in the Advanced Settings .
+Lists:
+	- Navigate to the data folder that would have been previously configured in the section 5 .
+	- Copy the data folder, this folder should contain the file 'connect.db'.
+	- Navigate to where you would like the data folder to be located.
+	- Paste the folder in the new location, if this is a different machine you may need an external storage location to copy between each machine.
+	- Open the Connect Server application and follow the steps in section 5 to configure the Connect Server to use the new location.
+	- Server The PLEXOS Connect Server host name/IP address. The TCP communication port configured on the PLEXOS Connect Server (default is 8888).
+	- The PLEXOS Connect Server host name/IP address.
+	- The TCP communication port configured on the PLEXOS Connect Server (default is 8888).
+	- Username - The account username.
+	- Password - The account password.
+	- Remember - You can choose to remember the log on details by checking this checkbox. By remembering the details, PLEXOS Launch Control will automatically log on when launched.
+	- The PLEXOS Connect Server host name/IP address.
+	- The TCP communication port configured on the PLEXOS Connect Server (default is 8888).
+
+
+H2s:
+1. How do I Install PLEXOS Connect Server or Connect Client?
+2. Problems Starting PLEXOS Connect Server or Connect Client?
+3. How do I Upgrade PLEXOS Connect?
+4. How do I Migrate the PLEXOS Connect Server?
+5. How do I Configure PLEXOS Connect Server?
+6. How do I Install PLEXOS Connect Client?
+7. How do I Install PLEXOS Launch Control?
+8. How do I Log on With PLEXOS Launch Control?
+9. How do I Connect to the Integrated License Server?
+10. How do I Configure Environment Variables?
+
+H3s:
+2.1. "PLEXOS Connect can only be configure from..."
+6.1. How do I Configure PLEXOS Connect Client on Windows?
+6.2. How do I Configure PLEXOS Connect Client on Linux?

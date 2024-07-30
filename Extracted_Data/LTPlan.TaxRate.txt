@@ -1,0 +1,19 @@
+Header: LT Plan Tax Rate
+
+Table Details:
+Units:	%
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Tax rate used to compute tax credits
+
+Paragraphs:
+LT Plan Tax Rate sets the tax rate
+          when considering depreciation and tax benefits of capacity expansion
+          projects.
+
+See also:
+Lists:
+	- Capacity Expansion Planning
+	- Facility WACC
+	- Generator WACC
+

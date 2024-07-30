@@ -1,0 +1,10 @@
+Header: LP Files
+
+Table Details:
+
+Paragraphs:
+LP files may be output by a simulation and will be located in the Solution folder. These can be loaded into PLEXOS for auditing. The PLEXOS LP file viewer provides a convenient search facility for objects referenced in the file, allowing you to identify which expressions a particular object participates in.
+
+Selecting an object from the tree will highlight all occurrences of that object. Using the Previous and Next buttons on the Ribbon, you can navigate between expressions which refer to the object. For a particular object in the tree, a new "filtered" version of the document can be created in a new tab. The filtered version includes only those expressions in which the object appears. Under Regular Expression search, a regular expression can produce a list of matches in the file. Clicking on a match will navigate to that point in the file. Creating a filtered document from a list of matches creates a new tab in which the only expressions that appear are those which contain one or more of the matches found.
+Lists:
+

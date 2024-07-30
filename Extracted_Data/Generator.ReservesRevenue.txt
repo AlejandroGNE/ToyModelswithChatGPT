@@ -1,0 +1,15 @@
+Header: Generator Reserves Revenue
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Revenue from provision of reserves
+
+Paragraphs:
+Generator Reserves Revenue is the revenue earned from providing Reserves and defined as:
+Lists:
+

@@ -1,0 +1,17 @@
+Header: Physical Contract Bid Price
+
+Table Details:
+Units:	$/MWh
+Mode:	Input Only
+Multi-band:	True
+Default Value:	-10000
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Value of energy in band
+
+Paragraphs:
+Physical Contract Bid Price defines the price part of the contracts load bid.
+
+See also Bid Quantity
+Lists:
+

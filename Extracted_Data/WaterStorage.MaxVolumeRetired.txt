@@ -1,0 +1,18 @@
+Header: Water Storage Max Volume Retired
+
+Table Details:
+Units:	m³ (Metric), gal. (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Amount of reduction in Water Storage Max Volume
+
+Paragraphs:
+Water Storage Max Volume Retired reports the amount of reduction in Water Storage Max Volume as a result of the LT Plan Capacity Expansion.
+
+See also:
+Lists:
+	- Water Storage Max Volume Built
+

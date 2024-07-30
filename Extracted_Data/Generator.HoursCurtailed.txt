@@ -1,0 +1,19 @@
+Header: Generator Hours Curtailed
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours that non-positive-priced generation has been curtailed.
+
+Paragraphs:
+Generator Hours Curtailed is the number of hours that No Cost Capacity has been curtailed.
+
+See also:
+Lists:
+	- Generator Capacity Curtailed
+	- Generator Curtailment Factor
+

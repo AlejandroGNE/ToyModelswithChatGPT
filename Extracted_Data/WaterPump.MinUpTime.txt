@@ -1,0 +1,27 @@
+Header: Water Pump Min Up Time
+
+Table Details:
+Units:	h
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Minimum number of hours a pump must be run after being started
+
+Paragraphs:
+Water Pump Min Up Time is the
+          minimum number of hours a unit can be on in any commitment cycle. 
+          Min Up Time is a static property. If it is
+          defined dynamically (varying according to different periods), the
+          maximum value will be used.
+
+See also:
+Lists:
+	- Water Pump Min
+              Down Time
+	- Water Pump Max
+              Down Time
+	- Water Pump Max
+              Up Time
+

@@ -1,0 +1,15 @@
+Header: Market Is Forward
+
+Table Details:
+Units:	Yes/No
+Mode:	Input Only
+Multi-band:	False
+Default Value:	False (0)
+Validation Rule:	False (0) or True (-1)
+Key Property:	No
+Description:	Flag if the market is a 'forward' market versus a 'real-time' market.
+
+Paragraphs:
+Indicates if the market is a forward market (true) or a real-time market (false). The forward markets are solved first, followed by the real-time markets in a two-stage optimization as described in the Market topic.
+Lists:
+

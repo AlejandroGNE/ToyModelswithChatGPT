@@ -1,0 +1,15 @@
+Header: Line Resistance
+
+Table Details:
+Units:	pu
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	A measure of the line's opposition to the flow of electric charge
+
+Paragraphs:
+Line Resistance is calculated as: Resistance (pu) = Resistance (actual) x MVA Base . It is used to determine the loss in the line: Loss = (Resistance / MVA Base) x (Flow) ².Note that resistance with negative value will be considered as zero. In addition, if the [Resistance/MVA Base] < 0.000001 , loss will be considered as negligible and will not be modeled for this line.
+Lists:
+

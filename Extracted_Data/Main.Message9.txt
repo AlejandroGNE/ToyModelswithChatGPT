@@ -1,0 +1,17 @@
+Header: Message 9
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Transmission SCUC Enabled selected but no Contingency objects are defined.
+
+Paragraphs:
+Message 9 occurs in the following circumstances:
+
+The SCUC algorithm only applies when contingencies are defined. These are defined with Contingency objects.
+
+To avoid this message, either turn off the SCUC Enabled setting or define Contingency objects.
+Lists:
+	- Transmission SCUC Enabled is selected
+	- There are no Contingency objects are defined in the database.
+

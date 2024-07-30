@@ -1,0 +1,15 @@
+Header: Waterway Initial Flow
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	≥0
+Key Property:	No
+Description:	Initial flow on the waterway for use in enforcing first period ramp constraint.
+
+Paragraphs:
+Waterway Initial Flow is initial (t=0) flow on the waterway for use in enforcing first period Max Ramp constraint.
+Lists:
+

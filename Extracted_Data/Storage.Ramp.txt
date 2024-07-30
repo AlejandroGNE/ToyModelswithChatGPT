@@ -1,0 +1,25 @@
+Header: Storage Ramp
+
+Table Details:
+Units:	GWh
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Change in storage end volume.
+
+Paragraphs:
+Storage Ramp is change in storage end volume. This is simply defined as:
+
+This value may be positive (increase) or negative (decrease) in volume.
+
+You can limit the ramp using the Storage Max Ramp property or by using the Constraint Storages Ramp Coefficient term.
+
+See also:
+Lists:
+	- Storage Ramp Price
+	- Storage Hours of Ramp Violation
+	- Storage Ramp Violation
+	- Storage Ramp Violation Cost
+

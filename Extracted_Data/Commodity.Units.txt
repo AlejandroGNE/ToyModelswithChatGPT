@@ -1,0 +1,24 @@
+Header: Commodity Units
+
+Table Details:
+Units:	-
+Mode:	Input/Output
+Multi-band:	False
+Default Value:	1
+Validation Rule:	≥0
+Key Property:	Yes
+Description:	Number of Commodity 'units' where zero switches the Commodity out of the simulation
+
+Paragraphs:
+Commodity Units is the number
+              of 'units' of the Commodity modeled where 0 means the Commodity is
+              excluded from the simulation. Use this property to toggle the
+              Commodity in/out of your simulation by tagging the Units property
+              with a Scenario . Values of Units
+              greater than 1 scale up the storage and constraints related to the
+              Commodity i.e. Max
+                Inventory , Max
+                Consumption , Max
+                Production , etc .
+Lists:
+

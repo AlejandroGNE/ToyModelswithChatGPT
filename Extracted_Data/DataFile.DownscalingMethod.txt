@@ -1,0 +1,18 @@
+Header: Data File Downscaling Method
+
+Table Details:
+Units:	-
+Default Value:	-1
+Validation Rule:	In (-1,0,1,2,3,4)
+Description:	Method used to downscale data e.g. from 5-minute to hourly resolution.
+
+Paragraphs:
+Data File Downscaling Method is
+          the method used to downscale data e.g. from 5-minute to
+          hourly resolution. The setting can take the following values:
+
+See also:
+Lists:
+	- Data File Upscaling
+              Method
+

@@ -1,0 +1,11 @@
+Header: Message 3112
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	DATETIME field cannot be combined with YEAR, MONTH, DAY, or PERIOD. File <name>.
+
+Paragraphs:
+Message 3112 occurs in the following circumstances:
+Lists:
+

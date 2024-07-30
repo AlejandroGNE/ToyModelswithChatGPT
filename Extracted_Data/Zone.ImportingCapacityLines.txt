@@ -1,0 +1,11 @@
+Header: Zone Importing Capacity Lines
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Zone Importing Capacity Lines is [description]
+Lists:
+

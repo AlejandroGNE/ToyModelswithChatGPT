@@ -1,0 +1,55 @@
+Header: Fuel Unit
+
+Table Details:
+Units:	-
+Default Value:	0
+Validation Rule:	Any Value
+Description:	Unit the fuel is measured in
+Property type	Metric	Imperial US
+Fuel consumption by period	giga-Joule (GJ)	million British Thermal Units (MMBtu)
+Fuel price	$/GJ	$/MMBtu
+Fuel consumption in summary periods	tera-Joule (TJ)	billion British Thermal Units (BBTU)
+Fuel	Unit	Energy Density ( MJ )
+Biomass	kg	16
+Coal	t	24000
+Gas	-	0
+Oil	bbl	0
+Fuel	Property	Value	Data File	Units
+Biomass	Price	0.5		$/kg
+Coal	Price	150		$/t
+Gas	Price	8		$/GJ
+Oil	Price	80		$/bbl
+
+Paragraphs:
+Fuel Unit sets the unit that applies to
+          the input properties such as Price , Max Offtake , etc.
+
+If the Fuel Unit is not set ,
+          the default unit is read from the settings in the Units of Data page
+          of the Settings menu available from the ribbon in the GUI. The default
+          units are:
+
+If Fuel Unit is set, you may select any
+          one of a wide range of supported units. Refer to Commodity Unit for a list of units. Note that
+          only a subset are relevant for Fuel Unit.
+
+Unit works with Energy Density to determine the heat value of the fuel for use in the simulation.
+
+Example
+
+
+
+
+
+In this example:
+Lists:
+	- "Biomass" inputs are in kilograms (kg) and the energy density is
+            16 MJ/kg and the price is $0.5/kg
+	- "Coal" inputs are in tonnes (t) and the energy density is 24,000
+            MJ/t (24 MJ/kg) and the price is $150/t
+	- "Gas" inputs are in the default unit (GJ for metric) and Energy
+            Density is not required to be input (it is 1000 MJ/GJ) and the price
+            is $8/GJ
+	- "Oil" inputs are in bbl (barrels of oil) which has a default
+            energy density of 6118 MJ/bbl and the price is $80/bbl
+

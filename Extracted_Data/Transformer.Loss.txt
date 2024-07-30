@@ -1,0 +1,17 @@
+Header: Transformer Loss
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Losses (sent out)
+
+Paragraphs:
+Transformer Loss is the loss on Flow through the transformer, as defined by Resistance and the style of loss model being used for the Transformer. In most cases the reported Loss is based on the equation:
+
+But if the piecewise linear loss model is used, the loss is reported as the sum of losses in the active flow segments.
+Lists:
+

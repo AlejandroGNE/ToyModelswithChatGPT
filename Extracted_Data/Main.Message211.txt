@@ -1,0 +1,20 @@
+Header: Message 211
+
+Table Details:
+Severity:	Fatal (value = 1)
+Default Action:	Error (value = 0)
+Description:	Failed to repair an infeasible problem. Solution status = <value>.
+
+Paragraphs:
+Message 211 occurs when an attempt to repair an infeasible mathematical programming problem fails. The Feasibility Repair algorithm might fail if:
+
+User-defined Constraint objects are by default allowed to be relaxed, followed by some of the intrinsic elements of the formulation. In general the repair should succeed unless the intrinsic formulation is incorrectly formed. Diagnostics are available by enabling the Diagnostic infeasibilities setting. If you experience an unrepairable problem contact support.
+
+See also:
+Lists:
+	- There is insufficient working memory (RAM) to solve the feasibility repair problem.
+	- There are infeasible intrinsic variable bounds or constraints in the formulation that are not allowed to be relaxed.
+	- Message 210
+	- Message 214
+	- Constraint Feasibility Repair Weight
+

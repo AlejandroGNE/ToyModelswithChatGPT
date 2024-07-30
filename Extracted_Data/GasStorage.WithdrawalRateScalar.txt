@@ -1,0 +1,34 @@
+Header: Gas Storage Withdrawal Rate Scalar
+
+Table Details:
+Units:	%
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Scalar to set the maximum amount of gas that can be withdrawn from the storage
+Property	Value	Units	Band
+Withdrawal Volume	400	TJ	1
+Withdrawal Rate Scalar	50	%	1
+Withdrawal Volume	300	TJ	2
+Withdrawal Rate Scalar	30	%	2
+Withdrawal Volume	300	TJ	3
+Withdrawal Rate Scalar	20	%	3
+Withdrawal Ratchet	100	TJ	1
+
+Paragraphs:
+Gas Storage Withdrawal Rate Scalar scales the Withdrawal Ratchet to set an upper bound on the maximum amount of gas that can be withdrawn from the storage within a particular time period and band. This value corresponds with the Withdrawal Volume (or Withdrawal Volume Factor if using percentage based ratchets) for the given band.
+
+When Use Additive Ratchet is Yes, the input is incremental, starting from the last band to the first. For example:
+
+In this case, band 1, which has a volume of 400 TJ, can be withdrawn from at a rate of (0.5 + 0.3 + 0.2) * 100 TJ per time period. Band 2, which has a volume of 300 TJ, can be withdrawn from at a rate of (0.3 + 0.2) * 100 TJ per time period, after band 1 has been depleted. Lastly, band 3, which has a volume of 300 TJ, can be withdrawn from at a rate of 0.2 * 100 TJ per time period, after bands 1 and 2 have been depleted.
+
+See also:
+Lists:
+	- Gas Storage Withdrawal Volume
+	- Gas Storage Injection Volume
+	- Gas Storage Injection Rate Scalar
+	- Gas Storage Injection Ratchet
+	- Gas Storage Withdrawal Ratchet
+

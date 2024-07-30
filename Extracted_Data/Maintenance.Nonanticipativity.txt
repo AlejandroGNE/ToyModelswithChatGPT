@@ -1,0 +1,15 @@
+Header: Maintenance Non-anticipativity
+
+Table Details:
+Units:	$
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Price for violating non-anticipativity constraints in scenario-wise decomposition mode
+
+Paragraphs:
+Maintenance Non-anticipativity is price for violating non-anticipativity constraints in scenario-wise decomposition mode.
+Lists:
+

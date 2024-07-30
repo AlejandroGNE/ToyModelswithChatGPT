@@ -1,0 +1,15 @@
+Header: Line Violation Back Hours
+
+Table Details:
+Units:	h
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Number of hours the flow limit is violated in the counter-reference direction.
+
+Paragraphs:
+Line Violation Back Hours is the number of hours the flow limit is violated in the counter-reference direction..
+Lists:
+

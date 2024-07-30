@@ -1,0 +1,18 @@
+Header: Gas Storage Withdrawal Charge
+
+Table Details:
+Units:	$/~
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Incremental cost of withdrawing gas from the storage
+
+Paragraphs:
+Gas Storage Withdrawal Charge is the incremental cost of Withdrawal out of the storage. Input with a single band applies to any volume of storage. Multi-banded inputs work in conjuction with the Injection Withdrawal Charge Level input bands. This cost is reported as the Withdrawal Cost property.
+
+See also:
+Lists:
+	- Gas Storage Injection Charge
+

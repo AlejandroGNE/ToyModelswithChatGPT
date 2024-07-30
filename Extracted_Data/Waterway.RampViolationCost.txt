@@ -1,0 +1,20 @@
+Header: Waterway Ramp Violation Cost
+
+Table Details:
+Units:	$
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Cost of [Max Ramp] constraint violations.
+
+Paragraphs:
+Waterway Ramp Violation Cost is the cost of Max Ramp constraint violations.
+
+See also:
+Lists:
+	- Waterway Max Ramp Penalty
+	- Waterway Hours of Ramp Violation
+	- Waterway Ramp Violation
+

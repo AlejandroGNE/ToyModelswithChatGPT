@@ -1,0 +1,11 @@
+Header: Message 166
+
+Table Details:
+Severity:	Moderate (value = 3)
+Default Action:	Warn (value = 1)
+Description:	Power Station <name> only has <value> of <value> units that define [<value>].
+
+Paragraphs:
+Message 166 occurs in the following circumstances:
+Lists:
+

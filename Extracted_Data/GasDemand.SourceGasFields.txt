@@ -1,0 +1,11 @@
+Header: Gas Demand Source Gas Fields
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	
+
+Paragraphs:
+Gas Demand has Source Gas Fields which deliver gas to the Gas Demand.
+Lists:
+

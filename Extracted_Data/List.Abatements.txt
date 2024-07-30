@@ -1,0 +1,11 @@
+Header: List Abatements
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of Abatement objects in the List
+
+Paragraphs:
+List Abatements is set of Abatement objects in the List.
+Lists:
+

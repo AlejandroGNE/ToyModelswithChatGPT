@@ -1,0 +1,11 @@
+Header: Reserve Line Contingencies
+
+Table Details:
+Required Members:	0
+Maximum Members:	unbounded
+Description:	set of lines that are contingencies
+
+Paragraphs:
+Reserve Line Contingencies is the set of lines whose Flow is a contingency and thus can set a requirement (or Risk ) for the Reserve . The risk from the flows is determined by the properties Flow Forward Coefficient and Flow Back Coefficient , and only considered if the Dynamic Risk setting is 'on'.
+Lists:
+

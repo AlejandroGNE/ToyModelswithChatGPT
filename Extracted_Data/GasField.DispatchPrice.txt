@@ -1,0 +1,15 @@
+Header: Gas Field Dispatch Price
+
+Table Details:
+Units:	$/GJ (Metric), $/MMBtu (U.S. Imperial)
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Dispatch Price
+
+Paragraphs:
+Gas Field Dispatch Price is the Dispatch Price for a gas field.
+Lists:
+

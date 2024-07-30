@@ -1,0 +1,15 @@
+Header: Pool Generation
+
+Table Details:
+Units:	MW
+Mode:	Output Only
+Multi-band:	False
+Default Value:	
+Validation Rule:	
+Key Property:	No
+Description:	Generation
+
+Paragraphs:
+Pool Generation is the sum of generation across all regions in the Pool.
+Lists:
+

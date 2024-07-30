@@ -1,0 +1,20 @@
+Header: Financial Contract Region Load Participation Factor
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Proportion of region load that is settled in the contract
+LOAD	AREA1	Load Participation Factor	1	MW/MW
+
+Paragraphs:
+Financial Contract Region Load Participation Factor assigns a proportion of the load in the region to the contract.
+
+Example:
+
+Here the contract will pick up all the load from the region and bring it into the contract Settlement Quantity .
+Lists:
+

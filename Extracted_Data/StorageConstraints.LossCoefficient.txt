@@ -1,0 +1,18 @@
+Header: Storage Constraints Loss Coefficient
+
+Table Details:
+Units:	MW
+Mode:	Input Only
+Multi-band:	False
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Coefficient of the loss from the storage.
+
+Paragraphs:
+Storage Constraints Loss Coefficient is the left-hand side coefficient of Storage Loss in the constraint.
+
+With the coefficient represented by a (i,j) the following
+          term is added to the formulation:
+Lists:
+

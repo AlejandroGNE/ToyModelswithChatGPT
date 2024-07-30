@@ -1,0 +1,15 @@
+Header: Variable Profile Month
+
+Table Details:
+Units:	-
+Mode:	Input Only
+Multi-band:	True
+Default Value:	0
+Validation Rule:	Any Value
+Key Property:	No
+Description:	Sample profile of variable values
+
+Paragraphs:
+Defines the monthly Profile values for a Variable .
+Lists:
+
