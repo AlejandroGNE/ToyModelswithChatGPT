@@ -19,6 +19,10 @@ Install the following dependencies
     pip install llama-index
     pip install llama-index-llms-ollama
     pip install llama_index.embeddings.huggingface
+Note: if you are using windows you have to do this extra step:
+    
+    pip uninstall torch
+    pip install torch==2.2
 
 The RAG.py has two functions 
 
